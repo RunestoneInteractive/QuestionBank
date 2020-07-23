@@ -1,0 +1,26 @@
+.. actex:: ac21_6_16
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/Exercises
+   :from_source: T
+
+   Use zip and map or a list comprehension to make a list consisting the maximum value for each position. For L1, L2, and L3, you would end up with a list [4, 5, 3, 5].
+   ~~~~
+
+   L1 = [1, 2, 3, 4]
+   L2 = [4, 3, 2, 3]
+   L3 = [0, 5, 0, 5]
+
+   maxs = []
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(maxs, [4, 5, 3, 5], "Testing whether maxs has been correctly defined.")
+
+   myTests().main()

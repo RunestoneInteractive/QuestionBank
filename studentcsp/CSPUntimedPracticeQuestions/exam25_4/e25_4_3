@@ -1,0 +1,18 @@
+.. mchoice:: e25_4_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: Instructions may involve variables which may change or be output from the program.
+   :answer_b: Instructions are processed sequentially.
+   :answer_c: A program always has a return value.
+   :answer_d: A program automates processes in a computer.
+   :correct: c
+   :feedback_a: Incorrect. A program can have variables which may be changed or be output by the program.
+   :feedback_b: Incorrect. Code in a program is read sequentially line by line.
+   :feedback_c: Correct. A return value is not a necessity for a program.
+   :feedback_d: Incorrect. A program is an automated process that runs on a computer.
+
+   Which of the following is NOT true about a program?
+

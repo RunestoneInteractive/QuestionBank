@@ -1,0 +1,27 @@
+.. parsonsprob:: midtermBS-Dict
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+   :adaptive:
+   :numbered: left
+   
+   Put the code in order to define a function that takes a soup object and a target class name and returns a dictionary for the links with the target class.  The dictionary keys are the link text and the values are the urls.
+   -----
+   def get_dict(soup, target_class):
+   =====
+       linkDict = {}
+   =====
+       links = soup.find_all('a', class_=target_class)
+   =====
+       links = soup.find_all('a', class=target_class) #distractor
+   =====
+       for link in links:
+   =====
+           linkDict[link.text] = link.get('href', None)
+   =====
+           linkDict[link.text] = link['href'] #distractor
+   =====
+       return linkDict
+  

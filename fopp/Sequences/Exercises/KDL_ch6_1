@@ -1,0 +1,25 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+.. activecode:: KDL_ch6_1
+   :autograde: unittest
+   :language: python
+
+   
+
+   Store the names of 5 of your ``friends`` in a list. Access the 3rd element in the list and print it in a sentence.
+   ~~~~
+   
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(len(friends),5,feedback="Correct length for friends")
+           self.assertIn('friends[2]', self.getEditorText(), 'Contains correct command')
+           self.assertTrue(re.search(str(friends[2])[:2], self.getOutput()), 'Checking sentence.')
+   myTests().main()    

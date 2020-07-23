@@ -1,0 +1,22 @@
+.. activecode:: 1306_cw1_f19_q2
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [20 pts] Write a Python program that takes the radius of a circle as input and prints out the perimeter and area 
+   of the circle. A user session of the program proceeds as follows:
+
+   ``Program Prompt:`` What is the radius?
+
+   ``User Response:`` 11
+
+   ``Program Prints:`` The perimeter of this circle with a radius of 11 is 69.08.
+   
+   ``Program Prints:`` The area of this circle with a radius of 11 is 379.94.
+
+   [Hints: You can define Pi to be 3.14. Recall that the input statement reads as a string that can be converted to a float]
+
+   ~~~~
+   # Write your program here

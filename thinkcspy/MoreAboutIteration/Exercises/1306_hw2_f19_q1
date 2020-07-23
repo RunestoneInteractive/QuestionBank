@@ -1,0 +1,27 @@
+
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_hw2_f19_q1
+    :language: python
+
+    Write a Python function ``isPrime(number)`` that determines if the number given as an 
+    argument is prime or not. The function will return a Boolean ``True`` or ``False``. Next,
+    write a function ``FindPrimes(P)``, that takes a parameter ``P`` as argument and returns 
+    the number of prime numbers between 1 and P. Test for a maximum value of P = 1000. 
+
+    Hint: The function ``FindPrimes(P)`` can be written with a for loop.
+
+
+
+    ~~~~
+    def isPrimes(number):
+        # your code here
+                
+    def FindPrimes(P):
+        # your code here
+    
+        
+    ====

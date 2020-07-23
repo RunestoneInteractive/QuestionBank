@@ -1,0 +1,19 @@
+.. mchoice:: 1-9-5-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: 25
+   :answer_b: 25.0
+   :answer_c: It will give a run-time error.
+   :answer_d: It will give a compile-time error.
+   :correct: b
+
+   Given the following code segment, what is the value of b when it finishes executing?
+
+   .. code-block:: java
+
+    int a = 25;
+    double b = 5;
+    b = (double) a;

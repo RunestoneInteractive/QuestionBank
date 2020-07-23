@@ -1,0 +1,19 @@
+
+    :author: Scott Hill
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: Hill_examS19_2
+
+    Write a function ``stripbothsides(text)`` which takes in a string, and returns that 
+    string without its first and last characters.
+    ~~~~
+
+    ====
+
+config values (conf.py): 
+
+- activecode_div_class - custom CSS class of the component's outermost div
+- activecode_hide_load_history - if True, hide the load history button
+    

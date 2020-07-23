@@ -1,0 +1,13 @@
+.. actex:: ex_3_13
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: PythonTurtle/Exercises
+   :from_source: None
+   :nocodelens:
+
+   A sprite is a simple spider shaped thing with n legs coming out from a center
+   point. The angle between each leg is 360 / n degrees.
+
+   Write a program to draw a sprite where the number of legs is provided by the user.
+   ~~~~

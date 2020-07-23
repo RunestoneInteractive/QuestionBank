@@ -1,0 +1,23 @@
+.. activecode:: sks_cw4_ex2
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [30 pts] Write a python function "print_pattern(n,m)" that will take two integer values as parameters, n and m, and will print a pattern of n lines with m ‘*’. 
+
+   For example, a call to the function "print_pattern(3,6)" will generate the following pattern:
+
+   ::
+
+   * * * * * *
+   * * * * * *
+   * * * * * *
+
+   Hint: To prevent the print function from breaking a line you can specify the last character to be printed to be a white space as follows: print(‘*’, end = “ “)
+
+   ~~~~
+   # Write your code here
+
+   ====

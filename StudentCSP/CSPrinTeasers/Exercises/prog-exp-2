@@ -1,0 +1,11 @@
+
+    :author: Barbara  Ericson
+    :difficulty: 1.0
+    :basecourse: StudentCSP
+    :topic: CSPrinTeasers/Exercises
+    :from_source: F
+
+.. poll:: prog-exp-2
+    :scale: 10
+
+    Rate your knowledge of Python from 1 (none) to 10 (expert).

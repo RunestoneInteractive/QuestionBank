@@ -1,0 +1,17 @@
+.. mchoice:: 1-9-9-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: 0.222222222222222 (14 - 15 significant digits)
+   :answer_b: It will give a compile-time error.
+   :answer_c: It will give a run-time error.
+   :answer_d: 0
+   :correct: a
+
+   What will the following code print?
+
+   .. code-block:: java
+
+    System.out.println(2.0 / 9);

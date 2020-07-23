@@ -1,0 +1,21 @@
+.. parsonsprob:: cswt2_21
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+
+   21. Put the following instructions in correct order to return the maximum value in a list of positive numbers
+   -----
+   def find_max(numbers):
+   '''Returns the maximum value in numbers; numbers is a list of positive numbers'''
+   =====
+       maxval = -1
+   =====
+       for n in numbers:
+   =====
+           if n > maxval:
+   =====
+               maxval = n
+   =====
+       return maxval

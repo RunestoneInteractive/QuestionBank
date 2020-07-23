@@ -1,0 +1,35 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPWhileAndForLoops/Exercises
+   :from_source: F
+.. parsonsprob:: list_loop_pp1
+   :numbered: left
+
+   Select the code blocks to define a function that returns the sum of the odd numbers in the passed list.
+   -----
+   def total_odd(nums):
+   =====
+   Def total_odd(nums): #paired
+   =====
+      total = 0
+   =====
+      for num in nums:
+   =====
+      for num in nums #paired
+   =====
+          if num % 2 == 1:
+   =====
+          if nums % 2 == 1: #paired
+   =====
+              total = total + num
+   =====
+              total = total + nums #paired
+    =====
+      return total
+    =====
+      ret total #paired
+
+
+    

@@ -1,0 +1,29 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+.. activecode:: KDL_ch2_5
+   :language: python
+   :autograde: unittest
+
+   Write a program to make change for an ``amount_of_money`` from 0 through 99 cents input by the user. The output of the program should show the number of coins from each denomination used to make the change.
+   The program should return the number of ``quarters``, ``dimes``, ``nickles``, and ``pennies``.
+   ~~~~
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(quarters,int(amount_of_money)//25,feedback="The quarters are correct!")
+           self.assertEqual(dimes,int(amount_of_money)%25//10,feedback="The dimes are correct!")
+           self.assertEqual(nickles,int(amount_of_money)%25%10//5,feedback="The nickles are correct!")
+           self.assertEqual(pennies,int(amount_of_money)%25%10%5,feedback="The pennies are correct!")
+           self.assertIn('input(', self.getEditorText(), 'Contains user input')
+           self.assertIn('print(', self.getEditorText(), 'Contains print')
+   myTests().main()  
+    

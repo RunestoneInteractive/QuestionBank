@@ -1,0 +1,12 @@
+.. actex:: SelectionOefening5
+   :author: Gilles Fiers
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+   :nocodelens:
+
+   Schrijf een programma dat de gebruiker een getal vraagt. Je programma geeft weer of dit getal deelbaar is door 3 of 5.
+   ~~~~
+    
+    

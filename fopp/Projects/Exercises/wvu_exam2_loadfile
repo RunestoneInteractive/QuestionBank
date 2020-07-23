@@ -1,0 +1,27 @@
+
+    :author: Brian Powell
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Projects/Exercises
+    :from_source: F
+.. activecode:: wvu_exam2_loadfile
+    :autograde: unittest
+
+    Create a function named **read_file_contents()**. This function should take no parameters.
+
+    The function must open the file so_survey.csv in read access mode. All of the rows in the file after the first (header) row should be read into a list, one row per list element.
+
+    The function must return the list containing the file contents.
+
+    **Note**: We will not be using the so_survey.csv data in this exam, but due to a limitation in Runestone, we cannot read in the correct data from an external file. Calling the **read_file_contents()** function in other code will return the correct data.
+    ~~~~
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual(len(read_file_contents()),2000,"Your function must return a list with 2000 elements")
+
+    myTests().main()
+
+    

@@ -1,0 +1,17 @@
+.. mchoice:: cswq5_4:
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: o&nbsp;&nbsp;&nbsp;o ,
+   :answer_b: o w&nbsp;&nbsp;&nbsp;n o w&nbsp;&nbsp;&nbsp;o w
+   :answer_c: Error
+   :answer_d: b r o w n&nbsp;&nbsp;&nbsp;c o w
+   :correct: a
+   :random:
+
+   4. If s = "How now, brown cow?", what does the following code print?::
+
+      for i in range(1, 9, 2):
+          print(s[i], end = ' ')

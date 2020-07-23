@@ -1,0 +1,41 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPRepeatNumbers/Exercises
+   :from_source: F
+.. parsonsprob:: count_lines-Parsons
+   :numbered: left
+   :adaptive:
+
+   Put the code in order to define a function that returns a 
+   count of the number of lines in the passed file.  It should
+   set a count to 0 and open the file for reading.  Then it should 
+   read a line from the file.  Next, it will loop while there is a valid line.
+   In the loop it will increment the count of lines and read the next line.
+   After the loop it will close the file and return the count.
+   -----
+   def count_lines(file):
+   =====
+       count = 0
+       infile = open(file,"r")
+   =====
+       count = 0
+       infile = open(file,"w") #paired
+   =====
+       line = infile.readline()
+   =====
+       line = infile.readLine() #paired
+   =====
+       while line:
+   =====
+       while line #paired
+   =====
+           count += 1
+           line = infile.readline()
+   =====
+       infile.close()
+   =====
+       return count
+   =====
+       ret count #paired

@@ -1,0 +1,27 @@
+.. actex:: ex_8_6_ccs
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :nocodelens:
+   
+   Write a function that mirrors its string argument, generating a string containing the original string and the string backwards.
+   ~~~~
+   def mirror(mystr):
+       # your code here
+
+   ====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(mirror("good"),"gooddoog","Tested mirror on input of 'good'")
+           self.assertEqual(mirror("Python"),"PythonnohtyP","Tested mirror on input of 'Python'")
+           self.assertEqual(mirror(""),"","Tested mirror on input of ''")
+           self.assertEqual(mirror("a"),"aa","Tested mirror on input of 'a'")
+
+
+   myTests().main()

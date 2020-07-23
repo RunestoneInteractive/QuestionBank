@@ -1,0 +1,17 @@
+.. mchoice:: 14_1_2_goto
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPTurtleDecisions/turtleFP
+   :from_source: T
+   :answer_a: stamp
+   :answer_b: xcor
+   :answer_c: penup
+   :answer_d: goto
+   :correct: d
+   :feedback_a: Use stamp to leave a copy of turtle shape at the current position.
+   :feedback_b: Use xcor to get the x value of the turtle's position.
+   :feedback_c: Use penup to pick up the pen (stop drawing as you move).
+   :feedback_d: Use goto to move to the given x and y position.
+
+   What procedure would you use move the turtle to a given x and y position?

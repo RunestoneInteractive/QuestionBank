@@ -1,0 +1,19 @@
+.. mchoice:: e25_1_7
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: _a1SteakSauce
+  :answer_b: My_name
+  :answer_c: 1more-try
+  :answer_d: LOL
+  :answer_e: alotOfexamStuff
+  :correct: c
+  :feedback_a: Incorrect. Names of variables MUST start with a letter or an underscore (_).
+  :feedback_b: Incorrect. This is a legal variable. It does not start with a number or contain any spaces.
+  :feedback_c: Correct. Legal variable names must start with a letter or underscore, can contain but not start with a digit, and cannot be a Python keyword.
+  :feedback_d: Incorrect. This is a legal variable name.
+  :feedback_e: Incorrect. This is a legal variable.
+
+  Which of the following is *not* a legal variable name?

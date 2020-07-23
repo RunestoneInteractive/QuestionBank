@@ -1,0 +1,57 @@
+.. activecode:: lhs_9_7
+    :author: LHS CS Team
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+
+    Write a function called ``cmpString(string1, string2, caseSensitive)`` which compares two strings.
+    The input parameter ``caseSensitive`` is a boolean. When it is true, the compare will be case
+    sensitive. Otherwise, the upper/lower case of each letter does not matter.
+ 
+    ``cmpString('hi', 'Hi', True)`` is False since the two strings are different
+
+    ``cmpString('hi, 'Hi', False)`` is True since we do not care about the letter case
+
+    The function returns a boolean value of True or False depending on the string compare.
+
+    ~~~~
+    # My Name:
+
+    # cmpString(string1, string2, caseSensitive) function
+
+    # write up any test cases
+    print(cmpString('a', 'A', True))  # should print False
+
+    
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _cmp(self, string1, string2, caseSensitive):
+            if caseSensitive:
+                return(string1 == string2)
+            else:
+                return(string1.lower() == string2.lower())
+                    
+        def testOne(self):
+            print('Auto-testing...')
+            
+            tests = [ ('abcde', 'abcde', True,  "'abcde', 'abcde', True"),
+                      ('ABCDE', 'abcde', False, "'ABCDE', 'abcde', False"),
+                      ('AbCd EfG', 'abcd efg', True, "'AbCd EfG', 'abcd efg', True"),
+                      ('AbCd EfG', 'aBcD eFg', False, "'AbCd EfG', 'aBcD eFg', False") ]
+                    
+            for t in tests:
+                s1 = t[0]
+                s2 = t[1]
+                b = t[2]
+                c = t[3]
+                self.assertEqual(cmpString(s1, s2, b), self._cmp(s1, s2, b), c)
+                
+    myTests().main()
+    

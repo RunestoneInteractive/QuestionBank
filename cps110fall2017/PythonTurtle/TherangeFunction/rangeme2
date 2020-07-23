@@ -1,0 +1,9 @@
+.. codelens:: rangeme2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: PythonTurtle/TherangeFunction
+    :from_source: None
+
+    for i in range(0, 20, 2):
+       print(i)

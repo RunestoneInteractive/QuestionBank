@@ -1,0 +1,20 @@
+.. activecode:: sell_2_moon_sun_weight
+    :author: Stephen Sell
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Input
+    :from_source: F
+
+    #prompt user for their weight on earth - retrieve what user enters - remember input stores strings!!!
+    #enter your code
+
+    #create variable to convert earth weight of user to moon weight
+    #enter code here
+
+    #create variable to convert earth weight of user to sunweight
+    #enter code here
+
+    #display converted values back to user for both moon and sun weights
+    #enter code here
+
+

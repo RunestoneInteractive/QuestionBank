@@ -1,0 +1,12 @@
+
+    :author: Brian Powell
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: wvu_moreiter_forwhile
+
+    Write a for loop to print out the contents of the **majors** list, one at a time. Below it, write a second loop, a while loop, to do the same thing.
+    ~~~~
+    majors = ['Computer Science', 'Electrical Engineering', 'Computer Engineering', 'Cybersecurity', 'Biometric Systems Engineering']
+    ====

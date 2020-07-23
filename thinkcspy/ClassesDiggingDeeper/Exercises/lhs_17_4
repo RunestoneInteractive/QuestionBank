@@ -1,0 +1,86 @@
+.. activecode:: lhs_17_4
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesDiggingDeeper/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a new method in the Rectangle class to test if another Rectangle
+    overlaps with the rectangle.  For this exercise, assume that a rectangle 
+    at (0,0) with width 10 and height 5 has *open* upper bounds on the width and height,
+    i.e. it stretches in the x direction from [0 to 10), where 0 is included
+    but 10 is excluded, and from [0 to 5) in the y direction.  So, another rectangle
+    at ``Rectangle(10, 0), 2, 4)`` would not overlap the ``Rectangle((0, 0), 10, 5)``. 
+
+    As a small sample, your tests should pass ::
+
+        r = Rectangle(Point(0, 0), 10, 5)
+        test.testEqual(rect.overlap(Rectangle(Point(1,1), 20, 20)), True)
+        test.testEqual(rect.overlap(Rectangle(Point(-1,-1), 4, 4)), True)
+        test.testEqual(rect.overlap(Rectangle(Point(10, 0), 2, 2)), False)
+
+    ~~~~
+    import test, math
+    
+    class Point:
+        """ Point class for representing and manipulating x,y coordinates. """
+    
+        # Use your rectangle class from previous exercises
+    
+    
+    class Rectangle:
+        """Rectangle class using Point, width and height"""
+ 
+        # Use your rectangle class from previous exercises
+
+        def overlap(...): 
+            # define overlap method for the rectangle
+    
+    
+    # Example test case
+    rect = Rectangle(Point(0, 0), 10, 5)
+    test.testEqual(rect.overlap(Rectangle(Point(1,1), 20, 20)), True)
+    
+    ====
+
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+            
+            print("Auto-Testing...")
+            r = Rectangle(Point(0, 0), 10, 5)
+            tests = [ 
+                ((Point(1,1), 100, 100), True),  # LB in r
+                ((Point(-1,-1), 3, 4), True),    # RT in r
+                ((Point(5, -2), 10, 4), True),   # LT in r
+                ((Point(-1, 2), 10, 7), True),   # RB in r
+                ((Point(2, 3), 1, 2), True), # new r inside r
+                ((Point(-1,-1), 100, 100), True), # r inside new r
+                ((Point(1, -1), 5, 20), True), # r inside new r
+    
+                ((Point(2, -5), 5, 20), True), # special case
+                ((Point(-1, 1), 10, 4), True), # special case
+    
+                ((Point(10, 0), 2, 2), False), # just to the right
+                ((Point(0, 5), 2, 2), False), #  just above
+                ((Point(-10, 0), 10, 2), False), # just to the left
+                ((Point(0, -5), 10, 5), False), # just below
+                
+                ((Point(2, -5), 5, 20), True), # special case
+                ((Point(-1, 1), 10, 4), True) # special case
+            ]
+            
+            num=0
+            for (t) in tests:
+                rect = Rectangle(t[0][0], t[0][1], t[0][2])
+                self.assertEqual(r.overlap(rect), t[1], 'test case ' + str(num) )
+                num += 1
+                
+    myTests().main()

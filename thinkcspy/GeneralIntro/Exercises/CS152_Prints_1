@@ -1,0 +1,12 @@
+
+    :author: John Cigas
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: CS152_Prints_1
+
+    Change the program so that it prints your name.
+    ~~~~
+    print("Vint Cerf")
+ 

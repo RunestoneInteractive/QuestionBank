@@ -1,0 +1,61 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_cw6_s20_q2
+    :autograde: unittest
+
+    **Question  [40 points]** 
+
+    Write a Python function ``isPrime(number)`` that determines if the integer argument ``number``  is prime or not. The function will return a boolean True or False.
+
+    Next, write a function ``HowManyPrimes(P)``, that takes an integer ``P`` as argument and returns the number of prime numbers whose value is less than  P.
+
+    And then write a function ``HighestPrime(K)`` that takes integer ``K`` as an argument and returns the highest prime that is less than or equal to K.
+
+    
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            
+            self.assertEqual(isPrime(4),False,"isPrime(4) should return False")
+            self.assertEqual(isPrime(17),True,"isPrime(17) should return True")
+            self.assertEqual(isPrime(201),False,"isPrime(201) should return False")
+            self.assertEqual(isPrime(997),True,"isPrime(997) should return True")
+            self.assertEqual(isPrime(-1),False,"isPrime(-1) should return False")
+            self.assertEqual(isPrime(1),False,"isPrime(1) should return False")
+
+            self.assertEqual(HowManyPrimes(10),4,"HowManyPrimes(10) should return 4")
+            self.assertEqual(HowManyPrimes(20),8,"HowManyPrimes(20) should return 8")
+            self.assertEqual(HowManyPrimes(100),25,"HowManyPrimes(100) should return 25")
+            self.assertEqual(HowManyPrimes(1000),168,"HowManyPrimes(1000) should return 168")
+            self.assertEqual(HowManyPrimes(-100),0,"HowManyPrimes(-100) should return 0")
+            self.assertEqual(HowManyPrimes(1),0,"HowManyPrimes(1) should return 0")
+
+            self.assertEqual(HighestPrime(10),7,"HighestPrime(10) should return 7")
+            self.assertEqual(HighestPrime(20),19,"HighestPrime(20) should return 19")
+            self.assertEqual(HighestPrime(100),97,"HighestPrime(100) should return 97")
+            self.assertEqual(HighestPrime(200),199,"HighestPrime(200) should return 199")
+            self.assertEqual(HighestPrime(400),397,"HighestPrime(400) should return 397")
+            self.assertEqual(HighestPrime(1000),997,"HighestPrime(1000) should return 997")
+            self.assertEqual(HighestPrime(1),0,"HighestPrime(1) should return 0")
+            self.assertEqual(HighestPrime(-100),0,"HighestPrime(-100) should return 0")
+
+
+
+    myTests().main()

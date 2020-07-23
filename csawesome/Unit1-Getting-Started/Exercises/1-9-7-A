@@ -1,0 +1,17 @@
+.. mchoice:: 1-9-7-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: It will print 0
+   :answer_b: It will print 100
+   :answer_c: It will give a compile-time error.
+   :answer_d: It will give a run-time error.
+   :correct: d
+
+   What does the following code do when it is executed?
+
+   .. code-block:: java
+
+    System.out.println(100 / 0);

@@ -1,0 +1,53 @@
+.. activecode:: counting_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/counting
+   :from_source: T
+   :language: cpp
+
+   Take a look at the active code below which uses the ``howMany`` function. Run the
+   code to see how many times the target appears in the vector! Feel free to
+   modify the code and experiment around.
+   ~~~~
+   #include <iostream>
+   #include <vector>
+   using namespace std;
+
+   vector<int> randomVector (int n, int upperBound);
+   void printVector (const vector<int>& vec);
+   int howMany (const vector<int>& vec, int value);
+
+   int main() {
+       int numValues = 20;
+       int upperBound = 10;
+       int target = 6;
+       vector<int> vector = randomVector (numValues, upperBound);
+       printVector (vector);
+       cout << endl;
+       cout << "The number " << target << " appears " << howMany(vector,target) << " times in our vector!";
+   }
+
+   ====
+
+   int howMany (const vector<int>& vec, int value) {
+      int count = 0;
+      for (size_t i = 0; i < vec.size(); i++) {
+         if (vec[i] == value) count++;
+      }
+      return count;
+   }
+
+   vector<int> randomVector (int n, int upperBound) {
+      vector<int> vec (n);
+      for (size_t i = 0; i<vec.size(); i++) {
+         vec[i] = random () % upperBound;
+      }
+      return vec;
+   }
+
+   void printVector (const vector<int>& vec) {
+      for (size_t i = 0; i<vec.size(); i++) {
+         cout << vec[i] << " ";
+      }
+   }

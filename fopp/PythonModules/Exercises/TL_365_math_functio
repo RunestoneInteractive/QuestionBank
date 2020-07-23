@@ -1,0 +1,34 @@
+.. mchoice:: TL_365_math_functio
+   :author: Tyler Luchko
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: PythonModules/Exercises
+   :from_source: F
+   :random:
+		
+
+   Which of the following functions are part of the ``math`` module?
+
+   - ``exp()``
+
+     + 
+       
+   - ``abs()``
+     
+     - 
+       
+   - ``int()``
+     
+     - 
+       
+   - ``sin()``
+     
+     + 
+       
+   - ``fabs()``
+     
+     + 
+       
+   - ``pi``
+     
+     - 

@@ -1,0 +1,13 @@
+.. dragndrop:: growth
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :topic: AlgorithmAnalysis/HashTableAnalysis
+    :from_source: T
+    :feedback: Compare the functions at different values to see how they compare
+    :match_1: 2<sup>n</sup>|||1st
+    :match_2: n<sup>2</sup>|||2nd
+    :match_3: nlogn|||3rd
+    :match_4: logn|||4th
+
+    Drag the order of growth rates to their rankings from lowest to highest (the slowest i.e. the highest growth rate should be #1)

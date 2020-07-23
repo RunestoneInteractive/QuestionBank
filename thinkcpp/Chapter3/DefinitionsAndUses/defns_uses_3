@@ -1,0 +1,23 @@
+.. parsonsprob:: defns_uses_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/DefinitionsAndUses
+   :from_source: T
+   :adaptive:
+
+   Construct a block of code that correctly defines a the addTwo function.
+   -----
+   int addTwo(int x) {
+
+   int addTwo(int x); #distractor
+
+   int addTwo(int x) #distractor
+
+    int new = x + 2;
+
+    return new;
+
+    return x; #distractor
+
+   }

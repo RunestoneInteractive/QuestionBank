@@ -1,0 +1,56 @@
+.. activecode:: lhs_10_20
+    :author: LHS CS Team
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Write a pure function ``averageList(numList)`` which takes a ``numList`` (which is a 
+    list of list of numbers) and returns a new list which is a
+    list of the averages of each list in numList
+
+    You may **not** use the sum() function.
+
+    ~~~~
+        
+    def averageList(numList):
+
+    def main():
+        #write any test cases here
+    
+    if __name__ == "__main__":
+        main()
+        
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _golden(self, numList):
+            avgList = []
+            for l in numList:
+                total = 0
+                for num in l:
+                    total += num
+                avgList.append(total/len(l))
+            return(avgList)
+    
+        def testOne(self):
+            print('Auto-testing...')
+            tests = [ 
+                 [ [1,2,3], [4,5,6,7], [100,110, 120,130] ],
+                 [ [10], [15, 20, 21] ],
+                 [ [4,5,6,7,8,9,20] ]
+                ]
+            i = 0
+            for l in tests:
+                original = l[0][:]
+                self.assertEqual(averageList(l), self._golden(l), "Testing  "+str(i))
+                self.assertEqual(l[0], original, "Checking for pure function")
+                i += 1
+
+    
+    myTests().main()

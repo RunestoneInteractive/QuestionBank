@@ -1,0 +1,13 @@
+.. fillintheblank:: sql_join1
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameStrings/Exercises
+   :from_source: F
+
+   Fill in the following: SELECT * FROM ORDERS JOIN Customers ON [blank] = [blank]; To join the two tables Orders and Customers on the CustomerID in both tables. 
+   
+   -    :Orders\.CustomerID: Correct. 
+        :.*: Use Orders.ColumnName 
+   -    :Customers\.CustomerID:  Correct
+        :.*: Use Customers.ColumnName

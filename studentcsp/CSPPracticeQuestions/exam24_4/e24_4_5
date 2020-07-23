@@ -1,0 +1,22 @@
+.. mchoice:: e24_4_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: To determine the users who send pictures most frequently
+   :answer_b: To determine the time of day that the application is most active
+   :answer_c: To determine the objects that many users are are taking pictures of
+   :answer_d: To determine which pictures from a particular user have been downloaded the most
+   :correct: c
+   :feedback_a: Incorrect. We need to use metadata for this, particularly the names of users who send pictures.
+   :feedback_b: Incorrect. We need to use metadata for this, particularly the times at which pictures were taken and received as a message.
+   :feedback_c: Correct. This answer choice is correct since we need to look at the actual picture, that is, the data in this case.
+   :feedback_d: Incorrect. We need to use metadata for this, particularly the number of users who downloaded the pictures.
+
+   A certain mobile application allows its users to take pictures and send them to whoever they wish to on their contact list as an online message. If a user receives a picture, he may download the picture to save it or let the application automatically delete it within 24 hours of receiving the message. A picture itself is considered to be data. In addition to the data, the application stores the following metadata for all pictures:
+    - The time the picture was taken, and the time the picture was received as a message
+    - The name of the user who sent the picture and the names of users who received the picture
+    - The number of users who downloaded the picture
+
+    For which of the following goals would it be more useful to analyze the data instead of the metadata?

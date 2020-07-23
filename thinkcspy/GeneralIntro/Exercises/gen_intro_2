@@ -1,0 +1,10 @@
+
+    :author: DANIEL LEE
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: gen_intro_2
+
+    Write a program that prints out the message “I know how to print messages using Python!”
+    ~~~~

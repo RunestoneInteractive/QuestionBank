@@ -1,0 +1,24 @@
+.. mchoice:: 2-13-5-A
+   :author: Rachel Reyes
+   :difficulty: 4.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and II only
+   :answer_e: I, II, III
+   :correct: e
+
+   After the following code is executed, which of I, II and/or III will evaluate to true?
+
+   .. code-block:: java
+
+    String s1 = "ab";
+    String s2 = s1;
+    String s3 = s2;
+
+    I.   s1.equals(s3)
+    II.  s1 == s2
+    III. s1 == s3

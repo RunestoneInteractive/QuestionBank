@@ -1,0 +1,19 @@
+.. mchoice:: cs130t2_21
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   :answer_a: 0 1 2 3 4 7 8 9
+   :answer_b: 4 5 6
+   :answer_c: 10
+   :answer_d: 0 1 2 3 5 6 8 9
+   :correct: a
+   :random:
+
+   21. What does the following code print? ::
+
+      for i in range(10):
+          if i > 4 and i < 7:
+              continue
+          print(i, end = ' ')

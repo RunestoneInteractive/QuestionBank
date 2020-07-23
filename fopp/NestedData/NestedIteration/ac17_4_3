@@ -1,0 +1,26 @@
+.. activecode:: ac17_4_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: NestedData/NestedIteration
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **3.** Below, we have provided a list of lists named ``L``. Use nested iteration to save every string containing "b" into a new list named ``b_strings``.
+
+   ~~~~
+
+   L = [['apples', 'bananas', 'oranges', 'blueberries', 'lemons'], ['carrots', 'peas', 'cucumbers', 'green beans'], ['root beer', 'smoothies', 'cranberry juice']]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(b_strings, ['bananas', 'blueberries', 'cucumbers', 'green beans', 'root beer', 'cranberry juice'], "Testing that b_strings was created correctly.")
+
+   myTests().main()

@@ -1,0 +1,13 @@
+.. fillintheblank:: sql_agg_0
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/aggregation_SQL
+   :from_source: F
+
+   Compute the average duration of bike trips for each starting station id and list the results in order of highest average to lowest average for the 10 stations with the highest average.  What is the highest average duration?
+
+   - :40669.5: Is the correct answer
+     :2368.5.*: Is the 10th largest
+     :x: Keep trying
+

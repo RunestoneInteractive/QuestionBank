@@ -1,0 +1,21 @@
+.. activecode:: act_files_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/common_words
+    :from_source: T
+    :nocodelens:
+
+    Calculate the total usage percentage for the top 10 words in the list.  Store this result in a variable called ``top_10``  At the same time calculate the percentage for teh bottom 10 words in the list and store that result in ``bottom_10``
+
+    ~~~~
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class MyTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertAlmostEqual(top_10, 0.276, 3)
+            self.assertAlmostEqual(bottom_10, 0.00015, 5)
+    MyTests().main()

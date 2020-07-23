@@ -1,0 +1,13 @@
+.. activecode:: chp08_index1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Strings/IndexOperatorWorkingwiththeCharactersofaString
+    :from_source: None
+
+    school = "Luther College"
+    m = school[2]
+    print(m)
+
+    lastchar = school[-1]
+    print(lastchar)

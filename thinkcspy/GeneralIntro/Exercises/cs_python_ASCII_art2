@@ -1,0 +1,48 @@
+.. activecode:: cs_python_ASCII_art2
+    :author: Norm Prokup
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write code to display a face drawn with characters. (Use the print command!):
+
+    The output you get should be:
+
+    :: 
+
+       (\___/)
+       (=o.o=)
+        ) ^ ( 
+       /|| //\
+      (")|/("))__//
+    
+    HINT: The backslash character \\ is special. To print a single backslash \\, you must enter two consecutive backslashes \\ \\ in your print statement. We'll discuss why later. 
+    ~~~~
+    # write your code below
+
+
+
+
+
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertIn( '(=o.o=)', self.getOutput(), "Testing output. (Checking for eyes.)") 
+
+        def testTwo(self):
+            self.assertIn( ') ^ (', self.getOutput(), "Testing output. (Checking for mouth.)") 
+
+        def testThree(self):
+            self.assertIn( '/|| //\\', self.getOutput(), "Testing output. (Checking for legs.)")           
+
+        def testFour(self):
+            self.assertIn( '(")|/("))', self.getOutput(), "Testing output. (Checking for feet.)")           
+
+    myTests().main()

@@ -1,0 +1,17 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+.. activecode:: CCS_bigger_than_five
+   
+   **Write a program that asks the user to enter a digit between 0 and 9.**
+   
+   * If the number is five or greater, your program should print 1. 
+   
+   * If the number is smaller than 0, your program should print 0.
+   
+   **NOTE: The IF statement is not permitted. Likewise, comparison operators are not permitted. You should do this using just the basic operators you have studied so far.**
+   ~~~~
+   

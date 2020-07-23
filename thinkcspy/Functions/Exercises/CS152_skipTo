@@ -1,0 +1,43 @@
+.. actex:: CS152_skipTo
+    :author: John Cigas
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a non-fruitful function ``skipTo(t, x, y)`` that moves turtle t to coordinates (x,y) without drawing anything
+  
+
+    ~~~~
+
+    def skipTo(t, x, y):
+        """ Moves the turtle t to position (x,y) without drawing anything. """
+        # Put your code here
+
+    ====
+    import turtle
+    import math
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            # Really should use an re to check for penup/up/pu in function
+            wn = turtle.Screen() 
+            t = turtle.Turtle()
+            wn.setup(width=2,height=2)
+            t.goto(100,100)
+            skipTo(t,10,5)
+            self.assertAlmostEqual(t.xcor(),10.0,0,"Tested skipTo(10,5)")
+            self.assertAlmostEqual(t.ycor(),5.0,0,"Tested skipTo(10,5)")
+            t.goto(20,20)
+            t.left(90)
+            skipTo(t, -30,50)
+            self.assertAlmostEqual(t.xcor(),-30.0,0,"Tested skipTo(-30,50)")
+            self.assertAlmostEqual(t.ycor(),50.0,0,"Tested skipTo(-30,50)")
+
+
+    myTests().main()
+ 

@@ -1,0 +1,44 @@
+.. activecode:: sks_prac_lst_1
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``sumOfCubes(xs)`` that computes the sum of the cubes of the numbers
+    in the list xs. For example, ``sumOfCubes([2, 3, 4])`` should return 8+27+64 which is 99
+
+    ~~~~
+    # My Name:
+
+    def sumOfCubes(xs):
+        # write your code here
+    
+    # write main program that calls the function using any test case you like
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _sumOfCubes(self, xs):
+            sum = 0
+            for e in xs:
+                sum += e**3
+            return sum
+                
+        def testOne(self):
+            print('Auto-testing...')
+    
+            # Check that strip is not being use
+            tests = [ [1, 6, 7], [6], [0, 2, 7, 9]]
+            
+            i = 1
+            for t in tests:
+                tcopy = t[:]
+                self.assertEqual(sumOfCubes(tcopy), self._sumOfCubes(t), "test "+str(i))
+                i += 1
+    
+    myTests().main() 

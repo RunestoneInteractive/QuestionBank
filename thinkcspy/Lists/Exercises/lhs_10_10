@@ -1,0 +1,55 @@
+.. activecode:: lhs_10_10
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``cross_product(u, v)`` that takes two lists of numbers of length 3
+    and returns list which is the cross product. The cross product of two 3 element 
+    vectors is defined as:
+
+    ::
+
+      (u1, u2, u3) X (v1, v2, v3) = (u2*v3-u3*v2, u3*v1-u1*v3, u1*v2-u2*v1)
+      
+
+
+    **NOTE**: The function most **NOT** modify the input parameters ``u`` and ``v``.
+    ~~~~
+    # My Name:
+
+    def cross_product(u, v):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _cross_product(self, u, v):
+            cp =[u[1]*v[2] - u[2]*v[1],
+                 u[2]*v[0] - u[0]*v[2],
+    	     u[0]*v[1] - u[1]*v[0]]
+            return cp
+    
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            tests = [
+                    [[1,2,3], [4,5,6]],
+                    [[-2,4,5], [7, -1, 6]]
+                  ]
+            n = 0
+            for t in tests:
+                self.assertEqual(cross_product(t[0], t[1]), self._cross_product(t[0], t[1]), "Test "+str(n))
+                n += 1
+                
+    myTests().main() 

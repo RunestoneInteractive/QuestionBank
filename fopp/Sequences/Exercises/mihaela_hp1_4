@@ -1,0 +1,30 @@
+
+    :author: Mihaela Sabin
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Sequences/Exercises
+    :from_source: F
+.. activecode:: mihaela_hp1_4
+    
+    The variable word references the string 'winter'. 
+    Use for loops to create new strings with various text effects as follows.
+
+    1. Variable long_word becomes 'wwwiiinnnttteeerrr'
+    2. Variable crossed_word becomes 'XwXiXnXtXeXr'
+    ~~~~
+    word = 'winter'
+    long_word = ''
+    # write the for loop that traverses word to create 
+    # long_word with value 'wwwiiinnnttteeerrr'
+
+    crossed_word = ''
+    # write the for loop that traverses word to create 
+    # crossed_word with value 'XwXiXnXtXeXr'
+
+    print(long_word)
+    print(crossed_word)
+    ====
+
+- activecode_div_class - custom CSS class of the component's outermost div
+- activecode_hide_load_history - if True, hide the load history button
+    

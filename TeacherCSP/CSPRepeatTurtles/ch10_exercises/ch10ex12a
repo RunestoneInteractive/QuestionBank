@@ -1,0 +1,22 @@
+.. activecode::  ch10ex12a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPRepeatTurtles/ch10_exercises
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *
+    from sys import *              # use the system library
+    setExecutionLimit(50000)      # let this take up to 50 seconds
+    space = Screen()
+    t = Turtle()
+    t.setheading(90)
+    for repeats in range(20):
+        t.color("blue")
+        t.forward(10)
+        t.left(18)
+        for sides in range(3):
+            t.color("green")
+            t.forward(60)
+            t.right(120)

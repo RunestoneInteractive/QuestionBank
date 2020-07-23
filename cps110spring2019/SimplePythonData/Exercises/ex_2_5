@@ -1,0 +1,11 @@
+.. actex:: ex_2_5
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: SimplePythonData/Exercises
+   :from_source: None
+
+   Take the sentence: *All work and no play makes Jack a dull boy.*
+   Store each word in a separate variable, then print out the sentence on
+   one line using ``print``.
+   ~~~~

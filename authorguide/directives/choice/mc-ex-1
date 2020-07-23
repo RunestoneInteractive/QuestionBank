@@ -1,0 +1,17 @@
+.. mchoice:: mc-ex-1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/choice
+   :from_source: T
+   :answer_a: Red
+   :answer_b: White
+   :answer_c: Blue
+   :answer_d: Grey
+   :correct: a,c
+   :feedback_a: Red is found in the rainbow.
+   :feedback_b: White is the mixing of all of the colors in the rainbow.
+   :feedback_c: Blue is found in the rainbow.
+   :feedback_d: Grey is never found in the rainbow.
+
+   Which colors are found in the rainbow?

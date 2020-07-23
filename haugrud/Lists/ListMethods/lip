@@ -1,0 +1,18 @@
+.. activecode:: lip
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: haugrud
+    :topic: Lists/ListMethods
+    :from_source: None
+
+    mylist = []
+    mylist.append(5)
+    mylist.append(27)
+    mylist.append(3)
+    mylist.append(12)
+    print(mylist)
+
+    mylist = mylist.sort()
+    # why is line 8 an error? (answer below, then fix line 8 so it correctly sorts)
+    #
+    print(mylist)

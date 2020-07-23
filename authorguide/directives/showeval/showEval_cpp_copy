@@ -1,0 +1,20 @@
+.. showeval:: showEval_cpp_copy
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/showeval
+   :from_source: T
+   :trace_mode: true
+
+   std::vector&lt;int&gt; v = {-2, 3, 2, -3, 1, -1, 0};
+   insertion_sort(v.begin(), v.end());
+   ~~~~
+
+   v = -2 {{3 2}}{{2 3}} -3 1 -1 0         ## first, rotate 2 into v[1]
+   v = {{-2 2 3 -3}}{{-3 -2 2 3}} 1 -1 0   ## next rotate -3 into v[0]
+   v = -3 -2 {{2 3 1}}{{1 2 3}} -1 0       ## next rotate 1 into v[2]
+   v = -3 -2 {{1 2 3 -1}}{{-1 1 2 3}} 0    ## next rotate -1 into v[2]
+   v = -3 -2 -1 {{1 2 3 0}}{{0 1 2 3}}     ## finally, rotate 0 into v[3]
+
+
+

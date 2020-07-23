@@ -1,0 +1,14 @@
+.. fillintheblank:: act_cc_oneword
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Projects/sentiment_analysis
+   :from_source: T
+
+   What is the probability that if a tweet contains the word 'green' that it is from a Y tweet? |blank|  What is the probablility that it is from an N tweet?
+
+   - :[0].015.*: Is the correct answer
+     :x: Word is the same as Cookie, Y is the same as Bowl1 and N is the same as Bowl2
+
+   - :[0].004.*: Is the correct answer
+     :x: Word is the same as Cookie, Y is the same as Bowl1 and N is the same as Bowl2

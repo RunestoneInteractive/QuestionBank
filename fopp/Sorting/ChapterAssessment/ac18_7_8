@@ -1,0 +1,27 @@
+.. activecode:: ac18_7_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sorting/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Sorting/Optionalkeyparameter
+
+   Sort the following list by each element's second letter a to z. Do so by using lambda. Assign the resulting value to the variable ``lambda_sort``.
+   ~~~~
+
+   ex_lst = ['hi', 'how are you', 'bye', 'apple', 'zebra', 'dance']
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(lambda_sort, sorted(ex_lst, key = lambda z: z[1]), "Testing that lambda_sort has the correct value.")
+         self.assertIn("lambda", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

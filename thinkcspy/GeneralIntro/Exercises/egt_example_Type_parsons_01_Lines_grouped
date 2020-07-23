@@ -1,0 +1,25 @@
+.. parsonsprob:: egt_example_Type_parsons_01_Lines_grouped
+    :author: Eric Taucher (Instructor)
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+
+    Some lines are single, some lines are grouped, some lines are indented
+    -----
+    Line 1
+    Line 2
+    =====
+    Line 3
+        Line 4
+    =====
+        Line 5
+        Line 6
+    Line 7
+    =====
+    Line 8
+    =====
+    Line 9
+    =====
+    Line 10
+    Line 11

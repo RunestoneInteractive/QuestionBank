@@ -1,0 +1,14 @@
+.. actex:: ex_8_14
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: Strings/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Here is something called an arrowhead curve.  Use 60 degrees.::
+
+       YF
+       X -> YF+XF+Y
+       Y -> XF-YF-X
+   ~~~~

@@ -1,0 +1,18 @@
+.. mchoice:: program_lang_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter1/programming_language
+   :from_source: T
+   :answer_a: To translate the program line by line.
+   :answer_b: To copy the program from disk to memory and make the computer run the program.
+   :answer_c: To translate the program all at once.
+   :answer_d: To give an error message if something is preventing the code from being translated.
+   :correct: b
+   :feedback_a: This is the role of an interpreter!
+   :feedback_b: The role of an executor is to carry out, or execute, the program!
+   :feedback_c: This is the role of a compiler!
+   :feedback_d: This happens automatically when we try to compile/interpret our program.
+
+   What is the role of an executor?
+

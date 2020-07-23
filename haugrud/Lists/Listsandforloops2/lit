@@ -1,0 +1,12 @@
+.. activecode:: lit
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: haugrud
+    :topic: Lists/Listsandforloops2
+    :from_source: None
+
+    numbers = [1, 2, 3, 5, 8]
+    squares = []
+
+
+    print(squares)

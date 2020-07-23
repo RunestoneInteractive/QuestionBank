@@ -1,0 +1,43 @@
+.. activecode:: ch_c2_6
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: ClassesDiggingDeeper/Exercises
+   :from_source: None
+
+   class CAD:
+       """Canadian Dollar"""
+       __USD = 0.75   # the value of a CAD in terms of a USD
+       def __init__(self, amt):
+           self.__amount = amt
+
+       def exchange(self):
+           return self.__amount * CAD.__USD
+
+   class GBP:
+       """Great Britain Pound"""
+       __USD = 1.40   # the value of a GBP in terms of a USD
+       def __init__(self, amt):
+           self.__amount = amt
+
+       def exchange(self):
+           return self.__amount * GBP.__USD
+
+   class Account:
+       def __init__(self):
+           self.__balance = 0.00
+
+       @property
+       def balance(self):
+           return self.__balance
+
+       def deposit(self, amount):
+           self.__balance += amount
+
+   a = Account()
+   a.deposit(100)      # deposit USD
+   print(a.balance)
+   a.deposit(CAD(100))
+   print(a.balance)    # balance should not be 200
+   a.deposit(GBP(100))
+   print(a.balance)    # balance should not be 300

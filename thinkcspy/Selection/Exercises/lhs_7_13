@@ -1,0 +1,62 @@
+.. activecode:: lhs_7_13
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    ``size1`` and ``size2`` are the sizes of two files, and ``space`` is the amount of available space on a flash drive. Write a function that takes these integer numbers as arguments and figures out the largest combination of files that fits on a flash drive. The method should return 3 if both files fit together, the file number (1 or 2) corresponding to the longest file that fits by itself (1 if the files are the same size), or 0 if neither file fits on the flash drive. 
+
+    Your function must have only **one** return statement.
+
+    ~~~~
+    # Your Name:
+    
+    def findBestFit(size1, size2, space):
+        ''' figures out the largest combination of files that fits on a storage device.
+          The function should return 3 if both files fit together, the file number (1 or 2)
+          corresponding to the longest file that fits by itself (1 if the files are the same size),
+          or 0 if neither file fits on the storage device.
+          Your function must have only one return statement.
+         '''
+        # write you code here
+            
+    def main():
+        # you can call the function to test it here
+        
+    if __name__ == "__main__":
+        main()
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+    
+        def _findBestFit(self, size1, size2, space):
+            if size1 + size2 <= space:
+                fit = 3
+            elif size1 <= space and size2 <= space:
+                if size1 >= size2:
+                    fit = 1
+                else:
+                    fit = 2
+            elif size1 <= space:
+                fit = 1
+            elif size2 <= space:
+                fit = 2
+            else:
+                fit = 0
+            return fit 
+            
+        def testOne(self):
+            print("Auto-testing...")
+            editText = self.getEditorText()
+            self.assertEqual(len(re.findall("^\s*return[ (]+", editText, flags=re.M)), 1, "Check for single 'return'")
+            for p in [[50, 50, 100], [60, 50, 100], [50, 75, 100], [75, 75, 100], [130, 140, 100], [101, 99,100], [99,101,100]]:
+                expected = self._findBestFit(p[0], p[1], p[2])
+                actual = findBestFit(p[0], p[1], p[2])
+                self.assertEqual(actual, expected, "testing findBestFit(" + str(p[0]) + ", " + str(p[1]) + ", " + str(p[2]) + ")")
+        
+    myTests().main()

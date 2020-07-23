@@ -1,0 +1,19 @@
+.. activecode:: ac18_1_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Sorting/intro-SortingwithSortandSorted
+    :from_source: T
+
+    L2 = ["Cherry", "Apple", "Blueberry"]
+
+    L3 = sorted(L2)
+    print(L3)
+    print(sorted(L2))
+    print(L2) # unchanged
+
+    print("----")
+
+    L2.sort()
+    print(L2)
+    print(L2.sort())  #return value is None

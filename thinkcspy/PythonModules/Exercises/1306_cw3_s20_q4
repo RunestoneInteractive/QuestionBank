@@ -1,0 +1,30 @@
+.. activecode:: 1306_cw3_s20_q4
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonModules/Exercises
+   :from_source: F
+
+   **[30 pts] Question 4** 
+
+   Write a Python program that translates a binary number of n bits to a decimal number. Your program should first ask the user the length of the binary number (how many bits). Using that information, ask the user to provide each bit from lowest to highest. Once the user has entered all the bit values for the binary number, report back the decimal value. 
+
+   *Hint: You should use the mechanism to convert binary to decimal in earlier lectures.* 
+   
+   **Note:** Your program should not use any functions or methods from any library.
+
+   Example:
+
+   ::
+  
+      How many bits in your binary number?: 4
+      Please enter the bit value from lowest to highest: 1
+      Please enter the bit value from lowest to highest: 0
+      Please enter the bit value from lowest to highest: 1
+      Please enter the bit value from lowest to highest: 1
+      Number in decimal value is: 13
+
+
+
+   ~~~~
+   # Write your program here

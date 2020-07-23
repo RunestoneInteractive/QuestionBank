@@ -1,0 +1,24 @@
+.. activecode:: ac7_10_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Conditionals/TheAccumulatorPatternwithConditionals
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   For each string in the list ``words``, find the number of characters in the string. If the number of characters in the string is greater than 3, add 1 to the variable ``num_words`` so that ``num_words`` should end up with the total number of words with more than 3 characters.
+   ~~~~
+   words = ["water", "chair", "pen", "basket", "hi", "car"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFive(self):
+         self.assertEqual(num_words, 3, "Testing that num_words has the correct value.")
+
+   myTests().main()

@@ -1,0 +1,67 @@
+.. activecode:: 1306_hw3_f19_q3
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+
+    **[30 points] Question 3.** In this question you will practice passing lists as parameters to a function. Your goal is to write a function definition for:  ``SmartSquare (inlist, inplace)`` . Parameter inlist is a list of integers and the parameter inplace is a boolean with a value True or False. The function proceeds as follows:
+
+    If inplace is True, ``SmartSquare`` replaces the numbers in the parameter inlist in with their squares. (The list in the calling program will change). The function also returns a list with squares of the numbers of the original list.
+
+    If inplace is False, ``SmartSquare`` returns a list containing the squares of values of the numbers in inlist. The inlist itself is not changed.
+
+    Here are some sample runs:
+
+    ::
+
+        mylist = [2 , 11, 7]
+        
+        sqlist = SmartSquare(mylist, True)
+        
+        print(mylist,sqlist)
+
+    will print 
+
+    ::
+
+        [4, 121, 49] [4, 121, 49]
+
+    Another run:
+    ::
+
+        mylist = [2 , 11, 7]
+        
+        sqlist = SmartSquare(mylist,False)
+        
+        print(mylist,sqlist)
+
+    will print
+
+    ::
+
+        [2, 11, 7] [4, 121, 49]
+
+
+
+    ~~~~
+                
+    # Define your function here
+
+
+
+
+    # DO NOT CHANGE CODE BELOW 
+    mylist = [] 
+    n = int(input("Enter number of elements in the List : ")) 
+    for i in range(0, n): 
+       num = int(input("Num "+str(i+1))) 
+       mylist.append(num)  
+
+    print(mylist, SmartSquare(mylist,True))
+    print(mylist, SmartSquare(mylist,False))
+        
+    ====
+
+  

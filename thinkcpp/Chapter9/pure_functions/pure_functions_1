@@ -1,0 +1,13 @@
+.. dragndrop:: pure_functions_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter9/pure_functions
+    :from_source: T
+    :feedback: Try again.
+    :match_1: x.dollar += 2;|||x.dollar = x.dollar + 2;
+    :match_2: x.dollar -= 2;|||x.dollar = x.dollar - 2;
+    :match_3: x.cents -= 2;|||x.cents = x.cents - 2;
+    :match_4: x.cents += 2;|||x.cents = x.cents + 2;
+
+    Match the statement to its equivalent.

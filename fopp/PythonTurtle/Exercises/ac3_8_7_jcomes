@@ -1,0 +1,25 @@
+.. activecode:: ac3_8_7_jcomes
+   :author: Jonny Comes
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   Create a turtle and assign it to a variable. Print the type of your turtle and see what you get.
+   ~~~~
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+
+           answer = str(type(turtle.Turtle()))
+           self.assertTrue(re.search(answer, self.getOutput()), 'Checking answer.')
+
+
+           
+   myTests().main()   

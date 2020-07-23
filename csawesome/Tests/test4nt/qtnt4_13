@@ -1,0 +1,19 @@
+.. mchoice:: qtnt4_13
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Tests/test4nt
+   :from_source: T
+   :answer_a: [6, 8, 12, 34, 2, 4, 10, 14]
+   :answer_b: [2, 4, 6, 34, 10, 14, 8, 12]
+   :answer_c: [2, 4, 34, 6, 10, 13, 8, 12]
+   :answer_d: [6, 8, 12, 34, 10, 14, 2, 4]
+   :answer_e: [6, 8, 10, 12, 34, 14, 2, 4]
+   :correct: d
+   :feedback_a: These would be the contents of intArray if intArray was sorted through merge sort. Remember that insertion sort does not break an array into smaller arrays to sort, and values are inserted into a pre-sorted array.
+   :feedback_b: These would be the contents of intArray after three passes of selection sort. Remember that while selection sort swaps the lowest value in the array with the specified index, insertion sort places the value at the specified index in a pre-sorted array.
+   :feedback_c: These would be the contents of intArray after two passes of selection sort. Remember that while selection sort swaps the lowest value in the array with the specified index, insertion sort places the value at the specified index in a pre-sorted array.
+   :feedback_d: After the first pass, the contents of intArray are in the same order, since the presorted array contains only one value. After the second pass, the contents are [8, 12, 34, 6, 10, 14, 2, 4] and the presorted array contains three elements. After the third pass, 6 is inserted in the presorted array, and the contents are now [6, 8, 12, 34, 10, 14, 2, 4].
+   :feedback_e: These are the contents of intArray after four passes of insertion sort. Check your tracing and try again.
+
+   The array ``intArray`` contains ``[8, 12, 34, 6, 10, 14, 2, 4]``. What are the contents of ``intArray`` after 3 passes of insertion sort?

@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: strings_2
+  
+    Create a program that takes two variables that contain strings and uses the 
+    ‘+’ operator to concatenate the strings. Print out the result.
+ 
+    ~~~~
+    

@@ -1,0 +1,82 @@
+.. activecode:: lhs_test_3_3
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Labs/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    **(Extra Credit: 2 pts)** Write **recursively** a function ``printSeq(num, n)`` which prints
+    a sequence of numbers starting from ``num`` and print out subsequent number
+    which decrement by ``n`` until reaching 0 or a negative value, upon which it
+    will start incrementing by ``n`` until it reaches ``num``
+
+    You can assume that ``n`` is always less than ``num``.
+
+    You are not expected to print a carriage return ``\n`` at the end of the line.
+
+    Remember: print(5, end='') will just print a 5 without the ``\n``.
+
+    .. sourcecode:: python
+
+        printSeq(3,1)   # prints out '3 2 1 0 1 2 3' 
+        printSeq(15,5)  # prints out '15 10 5 0 5 10 15'
+        printSeq(5,2)   # prints out '5 3 1 -1 1 3 5'
+
+    ~~~~
+
+    def printSeq(num, n):
+        # write your code here
+    
+    # Make your own test cases here
+
+    ====
+    import re
+    import sys
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+
+        def goldenStr(self, startNum, n):
+            if startNum <= 0:
+                return(str(startNum))
+            else:
+                return(str(startNum) + " " + self.goldenStr(startNum-n, n) + " " + str(startNum))
+
+        def doTest(self, startNum, n):
+            oLen = len(self.getOutput())
+            printSeq(startNum,n)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #remove original output from test string
+            self.assertEqual(outText, self.goldenStr(startNum, n), "Testing printSeq({}, {})".format(startNum, n))
+
+        def testOne(self):
+
+            # hide print()
+            fname = "test.out"
+            sys.stdout = open(fname, "w")
+
+            editText = self.getEditorText()
+            numForWhile = len(re.findall("\s*while[( ]", editText)) + len(re.findall("\s*for ", editText))
+            if numForWhile > 0:
+                self.assertEqual(numForWhile, 0, "Used a for or while in code")
+                return
+
+            self.doTest(3, 1)
+            self.doTest(15, 5)
+            self.doTest(14, 5)
+            self.doTest(13, 5)
+            self.doTest(12, 5)
+            self.doTest(11, 5)
+
+            self.deleteFile(fname)
+
+        # just opening and closing file does not work, so need a print statement to "empty" the file
+        def deleteFile(self, fname):
+            # empty out the file so nothing shows
+            sys.stdout = open(fname, "w")
+            print()
+            sys.stdout.close()
+
+    myTests().main()

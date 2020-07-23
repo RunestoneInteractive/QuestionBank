@@ -1,0 +1,22 @@
+.. mchoice:: mergesort_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter13/mergesort
+   :from_source: T
+   :answer_a: n, nlogn, more efficient
+   :answer_b: n^2, nlogn, more efficient
+   :answer_c: nlogn, n, less efficient
+   :answer_d: nlogn, n^2, less efficient
+   :answer_e: n^2, nlogn, less efficient
+   :correct: b
+   :feedback_a: Simple sort traverses the vector n times, and each traversal takes additional time.
+   :feedback_b: Simple sort takes time proporitonal to n^2, mergesort takes time proportional to nlogn (which is more efficient).
+   :feedback_c: You might be confused about which algorithm is which.  Also, what is the efficiency of simple sort?
+   :feedback_d: You might be confused about which algorithm is which.
+   :feedback_e: Which algorithm is more efficient? (Which function grows more slowly?)
+
+   The efficiency of a simple sorting algorithm is __________.  The
+   efficiency of mergesort is __________.  Mergesort is __________ than
+   the simple sorting algorithm.
+

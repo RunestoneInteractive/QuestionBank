@@ -1,0 +1,17 @@
+.. activecode:: files_for
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Files/Iteratingoverlinesinafile
+    :from_source: T
+    :nocodelens:
+    :available_files: qbdata.txt
+
+    qbfile = open("qbdata.txt", "r")
+
+    for aline in qbfile:
+        values = aline.split()
+        print('QB ', values[0], values[1], 'had a rating of ', values[10] )
+
+    qbfile.close()
+

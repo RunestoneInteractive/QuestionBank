@@ -1,0 +1,14 @@
+.. activecode:: string_class_1
+ :author: jenkins
+ :difficulty: 3.0
+ :basecourse: cps110spring2019
+ :topic: Strings/Characterclassification
+ :from_source: None
+
+ import string
+ print(string.ascii_lowercase)
+ print(string.ascii_uppercase)
+ print(string.digits)
+ print(string.punctuation)
+
+

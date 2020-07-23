@@ -1,0 +1,14 @@
+.. actex:: ex_6_1
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2018
+   :topic: Selection/Exercises
+   :from_source: None
+
+   What do these expressions evaluate to?
+
+   #.  ``3 == 3``
+   #.  ``3 != 3``
+   #.  ``3 >= 4``
+   #.  ``not (3 < 4)``
+   ~~~~

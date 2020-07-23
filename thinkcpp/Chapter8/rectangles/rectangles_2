@@ -1,0 +1,17 @@
+.. clickablearea:: rectangles_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter8/rectangles
+    :from_source: T
+    :question: Click on the legal ways to create a Point and Rectangle structure, assuming that the Point and Rectangle structures are declared above the main function in the same way as in the active code above.
+    :iscode:
+    :feedback: Re-read the text above and try again.
+
+    :click-incorrect:def main() {:endclick:
+        :click-incorrect:Point corner = { 0.0, 0.0 );:endclick:
+        :click-incorrect:Rectangle box = { ( 0.0, 0.0 ), 100.0, 200.0 }:endclick:
+        :click-correct:Rectangle box = { { 0.0, 0.0 }, 100.0, 200.0 };:endclick:
+        :click-correct:Point corner = { 0.0, 0.0 };:endclick:
+        :click-correct:Rectangle box = { corner, 100.0, 200.0 };:endclick:
+    }

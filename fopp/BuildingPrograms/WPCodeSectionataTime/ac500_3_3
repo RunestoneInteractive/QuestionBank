@@ -1,0 +1,22 @@
+.. activecode:: ac500_3_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: BuildingPrograms/WPCodeSectionataTime
+    :from_source: T
+
+    # initialize a dictionary
+    user_dictionary = {}
+    print("---------- keys in user_dictionary: " + str(list(user_dictionary.keys())) + " ----------")
+
+    # write a for loop that will iterate five times. I can use the range function for this!
+    for _ in range(5):
+        print("---------- LOOP HAS STARTED ----------")
+        # in the for loop, I should ask for input from the user
+        response = input("Please enter two words to add to a dictionary. The first word is the definition, the second will be the word associated with it.")
+        print("---------- The response: " + response + " ----------")
+
+        # next, I should separate the words
+
+        # finally, I should add the key value pair to the dictionary
+        print("---------- LOOP HAS ENDED ----------")

@@ -1,0 +1,20 @@
+.. mchoice:: 2-13-1-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: s1 = hello, s2 = world
+   :answer_b: s1 = world, s2 = world
+   :answer_c: s1 = hello, s2 = hello
+   :answer_d: s1 = world, s2 = hello
+   :correct: b
+
+   Given the following code segment, what values do s1 and s2 have?
+
+   .. code-block:: java
+
+    String s1 = "hello";
+    String s2 = "world";
+    s1 = s2;
+    s2 = s1;

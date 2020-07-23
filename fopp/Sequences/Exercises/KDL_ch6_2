@@ -1,0 +1,27 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+.. activecode:: KDL_ch6_2
+   :autograde: unittest
+   :language: python
+
+   
+
+   A magic 8 ball has the given set of possible answers. Create a program that determines the number of possible solutions and then randomly chooses an answer.
+   Print the answer!
+   ~~~~
+   magi8=['It is certain.','It is decidedly so.','Without a doubt.','Yes - definitely.','You may rely on it.','As I see it, yes.','Most likely.','Outlook good.','Yes','Signs point to yes.','Reply hazy, try again.','Ask again later.','Better not tell you now.','Cannot predict now.','Concentrate and ask again.',"Don't count on it.",'My reply is no.','My sources say no.','Outlook not so good.','Very doubtful.']
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertIn('len(magi8)', self.getEditorText(), 'determines length')
+           self.assertIn('random.randrange(0,', self.getEditorText(), 'gets random')
+           self.assertIn('print(', self.getEditorText(), 'prints')
+   myTests().main()    

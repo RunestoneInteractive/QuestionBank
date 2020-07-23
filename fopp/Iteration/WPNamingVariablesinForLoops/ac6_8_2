@@ -1,0 +1,12 @@
+.. activecode:: ac6_8_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/WPNamingVariablesinForLoops
+   :from_source: T
+   :include: ac6_8_3
+
+   # genres is a list defined elsewhere
+
+   for genre in genres:
+       print(genre)

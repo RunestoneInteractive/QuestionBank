@@ -1,0 +1,33 @@
+.. activecode:: 1306_cw1_f20_q2
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   **Q2 [20 pts]** Write a Python program that takes the diameter of a circle as input and prints out the perimeter and area of the circle. A user session of the program proceeds as follows:
+   
+   Program Prompt: 
+
+   ::
+      
+     What is the diameter in inches?
+
+   User Response: 
+
+   ::
+     
+     22
+
+   Program Prints: 
+
+   ::
+     
+     The perimeter of this circle with a diameter of 22 is 69.08  inches
+     The area of this circle with a diameter of 22 is 379.94 square inches
+
+   *[Hint: You can define Pi to be 3.14. Recall that the input statement reads as a string that can be converted to a float]*
+
+
+   ~~~~
+   # Write your program here

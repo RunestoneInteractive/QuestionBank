@@ -1,0 +1,29 @@
+.. activecode:: 1306_cw2_s20_q1ab
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+
+   **[20 pts] Question 1(a&b)** Consider the following program that computes a student' final score based on 2 quizzes, weighted equally,  that count for a total of 50% and a final that counts for  the remaining 50%::
+
+   
+      quiz1 = int(input('Enter Quiz 1 grade: '))
+      quiz2 = int(input('Enter Quiz 2 grade: '))
+      final = input('Enter exam grade: ')
+
+      quiz_average = ((quiz1 + quiz2) / 2
+
+      total = quiz_average*0.5 + final*0.5
+
+      print('Your class grade is:', "total")
+
+
+
+   (a) Can you discover any errors? List any errors you discover with line number and the nature of the error.  State if they are a syntax, runtime, or logic error. [Answer as comments in the answer section of the book]
+
+   (b) Correct any errors you discover. Run the program and state the result for input scores: quiz1 = 100, quiz2 = 60, final = 71.  Verify by hand calculation if the result is correct.
+
+ 
+   ~~~~
+   # Write your program here

@@ -1,0 +1,85 @@
+.. activecode:: lhs_6_2
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function called ``listAvg`` that takes as input a list of numbers and returns the average of the list of number.
+    Use the ``listCount`` function that was previously created in another exercise. The function ``listAvg`` should call ``listCount``. 
+
+    You may assume that there will always be at least 1 element in the list of numbers.
+
+    Example: ``listAvg( [1, 3, 5.6] )`` should return 3.2
+    ~~~~
+    # My Name:
+
+    def listCount(myList):
+        # copy code from previous exercise for listCount()
+
+    def listAvg(myList):
+        # write your code here using a for loop
+
+
+    # here is some example test code
+    average = listAvg ( [1, 3, 5.6] )
+    print( average  )  # should print out the number 3.2
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        
+        def _golden(self, list):
+            t = 0
+            for n in list:
+                t = t + n
+            return(t/len(list))
+               
+         # regExString - is checked inside inString
+         # howMany - how many matches are expected
+         # matchString - summary of what is being matched (readable version of regExString)
+         # errorString - error string upon assertion failure
+        def regExCheck(self, regExString, inString, howMany, matchString, errorString):
+            res = re.findall(regExString, inString, re.M)
+            checkOK = (len(res) == howMany)
+            if not checkOK:
+                print("Found [", matchString, "]", len(res), "time(s), not", howMany)
+
+            self.assertEqual(checkOK, True, errorString)
+
+            return(checkOK)
+
+        def testOne(self):
+            print("Auto-testing...")
+            outText = self.getOutput()
+            code = self.getEditorText()
+            
+            # strips this test code - when testing code with this test code 
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+
+            # Extract the function code
+            functionCode = re.findall( "(?:^def\s+listAvg.*\n)(?:.*\n)*(?:^[ \t]+return.*)", code, re.M)
+            if len(functionCode) == 0:
+                self.assertEqual(False, True, "Could not find listAvg() with return")
+                return
+            self.regExCheck("listCount", functionCode[0], 1, "listCount() in listAvg()", "Use listCount() in listAvg()")
+
+            self.regExCheck("len\s*\(", code, 0, "len()", "Cannot use len() function")
+            self.regExCheck("sum\s*\(", code, 0, "sum()", "Cannot use sum() function")
+
+            testcases = [ [10, 4.5, 19, 22, -5, 42], \
+                          [4.5] ]
+            testNum = 1
+            for list in testcases:
+                self.assertEqual(self._golden(list), listAvg(list), "listAvg: Test case " + str(testNum))
+                testNum += 1
+
+            self.assertEqual(10, listCount(range(10)), "listCount: List of 10")
+
+    myTests().main()

@@ -1,0 +1,18 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNumbers/Exercises
+   :from_source: F
+.. mchoice:: db_mc3
+   :correct: a
+   :answer_a: Modify
+   :answer_b: Delete
+   :answer_c: Create
+   :answer_d: Select
+   :feedback_a: Use Update to change data.
+   :feedback_b: Use Delete to remove data.
+   :feedback_c: Use Create to create a table.
+   :feedback_d: Use Select to get data.
+
+   Which of the following is not an SQL command?

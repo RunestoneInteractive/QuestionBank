@@ -1,0 +1,13 @@
+
+   :author: Ivan Lakovic
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. parsonsprob:: medium_002
+
+   Posloži kod koji će pomaknuti kornjaču za 100 unaprijed, te za 50 prema desno
+   -----
+   kornjaca.forward(100)
+   kornjaca.right(90)
+   kornjaca.forward(50)

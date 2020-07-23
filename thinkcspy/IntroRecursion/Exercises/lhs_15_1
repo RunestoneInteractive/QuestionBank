@@ -1,0 +1,85 @@
+.. activecode:: lhs_15_1
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IntroRecursion/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    A prime number is an integer that cannot be divided by any integer other than one
+    and itself. For example, 7 is prime because its only divisors are 1 and 7. The
+    integer 8 is not prime because its divisors are 1, 2, 4, and 8.
+
+    Another way to define prime is:
+
+    .. sourcecode:: python
+
+        isPrime(n)  = prime(n, n - 1)
+
+        prime(n, 1) = true
+
+        prime(n, d) = if d divides n, false
+                      else prime(n, d - 1)
+
+    For example,
+
+    .. sourcecode:: python
+
+        isPrime(4) = prime(4,3)
+        prime(4,3) = prime(4,2)
+        prime(4,2) = false
+
+    Another example,
+
+    .. sourcecode:: python
+
+        isPrime(7)  = prime(7, 6)
+        prime(7, 6) = prime(7, 5)
+        prime(7, 5) = prime(7, 4)
+        prime(7, 4) = prime(7, 3)
+        prime(7, 3) = prime(7, 2)
+        prime(7, 1) = true
+    
+    Translate the math-like definition of ``prime`` into two Python functions that return
+    a boolean. Use the ``%`` operator to test divisibility. Test your program.
+
+    **HINT**: 1 is not prime. Zero and Negative numbers are not considered prime.
+
+    ~~~~
+        
+    def prime(n, d):
+        # Your recursive code here
+
+    def isPrime(n):
+        #Your code here
+
+    def main():
+        # Your test code here
+    
+    if __name__ == "__main__":
+        main()
+
+        
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            editText = self.getEditorText()
+            self.assertEqual(0, len(re.findall("\s*while[( ]", editText)), "Should use no 'while' loops")
+            self.assertEqual(0, len(re.findall("\s*for ", editText)), "Should use no 'for' loops")
+            self.assertEqual(True, isPrime(3), "Testing isPrime(3)")
+            self.assertEqual(False, isPrime(32), "Testing isPrime(32)")
+            self.assertEqual(True, isPrime(101), "Testing isPrime(101)")
+            self.assertEqual(False, isPrime(1), "Testing isPrime(1)")
+            self.assertEqual(False, isPrime(0), "Testing isPrime(0)")
+            self.assertEqual(False, isPrime(-1), "Testing isPrime(-1)")
+            
+    myTests().main()

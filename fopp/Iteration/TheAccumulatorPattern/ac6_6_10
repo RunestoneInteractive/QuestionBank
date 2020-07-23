@@ -1,0 +1,25 @@
+.. activecode:: ac6_6_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TheAccumulatorPattern
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   Count the number of characters in string ``str1``. Do not use ``len()``. Save the number in variable ``numbs``.
+   ~~~~
+   str1 = "I like nonsense, it wakes up the brain cells. Fantasy is a necessary ingredient in living."
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testEight(self):
+         self.assertEqual(numbs, 90, "Testing that numbs is assigned to correct values.")
+         self.assertNotIn("len(", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

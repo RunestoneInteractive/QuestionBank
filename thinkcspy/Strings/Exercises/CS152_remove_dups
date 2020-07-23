@@ -1,0 +1,38 @@
+.. actex:: CS152_remove_dups
+    :author: John Cigas
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :practice: T
+    :autograde: unittest
+    :nocodelens:
+
+    Write a function called ``remove_dups(aString)`` that takes a string as an argument
+    and returns a string with with all consecutive occurrences of the same character in the string 
+    replaced by a single occurrence of that character. For example remove_dups("bbbeekeeper!!!!??") 
+    returns "bekeper!?".
+    ~~~~
+
+    def remove_dups(aString):
+        # your code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+         def testOne(self):
+             self.assertEqual(remove_dups("bbbeekeeper!!!??"),"bekeper!?","bbbeekeeper!!!??")
+             self.assertEqual(remove_dups("aaaaaaaaa"),"a","aaaaaaaaa")
+             self.assertEqual(remove_dups("b"),"b","b")
+             self.assertEqual(remove_dups("abcabbbccccabc"),"abcabcabc","abcabbbccccabc")
+             self.assertEqual(remove_dups("abababab"),"abababab","abababab")
+             self.assertEqual(remove_dups("aaaaaab"),"ab","aaaaaab")
+             self.assertEqual(remove_dups("baaaaaaaa"),"ba","baaaaaaaa")
+             self.assertEqual(remove_dups("baaaaaaaab"),"bab","baaaaaaaab")
+             self.assertEqual(remove_dups("baaaaaaaabbb"),"bab","baaaaaaaabbb")
+             self.assertEqual(remove_dups("baaaaaaaabc"),"babc","baaaaaaaabc")
+
+
+    myTests().main()

@@ -1,0 +1,21 @@
+.. activecode:: act_dict_hu_iseven_1
+    :author: Sean Joyce
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Functions/Exercises
+    :from_source: F
+
+    Define a Python function named ``isEven`` that takes one parameter, an integer, and returns ``True`` if that integer is even and ``False`` if that integer is odd.  Then, below it, define a Python function ``numEvens`` that takes a list of integers (of any length), and returns the number of even integers in that list. Your second function should invoke your first.
+    ~~~~
+    # replace this comment with your definition of function 'isEven'
+
+    # replace this comment with your definition of function 'isOdd'
+
+
+    # do *NOT* replace any of the code below; 
+    # you can use it to test your functions
+
+    aList = [1, 21, 53, 22, 0, 19, 22, 57, 48, 65]
+    bLIst = [15, 9, 6, 23]
+    print(numEvens(aList))    # this should print 4
+    print(numEvens(bList))    # this should print 1

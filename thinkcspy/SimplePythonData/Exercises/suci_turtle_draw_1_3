@@ -1,0 +1,11 @@
+
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. actex:: suci_turtle_draw_1_3
+
+   Use turtle to draw a face made of squares and rectangles with eyes, nose, mouth, ears and teeth
+   ~~~~
+   # put code here 

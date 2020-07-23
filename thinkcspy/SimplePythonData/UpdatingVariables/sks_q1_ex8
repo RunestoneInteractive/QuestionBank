@@ -1,0 +1,24 @@
+.. mchoice:: sks_q1_ex8
+   :author: Shishir Shah
+   :difficulty: 2.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/UpdatingVariables
+   :from_source: F
+   :answer_a: 12
+   :answer_b: -1
+   :answer_c: 11
+   :answer_d: An error occurs because x can never be equal to x - 1
+   :correct: e
+   :random:
+   :feedback_a: Thank you.  Your answer has been noted.
+   :feedback_b: Thank you.  Your answer has been noted.
+   :feedback_c: Thank you.  Your answer has been noted.
+   :feedback_d: Thank you.  Your answer has been noted.
+
+   [2 pts]. What is printed when the following statements execute?
+
+   .. code-block:: python
+
+     x = 12
+     x = x - 1
+     print(x)

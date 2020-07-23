@@ -1,0 +1,18 @@
+.. mchoice:: question14_1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter14/private_data_and_classes
+   :from_source: T
+   :multiple_answers:
+   :answer_a: getSuit
+   :answer_b: setRank
+   :answer_c: print
+   :answer_d: getRank
+   :correct: a,b,d
+   :feedback_a: Correct!
+   :feedback_b: Correct! "Setter" functions are also known as "mutator" functions.
+   :feedback_c: Incorrect!
+   :feedback_d: Correct!
+
+   Multiple Response: Which of the following are examples of accessor functions?

@@ -1,0 +1,29 @@
+.. activecode:: ac_ch13_01
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Classes/ChapterAssessment
+   :from_source: T
+   :practice: T
+   :topics: Classes/ImprovingourConstructor.rst
+   :tags: Classes/ImprovingourConstructor.rst
+
+   Define a class called ``Bike`` that accepts a string and a float as input, and assigns those inputs respectively to two instance variables, ``color`` and ``price``. Assign to the variable ``testOne`` an instance of ``Bike`` whose color is **blue** and whose price is **89.99**. Assign to the variable ``testTwo`` an instance of Bike whose color is **purple** and whose price is **25.0**.
+   ~~~~
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(testOne.color, "blue", "Testing that testOne has the correct color assigned.")
+         self.assertEqual(testOne.price, 89.99, "Testing that testOne has the correct price assigned.")
+
+      def testTwo(self):
+         self.assertEqual(testTwo.color, "purple", "Testing that testTwo has the correct color assigned.")
+         self.assertEqual(testTwo.price, 25.0, "Testing that testTwo has the correct color assigned.")
+
+   myTests().main()

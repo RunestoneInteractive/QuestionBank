@@ -1,0 +1,24 @@
+.. activecode:: TL_365_ex_2_11
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+	       
+   Optional. Write a program that will compute the area of a
+   rectangle. Prompt the user to enter the width and height of the
+   rectangle and store the values in variables called ``width`` and
+   ``height``. Print a nice message with the answer.
+   
+   ~~~~
+   ====
+   
+   from unittest.gui import TestCaseGui
+   class myTests(TestCaseGui):
+       def testOne(self):
+	   self.assertIn('width', self.getEditorText())
+	   self.assertIn('height', self.getEditorText())
+           self.assertIn(str(width*height), self.getOutput(), 'Checking answer.')
+   myTests().main()

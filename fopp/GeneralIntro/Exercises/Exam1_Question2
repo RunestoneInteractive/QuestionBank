@@ -1,0 +1,16 @@
+.. activecode:: Exam1_Question2
+    :author: Jane Weyant
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :language: python
+    
+
+    Write one for loop to print out each character in the string team on a separate line.
+    ~~~~
+    team = "REDSOX"
+    #Enter your code below
+    =====
+
+  

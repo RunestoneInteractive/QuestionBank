@@ -1,0 +1,24 @@
+.. activecode:: math_functions_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/MathFunctions
+   :from_source: T
+   :language: cpp
+   :caption: What's Missing?
+
+   There is one statement missing in the program below. Add it in so
+   that the program complies.
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   int main () {
+       double pi = acos(-0.5);
+       double degrees = 45;
+       double angle = degrees * 2 * pi / 360.0;
+       cout << pi << endl;
+       cout << degrees << endl;
+       cout << angle << endl;
+       return 0;
+   }

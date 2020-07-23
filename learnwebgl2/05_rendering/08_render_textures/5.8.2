@@ -1,0 +1,38 @@
+.. mchoice:: 5.8.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 05_rendering/08_render_textures
+  :from_source: T
+  :random:
+  :answer_a: Yes, the exact structure of the model data is arbitrary.
+  :answer_b: No, there is only one way to define model data.
+  :answer_c: Yes, but it would be very confusing.
+  :answer_d: No, model data must be defined in arrays of arrays.
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect. There are many, many ways.
+  :feedback_c: Incorrect. There is no confusion if you did it that way for a reason!
+  :feedback_d: Incorrect. Using arrays of arrays might make the data more structured, but it is not required.
+
+  The :code:`SimpleModel4` function in the above WebGL program uses a
+  array of arrays to define the data for each vertex like this:
+
+  .. Code-block:: Javascript
+
+    vertices = [  [ [ 0.0, -0.25, -0.50], [1, 0, 0, 1], [2.0, 0.0] ],
+                  [ [ 0.0,  0.25,  0.00], [0, 1, 0, 1], [0.5, 1.0] ],
+                  [ [ 0.5, -0.25,  0.25], [0, 0, 1, 1], [1.0, 0.0] ],
+                  [ [-0.5, -0.25,  0.25], [1, 0, 1, 1], [0.0, 0.0] ]
+               ];
+
+  Could you have defined the vertex data using a single array for each vertex like this:
+
+  .. Code-block:: Javascript
+
+    vertices = [  [ 0.0, -0.25, -0.50,   1, 0, 0, 1,  2.0, 0.0 ],
+                  [ 0.0,  0.25,  0.00,   0, 1, 0, 1,  0.5, 1.0 ],
+                  [ 0.5, -0.25,  0.25,   0, 0, 1, 1,  1.0, 0.0 ],
+                  [ -0.5, -0.25,  0.25,  1, 0, 1, 1,  0.0, 0.0 ]
+               ];
+

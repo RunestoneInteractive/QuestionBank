@@ -1,0 +1,26 @@
+.. mchoice:: 1-9-10-B
+   :author: Beryl Hoffman
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :practice: T
+   :answer_a: a = 1.0, b = 2.0, c = 2.0
+   :answer_b: a = 0.0, b = 0.0, c = 1.0
+   :answer_c: a = 1.0, b = 1.0, c = 2.0
+   :answer_d: a = 2.0, b = 2.0, c = 3.0
+   :correct: c
+   :feedback_a: a is correct, but b is not.
+   :feedback_b: Note that a++ changes the value of a.
+   :feedback_c: Correct!
+   :feedback_d: Note that b and c change in value.
+
+   What are the values of a, b, and c after the following code executes?
+
+   .. code-block:: java
+
+    double a = 0, b = 2, c = 3;
+    a++;
+    b = a;
+    c = b;
+    c++;

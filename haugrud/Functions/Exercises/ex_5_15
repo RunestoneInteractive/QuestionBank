@@ -1,0 +1,22 @@
+.. activecode:: ex_5_15
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: haugrud
+   :topic: Functions/Exercises
+   :from_source: None
+
+   def sumTo(n):
+       # your code here
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+          self.assertEqual(sumTo(15),120,"Tested sumTo on input 15")
+          self.assertEqual(sumTo(0),0,"Tested sumTo on input 0")
+          self.assertEqual(sumTo(25),325,"Tested sumTo on input 25")
+          self.assertEqual(sumTo(7),28,"Tested sumTo on input 7")
+
+   myTests().main()

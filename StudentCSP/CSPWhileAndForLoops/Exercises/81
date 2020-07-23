@@ -1,0 +1,47 @@
+.. parsonsprob:: 81
+    :author: Renske Weeda
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [81] De afgelopen dagen is de temperatuur bijgehouden. Het volgende programma moet afdrukken hoek vaak de hoogste temperatuur bereikt is. Maar de blokken staan in de verkeerde volgorde. Er staat 1 overbodige regel code tussen. Sleep de benodigde code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    temp_lijst = [23, 29, 28, -4, 10, 0, 8, 30, 30, 30, 29, 30]
+    max = temp_lijst[0]
+    =====
+    temp_lijst = [23, 29, 28, -4, 10, 0, 8, 30, 30, 30, 29, 30]
+    max = 0 #paired
+    =====
+    for temperature in temp_lijst:
+    =====
+        if temperature > max:
+    =====
+        if temperature < max: #paired
+    =====
+            max = temperature
+    =====
+            temperature = max #paired
+    =====
+    teller = 0
+    =====
+    for temperature in temp_lijst:
+    =====
+        if temperature == max:
+    =====
+        if temperature == teller: #paired
+    =====
+            teller += 1
+    =====
+            max += 1 #paired
+    =====
+    print(teller)
+    =====
+    print(max) #paired
+    =====
+    temperature = 0 #distractor
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div

@@ -1,0 +1,28 @@
+.. actex:: ex_8_6_PT
+   :author: pranoj thapa
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :practice: T
+   :autograde: unittest
+   :nocodelens:
+
+   def mirror(mystr):
+       # your code here
+
+   ====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(mirror("good"),"gooddoog","Tested mirror on input of 'good'")
+           self.assertEqual(mirror("Python"),"PythonnohtyP","Tested mirror on input of 'Python'")
+           self.assertEqual(mirror(""),"","Tested mirror on input of ''")
+           self.assertEqual(mirror("a"),"aa","Tested mirror on input of 'a'")
+           self.assertEqual(mirror("123"),"123321","Tested mirror on input of '123'")
+           self.assertEqual(mirror("StresseD"),"StresseDDessertS","Tested mirror on input of 'StresseD'")
+
+
+   myTests().main()

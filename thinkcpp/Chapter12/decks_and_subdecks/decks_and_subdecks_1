@@ -1,0 +1,17 @@
+.. mchoice:: decks_and_subdecks_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter12/decks_and_subdecks
+   :from_source: T
+   :answer_a: It uses binary search to locate the card in the deck.
+   :answer_b: If the program user plays by the rules, we can think of deck, low, and high abstractly as a subdeck.
+   :answer_c: It can only access the part of the deck that is between the bounds high and low.
+   :answer_d: There is no such thing as an empty object.
+   :correct: c
+   :feedback_a: This is true. Binary search is very efficient.
+   :feedback_b: This is true. If the user doesn't follow the rules, we might be in trouble.
+   :feedback_c: This is false! findBisect() can access the entire deck, even when you pass high and low parameters.
+   :feedback_d: This is true.  When you create an object, it is given default values.
+
+   Which is false about the ``findBisect()`` funtion?

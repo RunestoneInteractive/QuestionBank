@@ -1,0 +1,15 @@
+.. activecode:: ch08_ord3
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Strings/StringComparison
+    :from_source: None
+
+    print(chr(65))
+    print(chr(66))
+
+    print(chr(49))
+    print(chr(53))
+
+    print("The character for 32 is", chr(32), "!!!")
+    print(ord(" "))

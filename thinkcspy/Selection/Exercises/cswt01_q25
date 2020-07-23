@@ -1,0 +1,14 @@
+.. mchoice:: cswt01_q25
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+   :answer_a: 20
+   :answer_b: 1 million
+   :answer_c: 42
+   :answer_d: Several thousand
+   :correct: a
+   :random:
+
+   Hercules is still battling the robotic hydra. The hydra's central computer has to communicate with each of its heads, and therefore has to assign each head a unique id number. How many bits will the hydra need for this purpose when it has a million heads?

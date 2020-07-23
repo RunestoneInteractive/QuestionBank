@@ -1,0 +1,10 @@
+.. codelens:: chp12_dict2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Dictionaries/intro-Dictionaries
+    :from_source: None
+
+
+    eng2sp = {'three': 'tres', 'one': 'uno', 'two': 'dos'}
+    print(eng2sp)

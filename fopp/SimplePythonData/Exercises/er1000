@@ -1,0 +1,12 @@
+.. activecode:: er1000
+    :author: Eric Reed
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+
+
+    Write a program that asks for the user's name and age (in years),
+    then tells the user how old they are in days.  Don't worry about
+    leap year.
+    ~~~~

@@ -1,0 +1,11 @@
+.. activecode:: ch02_5
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: SimplePythonData/ValuesandDataTypes
+    :from_source: None
+    :nocanvas:
+
+    print('''"Oh no", she exclaimed, "Ben's bike is broken!"''')
+
+

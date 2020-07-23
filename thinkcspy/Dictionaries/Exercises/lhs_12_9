@@ -1,0 +1,27 @@
+.. activecode:: lhs_12_9
+    :author: LHS CS Team
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Create a list of the countries that are in the dictionary ``golds``, and assign
+    that list to the variable name ``countries``. Do not hard code this. 
+
+    ~~~~   
+    golds = {"Italy": 12, "USA": 33, "Brazil": 15, "China": 27, "Spain": 19, "Canada": 22, "Argentina": 8, "England": 29}
+    
+    # your code here to create the list countries from the golds dictionary.
+        
+    ====
+    
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertEqual(sorted(countries), sorted(["Italy", "USA", "Brazil", "China", "Spain", "Canada", "Argentina", "England"]), "Testing that countries has been created correctly.")
+
+    myTests().main()

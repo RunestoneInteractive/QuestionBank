@@ -1,0 +1,22 @@
+.. mchoice:: 2-13-6A-GREA
+   :author: Adam Gregson
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: Uni
+   :answer_b: ni
+   :answer_c: iv
+   :answer_d: iver
+   :answer_e: You will get an index out of bounds exception
+   :correct: c
+
+   What is the output from the following code?
+
+   .. code-block:: java
+
+    String s = "University of California, San Diego";
+    String s1 = s.substring(0, 11);
+    String s2 = s1.substring(0, 5);
+    String s3 = s2.substring(2, 4);
+    System.out.println(s3);

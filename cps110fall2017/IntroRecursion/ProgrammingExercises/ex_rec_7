@@ -1,0 +1,11 @@
+.. actex:: ex_rec_7
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+   :nocodelens:
+
+   Using the turtle graphics module, write a recursive program to
+   display a Hilbert curve.
+   ~~~~

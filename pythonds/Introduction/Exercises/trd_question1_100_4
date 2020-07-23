@@ -1,0 +1,19 @@
+.. parsonsprob:: trd_question1_100_4
+   :author: Majid Rouhani
+   :difficulty: 1.0
+   :basecourse: pythonds
+   :topic: Introduction/Exercises
+   :from_source: F
+
+   Construct a block of code that correctly implements the recursive function for calcuating the factorial.
+   -----
+	def factorial(n):
+		print("factorial has been called with n = " + str(n))
+		if n == 1:
+			return 1
+		else:
+			res = n * factorial(n-1)
+			print("intermediate result for ", n, " * factorial(" ,n-1, "): ",res)
+			return res	
+
+	print(factorial(5))

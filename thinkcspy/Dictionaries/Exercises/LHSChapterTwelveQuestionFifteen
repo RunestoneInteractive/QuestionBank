@@ -1,0 +1,96 @@
+.. activecode:: LHSChapterTwelveQuestionFifteen
+    :author: Wesley Thang
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``add_sparse_matrix(m1, m2)`` that takes as input two sparse matrices and adds them.
+    To add matrices, you add the corresponding row/col elements in the matrix.  You may assume that both 
+    matrices are the same size. 
+
+    Both ``m1`` and ``m2`` are sparse matrices that are defined within using a Python dictionary. 
+    A (row, col) tuple is the key for any non-zero value in the
+    matrix. The associated key-value will be an integer representing the value of the matrix at (row, col).
+    There is also a 'size' key in the dictionary whose value is a (row, col) tuple that indicates the
+    size of the matrix.
+    
+    The function should **return** a matrix (as a dictionary as described below). **Remember** to set up the
+    new matrix dictionary with the 'size' key-value as well as any other non-zero value.
+
+    Here is an example sparse matrix: ``m = {'size':(3,2), (0,0):1, (2,1):4 }``. The size is 3 x 2. Element (0,0) is 1 and element (2,1) is 4.
+    
+    ~~~~
+        
+    def add_sparse_matrix(m1, m2):
+        # your code here
+
+    def main():
+        # your test code here
+    
+    if __name__ == "__main__":
+        main()
+        
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _golden(self, m1, m2):
+            m = {}
+            (row, col) = m1['size']       
+            m['size'] = (row, col)
+            for r in range(row):
+                for c in range(col):
+                    x = m1.get((r, c), 0) + m2.get((r, c), 0)
+                    if x != 0:
+                        m[(r, c)] = x
+            return(m)
+        
+        def _cmp_sparse_matrix(self, m1, m2):
+            match = True
+            
+            (row, col) = m1.get('size', (0,0))   
+            (row2, col2) = m2.get('size', (0,0))
+            if (row != row2) or (col != col2):
+                match = False
+                
+            for r in range(row):
+                for c in range(col):
+                    if (m1.get((r,c),0) != m2.get((r,c),0)):
+                        match = False
+            return(match)
+    
+        def testOne(self):
+            SelfTest_OFF = False
+            if (SelfTest_OFF):
+                self.assertEqual(0,1,"Self-Checking if OFF - you must check program yourself for now")
+                return
+            
+            print('Auto-testing...')
+    
+            m1 = {'size':(3,6), (0,0): 3, (1,1): 5, (2,2):7 }
+            m2 = {'size':(3,6), (0,0): 4, (1,0): 6, (2,0):8 }
+            m3 = {'size':(3,6) }
+            
+            m4 = {'size':(6,1), (5,0): 4 }
+            m5 = {'size':(6,1), (1,0): 3 }
+            
+            m6 = {'size':(1,8), (0,7): 1 }
+            m7 = {'size':(1,8), (0,2): 4 }
+    
+            tests = [ (m1, m2),
+                      (m2, m3),
+                      (m4, m5),
+                      (m6, m7)
+                    ]
+    
+            num=0
+            for t in tests:
+                o1 = add_sparse_matrix(t[0], t[1])
+                o2 = self._golden(t[0], t[1])
+                self.assertEqual(self._cmp_sparse_matrix(o1, o2), True, 'test case ' + str(num) )
+                num += 1
+    
+    myTests().main()

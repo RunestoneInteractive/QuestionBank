@@ -1,0 +1,14 @@
+.. mchoice:: sks_rev_5
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: def  print_something(s): 
+   :answer_b: def my_function(b, c+d):
+   :answer_c: def print_num(c)
+   :answer_d: def  compute_sum(a,b,c):
+   :correct: a, d
+
+   Which of the following are correct function definition beginnings?
+    

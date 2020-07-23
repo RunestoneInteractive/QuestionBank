@@ -1,0 +1,62 @@
+.. mchoice:: AP5-5-3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csawesome
+    :topic: Unit5-Writing-Classes/Exercises
+    :from_source: T
+    :practice: T
+    :random:
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+            private int currentTemp;
+
+            public Liquid(int temp)
+            {
+                currentTemp = temp;
+            }
+
+            public int getTemp()
+            {
+              return currentTemp;
+            }
+
+            public void resetTemp(int new_temp)
+            {
+                currentTemp = new_temp;
+            }
+        }
+
+    Consider the following code segment, which appears in a method in a class other than Liquid. The code segment does not compile.
+
+    .. code-block:: java
+
+        Liquid liq = new Liquid(50);
+        System.out.println("The temperature of the liquid is " + liq.currentTemp);
+
+    Which of the following best identifies the reason the code segment does not compile?
+
+    - The Liquid class constructor should not have a parameter.
+
+      - The constructor does have a parameter.
+
+    - The resetTemperature method does not return a value that can be printed.
+
+      - This is a void mutator method.
+
+    - The private instance variable cannot be accessed from outside the class unless the accessor method is used.
+
+      + Correct! The currentTemp instance variable is private and cannot be accessed outside of the class but the public accessor method getTemp() can be used instead.
+
+    - The getTemp method cannot be called from outside the Liquid class.
+
+      - The getTemp accessor method should be used from outside the class.
+
+    - currentTemp does not have a value.
+
+      - currentTemp is initialized to a value by the constructor but it is private and cannot be accessed outside the class.
+

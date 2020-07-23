@@ -1,0 +1,24 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+.. activecode:: KDL_ch12_2
+   :autograde: unittest
+   :language: python
+
+   Write a function ``root`` that returns the yth root of a number.  The function should accept two values. The first value will be the number you are taking the root of and the second should be the value "y" used in the root. For example for 16 and 2: You would do the square root of 16 which should get 4. Another example 729 and 6 should get 3. 
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertEqual(int(root(128,7)), 2, "Testing the root function on input 128,7.")
+           
+   myTests().main()   

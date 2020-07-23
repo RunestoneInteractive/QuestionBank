@@ -1,0 +1,9 @@
+.. activecode:: repref1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Lists/RepetitionandReferences
+    :from_source: None
+
+    origlist = [45, 76, 34, 55]
+    print(origlist * 3)

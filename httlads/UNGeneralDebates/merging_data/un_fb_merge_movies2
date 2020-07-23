@@ -1,0 +1,13 @@
+.. fillintheblank:: un_fb_merge_movies2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: UNGeneralDebates/merging_data
+   :from_source: T
+
+   Which genre has the most movies? |blank|
+
+   - :Drama: Is the correct answer
+     :Comedy: Is in second place
+     :x: Hint:  Use a groupby on the genres data frame
+

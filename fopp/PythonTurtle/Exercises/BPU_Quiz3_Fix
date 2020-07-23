@@ -1,0 +1,19 @@
+.. activecode:: BPU_Quiz3_Fix
+   :author: Jane Weyant
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :coach:
+   
+   Fix any errors in the following code.  Your output should be a backwards C!
+   ~~~~
+   import turtle
+   wn = turtle.Screen()
+   yoda = Turtle.turtle()
+
+   Yoda.forward(50))
+   Yoda.right(90)
+   Yoda.forward(50))
+   Yoda.right(90)
+   Yoda.forward(50))

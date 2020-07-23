@@ -1,0 +1,18 @@
+.. mchoice:: cswq1_9
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: x-y-z
+   :answer_b: _x_y_z
+   :answer_c: x1y2z3
+   :answer_d: xyz_123
+   :correct: a
+   :random:
+   :feedback_a: That's right - x-y-z is not a valid variable name
+   :feedback_b: No; a variable name can start with underscore and include underscores and letters
+   :feedback_c: No; a variable name can't start with a digit but can have digits and letters after the first character
+   :feedback_d: No; a variable name can include letters, underscores, and digits (but can't start with a digit)
+
+   Which of the following is not a valid variable name?

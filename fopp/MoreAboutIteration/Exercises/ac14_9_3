@@ -1,0 +1,19 @@
+.. actex:: ac14_9_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: MoreAboutIteration/Exercises
+   :from_source: T
+
+   Using a while loop, create a list called ``nums`` that contains the numbers 0 though 20. (i.e: your while looop should initialize a counter variable on 0. During each iteration, the loop should append the current value of the counter variable to ``nums`` and then increase the counter by 1. The while loop should stop once the counter variable is greater than 20)
+   ~~~~
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(nums, [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],"Testing that nums has been assigned the correct elements")
+
+   myTests().main()

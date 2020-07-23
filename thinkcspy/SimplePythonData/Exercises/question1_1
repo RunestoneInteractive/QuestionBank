@@ -1,0 +1,23 @@
+.. mchoice:: question1_1
+    :author: Yavor Atov
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :correct: a
+    :answer_a: int
+    :answer_b: float
+    :answer_c: str
+    :answer_d: NoneType
+    :answer_e: bool
+    :feedback_a: Правилно!
+    :feedback_b: Грешно!
+    :feedback_c: Грешно!
+    :feedback_d: Грешно!
+    :feedback_e: Грешно!
+
+    Какъв е типът на израза?
+
+    .. code-block:: python
+
+        >>> -34

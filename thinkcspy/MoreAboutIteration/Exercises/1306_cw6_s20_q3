@@ -1,0 +1,59 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_cw6_s20_q3
+
+    **Question 3 [40 points]** 
+
+    You are asked to develop a cash register for a fruit shop that sells oranges and apples. The program first asks the name of the shopowner, and the price of oranges and apples.
+    
+    Subsequently, the program will repeatedly ask the name of the customer and the number of oranges and apples they would like to buy. And then print a summary of what they bought along with the bill as illustrated in the session below. The program will stop when the shopowner's name is entered and print the total sales for the day:
+
+    ::
+
+         Hi Fruit Seller, what is your name?
+         Juanita
+         What is the price of an Orange today?
+         1.40
+         What is the price of an Apple today?
+         .75
+
+         Oranges are $1.40 each. Apples are $.75 each.
+
+         Who is the next customer?
+         Harry
+         Oranges are $1.40 each. How many Oranges?
+         1
+         Apples are $.75 each. How many Apples?
+         2
+         Harry, you bought 1 Oranges and 2 Apples
+         Your bill is $2.90
+
+
+         Who is the next customer?
+         Sandy
+         Oranges are $1.40 each. How many Oranges?
+         10
+         Apples are $.75 each. How many Apples?
+         4
+         Sandy, you bought 10 Oranges and 4 Apples
+         Your bill is $17.0
+
+         Who is the next customer?
+         Juanita
+
+         Juanita, it is time to close the store.
+         We sold 11 Oranges and 6 Apples for a toal of $19.90
+
+    
+   
+    ~~~~
+    # Write your code here
+
+    
+
+
+  

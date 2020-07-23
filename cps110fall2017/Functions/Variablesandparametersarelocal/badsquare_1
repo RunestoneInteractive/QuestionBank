@@ -1,0 +1,14 @@
+.. activecode:: badsquare_1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Functions/Variablesandparametersarelocal
+    :from_source: None
+
+    def badsquare(x):
+        y = x ** power
+        return y
+
+    power = 2
+    result = badsquare(10)
+    print(result)

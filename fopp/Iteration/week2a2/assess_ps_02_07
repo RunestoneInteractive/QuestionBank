@@ -1,0 +1,30 @@
+.. activecode:: assess_ps_02_07
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Iteration/week2a2
+    :from_source: T
+    :language: python
+    :autograde: unittest
+    :practice: T
+    :topics: Iteration/TraversalandtheforLoopByIndex
+
+    ``addition_str`` is a string with a list of numbers separated by the ``+`` sign. Write code that uses the accumulation pattern to take the sum of all of the numbers and assigns it to ``sum_val`` (an integer). (You should use the ``.split("+")`` function to split by ``"+"`` and ``int()`` to cast to an integer).
+
+    ~~~~
+    addition_str = "2+5+10+20"
+
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+           self.assertEqual(sum_val, 37, "Testing whether sum_val has the correct value")
+           self.assertIn('split', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+           self.assertIn('int', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+    myTests().main()
+

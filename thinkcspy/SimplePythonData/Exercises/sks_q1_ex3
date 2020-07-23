@@ -1,0 +1,23 @@
+.. mchoice:: sks_q1_ex3
+   :author: Shishir Shah
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: Syntax Error
+   :answer_b: Runtime Error
+   :answer_c: Logic Error
+   :answer_d: No Error
+   :correct: e
+   :random:
+   :feedback_a: Thank you.  Your answer has been noted.
+   :feedback_b: Thank you.  Your answer has been noted.
+   :feedback_c: Thank you.  Your answer has been noted.
+   :feedback_d: Thank you.  Your answer has been noted.
+
+
+   [2 pts]. Please see the following program written to compute tax on an entered amount.  Which of the following is true?  The program has a::
+
+      value = float(input ("How many dollars? "))
+      tax = input ("what percent?")
+      print ("You Pay", value*(tax/100))

@@ -1,0 +1,27 @@
+.. activecode:: rab_lab_ex_06_03p5
+   :author: Richard Bernatz
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+   :nocodelens:
+
+    Use this active code window for lab activity 3.5 in Chapter 6. Refer to the course web page for instructions.
+   ~~~~
+   # your name
+   def row_seat(ticket_number):
+    
+    
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(row_seat(1), (1, 1), "Tested ticket_number = 1, giving row 1 and seat 1")
+           self.assertEqual(row_seat(800), (20, 40), "Tested ticket_number = 800, giving row 20 and seat 40")
+           self.assertEqual(row_seat(356), (9, 36), "Tested ticket_number = 356, giving row 9 and seat 36")
+           self.assertEqual(row_seat(199), (5, 39), "Tested ticket_number = 199, giving row 5 and seat 39")
+           
+          
+   myTests().main()  
+    

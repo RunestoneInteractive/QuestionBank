@@ -1,0 +1,10 @@
+.. activecode:: ch02_7
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: SimplePythonData/ValuesandDataTypes
+    :from_source: None
+    :nocanvas:
+
+    print('This is a string.')
+    print("""And so is this.""")

@@ -1,0 +1,13 @@
+.. activecode:: ac2_5_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: SimplePythonData/DataTypes
+    :from_source: T
+    :nocanvas:
+
+    print(type('This is a string.'))
+    print(type("And so is this."))
+    print(type("""and this."""))
+    print(type('''and even this...'''))
+

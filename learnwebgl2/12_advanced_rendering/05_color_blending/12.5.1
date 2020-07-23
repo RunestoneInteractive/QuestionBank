@@ -1,0 +1,26 @@
+.. mchoice:: 12.5.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 12_advanced_rendering/05_color_blending
+  :from_source: T
+  :random:
+
+  Which of the following settings for blending produces transparency?
+
+  - :code:`gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)`
+
+    + Correct. The source color's amount is controlled by the source alpha's value,
+      and the remaining percentage is used for the color already in the *color buffer*.
+
+  - :code:`gl.blendFunc(gl.ONE_MINUS_SRC_ALPHA, gl.SRC_ALPHA)`
+
+    - Incorrect. The blending factors are reversed.
+
+  - :code:`gl.blendFunc(gl.SRC_ALPHA, gl.DST_ALPHA)`
+
+    - Incorrect.
+
+  - :code:`gl.blendFunc(gl.SRC_COLOR, gl.DST_COLOR)`
+
+    - Incorrect. This would add the colors, not blend them.

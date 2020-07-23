@@ -1,0 +1,23 @@
+.. mchoice:: qamed_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: ArrayBasics/aMedMC
+   :from_source: T
+   :answer_a: The value in <code>b[0]</code> does not occur anywhere else in the array
+   :answer_b: Array <code>b</code> is sorted
+   :answer_c: Array <code>b</code> is not sorted
+   :answer_d: Array <code>b</code> contains no duplicates
+   :answer_e: The value in <code>b[0]</code> is the smallest value in the array
+   :correct: a
+   :feedback_a: The assertion denotes that <code>b[0]</code> occurs only once, regardless of the order or value of the other array values.
+   :feedback_b: The array does not necessarily need to be in order for the assertion to be true.
+   :feedback_c: We can't tell if it is sorted or not from this assertion.
+   :feedback_d: The only value that must not have a duplicate is <code>b[0]</code>
+   :feedback_e: <code>b[0]</code> can be any value, so long as no other array element is equal to it.
+
+   Which of the following statements is a valid conclusion. Assume that variable ``b`` is an array of ``k`` integers and that the following is true:
+
+   .. code-block:: java
+
+     b[0] != b[i] for all i from 1 to k-1

@@ -1,0 +1,33 @@
+.. activecode:: IT105_AY182_TEE_02
+    :author: Tom Babbitt
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+    
+    During the course of the term we have discussed values like a word or a number.  We have also called these values objects and have used the terms interchangeable.  You have also learned that objects can be classified by data types.
+    
+    For each of the following variables (which have value assigned), write a python statement that displays the variable's data type. 
+    
+   
+    ~~~~
+    input1 = 3
+    input2 = 4.5
+    input3 = True
+    input4 = "IT105 Rocks!"
+
+    # your code goes here
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+       
+       def testOne(self):
+          outText = self.getOutput()
+          #print (output)     
+          self.assertTrue(True, "Found the float type")
+    
+    myTests().main()

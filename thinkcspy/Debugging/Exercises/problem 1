@@ -1,0 +1,12 @@
+.. activecode:: problem 1
+    :author: David Birrow
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Debugging/Exercises
+    :from_source: F
+    :language: python
+
+    Write a program that computes an annual salary for a job. Make it general enough that it could work with part time or full time and any hourly wage. Assume the employee works 52 weeks a year. 
+    ~~~~
+    
+    # your code here

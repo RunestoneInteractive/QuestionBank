@@ -1,0 +1,14 @@
+.. dragndrop:: h1_q1
+    :author: Irma Ravkic
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :match_1: a|||variable (name)
+    :match_2: =|||assignment
+    :match_3: square|||function name
+    :match_4: square(3)|||function call
+    :match_5: square(3) + 1|||10
+
+    Match each component of the expression a = square(3) + 1 with the right box on the right.
+    

@@ -1,0 +1,27 @@
+.. mchoice:: AP2-1-2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: An attribute of the myParty object is boolean.
+   :answer_b: An attribute of the Party class is myParty.
+   :answer_c: An instance of the Party class is myParty.
+   :answer_d: An attribute of the Party instance is myParty.
+   :answer_e: An instance of the Party object is numOfPeople.
+   :correct: c
+   :feedback_a: An attribute of myParty is numOfPeople.
+   :feedback_b: myParty is an instance of the Party class.
+   :feedback_c: myParty is an object that is an instance of the Party class.
+   :feedback_d: An attribute of the Party class is numOfPeople.
+   :feedback_e: An attribute of the Party class is numOfPeople.
+
+    A student has created a ``Party`` class. The class contains variables to represent the following.
+    - An int variable called ``numOfPeople`` to represent the number of people at the party.
+    - A boolean variable called ``discoLightsOn`` to represent whether the disco ball is on.
+    - A boolean variable called ``partyStarted`` to represent whether the party has started.
+
+    The object ``myParty`` is declared as type Party. Which of the following descriptions is accurate?
+
+

@@ -1,0 +1,23 @@
+.. activecode:: 1306_hw1_f19_q3
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   [20 pts] In problem 3 of Classwork-2 you developed a Python program that takes integers ``N`` and ``Start`` as input and computes the arithmetic average of numbers ``[Start, Start+1, Start+2…Start+N-1]`` and prints the result.
+   
+   
+   Extend this program so that it also prints the harmonic mean of the same numbers. 
+   Recall Harmonic mean ``Mh`` of ``[ k1,k2,k3,….kn]`` is defined as follows: 
+   
+   
+   ``Mh  =  n/(1/k1 + 1/k2 +1/k3+…1/kn)``
+
+   `Hints:`
+ 
+   `Must use for loops and range function to solve this question`
+
+
+   ~~~~
+   # Write your program here

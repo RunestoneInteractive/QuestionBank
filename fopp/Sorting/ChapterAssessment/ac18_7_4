@@ -1,0 +1,26 @@
+.. activecode:: ac18_7_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sorting/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Sorting/SortingaDictionary
+
+   Given the same dictionary, ``medals``, now sort by the medal count. Save the three countries with the highest medal count to the list, ``top_three``.
+   ~~~~
+
+   medals = {'Japan':41, 'Russia':56, 'South Korea':21, 'United States':121, 'Germany':42, 'China':70}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testThree(self):
+         self.assertEqual(top_three, sorted(medals, key = lambda x: medals[x], reverse = True)[:3], "Testing that top_three value is assigned to correct values.")
+
+   myTests().main()

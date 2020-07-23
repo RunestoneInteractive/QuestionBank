@@ -1,0 +1,25 @@
+.. mchoice:: e16a17_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPStringPieces/exam16a17
+   :from_source: T
+   :answer_a: 10 and -1
+   :answer_b: 5 and 2
+   :answer_c: 10 and 4
+   :answer_d: 5 and 1
+   :correct: b
+   :feedback_a: This would be true if we were using index 2 everywhere instead of index 1.
+   :feedback_b: Since arrays indicies start at 0 this will print the 2nd element of a which is 5 and then add one to the second element of b which is 1 and print it.
+   :feedback_c: This would be true if we were using index 0 everywhere instead of index 1.
+   :feedback_d: This would be true if we hand't added 1 to b[1] before printing it.
+
+   What is the output from the code below?
+
+   ::
+
+      a = [10,5,10,6]
+      print (a[1])
+      b = [3,1,-2]
+      b[1] = b[1] + 1
+      print (b[1])

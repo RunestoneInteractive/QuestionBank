@@ -1,0 +1,13 @@
+.. fillintheblank:: sql_join_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/joining_SQL
+   :from_source: F
+
+   What is the name of the station where the most rides end?
+
+   - :Massachusetts Ave & Dupont Circle NW: Is the correct answer - That must be a very busy station!
+     :Anacostia Ave & Benning Rd NE / River Terrace: Is feedback on a specific incorrect
+     :x: catchall feedback
+

@@ -1,0 +1,31 @@
+.. parsonsprob:: vars_types_p1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/mixedUpCode
+   :from_source: T
+
+   Construct a block of code that prints: "Lions &" one the first line,
+   "Tigers & Bears!" on the second line, and "Oh my!" on the FOURTH line.
+
+   -----
+   int main() {
+   =====
+    cout << "Lions &" << endl;
+   =====
+    cout << "Lions &"; #paired
+   =====
+    cout << "Tigers &";
+   =====
+    cout << "Tigers &" << endl; #paired
+   =====
+    cout << " Bears!" << endl;
+   =====
+    cout << "Bears!" << endl; # paired
+   =====
+    cout << endl;
+   =====
+    cout << Oh my!
+   =====
+   }
+

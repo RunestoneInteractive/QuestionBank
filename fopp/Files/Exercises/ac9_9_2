@@ -1,0 +1,22 @@
+.. actex:: ac9_9_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Files/Exercises
+   :from_source: T
+   :nocodelens:
+   :available_files: travel_plans.txt
+
+   Create a list called ``destination`` using the data stored in ``travel_plans.txt``. Each element of the list should contain a line from the file that lists a country and cities inside that country. Hint: each line that has this information also has a colon ``:`` in it.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFour(self):
+         self.assertEqual(destination, ['Italy: Rome\n', 'Greece: Athens\n', 'England: London, Manchester\n', 'France: Paris, Nice, Lyon\n', 'Spain: Madrid, Barcelona, Granada\n', 'Austria: Vienna\n'], "Testing that destination is assigned to correct values.")
+
+   myTests().main()

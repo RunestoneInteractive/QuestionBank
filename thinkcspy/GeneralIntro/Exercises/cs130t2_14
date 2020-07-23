@@ -1,0 +1,18 @@
+.. mchoice:: cs130t2_14
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 3
+   :answer_b: 0
+   :answer_c: Error
+   :answer_d: 4
+   :correct: a
+   :random:
+
+   14. What does the following code print? ::
+
+      s = "Pease porridge hot, Pease porridge cold, Pease porridge in the pot nine days old."
+      word_list = s.split()
+      print(word_list.count("porridge"))

@@ -1,0 +1,32 @@
+.. parsonsprob:: functions_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter6/functions
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Create a function called ``absoluteValue``, which returns the absolute value of a parameter ``num``. Assume you do not have access to ``#include <cmath>``.
+   -----
+   int absoluteValue (int num) {
+   =====
+   void absoluteValue (int num) { #distractor
+   =====
+   int absoluteValue (int num) #distractor
+   =====
+   void absoluteValue (int num) #distractor
+   =====
+     if (num > 0) {
+   =====
+       return num;
+     }
+   =====
+     else {
+   =====
+       int absNum = -(num);
+   =====
+       return absNum;
+     }
+   }
+

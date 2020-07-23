@@ -1,0 +1,51 @@
+.. activecode:: sks_cw3_ex3
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+
+   [40 pts] Write a function ``linear(m,b)`` that prints out the (x,y) values for the function y = mx + b. Inside your function, use a ``for`` loop to generate the values for x to be integers from -10 to 10. Then have your function evaluate the formula y = mx+b for all the values x. Your function should print all 21 pairs of (x, y) values.
+   If we were to graph the values of y vs. x, they would lie on a straight line with slope m and y-intercept b.
+
+    Example:
+
+    ::
+
+      You run your program>>
+
+      Enter a slope: 2  
+      Enter a y-intercept: -1
+
+      Your program prints>>
+
+      -10.0 -21.0
+      -9.0 -19.0
+      -8.0 -17.0
+      -7.0 -15.0
+      -6.0 -13.0
+      -5.0 -11.0
+      -4.0 -9.0
+      -3.0 -7.0
+      -2.0 -5.0
+      -1.0 -3.0
+      0.0 -1.0
+      1.0 1.0
+      2.0 3.0
+      3.0 5.0
+      4.0 7.0
+      5.0 9.0
+      6.0 11.0
+      7.0 13.0
+      8.0 15.0
+      9.0 17.0
+      10.0 19.0
+
+   Leave the input & function all statements shown below at the end of your code so the function can be tested.
+   ~~~~
+   
+
+  
+   m = float(input("Enter a slope: "))
+   b = float(input("Enter a y-intercept: "))
+   linear(m,b)

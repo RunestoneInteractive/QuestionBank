@@ -1,0 +1,29 @@
+.. actex:: answer16_8_5
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Sorting/Exercises
+    :from_source: T
+
+    def five_most_frequent(s):
+        d = {}
+        for x in s:
+            if x in d:
+                d[x] = d[x] + 1
+            else:
+                d[x] = 1
+
+        s = sorted(d, key=lambda x: d[x], reverse=True)
+
+        return s[:5]
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+       def testOne(self):
+          self.assertEqual(five_most_frequent("aaaaaabbbbbccccdefggghijkk"), ['a', 'b', 'c', 'g', 'k'], "Checking the value returned from using five_most_frequent.")
+
+    myTests().main()

@@ -1,0 +1,15 @@
+.. mchoice:: random_seeds_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/random_seeds
+   :from_source: T
+   :answer_a: Calling the random() function with no arguments.
+   :answer_b: Calling srand() on a integer seed.
+   :answer_c: Running the gettimeofday() function, and calling srand() on the result.
+   :correct: c
+   :feedback_a: Incorrect! This always generates the same set of values, using the default seed in C++.
+   :feedback_b: Incorrect! This always generates the same set of values, using the specified seed.
+   :feedback_c: Correct! Get time of day will generate something reasonably random, which you can then use as a random seed.
+
+   Which of the following will generate a different random number every time the programs runs?

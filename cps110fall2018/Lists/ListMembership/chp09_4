@@ -1,0 +1,11 @@
+.. activecode:: chp09_4
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Lists/ListMembership
+    :from_source: None
+
+    fruit = ["apple", "orange", "banana", "cherry"]
+
+    print("apple" in fruit)
+    print("pear" in fruit)

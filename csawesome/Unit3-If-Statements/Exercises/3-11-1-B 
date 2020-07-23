@@ -1,0 +1,19 @@
+.. mchoice:: 3-11-1-B 
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: first if statement!
+   :answer_b: else if statement!
+   :answer_c: else statement!
+   :answer_d: There will be a compile-time error.
+   :correct: d
+
+   What does the following code print when int x = 2 and string y = “hello”?
+
+   .. code-block:: java
+
+    if (y.equals(“hello”) && x > 2) System.out.println(“first if statement!”);
+    else if (x.equals(2) || y.equals(“hello”) System.out.println(“else if statement!”);
+    else System.out.println(“last check!”) System.out.println(“else statement!”);

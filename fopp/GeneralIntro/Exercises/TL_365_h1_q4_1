@@ -1,0 +1,31 @@
+.. activecode:: TL_365_h1_q4_1
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Initialize two variables to values ``9`` and ``2`` respectively. 
+   Then:
+    
+   1. increment each variable first by value ``2`` (means you 
+   update those variables)
+    
+   2. integer divide the two variables (divide the larger value with 
+   the lower one), and assign the result to another variable called 
+   ``c``
+    
+   3. print the variable ``c`` and make sure you have the desired 
+   result
+   ~~~~
+
+   ====	       
+   
+   from unittest.gui import TestCaseGui
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(self.getOutput(), '2\n', 'Checking output.')
+           self.assertEqual(c, 2, 'Checking c.')
+   myTests().main()

@@ -1,0 +1,19 @@
+.. mchoice:: 3-11-1-A 
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: x is less than 10
+   :answer_b: x is greater than 10
+   :answer_c: x is neither
+   :answer_d: There will be a compile-time error.
+   :correct: c
+
+   What does the following code print when int x has been set to 10?
+
+   .. code-block:: java
+
+    if (x < 10) System.out.println(“x is less than 10”);
+    else if (x > 10) System.out,println(“x is greater than 10”);
+    else System.out.println(“x is neither”);

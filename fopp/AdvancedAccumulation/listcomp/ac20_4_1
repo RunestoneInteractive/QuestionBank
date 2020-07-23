@@ -1,0 +1,12 @@
+.. activecode:: ac20_4_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: AdvancedAccumulation/listcomp
+    :from_source: T
+
+    things = [2, 5, 9]
+
+    yourlist = [value * 2 for value in things]
+
+    print(yourlist)

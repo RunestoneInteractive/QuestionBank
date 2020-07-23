@@ -1,0 +1,48 @@
+.. activecode:: 1306_cw10_s20_q1
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :autograde: unittest
+
+
+    **Question 1 [40 points]** 
+     
+    Write a function called ``countALL(text)`` that passes ``text`` as a string of letters and returns a dictionary with the key as the letter and the value as the number of times each letter appears in a given string. 
+
+    Example: If the input string is ``'BaNaNa'``, then the dictionary returned should be ``{'b':1, 'a':3, 'n':2}``
+
+    ~~~~
+    # Write your code here
+
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+         def testOne(self):
+            inp1 = 'BaNaNa'
+            inp2 = 'Houston'
+            inp3 = 'HelloWorld'
+            inp4 = 'AmerigoVespucci'
+            out1 = {'b':1, 'a':3, 'n':2}             
+            out2 = {'n': 1, 'o': 2, 't': 1, 'h': 1, 's': 1, 'u': 1}
+            out3 = {'o': 2, 'r': 1, 'h': 1, 'l': 3, 'e': 1, 'w': 1, 'd': 1}
+            out4 = {'a': 1, 'o': 1, 'r': 1, 'i': 2, 'g': 1, 'c': 2, 'p': 1, 's': 1, 'e': 2, 'u': 1, 'm': 1, 'v': 1}
+
+            self.assertEqual(countALL(inp1),out1,"countALL('"+inp1+"') should return "+str(out1))
+            self.assertEqual(countALL(inp2),out2,"countALL('"+inp2+"') should return "+str(out2))
+            self.assertEqual(countALL(inp3),out3,"countALL('"+inp3+"') should return "+str(out3))
+            self.assertEqual(countALL(inp4),out4,"countALL('"+inp4+"') should return "+str(out4))
+            #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
+            #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
+            #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
+
+
+
+
+    myTests().main()
+  
+
+

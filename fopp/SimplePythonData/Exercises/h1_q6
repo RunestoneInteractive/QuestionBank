@@ -1,0 +1,19 @@
+.. activecode:: h1_q6
+    :author: Irma Ravkic
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+
+    Create a variable named ``carname`` and assign the value 
+    ``Volvo`` to it. Then print how many characters ``carname`` 
+    has. 
+    
+    Warning: you cannot write ``print(5)``
+    ~~~~
+   
+
+
+
+
+    

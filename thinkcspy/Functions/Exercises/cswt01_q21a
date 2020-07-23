@@ -1,0 +1,31 @@
+.. mchoice:: cswt01_q21a
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+   :answer_a: 7, 10
+   :answer_b: 17, 15
+   :answer_c: 27, 25
+   :answer_d: 37, 
+   :correct: a
+   :random:
+
+   21. What does the following code print?::
+
+      def fun1(a, b):
+          a = a + 10
+          b = b + 5
+
+      def fun2(a, b):
+          a = a + 20
+          b = b + 15
+    
+      def main():
+          a = 7
+          b = 10
+          fun1(a, b)
+          fun2(a, b)
+          print(a, b)
+
+      main()

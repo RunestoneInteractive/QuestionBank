@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: simple_11
+
+    Describe what an invalid variable name is.
+
+    ~~~~
+    

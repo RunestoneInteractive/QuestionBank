@@ -1,0 +1,24 @@
+.. activecode:: lhs_1_1
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    The variable ``tpa`` currently has the value ``0``. Assign the variable ``tpa`` the value ``6`` .
+    ~~~~
+    tpa = 0
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+           self.assertEqual(tpa, 6, "Testing that tpa's value is 6.")
+
+    myTests().main()

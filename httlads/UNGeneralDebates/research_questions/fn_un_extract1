@@ -1,0 +1,20 @@
+.. fillintheblank:: fn_un_extract1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: UNGeneralDebates/research_questions
+   :from_source: T
+
+   What is the most common word that follows 'global' |blank| in all of the
+   speeches and how many times does that word occur? |blank|
+
+
+   - :economic: Is the correct answer
+     :negotiations: You need to capture all occurrences using ``extractall``
+     :warming: nice guess, but not there
+     :economy: The correct answer is very similar
+     :x: catchall feedback
+
+   - :1044: Is the correct answer
+     :256: make sure you use extractall
+

@@ -1,0 +1,13 @@
+.. activecode:: ac12_4_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Tuples/TupleAssignmentwithunpacking
+    :from_source: T
+
+    a = 1
+    b = 2
+    temp = a
+    a = b
+    b = temp
+    print(a, b, temp)

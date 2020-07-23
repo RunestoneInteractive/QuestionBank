@@ -1,0 +1,104 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: lhs_8_5
+    :language: python
+    :autograde: unittest
+
+    Say that you owe the credit card company $1000.00. The company charges you
+    1.5% per month on the unpaid balance. You have decided to stop using the card and
+    to pay off the debt by making a monthly payment of ``N`` dollars a month.
+    Write a function that takes the monthly interest rate, the starting balance and
+    the monthy payment as parameters, then writes out the balance and total payments
+    so far for every succeeding month until the balance is zero or less. Also, when the
+    balance falls below the amount of the monthly payment, write out the final payment
+    that will bring the balance to exactly zero. A sample output would look like::
+  
+      Month: 1 	balance: 915.0 	total payments: 100.0
+      Month: 2 	balance: 828.725 	total payments: 200.0
+      Month: 3 	balance: 741.155875 	total payments: 300.0
+      Month: 4 	balance: 652.273213125 	total payments: 400.0
+      Month: 5 	balance: 562.057311322 	total payments: 500.0
+      Month: 6 	balance: 470.488170992 	total payments: 600.0
+      Month: 7 	balance: 377.545493557 	total payments: 700.0
+      Month: 8 	balance: 283.20867596 	total payments: 800.0
+      Month: 9 	balance: 187.456806099 	total payments: 900.0
+      Month: 10 	balance: 90.2686581908 	total payments: 1000.0
+      Month: 11 	balance: 0 	total payments: 1091.62268806
+
+    **Note**: You will need 2 tabs to align the words "balance" and "total". We will align it better with rounding in the future...
+
+    ~~~~
+
+    def creditCardBill(rate, balance, payment):
+        # your code here
+
+    def main():
+        creditCardBill(1.5, 1000.0, 100.0)
+    
+    if __name__ == "__main__":
+        main()
+        
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _creditCardBill(self, rate, balance, payment):
+            outStr = ""
+            month = 1;
+            rate = rate / 100.0
+            totalPayments = 0;
+
+            while balance > 0:
+                interest = rate * balance;
+                if balance > payment:
+                    balance = balance + interest - payment;
+                else:
+                    payment = balance + interest
+                    balance = 0
+
+                totalPayments += payment
+                outStr += "Month: " + str(month) + " \tbalance: " + str(balance) + " \ttotal payments: " + str(totalPayments) + "\n"
+                month += 1
+            return outStr
+
+        def testOne(self):
+            print("\nAuto-testing...")
+            r = 1.4
+            b= 500.0
+            p = 150.00
+            expected = self._creditCardBill(r, b, p)
+            #print(expected)
+            oLen = len(self.getOutput())
+            creditCardBill(r, b, p)
+            oLenTest = len(self.getOutput())
+            actual = self.getOutput()[oLen:oLenTest]  #extract new output
+
+            self.assertIn("\tbalance", actual, "checking tab before balance")
+            self.assertIn("\ttotal", actual, "checking tab before total")
+
+            expected = " ".join(expected.split()) 
+            actual = " ".join(actual.split()) # remove extra spaces in the output
+
+            self.assertEqual(actual, expected, "checking output for creditCardBill(" + str(r) + ", " + str(b) + ", " + str(p))
+
+            r = 1.7
+            b= 900.0
+            p = 100.00
+            expected = self._creditCardBill(r, b, p)
+            #print(expected)
+            oLen = len(self.getOutput())
+            creditCardBill(r, b, p)
+            oLenTest = len(self.getOutput())
+            actual = self.getOutput()[oLen:oLenTest]  #extract new output
+
+            expected = " ".join(expected.split()) 
+            actual = " ".join(actual.split()) # remove extra spaces in the output
+
+            self.assertEqual(actual, expected, "checking output for creditCardBill(" + str(r) + ", " + str(b) + ", " + str(p))
+
+    myTests().main()

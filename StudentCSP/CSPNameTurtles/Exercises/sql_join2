@@ -1,0 +1,15 @@
+.. fillintheblank:: sql_join2
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+
+   Fill in the following: SELECT * FROM ORDERS [blank] [blank] [blank] Orders.CustomerID = Customers.CustomerID; To join the two tables Orders and Customers on the CustomerID in both tables. 
+   
+   -    :(JOIN|join|Join): Correct. Use JOIN to get data from more than one table
+        :.*: What is the command to select data from more than one table?
+   -    :Customers:  Correct.  The name of the second table is Customers.
+        :.*: What is the name of the second table?
+   -    :(ON|On|on):  Correct.  Use the keyword ON after the second table name
+        :.*: What keyword comes after the second table name in a join?

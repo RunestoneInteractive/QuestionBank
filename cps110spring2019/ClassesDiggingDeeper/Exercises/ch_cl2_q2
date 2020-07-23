@@ -1,0 +1,9 @@
+.. actex:: ch_cl2_q2
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: ClassesDiggingDeeper/Exercises
+   :from_source: None
+
+   Add the following accessor methods to the Rectangle class: ``getWidth``, ``getHeight``, ``__str__``.
+   ~~~~

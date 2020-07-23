@@ -1,0 +1,13 @@
+.. fillintheblank:: sql_sel3
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPWhileAndForLoops/Exercises
+   :from_source: F
+
+   Fill in the following: [blank] [blank] Country FROM Customers; to get only unique values from the Country column in the Customers table.
+
+   -    :(SELECT|Select|select): Correct.  Use SELECT to get data.
+        :.*: What SQL command do you use to get data?
+   -    :(DISTINCT|Distinct|distinct): Correct.  Use DISTINCT to get unique data
+        :.*: What SQL keyword gets only unique data?

@@ -1,0 +1,26 @@
+.. activecode:: wvu_string_concat
+   :author: Brian Powell
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+
+   We want to concatenate the elements of parts into a new variable named wv. Include spaces between each part.
+   ~~~~
+   parts = ["West Virginia was created in",
+            1863,
+            "when 50 counties broke away from Virginia. Today there are",
+            "55",
+            "counties in the state."]
+
+   # Create a variable named wv containing the concatenated string
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(wv,"West Virginia was created in 1863 when 50 counties broke away from Virginia. Today there are 55 counties in the state.","Your string isn't concatenated as expected.")
+
+   myTests().main()

@@ -1,0 +1,9 @@
+.. activecode:: ch08_methods4
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Strings/StringMethods
+    :from_source: None
+
+    person = input('Enter your name: ')
+    print('Hello {}!'.format(person))

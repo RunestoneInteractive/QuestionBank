@@ -1,0 +1,19 @@
+.. mchoice:: 2-13-3-B
+   :author: Rachel Reyes
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: s1 = s1.substring(7);
+   :answer_b: s1 = s1.substring(7, 10);
+   :answer_c: s1 = s1.substring(8,11);
+   :answer_d: s1 = s1.substring(9, 12);
+   :correct: c
+
+   What must be executed in order to obtain the substring “you”?
+
+   .. code-block:: java
+
+    String s1 = "how are you?";
+    ???				///what command here?
+    System.out.println(s1); 	///prints out “you”

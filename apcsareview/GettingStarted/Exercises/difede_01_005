@@ -1,0 +1,18 @@
+.. mchoice:: difede_01_005
+   :author: Kuri DiFede
+   :difficulty: 1.0
+   :basecourse: apcsareview
+   :topic: GettingStarted/Exercises
+   :from_source: F
+   :answer_a: 2^24 numbers, 2^23-1 is the largest number
+   :answer_b: 2^24 numbers, 2^24-1 is the largest number
+   :answer_c: 2^23 numbers, 2^23 is the largest number
+   :answer_d: 2^23 numbers, 2^23-1 is the largest number
+   :correct: a
+   :feedback_a: Correct!
+   :feedback_b: There are 24 bits so there are 2^24 numbers, regardless if one is used for sign (half numbers are negative). For positive numbers, we only have 23 bits to represent, so 2^23-1 will be the largest.
+   :feedback_c: There are 24 bits so there are 2^24 numbers, regardless if one is used for sign (half numbers are negative). For positive numbers, we only have 23 bits to represent, so 2^23-1 will be the largest.
+   :feedback_d: There are 24 bits so there are 2^24 numbers, regardless if one is used for sign (half numbers are negative). For positive numbers, we only have 23 bits to represent, so 2^23-1 will be the largest.
+
+   How many numbers can you represent with 4 bytes if one bit is used for a sign? What is the largest number you can represent?
+

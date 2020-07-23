@@ -1,0 +1,19 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: TroyCh4Q1_2019
+
+
+    The window below is an Optional coding window for the Quiz.  
+    Please be sure that you transfer your work to PAPER for grading.  
+    ~~~~
+    # Optional Quiz Code.  
+    # Be sure to transfer your work to PAPER.
+
+    print("Hello - Quiz Code")
+    #
+    ====
+        

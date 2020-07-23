@@ -1,0 +1,19 @@
+.. showeval:: eval11_3_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/FunctionParameters
+   :from_source: T
+   :trace_mode: true
+
+   def hello2(s):
+    &nbsp;&nbsp;&nbsp;print("Hello " + s)
+    &nbsp;&nbsp;&nbsp;print("Glad to meet you")
+
+   hello2("Nick")
+   ~~~~
+   {{hello2("Nick")}}{{lookup hello2 name and find it is a function}}
+   {{hello2("Nick")}}{{s = "Nick"}} # bind actual parameter to formal parameter
+   print("Hello " + {{s}}{{"Nick"}})
+   {{print("Hello " + "Nick")     #prints out "hello Nick"}}{{print("Glad to meet you")   #prints out "Glad to meet you"}}
+   {{print("Glad to meet you")   #prints out "Glad to meet you"}}{{# the function is finished}}

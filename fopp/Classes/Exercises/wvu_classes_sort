@@ -1,0 +1,20 @@
+
+    :author: Brian Powell
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Classes/Exercises
+    :from_source: F
+.. activecode:: wvu_classes_sort
+
+    Add a function called **sort_order()** to the **Vehicle** class. It should return the vehicle's make, model, and year like "Dodge Journey 2015" to facilitate sorting vehicles in that order.
+
+    Copy-and-paste the **__str__()** and **__repr__()** functions from a previous question.
+
+    Create a list containing three or more instances of the **Vehicle** class to represent vehicles of your choice. Sort the list on the **sort_order()** results and print the sorted list.
+    ~~~~
+    class Vehicle:
+        def __init__(self, year, make, model):
+            self.year = year
+            self.make = make
+            self.model = model
+    ====

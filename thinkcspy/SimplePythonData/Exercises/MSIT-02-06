@@ -1,0 +1,12 @@
+.. fillintheblank:: MSIT-02-06
+   :author: Kevin Austin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :casei:
+
+   Evaluate the expression: 4 * (12 + 12) % 5 |blank|.
+
+   - :1: Yes.  Nicely done.
+     :x: No.  Think.  What gets computed first?  Check operator precedence.  What does the % operator do?

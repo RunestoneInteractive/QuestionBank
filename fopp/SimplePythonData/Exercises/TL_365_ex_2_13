@@ -1,0 +1,12 @@
+.. actex:: TL_365_ex_2_13
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Challenge: Write a program that will convert degrees celsius to degrees fahrenheit.
+   ~~~~
+   ====

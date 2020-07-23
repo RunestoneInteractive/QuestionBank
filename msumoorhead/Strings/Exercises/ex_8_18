@@ -1,0 +1,10 @@
+.. activecode:: ex_8_18
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: Strings/Exercises
+   :from_source: None
+
+   def encrypt(message, cipher):
+
+   def decrypt(encrypted, cipher):

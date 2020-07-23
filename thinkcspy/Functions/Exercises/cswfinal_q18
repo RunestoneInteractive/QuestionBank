@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_q18
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+   :answer_a: List x = ['abc', 'def', 'ghijk']
+   :answer_b: Integer y = 17
+   :answer_c: Float z = 3.14159
+   :answer_d: Nothing can be changed in another function
+   :correct: a
+   :random:
+
+   18. Which of the following can be changed in another function?

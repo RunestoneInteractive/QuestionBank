@@ -1,0 +1,23 @@
+.. activecode:: ac13_6_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: PythonModules/ChapterAssessment
+   :from_source: F
+
+   a = 7
+   c = 6
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(adding, 13, "Testing that adding has the correct value.")
+      def testTwo(self):
+         self.assertEqual(multi, 42, "Testing that multi has the correct value.")
+
+
+   myTests().main()

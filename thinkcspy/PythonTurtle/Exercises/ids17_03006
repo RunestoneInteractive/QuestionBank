@@ -1,0 +1,32 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: ids17_03006
+   
+    5.9(劉邦鋒，由片語學習C程式設計)寫一個程式分解質因數。輸入一正整數n。輸出為n的所有質因數及其次方。輸出時質因數由小排到大。先輸出質因數在輸出次方。例如以下輸出輸入範例表示123456 = 2^6 x 3^1 x 643^1。
+
+    輸入：
+
+    123456
+
+    輸出：
+
+    2
+
+    6
+
+    3
+
+    1
+
+    643
+
+    1
+    ~~~~
+    
+    ====
+   
+    

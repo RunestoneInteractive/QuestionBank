@@ -1,0 +1,21 @@
+.. mchoice:: assess_question5_2_1_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TransformingSequences/week4a1
+   :from_source: T
+   :answer_a: accumulator variable: x | iterator variable: s | sequence variable: lst
+   :answer_b: accumulator variable: total | iterator variable: s | sequence variable: lst
+   :answer_c: accumulator variable: x | iterator variable: sentences | sequence variable: sentence_lst
+   :answer_d: accumulator variable: total | iterator variable: sentence |sequence variable: sentence_lst
+   :answer_e: none of the above
+   :correct: d
+   :feedback_a: Though lst is an acceptable name, x and s are not informative names for accumulator and iterator variables.
+   :feedback_b: Though total is great and lst is an acceptable name, s is a little bit cryptic as a variable name referring to a sentence.
+   :feedback_c: Though sentence_lst is a good name, the iterator variable should be singular rather than plural, and x is not an informative name for the accumulator variable.
+   :feedback_d: Yes, this combination of variable names is the clearest.
+   :feedback_e: One of the options above has good names for the scenario.
+   :practice: T
+   :topics: TransformingSequences/WPAccumulatorPatternStrategies
+
+   Given the following scenario, what are good names for the accumulator variable, iterator variable, and sequence variable? You are writing code that uses a list of sentences and accumulates the total number of sentences that have the word 'happy' in them.

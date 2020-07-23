@@ -1,0 +1,68 @@
+.. mchoice:: e25_3_14
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a:
+   :answer_b:
+   :answer_c:
+   :answer_d:
+   :correct: c
+   :feedback_a: Incorrect. This will result in value1 and value2 being the same.
+   :feedback_b: Incorrect. Close! You DO need a temporary variable, but value1 and value2 will still be the same in this case.
+   :feedback_c: Correct. By using the variable "temp" you can swap the values of value1 and value2 by storing the original value of value1 in temp.
+   :feedback_d: Incorrect. The values are only being assigned here, not being swapped.
+
+
+   A programmer is writing code to swap two user-input values. The program will ask the user for two inputs and stores them in value1 and value2, then switch the two values. Which of the following correctly does this?
+
+
+
+   (A)
+   ::
+
+     value1 ← INPUT()
+
+     value2 ← INPUT()
+
+     value2 ← value1
+
+     value1 ← value2
+
+
+   (B)
+   ::
+
+     value1 ← INPUT()
+
+     value2 ← INPUT()
+
+     temp ← value1
+
+     value2 ← temp
+
+     value1 ← temp
+
+
+   (C)
+   ::
+
+     value1 ← INPUT()
+
+     value2 ← INPUT()
+
+     temp ← value1
+
+     value1 ← value2
+
+     value 2 ← temp
+
+
+   (D)
+   ::
+
+     value1 ← INPUT()
+
+     value2 ← INPUT()
+

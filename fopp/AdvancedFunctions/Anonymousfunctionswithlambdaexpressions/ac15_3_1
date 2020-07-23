@@ -1,0 +1,17 @@
+.. activecode:: ac15_3_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: AdvancedFunctions/Anonymousfunctionswithlambdaexpressions
+    :from_source: T
+
+    def f(x):
+        return x - 1
+
+    print(f)
+    print(type(f))
+    print(f(3))
+
+    print(lambda x: x-2)
+    print(type(lambda x: x-2))
+    print((lambda x: x-2)(6))

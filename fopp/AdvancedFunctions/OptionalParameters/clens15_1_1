@@ -1,0 +1,15 @@
+.. codelens:: clens15_1_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: AdvancedFunctions/OptionalParameters
+    :from_source: T
+    :python: py3
+
+    initial = 7
+    def f(x, y =3, z=initial):
+        print("x, y, z, are: " + str(x) + ", " + str(y) + ", " + str(z))
+
+    f(2)
+    f(2, 5)
+    f(2, 5, 8)

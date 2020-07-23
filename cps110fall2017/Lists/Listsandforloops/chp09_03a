@@ -1,0 +1,11 @@
+.. activecode:: chp09_03a
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/Listsandforloops
+    :from_source: None
+
+    fruits = ["apple", "orange", "banana", "cherry"]
+
+    for afruit in fruits:     # by item
+        print(afruit)

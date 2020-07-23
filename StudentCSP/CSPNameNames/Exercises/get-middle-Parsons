@@ -1,0 +1,41 @@
+.. parsonsprob:: get-middle-Parsons
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+   :numbered: left
+   :adaptive:
+
+   Put the code blocks in order below to return the middle characters from the
+   passed string.  There are four extra code blocks that are not needed in a correct 
+   solution. If the string has less than 3 characters then return the passed 
+   string. If the string has an odd length then return the middle character. If the 
+   string has an even length return the two middle characters. For example, 
+   get_middle(‘abc’) returns ‘b’ and get_middle(‘abcd’) returns ‘bc’.
+   -----
+   def get_middle(str):
+   =====
+   Def get_middle(str): #paired
+   =====
+       num_chars = len(str)
+   =====
+       mid = num_chars // 2
+    =====
+       mid = num_chars / 2 #paired
+   =====
+       if num_chars < 3:
+   =====
+           return str
+   =====
+       elif num_chars % 2 == 1:
+   =====
+       elif num_chars % 2 == 1 #paired
+   =====
+           return str[mid]
+   =====
+       else:
+   =====
+           return str[mid-1:mid+1]
+   =====
+           return str[mid:mid+2] #paired

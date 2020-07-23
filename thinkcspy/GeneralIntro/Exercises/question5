@@ -1,0 +1,15 @@
+.. fillintheblank:: question5
+        :author: Oyebisi Layode
+        :difficulty: 3.0
+        :basecourse: thinkcspy
+        :topic: GeneralIntro/Exercises
+        :from_source: F
+
+        |blank| is the volatile memory of a computer system?
+
+        -   :RAM: Is the correct answer.
+            :ram: Try "RAM".
+            :Random access memory: you are also correct by try RAM.
+            :random access memory: you are also correct by try RAM.
+            :volatile memory: This is not what i am looking for.
+            :x: Try again. 

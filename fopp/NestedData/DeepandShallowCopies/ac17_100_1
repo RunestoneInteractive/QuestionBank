@@ -1,0 +1,16 @@
+.. activecode:: ac17_100_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: NestedData/DeepandShallowCopies
+    :from_source: T
+
+    original = [['dogs', 'puppies'], ['cats', "kittens"]]
+    copied_version = original[:]
+    print(copied_version)
+    print(copied_version is original)
+    print(copied_version == original)
+    original[0].append(["canines"])
+    print(original)
+    print("-------- Now look at the copied version -----------")
+    print(copied_version)

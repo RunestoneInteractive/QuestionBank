@@ -1,0 +1,44 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: 1306_cw7_s20_q2
+    :autograde: unittest
+
+    **Important Note**: For Questions 1, 2 & 3 you can use ``string constants``, ``in`` and ``not in`` operators, and ``len()`` function. Other functions/methods from the python string library are not needed and should not be used.
+
+
+    **Question 2 [30 points]** 
+
+    Write a function ``specials(string)`` that takes a ``string`` as a parameter and returns the number of characters that are not letter or digits. 
+
+    For example ``specials('X+Y – 4')`` will return **3**.
+
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(specials('X+Y–4'),2,"specials('X+Y–4') should return 2")
+            self.assertEqual(specials('ABC230127'),0,"specials('ABC230127') should return 0")
+            self.assertEqual(specials('United States of America'),3,"specials('United States of America') should return 3")
+            self.assertEqual(specials('@Hello#World#'),3,"specials('@Hello#World#') should return 3")	
+
+
+
+
+
+    myTests().main()

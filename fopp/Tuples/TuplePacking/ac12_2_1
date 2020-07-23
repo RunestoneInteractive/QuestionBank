@@ -1,0 +1,24 @@
+.. activecode:: ac12_2_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Tuples/TuplePacking
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :chatcodes:
+   :practice: T
+
+   **2.** Create a tuple called ``practice`` that has four elements: 'y', 'h', 'z', and 'x'.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(practice, ('y','h','z','x'), "Testing that pratice value is assigned to correct value.")
+
+   myTests().main()

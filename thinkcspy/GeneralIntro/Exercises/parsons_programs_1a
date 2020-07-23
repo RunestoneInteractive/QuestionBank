@@ -1,0 +1,24 @@
+
+   :author: Tom Stokke
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. parsonsprob:: parsons_programs_1a
+
+   Solve my really cool parsons problem...if you can.
+   -----
+   midtermScoreStr = input("Enter your midterm score")
+   =====
+   midtermScore = int&nbsp;(midtermScoreStr)
+   =====
+   testPercent&nbsp;=&nbsp;midtermScore&nbsp;/&nbsp;50&nbsp;*&nbsp;100
+   =====
+   print ("Your percentage is ", testPercent)
+   =====
+
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

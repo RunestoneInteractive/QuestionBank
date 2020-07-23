@@ -1,0 +1,58 @@
+.. activecode:: lhs_8_14
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    **PRACTICE**
+
+    Translate the following for loop to a while loop so that the program does
+    exactly the same thing.
+
+ 
+    ::
+
+      for num in range(2, 20, 3):
+          if num % 2 == 0:
+              print(num)
+
+
+    ~~~~
+
+    # My Name:
+
+        
+    ==== 
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+    
+         # regExString - is checked inside inString
+         # howMany - how many matches are expected
+         # matchString - summary of what is being matched (readable version of regExString)
+         # errorString - error string upon assertion failure
+        def regExCheck(self, regExString, inString, howMany, matchString, errorString):
+            res = re.findall(regExString, inString, re.M)
+            checkOK = (len(res) == howMany)
+            if not checkOK:
+                print("Found [", matchString, "]", len(res), "time(s), not", howMany)
+
+            self.assertEqual(checkOK, True, errorString)
+
+            return(checkOK)
+
+        def testOne(self):
+            outText = self.getOutput()
+            code = self.getEditorText()
+            print("Begin Auto-test... ")
+
+            self.regExCheck("^for ", code, 0, "for loop", "Checking that 'for' loop was not used")
+            self.regExCheck("^while[( ]", code, 1, "for loop", "Checking that 'while' loop was not used")
+            self.assertEqual(outText, "2\n8\n14\n", "Checking output")
+
+            
+    myTests().main()   

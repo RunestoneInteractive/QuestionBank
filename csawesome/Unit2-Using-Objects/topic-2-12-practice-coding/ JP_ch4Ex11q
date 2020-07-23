@@ -1,0 +1,40 @@
+.. activecode::  JP_ch4Ex11q
+   :author: John Pataracchia
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-12-practice-coding
+   :from_source: F
+   :language: java
+
+
+   The following code should insert the word that is stored in the String variable ``target`` (including the following space) into the phrase that is stored in the String variable ``message``.
+
+   ``target`` should be inserted immediately following the word that matches the string value that is stored in ``insertionPoint``.
+
+   1. Use ``indexOf`` to find the position (``pos``) of a substring in your string.  
+
+   2. Use ``substring`` to create a new string that represents the first part of the word (``partFirst``).
+
+   3. Use ``substring`` to create a new string that represents the last part of the word (``partLast``).
+
+   4. Concatenate ``partFirst``, ``target`` , and ``partLast`` to produce the final ``result``.
+
+   5. Print the result.
+
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           String message = "The quick brown fox jumped over the black cat";
+           String target = "sleepy ";
+           String insertionPoint = "the ";
+
+           int pos = 
+           String partFirst = 
+           String partLast =
+           String result =
+
+
+       }
+   }

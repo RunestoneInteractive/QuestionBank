@@ -1,0 +1,34 @@
+.. activecode:: lhs_3_1
+    :author: LHS CS Team
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Debugging/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Find and fix the error(s) in the following program:
+
+    ~~~~
+    a = input('wpisz godzine')
+    x = input('wpisz liczbe godzin')
+    int(x)
+    int(a)
+    h = x // 24
+    s = x % 24
+    print (h, s)
+    a = a + s
+    print ('godzina teraz', a)
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            result = a - s + (x % 24)
+            self.assertIn('godzina teraz ' + str(result), self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
+
+    myTests().main()

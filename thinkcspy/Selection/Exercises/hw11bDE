@@ -1,0 +1,12 @@
+.. activecode:: hw11bDE
+   :author: Damon Ellingston
+   :difficulty: 2.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+
+   **Homework 11 part b**
+
+    First write a short program (does not have to be a function) using the **random** module that generates 10 random numbers from 1 to 50.  Next, modify the program to do the following: generate 10 random numbers from 1 to 50, write the even ones to a file named ``evens.txt`` and the odd ones to a file named ``odds.txt``. Duplicates may occur and are allowed. Extra Credit: eliminate duplicates.
+
+   ~~~~

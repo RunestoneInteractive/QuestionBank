@@ -1,0 +1,14 @@
+.. activecode:: hw16bDE
+   :author: Damon Ellingston
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   **Homework 16 part b**
+  
+    Modify the currency converter you wrote for HW 4 that converts US $ Dollars to Euros. However, this will be an interactive graphics program, not a command line program. Your program should open a graphics window displaying an entry box asking the user how many dollars they would like to convert. You should also display the current conversion rate in your window. When the user enters a dollar-and-cents amount in the entry box and then clicks in the window, the program displays that amount in Euros. Be sure your output in Euros displays two (2) decimal places for currency, use the format method ``"{0:0.2f}".format( )`` from Chapter 5. Look up today's currency conversion rate on the web and use that number in your program.
+
+    Extra Credit: Rather than a one-time conversion, write the code so that it can be applied repeatedly to different USD$ amounts.
+
+   ~~~~

@@ -1,0 +1,11 @@
+.. fillintheblank:: decks_and_subdecks_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter12/decks_and_subdecks
+   :from_source: T
+
+   When a programmer hides all unnecessary details from the user to reduce complexity and increase efficiency, this is called __________.
+
+   - :[Aa][Bb][Ss][Tt][Rr][Aa][Cc][Tt][Ii][Oo][Nn]: Correct!
+     :x: Incorrect! You may need to go back and read!

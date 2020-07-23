@@ -1,0 +1,11 @@
+.. fillintheblank:: another_example_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter11/another_example
+    :from_source: T
+
+    Suppose we have previously declared ``Time currentTime = {9, 14, 30.0}``.  What should be printed by ``time.print()`` after calling ``time.increment(645.0)``? Type your response in the form **hh:mm:ss**.
+
+    - :(9:25:15): Correct!
+      :.*: Incorrect! Try plugging the given input into the active code above!

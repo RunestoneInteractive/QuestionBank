@@ -1,0 +1,57 @@
+.. mchoice:: AP5-8-2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csawesome
+    :topic: Unit5-Writing-Classes/topic-5-8-scope-access
+    :from_source: T
+    :practice: T
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Movie
+        {
+            private int currentPrice;
+            private int movieRating;
+
+            public Movie(int p, int r)
+            {
+                currentPrice = p;
+                movieRating = r;
+            }
+
+            public int getCurrentPrice()
+            {
+                int currentPrice = 16;
+                return currentPrice;
+            }
+
+            public void printPrice()
+            {
+                System.out.println(getCurrentPrice());
+            }
+        }
+
+    Which of the following reasons explains why the printPrice method is "broken" and only ever prints out a value of 16?
+
+    - The private variables currentPrice and movieRating are not properly initialized.
+
+      - The constructor will initialize them.
+
+    - The private variables currentPrice and movieRating should have been declared public.
+
+      - Instance variables should be private.
+
+    - The printPrice method should have been declared as private.
+
+      - Methods are usually public.
+
+    - currentPrice is declared as a local variable in the getCurrentPrice method and set to 16, and will be used instead of the instance variable currentPrice.
+
+      + Correct!
+
+    - The currentPrice instance variable does not have a value.
+
+      - Accessor methods are usually public.
+

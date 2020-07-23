@@ -1,0 +1,27 @@
+.. actex:: ac21_6_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/Exercises
+   :from_source: T
+
+   Now define lengths using a list comprehension instead.
+   ~~~~
+
+   def lengths(strings):
+       """lengths takes a list of strings as input and returns a list of numbers that are the lengths
+       of strings in the input list. Use a list comprehension!"""
+       # fill in this function's definition to make the test pass.
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(lengths(["Hello", "hi", "bye"]), [5, 2, 3], "Testing whether lengths has been correctly defined.")
+           self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+           self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

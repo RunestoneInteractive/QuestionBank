@@ -1,0 +1,18 @@
+.. mchoice:: q2_2_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: 1
+   :answer_b: 10
+   :answer_c: 1000
+   :answer_d: As many as you need
+   :correct: d
+   :feedback_a: There is one definition of a class, but the class can create as many objects as are needed.
+   :feedback_b: There is no limit on the number of objects you can create from a class.
+   :feedback_c: There is no limit on the number of objects you can create from a class.
+   :feedback_d: You can create as many objects as you need from one class.
+
+   How many objects can you create from a class in Java?

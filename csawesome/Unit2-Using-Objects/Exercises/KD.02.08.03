@@ -1,0 +1,29 @@
+.. mchoice:: KD.02.08.03
+   :author: Kuri DiFede
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: I only
+   :answer_b: I and II only
+   :answer_c: I and III only
+   :answer_d: III only
+   :answer_e: I, II and III
+   :correct: e
+   :feedback_a: incorrect
+   :feedback_b: incorrect
+   :feedback_c: incorrect
+   :feedback_d: incorrect
+   :feedback_e: correct
+
+
+   Consider the calculate method in the TestGrade class. myGrades is an instance of the TestGrade class. Which of the following is a valid call to the calculateFinal method?
+
+   .. code-block:: java
+
+    public Double calculateFinal( double input );
+
+    I.   Double x = myGrades.calculateFinal( 3.5 );
+    II.  double y = myGrades.calculateFinal( new Double( 5.0 ) );
+    III. Double z = myGrades.calculateFinal( 10 );
+

@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: strings_1
+  
+    What is the difference between a collection data type and the other data 
+    types.
+ 
+    ~~~~
+    

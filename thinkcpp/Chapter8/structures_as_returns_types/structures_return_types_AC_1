@@ -1,0 +1,39 @@
+.. activecode:: structures_return_types_AC_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter8/structures_as_returns_types
+  :from_source: T
+  :language: cpp
+
+  The active code below uses the ``findCenter`` function. Run the code
+  to see what the output is!
+  ~~~~
+  #include <iostream>
+  using namespace std;
+
+  struct Point {
+      double x, y;
+  };
+
+  struct Rectangle {
+      Point corner;
+      double width, height;
+  };
+
+  void printPoint (Point p) {
+      cout << "(" << p.x << ", " << p.y << ")" << endl;
+  }
+
+  Point findCenter (Rectangle& box) {
+      double x = box.corner.x + box.width/2;
+      double y = box.corner.y + box.height/2;
+      Point result = {x, y};
+      return result;
+  }
+
+  int main() {
+      Rectangle box = { {0.0, 0.0}, 100, 200 };
+      Point center = findCenter (box);
+      printPoint (center);
+  }

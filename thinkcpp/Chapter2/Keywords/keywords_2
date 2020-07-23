@@ -1,0 +1,23 @@
+.. mchoice:: keywords_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/Keywords
+   :from_source: T
+   :multiple_answers:
+   :answer_a: integer
+   :answer_b: cout
+   :answer_c: variable
+   :answer_d: string
+   :answer_e: char
+   :correct: b,d,e
+   :feedback_a: integer is not a keyword, but int is.
+   :feedback_b: cout cannot be used as a variable name!
+   :feedback_c: variable is fair game to use to name a variable.
+   :feedback_d: string cannot be used as a variable name.
+   :feedback_e: char is a keyword and cannot be used as a variable name.
+
+   Multiple Response: Which of the following are keywords or will
+   otherwise generate some error from the compiler if used as a
+   variable name?
+

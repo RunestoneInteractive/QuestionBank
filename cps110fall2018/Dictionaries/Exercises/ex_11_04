@@ -1,0 +1,35 @@
+.. actex:: ex_11_04
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Dictionaries/Exercises
+   :from_source: None
+
+   Here's a table of English to Pirate translations
+
+   ==========   ==============
+   English      Pirate
+   ==========   ==============
+   sir              matey
+   hotel        fleabag inn
+   student      swabbie
+   boy              matey
+   madam        proud beauty
+   professor        foul blaggart
+   restaurant       galley
+   your         yer
+   excuse       arr
+   students     swabbies
+   are              be
+   lawyer       foul blaggart
+   the              th'
+   restroom     head
+   my               me
+   hello        avast
+   is               be
+   man              matey
+   ==========   ==============
+
+   Write a program that asks the user for a sentence in English and then translates that
+   sentence to Pirate.
+   ~~~~

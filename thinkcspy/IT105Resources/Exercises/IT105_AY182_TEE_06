@@ -1,0 +1,77 @@
+.. activecode:: IT105_AY182_TEE_06
+    :author: Kyle King
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+    
+    Below are three functions that take and return **Boolean** values. Fill in the body of each function below. Here are some examples of how the functions should behave when you're done:
+    
+    ::
+      
+      bothTrue(True,True)      # returns True
+      bothTrue(True,False)     # returns False
+      eitherTrue(True,False)   # returns True
+      eitherTrue(Flase,False)  # returns False
+      neitherTrue(False,False) # returns True
+      neitherTrue(True,False)  # returns False
+    
+    **Note:** You can delete the ``pass`` lines below. Or you can leave them. They don't do anything. They are just there so that the function bodies aren't empty since that would cause a syntax error.
+    
+    ~~~~
+    # returns True if a AND b are BOTH True
+    def bothTrue(a, b):
+         pass
+         # your code here
+
+    # returns True if a OR b are True
+    def eitherTrue(a, b):
+         pass
+         # your code here
+
+    # returns True if NEITHER a NOR b are True
+    def neitherTrue(a, b):
+         pass
+         # your code here
+
+
+    
+    ====
+    from unittest.gui import TestCaseGui
+
+    # https://docs.python.org/2/library/unittest.html#assert-methods
+    class Tests(TestCaseGui):
+      def result(self, func,*args,**kwargs):
+        import sys
+        from StringIO import StringIO
+        oldout = sys.stdout
+
+        try:
+            out = StringIO()
+            sys.stdout = out
+            ret = func(*args,**kwargs)
+            return ret
+        finally:
+            sys.stdout = oldout
+      
+      def tests(self):
+        output = self.getOutput()
+        code = self.getEditorText()
+        
+        self.assertEqual(self.result(bothTrue,True,True), True, "bothTrue(True,True) returns True")
+        self.assertEqual(self.result(bothTrue,True,False), False, "bothTrue(True,False) returns False")
+        self.assertEqual(self.result(bothTrue,False,True), False, "bothTrue(False,True) returns False")
+        self.assertEqual(self.result(bothTrue,False,False), False, "bothTrue(False,False) returns False")
+        self.assertEqual(self.result(eitherTrue,True,True), True, "eitherTrue(True,True) returns True")
+        self.assertEqual(self.result(eitherTrue,True,False), True, "eitherTrue(True,False) returns True")
+        self.assertEqual(self.result(eitherTrue,False,True), True, "eitherTrue(False,True) returns True")
+        self.assertEqual(self.result(eitherTrue,False,False), False, "eitherTrue(False,False) returns False")
+        self.assertEqual(self.result(neitherTrue,True,True), False, "neitherTrue(True,True) returns False")
+        self.assertEqual(self.result(neitherTrue,True,False), False, "neitherTrue(True,False) returns False")
+        self.assertEqual(self.result(neitherTrue,False,True), False, "neitherTrue(False,True) returns False")
+        self.assertEqual(self.result(neitherTrue,False,False), True, "neitherTrue(False,False) returns True")
+
+    Tests().main()

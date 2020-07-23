@@ -1,0 +1,14 @@
+
+    :author: Brad Miller
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. dragndrop:: demovideodnd
+    :feedback: Feedback that is displayed if things are incorrectly matched--is optional
+    :match_1: New York Times|||New York
+    :match_2: Boston Globe|||Boston
+    :match_3: Star Tribune|||Minneapolis
+
+    Match the newspapers to their city
+    

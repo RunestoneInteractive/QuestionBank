@@ -1,0 +1,59 @@
+.. mchoice:: AP5-8-4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit5-Writing-Classes/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: The private variables boxesOfFood and numOfPeople are not properly initialized.
+   :answer_b: The private variables boxesOfFood and numOfPeople should have been declared public.
+   :answer_c: The public method getBoxesOfFood should have been declared private.
+   :answer_d: The variable updatedAmountOfFood in the eatFoodBoxes method is not declared in this method.
+   :answer_e: The variables boxesOfFood and numOfPeople in the updatedAmountOfFood method are local variables.
+   :correct: d
+   :feedback_a: The private variables boxesOfFood and numOfPeople are initialized by the constructor.
+   :feedback_b: Instance variables are usually private.
+   :feedback_c: Methods are usually public.
+   :feedback_d: The variable updatedAmountOfFood in the eatFood method is not declared in this method. It could be replaced by the boxesOfFood instance variable.
+   :feedback_e: The variables boxesOfFood and numOfPeople are instance variables.
+
+   Consider the following class definition for Party.  The following code segment appears in a method in a class other than Party. The code segment is intended to print the value 30, but does not print the correct value because of an error in the Party class. Which of the following best explains why the correct value isn’t printed?
+
+   .. code-block:: java
+
+       Party p = new Party(20, 15);
+       p.orderMoreFood(20);
+       p.eatFood(5);
+       System.out.println(p.getBoxesOfFood());
+
+       public class Party
+       {
+        private int boxesOfFood;
+        private int numOfPeople;
+
+        public Party(int people, int foodBoxes)
+        {
+            numOfPeople = people;
+            boxesOfFood = foodBoxes;
+        }
+
+        public void orderMoreFood(int additionalFoodBoxes)
+        {
+            int updatedAmountOfFood = boxesOfFood + additionalFoodBoxes;
+            boxesOfFood = updatedAmountOfFood;
+        }
+
+        public int getNumOfPeople() {
+            return numOfPeople;
+        }
+
+        public int getBoxesOfFood() {
+            return boxesOfFood;
+        }
+
+        public void eatFood(int eatenBoxes)
+        {
+            boxesOfFood = updatedAmountOfFood - eatenBoxes;
+        }
+       }
+

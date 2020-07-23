@@ -1,0 +1,13 @@
+
+  :author: Harsha Madu
+  :difficulty: 0.0
+  :basecourse: thinkcspy
+  :topic: SimplePythonData/Exercises
+  :from_source: F
+.. activecode:: example2ByHarsha
+
+
+Write a program to add three numbers together ?
+
+  .. code-block:: python
+ Write code hare

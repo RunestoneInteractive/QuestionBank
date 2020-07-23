@@ -1,0 +1,30 @@
+.. activecode:: ac14_10_5
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: MoreAboutIteration/ChapterAssessment
+    :from_source: T
+    :practice: T
+    :topics: MoreAboutIteration/ThewhileStatement
+
+    Below is a for loop that works. Underneath the for loop, rewrite the problem so that it does the same thing, but using a while loop instead of a for loop. Assign the accumulated total in the while loop code to the variable ``sum2``. Once complete, sum2 should equal sum1.
+    ~~~~
+
+    sum1 = 0
+
+    lst = [65, 78, 21, 33]
+
+    for x in lst:
+        sum1 = sum1 + x
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+       def testFive(self):
+          self.assertEqual(sum2, 197, "Testing that sum2 is assigned to correct value.")
+          self.assertIn('while', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+    myTests().main()

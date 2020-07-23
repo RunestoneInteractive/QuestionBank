@@ -1,0 +1,21 @@
+.. mchoice:: mc_fixed
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: cppds
+  :topic: Introduction/CollectionData
+  :from_source: T
+  :answer_a: array
+  :answer_b: hash table
+  :answer_c: string
+  :answer_d: vector
+  :answer_e: more than one of the above
+  :correct: a
+  :feedback_a: Correct!
+  :feedback_b: No. hash tables are not ordered.
+  :feedback_c: A string would only work for character data. Try again.
+  :feedback_d: There is a better choice given that the group is fixed length
+  :feedback_e: Only of the above is best.
+
+  Which C++ structure is the best choice for a group of ordered data of a fixed length?
+
+

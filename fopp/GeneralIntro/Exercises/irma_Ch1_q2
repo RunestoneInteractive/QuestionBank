@@ -1,0 +1,23 @@
+.. parsonsprob:: irma_Ch1_q2
+   :author: Irma Ravkic
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   Put in order the elements of the pipeline for translating high- 
+   level languages into low-level languages:
+   -----
+   source code
+   =====
+   compiler
+   =====
+   object code
+   =====
+   executor
+   =====
+   output
+   =====
+
+
+    

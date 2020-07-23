@@ -1,0 +1,18 @@
+.. mchoice:: qoo10-1-4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: OOBasics/ooInheritance
+   :from_source: T
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 2
+   :answer_d: infinite
+   :correct: b
+   :feedback_a: In Java a class always has at least one parent class.  If none is specified the default is Object.
+   :feedback_b: All classes in Java have one and only one parent class.
+   :feedback_c: While that is how it works with humans, is that how Java works?
+   :feedback_d: This is true for interfaces, but not parent classes.
+
+   In Java how many parents can a class have?
+

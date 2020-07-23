@@ -1,0 +1,17 @@
+.. activecode:: 1306_cw3_s20_q3a
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonModules/Exercises
+   :from_source: F
+
+   **[15 pts] Question 3(a)** 
+
+   You need to perform the following with Python program:
+   
+   Compute the area of a circle with radius 10 using Pi from the Python Math Library. Assign the area to a variable, say realA
+
+
+
+   ~~~~
+   # Write your program here

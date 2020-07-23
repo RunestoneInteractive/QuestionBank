@@ -1,0 +1,110 @@
+.. activecode:: IT105_AY182_TEE_09
+    :author: Kyle King
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+    
+    The ``tee`` module provides the ``tee.minutes()`` function described below:
+    
+    ::
+    
+      Function: tee.minutes()
+      Parameters: None. 
+      What it does: This function returns the number of minutes 
+        remaining in the TEE as an integer.
+      Returns: 
+      
+    Here is an example that uses the module to print the number of minutes left in the exam:
+    
+    ::
+    
+      import tee
+      print(tee.minutesLeft())
+    
+    Write a function, ``timePerQuestion(numQuestions)``, that **prints** ``tee.minutesLeft()`` and **returns** the number of minutes *per question* (i.e. ``numQuestions / tee.minutesLeft()``). 
+    
+    For example, 
+    
+    ::
+    
+      # with 50 minutes left ...
+      timePerQuestion(5) 
+      # prints 50
+      # returns 10
+    
+    ~~~~
+    import tee
+    
+    # your code goes here
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class Tests(TestCaseGui): 
+      def capture(self, func,*args,**kwargs):
+        import sys
+        from StringIO import StringIO
+        oldout = sys.stdout
+
+        try:
+            out = StringIO()
+            sys.stdout = out
+            ret = func(*args,**kwargs)
+            return [ret, out.getvalue()]
+        finally:
+            sys.stdout = oldout
+
+      def tests(self):
+        import random
+        
+        output = self.getOutput()
+        code = self.getEditorText()
+        
+        self.assertTrue(callable(timePerQuestion), "timePerQuestion is defined")
+        self.assertTrue(code.find('tee.minutesLeft()') != -1, "tee.minutesLeft() is called")
+        
+        n = random.randint(300,400)
+        tee.minutes = random.randint(100,200)
+        ret, stdout = self.capture(timePerQuestion, n)
+            
+        self.assertTrue(str(tee.minutesLeft()) == stdout.strip(), "Prints minutes left")
+        self.assertTrue(ret == n/tee.minutes, "Returns minutes per question")
+        
+    Tests().main()
+    
+    </textarea><script>
+      var tee = (function() {/*
+    
+        # begin tee.py
+    
+        import time
+        from datetime import date, datetime, timedelta
+
+        now = datetime.today()
+
+        # figure out if we're in a morning or evening test
+        if now.strftime("%p") == "AM":
+            hour, minute = 11, 0
+        else:
+            hour, minute = 21, 30
+
+        end = datetime(now.year,now.month,now.day,hour,minute)
+        delta = end - now
+        minutes = delta.total_seconds() // 60
+        
+        #days = delta.days
+        #hours, remainder = divmod(delta.seconds, 3600)
+        #minutes, seconds = divmod(remainder, 60)
+
+        def minutesLeft():
+            global minutes
+            return minutes
+
+        # end tee.py
+
+      */}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1].replace(/^ {4}/gm,'');
+      Sk.externalLibraryCache['tee'] = Sk.compile(tee,'tee.py','exec',true);
+    </script><textarea style="display:none">

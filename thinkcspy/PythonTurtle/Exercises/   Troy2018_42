@@ -1,0 +1,20 @@
+.. activecode::    Troy2018_42
+    :author: Juraj Vasek
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+
+    Create two turtles, with different names and colors, and program them
+    to work together to make a square.  Each turtle should draw half the 
+    square, meeting in the middle of the top of the square.  
+    ~~~~
+    print("Two Turtle Square, by ...... type your name here")
+
+    import turtle
+    wn = turtle.Screen()
+
+    # you take it from here 
+
+    
+    

@@ -1,0 +1,30 @@
+.. activecode:: KDL_ch10_4
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Files/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   Using the code from above, create a csv with the part_o_speech and part_count variables. They data should be comma separated and saved to a file named ``parts.csv`` 
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           infilek = open("parts.csv", "r")
+           val1=infilek.readline()
+           val2=infilek.readline()
+           infilek.close()
+           self.assertIn("open(", self.getEditorText(), 'Contains open for file')
+           strcmp="a,v,c,i,t,p,d,x,r,m,n,e,j,u\n"
+           self.assertEqual(val1,strcmp, 'line 1 csv correct')
+           strcmp="4375,3489,4257,6205,1010,4099,2090,170,5216,395,4804,130,2013,134\n"
+           self.assertEqual(val2,strcmp, 'line 2 csv correct')
+           self.assertIn(".write", self.getEditorText(), 'writes to file')
+   myTests().main()   

@@ -1,0 +1,24 @@
+.. activecode:: MSIT-02-03
+    :author: Kevin Austin
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a statement to create a float variable named nine that is equal to 9
+    ~~~~
+    # add your code after this line (requires no more than one statement)
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+           self.assertIsInstance(nine, float, "Testing that nine is a float variable.")           
+           self.assertEqual(nine, 9, "Testing that nine is equal to 9.0.")
+
+    myTests().main()

@@ -1,0 +1,14 @@
+
+    :author: Richard Bernatz
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. dragndrop:: rab_quiz1
+    :feedback: Feedback that is displayed if things are incorrectly matched
+    :match_1: blue|||sky
+    :match_2: brown|||dirt
+    :match_3: green|||grass
+
+    Match the correct color with the object.
+    

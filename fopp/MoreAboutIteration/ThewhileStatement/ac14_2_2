@@ -1,0 +1,21 @@
+.. activecode:: ac14_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: MoreAboutIteration/ThewhileStatement
+   :from_source: T
+   :practice: T
+
+   Write a while loop that is initialized at 0 and stops at 15. If the counter is an even number, append the counter to a list called ``eve_nums``.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+     def testOne(self):
+        self.assertEqual(eve_nums, [0,2,4,6,8,10,12,14], "Testing that eve_nums has been assigned the correct elements")
+
+   myTests().main()

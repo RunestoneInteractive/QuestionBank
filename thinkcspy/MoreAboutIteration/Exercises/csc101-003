@@ -1,0 +1,18 @@
+
+    :author: Yan Chen
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: csc101-003
+    :language: python
+
+    Please ask user to input an integer and your program will check if the number is a prime number or not.
+
+    ~~~~
+    # 1. Ask  the user to input an integer
+    # 2. Check if the number is prime
+    
+    ====
+  
+    

@@ -1,0 +1,47 @@
+
+   :author: Scott Hill
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Files/Exercises
+   :from_source: F
+.. activecode:: fakefilemodule-hill
+
+   I will use this to simulate a fake file system.
+   ~~~~
+
+   class FakeFile:
+    def __init__(self,my_text):
+        self.my_text=my_text
+        self.pointer=0
+    def readlines(self):
+        return list(map(lambda x:x+"\n",self.my_text.splitlines()[self.pointer:]))
+    def read(self):
+        return self.my_text
+    def readline(self):
+        self.pointer+=1
+        lines=self.my_text.splitlines()
+        if self.pointer-1>=len(lines):
+            return ''
+        return lines[self.pointer-1]+"\n"
+
+   fakefiles={"students.txt":'''Ryan Boyd
+   Enrique Castillo
+   Idris Daranijoh
+   Hope Kapelanski
+   Griffin Reynard
+   Nick Rizzo
+   Dayton Rush
+   Jacob Witt'''}
+   def open(fname):
+    if fname in fakefiles:
+        return FakeFile(fakefiles[fname])
+    else:
+        raise FileNotFoundError(fname+" is not found.")
+
+   ====
+
+config values (conf.py):
+
+- activecode_div_class - custom CSS class of the component's outermost div
+- activecode_hide_load_history - if True, hide the load history button
+    

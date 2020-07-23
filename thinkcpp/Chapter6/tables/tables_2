@@ -1,0 +1,11 @@
+.. fillintheblank:: tables_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter6/tables
+    :from_source: T
+
+    What is the equivalent of endl, and typically used at the end of a string?
+
+    - :(?:(?:\\n)|(?:(?:n|N)ewline\s(?:c|C)haracter)): Is the correct answer!
+      :.*: Try again!

@@ -1,0 +1,40 @@
+.. activecode:: vector_functions_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/vector_functions
+   :from_source: T
+   :language: cpp
+
+   The active code below uses the ``push_back`` function to add
+   even numbers less than or equal to 10 to the vector ``values``.
+   ~~~~
+   #include <iostream>
+   #include <vector>
+   using namespace std;
+
+   void print_vec(vector<int> vec);
+
+   int main() {
+       vector<int> values;
+       int i = 0;
+
+       while (i <= 10) {
+           values.push_back(i);
+           i += 2;
+       }
+       print_vec(values);
+   }
+
+   ====
+
+   void print_vec(vector<int> vec) {
+      size_t i = 0;
+      cout << "[";
+      while (i < vec.size()-1) {
+          cout << vec[i] << ",";
+          i++;
+      }
+      cout << vec[vec.size()-1];
+      cout << "]" << endl;
+   }

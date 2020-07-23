@@ -1,0 +1,24 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPWebData/Exercises
+   :from_source: F
+.. parsonsprob:: visProcess
+   :adaptive:
+   :numbered: left
+
+   Put blocks in order to match the data science process
+   -----
+   retrieve the data from the web
+   =====
+   store the data in a database
+   =====
+   clean the data in the database
+   =====
+   calculate something from the data
+   =====
+   visualize the data
+   =====
+   write a final report
+  

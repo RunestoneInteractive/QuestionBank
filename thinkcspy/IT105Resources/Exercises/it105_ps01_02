@@ -1,0 +1,35 @@
+
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: IT105Resources/Exercises
+   :from_source: F
+.. activecode:: it105_ps01_02
+   :nocanvas:  
+   :autograde: unittest
+
+   Create a function called ``addToPlatoon``. The function has two 
+   parameters. The first is the current list of platoon members with PT data 
+   and the second is a new entry in the format of ["Jones", "Bob", 67, 87, 
+   99]. 
+
+   The function returns the updated platoon list.
+   ~~~~
+   #Create your function here
+
+   ====
+   #print("Hidden code, such as unit tests come after the four = signs")
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         pltList= []
+         cadet = ['Babbitt', 'Thomas', 90, 100, 95]
+         cadet2 = ['King', 'Kyle', 95, 95, 85]
+         expected_output = [['Babbitt', 'Thomas', 90, 100, 95]]
+         expected_output2= [['Babbitt', 'Thomas', 90, 100, 95], ['King', 'Kyle', 95, 95, 85]]
+         self.assertEqual(addToPlatoon(pltList,cadet), expected_output,"Ensure you start with two valid lists.")
+         self.assertEqual(addToPlatoon(expected_output, cadet2), expected_output2,"Ensure you are appending correctly.")
+     
+   myTests().main()

@@ -1,0 +1,13 @@
+.. fillintheblank:: more_recursion_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter5/morerecursion
+    :from_source: T
+
+    **Complete the circular definition:** unreal - a word used to describe
+    something that is |blank|.
+
+    - :[Uu][Nn][Rr][Ee][Aa][Ll]: Correct! Circular defintions are a great example of recursion.
+      :x: Try again!
+

@@ -1,0 +1,30 @@
+.. parsonsprob:: single_pass_solution_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/single-pass_solution
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Construct a function called histogram that takes a vector and the range of values in the vector, and that returns a histogram of values in the vector.
+   -----
+   vector&#60;int&#62; histogram(const vector&#60;int&#62;& vec, int range) {
+   =====
+      vector&#60;int&#62; histogram (range, 0);
+   =====
+      vector&#60;int&#62; histogram (range);                         #paired
+   =====
+      for (int i = 0; i &#60; vec.size(); i++) {
+   =====
+      for (int i = 0; i &#60; range; i++) {                         #paired
+   =====
+         int index = vec[i];
+   =====
+         int index = i;                         #paired
+   =====
+         histogram[index]++;
+   =====
+      }
+      return histogram;
+   }

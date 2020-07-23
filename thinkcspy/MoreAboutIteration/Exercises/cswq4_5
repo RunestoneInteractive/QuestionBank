@@ -1,0 +1,18 @@
+.. mchoice:: cswq4_5
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   :answer_a: 150000
+   :answer_b: 800
+   :answer_c: 1500
+   :answer_d: 3500
+   :correct: a
+   :random:
+   :feedback_a: Yes - 300 * 500 is 150000
+   :feedback_b: No; for an m x n image, the number of pixels is m * n
+   :feedback_c: No; for an m x n image, the number of pixels is m * n
+   :feedback_d: No; for an m x n image, the number of pixels is m * n
+
+   5. How many pixels are in a 300 x 500 pixel image?

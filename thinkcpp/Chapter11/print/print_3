@@ -1,0 +1,48 @@
+.. parsonsprob:: print_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter11/print
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Create the ``Dog`` object with member functions ``bark`` and ``is_teacup_dog``.  Write the functions
+   in the same order they appear inside the structure.
+   -----
+   struct Dog {
+   =====
+    int age, weight;
+    string breed;
+   =====
+    void bark();
+    bool is_teacup_dog();
+   =====
+   };
+   =====
+   }                         #paired
+   =====
+   void Dog::bark() {
+   =====
+   void bark() {                         #paired
+   =====
+    cout << "RUFF!" << endl;
+   }
+   =====
+   bool Dog::is_teacup_dog() {
+   =====
+   bool is_teacup_dog() {                          #paired
+   =====
+    Dog dog = *this;                          #distractor
+   =====
+    if (dog.weight < 4) {
+      return true;
+    }
+    return false;
+   }
+   =====
+    if (dog.weight < 4) {                          #paired
+      return true;
+    }
+    return false;
+   }

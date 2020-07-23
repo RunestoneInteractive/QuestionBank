@@ -1,0 +1,11 @@
+.. activecode:: ch00_1_1
+    :author: Euripides Vrachnos
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/ValuesandDataTypes
+    :from_source: F
+    :nocanvas:
+
+    print(type("Houston we have a problem!"))
+    print(type(17))
+    print("Hello, World")

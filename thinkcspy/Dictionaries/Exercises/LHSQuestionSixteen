@@ -1,0 +1,58 @@
+.. activecode:: LHSQuestionSixteen
+    :author: Wesley Thang
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function called ``countALL(text)`` that returns a dictionary with the key as the 
+    letter and the value as the number of times each letter appears in a given string.
+
+    Example: ``print(countAll("BaNaNa"))`` will return the dictionary ``{'b': 1, 'a': 3, 'n': 2}``
+
+    ~~~~
+        
+    def countAll(text):
+        # your code here
+
+    def main():
+        # your test code here
+
+    if __name__ == "__main__":
+        main()
+        
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _countAll(self, text):
+            dict = {}
+            text = text.lower()
+            for letter in text:
+                dict[letter] = dict.get(letter, 0) + 1
+            return dict
+
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+
+            tests = [ "",
+                      "banana",
+                      "MiSsIsSiPpI",
+                      "###!!000 q"
+                    ]
+
+            num=0
+            for t in tests:
+                expected = self._countAll(t)
+                actual = countAll(t)
+                self.assertEqual(actual, expected, "Testing that countAll returns the correct dictionary.")
+                num += 1
+
+    myTests().main()

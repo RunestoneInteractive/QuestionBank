@@ -1,0 +1,136 @@
+.. activecode:: lhs_7_7_wjm
+    :author: Bill Montana
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Write a function ``printHeight`` that takes in a integer input that describes the height in inches.
+    The function is a non-fruitful function that prints out a statement converting the inches into feet and inches.
+    **Be careful for certain special grammatical cases.**  
+
+    ``printHeight(48)`` should print out ``4 feet``.
+
+    ``printHeight(55)`` should print out ``4 feet and 7 inches``
+
+    ``printHeight(49)`` should print out ``4 feet and 1 inch``
+
+    See other grammar examples.
+
+    ::
+
+      7 feet and 2 inches
+      9 feet
+      1 foot and 9 inches
+      1 foot
+      3 inches
+      1 inch
+      0 inches
+
+    ~~~~
+    # Name: 
+
+    def printHeight(inches):
+        # write your code here
+    
+    def main():
+        printHeight(72)
+        printHeight(80)
+        
+    main()
+    
+    ====
+    import re
+    import random
+    from unittest.gui import TestCaseGui
+        
+    class myTests(TestCaseGui):
+             
+        def golden_test(self, inches):
+            feet = inches // 12
+            inch = inches % 12
+            out = ""
+            if feet != 0:
+                out = out + str(feet)
+                if feet == 1:
+                    out = out + " foot"
+                else:
+                    out = out + " feet"
+                if inch != 0:
+                    if inch == 1:
+                        out = out + " and 1 inch\n"
+                    else:
+                        out = out + " and " + str(inch) + " inches\n"
+                else:
+                    out = out + "\n"
+            else:
+                if inch == 0:
+                    out = "0 inches\n"
+                elif inch == 1:
+                    out = "1 inch\n"
+                else:
+                    out = str(inch) + " inches\n"
+            return(out)
+                
+        def testOne(self):
+            print("Auto-testing...")
+            for i in range(2):
+                oLen = len(self.getOutput())
+                rand = random.randrange(0,30,1)
+                printHeight(rand)
+                oLenTest = len(self.getOutput())
+                outText = self.getOutput()[oLen:oLenTest]  #extract new output           
+                self.assertEqual( outText, self.golden_test(rand), "Check random")   
+
+            oLen = len(self.getOutput())
+            printHeight(62)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output           
+            self.assertEqual( outText, self.golden_test(62), "Check 62")   
+            
+            oLen = len(self.getOutput())
+            printHeight(60)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output           
+            self.assertEqual( outText, self.golden_test(60), "Check 60")   
+            
+            oLen = len(self.getOutput())
+            printHeight(14)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output           
+            self.assertEqual( outText, self.golden_test(14), "Check 14")   
+            
+            oLen = len(self.getOutput())
+            printHeight(13)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output           
+            self.assertEqual( outText, self.golden_test(13), "Check 13")   
+            
+            oLen = len(self.getOutput())
+            printHeight(12)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output        
+            self.assertEqual( outText, self.golden_test(12), "Check 12")   
+    
+            oLen = len(self.getOutput())
+            printHeight(5)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output        
+            self.assertEqual( outText, self.golden_test(5), "Check 5")              
+            
+            oLen = len(self.getOutput())
+            printHeight(1)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output        
+            self.assertEqual( outText, self.golden_test(1), "Check 1")
+            
+            oLen = len(self.getOutput())
+            printHeight(0)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output
+            self.assertEqual( outText, self.golden_test(0), "Check 0")
+    
+    myTests().main()

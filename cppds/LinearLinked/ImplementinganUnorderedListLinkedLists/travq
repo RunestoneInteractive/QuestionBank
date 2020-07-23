@@ -1,0 +1,13 @@
+.. mchoice:: travq
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :topic: LinearLinked/ImplementinganUnorderedListLinkedLists
+    :from_source: T
+    :answer_a: True
+    :answer_b: False
+    :correct: a
+    :feedback_a: Correct!
+    :feedback_b: Not quite, without the while loop, the traversal could go for as long as the program is allowed to run.
+
+    True / false: The while loop is needed to keep the traversal from going past the end of the list.

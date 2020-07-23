@@ -1,0 +1,26 @@
+.. mchoice:: question_ta_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/TypeAnnotations
+   :from_source: T
+   :answer_a: The value 4.5 is displayed on the screen.
+   :answer_b: The value 2.52 is displayed on the screen.
+   :answer_c: A crash occurs because 2.5 is not a string
+   :answer_d: A crash occurs because the expression 'msg + 2' illegally attempts to concatenate a str and an int
+   :correct: a
+   :feedback_a: Correct! Python ignores the ': str' annotation and returns the sum of msg (the float 2.5) + 2.
+   :feedback_b: Incorrect. In this call, msg contains the float value 2.5; the ': str' annotation serves only as documentation.
+   :feedback_c: Incorrect. Python ignores the ': str' annotation and allows the float value 2.5 to be passed to msg.
+   :feedback_d: Incorrect. In this call, msg contains the float value 2.5, not a str, so the + operation is legal.
+   :practice: T
+
+   What happens when the following is executed?
+
+   .. sourcecode:: python
+
+        def display(msg: str):
+            """Displays `msg` on the screen"""
+            print(msg + 2)
+
+        display(2.5)

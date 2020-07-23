@@ -1,0 +1,99 @@
+.. activecode::  ch5Ex10q
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/topic-3-10-practice-coding
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+
+   Finish the code below to print your grade based on your score.  The score is an A if you scored 92 or higher, a B if you scored 82 to 91, a C if you scored 72 to 81, a D if you scored a 62 to 71, or an E.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           double score = 67;
+
+       }
+   }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;;
+     import java.io.*;
+
+     public class RunestoneTests extends CodeTestHelper
+     {
+       @Test
+         public void testChangedCode() {
+             String origCode = "public class Test1 { public static void main(String[] args) {        double score = 67; } }";
+
+             boolean changed = codeChanged(origCode);
+
+             assertTrue(changed);
+
+         }
+
+       @Test
+         public void testCheckCodeContains()
+         {
+
+            boolean outputA = checkCodeContains("print statement - A", "System.out.println(\"A\")");
+            assertTrue(outputA);
+
+         }
+
+         @Test
+         public void testCheckCodeContains2()
+         {
+           boolean outputB = checkCodeContains("print statement - B", "System.out.println(\"B\")");
+           assertTrue(outputB);
+         }
+
+         @Test
+         public void testCheckCodeContains3()
+         {
+           boolean outputC = checkCodeContains("print statement - C", "System.out.println(\"C\")");
+           assertTrue(outputC);
+         }
+
+         @Test
+         public void testCheckCodeContains4()
+         {
+           boolean outputD = checkCodeContains("print statement - D", "System.out.println(\"D\")");
+           assertTrue(outputD);
+         }
+
+         @Test
+         public void testCheckCodeContains5()
+         {
+           boolean outputE = checkCodeContains("print statement - E", "System.out.println(\"E\")");
+           assertTrue(outputE);
+         }
+
+         @Test
+         public void testCheckCodeContains6(){
+           boolean output = checkCodeContains("if you scored 92 or higher", "if (score >= 92)");
+           assertTrue(output);
+         }
+
+         @Test
+         public void testCheckCodeContains7(){
+           boolean output = checkCodeContains("else if you scored 82 or higher", "else if (score >= 82)");
+           assertTrue(output);
+         }
+
+         @Test
+         public void testCheckCodeContains8(){
+           boolean output = checkCodeContains("else if you scored 72 or higher", "else if (score >= 72)");
+           assertTrue(output);
+         }
+
+         @Test
+         public void testCheckCodeContains9(){
+           boolean output = checkCodeContains("else if you scored 62 or higher", "else if (score >= 62)");
+           assertTrue(output);
+         }
+     }

@@ -1,0 +1,16 @@
+.. activecode:: ch02_10
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Variables
+    :from_source: T
+    :nocanvas:
+
+    message = "What's up, Doc?"
+    n = 17
+    pi = 3.14159
+
+    print(type(message))
+    print(type(n))
+    print(type(pi))
+

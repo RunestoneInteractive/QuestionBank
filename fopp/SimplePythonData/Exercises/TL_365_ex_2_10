@@ -1,0 +1,25 @@
+.. actex:: TL_365_ex_2_10
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Write a program that will compute the area of a circle. Prompt the
+   user to enter the radius and save it to a variable called
+   ``radius``. Use 3.14 for the value of :math:`\pi`. Print a nice
+   message back to the user with the answer.
+
+   ~~~~
+
+   ====
+
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertIn('radius', self.getEditorText())
+           self.assertTrue(re.search(str(3.14*radius**2)[:4], self.getOutput()), 'Checking answer.')
+   myTests().main()

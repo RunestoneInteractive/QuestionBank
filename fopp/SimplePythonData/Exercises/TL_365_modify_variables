@@ -1,0 +1,42 @@
+.. actex:: TL_365_modify_variables
+   :author: Tyler Luchko
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   *Below the code already provided for you*,
+   increment ``i`` by 10, decrement ``j`` by 200, use the ``*=``
+   operator to increase ``k`` by a factor of 1.5 and reassign ``l``
+   to 42.
+   ~~~~
+
+   i = 11
+   j = 22
+   k = 33
+   l = 44
+   ====
+
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(i, 21, 'Checking the value of i.')
+           # check three different ways
+           self.assertTrue(re.search(r'i *(\+= *10|= *i *\+ *10|= *10 *\+ *i)', self.getEditorText()), 'Checking code for i.')
+
+           self.assertEqual(j, -178, 'Checking the value of j.')
+           # check four different ways
+           self.assertTrue(re.search(r'j *(-= *200|= *j *- *200|= *j *\+ *-200|= *-200 *\+ *j)', self.getEditorText()), 'Checking code for j.')
+
+           self.assertEqual(k, 33*1.5, 'Checking the value of k.')
+           # check one way
+           self.assertTrue(re.search(r'k *\*= *1.5', self.getEditorText()), 'Checking code for k.')
+
+           self.assertEqual(l, 42, 'Checking the value of l.')
+           # check one way
+           self.assertTrue(re.search(r'l *= *42', self.getEditorText()), 'Checking code for l.')
+
+   myTests().main() 

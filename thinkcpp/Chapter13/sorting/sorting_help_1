@@ -1,0 +1,35 @@
+.. parsonsprob:: sorting_help_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter13/sorting
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Let's write the code for the findLowestCard function. findLowestCard
+   should take an index as a parameter and return an int.
+   -----
+   int Deck::findLowestCard (int index) {
+   =====
+   void Deck::findLowestCard (int index) {                         #paired
+   =====
+    int min = index;
+   =====
+    for (size_t i = index; i < cards.size(); ++i) {
+   =====
+    for (size_t i = 0; i < cards.size(); ++i) {                         #paired
+   =====
+     if (cards[min].isGreater(cards[i])) {
+   =====
+     if (cards[i].isGreater(cards[min])) {                         #paired
+   =====
+      min = i;
+     }
+    }
+   =====
+    return min;
+   }
+   =====
+    return cards[min];                         #paired
+   }

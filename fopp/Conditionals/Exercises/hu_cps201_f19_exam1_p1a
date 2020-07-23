@@ -1,0 +1,35 @@
+.. activecode:: hu_cps201_f19_exam1_p1a
+    :author: Sean Joyce
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: F
+
+    In the problem below, you are given a list of integers named ``num_list``.
+    Write Python code that calculates the numeric average of the `positive`
+    items in ``num_list`` and stores it in a variable named ``pos_avg``.  
+
+    Also calculate the numeric average of the `negative` items in ``num_list``
+    and store that result in a variable named ``neg_avg``.
+
+    Finally, print the results to the screen.  I have included a comment that
+    shows you how the results should appear.  Make certain your program
+    is general, `i.e.` that it will work for any values in ``num_list``.  Do not hard
+    code any results.
+    ~~~~
+    num_list = [-21, -13, 21, 12, -19, -19, 21, -3, -6, 13]
+
+   
+    # Your final output should look 
+    # like the two lines below
+
+    # Avg of pos = 16.75
+    # Avg of neg = -13.5
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+
+config values (conf.py):
+
+- activecode_div_class - custom CSS class of the component's outermost div
+- activecode_hide_load_history - if True, hide the load history button
+    

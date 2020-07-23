@@ -1,0 +1,51 @@
+.. activecode::  ch4Ex11q
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-12-practice-coding
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   The following code should remove the word "very " (and following space) from the message and print the new message.  You can use ``indexOf`` to find the position of a substring in your string.  You can use ``substring`` to create a new string removing the word.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           String message = "I am very happy!";
+           String target = "very ";
+
+       }
+   }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;;
+     import java.io.*;
+
+     public class RunestoneTests extends CodeTestHelper
+     {
+         @Test
+         public void testMain() throws IOException
+         {
+             String output = getMethodOutput("main");
+             String expect = "I am happy!";
+             boolean passed = getResults(expect, output, "Expected output from main");
+             assertTrue(passed);
+         }
+          @Test
+         public void testCodeContains()
+         {
+             String target = ".substring(";
+             boolean passed = checkCodeContains("substring method", target);
+             assertTrue(passed);
+         }
+          @Test
+         public void testCodeContains2()
+         {
+             String target = ".indexOf(";
+             boolean passed = checkCodeContains("indexOf method", target);
+             assertTrue(passed);
+         }
+     }

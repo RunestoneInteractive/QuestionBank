@@ -1,0 +1,23 @@
+
+   :author: Shawn Haarer
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+.. activecode:: Troy Asmt_1_20
+   :language: java
+   
+   Write a program that will calculate the unit cost of coffee.  
+   (Coffee.  Java. Get it?!)  
+   Assume the price of 12 ounces of coffee is $6.99.  
+   There are 16 ounces in one pound. 
+   Calculate the unit price of 1 pound of coffee.  
+   Display your result in a sentence such as:
+
+   "If 10 ounces of coffee is priced at $5.95, then the 
+   unit price is $9.52 per pound of coffee."  
+   ~~~~
+    /*  Asmt 20.  the Unit Price of Java
+        Coded by _________
+        Date ________
+   */

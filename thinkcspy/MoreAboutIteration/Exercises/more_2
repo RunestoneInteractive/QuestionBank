@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: more_2
+  
+    Describe how programmers use for loops with a variable initialized to 0 
+    along with an accumulator pattern to count or keep track of a tally.
+
+    ~~~~
+    

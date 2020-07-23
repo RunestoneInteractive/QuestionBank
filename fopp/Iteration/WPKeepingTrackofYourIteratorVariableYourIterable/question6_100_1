@@ -1,0 +1,27 @@
+.. mchoice:: question6_100_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
+   :from_source: T
+   :answer_a: string
+   :answer_b: list
+   :answer_c: tuple
+   :answer_d: iterable
+   :answer_e: error, unable to iterate over the object.
+   :feedback_a: Incorrect, that is not the type of the iterable.
+   :feedback_b: Yes, the iterable is n, and it is a list.
+   :feedback_c: Incorrect, that is not the type of the iterable.
+   :feedback_d: Incorrect, that is not the type of the iterable.
+   :feedback_e: Incorrect, Python can iterate over this type.
+   :correct: b
+   :practice: T
+
+   What is the type of your iterable?
+
+   .. sourcecode:: python
+
+       n = ["word", "phrase", 8, ("beam")]
+       for item in n:
+           print(item)
+

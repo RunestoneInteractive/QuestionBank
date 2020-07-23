@@ -1,0 +1,16 @@
+.. activecode::  ams_assign3_q4
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Complete the code on lines 3 and 5 below to print the cost of a car trip of 500 miles when the car gets 26 miles per gallon and gas costs 3.45 a gallon. It should print 66.3461538462.
+    ~~~~
+    miles = 500
+    milesPerGallon = 26
+    numGallons =
+    pricePerGallon = 3.45
+    total =
+    print(total)

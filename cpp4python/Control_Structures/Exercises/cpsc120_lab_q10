@@ -1,0 +1,33 @@
+
+   :author: Matthew Zuniga
+   :difficulty: 0.0
+   :basecourse: cpp4python
+   :topic: Control_Structures/Exercises
+   :from_source: F
+.. parsonsprob:: cpsc120_lab_q10
+
+   As with the <b>Fibonacci Sequence</b>, the <b>factorial problem</b> is another important problem in computer science. It can be done using recursion which again, will be taught in later courses.</b><br>
+   <br>
+
+   A factorial, <b>n!</b> is the product of all positive integers less than or equal to n. <br>
+   <br>
+   For example: 4! = 4 * 3 * 2 * 1 = 24
+   <br>
+    
+   Using a <b>while loop</b>, create a program that calculates the factorial of a number.
+   -----
+   int val = 0;
+   int i = 1;
+   int factorial = 1;
+   =====
+   cout << "Enter a positive integer: " << endl;
+   cin >> val;
+   =====
+   while(i <= val) {
+    factorial *= i;
+    i++;
+   }
+   =====
+   cout << val << "! is: " << factorial << endl;
+   =====
+   #distractorwhile(i >= val) {

@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_22
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   :answer_a: gray
+   :answer_b: yellow
+   :answer_c: pale blue
+   :answer_d: pink
+   :correct: a
+   :random:
+
+   22. An RGB pixel with red, green, and blue values of (128, 128, 128) would be

@@ -1,0 +1,15 @@
+.. dragndrop:: logical_op_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter5/logicaloperators
+   :from_source: T
+   :feedback: Try again!
+   :match_1: (n * 2 > 10 && n >= 7)|||true, "and"
+   :match_2: (n * 2 > 10 && n < 7)|||false, "and"
+   :match_3: (n%2 == 1 || n == 8)|||true, "or"
+   :match_4: (n%2 == 0 || n == 8)|||false, "or"
+   :match_5: !(n == 7)|||false, "not"
+   :match_6: !(n >= 10)|||true, "not"
+
+   Match the conditional statement to the correct boolean and the meaning of the operator in use, given n = 7.

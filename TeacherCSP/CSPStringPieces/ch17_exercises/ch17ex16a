@@ -1,0 +1,17 @@
+.. activecode::  ch17ex16a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPStringPieces/ch17_exercises
+    :from_source: T
+    :nocodelens:
+
+    def aProcedure(aString):
+        pieces = aString.split(",")
+        adj1 = pieces[0]
+        adj2 = pieces[1]
+        noun = pieces[2]
+        verb = pieces[3]
+        sentence = "The " + adj1 + " and " + adj2 + " " + noun + " " + verb + "."
+        print(sentence)
+    aProcedure("crazy,blue,banana,runs")

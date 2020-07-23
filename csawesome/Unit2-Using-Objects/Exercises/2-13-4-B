@@ -1,0 +1,20 @@
+.. mchoice:: 2-13-4-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: Hello world!Hello world!
+   :answer_b: Hello world!
+   :answer_c: Hello
+   :answer_d: Hello world! Hello world!
+   :correct: b
+
+   What is the value of s1 after the following code is executed?
+
+   .. code-block:: java
+
+    String s1 = "Hello world!";
+    String s2 = "Hello world!";
+    String s2 = s1 + s1;
+    String s3 = s1.substring(0, 6);

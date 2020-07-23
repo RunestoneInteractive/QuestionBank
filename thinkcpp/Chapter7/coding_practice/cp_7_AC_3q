@@ -1,0 +1,18 @@
+.. activecode:: cp_7_AC_3q
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter7/coding_practice
+   :from_source: T
+   :language: cpp
+
+   #include <iostream>
+   using namespace std;
+
+   void censorWord (string input, string word) {
+       // Write your implementation here.
+   }
+
+   int main() {
+       censorWord ("I really, really, really, really, really, really like you", "really");
+   }

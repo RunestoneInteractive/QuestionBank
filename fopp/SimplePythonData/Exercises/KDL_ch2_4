@@ -1,0 +1,24 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. activecode:: KDL_ch2_4
+   :language: python
+   :autograde: unittest
+
+   Write a program that requests the ``price`` and weight of an item in ``pounds`` and ``ounces``. Convert the pounds to ounces and determine the ``total_ounces`` and then determines the ``price_per_ounce`` with the total ounces.
+
+   ~~~~
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(total_ounces,int(pounds)*16+int(ounces),feedback="The total ounces are correct!")
+           self.assertEqual(price_per_ounce,int(price)/total_ounces,feedback="The price per ounces are correct!")
+           self.assertIn('input(', self.getEditorText(), 'Contains user input')
+   myTests().main()  

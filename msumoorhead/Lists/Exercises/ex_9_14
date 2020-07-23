@@ -1,0 +1,21 @@
+.. activecode:: ex_9_14
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: Lists/Exercises
+   :from_source: None
+
+   def replace(s, old, new):
+       # your code here
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(replace('Mississippi','i','I'), 'MIssIssIppI',"Tested replace on input 'Mississippi','i','I'")
+           self.assertEqual(replace('Bookkeeper','e','A'), 'BookkAApAr',"Tested failed on input 'Bookkeeper','e','A'")
+           self.assertEqual(replace('Deeded','e','q'), 'Dqqdqd',"Tested failed on input 'Deeded','e','q'")
+
+   myTests().main()

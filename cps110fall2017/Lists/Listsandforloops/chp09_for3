@@ -1,0 +1,11 @@
+.. activecode:: chp09_for3
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/Listsandforloops
+    :from_source: None
+
+    for number in range(20):
+        if number % 3 == 0:
+            print(number)
+

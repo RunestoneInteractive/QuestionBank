@@ -1,0 +1,22 @@
+
+   :author: Linda Seiter
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+.. parsonsprob:: cs128_ch1_parson
+   :noindent:
+
+   Order the blocks to declare, assign and print integer age;
+   -----
+   int age;
+   =====
+   age = 20;
+   =====
+   System.out.println(age);
+
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

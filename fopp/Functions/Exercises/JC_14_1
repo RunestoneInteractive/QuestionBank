@@ -1,0 +1,21 @@
+.. actex:: JC_14_1
+   :author: Joaquin Carbonara
+   :difficulty: 2.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :nocodelens:
+
+   Write a function that removes all occurrences of a given letter from a string. Test your code with the following text: "Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, where’s the peck of pickled peppers Peter Piper picked?" by removing all "p" and "P".
+   ~~~~
+   tong_twister='Peter Piper picked a peck of pickled peppers. A peck of pickled peppers Peter Piper picked. If Peter Piper picked a peck of pickled peppers, where’s the peck of pickled peppers Peter Piper picked?'
+   def remove_letter(theLetter, theString):
+       # your code here
+
+
+
+   print(remove_letter('p',tong_twister)) #This should remove all upper and lower case p.
+
+   ====
+
+

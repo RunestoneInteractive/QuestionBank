@@ -1,0 +1,12 @@
+.. dragndrop:: chapter_one_glossary_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter1/glossary
+   :from_source: T
+   :feedback: Try again!
+   :match_1: natural language|||Any of the languages people speak that have evolved naturally.
+   :match_2: high-level language|||A programming language like C++ that is easy for humans to read and write.
+   :match_3: low-level language|||A programming language that is easy for a computer to execute.
+   :match_4: formal language|||Any of the languages people have designed for specific purposes.
+

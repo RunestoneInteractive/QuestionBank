@@ -1,0 +1,28 @@
+.. mchoice:: q2_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: T
+   :practice: T
+   :answer_a: x = 0, y = 1, z = 2
+   :answer_b: x = 1, y = 2, z = 3
+   :answer_c: x = 2, y = 2, z = 3
+   :answer_d: x = 0, y = 0, z = 3
+   :correct: b
+   :feedback_a: These are the initial values in the variable, but the values are changed.
+   :feedback_b: x changes to y's initial value, y's value is doubled, and z is set to 3
+   :feedback_c: Remember that the equal sign doesn't mean that the two sides are equal.  It sets the value for the variable on the left to the value from evaluating the right side.
+   :feedback_d: Remember that the equal sign doesn't mean that the two sides are equal.  It sets the value for the variable on the left to the value from evaluating the right side.
+
+   What are the values of x, y, and z after the following code executes?  You can step through this code by clicking on this |Java visualizer2| link.
+
+   .. code-block:: java
+
+       int x = 0;
+       int y = 1;
+       int z = 2;
+       x = y;
+       y = y * 2;
+       z = 3;
+

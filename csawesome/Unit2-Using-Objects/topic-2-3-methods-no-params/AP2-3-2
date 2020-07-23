@@ -1,0 +1,70 @@
+.. mchoice:: AP2-3-2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csawesome
+    :topic: Unit2-Using-Objects/topic-2-3-methods-no-params
+    :from_source: T
+    :practice: T
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Cat
+        {
+            public void meow()
+            {
+                System.out.print("Meow ");
+            }
+
+            public void purr()
+            {
+                System.out.print("purr");
+            }
+
+            public void welcomeHome()
+            {
+                purr();
+                meow();
+            }
+            /* Constructors not shown */
+        }
+
+    Which of the following code segments, if located in a method in a class other than Cat, will cause the message "Meow purr" to be printed?
+
+    - .. code-block:: java
+
+        Cat a = new Cat();
+        Cat.meow();
+        Cat.purr();
+
+      - You must use the object a, not the class name Cat, to call these methods.
+
+    - .. code-block:: java
+
+        Cat a = new Cat();
+        a.welcomeHome();
+
+      - This would print "purrMeow "
+
+    - .. code-block:: java
+
+        Cat a = new Cat();
+        a.meow();
+        a.purr();
+
+      + Correct!
+
+    - .. code-block:: java
+
+         Cat a = new Cat().welcomeHome();
+
+      - This would cause a syntax error.
+
+    - .. code-block:: java
+
+         Cat a = new Cat();
+         a.meow();
+
+      - This would just print "Meow ".
+

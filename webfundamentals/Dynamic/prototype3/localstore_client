@@ -1,0 +1,20 @@
+.. mchoice:: localstore_client
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: Dynamic/prototype3
+   :from_source: T
+
+   What is the best way to arrange for our new LocalStorageSaver class to be a client of the model?
+
+   - Make LocalStorageSaver a subclass of ShoppingList
+
+     - No, although this could work it would tightly couple the model to a particular method of persistent storage.
+
+   - Make the LocalStorage object a property of our model.
+
+     - No, although we could make this work as well, it's not the best solution for our architecture.
+
+   - Have the LocalStorageSaver object subscribe to the model
+
+     + Corrrect!

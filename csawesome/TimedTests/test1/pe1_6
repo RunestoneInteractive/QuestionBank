@@ -1,0 +1,26 @@
+.. mchoice:: pe1_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/test1
+   :from_source: T
+   :answer_a: Data set 1 since it has more test cases.
+   :answer_b: Data set 2 since it only contains strings with lower case characters.
+   :answer_c: There are no advantages.
+   :answer_d: Data set 1 since it has test cases with both upper and lower case characters.
+   :answer_e: Data set 2 since it contains strings which should return true and should return false.
+   :correct: e
+   :feedback_a: More test cases isn't necessarily better.  The tests should test the range of possible outcomes.
+   :feedback_b: It is actually better to test with strings that contain both upper and lower case characters.
+   :feedback_c: Data set 1 only contains cases that should return true.  How about checking cases that should return false?
+   :feedback_d: There is a better answer.  While it is good to test with strings that contain both upper and lower case characters there is another reason why data set 2 is better.
+   :feedback_e: You want to test all possible results and data set 1 only contains strings that should return true.
+
+   There is a method called ``checkString`` that determines whether a string is the same forwards and backwards. The following data sets can be used for testing the method.  Which is a best set of test cases?
+
+   .. code-block:: java
+
+      Data set 1: "aba", "abba", "aBa", "z"
+      Data set 2: "bcb", "bcd", "c"
+
+

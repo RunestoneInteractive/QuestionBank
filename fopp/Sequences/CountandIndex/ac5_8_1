@@ -1,0 +1,10 @@
+.. activecode:: ac5_8_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sequences/CountandIndex
+   :from_source: T
+
+   a = "I have had an apple on my desk before!"
+   print(a.count("e"))
+   print(a.count("ha"))

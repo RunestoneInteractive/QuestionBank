@@ -1,0 +1,13 @@
+
+    :author: Jane Weyant
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. actex:: BPU_Add_Multipy
+
+    Write a program that asks the user to input two numbers. Calculate the sum and product of the two numbers and output each answer with a message indicating what each answer is.
+    ~~~~
+    
+ 
+    

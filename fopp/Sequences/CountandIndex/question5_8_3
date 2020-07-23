@@ -1,0 +1,21 @@
+.. mchoice:: question5_8_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sequences/CountandIndex
+   :from_source: T
+   :answer_a: 0
+   :answer_b: -1
+   :answer_c: There is an error.
+   :correct: c
+   :feedback_a: No, the first element is 'bathroom', not 'garden'.
+   :feedback_b: Though there is no 'garden' in the list, we do not get back -1 when we use index. Instead, we get an error.
+   :feedback_c: Yes, there is no 'garden' in the list, so we get back an error.
+   :practice: T
+
+   What will be stored in the variable ht below?
+
+   .. sourcecode:: python
+
+      rooms = ['bathroom', 'kitchen', 'living room', 'bedroom', 'closet', "foyer"]
+      ht = rooms.index("garden")

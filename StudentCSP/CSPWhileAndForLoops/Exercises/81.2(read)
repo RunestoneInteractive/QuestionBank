@@ -1,0 +1,20 @@
+.. activecode:: 81.2(read)
+   :author: Renske Weeda
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPWhileAndForLoops/Exercises
+   :from_source: F
+   :nocodelens:
+
+    Bedenk een geschikte functienaam in de code hieronder.
+    -----
+    lijst = [23, 29, 28, -4, 10, 0, 8, 30, 30, 30, 29, 30]
+    a = lijst[0]
+    for t in lijst:
+        if t > a:
+            a = t
+    
+    b = 0
+    for t in lijst:
+        if t == a:
+            b += 1

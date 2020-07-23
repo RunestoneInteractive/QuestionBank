@@ -1,0 +1,21 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_cw6_s20_q3_ext
+
+    **Question 3 Additional Practice** [No points]
+
+    For additional practice, you can create a version of this program that starts with a fixed inventory of oranges and apples (say 40 oranges and 20 apples) and reports leftover inventory at the end. It will not sell any fruits it does not have. e.g. if a customer asks for 8 apples and there is only 3, then it will sell 3 apples. This will not be graded
+
+    
+   
+    ~~~~
+    # Write your code here
+
+    
+
+
+  

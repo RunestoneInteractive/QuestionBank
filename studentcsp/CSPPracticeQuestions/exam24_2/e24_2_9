@@ -1,0 +1,35 @@
+.. mchoice:: e24_2_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/exam24_2
+   :from_source: T
+   :answer_a: I. and II. only
+   :answer_b: I. and III. only
+   :answer_c: I. and IV. only
+   :answer_d: III. and IV. only
+   :correct: d
+   :feedback_a: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0 and temp greater than 0 will cause the temperature to only increment above temp == 0.
+   :feedback_b: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0
+   :feedback_c: Incorrect. temp == 0 will cause the temperature to increment to 1 when temp == 0
+   :feedback_d: Correct. These two conditionals will not allow temp to go above 0
+
+   In a freezer, the temperature can be increased, but should not go above 0° C.  It can, however, be exactly equal to 0° C. The unfinished code for increasing the temperature in a freezer is shown below.  The variable temp represents the current temperature in degrees Celsius.
+   ::
+
+    PROCEDURE incrementTemperature(temp)
+    {
+       IF (<MISSING CODE>)
+       {
+          temp ← temp + 1
+       }
+       RETURN temp
+    }
+
+   Which of the following conditional statements will allow the code to function as expected?
+   ::
+
+    I.     temp == 0
+    II.    temp > 0
+    III.   temp < 0
+    IV.    NOT (temp >= 0)

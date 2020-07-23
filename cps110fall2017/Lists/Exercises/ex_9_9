@@ -1,0 +1,11 @@
+.. actex:: ex_9_9
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: Lists/Exercises
+   :from_source: None
+
+   Count how many words in a list have length 5.
+   ~~~~
+   def countWords(lst):
+       # your code here

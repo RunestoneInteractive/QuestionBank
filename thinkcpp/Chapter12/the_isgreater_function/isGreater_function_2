@@ -1,0 +1,30 @@
+.. fillintheblank:: isGreater_function_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter12/the_isgreater_function
+    :from_source: T
+
+    ::
+
+     Card card1 (2,12);
+     Card card2 (1,12);
+     if (card1.isGreater (card2)) {
+        card1.print ();
+        cout << "is greater than" << endl;
+        card2.print ();
+     }
+     else {
+        card2.print ();
+        cout << "is greater than" << endl;
+        card1.print ();
+     }
+
+    If the above code is run, the terminal will print:
+    "Queen of Hearts"
+    |blank|
+    "Queen of Diamonds"
+    Type your answer exactly as it would appear in the terminal.
+
+    - :(is greater than): Correct!
+      :.*: Incorrect!  Try this input on the code above!

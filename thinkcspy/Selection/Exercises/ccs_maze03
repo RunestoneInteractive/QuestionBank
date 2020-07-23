@@ -1,0 +1,56 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+.. activecode:: ccs_maze03
+   :include: ccs_maze00
+   
+   look_around function. This has been implemented for you. Code is provided for information only--please don't edit.
+   ~~~~
+   '''
+   Given the position of a cell, return a list of the neighbors that are not
+   blocked by walls.
+   
+   Parameter: maze - the maze (list represenation)
+           position - a two-item list containing the row and column of any
+           open cell in the maze. At most it will have four options (if
+           all directions are open), and at the least the list will
+           contain 1 option.
+           
+   Return:    A list of two-item cells that are either above, below, to the
+           left or to the right of the given cell and are not occupied
+           by walls.
+   '''
+   def look_around(maze, position):
+       # find the boundaries of the maze
+       maxrow = len(maze)-1
+       maxcol = len(maze[0])-1
+   
+       # put row and col into variables for readability
+       row,col    = position
+
+       # set up empty lists for later 
+       candidates = []
+       options    = []
+
+       # first add anything that's inside the maze grid 
+       if row+1 <=maxrow:
+           candidates += [[row + 1,col]]
+       if row-1 >= 0:
+           candidates += [[row - 1,col]]
+       if col+1 <=maxcol:
+           candidates += [[row,col+1]]
+       if col-1 >= 0:
+           candidates += [[row,col-1]]
+   
+       # Now weed out blocked cells
+       for cell in candidates:
+           row,col = cell
+           if maze[row][col] != BLOCKED:
+               options += [cell]
+       
+       return options
+   ====
+   

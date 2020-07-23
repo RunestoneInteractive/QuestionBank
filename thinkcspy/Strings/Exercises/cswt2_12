@@ -1,0 +1,14 @@
+.. mchoice:: cswt2_12
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: two or more items hash to the same location
+   :answer_b: the IT manager backs into the CEO's car
+   :answer_c: two or more people use the same tag for different subjects
+   :answer_d: two bits meet each other going opposite directions on the data bus
+   :correct: a
+   :random:
+
+   12. In hashing, a collision is when

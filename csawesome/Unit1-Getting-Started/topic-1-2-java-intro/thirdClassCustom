@@ -1,0 +1,23 @@
+.. parsonsprob:: thirdClassCustom
+   :author: Beryl Hoffman
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/topic-1-2-java-intro
+   :from_source: F
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The following code is mixed up.  Drag the blocks from left to right and put them in the correct order.  Click on the "Check Me" button to check your solution.
+   -----
+   public class ThirdClass
+   {
+   =====
+      public static void main(String[] args)
+      {
+      =====
+         System.out.println("How am I doing homework already?");
+         =====
+      }
+      =====
+   }

@@ -1,0 +1,31 @@
+.. actex:: rab_lq3_ex1_s18
+    :author: Richard Bernatz
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Use this active code window for coding problem 1. Include the required function only!
+    
+    
+    ~~~~
+    # your name
+    def cipher(s_in):
+    
+    
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual(cipher('seat'), 'ties',  "Tested 'seat' ")
+            self.assertEqual(cipher('bacon'), 'necub',  "Tested  'bacon' ")
+            self.assertEqual(cipher('Allamakee'), 'illemekiA',  "Tested 'Allamakee' ")
+            self.assertEqual(cipher('Louisville'), 'iuaosvollL',  "Tested 'Louisville' ")
+            self.assertEqual(cipher('it'), 'to',  " 'to' ")
+            self.assertEqual(cipher('a'), 'a',  " 'a' ")
+           
+          
+    myTests().main() 
+    

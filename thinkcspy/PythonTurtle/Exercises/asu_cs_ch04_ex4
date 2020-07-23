@@ -1,0 +1,33 @@
+.. activecode:: asu_cs_ch04_ex4
+    :author: Erdogan Dogdu
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a program to draw a hexagon with 6 triangles as shown here:
+    
+    https://i.stack.imgur.com/WLpfx.png
+
+    Use two ``for`` loops and two ``range`` function.
+
+    Hint: Draw 6 isosceles triangles (all sides of equal sizes), and each with 3 sides :)
+
+    ~~~~
+    # write your code here
+    
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+    
+        def testMany(self):
+            outText = self.getOutput()
+            editText = self.getEditorText()
+            
+            self.assertEqual(2, editText.count('for '), "You need to use just two 'for' loops!")
+            self.assertEqual(2, editText.count('range('), "You need to use just two range functions!")
+        
+    myTests().main()

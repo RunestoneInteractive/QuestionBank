@@ -1,0 +1,31 @@
+.. activecode:: rab_hw_ex_02_ch_08
+   :author: Richard Bernatz
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   
+
+   Write a program that includes a function called ``find_zero(a, b, tol)`` that uses the bisection method to locate a value ``x*`` for which the function ``f(x)`` has zero (i.e. ``f(x*) = 0``). Use a ``while`` loop within your function to iterate the process until a prescribed tolerance is achieved. The parameters ``a`` and ``b`` define an interval on the ``x`` axis on which the function ``f(x)`` has at least one zero. The parameter ``tol`` specifies the tolerance to be achieved. The ``find_zero(a, b, tol)`` function returns the approximation ``x*`` and the number of iterations required that are printed out in the ``main()`` function. Use 0.001 as an initial tolerance. Your program will include a function ``f(x)`` as well as a ``main()`` function. Use f(x) = x**2 - 17
+   
+   .. sourcecode:: python
+   
+      while abs(f(x)) > tol:
+
+   ~~~~
+   # Your Name
+
+   def f(x):
+
+
+
+   def find_zero(a, b, tol):
+
+
+
+   def main():
+
+
+
+   main()
+    

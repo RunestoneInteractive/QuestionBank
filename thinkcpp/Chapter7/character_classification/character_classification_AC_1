@@ -1,0 +1,37 @@
+.. activecode:: character_classification_AC_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter7/character_classification
+  :from_source: T
+  :language: cpp
+
+  Try writing the ``stringToUpper`` and ``stringToLower`` functions in the
+  commented sections of the active code below. Both functions take a single ``string``
+  as a parameter and have return type ``void``. ``stringToUpper`` should convert the string
+  to uppercase, and ``stringToLower`` should convert the string to lowercase. Some functions that
+  you might find useful include ``isalpha``, ``isupper``, ``islower``, ``toupper``, and ``tolower``.
+  If you get stuck, you can reveal the extra problems at the end for help.
+  ~~~~
+  #include <iostream>
+  #include "ctype.h"
+  using namespace std;
+
+  void stringToUpper (string &input) {
+      // ``stringToUpper`` should convert a string to uppercase.
+      // Write your implementation here.
+  }
+
+  void stringToLower (string &input) {
+      // ``stringToLower`` should convert a string to lowercase.
+      // Write your implementation here.
+  }
+
+  int main() {
+      string upper = "This String Should Be Converted To Uppercase!";
+      stringToUpper (upper);
+      cout << upper << endl;
+      string lower = "This String Should Be Converted To Lowercase!";
+      stringToLower (lower);
+      cout << lower << endl;
+  }

@@ -1,0 +1,13 @@
+.. fillintheblank:: mov_expensive_movies
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: MovieData/filtering
+   :from_source: T
+
+   How many movies have a budget over 1 million dollars? |blank|
+
+   - :7208: Is the correct answer
+     :7405: Budget should be over (not including) 1 million dollars
+     :x: catchall feedback
+

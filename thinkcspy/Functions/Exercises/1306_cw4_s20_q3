@@ -1,0 +1,55 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: 1306_cw4_s20_q3
+
+    **Question 3 [20 points]** The following question is designed to help your understanding of variable name scoping in Python. Please analyze the code carefully and determine what the program will print.  If a particular print statement will cause an error, then just mention that (and assume that the statement is commented out for rest of the program to run.)
+
+    ::
+
+         Line 1.	def findmean(c,a,b):
+         Line 2.	    sum = a+b+c
+         Line 3.	    mean = sum/3.0
+         Line 4.	    print ("Numbers  inside are" , a,b,c)
+         Line 5.	    return mean
+         
+         Line 6.	mean = 0
+         Line 7.	a = 4
+         Line 8.	b = 2
+         Line 9.	c = 11
+         Line 10.	answer = findmean (a,b,c)
+
+         Line 11.	print("Numbers entered are", a,b,c)
+         Line 12.	print("Answer returned is", answer)
+         Line 13.	print("Mean value is", mean)
+         Line 14.	print("Sum over here is", sum)
+    
+
+    Please answer the question as comments in the code window as indicated. Feel free to type the code to test and verify your answers.
+
+
+
+
+    ~~~~
+    # Line 11 prints
+    # (Answer as comments)
+
+    # Line 12 prints
+    # (Answer as comments)
+
+    # Line 13 prints
+    # (Answer as comments)
+
+    # Line 14 prints
+    # (Answer as comments)
+
+
+    
+
+
+  
+
+   

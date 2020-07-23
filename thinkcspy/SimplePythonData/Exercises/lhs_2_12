@@ -1,0 +1,27 @@
+.. activecode:: lhs_2_12
+    :author: LHS CS Team
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a program that will convert degrees fahrenheit to degrees celsius.
+    ~~~~
+    def c_to_f (deg_c):
+        # formula to convert C to F is: (degrees Celsius) times (9/5) plus (32)
+        # replace this line with your code
+        return deg_f
+
+    deg_c = int(input("What is the temperature in Celsius? "))
+
+    print(deg_c, " degrees Celsius is", c_to_f(deg_c), " degrees Farenheit.")
+
+    =====
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual ( -40, c_to_f(-40), "Testing that c_to_f(-40) = -40") 
+ 
+    myTests().main()

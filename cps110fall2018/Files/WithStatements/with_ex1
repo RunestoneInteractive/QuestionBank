@@ -1,0 +1,13 @@
+.. activecode:: with_ex1
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Files/WithStatements
+   :from_source: None
+   :nocodelens:
+
+   with open('mydata.txt') as md:
+       print(md)
+       for line in md:
+           print(line)
+   print(md)

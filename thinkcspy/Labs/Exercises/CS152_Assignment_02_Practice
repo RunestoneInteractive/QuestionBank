@@ -1,0 +1,22 @@
+
+     :author: John Cigas
+     :difficulty: 2.0
+     :basecourse: thinkcspy
+     :topic: Labs/Exercises
+     :from_source: F
+.. activecode:: CS152_Assignment_02_Practice
+
+     Create a Python program that prompts the user to enter a 
+     number of hours, and then calculates the number of minutes, as well as the 
+     whole number of days, and prints the results nicely. 
+
+     **Notes**
+
+     There are 60 minutes in an hour and 24 hours in a day. Your 
+     program must declare and use several variables. Choose 
+     appropriate names based on your reading.
+
+     Write your code in this window.
+     ~~~~
+
+    

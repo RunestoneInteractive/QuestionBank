@@ -1,0 +1,13 @@
+.. dragndrop:: mod_operator_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter4/TheModulusOperator
+    :from_source: T
+    :feedback: Try again!
+    :match_1:  3 % 2|||1
+    :match_2: 2 % 3|||2
+    :match_3: 6 % 2|||0
+    :match_4: 9 % 6|||3
+
+    Match the modulo expression to its result.

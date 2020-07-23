@@ -1,0 +1,16 @@
+.. clickablearea:: Remembertypes
+ :author: bmiller
+ :difficulty: 3.0
+ :basecourse: cppds
+ :topic: LinearBasic/PalindromeChecker
+ :from_source: T
+ :question: Click on the cause of a syntax error in the following code.
+ :iscode:
+ :feedback: Remember how we declare variables
+
+ :click-correct:deque&lt;int&gt; d;:endclick:
+ :click-incorrect:d.push_back("Zebra");:endclick:
+ :click-incorrect:d.push_front("Turtle");:endclick:
+ :click-incorrect:d.push_front("Panda");:endclick:
+ :click-incorrect:d.push_back("Catfish");:endclick:
+ :click-incorrect:d.push_back("Giraffe");:endclick:

@@ -1,0 +1,12 @@
+.. activecode:: function-example1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/activecode
+   :from_source: T
+   :nocodelens:
+
+   def hello(name):
+       return "Hello, " + name + "!"
+
+   print (hello("World"))

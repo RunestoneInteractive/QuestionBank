@@ -1,0 +1,52 @@
+.. activecode:: c2h
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :topic: ClassesDiggingDeeper/MoreInheritance
+    :from_source: None
+
+    class Account:
+        def __init__(self, name):
+            self.__owner = name
+            self.__balance = 0.00
+
+        @property
+        def balance(self):
+            return self.__balance
+
+        def deposit(self, amount):
+            self.__balance += amount
+
+        def withdraw(self, amount):
+            if self.__balance >= amount:
+                self.__balance -= amount
+
+        def __str__(self):
+            return "{} ${:,.2f}".format(self.__owner, self.__balance)
+
+    class Savings(Account):
+        '''Savings inherits everything from Account'''
+        __rate = 0.01  #the saving account interest rate
+        def __init__(self, name):
+            self.__intPaid = 0.0
+            Account.__init__(self, name)
+
+        def accrue(self):
+            '''calculate and deposit interest'''
+            interest = Savings.__rate * self.balance
+            self.__intPaid += interest
+            self.deposit(interest)
+
+        @property
+        def intpaid(self):
+            return self.__intPaid
+
+
+    a = Savings('Jan')
+    a.deposit(1000)
+    print('{} total interest:{}'.format(str(a), a.intpaid))
+    a.accrue()
+    print('{} total interest:{}'.format(str(a), a.intpaid))
+    a.accrue()
+    print('{} total interest:{}'.format(str(a), a.intpaid))
+

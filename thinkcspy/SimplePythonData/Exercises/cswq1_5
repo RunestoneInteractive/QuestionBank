@@ -1,0 +1,24 @@
+.. mchoice:: cswq1_5
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: 20.0
+   :answer_b: 25
+   :answer_c: 10
+   :answer_d: Nothing - total is an invalid variable name
+   :correct: a
+   :random:
+   :feedback_a: Yes; (0 + 10 + 25 + 25) / 3 is 20.0
+   :feedback_b: No; (0 + 10 + 25 + 25) / 3 is not 25
+   :feedback_c: No; (0 + 10 + 25 + 25) / 3 is not 10
+   :feedback_d: No; total is a valid variable name and average receives a result
+
+   What is the value of average after executing the following statements?::
+
+      total = 0
+      total = total + 10
+      total = total + 25
+      total = total + 25
+      average = total / 3

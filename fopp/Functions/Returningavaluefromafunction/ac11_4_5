@@ -1,0 +1,24 @@
+.. activecode:: ac11_4_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/Returningavaluefromafunction
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **9.** Write a function called ``same_thing`` that returns the parameter, unchanged.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(same_thing(5), 5,"Testing the function same_thing with input 5")
+         self.assertEqual(same_thing("Welcome"), "Welcome", "Testing the function same_thing with input 'Welcome'")
+
+   myTests().main()

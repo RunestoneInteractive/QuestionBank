@@ -1,0 +1,24 @@
+.. mchoice:: 2-13-7-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: It will give a compile-time error.
+   :answer_b: san diego!
+   :answer_c: SAN DIEGO!
+   :answer_d: null
+   :answer_e: It will give a run-time error.
+   :correct: b
+
+   What is the value of s3 when the following code is executed?
+
+   .. code-block:: java
+
+    String s1 = "San Diego!";
+    String s2 = s1;
+    String s3 = new String("San Diego!");
+    String s4 = s3.toLowerCase();
+    s3 = s4.toLowerCase();
+    s4 = s3.toUpperCase();
+    s1 = s3;

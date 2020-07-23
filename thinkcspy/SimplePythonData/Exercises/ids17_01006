@@ -1,0 +1,29 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: ids17_01006
+   
+
+    3.6(劉邦鋒，由片語學習C程式設計) 寫一個程式讀入一個四位正整數a、b、c、d、並且保證點(a,b)及(c,d)為不同點。如果連接點(a,b)及(c,d)的直線通過原點則輸出1，其他狀況均輸出0。
+
+    輸入：
+    
+    1
+
+    2
+
+    2
+
+    3
+
+    輸出：
+
+    0
+    ~~~~
+    
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+    

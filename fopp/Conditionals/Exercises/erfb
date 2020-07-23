@@ -1,0 +1,38 @@
+
+    :author: Eric Reed
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: F
+.. activecode:: erfb
+ 
+
+    Write a function called fizzbuzz() that takes one parameter, 
+    length.
+    Inside the function, count up to length in a loop.  Print
+    numbers sequentially EXCEPT numbers divisible by 3 or 5.  
+    If a number is divisible by 3, print "fizz" instead.  If a 
+    number is divisible by 5, print "buzz".  If a number is divisible
+    by both 3 and 5, print "fizzbuzz".  Example output is below.
+    ~~~~
+    """ example output for fizzbuzz(16):
+    1
+    2
+    fizz
+    4
+    buzz
+    fizz
+    7
+    8
+    fizz
+    buzz
+    11
+    fizz
+    13
+    14
+    fizzbuzz
+    16
+    """
+    ====
+    
+    

@@ -1,0 +1,38 @@
+.. activecode:: it105_ps01_05
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: IT105Resources/Exercises
+   :from_source: F
+   :nocanvas:  
+   :autograde: unittest
+
+   Create a function called ``earnedBadge``. The function has one 
+   parameter the current list of platoon members with PT data 
+   [["Jones", "Bob", 91, 90, 99],["Adams", "Alice", 90, 91, 92]]. 
+
+   The function returns a list with the first and last names of each person 
+   who earned the APFT badge. To earn the APFT badge you must score 
+   90 or above in each event.  The list above would return 
+   **['Jones, Bob', 'Adams, Alice']**
+   The function must be able to handle the empty list.
+   ~~~~
+   #Create your function here
+
+   ====
+   #print("Hidden code, such as unit tests come after the four = signs")
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         pltList1 = []
+         pltList2 = [['Babbitt', 'Thomas', 90, 100, 95]]
+         pltList3 = [['Babbitt', 'Thomas', 90, 100, 89], ['King', 'Kyle', 90, 90, 90]]
+         pltList4 = [['Babbitt', 'Thomas', 90, 100, 89], ['King', 'Kyle', 95, 95, 90], ['Schooler', 'Chip', 91, 99, 100] ]
+         self.assertEqual(earnedBadge(pltList1), [], "Look at the case when there is no one in the platoon.")
+         self.assertEqual(earnedBadge(pltList2), ['Babbitt, Thomas'], "Check initialization")
+         self.assertEqual(earnedBadge(pltList3), ['King, Kyle'], "Check iteration")
+         self.assertEqual(earnedBadge(pltList4), ['King, Kyle', 'Schooler, Chip'], "Check iteration")
+     
+   myTests().main()

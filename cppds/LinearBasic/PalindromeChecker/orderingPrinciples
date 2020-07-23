@@ -1,0 +1,13 @@
+.. dragndrop:: orderingPrinciples
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :topic: LinearBasic/PalindromeChecker
+   :from_source: T
+   :feedback: This is feedback.
+   :match_1: Stack|||last-in first-out
+   :match_2: Deque|||mixed depending upon input order
+   :match_3: Queue|||first-in first-out
+
+   Drag each data structure to its corresponding ordering principle
+

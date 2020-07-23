@@ -1,0 +1,13 @@
+.. activecode:: ac8_10_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TransformingSequences/TheAccumulatorPatternwithStrings
+   :from_source: T
+
+   s = input("Enter some text")
+   ac = ""
+   for c in s:
+       ac = ac + c + "-" + c + "-"
+
+   print(ac)

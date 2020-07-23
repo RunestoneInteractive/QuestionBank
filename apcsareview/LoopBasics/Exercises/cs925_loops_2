@@ -1,0 +1,32 @@
+
+   :author: Doug Vermes
+   :difficulty: 1.0
+   :basecourse: apcsareview
+   :topic: LoopBasics/Exercises
+   :from_source: F
+.. activecode:: cs925_loops_2
+   :language: java
+
+   Write a program that returns the sum of 2j-1 as j varies from 2 to p/2. HINT: You will need to input the value of p using a parameter
+   ~~~~
+   public class SumExercise2
+   {
+      public static double sum(int p)
+      {
+           // your code goes here. remember to return the result,
+           // NOT to print it.
+   
+      }
+   
+      // DO NOT CHANGE ANYTHING BELOW THIS LINE
+      public static void main(String[] args)
+      {
+          System.out.println(sum(4));
+          System.out.println(sum(6));
+          System.out.println(sum(8));
+          System.out.println(sum(10));
+      }
+   }
+   ====
+    
+    

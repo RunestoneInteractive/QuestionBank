@@ -1,0 +1,26 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+.. activecode:: ccs_maze02
+   :include: ccs_maze00
+   
+   find_cell function. Implement according to the specification.
+   ~~~~
+   '''
+   Return the position of a given cell (START or GOAL) in the maze
+   
+   Parameter: maze - the maze (list represenation) 
+           cell - either START or GOAL
+           
+   Return:    the position of the specified cell as a two-item list, [row,col]; 
+           returns an empty list [] if cell is not START or GOAL
+   '''
+   def find_cell(maze, cell_type):
+       position = [] 
+       # ADD CODE HERE
+       return position
+   ====
+   

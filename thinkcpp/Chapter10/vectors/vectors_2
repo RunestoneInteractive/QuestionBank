@@ -1,0 +1,20 @@
+.. mchoice:: vectors_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/vectors
+   :from_source: T
+   :multiple_answers:
+   :answer_a: 1
+   :answer_b: "a"
+   :answer_c: 'a'
+   :answer_d: "word"
+   :answer_e: "1"
+   :correct: b,d,e
+   :feedback_a: Incorrect! This is an integer, not a string.
+   :feedback_b: Correct!
+   :feedback_c: Incorrect! This is a character, not a string.
+   :feedback_d: Correct!
+   :feedback_e: Correct!
+
+   Which of the following could be an element of **words**?

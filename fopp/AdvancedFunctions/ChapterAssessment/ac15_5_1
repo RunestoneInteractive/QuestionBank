@@ -1,0 +1,26 @@
+.. activecode:: ac15_5_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedFunctions/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   Create a function called ``mult`` that has two parameters, the first is required and should be an integer, the second is an optional parameter that can either be a number or a string but whose default is 6. The function should return the first parameter multiplied by the second.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(mult(2), 12, "Testing that mult returns the correct value on input (2)")
+         self.assertEqual(mult(5,3), 15, "Testing that mult returns the correct value on input (3,5)")
+         self.assertEqual(mult(4,"hello"), "hellohellohellohello", "testing that mult returns the correct value on input (4, 'hello'")
+
+   myTests().main()
+

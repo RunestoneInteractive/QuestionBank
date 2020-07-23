@@ -1,0 +1,13 @@
+.. mchoice:: irma_hw1_q5
+   :author: Irma Ravkic
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: True
+   :answer_b: False
+   :correct: b
+   :feedback_a: No, variable name cannot use spaces, use _ instead.
+   :feedback_b: Correct.
+
+   Variable names can contain spaces?

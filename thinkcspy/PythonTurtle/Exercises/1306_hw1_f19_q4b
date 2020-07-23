@@ -1,0 +1,35 @@
+.. activecode:: 1306_hw1_f19_q4b
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   [10 pts] Extend this program such that it asks for the number of customers.  It then requests each customer's name followed by the above session for each customer. 
+
+   A sample session as follows:
+
+   ::
+
+      Program prompt: How many customers?
+      User response: 4
+      Program prompt: Name of Customer 1
+      User response: Harry
+      Program prompt: Oranges are $1.40 each. How many Oranges?
+      User response: 1
+      Program prompt: Apples are $.75 each. How many Apples?
+      User response: 2
+      Program prompt: Bananas are $ .40 each. How many Bananas?
+      User response: 2
+      Program prompt: Harry, you  bought 1 Oranges, 2 Apples,  2 Bananas.
+      Program prompt: Your bill is $3.70
+      Program prompt: Name of Customer 2
+      User response: Sandy
+      Program prompt: Oranges are $1.40 each. How many Oranges?
+	  
+      (continues for 4 customers)
+   
+   
+
+   ~~~~
+   # Write your program here

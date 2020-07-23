@@ -1,0 +1,23 @@
+.. activecode:: act_kiva_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/kiva_statistics
+    :from_source: T
+    :include: act_kiva_1
+
+    Compute the average amount of money loaned and store it in the variable ``loan_average``
+    ~~~~
+    # Your code here
+    ====
+    from unittest.gui import TestCaseGui
+
+    class MyTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertTrue('loan_average' in self.getEditorText(), "you need a loan_total variable")
+            self.assertEqual(loan_average, sum(loan_amount)/len(loan_amount), "Use the accumulator pattern to add up all the loans")
+            self.assertFalse('sum(' in self.getEditorText(), "you may not use sum")
+
+    MyTests().main()
+

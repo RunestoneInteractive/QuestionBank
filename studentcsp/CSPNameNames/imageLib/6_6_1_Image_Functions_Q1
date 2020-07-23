@@ -1,0 +1,18 @@
+.. mchoice:: 6_6_1_Image_Functions_Q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPNameNames/imageLib
+   :from_source: T
+   :answer_a: It sets the red value in the current pixel to half the red of the original.
+   :answer_b: It sets the red value in the current pixel to twice the red of the original.
+   :answer_c: It sets the red value in the current pixel to 5 times the red of the original.
+   :answer_d: It sets the red value in the current pixel to 0.5.
+   :correct: a
+   :feedback_a: Multiplying by 0.5 is the same as dividing by 2.
+   :feedback_b: This would be true if it was r * 2, instead of r * 0.5
+   :feedback_c: This would be true if it was r * 5, instead of r * 0.5
+   :feedback_d: This would be true if it was 0.5 instead of r * 0.5
+
+   What does the line ``p.setRed(r * 0.5)`` do?
+

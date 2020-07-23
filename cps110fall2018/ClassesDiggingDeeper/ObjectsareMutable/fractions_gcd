@@ -1,0 +1,19 @@
+.. activecode:: fractions_gcd
+        :author: jenkins
+        :difficulty: 3.0
+        :basecourse: cps110fall2018
+        :topic: ClassesDiggingDeeper/ObjectsareMutable
+        :from_source: None
+
+        def gcd(m, n):
+            while m % n != 0:
+                oldm = m
+                oldn = n
+
+                m = oldn
+                n = oldm % oldn
+
+            return n
+
+        print(gcd(12, 16))
+

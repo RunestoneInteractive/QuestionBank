@@ -1,0 +1,17 @@
+.. codelens:: clens11_13_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/SideEffects
+   :from_source: T
+   :python: py3
+
+   def changeit(lst):
+      lst[0] = "Michigan"
+      lst[1] = "Wolverines"
+      return lst
+
+   mylst = ['106', 'students', 'are', 'awesome']
+   newlst = changeit(list(mylst))
+   print(mylst)
+   print(newlst)

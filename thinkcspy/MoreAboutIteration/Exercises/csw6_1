@@ -1,0 +1,17 @@
+.. mchoice:: csw6_1
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   :answer_a: ["It", "was", "the", "best", "of", "times"]
+   :answer_b: "It/was/the/best/of/times"
+   :answer_c: ["It was the best of times"]
+   :answer_d: "It was the", "best of times"
+   :correct: a
+   :random:
+
+   1. What is the value of x after executing the following code?::
+
+      s = "It was the best of times" 
+      x = s.split()

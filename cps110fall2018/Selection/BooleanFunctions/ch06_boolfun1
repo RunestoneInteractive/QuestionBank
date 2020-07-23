@@ -1,0 +1,16 @@
+.. activecode:: ch06_boolfun1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Selection/BooleanFunctions
+    :from_source: None
+
+    def isDivisible(x, y):
+        if x % y == 0:
+            result = True
+        else:
+            result = False
+
+        return result
+
+    print(isDivisible(10, 5))

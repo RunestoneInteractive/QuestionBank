@@ -1,0 +1,27 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+.. activecode:: KDL_ch7_6
+   :autograde: unittest
+   :language: python
+   
+   Turn this list of strings into a single string called ``strg``. Use a for loop to do so. Print the string.
+   ~~~~
+   list_of_strings=["This ","is a ","string","made","from","a list"]
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           a=""
+           for stringv in list_of_strings:
+               a=a+stringv
+           self.assertIn(str(a)[:10], self.getOutput(), 'Checking sentence.')
+           self.assertTrue(strg==a,feedback="names is long enough")
+           self.assertIn('for ', self.getEditorText(), 'Contains for loop')
+   myTests().main()    

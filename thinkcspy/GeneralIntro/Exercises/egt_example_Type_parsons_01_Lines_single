@@ -1,0 +1,12 @@
+.. parsonsprob:: egt_example_Type_parsons_01_Lines_single
+   :author: Eric Taucher (Instructor)
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   Construct a block of code that correctly implements the accumulator pattern.
+   -----
+   x = 0
+   for i in range(10)
+      x = x + 1

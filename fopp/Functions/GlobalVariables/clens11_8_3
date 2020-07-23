@@ -1,0 +1,16 @@
+.. codelens:: clens11_8_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Functions/GlobalVariables
+    :from_source: T
+    :python: py3
+
+    def square(x):
+        y = x * x
+        x = 0       # assign a new value to the parameter x
+        return y
+
+    x = 2
+    z = square(x)
+    print(z)

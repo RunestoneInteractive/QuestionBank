@@ -1,0 +1,21 @@
+.. mchoice:: cswq2_7
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :answer_a: 5 4 3 2 1
+   :answer_b: 5 4 3 2 1 0
+   :answer_c: 4 3 2 1 0
+   :answer_d: 4 3 2 1
+   :correct: a
+   :random:
+   :feedback_a: Yes, range(5, 0, -1) counts down from 5 to 1
+   :feedback_b: No, range(5, 0, -1) does not include 0
+   :feedback_c: No, range(5, 0, -1) starts at 5 and does not include 0
+   :feedback_d: No, range(5, 0, -1) starts at 5
+
+   7. What does the following code print?::
+
+      for i in range(5, 0, -1):
+          print(i, end = ' ')

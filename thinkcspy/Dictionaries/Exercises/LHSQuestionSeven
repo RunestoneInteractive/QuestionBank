@@ -1,0 +1,28 @@
+.. activecode:: LHSQuestionSeven
+    :author: Wesley Thang
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Update the value for "Phelps" in the dictionary ``swimmers`` to include his medals
+    from the Rio Olympics by adding 5 to the current value (Phelps will now have 28
+    total medals). Do not rewrite the dictionary.
+
+    ~~~~   
+    swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4, 'Phelps':23}
+    
+    # your code here to make changes to the swimmers dictionary.
+        
+    ====
+    
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testThree(self):
+            self.assertEqual(sorted(swimmers.items()), sorted([('Adrian', 7), ('Dirado', 4), ('Ledecky', 5), ('Lochte', 12), ('Phelps', 28), ('Manuel',4)]), "Testing that swimmers is assigned to correct values.")
+
+    myTests().main()

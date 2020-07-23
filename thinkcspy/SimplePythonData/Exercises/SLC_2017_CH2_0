@@ -1,0 +1,16 @@
+.. activecode:: SLC_2017_CH2_0
+   :author: Derek Green
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+
+   Write a program that will convert degrees fahrenheit to degrees celsius.
+   Your program should ask the user for the number of degrees in fahrenheit.
+
+   ~~~~
+
+
+   ====
+    

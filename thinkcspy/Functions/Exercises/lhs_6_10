@@ -1,0 +1,75 @@
+.. activecode:: lhs_6_10
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Rewrite the code below to make it more efficient with the use of a function.
+
+    Use exactly 1 ``def`` statement and 5 ``print`` statements.
+
+    Your output should match **exactly** with what the code below would print out.
+
+    ::
+
+      print("Name: Joe")
+      print("Age: 22")
+      print("Weight: 123")
+      joeHeight = 69
+      print("Height:", joeHeight//12, "ft", joeHeight%12, "inches")
+      print()
+
+      print("Name: Josh")
+      print("Age: 32")
+      print("Weight: 156")
+      joshHeight = 74
+      print("Height:", joshHeight//12, "ft", joshHeight%12, "inches")
+      print()
+
+      print("Name: Mabel")
+      print("Age: 21")
+      print("Weight: 106")
+      mabelHeight = 62
+      print("Height:", mabelHeight//12, "ft", mabelHeight%12, "inches")
+      print()
+
+    ~~~~
+    # My Name:
+
+    # write your code here
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+            
+    class myTests(TestCaseGui):
+                   
+        def golden_def(self, name, age, weight, height):
+    	    s = "Name: " + name + "\n"    
+    	    s += "Age: " + str(age) + "\n"    
+    	    s += "Weight: " + str(weight) + "\n"    
+    	    s += "Height: " + str(height//12) + " ft " + str(height%12) + " inches\n\n"
+    	    return(s)
+    
+        def testOne(self):
+            print("Auto-testing...")
+            code = self.getEditorText()
+            outText = self.getOutput()
+
+            code = self.getEditorText()
+            
+            # strips the test code - when testing code with the test code 
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+
+            golden_s = self.golden_def("Joe", 22, 123, 69)
+            golden_s += self.golden_def("Josh", 32, 156, 74)
+            golden_s += self.golden_def("Mabel", 21, 106, 62)
+            self.assertIn(golden_s, outText, "checking console output)")
+            self.assertEqual(1, len(re.findall("def ", code)), "Should have 1 def")
+            self.assertEqual(5, len(re.findall("\s+print\s*\(", code)), "Should have 5 print()")
+    
+    myTests().main()

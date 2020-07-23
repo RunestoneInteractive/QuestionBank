@@ -1,0 +1,12 @@
+.. activecode::  ch3ex15a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPNameNumbers/ch3_exercises
+    :from_source: T
+    :nocodelens:
+
+    payPerHour = 8
+    amount = 100
+    numHours = amount / payPerHour
+    print(numHours)

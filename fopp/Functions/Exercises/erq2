@@ -1,0 +1,18 @@
+
+    :author: Eric Reed
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: erq2
+ 
+    Write a function called add that takes two parameters,
+    a and b, and returns the sum of a and b.
+
+    ~~~~
+    # Write your function here:
+
+
+
+
+    # Write a call to your function here:

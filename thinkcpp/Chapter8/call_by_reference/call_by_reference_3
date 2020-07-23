@@ -1,0 +1,33 @@
+.. mchoice:: call_by_reference_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter8/call_by_reference
+   :from_source: T
+   :practice: T
+   :answer_a: 2 4
+   :answer_b: 2 4 2
+   :answer_c: 4 4 2
+   :answer_d: 2 4 4
+   :correct: d
+   :feedback_a: Take a look at exactly what is being outputted.
+   :feedback_b: Remember the rules of pass by reference.
+   :feedback_c: Take a look at exactly what is being outputted.
+   :feedback_d: Correct!
+
+   What will print?
+
+   .. code-block:: cpp
+
+      int addTwo(int& x) {
+        cout << x << " ";
+        x = x + 2;
+        cout << x << " ";
+        return x;
+      }
+
+      int main() {
+        int num = 2;
+        addTwo(num);
+        cout << num << endl;
+      }

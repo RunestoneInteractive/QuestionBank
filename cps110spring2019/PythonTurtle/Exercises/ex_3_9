@@ -1,0 +1,12 @@
+.. actex:: ex_3_9
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: PythonTurtle/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a program to draw a shape like this:
+
+   .. image:: Figures/star.png
+   ~~~~

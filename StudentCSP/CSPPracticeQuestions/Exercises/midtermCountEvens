@@ -1,0 +1,32 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermCountEvens
+   :adaptive:
+   :numbered: left
+
+   Put the code below in order to print the total of the even numbers in the list nums.
+   -----
+   def count_evens(nums):
+   =====
+       total = 0
+   =====
+       for num in nums:
+   =====
+       for num in len(nums): #paired
+   =====
+           if num % 2 == 0:
+   =====
+           if num % 2 == 1: #paired
+   =====
+               total += 1
+   =====
+       return total
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

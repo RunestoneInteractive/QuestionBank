@@ -1,0 +1,18 @@
+
+   :author: Ivan Lakovic
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. activecode:: medium_001
+   :caption: Nacrtaj kvadrat
+   :nocodelens:
+
+   import turtle            
+
+   prozor = turtle.Screen()
+   kornjaca = turtle.Turtle()
+
+   # tu napisi kod za rjesavanje zadatka
+   
+   prozor.exitonclick()

@@ -1,0 +1,13 @@
+
+   :author: Christopher Towse
+   :difficulty: 2.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: cttraining1
+   
+   Write a function to compute pi to 5000 digits
+   ~~~~
+   print("hello world")
+   ====
+   print("Hidden code, such as unit tests come after the four = signs")

@@ -1,0 +1,17 @@
+.. mchoice:: random_numbers_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/random_numbers
+   :from_source: T
+   :answer_a: cstdlib
+   :answer_b: random
+   :answer_c: cmath
+   :answer_d: iostream
+   :correct: a
+   :feedback_a: Correct!
+   :feedback_b: Incorrect!
+   :feedback_c: Incorrect!
+   :feedback_d: Incorrect!
+
+   What header file do we need to declare in order to use the ``random`` function?

@@ -1,0 +1,18 @@
+.. activecode:: 1306_cw1_f20_q1b
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   **Q1b [10 pts]** Extend the above program, so that it takes 3 names and prints a similar message three times. For this problem, please use only 2 variables: one for the first name and one for the last name. The variables will be reassigned after each line is printed. Example output:
+
+   ::
+      
+     Hi Jane Doe, you are in my first program!
+     Hi Jack Smith, you are in my first program!
+     Hi Jill Smart, you are in my first program!
+
+
+   ~~~~
+   # Write your program here

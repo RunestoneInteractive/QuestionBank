@@ -1,0 +1,24 @@
+.. parsonsprob:: more_output_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/MoreOutput
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Construct a main function that prints "Hello, world!" so that
+   "Hello," and "world!" are printed on two separate lines.
+
+   -----
+   int main () {
+   =====
+    cout << "Hello," << endl; cout << "world!";
+   =====
+    cout << "Hello," << "world!" << endl; #distractor
+   =====
+    cout >> "Hello," >> endl; cout >> "world!"; #distractor
+   =====
+    cout >> "Hello," >> "world!" >> endl; #distractor
+   =====
+   }

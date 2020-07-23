@@ -1,0 +1,28 @@
+.. activecode:: ac18_7_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sorting/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Sorting/Optionalkeyparameter
+
+   Sort the list ``ids`` by the last four digits of each id. Do this using lambda and not using a defined function. Save this sorted list in the variable ``sorted_id``.
+   ~~~~
+
+   ids = [17573005, 17572342, 17579000, 17570002, 17572345, 17579329]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFive(self):
+         self.assertEqual(sorted_id, [17570002, 17572342, 17572345, 17573005, 17579000, 17579329], "Testing that sorted_id is assigned to correct value.")
+         self.assertIn("lambda", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()
+

@@ -1,0 +1,17 @@
+.. mchoice:: e1a2_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPTuring/Exercises
+   :from_source: T
+   :answer_a: integer
+   :answer_b: turtle
+   :answer_c: string
+   :answer_d: image
+   :correct: c
+   :feedback_a: An integer is a positive or negative whole number like -30 or 23028.
+   :feedback_b: A turtle is an object that can move forward and turn.  As it moves it can draw with a pen.
+   :feedback_c: A string is a sequence of characters.
+   :feedback_d: An image is a representation of a digital picture and you can get and change the color values at pixels in the image.
+
+   The kind of data that can be letters, digits, and other characters inside a pair of single or double quotes is which of the following?

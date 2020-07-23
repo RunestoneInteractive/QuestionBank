@@ -1,0 +1,13 @@
+.. actex:: ex_5_3
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Write a non-fruitful function ``drawPoly(someturtle, somesides, somesize)`` which makes a turtle
+   draw a regular polygon.
+   When called with ``drawPoly(tess, 8, 50)``, it will draw a shape like this:
+
+   .. image:: Figures/regularpolygon.png
+   ~~~~

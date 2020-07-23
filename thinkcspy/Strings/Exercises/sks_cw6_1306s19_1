@@ -1,0 +1,47 @@
+.. activecode:: sks_cw6_1306s19_1
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+
+    Two students in another section of  1306 wrote the following functions 
+    with the objective of computing a list whose elements are the square of the elements of 
+    the original list.  Their program is shown below.
+
+    The results were not entirely as expected. Answer the following as comments underneath the program for each student:
+    
+    a)	Does John's code complete execution? If so, does it compute the correct result? Explain the reason if any of the answers is NO.
+
+    b)	Write a new function JJsquare that will make John's code work as expected. 
+
+    c)	Does Mary's code complete execution? If so, does it compute the correct result? Explain the reason if any of the answers is NO.
+
+    d)	Write a function MMsquare that will make Mary's code work as expected. 
+
+    {Hint: Retain the basic FOR loop statement when you develop the corrected code  in both cases}
+
+
+    ~~~~
+    # Student John
+    def Jsquare(lst):
+      for i in range(len(lst)):
+          lst[i]= lst[i]*lst[i]
+      return lst
+
+    # Student Mary
+    def Msquare(lst):
+       for item in lst:
+          lst[item]= lst[item]*lst[item]
+       return lst
+
+    # The testing code for the functions is as follows
+
+    mylist = [1, 3, 5, 7]
+    mynewlist = Jsquare(mylist)  # Or whatever is the function name
+    print(mylist) 			# should print original list
+    print(mynewlist)			# should print squares list
+
+
+    

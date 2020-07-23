@@ -1,0 +1,24 @@
+
+   :author: Damon Ellingston
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. activecode:: hw6DE
+
+   **Homework 6**
+
+   Write a script that asks for two numbers:
+
+   1.  m = max
+
+   2.  c = step size
+
+   where m and c are both positive integers. Your program will print out all of the multiples 0 < x < m+1 as a STRING which prints horizontally. Example run:
+
+   If m = 18 and c = 3, program prints "3, 6, 9, 12, 15, 18"
+
+   if m = 18 and c = 4, program prints "4, 8, 12, 16"
+
+   Note that each multiple is followed by a comma + a space   except for the last one. Try to re-create that pattern, it will take some experimenting. If you do not get the commas & spaces right you will still get partial credit. There are many ways to solve this problem, just be sure to test-run your code with random integers.
+   ~~~~

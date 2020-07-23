@@ -1,0 +1,11 @@
+.. activecode:: ICE01_1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: ICE/ICE01_Test
+    :from_source: F
+    :nocanvas:
+
+    import random
+    x = random.sample(range(100),10)
+    print(x)

@@ -1,0 +1,17 @@
+.. mchoice:: e24_4_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: The number of lines of computer code needed to implement the algorithm.
+   :answer_b: The time and memory space necessary to run the algorithm.
+   :answer_c: How easy or difficult the algorithm is to understand.
+   :answer_d: The size of the output obtained after running the algorithm.
+   :correct: b
+   :feedback_a: Incorrect. Efficiencies of algorithms are not related to number of lines of codes. In fact, a program with fewer lines of code may very well be more inefficient than a program with more lines of code.
+   :feedback_b: Correct. This is correct since efficiency of algorithms in measured in terms of run-time and space complexity.
+   :feedback_c: Inorrect. How "complex" an algorithm is to understand has nothing to do with its run-time or space complexity. In fact, an algorithm which is easy to understand may very well be more inefficient than an algorithm which isn't.
+   :feedback_d: Incorrect. Output size doest not determine the efficiency of an algorithm.
+
+   Efficiency of algorithms is most often analyzed based on which of the following characteristics?

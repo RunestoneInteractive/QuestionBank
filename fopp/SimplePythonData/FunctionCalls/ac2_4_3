@@ -1,0 +1,13 @@
+.. activecode:: ac2_4_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: SimplePythonData/FunctionCalls
+   :from_source: T
+   :include: ac2_4_1
+   :nocanvas:
+
+
+   print(square(3) + 2)
+   print(sub(square(3), square(1+1)))
+

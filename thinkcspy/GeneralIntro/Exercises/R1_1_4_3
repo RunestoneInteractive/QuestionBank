@@ -1,0 +1,16 @@
+
+   :author: Michael Kadri
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. shortanswer:: R1_1_4_3
+   :optional:
+
+   What are some advantages to high-level languages?
+
+
+config values (conf.py): 
+
+- shortanswer_div_class - custom CSS class of the component's outermost div
+    

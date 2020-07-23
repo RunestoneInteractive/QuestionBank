@@ -1,0 +1,13 @@
+.. dragndrop:: ch3_var2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: apcsareview
+    :topic: VariableBasics/Summary
+    :from_source: T
+    :feedback: Review the summaries above.
+    :match_1: Setting the value of a variable the first time|||initialize
+    :match_2: An operator that returns the remainder|||modulous
+    :match_3: a type used to represent decimal values|||double
+    :match_4: changing the type of a variable|||casting
+
+    Drag the definition from the left and drop it on the correct concept on the right.  Click the "Check Me" button to see if you are correct.

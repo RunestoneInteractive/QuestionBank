@@ -1,0 +1,28 @@
+.. actex:: ac11_14_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: T
+   :nocodelens:
+
+   Write a function that removes all occurrences of a given letter from a string.
+   ~~~~
+   def remove_letter(theLetter, theString):
+       # your code here
+
+   ====
+
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(remove_letter("a","apple"),"pple","Tested remove_letter on inputs of 'a' and 'apple'")
+           self.assertEqual(remove_letter("a","banana"),"bnn","Tested remove_letter on inputs of 'a' and 'banana'")
+           self.assertEqual(remove_letter("z","banana"),"banana","Tested remove_letter on inputs of 'z' and 'banana'")
+
+
+
+   myTests().main()

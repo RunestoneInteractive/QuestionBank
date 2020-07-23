@@ -1,0 +1,16 @@
+.. fillintheblank:: act_corr_cols
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/correlation_matrix
+   :from_source: T
+
+   Which two factors have the largest positive correlation (not including the
+   diagonal)? |blank| and |blank|
+
+   - :HappinessScore: Is the correct answer
+     :x: catchall feedback
+
+   - :Life Ladder: Is the correct answer
+     :x: Make sure you have capitalization correct.
+

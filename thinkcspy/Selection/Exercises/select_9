@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_9
+  
+    When reading code, how do programmers know which if/else conditional is 
+    nested within another if/else conditional?
+
+    ~~~~
+    

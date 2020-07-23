@@ -1,0 +1,12 @@
+.. dragndrop:: dnd1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: overview
+    :topic: overview/
+    :from_source: T
+    :feedback: This is feedback.
+    :match_1: Drag me to 1|||I am 1
+    :match_2: Drag me to 2|||I am 2
+    :match_3: Drag me to 3|||I am 3
+
+    This is a drag n drop question.

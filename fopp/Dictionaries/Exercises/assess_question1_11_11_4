@@ -1,0 +1,31 @@
+.. fillintheblank:: assess_question1_11_11_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Dictionaries/Exercises
+    :from_source: T
+    :practice: T
+    :topics: Dictionaries/KeyValueLookupAssignment
+
+    Consider the following function:
+
+    .. sourcecode:: python
+
+        alphabet = 'abcdefghijklmnopqrstuvwxyz'
+        values = {}
+        for i in range(len(alphabet)):
+            values[alphabet[i]] = i+1;
+        answer  = 0
+        for c in s:
+            answer += values[c]
+        return answer
+
+    When the ``foo()`` is called with the input "baa", what value does it return? (Write "error" if you think it would raise an error instead.)
+
+    -   :4: Good Work!
+        :error: The code is valid.
+        :.*: Incorrect, try again. (*Hint:* Lookup value of each character of "baa" in ``values``.)
+
+
+
+

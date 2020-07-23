@@ -1,0 +1,15 @@
+.. codelens::  cl_powerof_bad
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Functions/Variablesandparametersarelocal
+    :from_source: None
+
+    def powerof(x, p):
+        power = p   # Another dumb mistake
+        y = x ** power
+        return y
+
+    power = 3
+    result = powerof(10, 2)
+    print(result)

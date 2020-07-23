@@ -1,0 +1,14 @@
+.. activecode:: ac11_6_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedFunctions/MethodInvocations
+   :from_source: T
+
+   y = "This is a sentence"
+   z = y.split()
+   print(type(z))
+   print(len(z))
+   print(z)
+   for w in z:
+       print(w)

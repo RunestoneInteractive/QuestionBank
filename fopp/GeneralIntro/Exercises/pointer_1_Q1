@@ -1,0 +1,13 @@
+.. parsonsprob:: pointer_1_Q1
+   :author: Matthew Zuniga
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   Construct a program that creates a pointer called foobar and compares its values with the int foo.  Print "Hello World" if they are equal.
+   
+   -----
+   print("Hello world")
+
+    

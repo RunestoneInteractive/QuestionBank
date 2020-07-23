@@ -1,0 +1,29 @@
+.. parsonsprob:: counting_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/counting
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Construct a block of code that counts how many numbers are between lowerbound and upperbound inclusive.
+   -----
+   int just_right(const vector<int>& vec, int lowerbound, int upperbound) {
+   =====
+      int count = 0;
+   =====
+      for (size_t i = 0; i &#60; vec.size(); i++) {
+   =====
+      for (int i = 0; i &#60; upperbound; i++)                         #paired
+   =====
+         if (vec[i] i &#62;= lowerbound && vec[i] i &#60;= upperbound) {
+            count++;
+   =====
+         if (vec[i] i &#62; lowerbound && vec[i] i &#60; upperbound) {                         #paired
+            count++;
+   =====
+         }
+      }
+      return count;
+   }

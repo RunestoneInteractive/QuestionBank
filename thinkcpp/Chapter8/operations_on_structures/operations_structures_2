@@ -1,0 +1,28 @@
+.. parsonsprob:: operations_structures_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter8/operations_on_structures
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Construct a block of code that correctly initializes the instance variables of a structure.
+   -----
+   struct Point {
+   =====
+      double x, y;
+   };
+   =====
+   int main() {
+   =====
+      Point blank;
+   =====
+      int blank; #distractor
+   =====
+      blank = (Point){ 12.0, 3.2 };
+   =====
+      blank = (Point){ 12.0, 3.2 } #distractor
+   =====
+      blank = { 12.0, 3.2 }; #distractor
+   }

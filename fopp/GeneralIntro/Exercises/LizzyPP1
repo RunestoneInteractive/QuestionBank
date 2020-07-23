@@ -1,0 +1,16 @@
+.. parsonsprob:: LizzyPP1
+   :author: Lizzy Scholten
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   Piece together a program so that it can successfully print out one print statement, given the value of x.
+   -----
+   i = 0
+   =====
+   while i < 10:
+   =====
+       i = i + 1
+   =====
+       print(i)

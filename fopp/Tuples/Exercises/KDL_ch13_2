@@ -1,0 +1,27 @@
+.. activecode:: KDL_ch13_2
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Tuples/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   Write a function ``list_link`` that accepts two lists and returns a dictionary with the first list as the key and the second list as the value. Use enumerate link the two lists in a single for loop to create the dictionary. For example, ``list_link(['what','do','you','do'],[1,2,3,4])`` should return ``{'what': 1, 'do': 4, 'you': 3}``. 
+   ~~~~
+   #your code here
+   print(list_link(['what','do','you','do'],[1,2,3,4]))
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertIn('enumerate', self.getEditorText(), 'enumerate in the code')
+           self.assertIn('def list_link', self.getEditorText(), 'function is defined')
+
+
+           
+   myTests().main()   

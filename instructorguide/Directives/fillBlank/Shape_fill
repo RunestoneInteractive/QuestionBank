@@ -1,0 +1,13 @@
+.. fillintheblank:: Shape_fill
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: instructorguide
+    :topic: Directives/fillBlank
+    :from_source: T
+
+    What shape will the program below draw when you click on the Run button?
+
+    - :(^square$|^Square$|^SQUARE$): Correct!
+      :x: Did you actually run the program?
+
+

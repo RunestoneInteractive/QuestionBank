@@ -1,0 +1,12 @@
+
+    :author: John Cigas
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+
+.. activecode:: CS152_ASCII_ART_3
+
+    Using your program from the first exercise, write a new program to print two of these shapes 
+    next to each other horizontally. Think about why this is so different from the second program.
+    ~~~~

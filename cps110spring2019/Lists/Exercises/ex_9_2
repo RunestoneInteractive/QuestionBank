@@ -1,0 +1,9 @@
+.. actex:: ex_9_2
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: Lists/Exercises
+   :from_source: None
+
+   Create a list called ``myList`` with the following six items: 76, 92.3, "hello", True, 4, 76.  Do it with both append and with concatenation, one item at a time.
+   ~~~~

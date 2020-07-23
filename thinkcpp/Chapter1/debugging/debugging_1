@@ -1,0 +1,15 @@
+.. fillintheblank:: debugging_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter1/debugging
+   :from_source: T
+
+   Another word for an error is a(n) |blank|.  The process of finding
+   and fixing errors is called |blank|.
+
+   - :[Bb][Uu][Gg]: Correct!
+     :.*: Try again!
+   - :[Dd][Ee][Bb][Uu][Gg][Gg][Ii][Nn][Gg]: Correct!
+     :.*: Try again!
+

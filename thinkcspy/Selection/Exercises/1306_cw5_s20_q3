@@ -1,0 +1,54 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: 1306_cw5_s20_q3
+    :autograde: unittest
+
+    **Question 2 [30 points]** 
+
+    A drug loses ``decayrate`` percent of its potency every month. Also, a drug is considered expired if it loses more than 50% potency.
+
+    Your goal is to write a boolean function ``IsExpired(months,decayrate)`` that returns ``True`` if the drug has expired and ``False`` if it has not.
+
+    **Example 1**: IsExpired(10,10) should return True.
+    
+    **Explanation**:  The drug loses 10% potency every month. After 1st month the potency is 90%, after 2nd month its 81%. In this way, after 7th month the potency is 47.83%. 
+
+    **Example 2**: IsExpired(15,4) should return False.
+    
+    **Explanation**:  After 15th month the drug has 54.21% potency.
+
+
+     
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(IsExpired( 10,10),True,"IsExpired( 10,10) should return True")
+            self.assertEqual(IsExpired( 15,4),False,"IsExpired( 15,4) should return False")
+            self.assertEqual(IsExpired( 24,6),True,"IsExpired( 24,6) should return True")
+            self.assertEqual(IsExpired( 24,2),False,"IsExpired( 24,2) should return False")
+            self.assertEqual(IsExpired( 48,3),True,"IsExpired( 48,3) should return True")
+           
+            self.assertEqual(IsExpired( 12,4),False,"IsExpired( 12,4) should return False")
+            self.assertEqual(IsExpired( 12,1),False,"IsExpired( 12,1) should return False")
+            self.assertEqual(IsExpired( 12,60),True,"IsExpired( 12,60) should return True")
+            self.assertEqual(IsExpired( 24,10),True,"IsExpired( 24,10) should return True")
+            self.assertEqual(IsExpired( 24,0),False,"IsExpired( 24,0) should return False")
+
+
+    myTests().main()

@@ -1,0 +1,49 @@
+.. activecode:: cardClass-fix
+       :author: Barbara  Ericson
+       :difficulty: 1.0
+       :basecourse: StudentCSP
+       :topic: CSPNameNames/Exercises
+       :from_source: F
+       :nocodelens:
+       :autograde: unittest
+
+       Fix the code below to create a card class.  A card has a 
+       suit (Clubs, Diamonds, Hearts, Spades) and a rank 
+       (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King).
+       In this class the suit and rank will be indices into 
+       lists on the Card class that contain the suit and value names.
+       The constructor (__init__ method) should set the current
+       card object's suit and rank from the passed suit and rank.
+       The __str__ method should return the rank name appended to 
+       " of " and then the suit name of the 
+       current card object. For example, Card(0,0) __str__ method 
+       would return "Ace of Clubs".
+       ~~~~
+       class Card 
+
+           suit_names = ["Clubs", "Diamonds", "Hearts", "Spades"]
+           rank_names = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9",  "10", "Jack", "Queen", "King"]
+ 
+           def __init__(self, suit=0, rank = 0):
+               self.suit = suit
+               rank = rank
+
+           def __str__():
+               return Card.rank_names[self.rank] + " of " + suit_names[suit]
+
+       ====
+       from unittest.gui import TestCaseGui
+
+       class myTests(TestCaseGui):
+
+           def testOne(self):
+               card = Card(0,0)
+               self.assertEqual(card.__str__(), "Ace of Clubs", "Card(0,0)")
+               card = Card(1,1)
+               self.assertEqual(card.__str__(), "2 of Diamonds", "Card(1,1)")
+               card = Card(2,5)
+               self.assertEqual(card.__str__(), "6 of Hearts", "Card(2,5)")
+               card = Card(3,12)
+               self.assertEqual(card.__str__(), "King of Spades", "Card(3,12)")
+
+       myTests().main()

@@ -1,0 +1,44 @@
+
+   :author: Matthew Whitehead
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: read_from_csv
+   :adaptive:
+   :numbered: left
+
+   The following code is correct but mixed up. The function will initialize a dictionary called data_dict, then open up a .csv file containing first_name,last_name,date_of_birth and read each line into a list called csv_data. Then it should close the file.  For each line in the list, the line should be split on commas into a new list. Each element in the new list should be appended to the data_dict such that each key in data_dict represents a column and each value is a list of the rows in that column. Finally it should return data_dict. 
+   -----
+   def read_csv(filepath):
+   =====
+      data_dict = {'First': [], 'Last': [], 'DOB': []}
+   =====
+      f = open(filepath, 'r')
+   =====
+      f = open(filepath, 'w') #distractor
+   =====
+      csv_data = f.readlines()
+   =====
+      csv_data = f.read() #distractor
+   =====
+      f.close()
+   =====
+      for i in csv_data[1:]:
+   =====
+      for i in csv_data: #distractor
+   =====
+         i = i.split(',')
+   =====
+         data_dict['First'].append(i[0])
+         data_dict['Last'].append(i[1])
+         data_dict['DOB'].append(i[2])
+   =====
+      return data_dict
+
+
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

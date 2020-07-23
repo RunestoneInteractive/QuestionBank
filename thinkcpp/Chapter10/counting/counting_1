@@ -1,0 +1,17 @@
+.. mchoice:: counting_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/counting
+   :from_source: T
+   :answer_a: a method of programming where you write simple "helper" functions that are later incorporated into larger functions
+   :answer_b: a method of programming in which you tackle the largest functions first, and save the simple functions for later
+   :answer_c: a method of programming where you break the task down into smaller and smaller components until it cannot be simplified further
+   :answer_d: a method of programming where you use the minimum number of functions to accomplish the task
+   :correct: a
+   :feedback_a: Correct! Bottom-up design starts with a lot of small functions and assembles them into a few larger ones that accomplish a task.
+   :feedback_b: Incorrect! This is describing top-down design.
+   :feedback_c: Incorrect! This is describing top-down design.
+   :feedback_d: Incorrect! Bottom-up design uses many simple functions rather than a few complex ones, so it is not minimizing the number of functions being used.
+
+   Which of the following is the best definition of bottom-up design?

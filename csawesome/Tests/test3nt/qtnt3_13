@@ -1,0 +1,50 @@
+.. mchoice:: qtnt3_13
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Tests/test3nt
+   :from_source: T
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and II only
+   :answer_e: II and III only
+   :correct: a
+   :feedback_a: This answer checks every index in the list, correctly selects the values in the list and compares them to zero. If a value is not equal to zero, the method returns false, and the array is NOT empty. Otherwise, the method returns true.
+   :feedback_b: The variable list is a List, not an array. List values are not directly accessible, so list.get(i) should be used instead of list[i].
+   :feedback_c: This method returns true if the list has at least one value in it that is not zero.
+   :feedback_d: I is correct, but II is incorrect. Because list is not an array, the get method must be used to find the value at a certain index.
+   :feedback_e: You can not use list[i] to get a value from a list so II is incorrect.  III would return true if at least one value in the list is not zero.
+
+   Consider the method ``emptyList``, shown below. The method returns true if a ``List`` of integers is filled with zeros and false otherwise. Which of the following should replace ``/* to be completed */`` so that the method will work as intended?
+
+   .. code-block:: java
+
+      public boolean emptyList (List <Integer> list)
+      {
+           /* to be completed */
+      }
+
+      // I.
+      for (int i = 0; i < list.size(); i++)
+      {
+          if (list.get(i) != 0)
+              return false;
+      }
+      return true;
+
+      // II.
+      for (int i = 0; i < list.size(); i++)
+      {
+          if (list[i] != 0)
+              return false;
+      }
+      return true;
+
+      // III.
+      for (int i = 0; i < list.size(); i++)
+      {
+          if (list.get(i) != 0)
+              return true;
+      }
+      return false;

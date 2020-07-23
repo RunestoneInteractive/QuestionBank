@@ -1,0 +1,43 @@
+.. mchoice:: e24_1_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPPracticeQuestions/exam24_1
+   :from_source: T
+   :answer_a: a ≥ c and c ≥ b
+   :answer_b: a ≥ c and b ≥ c
+   :answer_c: c ≥ a and c ≥ b
+   :answer_d: c ≥ b and c ≥ a
+   :correct: a
+   :feedback_a: Correct
+   :feedback_b: Incorrect
+   :feedback_c: Incorrect
+   :feedback_d: Incorrect
+
+   Consider the following incomplete pseudo-code to print the largest of three integer variables, namely ``a``, ``b`` and ``c``:
+   ::
+
+     IF (a ≥ b)
+     {
+        IF (*incomplete_1*)
+        {
+            DISPLAY(a)
+        }
+        ELSE
+        {
+            DISPLAY(c)
+        }
+     }
+     ELSE
+     {
+        IF (*incomplete_2*)
+        {
+            DISPLAY(c)
+        }
+        ELSE
+        {
+            DISPLAY(b)
+        }
+     }
+
+   Which of the following options can be substituted for *incomplete_1* and *incomplete_2*, respectively, for the code to work as intended?

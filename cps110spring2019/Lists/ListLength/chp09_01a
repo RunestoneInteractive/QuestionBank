@@ -1,0 +1,11 @@
+.. activecode:: chp09_01a
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Lists/ListLength
+    :from_source: None
+
+    alist =  ["hello", 2.0, 5, [10, 20]]
+    print(len(alist))
+    print(len(['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2, 3]]))
+

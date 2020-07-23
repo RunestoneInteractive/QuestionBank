@@ -1,0 +1,14 @@
+.. fillintheblank:: fb_un_count1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: UNGeneralDebates/research_questions
+   :from_source: T
+
+   How many rows from the United Nations dataset have a country code that starts
+   with 'M'? |blank|
+
+   - :663: Is the correct answer
+     :18: Is the number of unique countries
+     :x: You should use the startswith method on the series of country codes
+

@@ -1,0 +1,31 @@
+.. activecode:: challenge-9-7-savingsaccount
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit9-Inheritance/topic-9-7-Object
+   :from_source: T
+   :language: java
+
+   Complete the subclass SavingsAccount below which inherits from Account and adds an interest rate variable. Write a toSTring and an equals method for it.
+   ~~~~
+   public class Account
+   {
+       private String name;
+       private double balance;
+
+       public Account(String name, double balance)
+       {
+          this.name = name;
+          this.balance = balance;
+       }
+       public static void main(String[] args)
+       {
+
+       }
+   }
+
+   class SavingsAccount
+   {
+
+   }
+

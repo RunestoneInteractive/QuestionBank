@@ -1,0 +1,22 @@
+.. activecode:: exam_average
+   :author: Irma Ravkic
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+
+   Use the accumulator pattern with for loop that will find the average of the list below in the code.
+   Store the average in a variable called ``my_average``.
+   ~~~~
+   my_grades = [100, 85, 60, 100, 80, 75, 80, 100] 
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(85.0, my_average, 'Checking output.')
+	  
+   myTests().main()

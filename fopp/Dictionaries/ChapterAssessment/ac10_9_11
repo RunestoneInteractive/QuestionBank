@@ -1,0 +1,25 @@
+.. activecode:: ac10_9_11
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Dictionaries/AccumulatingResultsFromaDictionary
+
+   Provided is a string saved to the variable name ``s1``. Create a dictionary named ``counts`` that contains each letter in ``s1`` and the number of times it occurs.
+   ~~~~
+   s1 = "hello"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sorted(counts.items()), [('e', 1), ('h', 1), ('l', 2), ('o', 1)], "Testing that counts was created correctly.")
+
+   myTests().main()

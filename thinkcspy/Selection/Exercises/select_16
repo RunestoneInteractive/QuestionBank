@@ -1,0 +1,32 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_16
+  
+    On what line(s) of code is the function 'isString()' called?
+ 
+    1. num = 5
+
+    2. word = "hello"
+
+    3. isString( word )
+
+    4.
+
+    5. if isString( num ):
+
+        6.  	    print( "We found a string!" )
+
+    7. elif isString( num ):
+
+        8.      	print( "We found a number!" )
+
+    9. else:
+
+        10.     	print( "We found a symbol!" )
+
+    ~~~~
+    

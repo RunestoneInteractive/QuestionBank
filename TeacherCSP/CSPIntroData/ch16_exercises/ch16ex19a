@@ -1,0 +1,16 @@
+.. activecode::  ch16ex19a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPIntroData/ch16_exercises
+    :from_source: T
+    :nocodelens:
+
+    def reverseEveryOther(theList):
+        newList = []
+        for index in range(len(theList) - 1, -1, -2):
+            newList = newList + [theList[index]]
+        return newList
+
+
+    print(reverseEveryOther([0,1,2,3,4,5]))

@@ -1,0 +1,23 @@
+.. actex:: cutr_ch08_ex04
+  :author: Sandra Jackson
+  :difficulty: 1.0
+  :basecourse: thinkcspy
+  :topic: MoreAboutIteration/Exercises
+  :from_source: F
+
+  Write a function called 'getAges', that continuously prompts the user for ages of some set of individuals.  When the user wants to stop entering ages, there should be an appropriate value they can enter to stop the prompting.  The function should return a list of the entered ages.
+  ~~~~
+
+  def getAges():
+       # your code here
+
+  ====
+  from unittest.gui import TestCaseGui
+
+  class myTests(TestCaseGui):
+
+      def testOne(self):
+          self.assertEqual(type(getAges()),type([]), "If this test failed the return type of the function is not a list")
+
+  myTests().main()
+    

@@ -1,0 +1,18 @@
+.. mchoice:: print_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter11/print
+   :from_source: T
+   :multiple_answers:
+   :answer_a: change the name of the function to Dog::bark
+   :answer_b: remove the Dog parameter
+   :answer_c: operate on the current Dog object by using *this
+   :answer_d: declare the function inside of the Dog structure definition
+   :correct: b,c,d
+   :feedback_a: Incorrect! You don't need to rename the function unless you define it outside of the structure definition.
+   :feedback_b: Correct! We no longer need to pass a Dog as an argument, since we are going to be invoking the function on a Dog object.
+   :feedback_c: Correct! To get the current object, we need to dereference the this pointer using *.
+   :feedback_d: Correct! Member functions are declared inside of structure definitions.
+
+   We have a free-standing function called **dog_bark** which takes a **Dog** object as a parameter.  What step(s) do we need to take to convert ``dog_bark(const Dog& dog)`` to a member function of the ``Dog`` class?

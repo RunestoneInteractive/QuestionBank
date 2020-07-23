@@ -1,0 +1,15 @@
+.. codelens:: ac7_100_1
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Conditionals/AccumulatingaMaximumValue
+   :from_source: F
+   :python: py3
+
+   L = [3, 6, 2, 5, 39, 7, 5]
+
+   a = L[0]
+   for x in L[1:]:
+      if x > a:
+         a = x
+   print(a)

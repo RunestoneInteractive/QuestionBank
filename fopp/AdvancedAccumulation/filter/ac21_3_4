@@ -1,0 +1,31 @@
+.. activecode:: ac21_3_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/filter
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :chatcodes:
+   :practice: T
+
+   **2.** Using filter, filter ``lst`` so that it only contains words containing the letter "o". Assign to variable ``lst2``. Do not hardcode this.
+   ~~~~
+
+   lst = ["witch", "halloween", "pumpkin", "cat", "candy", "wagon", "moon"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(lst2, ['halloween', 'wagon', 'moon'], "Testing that lst is assigned to correct values.")
+         self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+         self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+         self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+         self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+
+   myTests().main()

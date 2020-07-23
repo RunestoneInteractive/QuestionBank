@@ -1,0 +1,18 @@
+.. mchoice:: qoo10-1-1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit9-Inheritance/topic-9-1-inheritance-day1
+   :from_source: T
+   :practice: T
+   :answer_a: It doesn't have a parent class.
+   :answer_b: It inherits from the Object class.
+   :answer_c: It inherits from the Default class.
+   :answer_d: It inherits from the Parent class.
+   :correct: b
+   :feedback_a: If no parent class is specified using the extends keyword, the current class will still have a parent class.
+   :feedback_b: If no parent class is specified using the extends keyword, the parent class will be Object.
+   :feedback_c: There isn't a class named Default.
+   :feedback_d: There isn't a class named Parent.
+
+   If you don't specify the parent class in a class declaration which of the following is true?

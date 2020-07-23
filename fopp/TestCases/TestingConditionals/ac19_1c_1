@@ -1,0 +1,20 @@
+.. activecode:: ac19_1c_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: TestCases/TestingConditionals
+    :from_source: T
+
+    x = 3
+    y = 4
+    if x < y:
+        z = x
+    else:
+        if x > y:
+            z = y
+        else:
+            ## x must be equal to y
+            assert x==y
+            z = 0
+
+

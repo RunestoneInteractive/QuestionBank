@@ -1,0 +1,84 @@
+.. activecode:: IT105_AY182_TEE_10
+    :author: Tom Babbitt
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Write a function ``getEnergy(mass)`` that uses Eisenstein's famous equation. The function take the mass as a parameter and has a **return** value of the energy.  
+
+    Example
+
+    ::
+      
+      print(getEnergy(1))
+
+    Results
+
+    ::
+ 
+      89875517873681764
+
+    **Notes:** 
+    
+    #. In case you forgot the formula, it is written below.
+
+       .. Image:: https://runestone.academy/runestone/static/AY182_IT105/_static/IT105_emc.png
+          :height: 15
+          :alt: e=mc2
+
+    ~~~~
+    def getEnergy(mass):
+        c = 299792458
+	# write your code here
+
+    ====
+    import re
+    import random
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        # counts how many instances of 'keyword'
+        def count_code(self, code, keyword):
+            cnt = 0
+            for line in code.splitlines():
+                words = line.split()
+                for val in words:
+                    if val.find(keyword) >= 0:
+                        cnt = cnt + 1
+            return(cnt)
+
+        def check_output(self, num):
+            if len(num) != 10:
+                return(False)
+            for i in num:
+                if (int(i) > 12) or (int(i) < 2):
+                    return(False)
+            return(True)
+
+        def golden_func(self, mass):
+            c = 299792458
+            return mass * c ** 2
+
+        def testOne(self):
+            outText = self.getOutput()
+            lines = outText.split("\n")
+            editText = self.getEditorText()
+            numList = re.findall(r'^\d+$', outText, re.M)
+            if len(lines) == 1:
+               lines[0] = "No output"
+            if len(lines) < 3:
+               lines[len(lines)-1] = "No output"
+               for i in range(len(lines),4):
+                  lines.append("Missing")
+
+            for i in range(3):
+               num = random.random() * 10
+               self.assertAlmostEqual(self.golden_func(num), getEnergy(num), 3, "Random test " + str(i+1) + " mass = " + str(num))
+            self.assertTrue(self.count_code(editText, 'return') >=1, "Your function must return a value.")
+    
+    myTests().main()

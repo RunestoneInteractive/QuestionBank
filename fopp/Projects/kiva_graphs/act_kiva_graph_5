@@ -1,0 +1,31 @@
+.. activecode:: act_kiva_graph_5
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/kiva_graphs
+    :from_source: T
+    :include: act_kiva_graph_data
+
+    Now repeat what you did before, but use the ``loan_amount`` list.  This time it is a little more complicated because you will need to create your own bucket list, and the numbers are spread out over a much larger range that does not start at 0.  You don't want to waste any bins so you need to evenly divide the spread of the numbers in the ``loan_amount`` list.  Note:  This is a good problem for learning about boundary conditions.
+    ~~~~
+    # Your code here
+    ====
+    from unittest.gui import TestCaseGui
+    # [51, 22, 14,  6,  1,  2,  1,  0,  1,  2]
+    class MyTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertEqual(bucket_list[0], 51, "bucket 0")
+            self.assertEqual(bucket_list[1], 22, "bucket 1")
+            self.assertEqual(bucket_list[2], 14, "bucket 2")
+            self.assertEqual(bucket_list[3], 6 , "bucket 3")
+            self.assertEqual(bucket_list[4], 1 , "bucket 4")
+            self.assertEqual(bucket_list[5], 2 , "bucket 5")
+            self.assertEqual(bucket_list[6], 1 , "bucket 6")
+            self.assertEqual(bucket_list[7], 0 , "bucket 7")
+            self.assertEqual(bucket_list[8], 1 , "bucket 8")
+            self.assertEqual(bucket_list[9], 2 , "bucket 9")
+
+    MyTests().main()
+
+

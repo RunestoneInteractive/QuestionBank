@@ -1,0 +1,11 @@
+.. video:: vid_modules
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: PythonModules/modules
+    :from_source: None
+    :controls:
+    :thumb: ../_static/modules.png
+
+    http://media.interactivepython.org/thinkcsVideos/modules.mov
+    http://media.interactivepython.org/thinkcsVideos/modules.webm

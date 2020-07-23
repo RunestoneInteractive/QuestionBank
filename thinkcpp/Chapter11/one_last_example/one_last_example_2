@@ -1,0 +1,12 @@
+.. fillintheblank:: one_last_example_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter11/one_last_example
+    :from_source: T
+
+    We have previously initialized t1 and t1 using constructors ``Time t1 (8, 30, 45.0)``
+    and ``Time t2 (1, 50, 13.0)``. What should be returned by ``t1.add(t2)``?
+
+    - :(10:20:58): Correct!
+      :.*: Incorrect! It will help you to modify the code above!

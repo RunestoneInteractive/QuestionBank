@@ -1,0 +1,26 @@
+.. activecode:: sks1306_cw6_1
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Files/Exercises
+   :from_source: F
+   :available_files: cw61.txt
+   :nocodelens:
+   :enabledownload:
+
+   f = open("cw61.txt", "r")
+
+   for aline in f:
+       items = aline.split()
+       if len(items[1:]) > 6:
+           print(items[0])
+
+   f.close()
+
+   ====
+
+.. datafile:: cw61.txt
+
+   here is the first line in the data file
+   also, this is the second line in the data file
+   and this is the third line

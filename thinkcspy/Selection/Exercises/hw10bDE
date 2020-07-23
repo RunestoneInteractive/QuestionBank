@@ -1,0 +1,29 @@
+.. activecode:: hw10bDE
+   :author: Damon Ellingston
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+
+   **Homework 10 part b**
+
+    Your program (again, not a function) will ask the user for a number from 1 to 100. Then your program will calculate the multiple of 5 in the range 1 to 100 nearest to that number. There will be three possible outputs:
+
+   1)  The nearest multiple of 5 is x, or
+
+   2)  The number you entered already is a multiple of 5, or
+
+   3)  You did not pick a number from 1 to 100. Go back and try again.
+
+    You will have to use some **if-else** decision structures along with the math operation x%5. Play around with plugging in different numbers for x, then take x%5 to get a feel for what it does. Here are example inputs and outputs:
+
+   input: 21 output: 20
+
+   input: 25 output: 25 is already a multiple of 5
+
+   input: 1 output: 5 (numbers 1,2,3,4 are closest to 5)
+
+   input: 0 output: You did not pick a number from 1 to 100. Go back and try again (program closes down).
+
+    Make certain your program runs in RUNESTONE 
+   ~~~~

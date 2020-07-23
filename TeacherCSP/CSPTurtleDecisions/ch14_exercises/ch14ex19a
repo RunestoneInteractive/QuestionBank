@@ -1,0 +1,21 @@
+.. activecode::  ch14ex19a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPTurtleDecisions/ch14_exercises
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *
+    space = Screen()
+    jose = Turtle()
+    for size in range(9):
+        if (size % 3 == 0):
+            jose.color('green')
+        elif (size % 3 == 1):
+            jose.color('blue')
+        else:
+            jose.color('yellow')
+        jose.forward(50)
+        jose.forward(-50)
+        jose.right(40)

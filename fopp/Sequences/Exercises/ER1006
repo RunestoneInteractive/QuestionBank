@@ -1,0 +1,15 @@
+
+    :author: Eric Reed
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Sequences/Exercises
+    :from_source: F
+.. activecode:: ER1006
+
+
+    Write code that asks the user for a word, and reports
+    whether it is a palindrome.
+    bob is a palindrome because it reads the same forwards
+    and back.  brenda is not.
+    ~~~~
+ 

@@ -1,0 +1,30 @@
+
+   :author: Michael Jones
+   :difficulty: 4.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. activecode:: eggs_assignment
+   :language: python
+
+    Write a program that inputs:
+    1) A farmers name  2) The number of hens the farmer has and 3) the number of eggs produced that week 
+    
+    It then outputs on a separate line for each:
+    1) Hello Farmer <farmers name>  2) a line of equal signs =========
+    3) The number of egg cartons needed (12 eggs in a carton), 4) The number of eggs left over, 
+    5) the yearly production of eggs (52 weeks in a year) and 6) The average eggs laid per hen.
+
+    Example output:  For an input of "Brown", 12 hens and 150 eggs
+
+    Hello Farmer Brown
+    ======= Egg Statistics ===========
+    Cartons needed: 12
+    Eggs left over: 6
+    Estimated yearly egg production: 7800 eggs
+    Average weekly eggs per hen: 12.5
+
+    ~~~~
+    # Egg Production Program by <your name>
+ 
+    

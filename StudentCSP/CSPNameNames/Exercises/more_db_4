@@ -1,0 +1,17 @@
+.. mchoice:: more_db_4
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+   :correct: d
+   :answer_a: CREATE 
+   :answer_b: MODIFY
+   :answer_c: CHANGE
+   :answer_d: UPDATE
+   :feedback_a: Use this to create a table or database
+   :feedback_b: MODIFY is not an SQL command
+   :feedback_c: CHANGE is not an SQL command
+   :feedback_d: UPDATE is used to change data in a database table
+
+   Which of the following should you use to modify data in a database table?

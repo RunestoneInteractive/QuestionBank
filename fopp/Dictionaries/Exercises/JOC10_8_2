@@ -1,0 +1,37 @@
+.. actex:: JOC10_8_2
+   :author: Joaquin Carbonara
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: F
+   :tie: SpanishTranslator
+
+   Avast!  Try this one swabbies.  Here's a table of English to Pirate translations
+
+   .. table::
+
+      ==========  ==============
+      English     Pirate
+      ==========  ==============
+      sir         Senor
+      hotel       hotel
+      student     estudiante
+      boy         nino
+      madam       senora
+      professor   profesor
+      restaurant  restaurante
+      your        su
+      excuse      disculpe
+      students    estudiantes
+      are         son
+      lawyer      abogado
+      the         El
+      restroom    bano
+      my          mi
+      hello       hola
+      is          es
+      man         hombre
+      ==========  ==============
+
+   Write a program that asks the user for a sentence in English and then translates that sentence to Spanish.
+   ~~~~

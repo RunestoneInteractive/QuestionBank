@@ -1,0 +1,26 @@
+.. activecode:: ch2_ex2
+   :author: Irma Ravkic
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :nocodelens:
+  
+   For the three expressions below in the box (line 5, line 7 and line 9), write their shorthand notations.
+   ~~~~Write
+   x = 2
+   y = 3
+   z = 4
+   
+   x = x + 1
+   #write here your shorthand notation
+   y = y * 2
+   #write here your shorthand notation
+   z = z + (y * 2)
+   #write here your shorthand notation
+   #print the values of variables if you're not sure. You need to get the same result for full and shorthand expressions
+   
+
+
+

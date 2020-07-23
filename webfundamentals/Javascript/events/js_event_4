@@ -1,0 +1,42 @@
+.. activecode:: js_event_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: Javascript/events
+   :from_source: T
+   :language: html
+
+    <html>
+      <head>
+        <title>Colors</title>
+      </head>
+      <body>
+        <label for="redi">Red:</label>
+        <input type="range" min=0 max=255 id="redi" onmousemove="changeColor()"
+              onmouseup="showValues()" value="125" /> <span id="redv"></span><br>
+        <label for="greeni">Green:</label>
+        <input type="range" min=0 max=255 id="greeni" onmousemove="changeColor()"
+              onmouseup="showValues()" value="125" /><span id="greenv"></span><br>
+        <label for="bluei">Blue:</label>
+        <input type="range" min=0 max=255 id="bluei" onmousemove="changeColor()"
+              onmouseup="showValues()" value="200" /><span id="bluev"></span>
+
+        <br>
+        <script>
+          changeColor = function() {
+              red = document.querySelector('#redi').value;
+              green = document.querySelector('#greeni').value;
+              blue = document.querySelector('#bluei').value;
+              colorStr = "rgb(" + red + "," + green + "," + blue + ")";
+              document.body.style.backgroundColor = colorStr;
+          }
+          showValues = function() {
+            document.querySelector('#redv').innerHTML = document.querySelector("#redi").value;
+            document.querySelector('#greenv').innerHTML = document.querySelector("#greeni").value;
+            document.querySelector('#bluev').innerHTML = document.querySelector("#bluei").value;
+          }
+          window.onload = function() { changeColor(); showValues(); }
+        </script>
+      </body>
+    </html>
+

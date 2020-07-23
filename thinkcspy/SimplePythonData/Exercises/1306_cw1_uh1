@@ -1,0 +1,16 @@
+.. activecode:: 1306_cw1_uh1
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Your goal is to calculate the time it will take a runner to run 10 miles with the following pace segments: 
+   the first mile at a pace of 7 minutes per mile, the following 4 miles at a pace of 8.5 minutes per mile, 
+   the following 4 miles at a pace of 9 minutes per mile and the last mile back at a relaxed pace of 3 minutes per mile. 
+ 
+   #. Please explain how you will calculate the total time and write the answer (explain as comment in the active code window)
+   #. Please write a Python program to achieve this goal
+
+   ~~~~
+   # Write your program here

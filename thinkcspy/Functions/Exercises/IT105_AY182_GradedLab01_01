@@ -1,0 +1,62 @@
+
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+.. activecode:: IT105_AY182_GradedLab01_01
+   :language: python
+   :nocodelens:
+   :autograde: unittest
+
+   Write a function ``areaOfEqTriangle(side)`` that will find the area of an 
+   equilateral triangle given the length of one of the sides. The function 
+   ``returns`` the area of the triangle. If ``side <= 0``, the function should
+   ``return`` -1.
+
+   Example:
+   
+   ::
+
+     area = areaOfEqTriangle(3.0)
+     print(area)
+
+   Results:
+   
+   ::
+
+     3.89711
+
+   Hint (formula for area of an equilateral triangle): 
+
+   .. image:: https://runestone.academy/runestone/static/AY182_IT105/_static/area_formula.png
+       :alt: formula for the area of an equilateral triangle
+
+   ~~~~
+   ### Name:
+
+   ### define the areaOfEqTriangle(side) function here
+
+   ### write any test case to test your function
+   
+   ====
+   from unittest.gui import TestCaseGui
+  
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertAlmostEqual(areaOfEqTriangle(1.0), 0.43301, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(2.0), 1.73205, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(3.0), 3.89711, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(4.0), 6.92820, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(5.0), 10.82532, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(6.0), 15.58846, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(7.0), 21.21762, 3, "Ensure your formula is correct")
+         self.assertAlmostEqual(areaOfEqTriangle(8.0), 27.71281, 3, "Ensure your formula is correct")
+         self.assertEqual(areaOfEqTriangle(0.0),-1,"Check the boundary conditions.")
+         self.assertEqual(areaOfEqTriangle(-1.0),-1,"Negative numbers should return a -1.")
+
+   myTests().main()  
+
+   
+    

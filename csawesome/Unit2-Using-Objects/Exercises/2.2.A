@@ -1,0 +1,21 @@
+.. mchoice:: 2.2.A
+   :author: Beryl Hoffman
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :practice: T
+   :answer_a: Monster m1 = new Monster();
+   :answer_b: Monster m2 = new Monster(1, "Cyclops", 2 );
+   :answer_c: Monster m3 = new Monster(3, 4, "Oogy" );
+   :correct: b
+   :feedback_a: There is no constructor with no arguments listed.
+   :feedback_b: Correct! The type and order are correct.
+   :feedback_c: The arguments inside the constructor must be in the same order as the method signature
+
+   Based off of the Monster constructor signature below, which is a valid statement?
+
+   .. code-block:: java
+
+     public Monster( int eyes, String name, int arms );
+  

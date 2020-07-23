@@ -1,0 +1,16 @@
+.. mchoice:: cswt01_q16
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+   :answer_a: string
+   :answer_b: integer
+   :answer_c: float
+   :answer_d: boolean
+   :correct: a
+   :random:
+
+   What is the type of x after executing the following code?::
+
+      x = input("Please enter something: ")

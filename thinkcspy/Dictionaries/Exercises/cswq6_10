@@ -1,0 +1,20 @@
+.. parsonsprob:: cswq6_10
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Dictionaries/Exercises
+   :from_source: F
+
+   10. Put the following statements in order so the function returns a dictionary with field 4 of a list being the key and field 7 being the value
+   -----
+   def build_dict(lines):
+   =====
+       d = {}  #Start with an empty dictionary
+   =====
+       for line in lines[1:]:
+   =====
+           elements = line.strip().split(',')
+   =====
+           d[elements[4]] = elements[7]
+   =====
+       return total

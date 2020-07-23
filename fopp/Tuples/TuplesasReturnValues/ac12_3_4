@@ -1,0 +1,26 @@
+.. activecode:: ac12_3_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Tuples/TuplesasReturnValues
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :chatcodes:
+   :practice: T
+
+   Define a function called ``info`` with the following required parameters: ``name``, ``age``, ``birth_year``, ``year_in_college``, and ``hometown``. The function should return a tuple that contains all the inputted information.
+   ~~~~
+
+   def info():
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(info(name='Tina', age=20, birth_year=1996, year_in_college='sophomore', hometown='Detroit'), ('Tina', 20, 1996, 'sophomore', 'Detroit'), "Testing the function info on input: name='Tina', age=20, birth_year=1996, year_in_college='sophomore', hometown='Detroit'.")
+
+   myTests().main()

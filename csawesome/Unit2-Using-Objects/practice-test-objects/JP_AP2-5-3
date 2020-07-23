@@ -1,0 +1,37 @@
+.. mchoice:: JP_AP2-5-3
+    :author: John Pataracchia
+    :difficulty: 0.0
+    :basecourse: csawesome
+    :topic: Unit2-Using-Objects/practice-test-objects
+    :from_source: F
+    :random:
+
+    Consider the following method in the TeamRank class.
+
+    .. code-block:: java
+
+        public double calculateTeamRank(int numOfGoalsFor, int numGoalsAgainst, double winPercentage)
+        { /*implementation not shown */}
+
+    Which of the following lines of code, if located in a method in the same class as calculateTeamRank, will compile without an error?
+
+    - int rank = calculateTeamRank(234, 56, 0.450);
+
+      - The method returns a double which cannot be saved in an int variable.
+
+    - double rank = calculateTeamRank(100.0, 3.0, 0.560);
+
+      - The first two parameters must be ints.
+
+    - double rank = calculateTeamRank(455,215, false);
+
+      - The method takes a double for winPercentage, not a boolean.
+
+    - double rank = calculateTeamRank(310, 420, 0.450);
+
+      + Correct.
+
+    - double rank = calculateMovieRating(310,420);
+
+      - The method has 3 parameters.
+

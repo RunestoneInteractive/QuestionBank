@@ -1,0 +1,16 @@
+.. actex:: ex_3_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: T
+   :nocodelens:
+
+   Use ``for`` loops to make a turtle draw these regular polygons
+   (regular means all sides the same lengths, all angles the same):
+
+   * An equilateral triangle
+   * A square
+   * A hexagon (six sides)
+   * An octagon (eight sides)
+   ~~~~

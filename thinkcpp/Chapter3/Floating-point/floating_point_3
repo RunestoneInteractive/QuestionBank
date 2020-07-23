@@ -1,0 +1,24 @@
+.. fillintheblank:: floating_point_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/Floating-point
+   :from_source: T
+
+   Suppose it's your birthday and your friend bought you a cake that
+   can serve 12.  You want to slice your cake so that each of your 5
+   friends recieves an equal amount of cake.  Some of your friends are
+   on a diet, and want to know the serving size of their slice.  You
+   write the following code in C++ to answer their question.
+
+   ::
+
+       int servings = 12;
+       int people = 5;
+
+       double servingSize = apples / people;
+
+   After execution, what is the value of servingSize? |blank|
+
+   - :2: Correct! This isn't the information you wanted to calculate, but since C++ performs integer division, it's technically what you asked it to calculate.
+     :.*: Don't forget that slice and people are integer variables!

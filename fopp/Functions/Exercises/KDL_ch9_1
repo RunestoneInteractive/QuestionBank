@@ -1,0 +1,62 @@
+.. activecode:: KDL_ch9_1
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   The taylor series expansion for :math:`e^x` is
+
+   .. math::
+      1 + \frac{x^1}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + ...
+
+   Start by grabbing your factorial code from Classwork 3, and turning it into a function called ``factorial`` which returns the value of the factorial. Then create a function ``taylorterm`` that accepts an integer :math:`a` and the value of :math:`x` and returns the result of an individual taylor fraction. In other words 
+   
+   .. math::
+      \frac{x^a}{factorial(a)} 
+
+   Use a for loop and concatenation to make a list with each term of the taylor series. This should be a function called ``taylorlist`` that should take the value of x and max value of a as inputs. So :math:`x=3` and :math:`a=2` would get
+
+   .. math::
+      [1 , taylorterm(3,1) , taylorterm(3,2)] = [1 , 3 , 4.5]
+
+   Lastly create a function ``taylorex`` that returns the taylor series result this should accept an :math:`x` and an :math:`a` and sum the result from the ``taylorlist``.  So :math:`x=3` and :math:`a=2` would get 8.5.
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           def _factorial(x):
+               fact=1
+               for i in range(1,x+1):
+                   fact*=i
+               return fact
+
+           def _taylorterm(x,a):
+               return x**a/_factorial(a)
+
+           def _taylorlist(x,a):
+               list=[1]
+               for i in range(1,a+1):
+                    list+=[_taylorterm(x,i)]
+               return list
+        
+           def _taylorex(x,a):
+               return sum(_taylorlist(x,a))
+
+           self.assertIn('for ', self.getEditorText(), 'Contains for loop')
+           self.assertIn('def taylorex', self.getEditorText(), 'Contains taylorex function')
+           self.assertIn('def factorial', self.getEditorText(), 'Contains factorial function')
+           self.assertIn('def taylorterm', self.getEditorText(), 'Contains taylorterm function')
+           self.assertIn('def taylorlist', self.getEditorText(), 'Contains taylorterm function')
+           self.assertEqual(_factorial(21),factorial(21), 'factorial function works')
+           self.assertEqual(_taylorterm(40,10),taylorterm(40,10), 'taylorterm function works')
+           self.assertEqual(_taylorlist(2,5),taylorlist(2,5), 'taylorlist function works')
+           self.assertEqual(_taylorex(9,26),taylorex(9,27), 'taylorex function works')
+   myTests().main()   

@@ -1,0 +1,13 @@
+.. fillintheblank:: baseconvert3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythonds3
+   :topic: BasicDS/ConvertingDecimalNumberstoBinaryNumbers
+   :from_source: T
+
+   What is value of 26 expressed in base 26?
+
+   |blank|
+
+   -  :10: Correct.
+      :x: You may need to modify the baseConverter function, or simply find a pattern in the conversion of bases.

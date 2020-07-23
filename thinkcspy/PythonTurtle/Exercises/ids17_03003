@@ -1,0 +1,32 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: ids17_03003
+   
+    5.4(劉邦鋒，由片語學習C程式設計)寫一個程式讀取一正整數n，然後由n以反向順序列印直到1。
+
+    輸入：
+
+    6
+
+    輸出：
+
+    6
+
+    5
+
+    4
+
+    3
+
+    2
+
+    1
+    ~~~~
+    
+    ====
+   
+    

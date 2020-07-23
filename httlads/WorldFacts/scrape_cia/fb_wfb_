@@ -1,0 +1,16 @@
+.. fillintheblank:: fb_wfb_
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: WorldFacts/scrape_cia
+   :from_source: T
+
+   What is the path and filename for the file containing the data for "Internet
+   users"? |blank| Note the #xxx number that comes after ``.html`` is not part
+   of the filename.
+
+   - :../fields/2153.html: Is the correct answer
+     :../fields/2153.html#126: No, #126 is not part of the filename
+     :2153.html: Is only the filename
+     :#126: Is not part of the filename
+

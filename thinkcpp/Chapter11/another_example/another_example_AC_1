@@ -1,0 +1,43 @@
+.. activecode:: another_example_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter11/another_example
+   :from_source: T
+   :language: cpp
+
+   Feel free to change the input and experiment around with the active
+   code below!
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   struct Time {
+       int hour, minute;
+       double second;
+       void print ();
+       void increment (double secs);
+   };
+
+   int main() {
+       Time currentTime = { 9, 14, 30.0 };
+       currentTime.increment (500.0);
+       currentTime.print ();
+   }
+
+   ====
+   void Time::print () {
+     cout << hour << ":" << minute << ":" << second << endl;
+   }
+
+   void Time::increment (double secs) {
+     second += secs;
+     while (second >= 60.0) {
+       second -= 60.0;
+       minute += 1;
+     }
+     while (minute >= 60) {
+       minute -= 60.0;
+       hour += 1;
+     }
+   }

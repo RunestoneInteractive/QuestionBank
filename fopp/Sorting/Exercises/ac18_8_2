@@ -1,0 +1,11 @@
+.. actex:: ac18_8_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Sorting/Exercises
+    :from_source: T
+
+    Now suppose the list wasn't sorted yet. How would get those same five elements from this list?
+    ~~~~
+
+    L = [0, 1, 6, 7, 3, 6, 8, 4, 4]

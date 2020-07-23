@@ -1,0 +1,15 @@
+.. actex:: ex_3_6_Troy2018
+   :author: Shawn Haarer
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :nocodelens:
+
+   Write a program that will draw any size regular polygon, with any outline color, and any fill color.  
+   The program must INPUT or ASK the user for the Number of Sides, the Length of the Sides, 
+   the Outline Color, and the Fill Color of a regular polygon.  
+   The program should draw the polygon and then fill it in.
+
+   For step by step directions, see Google Classroom
+   ~~~~

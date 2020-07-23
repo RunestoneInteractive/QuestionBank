@@ -1,0 +1,22 @@
+.. fillintheblank:: searching_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter12/searching
+   :from_source: T
+
+   ``buildEuchreDeck()`` returns the deck of Euchre cards defined on the previous page.
+   If we run the following code, what is returned?
+
+   ::
+
+     int main() {
+        EuchreDeck = buildEuchreDeck()
+        Card card (3, 6);
+        find(card, EuchreDeck)
+      }
+
+   |blank|.
+
+   - :-1: Correct! The find method should return -1 if the card is not part of the deck.
+     :x: Incorrect! Hint: take a look at the suit and rank of card.

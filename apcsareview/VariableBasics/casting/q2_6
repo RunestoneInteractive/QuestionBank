@@ -1,0 +1,13 @@
+.. mchoice:: q2_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: VariableBasics/casting
+   :from_source: T
+   :answer_a: true
+   :answer_b: false
+   :correct: b
+   :feedback_a: Try casting to int instead of double.  What does that do?
+   :feedback_b: Casting results in the type that you cast to. However, if you can't really cast the value to the specified type then you will get an error.
+
+   True or false: casting always results in a double type.

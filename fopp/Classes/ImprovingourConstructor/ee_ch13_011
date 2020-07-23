@@ -1,0 +1,21 @@
+.. activecode:: ee_ch13_011
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Classes/ImprovingourConstructor
+   :from_source: T
+   :tags:Classes/ImprovingourConstructor.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOneA(self):
+         self.assertEqual(t.num1, 6, "Testing that t.num1 has correct number assigned.")
+      def testOneB(self):
+         self.assertEqual(t.num2, 10, "Testing that t.num2 has correct number assigned.")
+
+   myTests().main()

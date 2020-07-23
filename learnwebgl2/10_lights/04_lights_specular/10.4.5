@@ -1,0 +1,22 @@
+.. mchoice:: 10.4.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 10_lights/04_lights_specular
+  :from_source: T
+  :random:
+
+  A reflection vector can be calculated using this equation: :code:`R = 2*n*dot_product(n,-L) + L`,
+  or this equation: :code:`R = 2*n*dot_product(n,L) - L`. When should each equation be used?
+
+  - first equation: :code:`L` goes from the light source to the fragment. :raw-html:`<br>`
+    second equation: :code:`L` goes from the fragment to the light source. :raw-html:`<br>`
+
+    + Correct.
+
+  - first equation: :code:`L` goes from the fragment to the light source. :raw-html:`<br>`
+    second equation: :code:`L` goes from the light source to the fragment. :raw-html:`<br>`
+
+    - Incorrect.
+
+

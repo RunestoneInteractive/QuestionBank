@@ -1,0 +1,30 @@
+.. mchoice:: retention_8_F16_q26_v2
+   :author: Barbara  Ericson
+   :difficulty: 3.0
+   :basecourse: StudentCSP
+   :topic: CSPIntroDecisions/Exercises
+   :from_source: F
+   :answer_a: [106]
+   :answer_b: [206, 110]
+   :answer_c: [106, 206]
+   :answer_d: [506, 206]
+   :answer_e: There is an error
+   :feedback_a: Incorrect!
+   :feedback_b: Incorrect!
+   :feedback_c: Correct!
+   :feedback_d: Incorrect!  The slice operator makes a copy of the original list.
+   :feedback_e: Incorrect!
+   :correct: c
+   :practice: T
+   :topics: Final_Exam_F16/q_26
+
+   What will print when the following code runs?
+
+   .. sourcecode:: python
+
+      lstA = [106]
+      lstB = lstA
+      lstA.append(206)
+      lstA = lstA[1:]
+      lstA.append(506)
+      print(lstB)

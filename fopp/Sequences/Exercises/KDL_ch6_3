@@ -1,0 +1,26 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+.. activecode:: KDL_ch6_3
+   :autograde: unittest
+   :language: python
+
+   
+
+   Use a for loop to roll a 10 sided dice three times. 
+   ~~~~
+   
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertIn('for', self.getEditorText(), 'contains for loop')
+           self.assertIn('random.randrange(1,11)', self.getEditorText(), 'gets random')
+           self.assertIn('range(3)', self.getEditorText(), 'loops 3 times')
+   myTests().main()    

@@ -1,0 +1,19 @@
+.. mchoice:: sks_q1_ex10
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: x-y-z
+   :answer_b: _x_y_z
+   :answer_c: x1y2z3
+   :answer_d: xyz_123
+   :correct: e
+   :random:
+   :feedback_a: Thank you.  Your answer has been noted.
+   :feedback_b: Thank you.  Your answer has been noted.
+   :feedback_c: Thank you.  Your answer has been noted.
+   :feedback_d: Thank you.  Your answer has been noted.
+
+
+   [2 pts]. Which of the following is not a valid variable name?

@@ -1,0 +1,70 @@
+.. activecode:: lhs_6_14
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a fruitful function called ``mySqrt`` that will return the approximate square root of a number, call it ``n``, by using
+    Newton's algorithm. ``n`` can be an integer or floating point.
+
+    Newton's approach is an iterative guessing algorithm where the initial guess is n/2 and each subsequent guess
+    is computed using the formula:  
+
+    ::
+
+      newguess = (1/2) * (oldguess + (n/oldguess)). 
+
+    **Note**: You will need to experiment how many times to iterate...
+    ~~~~
+
+    def mySqrt(n):
+        # your code here
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+         # regExString - is checked inside inString
+         # howMany - how many matches are expected
+         # matchString - summary of what is being matched (readable version of regExString)
+         # errorString - error string upon assertion failure
+        def regExCheck(self, regExString, inString, howMany, matchString, errorString):
+            res = re.findall(regExString, inString, re.M)
+            checkOK = (len(res) == howMany)
+            if not checkOK:
+                print("Found [", matchString, "]", len(res), "time(s), not", howMany)
+
+            self.assertEqual(checkOK, True, errorString)
+
+            return(checkOK)
+
+        def testOne(self):
+            print("Auto-testing...")
+            outText = self.getOutput()
+            code = self.getEditorText()
+            
+            # strips this test code - when testing code with this test code 
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+
+            if (mySqrt(3) == None):
+                self.assertNotEqual(mySqrt(3), None, "Function is not returning anything...")
+                return
+
+            self.regExCheck("^\s+for .*in.*:", code, 1, "'for' loop", "Should be using a for loop")
+            if not self.regExCheck("math.sqrt\(", code, 0, "math.sqrt()", "Should not be using math.sqrt() function"):
+                return
+
+            self.assertAlmostEqual(mySqrt(2),1.414213,4,"Tested mySqrt on input 2.0")
+            self.assertAlmostEqual(mySqrt(4.0),2.0,0,"Tested mySqrt on input 4.0")
+            self.assertAlmostEqual(mySqrt(9.0),3.0,4,"Tested accuracy of mySqrt on input 9.0")
+            self.assertAlmostEqual(mySqrt(36.0),6.0,5,"Tested accuracy of mySqrt on input 36.0")
+            self.assertAlmostEqual(mySqrt(100.0),10.0,4,"Tested accuracy of mySqrt on input 100.0. Try iterating more times.")
+
+    myTests().main()

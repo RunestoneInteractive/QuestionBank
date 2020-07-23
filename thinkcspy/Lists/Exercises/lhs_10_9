@@ -1,0 +1,52 @@
+.. activecode:: lhs_10_9
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``dot_product(u, v)`` that takes two lists of numbers of the same length,
+    and returns the sum of the products of the corresponding elements of each list. 
+
+    **NOTE:** The function most **NOT** modify the input parameters ``u`` and ``v``.
+
+    ``dot_product([1, 2], [5, 6])`` returns 17 (because 1*5 + 2*6 = 17)
+
+    ~~~~
+    # My Name:
+
+    def dot_product(u, v):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _dot_product(self, u, v):
+            dotProd = 0
+            for i in range(len(v)):
+                dotProd += u[i] * v[i]
+            return dotProd
+    
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            tests = [
+                    [[ 1, 2 ], [ 3, 4 ]],
+                    [[ 2, 3, 4, 5 ], [ 3, 4, 5, 6 ]],
+                    [[ -1, 2, 3, 4, 5 ], [ 3, 4, 5, 6, 10 ]]
+                    ]
+            n = 0
+            for t in tests:
+                self.assertEqual(dot_product(t[0], t[1]), self._dot_product(t[0], t[1]), "Test "+str(n))
+                n += 1
+                
+    myTests().main() 

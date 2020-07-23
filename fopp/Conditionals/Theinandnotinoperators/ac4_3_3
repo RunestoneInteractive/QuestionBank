@@ -1,0 +1,8 @@
+.. activecode:: ac4_3_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Conditionals/Theinandnotinoperators
+    :from_source: T
+
+    print('x' not in 'apple')

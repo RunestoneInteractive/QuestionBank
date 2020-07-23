@@ -1,0 +1,38 @@
+.. activecode:: c2c
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: haugrud
+    :topic: ClassesDiggingDeeper/Polymorphism
+    :from_source: None
+
+    class CAD:
+        USD = 0.75   # the value of a CAD in terms of a USD
+        def __init__(self, amt):
+            self.__amt = amt
+
+        def getAmt(self):
+            return self.__amt
+
+        def exchange(self):
+            return self.__amt * CAD.USD
+
+    class Account:
+        def __init__(self):
+            self.__balance = 0.00
+
+        def getBalance(self):
+            return self.__balance
+
+        def deposit(self, amount):
+            if isinstance(amount, CAD):
+                amt = amount.exchange()
+            else:
+                amt = amount
+            self.__balance += amt
+
+    a = Account()
+    a.deposit(CAD(100))
+    print(a.getBalance())
+    a.deposit(100)
+    print(a.getBalance())
+

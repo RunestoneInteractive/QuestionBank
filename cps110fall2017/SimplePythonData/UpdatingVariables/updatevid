@@ -1,0 +1,11 @@
+.. video:: updatevid
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: SimplePythonData/UpdatingVariables
+    :from_source: None
+    :controls:
+    :thumb: ../_static/updatethumb.png
+
+    http://media.interactivepython.org/thinkcsVideos/update.mov
+    http://media.interactivepython.org/thinkcsVideos/update.webm

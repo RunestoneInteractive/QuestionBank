@@ -1,0 +1,10 @@
+.. activecode::  ams_assign3_q9
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Write the code to calculate and print how many miles you can drive if your car holds 10 gallons and you have a quarter of a tank left and your car gets 32 miles per gallon. It should print 80.
+    ~~~~

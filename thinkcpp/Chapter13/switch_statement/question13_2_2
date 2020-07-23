@@ -1,0 +1,17 @@
+.. mchoice:: question13_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter13/switch_statement
+   :from_source: F
+   :answer_a: ints
+   :answer_b: chars
+   :answer_c: strings
+   :answer_d: enumerated types
+   :correct: c
+   :feedback_a: Incorrect! We can use ints with switch statements.
+   :feedback_b: Incorrect! We can use chars with switch statements.
+   :feedback_c: Correct! We cannot use strings with switch statements!
+   :feedback_d: Incorrect! We can use enumerated types with switch statements.
+
+   Which one of the following types do NOT work with ``switch`` statement?

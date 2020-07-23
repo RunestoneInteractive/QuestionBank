@@ -1,0 +1,14 @@
+.. mchoice:: exceptions_mc_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Exceptions/intro-exceptions
+   :from_source: T
+   :answer_a: True
+   :answer_b: False
+   :feedback_a: The rest of the code after the whole try/except statement will execute, but not the rest of the code in the try block.
+   :feedback_b: The rest of the code after the whole try/except statement will execute, but not the rest of the code in the try block.
+   :correct: b
+
+   After a run-time exception is handled by an except clause, the rest of the code in the try clause will be executed.
+

@@ -1,0 +1,50 @@
+.. activecode:: lhs_9_4
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``genTOC(line, pageNum, width)`` that returns a string that is used for the
+    Table of Contents of a book. The string will first print the ``line``, followed by a set of ``.``
+    followed by the page number. The ``width`` parameter specifies how many characters wide the entire
+    line is to be.
+
+    Ex. ``genTOC('Chapter 1', 3, 15)`` will return the string:
+
+    ::
+
+      Chapter 1.....3
+
+    ~~~~
+    # My Name:
+
+    # define genTOC() function here
+
+    # print out some test cases here
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _TOC(self, line, pageNum, width):
+            numDots = width - len(line) - len(str(pageNum))
+            line = line + '.'*numDots + str(pageNum)
+            return(line)
+                    
+        def testOne(self):
+            print('Auto-testing...')
+    
+            tests = [ ('Chapter 1', 1, 30, 'Test 1'),
+                      ('ABCD', 1234, 9, 'Test 2') ]
+                
+            for t in tests:
+                line = t[0]
+                n = t[1]
+                width = t[2]
+                comment = t[3]
+                self.assertEqual(genTOC(line, n, width), self._TOC(line, n, width), comment)
+                
+    myTests().main() 

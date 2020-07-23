@@ -1,0 +1,12 @@
+.. activecode::  ch3ex8a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPNameNumbers/ch3_exercises
+    :from_source: T
+    :nocodelens:
+
+    aNumber = 12
+    bNumber = 3
+    cNumber = aNumber * bNumber
+    print(cNumber)

@@ -1,0 +1,12 @@
+
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. actex:: suci_loop_lists_1a
+
+   Run the program, Modify it so that it prints the colors: red, yellow and blue.
+   ~~~~
+   for name in ["orange", "purple", "brown"]:
+      print(name)

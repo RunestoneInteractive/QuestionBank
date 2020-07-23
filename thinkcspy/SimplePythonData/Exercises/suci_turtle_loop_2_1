@@ -1,0 +1,15 @@
+
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. actex:: suci_turtle_loop_2_1
+
+   Prompt the user for line length, spacing and number of vertical lines and then use a loop to draw those lines
+
+
+   ~~~~
+   # put code here 
+
+    

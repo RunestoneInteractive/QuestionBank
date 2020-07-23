@@ -1,0 +1,26 @@
+.. activecode:: 1306_cw9_s20_q1a
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Files/Exercises
+    :from_source: F
+    :autograde: unittest
+
+
+    **Question 1A [25 points]** 
+     
+    The following refer to a file similar to "qbdata.txt" in section 11.3 of the Runestone book. You need to write the following functions:
+
+    **QBSearch(filehandle, searchterm)** that takes a file handle and a string searchterm as parameters and returns a list of QB firstnames in the corresponding file, where the last name or part of the lastname matches searchterm.
+
+    ::
+
+        QBSearch(filehandle, ‘Manning’) would return [‘Payton’, ‘Eli’]
+        QBSearch(filehandle, ‘McCoy) would return [‘Colt’]
+        QBSearch(filehandle, ‘Patton’) woud return []
+        QBSearch(filehandle, ‘an’) would return ['Josh', 'Peyton', 'Matt', 'Mark', 'Eli']
+
+    You can test the program by reading the file in your main program and calling these functions.
+   
+    ~~~~
+    # Write your code here

@@ -1,0 +1,83 @@
+.. activecode:: lhs_9_3
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``removeExtraSpaces(theString)`` which removes all leading and trailing spaces in a string
+    and removes all repeated spaces in between words in the string. The function returns
+    the string without the extra spaces.
+
+    You may not use the built-in string method ``.strip`` 
+
+    Ex. ``removeExtraSpaces("     Hello    Joe  ")`` would return the string ``"Hello Joe"``
+
+    **Hint**: You might use the function written earlier to remove the leading and trailing spaces
+    before removing the repeated spaces between the words.
+
+    ~~~~
+    # My Name:
+
+    def removeExtraSpaces(theString):
+        # Write your code here
+    
+    # print out any test cases you want to try on your own
+    
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _remove(self, theString):
+            oString = ''
+            skipSpace = False
+            for c in theString.strip():
+                if skipSpace:
+                    if c != ' ':
+                        oString = oString + c
+                        skipSpace = False
+                else:
+                    oString = oString + c
+                    skipSpace = c == ' '
+            return(oString)
+                    
+        # regExString - is checked inside inString
+        # howMany - how many matches are expected
+        # matchString - summary of what is being matched (readable version of regExString)
+        # errorString - error string upon assertion failure
+        def regExCheck(self, regExString, inString, howMany, matchString, errorString):
+            res = re.findall(regExString, inString, re.M)
+            checkOK = (len(res) == howMany)
+            if not checkOK:
+                print("Found [", matchString, "]", len(res), "time(s), not", howMany)
+    
+            self.assertEqual(checkOK, True, errorString)
+    
+            return(checkOK)
+
+        def testOne(self):
+            print('Auto-testing...')
+
+            # strips the test code - when testing code with the test code 
+            code = self.getEditorText()
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+            
+            regEx = "(\.join\s*\()|(\.split\s*\()|(\.strip\s*\()"
+            OK = self.regExCheck(regEx, code, 0, "strip|join|split", "cannot use strip or join or split")
+    
+            if OK:
+                tests = [ ('    test1  case'  , 'Test 1'),
+                          (' t   2 case '       , 'Test 2'),
+                          ('    test   ca  s e3   ', 'Test 3') ]
+                
+                for t in tests:
+                    s = t[0]
+                    comment = t[1]
+                    self.assertEqual(removeExtraSpaces(s), self._remove(s), comment)
+                
+    myTests().main() 

@@ -1,0 +1,27 @@
+
+   :author: Nabeel Bacchus
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+.. activecode:: 1306_cw4_f19_q3
+
+   **[30 points] Question 3**. A palindrome is a string that reads identical forwards and backwards. Examples include abba, abcba,  a1b1b1a, houstonnotsuoh  etc. 
+   
+   Your task is to write a program that reads an input string, prints that string, and then prints one of the following as appropriate: ``Is a Palindrome`` or ``Not a Palindrome``
+
+   If user response is ``input = racecar``, the above program should print: 
+
+   ::
+
+      racecar 
+      Is a Palindrome
+
+   If user response is ``input = hello``, the above program should print: 
+
+   ::
+
+      hello
+      Not a Palindrome
+   ~~~~
+   #Your code goes here

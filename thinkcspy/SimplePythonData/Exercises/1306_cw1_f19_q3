@@ -1,0 +1,16 @@
+.. activecode:: 1306_cw1_f19_q3
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [30 pts] Your goal is to calculate the ``total time`` and ``average speed`` it will take a runner to run 10 miles with the following pace segments: 
+   the first mile at a pace of 7 minutes per mile, the following 4 miles at a pace of 8.5 minutes per mile, 
+   the following 4 miles at a pace of 9 minutes per mile and the last mile at a pace of 3 minutes per mile. 
+ 
+   #. State the results as a sequence of mathematical expressions.  One expression each for computing a segment, one for the total time, and one for the average speed.  You may include additional explanations  (Please write these as comment in the active code window)
+   #. Please write a Python program that performs the computations and prints the results in a single nice message
+
+   ~~~~
+   # Write your program here

@@ -1,0 +1,15 @@
+.. activecode:: ac3_9_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: PythonTurtle/WPCommonTurtleErrors
+   :from_source: T
+
+   import turtle
+   wn = turtle.Screen()
+   june = turtle.Turtle()
+
+   for _ in range():
+       june.color("green", "yellow")
+       june.forward("50")
+       june.right(90)

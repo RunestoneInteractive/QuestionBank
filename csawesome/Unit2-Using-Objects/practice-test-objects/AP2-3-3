@@ -1,0 +1,51 @@
+.. mchoice:: AP2-3-3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/practice-test-objects
+   :from_source: T
+   :practice: T
+   :random:
+   :answer_a: liquid.freeze(80);
+   :answer_b: liquid.freeze();
+   :answer_c: liquid.increaseTemp();
+   :answer_d: liquidfreeze();
+   :answer_e: liquid.freeze;
+   :correct: b
+   :feedback_a: Method freeze() does not have parameters.
+   :feedback_b: Correct
+   :feedback_c: There is no method increaseTemp() in the Liquid class definition.
+   :feedback_d: The dot operator is required between the object name and the method name.
+   :feedback_e: Parentheses are required after a method name.
+
+    Consider the following class. Assume that the Liquid object liquid has been properly declared and initialized in a method in a class other than Liquid.  Which of the following statements are valid?
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+          private double boilingPoint;
+          private double freezingPoint;
+          private double currentTemp;
+
+          public Liquid(double b)
+          {
+            boilingPoint = b;
+          }
+
+          void lowerTemp()
+          {
+            currentTemp -= 10;
+          }
+
+          void raiseTemp()
+          {
+            currentTemp += 10;
+          }
+
+          void freeze()
+          {
+            currentTemp = freezingPoint;
+          }
+        }
+

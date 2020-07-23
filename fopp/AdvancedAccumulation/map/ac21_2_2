@@ -1,0 +1,23 @@
+.. activecode:: ac21_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/map
+   :from_source: T
+
+   def triple(value):
+       return 3*value
+
+   def tripleStuff(a_list):
+       new_seq = map(triple, a_list)
+       return list(new_seq)
+
+   def quadrupleStuff(a_list):
+       new_seq = map(lambda value: 4*value, a_list)
+       return list(new_seq)
+
+   things = [2, 5, 9]
+   things3 = tripleStuff(things)
+   print(things3)
+   things4 = quadrupleStuff(things)
+   print(things4)

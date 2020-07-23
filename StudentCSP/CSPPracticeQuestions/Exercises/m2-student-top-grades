@@ -1,0 +1,35 @@
+
+   :author: Kathryn Cunningham
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: m2-student-top-grades
+   :numbered: left
+
+   Solve my really cool parsons problem...if you can.
+   -----
+   def first_student(data):
+   =====
+	gradesDict = {}
+   =====
+	gradesDict = [] #distractor
+   =====
+	for student in data:
+   =====
+    	total = student['grades’]
+   =====
+    	average = total / 5
+   =====
+    	average = total % 5
+   =====
+        gradesDict[student['name’]] = average
+   ===== 
+	gradesList = sorted(marksDict.items(), key = lambda tup:tup[1], reverse = True)
+   =====
+	gradesList = sorted(marksDict.items(), key = lambda tup:tup[0], reverse = True)
+   =====
+	top = gradesList[0]
+   =====
+	return top[0]
+    

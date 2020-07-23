@@ -1,0 +1,25 @@
+.. activecode:: ac10_9_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Dictionaries/AccumulatingResultsFromaDictionary
+
+   Create a dictionary, ``freq``, that displays each character in string ``str1`` as the key and its frequency as the value.
+   ~~~~
+   str1 = "peter piper picked a peck of pickled peppers"
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(sorted(freq.items()), sorted([(' ', 7), ('a', 1), ('c', 3), ('d', 2), ('e', 8), ('f', 1), ('i', 3), ('k', 3), ('l', 1), ('o', 1), ('p', 9), ('r', 3), ('s', 1), ('t', 1)]), "Testing that freq is correct.")
+
+   myTests().main()
+

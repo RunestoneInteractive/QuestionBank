@@ -1,0 +1,15 @@
+.. actex:: CS152_ex_5_1_step_2
+    :author: John Cigas
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+
+    Copy your program from the previous exercise and make the following modifications:
+
+       * Change function to draw a triangle instead of a square
+       * Change the name of the drawSquare function to drawTriangle
+       * Make your program draw a row of 4 triangles each with side length 30
+
+    ~~~~
+

@@ -1,0 +1,14 @@
+.. dragndrop:: MSIT-02-11
+   :author: Kevin Austin
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :feedback: Keep trying.
+   :match_1: x = 9|||initialize
+   :match_2: x = x + 1|||increment
+   :match_3: x = x - 1|||decrement
+   :match_4: x = float(y)|||type conversion
+   :match_5: x = input("?")|||read data from console
+
+   Drag each Python statement on the left to the matching program operation on the right.

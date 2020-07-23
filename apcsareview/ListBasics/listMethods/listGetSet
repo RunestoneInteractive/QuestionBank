@@ -1,0 +1,26 @@
+.. activecode:: listGetSet
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: ListBasics/listMethods
+   :from_source: T
+   :language: java
+
+   import java.util.*;  // import all classes in this package.
+   public class Test
+   {
+      public static void main(String[] args)
+      {
+         List<String> nameList = new ArrayList<String>();
+         nameList.add("Diego");
+         nameList.add("Grace");
+         nameList.add("Deja");
+         System.out.println(nameList);
+         System.out.println(nameList.get(0));
+         System.out.println(nameList.get(1));
+         System.out.println(nameList.get(2));
+         nameList.set(1, "John");
+         System.out.println(nameList);
+
+      }
+   }

@@ -1,0 +1,12 @@
+.. actex:: ex_6_4
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Selection/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Modify the turtle bar chart program from the previous chapter so that the bar for any value
+   of 200 or more is filled with red, values between [100 and 200) are filled yellow,
+   and bars representing values less than 100 are filled green.
+   ~~~~

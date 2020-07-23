@@ -1,0 +1,13 @@
+.. mchoice:: csw_abet_q5
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: Students will attain an ability to apply knowledge of computing and mathematics appropriate to the discipline
+   :answer_b: Students will attain an understanding of professional, ethical, legal, security and social issues and responsibilities
+   :answer_c: Students will attain an ability to use current techniques, skills, and tools necessary for computing practice
+   :answer_d: All of the above
+   :correct: d
+
+   5. Which of the following are learning outcomes assessed for CSC 130?

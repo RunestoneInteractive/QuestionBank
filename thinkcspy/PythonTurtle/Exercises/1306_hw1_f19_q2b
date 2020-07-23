@@ -1,0 +1,25 @@
+.. activecode:: 1306_hw1_f19_q2b
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   [20 pts] Convert the program above to one that takes an integer ``N`` and a symbol ``S`` as input and prints a triangle as illustrated below for ``N = 4``, ``S = 'A'``. 
+   
+   ::
+   
+     A
+     AAA
+     AAAAA
+     AAAAAAA     
+
+   
+   `Hints:`
+ 
+   `1. Must use 'for loops' to solve the question`
+
+   `2. The expression 6 * "B" will create a string "BBBBBB"`
+
+   ~~~~
+   # Write your program here

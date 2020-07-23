@@ -1,0 +1,56 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: lhs_10_13
+    :language: python
+    :autograde: unittest
+
+    Write a function ``rotate(lst, num)`` that takes a list referred to by ``lst``, 
+    removes the first element and appends it to the end of the list. This process is
+    repeated ``num`` times. The function should accomplish this solely by rearranging
+    elements of the list: **do not** allocate any additional lists.
+
+    ~~~~
+    
+    # My Name:
+
+    def rotate( lst, num ):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _rotate( self, lst, num ):
+            if len(lst) > 0:
+                for i in range(num):
+                    lst.append(lst.pop(0))
+
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            lst = [
+                ([], 3),
+                (['one'], 2),
+                ([3, 2, 1], 0),
+                (['a', 'b', 'c', 'd', 'e'], 2),
+                ([1, 2, 3, 4, 'end'], 5)]
+        
+            for (aList, rotNum) in lst:
+                expected = aList[:]
+                self._rotate(expected, rotNum)
+                actual = aList[:]
+                rotate(actual, rotNum)
+                self.assertEqual(actual, expected, "Test rotate(" + str(aList) + ", " + str(rotNum) + ")")
+
+    myTests().main()

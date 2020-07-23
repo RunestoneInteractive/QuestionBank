@@ -1,0 +1,14 @@
+.. activecode:: chp09_5
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/ConcatenationandRepetition
+    :from_source: None
+
+    fruit = ["apple", "orange", "banana", "cherry"]
+    print([1, 2] + [3, 4])
+    print(fruit + [6, 7, 8, 9])
+
+    print([0] * 4)
+    print([1, 2, ["hello", "goodbye"]] * 2)
+

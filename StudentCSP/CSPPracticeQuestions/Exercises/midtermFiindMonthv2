@@ -1,0 +1,42 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermFiindMonthv2
+   :adaptive:
+   :numbered: left
+
+   Put the mixed up code below in order to loop through a list of dictionaries of student data and create a dictionary of the birth month and the count of the number of students with that birth month.  The birthdate is in the format Month/Day/Year.  Return the month with the most student births.
+   -----
+   def findMonth(a):
+   =====
+       monthDict = {}
+   =====
+       for studentDict in a:
+   =====
+           date = studentDict['DOB']
+   =====
+           valList = date.split("/")
+   =====
+           theMonth = valList[0]
+   =====
+           theMonth = valList[1] #distractor
+   =====
+           monthDict[theMonth] = monthDict.get(theMonth,0) + 1
+   =====
+       monthList = sorted(monthDict.items(), key = lambda tup: tup[1], reverse = True)
+   =====
+       monthList = sorted(monthDict.items(), key = lambda tup: tup[1]) #distractor
+   =====
+       first = monthList[0]
+   =====
+       return int(first[0])
+   =====
+       return int(first[1]) #distractor
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

@@ -1,0 +1,31 @@
+.. actex:: CS152_upper_first_word
+    :author: John Cigas
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :practice: T
+    :autograde: unittest
+    :nocodelens:
+
+    Write a fruitful function called ``upper_first_word(aString)`` that takes a string as an argument
+    and returns that same string with the first word in upper case.
+    ~~~~
+
+    def upper_first_word(aString):
+        # your code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+         def testOne(self):
+
+             self.assertEqual(upper_first_word("yes or no"),"YES or no","yes or no")
+             self.assertEqual(upper_first_word("i am a student"),"I am a student","i am a student")
+             self.assertEqual(upper_first_word("Good Job"),"GOOD Job","Good Job")
+             self.assertEqual(upper_first_word("yes"),"YES","yes")
+             self.assertEqual(upper_first_word("NO"),"NO","NO")
+
+    myTests().main()

@@ -1,0 +1,17 @@
+.. mchoice:: cs130t2_22
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: HOW NOW BROWN COW?
+   :answer_b: hOW NOW BROWN COW?
+   :answer_c: How Now Brown Cow?
+   :answer_d: Can't be determined without running the code
+   :correct: a
+   :random:
+
+   22. What does the following code print? ::
+
+      s = "How now brown cow?"
+      print(s.upper())

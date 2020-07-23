@@ -1,0 +1,13 @@
+
+   :author: Kelly Shurtz
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+.. actex:: ex_9jks_index
+
+   Mr. Shurtz chapter 9 assignment: index, name[index]
+
+   .. sourcecode:: python
+
+   ~~~~

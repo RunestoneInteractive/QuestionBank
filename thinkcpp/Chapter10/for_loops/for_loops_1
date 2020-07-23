@@ -1,0 +1,12 @@
+.. fillintheblank:: for_loops_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter10/for_loops
+    :from_source: T
+
+    How many times would the following loop execute?  ``for (int i = 1; i < 4; i++)``
+
+    - :3: Correct!
+      :4: Incorrect! The loop does not execute when i = 4.
+      :.*: Incorrect!

@@ -1,0 +1,31 @@
+.. activecode:: router1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: Frameworks/decorators
+   :from_source: T
+
+   class funcmapper:
+
+       def __init__(self):
+           self.funcdict = {}
+
+       def route(self,pattern):
+           def wrap(func):
+               self.funcdict[pattern] = func
+               return func
+           return wrap
+
+       def call_by_route(self,name, *args, **kwargs):
+           if name in self.funcdict:
+               self.funcdict[name](*args,**kwargs)
+
+   app = funcmapper()
+
+   @app.route('/')
+   def hello():
+       print("hello world")
+
+   app.call_by_route('/')
+   print(hello)
+

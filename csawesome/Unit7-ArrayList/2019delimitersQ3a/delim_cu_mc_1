@@ -1,0 +1,18 @@
+.. mchoice:: delim_cu_mc_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit7-ArrayList/2019delimitersQ3a
+   :from_source: T
+   :answer_a: array
+   :answer_b: List
+   :answer_c: String
+   :answer_d: ArrayList
+   :correct: a
+   :feedback_a: tokens is an array of Strings
+   :feedback_b: Check again
+   :feedback_c: Check again
+   :feedback_d: Check again
+   :optional:
+
+   What type is tokens?

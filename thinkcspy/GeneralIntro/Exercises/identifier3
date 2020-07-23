@@ -1,0 +1,13 @@
+
+    :author: Dane Brown
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. poll:: identifier3
+    :scale: Mode 1--Implements the "On a scale of 1 to x" type method of poll--x is provided by author
+    :allowcomment: Boolean--provides comment box
+    :option_1: Mode 2--Implements the "Choose one of these options" type method of poll.
+    :option_2: Option 2
+    :option_3: Option 3    ...etc...(Up to 10 options in mode 2)
+    

@@ -1,0 +1,16 @@
+
+   :author: arika prime
+   :difficulty: 1.0
+   :basecourse: pythonds
+   :topic: Introduction/Exercises
+   :from_source: F
+.. shortanswer:: d_1-3
+   :optional:
+
+   Construct a class hierarchy for different types of computers.
+
+
+config values (conf.py): 
+
+- shortanswer_div_class - custom CSS class of the component's outermost div
+    

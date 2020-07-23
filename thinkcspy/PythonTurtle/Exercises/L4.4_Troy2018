@@ -1,0 +1,19 @@
+
+    :author: Shawn Haarer
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: L4.4_Troy2018
+
+    # FOR LOOP LESSON 
+
+    import turtle
+    window = turtle.Screen()          # create a window for turtles
+    window.bgcolor("pink")             # background color
+
+    tess = turtle.Turtle()                  # create a turtle
+    tess.shape("turtle")
+    tess.color("green")
+    tess.pensize(5)
+    

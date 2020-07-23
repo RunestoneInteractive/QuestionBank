@@ -1,0 +1,13 @@
+.. parsonsprob:: question2_10_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/UpdatingVariables
+   :from_source: T
+
+   Construct the code that will result in the value 134 being printed.
+   -----
+   mybankbalance = 100
+   mybankbalance = mybankbalance + 34
+   print(mybankbalance)
+

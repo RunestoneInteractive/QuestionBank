@@ -1,0 +1,30 @@
+.. mchoice:: output_vars_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/Outputtingvariables
+   :from_source: T
+   :answer_a: x
+   :answer_b: y
+   :answer_c: 3
+   :answer_d: e
+   :answer_e: Nothing! There will be a compile error!
+   :correct: e
+   :feedback_a: Take a look at the code again.
+   :feedback_b: Take a look at the code again.
+   :feedback_c: Take a look at the code again.
+   :feedback_d: Take a look at the code again.
+   :feedback_e: There is a type mismatch, so there will be a compile error!
+
+   And now, what prints?
+
+   ::
+
+       int main () {
+         int x;
+         char y;
+         x = '3';
+         y = 'e';
+         cout << 'y';
+       }
+

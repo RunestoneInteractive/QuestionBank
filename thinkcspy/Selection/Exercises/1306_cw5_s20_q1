@@ -1,0 +1,70 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: 1306_cw5_s20_q1
+    :autograde: unittest
+
+    **Question 3 [40 points]** 
+
+    Write a function ``NominalGrade(Ascore, Escore)``  that takes a student's weighted assignment  score ``Ascore``, and exams score, ``Escore``, as parameters, and returns the final grade based on equal weight to both. The scores are float values out of 100.  The score to letters grade policy is similar to that being followed in this class, as illustrated below:
+    
+    ::
+
+        Score Range       Grade
+        86 or higher	    A
+        74 to below 86	    B
+        62 to below 74	    C
+        50 to below 62	    D
+        0 to below 50	    F
+
+
+    Now write a function ``TrueGrade(Ascore, Escore)`` that also takes into account the following additional rule posted on the class page:
+    
+    *The Final grade you receive will not be more than 1 full grade higher than your EXAMS grade*
+
+    Your final function is ``DidIPass(Ascore,Escore)`` that returns a Boolean value, which is True if the grade is D or higher, and False otherwise. This should be based on the ``TrueGrade(Ascore, Escore)`` function.
+
+    **Example 1**: ``NominalGrade(96, 54)`` should return ‘B’. 
+
+    **Example 2**: ``TrueGrade(96, 84)`` should return ‘A’. 
+
+    **Example 3**: ``TrueGrade (96, 54)`` should return ‘C’. 
+    
+    **Example 4**: ``DidIPass(96, 84)`` should return True.
+
+    **Example 5**: ``DidIPass(54, 26)`` should return False.
+    
+
+
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(NominalGrade(96,54),"B","NominalGrade(96,54) should return 'B'")
+            self.assertEqual(NominalGrade(100,90),"A","NominalGrade(100,90) should return 'A'")
+            self.assertEqual(TrueGrade(86,94),"A","TrueGrade(86,94) should return 'A'")
+            self.assertEqual(TrueGrade(96, 54),"C","TrueGrade (96, 54) should return 'C'")
+            self.assertEqual(DidIPass(96,84),True,"DidIPass(96,84) should return True")
+            self.assertEqual(DidIPass(54, 26),False,"DidIPass(54, 26) should return False")
+
+            self.assertEqual(NominalGrade(100,72),"A","NominalGrade(100,72) should return 'A'")
+            self.assertEqual(TrueGrade(100,72),"B","TrueGrade (100,72) should return 'B'")
+            self.assertEqual(DidIPass(50,72),True,"DidIPass(50,72) should return True")
+            self.assertEqual(DidIPass(29, 52),False,"DidIPass(29, 52) should return False")
+
+
+    myTests().main()

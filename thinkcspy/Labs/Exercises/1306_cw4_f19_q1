@@ -1,0 +1,31 @@
+
+   :author: Nabeel Bacchus
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+.. activecode:: 1306_cw4_f19_q1
+
+   **[40 points] Question 1**. This problem is split into two parts
+   
+   **PART A:** Write a Python function ``CommonLetters(mystring)`` to take a string ``mystring`` and that prints all letters in the string  "Texas" that also appear in the parameter ``mystring``.
+
+   If user response is ``mystring = arkansas``, the above program should print: 
+
+   ::
+
+      a s
+
+   If user response is ``mystring = Taxes``, the above program should print: 
+
+   ::
+
+      T e x a s
+   
+   If user response is ``mystring = FLORIDA``, the above program should not print anything. 
+
+
+   **PART B:** Using the function from Part A, write a program that repeatedly prompts the user to input a string and then prints common letters between the string and "Texas" as described in Part A.
+   The program terminates when the user types an empty string.
+   ~~~~
+   #Your code goes here

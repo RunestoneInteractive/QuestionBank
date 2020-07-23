@@ -1,0 +1,30 @@
+.. mchoice:: 10.2.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 10_lights/02_lights_diffuse
+  :from_source: T
+  :random:
+
+  In the equation to calculate the fragment's color,
+  :code:`gl_FragColor = vec4(vec3(v_Color) * cos_angle, v_Color.a);`
+  why are the casting of vectors required? (Select all that apply.)
+
+  - The value assigned to :code:`gl_FragColor` is required to be a 4 component vectors that
+    contains :code:`(red, green, blue, alpha)` values.
+
+    + Correct.
+
+  - The diffuse light calculations affect the color of the fragment, but not it's transparency.
+
+    + Correct.
+
+  - Casting is always required when assigning a value to a variable.
+
+    - Incorrect. NO!!!
+
+  - Scaling a vector always requires a cast.
+
+    - Incorrect. Any vector can be scaled without a cast, with the result
+      being a new vector of the same size as the original.
+

@@ -1,0 +1,16 @@
+
+   :author: Michael Kadri
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. shortanswer:: R1_1_4_2
+   :optional:
+
+   How does "programming" relates to "Algorithm"?
+
+
+config values (conf.py): 
+
+- shortanswer_div_class - custom CSS class of the component's outermost div
+    

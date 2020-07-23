@@ -1,0 +1,43 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: 1306_cw7_s20_q1a
+    :autograde: unittest
+
+    **Important Note**: For Questions 1, 2 & 3 you can use ``string constants``, ``in`` and ``not in`` operators, and ``len()`` function. Other functions/methods from the python string library are not needed and should not be used.
+
+    **Question 1 [20 points]** This problem is split into two parts
+
+    **PART A:** Write a Python function ``CommonLetters(refstring,mystring)``  that returns  a string containing letters in ``mystring`` that also occur in ``refstring``. e.g. if the value of ``refstring`` is 'aeiou'   and the value of ``mystring`` is 'organization' then the function should return the string '**oaiaio**' as illustrated with boldfaced letters as matches:  '**o** r g **a** n **i** z **a** t **i** **o** n'
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(CommonLetters('aeiou','organization'),'oaiaio',"CommonLetters('aeiou','organization') should return 'oaiaio'")
+            self.assertEqual(CommonLetters('aeiou','Oklahoma'),'aoa',"CommonLetters('aeiou','Oklahoma') should return 'aoa'")
+            self.assertEqual(CommonLetters('establish','antidisestablishmentarianism'),'atiisestablishetaiais',"CommonLetters('establish','antidisestablishmentarianism') should return 'atiisestablishetaiais'")	
+            #self.assertEqual(WhenExpired(4.0),17,"WhenExpired(4.0) should return 17")
+            #self.assertEqual(WhenExpired(0),0,"WhenExpired(0) should return 0")
+            #self.assertEqual(WhenExpired(-1.0),0,"WhenExpired(-1.0) should return 0")
+            #self.assertEqual(WhenExpired(100),0,"WhenExpired(100) should return 0")
+            #self.assertEqual(WhenExpired(120),0,"WhenExpired(120) should return 0")
+
+
+
+
+    myTests().main()

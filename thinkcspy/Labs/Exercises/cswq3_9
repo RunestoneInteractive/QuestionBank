@@ -1,0 +1,14 @@
+.. mchoice:: cswq3_9
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+   :answer_a: 100101001
+   :answer_b: 101001001
+   :answer_c: 101101011
+   :answer_d: 110100001
+   :correct: a
+   :random:
+
+   Convert the following decimal number to binary: 297

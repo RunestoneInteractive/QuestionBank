@@ -1,0 +1,38 @@
+.. parsonsprob:: vector_functions_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/vector_functions
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Construct the ``make_even`` function that loops through vec, adds 1 to any elements
+   that are odd, and returns the new vector.
+   -----
+   vector&#60;int&#62; make_even(vector&#60;int&#62; vec) {
+   =====
+   void make_even(vector&#60;int&#62; vec) {                         #paired
+   =====
+      for (size_t i = 0; i &#60; vec.size(); i++) {
+   =====
+      for (int i = 0; i &#60; vec.size(); i++) {                         #paired
+   =====
+         if (vec[i] % 2 == 1) {
+   =====
+         if (i % 2 == 1) {                         #paired
+   =====
+            vec[i] += 1;
+         }
+   =====
+            i += 1;                         #paired
+         }
+   =====
+         else {                         #distractor
+            vec[i] -= 1;
+         }
+   =====
+      return vec;
+   =====
+      }
+   }

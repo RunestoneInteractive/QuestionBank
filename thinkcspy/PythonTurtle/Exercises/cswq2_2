@@ -1,0 +1,21 @@
+.. mchoice:: cswq2_2
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :answer_a: 0 1 2 3 4 5 6
+   :answer_b: 1 2 3 4 5 6 7
+   :answer_c: 0 1 2 3 4 5 6 7
+   :answer_d: 7
+   :correct: a
+   :random:
+   :feedback_a: Yes, range(7) starts at 0 and ends at 6
+   :feedback_b: No, range(7) starts at 0 and ends at 6
+   :feedback_c: No, range(7) stops at 6
+   :feedback_d: No, range(7) starts at 0 and ends at 6
+
+   2. What does the following code print?::
+
+      for i in range(7):
+          print(i, end = ' ')

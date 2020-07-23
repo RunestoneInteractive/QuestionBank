@@ -1,0 +1,29 @@
+.. mchoice:: question11_7_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/Variablesandparametersarelocal
+   :from_source: T
+   :answer_a: 33
+   :answer_b: 12
+   :answer_c: There is an error in the code.
+   :correct: c
+   :feedback_a: Incorrect, look again at what is happening in producing.
+   :feedback_b: Incorrect, look again at what is happening in producing.
+   :feedback_c: Yes! There is an error because we reference y in the producing function, but it was defined in adding. Because y is a local variable, we can't use it in both functions without initializing it in both. If we initialized y as 3 in both though, the answer would be 33.
+   :practice: T
+
+   What is the result of the following code?
+
+   .. sourcecode:: python
+
+     def adding(x):
+         y = 3
+         z = y + x + x
+         return z
+
+     def producing(x):
+         z = x * y
+         return z
+
+     print(producing(adding(4)))

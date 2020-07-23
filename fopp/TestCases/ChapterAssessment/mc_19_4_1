@@ -1,0 +1,16 @@
+.. mchoice:: mc_19_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TestCases/ChapterAssessment
+   :from_source: T
+   :multiple_answers:
+   :answer_a: an empty list
+   :answer_b: a list with one item
+   :answer_c: a list with more than one item
+   :feedback_a: Correct, 0 is not returned if the function is given an empty list.
+   :feedback_b: Incorrect, a list with one item returns the correct value.
+   :feedback_c: Correct, a list with more than one item does not provide the correct response.
+   :correct: a, c
+
+   Which of the following cases fail for the mySum function?

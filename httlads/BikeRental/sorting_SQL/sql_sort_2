@@ -1,0 +1,17 @@
+.. fillintheblank:: sql_sort_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/sorting_SQL
+   :from_source: F
+
+   What is the duration |blank| and starting station |blank| of the longest ride starting and ending at the same station?
+
+   - :86337: Is the correct answer
+     :60: Is the shortest
+     :x: You can compare two columns in the where clause just using their names
+
+   - :31221: Is the correct answer
+     :31201: Is for the shortest ride
+     :x: Incorrect
+

@@ -1,0 +1,11 @@
+.. video:: codelensvid
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: GeneralIntro/SpecialWaystoExecutePythoninthisBook
+    :from_source: None
+    :controls:
+    :thumb: ../_static/activecodethumb.png
+
+    http://media.interactivepython.org/thinkcsVideos/activecodelens.mov
+    http://media.interactivepython.org/thinkcsVideos/activecodelens.webm

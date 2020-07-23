@@ -1,0 +1,20 @@
+.. activecode:: double_to_int_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/ConvertingFromDoubleToInt
+   :from_source: T
+   :language: cpp
+   :caption: Double to Int
+
+   Convert the price to an int. Then use a print statement to observe the output!
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   int main () {
+       double price = 6.98;
+       int sale_price;
+       cout << sale_price;
+       return 0;
+   }

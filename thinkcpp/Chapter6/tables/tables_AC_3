@@ -1,0 +1,24 @@
+.. activecode:: tables_AC_3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter6/tables
+  :from_source: T
+  :language: cpp
+  :caption: Tables
+
+  Modify the active code below so that it outputs the power of two
+  up to 65536, which is :math:`2^{16}`. If you get stuck, you can
+  reveal the extra problem at the end for help.
+  ~~~~
+  #include <iostream>
+  #include <cmath>
+  using namespace std;
+
+  int main() {
+      double x = 1.0;
+      while (x < 100.0) {
+          cout << x << "\t" << log(x) / log(2.0) << endl;
+          x = x * 2.0;
+      }
+  }

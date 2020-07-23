@@ -1,0 +1,39 @@
+.. mchoice:: vars_types_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter2/exercises
+    :from_source: T
+
+    What is printed when the following code is run?
+
+    ::
+
+        int main() {
+          int x;
+          int y = 2;
+          int z = 4;
+          x = z;
+          z = 6;
+          y = x + z;
+          cout << y + z;
+        }
+
+    -   ``6``
+
+        -   The variables ``y`` and ``z`` have been re-assigned.
+
+    -   ``10``
+
+        -   This would be correct if we had written ``cout << x + z``.
+
+    -   ``16``
+
+        +   Walking through each line of code and keeping track of variables,
+            like you just did, is called **tracing**.
+
+    -   ``yz``
+
+        -   If y and z were characters ``'y'`` and ``'z'``, it would be legal to add
+            them together.  But the result ``243`` might surprise you!
+

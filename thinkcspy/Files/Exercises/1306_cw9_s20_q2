@@ -1,0 +1,36 @@
+.. activecode:: 1306_cw9_s20_q2
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Files/Exercises
+    :from_source: F
+    :autograde: unittest
+
+
+    **Question 2 [50 points]** 
+     
+    Write a program that reads a file named 'studentdata.txt' that contains the names of students in a section of COSC 1306 along with their exam scores separated by spaces. The first four entries in the file contain scores out of 100 points each as follows:``[classwork homework midterm final-exam]``. Any additional entries can be ignored.  Your program should print each student's cumulative score. The classwork is 10%, homework is 40%, midterm is 20%, and the final exam is 30% of the cumulative score
+
+    Example of data in the file 'studentdata.txt':
+
+    ::
+
+        joe 10 15 20 30 40
+        bill 23 16 19 22
+        sue 8 22 17 14 32 17 24 21 2 9 11 17
+        grace 12 28 21 45 26 10
+        john 14 32 25 16 89
+
+    Your program output should look like the example below for the given file (studentdata.txt):
+
+    ::
+
+        joe has a cumulative score of 20.00
+        bill has a cumulative score of 19.10
+        sue has a cumulative score of 17.20
+        grace has a cumulative score of 30.10
+        john has a cumulative score of 24.00
+
+ 
+    ~~~~
+    # Write your code here

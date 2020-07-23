@@ -1,0 +1,17 @@
+.. dragndrop:: act_0_image_match
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Projects/scaffolded_code
+   :from_source: T
+   :feedback: Keep trying
+   :match_1: process1(img)|||Adds vignette effect - dark corners
+   :match_2: process2(img)|||Adds clarendon type effect - darks darker and lights lighter
+   :match_3: process3(img)|||greyscale
+   :match_4: process4(img)|||Rotates by 90 degrees
+   :match_5: process5(img,number)|||Rotates by multiples of 90 degrees
+   :match_6: process6(img, num1, num2)|||Enlarges in the x and y direction
+   :match_7: process7(img)|||Converts image to high contrast - black and white only
+   :match_8: process8(img)|||Lightens image
+   :match_9: process9(img)|||Darkens image
+   :match_10: process10(img)|||Converts to only black, white, red, blue and green

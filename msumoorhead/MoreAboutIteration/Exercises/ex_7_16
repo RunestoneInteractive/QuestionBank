@@ -1,0 +1,30 @@
+.. activecode:: ex_7_16
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+
+   def ceilog2(n):
+       # type your code here
+
+
+   ====
+   from unittest.gui import TestCaseGui
+   import random
+   import math
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           p = random.randrange(1,8)
+           self.assertEqual(ceilog2(2**p),p+1,"Tested on "+str(2**p))
+           p = random.randrange(8,21)
+           self.assertEqual(ceilog2(2**p),p+1,"Tested on "+str(2**p))
+           p = random.randrange(2,21)
+           self.assertEqual(ceilog2(2**p-1),p,"Tested on "+str(2**p-1))
+           q = p
+           while q == p:
+               q = random.randrange(2,21)
+           self.assertEqual(ceilog2(2**q-1),q,"Tested on "+str(2**q-1))
+
+   myTests().main()

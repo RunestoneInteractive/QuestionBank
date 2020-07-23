@@ -1,0 +1,28 @@
+.. activecode:: recursion_ex_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter5/onemoreexample
+   :from_source: T
+   :language: cpp
+   :caption: Factorial Recursion
+
+   This program uses recursion to calculate the factorial of
+   the passed argument.  It is the condensed version of the
+   example on the previous page.
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   int factorial (int n) {
+       if (n == 0) {
+           return 1;
+       }
+       else {
+           return n * factorial (n-1);
+       }
+   }
+
+   int main () {
+       cout << factorial(3) << endl;
+   }

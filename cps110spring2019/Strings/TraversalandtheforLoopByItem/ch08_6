@@ -1,0 +1,10 @@
+.. activecode:: ch08_6
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Strings/TraversalandtheforLoopByItem
+    :from_source: None
+    :nocanvas:
+
+    for achar in "Go Spot Go":
+        print(achar)

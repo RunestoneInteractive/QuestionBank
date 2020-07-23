@@ -1,0 +1,16 @@
+.. mchoice:: html_quiz_q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: HTML/htmlquiz
+   :from_source: T
+   :correct: b
+   :answer_a: Hyperlinks and Text Markup Language
+   :answer_b:    Hyper Text Markup Language
+   :answer_c:    Home Tool Markup Language
+   :feedback_a: None
+   :feedback_b: None
+   :feedback_c: None
+   :feedback_d: None
+
+   What does HTML stand for?

@@ -1,0 +1,15 @@
+.. activecode:: 1306_prac1_rev2
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+
+   Write a function,``listSumBelow``, that takes a list of integers argument
+   and an integer argument.  The function should sum up the numbers in the list in order from the last item to the first item until the sum is greater than the integer argument.  It should then return a list of those numbers used to create the sum.  The original list should not be modified.
+   ~~~~
+
+   def listSumBelow(alist,n):
+       # your code here
+
+   ====

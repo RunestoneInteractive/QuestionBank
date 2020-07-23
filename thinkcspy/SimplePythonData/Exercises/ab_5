@@ -1,0 +1,15 @@
+
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: ab_5
+
+    Write a program that asks the user for number of days. Calculate, then print out, the user's input as 
+    number of years, months and days.  Assume each month is 30 days and each year is 365 days.
+
+    Ex. If user enters "431", your program should print out "1 year, 2 months, and 6 days."
+
+    ~~~~
+    

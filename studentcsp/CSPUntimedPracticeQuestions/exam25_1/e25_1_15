@@ -1,0 +1,30 @@
+.. mchoice:: e25_1_15
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: 'What a fast turtle!'
+  :answer_b: A square
+  :answer_c: A turtle
+  :answer_d: A triangle
+  :correct: b
+  :feedback_a: Incorrect. The return value of a function will not be printed unless in a print statement.
+  :feedback_b: Correct. This function creates a square. Turtles start facing East.
+  :feedback_c: Incorrect. This function does not create a turtle shape.
+  :feedback_d: Incorrect. Write out the function. The turtle starts facing East, moves forward 100, turns right and does it again three more times.
+
+  What shape will the turtle function return?
+
+  ::
+
+    def square(turtle):
+      turtle.forward(100)
+      turtle.right(90)
+      turtle.forward(100)
+      turtle.right(90)
+      turtle.forward(100)
+      turtle.right(90)
+      turtle.forward(100)
+      turtle.right(90)
+      return “What a fast turtle!”

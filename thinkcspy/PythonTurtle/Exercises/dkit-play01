@@ -1,0 +1,14 @@
+
+   :author: Jean Griffin
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. mchoice:: dkit-play01
+   :correct: a
+   :answer_a: beach
+   :answer_b: forest
+   :feedback_a: Yeah!
+   :feedback_b: Try again
+
+   Where is the ocean?

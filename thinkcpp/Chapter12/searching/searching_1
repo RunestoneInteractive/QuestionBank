@@ -1,0 +1,15 @@
+.. fillintheblank:: searching_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter12/searching
+   :from_source: T
+
+   Say we have standard deck of cards. According to our ``find()`` function, the
+   for loop will execute a minimum of |blank| times, and a maximum of |blank|
+   times while searching for a particular card.
+
+   - :1: Correct!
+     :x: Incorrect! What if the card we were searching for was the first one in the deck?
+   - :52: Correct!
+     :.*: Incorrect! What if the card we were searching for wasn't in the deck? In this case, we'd have looped through all of the cards!

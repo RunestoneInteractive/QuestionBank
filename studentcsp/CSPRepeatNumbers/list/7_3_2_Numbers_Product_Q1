@@ -1,0 +1,19 @@
+.. mchoice:: 7_3_2_Numbers_Product_Q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPRepeatNumbers/list
+   :from_source: T
+   :answer_a: 1
+   :answer_b: 2
+   :answer_c: 3
+   :answer_d: 4
+   :answer_e: 10
+   :correct: c
+   :feedback_a: That's the value the first time through the loop
+   :feedback_b: That's the value the second time through the loop
+   :feedback_c: That's the value the third time through the loop
+   :feedback_d: That's the value the fourth time through the loop
+   :feedback_e: That's the value the last time through the loop
+
+   What is the value of number the 3rd time through the loop?

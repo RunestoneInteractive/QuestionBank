@@ -1,0 +1,15 @@
+
+   :author: Richard Bernatz
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. codelens::  firstexample
+   :showoutput:
+ 
+
+    print("My first example using codelens")
+    x = 0
+    for i in range(10):
+       x = x + i
+    

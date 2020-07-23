@@ -1,0 +1,11 @@
+.. actex:: ex_3_6
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: PythonTurtle/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a program that asks the user for the number of sides, the length of the side, the color, and the fill color of a
+   regular polygon.  The program should draw the polygon and then fill it in.
+   ~~~~

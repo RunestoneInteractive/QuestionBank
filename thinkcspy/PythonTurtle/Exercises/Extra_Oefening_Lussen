@@ -1,0 +1,13 @@
+.. activecode:: Extra_Oefening_Lussen
+    :author: Jan Persan
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+
+    Maak een regelmatige veelhoek mbv turtles. Vraag aan de gebruiker hoeveel zijden en hoeken de veelhoek moet hebben.
+    ~~~~
+    import turtle
+    wn=turtle.Screen()
+    #Hier komt jouw code...

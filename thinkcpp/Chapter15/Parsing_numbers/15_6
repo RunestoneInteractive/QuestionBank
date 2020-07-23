@@ -1,0 +1,28 @@
+.. activecode:: 15_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter15/Parsing_numbers
+   :from_source: T
+   :language: cpp
+
+   #include <iostream>
+   #include <string>
+   #include <vector>
+   using namespace std;
+
+   int convertToInt (const string& s) {
+      string digitString = "";
+
+      for (size_t i = 0; i < s.length(); i++) {
+         if (isdigit (s[i])) {
+            digitString += s[i];
+         }
+      }
+      return atoi (digitString.c_str());
+   }
+
+   int main() {
+      int num = convertToInt("867-5309");
+      cout << num << endl;
+   }

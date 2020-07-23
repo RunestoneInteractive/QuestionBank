@@ -1,0 +1,23 @@
+.. activecode:: CS151-Assignment-03
+    :author: John Cigas
+    :difficulty: 0.0
+    :basecourse: csawesome
+    :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+    :from_source: F
+    :language: java
+    :datafile: turtleClasses
+
+    This program can't be written in the window below!!!!!
+
+    Instead, you have to write your program in the window for 2.1.3 - Programming Challenge: Turtle Drawing
+
+    Your assignment is to draw an interesting shape, something besides a square or triangle. 
+    The shape doesn't have to be complicated, but the point is to be intentional about your design.
+
+    See https://canvas.park.edu/courses/49710/assignments/1485674 for a complete description of the assignment.
+
+    ~~~~
+    Don't use this window - Use the active code window for 
+    
+    2.1.3 - Programming Challenge: Turtle Drawing
+

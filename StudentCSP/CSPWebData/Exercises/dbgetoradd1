@@ -1,0 +1,35 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPWebData/Exercises
+   :from_source: F
+.. parsonsprob:: dbgetoradd1
+   :adaptive:
+   :numbered: left
+
+   Put the blocks in order to get the id from the database for acct if it exists and if not add it to the People table and get the id from adding it. 
+   -----
+   # See if the screen name (acct) is in the database
+    cur.execute('SELECT id FROM People WHERE name = ? LIMIT 1',
+               (acct, ))
+   =====
+    try:
+   =====
+        # it is so get the key (id)
+        id = cur.fetchone()[0]
+   =====
+    except:
+   =====
+        # not there so add it
+        cur.execute('''INSERT OR IGNORE INTO People
+                    (name, retrieved) VALUES (?, 0)''', (acct, ))
+   =====
+        conn.commit()
+   =====
+        if cur.rowcount != 1:
+   =====
+            print('Error inserting account:', acct)
+            continue
+   =====
+        id = cur.lastrowid

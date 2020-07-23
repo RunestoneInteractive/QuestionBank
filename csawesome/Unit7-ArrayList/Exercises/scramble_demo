@@ -1,0 +1,40 @@
+.. parsonsprob:: scramble_demo
+   :author: Leonardo Alvarez
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit7-ArrayList/Exercises
+   :from_source: F
+   :adaptive:
+   :numbered: left
+
+   Solve my really cool parsons problem...if you can.
+
+   ----
+
+   public static void scrambleOrRemove(List<String> wordList) {
+   =====           
+       int index = 0;
+   =====
+           while (index < vwordList.size()){
+   ===== 
+             String word = wordList.get(index);
+             String scrambled = scrambleWord(word);
+   =====
+          if(word.equals(scrambled)) {
+   =====
+              wordList.remove(index);
+       }
+   =====
+           else {
+   =====
+           wordList.set(index, scrambled);
+   =====
+               index++;
+   =====
+           } //end if statement
+   =====    
+       } // end while loop
+   =====
+   } //end method
+ 
+

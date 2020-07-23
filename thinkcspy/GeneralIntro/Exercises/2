@@ -1,0 +1,18 @@
+.. mchoice:: 2
+   :author: Mart Geluk
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :practice: T
+   :answer_a: Only once
+   :answer_b: Never
+   :answer_c: Unlimited
+   :answer_d: Don't know
+   :correct: c
+   :feedback_a: A function can be called as many times you want
+   :feedback_b: A function can be called as many times you want
+   :feedback_c: Great
+   :feedback_d: A function can be called as many times you want
+
+   How many times can a function be called?

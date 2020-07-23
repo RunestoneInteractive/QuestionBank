@@ -1,0 +1,16 @@
+
+    :author: Kristine Pelatt
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: F
+.. activecode:: pelatt_ac101_midterm1_1
+    :language: python
+    :include: pelatt_ac101_midterm1_0
+  
+
+    Do problem one here. You can use the lists ``students``, ``courses``, and ``current_grades``.
+    ~~~~
+    
+
+    =====

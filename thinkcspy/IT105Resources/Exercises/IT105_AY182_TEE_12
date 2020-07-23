@@ -1,0 +1,82 @@
+.. activecode:: IT105_AY182_TEE_12
+  :author: Kyle King
+  :difficulty: 0.0
+  :basecourse: thinkcspy
+  :topic: IT105Resources/Exercises
+  :from_source: F
+  :language: python
+  :autograde: unittest
+  :nocodelens:
+  
+  You are writing a function to decide the winner of the dice game *Gutsy* which is played with three 10-sided dice. Two players and the dealer are each given a 10-sided die. Everyone rolls their die and the winner is decided as follows:
+  
+  * If both players roll the same number, they tie. 
+  * If a player rolls the same number as the dealer - a "pair" - then they win.
+  * If neither player rolls the same as the dealer, then the player with the highest roll wins.
+  
+  Complete the function ``gutsy(playerOne,playerTwo)`` below that takes the result of the two players' dice rolls. Your function should roll the dealer dice (by generating a number between 1 and 10) and determine the winner. Your function should **return** the string ``"Player One"`` if Player One wins, ``"Player Two"`` if Player Two wins, or ``"Tie"`` if they tied. 
+  
+  For example:
+  
+  ::
+
+    # assume in all cases below, the dealer rolled a 2
+    # in your gutsy function the dealer roll should be random
+    gutsy(10,3)      # returns "Player One"
+    gutsy(4,9)       # returns "Player Two"
+    gutsy(2,10)      # returns "Player One"
+    gutsy(3,2)       # returns "Player Two"
+    gutsy(4,4)       # returns "Tie"
+  
+  **Note:** You can delete the ``pass`` line below. Or you can leave it. It doesn't do anything. ``pass`` is just there so that the function bodies aren't empty as that would cause a syntax error.
+  
+  ~~~~
+  def gutsy(playerOne,playerTwo):
+      pass # your code goes here
+  ====
+  from unittest.gui import TestCaseGui
+
+  class Tests(TestCaseGui): 
+    def result(self, func,*args,**kwargs):
+      import sys
+      from StringIO import StringIO
+      oldout = sys.stdout
+
+      try:
+          out = StringIO()
+          sys.stdout = out
+          ret = func(*args,**kwargs)
+          return ret
+      finally:
+          sys.stdout = oldout
+
+    def tests(self):
+      import random
+      
+      low_seed = 114  # this seed yields a 2
+      mid_seed = 112  # this seed yields a 4
+      high_seed = 113 # this seed yields a 9
+      
+      low = random.randint(1,3)
+      mid = random.randint(4,7)
+      high = random.randint(8,10)
+      
+      random.seed(mid_seed) # dealer rolls 4
+      self.assertEqual(self.result(gutsy,high,low),"Player One","Player One high roll wins")
+      
+      random.seed(low_seed) # dealer rolls 2
+      self.assertEqual(self.result(gutsy,mid,high),"Player Two","Player Two high roll wins")
+      
+      random.seed(low_seed) # dealer rolls 2
+      self.assertEqual(self.result(gutsy,2,high),"Player One","Player One matches dealer and wins")
+      
+      random.seed(mid_seed) # dealer rolls 4
+      self.assertEqual(self.result(gutsy,high,4),"Player Two","Player Two matches dealer and wins")
+      
+      random.seed(low_seed) # dealer rolls 2
+      self.assertEqual(self.result(gutsy,2,2),"Tie","Tied with with same rolls")
+      
+      random.seed(high_seed) # dealer rolls 9
+      self.assertEqual(self.result(gutsy,mid,mid),"Tie","Tied with different rolls")
+      
+  Tests().main()

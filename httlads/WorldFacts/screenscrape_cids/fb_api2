@@ -1,0 +1,14 @@
+.. fillintheblank:: fb_api2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: WorldFacts/screenscrape_cids
+   :from_source: T
+
+   Copy and paste the list of the three letter country codes of the countries
+   that border Peru. Do not include the square brackets. |blank|
+
+   - :'BOL', 'BRA', 'CHL', 'COL', 'ECU': Is the correct answer
+     :200: 200 is the status code of the request
+     :x: There are five country codes, in single quotes separated ', '
+

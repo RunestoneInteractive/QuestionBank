@@ -1,0 +1,26 @@
+.. mchoice:: dat_cat
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/exploring_data
+   :from_source: T
+
+   Which of the columns in the happiness spreadsheet represent categorical
+   (nominal) data?
+
+   - Country
+
+     + Correct
+
+   - Region
+
+     + Correct
+
+   - Rank
+
+     - Incorrect
+
+   - Generosity
+
+     - Incorrect, categorical data is generally classes of things not real numbers
+

@@ -1,0 +1,24 @@
+.. activecode:: ac10_6_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/AccumulatingResultsFromaDictionary
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **1.** The dictionary ``travel`` contains the number of countries within each continent that Jackie has traveled to. Find the total number of countries that Jackie has been to, and save this number to the variable name ``total``. Do not hard code this!
+   ~~~~
+   travel = {"North America": 2, "Europe": 8, "South America": 3, "Asia": 4, "Africa":1, "Antarctica": 0, "Australia": 1}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(total, 19, "Testing that total is correct.")
+
+   myTests().main()

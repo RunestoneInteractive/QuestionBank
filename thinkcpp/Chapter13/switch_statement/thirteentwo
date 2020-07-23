@@ -1,0 +1,35 @@
+.. activecode:: thirteentwo
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter13/switch_statement
+   :from_source: F
+   :language: cpp
+
+   Take a look at the active code below that allows you to choose your starter Pokemon.
+   If you change the value of ``type``, it will change the Pokemon you choose. Notice how
+   if you don't assign ``type`` to a valid type, it outputs the default message. Try taking out
+   the ``break`` statements in each case. What happens if you run the code with ``type`` as 'g' afterwards?
+   ~~~~
+   #include <iostream>
+   #include <string>
+   using namespace std;
+
+   int main() {
+     char type = 'w';
+
+     switch (type) {
+     case 'g':
+       cout << "You've chosen Bulbasaur!" << endl;
+       break;
+     case 'f':
+       cout << "You've chosen Charmander!" << endl;
+       break;
+     case 'w':
+       cout << "You've chosen Squirtle!" << endl;
+       break;
+     default:
+       cout << "Invalid type! Please try again." << endl;
+       break;
+     }
+   }

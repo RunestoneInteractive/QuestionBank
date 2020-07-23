@@ -1,0 +1,13 @@
+.. actex:: ex_3_3
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: PythonTurtle/Exercises
+   :from_source: None
+
+   Write a program that uses a for loop to print
+      |  ``One of the months of the year is January``
+      |  ``One of the months of the year is February``
+      |  ``One of the months of the year is March``
+      |  etc ...
+   ~~~~

@@ -1,0 +1,33 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermTurtlePentagon
+   :adaptive:
+   :numbered: left
+
+   Put the code in order to have a turtle draw a pentagon, which is a five sided closed polygon.
+   -----
+   from turtle import *       
+   =====
+   space = Screen()           
+   mia = Turtle()              
+   =====
+   mia.setheading(90)   
+   =====     
+   for sides in range(5):   
+   =====
+   for sides in range(5) #distractor  
+   =====
+       mia.forward(40)    
+   =====     
+       mia.right(72)  
+   =====
+       mia.right(60)  #distractor
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

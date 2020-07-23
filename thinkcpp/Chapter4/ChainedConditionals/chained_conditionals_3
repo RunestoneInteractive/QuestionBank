@@ -1,0 +1,37 @@
+.. mchoice:: chained_conditionals_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter4/ChainedConditionals
+   :from_source: T
+   :answer_a: Two!
+   :answer_b: Two! Three!
+   :answer_c: One! Two!
+   :answer_d: One! Two! Three!
+   :correct: b
+   :feedback_a: Make note of the use of "if" instead of "else if" or "else".
+   :feedback_b: When we have "if" statments, but no "else if" or "else", every condition will be checked.
+   :feedback_c: The first statement will not be executed because x > 8 is not true.  Also, make note of the use of "if" instead of "else if" or "else".
+   :feedback_d: The first statement will not be executed because x > 8 is not true.
+
+   What will print after the following code is executed?
+
+   ::
+
+       #include <iostream>
+       using namespace std;
+
+       int main () {
+         int x = 7;
+         if (x > 8) {
+           cout << "One! " ;
+         }
+         if (x > 6) {
+           cout << "Two! ";
+         }
+         if (x > 3) {
+           cout << "Three!" << endl;
+         }
+         return 0;
+       }
+

@@ -1,0 +1,36 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPTurtleDecisions/Exercises
+   :from_source: F
+.. parsonsprob:: xml_1
+   :adaptive: 
+   :numbered: left
+
+   Put the blocks into order to define a XML note. The note should contain a to, from, time, subject, and body in that order.
+   -----
+       &#60note&#62
+   =====
+           &#60to&#62Jamal&#60/to&#62
+   =====
+           &#60from&#62Ali&#60/from&#62
+   =====
+           &#60from&#62Ali&#60/From&#62 #paired
+   =====
+           &#60time region = 'Eastern'&#6209:00:03&#60/time&#62
+   =====
+           &#60time region = Eastern&#6209:00:03&#60/time&#62 #paired
+   =====
+           &#60subject&#62Meeting today?&#60/subject&#62
+   =====
+           &#60body&#62Are we meeting today at 2:00pm?&#60/body&#62
+   =====
+           &#60body&#62Are we meeting today at 2:00pm? #paired
+   =====
+       &#60/note&#62
+
+
+
+
+  

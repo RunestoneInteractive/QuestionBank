@@ -1,0 +1,21 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_3
+  
+    Write the following boolean expressions in Python:
+ 
+         	5 is not equal to 7 and 4 is not equal to 10
+
+         	'num' is greater than or equal to 10 or 'num' is less than or equal to 
+                7
+
+         	9 is less than 'randNum' and 7 is less than 'randNum'
+
+         	'num1' is less than 'num2' or 'num1' is greater than 'num2'
+
+    ~~~~
+    

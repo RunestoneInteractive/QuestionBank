@@ -1,0 +1,46 @@
+.. actex:: ex_6_3
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2018
+   :topic: Selection/Exercises
+   :from_source: None
+
+   Write a function which is given an exam mark, and it returns a string --- the grade for that mark --- according to this
+   scheme:
+
+   .. table::
+
+      =======   =====
+      Mark      Grade
+      =======   =====
+      >= 90     A
+      [80-90)   B
+      [70-80)   C
+      [60-70)   D
+      < 60      F
+      =======   =====
+
+   The square and round brackets denote closed and open intervals.
+   A closed interval includes the number, and open interval excludes it.   So 79.99999 gets grade C , but 80 gets grade B.
+
+   Test your function by printing the mark and the grade for a number of different marks.
+   ~~~~
+    def getGrade(grade):
+          #your code here
+
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertEqual(getGrade(95),'A','Tested getGrade on input of 95')
+            self.assertEqual(getGrade(85),'B','Tested getGrade on input of 85')
+            self.assertEqual(getGrade(65),'D','Tested getGrade on input of 65')
+            self.assertEqual(getGrade(79.99999),'C','Tested getGrade on input of 79.9999')
+            self.assertEqual(getGrade(80),'B','Tested getGrade on input of 80')
+
+
+    myTests().main()

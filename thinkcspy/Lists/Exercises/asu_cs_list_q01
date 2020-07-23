@@ -1,0 +1,56 @@
+
+    :author: Erdogan Dogdu
+    :difficulty: 4.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: asu_cs_list_q01
+    :autograde: unittest
+
+
+    **Lists** 
+     
+    Write a Python function ``union(list1,list2)`` that returns a list containing only unique items from list1 and list2.
+
+    ::
+    
+        l1 = ['jane','mike','tim','jim','conner']
+        l2 = ['mike','jenny','john','jake','sally','jane']
+
+    then ``print(union(l1, l2))`` will print: ``['jane','mike','tim','jim','conner','jenny','john','jake','sally']``
+       
+    ~~~~
+    # Write your code here
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    def compareStringList(list1, list2):
+        if len(list1)!=len(list2):
+            return False
+        for item1 in list1:
+            if item1 not in list2:
+                return False
+        return True
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            l1 = ['jane','mike','tim','jim','conner']
+            l2 = ['mike','jenny','john','jake','sally','jane']
+            output = ['jane','mike','tim','jim','conner','jenny','john','jake','sally']
+
+            list2a = ['a','b','c','d']
+            list2b = ['b','e','f','b','g']
+            output2 = ['a','b','c','d','e','f','g']
+
+            l3 = ['a',1,'c',2]
+            l4 = ['c',2,'f',3,4,2,1]
+            output3 = ['a',1,'c',2,'f',3,4]
+      
+            self.assertEqual(compareStringList(union(l1,l2),output),True,"union(['jane','mike','tim','jim','conner'],['mike','jenny','john','jake','sally','jane']) should return ['jane','mike','tim','jim','conner','jenny','john','jake','sally']")
+            self.assertEqual(compareStringList(union(list2a,list2b),output2),True,"union("+str(list2a)+","+str(list2b)+") should return "+str(output2))
+            self.assertEqual(compareStringList(union(l3,l4),output3),True,"union("+str(l3)+","+str(l4)+") should return "+str(output3))
+
+    myTests().main()
+  

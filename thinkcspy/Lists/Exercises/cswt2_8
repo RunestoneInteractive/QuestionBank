@@ -1,0 +1,18 @@
+.. mchoice:: cswt2_8
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+   :answer_a: 4
+   :answer_b: 6
+   :answer_c: 9
+   :answer_d: 5
+   :correct: a
+   :random:
+
+   8. How many numbers will the following code segment print?::
+
+      x = [20, 40, 30, 10, 20, 40, 60, 80, 10]
+      for i in x[2 : 6]:
+          print(i, end = " ")

@@ -1,0 +1,42 @@
+
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_hw2_f19_q5
+    :language: python
+
+    Johnathan is an elementary school student. Johnathan got a homework where the teacher 
+    has given Johnathan two numbers, ``Number1`` and ``Number2`` and asked Johnathan to 
+    find the sum of all the numbers in between ``Number1`` and ``Number2`` (inclusive).  The
+    numbers to be included for computing the sum follow a pattern where Johnathan has to 
+    skip incremental amount of numbers until ``Number2``. That is, take first number, then take 
+    the 3rd number, then take the 6th number, then take 10th number, and so on until Johnathan 
+    reaches the ``Number2``. Johnathan knows that you are learning programming and you can help 
+    him solve this sequence using your programming skills. Write a program that will help 
+    Johnathan to find the sum of this sequence.
+
+    Input Constraints:
+    0 <= Number1 < Number2 <= 200
+    Input Format: 
+    Two lines with one integer each. Integer in line two will always be greater than the 
+    integer in line one.
+    Output Format: 
+    Single integer which will be the num of the sequence.
+
+
+    Example of the program execution:
+    ::
+
+        First Number: 100
+        Second Number: 110
+        Number to sum is: 100
+        Number to sum is: 101
+        Number to sum is: 103
+        Number to sum is: 106
+        Number to sum is: 110
+        Summation: 520
+
+    ~~~~
+    # Write your code here

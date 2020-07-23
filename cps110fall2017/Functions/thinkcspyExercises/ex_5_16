@@ -1,0 +1,15 @@
+.. actex:: ex_5_16
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Write a function called `myPi` that will return an approximation of PI (3.14159...).  Use the `Madhava <http://en.wikipedia.org/wiki/Madhava_of_Sangamagrama>`_ approximation.
+   ~~~~
+
+    def myPi(iters):
+        # Calculate an approximation of PI using the Madhava
+        # approximation with iters number of iterations
+
+        #your code here

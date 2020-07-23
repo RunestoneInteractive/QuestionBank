@@ -1,0 +1,55 @@
+.. activecode:: lhs_7_12
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    A fruit company sells oranges for 32 cents a pound. They charge $7.50 for shipping
+    on any order.  But, if the order is above 50 pounds, they only charge $5 for shipping.
+    Even better, if the order is over 100 pounds, the shipping chage is only $3.
+
+    Write a function ``costOrder`` that takes the number of pounds of oranges that is
+    being purchased and **returns** the cost of the order.
+
+    Example: a 60 pound order would be $24.20 
+
+    ~~~~
+    # Your Name:
+    
+    # define your function here
+    
+    def main():
+        # call the function here to test it if you'd like...
+    
+    if __name__ == "__main__":
+        main()
+    ====
+    import random
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        
+        def golden_costOrder(self, pounds):
+            if (pounds > 100):
+                shipping = 3
+            elif (pounds > 50):
+                shipping = 5
+            else:
+                shipping = 7.50
+            return(.32*pounds + shipping)
+        
+        def testOne(self):
+            print("Auto-testing...")
+            self.assertAlmostEqual(costOrder(51), self.golden_costOrder(51), 4, "Check 51")
+            self.assertAlmostEqual(costOrder(50), self.golden_costOrder(50), 4, "Check 50")
+            self.assertAlmostEqual(costOrder(100), self.golden_costOrder(100), 4,"Check 100")
+            self.assertAlmostEqual(costOrder(101), self.golden_costOrder(101), 4,"Check 101")
+            self.assertAlmostEqual(costOrder(1), self.golden_costOrder(1), 4,"Check 1")
+            p = random.randrange(1,125, 5)
+            self.assertAlmostEqual(costOrder(p), self.golden_costOrder(p), 4, "Check random")
+
+    
+    myTests().main()

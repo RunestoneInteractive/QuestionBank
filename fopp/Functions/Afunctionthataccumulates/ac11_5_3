@@ -1,0 +1,24 @@
+.. activecode:: ac11_5_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/Afunctionthataccumulates
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **2.** Write a function called ``count`` that takes a list of numbers as input and returns a count of the number of elements in the list.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(count([]), 0, "Testing the function count with input []")
+         self.assertEqual(count([1, 5, 9, -2, 9, 23]), 6, "Testing the function count with input [1, 5, 9, -2, 9, 23]")
+
+   myTests().main()

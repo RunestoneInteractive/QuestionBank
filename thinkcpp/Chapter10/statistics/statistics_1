@@ -1,0 +1,11 @@
+.. fillintheblank:: statistics_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter10/statistics
+    :from_source: T
+
+    Random numbers are distributed __________.
+
+    - :([Uu]niformly|UNIFORMLY): Correct!
+      :.*: Incorrect!

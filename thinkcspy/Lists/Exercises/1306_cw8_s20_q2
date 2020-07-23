@@ -1,0 +1,82 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: 1306_cw8_s20_q2
+    :autograde: unittest
+
+
+    **Question 2 [40 points]** 
+     
+    You will write a series of functions that take a string parameter, which is expected to be a paragraph from a book. Assume words in the paragraph are separated by blank spaces. You need to write the following functions:
+
+    1. ``ParaBasics(mypara)`` will print the number of characters and the number of words in the input string mypara and return the *average word length*.
+
+    2. ``LongWords(mypara)`` will return a list of long words in ``mypara``. A "long" word is any word longer than 8 or more letters.
+
+    3. ``SpecialWords(mypara)`` will return a list of special words in ``mypara``. A "special" word is any word that contains at least one of the **rare** letters: ``j, q, x, z``.
+
+    4. ``CoolPara(mypara)`` will return ``True`` if at least 10% of the words are ‘long’ and/or 10% of the words are **special**, and ``False`` otherwise. 
+
+    *[Hints:  Only use split() and len() methods/functions. You may consider any characters other than blanks, including punctuation and numbers, as parts of words]*
+
+    Example Input:
+
+    ``mypara = 'In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.'``
+
+    Example Output:
+
+    1. ``ParaBasics(mypara)`` will print ``Number of characters 195 Number of words 52`` and return ``3.75``
+
+    2. ``LongWords(mypara)`` will return ``['hobbit-hole,', 'comfort.']``
+
+    3. ``SpecialWords(mypara)`` will return ``['oozy']``
+
+    4. ``CoolPara(mypara)`` will return ``False``
+
+
+
+    
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+ 
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    def compareStringList(list1, list2):
+        if len(list1)!=len(list2):
+            return False
+		
+        for item1 in list1:
+            if item1 not in list2:
+                return False
+        return True
+
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            print('\n\n\nFollowing outputs (if any) are from our test cases. Please ignore it.')
+            para = 'In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort.'
+            self.assertAlmostEqual(ParaBasics(para),3.75,1,"ParaBasics(para) should return 3.75")
+            self.assertEqual(LongWords(para),['hobbit-hole,', 'comfort.'],"LongWords(para) should return ['hobbit-hole,', 'comfort.']")            
+            self.assertEqual(SpecialWords(para),['oozy'],"SpecialWords(para) should return ['hobbit-hole,', 'comfort.']")            
+            self.assertEqual(CoolPara(para),False,"CoolPara(para) should return False") 
+            #self.assertEqual(compareStringList(CommonItems(list2a,list2b),output2),True,"CommonItems("+str(list2a)+","+str(list2b)+") should return "+str(output2))
+            #self.assertEqual(ispalindrome('h'),True,"ispalindrome('h') should return True")
+            #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
+            #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
+            #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
+
+
+
+
+    myTests().main()

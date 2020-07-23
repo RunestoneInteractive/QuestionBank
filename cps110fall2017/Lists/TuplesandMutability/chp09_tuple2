@@ -1,0 +1,14 @@
+.. activecode:: chp09_tuple2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/TuplesandMutability
+    :from_source: None
+
+    tup = (5,)
+    print(type(tup))
+
+    x = (5)
+    print(type(x))
+
+

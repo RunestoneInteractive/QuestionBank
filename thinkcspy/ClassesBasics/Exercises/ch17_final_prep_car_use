@@ -1,0 +1,25 @@
+
+    :author: Karl Sickendick
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: ClassesBasics/Exercises
+    :from_source: F
+.. activecode:: ch17_final_prep_car_use
+    :autograde: unittest
+    :language: python3
+    
+    Use the class Car description given below.  Add a "__str__" function that returns the color followed by the model.  Then create three cars and store them in a list named "cars".  The first car should be a red Miata, the second a blue Pinto, and the third a yellow Tundra.
+    ~~~~
+    class Car:
+        def __init__(self, in_color, in_model):
+            self.color = in_color
+            self.model = in_model
+    ====
+    expected = ["red Miata", "blue Pinto", "yellow Tundra"]
+    if len(cars) != len(expected):
+        print("Didn't see enough cars!")
+    for ind, exp in enumerate(expected):
+        if str(cars[ind]).lower() == exp.lower():
+            print("Expected and saw: {}".format(exp))
+        else:
+            print("Didn't find: {}".format(exp))

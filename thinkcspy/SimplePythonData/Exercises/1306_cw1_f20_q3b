@@ -1,0 +1,23 @@
+.. activecode:: 1306_cw1_f20_q3b
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   **Q3b [15 pts]** Extend the program in Q3a such that:
+
+   i.	It asks for the amount of gasoline in the car before the trip begins, the amount of additional gasoline added during the trip,  and the amount of gasoline remaining when the trip ended.
+
+   ii.	It asks for the odometer reading in the beginning and the odometer reading at the end of the trip.
+   
+   iii.	It asks for the current price of the gasoline in dollars/gallon.
+
+   iv.	The program prints a message with miles per gallon as well as miles per dollar.
+
+   
+   *[Hint: Write expressions for miles per gallon and miles per dollar in terms of input variables before you start writing your program. Include this as a comment in your program. Break the problem into sub-computations]*
+
+
+   ~~~~
+   # Write your program here

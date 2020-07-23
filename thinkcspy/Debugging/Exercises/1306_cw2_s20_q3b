@@ -1,0 +1,22 @@
+.. activecode:: 1306_cw2_s20_q3b
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+
+   **[15 pts] Question 3(b)** This question focuses on numerical calculations with Python. Develop a Python program that takes integers N and K as input and computes the sum of the series:
+
+   ``1/N + 1/(2*N)  + 1/(3*N) + … + (1/K*N)``
+
+
+   `Examples:` 
+
+   (1) For N = 10 & K = 5, output is: 137/600 (or 0.2283)
+
+   (2) For N = 8 & K = 12, output is: 86021/221760 (or 0.3879)
+
+
+   
+   ~~~~
+   # Write your program here

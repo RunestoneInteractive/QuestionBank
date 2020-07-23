@@ -1,0 +1,15 @@
+.. activecode:: ac9_5_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Files/Iteratingoverlinesinafile
+    :from_source: T
+    :nocodelens:
+
+    olypmicsfile = open("olypmics.txt", "r")
+
+    for aline in olypmicsfile.readlines():
+        values = aline.split(",")
+        print(values[0], "is from", values[3], "and is on the roster for", values[4])
+
+    olypmicsfile.close()

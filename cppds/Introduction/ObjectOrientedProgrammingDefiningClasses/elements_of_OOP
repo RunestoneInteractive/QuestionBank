@@ -1,0 +1,12 @@
+.. dragndrop:: elements_of_OOP
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :topic: Introduction/ObjectOrientedProgrammingDefiningClasses
+    :from_source: T
+    :feedback: Review the elements of object oriented programming
+    :match_1: Encapsulation|||hiding the contents of a class except when absolutely necessary
+    :match_2: Abstraction|||focusing on desired behaviors and properties while disregarding what is irrelevant/unimportant
+    :match_3: Polymorphism|||processing objects or methods differently depending on their data type, class, number of arguments, etc.
+
+    Drag the word on the left to its corresponding definition

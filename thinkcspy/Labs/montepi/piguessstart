@@ -1,0 +1,29 @@
+.. activecode:: piguessstart
+        :author: bmiller
+        :difficulty: 3.0
+        :basecourse: thinkcspy
+        :topic: Labs/montepi
+        :from_source: T
+
+        import turtle
+        import math
+        import random
+
+        fred = turtle.Turtle()
+
+        wn = turtle.Screen()
+        wn.setworldcoordinates(-1,-1,1,1)
+
+        fred.up()
+
+        numdarts = 10
+        for i in range(numdarts):
+            randx = random.random()
+            randy = random.random()
+
+            x =
+            y =
+
+        wn.exitonclick()
+
+

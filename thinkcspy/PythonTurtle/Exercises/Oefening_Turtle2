@@ -1,0 +1,14 @@
+.. activecode:: Oefening_Turtle2
+    :author: Jan Persan
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+
+    Maak onderstaande figuur na met behulp van turtles.
+    ~~~~
+    import turtle
+    wn=turtle.Screen()
+    #Jouw code komt hier...
+

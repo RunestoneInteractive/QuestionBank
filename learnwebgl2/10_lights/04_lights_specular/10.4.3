@@ -1,0 +1,28 @@
+.. mchoice:: 10.4.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 10_lights/04_lights_specular
+  :from_source: T
+  :random:
+
+  A vector from a fragment (in camera space) to the location of the camera can be
+  calculated in the *fragment shader* using the statement: :code:`to_camera = -1.0 * v_Vertex;`.
+  (See line 41.) Why?
+
+  - The camera is at :code:`(0,0,0,1)` so :code:`camera_location - v_Vertex` simplifies to :code:`-1.0 * v_Vertex`.
+
+    + Correct.
+
+  - A vector to a location in space is simply the location treated as a vector.
+
+    - Incorrect. This statement is true, but we want a vector from the fragment to the camera, which is in the opposite direction.
+
+  - A location and a direction are basically the same thing.
+
+    - Incorrect. NO! Locations and directions are very different.
+
+  - Calculating a vector between two locations requires the subtract of the locations: "head minus tail."
+    Therefore, getting a vector by multiplying by :code:`-1` is just a weird coincidence.
+
+    - Incorrect.

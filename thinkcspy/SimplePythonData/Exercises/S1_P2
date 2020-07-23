@@ -1,0 +1,12 @@
+.. actex:: S1_P2
+   :author: Neil Kakhandiki
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Define a function that returns the compound interest with
+   arguments, principal, rate, amount of years, and amount of
+   time in years.
+   A = P(1 + r/n)^nt
+   ~~~~

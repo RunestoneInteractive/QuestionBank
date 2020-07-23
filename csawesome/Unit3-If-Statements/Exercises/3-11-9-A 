@@ -1,0 +1,21 @@
+.. mchoice:: 3-11-9-A 
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: s starts with three or more of the same characters
+   :answer_b: s contains three or more of the same characters
+   :answer_c: s contains three or more of the same characters in a row
+   :answer_d: s ends with two or more of the same characters
+   :answer_e: s.charAt(0) == s.charAt(1) == s.charAt(2)
+   :correct: c
+
+   The following method will return true if and only if:
+
+   .. code-block:: java
+
+    public boolean check(String s) {
+        return s.length() >= 3 && (s.charAt(0) == s.charAt(1) == 
+            s.charAt(2) || check(s.substring(2)));
+    }

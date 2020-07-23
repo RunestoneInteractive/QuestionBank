@@ -1,0 +1,17 @@
+.. mchoice:: implicit_variable_access_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter11/implicit_variable_access
+   :from_source: T
+   :answer_a: after being granted permission
+   :answer_b: only inside of that specific member function
+   :answer_c: using dot notation
+   :answer_d: directly, without dot notation
+   :correct: d
+   :feedback_a: Incorrect! You don't need "permission" to access member variables inside a member function.
+   :feedback_b: Incorrect! You can access member variables implicitly inside any and all member functions.
+   :feedback_c: Incorrect! You don't need to use dot notation to access variables implicitly.
+   :feedback_d: Correct! Implicit variable access allows us to access variables directly-- without using dot notation.
+
+   Implicit variable access in member functions allows us to access member variables __________.

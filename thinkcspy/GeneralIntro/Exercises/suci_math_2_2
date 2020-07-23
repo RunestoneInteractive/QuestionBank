@@ -1,0 +1,17 @@
+
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. actex:: suci_math_2_2
+
+   Run the program and modify it so computes the formula: 2xA + 3xB + C
+   ~~~~
+   A = 2
+   B = 3
+   C = 4
+   formula_value = 0
+   #add a line for the formula after this line
+   print("The answer is", formula_value)
+   

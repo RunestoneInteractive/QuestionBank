@@ -1,0 +1,12 @@
+.. activecode:: jcode1
+    :author: Jaspal Subhlok
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+
+    Write a Python function that takes a positive integer as the only parameter and prints whether the number  is prime or not. Employ this function to write a program that takes a positive integer as input and returns the number of prime    numbers less than the number input
+    ~~~~
+    def primefinder(N):
+        # your code here

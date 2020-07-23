@@ -1,0 +1,13 @@
+.. fillintheblank:: act_shift_fb
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/encryption
+    :from_source: T
+
+    What was the original shift?
+
+    - :17: Is the correct answer!
+      :9: Close, 9 is the amount you had to shift to get it back but its not symmetric.  Think about reversing the shift...
+      :x: Try again, You should print out the amount you are rotating along with the string.  You'll need to find one that makes sense.
+

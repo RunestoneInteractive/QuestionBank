@@ -1,0 +1,23 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPWebData/Exercises
+   :from_source: F
+.. parsonsprob:: visOrderGmane
+   :adaptive:
+   :numbered: left
+
+   Put the Python programs in the order they need to execute for the Gmane example.  
+   -----
+   gmane.py
+   =====
+   gmodel.py
+   =====
+   gbasic.py
+   =====
+   gline.py
+   gword.py
+   
+
+

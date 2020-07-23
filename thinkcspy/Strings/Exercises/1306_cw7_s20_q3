@@ -1,0 +1,50 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: 1306_cw7_s20_q3
+    :autograde: unittest
+
+    **Important Note**: For Questions 1, 2 & 3 you can use ``string constants``, ``in`` and ``not in`` operators, and ``len()`` function. Other functions/methods from the python string library are not needed and should not be used.
+
+
+    **Question 3 [30 points]** 
+
+    A palindrome is a string that reads identical forwards and backwards. Examples include abba, abcba, a1b1b1a, houstonnotsuoh etc.
+
+    Your task is to write a function ``ispalindrome(string)`` that reads an input string and returns True if both of the following are true:
+
+    1. The string is a palindrome
+    
+    2. The string has at least one letter (uppercase or lowercase)
+    
+    For example: ``ispalindrome('racecar')`` should return True
+
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(ispalindrome('racecar'),True,"ispalindrome('racecar') should return True")
+            self.assertEqual(ispalindrome('h'),True,"ispalindrome('h') should return True")
+            self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
+            self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
+            self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
+
+
+
+
+    myTests().main()

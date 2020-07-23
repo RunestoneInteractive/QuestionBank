@@ -1,0 +1,11 @@
+.. activecode:: ac14_6_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TraversalandtheforLoopByIndex
+   :from_source: T
+
+   fruits = ['apple', 'pear', 'apricot', 'cherry', 'peach']
+   for n in range(len(fruits)):
+       print(n, fruits[n])
+

@@ -1,0 +1,15 @@
+
+   :author: Stephen Walloch
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. dragndrop:: csbhs-01-05-01
+   :feedback: Review section 1.5
+   :match_1: input|||Get data from the keyboard, a file, or some other device.
+   :match_2: output|||Display data on the screen or send data to a file or other device.
+   :match_3: math and logic|||Perform basic mathematical operations like addition and multiplication and logical operations like and, or, and not.
+   :match_4: conditional execution|||Check for certain conditions and execute the appropriate sequence of statements.
+   :match_5: repetition|||Perform some action repeatedly, usually with some variation.
+
+   Match the basic programming instructions that appear in most languages with the correct description.

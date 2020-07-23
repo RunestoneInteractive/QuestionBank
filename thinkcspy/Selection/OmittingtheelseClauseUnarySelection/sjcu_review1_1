@@ -1,0 +1,44 @@
+.. mchoice:: sjcu_review1_1
+   :author: Sandra Jackson
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Selection/OmittingtheelseClauseUnarySelection
+   :from_source: F
+   :answer_a: Output a
+   :answer_b: Output b
+   :answer_c: Output c
+   :answer_d: It will cause an error because every if must have an else clause.
+   :correct: b
+   :feedback_a: Because -10 is less than 0, Python will execute the body of the if-statement here.
+   :feedback_b: Python executes the body of the if-block as well as the statement that follows the if-block.
+   :feedback_c: Python will also execute the statement that follows the if-block (because it is not enclosed in an else-block, but rather just a normal statement).
+   :feedback_d: It is valid to have an if-block without a corresponding else-block (though you cannot have an else-block without a corresponding if-block).
+
+   What does the following code print?
+
+   .. code-block:: python
+
+   x = int(input("Enter an integer: "))
+   y = float(input("Enter an integer: "))
+if (x < y):
+    x = x + 1
+    if (x % y == 0):
+        x = y
+    elif x % y >= 2:
+        x = x % y
+if (x >= 3):
+    y-=1
+print("x=" + str(x))
+print("y=" + str(y))
+
+   ::
+
+     a.
+     This is always printed
+
+     b.
+     The negative number -10 is not valid here
+     This is always printed
+
+     c.
+     The negative number -10 is not valid here

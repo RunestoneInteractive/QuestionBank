@@ -1,0 +1,14 @@
+.. fillintheblank:: MSIT-02-04
+   :author: Kevin Austin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :casei:
+
+   In the expression 4 * (2 + 3)**2, which operation happens first?
+
+   - :addition: Yes  Nicely done.
+     :add: Very close.  Name the operation Try again.
+     :plus: Almost.  Name the operation  Try again.
+     :.*: Incorrect.  Check operator precedence rules.  What is the first operation?

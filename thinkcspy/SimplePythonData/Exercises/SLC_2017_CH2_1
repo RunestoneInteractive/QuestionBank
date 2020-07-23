@@ -1,0 +1,18 @@
+.. activecode:: SLC_2017_CH2_1
+   :author: Derek Green
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+
+   Write code that first asks for the user's **name** and then asks for the user's **age** in *years*.  After you get those values from the user:
+
+   * Print out a greeting with the user's name in it (e.g. "Hello Frodo!").
+   * Print out the user's age in years (e.g. "You are 10 years old.").
+   * Print out the user's age in *months*.  (e.g. "Your age in months is 120!")
+   ~~~~
+
+
+   ====
+    

@@ -1,0 +1,13 @@
+.. activecode:: chp05_3
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Selection/Logicaloperators
+    :from_source: None
+
+    x = 5
+    print(x > 0 and x < 10)
+
+    n = 25
+    print(n % 2 == 0 or n % 3 == 0)
+

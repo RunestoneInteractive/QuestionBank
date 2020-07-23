@@ -1,0 +1,16 @@
+.. activecode:: chp09_meth2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/ListMethods
+    :from_source: None
+
+    mylist = []
+    mylist.append(5)
+    mylist.append(27)
+    mylist.append(3)
+    mylist.append(12)
+    print(mylist)
+
+    mylist = mylist.sort()   #probably an error
+    print(mylist)

@@ -1,0 +1,19 @@
+
+    :author: Erdogan Dogdu
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: workpay
+    ~~~~
+
+    ====
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+    def testOne(self):
+        self.assertIn("Hello World", self.getOutput(), )
+
+myTests().main()
+

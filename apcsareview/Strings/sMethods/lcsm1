@@ -1,0 +1,26 @@
+.. activecode:: lcsm1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: Strings/sMethods
+   :from_source: T
+   :language: java
+
+   public class Test1
+   {
+      public static void main(String[] args)
+      {
+        String message1 = "This is a test";
+        String message2 = "Hello Class";
+
+        System.out.println(message1.length());
+        System.out.println(message2.length());
+
+        System.out.println(message1.substring(0,3));
+        System.out.println(message1.substring(5));
+
+        System.out.println(message1.indexOf("is"));
+        System.out.println(message1.indexOf("Hello"));
+        System.out.println(message2.indexOf("Hello"));
+      }
+   }

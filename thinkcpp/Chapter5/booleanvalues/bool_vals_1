@@ -1,0 +1,16 @@
+.. fillintheblank:: bool_vals_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter5/booleanvalues
+    :from_source: T
+
+    The boolean type has two values |blank| and |blank|.  The |blank|
+    operator is used to check if two boolean values are equal.
+
+    - :([Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee]): Correct!
+      :.*: Try again!
+    - :([Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee]): Correct!
+      :.*: Try again!
+    - :==: Correct!
+      :.*: Try again!

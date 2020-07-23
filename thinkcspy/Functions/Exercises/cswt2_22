@@ -1,0 +1,27 @@
+.. parsonsprob:: cswt2_22
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+
+   22. Imagine that you have a csv file that holds information about cities. The variable city_file holds the name of the file. Field 3 holds the population. Drag the following instructions to put them in the right order so they define a function that returns the total population for the cities in the file.
+   -----
+   import csv
+   def average_pop(city_file):
+   '''Returns the total population of the cities in city_file'''
+   =====
+       f = open(city_file, 'r')
+       reader = csv.reader(f)
+   =====
+       lines = list(reader)
+       f.close()
+       total = 0
+   =====
+       for row in lines:
+   =====
+           pop = int(row[3])
+   =====
+           total = total + pop
+   =====
+       return total

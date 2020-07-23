@@ -1,0 +1,16 @@
+.. mchoice:: check_hoisting
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :topic: TheBasics/datatypes
+    :from_source: T
+    :answer_a: Logically moving variable and function declarations to the beginning of the scope.
+    :feedback_a: Yes, very good.
+    :answer_b: Giving priority to variables declared using let instead of var
+    :feedback_b: Both let and var hoist the variables they refer to in a function.  But var does not outside a function.
+    :answer_c: Using ``function foo()`` instead of ``var foo = function()``
+    :feedback_c: Close, functions declared this way are hoisted but you are not getting the general sense of the definition.
+    :correct: a
+
+    What is "hoisting" in JavaScript?
+

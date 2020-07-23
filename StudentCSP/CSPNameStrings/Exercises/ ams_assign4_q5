@@ -1,0 +1,13 @@
+.. activecode::  ams_assign4_q5
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameStrings/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Use the slice operation on sentence so that that only “giant alligator” is printed.
+    ~~~~
+    sentence = "There is a giant alligator over there."
+    s1 =
+    print(s1)

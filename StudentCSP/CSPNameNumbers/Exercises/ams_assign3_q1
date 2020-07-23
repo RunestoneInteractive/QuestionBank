@@ -1,0 +1,15 @@
+.. activecode:: ams_assign3_q1
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Insert the correct operators in place of the # s so each line prints True. Remember == checks for equality.
+    ~~~~
+    print(16 # 7 == 2)
+    print((7 # 2) # 10 == 35)
+    print(2 # 4 == 0.5)
+    print(5 # 2 # 3 == -1)
+    print(3 # 2 # 1 == 7)

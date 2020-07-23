@@ -1,0 +1,15 @@
+.. fillintheblank:: sql_sel4
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNumbers/Exercises
+   :from_source: F
+
+   Fill in the following: SELECT * FROM Customers [blank] [blank] = [blank]; to get the records where the City column has the value "Berlin".
+   
+   -    :(WHERE|Where|where): Correct.  Use WHERE to limit the search.
+        :.*: What SQL command do you use to get data?
+   -    :City: Correct.  Use the table name.
+        :.*: What is the column name?
+   -    :"Berlin": Correct.  Use the value in quotes.
+        :.*: What is city name you are looking for?  Be sure to put it in quotes.

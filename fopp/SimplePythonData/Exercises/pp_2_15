@@ -1,0 +1,17 @@
+.. parsonsprob:: pp_2_15
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: T
+   :noindent:
+
+   Piece together the code so that a user is asked for two numbers, and then the sum of those two numbers is printed out.
+   -----
+   num_one = input("Please enter your first number: ")
+   =====
+   num_two = input("Please enter your second number: ")
+   =====
+   sum_of_input = int(num_one) + int(num_two)
+   =====
+   print(sum_of_input)

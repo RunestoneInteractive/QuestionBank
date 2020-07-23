@@ -1,0 +1,27 @@
+
+    :author: Shawn Haarer
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: 4_7_Troy2019
+   
+
+    Write a two line program that prints out 5 lines with 5 student names, like 
+    this:    
+
+    John loves to code in Python.     
+
+    Khaliq loves to code in Python.   
+
+    Jestina loves to code in Python
+
+    Andre loves to code in Python
+
+    Logan loves to code in Python  
+
+    (HINT See 
+    Section 4.4 in online text or follow the Link above in another tab.  )
+    ~~~~
+    print("Who Loves to Code ")
+

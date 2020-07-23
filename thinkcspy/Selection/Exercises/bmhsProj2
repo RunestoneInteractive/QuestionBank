@@ -1,0 +1,269 @@
+.. activecode:: bmhsProj2
+    :author: victor truong
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+
+    Following the instructions in the comments
+    ~~~~
+    '''
+    Area Calculator app   
+
+    **Remember to comment EVERY LINE of code and include the output 
+    (for both types of shapes) as a multi line comment and the top of your 
+    code before submitting **
+
+     Python is especially useful for doing math and can be used to 
+    automate many calculations. In this project, you'll create a calculator 
+    than can compute the area of a given shape, as selected by the user. 
+    
+    The calculator will be able to determine the area of the following 
+    shapes:
+    - Circle
+    - Triangle
+
+    The program should do the following:
+    - Prompt the user to select a shape
+    - Depending on the shape the user selects, calculate the area of that 
+      shape
+    - Print the area of that shape to the user
+
+    ********Let's begin!
+
+    Area Calculator
+
+    1.Remember, it's helpful to let other developers know what your 
+    program does.Begin by including a multi-line comment that describes 
+    what your program will do. You can use the 
+    instructions above to help you write the comment.
+
+    Hint
+ 
+    """
+    This program does the following...
+    but i agree to fail if i don't follow
+    the instructions as this is only a hint
+    Author: Your name here
+    """
+
+    2.This area calculator requires the use of Python code that isn't built-in 
+    or readily available to us. To gain access to the Python code, we need 
+    to import the code specifically. Since we will calculate the area of a 
+    circle, we will need to use the value pi.Somewhere after your multi-line 
+    comment, type the following line of code:
+    from math import pi
+
+    3.You'll also need access to some more Python code that will be used 
+    to simulate a thinking calculator. On the next line, type:
+    from time import sleep
+
+    4.When the program starts, we'll print the date and time to the user. 
+    Unfortunately, the date and time aren't already built-in to Python, but 
+    that's okay, we can import them as well. On the next line, type:
+    from datetime import datetime
+
+    5.Great! We've imported the code we'll need, and now we need to 
+    make use of it.Next, as described in this exercise, use the 
+    datetime.now() function to retrieve the current date and time. Store the 
+    result into a variable called now.We'll use the other code we imported 
+    later in this project.
+
+    Hint
+     now = datetime.now()
+
+    6.Print a message to the user to let them know the calculator is 
+    starting up.HintFeel free to print your own message.
+    print ("Starting the calculator...")
+
+    7.Now let's print out the current month, day, year, hour, and minute (in 
+    that order). Use string formatting to print out that information in the 
+    following format: MM/DD/YYYY HH:MM
+
+    Hint
+     print ("Current time: %s/%s/%s %s:%s" % (now.month, now.day, 
+     now.year, now.hour, now.minute))
+
+    8.It's time to use some more of the code that you imported earlier.On 
+    the next line, ask the program to sleep for 1 second. To "sleep" a 
+    program means to delay it from processing the next line of code by an 
+    amount of time that you specify.Note: Sleeping a program is not 
+    common practice. We are using it in this project to practice using 
+    imported code and to simulate a thinking calculator.
+
+    Hint
+     sleep(1)
+
+    9.Remember when your math teacher always nagged you about 
+    including the correct units? We're going to do that in this step. This will 
+    help our users get the most out of the calculator. Store the following 
+    string into a string variable that says " Hint: Don't forget to include the 
+    correct units! \nExiting"
+    
+    10.We need to find out what shape to calculate the area of, so let's ask 
+    the user.Prompt the user for input with the following: Enter C for Circle 
+    or T for Triangle:Store their input into a variable called option.
+
+    Hint
+     option = input("Enter C for Circle or T for Triangle: ")
+
+    11.What if a user enters a character that is lowercase? Let's prepare 
+    for that by instantly making any character that the user inputs 
+     uppercase. The .upper() function that you learned here will help!
+
+    Hint
+     option = option.upper()
+
+    12.Great! Now it's time to calculate the area of the shape that the user 
+    specifies.Use an if statement that will check if the option the user 
+    entered is C (for circle).
+
+    Hint
+     if option == 'C':
+
+    13.Inside of the if statement, prompt the user to input the radius. Store 
+    their input into a variable called radius. 
+
+     Hint
+      if option == 'C':
+      radius = input("Enter radius: ")
+      
+    Note: Want to code like a professional? When indenting, make sure 
+      to use 4 spaces, as specified by the Python documentation. 
+
+    14.Using raw_input alone will store the user's input as a string. Since 
+    we are going to do some math (calculations) with the user's input, we 
+    need numbers, not strings.Wrap the raw_input("Enter radius: ")part of 
+    your code with float(). This will make sure we are storing the user's 
+    input as a floating point number. We'll then be able to perform 
+    calculations with their input.
+
+     Hint
+      if option == 'C':
+      radius = float(input("Enter radius: "))
+
+    15.While staying inside the if statement, calculate the area of a circle 
+    on the next line. To do so, you'll need the value of pi, which we already 
+    imported earlier and can be accessed by simply typing pi. You can use 
+    exponentiation to square the radius. Finally, store the result in a 
+    variable called area.
+
+    Hint
+     if option == 'C':
+     radius = float(input("Enter radius: "))
+     area = pi * radius**2
+
+    16.Again, inside the if statement, print The pie is baking... on the next 
+    line.
+
+    Hint
+     if option == 'C':
+     radius = float(input("Enter radius: "))
+     area = pi * radius**2
+     print ("The pie is baking...")
+
+     17.Next, simulate a thinking calculator by sleeping the program for 1 
+     second.
+
+      Hint
+       if option == 'C':
+       radius = float(input("Enter radius: "))
+       area = pi * radius**2
+       print ("The pie is baking...")
+       sleep(1)
+
+    18.Finally, on the next line, print the area along with the hint using 
+    string formatting. Format the area to print only two decimal places and 
+    print the hint on a new line. See if you can do this all in one line of 
+    code.
+
+     Hint
+      if option == 'C':
+      radius = float(input("Enter radius: "))
+      area = pi * radius**2  
+      print ("The pie is baking...")
+      sleep(1) 
+       print ("Area: %.2f. \n%s" % (area, hint))
+
+    19.Great! You've completed the part of the program that handles the 
+    calculation for the area of a circle. Now it's time to move on to the next 
+    shape: the triangle.Add a corresponding elif statement to your if 
+    statement. The elif statement should check if the option the user 
+    entered is T (for triangle).
+
+     Hint - NOTE: this is repeated code shortened to show the elif
+      if option == 'C':
+        # ...
+      elif option == 'T':
+
+    20.The sequence in the elif block will be similar to the sequence of 
+    code used in calculating the area of the circle.To calculate the area of 
+    a triangle, first ask the user to enter the base of the triangle. Store the 
+    user's input in a variable called base. Convert the user's input from a 
+    String to a number by using the float()command.
+
+     Hint 
+      Use the hint from Step 14 to help you.
+
+    21.The height of the triangle is also needed to calculate its area. Ask 
+    the user to input the height of the triangle and store the input in a 
+    variable called height.
+
+     Hint 
+      Use the hints from Steps 14 and 20 to help you.22.Next, calculate the 
+      area and store it in a variable called area.
+
+     Hint
+      elif option == 'T':
+        base = float(input("Enter base: "))
+        height = float(input("Enter height: "))
+        area = (0.5)*base*height
+
+    23.Next, print the message Uni Bi Tri...to the user. On the next line, 
+    sleep the program for 1 second.
+
+     Hint
+      elif option == 'T':
+        base = float(input("Enter base: "))
+        height = float(input("Enter height: "))
+        area = (0.5)*base*height
+        print ("Uni Bi Tri...")
+        sleep(1)
+
+    24.Finally, print the area along with the hint using string formatting. 
+    Format the area to print only two decimal places and print the hint on a 
+    new line.HintUse the hint from Step 18 to help you.25.Fantastic! The 
+    user can now specify C for circle or T for triangle. But what if the user 
+    enters garbage?Add an else block to handle this possible case.
+
+     Hint
+      if option=='C':
+        # ...
+      elif option=='T':
+        # ...
+       else:
+
+    26.Inside of the else block, print a message to the user informing them 
+    that they entered garbage and that the program will exit.
+
+     Hint
+      else:
+        print ("Error! Invalid shape selector specified. Exiting.")
+
+    27.Perfect! Now we're ready to try the program out.First, click Run. 
+    You should see the program run in the terminal. It should print the 
+    welcome message, the time, and then prompt you for input. Go ahead 
+    and try the calculator out and see if it works!
+
+    28.Self-check your project by confirming the following two examples:
+    For a circle: inputting 23.3 for the radius outputs 1705.54.
+    For a triangle: inputting 33 as the base and 11 as the height outputs 
+    181.50.
+
+    Congratulations, you have a working area calculator! As an extension, 
+    see if you can add functionality to calculate the area of other shapes, 
+    like a square, or a rectangle, or other shapes. Happy coding! 
+    '''
+
+    #YOUR CODE GOES HERE

@@ -1,0 +1,32 @@
+.. mchoice:: mce_7_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter7/Exercises
+    :from_source: T
+
+    What is the output of the code below?
+
+    .. code-block:: cpp
+
+     int main() {
+       string quote = "Look at me. I'm the captain now.";
+       int x = quote.length();
+       cout << quote[x];
+     }
+
+    - -1
+
+      - -1 is not in ``quote``.
+
+    - w
+
+      - ``x`` is not the index value of the character 'w'.
+
+    - .
+
+      - ``x`` is not the index value of the last period.
+
+    - Error, we are indexing out of bounds.
+
+      + ``x`` has a value of 32 and there is no index 32 in ``quote``.

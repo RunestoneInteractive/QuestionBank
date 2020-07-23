@@ -1,0 +1,11 @@
+.. activecode:: ch08_5
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Strings/TraversalandtheforLoopByItem
+    :from_source: None
+    :nocanvas:
+
+    for avalue in range(10):
+        print(avalue)
+

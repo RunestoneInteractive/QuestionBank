@@ -1,0 +1,38 @@
+.. mchoice:: return_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter4/TheReturnStatement
+   :from_source: T
+   :answer_a: One! Two! Three!
+   :answer_b: Two! Three!
+   :answer_c: Three!
+   :answer_d: Two!
+   :answer_e: One!
+   :correct: b
+   :feedback_a: Take a look at the first conditional statement more closely.
+   :feedback_b: 8 is not greater than 8, so it doesn't meet the first condition.
+   :feedback_c: All of the following are "if" statements, with no return. There are no "else" statements.
+   :feedback_d: All of the following are "if" statements, with no return. There are no "else" statements.
+   :feedback_e: Take a look at the first conditional statement more closely.
+
+   What will print?
+
+   ::
+
+       #include <iostream>
+       using namespace std;
+
+       int main () {
+         int x = 8;
+         if (x > 8) {
+           cout << "One! ";
+         }
+         if (x > 6) {
+           cout << "Two! ";
+         }
+         if (x > 3) {
+           cout << "Three!" << endl;
+         }
+         return 0;
+       }

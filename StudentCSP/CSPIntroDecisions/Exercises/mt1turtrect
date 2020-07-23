@@ -1,0 +1,28 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPIntroDecisions/Exercises
+   :from_source: F
+.. parsonsprob:: mt1turtrect
+   :numbered: left
+   :adaptive: 
+
+   Put the blocks in order to define a function draw_rect that draws a rectangle using 
+   the passed turtle and the given width and height.  Before you move the turtle 
+   make sure that it is heading east (0).
+   -----
+   def draw_rect(turtle,width,height):
+   =====
+       turtle.setheading(0)
+   =====
+       for i in range(2):
+   =====
+       for i in range(4): #paired
+   =====
+           turtle.forward(width)
+           turtle.right(90)
+   =====
+           turtle.forward(height)
+           turtle.right(90)
+        

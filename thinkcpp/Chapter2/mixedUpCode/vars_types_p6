@@ -1,0 +1,28 @@
+.. parsonsprob:: vars_types_p6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/mixedUpCode
+   :from_source: T
+
+   Construct a block of code that converts the character 'a' to 'z'
+   using a complex set of operations.  Hint: Think about how many
+   letters are between 'a' and 'z'.
+
+   -----
+   int main() {
+   =====
+    char a = 'a';
+   =====
+    char a = "a"; #paired
+   =====
+    string a = "a"; #paired
+   =====
+    a = 3 * (9 - 2 * 2) + a + 10;
+   =====
+    a = a + 1 + 5 * 5; #paired
+   =====
+    a = 4 * 5 + a - (2 * -3); #paired
+   =====
+   }
+

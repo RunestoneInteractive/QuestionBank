@@ -1,0 +1,36 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+.. parsonsprob:: pCar1
+   :numbered: left
+   :adaptive:
+
+   Put the code below in order to define a Car class.  A car has a make and model.  Define a constructor (__init__), a method to return the attributes as a string (__str__), and a method speed that takes an integer, theSpeed, and returns "speed: " followed by the value of theSpeed.
+   -----
+   class Car:
+   =====
+       def __init__(self, make, model):
+   =====
+       def init(self, make, model): #paired
+   =====
+           self.make = make
+           self.model = model
+   =====
+       def __str__(self):
+   =====
+           return("make: " + self.make + " model: " + self.model)
+   =====
+           return(make:  + self.make + " model: " + self.model) #paired
+   =====
+           
+       def forward(self, theSpeed):
+   =====
+       def forward(theSpeed, self): #paired
+   =====
+           return("speed: " + str(theSpeed))
+   =====
+           return("speed: " + theSpeed) #paired 
+    

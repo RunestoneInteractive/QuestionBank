@@ -1,0 +1,14 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: ids17_06001
+      
+    ids_01：序值的範圍為何？請寫一程式列出序值與字元的對照表。輸出的每一行為 1 整數與 1 字元。字元若為 string 模組中的 whitespace 類別或非 printable，則以跳脫字元表示。
+    ~~~~
+    
+    ====
+    
+    

@@ -1,0 +1,14 @@
+.. codelens:: clensQuestion6_100_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
+   :from_source: T
+   :question: What is the value of the iterator variable after line 3 executes?
+   :feedback: The value of the iterator variable is changed inside of the for loop.
+   :breakline: 3
+   :correct: globals.val
+
+   item = ["M", "I", "S", "S", "O", "U", "R", "I"]
+   for val in item:
+       val = val + "!"

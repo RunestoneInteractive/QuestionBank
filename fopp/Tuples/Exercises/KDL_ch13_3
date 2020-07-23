@@ -1,0 +1,27 @@
+.. activecode:: KDL_ch13_3
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Tuples/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   I've created a function ``Tuples_for_Tupelo`` that returns a string use unpacking to input a tuple of strings. 
+
+   ~~~~
+   def Tuples_for_tupelo(s1,s2):
+       return "Tupelo ate " + s1 +" and " +s2
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertIn('(*', self.getEditorText(), 'contains unpacking')
+
+
+           
+   myTests().main()   

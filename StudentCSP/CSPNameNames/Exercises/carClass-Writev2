@@ -1,0 +1,31 @@
+.. activecode:: carClass-Writev2
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+   :autograde: unittest
+   :nocodelens: 
+
+   Finish the code to define a Car class. Every car object has a make and 
+   model. Define a constructor (__init__) to set the object's make and 
+   model, a method to return the attributes as a string (__str__) in the form
+   of "make: theMake model: theModel", and a method, forward, that takes theSpeed and returns
+   "forward: theSpeed".
+   ~~~~
+   class Car:
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           c = Car("Ford", "Focus")
+           self.assertEqual(c.__str__(), "make: Ford model: Focus", 'Car("Ford", "Focus")')
+           self.assertEqual(c.forward(30), "forward: 30", 'c.forward(30)')
+           c = Car("Toyota", "Camry")
+           self.assertEqual(c.__str__(), "make: Toyota model: Camry", 'Car("Toyota", "Camry")')
+           self.assertEqual(c.forward(80), "forward: 80", 'c.forward(80)')
+           
+   myTests().main()

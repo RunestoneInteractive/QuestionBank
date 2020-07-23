@@ -1,0 +1,18 @@
+.. mchoice:: overload_const_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :from_source: T
+   :practice: T
+   :answer_a: When a constructor takes one parameter.
+   :answer_b: When a constructor takes more than one parameter.
+   :answer_c: When one constructor is defined in a class.
+   :answer_d: When more than one constructor is defined in a class.
+   :correct: d
+   :feedback_a: For a constructor to be overloaded there must be more than one constructor.
+   :feedback_b: For a constructor to be overloaded there must be more than one constructor.
+   :feedback_c: For a constructor to be overloaded there must be more than one constructor.
+   :feedback_d: Overloading means that there is more than one constructor.  The parameter lists must differ in either number, order, or type of parameters.
+
+   Which of these is overloading?

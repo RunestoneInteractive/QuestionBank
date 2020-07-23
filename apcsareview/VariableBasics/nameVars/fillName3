@@ -1,0 +1,14 @@
+.. fillintheblank:: fillName3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: VariableBasics/nameVars
+   :from_source: T
+
+   What is the camel case variable name for a variable that represents the last score?
+
+   -    :^\s*lastScore$: Correct.
+        :.*: In camel case just appended the words after each other but uppercase the first letter of each word after the 1st word.  This would be lastScore
+
+
+

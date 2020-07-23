@@ -1,0 +1,14 @@
+.. activecode:: Question 1
+    :author: David Birrow
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+
+    You are Trying to calculate how many miles per gallon your car gets. Write a program that asks the user for three days worth of mileage. Use the input function. Then ask the user how many gallons of gas they used. Display the miles per gallon using the Print function. 
+
+    
+ 
+    ~~~~
+    # your code here

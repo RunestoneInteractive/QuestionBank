@@ -1,0 +1,28 @@
+.. actex:: ac21_6_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/Exercises
+   :from_source: T
+
+   Write equivalent code using map instead of the manual accumulation below and assign it to the variable ``test``.
+   ~~~~
+
+   things = [3, 5, -4, 7]
+
+   accum = []
+   for thing in things:
+       accum.append(thing+1)
+   print(accum)
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(test, [4, 6, -3, 8], "Testing whether test has been correctly defined.")
+           self.assertIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

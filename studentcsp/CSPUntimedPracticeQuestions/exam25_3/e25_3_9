@@ -1,0 +1,22 @@
+.. mchoice:: e25_3_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a: I
+   :answer_b: II
+   :answer_c: I and II
+   :answer_d: II and III
+   :correct: b
+   :feedback_a: Incorrect. This evaluates to False - a statement cannot be True AND False.
+   :feedback_b: Correct. The statement can be either True or False which evaluates to True.
+   :feedback_c: Incorrect. I evaluates to False.
+   :feedback_d: Incorrect. III evaluates to False because a statement cannot be False AND True.
+
+   Which of the following will evaluate to true?
+
+      | I. True AND False
+      | II. False or True
+      | III. False AND (True or False)
+

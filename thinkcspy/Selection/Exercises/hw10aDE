@@ -1,0 +1,13 @@
+.. activecode:: hw10aDE
+   :author: Damon Ellingston
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+
+   **Homework 10 part a**
+
+    Write a program (does not have to be a function) to generate a list that contains numbers divisible by 4, but not divisible by 3 and not divisible by 7. The numbers should all fall between 1 and 100. Sample output: 4, 8, 16, 20, 24, 32...etc.
+
+    Write the output to a text file named ``HW10.txt`` where the output appears on the page as a vertical column of numbers. In other words when someone opens HW10.txt with notepad they will see a single vertical list of numbers, no commas or letters.
+   ~~~~

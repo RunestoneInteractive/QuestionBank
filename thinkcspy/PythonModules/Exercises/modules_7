@@ -1,0 +1,15 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonModules/Exercises
+    :from_source: F
+.. activecode:: modules_7
+  
+    What are the possible values of 'ranNumber' after this line of code is 
+    executed?
+ 
+    ranNumber = random.randrange(1, 50)
+
+    ~~~~
+    

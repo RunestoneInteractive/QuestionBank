@@ -1,0 +1,27 @@
+.. mchoice:: 12.10.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 12_advanced_rendering/10_3d_text
+  :from_source: T
+  :random:
+
+  How does the WebGL program above decide the width of a "space" character?
+
+  - It uses the average width of all character models.
+
+    + Correct.
+
+  - It uses the width of the capital "A" character.
+
+    - Incorrect. The capital "A" character is used to set the :code:`baseline`
+      and :code:`character_height` values, but not the width of a space.
+
+  - It uses the width of the model that describes a "space".
+
+    - Incorrect. No such model is included in the character models. A "space"
+      model has no geometry, so it has no model.
+
+  - It uses the width of the "m" character.
+
+    - Incorrect.

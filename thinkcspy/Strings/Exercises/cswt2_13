@@ -1,0 +1,14 @@
+.. mchoice:: cswt2_13
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: use a linear search to store the data in the next open location.
+   :answer_b: delete the data that is already stored in the location.
+   :answer_c: delete the new data.
+   :answer_d: fire the IT manager.
+   :correct: a
+   :random:
+
+   13. One way to handle a hashing collision is to

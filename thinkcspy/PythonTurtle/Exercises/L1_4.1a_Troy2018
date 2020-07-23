@@ -1,0 +1,17 @@
+
+    :author: Shawn Haarer
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: L1_4.1a_Troy2018
+
+    # Lesson 1,  Sect. 4.1,   Turtle Intro
+
+    # How can I make a Turtle draw an image?
+~~~~
+    # Create a Turtle Window Object
+
+    # Create a Turtle Object  
+
+

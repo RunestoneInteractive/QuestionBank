@@ -1,0 +1,23 @@
+
+   :author: Nabeel Bacchus
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+.. activecode:: 1306_cw4_f19_q2
+
+   **[30 points] Question 2**. Write a program that takes a string as input and prints the unique characters in the string.
+   
+   `Sample input & Output:`
+
+   ::
+
+      Program Prompt: Give me a string?
+ 
+      User Response: FunnyFunnystring123321
+      
+      Program Prints: F u n y s t r i g 1 2 3
+
+  
+   ~~~~
+   #Your code goes here

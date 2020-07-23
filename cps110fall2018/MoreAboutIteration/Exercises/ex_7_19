@@ -1,0 +1,10 @@
+.. actex:: ex_7_19
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a function to uniformly enlarge an image by a factor of 2 (double the size).
+   ~~~~

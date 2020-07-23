@@ -1,0 +1,50 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: 1306_cw7_s20_q4
+    :autograde: unittest
+
+    **Question 4 [PRACTICE]** 
+
+    *Note: This is a practice problem, it will not be graded.*
+
+    The marketing department wants to make your company’s annual report more upbeat! You have agreed to help them \
+    by replacing all occurrences of ``good`` in the report to ``fantastic``, and all occurrences of ``poor`` to ``average``. \
+    Your task is to write a Python function lightup(report) that takes the report as a string argument and returns \
+    the enhanced report as a string. You must then print the enhanced report outside the function.
+
+    If user response is report = **Astros are good and Yankees are poor**, the above program should print: 
+
+    ::
+ 
+        Astros are fantastic and Yankees are average
+
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    #class myTests(TestCaseGui):
+        #import random
+        #def testOne(self):
+            
+            #self.assertEqual(ispalindrome('racecar'),True,"ispalindrome('racecar') should return True")
+            #self.assertEqual(ispalindrome('h'),True,"ispalindrome('h') should return True")
+            #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
+            #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
+            #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
+
+
+
+
+    #myTests().main()

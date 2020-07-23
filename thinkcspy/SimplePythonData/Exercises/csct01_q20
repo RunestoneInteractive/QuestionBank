@@ -1,0 +1,14 @@
+.. parsonsprob:: csct01_q20
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Drag the following instructions in the right order to assign a value to a variable named x, then add 10 to x, then print the result.
+   -----
+   x = 42
+   =====
+   x = x + 10
+   =====
+   print("The result is:", x)

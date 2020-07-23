@@ -1,0 +1,39 @@
+.. activecode:: ac17_6_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: NestedData/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: NestedData/ListswithComplexItems
+
+   Below, a list of lists is provided. Use in and not in tests to create variables with Boolean values. See comments for further instructions.
+
+   ~~~~
+
+   lst = [['apple', 'orange', 'banana'], [5, 6, 7, 8, 9.9, 10], ['green', 'yellow', 'purple', 'red']]
+
+   #Test to see if 'yellow' is in the third list of lst. Save to variable ``yellow``
+
+
+   #Test to see if 4 is in the second list of lst. Save to variable ``four``
+
+
+   #Test to see if 'orange' is in the first element of lst. Save to variable ``orange``
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(yellow, True, "Testing that yellow is assigned to correct value")
+      def testTwoB(self):
+         self.assertEqual(four, False, "Testing that four is assigned to correct value")
+      def testTwoC(self):
+         self.assertEqual(orange, True, "Testing that orange is assigned to correct value")
+
+   myTests().main()

@@ -1,0 +1,22 @@
+.. parsonsprob:: 3_8
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: PythonTurtle/IterationSimplifiesourTurtleProgram
+   :from_source: None
+
+   The following program uses a turtle to draw a triangle as shown to the left, <img src="../_static/TurtleTriangle.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 3 times, and each time through the loop the turtle should go forward 175 pixels, and then turn left 120 degrees.  After the loop, set the window to close when the user clicks in it.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p>
+   -----
+   import turtle
+   =====
+   wn = turtle.Screen()
+   marie = turtle.Turtle()
+   =====
+   # repeat 3 times
+   for i in [0,1,2]:
+   =====
+     marie.forward(175)
+   =====
+     marie.left(120)
+   =====
+   wn.exitonclick()

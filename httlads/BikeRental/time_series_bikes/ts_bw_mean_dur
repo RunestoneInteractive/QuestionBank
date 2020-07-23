@@ -1,0 +1,13 @@
+.. fillintheblank:: ts_bw_mean_dur
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/time_series_bikes
+   :from_source: T
+
+   For the week ending June 12, 2011 what was the mean duration of all rides?
+   |blank|
+
+   - :1223\..*: Is the correct answer
+     :x: You can use ``mean`` instead of count with resample
+

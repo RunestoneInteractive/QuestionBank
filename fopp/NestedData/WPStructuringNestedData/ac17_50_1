@@ -1,0 +1,13 @@
+.. activecode:: ac17_50_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: NestedData/WPStructuringNestedData
+    :from_source: T
+    :language: python
+
+    nested1 = [1, 2, ['a', 'b', 'c'],['d', 'e'],['f', 'g', 'h']]
+    for x in nested1:
+        print("level1: ")
+        for y in x:
+            print("     level2: {}".format(y))

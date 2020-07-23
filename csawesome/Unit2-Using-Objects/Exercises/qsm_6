@@ -1,0 +1,42 @@
+.. mchoice:: qsm_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: Hello Bob
+   :answer_b: Hello Hello Bob
+   :answer_c: Hello Bob Hello Bob
+   :answer_d: Hello Bob Hello
+   :correct: b
+   :feedback_a: The constructor is called first and prints out one "Hello ".
+   :feedback_b: The constructor is called first and prints out one "Hello " followed by the printSomething() method which prints out "Hello Bob ".
+   :feedback_c: The constructor is called first and prints out one "Hello ".
+   :feedback_d: The constructor is called first and prints out one "Hello " followed by printSomething().
+
+   Assume that SomeClass and MainClass are properly defined in separate files. What is the output of the code in main()?
+
+   .. code-block:: java
+
+      class SomeClass
+      {
+          public SomeClass()
+          {
+              System.out.print("Hello ");
+          }
+
+          void printSomething(String name)
+          {
+              System.out.print("Hello " + name + " ");
+          }
+      }
+
+      public class MainClass
+      {
+          public static void main(String[] args)
+          {
+              SomeClass someClass = new SomeClass();
+              someClass.printSomething("Bob");
+          }
+      }

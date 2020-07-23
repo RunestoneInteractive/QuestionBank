@@ -1,0 +1,21 @@
+.. clickablearea:: keywords_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter2/Keywords
+    :from_source: T
+    :question: Click on all keywords.
+    :iscode:
+    :feedback: Try again!
+
+    :click-correct:int:endclick: main() {
+        :click-correct:double:endclick: :click-incorrect:x:endclick: = 1.0;
+        :click-correct:int:endclick: :click-incorrect:y:endclick: = :click-incorrect:x:endclick: + 5;
+        :click-correct:bool:endclick: :click-incorrect:Bool:endclick:;
+        :click-correct:string:endclick: :click-incorrect:s:endclick: = :click-incorrect:"void":endclick:;
+        :click-correct:if:endclick: (:click-incorrect:y:endclick: > :click-incorrect:x:endclick:) {
+           :click-incorrect:Bool:endclick: = :click-correct:true:endclick:;
+        }
+        :click-incorrect:cout:endclick: << :click-incorrect:Bool:endclick: << :click-correct:endl:endclick:;
+    }
+

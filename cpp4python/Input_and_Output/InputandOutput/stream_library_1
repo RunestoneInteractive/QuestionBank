@@ -1,0 +1,18 @@
+.. mchoice:: stream_library_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cpp4python
+   :topic: Input_and_Output/InputandOutput
+   :from_source: T
+   :answer_a: Yes, ofstream is required to edit the file.
+   :answer_b: Yes, using ifstream will wipe the file clean without using ofstream first.
+   :answer_c: No, using ofstream on a file that already has information on it will clear the entire file.
+   :answer_d: No, ofstream is exclusively used for reading files.
+   :correct: c
+   :feedback_a: Wrong! Even though it is required for editing files, using ofstream first will cause problems when it opens a file that has previous work saved on it.
+   :feedback_b: Wrong! ifstream is only used to read files, therefore it will never edit the contents of one.
+   :feedback_c: Correct!
+   :feedback_d: Wrong! ifstream is used to read files instead.
+
+   Say you wanted to add some text to a file that already has important information on it.
+   Would it be a good idea to first use ``ofstream`` to open the file?

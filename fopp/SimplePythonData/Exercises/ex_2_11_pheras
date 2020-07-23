@@ -1,0 +1,10 @@
+.. actex:: ex_2_11_pheras
+   :author: Pedro de las Heras Quirós
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Write a program that will compute the area of a rectangle.  Prompt the user to enter the width and height of the rectangle.
+   Print a nice message with the answer.
+   ~~~~

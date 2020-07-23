@@ -1,0 +1,24 @@
+.. activecode:: ac10_5_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **2.** Provided is a string saved to the variable name ``sentence``. Split the string into a list of words, then create a dictionary that contains each word and the number of times it occurs. Save this dictionary to the variable name ``word_counts``.
+   ~~~~
+   sentence = "The dog chased the rabbit into the forest but the rabbit was too quick."
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sorted(word_counts.items()), sorted([('The', 1), ('dog', 1), ('chased', 1), ('the', 3), ('rabbit', 2), ('into', 1), ('forest', 1), ('but', 1), ('was', 1), ('too', 1), ('quick.', 1)]), "Testing that word_counts was created correctly.")
+
+   myTests().main()

@@ -1,0 +1,17 @@
+.. mchoice:: q3_1_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: VariableBasics/vIntro
+   :from_source: T
+   :answer_a: int
+   :answer_b: double
+   :answer_c: boolean
+   :answer_d: String
+   :correct: b
+   :feedback_a: The integer type (int) can't be used to represent decimal numbers so you couldn't use it if you had any cents.
+   :feedback_b: The double type can be used to represent an amount of money.
+   :feedback_c: Java uses boolean for values that are only true or false.
+   :feedback_d: While you can use a string to represent the amount of money you have it is easier to do calculations on the numeric types (int or double).
+
+   What type should you use to represent the amount of money you have?

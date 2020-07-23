@@ -1,0 +1,20 @@
+.. activecode::  13_4_4_WSa
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :topic: CSPStringDecisions/elif
+    :from_source: T
+    :nocodelens:
+
+    num = input ("Type a number from 1 to 5. Then click OK or press enter")
+    states = int(num)
+    if states <10 :
+        print("It seems that you have explored some states.")
+    elif states <25 :
+        print("Wow, you're almost halfway through seeing the entire US.")
+    elif states <50:
+        print("You're so well traveled!")
+    elif states == 50:
+        print("Congratulations on exploring the US!")
+    else:
+        print("There are 50 US states, are you sure you traveled this many?")

@@ -1,0 +1,18 @@
+.. mchoice:: timed-q-ex2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/qnum
+   :from_source: T
+   :multiple_answers:
+   :correct: a, c
+   :answer_a: red
+   :answer_b: brown
+   :answer_c: blue
+   :answer_d: gray
+   :feedback_a: Red it is.
+   :feedback_b: Not brown.
+   :feedback_c: Blue it is.
+   :feedback_d: Not gray.
+
+   What colors might you see in a rainbow?

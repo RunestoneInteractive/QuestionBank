@@ -1,0 +1,21 @@
+.. mchoice:: 6.9.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 06_transformations/09_transformations_example3
+  :from_source: T
+  :random:
+  :answer_a: Doing the matrix multiplications in JavaScript means they are done only once per model.
+  :answer_b: If the matrices were multiplied in a vertex shader, the multiplications would be done for every vertex!
+  :answer_c: This is a good idea and should be done.
+  :answer_d: Because you couldn't get all the matrices into the shader program.
+  :correct: a,b
+  :feedback_a: Correct.
+  :feedback_b: Correct. If your model had 1000 vertices, you would be performing 7000 matrix multiplications.
+  :feedback_c: Incorrect.
+  :feedback_d: Incorrect. You could have 7 uniform variables, one for each matrix, but copying data from the CPU RAM into the GPU can slow rendering down.
+
+  The transformation matrix that transforms the upper arm is calculated using seven matrices.
+  You could pass all seven matrices to a *vertex shader* and let the GPU calculate the combined
+  transformation matrix. Besides, the GPU is very fast at computations! Why is this a bad idea?
+  (Select all that apply.)

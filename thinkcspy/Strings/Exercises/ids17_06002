@@ -1,0 +1,14 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: ids17_06002
+      
+    ids_02：請實作一矩陣乘法的程式。輸入格式與練習 6.10 相同。
+    ~~~~
+    
+    ====
+    
+    

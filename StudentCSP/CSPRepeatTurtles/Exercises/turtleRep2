@@ -1,0 +1,33 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPRepeatTurtles/Exercises
+   :from_source: F
+.. parsonsprob:: turtleRep2
+   :numbered: left
+
+   Put the code in order to draw a pentagon (5 sided figure).  Import the turtle library, create a screen object, create a turtle object, repeat 5 times: go forward 100 and turn right the required amount.
+   -----
+   from turtle import *  
+   =====  
+   space = Screen()  
+   =====    
+   will = Turtle()      
+   =====    
+   Will = Turtle() #paired
+   =====
+   for sides in range(5):  
+   =====
+   for sides in range(5) #paired
+   =====   
+       will.forward(100)  
+   =====   
+       will.forward(100 #paired  
+   =====
+       will.right(72)
+   =====   
+       will.right(60)  #paired
+
+
+    

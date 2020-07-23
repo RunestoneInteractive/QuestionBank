@@ -1,0 +1,17 @@
+
+    :author: Max Garagnani
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: Foundations2018-19_Lab-04
+ 
+
+    ~~~~
+    # A simple program illustrating the use of the "for" statement
+
+    print("This function generates chaotic values")
+    x = float(input("Enter a number between 0 and 1: "))
+    for i in range(10):
+        x = 3.9 * x * (1 - x)
+        print(x)

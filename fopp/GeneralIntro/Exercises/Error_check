@@ -1,0 +1,23 @@
+.. activecode:: Error_check
+   :author: Christopher De Pree
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   
+   :available_files: school_prompt.txt
+
+   **Error Check:** The following code has 4 errors that are preventing it from running.  Find and correct the errors.  (Hint: use print statements to help identify some of the errors). The original task was:Using the file ``school_prompt.txt``, if the character 'p' is in a word, then add the word to a list called ``p_words``.
+   ~~~~
+   school_file=open("school_prompt.txt",r)
+   school_lst=school_file.readlines()
+   p_words=0
+   for aline in school_lst:
+       aline = aline.strip()  # strips off the \n line return symbol
+       lst_line=aline.split(", ")
+       for word in lst_line:
+           for i in word:
+               if i = "p":
+                   if word not in p_words:
+                       p_words.append(word)
+   print(p_words)

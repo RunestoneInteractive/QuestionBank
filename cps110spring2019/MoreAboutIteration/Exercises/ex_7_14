@@ -1,0 +1,11 @@
+.. actex:: ex_7_14
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Modify the walking turtle program so that rather than a 90 degree left or right turn the
+   angle of the turn is determined randomly at each step.
+   ~~~~

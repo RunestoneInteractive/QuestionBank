@@ -1,0 +1,24 @@
+.. actex:: TL_365_ch_6_3
+   :author: Tyler Luchko
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Assign the value of the last character of 'lst' to the variable
+   'output'. Do this so that the length of 'lst' doesn’t matter.
+   ~~~~
+   lst = "It might seem crazy what I'm 'bout to say, Sunshine she's here, you can take a break"
+   
+   ====
+
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(output, 'k', 'Checking if assigned variable gives correct value')
+           self.assertFalse(re.search(r'output *= *["\']k["\']', self.getEditorText()), "Checking for hardcoding")
+   myTests().main()
+

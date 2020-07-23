@@ -1,0 +1,29 @@
+.. activecode:: LHSQuestionEight
+    :author: Wesley Thang
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    The dictionary ``golds`` contains information about how many gold medals each
+    country won in the 2016 Olympics. But today, Spain won 2 more gold medals.
+    Update ``golds`` to reflect this information. Do not hard code this.
+
+
+    ~~~~   
+    golds = {"Italy": 12, "USA": 33, "Brazil": 15, "China": 27, "Spain": 19, "Canada": 22, "Argentina": 8, "England": 29}
+    
+    # your code here to make changes to the golds dictionary.
+        
+    ====
+    
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertEqual(sorted(golds.items()), sorted([("Italy", 12), ("USA", 33), ("Brazil", 15), ("China", 27), ("Spain", 21), ("Canada", 22), ("Argentina", 8), ("England", 29)]), "Testing that golds has been updated correctly.")
+
+    myTests().main()

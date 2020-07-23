@@ -1,0 +1,23 @@
+.. activecode:: ac6_8_7
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TheAccumulatorPattern
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   **Challenge** Now do the same as in the previous problem, but do not create a new list. Overwrite the list ``numbs`` so that each of the original numbers are increased by 5.
+   ~~~~
+   numbs = [5, 10, 15, 20, 25]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFive(self):
+         self.assertEqual(numbs, [10, 15, 20, 25, 30], "Testing that numbs is assigned to correct values.")
+
+   myTests().main()

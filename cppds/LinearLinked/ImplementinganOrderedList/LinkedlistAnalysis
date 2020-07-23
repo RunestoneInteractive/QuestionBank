@@ -1,0 +1,11 @@
+.. dragndrop:: LinkedlistAnalysis
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :topic: LinearLinked/ImplementinganOrderedList
+    :from_source: T
+    :feedback: Try again!
+    :match_1: O(1)|||isEmpty, add (unordered linked list)
+    :match_2: O(n)|||length,add, search, and remove(ordered linked list)
+
+    Match the Big O() analysis to their corresponding  opperation.

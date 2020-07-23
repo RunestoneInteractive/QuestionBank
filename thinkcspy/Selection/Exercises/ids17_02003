@@ -1,0 +1,27 @@
+.. activecode:: ids17_02003
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+   
+    4.3(劉邦鋒，由片語學習C程式設計)寫一個程式讀入四個整數a、b、c、d。計算以(a,b)及(c,d)為兩對角頂點的長方形面積。注意(a,b)及(c,d)若是水平或是垂直共線則面積為0。
+
+    輸入：
+
+    -1
+
+    5
+
+    6
+
+    -3
+
+    輸出：
+
+    56
+
+    ~~~~
+    
+    ====
+    

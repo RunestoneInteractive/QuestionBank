@@ -1,0 +1,25 @@
+.. activecode:: ac11_4_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/Returningavaluefromafunction
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **10.** Write a function called ``subtract_three`` that takes an integer or any number as input, and returns that number minus three.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(subtract_three(9), 6, "Testing the subtract_three function on input 9.")
+         self.assertEqual(subtract_three(-5), -8, "Testing the subtract_three function on input -5.")
+
+   myTests().main()
+

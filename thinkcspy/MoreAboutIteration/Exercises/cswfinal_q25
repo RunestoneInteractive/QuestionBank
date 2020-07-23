@@ -1,0 +1,15 @@
+.. parsonsprob:: cswfinal_q25
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+
+   25. Put the following lines of code in order to create a function that returns the number of bits needed to store an image. Assume that each pixel is represented by 24 bits.
+   -----
+   def image_size(img):
+   '''Returns the size of an image in bits'''
+   =====
+       numbits = img.getWidth() * img.getHeight() * 24
+   =====
+       return numbits

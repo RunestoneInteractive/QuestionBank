@@ -1,0 +1,34 @@
+.. activecode:: lhs_3_2
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Debugging/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Find and fix the error(s) in the following program:
+
+    ~~~~
+    milesDriven = input("How many miles have you driven? ')
+    gallonsUsed = input["How many gallons of gas have been used?")
+
+    milesDriven = float(milesDriven)
+    gallonsUsed = floot(gallonsUsed)
+
+    mpg = milesDriven\gallonsUsed
+
+    print("Your MPG is ", mpg)
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            outText = " ".join(self.getOutput().split()) # remove extra spaces in the output
+            self.assertIn('Your MPG is ' + str(mpg), outText, "Actual is correct value. Expected is your program output.")
+
+    myTests().main()

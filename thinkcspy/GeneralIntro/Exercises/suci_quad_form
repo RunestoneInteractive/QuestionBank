@@ -1,0 +1,17 @@
+
+   :author: peter suci
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. actex:: suci_quad_form
+
+   Write a program that will solve a quadratic equation of the form x^2 + bx + c = 0.
+   ~~~~
+   a = 1
+   # write code to prompt the user to enter b (linear coefficient))
+   # write code to prompt the user to enter c (constant term))
+   # write code that uses the formulas to calculate the 2 roots and places them two variables  
+   # write code that prints the 2 variables with an explanation
+
+    

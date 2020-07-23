@@ -1,0 +1,37 @@
+
+    :author: Shawn Haarer
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: L6.1_Troy2018
+
+    In this lesson we will create two FUNCTIONS in Python.  One function will
+    draw a square, the next will draw a triangle
+    ~~~~
+    # LESSON 6.1    Learn to Define and Call a Function in Python
+
+    # Define a function that will draw a square
+
+
+
+     # Define a function that will draw a triangle 
+
+
+
+
+    # the MAIN Program starts below
+
+    import turtle
+    win = turtle.Screen()
+    tim = turtle.Turtle()
+    tim.shape("turtle")
+    tim.speed(6)
+    tim.color("purple")
+    tim.penup()
+    tim.goto(-150, -150)
+
+    # CALL the function that will draw a square
+    
+    
+    

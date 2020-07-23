@@ -1,0 +1,14 @@
+.. actex:: egt_httlacs_test_02
+   :author: Eric Taucher (Instructor)
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Write a program that will convert degrees Fahrenheit to degrees Kelvin.
+   ~~~~
+   # Input degrees in Fahrenheit and output degrees in Kelvin. 
+
+   fahrenheit_float = float(input("Fahrenheit: "))
+
+   # your code goes here

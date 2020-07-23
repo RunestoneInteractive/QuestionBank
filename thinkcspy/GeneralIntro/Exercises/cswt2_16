@@ -1,0 +1,14 @@
+.. mchoice:: cswt2_16
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 80 ms
+   :answer_b: 320 ms
+   :answer_c: 400 ms
+   :answer_d: 600 ms
+   :correct: a
+   :random:
+
+   16. If it takes 20 ms (milliseconds), on average, to search a list of 150 items, using linear search, how long will it take, on average, to search a list of 600 items?

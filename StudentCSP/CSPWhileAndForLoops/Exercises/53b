@@ -1,0 +1,35 @@
+.. parsonsprob:: 53b
+    :author: Renske Weeda
+    :difficulty: 1.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+
+    Schrijf een programma die telt hoeveel elementen er in een lijst zitten, zonder de <i>len</i> functie te gebruiken. Zet de regels code in de juiste volgorde. Er staat <i>1 overbodige</i> regel code tussen.
+    -----
+    lijst = [3, 8, 12, -4]
+    =====
+    teller = 0
+    =====
+    getal = 0 #paired
+    =====
+    for getal in lijst:
+    =====
+    for teller in lijst: #paired
+    =====
+        teller += 1
+    =====
+        getal += 1 #paired
+    =====
+    print(teller)
+    =====
+    print(getal) #paired
+    =====
+    teller += getal #distractor
+
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div

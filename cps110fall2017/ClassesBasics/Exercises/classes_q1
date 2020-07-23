@@ -1,0 +1,11 @@
+.. actex:: classes_q1
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: ClassesBasics/Exercises
+   :from_source: None
+
+   Add a ``distanceFromPoint`` method that works similar to ``distanceFromOrigin`` except that it
+   takes a ``Point`` as a parameter and
+   computes the distance between that point and self.
+   ~~~~

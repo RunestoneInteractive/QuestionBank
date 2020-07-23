@@ -1,0 +1,27 @@
+.. mchoice:: mt1_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/Exercises
+   :from_source: F
+   :answer_a: 0 3 6 9 12 15
+   :answer_b: 0 1 2 3 4 5
+   :answer_c: 1 4 7 10 13
+   :answer_d: This code will not print anything.
+   :answer_e: 0 3 6 9 12
+   :correct: d
+   :feedback_a: This would be true if this loop had the correct syntax on the print.
+   :feedback_b: The conditional would only match multiples of three, and the program does not output anything due to incorrect syntax.
+   :feedback_c: The conditional would only match multiples of three, and the program does not output anything due to incorrect syntax.
+   :feedback_d: The syntax to output text is System.out.print(), so this code will cause a compiler error.
+   :feedback_e: The program would also output 15, since the loop runs until x <= 15. However, the program does not output anything due to incorrect syntax.
+
+   What will be printed after this code is executed?
+
+   .. code-block:: java
+
+     for (int i = 0; i <= 15; i++) {
+        if (i % 3 == 0) {
+            System.print(i + " ");
+        }
+     }

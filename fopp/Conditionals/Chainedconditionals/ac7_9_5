@@ -1,0 +1,40 @@
+.. activecode:: ac7_9_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Conditionals/Chainedconditionals
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   We have created conditionals for you to use. Do not change the provided conditional statements. Find an integer value for ``x`` that will cause ``output`` to hold the values ``True`` and ``None``. (Drawing diagrams or flow charts for yourself may help!)
+   ~~~~
+   x =
+   output = []
+
+   if x > 63:
+       output.append(True)
+   elif x > 55:
+       output.append(False)
+   else:
+       output.append("Neither")
+
+   if x > 67:
+       output.append(True)
+   else:
+       output.append(None)
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testSixA(self):
+         self.assertEqual(output, [True, None], "Testing that value of output is correct.")
+
+      def testSixB(self):
+         self.assertEqual(x in [64, 65, 66, 67], True, "Testing that value of x is reasonable for this problem")
+
+   myTests().main()

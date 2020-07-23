@@ -1,0 +1,14 @@
+
+    :author: Richard Bernatz
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. dragndrop:: q1_rab_type
+    :feedback: Feedback that is displayed if things are incorrectly matched
+    :match_1: str|||"Ricardo Bernatelli"
+    :match_2: int|||33
+    :match_3: float|||2.71828
+
+    Match the correct type with the object.
+    

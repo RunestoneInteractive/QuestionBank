@@ -1,0 +1,17 @@
+.. mchoice:: while_statement_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter6/the_while_statement
+   :from_source: T
+   :practice: T
+   :answer_a: n = 2
+   :answer_b: n != 0
+   :answer_c: n % 2 == 1
+   :correct: a
+   :feedback_a: A single equal sign is the assignment operator, not comparison.
+   :feedback_b: This would be valid because it means the loop would run while n is not equal to 0.
+   :feedback_c: This would be valid because it mean the loop would run until n was an even number.
+
+
+   Which of the following is NOT a valid condition for a while statement?

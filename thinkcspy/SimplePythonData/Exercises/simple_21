@@ -1,0 +1,18 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: simple_21
+
+    Fix the following code:
+ 
+         	number = input("Enter a number between 1 and 10: ")
+
+         	num = num * num
+
+         	print num
+
+    ~~~~
+    

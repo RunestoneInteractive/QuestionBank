@@ -1,0 +1,30 @@
+.. activecode:: structures_parameters_AC_2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter8/structures_as_parameters
+  :from_source: T
+  :language: cpp
+
+  The active code below uses the updated version of the ``distance`` function.
+  Feel free to modify the code!
+  ~~~~
+  #include <iostream>
+  #include <cmath>
+  using namespace std;
+
+  struct Point {
+      double x, y;
+  };
+
+  double distance (Point p1, Point p2) {
+      double dx = p2.x - p1.x;
+      double dy = p2.y - p1.y;
+      return sqrt (dx*dx + dy*dy);
+  }
+
+  int main() {
+      Point origin = { 0.0, 0.0 };
+      Point point = { 3.0, 4.0 };
+      cout << "The distance from the point to the origin is " << distance (origin, point) << endl;
+  }

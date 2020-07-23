@@ -1,0 +1,22 @@
+
+    :author: Damon Ellingston
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: testhw4de
+
+    To get this title inside the yellow box but outside the actual code space, you have to end with four tildes and do NOT prepend the dots<coach>dots command, that puts stuff inside the codespace --> DO NOT USE COACH
+    ~~~~
+    for i in [0,1,2,3,4]:
+
+
+
+    ====
+    print("It should print Hello, world! five times")
+
+config values (conf.py): 
+
+- activecode_div_class - custom CSS class of the component's outermost div
+
+    

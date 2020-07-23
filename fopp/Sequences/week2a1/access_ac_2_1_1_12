@@ -1,0 +1,27 @@
+.. activecode:: access_ac_2_1_1_12
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sequences/week2a1
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Sequences/Length
+
+   Assign the number of elements in ``lst`` to the variable ``num_lst``.
+   ~~~~
+   lst = ["hi", "goodbye", "python", "106", "506", 91, ['all', 'Paul', 'Jackie', "UMSI", 1, "Stephen", 4.5], 109, "chair", "pizza", "wolverine", 2017, 3.92, 1817, "account", "readings", "papers", 12, "facebook", "twitter", 193.2, "snapchat", "leaders and the best", "social", "1986", 9, 29, "holiday", ["women", "olympics", "gold", "rio", 21, "2016", "men"], "26trombones"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+   import re
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(num_lst, 30, "Testing that num_lst has the correct length assigned.")
+         self.assertFalse(re.search(r'num_lst\s*=\s*30', self.getEditorText()), "Hardcoding Check (Don't worry about actual and expected values)")
+
+   myTests().main()

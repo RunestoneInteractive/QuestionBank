@@ -1,0 +1,14 @@
+.. mchoice:: cswq3_6
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+   :answer_a: 73
+   :answer_b: 1001
+   :answer_c: 101
+   :answer_d: 146
+   :correct: a
+   :random:
+
+   Convert the following (unsigned) binary number to decimal: 001001001

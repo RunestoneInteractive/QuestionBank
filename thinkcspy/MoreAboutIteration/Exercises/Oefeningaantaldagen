@@ -1,0 +1,11 @@
+.. activecode:: Oefeningaantaldagen
+    :author: Jan Persan
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+    :language: python
+
+    Vraag aan de gebruiker een aantal dagen. Jouw programma berekent hoeveel maanden (=30 dagen), weken en dagen dit zijn. Vb: 38 dagen is 1 maand, 1 week en 1 dag. Schrijf een antwoordzin die de input van de gebruiker herhaalt en vervolgens ook het juiste antwoord weergeeft. Kies voor je variabelen correcte en betekenisvolle namen.
+    ~~~~
+    

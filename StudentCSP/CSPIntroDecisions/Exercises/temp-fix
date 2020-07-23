@@ -1,0 +1,39 @@
+.. activecode:: temp-fix
+       :author: Barbara  Ericson
+       :difficulty: 0.0
+       :basecourse: StudentCSP
+       :topic: CSPIntroDecisions/Exercises
+       :from_source: F
+       :autograde: unittest
+
+       Fix the code below so that if your temperature is 
+       above 100.4 it returns "Fever", if it is above 99 and less than or equal to 100.4 
+       return "High", if it is between 97 and 99 (inclusive) return
+       "Normal" and if below 97 return "Low".
+       below 97.  
+       ~~~~
+       def print_temp(temp):
+           result = ""
+           if temp >100.4:
+               result = "Fever"
+           if temp > 99: 
+               result = "High"
+           if temp >= 97:
+               result = "Normal"
+           if temp < 97:
+               result = "Low"
+           return result
+       ====
+       from unittest.gui import TestCaseGui
+
+       class myTests(TestCaseGui):
+
+           def testOne(self):
+
+               self.assertEqual(print_temp(106.2), "Fever", "print_temp(105)")
+               self.assertEqual(print_temp(100.4), "High", "print_temp(100.4)")
+               self.assertEqual(print_temp(97), "Normal", "print_temp(97)")
+               self.assertEqual(print_temp(95), "Low", "print_temp(95)")
+       
+
+       myTests().main()

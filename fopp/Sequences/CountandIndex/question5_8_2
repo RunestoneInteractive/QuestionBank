@@ -1,0 +1,23 @@
+.. mchoice:: question5_8_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sequences/CountandIndex
+   :from_source: T
+   :answer_a: 0
+   :answer_b: 2
+   :answer_c: 3
+   :answer_d: There is an error.
+   :correct: b
+   :feedback_a: No, there is at least one e in the string.
+   :feedback_b: Yes, there is a difference between "we" and "We" which means there are only two in the string.
+   :feedback_c: there is a difference between "we" and "We".
+   :feedback_d: There is no error in the code.
+   :practice: T
+
+   What will be stored in the variable ty below?
+
+   .. sourcecode:: python
+
+      qu = "wow, welcome week! Were you wanting to go?"
+      ty = qu.count("we")

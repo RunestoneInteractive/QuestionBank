@@ -1,0 +1,11 @@
+.. actex:: ic1_p2_1
+   :author: Thamar Solorio
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Request the user to type their first name and assign it to a variable called first_name. Then request the user to type their last name and store in variable last_name. 
+   Then print the following message (in a single line): Hi <first name> <last name>, how’s your day so far?
+   ~~~~
+   %Your code goes here

@@ -1,0 +1,102 @@
+.. activecode:: lhs_2_5
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    COINS
+
+    Some cash register systems use change machines that automatically dispense coins. You always want to use the fewest coins possible. You should use integer mathematics to solve this problem.
+
+    The shell of a function called Coins has been created for you to complete. The input to the function is the variable centsOwed. It is an integer which express how much changed should be returned in cents. Use the variables ``quarters``, ``dimes``, ``nickels``, and ``pennies`` to calculate and return how many of each coin type should be returned to the customer. 
+
+    Have it **print out** the as shown in the output example below!!
+
+    For example, the output you would get if the function is called with 35 or 41 cents is below.
+
+    Your code does not need to call the function. A tester will call the function with some test values. You will just modify the function.
+
+    ::
+
+      35 cents =>
+      Quarter(s)   1
+      Dime(s)      1
+      Nickel(s)    0
+      Penny(s)     0
+ 
+      41 cents =>
+      Quarter(s)   1
+      Dime(s)      1
+      Nickel(s)    1
+      Penny(s)     1
+
+    ~~~~
+    # My Name:
+    
+    # function Coins
+    #    input: centOwed - the amount of change that should be returned - an integer
+    def Coins(centsOwed):  
+        # DO NOT USE input() as the test program will supply centsOwned with a value already
+        # write your code here to calculate the variables quarters, dimes, nickels, pennies based on centsOwed
+        quarters = ...
+        dimes = ...
+        etc.
+
+        # print proper output messages 
+        print( ... )  # there should be 5 print statements
+
+        # NOTE: keep all the code indented like these comments
+        return(quarters, dimes, nickels, pennies)
+
+    # No code should be written outside the function !!
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+    
+        def goldenCoins(self, centsOwed):
+            quarters = centsOwed // 25
+            centsOwed = centsOwed % 25
+            dimes = centsOwed // 10
+            centsOwed = centsOwed % 10
+            nickels = centsOwed // 5
+            pennies = centsOwed % 5
+            return (quarters, dimes, nickels, pennies)  
+
+        def testOne(self):
+            c = 59
+            q, d, n, p = self.goldenCoins(c)
+            qt, dt, nt, pt = Coins(c)
+            self.assertEqual(qt, q, feedback="Quarters is correct")
+            self.assertEqual(dt, d, feedback="Dimes is correct")
+            self.assertEqual(nt, n, feedback="Nickels is correct")
+            self.assertEqual(pt, p, feedback="Pennies is correct")
+            self.assertIn("59 cents =>", self.getOutput(), "Testing # cents ==> output")
+       
+            c = 19
+            q, d, n, p = self.goldenCoins(c)
+            qt, dt, nt, pt = Coins(c)
+            self.assertEqual(qt, q, feedback="Quarters is correct")
+            self.assertEqual(dt, d, feedback="Dimes is correct")
+            self.assertEqual(nt, n, feedback="Nickels is correct")
+            self.assertEqual(pt, p, feedback="Pennies is correct")
+            self.assertIn("19 cents =>", self.getOutput(), "Testing # cents ==> output")
+       
+            c = 94
+            q, d, n, p = self.goldenCoins(c)
+            qt, dt, nt, pt = Coins(c)
+            self.assertEqual(qt, q, feedback="Quarters is correct")
+            self.assertEqual(dt, d, feedback="Dimes is correct")
+            self.assertEqual(nt, n, feedback="Nickels is correct")
+            self.assertEqual(pt, p, feedback="Pennies is correct")
+            self.assertIn("94 cents =>", self.getOutput(), "Testing # cents ==> output")
+        
+            self.assertIn("Quarter(s)", self.getOutput(), "Testing Quarters printout")
+            self.assertIn("Dime(s)", self.getOutput(), "Testing Dimes printout")
+            self.assertIn("Nickel(s)", self.getOutput(), "Testing Nickels printout")
+            self.assertIn("Penny(s)", self.getOutput(), "Testing Pennies printout")
+
+    myTests().main()

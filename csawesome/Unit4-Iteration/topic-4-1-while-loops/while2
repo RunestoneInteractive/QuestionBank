@@ -1,0 +1,27 @@
+.. mchoice:: while2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit4-Iteration/topic-4-1-while-loops
+   :from_source: T
+   :practice: T
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 16
+   :answer_d: 6
+   :correct: d
+   :feedback_a: Count is changed inside the loop and after the loop.
+   :feedback_b: Count is changed inside the loop and after the loop.
+   :feedback_c: Don't forget to subtract 10 from count after the loop.
+   :feedback_d: Yes, the loop will keep multiplying count by 2 to get 2, 4, 8, 16 and then it subtracts 10 from 16 after the loop.
+
+   Consider the following code segment. What is count's value after running this code segment? (To trace through the code, keep track of the variable count and its value through each iteration of the loop.)
+
+   .. code-block:: java
+
+     int count = 1;
+     while (count <= 10)
+     {
+         count *= 2;
+     }
+     count = count - 10;

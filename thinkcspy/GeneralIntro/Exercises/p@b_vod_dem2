@@ -1,0 +1,13 @@
+
+    :author: Michael Garrant
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. dragndrop:: p@b_vod_dem2
+    :feedback: Feedback that is displayed if things are incorrectly matched--is optional
+    :match_1: Star Trib|||Minneapolis
+    :match_2: Boston Globe|||Boston
+    :match_3: NY Times|||NYC
+    
+    Match each newspaper to city published.

@@ -1,0 +1,13 @@
+.. activecode:: ch02_17
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: SimplePythonData/OperatorsandOperands
+    :from_source: None
+    :nocanvas:
+
+    print(7 / 4)
+    print(7 // 4)
+    minutes = 645
+    hours = minutes // 60
+    print(hours)

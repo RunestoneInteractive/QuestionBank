@@ -1,0 +1,12 @@
+.. activecode:: String_Convert
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPNameStrings/assignNameStr
+   :from_source: T
+   :tour_1: "Line-by-line Tour"; 1: sa3-line1; 2: sa3-line2; 3: sa3-line3; 4: sa3-line4;
+
+   Fred = 5
+   print("Fred")
+   print(Fred)
+   print("Fred" + " is " + str(Fred))

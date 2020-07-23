@@ -1,0 +1,46 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+.. parsonsprob:: pNumGuess1v2
+   :numbered: left
+   :adaptive: 
+
+   Put the code in order to define a NumberGuess class that will pick a random number from 1 to 100 in the __init__ method. Create a play method that loops while the current user guess is not equal to the game's pick.  The game will ask the user to pick a number from 1 to 100 and tell the user if the guess is too low, too high, or correct.
+   -----
+   import random
+   =====
+   class NumberGuess:
+   =====
+       def __init__(self): 
+   =====
+       def __init__(): #paired
+   =====
+           self.number = random.randrange(1, 101)
+           self.guess = -1
+   =====
+       def play(self):
+   =====
+       def play(): #paired
+   =====
+           while (self.number != self.guess):
+   =====
+           while (True): #paired
+   =====
+               value = input("Guess a number from 1 to 100: ")
+               self.guess = int(value)
+   =====
+               if (self.guess < self.number):
+   =====
+                   print("Too low")
+   =====
+               elif (self.guess > self.number):
+   =====
+                   print("Too high")
+   =====
+               else:
+   =====
+                   print("You guessed the number!")
+  

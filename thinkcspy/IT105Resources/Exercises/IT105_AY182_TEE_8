@@ -1,0 +1,39 @@
+.. activecode:: IT105_AY182_TEE_8
+  :author: Chip Schooler
+  :difficulty: 1.0
+  :basecourse: thinkcspy
+  :topic: IT105Resources/Exercises
+  :from_source: F
+  :language: python
+  :autograde: unittest
+  :nocodelens:
+  
+  Time to manipulate and decompose a list.  From the list declared below as ``theList``, write a function called swapItems that takes ``theList`` as input and returns a 2 item list comprised of the second item of the first item and the first item of the second item. 
+  
+  An example
+  
+  ::
+  
+    theList = [1,2],[3,4]
+    swapItems(theList) # this returns [2,3]
+   
+
+  ~~~~
+  
+ 
+  theList = [["192.168.10.10","127.56.12.100"],["134.240.241.71","134.240.241.73"]]
+  
+  def swapItems(theList):
+    pass   
+    # your code here
+  ====
+  from unittest.gui import TestCaseGui
+
+  class Tests(TestCaseGui): 
+    def tests(self):
+       
+      
+      self.assertEqual(swapItems(theList),["127.56.12.100","134.240.241.71"],"Should be a list")
+      self.assertIn('[0][1]', self.getEditorText(), "Must use an index, i.e. [] construct.")
+      
+  Tests().main()

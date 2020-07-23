@@ -1,0 +1,15 @@
+.. activecode:: number_guessing
+    :author: Richard Moffat
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+   
+    Number Guessing Game.
+    Write a program that accomplishes all of the following:
+    1. Computer comes up with a random number between 1  and 100. User tries to guess the number in fewest guesses possible. After each guess, the program tells the user whether her guess was too high or too low. If the user guesses correctly, the programs prints out a congratulation message and the number of guesses. Add additional features that you think would add to the user experience.
+    2. Reverse roles and have the user randomly select the number and have the computer guess.  Build in a feedback system, so the computer can learn from previous guesses. Try to make the computer as efficient at guessing as possible. You could choose to have the user provide feedback interactively, or you could build a simulation of this process, where the computer acts a virtual user. (Algorithm required to be completed prior to coding this version).
+    3. Provide the user with the choice of game mode (1 or 2) and let them decide which version of the game to play.
+
+    
+    ~~~~

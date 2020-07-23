@@ -1,0 +1,13 @@
+.. fillintheblank:: postfix1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :topic: BasicDS/ExpresionesInfijasPrefijasYSufijas
+   :from_source: None
+
+   .. blank:: pfblank1
+      :correct: \\b10\\s+3\\s+5\\s*\\*\\s*16\\s+4\\s*-\\s*/\\s*\\+
+      :feedback1:  ('10.*3.*5.*16.*4', 'Los n&uacute;meros parecen estar en el orden correcto, compruebe sus operadores')
+      :feedback2: ('.*', 'Recuerde que los n&uacute;meros estar&aacute;n en el mismo orden que en la ecuaci&oacute;n original')
+
+      Sin usar la función infija_a_sufija del activecode, convierta la siguiente expresión a notación sufija ``10 + 3 * 5 / (16 - 4)``

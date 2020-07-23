@@ -1,0 +1,19 @@
+.. actex:: atheno_hw2_q6
+   :author: Atheno Chen
+   :difficulty: 2.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :autograde: unittest
+
+   Write a program to accept an integer ``num`` as the input and output a boolean value to determine whether it is an even number or not.
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   class myTests(TestCaseGui):
+       def test_radius(self):
+           self.assertIn("num", self.getEditorText(), 'num variable')
+           self.assertIn(str(num % 2 == 0)[:4], self.getOutput(), 'Checking answer.')
+   myTests().main()

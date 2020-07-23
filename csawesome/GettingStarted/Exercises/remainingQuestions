@@ -1,0 +1,15 @@
+
+   :author: Pauline Lake
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: GettingStarted/Exercises
+   :from_source: F
+.. shortanswer:: remainingQuestions
+   :optional:
+
+Do you have any remaining questions after attending this meeting?
+
+config values (conf.py): 
+
+- shortanswer_div_class - custom CSS class of the component's outermost div
+    

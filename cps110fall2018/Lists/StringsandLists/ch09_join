@@ -1,0 +1,16 @@
+.. activecode:: ch09_join
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Lists/StringsandLists
+    :from_source: None
+
+    wds = ["red", "blue", "green"]
+    glue = ';'
+    s = glue.join(wds)
+    print(s)
+    print(wds)
+
+    print("***".join(wds))
+    print("".join(wds))
+

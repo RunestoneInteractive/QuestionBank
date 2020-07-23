@@ -1,0 +1,10 @@
+.. actex:: ex_2_6
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: SimplePythonData/Exercises
+   :from_source: None
+
+   Add parenthesis to the expression ``6 * 1 - 2`` to change its value
+   from 4 to -6.
+   ~~~~

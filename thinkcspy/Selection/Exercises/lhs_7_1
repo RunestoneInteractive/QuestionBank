@@ -1,0 +1,30 @@
+.. activecode:: lhs_7_1
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``findHypot``.  The function will be given the length of two sides of a 
+    right-angled triangle and it should **return** the length of the hypotenuse.  (Hint:  
+    ``x ** 0.5`` will return the square root, or use ``sqrt`` from the math module)
+    ~~~~
+
+    def findHypot(a,b):
+        # your code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            print("Auto-testing...")
+            self.assertEqual(findHypot(12.0,5.0),13.0,"Tested findHypot on inputs of 12.0 and 5.0")
+            self.assertEqual(findHypot(14.0,48.0),50.0,"Tested findHypot on inputs of 14.0 and 48.0")
+            self.assertEqual(findHypot(21.0,72.0),75.0,"Tested findHypot on inputs of 21.0 and 72.0")
+            self.assertAlmostEqual(findHypot(1,1.73205),1.999999,2,"Tested findHypot on inputs of 1 and 1.73205")
+
+    myTests().main()

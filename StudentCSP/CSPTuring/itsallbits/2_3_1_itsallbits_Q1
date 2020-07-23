@@ -1,0 +1,11 @@
+.. fillintheblank:: 2_3_1_itsallbits_Q1
+                 :author: bmiller
+                 :difficulty: 3.0
+                 :basecourse: StudentCSP
+                 :topic: CSPTuring/itsallbits
+                 :from_source: T
+
+                 What is the 8-bit binary code for number 12? Use the above Binary Calculator. |blank|
+
+                 - :00001100: Correct!
+                   :x: Try again!

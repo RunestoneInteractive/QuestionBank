@@ -1,0 +1,96 @@
+.. activecode:: 12_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter12/the_isgreater_function
+   :from_source: T
+   :language: cpp
+
+   Take a look at the active code below, which uses the ``isGreater`` function.
+   Feel free to change the values of the cards.
+   ~~~~
+   #include <iostream>
+   #include <string>
+   #include <vector>
+   using namespace std;
+
+   struct Card {
+       int suit, rank;
+
+       Card ();
+       Card (int s, int r);
+       void print () const;
+       bool equals (const Card& c2) const;
+       bool isGreater (const Card& c2) const;
+   };
+
+   int main() {
+       Card card1 (2,10);
+       Card card2 (2,4);
+       if (card1.isGreater (card2)) {
+           card1.print ();
+           cout << "is greater than" << endl;
+           card2.print ();
+       }
+       else {
+           card2.print ();
+           cout << "is greater than" << endl;
+           card1.print ();
+       }
+   }
+
+   ====
+
+   Card::Card () {
+     suit = 0;  rank = 0;
+   }
+
+   Card::Card (int s, int r) {
+     suit = s;  rank = r;
+   }
+
+   bool Card::equals (const Card& c2) const {
+     bool boolean = (rank == c2.rank && suit == c2.suit);
+     if (boolean == true) {
+       cout << "Yup, that's the same card." << endl;
+     }
+     else {
+       cout << "Nope, those cards are different." << endl;
+     }
+     return boolean;
+   }
+
+   bool Card::isGreater (const Card& c2) const {
+     if (suit > c2.suit) return true;
+     if (suit < c2.suit) return false;
+
+     if (rank > c2.rank) return true;
+     if (rank < c2.rank) return false;
+
+     return false;
+   }
+
+   void Card::print () const {
+     vector<string> suits (4);
+     suits[0] = "Clubs";
+     suits[1] = "Diamonds";
+     suits[2] = "Hearts";
+     suits[3] = "Spades";
+
+     vector<string> ranks (14);
+     ranks[1] = "Ace";
+     ranks[2] = "2";
+     ranks[3] = "3";
+     ranks[4] = "4";
+     ranks[5] = "5";
+     ranks[6] = "6";
+     ranks[7] = "7";
+     ranks[8] = "8";
+     ranks[9] = "9";
+     ranks[10] = "10";
+     ranks[11] = "Jack";
+     ranks[12] = "Queen";
+     ranks[13] = "King";
+
+      cout << ranks[rank] << " of " << suits[suit] << endl;
+   }

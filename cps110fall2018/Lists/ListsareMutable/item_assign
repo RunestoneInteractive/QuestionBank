@@ -1,0 +1,13 @@
+.. codelens:: item_assign
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Lists/ListsareMutable
+    :from_source: None
+
+    fruit = ["banana", "apple", "cherry"]
+
+    fruit[0] = "pear"
+    fruit[-1] = "orange"
+
+

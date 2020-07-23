@@ -1,0 +1,21 @@
+.. mchoice:: cswq6_3
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+   :answer_a: The maximum number in a list of numbers
+   :answer_b: The first number in a list of numbers
+   :answer_c: The last number in a list of numbers
+   :answer_d: The first negative number in a list of numbers
+   :correct: a
+   :random:
+
+   3. What does the following function return?::
+
+      def fun(alist):
+          m = 0
+          for n in alist:
+              if n > m:
+                  m = n
+          return m

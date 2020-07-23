@@ -1,0 +1,19 @@
+.. mchoice:: new_functions_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/AddingNewFunctions
+   :from_source: T
+   :answer_a: void printName()
+   :answer_b: totalCost(double cost, double tax) {
+   :answer_c: string todaysWeather(int temperature) {
+   :answer_d: double finalGrade {
+   :correct: c
+   :feedback_a: This function header is missing a {, which is need to start and end a function definition.
+   :feedback_b: This function header is missing a return type.
+   :feedback_c: Correct!
+   :feedback_d: This function header is missing parentheses. Even if a function does not take in any parameters, empty parentheses should be used.
+
+   Which of the following is a correct function header (first line of
+   a function definition)?
+

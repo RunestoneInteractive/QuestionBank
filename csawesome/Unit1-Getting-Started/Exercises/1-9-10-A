@@ -1,0 +1,21 @@
+.. mchoice:: 1-9-10-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: a = 5, b = 6, c = 6
+   :answer_b: a = 5, b = 0, c = 6
+   :answer_c: a = 5, b = 0, c = 5
+   :answer_d: a = 0, b = 5, c = 6
+   :correct: b
+
+   What are the values of a, b, and c after the following code executes?
+
+   .. code-block:: java
+
+    int a, b, c;
+    a = 5;
+    b = c;
+    c = a - c;
+    c++;

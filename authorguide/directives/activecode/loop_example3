@@ -1,0 +1,17 @@
+.. activecode:: loop_example3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/activecode
+   :from_source: T
+   :language: python
+   :caption: Demonstrate activecode include
+   :nocodelens:
+   :include: function-example1, function-example2
+
+   for i in range(5):
+       # function included from example 1
+       print(hello(str(i)))
+
+   # function included from example 2
+   print (example_func('goodbye'))

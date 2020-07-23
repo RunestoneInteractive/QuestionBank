@@ -1,0 +1,18 @@
+.. mchoice:: difede_01_007
+   :author: Kuri DiFede
+   :difficulty: 1.0
+   :basecourse: apcsareview
+   :topic: GettingStarted/Exercises
+   :from_source: F
+   :answer_a: You will get 209
+   :answer_b: You will have an Integer Overflow Error
+   :answer_c: You will get -209
+   :answer_d: You will get an Aritmetic Exception
+   :correct: b
+   :feedback_a: Because the highest value that can be represented in 8 bits is 127, you will not be able to store a number higher than 127.
+   :feedback_b: Correct! Because the sum is more than 127, you will have Integer Overflow
+   :feedback_c: Although you may get a negative number if the compiler doesn't catch it, it will not be this as -209 cannot be represented
+   :feedback_d: We have not covered Arithmetic Exceptions, but they are usually reserved for inappropriate operations (divide by zero)
+
+   Suppose you are using one byte to store an integer, with one bit for sign (like the question above). What do you think will happen if you try to add 120 and 89?
+

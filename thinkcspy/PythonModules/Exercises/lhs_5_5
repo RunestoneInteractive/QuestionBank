@@ -1,0 +1,85 @@
+.. activecode:: lhs_5_5
+    :author: LHS CS Team
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: PythonModules/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``roll_nSidedDice(nSide, howMany)`` that simulates rolling a n-sided dice ``howMany`` times.
+    It should print out a message for each of the die rolls. The function should return the total sum of
+    all the rolls.
+
+    ``roll_nSidedDice(10, 4)`` may print out:
+    ::
+
+      Rolled a 2
+      Rolled a 10
+      Rolled a 4
+      Rolled a 5
+
+    And the function would return the value 21.
+
+    ~~~~
+    # Your Name:
+
+    import random
+    
+    def roll_nSidedDice ...
+        # write you code here
+            
+    ====
+    import sys
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+    
+        def _golden(self, n, t):
+            outStr = ''
+            sum = 0
+            for _ in range(t):
+                roll = random.randrange(1,n+1)
+                outStr += "Rolled a " + str(roll) + "\n"
+                sum += roll
+            return (outStr, sum)
+        
+        def check(self, n, t):
+            fname = "test.out"
+            sys.stdout = open(fname, "w")
+            random.seed(t)
+            r = roll_nSidedDice(n, t)
+            sys.stdout.close()
+    
+            f = open(fname, "f")
+            str = f.read()
+            f.close()
+    
+            random.seed(t)
+            (golden_str, golden_roll) = self._golden(n, t)
+    
+            self.assertEqual(r, golden_roll, "Testing sum for ({},{})".format(n, t))
+            self.assertEqual(str, golden_str, "Testing print out for ({},{})".format(n, t))
+            
+            self.deleteFile(fname)
+            
+        def testOne(self):
+    
+    
+            # create output file
+    
+            tests = [ (6, 5), \
+                      (4, 10), \
+                      (20, 0)
+                      ]
+    
+            for t in tests:
+                self.check(t[0], t[1])
+    
+        def deleteFile(self, fname):
+            # empty out the file so nothing shows
+            sys.stdout = open(fname, "w")
+            print("", end="")
+            sys.stdout.close()
+    
+    myTests().main()

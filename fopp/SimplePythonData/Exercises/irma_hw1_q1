@@ -1,0 +1,16 @@
+
+    :author: Irma Ravkic
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: irma_hw1_q1
+ 
+    Correct the code below to output number 5.
+    ~~~~
+    print("2 + 3")
+    ====
+  
+
+
+    

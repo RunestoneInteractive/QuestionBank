@@ -1,0 +1,28 @@
+.. mchoice:: KD.02.08.04
+   :author: Kuri DiFede
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: 25 1020.0
+   :answer_b: 25.0 1020.0
+   :answer_c: 520.0 30.0
+   :answer_d: 520.0 1020.0
+   :answer_e: 25.0 30.0
+   :correct: b
+   :feedback_a: incorrect
+   :feedback_b: correct
+   :feedback_c: incorrect
+   :feedback_d: incorrect
+   :feedback_e: incorrect
+
+
+   Consider the following code segment. What, if anything, is printed when the code segment is executed?
+
+   .. code-block:: java
+
+    int i1 = 5;
+    Double d1 = 20;
+    Integer i2 = new Integer(10);
+    double d2 = new Double(20.0);
+    System.out.println(i1 + d1 + “ “ + i2 + d2);

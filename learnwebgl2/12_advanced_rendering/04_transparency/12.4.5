@@ -1,0 +1,32 @@
+.. mchoice:: 12.4.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 12_advanced_rendering/04_transparency
+  :from_source: T
+  :random:
+
+  If two separate models contain transparent surfaces and the models intersect in 3D space,
+  what is required to render them accurately?
+
+  - The models must be defined by high resolution triangular meshes and the models must be
+    combined into a single model so that the triangles can be sorted and rendered back-to-front.
+
+    + Correct.
+
+  - The models must be defined using the minimal number of triangles and the models must be
+    combined into a single model so that the triangles can be sorted and rendered back-to-front.
+
+    - Incorrect. Using the minimal number of triangles means the triangles will intersect and
+      can't be sorted in the proper order.
+
+  - The models must be defined by high resolution triangular meshes and rendered separately,
+    one at a time.
+
+    - Incorrect.
+
+  - The models must be defined by high resolution triangular meshes and the models must be
+    combined into a single model so that the triangles can be sorted and rendered front-to-back.
+
+    - Incorrect. The triangles must be rendered from back to front.
+

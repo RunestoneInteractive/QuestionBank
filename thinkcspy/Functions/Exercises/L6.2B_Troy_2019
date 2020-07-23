@@ -1,0 +1,21 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: L6.2B_Troy_2019
+
+    Classwork:  Write a function that will accept the lenghts of the legs of 
+    a right triangle and calculate the length of the hypotenuse.  
+    It will return hypotenuse length.  
+
+    Use the function in a short program.  
+    ~~~~
+    # Lesson 6.2B    -   the Hypotenuse Function by  **YOUR NAME** 
+
+    print("Welcome to the world of Pythagorus by YOUR NAME ")
+    print()
+    #
+
+    

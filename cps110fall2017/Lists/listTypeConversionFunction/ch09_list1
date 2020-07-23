@@ -1,0 +1,10 @@
+.. activecode:: ch09_list1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/listTypeConversionFunction
+    :from_source: None
+
+    xs = list("Crunchy Frog")
+    print(xs)
+

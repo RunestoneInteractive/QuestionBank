@@ -1,0 +1,32 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+.. activecode:: CCS_dynamic_padding
+
+   **Complete the code below to create a program that asks the user to specify a total width that numbers should be padded to and then asks the enter to enter a number with equal or fewer digits than the width given by the first input.** 
+   
+   For example, if the user specifies a padding width of 3 the program should then ask the user to enter a number between 0 and 999. If the width is 4, it should ask for a number between 0 and 9,999.
+   
+   (The prompt should be specific about the range of numbers that are allowed. I.e. don't just say "Now enter a number with equal or fewer digits than the number you just entered.")
+   
+   **Finally, pad the number with zeros on the left until it is the correct length based on the user's input.**
+   
+   **NOTE: The IF statement is not permitted.**
+   ~~~~
+   num_width = input("Please enter a desired number width:")
+   
+   # YOUR CODE HERE
+   maximum = 0 # FIX so this is the right value
+   
+   prompt = "Please enter a number between 0 and " + str(maximum) + ":"
+   
+   num_entry = input(prompt)
+   
+   # YOUR CODE HERE
+
+   padded_number = "THIS IS THE WRONG ANSWER" # FIX
+
+   print(padded_number)

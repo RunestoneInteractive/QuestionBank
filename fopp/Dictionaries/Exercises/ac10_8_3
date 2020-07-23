@@ -1,0 +1,11 @@
+.. actex:: ac10_8_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: T
+
+   Write a program that finds the most used 7 letter word in scarlet3.txt.
+   ~~~~
+
+   f = open('scarlet3.txt', 'r')

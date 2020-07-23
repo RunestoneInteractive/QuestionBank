@@ -1,0 +1,11 @@
+.. activecode:: ch02_8
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: SimplePythonData/ValuesandDataTypes
+    :from_source: None
+    :nocanvas:
+
+    print(42000)
+    print(42,000)
+

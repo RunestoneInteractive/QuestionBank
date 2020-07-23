@@ -1,0 +1,33 @@
+.. activecode:: ex_5_16
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: Functions/Exercises
+   :from_source: None
+
+   import math
+   def volOfCylinder(r,h):
+       # your code here
+
+   ====
+   from unittest.gui import TestCaseGui
+   import random
+   import math
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+          a = random.randint(1,30)
+          b = random.randint(1,30)
+          self.assertAlmostEqual(volOfCylinder(a,b),a*a*b*math.pi,5,"Tested inputs: "+str(a)+" and "+str(b))
+          a = random.randint(1,30)
+          b = random.randint(1,30)
+          self.assertAlmostEqual(volOfCylinder(a,b),a*a*b*math.pi,5,"Tested inputs: "+str(a)+" and "+str(b))
+          a = random.randint(1,30)
+          b = random.randint(1,30)
+          self.assertAlmostEqual(volOfCylinder(a,b),a*a*b*math.pi,5,"Tested inputs: "+str(a)+" and "+str(b))
+          a = random.randint(1,30)
+          b = random.randint(1,30)
+          self.assertAlmostEqual(volOfCylinder(a,b),a*a*b*math.pi,5,"Tested inputs: "+str(a)+" and "+str(b))
+
+
+   myTests().main()

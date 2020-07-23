@@ -1,0 +1,27 @@
+.. activecode:: 1306_cw1_s20_q4
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [20 pts] The formula for computing the final amount if one is earning
+   compound interest is given as:
+
+   ``A = P (1 + r / n)^(nt)``
+
+   where,
+
+   `P = principal amount (initial investment)`
+
+   `r = annual nominal interest rate (as a decimal)`
+
+   `n = number of times the interest is compounded per year`
+
+   `t = number of years`
+
+   Write a Python program that prompts a user for the Principal P and the number of years t and prints the final amount. The program assumes  r the interest rate is  5% (0.05), and n, the number of times the interest is compounded per year, to be 12.
+
+   [Hint: Break the computation into sub-computations]
+   ~~~~
+   # Write your program here

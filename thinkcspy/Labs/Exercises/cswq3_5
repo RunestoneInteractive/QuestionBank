@@ -1,0 +1,14 @@
+.. mchoice:: cswq3_5
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+   :answer_a: 356
+   :answer_b: 110
+   :answer_c: 412
+   :answer_d: 101000
+   :correct: a
+   :random:
+
+   Convert the following (unsigned) binary number to decimal: 101100100

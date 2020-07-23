@@ -1,0 +1,23 @@
+.. mchoice:: e25_1_8
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: .25
+  :answer_b: 0
+  :answer_c: 1/4
+  :answer_d: .2
+  :correct: a
+  :feedback_a: Correct. In Python code, pseudo code as well, a decimal value will be returned from an integer calculation. Note that in older Python code, it would have printed 0. In other languages as well, the code will return the number just before the decimal.
+  :feedback_b: Incorrect. Because we are applying Python 3.0, the code will return a decimal.
+  :feedback_c: Incorrect. The code will calculate the value of a fraction.
+  :feedback_d: Incorrect. The value of 1/4 is .25, not .2 or .20.
+
+  What will the above code print?
+
+  ::
+
+      result ← 1/4
+      DISPLAY (result)
+

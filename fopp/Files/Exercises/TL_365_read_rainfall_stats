@@ -1,0 +1,75 @@
+.. actex:: TL_365_read_rainfall_stats
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Files/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+   :available_files: van_nuys_seasonal_rainfall.dat
+	       
+   The seasonal average monthly rainfall in inches recorded at the Van
+   Nuys Airport as of 2019 are provide in the file
+   ``van_nuys_seasonal_rainfall.dat``.  Read in the data from the file and  calculate and
+   print out the
+
+   1. total,
+      
+   2. mean, and
+      
+   3. standard deviation,
+      
+   each on a separate line.
+
+   The standard deviation is given by
+
+   .. math::
+      \sigma = \sqrt{\frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 },
+
+   where :math:`\bar{x}` is the mean.  You may use the ``sum`` function.
+
+   .. raw:: html
+	       
+      <pre id="van_nuys_seasonal_rainfall.dat">
+      2.44
+      3.12
+      1.61
+      0.69
+      0.23
+      0.02
+      0.03
+      0.02
+      0.12
+      0.55
+      0.69
+      1.67
+      </pre>
+   ~~~~
+   ====
+   
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           rainfall = []
+           with open("van_nuys_seasonal_rainfall.dat", 'r') as fh:
+	       for line in fh:
+	           rainfall.append(float(line))
+       
+           output = self.getOutput().split('\n')
+	   total = sum(rainfall)
+	   mean = total/len(rainfall)
+	   sum_sq = 0
+	   for value in rainfall:
+	       sum_sq += (value - mean)**2
+	   stdev = (sum_sq/(len(rainfall)-1))**0.5
+	   self.assertAlmostEqual(float(output[0]), total, 7, 'Checking total')
+	   self.assertAlmostEqual(float(output[1]), mean, 7, 'Checking mean')
+	   self.assertAlmostEqual(float(output[2]), stdev, 7, 'Checking standard deviation')
+	   if re.search(r'[^#]+= *open', self.getEditorText(), re.M):
+       
+	       self.assertTrue(re.search(r'[^#]+\.close\(', self.getEditorText(), re.M), 'Checking for matching open and close statements')
+	   else:
+	       self.assertTrue(re.search(r'with[ (] *open', self.getEditorText(), re.M), 'Checking open statement')
+	   
+   myTests().main()

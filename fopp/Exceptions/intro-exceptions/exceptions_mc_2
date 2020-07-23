@@ -1,0 +1,13 @@
+.. mchoice:: exceptions_mc_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Exceptions/intro-exceptions
+   :from_source: T
+   :answer_a: True
+   :answer_b: False
+   :feedback_a: If your code is only catching IndexError errors, then the exception will not be handled, and execution will terminate.
+   :feedback_b: If your code is only catching IndexError errors, then the exception will not be handled, and execution will terminate.
+   :correct: a
+
+   When a run-time exception of type ZeroDivisionError occurs, and you have a statement ``except IndexError``, the program will stop executing completely.

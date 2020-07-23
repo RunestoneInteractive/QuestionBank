@@ -1,0 +1,13 @@
+.. mchoice:: sks_rev_2
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: only accessible from within the function it is defined 
+   :answer_b: accessible to any part of the code in the same .py file
+   :answer_c: none of the above
+   :correct: a
+
+   A local variable in Python is a variable that is
+    

@@ -1,0 +1,11 @@
+.. actex:: ex_3_11
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: PythonTurtle/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a program to draw some kind of picture.  Be creative and experiment
+   with the turtle methods provided in :ref:`turtle_methods`.
+   ~~~~

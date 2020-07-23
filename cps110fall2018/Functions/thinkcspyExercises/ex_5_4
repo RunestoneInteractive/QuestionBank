@@ -1,0 +1,11 @@
+.. actex:: ex_5_4
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Draw this pretty pattern.
+
+   .. image:: Figures/tess08.png
+   ~~~~

@@ -1,0 +1,28 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+.. activecode:: ccs_maze07
+   :include: ccs_maze00, ccs_maze01, ccs_maze06
+   
+   display function. Implement according to the specification.
+   ~~~~
+   '''
+   Given a list representation of the maze and a path, this
+   function creates the corresponding string representation
+   and prints it to the screen. Cells that are part of the 
+   path should be marked with a `*'
+
+   Parameter: maze  - the maze (list representation) to display
+           path  - the path (list of [row,col]) to display
+
+   Return:    None
+   '''
+   def display_with_path(maze, path):
+       # ADD CODE HERE
+       print("display_with_path() not yet implemented") # MODIFY THIS
+
+   ====
+   

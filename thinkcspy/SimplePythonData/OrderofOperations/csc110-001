@@ -1,0 +1,11 @@
+.. activecode:: csc110-001
+    :author: Yan Chen
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/OrderofOperations
+    :from_source: F
+    :nocanvas:
+
+    print(2 + 3 ** 2)     
+    print((2 ** 3) ** 2)   
+   # you code here

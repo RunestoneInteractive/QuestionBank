@@ -1,0 +1,18 @@
+
+   :author: Beryl Hoffman
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+.. activecode:: challenge1-2b
+   :language: java
+
+   Debug the following code.
+   ~~~~
+   public Challenge1_2b
+   {
+      public static Void main(string[] args)
+      {
+         System.out.print("Baby")
+         print(Shark);
+         system.print "Do Doo Do Do Do Doo!";

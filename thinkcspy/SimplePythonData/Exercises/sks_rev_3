@@ -1,0 +1,14 @@
+.. mchoice:: sks_rev_3
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: return a value 
+   :answer_b: print something
+   :answer_c: have a return statement
+   :answer_d: none of the above are required of user defined functions
+   :correct: d
+
+   User defined functions in Python must always
+    

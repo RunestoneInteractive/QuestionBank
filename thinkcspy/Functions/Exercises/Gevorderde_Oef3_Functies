@@ -1,0 +1,11 @@
+.. activecode:: Gevorderde_Oef3_Functies
+    :author: Jan Persan
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+
+    Vraag in je hoofdprogramma aan de gebruiker om een willekeurig woord in te lezen. Schrijf een eerste functie "ongeluk(invoer)" die controleert of het woord 13 letters bevat en bijgevolg de volgende boodschap uitprint "Ongelukswoord!". Als het woord de letter a bevat, dan kan het nooit een ongelukswoord zijn, ook al heeft het 13 letters. Vb: appeltaart is geen ongelukswoord, fietsbelletje daarentegen wel. Ook appeltaartjes is geen ongelukswoord omdat het een a bevat ondanks dat het 13 letters heeft. Zoek de nodige bestaande methoden op om deze opdracht te programmeren.
+    ~~~~
+    

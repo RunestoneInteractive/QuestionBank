@@ -1,0 +1,21 @@
+.. mchoice:: enum_type_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter13/enumerated_types
+   :from_source: T
+   :multiple_answers:
+   :answer_a: Perform arithmetic.
+   :answer_b: Include a mapping as part of the program.
+   :answer_c: Use the same set of values in multiple mappings.
+   :answer_d: Define the set of values that make up a mapping.
+   :answer_e: Use them as indices for a vector.
+   :correct: b,d,e
+   :feedback_a: We are not allowed to do arithmetic with enumerated types.
+   :feedback_b: This is the purpose of an enumerated type.
+   :feedback_c: Variables in one enumeration type cannot be used in another enumeration type.
+   :feedback_d: This is the purpose of an enumerated type.
+   :feedback_e: Since the values in enumerated types are represented as integers, we can use them as vector indices.
+
+   Multiple Response: What can we do with enumerated types?
+

@@ -1,0 +1,29 @@
+.. mchoice:: e25_3_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a: “You ordered -2 items”
+   :answer_b: “You ordered 1 item”
+   :answer_c: Nothing will be printed.
+   :answer_d: You will get an error message.
+   :correct: d
+   :feedback_a: Incorrect. There is no code to make "You ordered -2 items" the value of 'message.'
+   :feedback_b: Incorrect. This would be the value of 'message' if numItems equaled 1.
+   :feedback_c: Incorrect. Variable 'message' was never assigned a value, so this would result in an error and the code would not run completely.
+   :feedback_d: Correct. Variable 'message' was never assigned a value, so this would result in an error.
+
+   Refer to the following code:
+
+   ::
+
+     numItems ← 1
+     IF numItems ← 1
+     { message ← "You ordered 1 item” }
+     IF numItems > 1
+     { message ← "You ordered " + numItems + " items" }
+     DISPLAY(message)
+
+
+   What will print if numItems ← -2?

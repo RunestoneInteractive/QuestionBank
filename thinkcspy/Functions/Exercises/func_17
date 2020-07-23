@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: func_17
+  
+    How is using a 'main()' function different from not using one?
+
+    ~~~~
+    

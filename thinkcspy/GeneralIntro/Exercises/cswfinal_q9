@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_q9
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: One more
+   :answer_b: Twice as many
+   :answer_c: Half as many
+   :answer_d: One less
+   :correct: a
+   :random:
+
+   9. Your boss has gotten a good deal on memory chips and has decided to double the amount of data stored in Bertha. How many additional comparisons will it take your algorithm, in the worst case, to carry out a binary search on the doubled amount of data?

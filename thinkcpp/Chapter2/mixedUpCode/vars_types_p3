@@ -1,0 +1,37 @@
+.. parsonsprob:: vars_types_p3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/mixedUpCode
+   :from_source: T
+
+   Dan Humphrey is a 3.98 student at Constance High School.  His crush's
+   first initial is S.  Construct a program that has assigns the variables
+    name, GPA, and crush, in that order.
+
+   -----
+   int main() {
+   =====
+    string name = "Dan Humphrey";
+   =====
+    string name;  #paired
+    name = Dan Humphrey;
+   =====
+    char name = 'Dan Humphrey'; #paired
+   =====
+    double GPA;
+    GPA = 3.98;
+   =====
+    int GPA = 3.98; #paired
+   =====
+    int GPA = 3.98 #paired
+   =====
+    char crush = 'S';
+   =====
+    char crush = "S"; #paired
+   =====
+    char crush; #paired
+    crush = "S";
+   =====
+   }
+

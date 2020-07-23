@@ -1,0 +1,23 @@
+.. activecode:: ac6_6_9
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TheAccumulatorPattern
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   For each number in ``lst_nums``, multiply that number by 2 and append it to a new list called ``larger_nums``.
+   ~~~~
+   lst_nums = [4, 29, 5.3, 10, 2, 1817, 1967, 9, 31.32]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(larger_nums, [8, 58, 10.6, 20, 4, 3634, 3934, 18, 62.64], "Testing that larger_nums has been created correctly." )
+
+   myTests().main()

@@ -1,0 +1,12 @@
+.. fillintheblank:: act_rom1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/roman_numerals
+    :from_source: T
+    :casei:
+
+    The correct roman numeral for 1904 is |blank| it is not MDCCCCIV.
+
+    - :^MCMIV$: Is the correct answer
+      :x: Make sure you review the rules I gave you.

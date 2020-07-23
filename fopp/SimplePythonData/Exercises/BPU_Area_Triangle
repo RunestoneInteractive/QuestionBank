@@ -1,0 +1,10 @@
+.. actex:: BPU_Area_Triangle
+   :author: Jane Weyant
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Write a program that will compute the area of a triangle.  Prompt the user to enter the base length and height of the triangle.
+   Print out a message with the area of the triangle.
+   ~~~~

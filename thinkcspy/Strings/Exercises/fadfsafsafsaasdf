@@ -1,0 +1,14 @@
+.. parsonsprob:: fadfsafsafsaasdf
+   :author: Matthew Zuniga
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+
+   Construct a block of code that correctly implements 
+   the <b>accumulator</b> pattern.
+   -----
+   i = 0
+   #distractor x
+   for i in range(10):
+       y = y + 1

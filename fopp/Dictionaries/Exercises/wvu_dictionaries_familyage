@@ -1,0 +1,21 @@
+
+    :author: Brian Powell
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Dictionaries/Exercises
+    :from_source: F
+.. activecode:: wvu_dictionaries_familyage
+
+    Use a dictionary to store information on the members of your immediate family. The person's name should be the key and their age should be the value.
+
+    Write code to:
+
+    1. Create the dictionary with your family member's information.
+
+    2. Find the average age of your family members.
+
+    3. Find the name of the oldest person in your family.    
+
+    ~~~~
+
+    ====

@@ -1,0 +1,17 @@
+.. mchoice:: wvu_exam2_mcpop
+   :author: Brian Powell
+   :difficulty: 2.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: F
+   :answer_a: my_dictionary.remove(key)
+   :answer_b: my_dictionary.pop(key)
+   :answer_c: my_dictionary.delete(key)
+   :answer_d: del my_dictionary[key]
+   :correct: b, d
+
+   (4 points)
+
+   Which method(s) can be used to remove an element from a dictionary ``my_dictionary`` by the key ``key``?
+
+   Be careful you select the correct answer(s). Once you click Submit, your choice cannot be changed.

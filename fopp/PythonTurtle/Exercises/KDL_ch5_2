@@ -1,0 +1,15 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: KDL_ch5_2
+   :autograde: unittest
+   :language: python
+
+   Draw a house, it should have a roof, a front door and a window.
+   ~~~~
+    
+   ====
+    

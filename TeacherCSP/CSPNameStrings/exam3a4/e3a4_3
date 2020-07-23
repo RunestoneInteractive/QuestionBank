@@ -1,0 +1,28 @@
+.. mchoice:: e3a4_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPNameStrings/exam3a4
+   :from_source: T
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: all of them
+   :correct: b
+   :feedback_a: There are no quotes around the string so this gives an error.
+   :feedback_b: When you use '+' it appends the strings together so this will print the correct string
+   :feedback_c: Answer III will not work since there is no variable called Morrissey.
+   :feedback_d: Answer II will work, but not answer I or answer III.  Number I has no quotes around the string. In III there is no variable called Morrissey.
+
+   Which of the following line(s) of code will print out "My name is Morrissey"?
+
+   ::
+
+      I.   print (My name is Morrissey)
+      II.  var1 = "My name is "
+           var2 = "Morrissey"
+           var3 = var1 + var2
+           print (var3)
+      III. M = "M"
+           orrissey = "orrissey"
+           print ("My name is " + Morrissey)

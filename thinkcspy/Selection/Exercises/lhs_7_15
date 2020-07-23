@@ -1,0 +1,114 @@
+.. activecode:: lhs_7_15
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a method ``whatSeason(month, day)`` that prints out the season according to the month and day.
+
+    The ``month`` is a integer that is one of the months - like 1 to 12.
+
+    The ``day`` is an integer that is a legal day of the month - like 1 to 31.
+
+    You may assume that the ``month`` and ``day`` are "legal" values.
+
+    Winter is from 12/21 to 3/19
+    Spring is from 3/20 to 6/20
+    Summer is from 6/21 to 9/22
+    Fall is from 9/23 to 12/20
+
+    It should print out one of these four messages:
+
+    ::
+
+      It is spring.
+      It is summer.
+      It is fall.
+      It is winter.
+
+    ~~~~
+    # Your Name:
+    
+    def whatSeason ....
+        # write you code here
+            
+    def main():
+        # you can call the function to test it here
+        
+    if __name__ == "__main__":
+        main()
+
+    ====
+    import sys
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _whatSeason(self, month, day):
+        
+            winter = (month == 12 and day >= 21) or (month == 1)  or (month == 2)  or (month == 3 and day < 20)
+            spring = (month == 3  and day >= 20) or (month == 4)  or (month == 5)  or (month == 6 and day < 21)
+            summer = (month == 6  and day >= 21) or (month == 7)  or (month == 8)  or (month == 9 and day < 23)
+            fall   = (month == 9  and day >= 23) or (month == 10) or (month == 11) or (month == 12 and day < 21)
+        
+            if winter:
+                return("It is winter.\n")
+            elif spring:
+                return("It is spring.\n")
+            elif summer:
+                return("It is summer.\n")
+            else:
+                return("It is fall.\n")
+
+        def testOne(self):
+
+            fname = "test.out"
+
+            # create output file
+            sys.stdout = open(fname, "w")
+
+            tests = [ (1, 2), \
+                      (5, 6), \
+                      (6, 20), \
+                      (6, 21), \
+                      (2, 20), \
+                      (7, 10), \
+                      (8, 30), \
+                      (3, 19), \
+                      (9, 22), \
+                      (12, 20), \
+                      (4, 10), \
+                      (9, 23), \
+                      (10, 29), \
+                      (3, 20), \
+                      (11, 5), \
+                      (12, 21) ]
+
+            for t in tests:
+                whatSeason(t[0], t[1])
+
+            sys.stdout.close()
+
+            infile = open(fname, "r")
+            line = infile.readline()
+            i = 0
+            while line:
+                m = tests[i][0]
+                d = tests[i][1]
+                self.assertEqual(line, self._whatSeason(m, d), "Testing {}/{}".format(m, d))
+                i = i + 1
+                line = infile.readline()
+            infile.close()
+
+            self.deleteFile(fname)        
+
+        def deleteFile(self, fname):
+            # empty out the file so nothing shows
+            sys.stdout = open(fname, "w")
+            print()
+            sys.stdout.close()
+
+    myTests().main()

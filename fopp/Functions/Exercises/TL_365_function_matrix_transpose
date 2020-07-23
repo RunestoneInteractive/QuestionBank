@@ -1,0 +1,78 @@
+.. actex:: TL_365_function_matrix_transpose
+   :author: Tyler Luchko
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Write a function called ``transpose`` that takes any matrix and
+   returns its transpose without changing the input. Use your function
+   to assign the transpose of ``mat_a`` and ``mat_b`` to ``mat_at``
+   and ``mat_bt``.
+  
+   Hint: use your solution from a previous exercise to get started.
+   ~~~~
+   mat_a = [[15, 1, 56],
+            [98, 86, 10]]
+   mat_b = [[66, 53, 77, 65],
+            [79, 63, 85, 41],
+            [36, 88, 28, 22],
+            [6, 65, 20, 89]]
+
+   def transpose(mat):
+       trans = []
+       for i in range(len(mat[0])):
+           trans.append([])
+           for j in range(len(mat)):
+               trans[i].append(0)
+       # your code here
+       return trans
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   import math
+   class myTests(TestCaseGui):
+       def assertMatrixAlmostEqual(self, a, b, err=7):
+           self.assertEqual(len(a), len(b), 'Checking matrices have the same number of rows: {} and {}'.format(len(a), len(b)))
+           for i in range(len(a)):
+               self.assertEqual(len(a), len(b), 'Checking matrices have the same number of columns on row {}: {} and {}'.format(i, len(a[i]), len(b[i])))
+               for j in range(len(a[i])):
+                   self.assertAlmostEqual(a[i][j], b[i][j], err,
+                       'Checking Elements [{}][{}]'.format(i, j))
+
+
+       def testOne(self):
+           output = self.getOutput().split('\n')
+           editor = self.getEditorText().split('\n')
+           float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
+
+           _mat_a = [[15, 1, 56],
+                    [98, 86, 10]]
+           _mat_b = [[66, 53, 77, 65],
+                    [79, 63, 85, 41],
+                    [36, 88, 28, 22],
+                    [6, 65, 20, 89]]
+           def _transpose(mat):
+               mat_trans = []
+               for j in range(len(mat[0])):
+                   mat_trans.append([0]*len(mat))
+               for i in range(len(mat)):
+                   for j in range(len(mat[i])):
+                       mat_trans[j][i] = mat[i][j]
+               return mat_trans
+
+           self.assertMatrixAlmostEqual(mat_at, _transpose(_mat_a), 7)
+           self.assertMatrixAlmostEqual(transpose(_mat_a), _transpose(_mat_a), 7)
+           self.assertMatrixAlmostEqual(mat_bt, _transpose(_mat_b), 7)
+           self.assertMatrixAlmostEqual(transpose(_mat_b), _transpose(_mat_b), 7)
+           self.assertMatrixAlmostEqual(transpose(transpose(_mat_a)), _transpose(_transpose(_mat_a)),
+               7)
+           self.assertMatrixAlmostEqual(transpose(transpose(_mat_b)), _transpose(_transpose(_mat_b)),
+               7)
+
+
+   myTests().main()
+

@@ -1,0 +1,18 @@
+.. mchoice:: e9t11_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPRepeatImages/exam9t11
+   :from_source: T
+   :practice: T
+   :answer_a: Pictures are made up of little pixels, laid out on an (x,y) grid.
+   :answer_b: Each pixel is stored as a number between 0 and 255.
+   :answer_c: Each color has a red part, a green part, and a blue part.
+   :answer_d: Each color part is actually a number between 0 and 255.
+   :correct: b
+   :feedback_a: Pictures are grids of pixels.
+   :feedback_b: A pixel has a color and the color has a red, green, and blue part.
+   :feedback_c: One way to describe a color is a combination of red, green, and blue.
+   :feedback_d: On a computer the value for red, green, and blue is between 0 and 255.
+
+   Which of the following statements is false?

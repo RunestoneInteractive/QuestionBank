@@ -1,0 +1,21 @@
+.. parsonsprob:: cswq6_5
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+
+   5. Put the following statements in the correct order to define a function that returns all the digit strings in a list of strings.
+   -----
+   def get_digits(alist):
+   '''Returns all the strings of digits in alist'''
+   =====
+       new_list = []
+   =====
+       for element in alist:
+   =====
+           if element.isdigit():
+   =====
+               new_list.append(element)
+   =====
+       return new_list

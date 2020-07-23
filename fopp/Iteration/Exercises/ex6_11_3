@@ -1,0 +1,10 @@
+.. actex:: ex6_11_3
+    :author: Brad Miller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Iteration/Exercises
+    :from_source: F
+
+    Get the user to enter some text and print out True if it's a palindrome, False otherwise. (Hint: reuse
+    some of your code from the last question. The == operator compares two values to see if they are the same)
+    ~~~~

@@ -1,0 +1,28 @@
+.. activecode:: ac12_4_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Tuples/TupleAssignmentwithunpacking
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :chatcodes:
+   :practice: T
+
+   With only one line of code, assign four variables, ``v1``, ``v2``, ``v3``, and ``v4``, to the following four values: 1, 2, 3, 4.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(v1, 1, "Testing that v1 was assigned correctly.")
+         self.assertEqual(v2, 2, "Testing that v2 was assigned correctly.")
+         self.assertEqual(v3, 3, "Testing that v3 was assigned correctly.")
+         self.assertEqual(v4, 4, "Testing that v4 was assigned correctly.")
+
+   myTests().main()
+

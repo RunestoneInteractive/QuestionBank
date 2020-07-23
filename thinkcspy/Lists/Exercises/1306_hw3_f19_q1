@@ -1,0 +1,47 @@
+.. activecode:: 1306_hw3_f19_q1
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+
+    **[40 points] Question 1.**  Write a function ``CoolPara``, that takes a string parameter, which is expected to be a pargraph from a book. The function will compute and print the following:
+
+
+    a.	The number of words in the input paragraph. Assume words are separated by spaces.
+    b.	The number of words that include a "rare" letter defined as j,x,q, or z. 
+    c.	The number of words that are 8 letters or longer.
+
+    The function returns True if the number of words > 10,  at least 10% of the words have "rare" letters in them, and at least 10% of the words are 8 letters or longer. False otherwise
+
+    [Hints: Only use ``split()`` and ``len()`` methods/functions. You may consider any characters other than blanks, including punctuation and numbers, as parts of words]
+
+    **Example Input:**
+
+    In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, no yet a dry, bare, sandy hole with nothing in it to sit down on or to eat; it was a hobbit-hole, and that means comfort. 
+   
+    **Example Output:**
+
+    52 words in the input paragraph
+
+    1 word with a rare character
+
+    2 words that have 8 letters or more
+    
+    FALSE
+
+
+    ~~~~
+                
+    def CoolPara(words):
+        # your code here
+
+
+    # DO NOT CHANGE CODE BELOW 
+    
+    print(CoolPara(input("Enter: ")))
+        
+    ====
+
+  

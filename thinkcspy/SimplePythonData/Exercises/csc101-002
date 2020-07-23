@@ -1,0 +1,11 @@
+.. activecode:: csc101-002
+    :author: Yan Chen
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+
+   What is the order of the arithmetic operations in the following expression.  Evaluate the expression by hand and then check your work.
+   ~~~~
+   2 + (3 - 1) * 10 / 5 * (2 + 3)

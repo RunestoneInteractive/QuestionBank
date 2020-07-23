@@ -1,0 +1,30 @@
+
+    :author: Shawn Haarer
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: Asmt_6_TroyPython2020
+   
+    Quiz 2.  Turtle House and Tree
+
+    Create the Turtle House and Tree step by step
+    as shown in the Google Doc
+
+    This is Open Notes & Code, but no help from anyone
+    other than dr. haarer
+
+    ~~~~
+    # Quiz 2, Turtle House  >> YOUR NAME here
+
+
+
+    import turtle
+    wn = turtle.Screen()   # You can FINISH the code from here.
+
+    # create a turtle, give it a color, pensize, etc.  
+
+
+
+    ==== 
+    

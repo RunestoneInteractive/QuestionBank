@@ -1,0 +1,27 @@
+.. mchoice:: 2-13-8-A
+   :author: Beryl Hoffman
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :practice: T
+   :answer_a: Data Set 2 contains strings that should either return true or false
+   :answer_b: Strings in Data Set 2 are all lowercase
+   :answer_c: There are no advantages
+   :answer_d: The strings in Data Set 2 have the same number of characters
+   :answer_e: Data Set 1 has too many cases to test.
+   :correct: a
+   :feedback_a: Correct! This is an advantage since you will be able to tell whether the method works correctly for both a true and false return value.
+   :feedback_b: This is probably a disadvantage.
+   :feedback_c: Are all strings in Data Set 1 and 2 palindromes?
+   :feedback_d: True, but not really an advantage.
+   :feedback_e: It only has 1 more.
+
+   There is a method called palindromeString that determines whether a string is the same forwards and backwards. The following data sets can be used for testing the method. What advantage does Data Set 2 have over Data Set 1?
+
+   .. code-block:: java
+
+    Data Set 1			Data Set 2
+    racecar			tacocat
+    ebbe			tacos!!
+    RaCeCaR                      

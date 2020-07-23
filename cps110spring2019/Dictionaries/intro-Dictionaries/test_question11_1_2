@@ -1,0 +1,24 @@
+.. mchoice:: test_question11_1_2
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: Dictionaries/intro-Dictionaries
+   :from_source: None
+   :answer_a: 12
+   :answer_b: 6
+   :answer_c: 23
+   :answer_d: Error, you cannot use the index operator with a dictionary.
+   :correct: b
+   :feedback_a: 12 is associated with the key cat.
+   :feedback_b: Yes, 6 is associated with the key dog.
+   :feedback_c: 23 is associated with the key elephant.
+   :feedback_d: The [ ] operator, when used with a dictionary, will look up a value based on its key.
+
+
+   What is printed by the following statements?
+
+   .. sourcecode:: python
+
+     mydict = {"cat":12, "dog":6, "elephant":23}
+     print(mydict["dog"])
+

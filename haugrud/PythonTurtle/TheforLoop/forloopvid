@@ -1,0 +1,11 @@
+.. video:: forloopvid
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: haugrud
+   :topic: PythonTurtle/TheforLoop
+   :from_source: None
+   :controls:
+   :thumb: ../_static/for_loop.png
+
+   http://media.interactivepython.org/thinkcsVideos/for_loop.mov
+   http://media.interactivepython.org/thinkcsVideos/for_loop.webm

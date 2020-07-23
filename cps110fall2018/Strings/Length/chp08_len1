@@ -1,0 +1,10 @@
+.. activecode:: chp08_len1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Strings/Length
+    :from_source: None
+
+    fruit = "Banana"
+    print(len(fruit))
+

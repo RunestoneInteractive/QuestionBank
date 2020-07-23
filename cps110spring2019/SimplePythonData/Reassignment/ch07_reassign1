@@ -1,0 +1,12 @@
+.. activecode:: ch07_reassign1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: SimplePythonData/Reassignment
+    :from_source: None
+
+    bruce = 5
+    print(bruce)
+    bruce = 7
+    print(bruce)
+

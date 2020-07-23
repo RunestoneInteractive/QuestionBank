@@ -1,0 +1,12 @@
+.. fillintheblank:: sql_join_0
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/joining_SQL
+   :from_source: F
+
+   Use ``JOIN`` to show the station IDs of active stations and what’s the average duration of bike trip originating and ending at the same station with member type Member.  For station 31000 what is the average duration from above?
+
+   - :1005: Is the correct answer
+     :incorrect: Is feedback on a specific incorrect
+     :x: catchall feedback

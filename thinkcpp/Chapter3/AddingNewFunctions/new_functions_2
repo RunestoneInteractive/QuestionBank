@@ -1,0 +1,18 @@
+.. mchoice:: new_functions_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/AddingNewFunctions
+   :from_source: T
+   :answer_a: You can name a function anything you want.
+   :answer_b: You can have a fucntion with several parameters or a function with none.
+   :answer_c: You can call a function inside of another function.
+   :answer_d: You can write multiple statements on one line.
+   :correct: a
+   :feedback_a: You can't name a function the same name as a reserved keyword.
+   :feedback_b: This is true! However, you must always use parentheses.
+   :feedback_c: This is true! It is common and useful.
+   :feedback_d: This is true! As long as each statement ends with a semicolon.
+
+   Which of the following is **false** about functions?
+

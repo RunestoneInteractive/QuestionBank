@@ -1,0 +1,33 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPWebData/Exercises
+   :from_source: F
+.. parsonsprob:: dbsel1
+   :adaptive:
+   :numbered: left
+
+   Put the code blocks in order to read data from a database, calculate the number of rows read, print each row.  Then it should print the number of rows and close the cursor.
+   -----
+   import sqlite3
+   =====
+   conn = sqlite3.connect('spider.sqlite')
+   =====
+   cur = conn.cursor()
+   =====
+   cur = cursor() #distractor
+   =====
+   cur.execute('SELECT * FROM Twitter')
+   =====
+   conn.execute('SELECT * FROM Twitter') #distractor
+   =====
+   count = 0
+   for row in cur:
+   =====
+       print(row)
+       count = count + 1
+   =====
+   print(count, 'rows.')
+   conn.close()
+

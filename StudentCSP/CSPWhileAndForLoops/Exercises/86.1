@@ -1,0 +1,41 @@
+.. parsonsprob:: 86.1
+    :author: Renske Weeda
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [86] Het volgende programma moet afdrukken hoeveel leerlingen hoger dan een 8 hebben gescoord op de toets. Maar de blokken staan in de verkeerde volgorde. Er staat 1 overbodige regel code tussen. Sleep de benodigde code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    cijfer_lijst = [8,9,8,7,6,3,4,5,7,6]
+    =====
+    index = 0
+    =====
+    teller = 0
+    =====
+    while index < len(cijfer_lijst):
+    =====
+    while index < len(cijfer_lijst)-1: #paired
+    =====
+        if cijfer_lijst[index] > 8:
+    =====
+        if cijfer_lijst[index] >= 8: #paired
+    =====
+            teller += 1
+    =====
+            index += 1 #paired
+    =====
+        index += 1
+    =====
+        teller +=1 #paired
+    =====
+    print(teller)
+    =====
+    print(index) #paired
+    =====
+    cijfer_lijst[index] = 0 #distractor
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div

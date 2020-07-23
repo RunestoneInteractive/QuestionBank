@@ -1,0 +1,22 @@
+.. mchoice:: cswq1_2
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: 37
+   :answer_b: Nothing - the statement throws a syntax error
+   :answer_c: 10
+   :answer_d: 27
+   :correct: a
+   :random:
+   :feedback_a: Yes, x += 10 is the same as x = x + 10
+   :feedback_b: No, x += 10 is the same as x = x + 10
+   :feedback_c: No, x += 10 is the same as x = x + 10
+   :feedback_d: No, x += 10 is the same as x = x + 10
+
+   What is the value of x after executing the following code?::
+
+      x = 27
+      x += 10
+

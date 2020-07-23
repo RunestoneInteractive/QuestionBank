@@ -1,0 +1,9 @@
+.. activecode:: ex_9_12
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: Lists/Exercises
+   :from_source: None
+
+   def count(lst):
+       # your code here

@@ -1,0 +1,16 @@
+.. mchoice:: cswt2_4
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 45, 31, 19
+   :answer_b: 12, 15, 19
+   :answer_c: 25, 15, 19
+   :answer_d: Can't be determined
+   :correct: a
+   :random:
+
+   4. What are the first 3 numbers checked when using a binary search to search for the number 17 in the following list::
+
+      [12, 15, 19, 25, 31, 33, 37, 42, 45, 47, 50, 53, 55, 61, 65, 71, 75]

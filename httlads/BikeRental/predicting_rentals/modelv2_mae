@@ -1,0 +1,13 @@
+.. fillintheblank:: modelv2_mae
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/predicting_rentals
+   :from_source: T
+
+   What is the mean absolute error of your predictions? |blank|
+
+   - :1043.6.*: Is the correct answer
+     :2196800.74.*: Is the mean squared error
+     :x: Make sure you use the ``mean_absolute_error`` function
+

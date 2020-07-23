@@ -1,0 +1,18 @@
+.. mchoice:: question14_8_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter14/invariants
+   :from_source: T
+   :multiple_answers:
+   :answer_a: The interior angles of a ``Triangle`` object must add up to 180 degrees.
+   :answer_b: The sum of two sides of a ``Triangle`` object must be greater than the third.
+   :answer_c: All angles of a ``Triangle`` object must be 60 degrees.
+   :answer_d: The greatest angle in a ``Triangle`` object must be less than 90 degrees.
+   :correct: b,d
+   :feedback_a: Correct!
+   :feedback_b: Correct!
+   :feedback_c: Incorrect! An equilateral triangle is only one possible kind of triangle.
+   :feedback_d: Incorrect! We are allowed to have obtuse triangles.
+
+   If we create a ``Triangle`` class, which of the following are invariants we must maintain?

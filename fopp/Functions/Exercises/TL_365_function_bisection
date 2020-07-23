@@ -1,0 +1,109 @@
+.. actex:: TL_365_function_bisection
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   A root of a mathematical function is input value (or values) for
+   which the function evaluates to zero.  For example,
+   
+   .. math:: 
+      
+      f(x) = x^2 -1
+      
+   has roots at :math:`x=1` and :math:`-1`.  
+	       
+   Often, we don't know the exact values of the root but we might know
+   that it lies is some range of :math:`x` values.  In this case, we
+   can find an approximation of the root using the bisection method.
+   
+   1. Set ``err`` to the acceptable error.
+   
+   #. Set ``maxstep`` to a large number, say 1000.
+      
+   #. Guess a ``low`` and a ``high`` value for the root where
+      :math:`f(\mathtt{low})<0` and :math:`f(\mathtt{high})>0`. These
+      must bracket a single root. For :math:`f(x) = x^2 -1`, suitable
+      brackets are 0 and 5 for the :math:`x=1` root and 0.5 and -4 for
+      the :math:`x=-1` root.  A bracket of -4 and 5 is not suitable
+      because it brackets two roots and :math:`f(-4)>0` and
+      :math:`f(5)>0`. Brackets are just guesses and don't need to be
+      exact.
+      
+   #. Check that :math:`f(\mathtt{low})<f(\mathtt{high})`. If not, swap ``low`` and ``high``.
+
+      
+   #. For ``maxsteps`` iterations:
+      
+      (I) Set ``mid`` to ``(high+low)/2``.
+
+
+      (#) If :math:`|f(\mathtt{mid})|>err`
+
+	  (a) If :math:`f(\mathtt{mid})>0`, then replace ``high`` with ``mid``.
+	 
+
+	  (#) else replace ``low`` with ``mid``.
+
+	  (#) Set ``mid`` to ``(high+low)/2``.
+
+	  (#) Continue iterating.
+	  
+      (#) else return ``mid`` as the approximate root.
+	   
+   #. If you get to this step, your function did not find a good
+      enough approximation of the root.  It should return ``None``,
+      which is the same a not having a return statement at all in
+      Python.
+	  
+   Implement the bisection method by completing the function below.
+   Test it by finding both roots of :math:`f(x)` above.
+   
+   ~~~~
+
+   def bisection(func, low, high, err, maxsteps=1000):
+
+   ====
+   from unittest.gui import TestCaseGui
+   import math
+   class myTests(TestCaseGui):
+       def testOne(self):
+	     def _bisection(func, low, high, err, maxsteps=1000):
+	         if func(low) > func(high):
+		     swap = high
+		     high = low
+		     low = swap
+		 for _ in range(maxsteps):
+		     mid = (high+low)/2
+		     val = func(mid)
+		     if abs(val) > err:
+		         if val > 0:
+			     high = mid
+			 else:
+			     low = mid
+	             else:
+		         return mid
+		 
+	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, 0.9, 1.7, 1e-5), 
+	         _bisection(lambda x: x**2 - 1, 0.9, 1.7, 1e-5), 5, 
+	         'Checking answer for x**2-1, low=0.9, high=1.7')
+	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, -1.7, -0.9, 1e-5), 
+	         _bisection(lambda x: x**2 - 1, -1.7, -0.9, 1e-5), 5, 
+	         'Checking answer for x**2-1, low=-1.7, high=0.9')
+	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, 0.25, 1.25, 1e-5), 
+	         _bisection(lambda x: x**2 - 1, 0.25, 1.25, 1e-5), 5, 
+	         'Checking answer for x**2-1, low=0.25, high=1.25')
+	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, -2.25, 0.25, 1e-5), 
+	         _bisection(lambda x: x**2 - 1, -2.25, 0.25, 1e-5), 5,
+	         'Checking answer for x**2-1, low=2.25, high=0.25')
+	     self.assertAlmostEqual(bisection(math.sin, 3, 4, 1e-7), 
+	         _bisection(math.sin, 3, 4, 1e-7), 7,
+	         'Checking answer for sin(x), low=3, high=4')
+	     self.assertAlmostEqual(bisection(math.sin, 4, 3, 1e-7), 
+	         _bisection(math.sin, 4, 3, 1e-7), 7, 
+	         'Checking answer for sin(x), low=4, high=3')
+
+   myTests().main()	        

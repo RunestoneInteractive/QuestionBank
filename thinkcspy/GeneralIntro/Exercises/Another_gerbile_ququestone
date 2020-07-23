@@ -1,0 +1,18 @@
+
+    :author: Damon Ellingston
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. dragndrop:: Another_gerbile_ququestone
+    :feedback: Feed your gerbils
+    :match_1: Marshmallow|||Brownie
+    :match_2: Weezy|||Blackie
+    :match_3: Hazel|||Mehitabel
+
+    Gerbil question.
+
+config values (conf.py): 
+
+- dragndrop_div_class - custom CSS class of the component's outermost div
+    

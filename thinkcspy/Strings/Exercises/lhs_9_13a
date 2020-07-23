@@ -1,0 +1,140 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: lhs_9_13a
+    :language: python
+    :autograde: unittest
+
+    An International Standard Book Number (ISBN) is a code that uniquely identifies an
+    edition of a book. The ISBN consists of ten digits separated by dashes into groups.
+    The groups are of various sizes, except for the last group. The last group is always
+    a single character, '0' through '9' or 'X', and acts as a check on the rest of the digits.
+    
+        ::
+    
+            0-670-03441-X
+            0-201-48558-3
+            1-56592-262-X
+            0-06-027900-1
+            0-439-45695-9
+            0-470-84371-3
+            1-4000-3136-2
+            0-19-856453-8
+            1-85671-104-8
+
+    The last character is calculated from the other 9 digits:
+
+    1. Multiply the first digit by 10.
+    2. Multiply the second digit by 9.
+    3. Multiply the third digit by 8.
+    4.       . . .
+    5. Multiply the ninth digit by 2.
+    6. Add up all these values.
+    7. Divide the sum by 11.
+    8. Take the remainder.
+    9. Subtract the remainder from 11. This is the check digit.
+    10. If the remainder is 10, use an 'X'
+        
+    For example:
+    
+        ::
+    
+            0-201-48558-3
+
+            0 * 10 =  0
+            2 *  9 = 18
+            0 *  8 =  0
+            1 *  7 =  7
+            4 *  6 = 24
+            8 *  5 = 40
+            5 *  4 = 20
+            5 *  3 = 15
+            8 *  2 = 16
+                    -----
+            sum =   140
+
+            140 / 11 = 12 rem 8
+
+            11 - 8 = 3 <-- the check digit
+
+    Write a function
+
+        .. sourcecode:: python
+
+                verifyISBN( isbn )
+
+    that takes a string parameter representing an ISBN number and then checks if the ISBN is correct.
+    Calculate a check character from the first nine digits and compare it to the last
+    character of the ISBN. If the two do not agree, the ISBN is incorrect and the function
+    returns ``False`` otherwise, the function returns ``True``.
+
+    ~~~~
+
+    import string
+
+    def verifyISBN( isbn ):
+        
+        # Your code here
+        
+        return False # FIX THIS!!!
+
+    def main():
+        print(verifyISBN("0-965-48534-X"))
+        print(verifyISBN("1-23456-789-0"))
+    
+    if __name__ == "__main__":
+        main()
+
+    ====
+    
+    import string
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _verifyISBN( self, isbn ):
+            isbnBuf = ''
+
+            for ch in isbn:
+               if ch in '0123456789X':
+                 isbnBuf += ch
+
+            #print(isbnBuf)
+            sum = 0
+
+            digit = 0
+            while digit < len(isbnBuf) - 1:
+                sum += (ord(isbnBuf[digit]) - ord('0')) * (10 - digit)
+                digit += 1
+
+            #print("sum=", sum)
+
+            checkDigit = 11 - (sum % 11)
+
+            checkVal = isbn[len(isbn)-1]
+
+            if (checkDigit == 10 and checkVal == 'X') or (checkDigit == (ord(checkVal) - ord('0'))):
+                return True
+
+            return False       
+
+        def testOne(self):
+            print('\nAuto-testing...')
+    
+            tests = [ "0-965-48534-X",
+                      "1-23456-789-0",
+                      "1-4000-1336-2",
+                      "1-4000-3136-2"]
+            
+            testsPass = True
+            for isbnStr in tests:
+                testsPass = testsPass and verifyISBN(isbnStr) == self._verifyISBN(isbnStr)
+                #self.assertEqual(verifyISBN(isbnStr), self._verifyISBN(isbnStr), "Testing verifyISBN(" + isbnStr + ")")
+            
+            self.assertTrue(testsPass, "Overall testing")
+
+    myTests().main()

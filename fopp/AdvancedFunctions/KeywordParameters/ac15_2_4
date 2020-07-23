@@ -1,0 +1,28 @@
+.. activecode:: ac15_2_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedFunctions/KeywordParameters
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **6.** Currently the function is supposed to take 1 required parameter, and 2 optional parameters, however the code doesn't work. Fix the code so that it passes the test. This should only require changing one line of code.
+   ~~~~
+
+   def waste(var = "Water", mar, marble = "type"):
+       final_string = var + " " + marble + " " + mar
+       return final_string
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(waste("Pokemon"), "Water type Pokemon", "Testing that waste returns the correct string on input 'Pokemon'")
+
+   myTests().main()
+

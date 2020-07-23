@@ -1,0 +1,27 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPRepeatNumbers/Exercises
+   :from_source: F
+.. parsonsprob:: Total_Dict_Values_PP
+   :adaptive:
+   :maxdist: 4
+
+   Put the code in order to define total_values that takes a dictionary (dict) and returns the total of the values in the dictionary.  For example, total_values({'red': 3, 'blue': 2, 'green': 20}) would return 25. 
+   -----
+   def total_values(dict):
+   =====
+   def total_values(): #distractor
+   =====
+       total = 0
+   =====
+       for key in dict:
+   =====
+       for key in dict #distractor
+   =====
+           total += dict[key]
+   =====
+           total += key #distractor
+   =====
+       return total

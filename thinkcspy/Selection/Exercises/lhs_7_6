@@ -1,0 +1,50 @@
+.. activecode:: lhs_7_6
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``isRightAngled`` which, given the length of three sides of a triangle,
+    will determine whether the triangle is right-angled.  Assume that the third argument to the
+    function is always the longest side.  It will return ``True`` if the triangle
+    is right-angled, or ``False`` otherwise.
+
+    **Hint**: floating point arithmetic is not always exactly accurate,
+    so it is not safe to test floating point numbers for equality.
+    If a good programmer wants to know whether
+    ``x`` is equal or close enough to ``y``, they would probably code it up as
+
+    .. sourcecode:: python
+
+       if  abs(x - y) < 0.001:      # instead of 'if x == y:' to see if x is 'close to' y
+           ...
+    ~~~~
+    def isRightAngled(a, b, c):
+        # your code here
+
+    # write your own test cases here - it has been started for you...
+    print( isRightAngled(3, 4, test_number1) )
+    print( isRightAngled(3, 4, test_number2) )
+    print( isRightAngled(5, 12, test_number3) )
+    print( isRightAngled(5, 12, test_number4) )
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            print("Auto-testing...")
+            self.assertEqual(isRightAngled(5, 12, 2),False,"Tested is_rightangled on inputs of 5, 12, 2")
+            self.assertEqual(isRightAngled(5, 12, 20),False,"Tested is_rightangled on inputs of 5, 12, 20")
+            self.assertEqual(isRightAngled(1.5,2.0,2.5),True,"Tested is_rightangled on inputs of 1.5, 2.0 and 2.5")
+            self.assertEqual(isRightAngled(4.0,8.0,16.0),False,"Tested is_rightangled on inputs of 4.0, 8.0 and 16.0")
+            self.assertEqual(isRightAngled(4.1,8.2,9.1678787078),True,"Tested is_rightangled on inputs of 4.1, 8.2 and 9.1678787077")
+            self.assertEqual(isRightAngled(4.1,8.2,9.169),False,"Tested is_rightangled on inputs of 4.1, 8.2 and 9.169")
+            self.assertEqual(isRightAngled(4.6,8.2,9.40209),True,"Tested is_rightangled on inputs of 4.6, 8.2 and 9.40209")
+            self.assertEqual(isRightAngled(4.6,8.2,9.40216),True,"Tested is_rightangled on inputs of 4.6, 8.2 and 9.40216")
+            self.assertEqual(isRightAngled(0.5,0.4,0.64031),True,"Tested is_rightangled on inputs of 0.5, 0.4 and 0.64031")
+
+    myTests().main()

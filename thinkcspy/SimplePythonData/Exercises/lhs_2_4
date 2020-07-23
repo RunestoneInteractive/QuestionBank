@@ -1,0 +1,37 @@
+.. activecode:: lhs_2_4
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    It is possible to name the days 0 through 6 where day 0 is Sunday and day 6 is Saturday. If you go on a wonderful holiday leaving on day number 5 (a Friday) and you return home after 10 nights you would return home on a Monday (day 1). Write a general version of the program which assigns the starting day number to the variable ``startDay``, the length of your stay to the variable ``lenOfStay``, and stores the number of day of the week you will return on in the variable ``retDay``. Finally, print the result.
+
+    Note: ``startDay`` and ``lenOfStay`` should be of integer type (not a string...)
+
+    ~~~~
+    # My Name:
+
+    # Write your code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertIn('startDay', self.getEditorText(), "Testing that 'startDay' is in your code. (Don't worry about Actual and Expected Values.)")
+            self.assertTrue((startDay >= 0) and (startDay <= 7), "Test for a valid startDay value. (If this test fails, all other tests are aborted.)")
+            if (startDay >= 0) and (startDay <= 7):
+                self.assertIn('lenOfStay', self.getEditorText(), "Testing that 'lenOfStay' is in your code. (Don't worry about Actual and Expected Values.)")
+                self.assertIn('retDay', self.getEditorText(), "Testing that 'retDay' is in your code. (Don't worry about Actual and Expected Values.)")
+                calcRetDay = (startDay + lenOfStay) % 7
+                self.assertEqual(retDay, calcRetDay, "Testing that retDay's value is correct.")
+                self.assertIn('print', self.getEditorText(), "Testing that 'print' is in your code. (Don't worry about Actual and Expected Values.)")
+                self.assertIn(str(retDay), self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
+
+    myTests().main()

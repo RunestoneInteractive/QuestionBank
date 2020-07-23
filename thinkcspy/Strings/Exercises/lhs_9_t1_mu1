@@ -1,0 +1,48 @@
+.. activecode:: lhs_9_t1_mu1
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``doubleChar(str)`` which **returns** a string where for every
+    character in the original string, there are two characters.
+
+    Example:
+
+    ::
+    
+        doubleChar('The') returns 'TThhee'
+        doubleChar('AAbb') returns 'AAAAbbbb'
+
+    ~~~~
+    # My Name:
+    def doubleChar(str):
+	# Write your code here
+
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _d(self, str):
+            dblStr = ''
+            for ch in str:
+                dblStr = dblStr + ch + ch
+            return dblStr
+
+        def testOne(self):
+            print('Auto-testing...')
+
+            tests = [ 'abc',
+                      'a BB  cccc\n !.',
+                      '' ]
+
+            for t in tests:
+                self.assertEqual(doubleChar(t), self._d(t), 'testing |' + t +'|')
+
+
+    myTests().main()

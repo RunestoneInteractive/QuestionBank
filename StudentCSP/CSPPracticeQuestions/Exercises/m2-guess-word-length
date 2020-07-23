@@ -1,0 +1,30 @@
+
+   :author: Kathryn Cunningham
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: m2-guess-word-length
+   :numbered: left
+   :noindent:
+
+   Solve my really cool parsons problem...if you can.
+   -----
+   def play(self):
+   =====
+	while self.guess != self.word:
+   =====
+    	    input_word = input("Guess a word from the list of words: ")
+    =====
+	    self.guess = input_word
+    =====
+    	  if len(self.guess) < len(self.word):
+            print("The guessed word is shorter.")
+    =====
+    	  elif len(self.guess) > len(self.word):
+            print("The guessed word is longer.")
+    =====
+    	  else:
+            print("You won!")
+
+    

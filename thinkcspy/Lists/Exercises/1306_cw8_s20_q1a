@@ -1,0 +1,67 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: 1306_cw8_s20_q1a
+    :autograde: unittest
+
+
+    **Question 1A [15 points]** 
+     
+    Write a Python function ``CommonItems(reflist,mylist)``  that returns  a list containing items in ``mylist`` that also occur in ``reflist``. The vaues of ``reflist`` and ``mylist`` are unchanged.e.g.
+
+
+    ::
+    
+        druglist=['tylenol','ibuprofen','pepto-bismol','sudafed',robitussin']
+        myneeds =['glucose', 'flour', 'pepto-bismol', 'water', 'tylenol']
+
+    then ``print(CommonItems(druglist, myneeds))`` will print: ``['pepto-bismol', 'tylenol']``
+
+
+       
+    ~~~~
+    # Write your code here
+
+    
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    def compareStringList(list1, list2):
+        if len(list1)!=len(list2):
+            return False
+		
+        for item1 in list1:
+            if item1 not in list2:
+                return False
+        return True
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            druglist = ['tylenol','ibuprofen','pepto-bismol','sudafed','robitussin']
+            myitems= ['glucose', 'flour', 'pepto-bismol', 'water', 'tylenol']
+            output = ['pepto-bismol', 'tylenol']
+
+            list2a = ['A','E','S','X']
+            list2b = ['B','S','Y']
+            output2 = ['S']
+      
+            
+            self.assertEqual(compareStringList(CommonItems(druglist ,myitems),output),True,"CommonItems(['tylenol','ibuprofen','pepto-bismol','sudafed','robitussin'],['glucose', 'flour', 'pepto-bismol', 'water', 'tylenol']) should return ['pepto-bismol', 'tylenol']")
+            self.assertEqual(compareStringList(CommonItems(list2a,list2b),output2),True,"CommonItems("+str(list2a)+","+str(list2b)+") should return "+str(output2))
+            #self.assertEqual(ispalindrome('h'),True,"ispalindrome('h') should return True")
+            #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
+            #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
+            #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
+
+
+
+
+    myTests().main()
+  
+
+

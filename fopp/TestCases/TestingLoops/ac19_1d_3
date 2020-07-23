@@ -1,0 +1,17 @@
+.. activecode:: ac19_1d_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TestCases/TestingLoops
+   :from_source: T
+
+   nums = []
+
+   if len(nums) == 0:
+      accum = None
+   else:
+      accum = 0
+      for w in nums:
+          accum = accum + w
+   assert accum == None
+

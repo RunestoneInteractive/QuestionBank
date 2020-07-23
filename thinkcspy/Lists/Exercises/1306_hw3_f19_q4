@@ -1,0 +1,27 @@
+.. activecode:: 1306_hw3_f19_q4
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+
+    **[BONUS 20 points]  Question 4.**  Write a function ``countOrange`` that counts the occurrences of the word ``Orange`` (or ``orange``)  as it refers to a fruit. However, the word Orange can mean other things. You can be sure that the fruit is being referenced if at least one of the following words is no more than distance 3 away from an occurrence of ``Orange`` (or ``orange``):  ``[eat, fruit, slice, peel, juice]``
+
+
+
+    ~~~~
+                
+    # Define your function here
+
+
+
+
+    # DO NOT CHANGE CODE BELOW 
+    
+    print(countOrange(input("Enter :")))
+
+        
+    ====
+
+  

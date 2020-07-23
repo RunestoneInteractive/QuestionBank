@@ -1,0 +1,18 @@
+.. activecode:: 1306_cw3_s20_q3b
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonModules/Exercises
+   :from_source: F
+
+   **[30 pts] Question 3** 
+
+   In this question, you will experimentally verify the sensitivity of using a precise Pi to the accuracy of computing area. You need to perform the following activities with Python program:
+   
+
+   a) Compute the area of a circle with radius 10 using Pi from the Python Math Library. Assign the area to a variable, say realA.
+   
+   b) Now compute the area of the circle using the Pi value with precision 1,2, and 3 points after the decimal place. (i.e., Pi = 3.1, 3.14 & 3.141).  Then Print the percentage difference between eacj of the areas calculated using each of these values of Pi and realA.
+
+   ~~~~
+   # Write your program here

@@ -1,0 +1,18 @@
+.. actex:: TL_365_assign_1
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+	       
+   Assign the value ``5`` to a variable called ``a``. 
+   ~~~~
+   ====
+   
+   from unittest.gui import TestCaseGui
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(a, 5, 'Checking answer.')
+   myTests().main()

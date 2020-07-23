@@ -1,0 +1,15 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: KDL_ch5_3
+   :autograde: unittest
+   :language: python
+
+   Use a For loop to draw a spiral.
+   ~~~~
+    
+   ====
+    

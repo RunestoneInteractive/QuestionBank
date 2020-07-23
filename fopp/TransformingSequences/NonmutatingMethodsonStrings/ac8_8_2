@@ -1,0 +1,17 @@
+.. activecode:: ac8_8_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: TransformingSequences/NonmutatingMethodsonStrings
+    :from_source: T
+
+    ss = "    Hello, World    "
+
+    els = ss.count("l")
+    print(els)
+
+    print("***"+ss.strip()+"***")
+
+    news = ss.replace("o", "***")
+    print(news)
+

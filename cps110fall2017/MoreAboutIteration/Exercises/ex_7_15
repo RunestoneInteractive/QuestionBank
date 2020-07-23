@@ -1,0 +1,16 @@
+.. actex:: ex_7_15
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a function to remove all the red from an image.
+
+   .. raw:: html
+
+       <img src="../_static/LutherBellPic.jpg" id="luther.jpg">
+       <h4 style="text-align: left;">For this and the following exercises, use the
+       luther.jpg photo.</h4>
+   ~~~~

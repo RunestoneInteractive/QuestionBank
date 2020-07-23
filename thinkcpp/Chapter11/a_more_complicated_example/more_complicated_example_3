@@ -1,0 +1,35 @@
+.. parsonsprob:: more_complicated_example_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter11/a_more_complicated_example
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Create the Dog::is_older() function as it would be defined INSIDE of the Dog structure definition.  This function
+   checks if the current Dog is older than another Dog.  The function is invoked on the current Dog.
+   -----
+   bool Dog::is_older(const Dog& dog, const Dog& dog2) {                         #distractor
+   =====
+   bool is_older(const Dog& dog2) const {
+   =====
+   bool is_older(Dog& dog2) {                         #paired
+   =====
+    if (age > dog2.age) {
+      return true;
+    }
+   =====
+    if (dog.age > dog2.age) {                         #paired
+      return true;
+    }
+   =====
+    else {
+      return false;
+    }
+   =====
+   }
+   =====
+   };                         #paired
+   =====
+    Dog dog = *this;                         #distractor

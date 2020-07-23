@@ -1,0 +1,18 @@
+.. mchoice:: cswfinal_q6
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 1100010
+   :answer_b: 1000111
+   :answer_c: 10011011
+   :answer_d: 1010101
+   :correct: a
+   :random:
+
+   6. Add the following unsigned binary numbers::
+
+       100011
+       100011
+      +011100

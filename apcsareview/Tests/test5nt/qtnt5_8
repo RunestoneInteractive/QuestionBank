@@ -1,0 +1,27 @@
+.. mchoice:: qtnt5_8
+      :author: bmiller
+      :difficulty: 3.0
+      :basecourse: apcsareview
+      :topic: Tests/test5nt
+      :from_source: T
+      :answer_a: I only
+      :answer_b: II only
+      :answer_c: III only
+      :answer_d: II and III only
+      :answer_e: I, II, and III
+      :correct: d
+      :feedback_a: This is true because !false && !false becomes true && true
+      :feedback_b: If either a or b (or both a AND b) is true whole expression becomes false
+      :feedback_c: If either a or b (or both a AND b) is true whole expression becomes false
+      :feedback_d: If either a or b (or both a AND b) is true whole expression becomes false
+      :feedback_e: If either a or b (or both a AND b) is true whole expression becomes false
+
+
+      Suppose ``a and b`` are ``boolean`` variables. The expression below
+          ``!a && !b``
+
+        ...will evaluate to ``false`` whenever
+
+         I. a and b are both false
+         II. a is false and b is true
+         III. a is true and b is false

@@ -1,0 +1,27 @@
+.. activecode:: lhs_10_7
+    :author: Shadaj Laddad
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Write a function ``add_vectors(u, v)`` that takes two lists of numbers of the same length, and returns a new list containing the sums of the corresponding elements of each:
+    ~~~~
+
+    def add_vectors(u, v):
+        # your code here!
+
+    =====
+
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual(add_vectors([1, 1], [1, 1]), [2, 2])
+            self.assertEqual(add_vectors([1, 2], [1, 4]), [2, 6])
+            self.assertEqual(add_vectors([1, 2, 1], [1, 4, 3]), [2, 6, 4])
+                
+    myTests().main() 

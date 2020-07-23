@@ -1,0 +1,47 @@
+.. mchoice:: AP5-2-4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csawesome
+    :topic: Unit5-Writing-Classes/Exercises
+    :from_source: T
+    :practice: T
+    :random:
+
+    Consider the definition of the Party class below. The class uses the instance variable numOfPeople to indicate how many people are at the party.
+
+    .. code-block:: java
+
+        public class Party
+        {
+            private int numOfPeople;
+            private String partyHost;
+
+            public Party (String name, int people)
+            {
+                partyHost = name;
+                numOfPeople = people;
+            }
+        }
+
+        Which of the following statements will create a Party object
+        that represents a party that has three people at it?
+
+    - Party p = new Party ("Natasha", "3");
+
+      - An int should be passed in as the second parameter, not a String.
+
+    - Party p = new Party ("Eduardo", 3);
+
+      + Correct
+
+    - Party p = new Party ("Emillio", "three");
+
+      - An int should be passed in as the second parameter, not a string.
+
+    - Party p = new Party ("Bob", three);
+
+      - The word three would be treated as an undeclared variable here.
+
+    - Party p = new Party ("Billie", "2+1");
+
+      - Strings cannot perform addition.

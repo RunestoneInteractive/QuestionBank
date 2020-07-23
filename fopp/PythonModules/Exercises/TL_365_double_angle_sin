@@ -1,0 +1,34 @@
+.. actex:: TL_365_double_angle_sin
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: PythonModules/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+	      
+   Use the double angle formula,
+
+   .. math::
+      \sin(2\theta) = 2\sin(\theta)\cos(\theta),
+
+   to compute and print 
+
+   .. math::
+      \sin(\pi/4)
+
+   ~~~~
+
+   ====
+   
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           output = self.getOutput()
+	   editor = self.getEditorText()
+           self.assertAlmostEqual(float(output), 2*math.sin(math.pi/8)*math.cos(math.pi/8), 7, 'Checking output')
+	   self.assertFalse(re.search(r'(0.70710|math.sin *\( *math.pi */ *4 *\))', editor), 'Checking for hardcoding')
+	   self.assertFalse(re.search(r'( *import *math *as| *from *math)', editor), 'Checking import statement')
+   myTests().main()
+

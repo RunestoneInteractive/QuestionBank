@@ -1,0 +1,44 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: L2.8_Troy2018
+
+    LESSON 2.8 is focused on the difference between inputting
+    Words vs. Numbers 
+    ~~~~
+    # Lesson 2.8   A MINI LESSON ON INPUT FROM A USER
+
+    # In general, one 
+    # variableName = input ( "please enter....")
+
+
+    # How to Input Words
+
+    myWord = input("Please enter your favorite color  ")
+    print ("Your favorite color is ", myWord)
+    print()
+
+
+    # How to Input a Number as a WORD
+
+    numWord1 = input("Please enter a number 1 - 9  ")
+    numWord2 = input("Please enter a number 1 - 9  ")
+
+    print ("With Words  ")
+    print()
+
+
+
+    # How to Input a Number  as an Integer
+
+    num1 = input("Please enter a number 1 - 9  ") 
+    num2 = input("Please enter a number 1 - 9  ") 
+
+    print ("With Integers   ")
+
+    print()
+    print("The End")
+    

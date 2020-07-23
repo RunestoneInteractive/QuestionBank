@@ -1,0 +1,31 @@
+.. activecode:: ex_5_18
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: Functions/Exercises
+   :from_source: None
+
+   def findHypot(a,b):
+       # your code here
+
+   ====
+   from unittest.gui import TestCaseGui
+   import random
+   import math
+
+   class myTests(TestCaseGui):
+       def testOne(self):
+           a = random.randint(1,30)
+           b = random.randint(1,30)
+           self.assertAlmostEqual(findHypot(a,b),math.hypot(a,b),5,"Tested inputs "+str(a)+" and "+str(b))
+           a = random.randint(1,30)
+           b = random.randint(1,30)
+           self.assertAlmostEqual(findHypot(a,b),math.hypot(a,b),5,"Tested inputs "+str(a)+" and "+str(b))
+           a = random.randint(1,30)
+           b = random.randint(1,30)
+           self.assertAlmostEqual(findHypot(a,b),math.hypot(a,b),5,"Tested inputs "+str(a)+" and "+str(b))
+           a = random.randint(1,30)
+           b = random.randint(1,30)
+           self.assertAlmostEqual(findHypot(a,b),math.hypot(a,b),5,"Tested inputs "+str(a)+" and "+str(b))
+
+   myTests().main()

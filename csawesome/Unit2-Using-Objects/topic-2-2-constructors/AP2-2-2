@@ -1,0 +1,46 @@
+.. mchoice:: AP2-2-2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :from_source: T
+   :practice: T
+   :answer_a: Movie m = new Movie(8.0, "Lion King");
+   :answer_b: Movie m = Movie("Lion King", 8.0);
+   :answer_c: Movie m = new Movie();
+   :answer_d: Movie m = new Movie("Lion King", "Disney", 8.0);
+   :answer_e: Movie m = new Movie("Lion King");
+   :correct: d
+   :feedback_a: There is no Movie constructor with 2 parameters.
+   :feedback_b: There is no Movie constructor with 2 parameters.
+   :feedback_c: This creates a Movie object but it does not have the correct title and rating.
+   :feedback_d: This creates a Movie object with the correct title and rating.
+   :feedback_e: This creates a Movie object but it does not have a rating of 8.0.
+
+   Consider the following class.  Which of the following code segments will construct a Movie object m with a title of "Lion King" and rating of 8.0?
+
+   .. code-block:: java
+
+        public class Movie
+        {
+            private String title;
+            private String director;
+            private double rating;
+            private boolean inTheaters;
+
+            public Movie(String t, String d, double r)
+            {
+                title = t;
+                director = d;
+                rating = r;
+                inTheaters = false;
+            }
+
+            public Movie(String t)
+            {
+                title = t;
+                director = "unknown";
+                rating = 0.0;
+                inTheaters = false;
+            }
+        }

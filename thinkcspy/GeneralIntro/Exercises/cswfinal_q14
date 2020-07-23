@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_q14
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: Unicode
+   :answer_b: ASCII
+   :answer_c: Public key encryption
+   :answer_d: Ancient documents cannot be represented on a computer
+   :correct: a
+   :random:
+
+   14. The Dead Sea scrolls constitute one of the great archeological discoveries of the 20th century. The scrolls are written in Hebrew, Aramaic, and Greek. In order to represent these texts in their original languages, you might store them using which code?

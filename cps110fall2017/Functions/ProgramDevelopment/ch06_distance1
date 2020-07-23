@@ -1,0 +1,12 @@
+.. activecode:: ch06_distance1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Functions/ProgramDevelopment
+    :from_source: None
+
+    def distance(x1, y1, x2, y2):
+        return 0.0
+
+    print(distance(1, 2, 4, 6))
+

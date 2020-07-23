@@ -1,0 +1,25 @@
+.. actex:: ac7_14_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: T
+
+    A year is a **leap year** if it is divisible by 4; however, if the year can be evenly divided by 100, it is NOT a leap year, unless the year is **also** evenly divisible by 400 then it is a leap year. Write code that asks the user to input a year and output True if it's a leap year, or False otherwise. Use if statements.
+
+    .. table::
+
+       =======  =====
+       Year     Leap?
+       =======  =====
+       1944     True
+       2011     False
+       1986     False
+       1800     False
+       1900     False
+       2000     True
+       2056     True
+       =======  =====
+
+    Above are some examples of what the output should be for various inputs.
+    ~~~~

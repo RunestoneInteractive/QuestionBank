@@ -1,0 +1,19 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: func_14
+  
+    Write a function 'drawRec' that draws a rectangle. Write another function 
+    'randGen' that receives two random numbers as arguments and calls 
+    'drawRec' to draw a rectangle with that random height and width.
+ 
+    +0.25 Draw 10 rectangles of random sizes in random locations. 
+    +0.25 Ask the user for a height and width. Call 'drawRec' to draw the 
+    rectangle. Use an Accumulator Pattern to decrease the size of the height 
+    and width by 2 and draw the rectangle in a random location. Repeat this 
+    20 times.
+    ~~~~
+    

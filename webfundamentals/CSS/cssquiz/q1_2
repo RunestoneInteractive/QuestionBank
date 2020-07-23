@@ -1,0 +1,18 @@
+.. mchoice:: q1_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: CSS/cssquiz
+   :from_source: T
+   :answer_a: File Transfer Protocol
+   :answer_b: HyperText Markup Language
+   :answer_c: Secure Sockets Layer
+   :answer_d: HyperText Transfer Protocol
+   :correct: d
+   :feedback_a: No, FTP is not related to this class.
+   :feedback_b: No, HTML is the markup language not the protocol
+   :feedback_c: No, SSL is not used
+   :feedback_d: Yes
+
+   What is the protocol used in the URL:  ``http://interactivepython.org/index.html``
+

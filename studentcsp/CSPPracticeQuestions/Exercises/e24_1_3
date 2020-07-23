@@ -1,0 +1,24 @@
+.. mchoice:: e24_1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: T
+   :answer_a: Yes, the code correctly switches the values of 'a' and 'b'.
+   :answer_b: No, but it will work correctly if statements 1. and 3. are switched.
+   :answer_c: No, but it will work correctly if statements 2. and 3. are switched.
+   :answer_d: No, but it will work correctly if statements 1. and 2. are switched.
+   :correct: c
+   :feedback_a: Incorrect. In this case, the value of 'a' will remain unchanged although 'b' will correctly store the value of 'a'.
+   :feedback_b: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before giving a value to 'temp'.
+   :feedback_c: Correct. Plug any values in 'a' and 'b' and trace the code! You will find that it works.
+   :feedback_d: Incorrect. In this case, the code will not compile as we are trying to assign the value of 'temp' to 'b' before giving a value to 'temp'.
+
+   A programmer is writing code to switch the values of two integer variables, namely ``a`` and ``b``, using a temporary integer variable, ``temp``. This is the pseudo-code that the programmer has come up with:
+   ::
+
+     temp ← a  # statement 1.
+     b ← temp  # statement 2.
+     a ← b     # statement 3.
+
+   Will the pseudo-code correctly perform the required task (assume that ``a`` and ``b`` are never numerically equal)?

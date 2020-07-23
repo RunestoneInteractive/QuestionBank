@@ -1,0 +1,36 @@
+.. mchoice:: mce_6_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter6/Exercises
+    :from_source: T
+
+    What is the output of the code below?
+
+    .. code-block:: cpp
+
+     int main() {
+       int x = 0;
+       int i = 1;
+       while (i < 10) {
+         x = i;
+         i++;
+       }
+       cout << x;
+     }
+
+    - 0
+
+      - ``x`` is initialized to 0, but it's value is reassigned in the while loop. Can you figure out what the final value assigned to ``x`` is?
+
+    - 1
+
+      - When ``i`` is 1, ``x`` is assigned the value of ``i``, so ``x`` is 1. However, the while loop continuously increments i, so the final value of ``x`` is not 1.
+
+    - 9
+
+      + ``x`` is assigned the value of 9 during the last iteration of the while loop, and thus 9 is the output of the program.
+
+    - 10
+
+      - ``i`` is incremented to a value of 10, but since ``i < 10`` is false, the contents of the while loop is not executed, so ``x`` is never assigned the value of 10.

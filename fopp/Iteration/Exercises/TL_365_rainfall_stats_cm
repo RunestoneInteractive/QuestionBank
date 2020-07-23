@@ -1,0 +1,60 @@
+.. actex:: TL_365_rainfall_stats_cm
+   :author: Tyler Luchko
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+	    
+	       
+   The average monthly rainfall in **inches** recorded at the Van Nuys Airport for
+   2018 is stored in the ``rainfall_in`` variable provided below.
+   Using a loop, calculate and print out the
+
+   1. total,
+      
+   2. mean, and
+      
+   3. standard deviation,
+      
+   in **centimeters**, each on a separate line.
+
+   The standard deviation is given by
+
+   .. math::
+      \sigma = \sqrt{\frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 },
+
+   where :math:`\bar{x}` is the mean.
+
+   Do not use the ``sum()`` function. 
+	       
+   ~~~~
+   
+   rainfall_in = [1.79, 0.18, 3.81, 0.03, 0.04, 0.00, 0.00, 0.00, 0.00, 0.32, 0.97, 2.60]
+   ====
+   
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           output = self.getOutput().split('\n')
+	   rainfall = [v*2.54 for v in rainfall_in]
+	   total = sum(rainfall)
+	   mean = total/len(rainfall)
+	   sum_sq = 0
+	   for value in rainfall:
+	       sum_sq += (value - mean)**2
+	   stdev = (sum_sq/(len(rainfall)-1))**0.5
+	   self.assertAlmostEqual(float(output[0]), total, 7, 'Checking total')
+	   self.assertAlmostEqual(float(output[1]), mean, 7, 'Checking mean')
+	   self.assertAlmostEqual(float(output[2]), stdev, 7, 'Checking standard deviation')
+	   
+	   # hardcode check
+	   float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
+	   print_float_re = r'print\( *'+float_re+' *\)'
+	   self.assertFalse(re.search(print_float_re, self.getEditorText()), 'Checking for hardcoding')
+	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
+	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
+	   self.assertTrue(len(outer_loops)>=2 and len(inner_loops)==0, 'Checking for-statements')
+   myTests().main()

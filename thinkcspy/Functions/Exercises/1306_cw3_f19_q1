@@ -1,0 +1,42 @@
+.. activecode:: 1306_cw3_f19_q1
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+
+   **[20 points] Question 1**. Write a Python function printsquare to take an integer N and a symbol S as input and prints N lines, each with S repeated 2*N times.
+
+   `Sample input & Output:`
+
+   If user response is ``N = 6`` and ``S = *``, the above program should print: 
+   
+
+
+   ::
+
+      ************
+      ************
+      ************
+      ************
+      ************
+      ************
+
+  
+   ~~~~
+   # Your function goes here
+
+
+
+
+
+
+
+
+
+   # Leave the following lines as they are
+
+   N = input("Enter N: ")
+   S = input("Enter S: ")
+   printsquare(N,S)
+

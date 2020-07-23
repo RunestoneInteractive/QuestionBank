@@ -1,0 +1,9 @@
+.. activecode:: act_sac_5hu
+    :author: Sean Joyce
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: Dictionaries/split_apply_combine
+    :from_source: F
+
+    Read the "so_survey.csv" file (from Sec 11.14) to determine (from the Stack Overflow survey) the most popular programming language for people that exercise 3-4 times per week.  Write (and include here) Python code that finds this answer and then prints it (by itself) on a single line.
+    ~~~~

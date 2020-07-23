@@ -1,0 +1,16 @@
+.. activecode::  ams_assign4_q4
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameStrings/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Modify line 6 to print: “The number of miles you can drive on 25 dollars is 273.97260274.”
+    ~~~~
+    funds = 25
+    milesPerGallon = 40
+    pricePerGallon = 3.65
+    numGallons = funds / pricePerGallon
+    numMiles = milesPerGallon * numGallons
+    print(numMiles)

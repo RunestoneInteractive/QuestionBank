@@ -1,0 +1,52 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: Troy2018_4.3
+  
+    Study and experiment with the attached code to:
+    - Review moving the turtle to other places on the screen
+    - Learn penup() and pendown
+    - Review user input 
+
+    Add to the code.  
+    Lift up the pen.  
+    Moving ted elswhere on the screen and 
+    draw another sequence of lines or shapes  
+    ~~~~
+     
+    import turtle
+    window = turtle.Screen()
+
+    ted = turtle.Turtle()
+    ted.shape("turtle")
+    ted.color("orange")
+    ted.pensize(4)
+
+    ted.forward(80)
+    ted.right (45)
+    ted.forward(50)
+    ted.right(45)
+
+    # Get input from the user with a pop up box and 
+    # Save the input in a variable called   turtleColor
+
+    turtleColor = input ("Please enter a color for Ted")
+
+    ted.color(turtleColor)       # use the variable turtleColor  to set the color
+
+    ted.forward (70)
+    ted.right (90)
+    ted.forward (70)
+    
+    ted.penup ( )                   # ted lifts up pen to stop drawing
+    ted.forward (100)
+
+    ted.pendown()                # ted puts down pen to resume drawing
+    ted.forward(80)
+    ted.right (120)
+    ted.forward (200) 
+
+    

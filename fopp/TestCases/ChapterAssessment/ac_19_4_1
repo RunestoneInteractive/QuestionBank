@@ -1,0 +1,13 @@
+.. activecode:: ac_19_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TestCases/ChapterAssessment
+   :from_source: T
+   :include: ac_19_4_3
+
+   The function `mySum` is supposed to return the sum of a list of numbers (and 0 if that list is empty), but it has one or more errors in it. Use this space to write test cases to determine what errors there are. You will be using this information to answer the next set of multiple choice questions.
+   ~~~~
+
+
+

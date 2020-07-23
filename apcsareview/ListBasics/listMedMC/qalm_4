@@ -1,0 +1,30 @@
+.. mchoice:: qalm_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: ListBasics/listMedMC
+   :from_source: T
+   :answer_a: [1, 2, 5, 4, 6, 3]
+   :answer_b: [6, 5, 4, 3, 2, 1]
+   :answer_c: [1, 2, 3, 4, 5, 6]
+   :answer_d: [1, 4, 2, 6, 3]
+   :answer_e: [1, 2, 4, 6, 3]
+   :correct: d
+   :feedback_a: The set replaces the 3 with the 4 so this can't be right.
+   :feedback_b: The add with an index of 2 and a value of 5 adds the 5 at index 2 not 3.  Remember that the first index is 0.
+   :feedback_c: The add method that takes just a value as a parameter adds that value to the end of the list.  The set replaces the value at that index with the new value.  The add with parameters of an index and a value puts the passed value at that index and moves any existing values by one index to the right (increments the index).
+   :feedback_d: The add with an index of 2 and a value of 5 adds the 5 at index 2 not 1.  Remember that the first index is 0.
+   :feedback_e: When you declare and create a collection class you can specify the type of the items in it.
+
+   What is printed as a result of executing the following code segment?
+
+   .. code-block:: java
+
+     List<Integer> aList = new ArrayList<Integer>();
+     aList.add(new Integer(1));
+     aList.add(new Integer(2));
+     aList.add(1, new Integer(5));
+     aList.set(1, new Integer(4));
+     aList.add(new Integer(6));
+     aList.add(new Integer(3));
+     System.out.println(aList);

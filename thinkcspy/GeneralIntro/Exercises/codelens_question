@@ -1,0 +1,16 @@
+.. codelens:: codelens_question
+    :author: Florian Picard
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :question: What is the value of tot after the line with the red arrow executes?
+    :breakline: 4
+    :feedback: Use the global variables box to look at the current values of tot and i.
+    :correct: globals.tot
+
+    tot = 0
+    prod = 1
+    for i in range(10):
+       tot = tot + i
+       prod = prod * i

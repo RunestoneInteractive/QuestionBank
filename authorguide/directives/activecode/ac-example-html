@@ -1,0 +1,23 @@
+.. activecode:: ac-example-html
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/activecode
+   :from_source: T
+   :language: html
+   :enabledownload:
+
+   <html>
+     <body>
+       <style>
+         h2 { font-size: 48px;
+            color: red;
+         }
+       </style>
+       <h2>Hello World</h2>
+       <ul>
+         <li>one</li>
+         <li>two</li>
+       </ul>
+     </body>
+   </html>

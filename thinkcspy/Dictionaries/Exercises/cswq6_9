@@ -1,0 +1,23 @@
+.. mchoice:: cswq6_9
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Dictionaries/Exercises
+   :from_source: F
+   :answer_a: 11
+   :answer_b: 16
+   :answer_c: 15
+   :answer_d: 12
+   :correct: a
+   :random:
+
+   9. What is the value of x after executing the following code?::
+
+      char_dict = {}
+      s = "Now is the time."
+      for char in s : 
+          if char not in char_dict:
+              char_dict[char] = 1 
+          else:
+              char_dict[char] += 1 
+      x = len(char_dict)

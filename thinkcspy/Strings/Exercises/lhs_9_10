@@ -1,0 +1,111 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: lhs_9_10
+    :language: python
+    :autograde: unittest
+
+    Write a function that converts an "english" word to its piglatin form according to the following rules:
+
+    a.  If there are no vowels in ``englishWord``, then ``pigLatinWord`` is just
+        ``englishWord`` + "ay". (There are ten vowels: 'a', 'e', 'i', 'o',
+        and 'u', and their uppercase counterparts.)
+    b.  Else, if ``englishWord`` begins with a vowel, then ``pigLatinWord`` is just ``englishWord`` + "yay".
+    c.  Otherwise (if ``englishWord`` has a vowel in it and yet doesn't start
+        with a vowel), then ``pigLatinWord`` is end + start + "ay", where end
+        and start are defined as follows:
+
+        1. Let ``start`` be all of ``englishWord`` up to (but not including) its first vowel.
+        2. Let ``end`` be all of ``englishWord`` from its first vowel on.
+        3. But, if ``englishWord`` is capitalized, then capitalize ``end`` and "uncapitalize" ``start``.
+
+    For example, execution of the following statements:
+
+     .. sourcecode:: python
+
+        print(wordToPigLatin("foo"))
+        print(wordToPigLatin("bar"))
+        print(wordToPigLatin("FooBar"))
+        print(wordToPigLatin("out"))
+        print(wordToPigLatin("rhythm"))
+        print(wordToPigLatin("!#%$&^@!!"))
+
+    would produce the following output
+
+    ::
+
+        oofay
+        arbay
+        OoBarfay
+        outyay
+        rhythmay
+        !#%$&^@!!ay
+
+    ~~~~
+    
+    import string
+
+    def wordToPigLatin(englishWord):
+        pigLatinWord = ""
+        
+        ## Your code here
+        
+        return pigLatinWord
+        
+    def main():
+        print(wordToPigLatin("foo"))
+        print(wordToPigLatin("bar"))
+        print(wordToPigLatin("FooBar"))
+        print(wordToPigLatin("out"))
+        print(wordToPigLatin("rhythm"))
+        print(wordToPigLatin("!#%$&^@!!"))
+    
+    if __name__ == "__main__":
+        main()
+    
+    ====
+    
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+
+        def _wordToPigLatin(self, englishWord):
+            pigLatinWord = ""
+            pos = 0
+            while pos < len(englishWord) and englishWord[pos] not in "aeiouAEIOU":
+                pos += 1
+    
+            if pos == len(englishWord):
+                pigLatinWord = englishWord + "ay"
+            elif pos == 0:
+                pigLatinWord = englishWord + "yay"
+            else:
+                start = englishWord[:pos]
+                end = englishWord[pos:]
+                if englishWord[0].upper() == englishWord[0]: # starts with uppercase
+                    start = start[0].lower() + start[1:]
+                    end = end[0].upper() + end[1:]
+                pigLatinWord = end + start + "ay"
+        
+            return pigLatinWord
+
+        def testOne(self):
+            print('\nAuto-testing...')
+        
+            tests = [ 'spamming',
+                      "Spam",
+                      "orange",
+                      "Off",
+                      'Zzyzx']
+                
+            testsPass = True
+            for word in tests:
+                testsPass = testsPass and wordToPigLatin(word) == self._wordToPigLatin(word)
+                #self.assertEqual(wordToPigLatin(word), self._title(word), word)               
+
+            self.assertTrue(testsPass, "Overall testing")
+
+    myTests().main()

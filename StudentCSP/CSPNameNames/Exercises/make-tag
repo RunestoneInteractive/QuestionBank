@@ -1,0 +1,30 @@
+.. activecode:: make-tag
+       :author: Barbara  Ericson
+       :difficulty: 0.0
+       :basecourse: StudentCSP
+       :topic: CSPNameNames/Exercises
+       :from_source: F
+       :nocodelens:
+       :autograde: unittest
+
+       The web is built with HTML strings like "<i>Yay</i>" which draws Yay 
+       as italic text. In this example, the "i" tag makes <i> and </i> which surround 
+       the word "Yay". Given tag and word strings, create the HTML string with tags 
+       around the word.  For example, make_tags('i', 'Yay') returns '<i>Yay</i>'.
+       ~~~~
+       def make_tags(tag,word):
+
+       ====
+       from unittest.gui import TestCaseGui
+
+       class myTests(TestCaseGui):
+
+           def testOne(self):
+               self.assertEqual(make_tags('i', 'Yay'), '<i>Yay</i>', "make_tags('i', 'Yay')")
+               self.assertEqual(make_tags('i', 'Hello'), '<i>Hello</i>', "make_tags('i', 'Hello')")
+               self.assertEqual(make_tags('b', 'Yay'), '<b>Yay</b>', "make_tags('b', 'Yay')")
+               self.assertEqual(make_tags('i', 'i'), '<i>i</i>', "make_tags('i', 'i')")
+               self.assertEqual(make_tags("i", ""), "<i></i>", 'make_tags("i", "")')
+
+
+       myTests().main()

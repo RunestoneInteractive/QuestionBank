@@ -1,0 +1,14 @@
+.. actex:: ex_8_12
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: Strings/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Here is another interesting L-System called a Hilbert curve.  Use 90 degrees::
+
+       L
+       L -> +RF-LFL-FR+
+       R -> -LF+RFR+FL-
+   ~~~~

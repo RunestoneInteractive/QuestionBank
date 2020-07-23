@@ -1,0 +1,24 @@
+.. activecode:: act_kiva_6
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/kiva_statistics
+    :from_source: T
+    :include: act_kiva_1
+
+    Compute the total number of loans made to the Philippines and store it in a variable ``philippines_count``
+    ~~~~
+    # Your code here
+    ====
+    from unittest.gui import TestCaseGui
+
+    class MyTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertTrue('philippines_count' in self.getEditorText(), "you need a philippines_count variable")
+            self.assertEqual(philippines_count, country_name.count('Philippines'), "")
+            self.assertTrue('country_name.count' in self.getEditorText(), "you should use a list method to count")
+
+
+    MyTests().main()
+

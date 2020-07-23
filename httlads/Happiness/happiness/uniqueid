@@ -1,0 +1,16 @@
+.. fillintheblank:: uniqueid
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/happiness
+   :from_source: F
+
+   What does your spreadsheet show for the population of the United States? |blank| what does the countries of the world sheet show for the united states? |blank|
+
+   - :#N/A: Is the correct answer
+     :298444215: Really?  check again on the happiness_2017 spreadsheet
+     :x: The happiness_2017 spreadsheet will not have a value for the United States
+
+   - :298444215: Is the correct answer
+     :#N/A: Make sure you are looking at the right spreadsheet
+     :x: Check a little more carefully

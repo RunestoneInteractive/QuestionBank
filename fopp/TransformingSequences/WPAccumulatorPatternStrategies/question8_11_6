@@ -1,0 +1,16 @@
+.. mchoice:: question8_11_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TransformingSequences/WPAccumulatorPatternStrategies
+   :from_source: T
+   :answer_a: num_vowels
+   :answer_b: s
+   :answer_c: the prompt does not say
+   :feedback_a: No, that is the accumulator variable.
+   :feedback_b: Yes, that is the sequence you will iterate through!
+   :feedback_c: It is stated in the prompt.
+   :correct: b
+   :practice: T
+
+   What sequence will you iterate through as you accumulate a result in the following prompt? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

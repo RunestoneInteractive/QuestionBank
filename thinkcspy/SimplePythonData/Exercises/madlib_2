@@ -1,0 +1,20 @@
+.. activecode:: madlib_2
+    :author: Michael Garrant
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+
+    Create a Mad Lib Generator.
+    You may create your own story or use a famous or popular one you are familiar with.
+    It should be at least 100 words long. 
+    Try to use at least 1 of each of the following types of words described under Quick Review at the following link:
+    http://www.redkid.net/madlibs/
+    What is Mad Libs?  
+    Online Mad Libs generator should give you ideas and/or search on your own what they are and how the game works.
+    http://www.redkid.net/madlibs/ 
+    http://www.madglibs.com/
+
+    ~~~~
+    # your code here

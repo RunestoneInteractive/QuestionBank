@@ -1,0 +1,18 @@
+.. mchoice:: more_complicated_example_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter11/a_more_complicated_example
+   :from_source: T
+   :multiple_answers:
+   :answer_a: There is only one Time parameter.
+   :answer_b: The function operates on two Time objects.
+   :answer_c: The function is invoked on time2.
+   :answer_d: "hour" and "minute" refer to the hour and minute of the implicit Time object.
+   :correct: b,d
+   :feedback_a: Incorrect! There are actually two Time parameters, one of them is implicit.
+   :feedback_b: Correct!
+   :feedback_c: Incorrect! The function is invoked on the implicit Time object.
+   :feedback_d: Correct!
+
+   Which is/are true about the ``Time::after`` member function?

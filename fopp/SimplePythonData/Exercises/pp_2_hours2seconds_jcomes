@@ -1,0 +1,19 @@
+.. parsonsprob:: pp_2_hours2seconds_jcomes
+   :author: Jonny Comes
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :noindent:
+
+   Write a program that will convert hours to seconds. This program will also need to get input from a user to see how many hours should be converted and the result should be printed to the user.
+   -----
+   user_hours = input("How many hours should be converted?: ")
+   =====
+   num_hours = int(user_hours)
+   =====
+   minutes = num_hours * 60
+   =====
+   seconds = minutes * 60
+   =====
+   print("Number of seconds: " + str(seconds))

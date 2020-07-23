@@ -1,0 +1,29 @@
+.. actex:: ex_rec_3
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+   :nocodelens:
+
+   Modify the recursive tree program using one or all of the following
+   ideas:
+
+   -  Modify the thickness of the branches so that as the ``branchLen``
+      gets smaller, the line gets thinner.
+
+   -  Modify the color of the branches so that as the ``branchLen`` gets
+      very short it is colored like a leaf.
+
+   -  Modify the angle used in turning the turtle so that at each branch
+      point the angle is selected at random in some range. For example
+      choose the angle between 15 and 45 degrees. Play around to see
+      what looks good.
+
+   -  Modify the ``branchLen`` recursively so that instead of always
+      subtracting the same amount you subtract a random amount in some
+      range.
+
+   If you implement all of the above ideas you will have a very
+   realistic looking tree.
+   ~~~~

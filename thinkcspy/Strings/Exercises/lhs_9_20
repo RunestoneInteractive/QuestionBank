@@ -1,0 +1,92 @@
+.. activecode:: lhs_9_20
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``parseIP(ipAddr)`` which takes the string ``ipAddr``
+    which is an IP address of the form ###.###.###.###.  Each ### is a
+    number from 0 to 255.
+
+    The function should return the four numbers which are in the IP address
+    string.
+
+    ``parseIP("0.1.2.3")`` returns 0, 1, 2, 3
+    ``parseIP("255.2.12.59")`` returns 255, 2, 12, 59
+
+    **NOTE:** You may assume that the ``ipAddr`` is always a legally formatted value.
+
+    **NOTE:** Do not use the ``split()`` list method.
+
+    ~~~~
+    def parseIP(ipAddr):
+        # write your code here
+
+        # a = ...
+        # b = ...
+        # c = ...
+        # d = ...
+
+        # USE the line below to return the a, b, c, d variables above
+        return (a, b, c, d) # returns the 4 integers for IP address a.b.c.d
+    
+    # any test cases you'd like to have
+
+    ====
+    import sys
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+    
+    
+        def _parseIP(self, ipAddr):
+            pos = ipAddr.find(".")
+            a = int(ipAddr[0:pos])
+
+            ipAddr = ipAddr[pos+1:]
+            pos = ipAddr.find(".")
+            b = int(ipAddr[0:pos])
+
+            ipAddr = ipAddr[pos+1:]
+            pos = ipAddr.find(".")
+            c = int(ipAddr[0:pos])
+
+            d = int(ipAddr[pos+1:])
+
+            return (a, b, c, d)
+
+        # just opening and closing file does not work, so need a print statement to "empty" the file
+        def deleteFile(self, fname):
+            # empty out the file so nothing shows
+            sys.stdout = open(fname, "w")
+            print()
+            sys.stdout.close()
+    
+        def testOne(self):
+            print("Auto-testing...")  # can be deleted if you hide all prints() to a file
+            
+            # strips the test code - when testing code with the test code 
+            code = self.getEditorText()
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+    
+            # hide print()
+            fname = "test.out"
+
+            # create output file
+            sys.stdout = open(fname, "w")
+
+            tests = [ "0.1.2.3", "1.12.123.25", "255.91.7.128" ]
+            for t in tests:
+                self.assertEqual(parseIP(t), self._parseIP(t), "testing " + t)
+
+            sys.stdout.close()
+            self.deleteFile(fname)
+            
+            
+    myTests().main()

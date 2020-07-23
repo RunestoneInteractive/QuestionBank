@@ -1,0 +1,31 @@
+
+              :author: Barbara  Ericson
+              :difficulty: 1.0
+              :basecourse: StudentCSP
+              :topic: CSPNameNames/Exercises
+              :from_source: F
+.. activecode:: app-rest
+              :nocodelens:
+              :autograde: unittest
+
+              Given two strings, a and b, return them appended together, but
+              withtout the first letter in each string.  The strings will be
+              of length one or greater.  For example, appRest("Hello", "There") will 
+              return "ellohere".
+              ~~~~
+              def app_rest(a, b):
+
+              ====
+              from unittest.gui import TestCaseGui
+
+              class myTests(TestCaseGui):
+
+                  def testOne(self):
+                      self.assertEqual(app_rest("Hello", "There"), "ellohere", 'app_rest("Hello", "There")')
+                      self.assertEqual(app_rest("Python", "code"), "ythonode", 'app_rest("Python", "code")')
+                      self.assertEqual(app_rest("ab", "xy"), "by", 'app_rest("ab", "xy")')
+                      self.assertEqual(app_rest("ab", "x"), "b", 'app_rest("ab", "x")')
+                      self.assertEqual(app_rest("a", "xy"), "y", 'app_rest("a", "xy")')
+                      self.assertEqual(app_rest("a", "x"), "", 'app_rest("a", "x")')
+
+              myTests().main()

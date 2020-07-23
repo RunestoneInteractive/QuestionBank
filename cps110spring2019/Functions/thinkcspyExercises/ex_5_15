@@ -1,0 +1,15 @@
+.. actex:: ex_5_15
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Write a function called ``myPi`` that will return an approximation of PI (3.14159...).  Use the `Leibniz <http://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80>`_ approximation.
+   ~~~~
+
+    def myPi(iters):
+        # Calculate an approximation of PI using the Leibniz
+        # approximation with iters number of iterations
+
+        # your code here

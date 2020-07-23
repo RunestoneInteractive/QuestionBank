@@ -1,0 +1,26 @@
+.. activecode:: operators_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/Operators
+   :from_source: T
+   :language: cpp
+   :caption: Integer Division
+
+   This program is supposed to print the fraction of the hour that has
+   passed since midnight.  You'll notice that the result isn't quite what
+   you expect.  Read on to find out why!
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   int main () {
+       int hour, minute;
+       hour = 12;
+       minute = 59;
+       cout << "Number of minutes since midnight: ";
+       cout << hour * 60 + minute << endl;
+       cout << "Fraction of the hour that has passed: ";
+       cout << minute / 60 << endl;
+       return 0;
+   }

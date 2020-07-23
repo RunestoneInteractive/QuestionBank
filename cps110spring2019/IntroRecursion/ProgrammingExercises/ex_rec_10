@@ -1,0 +1,11 @@
+.. actex:: ex_rec_10
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+
+   Generalize the problem above so that the parameters to your solution
+   include the sizes of each jug and the final amount of water to be
+   left in the larger jug.
+   ~~~~

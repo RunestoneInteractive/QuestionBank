@@ -1,0 +1,52 @@
+.. activecode:: lhs_10_6m
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``replaceMutator(lst, old, new)`` that replaces all occurrences of the
+    element ``old`` with ``new`` in the list ``lst``. For this **mutating** function, it will not return any list, but
+    instead it will change the ``lst`` itself.
+
+    ~~~~
+    # My Name:
+
+    def replaceMutator(lst, old, new):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _replace(self, lst, old, new):
+            for i in range(len(lst)):
+                if lst[i] == old:
+                    lst[i] = new
+
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            lst = [
+                ('s', 'S', ['M', 'i', 's', 's', 'i', 's', 's', 'i', 'p', 'p', 'i']),
+                ('M', 'MISS', ['M', 'i', 's', 's', 'i', 's', 's', 'i', 'p', 'p', 'i']),
+                (1, 10, [1,2,3,4,5,1,2,3,4,5,1]),
+                (6, 16, [1,2,3,4,5,1,2,3,4,5,1]),
+                ('!', '#' , [])]
+            i = 0
+            for (old, new, aList) in lst:
+                i += 1
+                goldList = aList[:]
+                self._replace(goldList, old, new)
+                replaceMutator(aList, old, new)
+                self.assertEqual(aList, goldList, "Test "+str(i))
+            
+    myTests().main() 

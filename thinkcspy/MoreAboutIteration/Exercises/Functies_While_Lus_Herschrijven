@@ -1,0 +1,11 @@
+.. activecode:: Functies_While_Lus_Herschrijven
+    :author: Gilles Fiers
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+    :language: python
+
+    Herschrijf bovenstaande programma's zodat het functies zijn. Zo moet de functie speelHogerLager() het aantal keren dat je gegokt hebt als return value teruggeven tijdens het spelletje. De functie isVolkomenKwadraat(x) geeft True of False terug als return value. De functie aantalCijfers(x) geeft het aantal cijfers van het ingegeven getal terug als return value.
+    ~~~~
+    

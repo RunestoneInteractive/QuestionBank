@@ -1,0 +1,14 @@
+
+   :author: Jean Griffin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: jmg_helloworld
+   :nocodelens: 
+   :caption: PRINT "hello world"
+   :autorun: 
+   :hidecode: 
+ 
+   # This program should print "hello world" - fix the bug.
+   print("hello worrrld")

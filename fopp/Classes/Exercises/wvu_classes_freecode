@@ -1,0 +1,14 @@
+
+    :author: Brian Powell
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Classes/Exercises
+    :from_source: F
+.. activecode:: wvu_classes_freecode
+    :autograde: unittest
+
+    Think of a real-world object you might want to represent as a class. Write your class, providing any variables or methods you think would be appropriate for it.
+
+    ~~~~
+
+    ====

@@ -1,0 +1,13 @@
+.. mchoice:: mc_19_4_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TestCases/ChapterAssessment
+   :from_source: T
+   :answer_a: Yes
+   :answer_b: No
+   :feedback_a: Incorrect. Though it is possible that the function could have more issues, we can't tell if other cases would fail (such as combining integers and floats) due to the current issues.
+   :feedback_b: Correct. At the moment we can't tell if other cases would fail (such as combining integers and floats), but it is possible that the function could have more issues once the current issues are fixed.
+   :correct: b
+
+   Are there any other cases, that we can determine based on the current structure of the function, that also fail for the mySum function?

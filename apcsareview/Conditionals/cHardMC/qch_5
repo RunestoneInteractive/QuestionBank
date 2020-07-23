@@ -1,0 +1,25 @@
+.. mchoice:: qch_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: Conditionals/cHardMC
+   :from_source: T
+   :answer_a: first
+   :answer_b: second
+   :answer_c: first second
+   :answer_d: Nothing will be printed
+   :correct: b
+   :feedback_a: When you do integer division you get an integer result so y / x == 0 and is not greater than 0.
+   :feedback_b: The first will not print because integer division will mean that y / x is 0.  The second will print since it is not in the body of the if (it would be if there were curly braces around it).
+   :feedback_c: Do you see any curly braces?  Indention does not matter in Java.
+   :feedback_d: This would be true if there were curly braces around the two indented statements.  Indention does not matter in Java.  If you don't have curly braces then only the first statement following an if is executed if the condition is true.
+
+   What would the following print?
+
+   .. code-block:: java
+
+      int x = 3;
+      int y = 2;
+      if (y / x > 0)
+         System.out.print("first ");
+         System.out.print("second ");

@@ -1,0 +1,18 @@
+.. mchoice:: q4_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: Javascript/finalquiz
+   :from_source: T
+   :answer_a: msg("Hello World");
+   :answer_b: console.log("Hello World");
+   :answer_c: alertBox("Hello World");
+   :answer_d: alert("Hello World");
+   :correct: d
+   :feedback_a: No, there is no msg function
+   :feedback_b: This adds a message to the javascript console
+   :feedback_c: There is no alertBox function
+   :feedback_d: Yes!
+
+   How do you write "Hello World" in an alert box?
+

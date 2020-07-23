@@ -1,0 +1,22 @@
+.. activecode:: CS152_Times_Table_1
+    :author: John Cigas
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+
+    Modify the following program to ask the user to input a number from 1-9 and print out the
+    times table for that number.  
+
+    ~~~~
+    print('1 x','3 = 3')
+    print('2 x','3 = 6')
+    print('3 x','3 = 9')
+    print('4 x','3 = 12')
+    print('5 x','3 = 15')
+    print('6 x','3 = 18')
+    print('7 x','3 = 21')
+    print('8 x','3 = 24')
+    print('9 x','3 = 27')
+

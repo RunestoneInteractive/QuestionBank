@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_q8
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 21
+   :answer_b: 1,000,000
+   :answer_c: 500,000
+   :answer_d: 120
+   :correct: a
+   :random:
+
+   8. Your boss has asked you to design Big Data Bertha, a doll that will search a large data collection using binary search. What is the maximum number of comparisons will it take for Bertha to search a list of two million items?

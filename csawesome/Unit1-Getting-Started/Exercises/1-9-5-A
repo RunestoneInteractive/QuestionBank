@@ -1,0 +1,19 @@
+.. mchoice:: 1-9-5-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: 11
+   :answer_b: 10
+   :answer_c: 10.99999
+   :answer_d: 5
+   :correct: b
+
+   Given the following code segment, what is the value of b when it finishes executing?
+
+   .. code-block:: java
+
+    double a = 10.99999;
+    int b = 5;
+    b = (int) a;

@@ -1,0 +1,24 @@
+.. mchoice:: question21_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/listcomp
+   :from_source: T
+   :practice: T
+   :answer_a: [4,2,8,6,5]
+   :answer_b: [8,4,16,12,10]
+   :answer_c: 10
+   :answer_d: [10]
+   :correct: d
+   :feedback_a: Items from alist are doubled before being placed in blist.
+   :feedback_b: Not all the items in alist are to be included in blist. Look at the if clause.
+   :feedback_c: The result needs to be a list.
+   :feedback_d: Yes, 5 is the only odd number in alist. It is doubled before being placed in blist.
+
+   What is printed by the following statements?
+
+   .. code-block:: python
+
+     alist = [4,2,8,6,5]
+     blist = [num*2 for num in alist if num%2==1]
+     print(blist)

@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: simple_13
+
+    Talk about the difference between a 'statement' and an 'expression'.
+
+    ~~~~
+    

@@ -1,0 +1,40 @@
+.. mchoice:: pe4_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/test4
+   :from_source: T
+   :answer_a: if (a[savedIndex] > a[j]) { j = savedIndex; }
+   :answer_b: if (a[j] > a[savedIndex]) { savedIndex = j;}
+   :answer_c: if (a[j] < a[savedIndex]) { savedIndex = j; }
+   :answer_d: if (a[j] > a[savedIndex]) { j = savedIndex;}
+   :answer_e: if (a[j] == a[savedIndex]) { savedIndex = j; }
+   :correct: b
+   :feedback_a: Should j be set to the savedIndex?
+   :feedback_b: This is a selection sort that is starting at end of the array and finding the largest value in the rest of the array and swapping it with the current index.
+   :feedback_c: This would be correct if this was starting at index 0 and finding the smallest item in the rest of the array, but this starts at the end of the array instead and finds the largest value in the rest of the array.
+   :feedback_d: Should j be set to the savedIndex?
+   :feedback_e: Why would you want to change the savedIndex if the values are the same?
+
+   Which of the following could be used to replace the missing code so that the method sort will sort the array a in ascending order?
+
+   .. code-block:: java
+
+     public static void sort(int[] a) {
+        int maxCompare = a.length - 1;
+        int savedIndex = 0;
+        int numSteps = 0;
+        int temp = 0;
+
+        for (int i = maxCompare; i > 0; i--) {
+           savedIndex = i;
+
+           for (int j = i - 1; j >= 0; j--) {
+             /* missing code */
+           }
+
+          temp = a[i];
+          a[i] = a[savedIndex];
+          a[savedIndex] = temp;
+        }
+     }

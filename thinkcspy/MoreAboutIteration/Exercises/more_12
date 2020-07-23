@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: more_12
+  
+    Why does an image’s pixel chart end with (width-1) and (height-1)?
+
+    ~~~~
+    

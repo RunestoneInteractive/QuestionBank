@@ -1,0 +1,36 @@
+
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: IT105Resources/Exercises
+   :from_source: F
+.. activecode:: it105_ps01_04
+   :nocanvas:  
+   :autograde: unittest
+
+   Create a function called ``getPltAverage``. The function has one 
+   parameter the current list of platoon members with PT data 
+   [["Jones", "Bob", 67, 87, 99],["Smith", "Alice", 90, 91, 87]]. 
+
+   The function returns the platoon PT average. The function must be able 
+   to handle the empty list.
+   ~~~~
+   #Create your function here
+
+   ====
+   #print("Hidden code, such as unit tests come after the four = signs")
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         pltList1 = []
+         pltList2 = [['Babbitt', 'Thomas', 90, 100, 95]]
+         pltList3 = [['Babbitt', 'Thomas', 90, 100, 95], ['King', 'Kyle', 95, 95, 85]]
+         pltList4 = [['Babbitt', 'Thomas', 90, 100, 95], ['King', 'Kyle', 95, 95, 85], ['Schooler', 'Chip', 81, 75, 88] ]
+         self.assertAlmostEqual(getPltAverage(pltList1), 0.0, 2, "Look at the case when there is no one in the platoon.")
+         self.assertAlmostEqual(getPltAverage(pltList2), 285.0, 2, "Check initialization")
+         self.assertAlmostEqual(getPltAverage(pltList3), 280.0, 2, "Check iteration")
+         self.assertAlmostEqual(getPltAverage(pltList4), 268.0, 2, "Check iteration")
+     
+   myTests().main()

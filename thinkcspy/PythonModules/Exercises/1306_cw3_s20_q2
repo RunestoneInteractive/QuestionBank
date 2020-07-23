@@ -1,0 +1,30 @@
+.. activecode:: 1306_cw3_s20_q2
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonModules/Exercises
+   :from_source: F
+
+   **[20 pts] Question 2** 
+
+   The trigonometry book says:	``sin^2(t) + cos^2(t) = 1``
+   
+   Write a Python program that verifies the formula with the help of the Python Math library. 
+   Note that the library trigonometric functions act on the angles in radians. 
+   Your program should perform the following steps 3 times: 
+   
+   i) Pick a random number between 0 and 180 degrees representing an angle in degrees, say ``Dangle``  
+   
+   ii) Convert the angle from degrees to radians, say ``Rangle`` 
+   
+   iii)  use the Math library to find and print the values of ``sin(Rangle)`` and ``cos(Rangle)``, and 
+   
+   iv) compute and print the value of the above expression:  ``sin^2(Rangle) + cos^2(Rangle)``.
+
+   You can then visually verify if the result printed is 1 (or close to it). 
+   
+   *Hint: angle_in_radians = (angle_in_degrees * Pi)/180*
+
+
+   ~~~~
+   # Write your program here

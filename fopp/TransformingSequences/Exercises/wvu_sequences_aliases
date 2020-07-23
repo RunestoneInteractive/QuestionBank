@@ -1,0 +1,31 @@
+
+   :author: Brian Powell
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TransformingSequences/Exercises
+   :from_source: F
+.. activecode:: wvu_sequences_aliases
+   :autograde: unittest
+
+   Create an alias named **cities** that points to the same list as the existing **municipalities** variable. Then, create a list named **towns** that is a clone of **cities**. **towns** and **cities** should be independent objects and not aliases.
+
+   Once you have created the lists, change "Blacksville" in **municipalities** to "Town of Blacksville". Print out the content of element 4 in each list.
+   ~~~~
+   municipalities = ['Morgantown', 'Star City', 'Westover', 'Granville', 'Blacksville']
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+        self.assertEqual(id(cities),id(municipalities),"cities and municipalities must point to the same list")
+
+      def testTwo(self):
+        self.assertNotEqual(id(cities),id(towns),"cities and towns must not point to the same list")
+        self.assertEqual(cities[0],towns[0],"cities and towns should have the same municipalities listed")
+
+      def testThree(self):
+        self.assertEqual(municipalities[4],"Town of Blacksville","Blacksville should be changed to Town of Blacksville")
+
+   myTests().main()

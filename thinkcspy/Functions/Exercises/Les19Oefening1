@@ -1,0 +1,20 @@
+.. actex:: Les19Oefening1
+   :author: Gilles Fiers
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+
+   Schrijf functies die : 1. de rustenergie per kerndeeltje 2. het massadefect en 3. de bindingsenergie van een atoom met gegeven aantal protonen en neutronen en atoommassa berekent. Gebruik vervolgens deze functie om een aantal waarden in de tabel in je boek fysica op p 300-304 te controleren. 
+
+   ~~~~
+   u = 1.66054*10**(-27)
+   c = 299792458
+   eV = 1.6022*10**(-19)
+   massa_elektron_in_u = 0.000548580
+   
+   def berekenRustEnergiePerKerndeeltje(Z,A,massa_atoom_in_u):
+       #schrijf hier je code
+       return E_in_eV/A
+   
+   print(berekenRustEnergiePerKerndeeltje(3,6,6.015))

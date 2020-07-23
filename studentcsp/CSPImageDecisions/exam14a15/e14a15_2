@@ -1,0 +1,18 @@
+.. mchoice:: e14a15_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPImageDecisions/exam14a15
+   :from_source: T
+   :practice: T
+   :answer_a: newPixel = image.Pixel(r, g, b)
+   :answer_b: img.setPixel(x, y, newPixel)
+   :answer_c: p = img.getPixel(x, y)
+   :answer_d: win = ImageWin(img.getWidth(), img.getHeight())
+   :correct: b
+   :feedback_a: This creates a new pixel with the given red, green, and blue values.
+   :feedback_b: This updates the pixel values in the image at x and y with the colors in the pixel.
+   :feedback_c: This gets the pixel at the given x and y location.
+   :feedback_d: This creates a window that can be used to display the image.
+
+   Which of the following statements actually changes the image?

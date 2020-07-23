@@ -1,0 +1,38 @@
+.. actex:: CS152_first_digit
+    :author: John Cigas
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a fruitful function ``first_digit(num)`` that returns the first (leftmost) digit of the integer num. Do not convert num to a string.
+
+    ~~~~
+
+    def first_digit(num):
+        """ Returns the first (leftmost) digit of the integer num """
+        # Put your code here
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            editText = self.getEditorText()
+            self.assertEqual(1, len(re.findall("\s*return", editText)), "Need exactly one return statement")
+            self.assertEqual(0, len(re.findall("\s*str", editText)), "Work with integers, not strings")
+            self.assertAlmostEqual(first_digit(63),6,0,"Tested first_digit(63)")
+            self.assertAlmostEqual(first_digit(6),6,0,"Tested first_digit(6)")
+            self.assertAlmostEqual(first_digit(0),0,0,"Tested first_digit(0)")
+            self.assertAlmostEqual(first_digit(120),1,0,"Tested first_digit(120)")
+            self.assertAlmostEqual(first_digit(67589),6,0,"Tested first_digit(67589)")
+            self.assertAlmostEqual(first_digit(-36),3,0,"Tested first_digit(-36)")
+
+
+
+
+    myTests().main()

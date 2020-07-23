@@ -1,0 +1,14 @@
+.. actex:: JC_11_1
+   :author: Joaquin Carbonara
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: F
+
+   Write a program that finds the most used word in scarlet3.txt.
+   ~~~~
+
+   f = open('scarlet3.txt', 'r')
+   file=f.readlines()
+   words={}
+   # Your code here

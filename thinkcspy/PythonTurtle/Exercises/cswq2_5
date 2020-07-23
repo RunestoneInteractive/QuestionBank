@@ -1,0 +1,21 @@
+.. mchoice:: cswq2_5
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :answer_a: 1 3 5 7 9
+   :answer_b: 2 4 5 8
+   :answer_c: 1 3 5 7 9 2
+   :answer_d: 2 2 2 2 2
+   :correct: a
+   :random:
+   :feedback_a: Yes, range(1, 10, 2) starts at 1 and steps by 2
+   :feedback_b: No, range(1, 10, 2) starts at 1
+   :feedback_c: No, range(1, 10, 2) stops at 9 and does not print 2
+   :feedback_d: No, range(1, 10, 2) gives the odd numbers starting at 1 and stopping at 9
+
+   5. What does the following code print?::
+
+      for i in range(1, 10, 2):
+          print(i, end = ' ')

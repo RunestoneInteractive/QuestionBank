@@ -1,0 +1,22 @@
+.. mchoice:: 3-11-3-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: A
+   :answer_b: B
+   :answer_c: C
+   :answer_d: D
+   :answer_e: E
+   :correct: d
+
+   What is the value of grade when the following code executes and score is 70?
+
+   .. code-block:: java
+
+    if (score >= 90) grade = “A”;
+    if (score > 80) grade = “B”;
+    if (score < 70) grade = “C”;
+    if (score >= 60) grade = “D”;
+    else grade= “E”;

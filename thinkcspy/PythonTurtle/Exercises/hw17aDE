@@ -1,0 +1,13 @@
+.. activecode:: hw17aDE
+   :author: Damon Ellingston
+   :difficulty: 4.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   **Homework 17 part a: making a data graph**
+  
+    Download the data files v.txt and t.txt from Wamap and use them to make a bar chart of v vs. t. You can follow the algorithm spelled out in Chapter4 for making a Future Value graph. There should be labels along the axes of your graph indicating time (in sec) and velocity (in m/s). Make sure your program **reads** the files v.txt and t.txt as posted on the class website using I/O methods we studied in Chapter 5, otherwise program will not run and you will lose points. Also check to make sure the last data point (22,36) is included on your graph.
+   ~~~~
+   infilet=open("t.txt", "r")
+   infilev=open("v.txt", "r")

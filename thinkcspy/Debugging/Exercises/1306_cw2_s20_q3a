@@ -1,0 +1,22 @@
+.. activecode:: 1306_cw2_s20_q3a
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+
+   **[15 pts] Question 3(a)** This question focuses on numerical calculations with Python. Develop a Python program that takes integers N and K as input and computes the sum of the series:
+
+   ``N + (N+1) + (N+2) + … + (N+K)``
+
+
+   `Examples:` 
+
+   (1) For N = 10 & K = 5, output is: 75
+
+   (2) For N = 8 & K = 12, output is: 182
+
+
+   
+   ~~~~
+   # Write your program here

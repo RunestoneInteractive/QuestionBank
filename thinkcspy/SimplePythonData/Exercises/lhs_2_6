@@ -1,0 +1,19 @@
+.. clickablearea:: lhs_2_6
+    :author: LHS CS Team
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :question: Click on any variable that is an integer
+    :iscode:
+    :feedback: Remember input() returns a string...
+
+    :click-incorrect:var1:endclick: = 14.0
+    :click-correct:var2:endclick: = 24
+    :click-incorrect:var3:endclick: = 15 / 7
+    :click-incorrect:var4:endclick: = 27 / 3
+    :click-correct:var5:endclick: = 37 // 5
+    :click-correct:var6:endclick: = 59 % 5
+    :click-incorrect:var7:endclick: = input("Enter an integer number")
+    :click-incorrect:var8:endclick: = 1 + 5.0
+    :click-correct:var9:endclick: = int(input("Enter an integer number"))

@@ -1,0 +1,17 @@
+.. mchoice:: plot_mc4
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+   :correct: d
+   :answer_a: fig.add_subplot(2, 3, 5)
+   :answer_b: fig.add_subplot(2, 3, 6)
+   :answer_c: fig.add_subplot(2, 3, 2)
+   :answer_d: fig.add_subplot(2, 3, 3)
+   :feedback_a: This would be in the 2nd row and 2nd column.
+   :feedback_b: This would be in the 2nd row and 3rd column.
+   :feedback_c: This would be in the 1st row and 2nd column.
+   :feedback_d: This would be in the 1st row and 3rd column.
+
+   Which would put a subplot in the 1st row and 3rd column?

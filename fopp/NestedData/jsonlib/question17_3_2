@@ -1,0 +1,21 @@
+.. mchoice:: question17_3_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: NestedData/jsonlib
+   :from_source: T
+   :multiple_answers:
+   :answer_a: entertainment.json()
+   :answer_b: json.dumps(entertainment)
+   :answer_c: json.loads(entertainment)
+   :feedback_a: The .json() method is not defined for strings.
+   :feedback_b: dumps (dump to string) turns a list or dictionary into a json-formatted string
+   :feedback_c: loads (load from string) turns a json-formatted string into a list or dictionary
+   :correct: c
+   :practice: T
+
+   Say we had a JSON string in the following format. How would you convert it so that it is a python list?
+
+   .. sourcecode:: python
+
+       entertainment = """[{"Library Data": {"count": 3500, "rows": 10, "locations": 3}}, {"Movie Theater Data": {"count": 8, "rows": 25, "locations": 2}}]"""

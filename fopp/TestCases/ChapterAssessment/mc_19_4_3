@@ -1,0 +1,20 @@
+.. mchoice:: mc_19_4_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TestCases/ChapterAssessment
+   :from_source: T
+   :multiple_answers:
+   :answer_a: the method study does not return None
+   :answer_b: the optional integer in the constructor is not optional
+   :answer_c: the attributes/instance variables are not correctly assigned in the constructor
+   :answer_d: the method study does not increase self.knowledge
+   :answer_e: the method year_at_umich does not return the value of self.years_UM
+   :feedback_a: Incorrect, the method study does return None.
+   :feedback_b: Incorrect, the integer for number of years is optional.
+   :feedback_c: Correct! The constructor does not actually use the optional integer that is provided. Instead it sticks with using the default value.
+   :feedback_d: Correct! Study does not increase the self.knowledge.
+   :feedback_e: Incorrect, year_at_umich does return the value assigned to self.years_UM.
+   :correct: c, d
+
+   Which of the following cases fail for the Student class?

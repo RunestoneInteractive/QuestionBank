@@ -1,0 +1,12 @@
+.. activecode:: SBVraag4
+    :author: Gilles Fiers
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+
+    ~~~~
+    strofe = "kleine visjes, die gingen naar de zee, 't is goed zei de moeder, maar ik ga niet mee. Ik blijf liever in de vieze vuile sloot, want in de zee daar zwemmen haaien en die bijten je. Blub, blub, blubblubblub, blubblub. Blub, blub, blubblubblub, blubblub."
+
+ 

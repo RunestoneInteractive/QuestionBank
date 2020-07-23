@@ -1,0 +1,19 @@
+.. mchoice:: 5.5.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 05_rendering/05_one_color_per_model
+  :from_source: T
+  :random:
+  :answer_a: uniform3f(location, value1, value2, value3);
+  :answer_b: uniform4fv(location, my_array);
+  :answer_c: uniform4i(location, value1, value2);
+  :answer_d: uniform3fv(location, value1, value2, value3);
+  :correct: a,b
+  :feedback_a: Correct.
+  :feedback_b: Correct. Assuming the variable "my_array" holds 4 floats.
+  :feedback_c: Incorrect. The function is expecting 4 values, but the call only sends two.
+  :feedback_d: Incorrect. The function is expecting a single array parameter that hold 3 values, not 3 separate values.
+
+  Which of the following function calls are valid? (They are setting the value of a uniform variable in a shader program.) (Select all that apply.)
+

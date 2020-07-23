@@ -1,0 +1,15 @@
+.. activecode:: tgi
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: haugrud
+    :topic: PythonTurtle/TherangeFunction
+    :from_source: None
+    :nocanvas:
+
+    print(list(range(0, 19, 2)))
+    print(list(range(0, 20, 2)))
+
+
+    print(list(range(10, 0, -1)))
+
+

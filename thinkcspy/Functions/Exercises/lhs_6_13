@@ -1,0 +1,63 @@
+.. activecode:: lhs_6_13
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Rewrite the function ``sumTo(n)`` that returns the sum of all integer numbers up to and
+    including `n`.   This time use the accumulator pattern.
+    ~~~~
+
+    def sumTo(n):
+        # your code here
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+         # regExString - is checked inside inString
+         # howMany - how many matches are expected
+         # matchString - summary of what is being matched (readable version of regExString)
+         # errorString - error string upon assertion failure
+        def regExCheck(self, regExString, inString, howMany, matchString, errorString):
+            res = re.findall(regExString, inString, re.M)
+            checkOK = (len(res) == howMany)
+            if not checkOK:
+                print("Found [", matchString, "]", len(res), "time(s), not", howMany)
+
+            self.assertEqual(checkOK, True, errorString)
+
+        def testOne(self):
+            print("Auto-testing...")
+            outText = self.getOutput()
+            code = self.getEditorText()
+            
+            # strips this test code - when testing code with this test code 
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+
+            self.regExCheck("^\s+for .*in.*:", code, 1, "'for' loop", "Should be using a for loop")
+
+            # look for accumulator sum += num type of equation
+            res = re.findall("^\s+(\w+)\s*=\s*0", code, re.M)    # find the var = 0
+            countVar = res[0]
+            res = re.findall("^\s+for (\w+) in .*:", code, re.M) # get for the loopVar in for loop
+            loopVar = res[0]
+
+            regExStr = "(^\s+{}\s*\+=\s*{})".format(countVar,loopVar)
+            regExStr += "|(^\s+{}\s*=\s*{}\s*\+\s*{})".format(countVar,countVar,loopVar)
+            regExStr += "|(^\s+{}\s*=\s*{}\s*\+\s*{})".format(countVar,loopVar,countVar)
+            self.regExCheck(regExStr, code, 1, countVar + "/" + loopVar + " accumulator", "Looking for an accumulator s = s + n")
+
+            self.assertAlmostEqual(sumTo(15),120.0,0,"Tested sumTo on input 15")
+            self.assertAlmostEqual(sumTo(0),0.0,0,"Tested sumTo on input 0")
+            self.assertAlmostEqual(sumTo(25),325.0,0,"Tested sumTo on input 25")
+            self.assertAlmostEqual(sumTo(7),28.0,0,"Tested sumTo on input 7")
+
+    myTests().main()

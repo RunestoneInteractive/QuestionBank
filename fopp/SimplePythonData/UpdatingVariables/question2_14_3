@@ -1,0 +1,21 @@
+.. mchoice:: question2_14_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: SimplePythonData/UpdatingVariables
+   :from_source: T
+   :multiple_answers:
+   :answer_a: x = x + y
+   :answer_b: y += x
+   :answer_c: x += x + y
+   :answer_d: x += y
+   :answer_e: x++ y
+   :correct: a,d
+   :feedback_a: x is updated to be the old value of x plus the value of y.
+   :feedback_b: y is updated to be the old value of y plus the value of x.
+   :feedback_c: This updates x to be its old value (because of the +=) plus its old value again (because of the x on the right side) plus the value of y, so it's equivalent to x = x + x + y
+   :feedback_d: x is updated to be the old value of x plus the value of y.
+   :feedback_e: ++ is not a syntax that means anything in Python.
+   :practice: T
+
+   Which of the following statements are equivalent?

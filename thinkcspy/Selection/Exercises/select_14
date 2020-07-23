@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_14
+  
+    Write a chained conditional that checks if the value of 'num' is 1, 2, 3, 4 or 
+    5. Print out the value of 'num' in each case.
+
+    ~~~~
+    

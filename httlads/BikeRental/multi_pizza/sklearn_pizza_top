@@ -1,0 +1,13 @@
+.. fillintheblank:: sklearn_pizza_top
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/multi_pizza
+   :from_source: T
+
+   Build a third model using only the number of toppings. What is the mean
+   squared error of this model? |blank|
+
+   - :18.58.*: Is the correct answer
+     :x: Keep on trying
+

@@ -1,0 +1,83 @@
+.. activecode:: IT105_AY182_TEE_03
+    :author: Kyle King
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+    
+    You are the proud new owner of a pancake-making robot that you control using Python! You are working on the part of the robot's code that mixes the batter. This code uses the ``batter`` module which provides the following functions: 
+    
+    ::
+    
+      Function: batter.check()
+      Parameters: None. 
+      What it does: Check on the batter and returns its status. 
+      Returns: The string "lumpy" if the batter needs to be mixed more, 
+          "perfect" if the batter is ready, or "over-mixed" if the batter 
+          was mixed too much.
+      
+      Function: batter.mix()
+      Parameters: None.
+      What is does: This function mixes the batter once. After calling 
+          batter.mix() you can call batter.check() to see how the batter 
+          is doing.
+      Returns: None
+      
+    Use a ``while`` loop to continuously call ``batter.mix()`` until ``batter.check()`` returns ``"perfect"``. Remember, calling ``batter.mix()`` mixes the batter and will eventually change what ``batter.check()`` returns. 
+    
+    For example:
+    
+    :: 
+    
+      import batter
+      batter.mix()
+      print(batter.check()) # prints "lumpy"
+      
+    ~~~~
+    import batter
+    
+    # your code goes here
+
+    print(batter.check())
+    ====
+    from unittest.gui import TestCaseGui
+
+    # https://docs.python.org/2/library/unittest.html#assert-methods
+    class Tests(TestCaseGui):
+      def tests(self):
+        output = self.getOutput()
+        code = self.getEditorText()
+        
+        self.assertTrue(code.find("while") != -1, "Code includes a while loop")
+        self.assertEqual(batter.check(), "perfect", "batter.check() returns 'perfect'")
+
+    Tests().main()
+    
+    </textarea><script>
+      var batter = (function() {/*
+        # begin batter.py
+
+        import random
+        times = random.randint(100,200)
+
+        def mix():
+          global times
+          times -= 1
+
+        def check():
+          global times
+          if (times == 0):
+            return 'perfect'
+          elif (times > 0):
+            return 'too lumpy'
+          else:
+            return 'over-mixed'
+
+        # end batter.py
+
+      */}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1].replace(/^ {4}/gm,'');
+      Sk.externalLibraryCache['batter'] = Sk.compile(batter,'batter.py','exec',true);
+    </script><textarea style="display:none">

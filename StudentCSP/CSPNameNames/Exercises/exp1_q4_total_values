@@ -1,0 +1,28 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+.. activecode:: exp1_q4_total_values
+   :autograde: unittest
+   :nocodelens: 
+
+   Finish the function total_values that takes a dictionary (dict) and returns the total of the values in the dictionary. For example, total_dict_values({'red': 3, 'blue': 2, 'green’: 20}) would return 25.
+   
+   ~~~~
+   def total_values(dict):
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(total_values({'red':2, 'blue':3, 'green':20}),25, "total_values({'red':2, 'blue':3, 'green':20})")
+           self.assertEqual(total_values({'a': 3}), 3, "total_values({'a': 3})")
+           self.assertEqual(total_values({'a': 3, 'b': -5}), -2, "total_values({'a': 3, 'b': -5})")
+           self.assertEqual(total_values({'a': 3, 'b': -3}), 0, "total_values({'a': 3, 'b': -3})")
+           self.assertEqual(total_values({}), 0, "total_values({})")
+
+   myTests().main()

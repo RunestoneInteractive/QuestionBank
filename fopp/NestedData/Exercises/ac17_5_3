@@ -1,0 +1,23 @@
+.. actex:: ac17_5_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: NestedData/Exercises
+   :from_source: T
+
+   Below, we have provided a nested list called ``big_list``. Use nested iteration to create a dictionary, ``word_counts``, that contains all the words in ``big_list`` as keys, and the number of times they occur as values.
+
+   ~~~~
+
+   big_list = [[['one', 'two'], ['seven', 'eight']], [['nine', 'four'], ['three', 'one']], [['two', 'eight'], ['seven', 'four']], [['five', 'one'], ['four', 'two']], [['six', 'eight'], ['two', 'seven']], [['three', 'five'], ['one', 'six']], [['nine', 'eight'], ['five', 'four']], [['six', 'three'], ['four', 'seven']]]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(sorted(word_counts.items()), sorted([('eight', 4), ('five', 3), ('four', 5), ('nine', 2), ('one', 4), ('seven', 4), ('six', 3), ('three', 3), ('two', 4)]), "Testing that word_counts was created correctly.")
+
+   myTests().main()

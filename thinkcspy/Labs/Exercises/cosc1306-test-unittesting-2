@@ -1,0 +1,47 @@
+
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+.. activecode:: cosc1306-test-unittesting-2
+   :autograde: unittest
+   :language: python
+
+   #If this is a homework problem instead of an example in the text
+   #then the assignment text should go here.  The assignment text ends with
+   #the line containing four tilde 
+    
+   # ~~~~~
+
+
+
+.. activecode:: cosc1306-test-unittesting-2
+   :autograde: unittest
+   :language: python
+
+   #If this is a homework problem instead of an example in the text
+   #then the assignment text should go here.  The assignment text ends with
+   #the line containing four tilde 
+    
+   # ~~~~~
+    
+   def sum_first_n(N):
+       sum = 0
+       for n in range(N):
+            sum = sum + n
+   return sum    
+
+====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+    def testOne(self):
+        self.assertEqual(sum_first_n(4),6,feedback="0 + 1 + 2 + 3 == 6")
+        self.assertEqual(sum_first_n(0),0,feedback="summing 0 numbers should be 0")
+
+myTests().main()
+
+    

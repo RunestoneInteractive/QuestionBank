@@ -1,0 +1,21 @@
+.. mchoice:: 1-9-12-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: a = 1, b = -7.0, c = -5.0
+   :answer_b: a = 2, b = -15.0, c = -13.0
+   :answer_c: It will give a compile-time error.
+   :answer_d: It will give a run-time error.
+   :correct: c
+
+   What are the values of a, b, and c after the following code executes?
+
+   .. code-block:: java
+
+    int a = 2;
+    int b = a - 6;
+    int c = 0;
+    b = (double) b++ - --a * 3;
+    c = b + 2;

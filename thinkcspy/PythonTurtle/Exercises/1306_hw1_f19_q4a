@@ -1,0 +1,29 @@
+.. activecode:: 1306_hw1_f19_q4a
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   [10 pts] You are now asked to develop a cash register for a Fruit shop. 
+   
+   The shop only sells Oranges, Apples and Bananas. The cash register will ask the number for each fruit and then print the total bill. 
+   
+   A sample session follows:
+   
+   ::
+
+      Program prompt: Oranges are $1.40 each. How many Oranges?
+      User response: 4
+      Program prompt: Apples are $.75 each. How many Apples?
+      User response: 0
+      Program prompt: Bananas are $ .40 each. How many Bananas?
+      User response: 1
+      Program prompt: You bought 4 Oranges, 0 Apples, and 1 Bananas.
+      Program prompt: Your bill is $6.00
+
+   
+   
+
+   ~~~~
+   # Write your program here

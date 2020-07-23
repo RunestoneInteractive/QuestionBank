@@ -1,0 +1,16 @@
+.. mchoice:: cs130t2_1
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 11100000
+   :answer_b: 10100000
+   :answer_c: 11100001
+   :answer_d: 10011000
+   :correct: a
+   :random:
+
+   1. Convert the following positive binary number to negative::
+
+      00100000

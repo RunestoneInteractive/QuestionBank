@@ -1,0 +1,15 @@
+.. mchoice:: which_is_best_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter9/which_is_best
+   :from_source: T
+   :answer_a: Writing modifiers only if there is a compelling advantage. Otherwise, write pure functions.
+   :answer_b: Writing fill-in functions only if there is a compelling advantage. Otherwise, write modifiers.
+   :answer_c: Writing pure functions only if there is a compelling advantage. Otherwise, write modifiers.
+   :correct: a
+   :feedback_a: Correct!
+   :feedback_b: Try again.
+   :feedback_c: Try again.
+
+   What is a functional programming style?

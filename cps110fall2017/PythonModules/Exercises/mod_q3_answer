@@ -1,0 +1,13 @@
+.. activecode:: mod_q3_answer
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: PythonModules/Exercises
+   :from_source: None
+
+   import math
+
+   side1 = 3
+   side2 = 4
+   hypotenuse = math.hypot(side1,side2)
+   print(hypotenuse)

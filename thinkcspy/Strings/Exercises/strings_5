@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: strings_5
+  
+    Write a program that checks if a string in the variable word contains the 
+    letter ‘a’. Print out a message with the results of your algorithm.
+ 
+    ~~~~
+    

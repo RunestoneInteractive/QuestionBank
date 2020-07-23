@@ -1,0 +1,12 @@
+
+   :author: Juraj Vasek
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. actex:: minerva_extra_q_ex_3_initials
+
+   **# # # EXTRA QUESTIONS: # # #**
+
+   Write a program which makes a turtle write your own initials.
+   ~~~~

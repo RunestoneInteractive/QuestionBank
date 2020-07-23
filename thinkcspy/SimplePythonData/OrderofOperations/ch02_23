@@ -1,0 +1,10 @@
+.. activecode:: ch02_23
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/OrderofOperations
+    :from_source: T
+    :nocanvas:
+
+    print(2 ** 3 ** 2)     # the right-most ** operator gets done first!
+    print((2 ** 3) ** 2)   # use parentheses to force the order you want!

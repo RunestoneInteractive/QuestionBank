@@ -1,0 +1,14 @@
+.. activecode:: 1306_cw2_s20_q1c
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+
+   **[20 pts] Question 1(c)** In the above scenario [Question 1(b)], both quizzes have the same weight. Suppose Quiz 1 counts for 60% of the quiz grade and Quiz 2 counts for 40% of the quiz grade. The relative weight of the quizzes and final should stay the same. Modify the program to reflect this change. For example, if quiz1 = 100, quiz2 = 60, final = 71, your class grade is 77.5.
+
+   [HINT: State the expression for the final grade before starting to code]
+
+
+   ~~~~
+   # Write your program here

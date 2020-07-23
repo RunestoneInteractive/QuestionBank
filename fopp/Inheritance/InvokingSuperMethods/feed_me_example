@@ -1,0 +1,21 @@
+.. activecode:: feed_me_example
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Inheritance/InvokingSuperMethods
+    :from_source: T
+    :nocanvas:
+    :include: inheritance_pet_class
+
+    from random import randrange
+
+    class Dog(Pet):
+        sounds = ['Woof', 'Ruff']
+
+        def feed(self):
+            Pet.feed(self)
+            print("Arf! Thanks!")
+
+    d1 = Dog("Astro")
+
+    d1.feed()

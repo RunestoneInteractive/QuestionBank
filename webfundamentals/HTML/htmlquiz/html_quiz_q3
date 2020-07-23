@@ -1,0 +1,15 @@
+.. mchoice:: html_quiz_q3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: HTML/htmlquiz
+   :from_source: T
+   :correct: a
+   :answer_a:  &lt;br&gt;
+   :answer_b:  &lt;break&gt;
+   :answer_c:  &lt;lb&gt;
+   :feedback_a: None
+   :feedback_b: None
+   :feedback_c: None
+
+   What is the correct HTML element for inserting a line break?

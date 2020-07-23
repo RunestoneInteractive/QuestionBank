@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: simple_5
+
+    Print out the string "123" as an integer.
+
+    ~~~~
+    

@@ -1,0 +1,22 @@
+.. mchoice:: question12_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Tuples/TuplesasReturnValues
+   :from_source: T
+   :practice: T
+   :multiple_answers:
+   :answer_a: Make the last two lines of the function be "return x" and "return y"
+   :answer_b: Include the statement "return [x, y]"
+   :answer_c: Include the statement "return (x, y)"
+   :answer_d: Include the statement "return x, y"
+   :answer_e: It's not possible to return two values; make two functions that each compute one value.
+   :feedback_a: As soon as the first return statement is executed, the function exits, so the second one will never be executed; only x will be returned
+   :feedback_b: return [x,y] is not the preferred method because it returns x and y in a mutable list rather than a tuple which is more efficient. But it is workable.
+   :feedback_c: return (x, y) returns a tuple.
+   :feedback_d: return x, y causes the two values to be packed into a tuple.
+   :feedback_e: It is possible, and frequently useful, to have one function compute multiple values.
+   :correct: b,c,d
+
+   If you want a function to return two values, contained in variables x and y, which of the following methods will work?
+

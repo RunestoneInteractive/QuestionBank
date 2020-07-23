@@ -1,0 +1,12 @@
+.. actex:: ex_rec_12
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+   :nocodelens:
+
+   Modify the Tower of Hanoi program using turtle graphics to animate
+   the movement of the disks. Hint: You can make multiple turtles and
+   have them shaped like rectangles.
+   ~~~~

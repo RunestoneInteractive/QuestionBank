@@ -1,0 +1,15 @@
+.. showeval:: se_updatevar1
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: SimplePythonData/UpdatingVariables
+   :from_source: None
+   :trace_mode: true
+
+   x = 6
+   x = x + 1
+   ~~~~
+   x = {{x}}{{6}} + 1
+   x = 6 + {{1}}{{1}}
+   x = {{6 + 1}}{{7}}
+

@@ -1,0 +1,19 @@
+.. mchoice:: mt1_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/Exercises
+   :from_source: F
+   :answer_a: numStudents
+   :answer_b: numberOfStudentsInClass
+   :answer_c: numberStudents
+   :answer_d: numStud
+   :answer_e: #students
+   :correct: a
+   :feedback_a: numStudents is brief, but still tells the user what the variable represents. Num is a common shortening of number and is allowed.
+   :feedback_b: While this name gives the user information about what the variable represents, it is too long and therefore should be shorter.
+   :feedback_c: Number is commonly abbreviated as num and should be abbreviated here.
+   :feedback_d: Num is a satisfactory abbreviation of number, but stud is not a common enough abbreviation for student.
+   :feedback_e: Variable names can start with '_', '$', or a letter, but not '#'.
+
+   Which of the following is a good name for an integer variable that represents the number of students in a class?

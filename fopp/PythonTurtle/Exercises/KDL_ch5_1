@@ -1,0 +1,15 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: KDL_ch5_1
+   :autograde: unittest
+   :language: python
+
+   Draw the Olympic circles. You don't need to worry about how the circles overlap but you should make sure that the placement of the circles is reasonable and the colors are correct.
+   ~~~~
+    
+   ====
+    

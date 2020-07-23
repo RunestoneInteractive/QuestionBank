@@ -1,0 +1,38 @@
+.. parsonsprob:: string_mutable_4
+      :author: bmiller
+      :difficulty: 3.0
+      :basecourse: thinkcpp
+      :topic: Chapter7/strings_are_mutable
+      :from_source: F
+      :numbered: left
+      :adaptive:
+
+      Your work for the planet of Noes impressed the nearby planets of Noas, Nois, Noos, and Nous.
+      They want you to write different functions that censor out each planet's corresponding forbidden letter.
+      However, your galaxy brain knows better than to write a different function for each planet.
+      Using generalization, write the function ``censorLetter`` which takes a string input and a char to censor
+      as parameters and returns a censored string. For example, censorLetter("Bye world", 'o') returns the
+      string "Bye w*rld".
+      -----
+      string censorLetter (string input, char letter) {
+      =====
+      string censorLetter (string input) {  #paired
+      =====
+        for (int i = 0; i < input.length(); ++i) {
+      =====
+        for (int i = 1; i < input.length(); ++i) {  #paired
+      =====
+          if (input[i] == letter) {
+      =====
+          if (input[i] == "letter") {  #paired
+      =====
+            input[i] = '*';
+          }
+        }
+      =====
+            '*' = input[i];  #paired
+          }
+        }
+      =====
+        return input;
+      }

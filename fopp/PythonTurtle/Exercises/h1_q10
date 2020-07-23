@@ -1,0 +1,17 @@
+.. activecode:: h1_q10
+   :author: Irma Ravkic
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :coach:
+   
+   Consider the program below which prints ``I love Python`` 
+   10 times. To avoid hard-coding, change this program 
+   so that it asks a user for an input that specifies how many 
+   times ``I love Python`` should be printed. So if the user says 
+   ``3`` times, the program will print it ``3`` times. It should work for 
+   any input without you manually changing the code.
+   ~~~~
+   for _ in range(10):
+      print("I love Python")

@@ -1,0 +1,16 @@
+.. fillintheblank:: printCard_function_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter12/the_printcard_function
+    :from_source: T
+
+    ::
+
+     Card card (3, 1);
+     card.print ();
+
+    What is printed by card.print()? Type your answer exactly as it would appear in the terminal.
+
+    - :(Ace of Spades): Correct!
+      :.*: Incorrect!  Try this input on the code above!

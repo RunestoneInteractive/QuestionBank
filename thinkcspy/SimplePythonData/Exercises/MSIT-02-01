@@ -1,0 +1,13 @@
+.. fillintheblank:: MSIT-02-01
+   :author: Kevin Austin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :casei:
+
+   Another word for the character that represents an operator is a |blank|.
+
+   - :token: Yes.  Nicely done.
+     :operator: Incorrect.  The answer starts with the letter T.
+     :x: No.  The answer starts with the letter T.

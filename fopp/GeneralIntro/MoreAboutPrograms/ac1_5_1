@@ -1,0 +1,9 @@
+.. activecode:: ac1_5_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: GeneralIntro/MoreAboutPrograms
+   :from_source: T
+
+   for character in "Cool string":
+       print(character)

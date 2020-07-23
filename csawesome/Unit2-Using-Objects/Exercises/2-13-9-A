@@ -1,0 +1,26 @@
+.. mchoice:: 2-13-9-A
+   :author: Rachel Reyes
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: I and IV
+   :answer_b: II, III, and IV
+   :answer_c: I, II, and IV
+   :answer_d: I, II, IV, and V
+   :answer_e: All of them are correct.
+   :correct: c
+
+   Given the following code segment, which of the following is true?
+
+   .. code-block:: java
+
+    String s1 = new String(“Hello world!");
+    String s2 = s1; 
+    String s3 = new String(“Hello world!");
+
+    I.   s1.equals(s2)
+    II.  s1 == s2
+    III. s2 == s3
+    IV.  s2.equals(s1)
+    V.   s1 == s3

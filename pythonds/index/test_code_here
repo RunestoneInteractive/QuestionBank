@@ -1,0 +1,10 @@
+.. activecode:: test_code_here
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: pythonds
+   :topic: index/
+   :from_source: F
+
+   '''Write a Python function to find the minimum number in a list.
+    The function should compare each number to every other number
+    on the list, and have a runtime of O(n2). '''

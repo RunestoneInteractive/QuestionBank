@@ -1,0 +1,32 @@
+.. parsonsprob:: vars_types_p9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/mixedUpCode
+   :from_source: T
+
+   It's Black Friday and the game system you'be been saving up for is marked
+   down 60%!  Construct a block of code that calculates how much money
+   you'd be saving if the system originally costed $359.99?
+
+   -----
+   int main() {
+   =====
+    double game = 359.99;
+   =====
+    double game = $359.99; #paired
+   =====
+    int game = 359.99; #paired
+   =====
+    double discountPrice = game * 0.60;
+   =====
+    double discountPrice = game / 0.60; #paired
+   =====
+    double moneySaved = game - discountPrice;
+   =====
+    double moneySaved = discountPrice; #paired
+   =====
+    double moneySaved = game + discountPrice; #paired
+   =====
+   }
+

@@ -1,0 +1,32 @@
+.. actex:: CS152_sumBetween_sumTo
+   :author: John Cigas
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+
+   Write the function ``sumBetween(n,m)`` that returns the sum of
+   all integer numbers starting at `n` and up to and
+   including `m`. Do not use the accumulator pattern. Copy and use `sumTo()` instead.
+   ~~~~
+
+   def sumBetween(n,m):
+       # your code here
+
+   ====
+   import re
+   from unittest.gui import TestCaseGui
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+            editText = self.getEditorText()
+            self.assertEqual(sumBetween(0,4),10,"Tested sumBetween(0,4)")
+            self.assertEqual(sumBetween(1,4),10,"Tested sumBetween(1,4)")
+            self.assertEqual(sumBetween(3,4),7,"Tested sumBetween(3,4)")
+            self.assertEqual(sumBetween(100,100),100,"Tested sumBetween(100,100")
+            self.assertEqual(0, len(re.findall("\s*for ", editText)), "Should have no for loops")
+            self.assertEqual(0, len(re.findall("sum\s*\(", editText)), "Should not use sum()")
+            #self.assertEqual(1, len(re.findall("\s*sumTo ", editText)), "Should have at least one call to sumTo")
+            #self.assertLessEqual(3, len(re.findall("\s*sumTo ", editText)), "Should have at least two calls to sumTo")
+
+   myTests().main()

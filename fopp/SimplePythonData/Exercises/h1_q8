@@ -1,0 +1,11 @@
+.. activecode:: h1_q8
+   :author: Irma Ravkic
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :coach:
+   
+   Write a program that converts a user's input of a number of 
+   hours (for example, 5) into minutes (for example, 300). 
+   ~~~~

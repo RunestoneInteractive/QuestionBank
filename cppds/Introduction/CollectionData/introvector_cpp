@@ -1,0 +1,26 @@
+.. activecode:: introvector_cpp
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :topic: Introduction/CollectionData
+    :from_source: T
+    :caption: Using a vector in C++
+    :language: cpp
+
+    /*shows the use of the reserve member, and how it
+    can be effective in saving time with a growing vector.*/
+    #include <iostream>
+    #include <vector>
+    using namespace std;
+
+    int main(){
+
+        vector<int> intvector;
+        intvector.reserve(50);
+
+        for (int i=0; i<50; i++){
+            intvector.push_back(i*i);
+            cout << intvector[i] << endl;
+        }
+        return 0;
+    }

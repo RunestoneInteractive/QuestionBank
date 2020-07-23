@@ -1,0 +1,14 @@
+.. mchoice:: q1_rab_names
+   :author: Richard Bernatz
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: _hours
+   :answer_b: Hours_
+   :answer_c: hours+
+   :answer_d: hours_plus
+   :correct: c
+
+   Which of the following is NOT a valid Python variable name?
+    

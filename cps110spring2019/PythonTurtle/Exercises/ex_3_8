@@ -1,0 +1,20 @@
+.. actex:: ex_3_8
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: PythonTurtle/Exercises
+    :from_source: None
+    :nocodelens:
+
+    On a piece of scratch paper, trace the following program and show the drawing.  When you are done, press ``run``
+    and check your answer.
+    ~~~~
+    import turtle
+    wn = turtle.Screen()
+    tess = turtle.Turtle()
+    tess.right(90)
+    tess.left(3600)
+    tess.right(-90)
+    tess.left(3600)
+    tess.left(3645)
+    tess.forward(-100)

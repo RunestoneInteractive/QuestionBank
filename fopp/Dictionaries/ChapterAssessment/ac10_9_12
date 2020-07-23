@@ -1,0 +1,26 @@
+.. activecode:: ac10_9_12
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Dictionaries/AccumulatingResultsFromaDictionary
+
+   Create a dictionary, ``freq_words``, that contains each word in string ``str1`` as the key and its frequency as the value.
+   ~~~~
+   str1 = "I wish I wish with all my heart to fly with dragons in a land apart"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testThree(self):
+         self.assertEqual(sorted(freq_words.items()), sorted([('a', 1), ('I', 2), ('wish', 2), ('with', 2), ('all', 1), ('my', 1), ('heart', 1), ('to', 1), ('fly', 1), ('dragons', 1), ('in', 1), ('land', 1), ('apart', 1)]), "Testing that freq_words was created correctly.")
+
+   myTests().main()
+

@@ -1,0 +1,12 @@
+.. activecode:: While_Lus_Combinatievraag1
+    :author: Gilles Fiers
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+    :language: python
+
+    Schrijf een functie die van een getal weergeeft of het een priemgetal is of niet, in de vorm van een Booleaanse return-variabele. Maak vervolgens van deze functie gebruik om de eerste 100 priemgetallen weer te geven.
+    ~~~~
+    
+    

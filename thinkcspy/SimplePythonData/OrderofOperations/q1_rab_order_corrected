@@ -1,0 +1,23 @@
+.. mchoice:: q1_rab_order_corrected
+   :author: Stephen Walloch
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/OrderofOperations
+   :from_source: F
+   :answer_a: 22
+   :answer_b: 20
+   :answer_c: 83
+   :answer_d: 27
+   :correct: b
+   :feedback_a: 
+   :feedback_b: 
+   :feedback_c: 
+   :feedback_d: 
+
+   What is the value of the following expression:
+
+   .. code-block:: python
+
+      2 + 3**2*2
+
+

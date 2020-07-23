@@ -1,0 +1,15 @@
+.. activecode:: l0401
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Labs/lab04_01
+    :from_source: None
+    :nocodelens:
+
+    def drawSquare(t, sz):
+        """Make turtle t draw a square of sz."""
+
+        for i in range(4):
+            t.forward(sz)
+            t.left(90)
+

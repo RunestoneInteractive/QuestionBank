@@ -1,0 +1,32 @@
+.. mchoice:: cswt01_q14a
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+   :answer_a: 8
+   :answer_b: 16
+   :answer_c: 29
+   :answer_d: Impossible to tell without running the program
+   :correct: a
+   :random:
+
+   14. What does the following code print?::
+
+      def function1(a, b, c) :
+          a = a + 5
+          b = b + 10
+          c = c + 20
+          return a
+
+      def main() :
+          a = 3
+          b = 6
+          c = 9
+          x = function1(a, b, c)
+          print(x)
+
+      main()
+
+
+

@@ -1,0 +1,19 @@
+.. fillintheblank:: unbounded_recursion_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter4/InfiniteRecursion
+   :from_source: T
+
+   If a recursive function never reaches its |blank| |blank|, then the function
+   will continue executing indefinitely.  This is called |blank| |blank|.
+
+   - :[Bb][Aa][Ss][Ee]: Correct!
+     :x: Try again!
+   - :[Cc][Aa][Ss][Ee]: Correct!
+     :x: Try again!
+   - :[Ii][Nn][Ff][Ii][Nn][Ii][Tt][Ee]: Correct!
+     :.*: Try again!
+   - :[Rr][Ee][Cc][Uu][Rr][Ss][Ii][Oo][Nn]: Correct!
+     :.*: Try again!
+

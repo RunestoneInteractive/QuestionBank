@@ -1,0 +1,20 @@
+.. mchoice:: plot_mc1
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/Exercises
+   :from_source: F
+   :correct: b
+   :answer_a: The repository on your GitHub account
+   :answer_b: The repository on the original owner's GitHub account
+   :answer_c: The repository on your local computer
+   :answer_d: The repository on the original owner's local computer
+   :feedback_a: This is the origin 
+   :feedback_b: This is the upstream repository
+   :feedback_c: This is your local repository
+   :feedback_d: This is the original owner's local repository
+
+   If you fork a repository, which repository is the upstream one?
+
+
+       

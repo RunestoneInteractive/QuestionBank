@@ -1,0 +1,18 @@
+.. mchoice:: cswq5_1
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: Error
+   :answer_b: "how now, brown cow?"
+   :answer_c: 'h'
+   :answer_d: ""
+   :correct: a
+   :random:
+   :feedback_a: Right - strings are immutable; they can't be changed
+   :feedback_b: No - strings are immutable; they can't be changed
+   :feedback_c: No - strings are immutable; they can't be changed
+   :feedback_d: No - strings are immutable; they can't be changed
+
+   1. If s = "How now, brown cow?", what is the result of s[0] = 'h'?

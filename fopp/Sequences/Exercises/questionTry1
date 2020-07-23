@@ -1,0 +1,21 @@
+.. mchoice:: questionTry1
+   :author: Caston Boyd 
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+   :answer_a: [ [ ], 3.14, False]
+   :answer_b: ["cat", [56, 57, "dog"]]
+   :answer_c: [ [56, 57, "dog"], [ ], 3.14, False]
+   :correct: b
+   :feedback_a: No, this slice starts at index 4 and goes up to and including the last item.
+   :feedback_b: Yes, "cat is at index 2 and [56, 57, "dog"] is what you get when index 4 is exclusive.
+   :feedback_c: Index values start at 0.
+   :practice: T
+
+   What is printed by the following statements?
+
+   .. code-block:: python
+
+     alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
+     print(alist[2:4])

@@ -1,0 +1,17 @@
+.. mchoice:: vis_mc_5
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+   :correct: c
+   :answer_a: SELECT id FROM Messages
+   :answer_b: Select * FROM Messages
+   :answer_c: SELECT max(id) FROM Messages
+   :answer_d: SELECT id FROM Messages WHERE Id = Max
+   :feedback_a: This gets all id's from Messages
+   :feedback_b: This gets all columns from Messages
+   :feedback_c: This returns the highest id from Messages
+   :feedback_d: This isn't valid in SQL
+
+   Which of the following gets the highest id from the Messages table?

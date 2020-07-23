@@ -1,0 +1,26 @@
+.. activecode:: ac17_4_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: NestedData/NestedIteration
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **2.** Below, we have provided a list of lists that contain information about people. Write code to create a new list that contains every person's last name, and save that list as ``last_names``.
+
+   ~~~~
+
+   info = [['Tina', 'Turner', 1939, 'singer'], ['Matt', 'Damon', 1970, 'actor'], ['Kristen', 'Wiig', 1973, 'comedian'], ['Michael', 'Phelps', 1985, 'swimmer'], ['Barack', 'Obama', 1961, 'president']]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(last_names, ['Turner', 'Damon', 'Wiig', 'Phelps', 'Obama'], "Testing that last_names was created correctly.")
+
+   myTests().main()

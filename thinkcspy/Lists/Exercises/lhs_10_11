@@ -1,0 +1,72 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: lhs_10_11
+    :language: python
+    :autograde: unittest
+
+    Let us say that a list (or string) matches an input pattern (another list or string)
+    if the pattern is at least as long as the list (or string) and for every
+    non-wildcard item in the pattern the list (or string) has the same
+    item in the same position. (in this example, the wildcard item is '?'.)
+    For example, "New York" matches "New ??????" where "?" is the wildcard.
+    Also, "New Jersey" matches "New ??????" where "?" is the wildcard.
+    But, "New York" does not match "New Hamp????"
+
+    Write the **boolean** function ``match( lst, pattern, wildcard )`` that implements
+    this functionality.
+
+    **NOTE:** Because iteration through a string or a list is the same, the input parameters
+    ``lst`` and ``pattern`` can be both strings, or can be both lists.
+
+    ~~~~
+    # My Name:
+
+    def match( lst, pattern, wildcard ):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _match( self, lst, pattern, wildcard ):
+            if len(lst) > len(pattern) or len(lst) == 0:
+                return False
+
+            for i in range(len(pattern)):
+                if pattern[i] != wildcard and (i >= len(lst) or lst[i] != pattern[i]):
+                    return False
+
+            return True
+
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            lst = [
+                ("New ????????", '?', "New Orleans"),
+                ("New ?????", '?', "New Orleans"),
+                ("San ######", '#', "San Jose"),
+                ("San ####", '#', "Sun Jose"),
+                ("San ###", '#', "San Jose"),
+                ("San ####x", '#', "San Jose"),
+                ([1,9,9,0,0,0,1,], 9, [1,1,1,0,0,0,1,])]
+            i = 0
+            for (pat, wc, lst) in lst:
+                i += 1
+                if isinstance(wc, int):
+                    self.assertEqual(match( lst, pat, wc ), self._match( lst, pat, wc ), "match("+str(lst)+", "+str(pat)+", "+str(wc)+")")
+                else:
+                    self.assertEqual(match( lst, pat, wc ), self._match( lst, pat, wc ), "match('"+str(lst)+"', '"+str(pat)+"', '"+str(wc)+"')")
+            self.assertEqual(match( [], ['!'], '#' ), self._match( [], ['!'], '#' ), "match([], ['!'], '#')")
+
+    myTests().main()

@@ -1,0 +1,30 @@
+.. activecode:: ex_2_5_jcomes
+    :author: Jonny Comes
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+         
+    Many people keep time using a 24 hour clock (11 is 11am and 23 is 11pm, 0 is midnight).
+    If it is currently 13 and you set your alarm to go off in 50 hours, it will be 15 (3pm).
+    Write a Python program to solve the general version of the above problem. Your program 
+    should first prompt the user for the time now (in hours) and for the number of hours 
+    to wait for the alarm, then store those values as type ``int`` variables ``time_now`` 
+    and ``wait_time`` respectively, and finally print the time on the 24 hour clock when 
+    the alarm will go off.  
+ 
+    ~~~~
+
+    ====
+    from unittest.gui import TestCaseGui
+    import re
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual(type(time_now), type(2), 'Checking the type of the variable time_now')
+            self.assertEqual(type(wait_time), type(2), 'Checking the type of the variable wait_time')
+            self.assertTrue(re.search('input', self.getEditorText()), 'Checking that input is used.')
+            self.assertTrue(re.search(str((time_now + wait_time) % 24), self.getOutput()), 'Checking answer.')
+    myTests().main()
+

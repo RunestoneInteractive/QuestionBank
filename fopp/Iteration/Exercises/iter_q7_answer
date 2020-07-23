@@ -1,0 +1,32 @@
+.. activecode:: iter_q7_answer
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Iteration/Exercises
+    :from_source: T
+    :nocodelens:
+
+    import turtle
+
+    wn = turtle.Screen()
+    lovelace = turtle.Turtle()
+
+    # move the turtle forward a little so that the whole path fits on the screen
+    lovelace.penup()
+    lovelace.forward(60)
+
+    # now draw the drunk pirate's path
+    lovelace.pendown()
+    current_heading = 0
+    for angle in [160, -43, 270, -97, -43, 200, -940, 17, -86]:
+
+        # we use .left() so that positive angles are counter-clockwise
+        # and negative angles are clockwise
+        current_heading = (current_heading + angle) % 360
+        lovelace.left(angle)
+        lovelace.forward(100)
+
+    # the .heading() method gives us the turtle's current heading in degrees
+    print("The pirate's final heading was", current_heading)
+
+    wn.exitonclick()

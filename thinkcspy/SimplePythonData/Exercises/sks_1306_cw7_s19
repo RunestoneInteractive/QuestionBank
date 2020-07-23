@@ -1,0 +1,34 @@
+.. activecode:: sks_1306_cw7_s19
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   You are developing a simple ciphering system that takes any message as input and produces 
+   a ciphered message as output.  In doing so, you have a write a program that includes two functions.  
+   The first is called ``make_dictionary(l1, l2)`` that takes two equal-length lists of single-character strings. 
+   It creates and returns a dictionary using the elements of ``l1`` as keys and the elements of ``l2`` as values. 
+   The dictionary is then used by a function called ``cipher(s, d)``. The parameter ``s`` is a string and ``d`` is the 
+   dictionary created by ``make_dictionary``. Function ``cipher(s, d)`` uses dictionary ``d`` to replace characters 
+   in ``s`` that are keys in ``d`` with the corresponding key value. Characters in ``s`` that are not dictionary keys 
+   are left unchanged in the ciphered version of the string ``s``. The ciphered string is returned.
+
+   Make sure to add comments to your program. 
+   Your program should not use any functions or methods we have not discussed in class.
+
+   An example for the main program that prints `pleise ciphec this ressige` as output would look like the following:
+   ::
+
+     list1 = ['r', 'a', 'n', 'd', 'o', 'm']
+     list2 = ['c', 'i', 'p', 'h', 'e', 'r']
+
+     cipherdict = make_dictionary(list1, list2)
+     message = 'please cipher this message'
+     ciphered_message = cipher(message, cipherdict)
+     print(ciphered_message)
+
+   ~~~~
+   # Write your code here
+
+   ====

@@ -1,0 +1,13 @@
+.. fillintheblank:: fact_service2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: WorldFacts/exploratory_data_analysis
+   :from_source: T
+
+   Approximately how many countries (to the nearest 5) have between 90% and 100%
+   of their economy based on service? |blank|
+
+   - :(5|6): Is the correct answer
+     :x: Try again, the number is less than 15
+

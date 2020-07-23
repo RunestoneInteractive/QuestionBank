@@ -1,0 +1,18 @@
+.. mchoice:: questionq1_9
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: x-y-z
+   :answer_b: _x_y_z
+   :answer_c: x1y2z3
+   :answer_d: xyz_123
+   :correct: a
+   :random:
+   :feedback_a: That's right - x-y-z is not a valid variable name
+   :feedback_b: No, _x_y_z is a valid variable name
+   :feedback_c: No, x1y2z3 is a valid variable name
+   :feedback_d: No, xyz_223 is a valid variable name
+
+   Which of the following is not a valid variable name?

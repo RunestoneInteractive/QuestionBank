@@ -1,0 +1,25 @@
+.. activecode:: ac18_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sorting/Optionalreverseparameter
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **1.** Sort the list, ``lst`` from largest to smallest. Save this new list to the variable ``lst_sorted``.
+   ~~~~
+
+   lst = [3, 5, 1, 6, 7, 2, 9, -2, 5]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(lst_sorted, sorted(lst, reverse=True), "Testing that lst_sorted value is assigned to correct values.")
+
+   myTests().main()

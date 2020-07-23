@@ -1,0 +1,88 @@
+.. activecode:: IT105_AY182_GradedLab02_02
+   :author: Chip Schooler
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+   :language: python
+   :nocodelens:
+
+   The 32 bit (4 octet) IPv4 address is divided into two parts: network prefix and host number.  
+   Network routers route packets off of a LAN and into a larger network based on the network prefix.  
+   If the source and destination network prefixes **do not** match then the router routes the packet.  
+   
+   Write a function named ``determineIfRoute(sourceIP, destIP)``  which takes as parameters a source and a destination 
+   IP address. Both parameters are strings containing IP addresses in dotted decimal format (see note).  If the networks prefix 
+   (which in this network is the first three octets) do not match, then the function should ``return`` the 
+   Boolean value for true.  If the first three octets do match, then the function should ``return`` the Boolean value for false.
+
+
+   **Note:** The source and destination IP address will be a string in the form ``xxx.xxx.xxx.xxx``. For example, 
+   ``123.456.789.123`` and each octet will have a three digit number.
+    
+   Example: 
+
+   ::     
+
+      print(determineIfRoute("123.456.789.101","123.456.789.202"))
+      print(determineIfRoute("123.456.780.105","123.456.789.245"))
+
+   Results:
+   
+   ::
+   
+      False
+      True
+
+   
+   
+
+
+   ~~~~
+   ### Name:
+
+   ###write your code here.
+   
+   
+   ====
+   from unittest.gui import TestCaseGui
+   import random
+  
+   class myTests(TestCaseGui):
+
+      def golden_func(self, source, destination):
+         network=source.split(".")
+         host = destination.split(".")
+         if network[0] == host[0] and network[1] == host[1] and network[2] == host[2]:
+            return False
+         else:
+            return True
+
+      def testOne(self):
+         print('Auto-testing...Examples') 
+         self.assertEqual(determineIfRoute("123.456.789.101","123.456.789.202"), False, "Example 1")
+         self.assertEqual(determineIfRoute("123.456.780.105","123.456.789.245"), True, "Example 2")
+         print('Auto-testing...Random IPs')
+         r = 8
+         for i in range(0,r):
+            a = random.randint(100, 255)
+            b = random.randint(100, 255)
+            c = random.randint(100, 255)
+            d1 = random.randint(100, 255)
+            d2 = random.randint(100, 255)
+            while d1 == d2:
+               d2 = random.randint(100, 255)
+            if i < r//2:
+               s = str(a) + "." + str(b) + "." + str(c) + "." + str(d1)
+               d = str(a) + "." + str(b) + "." + str(c) + "." + str(d2)
+               value = self.golden_func(s,d)
+            else:
+               s = str(a) + "." + str(b) + "." + str(c) + "." + str(d1)
+               a = random.randint(100, 255)
+               b = random.randint(100, 255)
+               c = random.randint(100, 255)
+               d = str(a) + "." + str(b) + "." + str(c) + "." + str(d2)
+               value = self.golden_func(s,d)
+            self.assertEqual(determineIfRoute(s,d),value,"source IP = " + s + "\ndestination IP = " + d)
+
+   myTests().main()

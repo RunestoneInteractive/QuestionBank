@@ -1,0 +1,19 @@
+.. mchoice:: mt1_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/Exercises
+   :from_source: F
+   :answer_a: B3DD
+   :answer_b: AC32
+   :answer_c: B6D4
+   :answer_d: B6D9
+   :answer_e: A8E2
+   :correct: c
+   :feedback_a: This is 1011001111011101 in hexadecimal.
+   :feedback_b: This is 1010110000110010 in hexadecimal.
+   :feedback_c: Correct!
+   :feedback_d: This is 1011011011011001 in hexadecimal.
+   :feedback_e: This is 1010100011100010 in hexadecimal.
+
+   What is the number 1011011011010100 (Binary) in hexadecimal?

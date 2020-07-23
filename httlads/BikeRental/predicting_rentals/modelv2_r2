@@ -1,0 +1,13 @@
+.. fillintheblank:: modelv2_r2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/predicting_rentals
+   :from_source: T
+
+   What is your ``r2_score`` for this model?
+
+   - :0.46.*|0.459.*|.459.*|.46.*: Is the correct answer
+     :incorrect: Is feedback on a specific incorrect
+     :x: catchall feedback
+

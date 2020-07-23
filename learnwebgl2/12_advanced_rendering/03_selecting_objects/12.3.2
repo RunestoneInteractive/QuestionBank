@@ -1,0 +1,26 @@
+.. mchoice:: 12.3.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 12_advanced_rendering/03_selecting_objects
+  :from_source: T
+  :random:
+
+  When a color is read from a WebGL *color buffer*, what type of data is returned?
+
+  - Four unsigned bytes in the range 0 to 255.
+
+    + Correct.
+
+  - Four floating point values in the range 0.0 to 1.0.
+
+    - Incorrect. This is how colors are specified in a *fragment shader*,
+      but not how they are actually stored in the *color buffer*.
+
+  - One unsigned integer in the range 0 to 2\ :sup:`32`\ -1
+
+    - Incorrect.
+
+  - Three floating point values, RGB, in the range 0.0 to "max_color".
+
+    - Incorrect.

@@ -1,0 +1,26 @@
+.. activecode:: ch11_q5_answer
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Dictionaries/Exercises
+    :from_source: None
+
+    pirate = {}
+    pirate['sir'] = 'matey'
+    pirate['hotel'] = 'fleabag inn'
+    pirate['student'] = 'swabbie'
+    pirate['boy'] = 'matey'
+    pirate['restaurant'] = 'galley'
+    # and so on
+
+    sentence = input("Please enter a sentence in English")
+
+    psentence = []
+    words = sentence.split()
+    for aword in words:
+        if aword in pirate:
+            psentence.append(pirate[aword])
+        else:
+            psentence.append(aword)
+
+    print(" ".join(psentence))

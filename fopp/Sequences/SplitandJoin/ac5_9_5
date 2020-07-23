@@ -1,0 +1,24 @@
+.. activecode:: ac5_9_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sequences/SplitandJoin
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   Create a variable ``output`` and assign to it a list whose elements are the words in the string ``str1``.
+   ~~~~
+   str1 = "OH THE PLACES YOU'LL GO"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testSix(self):
+         self.assertEqual(output, ["OH", "THE", "PLACES", "YOU'LL", "GO"], "Testing that output value is assigned to correct value.")
+
+   myTests().main()

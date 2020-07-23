@@ -1,0 +1,16 @@
+.. activecode:: Exam1_Question7
+    :author: Jane Weyant
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :language: python
+    
+
+    Write code that count the number of words in player_str that contains either an “o” or an “e”.  Store the result in the variable num_o_or_e.
+    ~~~~
+    player_str = "the best player in the world was nomar garciappara"
+    #Enter your code below
+    =====
+
+  

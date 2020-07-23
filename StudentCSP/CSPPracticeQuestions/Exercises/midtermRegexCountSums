@@ -1,0 +1,37 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermRegexCountSums
+   :adaptive:
+   :numbered: left
+
+   The code below is correct, but is mixed-up.  It should create a function sumNums.  The function will open a file and loop through the lines in the file and find all numbers in each line and add them to a list of numbers represented as strings.  Then it should close the file.  Next it should loop through the numbers that are strings and add them to numList as integers.  Finally it should return the sum of the list numList.  The code below contains one extra block that is not needed in a correct solution.  
+   -----
+   def sumNums(fileName):
+   =====
+       hand = open(fileName)
+       strList = []
+       numList = []
+   =====
+       for line in hand:
+   =====
+           currList = re.findall('\d+',line)
+   =====
+           strList = strList + currList
+   =====
+           strList = strList + int(currList) #distractor
+   =====
+       hand.close()
+   =====
+
+       for strNum in strList:
+   =====
+           numList.append(int(strNum))
+   =====
+       return sum(numList)
+
+
+    

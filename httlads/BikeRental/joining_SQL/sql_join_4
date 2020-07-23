@@ -1,0 +1,12 @@
+.. fillintheblank:: sql_join_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: BikeRental/joining_SQL
+   :from_source: F
+
+   What is the name of the most popular ending station for rides that begin at Massachusetts Ave & Dupont Circle NW?
+
+   - :15th & P St NW: Is the correct answer
+     :Massachusetts Ave & Dupont Circle NW: Rides do not have to start and end here.
+     :x: catchall feedback

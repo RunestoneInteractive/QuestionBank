@@ -1,0 +1,14 @@
+.. actex:: S1_P3
+   :author: Neil Kakhandiki
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Define a function that converts Fahrenheit to Celsius.
+   Ask the user, "What is the temperature in Fahrenheit?"
+   (using input), and ultimately print out (x, "degrees
+   Fahrenheit is ", y, "degrees Celsius.")
+
+   (F - 32) * (5/9) = C
+   ~~~~

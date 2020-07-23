@@ -1,0 +1,48 @@
+.. parsonsprob:: 85
+    :author: Renske Weeda
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [85] Het is weer verkiezingstijd. In een lijst is bijgehouden op welk kandidaat (nummer 1, 2 of 3) er gestemd is. Het volgende programma moet de kandidaatnummers afdrukken waar vaker dan 5 keer op gestemd is. Maar de blokken staan in de verkeerde volgorde. Sleep de code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    stemlijst = [1,3,3,3,2,1,2,2,2,2,2,3,3]
+    stemmen_per_kandidaat = [0,0,0]
+    =====
+    for stem in stemlijst:
+    =====
+        if stem == 1:
+    =====
+        if stemlijst[stem] == 1: #paired
+    =====
+            stemmen_per_kandidaat[0] += 1
+    =====
+            stemmen_per_kandidaat += 1 #paired
+    =====
+        elif stem == 2:
+            stemmen_per_kandidaat[1] += 1
+    =====
+        elif stem == 3:
+            stemmen_per_kandidaat[2] += 1
+    =====
+    index = 0
+    =====
+    while index < len(stemmen_per_kandidaat):
+    =====
+    while index < len(stemlijst): #paired
+    =====
+        if stemmen_per_kandidaat[index] > 5:
+    =====
+        if stemmen_per_kandidaat > 5: #paired
+    =====
+            print(index+1)
+    =====
+            print(index) #paired
+    =====
+        index+=1
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div

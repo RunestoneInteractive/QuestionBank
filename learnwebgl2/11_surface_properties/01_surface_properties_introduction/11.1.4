@@ -1,0 +1,30 @@
+.. mchoice:: 11.1.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 11_surface_properties/01_surface_properties_introduction
+  :from_source: T
+  :random:
+
+  When is the transpose of the inverse of a transformation matrix, (M\ :sup:`-1`)\ :sup:`T`
+  required for the correct placement of normal vectors into a scene?
+
+  - when the transformation matrix includes non-uniform scaling.
+
+    + Correct.
+
+  - when the camera transformation matrix includes non-uniform scaling.
+
+    - Incorrect. A camera transformation matrix contains only translation and rotation, never scaling.
+
+  - when the transformation matrix includes any type of scaling.
+
+    - Incorrect. Uniform scaling is fine. Only when non-uniform scaling is
+      included is the special matrix, (M\ :sup:`-1`)\ :sup:`T`, required.
+
+  - when the transformation matrix includes uniform scaling.
+
+    - Incorrect. Uniform scaling is fine. Only when non-uniform scaling is
+      included is the special matrix, (M\ :sup:`-1`)\ :sup:`T`, required.
+
+

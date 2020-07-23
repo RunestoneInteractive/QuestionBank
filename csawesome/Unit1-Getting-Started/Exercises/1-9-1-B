@@ -1,0 +1,17 @@
+.. mchoice:: 1-9-1-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: 0
+   :answer_b: 5
+   :answer_c: 4
+   :answer_d: It will give a compile-time error.
+   :correct: a
+
+   What does the following code print?
+
+   .. code-block:: java
+
+    System.out.println(20 % 4);

@@ -1,0 +1,13 @@
+.. dragndrop:: chapter_nine_glossary_two
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter9/glossary
+    :from_source: T
+    :feedback: Try again!
+    :match_1: functional programming style|||A style of program design in which the majority of functions are pure.
+    :match_2: modifier|||A function that changes one or more of the objects it receives as parameters, and usually returns void.
+    :match_3: fill-in function|||A function that takes an “empty” object as a parameter and fills it its instance variables instead of generating a return value.
+    :match_4: algorithm|||A set of instructions for solving a class of problems by a mechanical, unintelligent process.
+
+    Match the definition to the term.

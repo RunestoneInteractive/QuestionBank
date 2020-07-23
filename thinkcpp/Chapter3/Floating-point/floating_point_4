@@ -1,0 +1,20 @@
+.. fillintheblank:: floating_point_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/Floating-point
+   :from_source: T
+
+   ::
+
+       double e = 2.71828;
+       int eInt = e;
+       double eDouble = eInt;
+       cout << eDouble;
+
+   What is the value of eDouble printed to the terminal?
+
+   - :2: When we converted e to an int, e was rounded down to 2. When we converted eInt to a double, the decimal places from e were lost, and the value of eDouble remains 2.
+     :2\.0: C++ knows that the value of eDouble is 3.0, but it is displayed to the terminal without the extra decimal places.
+     :2\.71828: When we converted e to an int, e was rounded down to 2. When we converted eInt to a double, the decimal places from e were lost.
+     :.*: Try again!

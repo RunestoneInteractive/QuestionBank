@@ -1,0 +1,23 @@
+.. activecode:: ac6_6_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TheAccumulatorPattern
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   Write code to create a list of integers from 0 through 52 and assign that list to the variable ``numbers``. You should use a special Python function -- do not type out the whole list yourself. HINT: You can do this in one line of code!
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(numbers, range(53), "Testing that numbers is a list that contains the correct elements.")
+
+   myTests().main()

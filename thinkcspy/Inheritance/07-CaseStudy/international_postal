@@ -1,0 +1,42 @@
+.. activecode:: international_postal
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Inheritance/07-CaseStudy
+    :from_source: T
+    :include: base_postal
+
+    class IrishPostalAddress(BasePostalAddress):
+        def __init__(self, recipient, postalCode):
+            super().__init__("IRELAND", recipient)
+            self.postalCode = postalCode
+
+        def display(self):
+            print(self.recipient)
+            print(self.postalCode)
+            print(self.country)
+
+        def validate(self):
+            return super().validate() and len(self.postalCode) == 7
+
+    class USPostalAddress(BasePostalAddress):
+        def __init__(self, recipient, street, city, state, zipcode):
+            super().__init__("USA", recipient)
+            self.street = street
+            self.city = city
+            self.state = state
+            self.zip = zipcode
+
+        def display(self):
+            print(self.recipient)
+            print(self.street)
+            print(self.city + ", " + self.state + "  " + self.zip)
+            print(self.country)
+
+        def validate(self):
+            return (super().validate() and self.city != '' and
+                len(self.state) == 2 and
+                (len(self.postalCode) == 5 or len(self.postalCode) == 9))
+
+
+

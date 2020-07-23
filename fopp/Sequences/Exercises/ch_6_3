@@ -1,0 +1,17 @@
+
+    :author: Irma Ravkic
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Sequences/Exercises
+    :from_source: F
+.. activecode:: ch_6_3
+    
+    Assign the value of the last chacter of 'lst' to the variable 
+    'output'. Do this so that the length of 'lst' doesn’t matter.
+    ~~~~
+    lst = "It might seem crazy what I'm 'bout to say, Sunshine she's here, you can take a break"
+    ====
+    
+
+
+    

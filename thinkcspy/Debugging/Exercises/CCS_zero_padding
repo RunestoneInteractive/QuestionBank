@@ -1,0 +1,40 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+.. activecode:: CCS_zero_padding
+
+   You have seen that numbers can be treated in several ways in Python. The number 1 can be stored as an int, a float or a string.  The Python interpreter uses little hints to remind you of this, as the following lines of code demonstrate:
+   
+   ::
+   
+   >>> one_str = "1"
+   >>> one_int = int(one_str)
+   >>> one_float = float(one_str)
+   
+   >>> one_str
+   '1'
+   >>> one_int
+   1
+   >>> one_float
+   1.0
+   
+   Note how the string version is displayed in single quotes, the integer version is displayed as just the plain number, and the float version is displayed with a ".0" after it.
+   
+   When numbers are represented as strings, we can pad them just like we can pad any other string. Often, it useful to pad a number with zeros. For example, if we zero-pad the string representations of the numbers 1, 2 and 3 on the left so they have a width of 5, we get::
+   
+    00001
+    00002
+    00003
+   
+   **Write a program to practice zero-padding integers. It should do the following:**
+   
+   #. Ask the user to enter an integer between 0 and 999.
+   #. Pad the number with zeros on the left until so it has a width of 4 digits.
+   #. Print the number.
+
+   **NOTE: The IF statement is not permitted.**
+   ~~~~
+    

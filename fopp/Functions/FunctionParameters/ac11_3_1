@@ -1,0 +1,13 @@
+.. activecode:: ac11_3_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/FunctionParameters
+   :from_source: T
+
+   def hello2(s):
+       print("Hello " + s)
+       print("Glad to meet you")
+
+   hello2("Iman" + " and Jackie")
+   hello2("Class " * 3)

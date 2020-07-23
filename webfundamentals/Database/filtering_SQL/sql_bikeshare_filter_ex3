@@ -1,0 +1,15 @@
+.. activecode:: sql_bikeshare_filter_ex3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: webfundamentals
+    :topic: Database/filtering_SQL
+    :from_source: T
+    :language: sql
+    :autograde: unittest
+    :dburl: /runestone/books/published/webfundamentals/_static/bikeshare.db
+
+    How many trips longer than 8 hours started and ended and station 31111 by casual riders?
+    ~~~~
+
+    ====
+    assert 0,0 == 4

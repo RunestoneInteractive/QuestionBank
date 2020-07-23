@@ -1,0 +1,15 @@
+.. activecode:: act_ico_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/input_compute_output
+    :from_source: T
+
+
+    years = input("Enter a number of years and I'll tell you how many minutes that is ")
+    years = int(years)
+    days = years * 365
+    hours = days * 24
+    minutes = hours * 60
+    print(years, "years is ", minutes, "minutes")
+

@@ -1,0 +1,18 @@
+
+   :author: Damon Ellingston
+   :difficulty: 2.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. activecode:: hw4DE
+
+   **Homework 4**
+
+   Write a program that converts US $ Dollars to Euros. Your program should ask the user how many dollars they would like to convert. The user then enters a dollar-and-cents amount X and the program responds  "$X converts to Y Euros." You will need to look up the currency conversion rate on the web and use that number in your program. Runestone Interactive does not support the command::
+
+   `X = eval(input("How many dollars would you like to convert?"))`
+
+   The first two lines written below will convert an input string into a float.
+   ~~~~
+   x = input("How many dollars would you like to convert?")
+   x = float(x)

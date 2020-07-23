@@ -1,0 +1,81 @@
+.. activecode:: lhs_7_16
+    :author: LHS CS Team
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``classifyTriangle(s1, s2, s3)`` that takes three parameters 
+    (all positive real numbers greater than 0) which represent the length of each
+    side of a triangle.
+
+    The function returns 0, 1, 2 or 3 depending on the type of triangle.
+
+    ::
+
+       0 - not a triangle (where a + b <= c)
+       1 - scalene triangle
+       2 - isosceles triangle (2 matching side lengths)
+       3 - equilateral triangle (3 matching side lengths)
+
+    
+    ~~~~
+
+    def classifyTriangle...
+    
+    
+    ====
+    import sys
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+    
+        def _golden(self, s1, s2, s3):
+            if s1 + s2 <= s3 or s2 + s3 <= s1 or s1 + s3 <= s2:
+                return 0
+            elif s1 == s2 and s2 == s3:
+                return 3
+            elif s1 == s2 or s2 == s3 or s1 == s3:
+                return 2
+            else:
+                return 1
+        
+        # just opening and closing file does not work, so need a print statement to "empty" the file
+        def deleteFile(self, fname):
+            # empty out the file so nothing shows
+            sys.stdout = open(fname, "w")
+            print("Ignore this...")
+            sys.stdout.close()
+    
+        def testOne(self):
+           
+            fname = "test.out"
+            sys.stdout = open(fname, "w")  # make sure print()'s do not go out
+    
+            tests = [(1, 2, 3), \
+                     (4, 2, 1), \
+                     (4, 10, 4), \
+                     (4, 4, 4), \
+                     (5, 5, 8), \
+                     (8, 5, 5), \
+                     (5, 2, 5), \
+                     (5, 6, 8), \
+                     (8, 6, 5), \
+                     (6, 5, 8) ]
+                     
+            for t in tests:
+                s1 = t[0]
+                s2 = t[1]
+                s3 = t[2]
+                self.assertEqual(classifyTriangle(s1, s2, s3), self._golden(s1, s2, s3), \
+                                 "Testing {}, {}, {}".format(s1, s2, s3))
+            
+            
+            sys.stdout.close()
+            
+            self.deleteFile(fname)
+            
+            
+    myTests().main()

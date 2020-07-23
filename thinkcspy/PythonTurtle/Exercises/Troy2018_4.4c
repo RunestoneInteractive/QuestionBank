@@ -1,0 +1,24 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: Troy2018_4.4c
+
+    This is a BONUS.  
+
+    Write a program that will create a turtle and make an equilateral 
+    triangle. 
+  
+    Input a background color and a turtle color from the user.  Choose a 
+    pen size.  
+
+    After this portion of the program works, create a second turtle.  Input a 
+    turtle color.  
+
+    Use the second turtle to create another equilateral triangle, of a 
+    different size, somewhere else in the window.   Input the turtle
+    color from the user.  
+    ~~~~
+    # Assmt. 4  Bonus.   Two Triangles  by  >> YOUR NAME HERE 

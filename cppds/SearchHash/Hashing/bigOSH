@@ -1,0 +1,12 @@
+.. dragndrop:: bigOSH
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :topic: SearchHash/Hashing
+    :from_source: T
+    :feedback: Review the analysis of each technique
+    :match_1: Linear Search|||O(n)
+    :match_2: Binary Search|||O(log n)
+    :match_3: Hashing|||nO(1)
+
+    Match the method of finding data to its corresponding Big O.

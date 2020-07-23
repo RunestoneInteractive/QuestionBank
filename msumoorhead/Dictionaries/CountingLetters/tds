@@ -1,0 +1,16 @@
+.. activecode:: tds
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :topic: Dictionaries/CountingLetters
+   :from_source: None
+
+   def countAll(astring):
+       #your code goes here
+
+
+
+
+
+   print(countAll('banana'))
+

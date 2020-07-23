@@ -1,0 +1,14 @@
+.. mchoice:: cswq4_4
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 11100000
+   :answer_b: 00100000
+   :answer_c: -00100000
+   :answer_d: 11011111
+   :correct: a
+   :random:
+
+   4. What is the binary negative of 00100000?

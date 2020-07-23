@@ -1,0 +1,13 @@
+.. activecode:: ac11_12_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/PassingMutableObjects
+   :from_source: T
+
+   def double(y):
+       y = 2 * y
+
+   num = 5
+   double(num)
+   print(num)

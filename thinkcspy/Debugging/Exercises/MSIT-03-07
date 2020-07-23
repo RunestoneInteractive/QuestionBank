@@ -1,0 +1,15 @@
+.. activecode:: MSIT-03-07
+    :author: Kevin Austin
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Debugging/Exercises
+    :from_source: F
+    :language: python
+
+    Type a statement that will cause the interpreter to generate a name error
+
+    ~~~~
+    # add code that generates a name error after this line 
+
+    =====
+

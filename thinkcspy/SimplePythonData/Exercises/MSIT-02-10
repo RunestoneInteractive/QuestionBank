@@ -1,0 +1,19 @@
+.. fillintheblank:: MSIT-02-10
+   :author: Kevin Austin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :casei:
+
+   A string is a data type consisting of any number of |blank| surrounded by |blank| or |blank|
+
+   - :characters?: Yes.  Nicely done.
+     :letters?: More than just letters.  Starts with a C.
+     :x: No.
+   - :quotes?: Yes.  Nicely done.
+     :apostrophes?: Try this in the last blank.
+     :x: No.
+   - :apostrophes?: Yes.  Nicely done.
+     :quotes?: Try this in the middle blank.
+     :x: No.

@@ -1,0 +1,11 @@
+
+   :author: peter suci
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+.. actex:: suci_business_card_3
+
+   Copy and paste you business card code here and modify it so that the user can enter their first & last name and the business name.
+   ~~~~
+   # put code here 

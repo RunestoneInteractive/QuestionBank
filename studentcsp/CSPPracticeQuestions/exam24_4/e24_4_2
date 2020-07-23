@@ -1,0 +1,17 @@
+.. mchoice:: e24_4_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: Your friend’s program will give equally or more precise answers for any arbitrary input.
+   :answer_b: Your program will give equally or more precise answers for any arbitrary input.
+   :answer_c: The two programs will give equally precise answers for any arbitrary input.
+   :answer_d: Your program is more likely than your friend’s to give answers with round off errors.
+   :correct: b
+   :feedback_a: Incorrect. Refer to feedback for answer choice (B).
+   :feedback_b: Correct. Since the variable used in your program occupies more memory/has greater number of bits, it will have greater precision and range than the variable used in your friend's program. Thus a more accurate answer is received in your program when numbers are divided.
+   :feedback_c: Incorrect. There will be cases in which precision will differ since the two variables have different memory size, and therefore different range.
+   :feedback_d: Incorrect. Round off errors are observed more when variables with lesser memory size are used.
+
+   Suppose you are writing a program to accept two integers as input, divide them and return the answer. You decide to use a 64-bit floating-point variable in your program to store the calculated answer and your friend decides to use a 32-bit floating-point variable in his program to store the calculated answer. Assume that the two programs are identical in all other aspects and that the user will never attempt to divide by 0. Then, which of the following statements comparing the answers calculated by the two programs is true?

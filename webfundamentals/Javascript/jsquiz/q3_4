@@ -1,0 +1,18 @@
+.. mchoice:: q3_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: Javascript/jsquiz
+   :from_source: T
+   :answer_a: a string
+   :answer_b: the string wizard
+   :answer_c: an HTML li element in the tree
+   :answer_d: a CSS rule
+   :correct: c
+   :feedback_a: No, the innerText attribute is a string
+   :feedback_b: No, the innerText attribute would be the string wizard
+   :feedback_c: Good job
+   :feedback_d: Nope, this has nothing to do with CSS yet.
+
+
+   Referring to the code in the previous question, what kind of thing is ``myLi`` referring to?

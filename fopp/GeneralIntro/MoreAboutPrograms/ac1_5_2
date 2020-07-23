@@ -1,0 +1,11 @@
+.. activecode:: ac1_5_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: GeneralIntro/MoreAboutPrograms
+   :from_source: T
+
+   grocery_item = ""
+   while grocery_item != "done":
+       grocery_item = input("Please write down an item to add to your grocery list. When you are done writing the list simply type: done")
+       print(grocery_item)

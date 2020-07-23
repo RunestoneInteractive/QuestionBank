@@ -1,0 +1,28 @@
+.. actex:: ac21_6_13
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/Exercises
+   :from_source: T
+
+   Write a function that takes a list of numbers and returns the sum of the squares of all the numbers. Try it using an accumulator pattern.
+   ~~~~
+
+   def sumSquares(L):
+       return None
+
+   nums = [3, 2, 2, -1, 1]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+            self.assertEqual(sumSquares(nums), 19, "Testing whether sumSquares has been correctly defined.")
+            self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+            self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+            self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

@@ -1,0 +1,21 @@
+.. actex:: ac14_9_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: MoreAboutIteration/Exercises
+   :from_source: T
+   :nocodelens:
+
+   Create a while loop that initializes a counter at 0 and will run until the counter reaches 50. If the value of the counter is divisible by 10, append the value to the list, ``tens``.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(tens, [0, 10, 20, 30, 40, 50], "Testing that tens is assigned to correct values.")
+
+   myTests().main()

@@ -1,0 +1,26 @@
+.. mchoice:: pe4_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: TimedTests/test4
+   :from_source: T
+   :answer_a: II only
+   :answer_b: III only
+   :answer_c: I and II only
+   :answer_d: I, II, and III
+   :answer_e: I only
+   :correct: d
+   :feedback_a: Methods in an interface are abstract, but more of these choices are correct.
+   :feedback_b: Methods in an interface are public, but more of these choices are correct.
+   :feedback_c: Can you declare private methods in an interface?
+   :feedback_d: One interface can inherit from another and the methods in an interface are public and abstract.
+   :feedback_e: One interface can inherit from another, but more of these choices are correct.
+
+   Which of the following statements about interfaces is (are) true?
+
+   .. code-block:: java
+
+     I.  One interface can inherit from another
+     II.  All methods declared in an interface are abstract methods
+          (can’t have a method body).
+     III. All methods declared in an interface are public methods.

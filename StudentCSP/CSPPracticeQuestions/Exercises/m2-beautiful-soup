@@ -1,0 +1,31 @@
+
+   :author: Kathryn Cunningham
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: m2-beautiful-soup
+   :numbered: left
+   
+
+   Solve my really cool parsons problem...if you can.
+   -----
+   def getImageUrls(soup):
+   =====
+	urls = []
+   =====
+	urls = {} #distractor
+   =====
+	tagList = soup.find_all('img')
+   =====
+	tagList = soup.find('img') #distractor
+   =====
+	for tag in tagList:
+   =====
+            urls.append(tag.get('src'))
+   =====
+    	    urls.append(tag.get(‘img’)) #distractor
+   =====
+	return urls
+
+    

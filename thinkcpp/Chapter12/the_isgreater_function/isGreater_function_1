@@ -1,0 +1,20 @@
+.. mchoice:: isGreater_function_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter12/the_isgreater_function
+   :from_source: T
+   :multiple_answers:
+   :answer_a: bool
+   :answer_b: string
+   :answer_c: int
+   :answer_d: Animal
+   :answer_e: Card
+   :correct: b,c
+   :feedback_a: Incorrect! We cannot say true is greater than false, or vice versa.
+   :feedback_b: Correct! Strings are ordered lexiographically.
+   :feedback_c: Correct! It is quite obvious how integers are ordered.
+   :feedback_d: Incorrect! We cannot say that one animal is greater than another.
+   :feedback_e: Incorrect! Cards are partially ordered.
+
+   Select all **totally ordered** sets.

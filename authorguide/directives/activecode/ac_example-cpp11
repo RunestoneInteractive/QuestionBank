@@ -1,0 +1,27 @@
+.. activecode:: ac_example-cpp11
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/activecode
+   :from_source: T
+   :language: cpp
+   :compileargs: ['-Wall', '-Wextra', '-pedantic', '-std=c++11']
+   :stdin: Alice
+   :enabledownload:
+
+   // A simple test for C++11 compiler
+   #include <iostream>
+   #include <string>
+
+   int main () {
+     int test[] = { 1, 2, 3, 5, 8 };  // can we use an initializer list?
+     for (auto i: test) {             // can we use a range-for loop?
+       std::cout << "i is " << i << '\n';
+     }
+
+     std::string name;
+     std::cin >> name;
+     std::cout << "Hello, " << name << "!\n";
+     return 0;
+   }
+

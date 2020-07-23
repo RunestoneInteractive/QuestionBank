@@ -1,0 +1,14 @@
+.. mchoice:: cswq5_3
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: True
+   :answer_b: False
+   :answer_c: Error
+   :answer_d: None
+   :correct: a
+   :random:
+
+   3. If s = "How now, brown cow?" what is the result of executing the statement: "ow, b" in s

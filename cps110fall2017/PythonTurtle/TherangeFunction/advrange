@@ -1,0 +1,11 @@
+.. video:: advrange
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: PythonTurtle/TherangeFunction
+   :from_source: None
+   :controls:
+   :thumb: ../_static/advrange.png
+
+   http://media.interactivepython.org/thinkcsVideos/AdvancedRange.mov
+   http://media.interactivepython.org/thinkcsVideos/AdvancedRange.webm

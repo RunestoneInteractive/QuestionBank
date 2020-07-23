@@ -1,0 +1,22 @@
+.. mchoice:: 5.5.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 05_rendering/05_one_color_per_model
+  :from_source: T
+  :random:
+  :answer_a: It gets the location in a binary compiled shader program of the uniform variable named "x".
+  :answer_b: It sets the value of the uniform variable called "x".
+  :answer_c: It modifies the shader program to include a new uniform variable called "x".
+  :answer_d: It changes the location of a variable in a shader program.
+  :correct: a
+  :feedback_a: Correct. The variable "a" can then be used to set the value of the uniform variable "x".
+  :feedback_b: Incorrect. You set the value of a uniform variable using variants of the function uniform() and uniformMatrix().
+  :feedback_c: Incorrect. You can't modify a compiled shader program.
+  :feedback_d: Incorrect. You can't modify a compiled shader program.
+
+  What does the following code do?
+
+  .. Code-block:: Javascript
+
+    a = getUniformLocation(my_shader_program, "x");

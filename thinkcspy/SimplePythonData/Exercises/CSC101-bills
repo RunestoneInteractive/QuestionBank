@@ -1,0 +1,55 @@
+.. activecode:: CSC101-bills
+   :author: Yan Chen
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+
+   Over spring break Star Lane takes a group of students to Las Vegas.  On the last day you are playing the penny slot machines and you win **5519767** pennies!
+
+   Since you can't fit them all in your pocket, you'll need to write code to calculate the correct number of bills the cashier should give you (e.g. number of $100, $20, $10, $5, and $1 bills).
+
+   Your initial winnings are in the ``pennies`` variable below.
+
+   * Calculate the total number of dollars you won and store it in the ``dollars_won`` variable.
+   * Calculate the number of pennies remaining after ``dollars_won`` dollars are removed from the mountain of pennies and store that value in ``cents_won``.
+
+      * Print the total number of dollars and remaining cents and test your code.
+
+      * (e.g. "XXXXX dollars and YY cents.")
+   * Next uncomment the ``hundreds`` variable.  Calculate the total number of $100 bills and store it in the ``hundreds`` variable.  Calculate the number of dollars remaining after all $100's are removed and put that value back in the ``dollars_won`` variable.
+   * Print out the number of $100 bills (see the comment in your code for where to write the print statement and how the printing should look)
+   * Now do the same thing for $20's, using the ``twenties`` variable.
+   * Do it again for $20's, $10's, $5's, and $1's, using the appropriate variables.
+   * Now go back and adjust all of your print statements to make them line up nicely (by adding spaces in your strings).
+   * Finally,  do one of the following\:
+
+      * [Easy] Print the remaining penny count (should be less than $1) after all of the bill counts have been printed (e.g. "and YY cents!")
+      * [Harder] Using the same process you used for the bills, calculate the appropriate change for the remaining penny count (should be < $1) converted to quarters, dimes, nickels, and pennies.  Print the coin counts.
+
+   ~~~~
+
+   pennies = 5519767
+   dollars_won = 
+   cents_won = 
+   # Print the number of dollars and remaining cents here.
+
+   # hundreds =
+
+   # twenties = 
+
+   # tens = 
+
+   # fives = 
+
+   # ones = 
+
+   # Print the number of $100 bills here (e.g. "$100 * XXX")
+   # Print the number of  $20 bills here (e.g. "   $20 * X")
+   # Print the number of  $10 bills here (e.g. "   $10 * X")
+   # Print the number of    $5 bills here (e.g. "     $5 * X")
+   # Print the number of    $1 bills here (e.g. "     $1 * X")
+
+   ====
+    

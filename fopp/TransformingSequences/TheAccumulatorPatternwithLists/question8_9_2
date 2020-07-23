@@ -1,0 +1,26 @@
+.. mchoice:: question8_9_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TransformingSequences/TheAccumulatorPatternwithLists
+   :from_source: T
+   :answer_a: [8,5,14,9,6]
+   :answer_b: [8,5,14,9,6,12]
+   :answer_c: [3,0,9,4,1,7,5]
+   :answer_d: Error, you cannot concatenate inside an append.
+   :correct: b
+   :feedback_a: Don't forget the last item!
+   :feedback_b: Yes, the for loop processes each item in lst. 5 is added before lst[i] is appended to new_list.
+   :feedback_c: 5 is added to each item before the append operation is performed.
+   :feedback_d: It is OK to have a complex expression inside the call to the append method. The expression `lst[i]+5` is fully evaluated before the append operation is performed.
+   :practice: T
+
+   What is printed by the following statements?
+
+   .. code-block:: python
+
+     lst= [3,0,9,4,1,7]
+     new_list=[]
+     for i in range(len(lst)):
+        new_list.append(lst[i]+5)
+     print(new_list)

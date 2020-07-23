@@ -1,0 +1,38 @@
+.. parsonsprob:: 43
+    :author: Renske Weeda
+    :difficulty: 1.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [43] Een meetstation heeft voor een aantal dagen steeds bijgehouden hoeveel regen er is gevallen. Door meetfouten staan er negatieve getallen in de meetlijst. Het volgende programma moet het gemiddelde berekenen van de <i>geldige waarden</i> (negatieve waarden worden dus overgeslagen en tellen ook niet mee bij de bepaling van het totaal aantal meetingen). Maar de blokken staan in de verkeerde volgorde. Er staat 1 overbodige regel code tussen. Sleep de benodigde code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    metingen = [9.0, -12.3, 4.4, 0.0, 9.8]
+    totaal = 0
+    gemiddeld = 0
+    aantal = 0
+    =====
+    for regen in metingen:
+    =====
+        if regen > 0:
+    =====
+            totaal += regen
+    =====
+            totaal += 1 #paired
+    =====
+            aantal += 1
+    =====
+            aantal += totaal #paired
+    =====
+    if aantal>0:
+    =====
+    if aantal>=0: #paired
+    =====
+        gemiddeld = totaal/aantal
+    =====
+        print( gemiddeld )
+    =====
+        while regen>0: #distractor
+config values (conf.py):
+- parsons_div_class - custom CSS class of the component's outermost div

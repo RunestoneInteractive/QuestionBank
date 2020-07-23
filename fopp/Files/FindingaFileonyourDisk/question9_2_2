@@ -1,0 +1,19 @@
+.. mchoice:: question9_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Files/FindingaFileonyourDisk
+   :from_source: T
+   :multiple_answers:
+   :answer_a: "Stacy/Applications/README.txt"
+   :answer_b: "/Users/Raquel/Documents/graduation_plans.doc"
+   :answer_c: "/private/tmp/swtag.txt"
+   :answer_d: "ScienceData/ProjectFive/experiment_data.csv"
+   :correct: a,d
+   :feedback_a: Yes, this is a relative file path. You can tell by the lack of "/" at the beginning of the path.
+   :feedback_b: This is an absolute file path. All absolute file paths start with "/".
+   :feedback_c: This is an absolute file path. Not all absolute file paths contain "User"! Instead, check to see if the path starts with "/".
+   :feedback_d: Yes, this is a relative file path. You can tell by the lack of "/" at the beginning of the path.
+   :practice: T
+
+   Which of the following paths are relative file paths?

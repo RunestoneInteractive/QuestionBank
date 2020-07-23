@@ -1,0 +1,26 @@
+.. mchoice:: question8_8_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: TransformingSequences/NonmutatingMethodsonStrings
+   :from_source: T
+   :answer_a: Nothing - it causes an error
+   :answer_b: sum of {} and {} is {}; product: {}. 2 6 8 12
+   :answer_c: sum of 2 and 6 is 8; product: 12.
+   :answer_d: sum of {2} and {6} is {8}; product: {12}.
+   :correct: c
+   :feedback_a: It is legal format syntax:  put the data in place of the braces.
+   :feedback_b: Put the data into the format string; not after it.
+   :feedback_c: Yes, correct substitutions!
+   :feedback_d: Close:  REPLACE the braces.
+   :practice: T
+
+
+   What is printed by the following statements?
+
+   .. code-block:: python
+
+       x = 2
+       y = 6
+       print('sum of {} and {} is {}; product: {}.'.format( x, y, x+y, x*y))
+

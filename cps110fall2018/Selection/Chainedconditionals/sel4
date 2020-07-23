@@ -1,0 +1,19 @@
+.. activecode:: sel4
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Selection/Chainedconditionals
+    :from_source: None
+
+    x = 10
+    y = 10
+
+    if x < y:
+        print("x is less than y")
+    elif x > y:
+        print("x is greater than y")
+    else:
+        print("x and y must be equal")
+
+
+

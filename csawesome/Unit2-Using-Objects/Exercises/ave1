@@ -1,0 +1,12 @@
+
+   :author: Kevin Clevenger
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+.. activecode:: ave1
+   :language: java
+   :stdin: 0
+   
+   /* Write a program that inputs three integers
+    * and prints their average. */

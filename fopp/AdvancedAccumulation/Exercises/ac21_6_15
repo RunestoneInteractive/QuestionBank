@@ -1,0 +1,30 @@
+.. actex:: ac21_6_15
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/Exercises
+   :from_source: T
+
+   Use the zip function to take the lists below and turn them into a list of tuples, with all the first items in the first tuple, etc.
+   ~~~~
+
+   L1 = [1, 2, 3, 4]
+   L2 = [4, 3, 2, 3]
+   L3 = [0, 5, 0, 5]
+
+   tups = []
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(tups, [(1, 4, 0), (2, 3, 5), (3, 2, 0), (4, 3, 5)], "Testing whether tups has been correctly defined.")
+           self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+           self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+           self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+           self.assertIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

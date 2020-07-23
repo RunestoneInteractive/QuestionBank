@@ -1,0 +1,16 @@
+
+    :author: Erdogan Dogdu
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Exceptions/Exercises
+    :from_source: F
+
+.. activecode:: asu_cs_except_q1
+
+    Add a try/except block to the following code so that the program does not stop with an error.
+
+    ~~~~
+    data = input('Enter your age:')
+    print('You will be', int(data)+10, 'years old in 10 years.')
+    ====
+    pass

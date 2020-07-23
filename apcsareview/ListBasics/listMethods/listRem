@@ -1,0 +1,22 @@
+.. activecode:: listRem
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: ListBasics/listMethods
+   :from_source: T
+   :language: java
+
+   import java.util.*;  // import all classes in this package.
+   public class Test
+   {
+      public static void main(String[] arts)
+      {
+         List list1 = new ArrayList();
+         list1.add(new Integer(1));
+         list1.add(new Integer(2));
+         list1.add(new Integer(3));
+         System.out.println(list1);
+         list1.remove(1);
+         System.out.println(list1);
+      }
+   }

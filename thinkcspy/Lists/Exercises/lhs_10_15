@@ -1,0 +1,54 @@
+
+    :author: LHS CS Team
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: lhs_10_15
+    :language: python
+    :autograde: unittest
+
+    Write a function called ``find_mode( statsData )`` That takes a list of integers 
+    named ``statsData`` and finds the mode or modes and returns them in a new list.
+    Recall that the mode of a set of data values is the value or values that appears
+    most often. To find the modes(s), the input list is analyzed and transferred into a
+    smaller list ``smallList`` with a  size of ``0..max(statsData)``. For each occurrence of
+    ``n`` in the list ``data``,  ``smallList[n]`` is incremented +1. ``find_max_index(l_in)``
+    is then called to find the indices of the largest value(s) in ``smallList``. The mode(s)
+    is/are returned in a list.
+
+
+    ~~~~
+    
+    def find_max_index(l_in):
+        # your code from previous problem here
+
+    def find_mode( statsData ):
+        # your code here
+
+    def main():
+        #write any test cases here
+    
+    if __name__ == "__main__":
+        main()
+
+    ====
+    
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            l_in = []
+            l_out = find_mode(l_in)
+            self.assertEqual(l_out, None, "Tested [] ")
+            l_in = [2, 5, 4, 2, 95, 23, 2, 18, 99, 4, 99, 34, 17, 99, 11]
+            l_out = find_mode(l_in)
+            self.assertEqual(l_out, [2, 99], "Tested [2, 5, 4, 2, 95, 23, 2, 18, 99, 4, 99, 34, 17, 99, 11] ")
+            l_in = [10, 10, 10, 10, 10, 10, 10, 10]
+            l_out = find_mode(l_in)
+            self.assertEqual(l_out, [10], "Tested [10, 10, 10, 10, 10, 10, 10, 10]")
+            l_in = [1, 2, 3, 4, 5, 6, 7, 8]
+            l_out = find_mode(l_in)
+            self.assertEqual(l_out, [1, 2, 3, 4, 5, 6, 7, 8], "Tested [1, 2, 3, 4, 5, 6, 7, 8]" )
+
+    myTests().main()

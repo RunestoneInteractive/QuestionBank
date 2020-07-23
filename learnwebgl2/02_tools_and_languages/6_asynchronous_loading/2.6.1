@@ -1,0 +1,25 @@
+.. mchoice:: 2.6.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 02_tools_and_languages/6_asynchronous_loading
+  :from_source: T
+  :random:
+  :answer_a: unknown!
+  :answer_b: in the order they are specified: glpoint4.js, glvector3.js, glmatrix4x4.js, and then obj_to_arrays.js
+  :answer_c: in reverse order to what they are specified: obj_to_arrays.js, glmatrix4x4.js, glvector3.js, and then glpoint4.js.
+  :answer_d: an order based on their code dependencies.
+  :correct: a
+  :feedback_a: Correct. The files could be retrieved in any order.
+  :feedback_b: Incorrect, though they might be downloaded in this order.
+  :feedback_c: Incorrect, though they might be downloaded in this order.
+  :feedback_d: Incorrect, because JavaScript does not currently support code dependencies.
+
+  Since browsers perform asynchronous file downloading, what order will these files be retrieved from the server?
+
+  .. Code-block:: html
+
+      <script src="../learn_webgl/glpoint4.js"></script>
+      <script src="../learn_webgl/glvector3.js"></script>
+      <script src="../learn_webgl/glmatrix4x4.js"></script>
+      <script src="../learn_webgl/obj_to_arrays.js"></script>

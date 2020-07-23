@@ -1,0 +1,33 @@
+.. parsonsprob:: ch3ex7muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: VariableBasics/VariablePracticeParsons
+   :from_source: T
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The main method in the following class should calculate how many miles you can go on half a tank of gas if the miles per gallon is 26 and your tank holds 15 gallons. But, the blocks have been mixed up and may include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public class Test1
+   {
+   =====
+       public static void main(String[] args)
+   =====
+       {
+   =====
+           int mpg = 26;
+           int tankHolds = 15;
+   =====
+           double numGalls = tankHolds / 2;
+   =====
+           double miles = numGalls * mpg;
+   =====
+           System.out.println(miles);
+   =====
+       }
+   =====
+   }
+   =====
+       public static main(String[] args) #distractor

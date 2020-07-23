@@ -1,0 +1,10 @@
+.. actex:: ex_2_8
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: SimplePythonData/Exercises
+   :from_source: None
+
+   Write a program that will compute the area of a circle.  Prompt the user to enter the radius and print a nice message
+   back to the user with the answer.
+   ~~~~

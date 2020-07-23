@@ -1,0 +1,24 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: lhs_sample_activecode
+    :language: python
+
+    Write a program that prints out "Hello World!"
+    ~~~~
+    # your code here
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertIn('Hello World!', self.getOutput())
+
+        def testTwo(self):
+            self.assertIn('print', self.getEditorText())
+
+    myTests().main()

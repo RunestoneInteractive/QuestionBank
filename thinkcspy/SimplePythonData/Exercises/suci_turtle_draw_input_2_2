@@ -1,0 +1,11 @@
+
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. actex:: suci_turtle_draw_input_2_2
+
+   Prompt for the user for a pen color and a fill color. Have turtle draw a square with those colors.
+   ~~~~
+   # put code here 

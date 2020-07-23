@@ -1,0 +1,26 @@
+.. mchoice:: mc-ex-4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: authorguide
+   :topic: directives/choice
+   :from_source: T
+   :multiple_answers:
+   :random:
+
+   Which of these are valid variable names in Python? (Choose all that are correct)
+
+   - xyZ
+
+     + Any combination of letters is a valid variable name in Python.
+
+   - new_var 3
+
+     - Variable names may not contain spaces in Python.
+
+   - 3things
+
+     - Variable names can't begin with digits in Python.
+
+   - hello-there
+
+     - Hyphens and dashes are not acceptable characters to include in variable names in Python.

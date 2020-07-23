@@ -1,0 +1,13 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: Troy4.8c_2018
+
+    Lesson 6B.   In Assignment 6, you read section 4.8 and learned about 
+    Turtle Stamping.   We will practice a bit in the code window.  
+    ~~~~
+    # Using TURTLE STAMPS 
+    

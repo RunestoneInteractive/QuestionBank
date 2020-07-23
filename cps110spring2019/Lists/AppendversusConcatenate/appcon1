@@ -1,0 +1,12 @@
+.. codelens:: appcon1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Lists/AppendversusConcatenate
+    :from_source: None
+
+    origlist = [45, 32, 88]
+
+    origlist.append("cat")
+
+

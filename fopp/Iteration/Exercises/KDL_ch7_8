@@ -1,0 +1,26 @@
+.. activecode:: KDL_ch7_8
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   Ask the user for a integer ``i``. Use a for loop to find i*i*i*i (aka :math:`{i}^{4}`) and save this to the variable ``g``.
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertTrue('for ' in self.getEditorText(), 'Contains for loop')
+           self.assertTrue('input(' in self.getEditorText(), 'Contains input')
+           self.assertTrue('i*i*i*i' not in self.getEditorText(), "Checking for hardcoding")
+           self.assertTrue('i**4' not in self.getEditorText(), "Checking for hardcoding")
+           self.assertTrue('i*i*i*i' not in self.getEditorText(), "Checking for hardcoding")
+           self.assertTrue(g==(int(i))**4, "Checking for correct answer")
+   myTests().main()   

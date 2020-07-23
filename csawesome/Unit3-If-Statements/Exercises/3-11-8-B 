@@ -1,0 +1,31 @@
+.. mchoice:: 3-11-8-B 
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: II and III only
+   :answer_e: I, II, and III
+   :correct: b
+
+   At a certain high school students receive letter grade based on the following scale: 90 or above is an A, 80-89 is a B, 70-79 is a C and below 70 is an F. Which of the following code segments will assign the correct string to grade for a given integer score?
+
+   .. code-block:: java
+
+    I.   if (score > 90) grade = “A”;
+         if (score > 80 && score < 90) grade = “B”;
+         if (score > 70 && score < 80) grade = “C”;
+         if (score < 70) grade = “F”;
+
+    II.  if (score > 89) grade = “A”;
+         else if (score > 79) grade = “B”;
+         else if (score > 69) grade = “C”;
+         else (score < 70) grade = “F”;
+
+    III. if (score > 90) grade = “A”;
+         else if (score > 80) grade = “B”;
+         else if (score > 70) grade = “C”;
+         else (score < 70) grade = “F”;

@@ -1,0 +1,16 @@
+.. fillintheblank:: question15_2_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter15/Streams
+    :from_source: T
+
+    You create an |blank| object to write data to a file, and a |blank| object to read data from a file.
+    In order to define objects to input from a file or send output to a file, you must include the ``<`` |blank| ``>`` header file.
+
+    - :(?:o|O)(?:f|F)(?:s|S)(?:t|T)(?:r|R)(?:e|E)(?:a|A)(?:m|M): Correct!
+      :x: Incorrect! Try re-reading!
+    - :(?:i|I)(?:f|F)(?:s|S)(?:t|T)(?:r|R)(?:e|E)(?:a|A)(?:m|M): Correct!
+      :.*: Incorrect! Try re-reading!
+    - :(?:f|F)(?:s|S)(?:t|T)(?:r|R)(?:e|E)(?:a|A)(?:m|M): Correct!
+      :.*: Incorrect! Try re-reading!

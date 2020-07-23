@@ -1,0 +1,26 @@
+.. activecode:: the_while_statement_AC_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter6/the_while_statement
+  :from_source: T
+  :language: cpp
+  :caption: Multiple assignment
+
+  Try running the active code below! Afterwards, try changing 9 to a different
+  integer to see how the function works!
+  ~~~~
+  #include <iostream>
+  using namespace std;
+
+  void countdown (int n) {
+      while (n > 0) {
+          cout << n << endl;
+          n = n-1;
+      }
+      cout << "Blastoff!" << endl;
+  }
+
+  int main() {
+      countdown (9);
+  }

@@ -1,0 +1,25 @@
+.. parsonsprob:: point_objects_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter8/point_objects
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Construct a block of code that correctly creates variables of a certain structure's type.
+   -----
+   struct Point {
+
+      double x, y;
+
+   };
+
+   int main() {
+
+      Point blue;
+
+      blue.x = 3.0;
+
+      Point.x = 3.0; #distractor
+   }

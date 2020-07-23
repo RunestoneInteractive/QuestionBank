@@ -1,0 +1,33 @@
+.. actex:: S1_P4
+   :author: Neil Kakhandiki
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Define a function that tells you (prints) what coins and dollars to
+   use when buying something (the user has 20 dollar bills, 10,
+   5, 1, quarters, dimes, nickels, and pennies)
+
+   For example:
+
+   You have to pay 10 dollars and 56 cents
+
+   20 dollar(s): 0
+
+   10 dollar(s): 1
+
+   5 dollar(s): 0
+
+   1 dollar(s): 0
+
+   quarter(s): 2
+
+   dime(s): 0
+
+   nickel(s): 1
+
+   penny(s): 1
+   ~~~~
+
+   def payMoney(dollars, cents):

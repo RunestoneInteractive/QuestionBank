@@ -1,0 +1,62 @@
+.. activecode:: functions_AC_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter6/functions
+  :from_source: T
+  :language: cpp
+  :caption: Two-dimensional tables
+
+  #include <iostream>
+  using namespace std;
+
+  int main() {
+      int x = 4;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 13;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 100;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 22;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 220;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 0;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 1000;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+      x = 254;
+      x = x * 2;
+      x = x / 2;
+      x = x + 2;
+      x = x - 2;
+      cout << x << endl;
+  }

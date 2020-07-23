@@ -1,0 +1,16 @@
+.. fillintheblank:: fitb-ex3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: authorguide
+  :topic: directives/fitb
+  :from_source: T
+
+  What value is returned from main?
+
+  - :4: Correct.
+    :7: No, because the variable a is always modified in this program.
+    :99: No. Since a is greater than b, the code on line 6 is never executed.
+    :x: Sorry, no. What is happening in the else block?
+
+
+

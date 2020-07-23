@@ -1,0 +1,20 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: 1306_hw1_f19_q1
+   
+    [20 pts] 
+   
+    In the scenario of question 1 from Classwork-2, all quizzes and exams were scored out of a 100. Suppose, the quizzes are
+    scored out of 50 each, and mid term and final are still scored out of 100. Also, the total weights
+    should now be: quizzes 30%, mid term 30% and final 40%. Modify the program to reflect this
+    change?
+
+
+    ~~~~
+    # Write your program here
+
+  

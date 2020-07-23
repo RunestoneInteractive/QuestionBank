@@ -1,0 +1,11 @@
+.. actex:: ex_rec_8
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+   :nocodelens:
+
+   Using the turtle graphics module, write a recursive program to
+   display a Koch snowflake.
+   ~~~~

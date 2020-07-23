@@ -1,0 +1,18 @@
+.. mchoice:: 2-13-2B-GREA
+   :author: Adam Gregson
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: 16
+   :answer_b: 15
+   :answer_c: 7
+   :answer_d: 6
+   :correct: c
+
+   What is the value of len after the following executes?
+
+   .. code-block:: java
+
+    String s1 = " Hello, world ! ";
+    int len = s1.substring(0,7).length();

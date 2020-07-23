@@ -1,0 +1,26 @@
+.. mchoice:: qtnt1_19
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Tests/test1nt
+   :from_source: T
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and III
+   :answer_e: II and III
+   :correct: e
+   :feedback_a: Merge sort often uses a temporary array when merging arrays, which means it actually uses more storage space than insertion sort.
+   :feedback_b: Insertion sort is more efficient for a small array because merge sort has extra overhead from the recursive function calls that cause it to take longer.
+   :feedback_c: Merge sort uses the "divide and conquer" approach to sort an array. This will end up being more efficient than insertion sort in the case where we have a long unordered array.
+   :feedback_d: Statement III is true but statement I is false since mergesort often utilizes a temporary array and will actually require more storage space than insertion sort.
+   :feedback_e: Merge sort uses the "divide and conquer" approach to sort an array. This will end up being more efficient than insertion sort in the case where we have long unordered array. However if we have a very small almost sorted array, then insertion sort will outperform merge sort.
+
+
+   Which of the following is/are true about using insertion sort versus using merge sort?
+
+   .. code-block:: java
+
+      I. Insertion sort requires more storage space than mergesort.
+      II. Insertion sort is only more efficient than mergesort in the case that we have a very small and nearly sorted array.
+      III. Insertion sort is almost always less efficient than mergesort.

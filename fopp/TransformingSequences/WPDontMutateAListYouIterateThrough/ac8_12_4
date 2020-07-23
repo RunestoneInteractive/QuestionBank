@@ -1,0 +1,14 @@
+.. activecode:: ac8_12_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: TransformingSequences/WPDontMutateAListYouIterateThrough
+    :from_source: T
+
+    colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
+
+    for color in colors:
+        if color[0] in ["A", "E", "I", "O", "U"]:
+            colors.append(color)
+
+    print(colors)

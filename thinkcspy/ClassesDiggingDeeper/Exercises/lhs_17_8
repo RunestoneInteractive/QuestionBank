@@ -1,0 +1,88 @@
+.. activecode:: lhs_17_8
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesDiggingDeeper/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a new method for the Fraction class called ``mixed()`` which **returns**
+    a string that writes out the Fraction in mixed number form.
+
+    Here are some examples
+
+    ``print(Fraction(1, 2).mixed())`` should return "1/2"
+
+    ``print(Fraction(3, 2).mixed())`` should return "1 and 1/2"
+
+    ``print(Fraction(5, 1).mixed())`` should return "5"
+
+    ~~~~
+    import test
+    
+    def gcd(m, n):
+        while m % n != 0:
+            oldm = m
+            oldn = n
+    
+            m = oldn
+            n = oldm % oldn
+    
+        return n
+    
+    class Fraction:
+    
+        def __init__(self, top, bottom):
+    
+            self.num = top        # the numerator is on top
+            self.den = bottom     # the denominator is on the bottom
+    
+        def __str__(self):
+            return str(self.num) + "/" + str(self.den)
+    
+        def simplify(self):
+            common = gcd(self.num, self.den)
+    
+            self.num = self.num // common
+            self.den = self.den // common
+    
+        def __add__(self,otherfraction):
+    
+            newnum = self.num*otherfraction.den + self.den*otherfraction.num
+            newden = self.den * otherfraction.den
+            
+            f = Fraction(newnum, newden)
+            f.simplify()
+            return( f )
+    
+        # define a mixed() method
+        def ....
+    
+    # Make test cases here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+            
+            print("Auto-Testing...")
+            tests = [ ((5,8), "5/8"),
+                      ((7,2), "3 and 1/2"),
+                      ((-8, 2), "-4"),
+                      ((0, 2), "0")
+                     ]
+    
+            num=0
+            for (t) in tests:
+                print(t)
+                self.assertEqual((Fraction(t[0][0], t[0][1]).mixed()), t[1], 'test case ' + str(num))
+                num += 1
+
+    myTests().main()

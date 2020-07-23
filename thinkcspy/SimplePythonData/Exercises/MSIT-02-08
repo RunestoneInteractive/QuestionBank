@@ -1,0 +1,21 @@
+.. mchoice:: MSIT-02-08
+   :author: Kevin Austin
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :multiple_answers:
+   :random:
+   :answer_a: Ingot
+   :feedback_a: Alphabetic characters are fine.
+   :answer_b: Ing0t
+   :feedback_b: Numeral can be anywhere except first position.
+   :answer_c: 1ngot
+   :feedback_c: Variable names can't begin with a numeric character
+   :answer_d: In-got
+   :feedback_d: Hyphens and dashes are not acceptable.
+   :answer_e: In_got
+   :feedback_e: Underscore is fine in a variable name.
+   :correct: a, b, e
+
+   Which of these are valid variable names in Python? (Choose all that are correct)

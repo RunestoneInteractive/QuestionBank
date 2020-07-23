@@ -1,0 +1,17 @@
+
+    :author: DANIEL LEE
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: turtle_5
+
+    Describe, in your own words, the execution of the following for loop:
+ 
+    for letter in ['a', 'b', 'c', 'd', 'e', 'f', 'g']:
+
+         	print letter
+
+    ~~~~
+    
+    

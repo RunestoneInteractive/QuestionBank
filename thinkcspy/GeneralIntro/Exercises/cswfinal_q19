@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_q19
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: slower access to stored data
+   :answer_b: damage to the random access memory (RAM)
+   :answer_c: loss of data
+   :answer_d: faster storage of data
+   :correct: a
+   :random:
+
+   19. When using hashing to store data, a collision results in

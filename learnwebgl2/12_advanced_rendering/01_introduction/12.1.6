@@ -1,0 +1,28 @@
+.. mchoice:: 12.1.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 12_advanced_rendering/01_introduction
+  :from_source: T
+  :random:
+
+  Which of the following is true concerning *double buffering*? (Select all that apply.)
+
+  - The incremental changes to a *color buffer* are never visible to a user.
+
+    + Correct. The *offscreen* buffer is never copied to the *onscreen* buffer until a rendering
+      is finished.
+
+  - A rendering process that draws graphic primitives using :code:`gl.drawArrays()` can never
+    directly change the *onscreen* buffers.
+
+    + Correct. Rendering always changes the default *rendering target* which is the *offscreen* buffers.
+
+  - Double buffering is automatically set up and enabled by WebGL.
+
+    + Correct. No commands are required to enable double buffering and no commands are required
+      to switch buffers after rendering.
+
+  - Double buffering is an excellent feature but it slows down rendering.
+
+    - Incorrect. Double buffering has no impact on rendering speed.

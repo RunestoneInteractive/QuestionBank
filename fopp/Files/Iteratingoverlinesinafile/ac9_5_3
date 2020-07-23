@@ -1,0 +1,26 @@
+.. activecode:: ac9_5_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Files/Iteratingoverlinesinafile
+   :from_source: T
+   :available_files: emotion_words.txt
+   :language: python
+   :nocodelens:
+   :autograde: unittest
+   :practice: T
+
+   1. Write code to find out how many lines are in the file ``emotion_words.txt`` as shown above. Save this value to the variable ``num_lines``. Do not use the len method.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(num_lines, 7, "Testing that num_lines was assigned to the correct value.")
+         self.assertNotIn('len', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

@@ -1,0 +1,11 @@
+.. actex:: ex_rec_5
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+
+   Write a recursive function to compute the Fibonacci sequence. How
+   does the performance of the recursive function compare to that of an
+   iterative version?
+   ~~~~

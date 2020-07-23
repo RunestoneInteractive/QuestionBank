@@ -1,0 +1,29 @@
+
+    :author: Shawn Haarer
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: Troy2018_4.3B
+  
+    Complete the Four Square assignment.  
+    
+    This is described in detail in Google Classroom
+    
+    Overview of the Assignment 3B
+    
+    Create a turtle which you will use to draw four squares in different 
+    locations and colors on the screen.  
+
+    After drawing the first couple squares, you must input the color of the 
+    third and fourth square from the user.  
+   
+    Finally, input a new background color.  
+
+    ~~~~
+     
+    # Turtle Four Square Program by ....... type your name here
+
+    import turtle
+
+    

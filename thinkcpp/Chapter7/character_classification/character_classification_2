@@ -1,0 +1,35 @@
+.. parsonsprob:: character_classification_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter7/character_classification
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   Let's write the code for the ``stringToLower`` function. ``stringToLower``
+   should convert a string to lowercase.
+   -----
+   void stringToLower (string &input) {
+   =====
+   void stringToLower (string input) {                         #paired
+   =====
+      int i = 0;
+   =====
+      while (i < input.length()) {
+   =====
+      while (i > input.length()) {  #paired
+   =====
+         if (isalpha(input[i]) && isupper(input[i])) {
+   =====
+         if (isalpha(input[i]) || isupper(input[i])) {                        #paired
+   =====
+            input[i] = tolower(input[i]);
+         }
+   =====
+            input[i] = tolower(input[0]);                        #paired
+         }
+   =====
+         i++;
+      }
+   }

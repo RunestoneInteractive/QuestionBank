@@ -1,0 +1,40 @@
+.. activecode:: sks_cw4_ex5
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [40 pts] Write a program to simulate the growth and fall of leaves on a tree.  At an initial point, the tree 
+   has ``n`` number of leaves.  The tree will lose ``f%`` of its leaves each month (rounded off to the next integer) 
+   and will also sprout ``l`` new leaves each month.  Please note that ``f`` is a percentage of leaves on the 
+   tree while ``l`` is an integer.  The value of ``f`` should be less than 50% and the value of ``l`` should be no more 
+   then 10% of the starting number of leaves ``n``. Your program should request the values of ``n``, ``f``, and ``l`` from 
+   the user and calculate the number of months it takes for the tree to have no more than 25% of leaves left.  
+   By the end of 5 years, if the tree has more than 25% of its leaves, your program should report the number of leaves
+   on the tree.
+
+   Below is a sample run of how the program should proceed:
+
+   ::
+
+     How many leaves does the tree have? 1000
+     What is the monthly rate (in percentage) at which leaves fall from this tree? 40
+     How many new leaves sprout on this tree each month? 100
+
+     It took 13 months for the tree to lose at least 75% of its leaves.
+     The number of leaves left on the tree are 250.
+
+   Below is another sample run of how the program should proceed:
+
+   ::
+
+     How many leaves does the tree have? 5000
+     What is the monthly rate (in percentage) at which leaves fall from this tree? 30
+     How many new leaves sprout on this tree each month? 500
+
+     Number of leaves on the tree after 5 years is 1666.
+   ~~~~
+   # Write your code here
+
+   ====

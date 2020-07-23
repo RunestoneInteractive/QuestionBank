@@ -1,0 +1,23 @@
+.. codelens:: cl_sel1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :topic: Selection/Nestedconditionals
+    :from_source: None
+    :showoutput:
+    :question: What line will be executed after the line with the red arrow?
+    :breakline: 4
+    :feedback: Look at the condition.
+    :correct: line
+
+    x = 10
+    y = 10
+
+    if x < y:
+        print("x is less than y")
+    else:
+        if x > y:
+            print("x is greater than y")
+        else:
+            print("x and y must be equal")
+

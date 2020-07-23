@@ -1,0 +1,19 @@
+
+    :author: Kuri DiFede
+    :difficulty: 1.0
+    :basecourse: csawesome
+    :topic: Unit1-Getting-Started/Exercises
+    :from_source: F
+.. dragndrop:: KD_01_01
+    :feedback: Review chapter 1 variable types.
+    :match_1: integer|||whole number
+    :match_2: boolean|||true/false value
+    :match_3: double|||decimal number
+    :match_4: char|||letter
+
+    Match the variable type to the data it represents.
+
+config values (conf.py): 
+
+- dragndrop_div_class - custom CSS class of the component's outermost div
+    

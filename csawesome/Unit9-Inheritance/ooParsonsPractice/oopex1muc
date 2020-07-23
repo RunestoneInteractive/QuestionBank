@@ -1,0 +1,21 @@
+.. parsonsprob:: oopex1muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit9-Inheritance/ooParsonsPractice
+   :from_source: F
+   :adaptive:
+   :noindent:
+
+   The following program segment should create an abstract class with an abstract method walk(). But, the blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public abstract class Dog {
+   =====
+   public class Dog abstract { #distractor
+   =====
+           public abstract void walk();
+   =====
+           public void walk(); #distractor
+   =====
+   } // end class
+

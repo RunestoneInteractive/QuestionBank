@@ -1,0 +1,39 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPWebData/Exercises
+   :from_source: F
+.. parsonsprob:: json_list1
+   :adaptive:
+   :numbered: left
+
+   Put the blocks in order to import the libraries and then read JSON data from a file into a list of dictionaries.  If the length of the list is greater than 0 then loop through the  list of dictionaries and print the first name and email for each entry.  There are three extra blocks that are not needed in a correct solution.
+   -----
+   import json
+   import os
+   =====
+   try:
+       file = open('email.json', 'r') 
+       contents = file.read()             
+       dict_list = json.loads(contents)    
+       file.close()    
+   =====                     
+   except:
+       print("error when reading from file")
+       dict_list = []
+   =====
+   if len(dict_list) > 0:
+   =====
+   if len(dict_list) == 0: #distractor
+   =====
+       for dict in dict_list:
+   =====
+           print("First: %s " % dict.get("first_name", None))
+   =====
+           print("First: %s " % dict[first_name] #distractor
+   =====
+           print("email: %s " % dict.get("email", None))
+   =====
+           print("email: %s " % dict[email] #distractor
+ 

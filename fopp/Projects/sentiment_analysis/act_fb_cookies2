@@ -1,0 +1,14 @@
+.. fillintheblank:: act_fb_cookies2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Projects/sentiment_analysis
+    :from_source: T
+
+    Now lets add a third kind of cookie to both bowls.  Suppose we had a bunch of Fig Newtons. 20 of them in Bow1 and 30 of them in Bowl2 and we have the following series of draws:  Oreo, Fig Newton, Fig Newton, Chips Ahoy, Oreo.  What are the new scores for Bowl1 |blank| and Bowl2 |Blank| ?
+
+    - :1: Is Correct
+      :x: Incorrect
+
+    - :1: Is Correct
+      :x: Is incorrect

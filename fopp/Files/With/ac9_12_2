@@ -1,0 +1,14 @@
+.. activecode:: ac9_12_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Files/With
+   :from_source: T
+   :nocodelens:
+   :available_files: mydata.txt
+
+   md = open('mydata.txt', 'r')
+   for line in md:
+       print(line)
+   md.close()
+   # continue with other code

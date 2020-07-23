@@ -1,0 +1,12 @@
+.. fillintheblank:: MSIT-02-05
+   :author: Kevin Austin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :casei:
+
+   Evaluate the expression: 4 * (2 + 3)**2 |blank|.
+
+   - :100: Yes.  Nicely done.
+     :x: No.  Think.  What gets computed first?  Check operator precedence.  The answer is a number.

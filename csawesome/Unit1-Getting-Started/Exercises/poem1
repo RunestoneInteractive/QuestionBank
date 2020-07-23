@@ -1,0 +1,18 @@
+
+   :author: Kevin Clevenger
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+.. activecode:: poem1
+   :language: java
+
+    //Write a Java program that prints the message, "Roses are red". 
+    //Compile and run your program. When it works correctly, modify it so
+    //that it prints the entire poem: 
+
+    //Roses are red
+    //Violets are blue
+    //Sugar is sweet
+    //And so are you!
+    //~~~~

@@ -1,0 +1,31 @@
+.. mchoice:: e25_3_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a: negative neither positive
+   :answer_b: positive
+   :answer_c: negative positive
+   :answer_d: Nothing will print
+   :correct: a
+   :feedback_a: Correct. The loop iterates through the three integers in 'numbers' and displays the proper strings when the IF statements are true.
+   :feedback_b: Incorrect. 'Positive' is displayed for the final item in the list, but there are two other items in the list.
+   :feedback_c: Incorrect. This does not account for the 0 in the list.
+   :feedback_d: Incorrect. The if and else clauses are satisfied in this code, so there would be an output.
+
+   Refer to the following code:
+
+   ::
+
+     numbers ← [-1,0,1]
+     FOR EACH item IN numbers:
+     IF item > 0:
+       DISPLAY("positive")
+     ELIF item < 0:
+       DISPLAY(“negative”)
+     ELSE:
+       DISPLAY(“neither”)
+
+   What will print when this code is run?
+

@@ -1,0 +1,25 @@
+.. mchoice:: sks_q1_ex2
+   :author: Shishir Shah
+   :difficulty: 4.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: 11
+   :answer_b: 7
+   :answer_c: 14
+   :answer_d: 9
+   :answer_e: Undefined/Error
+   :correct: f
+   :random:
+   :feedback_a: Thank you.  Your answer has been noted.
+   :feedback_b: Thank you.  Your answer has been noted.
+   :feedback_c: Thank you.  Your answer has been noted.
+   :feedback_d: Thank you.  Your answer has been noted.
+   :feedback_e: Thank you.  Your answer has been noted.
+
+
+   [2 pts]. What is the value of x after executing the following code?::
+
+      x = 7
+      x = x + 3
+      x = x + 1

@@ -1,0 +1,12 @@
+.. actex:: ex_7_12
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Modify the previous turtle walk program so that the turtle turns around
+   when it hits the wall or when one turtle collides with another turtle
+   (when the positions of the two turtles are closer than some small number).
+   ~~~~

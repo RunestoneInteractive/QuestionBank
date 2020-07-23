@@ -1,0 +1,11 @@
+.. dragndrop:: chapter_four_glossary_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter4/Glossary
+   :from_source: T
+   :feedback: Try again!
+   :match_1: modulus|||An operator that works on integers and yields the remainder when one number is divided by another.
+   :match_2: chaining|||A way of joining several conditional statements in sequence.
+   :match_3: nesting|||Putting a conditional statement inside one or both branches of another conditional statement.
+

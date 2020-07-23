@@ -1,0 +1,44 @@
+.. activecode:: lcsm2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-7-string-methods
+   :from_source: T
+   :language: java
+   :autograde: unittest
+
+   Run the code to see how the String methods equals and compareTo work. Is equals case-sensitive? When does compareTo return a negative number?
+   ~~~~
+   public class Test2
+   {
+      public static void main(String[] args)
+      {
+        String message = "Hello!";
+
+        System.out.println(message.compareTo("Hello there"));
+        System.out.println(message.compareTo("Hello!"));
+        System.out.println(message.compareTo("And"));
+        System.out.println(message.compareTo("Zoo"));
+
+        System.out.println(message.equals("Hello!"));
+        System.out.println(message.equals("hello!"));
+      }
+   }
+   ====
+   import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "1\n0\n7\n-18\ntrue\nfalse";
+            boolean passed = getResults(expect, output, "Expected output from main", true);
+            assertTrue(passed);
+        }
+    }
+
+

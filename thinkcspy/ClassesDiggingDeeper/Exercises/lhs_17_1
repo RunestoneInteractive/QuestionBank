@@ -1,0 +1,69 @@
+.. activecode:: lhs_17_1
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesDiggingDeeper/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Add the following accessor methods to the Rectangle class: ``getWidth``, ``getHeight``, ``__str__``.
+    The ``__str__`` methods output should be as follows:   ::
+
+       >>> print(Rectangle(Point(2, 3), 6, 5))
+       >>> ((2, 3), 6, 5)
+    ~~~~
+    import math
+
+    class Point:
+        """ Point class for representing and manipulating x,y coordinates. """
+
+        def __init__(self, initX, initY):
+
+            self.x = initX
+            self.y = initY
+
+        def getX(self):
+            return self.x
+
+        def getY(self):
+            return self.y
+
+        def __str__(self):
+            return "x=" + str(self.x) + ", y=" + str(self.y)
+
+
+    class Rectangle:
+        """Rectangle class using Point, width and height"""
+
+        def __init__(self, initP, initW, initH):
+
+            self.location = initP
+            self.width = initW
+            self.height = initH
+
+    # define any test code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+        
+        def testOne(self):
+            
+            llCorner = Point(4, 5)
+            w = 6
+            h = 5
+    
+            r = Rectangle(llCorner, w, h)
+            self.assertEqual(r.getWidth(), w, 'testing getWidth()' )
+            self.assertEqual(r.getHeight(), h, 'testing getHeight()' )
+            self.assertEqual(r.__str__(), "((4, 5), 6, 5)", 'testing __str__()' )
+    
+    myTests().main()

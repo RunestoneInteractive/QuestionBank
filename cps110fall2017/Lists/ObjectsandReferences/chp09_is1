@@ -1,0 +1,11 @@
+.. activecode:: chp09_is1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Lists/ObjectsandReferences
+    :from_source: None
+
+    a = "banana"
+    b = "banana"
+
+    print(a is b)

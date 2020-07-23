@@ -1,0 +1,15 @@
+
+    :author: Brad Miller
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Debugging/Exercises
+    :from_source: F
+.. activecode:: ac101_sample1
+
+    Write a function to add together its two arguments 
+    ~~~~
+    # your code here
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+
+   

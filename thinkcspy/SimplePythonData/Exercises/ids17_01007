@@ -1,0 +1,29 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: ids17_01007
+   
+
+    3.9(劉邦鋒，由片語學習C程式設計) 寫一個程式讀入三個整數，分別為一個長方體的高度、寬度和深度。計算並輸出其表面積及體積。
+
+    輸入：
+    
+    3
+
+    4
+
+    5
+
+    輸出：
+
+    94
+
+    60
+    ~~~~
+    
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+    

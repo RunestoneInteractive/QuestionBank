@@ -1,0 +1,12 @@
+.. activecode:: ch04_5
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Functions/Functionsthatreturnvalues
+    :from_source: T
+    :nocanvas:
+
+    import math
+    print(math.pow(2, 3))
+
+    print(math.pow(7, 4))

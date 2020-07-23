@@ -1,0 +1,11 @@
+.. actex:: ex_5_12
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Write a function called drawSprite that will draw a sprite.  The function will need parameters for
+   the turtle, the number of legs, and the length of the legs.  Invoke the function to create a sprite
+   with 15 legs of length 120.
+   ~~~~

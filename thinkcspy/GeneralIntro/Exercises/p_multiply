@@ -1,0 +1,18 @@
+
+    :author: Lily Liang
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: p_multiply
+    :language: python
+    :nocodelens:
+
+    Print out "Hi, my name is -", replacing the "-" with your name. 
+    ~~~~
+    # Hint: Use the "print()" function!
+
+
+    ====
+
+

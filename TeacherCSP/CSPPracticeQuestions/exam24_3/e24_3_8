@@ -1,0 +1,22 @@
+.. mchoice:: e24_3_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPPracticeQuestions/exam24_3
+   :from_source: T
+   :answer_a: I, IV
+   :answer_b: I, III, IV
+   :answer_c: II, III
+   :answer_d: I, II, III, IV
+   :correct: d
+   :feedback_a: Incorrect. SMS and Email have also increased the availability of distant communication and collaboration.
+   :feedback_b: Incorrect. SMS has also increased the availability of distant communication and collaboration.
+   :feedback_c: Incorrect. Social Media websites and Video Conferencing have also increased the availability of distant communication and collaboration.
+   :feedback_d: Correct. All of these utilities have increased the availability of distant communication and collaboration.
+
+   Which of the following have increased the availability of communication and collaboration between people at a distance?
+
+    | I. Social Media
+    | II. SMS
+    | III. Email
+    | IV. Video Conferencing

@@ -1,0 +1,32 @@
+.. activecode:: c2p
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :topic: ClassesDiggingDeeper/Sameness
+    :from_source: None
+
+    def sameRational(f1, f2):
+        return f1.num * f2.den == f2.num * f1.den
+
+    class Fraction:
+        def __init__(self, top, bottom):
+            self.__num = top        # the numerator is on top
+            self.__den = bottom     # the denominator is on the bottom
+
+        def __str__(self):
+            return '{}/{}'.format(self.__num, self.__den)
+
+        @property
+        def num(self):
+            return self.__num
+
+        @property
+        def den(self):
+            return self.__den
+
+    myfraction = Fraction(3, 4)
+    yourfraction = Fraction(3, 4)
+    print(myfraction is yourfraction)
+    print(sameRational(myfraction, yourfraction))
+    notInLowestTerms = Fraction(15, 20)
+    print(sameRational(myfraction, notInLowestTerms))

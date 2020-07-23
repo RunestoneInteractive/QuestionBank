@@ -1,0 +1,11 @@
+.. fillintheblank:: p-regex3
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+
+   Enter a string that matches the following regular expression: "10*1". 
+
+   -    :10*1: Correct.  This will match 1 followed by zero to many 0s and then a 1.
+        :.*: No match, try again. 

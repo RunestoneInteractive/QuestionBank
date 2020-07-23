@@ -1,0 +1,31 @@
+.. parsonsprob:: 31c
+    :author: Renske Weeda
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [31c] Het volgende programma moet de getallen 0 tot 10 bij elkaar optellen. Maar de blokken staan in de verkeerde volgorde. Sleep de benodigde code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    teller = 0
+    totaal = 0
+    =====
+    while teller < 10:
+    =====
+    while teller <= 10: #paired
+    =====
+        totaal += teller
+    =====
+        teller += totaal #paired
+    =====
+        teller += 1
+    =====
+        totaal += 1 #paired
+    =====
+    print(totaal)
+    =====
+    print(teller) #paired
+
+config values (conf.py):
+- parsons_div_class - custom CSS class of the component's outermost div

@@ -1,0 +1,52 @@
+.. activecode:: lhs_10_8
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``scalar_mult(s, v)`` that takes a number, s, and a list of numbers,
+    v,  and returns a **new** list with the scalar multiple of v by s. The original list v
+    should not be changed.
+
+    So, for example ``[1, 2, 3] * 6`` is ``[6, 12, 18]``
+
+    ~~~~
+    # My Name:
+
+    def scalar_mult(s, v):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _scalar_mult(self, s, v):
+            resultVec = []
+            for i in range(len(v)):
+                resultVec.append(s * v[i])
+            print(resultVec)
+            return resultVec
+    
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            v = [0, -2, -4.5, 6, 9]
+            test = [0, 3]
+            for n in test:  
+                self.assertEqual(scalar_mult(n, v), self._scalar_mult(n, v), "Times "+str(n))
+    
+            v = [5]
+            n = 6
+            self.assertEqual(scalar_mult(n, v), self._scalar_mult(n, v), "Times "+str(n))
+    
+    
+    myTests().main() 

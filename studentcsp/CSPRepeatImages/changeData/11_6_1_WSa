@@ -1,0 +1,35 @@
+.. activecode::  11_6_1_WSa
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :topic: CSPRepeatImages/changeData
+    :from_source: T
+    :nocodelens:
+
+    # USE THE IMAGE LIBRARY
+    from image import *
+
+    # PICK THE IMAGE
+    img = Image("vangogh.jpg")
+
+    # SELECT THE DATA
+    halfwayWidth = (int) (img.getWidth() / 2)
+    halfwayHeight = (int) (img.getHeight() / 2)
+    for x in range(halfwayWidth):
+        for y in range(halfwayHeight):
+
+            # GET THE DATA
+            p = img.getPixel(x, y)
+            r = p.getRed()
+            g = p.getGreen()
+            b = p.getBlue()
+
+            # CREATE THE COLOR
+            newPixel = Pixel(r, g, b)
+
+            # CHANGE THE PIXEL
+            img.setPixel(halfwayWidth + x, halfwayHeight + y, newPixel)
+
+    # SHOW THE RESULT
+    win = ImageWin(img.getWidth(),img.getHeight())
+    img.draw(win)

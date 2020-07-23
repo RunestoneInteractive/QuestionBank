@@ -1,0 +1,27 @@
+.. activecode:: 1306_cw2_f19_q1
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   [30 pts] Consider the following program::
+
+   
+      quiz1 = int(input('Enter Quiz 1 grade: '))
+      quiz2 = int(input('Enter Quiz 2 grade: '))
+      midterm = int(input('Enter Midterm grade: '))
+      final = int(input('Enter Final grade: '))
+      quiz_average = quiz1 + quiz2 / 2
+      total = quiz_average*0.25 + mid_term*0.25 + final*0.5
+      print('Your class grade is:', "total")
+
+   a)	What seems to be the purpose of the above program? `Please answer as comment at the beginning of the program.`
+
+   b)	Can you discover any errors? List any errors you discover. State if they are a syntax, runtime, or logic error.  `Please answer as comment immediately below the line where you discover an error.`
+
+   c)	Correct any errors you discover. Run the program and state the result for input scores: quiz 1 = 100, quiz2 = 60,  mid_term= 90, final = 70.  Verify by hand calculation if the result is correct.
+
+  
+   ~~~~
+   # Write your program here

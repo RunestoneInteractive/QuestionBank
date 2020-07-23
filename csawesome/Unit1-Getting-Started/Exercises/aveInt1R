@@ -1,0 +1,13 @@
+
+   :author: Gheorghe Ceara
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+.. activecode:: aveInt1R
+   :language: java
+   :stdin: : 5, 9, 8
+   
+   /* Write a program that 
+    declares three integers 5, 9, 8
+    and prints their average */

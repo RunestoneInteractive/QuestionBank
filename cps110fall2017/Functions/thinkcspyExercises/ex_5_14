@@ -1,0 +1,28 @@
+.. actex:: ex_5_14
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Write a function called ``mySqrt`` that will approximate the square root of a number, call it n, by using
+   Newton's algorithm.
+   Newton's approach is an iterative guessing algorithm where the initial guess is n/2 and each subsequent guess
+   is computed using   the formula:  newguess = (1/2) * (oldguess + (n/oldguess)).
+   ~~~~
+
+    def mySqrt(n):
+        # your code here
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertAlmostEqual(mySqrt(4.0),2.0,0,"Tested mySqrt on input 4.0")
+            self.assertAlmostEqual(mySqrt(9.0),3.0,4,"Tested accuracy of mySqrt on input 3.0")
+            self.assertAlmostEqual(mySqrt(36.0),6.0,5,"Tested accuracy of mySqrt on input 6.0")
+            self.assertAlmostEqual(mySqrt(100.0),10.0,4,"Tested accuracy of mySqrt on input 10.0. Try iterating more times.")
+
+    myTests().main()

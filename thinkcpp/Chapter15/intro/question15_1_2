@@ -1,0 +1,17 @@
+.. mchoice:: question15_1_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter15/intro
+   :from_source: T
+   :answer_a: a geometric shape
+   :answer_b: a two-dimensional vector
+   :answer_c: a material in which something develops
+   :answer_d: a mold used to shape things
+   :correct: b
+   :feedback_a: Incorrect! A matrix is not a geometric shape, although they ARE rectangles.
+   :feedback_b: Correct!
+   :feedback_c: Incorrect! This is a definition for matrix, but not in the programming sense.
+   :feedback_d: Incorrect! This is a definition for matrix, but not in the programming sense.
+
+   Based on how it is used to create the above table, what do you think a ``matrix`` is?

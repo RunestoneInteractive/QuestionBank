@@ -1,0 +1,13 @@
+
+   :author: Damon Ellingston
+   :difficulty: 4.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: hw15aDE
+
+   **Homework 15**
+  
+    A window opens with a color-filled square inside of it, similar to the dice drawing. A text box below the square reads "Click anywhere inside the square". Anywhere the user clicks, a white dot appears. Subsequently, every time the user clicks inside the square the old dot disappears and a new dot is drawn. Repeat this pattern until the user clicks outside the square, at which point the program terminates.
+   ~~~~
+    from graphics import *

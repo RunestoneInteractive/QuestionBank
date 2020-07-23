@@ -1,0 +1,30 @@
+.. activecode:: lst_change14cpp
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :topic: Recursion/DynamicProgramming
+   :from_source: T
+   :caption: Recursively Counting Coins with Table Lookup Python
+   :language: python
+   :optional:
+
+   #A different attempt at making the change algorithm.
+
+   def recDC(coinValueList, change, knownResults):
+      minCoins = change
+      if change in coinValueList: #base case
+          knownResults[change] = 1
+          return 1
+      elif knownResults[change] > 0: #base case
+          return knownResults[change]
+      else:
+          for i in [c for c in coinValueList if c <= change]:
+              numCoins = 1 + recDC(coinValueList, change - i, knownResults) #Recursive call.
+              if numCoins < minCoins:
+                  minCoins = numCoins
+                  knownResults[change] = minCoins
+          return minCoins
+
+   def main():
+        print(recDC([1, 5, 10, 21, 25], 63, [0]*64))
+   main()

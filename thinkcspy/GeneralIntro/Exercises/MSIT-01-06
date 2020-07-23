@@ -1,0 +1,13 @@
+.. fillintheblank:: MSIT-01-06
+   :author: Kevin Austin
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   A typical first program uses the |blank| function to display a message.
+
+   - :print: Correct!
+     :Print: Not quite.  Function names are case sensitive!
+     :PRINT: Not quite.  Function names are case sensitive!
+     :.*: incorrect.  Try again.

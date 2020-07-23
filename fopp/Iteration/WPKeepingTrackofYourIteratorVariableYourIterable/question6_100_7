@@ -1,0 +1,27 @@
+.. mchoice:: question6_100_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
+   :from_source: T
+   :answer_a: string
+   :answer_b: list
+   :answer_c: tuple
+   :answer_d: integer
+   :answer_e: error, unable to iterate and initialize the iterator variable
+   :feedback_a: Incorrect, think about what the for loop will look at first.
+   :feedback_b: Incorrect, that is the type of the iterable, not the iterator variable.
+   :feedback_c: Incorrect, there is no tuple in the code.
+   :feedback_d: Yes, the first item in t is an integer.
+   :feedback_e: Incorrect, the for loop is iterating over an iterable object.
+   :correct: d
+   :practice: T
+
+   What’s the type of your iterator variable in the first iteration?
+
+   .. sourcecode:: python
+
+       t = [9, "setter", 3, "wing spiker", 10, "middle blocker"]
+       for z in t:
+           print(z)
+

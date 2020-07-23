@@ -1,0 +1,21 @@
+.. actex:: ac3_8_6_bmchs
+   :author: David Gilpin
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :nocodelens:
+
+   Write a program to draw some kind of picture.  Be creative and experiment
+   with the turtle methods. 
+
+   10 points for creativity
+
+   10 points for using a for loop
+
+   10 points for using multiple colors
+
+   10 points for keeping picture inside of the window
+
+   10 points for using at least 4 turtle methods
+   ~~~~

@@ -1,0 +1,13 @@
+.. activecode:: ac14_11_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: MoreAboutIteration/WPInfiniteLoops
+    :from_source: T
+
+    b = 15
+
+    while b < 60:
+        b = 5
+        print("Bugs")
+        b = b + 7

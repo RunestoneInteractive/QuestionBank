@@ -1,0 +1,33 @@
+.. activecode::  14_4_2_WSq
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :topic: CSPTurtleDecisions/random
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *
+    from sys import *
+    setExecutionLimit(50000)
+    space = Screen()
+
+    width = 400
+    space.setup(width,width)
+    maxX = width / 2
+
+    jaz = Turtle()
+    jaz.shape('turtle')
+    jaz.penup()
+    jaz.goto(-1 * maxX,100)
+    jaz.pendown()
+    jaz.left(60)
+
+    for x in range(10):
+        jaz.forward(100)
+        jaz.right(120)
+        jaz.forward(100)
+        jaz.left(120)
+        if (jaz.xcor() >= maxX):
+            jaz.penup()
+            jaz.goto(-1 * maxX,jaz.ycor() - 100)
+            jaz.pendown()

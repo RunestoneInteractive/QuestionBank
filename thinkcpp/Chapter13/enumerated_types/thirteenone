@@ -1,0 +1,67 @@
+.. activecode:: thirteenone
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter13/enumerated_types
+   :from_source: F
+   :language: cpp
+
+   The active code below uses the enumerated types created above to construct ``Card`` objects.
+   Feel free to modify the values that the cards are being initialized to in the constructor:  this will
+   change the output from the ``print`` function. Notice how this is much clearer than using integers.
+   ~~~~
+   #include <iostream>
+   #include <string>
+   #include <vector>
+   using namespace std;
+
+   enum Suit { CLUBS, DIAMONDS, HEARTS, SPADES };
+
+   enum Rank { ACE=1, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,
+   TEN, JACK, QUEEN, KING };
+
+   struct Card {
+     Rank rank;
+     Suit suit;
+     Card (Suit s, Rank r);
+     void print () const;
+   };
+
+   int main() {
+     Card card1 (DIAMONDS, JACK);
+     card1.print ();
+     Card card2 (HEARTS, QUEEN);
+     card2.print ();
+     Card card3 (CLUBS, THREE);
+     card3.print ();
+   }
+
+   ====
+   Card::Card (Suit s, Rank r) {
+     suit = s;  rank = r;
+   }
+
+   void Card::print () const {
+     vector<string> suits (4);
+     suits[0] = "Clubs";
+     suits[1] = "Diamonds";
+     suits[2] = "Hearts";
+     suits[3] = "Spades";
+
+     vector<string> ranks (14);
+     ranks[1] = "Ace";
+     ranks[2] = "2";
+     ranks[3] = "3";
+     ranks[4] = "4";
+     ranks[5] = "5";
+     ranks[6] = "6";
+     ranks[7] = "7";
+     ranks[8] = "8";
+     ranks[9] = "9";
+     ranks[10] = "10";
+     ranks[11] = "Jack";
+     ranks[12] = "Queen";
+     ranks[13] = "King";
+
+      cout << ranks[rank] << " of " << suits[suit] << endl;
+   }

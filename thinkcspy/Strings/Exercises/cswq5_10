@@ -1,0 +1,22 @@
+.. parsonsprob:: cswq5_10
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+
+   10. Put the following statements in the correct order to define a function that returns the number of vowels in string s.
+   -----
+   def count_vowels(s):
+   '''Returns the number of vowels in string s'''
+   =====
+       num_vowels = 0
+   =====
+       for char in s:
+   =====
+           if char in "aeiou":
+   =====
+            num_vowels = num_vowels + 1
+   =====
+       return num_vowels
+   =====

@@ -1,0 +1,13 @@
+.. activecode:: Herhalingsoefening1
+    :author: Jan Persan
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+
+    Herhalingsoefening 1 
+
+    Schrijf een programma dat steeds een nieuw getal vraagt aan de gebruiker en dit getal steeds optelt bij de vorige reeds ingegeven getallen.
+    ~~~~
+    

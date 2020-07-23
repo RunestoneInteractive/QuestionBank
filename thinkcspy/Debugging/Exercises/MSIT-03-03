@@ -1,0 +1,18 @@
+.. parsonsprob:: MSIT-03-03
+   :author: Kevin Austin
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+   :language: natural
+
+   When the activities shown are placed in the correct order, they describe a procedure that can be used to assure a program exhibits the correct behavior under a variety of circumstances.  Drag each block to put them in the correct order. 
+   ----- 
+    Anticipate the kind of input data a user may provide
+    Determine the desired program behavior for each combination of user inputs
+    Test your code using a variety of anticipated user inputs
+    Isolate the code responsible for each undesirable result
+    Plan the code change(s) necessary to fix the issue(s)
+    Implement and test each code change in some logical order
+    Repeat the process until the desired program behavior is achieved
+

@@ -1,0 +1,29 @@
+.. actex:: ex_8_10
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Strings/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a function that removes the first occurrence of a string from another string.
+   ~~~~
+   def remove(substr,theStr):
+       # your code here
+
+   ====
+
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+           def testOne(self):
+               self.assertEqual(remove("an","banana"),"bana","Tested remove on inputs of 'an' and 'banana'")
+               self.assertEqual(remove("cyc","bicycle"),"bile","Tested remove on inputs of 'cyc' and 'bicycle'")
+               self.assertEqual(remove("iss","Mississippi"),"Missippi","Tested remove on inputs of 'iss' and 'Mississippi'")
+               self.assertEqual(remove("egg","bicycle"),"bicycle","Tested remove on inputs of 'egg' and 'bicycle'")
+
+
+
+   myTests().main()

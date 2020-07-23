@@ -1,0 +1,28 @@
+.. activecode:: sks_cw2_ex1
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [25 pts] Consider the below program:
+
+   a)	What would you replace the dummy comment line with, so that it reflects what the program is doing?
+
+   b)	The program has a syntax error. Can you identify it? What line number does it occur on? Please indicate that by inserting a comment above the line(s) and correct the line(s).  
+
+   c)	Once the syntax error is corrected, run the program  for inputs  ``7``, ``3``, ``Peyton``,and  ``Manning``. What is the output? State this as a comment.
+
+   d)	If there is still an error (runtime or logic), explain how you will correct it and indicate the erroneous lines with a comment above them.  Write the corrected versions of any erroneous statement.
+
+   e)	If you made any corrections, what it is the output now for inputs: ``7``, ``3``, ``Peyton``,and  ``Manning``.
+
+   ~~~~
+   # Place your comment here
+
+   num1 = input('Please input a number:'))
+   num2 = input('Input another number: ")
+   firstName = input((("What is your first name: ")))
+   lastName = input("What is your last name: ")
+   print('Hello', firstName + " " + lastName, """your favorite number is""", num1+num2)
+

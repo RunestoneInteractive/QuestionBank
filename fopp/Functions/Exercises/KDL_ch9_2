@@ -1,0 +1,34 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+.. activecode:: KDL_ch9_2
+   :autograde: unittest
+   :language: python
+
+   Write a function ``lettercount`` that accepts a list and a letter. The function should return a new list with all the words in the original list that have the letter in them with a dash and the number of times that letter is in the word. For example lettercount(['cat','dog','parakeet','turtle'],'t') should return ['cat-1','parakeet-1','turtle-2']. Use append to add to your list.
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           def _lettercount(list,letter):
+                new_list=[]
+                for word in list:
+                   lc=word.count(letter)
+                   if lc>0:
+                       wordcount=word+'-'+str(lc)
+                       new_list.append(wordcount)
+                return new_list
+           t_list=['this','list', 'is', 'totally', 'super','scrumptious']
+           self.assertIn('def lettercount', self.getEditorText(), 'Contains lettercount function')
+           self.assertIn('append(', self.getEditorText(), 'Contains append')
+           self.assertEqual(_lettercount(t_list,'s'), lettercount(t_list,'s'), "Result of lettercount correct")
+           
+   myTests().main()   

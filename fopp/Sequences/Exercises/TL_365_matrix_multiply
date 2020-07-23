@@ -1,0 +1,46 @@
+.. actex:: TL_365_matrix_multiply
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   
+   In the code below, two :math:`2\times2` matrices, ``mat1`` and
+   ``mat2``, have been defined for you. Multiply these together without
+   changing either one and assign the result to a variable called
+   ``mat3``.
+   
+   ~~~~
+   mat1 = [ [-6  ,   5 ],
+	    [10.1,  -7 ] ]
+	    
+   mat2 = [ [1e-2, 1e-3],
+            [1e2 , 1e3 ] ]
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):  
+           ref_mat1 = [ [-6  ,   5 ],
+	                [10.1,  -7 ] ]
+	    
+           ref_mat2 = [ [1e-2, 1e-3],
+                        [1e2 , 1e3 ] ]
+			
+	   ref_mat3 = [[0]*2, [0]*2]
+	   for i in range(len(ref_mat1)):
+	       for j in range(len(ref_mat1[i])):
+	           for k in range(len(ref_mat2)):
+		       ref_mat3[i][j] += ref_mat1[i][k]*ref_mat2[k][j]
+	   for i in range(len(ref_mat3)):
+	       for j in range(len(ref_mat3[i])):
+	           self.assertAlmostEqual(mat3[i][j], ref_mat3[i][j], 
+		       7, 
+		       'Checking element {:d} {:d}'.format(i, j))
+	           self.assertFalse(re.search(str(ref_mat3[i][j]), self.getEditorText()),
+		       'Checking for hardcoding {:d} {:d}'.format(i, j))
+   myTests().main() 
+   

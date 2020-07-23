@@ -1,0 +1,85 @@
+.. activecode:: lhs_6_8
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a non-fruitful function that displays a wedge of stars (``"*"``). The user enters the initial number of stars, and the program writes out lines of stars. Each line has one less star than the previous line. The user dialog will look something like this:
+    ::
+
+            Initial number of stars: 7
+
+            *******
+            ******
+            *****
+            ****
+            ***
+            **
+            *
+
+    **NOTE**: this assignment requires printing without the addition of a newline after each print call. To print without newline you will need 
+    to use the ``end`` parameter of the ``print()`` function. For example, to print 
+    a single ``*`` and remain on the same line, you would use a print statement of the form ``print("*", end='')``.
+
+    The example code below:
+    ::
+
+      for i in range(3):
+          print("hello", end="")
+      print()
+
+    would print out:
+    ::
+
+      hellohellohello
+
+    The ``print()`` after the ``for`` loop is used to create a newline at then end of the hello's.
+
+    **BEWARE**: Spaces are "invisible". Make sure you are not accidentally printing out any extra 
+    spaces - at the beginning or the end of the line. Extra invisible spaces can make your output
+    "look" correct.
+
+
+    ~~~~
+    # My Name:
+
+    def wedgeOfStars( n ):
+        # write your code here
+
+    def main():
+        h = int(input("Initial number of stars:"))
+        wedgeOfStars( h )
+    
+    if __name__ == "__main__":
+        main()
+
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+     
+        def testOne(self):
+            print("\nAuto-testing...")
+            oLen = len(self.getOutput())
+            wedgeOfStars( 7 )
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #remove original output from test string
+            self.assertEqual( outText, "*******\n******\n*****\n****\n***\n**\n*\n", "Testing wedge of 7")
+
+            oLen = len(self.getOutput())
+            wedgeOfStars( 2 )
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #remove original output from test string
+            self.assertEqual( outText, "**\n*\n", "Testing wedge of 2")
+
+            oLen = len(self.getOutput())
+            wedgeOfStars( 1 )
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #remove original output from test string
+            self.assertEqual( outText, "*\n", "Testing wedge of 1")
+
+
+    myTests().main()

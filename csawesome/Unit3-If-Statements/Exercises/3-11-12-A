@@ -1,0 +1,24 @@
+.. mchoice:: 3-11-12-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: first
+   :answer_b: first second
+   :answer_c: first second third
+   :answer_d: first third
+   :answer_e: third
+   :correct: d
+
+   What would the following print?
+
+   .. code-block:: java
+
+    int x = 1;
+    int y = 1;
+    if (x > 1) x++;
+    if (y > 0) y--;
+    if (x < 2) System.out.print(“first ”);
+    if (y < 0) System.out.print(“second ”);
+    System.out.print(“third”);

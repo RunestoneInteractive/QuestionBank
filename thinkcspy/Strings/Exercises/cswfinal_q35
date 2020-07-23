@@ -1,0 +1,13 @@
+.. mchoice:: cswfinal_q35
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: ['', 'eter ', 'i', 'er ', 'icked a ', 'eck of ', 'ickled ', 'e', '', 'ers']
+   :answer_b: ['peter', 'piper', 'picked', 'a', 'peck', 'of', 'pickled', 'peppers']
+   :answer_c: 'eter ier icked a eck of ickled eers'
+   :answer_d: 'ppppppppp'
+   :correct: a   :random:
+
+   35. If s has the value "peter piper picked a peck of pickled peppers" and you use the split method to split s on 'p' (s.split('p'), what is the result?

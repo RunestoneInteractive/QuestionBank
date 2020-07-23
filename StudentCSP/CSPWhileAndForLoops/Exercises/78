@@ -1,0 +1,29 @@
+.. parsonsprob:: 78
+    :author: Renske Weeda
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+
+    [78]Het volgende programma moet een lijst van getallen doorlopen, voor elk element drukt het een * totdat een -1 in de lijst voorkomt, dan stopt het programma. Maar de blokken staan in de verkeerde volgorde. Er staat 1 overbodige regel code tussen. Sleep de benodigde code naar de linkerkant en plaats ze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop Check Me om jouw oplossing te controleren.
+    -----
+    lijst = [2,5,0,6,-1,5,6]
+    =====
+    index = 0
+    =====
+    while lijst[index] != -1:
+    =====
+    while index != -1: #paired
+    =====
+        print("*")
+    =====
+        index += 1
+    =====
+        lijst[index] += 1 #paired
+    =====
+        if index != -1: #distractor
+
+config values (conf.py):
+- parsons_div_class - custom CSS class of the component's outermost div

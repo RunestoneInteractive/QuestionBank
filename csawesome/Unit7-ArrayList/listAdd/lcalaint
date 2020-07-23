@@ -1,0 +1,25 @@
+.. activecode:: lcalaint
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit7-ArrayList/listAdd
+   :from_source: F
+   :language: java
+
+   import java.util.*;  // import all classes in this package.
+   public class Test
+   {
+      public static void main(String[] arts)
+      {
+         List list1 = new ArrayList();
+         list1.add(new Integer(1));
+         System.out.println(list1);
+         list1.add(new Integer(2));
+         System.out.println(list1);
+         list1.add(1, new Integer(3));
+         System.out.println(list1);
+         list1.add(1, new Integer(4));
+         System.out.println(list1);
+         System.out.println(list1.size());
+      }
+   }

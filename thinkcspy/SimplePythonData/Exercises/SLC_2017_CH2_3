@@ -1,0 +1,20 @@
+.. activecode:: SLC_2017_CH2_3
+   :author: Derek Green
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+
+   Your tutor group wins a prize for best presentation.  The prize is exactly **100** new Star Lane baseball caps.  The caps will be divided equally (whole caps only, no caps will be harmed with scissors) among the students in the tutor group.  Any remaining caps go to the tutor.  Write code to:
+
+   * Ask for the number of students in your tutor group.
+   * Calculate how many caps each student will get.
+   * Calculate the number the tutor gets.
+   * Print out the number per student (e.g. "Each student will receive X caps." where X depends on the group size).
+   * Print out the number the tutor gets  (e.g. "The tutor will get Y caps.").
+
+   ~~~~
+
+   ====
+    

@@ -1,0 +1,28 @@
+.. mchoice:: 5.9.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 05_rendering/09_interleaved_buffers
+  :from_source: T
+  :random:
+  :answer_a: The buffer object contains interleaved data.
+  :answer_b: Data will be retrieved from this buffer getting the 3rd, 4th and 5th values from each group of vertex data.
+  :answer_c: Each vertex is define by 7 floats.
+  :answer_d: Data will be retrieved from this buffer getting the 1st, 2nd and 3rd values from each group of vertex data.
+  :correct: a,b,c
+  :feedback_a: Correct. Because the "stride" and "offset" parameters are not zero.
+  :feedback_b: Correct. Because the "offset" is bytes_per_float*2 and the "size" is 3.
+  :feedback_c: Correct. Because the "stride" parameter skips 7 values.
+  :feedback_d: Incorrect. To access the 1st, 2nd and 3rd values, the "offset" value would need to be zero.
+
+  You are studying example code and you come across the following lines:
+
+  .. Code-Block:: JavaScript
+
+    // buffer_data is a Float32Array;
+    bytes_per_float = buffer_data[0].BYTES_PER_ELEMENT;
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer_object_id);
+    gl.vertexAttribPointer(variable_location,  3, gl.FLOAT, false,
+                           bytes_per_float*7, bytes_per_float*2);
+
+  Which of the following statements are true? (Select all that apply.)

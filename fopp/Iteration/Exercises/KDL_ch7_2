@@ -1,0 +1,24 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+.. activecode:: KDL_ch7_2
+   :autograde: unittest
+   :language: python
+
+   
+
+   Determine the ``average_grade`` using the list of ``grades`` provided. Make sure to use a for loop to solve the problem.
+   ~~~~
+   grades=[92,67,73,100,98,82,88]
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(average_grade,sum(grades)/len(grades),feedback="Correct length for friends")
+           self.assertIn('for ', self.getEditorText(), 'Contains for loop')
+   myTests().main()    

@@ -1,0 +1,30 @@
+.. mchoice:: 12.10.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 12_advanced_rendering/10_3d_text
+  :from_source: T
+  :random:
+
+  The WebGL program above renders characters using models from a proportional font.
+  How could the program be simplified if the characters were defined from a
+  non-proportional font. (Select all that apply.)
+
+  - The variable :code:`sizes` would not need to be an array; it could be a
+    single set of MIN/MAX values.
+
+    + Correct. Because each model would have the same size.
+
+  - The doubly nested loop in :code:`_gatherCharacterInfo()` could be simplified
+    to a single loop.
+
+    + Correct. Because only one character would need to be tested for its size.
+
+  - The height of the characters could be hard-coded instead of calculated.
+
+    - Incorrect. The height could be hard-coded, but not because the font is non-proportional.
+
+  - The depth along the z axis of the characters could be set to zero instead of calculated.
+
+    - Incorrect. The depth could be hard-coded, but not because the font is non-proportional.
+

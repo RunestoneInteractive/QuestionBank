@@ -1,0 +1,13 @@
+.. activecode:: web3200_ex_01
+   :author: Thomas Bell
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   Create a script that has your name and the current date in a comment.
+   Then the program should print the following:
+
+   "Computers are good at following instructions, but not at reading your 
+   mind." - Donald Knuth
+   ~~~~

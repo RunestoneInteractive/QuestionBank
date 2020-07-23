@@ -1,0 +1,50 @@
+.. activecode:: lhs_8_2
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Create a function called ``howManyUntil(stopNum)`` where stopNum is an integer from 0 and 99
+
+    The function will randomly generate a number from 0 and 99 and keep generating random numbers 
+    until the number ``stopNum`` is generated. The function will return the number of 
+    random numbers that were generated in order to get the ``stopNum``.
+
+    Example: If stopNum = 50 and the random numbers generated were 0, 4, 19, 50, then the function would return 4.
+
+    ~~~~
+    # Your Name: 
+    import random
+    
+    # define howManyUntil function
+
+    # call it to test it out
+    # to test it you may want to make a smaller version that generates random numbers from 0 to 10
+    # and prints out the random numbers....
+
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        
+        def golden_func(self, stopNum):
+            count = 1
+            num = random.randrange(0,100)
+            while num != stopNum:
+                count = count + 1
+                num = random.randrange(0,100)
+            return(count)
+        
+        def testOne(self):
+            print("\nAuto-testing...")
+
+            for i in range(5):
+                random.seed(i)
+                answer = self.golden_func(i)
+                random.seed(i)
+                self.assertEqual(howManyUntil(i), answer, "Check output result")
+    
+    myTests().main()

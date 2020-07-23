@@ -1,0 +1,13 @@
+.. activecode:: hw15DE
+   :author: Damon Ellingston
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   **Homework 15 part a**
+  
+    Modify your Two Dice program so that user starts with two blank faces and a text box that reads “Click to roll the dice”. When user clicks anywhere in the window, screen displays a random roll of the dice, for example a 3 and a 6. The text box changes to "Roll again". User can click five times and get five random dice rolls, after which text box reads "Click anywhere to exit." One final click and the user exits the program.
+    There will be partial credit grading for this assignment, so try to get as many pieces of the code running as you can.
+   ~~~~
+

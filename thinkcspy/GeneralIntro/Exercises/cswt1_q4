@@ -1,0 +1,14 @@
+.. mchoice:: cswt1_q4
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 1101111
+   :answer_b: 1011011
+   :answer_c: 0001000
+   :answer_d: 1110111
+   :correct: a
+   :random:
+
+   Convert the following decimal number to binary: 111

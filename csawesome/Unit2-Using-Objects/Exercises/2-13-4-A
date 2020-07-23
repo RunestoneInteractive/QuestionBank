@@ -1,0 +1,19 @@
+.. mchoice:: 2-13-4-A
+   :author: Rachel Reyes
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: Computer Science
+   :answer_b: Computer
+   :answer_c: Computer Science Computer
+   :answer_d: Computer Computer Science
+   :correct: a
+
+   What is the value of s1 after the following code is executed?
+
+   .. code-block:: java
+
+    String s1 = "Computer Science";
+    String s2 = s1.substring(0, 8);
+    String s3 = s1 + s2;

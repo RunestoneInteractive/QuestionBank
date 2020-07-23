@@ -1,0 +1,31 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+.. activecode:: KDL_ch7_5
+   :autograde: unittest
+   :language: python
+
+   I want to calculate the area of several triangles. Using a for loop, calculate the ``area`` for all the provided dimensions (this should be a list). 
+   Print your results.
+   ~~~~
+   base=[1,6,8,3,6,3,6,3]
+   height=[4,5,7,8,9,2,4,6]
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           a=[]
+           for i in range(len(base)):
+               a=a+[base[i]*height[i]/2]
+               self.assertIn(str(base[i]*height[i]/2)[:4], self.getOutput(), 'Checking sentence.')
+           self.assertTrue(type(area)==type(a),feedback="The area should be a list")
+           self.assertTrue(area==a,feedback="area values correct")
+           self.assertIn('for ', self.getEditorText(), 'Contains for loop')
+           
+   myTests().main()    

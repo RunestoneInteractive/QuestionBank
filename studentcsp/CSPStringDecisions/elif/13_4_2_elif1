@@ -1,0 +1,17 @@
+.. mchoice:: 13_4_2_elif1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPStringDecisions/elif
+   :from_source: T
+   :answer_a: x is in the first quartile - x <= .25
+   :answer_b: x is in the second quartile - .25 < x <= .5
+   :answer_c: x is in the third quartile - .5 < x <= .75
+   :answer_d: x is in the fourth quartile - .75 < x <= 1
+   :correct: c
+   :feedback_a: This will only print if x is less then or equal to .25.
+   :feedback_b: This will print if the other if's were not true, and if x is less than or equal to .5.  By moving lines 6-7 before lines 4-5 this will never print.
+   :feedback_c: This will print if the other if's are not true and if x is less than or equal to .75.  So, moving lines 6-7 before lines 4-5 messes up what this code is intended to do and incorrectly prints that .5 is in the third quartile.
+   :feedback_d: This will only print if all of the other if's were false.
+
+   What would be printed if you moved lines 6-7 before lines 4-5 and set x equal to .5?

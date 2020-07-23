@@ -1,0 +1,43 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermStudentDict2
+   :adaptive:
+   :numbered: left
+
+   Fix the mixed up code to return a list of dictionary objects where each dictionary object represents one line from the data file.  The first line of the data file is the field names.  Use these as the keys for the dictionary.  The data is in a csv file.  
+   -----
+   def getData(file):
+   =====
+       students = []
+       inFile = open(file,"r")
+   =====
+       lineList = inFile.readlines()
+   =====
+       line = lineList[0]
+   ===== 
+       # get the list of keys to use
+       keyList = line.split(",")
+   =====
+       for index in range(1,len(lineList)):
+   =====
+           line = lineList[index]
+           studentDict = dict() 
+           valueList = line.split(",") 
+   =====
+           for index in range(len(valueList)): 
+   =====
+               key = keyList[index]
+               studentDict[key] = valueList[index]
+               students.append(studentDict)
+   =====
+        inFile.close()
+	return students
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

@@ -1,0 +1,21 @@
+.. activecode:: 1306_cw2_f19_q2
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+
+   [40 pts] Write a Python program to prints 6 lines of 12 * that looks as follows:
+
+   ::
+
+     ************
+     ************
+     ************
+     ************
+     ************
+     ************
+
+
+   ~~~~
+   # Write your program here

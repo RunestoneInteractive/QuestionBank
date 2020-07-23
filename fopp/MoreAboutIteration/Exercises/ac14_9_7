@@ -1,0 +1,21 @@
+.. actex:: ac14_9_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: MoreAboutIteration/Exercises
+   :from_source: T
+   :nocodelens:
+
+   Use a while loop to iterate through the numbers 0 through 35. If a number is divisible by 3, it should be appended to a list called ``three_nums``.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(three_nums, [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33], "Testing that three_nums was created correctly.")
+
+   myTests().main()

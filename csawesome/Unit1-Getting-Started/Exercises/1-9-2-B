@@ -1,0 +1,17 @@
+.. mchoice:: 1-9-2-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: 0.0
+   :answer_b: 1
+   :answer_c: 14
+   :answer_d: 14.0
+   :correct: d
+
+   What does the following code print?
+
+   .. code-block:: java
+
+    System.out.println( (double) 14 % 28);

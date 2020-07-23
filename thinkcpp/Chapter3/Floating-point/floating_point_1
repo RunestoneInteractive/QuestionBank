@@ -1,0 +1,13 @@
+.. dragndrop:: floating_point_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/Floating-point
+   :from_source: T
+   :feedback: Try again!
+   :match_1:  double pi = 3.14;|||initialization
+   :match_2: pi = 3.14;|||assignment
+   :match_3: double pi;|||declaration
+
+   Match the statement to the word that best describes it.
+

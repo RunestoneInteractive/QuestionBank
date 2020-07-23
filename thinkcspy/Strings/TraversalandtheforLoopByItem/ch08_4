@@ -1,0 +1,11 @@
+.. activecode:: ch08_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Strings/TraversalandtheforLoopByItem
+    :from_source: T
+    :nocanvas:
+
+    for aname in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
+        invitation = "Hi " + aname + ".  Please come to my party on Saturday!"
+        print(invitation)

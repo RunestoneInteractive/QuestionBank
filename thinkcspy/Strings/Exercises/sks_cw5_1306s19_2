@@ -1,0 +1,19 @@
+.. activecode:: sks_cw5_1306s19_2
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+
+    Write a python program to that will find the longest word in a given sentence.  
+    Your program should request the user to enter a sentence.  The sentence should be 
+    broken into a list of words using the space between words as a delimiter.  The program 
+    should include a function ``findLongest(wordlist)`` that takes the list of words as the argument 
+    and returns the first longest word in the sentence.  
+
+
+    ~~~~
+    # Write your program here
+    
+    ====

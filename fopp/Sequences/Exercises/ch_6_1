@@ -1,0 +1,22 @@
+.. activecode:: ch_6_1
+    :author: Irma Ravkic
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: Sequences/Exercises
+    :from_source: F
+    
+    Consider the list below in the activecode. Write the expressions doing the following:
+
+    1. Print letter 'C' from this list 
+    2. Print letters 'C', 'D', 'E'
+    3. Print the length of this list
+    4. Print the first element of this list
+    5. Print the last element of this list
+    6. Create a variable called grade and assign the third element  ('C') from list letters list to it (print variable grade to make sure you did the right indexing)
+    
+    Warning: for all printouts use indexing and the name of the 
+    list (letters).  You cannot do print('C')!
+    ~~~~
+    letters = ['A', 'B', 'C', 'D', 'E']
+    
+

@@ -1,0 +1,25 @@
+.. mchoice:: 2-13-6-B
+   :author: Beryl Hoffman
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :practice: T
+   :answer_a: San
+   :answer_b: Diego
+   :answer_c: San!
+   :answer_d: You will get an index out of bounds exception
+   :correct: c
+   :feedback_a: Close, but that's just 3 characters.
+   :feedback_b: Try again.
+   :feedback_c: Correct!
+   :feedback_d: There are no errors here.
+
+   What is the value of s3 after the following code is executed?
+
+   .. code-block:: java
+
+    String s = "San!Diego";
+    String s1 = new String("San Diego");
+    String s2 = s1.substring(4);
+    String s3 = s.substring(0, 4);

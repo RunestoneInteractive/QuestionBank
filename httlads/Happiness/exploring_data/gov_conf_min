@@ -1,0 +1,15 @@
+.. fillintheblank:: gov_conf_min
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/exploring_data
+   :from_source: T
+
+   What is the name |blank| and happiness score |blank| of the country
+   with the lowest confidence in their national government?
+
+   - :Ukraine: Is the correct answer
+     :x: Incorrect
+
+   - :4.096: Is the correct answer
+     :x: Incorrect

@@ -1,0 +1,25 @@
+.. activecode:: dmh_01_01_test
+    :author: Deanna Hauser
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write code to assign the variable ``new`` to have the same value that variable ``old`` has. Do not change the first line of code (``old = "Hello"``). Also, do not "hard code" the result by setting ``new = "Hello"``. Instead, write code that would work no matter what the current value of ``old`` is.
+    ~~~~
+    old = "Hello"
+    new = 0
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+           self.assertEqual(old, new, "Testing that new has the same value as cw")
+           self.assertEqual(old, "Hello", "Testing that cw's value is 'Hello'.")           
+
+    myTests().main()

@@ -1,0 +1,52 @@
+.. activecode:: lhs_10_5
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``countUpToWord(lstOfWords, word)`` that counts how many words occur
+    in a list of words up to and including the first occurrence of the word ``word``. If the ``word``
+    is not found, then return a -1.
+
+    ~~~~
+    # My Name:
+
+    def countUpToWord(lst, word):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _golden(self, lst, word):
+            i = 0
+            foundWord = False
+            while i < len(lst) and not foundWord:
+                if lst[i] == word:
+                    foundWord = True
+                i = i + 1
+            if foundWord:
+                return(i)
+            else:
+                return(-1)
+            
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            lst = [ 'a', 'bb', 'cde', 'dog', 'elephant', 'seal' ]
+            
+            test = [ 'bb', 'seal', 'coffee']
+            
+            for i in test:
+                self.assertEqual(countUpToWord(lst, i), self._golden(lst, i), "Test "+i)
+                
+    myTests().main() 

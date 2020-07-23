@@ -1,0 +1,17 @@
+.. mchoice:: 1_3_1_BMI_Q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPrinTeasers/computeNumbers
+   :from_source: T
+   :answer_a: 21.9
+   :answer_b: 21.924704834
+   :answer_c: 21
+   :answer_d: 22
+   :correct: b
+   :feedback_a: Close, but the computer will give you more digits than that.
+   :feedback_b: Yes!
+   :feedback_c: No, the result will be a number with a decimal point and numbers after the decimal point.
+   :feedback_d: No, the computer does not round the result.
+
+   Imagine that you are 5 foot 7 inches and weighed 140 pounds.  What is your BMI?

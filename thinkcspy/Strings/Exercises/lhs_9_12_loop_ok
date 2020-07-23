@@ -1,0 +1,48 @@
+
+    :author: Norm Prokup
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: lhs_9_12_loop_ok
+    :language: python
+    :autograde: unittest
+
+    A string contains only '0' and '1' characters and spaces. Write a function
+    that takes such a string and makes and returns a "negative" string in which all
+    the 0's are replaced with 1's and all the 1's with 0's. Your function must rely only
+    on string operations and not use any explicit iterations or recursion. 
+
+    ~~~~
+
+    def negate( str ):
+        # Your code here
+
+    def main():
+        print(negate("1001110001010101110"))
+    
+    if __name__ == "__main__":
+        main()
+
+    ====
+
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _negate(self, str):
+            return str.replace( '0', '*' ).replace( '1', '0' ).replace( '*', '1' )        
+
+        def testOne(self):
+            print('\nAuto-testing...')
+            editText = self.getEditorText()
+            
+            tests = [ "1111",
+                      "0000",
+                      "1001110001010101110",]
+                
+            for binStr in tests:
+                self.assertEqual(negate(binStr), self._negate(binStr), binStr)
+            
+    myTests().main()

@@ -1,0 +1,34 @@
+.. actex:: ex_8_5_PT
+   :author: pranoj thapa
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :practice: T
+   :autograde: unittest
+   :nocodelens:
+
+   Write a function that reverses its string argument.
+   ~~~~
+   def reverse(astring):
+       # your code here
+
+   ====
+   import re
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+       def testOne(self):
+           editText = self.getEditorText()
+           self.assertEqual(1, len(re.findall("\s*return", editText)), "Need exactly one return statement")
+           self.assertEqual(reverse("happy"),"yppah","Tested reverse on input of 'happy'")
+           self.assertEqual(reverse("Python"),"nohtyP","Tested reverse on input of 'Python'")
+           self.assertEqual(reverse(""),"","Tested reverse on input of ''")
+           self.assertEqual(reverse("12345"),"54321","Tested reverse on input of ''12345")
+           self.assertEqual(reverse("Step on no pets"),"step on no petS","Tested reverse on input of ''Step on no pets")
+           
+
+
+
+
+   myTests().main()

@@ -1,0 +1,14 @@
+.. mchoice:: cswfinal_q17
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+   :answer_a: 4
+   :answer_b: 3
+   :answer_c: 2
+   :answer_d: The result is a syntax error
+   :correct: a
+   :random:
+
+   17. Given a list x = [1, 2, 3, 4, 5], print(x[-2]) prints which value?

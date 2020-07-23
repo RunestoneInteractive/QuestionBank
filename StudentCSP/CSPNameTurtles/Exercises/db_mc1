@@ -1,0 +1,19 @@
+.. mchoice:: db_mc1
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+   :correct: a
+   :answer_a: The information for a track on an album 
+   :answer_b: All the data in the database for all albums
+   :answer_c: The album title
+   :answer_d: All the tracks for an album
+   :feedback_a: The data for a track would be a row in a database.
+   :feedback_b: This would be the entire database, not just a row.
+   :feedback_c: This is the data in one column in a row.
+   :feedback_d: This would be several rows in the same table.
+
+   Which of the following would be a row (tuple) in a database?
+
+

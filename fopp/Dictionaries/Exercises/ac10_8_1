@@ -1,0 +1,22 @@
+.. actex:: ac10_8_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: T
+
+   Predict what will print out from the following code. If a line causes a run-time error, comment it out and see whether the rest of your predictions were correct.
+
+   ~~~~
+
+   d = {'apples': 15, 'grapes': 12, 'bananas': 35}
+   print(d['banana'])
+   d['oranges'] = 20
+   print(len(d))
+   print('grapes' in d)
+   print(d['pears'])
+   print(d.get('pears', 0))
+   fruits = d.keys()
+   print(fruits)
+   del d['apples']
+   print('apples' in d)

@@ -1,0 +1,35 @@
+.. activecode:: LHSChapterSixteenQuestionNine
+    :author: Wesley Thang
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: ClassesBasics/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Create a class called ``bank`` that contains two instance variables, ``name`` and
+    ``amt``. Add the instance method, ``__str__``, that allows you to customize the message returned
+    when you print the instance so that it says "Your account, [name goes here], has [start_amt goes here] dollars."
+    Create an instance of this class with "Bob" as the name and 100 as the amount.
+    Save this to the variable ``t1``.
+
+    ~~~~
+    #Define the class here
+
+    #Your test code here
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+        def testOne(self):
+            self.assertEqual(t1.__str__(), "Your account, Bob, has 100 dollars.", "Testing that t1 is assigned to correct value")
+
+         
+    myTests().main()

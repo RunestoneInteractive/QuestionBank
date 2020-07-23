@@ -1,0 +1,17 @@
+.. mchoice:: e1a2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPTuring/Exercises
+   :from_source: T
+   :answer_a: variable
+   :answer_b: turtle
+   :answer_c: string
+   :answer_d: program
+   :correct: a
+   :feedback_a: A variable is a name associated with space (computer memory) that holds a value.  That value can change or vary.
+   :feedback_b: A turtle is an object that can move forward and turn.  As it moves it can draw with a pen.
+   :feedback_c: A string is a sequence of characters.
+   :feedback_d: A program is a set of instructions that a computer can execute.
+
+   A named space that can hold a value is which of the following?

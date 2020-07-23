@@ -1,0 +1,25 @@
+.. parsonsprob:: ch13ex8muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: StudentCSP
+   :topic: CSPStringDecisions/mixup_IF
+   :from_source: T
+   :numbered: left
+   :practice: T
+   :adaptive:
+
+   The following program segment contains code from a movie theater kiosk that asks for your age to determine whether you are old enough to watch a PG-13 rated movie and then prints the appropriate statement. The blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   age = input("Please enter your age:")
+   =====
+   if age > 12:
+   =====
+   if age < 12: #paired
+   =====
+       print("Enjoy the film!")
+   =====
+   elif age < 13:
+   =====
+   elif age > 13: #paired
+   =====
+       print("You must be 13 years old to watch this film")

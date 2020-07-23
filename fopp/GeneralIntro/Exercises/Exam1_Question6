@@ -1,0 +1,16 @@
+.. activecode:: Exam1_Question6
+    :author: Jane Weyant
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+    :language: python
+    
+
+    player_avg is a string that contains batting averages for baseball players separated by commas.  Write code to compute the number of players that batted greater than 0.299.  Store the result in the variable num_players_over_300.
+    ~~~~
+    player_avg = "0.209,0.305,0.265,0.175,0.324,0.215,0.362,0.178,0.273,0.309"
+    #Enter your code below
+    =====
+
+  

@@ -1,0 +1,11 @@
+.. activecode:: er1001
+    :author: Eric Reed
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: PythonModules/Exercises
+    :from_source: F
+
+    Write a program that generates a random integer between 1 and 100, and asks the user to guess the integer.
+    After each guess, the program tell the user whether the guess was too high or too low
+    When the user guesses correctly, the program congratulates the user and exits.
+    ~~~~

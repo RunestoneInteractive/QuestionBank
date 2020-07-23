@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: simple_4
+
+    Print out the floating point number 987.654 as an integer.
+
+    ~~~~
+    

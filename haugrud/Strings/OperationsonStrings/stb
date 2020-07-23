@@ -1,0 +1,16 @@
+.. activecode:: stb
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: haugrud
+    :topic: Strings/OperationsonStrings
+    :from_source: None
+    :nocanvas:
+
+    print("Go" * 6)
+
+    name = "Packers"
+    print(name * 3)
+
+    print(name + "Go" * 3)
+
+    print((name + "Go") * 3)

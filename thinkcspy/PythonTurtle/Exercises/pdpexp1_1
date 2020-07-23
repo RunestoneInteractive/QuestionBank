@@ -1,0 +1,26 @@
+
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. parsonsprob:: pdpexp1_1
+   :language: python
+
+   Construct a block of code to draw a square
+   -----
+   import turtle
+   wn = turtle.Screen()
+   t = turtle.Turtle()
+   =====
+   for i in range(4):
+       t.left(90)
+   =====
+       t.forward(150)
+   =====
+   t.left(90)
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

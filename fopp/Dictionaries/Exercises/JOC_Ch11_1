@@ -1,0 +1,14 @@
+.. activecode:: JOC_Ch11_1
+   :author: Joaquin Carbonara
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   Create a function ``space_lower_upper_count`` that accepts a string and returns a dictionary that contains the count for spaces, upper and lower case characters in that string. For example "Buffalo State" should get {'spaces':1,'lower': 10, 'upper': 2}. 
+   ~~~~
+   
+
+   ====

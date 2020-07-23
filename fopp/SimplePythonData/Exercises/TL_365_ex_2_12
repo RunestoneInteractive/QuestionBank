@@ -1,0 +1,22 @@
+.. actex:: TL_365_ex_2_12
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Write a program that will compute MPG for a car. Prompt the user to
+   enter the number of miles driven and the number of gallons
+   used. Store the values as type ``float`` in variables call ``miles``
+   and ``gallons`` respectively. Print a nice message with the answer.
+   ~~~~
+   
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):  
+           self.assertTrue(re.search(str(miles/gallons)[:5], self.getOutput()), 'Checking answer.')
+   myTests().main() 

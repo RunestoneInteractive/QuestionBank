@@ -1,0 +1,23 @@
+.. activecode:: problem 2
+    :author: David Birrow
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Debugging/Exercises
+    :from_source: F
+    :language: python
+
+    Update the previous program to compute take home pay instead of just salary. 
+    Take home pay is how much money you get after taxes, benefits, and other 
+    obligations are taken out.
+
+    Let’s say taxes account for 30% of your deductions and benefits account 
+    for another 7%. Also assume this job has no paid vacation or sick time, so if 
+    this employee missed a day of work due to illness, family illness, or vacation, 
+    they lose one day’s worth of pay.
+    
+    Try to use 6 or less lines of code
+
+ 
+    ~~~~
+    
+    # your code here

@@ -1,0 +1,29 @@
+.. activecode:: ac18_3_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sorting/Optionalkeyparameter
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **3.** Once again, sort the list ``nums`` based on the last digit of each number from highest to lowest. However, now you should do so by writing a lambda function. Save the new list as ``nums_sorted_lambda``.
+   ~~~~
+
+   nums = ['1450', '33', '871', '19', '14378', '32', '1005', '44', '8907', '16']
+
+   nums_sorted_lambda =
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(nums_sorted_lambda, ['19', '14378', '8907', '16', '1005', '44', '33', '32', '871', '1450'], "Testing that nums_sorted_lambda was created correctly.")
+         self.assertIn("lambda", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+
+   myTests().main()

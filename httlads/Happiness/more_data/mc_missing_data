@@ -1,0 +1,25 @@
+.. mchoice:: mc_missing_data
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/more_data
+   :from_source: T
+
+   Which of the following countries are NOT in the world countries spreadsheet?
+
+   - Kosovo
+
+     + Correct
+
+   - Palestine
+
+     + Correct
+
+   - Palau
+
+     - No, Palau is there
+
+   - Ivory Coast
+
+     - Technically this one is there but you need to make it "Côte d'Ivoire"
+

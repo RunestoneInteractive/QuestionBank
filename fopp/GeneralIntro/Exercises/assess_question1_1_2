@@ -1,0 +1,23 @@
+.. activecode:: assess_question1_1_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: GeneralIntro/Exercises
+    :from_source: T
+    :language: python
+    :autograde: unittest
+
+    Write code to print out the phrase "Hello World".
+    ~~~~
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertIn("Hello World", self.getOutput(), "Your output should contain a phrase Hello World")
+
+    myTests().main()
+

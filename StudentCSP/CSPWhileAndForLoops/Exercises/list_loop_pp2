@@ -1,0 +1,41 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPWhileAndForLoops/Exercises
+   :from_source: F
+.. parsonsprob:: list_loop_pp2
+   :numbered: left
+
+   Select the blocks and order them on the right side with the correct indentation. If the BMImetric is less than 18.5 print Underweight.  If the BMImetric is less than or equal to 24.9 print Health.  If the BMImetric is less than or equal to 29.9 print "Overweight".  Otherwise print "Obese".  
+   -----
+   def calcBMI(height, weight):
+   =====
+	    heightSquared = height * height
+   =====
+	    BMI = weight / heightSquared
+   =====
+	    BMImetric = BMI * 703
+   =====
+	    if BMImetric < 18.5:
+   =====
+	    if BMImetric < 18.5 #paired
+   =====
+	        print("Underweight")
+   =====
+	    elif BMImetric <= 24.9:
+   =====
+	    if BMImetric <= 24.9: #paired
+   =====
+	        print("Healthy")
+   =====
+	    elif BMImetric <= 29.9:
+   =====
+	        print("Overweight")
+   =====
+	    else: 
+   =====
+	        print("Obese")
+   =====
+	    return BMImetric
+  

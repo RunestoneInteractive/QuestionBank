@@ -1,0 +1,192 @@
+.. activecode:: LHSRomanNumeralEC
+    :author: Wesley Thang
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Roman Numerals work differently than our normal Arabic number system. Roman Numerals have 
+    symbols, all in capital letters (and sometimes in lower case), which represent Arabic numbers.
+    Roman Numerals have been used for identifying movie sequels (i.e., The Godfather: Part II),
+    for publication copyright dates, for numbering monarchs such as Queen Elizabeth II, and for
+    numbering Super Bowls. See the following table for the Roman Numerals symbols up to 1000.
+    
+    ::
+    
+        Roman Numeral     Arabic Number
+           I or i             1
+             V                5
+             X                10
+             L                50
+             C                100
+             D                500
+             M                1000
+
+    Usually, numbers are formed by stringing the Roman numerals together and adding them up to
+    make the required number (i.e., II = 2, or XII = 12). If smaller numbers follow larger numbers,
+    the numbers are added (i.e., VIII = 5 + 3 or 8), but if a smaller number precedes a larger number,
+    the smaller number is subtracted from the larger number (i.e., IX = 10 - 1 or 9).
+
+    There is shorthand for the case when there are four of the same symbols in a row. Instead of
+    IIII for 4, it is written as IV or 5 - 1 = 4. This only applies to symbols that represent powers
+    of ten. Since our numbers will be less than 4000, this only makes sense for I, X and C. Some
+    people think this means you can write IC for 99 but that is not going to be allowed. When using
+    this shortcut, a symbol can only precede a symbol whose value is 5 or 10 times its own value.
+    For example, X (10) can only precede L (50) or C (100). So XL (40) is acceptable, but XD (490?)
+    is not.
+
+    ::
+    
+        Roman Numeral     Arabic Number
+            XLVI              46
+            XCIX              99
+          MDCCCXIX            1819
+           DCXLIX             649
+         MCMLXXXIII           1983
+
+    1. You will create at least two functions. One will receive an int number and return a string
+       with that integer converted into Roman Numerals. The other function will receive a String
+       of Roman Numerals and return the integer value of the Roman Numerals.
+
+    2. Think of using helper functions to reuse algorithms needed to solve these problems.
+    
+    3. Assume that your client gives you valid Roman Numerals and the Arabic numbers are positive
+       and less than 4000.
+    
+    ~~~~
+
+    def romanToArabic( roman ):
+        """
+        Returns the integer value of roman numeral roman
+        """
+        arabic = 0
+
+        # TODO: Your code here
+
+        return arabic
+
+    def arabicToRoman( arabic ):
+        """
+        Returns roman numeral of the integer value arabic
+        """
+        roman = ""
+
+        # TODO: Your code here
+
+        return roman
+
+    # POSSIBLE HELPER FUNCTIONS HERE
+
+    def main():
+        print("Your test cases here")
+        print(romanToArabic("MMXVII"))
+        print(arabicToRoman(2017))
+        
+    if __name__ == "__main__":
+        main()
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _romanToArabic( self, roman ):
+            arabic = 0
+            currentDigitValue = 0
+            previousDigitValue = 100000
+            while len(roman) > 0:
+                romanDigit = roman[0]
+                if romanDigit == 'M':
+                    currentDigitValue = 1000
+                elif romanDigit == 'D':
+                    currentDigitValue = 500
+                elif romanDigit == 'C':
+                    currentDigitValue = 100
+                elif romanDigit == 'L':
+                    currentDigitValue = 50
+                elif romanDigit == 'X':
+                    currentDigitValue = 10
+                elif romanDigit == 'V':
+                    currentDigitValue = 5
+                elif romanDigit == 'I':
+                    currentDigitValue = 1
+                else:
+                    return 0
+
+                if currentDigitValue > previousDigitValue:
+                    arabic -= 2 * previousDigitValue
+
+                arabic += currentDigitValue
+                previousDigitValue = currentDigitValue
+                roman = roman[1:]
+
+            return arabic
+
+        def _place( self, digit, base, middle, upper):
+            roman = ""
+            if digit == 9:
+                roman += base
+                roman += upper
+            elif digit >= 5:
+                roman += middle
+                i = 5
+                while i < digit:
+                    roman += base
+                    i += 1  
+            elif digit == 4:
+                roman += base
+                roman += middle
+            elif digit >= 1:
+                i = 1
+                while i <= digit:
+                    roman += base
+                    i += 1
+
+            return roman;
+        
+        def _arabicToRoman( self, arabic ):
+            roman = ""
+            if arabic >= 4000  or arabic <= 0:
+                return ""
+
+            remaining = arabic
+            base = 1000
+            nextDigit = 0
+            while base > 0:
+                nextDigit = remaining // base
+
+                if base == 1000:
+                    roman += self._place(nextDigit, 'M',' ',' ')
+                elif base == 100:
+                    roman += self._place(nextDigit, 'C','D','M')
+                elif base == 10:
+                    roman += self._place(nextDigit, 'X','L','C')
+                elif base == 1:
+                    roman += self._place(nextDigit, 'I','V','X')
+
+                remaining = remaining - nextDigit * base
+                base //= 10
+
+            return roman      
+
+        def testOne(self):
+            print('\nAuto-testing...')
+                
+            tests = [ "MCMLXXXIII",
+                      "MDCCCXIX",
+                      "DCXLIX",
+                      "XCIX",
+                      "XLVI"]
+                        
+            for r in tests:
+                self.assertEqual(romanToArabic(r), self._romanToArabic(r), 'Testing romanToArabic("' + r + '")')
+                
+            tests = [ 1983, 1819, 649, 99, 46]
+                        
+            for a in tests:
+                self.assertEqual(arabicToRoman(a), self._arabicToRoman(a), 'Testing arabicToRoman("' + str(a) + '")')
+                    
+    myTests().main()

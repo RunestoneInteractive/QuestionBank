@@ -1,0 +1,19 @@
+.. mchoice:: pe3_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/test3
+   :from_source: F
+   :answer_a: There is no difference.
+   :answer_b: Abstract classes can have methods with bodies (code in them), but interfaces can not.
+   :answer_c: Abstract classes can be instantiated, while interfaces can not.
+   :answer_d: Abstract classes can be extended, but interfaces can not.
+   :answer_e: Abstract classes can declare abstract methods, but interfaces can not.
+   :correct: b
+   :feedback_a: An interface is a special type of abstract class that only has public abstract methods.
+   :feedback_b: Abstract classes can have both abstract and non abstract methods, interfaces can only have abstract methods.
+   :feedback_c: You can't create an object of an abstract class type or of an interface type.  You can declare an object to be of either an abstract class type or an interface type (like declaring an ArrayList object as a List).
+   :feedback_d: Interfaces can be extended (one interface can inherit from another interface).
+   :feedback_e: The only type of method that you can have in an interface is an abstract method.
+
+   What is the difference between an interface and an abstract class?

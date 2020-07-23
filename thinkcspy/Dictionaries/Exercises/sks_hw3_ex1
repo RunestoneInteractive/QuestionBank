@@ -1,0 +1,28 @@
+.. activecode:: sks_hw3_ex1
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Dictionaries/Exercises
+    :from_source: F
+    :language: python
+
+    Write a function called ``countALL(text)`` that returns a dictionary with the key as the 
+    letter and the value as the number of times each letter appears in a given string.
+
+    Example: ``print(countAll("BaNaNa"))`` will return the dictionary ``{'b': 1, 'a': 3, 'n': 2}``
+
+    Test your function my calling the function with various example text inputs in the main function.
+
+    ~~~~
+        
+    def countAll(text):
+        # your code here
+
+    def main():
+        # your test code here
+
+    if __name__ == "__main__":
+        main()
+        
+    ====
+ 

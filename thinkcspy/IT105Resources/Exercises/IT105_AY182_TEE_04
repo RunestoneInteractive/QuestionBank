@@ -1,0 +1,87 @@
+.. activecode:: IT105_AY182_TEE_04
+    :author: Tom Babbitt
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    The function ``statusOfAPFT(score)`` has an integer as a parameter. This is a Cadet's APFT score with a value from 0 to 300. If the score is greater than or equal to 180, the function will **return** the string ``"pass"``. If the score is less than 180, the **return** value is the string ``"fail"``. 
+
+    Examples:
+	
+    ::
+      
+      print(statusOfAPFT(200))
+      print(statusOfAPFT(179))
+
+    Results:	
+  
+    ::
+	  
+      pass
+      fail
+	
+    **Notes:** 
+
+    #. Do not delete or modify provided code. Add lines as necessary.  
+
+    #. You can delete the ``pass`` lines below or leave it in the code. It does not do anything other serve as a line in a function body to avoid a syntax error.
+    ~~~~
+    def statusOfAPFT(score):
+        pass
+        # write your code here
+   
+    ====
+    import re
+    import random
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        # counts how many instances of 'keyword'
+        def count_code(self, code, keyword):
+            cnt = 0
+            for line in code.splitlines():
+                words = line.split()
+                for val in words:
+                    if val.find(keyword) >= 0:
+                        cnt = cnt + 1
+            return(cnt)
+
+        def golden_func(self, score):
+            status = "fail"
+            if score >= 180:
+               status = "pass"
+            return(status)  
+
+        def result(self, func,*args,**kwargs):
+            import sys
+            from StringIO import StringIO
+            oldout = sys.stdout
+
+            try:
+               out = StringIO()
+               sys.stdout = out
+               ret = func(*args,**kwargs)
+               return ret
+            finally:
+               sys.stdout = oldout
+
+        def testOne(self):
+            numTests = 8
+            editText = self.getEditorText()
+            r = self.result(statusOfAPFT,180)
+            self.assertEqual(r, self.golden_func(180), "Score = " + str(180) + " your function output: " + str(r))
+            for i in range(0,numTests):
+                 if (i < numTests//2):
+                    s = random.randint(180,300)
+                 else:
+                    s = random.randint(1,179)
+                 answer = self.golden_func(s)
+                 cdt_answer = self.result(statusOfAPFT,s)
+                 self.assertEqual(cdt_answer, answer, "Score = " + str(s) + " your function output: " + str(cdt_answer))
+            self.assertEqual(self.count_code(editText, 'if'), 1, "Checking for usage of selection.")
+    myTests().main()

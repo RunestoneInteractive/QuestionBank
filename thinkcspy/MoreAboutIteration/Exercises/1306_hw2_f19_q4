@@ -1,0 +1,23 @@
+
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_hw2_f19_q4
+    :language: python
+
+    Write a program that prompts the user for 3 numbers, and then prints the largest and 
+    the smallest of the 3 numbers. 
+
+    Example of the program execution:
+    ::
+
+        First Number: 20
+        Second Number: 10
+        Third Number: 30
+        Smallest Number is 10
+        Greatest Number is 30
+
+    ~~~~
+    # Write your code here

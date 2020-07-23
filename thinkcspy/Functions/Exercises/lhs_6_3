@@ -1,0 +1,58 @@
+.. activecode:: lhs_6_3
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function called ``listStdDev`` that returns the standard deviation of a list of numbers.
+    Create a ``listAvg`` function that returns the average of a list of numbers. Create a ``listCount`` function
+    that returns the number of elements in the list. The ``listStdDev`` function should use both the ``listAvg``
+    and the ``listCount`` functions.
+
+    The equation for standard deviation is:  StdDev = square root of average of (x_i - mean)^2 
+
+      1.  Find the mean of the numbers using the ``listAvg`` function
+      2.  For each number, find the "squared difference" which is the (number - mean)^2
+      3.  Find the average of these "squared differences" - you do not need to use the ``listAvg`` function for this
+      4.  Take the square root of the average (use x^(0.5))
+
+    See http://www.mathsisfun.com/data/standard-deviation-formulas.html
+
+    Example: ``listStdDev([1, 2, 3, 6, 7, 8])`` is 2.62995563968
+
+    ~~~~
+    # My Name:
+
+    # write your code here
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    import re
+    from unittest.gui import TestCaseGui
+        
+    class myTests(TestCaseGui):
+               
+        def golden_stdDev(self, list):
+            mean = sum(list) / len(list)
+            count = len(list)
+            square_diff = 0
+            for n in list:
+                square_diff = square_diff + (n - mean)**2
+            return((square_diff / count)**0.5)
+    
+        def testOne(self):
+            editText = self.getEditorText()
+            l = [4, 6, 9, 2, 1, 10, 13, 20]
+            self.assertEqual(self.golden_stdDev(l), listStdDev(l), "List 1 OK")
+            self.assertEqual(self.golden_stdDev([5]), listStdDev([5]), "List 2 OK")
+            self.assertEqual(0, len(re.findall("len\(", editText)), "No len() function")
+            self.assertEqual(0, len(re.findall("sum\(", editText)), "No sum() function")
+            code = re.findall("\s*def \s*listStdDev[\s\S]*?return[\s\S]*?$", editText)
+            self.assertIn("listAvg", code[0], "listAvg used in listStdDev function")
+            self.assertIn("listCount", code[0], "listCount used in listStdDev function")
+
+    myTests().main()

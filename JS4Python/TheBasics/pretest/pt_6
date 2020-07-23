@@ -1,0 +1,14 @@
+.. mchoice:: pt_6
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :topic: TheBasics/pretest
+    :from_source: T
+    :answer_a: if (i == 5)
+    :answer_b: if i = 5 then
+    :answer_c: if i = 5:
+    :answer_d: if i == 5 then
+    :correct: a
+
+    How to write an IF statement in JavaScript?
+

@@ -1,0 +1,14 @@
+.. activecode:: ac300_1_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: NestedData/WPExtractFromNestedData
+   :from_source: T
+   :include: ac300_1_1
+
+   print(type(res))
+   print(res.keys())
+   res2 = res['statuses']
+   print("----Level 2-----")
+   print(type(res2)) # it's a list!
+   print(len(res2))

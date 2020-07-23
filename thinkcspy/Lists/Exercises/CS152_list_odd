@@ -1,0 +1,34 @@
+.. actex:: CS152_list_odd
+    :author: John Cigas
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :practice: T
+    :autograde: unittest
+    :nocodelens:
+
+    Write a fruitful function called ``list_odd(aList)`` that takes a list of numbers as an argument
+    and returns a list with only the odd numbers. Use a for loop and the accumulator pattern.
+    ~~~~
+
+    def list_odd(aList):
+        # your code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+         def testOne(self):
+
+             l1 = [2,3, 4, 5]
+             self.assertEqual(list_odd(l1),[3, 5],str(l1))
+             l2 = [9]
+             self.assertEqual(list_odd(l2),[9],str(l2))
+             l3 = [2, 4]
+             self.assertEqual(list_odd(l3),[],str(l3))
+             # Should check for contains empty list [] symbol
+
+
+    myTests().main()

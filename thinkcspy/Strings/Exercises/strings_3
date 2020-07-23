@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: strings_3
+  
+    Describe what the ‘*’ operator does when used with a string.
+ 
+    ~~~~
+    

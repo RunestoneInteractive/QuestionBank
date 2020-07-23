@@ -1,0 +1,14 @@
+.. activecode:: htmltest1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: instructorguide
+   :topic: Directives/activecodeOther
+   :from_source: T
+   :language: htmlmixed
+   :nocodelens:
+
+   <ul>
+   <li>This is an unordered list</li>
+   <li>The <code>li</code> tags come between two <code>ul</code> tags
+   </ul>
+

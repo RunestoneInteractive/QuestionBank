@@ -1,0 +1,20 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_2
+  
+    What would each boolean expression above evaluate to given the 
+    following values for each variable:
+ 
+         	num = 8
+
+         	randnum = 5
+
+         	num1 = 3, num2 = 7
+
+
+    ~~~~
+    

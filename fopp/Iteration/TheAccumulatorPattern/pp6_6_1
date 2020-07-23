@@ -1,0 +1,19 @@
+.. parsonsprob:: pp6_6_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TheAccumulatorPattern
+   :from_source: T
+
+   Rearrange the code statements so that the program will add up the first n odd numbers where n is provided by the user.
+   -----
+   n = int(input('How many odd numbers would you like to add together?'))
+   thesum = 0
+   oddnumber = 1
+   =====
+   for counter in range(n):
+   =====
+      thesum = thesum + oddnumber
+      oddnumber = oddnumber + 2
+   =====
+   print(thesum)

@@ -1,0 +1,31 @@
+.. actex:: TL_365_r5_ex4
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Sequences/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Create a list called ``shopping_list`` containing any 6 shopping
+   items of your choice.  Use ``join`` to combine them in a single string
+   separated with word 'then' and print it to screen. Do not modify
+   ``shopping_list``. Make sure that there is a space between the
+   joined groceries like in: 'eggs then milk then cocoa'
+
+   ~~~~
+
+
+   ====
+
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self): 
+           output = self.getOutput().split('\n')
+	   editor = self.getEditorText().split('\n')
+	   self.assertEqual(len(shopping_list), 6, 'Checking the number of items')
+	   self.assertTrue(re.search(' then '.join(shopping_list), '\n'.join(output)), 'Checking output')
+	   self.assertFalse(re.search(r'then.*then', '\n'.join(editor)), 'Checking for hardcoding')
+   myTests().main()
+

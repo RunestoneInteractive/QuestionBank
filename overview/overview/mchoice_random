@@ -1,0 +1,29 @@
+.. mchoice:: mchoice_random
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: overview
+    :topic: overview/
+    :from_source: T
+    :random:
+
+    What numbers are less than 3?
+
+    -   0
+
+        +   Correct.
+
+    -   1
+
+        +   Correct.
+
+    -   2
+
+        +   Correct.
+
+    -   3
+
+        -   Incorrect.
+
+    -   4
+
+        -   Incorrect.

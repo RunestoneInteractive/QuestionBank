@@ -1,0 +1,28 @@
+.. activecode:: h1_q7
+   :author: Irma Ravkic
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :coach:
+   
+   Consider the code below. From line ``1-5`` you have a function 
+   called ``even`` that checks whether a number is even or not. If it 
+   is even, the function returns true, otherwise it returns false. In 
+   line ``7`` there is a variable called ``a`` and is initialized to value 
+   ``4``. Modify the code below so to:
+
+   1. Call function ``even`` to check whether ``a`` is even or not 
+   and print the result to make sure you have it right.
+   
+   2. Increment ``a`` by one and call the function again and print 
+   the result again.
+   ~~~~
+   def even(num):
+        if(num % 2 == 0):
+               return True
+        else:
+               return False
+
+   a = 4
+    

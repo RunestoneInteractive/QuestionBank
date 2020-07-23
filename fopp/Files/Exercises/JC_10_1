@@ -1,0 +1,13 @@
+.. actex:: JC_10_1
+   :author: Joaquin Carbonara
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Files/Exercises
+   :from_source: F
+   :nocodelens:
+   :available_files: travel_plans.txt
+
+   Read in the file ``travel_plans.txt``. Then print ONLY the lines from that file that contain a country followed by cities. Do not hard-code. Use the fact that those lines have the character ":".
+   ~~~~
+
+   =====

@@ -1,0 +1,12 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_11
+  
+    How many 'if' statements can be contained in a chained conditional?
+
+    ~~~~
+    

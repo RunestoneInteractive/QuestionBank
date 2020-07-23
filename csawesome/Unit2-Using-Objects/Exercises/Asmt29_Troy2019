@@ -1,0 +1,77 @@
+
+   :author: Shawn Haarer
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+.. activecode:: Asmt29_Troy2019
+   :language:  java
+
+   You will need to write four lines of code in the main() method to 
+   complete this assignment.  main()  is located near the bottom
+   of the code.
+
+   Your program should create two java students
+   and display the student information for each.
+   ~~~~
+    /**
+     * The JavaStu class will allow you to create a JavaStu object
+     * with a name and an email address.  
+     * 
+     * You can then print out the information about the student
+     * using the printStu() method  
+     *
+     * @author (your name)
+     * @version (a version number or a date)
+     */
+    
+    public class JavaStu
+    {
+        // instance variables
+        private String name;    // Java student name
+        private String email;   // Java student email
+    
+        /**
+         * Constructor for objects of class JavaStu
+         */
+        public JavaStu(String nextName, String nextEmail)
+        {
+            name = nextName;
+            email = nextEmail; 
+        }
+    
+        
+            
+        /**
+         * This method will display the java student info.
+         */
+        
+        public void printStu()
+        {
+            System.out.println(name + " is a Java Student"); 
+            System.out.println("With the email:  " + email); 
+            System.out.println();
+        }
+        
+        
+        
+        public static void main(String [] args)
+        {
+            System.out.println("\nWelcome to the Java Student program\n"); 
+            
+            // Write two lines of code that will create two java students
+            // You can make up names and emails of your choice 
+            
+
+            
+            // Use the printStu() method to display the information for each 
+            // java student that you created
+
+            
+            System.out.println("\nThis completes the Java Student 
+            program."); 
+           
+        }
+
+    ====
+    

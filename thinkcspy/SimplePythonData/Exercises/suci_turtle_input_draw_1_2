@@ -1,0 +1,11 @@
+
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. actex:: suci_turtle_input_draw_1_2
+
+   Prompt the user for height and width then make turtle to draw the rectangle of that size.
+   ~~~~
+   # put code here 

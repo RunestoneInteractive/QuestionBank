@@ -1,0 +1,103 @@
+.. activecode:: IT105_AY182_TEE_102
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: IT105Resources/Exercises
+   :from_source: F
+   :language: python
+   :nocodelens:
+   
+   In Craps, the "point" is established when the first toss of two dice is 4, 5, 6, 8, 9, or 10. Once the second phase of the game begins, 
+   the player continues to role the two dice until he or she wins by rolling the same number again or loses by rolling a 7.
+
+   For the second phase, you are tasked to create a function called ``craps(point)`` that has an integer as a parameter. This integer is the established "point". 
+   The function will simulate rolling two dice d1 and d2 one time. The function will **return** the following string based on the value of d1 and d2. 
+
+   #. If the sum of the dice is equal to the "point". The **return** string is "You rolled a d1 and d2. You win!"
+
+   #. If the sum of the dice is equal to 7. The **return** string is "You rolled a d1 and d2. You lose!"
+
+   #. All other values. The **return** string is "You rolled a d1 and d2. Reroll!"
+
+   Example:
+
+   ::
+
+      print(craps(5))
+       
+      
+   Results:
+
+   ::
+   
+      ###This will be different each time the program is run.
+      ###Example for case 1 above
+      You rolled a 4 and a 1. You win!
+      
+      ###Example for case 2 above
+      You rolled a 6 and a 1. You lose!
+
+      ###Example for case 3 above
+      You rolled a 2 and a 1. Reroll!
+
+   **Notes:** 
+
+   #. ``point`` must be 4, 5, 6, 8, 9, or 10.
+
+   #. If you cannot get the Python to work, please describe in comments the steps to solve the problem.
+ 
+   #. You can delete the ``pass`` lines below or leave it in the code. It does not do anything other serve as a line in a function body to avoid a syntax error.
+   ~~~~
+   import random
+   def craps(point):
+      pass
+      ###write your code here.
+   
+   
+   
+   ====
+   import random
+   import re
+   from unittest.gui import TestCaseGui
+  
+   class myTests(TestCaseGui):
+
+   # counts how many instances of 'keyword'
+      def count_code(self, code, keyword):
+         cnt = 0
+         for line in code.splitlines():
+            words = line.split()
+            for val in words:
+               if val.find(keyword) >= 0:
+                  cnt = cnt + 1
+         return(cnt)
+         
+      def golden_func(self,p):
+         d1 = random.randint(1,6)
+         d2 = random.randint(1,6)
+         sumOfDice = d1 + d2
+         if sumOfDice == 7:
+	    value = "You lose!"
+         elif sumOfDice == p:
+	    value = "You win!"
+         else:
+	    value = "Reroll!"
+         return "You rolled a " + str(d1) + " and a " + str(d2) + ". " + value
+
+      def testOne(self):
+         count = 0
+         editText = self.getEditorText()
+         for i in range(0,5):
+            pValue =[4,5,6,8,9,10]
+            point = random.choice(pValue)
+            random.seed(i*47)
+            answer = self.golden_func(point)
+            random.seed(i*47)
+            count+=1
+            self.assertEqual(craps(point), answer, "Random try # " + str(count) + "; point = " + str(point))
+         self.assertGreaterEqual(self.count_code(editText, 'return'), 1, "Checking for a return statement")
+         self.assertGreaterEqual(len(re.findall("randrange\s*\(\s*1\s*,\s*7\s*\)", editText)) + len(re.findall("randint\s*\(\s*1\s*,\s*6\s*\)", editText)), 2, "Checking for randint or rangerange and proper parameters")
+         #self.assertGreaterEqual(self.count_code(editText, 'randint') + self.count_code(editText, 'randrange') , 2, "Checking for a return statement")
+
+   myTests().main()  
+    

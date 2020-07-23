@@ -1,0 +1,11 @@
+.. activecode:: ch04_4
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: Functions/Functionsthatreturnvalues
+    :from_source: None
+    :nocanvas:
+
+    print(abs(5))
+
+    print(abs(-5))

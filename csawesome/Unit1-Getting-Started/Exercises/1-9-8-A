@@ -1,0 +1,24 @@
+.. mchoice:: 1-9-8-A
+   :author: Beryl Hoffman
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: A random number from -1 to 0
+   :answer_b: A random number from -5 to 0
+   :answer_c: A random number from -5 to -1
+   :answer_d: It will give a compile-time error.
+   :correct: b
+   :feedback_a: x will be between 0 and 5.
+   :feedback_b: x will be between 0 and 5, and number will be between -5 and 0.
+   :feedback_c: x will be between 0 and 5.
+   :feedback_d: There are no compile errors.
+
+   Given the following code segment, what is the value of ``number`` when it finishes executing?
+
+   Math.random() returns a decimal number between 0 (inclusive) and 1 (exclusive).
+
+   .. code-block:: java
+
+    double x = Math.random() * 5;
+    int number = (int) (x - 5);

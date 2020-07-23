@@ -1,0 +1,11 @@
+.. actex:: ex_9_11
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: Lists/Exercises
+   :from_source: None
+
+   Count how many words occur in a list up to and including the first occurrence of the word "sam".
+   ~~~~
+   def count(lst):
+       # your code here

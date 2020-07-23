@@ -1,0 +1,28 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+.. activecode:: CCS_rounding_exercise
+
+   You are probably already familiar with the idea of 'rounding' a number to the nearest integer. Python has a built-in function for this, but it would be helpful to think about how you might write such an algorithm yourself. Remember that when we round a number to the nearest integer, we are either making it larger or smaller depending on whether the decimal part of its value is greater or less than 0.5.
+   
+   | 
+   
+   **Complete the code below to create a program that:**
+   
+   #. asks the user for a decimal value, 
+   #. stores it as a float, 
+   #. rounds it to the nearest integer, and 
+   #. prints the response.
+
+   **NOTE: The IF statement is not permitted. Likewise, comparison operators are not permitted. You should do this using just the basic operators you have studied so far.**
+   ~~~~
+   user_float = float(input("Please enter a number with a decimal:\n"))
+
+   # YOUR CODE HERE
+
+   rounded = 0 # FIXME
+
+   print("The nearest integer is:", rounded)

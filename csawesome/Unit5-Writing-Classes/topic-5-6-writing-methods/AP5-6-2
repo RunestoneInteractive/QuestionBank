@@ -1,0 +1,77 @@
+.. mchoice:: AP5-6-2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csawesome
+    :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
+    :from_source: T
+    :practice: T
+
+    Consider the Liquid class below.
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+            private int currentTemp;
+            private int boilingPoint;
+
+            public Liquid(int ct, int bp)
+            {
+                currentTemp = ct;
+                boilingPoint = bp;
+            }
+
+            public boolean isBoiling(int amount)
+            {
+                /* missing code */
+            }
+        }
+
+    The isBoiling method is intended to return true if increasing the currentTemp by the parameter amount is greater than or equal to the boilingPoint, or otherwise return false. Which of the following code segments can replace *missing code* to ensure that the isBoiling method works as intended?
+
+    .. code-block:: java
+
+       I.   if (currentTemp + amount < boilingPoint)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+       II.  if (amount > currentTemp)
+            {
+                return false;
+            }
+            else
+            {
+                return currentTemp;
+            }
+       III. if (amount + currentTemp >= boilingPoint)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+    - I only
+
+      - I would work but it is not the only code that would work.
+
+    - II only
+
+      - II does not check against the boilingPoint and does not return only boolean values.
+
+    - III only
+
+      - III would work but it is not the only code that would work.
+
+    - I and III only.
+
+      + Correct!
+
+    - I, II, III
+
+      - II does not check against the boilingPoint and does not return only boolean values.

@@ -1,0 +1,16 @@
+
+    :author: Brian Powell
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Classes/Exercises
+    :from_source: F
+.. activecode:: wvu_classes_method
+    :autograde: unittest
+
+    Use the code for the **Vehicle** class as a starting point. Add a method (function) named **vehicle_info()** that returns a string containing the year, make, and model like "2015 Dodge Journey".
+
+    Create an instance of the Vehicle class. Call **vehicle_info()** and print the result.
+
+    ~~~~
+
+    ====

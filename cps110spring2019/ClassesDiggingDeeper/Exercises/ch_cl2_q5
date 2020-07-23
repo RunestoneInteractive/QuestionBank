@@ -1,0 +1,17 @@
+.. actex:: ch_cl2_q5
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: ClassesDiggingDeeper/Exercises
+   :from_source: None
+
+   Write a ``transpose`` method in the Rectangle class that swaps the width
+   and the height of any rectangle instance::
+
+      r = Rectangle(Point(100, 50), 10, 5)
+      test(r.width, 10)
+      test(r.height, 5)
+      r.transpose()
+      test(r.width, 5)
+      test(r.height, 10)
+   ~~~~

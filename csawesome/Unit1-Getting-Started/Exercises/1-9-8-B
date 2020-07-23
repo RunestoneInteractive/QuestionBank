@@ -1,0 +1,24 @@
+.. mchoice:: 1-9-8-B
+   :author: Beryl Hoffman
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: It will give a compile-time error.
+   :answer_b: A random number from -10.0 to -7.0
+   :answer_c: A random number from -10 to -8
+   :answer_d: A random number from -10.0 to -8.0
+   :correct: a
+   :feedback_a: Math.random() does not take an argument. To create a random number between 0 - 3, do (int) (Math.random()*3)
+   :feedback_b: There are syntax errors here.
+   :feedback_c: There are syntax errors here.
+   :feedback_d: There are syntax errors here.
+
+   Given the following code segment, what is the value of ``number`` when it finishes executing?
+
+   Math.random() returns a decimal number between 0 (inclusive) and 1 (exclusive).
+
+   .. code-block:: java
+
+    int x = Math.random(3);
+    double number = (double) (x - 10);

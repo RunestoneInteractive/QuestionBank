@@ -1,0 +1,42 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermCopyNonWhitePixels
+   :adaptive:
+   :numbered: left
+
+   The code below is supposed to copy the pixels that are not close to the color white from img1 to img2.  Put the code in the correct order.
+   -----
+   from image import *
+   =====
+   # CREATE THE IMAGES
+   img1 = Image("lady_tiny.png")
+   img2 = Image("eiffel.jpg")
+   =====
+   # LOOP THROUGH ALL THE PIXELS IN IMG1
+   for x in range(img1.getWidth()):
+       for y in range(img1.getHeight()):
+   =====
+           p1 = img1.getPixel(x, y)
+           r1 = p1.getRed()
+           g1 = p1.getGreen()
+           b1 = p1.getBlue()
+   =====
+           # CHECK IF THE PIXEL ISN'T WHITE
+           if r1 < 250 and g1 < 250 and b1 < 250:
+   =====
+               # COPY THE COLOR TO IMG2
+               img2.setPixel(x, y + 130, p1)
+   =====
+   # SHOW THE CHANGED IMAGE
+   win = ImageWin(img2.getWidth(),img2.getHeight())
+   img2.draw(win)
+ 
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

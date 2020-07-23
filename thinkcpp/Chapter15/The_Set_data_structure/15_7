@@ -1,0 +1,80 @@
+.. activecode:: 15_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter15/The_Set_data_structure
+   :from_source: T
+   :language: cpp
+
+   #include <iostream>
+   #include <string>
+   #include <vector>
+   using namespace std;
+
+   class Set {
+   private:
+     vector<string> elements;
+     int numElements;
+
+   public:
+     Set (int n);
+
+     int getNumElements () const;
+     string getElement (int i) const;
+     int find (const string& s) const;
+     int add (const string& s);
+   };
+
+   Set::Set (int n)
+   {
+     vector<string> temp (n);
+     elements = temp;
+     numElements = 0;
+   }
+
+   int main() {
+     Set cities(2);
+     cities.add("Detroit");
+     cities.add("Ann Arbor");
+     cout << cities.getElement(0);
+   }
+
+   ====
+
+   int Set::getNumElements () const {
+     return numElements;
+   }
+
+   string Set::getElement (int i) const {
+     if (i < numElements) {
+       return elements[i];
+     }
+     else {
+      cout << "Set index out of range." << endl;
+      exit (1);
+     }
+   }
+
+   int Set::find (const string& s) const {
+     for (int i=0; i<numElements; i++) {
+       if (elements[i] == s) return i;
+     }
+     return -1;
+   }
+
+   int Set::add (const string& s) {
+     int index = find (s);
+     if (index != -1) return index;
+
+     size_t num = numElements;
+
+     if (num == elements.size()) {
+       elements.resize (elements.size() * 2);
+     }
+
+     index = numElements;
+     elements[index] = s;
+     numElements++;
+     return index;
+   }
+

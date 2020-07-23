@@ -1,0 +1,25 @@
+
+   :author: Eric Reed
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+.. actex:: ermHW
+   :autograde: unittest
+
+   Write a program below that outputs "Hi There!"
+   ~~~~
+
+   hi
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertIn(self.getOutput(),"Hello World\n", "hi" )
+
+   myTests().main()
+
+    

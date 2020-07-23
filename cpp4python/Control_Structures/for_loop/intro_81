@@ -1,0 +1,27 @@
+.. activecode:: intro_81
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cpp4python
+   :topic: Control_Structures/for_loop
+   :from_source: F
+   :language: cpp
+
+   // Concatenates every character from a vector of strings
+   // to another string, then prints it.
+   #include <iostream>
+   #include <vector>
+   #include <string>
+   using namespace std;
+
+    int main() {
+        vector<string> wordList = {"cat", "dog", "rabbit"};
+        string letterlist;
+
+        for (size_t i = 0; i < wordList.size(); i++) {
+                for (size_t j = 0; j < wordList[i].size(); j++) {
+                        letterlist.push_back(wordList[i][j]);
+                }
+        }
+
+        cout << letterlist << endl;
+    }

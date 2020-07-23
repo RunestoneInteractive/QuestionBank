@@ -1,0 +1,33 @@
+.. activecode:: alt_execution_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter4/AlternativeExecution
+   :from_source: T
+   :language: cpp
+   :caption: Even or Odd?
+
+   This program shows you how the print parity function works.
+   Feel free to modify the values of number and otherNumber to
+   see how the output is changed.
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   void printParity (int x) {
+       if (x % 2 == 0) {
+           cout << "x is even" << endl;
+       }
+       else {
+           cout << "x is odd" << endl;
+       }
+   }
+
+   int main () {
+       int number = 17;
+       printParity(number);
+       int otherNumber = 18;
+       printParity(otherNumber);
+       return 0;
+   }
+

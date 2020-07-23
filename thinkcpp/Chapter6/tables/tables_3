@@ -1,0 +1,11 @@
+.. fillintheblank:: tables_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter6/tables
+    :from_source: T
+
+    How would you write a tab character?
+
+    - :(?:\\t): Correct!
+      :.*: Try again!

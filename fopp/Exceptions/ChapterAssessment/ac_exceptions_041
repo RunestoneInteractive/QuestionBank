@@ -1,0 +1,35 @@
+.. activecode:: ac_exceptions_041
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Exceptions/ChapterAssessment
+   :from_source: T
+   :tags: Exceptions/intro-exceptions.rst
+   :practice: T
+   :topics: Exceptions/intro-exceptions.rst
+
+   Provided is a buggy for loop that tries to accumulate some values out of some dictionaries. Insert a try/except so that the code passes. If the key is not there, initialize it in the dictionary and set the value to zero.
+   ~~~~
+
+   di = [{"Puppies": 17, 'Kittens': 9, "Birds": 23, 'Fish': 90, "Hamsters": 49}, {"Puppies": 23, "Birds": 29, "Fish": 20, "Mice": 20, "Snakes": 7}, {"Fish": 203, "Hamsters": 93, "Snakes": 25, "Kittens": 89}, {"Birds": 20, "Puppies": 90, "Snakes": 21, "Fish": 10, "Kittens": 67}]
+   total = 0
+   for diction in di:
+       total = total + diction['Puppies']
+
+   print("Total number of puppies:", total)
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         accum = 0
+         for diction in di:
+              if 'Puppies' in diction:
+                  accum += 1
+         self.assertEqual(accum, 4, "Testing that every dictionary in di has the key 'Puppies'.")
+
+   myTests().main()

@@ -1,0 +1,26 @@
+.. activecode:: assess_ac3_1_1_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Conditionals/week3a1
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   Create the variable ``z`` whose value is ``30``. Write code to see if ``z`` is greater than ``y``. If so, add 5 to ``y``'s value, otherwise do nothing. Then, multiply ``z`` and ``y``, and assign the resulting value to the variable ``x``.
+   ~~~~
+   y = 22
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(x, 810, "Testing the value of x")
+      def testTwo(self):
+         self.assertEqual(z, 30, "Testing the value of z.")
+
+   myTests().main()

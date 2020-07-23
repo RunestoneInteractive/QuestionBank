@@ -1,0 +1,23 @@
+.. activecode:: ac6_6_8
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Iteration/TheAccumulatorPattern
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Given the list of numbers, ``numbs``, create a new list of those same numbers increased by 5. Save this new list to the variable ``newlist``.
+   ~~~~
+   numbs = [5, 10, 15, 20, 25]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFour(self):
+         self.assertEqual(newlist, [10, 15, 20, 25, 30], "Testing that the newlist value contains the correct elements.")
+
+   myTests().main()

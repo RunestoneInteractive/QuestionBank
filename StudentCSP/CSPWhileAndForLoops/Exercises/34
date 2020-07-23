@@ -1,0 +1,44 @@
+.. parsonsprob:: 34
+    :author: Renske Weeda
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [34]Het volgende programma moet de kleinste waarde uit een lijst afdrukken. Maar de blokken staan in de verkeerde volgorde. Er staat 1 overbodige regel code tussen. Sleep de benodigde code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    getallenLijst = [3,8,12,-4]
+    index = 0
+    =====
+    min  = getallenLijst[0]
+    =====
+    min  = 0 #paired
+    =====
+    while index < len(getallenLijst):
+    =====
+    while index < len(getallenLijst)-1: #paired
+    =====
+        getal = getallenLijst[index]
+        =====
+        getal = getallenLijst[index]-1 #paired
+        =====
+        if getal < min:
+        =====
+        if getal > min: #paired
+        =====
+            min = getal
+            =====
+            getal = min #paired
+        =====
+        index += 1
+        =====
+        index = min #paired
+        =====
+    print( min )
+    =====
+    getal += 1 #distractor
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div

@@ -1,0 +1,47 @@
+.. activecode:: 1306_hw2_f19_q6
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Write a program to play the "guess the number" game. Your program should use the ``random``
+   module to pick a magic (random) number between 1 and 100 and the user will try to 
+   guess the number in as few guesses as possible. The program will keep asking for a 
+   guess until the magic number is entered by the user. The program will also give hints to the 
+   user (hot or cold) based on whether the new guess is closer or further to the magic number compared to 
+   the previous guess.  For the first guess, it will be assumed the "previous guess" is 50. The program will 
+   output the number of guesses.
+   
+   Hint: You can print using a variable while using the function input() so display information while seeking input in the online Python interpreter. 
+   
+   Example:
+   
+   show_message = “What is your name?”
+   
+   x = input(show_message)
+
+   Below is a sample run of how the program should proceed:
+
+   ::
+
+     I am thinking of a number between 1 and 100.
+     Can you guess what the number is?
+     Enter your guess:
+     40
+     Cold!
+     Enter your guess:
+     75
+     Hot!
+     Enter your guess:
+     87
+     Hot!
+     Enter your guess:
+     82
+     You win!
+     You solved it in 4 guesses.
+
+   ~~~~
+   # Write your code here
+
+   ====

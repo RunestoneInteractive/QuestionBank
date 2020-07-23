@@ -1,0 +1,17 @@
+.. activecode:: ExamenVraag1
+    :author: Jan Persan
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+
+    Vraag 1
+    ~~~~
+    import turtle
+    import random
+    import math
+    wn=turtle.Screen()
+    #Jouw code komt hier
+
+ 

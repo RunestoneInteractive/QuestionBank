@@ -1,0 +1,17 @@
+.. mchoice:: question15_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter15/Streams
+   :from_source: T
+   :answer_a: an abstract object that works exclusively with cin and cout statements
+   :answer_b: an abstract object on which input and ouput operations are performed
+   :answer_c: an abstract object that works only with file data
+   :answer_d: an abstract object that controls the flow of statements
+   :correct: b
+   :feedback_a: Incorrect! Stream objects do work with cin and cout, but that is not all that they do!
+   :feedback_b: Correct!
+   :feedback_c: Incorrect! Stream objects do work with file data, but they do other things too.
+   :feedback_d: Incorrect! This is not at all what stream objects do, you should try re-reading to get a better understanding!
+
+   What is a stream object?

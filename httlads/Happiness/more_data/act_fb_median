@@ -1,0 +1,13 @@
+.. fillintheblank:: act_fb_median
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/more_data
+   :from_source: T
+
+   Using a pivot table, find the median value of the Life Ladder column for each
+   region. The median value for South Asia is |blank| to 3 decimal places.
+
+   - :4.320: Is the correct answer
+     :x: You should have a Life Ladder column summarized by Median
+

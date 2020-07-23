@@ -1,0 +1,19 @@
+.. mchoice:: 3-11-7-B 
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: x = 0;
+   :answer_b: x >= 0;
+   :answer_c: if (x > 5) x += 2; else x = 0;
+   :answer_d: if (x < 2) x = 0; else x += 2;
+   :answer_e: None of the above
+   :correct: e
+
+   Which of the following is equivalent to the code segment below?
+
+   .. code-block:: java
+
+    if ( x > 5 ) x = x + 2;
+    if ( x >= 2 ) x = 0;

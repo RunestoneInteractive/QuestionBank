@@ -1,0 +1,37 @@
+.. activecode:: ctp_nov13_ex1
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+    :language: python
+
+    Write a program that asks user to enter a sentence and then capitalizes the first letter of each word in the line
+    as in a title header of a newspaper. The first word is always capitalized. Special words are
+    not capitalized - such as 'a', 'the', etc.
+
+    A list ``specialWords`` is in the code below which contains all the special words that are **not**
+    to be capitalized (unless it is the first word of the title).
+
+    The function should **return** a string of the capitalized line.
+
+    Example inputs:
+
+    ::
+
+      The Story of the Amazing Rat
+      A Battle That Will Never Be Forgotten
+      In the Beginning of Time
+
+    ~~~~
+    import string
+    
+    # the list of special words - you can use this as a global variable
+    # within your function
+    specialWords = ['a', 'an', 'the', 'at', 'by', 'for', 'in', 
+                   'of', 'on', 'to', 'up', 'and', 'as', 
+                   'but', 'or', 'nor']
+    
+    # write your code here
+    
+    ====

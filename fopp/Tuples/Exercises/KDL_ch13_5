@@ -1,0 +1,26 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Tuples/Exercises
+   :from_source: F
+.. activecode:: KDL_ch13_5
+   :autograde: unittest
+   :language: python
+
+   Create a function ``tuplize`` that accepts two inputs and returns them in a tuple. The first input and then the second.
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertTrue('def' in self.getEditorText(), 'function defined')
+           self.assertTrue(tuplize(1,2)==(1,2), '1st situation checked')
+           self.assertTrue(tuplize('cat','dog')==('cat','dog'), '2nd situation checked')
+
+   myTests().main()   

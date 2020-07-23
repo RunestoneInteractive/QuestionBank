@@ -1,0 +1,14 @@
+.. activecode:: IT105R0_1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/IT105_DocExamples
+    :from_source: F
+    :nocanvas:
+
+    #Smith JA CDT A-1 '16. 2018 Jan 3. Assistance given to the author,
+    #verbal discussion.  After class, CDT Smith and I discussed the best
+    #way to draw a circle in the bullsEye program. He decided to create
+    #a function that would draw a circle by first taking a center point's coordinates as input.
+    #I agreed and created my own function called drawCircle that took the
+    #center coordinate as input in my own program. West Point, NY.

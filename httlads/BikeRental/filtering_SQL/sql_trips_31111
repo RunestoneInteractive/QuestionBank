@@ -1,0 +1,12 @@
+.. fillintheblank:: sql_trips_31111
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: httlads
+    :topic: BikeRental/filtering_SQL
+    :from_source: F
+
+    Get the ending station and the duration of all of the bike trips originating at station ``31111`` that lasted 8 hours or more.  How many trips match the criteria above?
+
+    - :21: Is the correct answer
+      :20|22: Close, but count again
+      :x: Incorrect 8 hours is 28,800 seconds

@@ -1,0 +1,20 @@
+.. activecode:: ac13_6_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: PythonModules/ChapterAssessment
+   :from_source: F
+
+   str1 = "ab532dcrkjoe579ldije1344kl"
+   resp = []
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOneA(self):
+         self.assertEqual(resp, ['letter', 'letter', 'number', 'number', 'number', 'letter', 'letter', 'letter', 'letter', 'letter', 'letter', 'letter', 'number', 'number', 'number', 'letter', 'letter', 'letter', 'letter', 'letter', 'number', 'number', 'number', 'number', 'letter', 'letter'], "Testing that resp is assigned to correct values.")
+
+   myTests().main()

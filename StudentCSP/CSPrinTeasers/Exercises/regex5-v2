@@ -1,0 +1,20 @@
+.. mchoice:: regex5-v2
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPrinTeasers/Exercises
+   :from_source: F
+   :multiple_answers:
+   :answer_a: ben
+   :answer_b: been
+   :answer_c: bean
+   :answer_d: beean
+   :answer_e: ban
+   :correct: b,c,d
+   :feedback_a: missing a second e or a before the n.
+   :feedback_b: matches
+   :feedback_c: matches
+   :feedback_d: matches
+   :feedback_e: missing the e after the b
+ 
+   Which of the following will match this regular expression: "be[ea]n"?

@@ -1,0 +1,34 @@
+
+   :author: Michael McCarrin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+.. activecode:: ccs_maze05
+   :include: ccs_maze00, ccs_maze03
+   
+   methodical_walker function. This is extra credit.
+   ~~~~
+   '''
+   Find the solution path from START cell to GOAL cell. This function
+   differs from random_walker in that it remembers where it has
+   been and does not go back to parts of the maze it has already
+   explored unless it hits a dead end. If it has to backtrack, it
+   removes the bad decision from its path. As a consequence, all
+   the cells in the final path advance toward the goal.
+   
+   Parameter: maze  - the maze (list representation) to search
+              start - position of the start cell
+              goal  - position of the goal cell
+           
+   Return:    the path  (list of [r,c]) from START to GOAL
+              for this algorithm, the returned path is the solution path, 
+              a shortest path from start to goal
+   '''
+   def methodical_walker(maze, start, goal):
+       path = [] 
+       # ADD CODE HERE
+    
+       return path
+   ====
+   

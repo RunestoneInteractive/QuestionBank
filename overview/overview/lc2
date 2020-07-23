@@ -1,0 +1,15 @@
+.. activecode:: lc2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: overview
+    :topic: overview/
+    :from_source: T
+    :language: cpp
+    :stdin: 100
+    :compileargs: ['-std=c++11', '-Wall', '-Wpedantic']
+
+    #include <iostream>
+    using namespace std;
+    int main() {
+        cout << "Hello World!" << endl;   cout << "Welcome to C++ Programming" << endl;
+    }

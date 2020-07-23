@@ -1,0 +1,85 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: lhs_10_12
+    :language: python
+    :autograde: unittest
+
+    Write a function ``moveToBack(sList, pattern, wildcard)`` that takes a list of strings 
+    referred to by ``sList`` and moves all the items that match ``pattern`` with a given
+    ``wildcard`` to the end of the list, preserving their order. Your function must work by
+    rearranging elements of ``lst``; do not create any additional lists. 
+
+    Use the ``match( lst, pattern, wildcard )`` function that you created previously to
+    select the correct elements of ``sList`` that will be moved.
+
+    ~~~~
+    
+    # My Name:
+
+    def match( lst, pattern, wildcard ):
+        # Put your code from the previous exercise here
+
+    def moveToBack(sList, pattern, wildcard):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def _match( self, lst, pattern, wildcard ):
+            if len(lst) > len(pattern) or len(lst) == 0:
+                return False
+
+            for i in range(len(lst)):
+                if pattern[i] != wildcard and lst[i] != pattern[i]:
+                    return False
+
+            return True
+
+        def _moveToBack(self, sList, pattern, wildcard):
+            sList.append(None)
+            i = 0
+            while sList[i] != None and i < len(sList):
+                if self._match(sList[i], pattern, wildcard):
+                    sList.append(sList.pop(i))
+                    i -= 1
+                i += 1
+            del(sList[i])
+
+        def testOne(self):
+            print('Auto-testing...')
+        
+            # Check that match is being used and works
+            code = self.getEditorText()
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+
+            res = re.findall("match\s*\(", code, re.M)
+            Found = len(res) > 1
+
+            matchWorks = match("San Jose", 'San ####', "#")
+            if not Found or not matchWorks:
+                self.assertEqual(False, True, "basic match checking failed")
+            else: 
+                lst = [
+                    ("New ????????", '?', ["New York", "New Orleans", "San Jose", "New Jersey", "San Carlos", "Houston", "San Dimas", "San Jacinto"]),
+                    ("San ????????", '?', ["New York", "New Orleans", "San Jose", "New Jersey", "San Carlos", "Houston", "San Dimas", "San Jacinto"]),
+                    ('!', '#' , [])]
+                i = 0
+                for (pat, wc, aList) in lst:
+                    i += 1
+                    expected = aList[:]
+                    self._moveToBack(expected, pat, wc)
+                    actual = aList[:]
+                    moveToBack(actual, pat, wc)
+                    self.assertEqual(actual, expected, "Test "+str(i))
+
+    myTests().main() 

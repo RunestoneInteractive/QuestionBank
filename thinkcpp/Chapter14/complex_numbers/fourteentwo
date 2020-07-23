@@ -1,0 +1,35 @@
+.. activecode:: fourteentwo
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter14/complex_numbers
+   :from_source: T
+   :language: cpp
+
+   Take a look at the active code below, which demonstrates the separation of
+   interface and implementation using classes. In this code, we create a ``Triangle``
+   object which is represented by three sides. In ``main``, we print out the perimeter of
+   the triangle, which should be 12.
+   ~~~~
+   #include <iostream>
+   using namespace std;
+
+   class Triangle {
+     private:
+       double side_a, side_b, side_c;
+     public:
+       Triangle () {side_a = 1; side_b = 1; side_c = 1;}
+       Triangle (double a_in, double b_in, double c_in) {
+         side_a = a_in;
+         side_b = b_in;
+         side_c = c_in;
+       }
+       double perimeter () {
+         return side_a + side_b + side_c;
+       }
+   };
+
+   int main() {
+     Triangle t1(3, 4, 5);
+     cout << t1.perimeter();
+   }

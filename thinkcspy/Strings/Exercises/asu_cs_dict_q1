@@ -1,0 +1,18 @@
+.. parsonsprob:: asu_cs_dict_q1
+   :author: Erdogan Dogdu
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+
+   Put the following statements in order so the function takes a list and returns a dictionary of distinct elements with their occurrence counts in the list.
+   -----
+   def countlist(lst):
+   =====
+       d = {}
+   =====
+       for w in lst:
+   =====
+           d[w] = d.get(w,0) + 1
+   =====
+       return d

@@ -1,0 +1,17 @@
+.. clickablearea:: string_variables_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter7/string_variables
+    :from_source: T
+    :question: Click on each spot where a string assignment occurs.
+    :iscode:
+    :feedback: Remember, square brackets [] are used to access a character in a string.
+
+    :click-incorrect:def main() {:endclick:
+        :click-incorrect:string fruit;:endclick:
+        :click-correct:fruit = "apple";:endclick:
+        :click-correct:fruit = "pear";:endclick:
+        :click-incorrect:string flavor;:endclick:
+        :click-correct:flavor = "vanilla";:endclick:
+    }

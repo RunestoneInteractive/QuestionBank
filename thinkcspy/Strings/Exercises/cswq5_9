@@ -1,0 +1,21 @@
+.. parsonsprob:: cswq5_9
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+
+   9. Put the following statements in the correct order to define a function that returns all the digits in string s.
+   -----
+   def get_digits(s) :
+   '''Returns the digits from string s'''
+   =====
+       digits = ""
+   =====
+       for char in s:
+   =====
+           if char.isdigit():
+   =====
+               digits = digits + char
+   =====
+       return digits

@@ -1,0 +1,100 @@
+.. activecode:: ab_2
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+    :nocodelens:
+
+    Write a program that loops through ``[2,4,6,8,10,8,6,4,2]`` and does the following:
+
+    1. Multiplies the number by 4.
+	
+    2. Squares the number.
+   
+    3. Prints the original number, multiplied by 4, and squared as listed below.
+   
+    The exact output is below:
+
+    ::
+      
+      Modified List of Numbers
+      2 8 4
+      4 16 16
+      6 24 36
+      8 32 64
+      10 40 100
+      8 32 64
+      6 24 36
+      4 16 16
+      2 8 4
+	  
+    **Notes:** 
+
+    #. Do not forget to print the first line.  
+
+    #. ``print(a, b, c)`` will print three values on the same line separated by a space.
+ 
+    ~~~~
+    # write your code here
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        # counts how many instances of 'keyword'
+        def count_code(self, code, keyword):
+            cnt = 0
+            for line in code.splitlines():
+                words = line.split()
+                for val in words:
+                    if val.find(keyword) >= 0:
+                        cnt = cnt + 1
+            return(cnt)
+
+        def check_output(self, num):
+            if len(num) != 10:
+                return(False)
+            for i in num:
+                if (int(i) > 12) or (int(i) < 2):
+                    return(False)
+            return(True)
+
+        def mod_List(self, gList):
+            mList = []
+            for item in gList:
+               tempList =[]
+               tempList.append(item)
+               tempList.append(item * 4)
+               tempList.append(item **2)
+               mList.append(tempList)
+            return(mList)   
+
+
+        def testOne(self):
+            tString = "Modified List of Numbers"
+            givenList = [2,4,6,8,10,8,6,4,2]
+            outText = self.getOutput()
+            lines = outText.split("\n")
+            editText = self.getEditorText()
+            numList = re.findall(r'^\d+$', outText, re.M)
+            if len(lines) == 1:
+               lines[0] = "No output"
+            if len(lines) < 3:
+               lines[len(lines)-1] = "No output"
+               for i in range(len(lines),len(givenList)+2):
+                  lines.append("No output")
+
+            
+            self.assertIn('for', self.getEditorText(), "Must use a for loop.")
+            self.assertIn('[2,4,6,8,10,8,6,4,2]', self.getEditorText(), "Must use the correct list")
+            self.assertTrue(lines[0] == tString, "Your line 1 output : " + lines[0])
+            modList = self.mod_List(givenList)
+            for i in range(0,len(modList)):
+                 self.assertTrue(lines[i+1] == (str(modList[i][0]) + " " + str(modList[i][1]) + " " +  str(modList[i][2])) , "Your line " + str(i+2) + " output : " + lines[i+1])
+
+    myTests().main()

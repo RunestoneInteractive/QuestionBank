@@ -1,0 +1,12 @@
+.. actex:: HerhalingsOefening4
+   :author: Gilles Fiers
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+   :nocodelens:
+
+   Simuleer, met behulp van de random module, het trekken van een kaart. Bijvoorbeeld : rood-8, zwart-10 of rood-12 (voor het gemak mag je de waarde van de boer gelijk stellen aan 11, die van de koningin aan 12, en die van de koning 13. Indien je klaar bent kan je bedenken hoe je toch V,Q of K kan weergeven)
+
+   
+   ~~~~

@@ -1,0 +1,19 @@
+.. mchoice:: program_dvlmt_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter5/programdevelopment
+   :from_source: T
+   :answer_a: combining the parameters
+   :answer_b: printing out the parameters
+   :answer_c: returning something
+   :answer_d: debugging
+   :correct: c
+   :feedback_a: Unless the function requires you to do so, then this is unnecessary.
+   :feedback_b: If you don't know the values of the parameters, this could be useful, but there is a better answer.
+   :feedback_c: This is called placekeeping.  You don't have to return the correct answer, but you do need to return the correct data type.
+   :feedback_d: You don't need to debug until after you've written the function.
+
+   When writing the implementation for a function, a good place to
+   start is __________.
+

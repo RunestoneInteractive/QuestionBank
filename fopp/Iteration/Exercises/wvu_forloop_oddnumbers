@@ -1,0 +1,12 @@
+
+   :author: Brian Powell
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+.. activecode:: wvu_forloop_oddnumbers
+   
+   Write a for loop that prints the odd numbers from 1 to 101.
+   ~~~~
+   # Your code goes here
+    

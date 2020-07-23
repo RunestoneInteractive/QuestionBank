@@ -1,0 +1,27 @@
+.. actex:: TL_365_function_count_list
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+	   
+   Write a function called ``count_list`` that reproduces the
+   ``count`` method without using the ``count``.  That is it takes a list and an
+   object as parameters and returns the number of times the
+   object occurs in the list.
+   
+   ~~~~
+   def count_list(lst, obj):
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           test_list = [1,2,3,4,1,2,1,3,1]
+	   for elem in test_list+[5,6]:
+               self.assertEqual(count_list(test_list, elem), test_list.count(elem),
+	           "Counting for {} in {}".format(elem, str(test_list)))
+	   self.assertFalse(re.search(r'count *\(', self.getEditorText()), 'Checking for count()')
+   myTests().main()	   

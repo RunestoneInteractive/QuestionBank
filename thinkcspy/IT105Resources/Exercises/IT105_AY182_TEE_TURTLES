@@ -1,0 +1,50 @@
+.. activecode:: IT105_AY182_TEE_TURTLES
+  :author: Kyle King
+  :difficulty: 0.0
+  :basecourse: thinkcspy
+  :topic: IT105Resources/Exercises
+  :from_source: F
+  :language: python
+  :autograde: unittest
+  :nocodelens:
+  
+  ::
+  
+    Function: petal(t)
+    Parameters: t - a turtle object.
+    What it does: This function draws a flower petal using the 
+      given turtle object.  The turtle returns to its original 
+      position and heading.
+    Returns: None
+  
+  The function ``petal``, described above, takes a ``Turtle`` object and uses it to draw one petal of a flower, like this:
+
+  .. Image:: https://runestone.academy/runestone/static/AY182_IT105/_static/IT105_pedal.png
+    :width: 200
+  
+  Your turtle will return to its original position at the end of the function. Use the ``petal`` function to draw a pink, six-petalled flower, **exactly like this**:
+ 
+  .. Image:: https://runestone.academy/runestone/static/AY182_IT105/_static/IT105_flower.png
+    :width: 200
+  ~~~~
+  import turtle
+
+  def petal(t):
+      start = t.heading()
+      t.forward(10)
+      t.right(60)
+      t.speed(0)
+      for i in range(30):
+          t.backward(i*2)
+          t.forward(i*2)
+          t.right(4)
+
+      for i in range(30,1,-1):
+          t.backward(i*2)
+          t.forward(i*2)
+          t.right(4)
+
+      t.right(t.heading() - start)
+      t.backward(10)
+
+  # YOUR CODE GOES HERE

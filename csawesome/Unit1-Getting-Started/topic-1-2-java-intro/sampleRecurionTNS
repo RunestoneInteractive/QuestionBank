@@ -1,0 +1,22 @@
+.. activecode:: sampleRecurionTNS
+   :author: Tiffani Slutsky
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/topic-1-2-java-intro
+   :from_source: F
+   :language: java
+   :practice: T
+
+   What is the expected output when this program is run?  After you figure out the answer, run the program.  Use codeLens to help you trace the code.
+   ~~~~
+   public class Example{
+         public static int calc(int x){
+             if(x<=0) return 4;
+             else return 4 + calc(x-4);
+         }
+
+         public static void main(String[] args){
+               int ans = calc(8);
+               System.out.println(ans);
+        }
+   }

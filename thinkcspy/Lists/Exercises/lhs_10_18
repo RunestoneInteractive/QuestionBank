@@ -1,0 +1,64 @@
+.. activecode:: lhs_10_18
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``insertList(lst, num)`` which inserts the number ``num``
+    into the sorted list ``lst``. Do not create a new list, but insert the number
+    into the provided list. 
+
+    ``insertList`` is a modifier function.
+
+    You may **not** use the .sort method though.
+
+    ~~~~
+        
+    def insertList(lst, num):
+
+    def main():
+        # add any test cases here
+    
+    if __name__ == "__main__":
+        main()
+        
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _golden(self, list1, num):
+            newList = list1 + [num]
+            newList.sort()
+            return(newList)
+    
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            editText = self.getEditorText()
+            if len(re.findall("\.sort", editText)) != 0:
+                self.assertEqual(len(re.findall("\.sort", editText)), 0, "No sort allowed")
+            else:
+                tests = [
+                    ([1,4,6,6,7], 5),
+                    ([1,4,6,6,7], 6),
+                    ([1,4,6,6,7], 9),
+                    ([4,6,6,7], 2),
+                    ([4,6,6,7], 4),
+                    ([], 6)          
+                    ]
+                i = 0
+                for t in tests:
+                    check = self._golden(t[0], t[1])
+                    insertList(t[0], t[1])
+                    self.assertEqual(t[0], check, "Testing  "+str(i))
+                    i += 1
+    
+    myTests().main()

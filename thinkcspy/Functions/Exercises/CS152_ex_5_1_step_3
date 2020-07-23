@@ -1,0 +1,15 @@
+.. actex:: CS152_ex_5_1_step_3
+    :author: John Cigas
+    :difficulty: 2.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+
+    Copy your program from the previous exercise and make the following modifications:
+
+       * Change function to draw a hexagon instead of a triangle (the turn angle is 60)
+       * Change the name of the drawTriangle function to drawHexagon
+       * Make your program draw a row of 3 triangles each with side length 40
+
+    ~~~~
+

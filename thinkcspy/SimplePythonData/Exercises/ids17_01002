@@ -1,0 +1,25 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: ids17_01002
+   
+
+    2.3(劉邦鋒，由片語學習C程式設計) 寫一個程式讀入兩個整數，但只顯示後讀入的整數在螢幕上。
+
+    輸入：
+    
+    5
+
+    10
+
+    輸出：
+
+    10
+    ~~~~
+    
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+    

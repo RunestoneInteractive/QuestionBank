@@ -1,0 +1,19 @@
+.. activecode:: ch03_1
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: PythonTurtle/OurFirstTurtleProgram
+    :from_source: None
+    :tour_1: "Overall Tour"; 1-6: Example01_Tour01_Line01; 3: Example01_Tour01_Line02; 4: Example01_Tour01_Line03; 5: Example01_Tour01_Line04; 6: Example01_Tour01_Line05;
+    :tour_2: "Line by Line Tour"; 1: Example01_Tour02_Line01; 2: Example01_Tour02_Line02; 3: Example01_Tour02_Line03; 4: Example01_Tour02_Line04; 5: Example01_Tour02_Line05; 6: Example01_Tour02_Line06;
+    :nocodelens:
+
+    import turtle               # allows us to use the turtles library
+    wn = turtle.Screen()        # creates a graphics window
+    alex = turtle.Turtle()      # create a turtle named alex
+    alex.forward(150)           # tell alex to move forward by 150 units
+    alex.left(90)               # turn by 90 degrees
+    alex.forward(75)            # complete the second side of a rectangle
+
+
+

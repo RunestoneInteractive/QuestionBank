@@ -1,0 +1,18 @@
+.. mchoice:: trd_question1_4
+   :author: Majid Rouhani
+   :difficulty: 0.0
+   :basecourse: pythonds
+   :topic: Introduction/Exercises
+   :from_source: F
+   :multiple_answers:
+   :answer_a: method
+   :answer_b: instance
+   :answer_c: data atrribute
+   :answer_d: module
+   :correct: c
+   :feedback_a: No.
+   :feedback_b: No.
+   :feedback_c: Yes, a data attribute is a component of a class that references data.
+   :feedback_d: No.
+
+   A(n) _____________ is a component of a class that references data.

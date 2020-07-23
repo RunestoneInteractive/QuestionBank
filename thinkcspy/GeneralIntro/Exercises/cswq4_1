@@ -1,0 +1,14 @@
+.. mchoice:: cswq4_1
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 11100010
+   :answer_b: 01101001
+   :answer_c: 01111001
+   :answer_d: 11110010
+   :correct: a
+   :random:
+
+   1. Add the following binary numbers: 01101001 + 01111001

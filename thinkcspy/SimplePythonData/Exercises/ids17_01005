@@ -1,0 +1,23 @@
+
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: ids17_01005
+   
+
+    3.3(劉邦鋒，由片語學習C程式設計) 寫一個程式讀入一個四位正整數並計算四個位數的和。例如：如果輸入為1234，則輸出為10。
+
+    輸入：
+    
+    1234
+
+    輸出：
+
+    10
+    ~~~~
+    
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+    

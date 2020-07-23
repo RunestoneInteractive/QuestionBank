@@ -1,0 +1,13 @@
+.. activecode:: IT105R0_8
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: IT105Resources/IT105_DocExamples
+    :from_source: F
+    :nocanvas:
+
+    #Kernighan B. 2017. Understanding the Digital World: What You Need to Know about Computers,
+    #the Internet, Privacy, and Security. New Jersey: Princeton University Press.
+    #I copied the program on page 111 although I modified the conditionals.
+
+

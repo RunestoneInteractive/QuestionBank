@@ -1,0 +1,12 @@
+.. activecode:: ac13_2_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: PythonModules/Therandommodule
+    :from_source: T
+
+    import random
+
+    prob = random.random()
+    result = prob * 5
+    print(result)

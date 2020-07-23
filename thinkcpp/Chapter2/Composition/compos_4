@@ -1,0 +1,33 @@
+.. activecode:: compos_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter2/Composition
+   :from_source: T
+   :language: cpp
+   :autograde: unittest
+
+   Finish the code below so that the velocity is calculated
+   and returned on the same line.  Hint: the current velocity
+   results from 1) the initial velocity and 2) the acceleration over
+   a window of time.  Use v0 for initial velocity, a for
+   acceleration, and t for time.
+   ~~~~
+   int velocity(int v0, int a, int t) {
+       // You may only use the next line for your code.
+       return ;
+   }
+
+   ====
+
+   #define CATCH_CONFIG_MAIN // This tells Catch to provide a main() - only do   this in one cpp file
+   #include <catch.hpp>
+
+   TEST_CASE( "Velocity Check", "[velocity]" ) {
+   REQUIRE( velocity(1,2,3) == 7 );
+   REQUIRE( velocity(-1,2,3) == 5 );
+   REQUIRE( velocity(1,-2,3) == -5 );
+   REQUIRE( velocity(0,2,3) == 6 );
+   REQUIRE( velocity(1,0,3) == 1 );
+   }
+

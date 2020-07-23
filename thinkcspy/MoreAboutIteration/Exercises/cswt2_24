@@ -1,0 +1,14 @@
+.. mchoice:: cswt2_24
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   :answer_a: 64
+   :answer_b: 5
+   :answer_c: 256
+   :answer_d: 50
+   :correct: a
+   :random:
+
+   24. You have been hired to design the image system for Big Eyes Bertha, a doll that takes digital pictures through its eyes. If you use an RGB (Red-Green-Blue) color system, with 6 bits for each color channel (6 bits for Red, 6 bits for Green, and 6 bits for Blue), how many different shades of each color will you be able to represent in each channel - that is, how many shades of red can you have in the red channel, how many shades of green in the green channel, and how many shades of blue in the blue channel?

@@ -1,0 +1,41 @@
+.. activecode:: IT105_AY182_TEE_15
+  :author: Kyle King
+  :difficulty: 0.0
+  :basecourse: thinkcspy
+  :topic: IT105Resources/Exercises
+  :from_source: F
+  :language: python
+  :autograde: unittest
+  :nocodelens:
+  
+  Complete the function below that flips a coin. The function should **return** a ``1`` for heads and a ``2`` for tails. The result of each call **must** be a **random** ``1`` or ``2``. 
+  
+  For example:
+  
+  ::
+  
+    flip() # returns 1
+    flip() # returns 1
+    flip() # returns 2
+    flip() # returns 1
+  
+  **Note:** You can delete the ``pass`` line. Or you can leave it. It doesn't do anything. ``pass`` is just there so that the function bodies aren't empty since that would cause a syntax error.
+  ~~~~
+  def flip():
+      pass # your code goes here
+  ====
+  from unittest.gui import TestCaseGui
+
+  class Tests(TestCaseGui): 
+    def tests(self):
+      import random
+      seed = random.randint(1,1000)
+      random.seed(seed)
+      flips = [random.randint(1,2) for _ in range(10)]
+      random.seed(seed)
+      
+      for i, v in enumerate(flips):
+        self.assertEqual(flip(),v,"Random flip " + str(i))
+      
+  Tests().main()
+  

@@ -1,0 +1,10 @@
+.. activecode:: ac4_4_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Conditionals/Theinandnotinoperators
+   :from_source: T
+
+   print("a" in ["a", "b", "c", "d"])
+   print(9 in [3, 2, 9, 10, 9.0])
+   print('wow' not in ['gee wiz', 'gosh golly', 'wow', 'amazing'])

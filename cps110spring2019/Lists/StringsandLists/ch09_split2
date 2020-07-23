@@ -1,0 +1,10 @@
+.. activecode:: ch09_split2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: Lists/StringsandLists
+    :from_source: None
+
+    song = "The rain in Spain..."
+    wds = song.split('ai')
+    print(wds)

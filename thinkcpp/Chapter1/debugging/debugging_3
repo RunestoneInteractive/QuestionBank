@@ -1,0 +1,11 @@
+.. fillintheblank:: debugging_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter1/debugging
+   :from_source: T
+
+   The structure of your program and the rules it must follow are called the |blank|.
+
+   - :[Ss][Yy][Nn][Tt][Aa][Xx]: Correct!
+     :.*: Try again!

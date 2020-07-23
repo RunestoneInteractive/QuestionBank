@@ -1,0 +1,22 @@
+.. mchoice:: cswt01_q23a
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+   :answer_a: Returns the average of a list of numbers
+   :answer_b: Returns the mode of a list of numbers
+   :answer_c: Divides each number by a given factor
+   :answer_d: Prints the average of a list of numbers
+   :correct: a
+   :random:
+
+   23. What is the purpose of the following function?::
+
+      def do_something(numlist):
+      '''numlist is a list of numbers'''
+          val = 0
+          for n in numlist:
+              val += n
+          val = val / len(numlist)
+          return val

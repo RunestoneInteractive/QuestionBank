@@ -1,0 +1,10 @@
+.. actex:: ch_5_1
+   :author: Irma Ravkic
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :nocodelens:
+
+   Write a program that prints ``I love Python!`` 15 times.
+   ~~~~

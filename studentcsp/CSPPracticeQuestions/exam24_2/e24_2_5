@@ -1,0 +1,18 @@
+.. mchoice:: e24_2_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/exam24_2
+   :from_source: T
+   :answer_a: The run-time is directly proportional to the input size.
+   :answer_b: The run-time is inversely proportional to the input size.
+   :answer_c: The run-time of the program does not change with respect to the input size.
+   :answer_d: The run-time first increases and then decreases as the input size is increased.
+   :correct: a
+   :feedback_a: Correct. This is true because every additional input requires the same amount of additional time.
+   :feedback_b: Incorrect. This is incorrect because the number of steps doesn't decrease with more inputs for this algorithm.
+   :feedback_c: Incorrect. The number of steps an algorithm goes through does influence the the time an algorithm takes to run for this algorithm.
+   :feedback_d: Incorrect. As the number of inputs increases, the number of steps in this algorithm will always be increasing in this case.
+
+   If the number of steps that an algorithm takes is equal to a linear function of the input size, then which of the following statements is true regarding the runtime of the algorithm?
+

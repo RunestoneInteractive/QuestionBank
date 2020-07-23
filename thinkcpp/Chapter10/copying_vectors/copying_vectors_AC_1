@@ -1,0 +1,41 @@
+.. activecode:: copying_vectors_AC_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter10/copying_vectors
+   :from_source: T
+   :language: cpp
+
+   Take a look at the active code below, which uses the copy constructor.
+   ~~~~
+   #include <iostream>
+   #include <vector>
+   using namespace std;
+
+   void print_vec(vector<int> vec);
+
+   int main() {
+       vector<int> count = {1,2,3,4};
+       cout << "count = "; print_vec(count);
+
+       vector<int> copy_1 (count);
+       vector<int> copy_2 = count;
+
+       cout << "copy_1 = "; print_vec(copy_1);
+       cout << "copy_2 = "; print_vec(copy_2);
+       cout << "We just made two copies of count.  As you can see, both methods work the same!" << endl;
+   }
+
+   ====
+
+   void print_vec(vector<int> vec) {
+      size_t i = 0;
+      cout << "[";
+      while (i < vec.size()-1) {
+          cout << vec[i] << ",";
+          i++;
+      }
+      cout << vec[vec.size()-1];
+      cout << "]" << endl;
+   }
+

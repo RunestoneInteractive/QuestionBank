@@ -1,0 +1,13 @@
+
+   :author: Damon Ellingston
+   :difficulty: 2.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+.. activecode:: hwInClass3DE
+
+   **In Class #3**
+  
+    Modify your dice code from last weekend (or use the code posted on wamap) to generate two dice faces. The goal in this exercise is to allow the user to click anywhere in the window and leave a white spot. Give the user 7 clicks so that dice total equals seven spots. After all seven spots are drawn on the dice, click once more to exit the program. The instructor will demonstrate the running of this program in class. Do not hesitate to ask questions if you have them!
+   ~~~~
+    from graphics import *

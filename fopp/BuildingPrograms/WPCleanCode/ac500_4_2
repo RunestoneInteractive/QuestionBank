@@ -1,0 +1,19 @@
+.. activecode:: ac500_4_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: BuildingPrograms/WPCleanCode
+    :from_source: T
+
+    user_dictionary = {}
+
+    # asks a user for two words to add to the user dictionary - will do this five times.
+    # the first word will be the key, the second word will be the value.
+    for _ in range(5):
+        response = input("Please enter two words to add to a dictionary. The first word is the definition, the second will be the word associated with it.")
+
+        separated_response = response.split()
+        response_key = separated_response[0]
+        response_value = separated_response[1]
+
+        user_dictionary[response_key] = response_value

@@ -1,0 +1,32 @@
+
+    :author: Brian Powell
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: Classes/Exercises
+    :from_source: F
+.. activecode:: wvu_finalexam_extendclass
+    :autograde: unittest
+
+    
+    Write a new class named **Dog** to inherit from the **Pet** class. The new class should have a class variable named **breed** with a default value of ``Unknown``. **Dog**'s constructor must allow users to specify the dog's name, age, and breed.
+
+    ~~~~
+    class Pet:
+        name = None
+        age = 0
+
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        def dog_info(self):
+            return "The pet {} is {} years old.".format(self.name, self.age)
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual('Test Breed', Dog(name='Test Dog', age=5, breed='Test Breed').breed, 'Constructor for class works.')
+            self.assertIsInstance(Dog(name='Test Dog', age=5, breed='Test Breed'), Pet, 'Breed inherits properly.')
+    
+    myTests().main()

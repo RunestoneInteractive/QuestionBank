@@ -1,0 +1,72 @@
+.. activecode:: lhs_8_6
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``approxE(precision)`` that calculates the value of e using the iterative
+    approximation method where:
+
+       e = sum of a_i where a_i = 1/i!
+
+    Example:  3 term approximation is 1/0! + 1/1! + 1/2!
+    
+    The function uses the input parameter ``precision`` which is a floating point input. The
+    function will iterate as few times as possible to approximate e until its value versus
+    the actual value (math.e) is within the ``precision`` amount.
+
+    The function will then **return** the value of e that was approximated and also print out a message
+    of how many iterations were used to calculate the value of e.
+
+    For example, ``approxE(.01)`` will print out the following message and return the following value of 2.70833333333
+
+    ::
+
+      The value of e with precision .001 was calculated using 5 iterations.
+
+    ~~~~
+    # My Name:
+    
+    # don't forget to import the math library...
+
+    def approxE(precision):
+        # Write your code here
+    
+    ==== 
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        
+        def goldenE(self, precision):
+            count = 0
+            e = 0
+            keepGoing = True
+            while keepGoing:
+                e = e + 1/math.factorial(count)
+                count = count + 1
+                keepGoing = abs(e - math.e) > precision
+            return (e, 'The value of e with precision ' + str(precision) + ' was calculated using ' + str(count) + ' iterations.\n')
+    
+        def testOne(self):
+            outText = self.getOutput()
+            editText = self.getEditorText()
+            
+            self.assertEqual(1, len(re.findall("\s*while[( ]", editText)), "Should use 1 'while'")
+            for i in [0.001, 0.00001, 0.0000001]:
+                oLen = len(self.getOutput())
+                good_e, out = self.goldenE(i)
+                e = approxE(i)
+                oLenTest = len(self.getOutput())
+                outText = self.getOutput()[oLen:oLenTest]  #extract new output        
+
+                actual = " ".join(outText.split())
+                expected = " ".join(out.split())
+                
+                self.assertEqual(actual, expected, "Check iteration count")
+                self.assertEqual(e, good_e, "Check e-value")
+                
+    myTests().main()       

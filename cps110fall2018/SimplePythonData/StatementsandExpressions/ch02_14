@@ -1,0 +1,12 @@
+.. activecode:: ch02_14
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: SimplePythonData/StatementsandExpressions
+    :from_source: None
+    :nocanvas:
+
+    y = 3.14
+    x = len("hello")
+    print(x)
+    print(y)

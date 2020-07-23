@@ -1,0 +1,12 @@
+.. activecode:: ac6_2_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Iteration/TheforLoop
+    :from_source: T
+    :nocanvas:
+    :tour_1: "Overall Tour"; 1-2: Example04_Tour01_Line01; 2: Example04_Tour01_Line02; 1: Example04_Tour01_Line03;
+
+    for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
+        print("Hi", name, "Please come to my party on Saturday!")
+

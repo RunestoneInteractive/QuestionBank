@@ -1,0 +1,30 @@
+.. activecode:: JP_challenge2-9-random-math
+   :author: John Pataracchia
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/topic-2-9-Math
+   :from_source: F
+   :language: java
+
+   Complete the combination lock challenge below.
+   ~~~~
+   public class AbilityScoreGenerator
+   {
+      public static void main(String[] args)
+      {
+        // Let's create a D&D character ability score generator...
+        // 1. Use Math.random() to generate 6 integers from 3-18 (including 18) and print them out.
+        int strength = 
+        int intelligence = 
+        int dexterity = 
+        int wisdom = 
+        int charisma =
+        int constitution = 
+
+        // 2. Calculate the number of combinations to choose 6 numbers between 3-18 (including 40) using Math.pow() and print it out.
+        // For example, Math.pow(10,2) is 10^2 and the number of permutations to choose 2 numbers between 0-9.
+
+
+      }
+   }
+

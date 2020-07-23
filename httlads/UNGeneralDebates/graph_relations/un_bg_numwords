@@ -1,0 +1,15 @@
+.. fillintheblank:: un_bg_numwords
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: UNGeneralDebates/graph_relations
+   :from_source: T
+
+   The problem with "United States of America" may be a general problem with
+   other country names as well. How many country names are three words long or
+   longer?
+
+   - :24: Is the correct answer
+     :23: You may be missing the United States of America
+     :x: Use str.split to create a list of words for each country name.
+

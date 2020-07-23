@@ -1,0 +1,26 @@
+.. activecode:: ac11_15_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :topics: Functions/Afunctionthataccumulates
+
+   Write a function, ``accum``, that takes a list of integers as input and returns the sum of those integers.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFourA(self):
+         self.assertEqual(accum([5]), 5, "Tests that accum([5]) returns 5")
+         self.assertEqual(accum([]), 0, "Tests that accum([]) returns 0")
+         self.assertEqual(accum([2,4,6,8]), 20, "Tests that accum([2,4,6,8]) returns 20")
+
+   myTests().main()

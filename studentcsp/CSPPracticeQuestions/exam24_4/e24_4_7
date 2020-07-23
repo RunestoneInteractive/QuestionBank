@@ -1,0 +1,68 @@
+.. mchoice:: e24_4_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a:
+   :answer_b:
+   :answer_c:
+   :answer_d:
+   :correct: a
+   :feedback_a: Correct. In our loop, 'student' is already present in 'extraProjectStudents' therefore we only need to check if 'student' is also present in 'volunteerServiceStudents' and add 'student' to 'extraCreditStudents' if this condition is satisfied. This is exactly what this answer choice does.
+   :feedback_b: Incorrect. Checking if 'student' is in 'extraCreditStudents' and then adding 'student' to 'volunteerServiceStudents' is incorrect; we need to check if 'student' is in 'volunteerSeriveStudents' and then add 'student' to 'extraCreditStudents'
+   :feedback_c: Incorrect. This option will incorrectly add all students in 'extraProjectStudents' to 'extraCreditStudents' even if a 'student' is not present in 'volunteerServiceStudents'.
+   :feedback_d: Incorrect. We need to add students to 'extraCreditStudents' not to 'extraProjectStudents'.
+
+   A teacher wants to give extra credit to those students in her class who did an extra project and volunteered for community service.
+
+   She creates a list ``extraProjectStudents``, which contains names of all the students who did the extra project, and another list ``volunteerServiceStudents``, which contains names of all the students who volunteered for community service. The teacher wants to create another list, ``extraCreditStudents``, which contains names of all the students who are eligible to receive extra credit.
+
+   Look at the incomplete code for the procedure ``createExtraCreditList()`` given below.
+   ::
+
+    PROCEDURE createExtraCreditList(extraProjectStudents, volunteerServiceStudents)
+    {
+        extraCreditStudents ← [ ]
+        FOR EACH student IN extraProjectStudents
+        {
+            <MISSING CODE>
+        }
+        RETURN extraCreditStudents
+    }
+
+   Which of the answer choices should replace ``<MISSING CODE>`` so that ``extraCreditStudents`` gets filled as intended?
+
+   You may use a procedure ``contains(list, name)`` in your answer which returns ``true`` if the ``name`` is found in the ``list`` and ``false`` otherwise.
+
+   (A)
+   ::
+
+    IF (contains (volunteerServiceStudents, student))
+    {
+        APPEND (extraCreditStudents, student)
+    }
+
+   (B)
+   ::
+
+    IF (contains (extraCreditStudents, student))
+    {
+        APPEND (volunteerServiceStudents, student)
+    }
+
+   (C)
+   ::
+
+    IF (contains (extraProjectStudents, student))
+    {
+        APPEND (extraCreditStudents, student)
+    }
+
+   (D)
+   ::
+
+    IF (contains (volunteerServiceStudents, student))
+    {
+        APPEND (extraProjectStudents, student)
+    }

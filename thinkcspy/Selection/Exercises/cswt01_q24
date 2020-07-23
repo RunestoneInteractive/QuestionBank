@@ -1,0 +1,39 @@
+.. mchoice:: cswt01_q24
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Selection/Exercises
+   :from_source: F
+   :answer_a: The list is both long and short
+   :answer_b: Short list
+   :answer_c: The list is neither long nor short
+   :answer_d: Long list
+   :correct: a
+   :random:
+
+   What does the following code print?::
+
+      def evaluate_list(values):
+          '''Returns an evaluation of the length of the list of values'''
+          if len(values) > 10:
+              evaluation = 'L'
+          elif len(values) <= 3:
+              evaluation = 'S'
+          elif len(values) > 5 and len(values) < 8:
+              evaluation = 'B'
+          else:
+              evaluation = 'N'
+          return evaluation
+
+      def main():
+          num_list = [1, 2, 3, 4, 5, 6, 7]
+          ev = evaluate_list(num_list)
+          if ev == 'S':
+              print("Short list")
+          elif ev == 'B':
+              print("The list is both long and short")
+          elif ev == 'L':
+              print("Long list")
+          else:
+              print("The list is neither is long nor short")
+      main()

@@ -1,0 +1,21 @@
+.. parsonsprob:: cswq5_8
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+
+   8. Put the following statements in the correct order to define a function that returns a string with all the vowels removed.
+   -----
+   def remove_vowels(s) :
+   '''Returns string s with all vowels removed'''
+   =====
+       new_string = ""
+   =====
+       for char in s:
+   =====
+          if char not in "aeiou":
+   =====
+              new_string = new_string + char
+   =====
+       return new_string

@@ -1,0 +1,14 @@
+.. mchoice:: question19_3_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Classes/TestingClasses
+   :from_source: T
+   :practice: T
+   :answer_a: return value test
+   :answer_b: side effect test
+   :correct: b
+   :feedback_a: The sort method always returns None, so there's nothing to check about whether it is returning the right value.
+   :feedback_b: You want to check whether it has the correct side effect, whether it correctly mutates the list.
+
+   We have usually used the ``sorted`` function, which takes a list as input and returns a new list containing the same items, possibly in a different order. There is also a method called ``sort`` for lists (e.g. ``[1,6,2,4].sort()``). It changes the order of the items in the list itself, and it returns the value ``None``. Which kind of test case would you use on the sort method?

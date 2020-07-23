@@ -1,0 +1,27 @@
+.. activecode:: ac9_10_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Files/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+   :available_files: school_prompt.txt
+   :nocodelens:
+
+   Assign the first 30 characters of ``school_prompt.txt`` as a string to the variable ``beginning_chars``.
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(len(beginning_chars), 30, "Testing that beginning_chars has the correct length.")
+         self.assertEqual(beginning_chars, "Writing essays for school can ", "Testing that beginning_chars has the correct string.")
+
+   myTests().main()
+

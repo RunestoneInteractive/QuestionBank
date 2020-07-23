@@ -1,0 +1,26 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameStrings/Exercises
+   :from_source: F
+.. parsonsprob:: plot_pp1
+   :adaptive:
+   :numbered: left
+
+   Put the code in order to create a line plot with matplotlib and show it.
+   -----
+   import matplotlib
+   import matplotlib.pyplot as plt
+   =====
+   y = ["2014", "2015", "2016", "2017", "2018"]
+   d = [25, 20, 30, 50, 40]
+   fig, ax = plt.subplots()
+   =====
+   ax.plot(y, d)
+   ax.set_xlabel('year')
+   ax.set_ylabel('number of people')
+   ax.set_title('Number of people per year')
+   ax.grid()
+   =====
+   plt.show()

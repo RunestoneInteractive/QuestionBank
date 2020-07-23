@@ -1,0 +1,38 @@
+.. mchoice:: mce_7_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter7/Exercises
+    :from_source: T
+
+    Which variable below is declared as a ``string`` type?
+
+    .. code-block:: cpp
+
+     int main() {
+       int x = 0;
+       double y = 4.5;
+       string word = "hello";
+       char c = 'c';
+       bool isPrime = 1;
+     }
+
+    - ``x``
+
+      - ``x`` is an ``int``.
+
+    - ``y``
+
+      - ``y`` is a ``double``.
+
+    - ``word``
+
+      + ``word`` is a ``string``.
+
+    - ``c``
+
+      - ``c`` is a ``char``.
+
+    - ``isPrime``
+
+      - ``isPrime`` is a ``bool``.

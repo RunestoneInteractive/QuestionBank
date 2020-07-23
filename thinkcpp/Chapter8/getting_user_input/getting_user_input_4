@@ -1,0 +1,26 @@
+.. mchoice:: getting_user_input_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter8/getting_user_input
+   :from_source: T
+   :practice: T
+   :answer_a: John
+   :answer_b: J
+   :answer_c: John Doe
+   :correct: c
+   :feedback_a: Try again!
+   :feedback_b: Try again!
+   :feedback_c: Correct!
+
+
+   The user types in ``John Doe``. What prints?
+
+   .. code-block:: cpp
+
+      int main() {
+        string name;
+        cout << "What is your name? ";
+        getline (cin, name);
+        cout << name << endl;
+      }

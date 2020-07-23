@@ -1,0 +1,42 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPWhileAndForLoops/Exercises
+   :from_source: F
+.. parsonsprob:: sum13-parsons
+   :adaptive:
+   :numbered: left
+
+   Put the code blocks in order to return the sum of the numbers in the list 
+   nums, returning 0 for an empty list. Except the number 13 is very 
+   unlucky, so  it does not count and a number that comes immediately after 
+   a 13 also does not count.  For example, sum13([13,1]) returns 0 and sum13([1,13]) returns 1.
+   -----
+   def sum13(nums):
+   =====
+       total = 0
+       found_13 = False
+   =====
+       total = 0
+       found_13 = True #paired
+   =====
+       for num in nums:
+   =====
+           if num == 13:
+   =====
+               found_13 = True
+   =====
+               found_13 = true #paired
+   =====
+           elif found_13:
+   =====
+               found_13 = False
+   =====
+           else:
+   =====
+           else #paired
+   =====
+               total += num
+   =====
+       return total

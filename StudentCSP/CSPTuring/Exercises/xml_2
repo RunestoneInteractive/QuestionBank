@@ -1,0 +1,29 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPTuring/Exercises
+   :from_source: F
+.. parsonsprob:: xml_2
+   :adaptive: 
+   :numbered: left
+
+   Put the blocks into order to get all the countries and then loop through each country and print the name of that country and then get all the neighbors for that country and print the number of neighbors.   
+   -----
+       country_list = tree.findall("country")
+   =====
+       country_list = tree.find("country") #paired
+   =====
+       for country in country_list:
+   =====
+           print("Name: " + country.get("name"))
+   =====
+           neighbors = country.findall("neighbor")
+   =====
+           neighbors = country.find("neighbor") #paired 
+   =====
+           print("Num neighbors: %d" % len(neighbors))
+   =====
+           print("Num neighbors: %d" % neighbors) #paired
+
+   

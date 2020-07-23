@@ -1,0 +1,45 @@
+.. activecode:: parcheck1_py
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :topic: LinearBasic/SimpleBalancedParentheses
+   :from_source: T
+   :caption: Solving the Balanced Parentheses Problem
+   :optional:
+
+   #Program that detects if a set of parentheses is complete.
+
+   #simple program that checks for missing parantheses
+   from pythonds.basic.stack import Stack
+
+   #returns whether the parentheses in the input are balanced
+   def parChecker(symbolString):
+       s = Stack()
+       balanced = True
+       index = 0
+       while index < len(symbolString) and balanced:
+           symbol = symbolString[index]
+           if symbol == "(":
+               s.push(symbol) #pushes the open parentheses to the stack.
+           else:
+               if s.isEmpty(): #if there is no open parentheses in the stack,
+                               #the closing parentheses just found makes the string unbalanced.
+                   balanced = False
+               else: #if there is an open parentheses in the stack, the
+                     #closing parentheses just found has a matching open parentheses.
+                   s.pop()
+
+           index = index + 1
+
+       if balanced and s.isEmpty(): #if the string is balanced and there are no
+                                    #remaining open parentheses.
+           return True
+       else:
+           return False
+
+   def main():
+
+       print(parChecker('((()))'))
+       print(parChecker('(()'))
+
+   main()

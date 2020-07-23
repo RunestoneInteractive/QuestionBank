@@ -1,0 +1,31 @@
+
+    :author: Mihaela Sabin
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Sequences/Exercises
+    :from_source: F
+.. activecode:: mihaela_hp1_1
+    :language: python
+    :autograde: unittest
+    :practice: T
+
+    Create a copy of the temps list such that it has all the temperature values in temps,
+    but reduced by 10. The copy is called lower_temps and starts as an empty list. 
+    Use a for loop to iterate through the temps list and keep building lower_temps list.
+    ~~~~
+    temps = [95, 87, 100, 84, 78]
+    lower_temps = []
+
+    ====
+    
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def test1(self):
+            result = [85, 77, 90, 74, 68]
+            self.assertEqual(lower_temps, result, "All temp values are reduced by 10")
+
+    myTests().main()
+
+  

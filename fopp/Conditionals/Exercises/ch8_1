@@ -1,0 +1,19 @@
+
+    :author: Irma Ravkic
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: F
+.. activecode:: ch8_1
+   
+    You are given the following list of students taking a coding course: ['Ruth', 'Karla', 'Mercedez', 'Mariam', 'Mahak', 'Luisa', 'Kimberly', 'Brytanya', 'Perla', 'Gabriella', 'Marissa']. Do the following tasks.
+    
+    a) First print the following sentence in the console: The number of students in this course is 11. No hard coding! You need to use a Python function to get 11. 
+    
+    b) Write a code that when a user inputs some name, it checks whether that name is contained in the list of students. If the student is present in the list it prints: Student _ is attending this course. Otherwise, if the name provided by the user is not present in the list, your program will print: Student _ is not attending the course.
+
+    c) Test your code with two inputs: Irma and Karla (or some other student name taking the coding course). The first time your program should output: The number of students in this course is 11. Student Irma is not attending the course. For the second input it should output: The number of students in this course is 11. Student Karla is attending the course.
+
+    ~~~~
+    students = ['Ruth', 'Karla', 'Mercedez', 'Mariam', 'Mahak', 'Luisa', 'Kimberly', 'Brytanya', 'Perla', 'Gabriella', 'Marissa']
+

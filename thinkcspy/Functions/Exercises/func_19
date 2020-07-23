@@ -1,0 +1,14 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: func_19
+  
+    Using the principle of "incremental development", write a program that asks 
+    the user for the length of two sides of a right triangle and computes the 
+    length of the hypotenuse.
+
+    ~~~~
+    

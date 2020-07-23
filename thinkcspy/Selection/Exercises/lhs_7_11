@@ -1,0 +1,89 @@
+.. activecode:: lhs_7_11
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function called ``recommend(temp, forecast)`` that **prints** out a recommendation
+    about what to wear and bring based on the weather. ``temp`` is an integer number that
+    represents the temperature in degrees. ``forecast`` is a string which describes the
+    weather forecast for the day.
+
+    When the temperature is under 72 degrees, a jacket should be worn.
+    
+    If the forecast is "showers", "rain", or "snow", an umbrella should be brought.
+
+    Your output should be one of these sentences based on the forecast & temperature.
+
+    ::
+
+      Based on the weather forecast, you should bring a jacket and an umbrella
+      Based on the weather forecast, you should bring an umbrella
+      Based on the weather forecast, you should bring a jacket
+      Weather is great! Have a nice day!
+
+    ~~~~
+    # Your Name:
+    
+    def recommend(temp, forecast):
+        ''' Recommend what to wear and bring based on the weather
+            A jacket should be worn when the temperature is under 72 degrees
+            An umbrella should be worn when the forecast is "showers", "rain" or "snow"
+            
+            temp - (int) Temperature in degrees F
+            forecast (str) - possible forecasts: "sunny", "cloudy", "showers", "rain", "snow"
+         '''
+        # write you code here
+            
+    def main():
+        # put in some test temperatures and forecast strings to test it out yourself
+        recommend(testTemperature, aForecastString)
+        recommend(testTemperature, aForecastString)
+        recommend(testTemperature, aForecastString)
+        recommend(testTemperature, aForecastString)
+        
+    if __name__ == "__main__":
+        main()
+    ====
+    from unittest.gui import TestCaseGui
+        
+    class myTests(TestCaseGui):
+            
+        def golden_recommend(self, temp, forecast):
+            jacket = temp < 72
+            umbrella = forecast == "showers" or forecast == "rain" or forecast == "snow"
+            if (jacket and umbrella):
+                out = "Based on the weather forecast, you should bring a jacket and an umbrella\n"
+            elif (jacket):
+                out = "Based on the weather forecast, you should bring a jacket\n"
+            elif (umbrella):
+                out = "Based on the weather forecast, you should bring an umbrella\n"
+            else:
+                out = "Weather is great! Have a nice day!\n"
+            return(out)
+            
+        def checkFuncOutput(self, temp, forecast):
+            oLen = len(self.getOutput())
+            recommend(temp, forecast)
+            oLenTest = len(self.getOutput())
+            outText = self.getOutput()[oLen:oLenTest]  #extract new output           
+            outText = " ".join(outText.split())        # remove any extra white space with a single space
+
+            errMsg = str(temp) + " degrees and " + forecast
+
+            goodMsg = self.golden_recommend(temp, forecast)
+            goodMsg = " ".join(goodMsg.split())
+
+            self.assertEqual(outText, goodMsg, errMsg)
+                    
+        def testOne(self):
+            print("Auto-testing...")
+            self.checkFuncOutput(72, "sunny")
+            self.checkFuncOutput(71, "snow")
+            self.checkFuncOutput(-2, "cloudy") 
+            self.checkFuncOutput(80, "showers")
+                
+    myTests().main()

@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: func_8
+  
+    Rewrite the 'badsquare_1' found in "6.4. Variables and Parameters are Local" correctly by passing the 'power' 
+    variable as an argument.
+
+    ~~~~
+    

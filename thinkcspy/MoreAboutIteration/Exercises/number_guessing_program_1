@@ -1,0 +1,12 @@
+
+    :author: Richard Moffat
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: number_guessing_program_1
+  
+    Complete a program for the following game descriptions:
+    Computer comes up with a random number between 1  and 100. User tries to guess the number in 10 guesses or less. After each guess, the program tells the user whether her guess was too high or too low. If the user guesses correctly, the programs prints out a congratulation message and if the user runs out of guesses, the program prints out a “good try” message. Add additional features that you think would add to the user experience.
+    ~~~~
+    

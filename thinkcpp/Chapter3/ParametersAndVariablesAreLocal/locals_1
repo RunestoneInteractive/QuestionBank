@@ -1,0 +1,32 @@
+.. mchoice:: locals_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter3/ParametersAndVariablesAreLocal
+   :from_source: T
+   :answer_a: 1 local variable, 1 parameter
+   :answer_b: 0 local variables, 1 parameter
+   :answer_c: 2 local variables, 0 parameters
+   :answer_d: 2 local variables, 1 parameter
+   :correct: c
+   :feedback_a: A parameter would be located within the parentheses next to the function's name.
+   :feedback_b: A parameter would be located within the parentheses next to the function's name.
+   :feedback_c: Correct!
+   :feedback_d: A parameter would be located within the parentheses next to the function's name.
+
+   How many local variables and parameters does ``main`` have?
+
+   ::
+
+       void printHelloName (string name) {
+         cout << "Hello " << name << "!";
+       }
+
+       int main () {
+         string name1 = "Phil";
+         printHelloName(name1);
+         string name2 = "Joe";
+         printHelloName(name2);
+         return 0;
+       }
+

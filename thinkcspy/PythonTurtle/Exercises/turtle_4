@@ -1,0 +1,16 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: turtle_4
+
+    Using a for loop, print out the contents of the following list:
+ 
+    ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet', 'Roy G
+    Biv']
+
+    ~~~~
+    
+    

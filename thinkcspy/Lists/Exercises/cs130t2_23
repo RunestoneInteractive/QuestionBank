@@ -1,0 +1,19 @@
+.. mchoice:: cs130t2_23
+   :author: Lloyd Smith
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+   :answer_a: ["How", "now", "brown", "aardvark"]
+   :answer_b: ["How", "now", "brown", "cow?"]
+   :answer_c: []
+   :answer_d: Can't be determined without running the code
+   :correct: a
+   :random:
+
+   23. What is the value of list a after executing the following code? ::
+
+      s = "How now brown cow?"
+      a = s.split()
+      b = a
+      b[-1] = "aardvark"

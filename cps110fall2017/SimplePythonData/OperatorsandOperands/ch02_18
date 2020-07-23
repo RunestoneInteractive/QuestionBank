@@ -1,0 +1,13 @@
+.. activecode:: ch02_18
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: SimplePythonData/OperatorsandOperands
+    :from_source: None
+    :nocanvas:
+
+    quotient = 7 // 3     # This is the integer division operator
+    print(quotient)
+    remainder = 7 % 3
+    print(remainder)
+

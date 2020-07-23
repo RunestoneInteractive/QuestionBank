@@ -1,0 +1,31 @@
+.. activecode:: ac15_5_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedFunctions/ChapterAssessment
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   The following function, ``greeting``, does not work. Please fix the code so that it runs without error. This only requires one change in the definition of the function.
+   ~~~~
+
+   def greeting(greeting="Hello ", name, excl="!"):
+       return greeting + name + excl
+
+   print(greeting("Bob"))
+   print(greeting(""))
+   print(greeting("Bob", excl="!!!"))
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(greeting("Bob"), "Hello Bob!", "Testing that greeting('Bob') returns 'Hello Bob!'.")
+         self.assertEqual(greeting(""), "Hello !", "Testing that greeting('') return 'Hello !'.")
+
+   myTests().main()
+

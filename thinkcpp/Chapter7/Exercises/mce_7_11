@@ -1,0 +1,40 @@
+.. mchoice:: mce_7_11
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter7/Exercises
+    :from_source: T
+
+    An error occured while delivering a message. All instances of the letter 's'
+    got replaced by 'X's. Can you complete the code below to fix this error by selecting
+    the correct line of code to replace the question marks?
+
+    .. code-block:: cpp
+
+     int main() {
+       string question = "Honey? Where'X my Xuper Xuit?";
+       int i = 0;
+       while (i < question.length()) {
+         if (question[i] == 'X') {
+           ?????
+         }
+         i++;
+       }
+       cout << question;
+     }
+
+    - ``question['X'] = 's';``
+
+      - The argument in the ``[]`` operator should be a position in the string.
+
+    - ``'s' = question[i];``
+
+      - Check the order of your assignment.
+
+    - ``'X' = 's';``
+
+      - We cannot assign the value of 's' to 'X'.
+
+    - ``question[i] = 's';``
+
+      + This will successfully replace all instances of 'X' with 's'.

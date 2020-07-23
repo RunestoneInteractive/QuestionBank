@@ -1,0 +1,18 @@
+.. mchoice:: cswq6_7
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Dictionaries/Exercises
+   :from_source: F
+   :answer_a: ["apr", "feb", "jan", "jul", "jun", "mar", "may"]
+   :answer_b: ["jan", "feb", "mar", "apr", "may", "jun", "jul"]
+   :answer_c: [22, 26, 35, 44, 54, 63, 68]
+   :answer_d: ["jan": 22, "feb": 26, "mar": 35, "apr": 44, "may": 54, "jun": 63, "jul": 68]
+   :correct: a
+   :random:
+
+   7. What is the value of x after executing the following code?::
+
+      avg_low = {"jan": 22, "feb": 26, "mar": 35, "apr": 44, "may": 54, "jun": 63, "jul": 68}
+      x = list(avg_low)
+      x.sort()

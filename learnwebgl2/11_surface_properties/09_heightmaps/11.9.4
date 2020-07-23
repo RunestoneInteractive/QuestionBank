@@ -1,0 +1,30 @@
+.. mchoice:: 11.9.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :topic: 11_surface_properties/09_heightmaps
+  :from_source: T
+  :random:
+
+  A *heightmap* and a *displacement map* can be implemented with the same
+  *vertex shader* program if what is true?
+
+  - The *normal vectors* of the underlying mesh always point in the
+    direction of displacement.
+
+    + Correct. For a flat plane, the *normal vectors* will be pointing straight up from the surface.
+
+  - The underlying mesh is always planar.
+
+    - Incorrect. *Displacement maps* are defined for any surface, planar or not.
+
+  - The underlying mesh contains a sufficient number of vertices.
+
+    - Incorrect. The number of vertices determines the fine-grain accuracy of the
+      displacements, but not the code implementation.
+
+  - The image used for the mapping is used for both height displacement and the surface's color.
+
+    - Incorrect. The examples above used the same image for both displacement and color,
+      but only for the purpose of simplifying the examples.
+

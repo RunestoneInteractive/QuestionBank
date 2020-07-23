@@ -1,0 +1,70 @@
+.. mchoice:: e25_2_7
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :topic: CSPUntimedPracticeQuestions/exam25_2
+  :from_source: T
+  :answer_a:
+  :answer_b:
+  :answer_c:
+  :answer_d:
+  :correct: b
+  :feedback_a: Incorrect. This code will display "Tucker Hey Please enter your name".
+  :feedback_b: Correct. This code will ask to enter your name and store it in variable x. Then, will display Hey Tucker.
+  :feedback_c: Incorrect. This code will display "Hey Please enter your name Tucker".
+  :feedback_d: Incorrect. This code will display "Tucker Tucker".
+
+  Tucker is writing his first program. He wants the program to say “hey” to him. Below is an overview of what he hopes the program will do:
+
+  1. Display “Please enter your name.”
+
+  2. The user enters in their name: TUCKER
+
+  3. The computer displays: “Hey TUCKER”.
+
+  Which of the following programs will do what Tucker wants?
+
+  (A)
+  ::
+
+  x ←  INPUT()
+
+  DISPLAY(x)
+
+  DISPLAY("Hey")
+
+  DISPLAY("Please enter your name.")
+
+  (B)
+  ::
+
+  DISPLAY("Please enter your name.")
+
+  x ← INPUT()
+
+  DISPLAY("Hey")
+
+  DISPLAY(x)
+
+  (C)
+  ::
+
+  DISPLAY("Hey")
+
+  x ← INPUT()
+
+  DISPLAY("Please enter your name.")
+
+  DISPLAY(x)
+
+  (D)
+  ::
+
+  DISPLAY("Please enter your name.")
+
+  x ← INPUT()
+
+  DISPLAY(x)
+
+  DISPLAY("Tucker")
+

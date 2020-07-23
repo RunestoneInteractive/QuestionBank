@@ -1,0 +1,53 @@
+.. activecode:: lhs_15_4
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: IntroRecursion/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Assume that female rabbits live for only 4 months. Modify the math-like
+    definition from the previous problem of the Fibonacci series to account
+    for dying rabbits. Implement the new series as a Python function ``fibDieEvery4(n)``.
+
+    To aid in solving this problem, you should first draw a chart showing the
+    population of rabbits by month. Then deduce the new rules for the series. You
+    will have more base cases than in the original series.
+
+    Translate the math-like definition of ``fibDieEvery4`` into a Python function that returns
+    a given value from your modified Fibonacci series. Test your program.
+
+    ~~~~
+    def fibDieEvery4(n):
+        # Your recursive code here
+
+    def main():
+        # Your test code here
+    
+    if __name__ == "__main__":
+        main()
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            editText = self.getEditorText()
+            self.assertEqual(0, len(re.findall("\s*while[( ]", editText)), "Should use no 'while' loops")
+            self.assertEqual(0, len(re.findall("\s*for ", editText)), "Should use no 'for' loops")
+
+            self.assertEqual(1, fibDieEvery4(0), "Testing fibDieEvery4(0)")
+            self.assertEqual(1, fibDieEvery4(1), "Testing fibDieEvery4(1)")
+            self.assertEqual(1, fibDieEvery4(2), "Testing fibDieEvery4(2)")
+            self.assertEqual(2, fibDieEvery4(3), "Testing fibDieEvery4(3)")
+            self.assertEqual(3, fibDieEvery4(4), "Testing fibDieEvery4(6)")
+            self.assertTrue(fibDieEvery4(9)==11 or fibDieEvery4(9)==15 or fibDieEvery4(9)==19 or fibDieEvery4(9)==24, "Testing fibDieEvery4(9)")
+            #self.assertEqual(241, fibDieEvery4(15), "Testing fibDieEvery4(15)")
+
+    myTests().main()

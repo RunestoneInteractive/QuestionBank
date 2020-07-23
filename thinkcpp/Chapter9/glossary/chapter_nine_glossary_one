@@ -1,0 +1,13 @@
+.. dragndrop:: chapter_nine_glossary_one
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter9/glossary
+    :from_source: T
+    :feedback: Try again!
+    :match_1: instance|||An example from a category. My cat is an instance of the category “feline things.” Every object is an instance of some type.
+    :match_2: instance variable|||One of the named data items that make up an structure. Each structure has its own copy of the instance variables for its type.
+    :match_3: constant reference parameter|||A parameter that is passed by reference but that cannot be modified.
+    :match_4: pure function|||A function whose result depends only on its parameters, and that has so effects other than returning a value.
+
+    Match the definition to the term.

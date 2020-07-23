@@ -1,0 +1,93 @@
+.. activecode:: lhs_4_2
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a program using a ``for`` loop that adds up all of the even integers from 2 to 10 (inclusive) and prints out the result. 
+    Initial code has been given what does the job without a loop. But the code is very repetitive. So, change the 5 repetitive lines
+    of code with 2 lines of code to add up the even numbers.
+    
+    Use ``evenNum`` as the loop variable in the ``for`` loop.
+
+    You must also use the ``range`` function to generate the even integers from 2 to 10.
+
+    ~~~~
+    sum = 0
+
+    # TODO: replace these repetitive 5 lines of code with a for loop
+    sum = sum + 2
+    sum = sum + 4
+    sum = sum + 6
+    sum = sum + 8
+    sum = sum + 10
+
+    print(sum)
+
+    ====
+
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def checkFor(self):
+            # Look for "for evenNum in range"
+            res = re.findall("for[ ]+evenNum[ ]+in[ ]+range", self.getEditorText())
+            return (len(res) > 0)
+            
+        def checkRange(self):
+            code = self.getEditorText()
+            
+            # Extract range(#,#,#) from code
+            findRange = re.findall("range\s*\(\s*[0-9]*\s*,\s*[0-9]*\s*,\s*[0-9]*\s*\)" , code)
+            rangeText = findRange[0]
+            
+            # Extract the 3 numbers form the range(#,#,#)
+            temp = re.findall(r'\d+', rangeText)
+            res = list(map(int, temp))
+            
+            # check for 2, 11 or 12, 2 as the three parameters
+            ok1 = res[0] == 2
+            ok2 = res[1] == 11 or res[1] == 12
+            ok3 = res[2] == 2
+            return (ok1 and ok2 and ok3)
+
+         # regExString - is checked inside inString
+         # howMany - how many matches are expected
+         # matchString - summary of what is being matched (readable version of regExString)
+         # errorString - error string upon assertion failure
+        def regExCheck(self, regExString, inString, howMany, matchString, errorString):
+            res = re.findall(regExString, inString, re.M)
+            checkOK = (len(res) == howMany)
+            if not checkOK:
+                print("Found [", matchString, "]", len(res), "time(s), not", howMany)
+
+            self.assertEqual(checkOK, True, errorString)
+
+            return(checkOK)
+    
+        def testOne(self):
+            print ("Auto-testing...")
+            outText = self.getOutput()
+            code = self.getEditorText()
+            
+            # strips the test code - when testing code with the test code 
+            pos = code.find("class myTests")
+            if (pos != -1):
+                code = code[:pos]
+
+            self.assertEqual(self.checkFor(), True, "Checking for with evenNum as loop variable w/ range statement")
+            self.assertEqual(self.checkRange(), True, "Checking range(#,#,#) for 2-10 even numbers")
+            self.assertEqual(sum, 30, "Checking sum variable")
+
+            regEx = "(^for\s+evenNum.*:.*\n)(.*\n)*((^\s+sum\s*=\s*sum\s*\+\s*evenNum)|(^\s+sum\s*=\s*evenNum\s*\+\s*sum)|(^\s+sum\s*\+=\s*evenNum))"
+            self.regExCheck(regEx, code, 1, "sum = sum + ... within for loop", "Increment sum with evenNum in for loop")
+
+            self.regExCheck("^\s*sum\s*=\s*30", code, 0, "sum = 30", "No hardcoding the answer for sum")
+            self.regExCheck("^sum\s*=\s*0", code, 1, "sum = 0", "Looking for initialization of sum")
+            self.assertIn(str(30), self.getOutput(), "Checking print of the final sum")
+    
+    myTests().main()

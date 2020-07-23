@@ -1,0 +1,14 @@
+.. dragndrop:: dd_summarystats
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/exploring_data
+   :from_source: T
+   :feedback: Check the Reading list for the introduction to summary statistics
+   :match_1: Mean|||The sum of all values, divided by the number of values
+   :match_2: Median|||The middle value in all your data
+   :match_3: Mode|||The value that occurs most often
+   :match_4: Standard Deviation|||A measure of how spread out your data is
+
+   Match the Term on the left with the description on the right.
+

@@ -1,0 +1,14 @@
+.. activecode::  ams_assign5_q1
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameTurtles/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Finish the code so that it draws an equilateral triangle.
+    ~~~~
+    from turtle import *
+    space = Screen()
+    alex = Turtle()
+    alex.forward(150)

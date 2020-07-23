@@ -1,0 +1,11 @@
+.. activecode:: tgh
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: haugrud
+    :topic: PythonTurtle/TherangeFunction
+    :from_source: None
+    :nocanvas:
+
+    print(list(range(4)))
+    print(list(range(1, 5)))
+

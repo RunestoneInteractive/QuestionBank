@@ -1,0 +1,45 @@
+.. activecode:: lhs_16_12
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesBasics/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    This problem will modify your previously defined class, ``bank``. Add two more methods,
+    ``add_deposit`` and ``less_withdrawals``. The ``add_deposit`` method should add
+    the deposit amount (an input paremeter to ``add_deposit`` is required) to ``amt`` 
+    and the ``less_withdrawals`` method should subtract the withdrawal amount (again, an 
+    input parameter to ``less_withdrawals``) from ``amt``. Both of these methods **return** 
+    the new balance in addition to updating the ``amt`` state variable. 
+
+    Create two instances of the class, the first assigned to ``bob`` and the second 
+    to ``sally``. The first uses "Bob" as the name and 100 as the initial amount. The 
+    second uses "Sally" as the name and 200 as the initial amount.  For ``bob``, call 
+    ``add_deposit`` enough times with an input of 50 dollars so that the bank account 
+    is 200 dollars and save to the resulting balance to ``bob_amt``. For ``sally``, 
+    call ``less_withdrawal`` enough times with an input of 125 dollars so that the bank 
+    account is 75 dollars and save to the variable ``sally_amt``.
+
+    ~~~~
+    #Define the class here
+
+    #Your test code here
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            self.assertEqual(bob.__str__(), "Your account, Bob, has 200 dollars.", "Testing that bob is assigned to correct value")
+            self.assertEqual(sally.__str__(), 'Your account, Sally, has 75 dollars.', "Testing that sally is assigned to correct value")
+            self.assertEqual(bob_amt, 200, "Testing that bob_amt is assigned to correct value")
+            self.assertEqual(sally_amt, 75, "Testing that sally is assigned to correct value")
+        
+    myTests().main()

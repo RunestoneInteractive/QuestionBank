@@ -1,0 +1,47 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: 1306_cw4_s20_q1
+    :autograde: unittest
+
+    **Question 1 [40 points]** 
+
+    Develop a function ``addseries(N,K)``  that computes the sum of the series: ``N + (N+1) + (N+2) +… (N+K)``
+
+    Develop a function ``addrandseries(N,K)`` that  computes the sum of ``K`` random numbers between ``N`` and ``K``, including ``N`` & ``K``
+
+    Develop a function ``compareseries(N,K)``  that returns the difference  ``addseries(N,K) - addrandseries(N,K)``.
+
+    Then write a program that takes ``N`` and ``K`` as user input and calls the function ``compareseries(N,K)`` and prints the value returned by it.
+
+    
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(addseries(1,10),66,"addseries(1,10) should return 66")
+            self.assertEqual(addseries(10,100),6060,"addseries(10,100) should return 6060")
+            random.seed(10)
+            self.assertEqual(addrandseries(1,10),45,"addrandseries(1,10) should return 45")
+            random.seed(100)
+            self.assertEqual(addrandseries(10,100),5249,"addrandseries(10,100) should return 5249")
+            self.assertEqual(compareseries(1,10),-6,"compareseries(1,10) should return -6")
+            self.assertEqual(compareseries(10,100),533,"compareseries(10,100) should return 533")
+            #self.assertAlmostEqual(add(10), 55, 1, "Try adding your parmeters")
+
+
+    myTests().main()

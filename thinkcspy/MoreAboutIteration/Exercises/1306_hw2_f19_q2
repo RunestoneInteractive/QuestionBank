@@ -1,0 +1,27 @@
+
+    :author: Shishir Shah
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_hw2_f19_q2
+    :language: python
+
+    Write a Python function ``FindPrimes2(Q)`` that takes a parameter ``Q`` as argument and 
+    returns the Qth prime number. Test for Q = 100  
+
+    In solving this problem, use the ``isPrime(number)`` function you already wrote in the 
+    previous question.  
+    Hint: Use while loop in writing the function ``FindPrimes2(Q)``.
+
+
+
+    ~~~~
+    def isPrimes(number):
+        # your code here
+                
+    def FindPrimes2(Q):
+        # your code here
+    
+        
+    ====

@@ -1,0 +1,23 @@
+.. mchoice:: e5a6_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPNameNames/exam5a6
+   :from_source: T
+   :answer_a: bob.move(50)
+   :answer_b: bob.left(50)
+   :answer_c: bob.forward(50)
+   :answer_d: bob.right(50)
+   :correct: c
+   :feedback_a: Turtles don't understand move.
+   :feedback_b: The left procedure turns the turtle left by the specified amount.
+   :feedback_c: Turtles have a forward procedure which moves the turtle in the direction it is facing by the specified amount.
+   :feedback_d: The right procedure turns the turtle right by the specified amount.
+
+   Given the following lines of code, which will move the turtle bob 50 units forward?
+
+   ::
+
+      from turtle import *
+      space = Screen()
+      bob = Turtle()

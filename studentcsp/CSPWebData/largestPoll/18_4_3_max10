@@ -1,0 +1,17 @@
+.. mchoice:: 18_4_3_max10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPWebData/largestPoll
+   :from_source: T
+   :answer_a: new10 = float(values[0])
+   :answer_b: new10 = float(values[1])
+   :answer_c: new10 = float(values[2])
+   :correct: b
+   :feedback_a: This would get the city and state.
+   :feedback_b: This gets the value of PM 10.
+   :feedback_c: This gets the value of PM 2.5.
+
+   Which of the following would return the value of the PM 10 pollution instead at line 17?
+
+

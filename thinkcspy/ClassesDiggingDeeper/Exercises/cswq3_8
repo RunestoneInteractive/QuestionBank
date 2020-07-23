@@ -1,0 +1,14 @@
+.. mchoice:: cswq3_8
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: ClassesDiggingDeeper/Exercises
+   :from_source: F
+   :answer_a: 1110000
+   :answer_b: 1010100
+   :answer_c: 1010000
+   :answer_d: 1100100
+   :correct: a
+   :random:
+
+   Convert the following decimal number to binary: 112

@@ -1,0 +1,26 @@
+.. mchoice:: stack_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythonds
+   :topic: BasicDS/ImplementingaStackinPython
+   :from_source: T
+   :answer_a: 'x'
+   :answer_b: 'y'
+   :answer_c: 'z'
+   :answer_d: The stack is empty
+   :correct: c
+   :feedback_a: Remember that a stack is built from the bottom up.
+   :feedback_b: Remember that a stack is built from the bottom up.
+   :feedback_c: Good job.
+   :feedback_d: Remember that a stack is built from the bottom up.
+
+   Given the following sequence of stack operations, what is the top item on the stack when the sequence is complete?
+
+   .. code-block:: python
+
+    m = Stack()
+    m.push('x')
+    m.push('y')
+    m.pop()
+    m.push('z')
+    m.peek()

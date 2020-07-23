@@ -1,0 +1,16 @@
+
+   :author: Rena Sweeney
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. shortanswer:: schs_question_6
+   :optional:
+
+   Give two examples of a low level language.
+
+
+config values (conf.py):
+
+- shortanswer_div_class - custom CSS class of the component's outermost div
+    

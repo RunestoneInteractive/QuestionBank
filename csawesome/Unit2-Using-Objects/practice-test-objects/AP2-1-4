@@ -1,0 +1,28 @@
+.. mchoice:: AP2-1-4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/practice-test-objects
+   :from_source: T
+   :practice: T
+   :random:
+   :answer_a: painting1 is an instance of three String objects.
+   :answer_b: artist, title, and gallery are instances of the Artwork class.
+   :answer_c: Artwork is an instance of the painting1 object.
+   :answer_d: painting1 is an instance of the Artwork class.
+   :answer_e: Artwork is an instance of three String objects.
+   :correct: d
+   :feedback_a: The String variables are attributes of painting1.
+   :feedback_b: These are attributes.
+   :feedback_c: painting1 is an instance of Artwork.
+   :feedback_d: Correct!
+   :feedback_e: Artwork is the class name.
+
+    A student has created an Artwork class. The class contains the following variables.
+    - A String variable called artist to represent the artist’s name
+    - A String variable called title to represent the artwork’s title
+    - A String variable called gallery to represent the gallery title
+
+    The object painting1 will be declared as type Artwork.
+    Which of the following statements is true?
+

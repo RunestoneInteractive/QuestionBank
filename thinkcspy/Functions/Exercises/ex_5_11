@@ -1,0 +1,10 @@
+.. actex:: ex_5_11
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: T
+
+   Extend the star function to draw an n pointed star.  (Hint: n must be an odd number greater or
+   equal to 3).
+   ~~~~

@@ -1,0 +1,35 @@
+.. mchoice:: json_mmc3
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameStrings/Exercises
+   :from_source: F
+   :correct: d
+   :answer_a: name = dList.get("first_name", None)
+   :answer_b: name = dlist[2]["first_name"]
+   :answer_c: name = dlist[1][first_name]
+   :answer_d: name = dList[1]["first_name"]
+   :feedback_a: Can you use get with a list?
+   :feedback_b: The second item is at index 1.
+   :feedback_c: Need to use quotes around the attribute name.
+   :feedback_d: This gets the first name of the second item.
+
+   What line would you use after the code below to get the value of the first_name from the second item from dList?
+
+   .. code-block:: python
+
+      data = '''
+      [{
+          "id": 1,
+          "first_name": "Jeanette",
+          "last_name": "Penddreth",
+          "email": "jpenddreth@census.gov",
+          "gender": "non-binary",
+          "ip_address": "26.58.193.2"
+        }, {
+          "id": 2, 
+          "first_name": "Giavani",
+          "last_name" : "Russo"
+      }]'''
+      dList = json.loads(data)
+   

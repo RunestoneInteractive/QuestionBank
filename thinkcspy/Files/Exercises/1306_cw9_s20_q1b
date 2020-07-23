@@ -1,0 +1,23 @@
+.. activecode:: 1306_cw9_s20_q1b
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Files/Exercises
+    :from_source: F
+    :autograde: unittest
+
+
+    **Question 1B [25 points]** 
+     
+    The following refer to a file similar to "qbdata.txt" in section 11.3 of the Runestone book. You need to write the following functions:
+
+    **QBBest(filehandle, rating)** that takes a file handle and a float rating as a parameter and returns a list of quarterback lastnames whose rating is rating or higher.
+
+    ::
+
+        QBBest(filehandle,100) would return ['Vick', 'Rivers', 'Brady', 'Rodgers']
+ 
+    You can test the program by reading the file in your main program and calling these functions.
+
+    ~~~~
+    # Write your code here

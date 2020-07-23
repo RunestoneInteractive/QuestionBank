@@ -1,0 +1,8 @@
+.. activecode:: ac1_7_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: GeneralIntro/ATypicalFirstProgram
+    :from_source: T
+
+    print("Hello, World!")

@@ -1,0 +1,19 @@
+.. mchoice:: 1-9-6-A
+   :author: Rachel Reyes
+   :difficulty: 2.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+   :answer_a: A random number from 0.0 to 4.0
+   :answer_b: A random number from 0 to 3
+   :answer_c: A random number from 0.0 to 3.999999 (14 to 15 significant digits)
+   :answer_d: A random number from 0 to 1
+   :correct: c
+
+   Given the following code segment, what is the value of ``value`` when it finishes executing?
+
+   Math.random() returns a random decimal number between 0 (inclusive) and 1 (exclusive).
+
+   .. code-block:: java
+
+    double value = (double) (Math.random() * 4);

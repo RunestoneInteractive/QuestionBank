@@ -1,0 +1,17 @@
+.. activecode:: sel2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Selection/Nestedconditionals
+    :from_source: None
+
+    x = 10
+    y = 10
+
+    if x < y:
+        print("x is less than y")
+    else:
+        if x > y:
+            print("x is greater than y")
+        else:
+            print("x and y must be equal")

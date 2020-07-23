@@ -1,0 +1,69 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+.. activecode:: 1306_cw4_s20_q2
+
+    **Question 2 [40 points]**  Write a Python function ``printline(num,sym)`` that takes an integer ``num`` and a symbol ``sym`` as parameters and prints a line with ``sym`` repeated ``num`` times. 
+
+    For example the call ``printline(10,'*')`` will print the pattern below: 
+  
+    ::
+
+         ************
+    
+    
+    Next write a Python function ``printrectangle(length,height,sym)`` that prints ``height`` lines, each with ``sym`` repeated ``length`` times. You are required to call the function ``printline()`` above  for  printing each line. 
+
+    For example the call ``printrectangle(8, 3,'*')`` will print the pattern below: 
+    
+    ::
+
+         *********
+         *********
+         *********
+
+    Next write a Python function ``printtriangle(size,sym)`` that  prints a right angled triangle of length and height ``size`` as illustrated below. You are required to call the function ``printline()`` above  for  printing each line. 
+
+    For example the call ``printtriangle(5,'*')`` will print the pattern below: 
+
+    ::
+
+        *
+        **
+        ***
+        ****
+        *****
+
+
+    Finally write a Python function ``multisquare (num, size, sym)`` that prints  ``size x size`` squares ``num`` times.  You are required to call the function ``printrectangle()`` above  for  printing each square. 
+
+    For example the call ``multisquare(2,3,'*')`` will print the pattern below: 
+
+    ::
+
+        ***
+        ***
+        ***
+        
+        ***
+        ***
+        ***
+
+    
+    *(Hint: You can create a blank line with a* ``print(' ')`` *statement.)*
+
+
+
+
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+   

@@ -1,0 +1,16 @@
+
+   :author: Mart Geluk
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+.. shortanswer:: 1
+   :optional:
+
+  Describe what a function is in your own words, use a max of 5 sentences.
+
+
+config values (conf.py): 
+
+- shortanswer_div_class - custom CSS class of the component's outermost div
+    

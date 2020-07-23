@@ -1,0 +1,25 @@
+.. mchoice:: 12_6_4_Logic_Ifs
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPIntroDecisions/practice
+   :from_source: T
+   :practice: T
+   :answer_a: x will always equal 0 after this code executes for any value of x
+   :answer_b: if x is greater than 2, the value in x will be doubled after this code executes
+   :answer_c: if x is greater than 2, x will equal 0 after this code executes
+   :correct: c
+   :feedback_a: If x was set to 1 originally, then it would still equal 1.
+   :feedback_b: What happens in the original when x is greater than 2?
+   :feedback_c: If x is greater than 2, it will be set to 0.
+
+   Which of the following is true about the code below?
+
+   ::
+
+     x = 3
+     if (x > 2):
+         x = x * 2;
+     if (x > 4):
+         x = 0;
+     print(x)

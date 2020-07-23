@@ -1,0 +1,22 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: 1306_cw6_s20_q1_ext
+
+    **Question 1 Additional Practice** [No points]
+
+    For additional practice, you can create a version of the function that prints the actual expiry month and year, assuming the drug is manufactured in March 2020.This will not be graded
+    
+       
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+   

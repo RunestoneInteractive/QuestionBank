@@ -1,0 +1,15 @@
+
+    :author: Brian Powell
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: Tuples/Exercises
+    :from_source: F
+.. activecode:: wvu_tuples_enumerate
+
+    Use the enumerate() function to print the contents of the **majors** list, with the name of the major and its index position in the list one to a line like this:
+
+    ``0: Computer Science``   
+
+    ~~~~
+    majors = ['Computer Science', 'Electrical Engineering', 'Computer Engineering', 'Cybersecurity', 'Biometric Systems Engineering']
+    ====

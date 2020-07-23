@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: strings_6
+  
+    Write a program that asks the user to enter in a string. Convert the string 
+    into all lowercase letters and print out the results.
+
+    ~~~~
+    

@@ -1,0 +1,11 @@
+.. fillintheblank:: more_db_join
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+
+   Fill in the following: SELECT * FROM Orders [blank] ON Orders.CustomerID = Customers.CustomerID;
+
+   -    :^\s*(JOIN|join|Join) Customers: Correct.  You need to join with the Customers table
+        :.*: Use a JOIN and the name of the table that you are joining with

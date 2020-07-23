@@ -1,0 +1,9 @@
+.. activecode:: ac8_8_8
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: TransformingSequences/NonmutatingMethodsonStrings
+    :from_source: T
+
+    person = input('Enter your name: ')
+    print('Hello {}!'.format(person))

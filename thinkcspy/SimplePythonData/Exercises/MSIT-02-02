@@ -1,0 +1,25 @@
+.. activecode:: MSIT-02-02
+    :author: Kevin Austin
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write an assignment statement that adds the name PIE to the namespace and makes it refer to the string "apple" in objectspace.
+
+    ~~~~
+    # add your code after this line (requires no more than one statement)
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+           self.assertEqual(PIE, "apple", "Testing that PIE has the value 'apple'.")
+        
+
+    myTests().main()

@@ -1,0 +1,56 @@
+.. activecode:: lhs_17_2
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesDiggingDeeper/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a ``perimeter`` method in the Rectangle class so that we can find
+    the perimeter of any rectangle instance. The ``perimeter`` method returns the calculated value.
+
+    ::
+
+      r = Rectangle(Point(0, 0), 10, 5)
+      test.testEqual(r.perimeter(), 30)
+    ~~~~
+    import math, test
+
+    class Point:
+    """ Point class for representing and manipulating x,y coordinates. """
+
+        #Define the class here
+
+    class Rectangle:
+    """Rectangle class using Point, width and height"""
+
+        #Define the class here
+    
+        
+    # define any test code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+        def testOne(self):
+
+            tests = [ (Point(0, 0), 10, 5, 30),
+              (Point(10, 10), 27, 29, 112)
+            ]
+            num=0
+            for t in tests:
+                r = Rectangle(t[0], t[1], t[2])
+                expected = t[3]
+                self.assertEqual(r.perimeter(), expected, 'test case ' + str(num) + ' - perimeter()' )
+                num += 1
+                
+    myTests().main()

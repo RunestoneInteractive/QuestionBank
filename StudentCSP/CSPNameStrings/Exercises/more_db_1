@@ -1,0 +1,19 @@
+.. mchoice:: more_db_1
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameStrings/Exercises
+   :from_source: F
+   :correct: a
+   :answer_a: fetchall()
+   :answer_b: fetchrest()
+   :answer_c: fetchone()
+   :answer_d: fetchrows()
+   :feedback_a: returns all the rows that were selected
+   :feedback_b: sounds good, but doesn't exist
+   :feedback_c: use fetchone() to get just the first one
+   :feedback_d: sounds good, but doesn't exist
+
+   How can you get all the rows at once in sqlite from a cursor object?
+
+      

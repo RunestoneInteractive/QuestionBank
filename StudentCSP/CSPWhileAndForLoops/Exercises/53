@@ -1,0 +1,35 @@
+.. parsonsprob:: 53
+    :author: Renske Weeda
+    :difficulty: 1.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    Schrijf een programma die telt hoeveel getallen er in een lijst zijn. Zet de regels code in de juiste volgorde. Er is <i>een overbodige</i> regel code.
+    -----
+    lijst = [3, 8, 12, -4]
+    =====
+    teller = 0
+    =====
+    getal = 0 #paired
+    =====
+    for getal in lijst:
+    =====
+    for teller in lijst: #paired
+    =====
+        teller += 1
+    =====
+        getal += 1 #paired
+    =====
+    print(teller)
+    =====
+    print(getal) #paired
+    =====
+    teller += getal #distractor
+
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div
+    

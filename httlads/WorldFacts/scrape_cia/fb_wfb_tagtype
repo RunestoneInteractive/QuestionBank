@@ -1,0 +1,12 @@
+.. fillintheblank:: fb_wfb_tagtype
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: WorldFacts/scrape_cia
+   :from_source: T
+
+   What kind of tag is the last tag to have the class of "cfclose"? |blank|
+
+   - :button: Is correct
+     :x: Hint: There are three items with class="cfclose", all are the same tag
+

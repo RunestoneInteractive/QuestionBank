@@ -1,0 +1,15 @@
+.. mchoice:: cswfinal_q36
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 'Kingman', 'Cleveland', 'Fremont', 'Fredericton'
+   :answer_b: 'Burbank', 'Calhoun Falls', 'Cleveland', 'Fredericton'
+   :answer_c: 'Kingman', 'Fremont', 'Fredericton'
+   :answer_d: 'Los Angeles', 'Calhoun Falls', 'Fredericton'
+   :correct: a
+   :random:
+
+   36. What is the order of items checked during a binary search (looking for Fredericton) in the following list?
+['Burbank', 'Calhoun Falls', 'Cleveland', 'Fredericton', 'Fremont', 'Kingman', 'Los Angeles', 'Ottumwa', 'Sacramento', 'Spring']

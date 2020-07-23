@@ -1,0 +1,13 @@
+.. mchoice:: qoo10-1-3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :topic: OOBasics/ooInheritance
+   :from_source: T
+   :answer_a: Yes
+   :answer_b: No
+   :correct: b
+   :feedback_a: Is a parking garage a kind of vehicle?
+   :feedback_b: No, a parking garage is not a kind of vehicle.  Instead it has vehicles in it which implies that the ParkingGarage class would have a field that tracks the vehicles in it.
+
+   If I had a class ParkingGarage should it inherit from the class Vehicle?

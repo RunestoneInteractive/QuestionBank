@@ -1,0 +1,37 @@
+.. activecode:: lhs_16_3
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesBasics/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Create a class called ``Bike`` that contains two instance variables, ``color`` and ``price``.
+    Assign to the variable ``testOne``, an instance of ``Bike`` whose color is blue and price is 89.99.
+    Assign to the variable ``testTwo``, an instance of ``Bike`` whose color is purple and price is 25. 
+    ~~~~
+    #Define the class here
+
+    
+    #Your test code here
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+        def testOne(self):
+            self.assertEqual(testOne.color, "blue", "Testing that testOne has the correct color assigned.")
+            self.assertEqual(testOne.price, 89.99, "Testing that testOne has the correct price assigned.")
+
+        def testTwo(self):
+            self.assertEqual(testTwo.color, "purple", "Testing that testTwo has the correct color assigned.")
+            self.assertEqual(testTwo.price, 25, "Testing that testTwo has the correct color assigned.")
+
+    myTests().main()

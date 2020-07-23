@@ -1,0 +1,25 @@
+.. activecode:: TL_365_ex_2_8
+   :author: Tyler Luchko
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Add parentheses to the expression ``6 * 1 - 2`` to change its value from 4 to -6.
+   ~~~~
+
+   print(6 * 1 -2)
+
+   ====
+   
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual('-6\n', self.getOutput(), 'Checking output.')
+	   self.assertTrue(re.search(r'.*\(.*\(.*\).*\).*', self.getEditorText()), 'Checking parentheses.')
+	   self.assertFalse(re.search(r'-6', self.getEditorText()),'Checking for "-6"')
+	   
+   myTests().main()

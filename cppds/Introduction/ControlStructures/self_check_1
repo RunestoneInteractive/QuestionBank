@@ -1,0 +1,9 @@
+.. activecode:: self_check_1
+  :author: Brad Miller
+  :difficulty: 3.0
+  :basecourse: cppds
+  :topic: Introduction/ControlStructures
+  :from_source: F
+  :language: cpp
+
+   // the answer is: ['c', 'a', 't', 'd', 'o', 'g', 'r', 'b', 'i']

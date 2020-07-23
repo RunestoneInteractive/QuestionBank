@@ -1,0 +1,26 @@
+
+   :author: Damon Ellingston
+   :difficulty: 4.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+.. activecode:: hw13aDE
+
+   **Homework 13 - Guessing game**
+
+    Modify the code you wrote for Bingo! as follows. 
+
+    First the program will generate a random number from 1 to 50 using the random() module. Don’t tell the user what the random number is!
+
+    Next you will call the function enter(). For each guess there are three possible responses::
+
+
+     “Too high” followed by “Guess?” from the enter() function
+
+     “Too low” followed by “Guess?” from the enter() function
+
+     “Bingo!”` at which point it exits the program
+
+    
+    However, instead of limiting the user to 5 guesses as you did in Bingo! this program lets the user take as many guesses as they like. Try using a ``while`` loop to allow unlimited guessing.
+   ~~~~

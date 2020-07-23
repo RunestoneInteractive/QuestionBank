@@ -1,0 +1,22 @@
+.. codelens:: clens11_12_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/PassingMutableObjects
+   :from_source: F
+   :python: py3
+
+   def double(n):
+       n = 2 * n
+
+   def changeit(lst):
+       lst[0] = "Michigan"
+       lst[1] = "Wolverines"
+
+   y = 5
+   double(y)
+   print(y)
+
+   mylst = ['106', 'students', 'are', 'awesome']
+   changeit(mylst)
+   print(mylst)

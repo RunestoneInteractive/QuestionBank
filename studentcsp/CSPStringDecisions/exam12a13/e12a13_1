@@ -1,0 +1,24 @@
+.. mchoice:: e12a13_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :topic: CSPStringDecisions/exam12a13
+   :from_source: T
+   :practice: T
+   :answer_a: 5 to 20
+   :answer_b: 6 to 20
+   :answer_c: 5 to 19
+   :answer_d: 6 to 19
+   :correct: c
+   :feedback_a: This would be true if it was if x >= 5 and x <= 20:
+   :feedback_b: This would be true if it was if x > 5 and x <= 20:
+   :feedback_c: It will print "condition true" when x is greater than or equal to 5 and less than 20.
+   :feedback_d: This would be true if it was if x > 5 and x < 20:
+
+   Given the code below, what describes the values of x that will cause the code to print "condition true"?
+
+   ::
+
+      if x >= 5 and x < 20:
+          print ("condition true")
+      print ("All done")

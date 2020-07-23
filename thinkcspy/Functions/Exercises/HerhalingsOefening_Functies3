@@ -1,0 +1,36 @@
+.. actex:: HerhalingsOefening_Functies3
+    :author: Gilles Fiers
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Functions/Exercises
+    :from_source: F
+
+    Schrijf een functie dat een turtle de eerste letters van je achternaam laat tekenen. In het geval van de naam Gilles Fiers maak je dus een functie : tekenF(t,grootte). Een voorbeeld vind je hieronder in de code.
+    ~~~~
+
+    import turtle
+
+    def tekenF(t, grootte):
+        """Zorgt dat turtle t de letter F tekent met een meegegeven grootte"""
+        t.left(90)
+        t.forward(grootte)
+        t.right(90)
+        t.forward(grootte/2)
+        t.backward(grootte/2)
+        t.right(90)
+        t.forward(grootte/2)
+        t.left(90)
+        t.forward(grootte/3)
+        t.backward(grootte/3)
+        t.right(90)
+        t.forward(grootte/2)
+        t.left(90)
+
+
+    wn = turtle.Screen()
+    alex = turtle.Turtle()
+    
+    tekenF(alex,30)
+
+
+    wn.exitonclick()

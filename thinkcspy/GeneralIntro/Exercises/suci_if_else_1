@@ -1,0 +1,15 @@
+.. actex:: suci_if_else_1
+   :author: peter suci
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+
+   Run the program a couple times so you can see what it does. Then modify it so that it prints "correct" if the person enters Havre HS instead of Box Elder.
+   ~~~~
+   name = input("Enter the name of your school")
+
+   if name == "Box Elder":              
+       print("Correct!")
+   else:                      
+       print("Try again")

@@ -1,0 +1,16 @@
+.. mchoice:: cswfinal_q2
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 100100
+   :answer_b: 010000
+   :answer_c: 110011
+   :answer_d: 101010
+   :correct: a
+   :random:
+
+   2. Convert the following decimal number to binary::
+
+      36

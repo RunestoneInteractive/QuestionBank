@@ -1,0 +1,41 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+
+.. parsonsprob:: unittest-car
+   :adaptive:
+   :numbered: left
+
+   Put the code in order to define a TestCar class.  It should import unittest, then create the class.  Next it should define the setUp, test_get_model, and test_set_model methods. 
+   -----
+   import unittest
+   =====
+   class TestCar(unittest.TestCase):
+   =====
+       def setUp(self):
+   =====
+       def setUp(): #paired
+   =====
+           self.c = Car("Ford","Volt", "Blue") 
+   =====
+           c = Car("Ford","Volt", "Blue") #paired
+   =====
+       def test_get_model(self):
+   =====
+           self.assertEqual(self.c.get_model(), "Volt")
+   =====
+           self.assertEqual(c.get_model(), "Volt") #paired
+   =====
+
+       def test_set_model(self):
+   =====
+           self.c.set_model("Focus")
+   =====
+           c.set_model("Focus") #paired
+   =====
+           self.assertEqual(self.c.get_model(),"Focus")
+
+   

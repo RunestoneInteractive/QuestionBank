@@ -1,0 +1,13 @@
+.. activecode:: ch02_15
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: SimplePythonData/OperatorsandOperands
+    :from_source: None
+    :nocanvas:
+
+    print(2 + 3)
+    print(2 - 3)
+    print(2 * 3)
+    print(2 ** 3)
+    print(3 ** 2)

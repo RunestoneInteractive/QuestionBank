@@ -1,0 +1,32 @@
+.. activecode:: ac18_3_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Sorting/Optionalkeyparameter
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   **2.** Below, we have provided a list of strings called ``nums``. Write a function called ``last_char`` that takes a string as input, and returns only its last character. Use this function to sort the list ``nums`` by the last digit of each number, from highest to lowest, and save this as a new list called ``nums_sorted``.
+   ~~~~
+
+   nums = ['1450', '33', '871', '19', '14378', '32', '1005', '44', '8907', '16']
+
+   def last_char():
+
+   nums_sorted =
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(nums_sorted, ['19', '14378', '8907', '16', '1005', '44', '33', '32', '871', '1450'], "Testing that nums_sorted was created correctly.")
+      def testB(self):
+         self.assertEqual(last_char('pants'), 's', "Testing the function last_char on input 'pants'.")
+
+
+   myTests().main()

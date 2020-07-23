@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: MoreAboutIteration/Exercises
+    :from_source: F
+.. activecode:: more_4
+  
+    Describe how the while loop you just wrote runs and knows when to stop 
+    iterating.
+
+    ~~~~
+    

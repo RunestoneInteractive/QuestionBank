@@ -1,0 +1,18 @@
+.. mchoice:: cs130t2_24
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Lists/Exercises
+   :from_source: F
+   :answer_a: ["cow?", "brown", "now", "How"]
+   :answer_b: ["How", "now", "brown", "cow?"]
+   :answer_c: None
+   :answer_d: ["woH", "won", "nworb", "?woc"]
+   :correct: a
+   :random:
+
+   24. What is the value of list a after executing the following code? ::
+
+      s = "How now brown cow?"
+      a = s.split()
+      a.reverse()

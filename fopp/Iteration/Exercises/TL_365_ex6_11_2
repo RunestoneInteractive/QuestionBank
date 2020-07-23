@@ -1,0 +1,20 @@
+.. actex:: TL_365_ex6_11_2
+   :author: Tyler Luchko
+   :difficulty: 1.0
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+
+   Get the user to enter some text, save it to a variable called ``user_input``, and print it out in reverse order.
+   ~~~~
+   
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+       def testOne(self):
+	   self.assertTrue(re.search(user_input[::-1], self.getOutput()), 'Checking answer.')
+	   
+   myTests().main()

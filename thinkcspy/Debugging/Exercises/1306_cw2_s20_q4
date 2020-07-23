@@ -1,0 +1,35 @@
+.. activecode:: 1306_cw2_s20_q4
+   :author: Mohammad Rajiur Rahman
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+
+   **[20 pts] Question 4** You are asked to develop a cash register for a fruit shop that sells oranges and apples. The program will first ask the number of customers. Subsequently, for each customer, it will ask the name of the customer and the number of oranges and apples they would like to buy. And then print a summary of what they bought along with the bill as illustrated in the session below:
+
+   ::
+
+      How many customers?
+      2
+
+      Name of Customer 1
+      Harry
+      Oranges are $1.40 each. How many Oranges?
+      1
+      Apples are $.75 each. How many Apples?
+      2
+      Harry, you bought 1 Orange(s) and 2 Apple(s).
+      Your bill is $2.9
+
+      Name of Customer 2
+      Sandy
+      Oranges are $1.40 each. How many Oranges?
+      10
+      Apples are $.75 each. How many Apples?
+      4
+      Sandy, you bought 10 Orange(s) and 4 Apple(s).
+      Your bill is $17.0
+
+
+   ~~~~
+   # Write your program here

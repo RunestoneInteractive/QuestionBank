@@ -1,0 +1,22 @@
+.. activecode:: jstest1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: overview
+   :topic: overview/
+   :from_source: T
+   :language: javascript
+   :nocodelens:
+
+   var x = 10;
+   var y = 11;
+   var z = x + y;
+   console.log(z);
+   function fact(n) {
+      if(n <= 1) return 1;
+      else {
+          return n * fact(n-1);
+      }
+   }
+   console.log(fact(10));
+   writeln('hello world');
+

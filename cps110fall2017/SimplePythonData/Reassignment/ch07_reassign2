@@ -1,0 +1,12 @@
+.. activecode:: ch07_reassign2
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2017
+    :topic: SimplePythonData/Reassignment
+    :from_source: None
+
+    a = 5
+    b = a    # after executing this line, a and b are now equal
+    print(a, b)
+    a = 3    # after executing this line, a and b are no longer equal
+    print(a, b)

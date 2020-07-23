@@ -1,0 +1,35 @@
+
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: IT105Resources/Exercises
+   :from_source: F
+.. parsonsprob:: IT105Test
+   :maxdist: 2
+
+   You are tasked to write a function called ``findMax(aList)`` that iterates through a list and returns the maximum value.
+
+   Ensure that the code is in the correct order.
+   -----
+   def findMax(aList):
+   =====
+      if len(aList) == 0:
+         return None
+   =====
+      currentMax = aList[0]
+   =====
+      for item in aList:
+   =====
+      for item in currentMax:   #distractor  
+   =====
+         if item &gt; currentMax:
+   =====
+            currentMax = item
+   =====
+            currentMax = currentMax + 1 #distractor
+   =====
+      return currentMax
+
+
+
+    

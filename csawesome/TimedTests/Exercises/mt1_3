@@ -1,0 +1,79 @@
+.. mchoice:: mt1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: TimedTests/Exercises
+   :from_source: T
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: IV only
+   :answer_d: II and III
+   :answer_e: I, II, and III
+   :correct: d
+   :feedback_a: This implementation of ''addMinutes'' does not account for values of additionMinutes that push the minute count above 60.
+   :feedback_b: Implementation II works, but implementation III also works.
+   :feedback_c: Implementation IV does not work for situations where additionMinutes + minutes does not go above 60.
+   :feedback_d: Correct!
+   :feedback_e: Implementations II and III are correct, but implementation I is not. Implementation I does not account for values of additionMinutes that push the minute account above 60.
+
+   Consider the following declaration for a class that will be used to represent points in time.  Which of these options correctly implement ''addMinutes()''?
+
+   .. code-block:: java
+
+      public class Timer
+      {
+         private int hours; // number of hours
+         private int minutes; // 0 <= minutes < 60
+
+         void addHours(int addition)
+         {
+            hours = hours + addition;
+         }
+
+                           void addMinutes(int additionMinutes)
+                           {
+                              // implementation not shown
+                           }
+
+         // ... other methods not shown
+
+      }
+
+     Proposed Implementations:
+
+     I.   public void addMinutes(int additionMinutes)
+          {
+             minutes = minutes + additionMinutes;
+          }
+
+     II.  public void addMinutes(int additionMinutes)
+          {
+             if(minutes + additionMinutes >= 60)
+             {
+                hours += (additionMinutes/60);
+                minutes += (additionMinutes % 60);
+             }
+             else
+             {
+                     minutes += minutes + additionMinutes;
+             }
+          }
+
+     III. public void addMinutes(int additionMinutes)
+          {
+               minutes += additionMinutes;
+               while(minutes >= 60)
+               {
+                                   hours++;
+                                   minutes -= 60;
+                               }
+          }
+
+     IV.  public void addMinutes(int additionMinutes){
+          {
+                    if(additionMinutes + minutes >= 60)
+                    {
+                        minutes = additionMinutes + minutes - 60;
+                        hours += 1;
+                    }
+          }

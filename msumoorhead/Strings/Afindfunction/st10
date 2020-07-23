@@ -1,0 +1,26 @@
+.. activecode:: st10
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :topic: Strings/Afindfunction
+    :from_source: None
+
+    def find(astring, achar):
+        """
+        Find and return the index of achar in astring.
+        Return -1 if achar does not occur in astring.
+        """
+        ix = 0
+        while ix < len(astring):
+            if astring[ix] == achar:
+                return ix  # eureka
+
+            ix = ix + 1    # advance to the next index
+
+        return -1 # no match found in astring
+
+    print(find("Compsci", "C"))
+    print(find("Compsci", "i"))
+    print(find("Compsci", "p"))
+
+    print(find("Compsci", "x"))

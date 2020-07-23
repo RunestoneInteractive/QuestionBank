@@ -1,0 +1,17 @@
+.. mchoice:: cswt2_7
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Strings/Exercises
+   :from_source: F
+   :answer_a: ["Sally s", "lls s", "ash", "lls"]
+   :answer_b: ["Sally se", "lls se", "ashe", "lls"]
+   :answer_c: ['e', 'e', 'e']
+   :answer_d: ["Sally", "sells", "seashells"]
+   :correct: a
+   :random:
+
+   7. What is the value of x after executing the following code?::
+
+      s = "Sally sells seashells"
+      x = s.split('e')

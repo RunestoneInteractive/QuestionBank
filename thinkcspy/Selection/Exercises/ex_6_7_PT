@@ -1,0 +1,34 @@
+.. actex:: ex_6_7_PT
+    :author: pranoj thapa
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+    :practice: T
+    :autograde: unittest
+    :nocodelens:
+
+    Write a function called ``is_even(n)`` that takes an integer as an argument
+    and returns ``True`` if the argument is an **even number** and ``False`` if
+    it is **odd**.
+    ~~~~
+
+    def is_even(n):
+        # your code here
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+         def testOne(self):
+             editText = self.getEditorText()
+             self.assertEqual(2, len(re.findall("\s*return", editText)), "Need two return statements")
+             self.assertEqual(is_even(10),True,"Tested is_even on input of 10")
+             self.assertEqual(is_even(5),False,"Tested is_even on input of 5")
+             self.assertEqual(is_even(1),False,"Tested is_even on input of 1")
+             self.assertEqual(is_even(0),True,"Tested is_even on input of 0")
+             self.assertEqual(is_even(-10),True,"Tested is_even on input of -10")
+             self.assertEqual(is_even(-11),False,"Tested is_even on input of -11")
+
+    myTests().main()

@@ -1,0 +1,15 @@
+
+    :author: Richard Bernatz
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. activecode:: q1_ex3_rab
+
+    Write a program that takes a time interval, measured in minutes, as an input, converts it to time measured in hours and minutes and prints out the result.
+    ~~~~
+    # Name : 
+    m = input("enter the interval length in minutes")
+    # your code here
+
+    

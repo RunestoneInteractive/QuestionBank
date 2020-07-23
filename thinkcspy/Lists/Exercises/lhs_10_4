@@ -1,0 +1,52 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+.. activecode:: lhs_10_4
+    :language: python
+    :autograde: unittest
+
+    Write a function ``countWords(lst, length)`` that returns the count of
+    how many words in a list have a length greater than or equal to ``length``.
+    To receive full credit, you must use a **list comprehension**.
+
+    ~~~~
+    # My Name:
+
+    def countWords(lst, length):
+        # write your code here
+    
+    # any test cases you'd like to have
+
+    ====
+    
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _countWords(self, lst, length):
+            sum = 0
+            for e in [num for num in lst if len(num) >= length]:
+                sum += 1
+            return sum
+    
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            lst = [ 'a', 'bb', 'ccc', 'dddd', 'eeeee', 'ffffff', 'ggggggg']
+            test = [ 0, 5, 8 ]
+            for i in test:
+                self.assertEqual(countWords(lst, i), self._countWords(lst, i), "Testing length "+str(i))
+            editText = self.getEditorText()
+            Found = len(re.findall("for .* in .*[^\n].*if", editText)) >= 1
+            if Found:
+                self.assertEqual(Found, True, "list comprehension used")
+            else:
+                self.assertEqual(Found, True, "list comprehension not found")                
+    myTests().main() 

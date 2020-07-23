@@ -1,0 +1,126 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: lhs_9_11
+    :language: python
+    :autograde: unittest
+
+    Write a function that translates a phrase word-by-word into Pig Latin.
+    (Here, words are delineated by any combination of spaces, commas, periods,
+    question marks, exclamation marks, semicolons, colons, hyphens, double quotes, parentheses, etc. 
+    Basically, anything that is not a sequence of letters). You must use the function
+    that you created in the previous problem to translate a single English word into a Pig Latin word.
+
+    For example, execution of the following statements:
+
+     .. sourcecode:: python
+
+        print(phraseToPigLatin("\"Hasta la vista baby.\" - the Terminator"))
+        print(phraseToPigLatin("print(\"I love Python\", edn=\"\")"))
+        print(phraseToPigLatin("I have never let my schooling interfere with my education. - Mark Twain"))
+        print(phraseToPigLatin("while pos < len(englishWord)"))
+
+    would produce the following output
+
+    ::
+
+        "Astahay alay istavay abybay." - ethay Erminatortay
+        intpray("Iyay ovelay Onpythay", ednyay="")
+        Iyay avehay evernay etlay myay oolingschay interfereyay ithway myay educationyay. - Arkmay Aintway
+        ilewhay ospay < enlay(englishWordyay)
+
+    ~~~~
+    import string
+
+    def wordToPigLatin(englishWord):
+        pigLatinWord = ""
+        
+        # YOUR CODE FROM PREVIOUS EXERCISE
+        
+        return pigLatinWord
+    
+    def phraseToPigLatin(text):
+        translation = ""
+        
+        #Your code here
+
+        return translation
+        
+    def main():
+        #print(wordToPigLatin("spam"))
+        print(phraseToPigLatin("\"Hasta la vista baby.\" - the Terminator"))
+        print(phraseToPigLatin("print(\"I love Python\", edn=\"\")"))
+        print(phraseToPigLatin("I have never let my schooling interfere with my education. - Mark Twain"))
+        print(phraseToPigLatin("while pos < len(englishWord) and englishWord[pos] not in \"aeiouAEIOU\": pos += 1"))
+    
+    if __name__ == "__main__":
+        main()
+    
+    ====
+    
+    import string
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _wordToPigLatin(self, englishWord):
+            pigLatinWord = ""
+            pos = 0
+            while pos < len(englishWord) and englishWord[pos] not in "aeiouAEIOU":
+                pos += 1
+    
+            if pos == len(englishWord):
+                pigLatinWord = englishWord + "ay"
+            elif pos == 0:
+                pigLatinWord = englishWord + "yay"
+            else:
+                start = englishWord[:pos]
+                end = englishWord[pos:]
+                if englishWord[0].upper() == englishWord[0]: # starts with uppercase
+                    start = start[0].lower() + start[1:]
+                    end = end[0].upper() + end[1:]
+                pigLatinWord = end + start + "ay"
+        
+            return pigLatinWord
+        
+        def _indexOfChar( self, src, target, start=0 ):
+            for srcIndex in range(start, len(src)):
+                if src[srcIndex] in target:
+                    return srcIndex
+            return -1
+
+        def _phraseToPigLatin(self, text):
+            translation = ""
+            pos = 0
+            while pos < len(text):
+                charIndex = self._indexOfChar(text, "\t\n ,.?!;:-\"(){}&[]*^%&#_+={}|\\<>/0123456789", pos)
+                if charIndex < 0:
+                    charIndex = len(text)
+                if charIndex == pos:
+                    translation = translation + text[pos]
+                    pos += 1
+                else:
+                    engWord = text[pos:charIndex]
+                    pigWord = self._wordToPigLatin(engWord)
+                    translation = translation + pigWord
+                    pos = charIndex
+
+            return translation        
+
+        def testOne(self):
+            print('\nAuto-testing...')
+        
+            tests = [ '"Hasta la vista baby." - the Terminator',
+                      "while pos < len(englishWord)",
+                      "apple",
+                      "  You and I",
+                      ""]
+                
+            for phrase in tests:
+                self.assertEqual(phraseToPigLatin(phrase), self._phraseToPigLatin(phrase), phrase)
+            
+    myTests().main()

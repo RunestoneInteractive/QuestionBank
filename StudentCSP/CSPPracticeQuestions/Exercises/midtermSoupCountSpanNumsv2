@@ -1,0 +1,32 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: F
+.. parsonsprob:: midtermSoupCountSpanNumsv2
+   :adaptive:
+   :numbered: left
+
+   Put the mixed up code below in order to get all the span tags in a soup document and return the total of the numbers in the text of the span tags.
+   -----
+   def getSumSpanText(soup):
+   =====
+       total = 0
+   =====
+       tagList = soup.find_all('span')
+   =====
+       tagList = soup.find('span') #distractor
+   =====
+       for tag in tagList:
+   =====
+       for tag in tagList #distractor
+   =====
+          total += int(tag.text)
+   =====
+          total += tag.text #distractor
+   =====
+       return total
+
+
+    

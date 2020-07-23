@@ -1,0 +1,28 @@
+
+   :author: John Cigas
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+.. activecode:: CS152-Operators-Candy-2
+   :language: python
+
+   Write a program to calculate the total amount of candy to purchase for a children's birthday
+   party. There will be big kids and little kids. Each big kid gets 7 pieces of candy, each little one
+   gets 2 pieces of candy.
+   ~~~~
+
+   # Fill in values for these variables - you choose
+   bigKids =
+   littleKids =
+
+   # Write a formula to calculate the total candy needed
+   # from the bigKids and littleKids variables
+   # big kids get 7 pieces each, little kids get 2 pieces each
+
+   totalCandy =
+
+   # Print out the number of big kids, little kids and total candy needed. 
+   # Make sure you print out text too so that the user knows what is being printed out.
+
+

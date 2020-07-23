@@ -1,0 +1,16 @@
+
+    :author: Sara Saatchi
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: typeConversion
+
+
+    Assuming that we have height and width of a rectangle as strings of number shown below:
+height = "32" 
+width = "5"
+
+perform the required type conversion and calculate the area of the rectangle.
+    ~~~~
+    

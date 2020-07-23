@@ -1,0 +1,18 @@
+.. mchoice:: html_quiz_q5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :topic: HTML/htmlquiz
+   :from_source: T
+   :correct: b
+   :answer_a: *
+   :answer_b: /
+   :answer_c: &lt;
+   :answer_d: ^
+   :feedback_a: None
+   :feedback_b: None
+   :feedback_c: None
+   :feedback_d: None
+
+   Which character is used to indicate an end tag?
+

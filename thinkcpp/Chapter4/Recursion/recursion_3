@@ -1,0 +1,11 @@
+.. fillintheblank:: recursion_3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :topic: Chapter4/Recursion
+    :from_source: T
+
+    A function that calls itself is said to be |blank|.
+
+    - :[Rr][Ee][Cc][Uu][Rr][Ss][Ii][Vv][Ee]: And the process by which a function calls itself is called recursion.
+      :.*: Try again!

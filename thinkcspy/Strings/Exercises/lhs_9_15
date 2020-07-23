@@ -1,0 +1,97 @@
+
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: F
+.. activecode:: lhs_9_15
+    :language: python
+    :autograde: unittest
+
+    Create a function that receives a ``String`` and returns the ``String`` converted into shorthand.
+    The simplified shorthand form of a string is defined as follows:
+
+    a. Replace these four words/subwords: "and" with "&", "to" with "2", "you" with "U", and "for" with "4".
+       The replace should be case insensitive.
+    b. Remove all vowels ('a', 'e', 'i', 'o', 'u', whether lowercase or uppercase)
+    
+    For example, execution of the following statements:
+
+    .. sourcecode:: python
+
+        print(makeShorthand("You can pretend to be serious; you can't pretend to be witty"))
+        print(makeShorthand("for Fortunate into YouTube YOU and TO dandy"))
+        print(makeShorthand("Humuhumunukunukuapua'a - Hawaiian state fish"))
+        print(makeShorthand("2 + 2 = 4"))
+        print(makeShorthand("This is FOR YOU TO try AND convert."))
+        
+    would produce the following output
+
+    ::
+
+        U cn prtnd 2 b srs; U cn't prtnd 2 b wtty
+        4 4tnt n2 UTb U & 2 d&y
+        Hmhmnknkp' - Hwn stt fsh
+        2 + 2 = 4
+        Ths s 4 U 2 try & cnvrt.
+        
+    ~~~~
+
+    def makeShorthand( msg ):
+        
+        # TODO: Your Code Here
+        
+        return ""  # FIX THIS!!!
+
+    def main():
+        print(makeShorthand("You can pretend to be serious; you can't pretend to be witty"))
+        print(makeShorthand("for Fortunate into YouTube YOU and TO dandy"))
+        print(makeShorthand("Humuhumunukunukuapua'a - Hawaiian state fish"))
+        print(makeShorthand("2 + 2 = 4"))
+        print(makeShorthand("This is FOR YOU TO try AND convert."))
+            
+    if __name__ == "__main__":
+        main() 
+
+    ====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def _replaceIgnoreCase( self, str, strToFind, replacementStr):
+            foundIndex = str.lower().find(strToFind)
+            
+            while foundIndex >= 0:
+                subBeg = str[0:foundIndex]
+                subEnd = str[foundIndex + len(strToFind):]
+                str = subBeg + replacementStr + subEnd
+                foundIndex = str.lower().find(strToFind)
+            
+            return str
+
+        def _makeShorthand( self, msg ):
+            msg = self._replaceIgnoreCase(msg, "and", '&')
+            msg = self._replaceIgnoreCase(msg, "to", '2')
+            msg = self._replaceIgnoreCase(msg, "for", '4')
+            msg = self._replaceIgnoreCase(msg, "you", '\0')
+
+            shorthandMsg = ""
+            for ch in msg:
+                if ch.lower() not in 'aeiou':
+                    shorthandMsg += ch
+                    
+            shorthandMsg = shorthandMsg.replace('\0', 'U') # change back to 'U'
+            return shorthandMsg      
+
+        def testOne(self):
+            print('\nAuto-testing...')
+                
+            tests = [ "2 + 2 = 4",
+                      "for Fortunate into YouTube YOU and TO dandy",
+                      "Humuhumunukunukuapua'a"]
+                        
+            for msg in tests:
+                self.assertEqual(makeShorthand(msg), self._makeShorthand(msg), msg)
+                    
+    myTests().main()

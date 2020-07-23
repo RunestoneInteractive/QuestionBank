@@ -1,0 +1,13 @@
+
+   :author: Kevin Clevenger
+   :difficulty: 0.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/Exercises
+   :from_source: F
+.. activecode:: Dsum1
+   :language: java
+   :stdin: 0.0
+   
+    /*Write a program that reads two floating point 
+     *numbers and prints their sum, difference, and product
+     */

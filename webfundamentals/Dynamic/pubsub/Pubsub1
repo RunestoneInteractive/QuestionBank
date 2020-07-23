@@ -1,0 +1,51 @@
+.. activecode:: Pubsub1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: webfundamentals
+    :topic: Dynamic/pubsub
+    :from_source: T
+    :language: javascript
+
+    class Subject {
+
+        constructor() {
+            this.handlers = []
+        }
+
+        subscribe(fn) {
+                this.handlers.push(fn);
+            }
+
+        unsubscribe(fn) {
+            this.handlers = this.handlers.filter(
+                function(item) {
+                    if (item !== fn) {
+                        return item;
+                    }
+                }
+            );
+        }
+
+        publish(msg, someobj) {
+            var scope = someobj || window;
+            for (let fn of this.handlers) {
+                fn(scope, msg)
+            }
+        }
+    }
+
+    function callback1(a,msg) {
+        alert("callback1:  the message is "+ msg)
+    }
+
+    function callback2(a,msg) {
+        alert("callback2:  the message is "+ msg)
+    }
+
+    sub = new Subject()
+    sub.subscribe(callback1)
+    // time passes
+    sub.publish("event 1 happened")
+    sub.subscribe(callback1)
+    sub.publish("event 2 happened")
+

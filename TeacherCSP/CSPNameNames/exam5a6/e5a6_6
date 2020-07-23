@@ -1,0 +1,35 @@
+.. mchoice:: e5a6_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPNameNames/exam5a6
+   :from_source: T
+   :answer_a: Two squares connected with a straight line
+   :answer_b: Two triangles connected with a straight line
+   :answer_c: Two rectangles connected with a straight line
+   :answer_d: Nothing
+   :correct: b
+   :feedback_a: This would be true if the right turns were 90 and there were four forwards
+   :feedback_b: This procedure will draw a triangle and it is called twice so it draws two triangles
+   :feedback_c: This would be true if the right turns were 90 and there were four forwards with two different forward amounts
+   :feedback_d: This would be true if we only defined the procedure and didn't execute it.
+
+   What will the following code draw?
+
+   ::
+
+      def shape(turtle):
+          turtle.left(60)
+          turtle.forward(100)
+          turtle.right(120)
+          turtle.forward(100)
+          turtle.right(120)
+          turtle.forward(100)
+          turtle.right(120)
+
+      from turtle import *
+      space = Screen()
+      luis = Turtle()
+      shape(luis)
+      luis.forward(200)
+      shape(luis)

@@ -1,0 +1,16 @@
+
+    :author: Eric Reed
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: TransformingSequences/Exercises
+    :from_source: F
+.. activecode:: er2000
+
+
+    Write a program that will accept words from a user,
+    one at a time, until the user types the word 'quit'.
+    Start with an empty list, and append each new word to
+    that list.  After the user types quit, print out the list
+    of words.
+    ~~~~
+ 

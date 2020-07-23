@@ -1,0 +1,27 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: AdvancedFunctions/Exercises
+   :from_source: F
+.. activecode:: KDL_ch15_1
+   :autograde: unittest
+   :language: python
+
+   Create a function ``intadd`` that accepts two integers ``x`` and ``y``. The first integer ``x`` should have a default value of 7 and the second integer ``y`` should have a default value of 3. The function should add the two integers and return this value. 
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertTrue('def' in self.getEditorText(), 'function created')
+           self.assertTrue(intadd(3,4)==7, '1st situation checked')
+           self.assertTrue(intadd(3)==6, '2nd situation checked')
+           self.assertTrue(intadd(y=4)==11, '3rd situation checked')
+
+   myTests().main()   

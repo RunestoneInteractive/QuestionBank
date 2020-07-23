@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: select_7
+  
+    What is the difference between a conditional statement and an unary 
+    selection?
+
+    ~~~~
+    

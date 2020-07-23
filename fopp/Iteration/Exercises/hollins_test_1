@@ -1,0 +1,16 @@
+.. activecode:: hollins_test_1
+    :author: Stephen Wassell
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: Iteration/Exercises
+    :from_source: F
+    :language: python
+    :nopair:
+    :nocodelens:
+
+    Write a program that computes the sum of the squares of the items in the list ``numbers`` and prints the result. Choose your variable names appropriately. Make sure to write your code so that it works no matter how many items are in the list. Hint, the answer for the given list is 187 (because 4 + 9 + 25 + 49 + 100 = 187).
+    ~~~~
+    numbers = [2, 3, 5, 7, 10]
+
+
+    =====

@@ -1,0 +1,11 @@
+.. activecode:: ac18_5_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Sorting/SecondarySortOrder
+    :from_source: T
+
+    fruits = ['peach', 'kiwi', 'apple', 'blueberry', 'papaya', 'mango', 'pear']
+    new_order = sorted(fruits, key=lambda fruit_name: (len(fruit_name), fruit_name))
+    for fruit in new_order:
+        print(fruit)

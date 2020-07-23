@@ -1,0 +1,12 @@
+.. activecode::  ams_assign3_q2
+    :author: Allison Schullo
+    :difficulty: 0.0
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: F
+    :nocodelens:
+
+    Add a set of parentheses to the expression x = 6 * 1 - 2 so that the code below prints -6 instead of 4.
+    ~~~~
+    x = 6 * 1 - 2
+    print(x)

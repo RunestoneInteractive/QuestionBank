@@ -1,0 +1,20 @@
+.. mchoice:: cswfinal_q32
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Files/Exercises
+   :from_source: F
+   :answer_a: prints all the files in the program's folder
+   :answer_b: prints a list of all the states in alphabetical order
+   :answer_c: prints all the words in the original (1900) edition of The Wizard of Oz
+   :answer_d: prints nothing
+   :correct: a
+   :random:
+
+   32. What does the following function print? (You should run it to see.)::
+
+      import os
+      def check():
+          something = os.listdir(".")
+          for x in something:
+              print(x)

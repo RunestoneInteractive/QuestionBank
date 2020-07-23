@@ -1,0 +1,23 @@
+.. activecode:: str_q7_answer
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Strings/Exercises
+    :from_source: T
+    :nocodelens:
+
+    from test import testEqual
+
+    def reverse(mystr):
+        reversed = ''
+        for char in mystr:
+            reversed = char + reversed
+        return reversed
+
+    def mirror(mystr):
+        return mystr + reverse(mystr)
+
+    testEqual(mirror('good'), 'gooddoog')
+    testEqual(mirror('Python'), 'PythonnohtyP')
+    testEqual(mirror(''), '')
+    testEqual(mirror('a'), 'aa')

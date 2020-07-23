@@ -1,0 +1,18 @@
+
+    :author: Brian Powell
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Classes/Exercises
+    :from_source: F
+.. activecode:: wvu_classes_clone
+
+    Add a **clone()** function to the **Vehicle** class to return a new **Vehicle** instance that duplicates the contents of the existing vehicle.
+
+    Create an instance of the **Vehicle** class to represent a vehicle of your choice. Then, use the **clone()** method to make a duplicate of that vehicle.
+    ~~~~
+    class Vehicle:
+        def __init__(self, year, make, model):
+            self.year = year
+            self.make = make
+            self.model = model
+    ====

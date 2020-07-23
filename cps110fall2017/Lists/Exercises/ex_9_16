@@ -1,0 +1,15 @@
+.. actex:: ex_9_16
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: Lists/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Here is another L-System.  Use an Angle of 25.
+
+   ::
+
+       F
+       F --> F[-F]F[+F]F
+   ~~~~

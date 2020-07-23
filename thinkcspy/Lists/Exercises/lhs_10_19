@@ -1,0 +1,62 @@
+.. activecode:: lhs_10_19
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Lists/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a pure function ``sort(inList)`` that returns a sorted list 
+    
+    **Hint**: Use the ``mergeList`` or the ``insertList`` functions you previously made
+
+    You may not use the .sort method.
+
+    ~~~~
+        
+    def sort(aList):
+
+    def main():
+        #write any test cases here
+    
+    if __name__ == "__main__":
+        main()
+
+    ====
+    import re
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def _golden(self, aList):
+            sortedList= aList[:]
+            sortedList.sort()
+            return(sortedList)
+    
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+
+            print('Auto-testing...')
+            editText  = self.getEditorText()
+            if len(re.findall("\.sort", editText)) != 0:
+                self.assertEqual(len(re.findall("\.sort", editText)), 0, "No sort allowed")
+            else:
+                tests = [
+                    [2,5, 3, 7, 4, 10, 2],
+                    [4, 5, 7, 2, 4, 2, 7, 9, 2, 4, 5],
+                    [5, 4, 3, 2, 1],
+                    [10],
+                    []
+                    ]
+                i = 0
+                for l in tests:
+                    original = l[:]
+                    self.assertEqual(sort(l), self._golden(l), "Testing  "+str(i))
+                    self.assertEqual(l, original, "Checking for pure function")
+                    i += 1
+    
+    myTests().main()
+        

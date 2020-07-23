@@ -1,0 +1,143 @@
+.. activecode:: lhs_16_19
+    :author: LHS CS Team
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: ClassesBasics/Exercises
+    :from_source: F
+    :language: python
+    :autograde: unittest
+
+    Write a function ``calcCircle(P, Q, R)`` that take three Point objects and returns
+    a tuple ``(center, radius)``, where ``center`` is a Point that is the center of the circle 
+    that intersects the three given points P, Q and R.  ``radius`` is a floating point
+    number that is the radius of the circle.
+
+    The center of any circle can be found by finding the intersection of the perpendicular
+    bisector of any 2 chords in a circle. So, the following steps will calculate the
+    center coordinates of the circle.
+
+    Use the Point class that has been previously created with methods ``getX``, ``getY``, ``get_line_to``,
+    ``distanceFromPoint``, and ``halfway``.
+
+    ::
+
+      Step 1: Find the midpoints of two chords - i.e. Midpoint of PQ and QR
+              Use ``halfway`` Point method.
+                  PQmidpoint
+                  QRmidpoint
+
+      Step 2: Find the perpendicular slope of each chord
+
+              First find the slope of each chord PQ and QR. 
+              Use the ``get_line_to`` Point method.
+                  slopePQ and slopeQR
+            
+              The perpendicular slope is the opposite reciprocal.
+                  a = -1/slopePQ
+                  b = -1/slopeQR
+
+      Step 3: Find the equation of the two perpendicular bisector lines
+              y1 = ax + c
+              y2 = bx + d
+
+              c = PQ_midpoint_Y-coor - a * PQ_midpoint_X-coor
+              d = QR_midpoint_Y-coor - b * QR_midpoint_X-coor
+  
+      Step 4: Find the intersection point of the two lines y1 and y2. 
+              This is the center.
+              (x, y) = ( (d-c)/(a-b) , (ad-bc)/(a-b) )
+
+      Step 5: Find the radius of the circle by using the center Point from
+              Step 4 and the ``distanceFromPoint`` Point method.
+
+    **HINT:** The ``halfway()`` method is in the reading section 17.9. This method should
+    return a Point (exactly as it is written in the reading...). 
+
+    **HINT 2:** The ``distanceFromPoint()`` method is problem #1 in the Exercises of Unit 17.
+
+    **HINT 3:** You should be using the ``get_line_to()`` method used in the previous
+    exercise that returns a tuple ``(m, b)``.
+
+    **HINT 4:** You should make sure that your function returns a Point and a
+    radius value (i.e. floating point).
+
+    **HINT 5:** The inputs to the ``calcCircle()`` are Points, not tuples.
+    ~~~~
+    import math
+
+    class Point:
+        #Define the class here
+
+    def calcCircle(P, Q, R):
+        ''' P, Q, R and three Point objects '''
+
+        #Define the function here
+    
+        
+    # define any test code here
+
+    ====
+
+    from unittest.gui import TestCaseGui
+    
+    class myTests(TestCaseGui):
+        def testOne(self):
+            SelfTest = True
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+            
+        def _golden(self, P, Q, R):
+    
+            midPQ = P.halfway(Q)
+            midQR = Q.halfway(R)
+            #print(midPQ, midQR)
+    
+            PQ = P.get_line_to(Q)
+            QR = Q.get_line_to(R)
+    
+            slopePQ = PQ[0]
+            slopeQR = QR[0]
+            #print(slopePQ, slopeQR)
+    
+            # perpPQ -> y = ax + c
+            a = -1/slopePQ
+            c = midPQ.getY() - a*midPQ.getX()
+            perpPQ = (a, c)
+    
+            # perpQR -> y = bx + d
+            b = -1/slopeQR
+            d = midQR.getY() - b*midQR.getX()
+            perpQR = (b, d)
+            #print(perpPQ, perpQR)
+    
+            center = Point((d-c)/(a-b), (a*d-b*c)/(a-b))
+            radius = center.distanceFromPoint(Q)
+    
+            return(center, radius)
+        
+        def testOne(self):
+            SelfTest = False
+            if (SelfTest):
+                self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
+                return
+            
+            P = Point(2, 1)
+            Q = Point(0, 5)
+            R = Point(-1, 2)
+            T = Point(2, 8)
+            
+            tests = [ (P, Q, R),
+                      (Q, R, T)
+                    ]
+    
+            num=0
+            for t in tests:
+                o1 = calcCircle(t[0], t[1], t[2])
+                o2 = self._golden(t[0], t[1], t[2])
+                self.assertEqual(round(o1[0].getX(),4), round(o2[0].getX(),4), 'test case ' + str(num) + ' x-coor' )
+                self.assertEqual(round(o1[0].getY(),4), round(o2[0].getY(),4), 'test case ' + str(num) + ' y-coor' )
+                self.assertEqual(round(o1[1],4), round(o2[1],4), 'test case ' + str(num) + ' radius' )
+                num += 1
+    
+    myTests().main()

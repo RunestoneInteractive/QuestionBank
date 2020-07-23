@@ -1,0 +1,17 @@
+.. mchoice:: test_question0_1
+   :author: Euripides Vrachnos
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/ValuesandDataTypes
+   :from_source: F
+   :answer_a: Εκτυπώνουμε την τιμή της και από εκεί καταλαβαίνουμε τον τύπο της.
+   :answer_b: Χρησιμοποιούμε την συνάρτηση type.
+   :answer_c: Την χρησιμοποιούμε σε μια εξίσωση και εκτυπώνουμε το αποτέλεσμα.
+   :answer_d: Κοιτάμε στη δήλωση της μεταβλητής.
+   :correct: b
+   :feedback_a: You may be able to determine the data type based on the printed value, but it may also be  deceptive, like when a string prints, there are no quotes around it.
+   :feedback_b: The type function will tell you the class the value belongs to.
+   :feedback_c: Only numeric values can be used in equations.
+   :feedback_d: In Python variables are not declared.
+
+   Πως μπορείτε να καταλάβετε τον τύπο μιας μεταβλητής?

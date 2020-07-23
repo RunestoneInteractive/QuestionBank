@@ -1,0 +1,20 @@
+
+    :author: Brian Powell
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: Dictionaries/Exercises
+    :from_source: F
+.. activecode:: wvu_finalexam_uniquedict
+    :autograde: unittest
+
+    Create a list named **presidents** that contains the unique names of the presidents from **elections**. Each president should only appear once in the list.
+    ~~~~
+    elections = {1968: 'Richard Nixon', 1972: 'Richard Nixon', 1976: 'Jimmy Carter', 1980: 'Ronald Reagan', 1984: 'Ronald Reagan', 1988: 'George H.W. Bush', 1992: 'Bill Clinton', 1996: 'Bill Clinton', 2000: 'George W. Bush', 2004: 'George W. Bush', 2008: 'Barack Obama', 2012: 'Barack Obama', 2016: 'Donald Trump'}
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        def testOne(self):
+            self.assertEqual(presidents, list(set(elections.values())), 'Correct list generated.')
+    
+    myTests().main()

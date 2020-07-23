@@ -1,0 +1,48 @@
+
+    :author: Mohammad Rajiur Rahman
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+.. activecode:: 1306_cw5_s20_q2
+    :autograde: unittest
+
+    **Question 1 [30 points]** 
+
+    Write a function ``NumRepeats(num1,num2,num3)``  that takes 3 integers as arguments, and returns the number of items that are repeated.
+    
+    **Example**:
+
+    NumRepeats( 5, 9, 4)  will return 0
+
+    NumRepeats( 5, 9, 5)  will return 1
+
+    NumRepeats( 5, 5, 5)  will return 2
+
+    Does your function work if passed strings instead of integers? State the answer as a comment. If not, explain why you think it will not work.
+    
+    ~~~~
+    # Write your code here
+
+    
+
+
+  
+
+    ====
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+        import random
+        def testOne(self):
+            
+            self.assertEqual(NumRepeats( 15, 2, 1),0,"NumRepeats( 15, 2, 1) should return 0")
+            self.assertEqual(NumRepeats( 99, 10, 10),1,"NumRepeats( 99, 10, 10) should return 1")
+            self.assertEqual(NumRepeats( 12, 12, 12),2,"NumRepeats( 12, 12, 12) should return 2")
+
+
+            self.assertEqual(NumRepeats( 5, 9, 4),0,"NumRepeats( 5, 9, 4) should return 0")
+            self.assertEqual(NumRepeats( 5, 9, 5),1,"NumRepeats( 5, 9, 5) should return 1")
+            self.assertEqual(NumRepeats( 5, 5, 5),2,"NumRepeats( 5, 5, 5) should return 2")
+
+    myTests().main()

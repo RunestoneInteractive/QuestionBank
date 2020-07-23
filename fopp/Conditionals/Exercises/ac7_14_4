@@ -1,0 +1,16 @@
+.. actex:: ac7_14_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: T
+
+    Give the **logical opposites** of these conditions, meaning an expression that would
+    produce False whenever this expression produces True, and vice versa.  You are not
+    allowed to use the ``not`` operator.
+
+    #.  ``a > b``
+    #.  ``a >= b``
+    #.  ``a >= 18  and  day == 3``
+    #.  ``a >= 18  or  day != 3``
+    ~~~~

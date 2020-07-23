@@ -1,0 +1,18 @@
+.. activecode:: String_Slice3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPStringPieces/createPartsOfStrings
+   :from_source: T
+   :nocodelens:
+
+   namePart = "name: Anu Gao"
+   posName = namePart.find("name:")
+   if (posName > -1):
+       name = namePart[posName+6:len(namePart)]
+   else:
+       name = "Unknown"
+   print(name)
+
+
+

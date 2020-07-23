@@ -1,0 +1,26 @@
+.. activecode:: structures_parameters_AC_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter8/structures_as_parameters
+  :from_source: T
+  :language: cpp
+
+  The active code below uses the ``printPoint`` function. Run the code to
+  see the output!
+  ~~~~
+  #include <iostream>
+  using namespace std;
+
+  struct Point {
+      double x, y;
+  };
+
+  void printPoint (Point p) {
+      cout << "(" << p.x << ", " << p.y << ")" << endl;
+  }
+
+  int main() {
+      Point blank = { 3.0, 4.0 };
+      printPoint (blank);
+  }

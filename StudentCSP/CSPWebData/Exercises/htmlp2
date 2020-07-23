@@ -1,0 +1,32 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPWebData/Exercises
+   :from_source: F
+.. parsonsprob:: htmlp2
+   :adaptive:
+   :numbered: left
+
+   Put the blocks in order to create an html page.  In the body it should have an H1 header then an H2 header and then a paragraph.
+   -----
+   &#60;HTML&#62;
+   =====
+       &#60;HEAD&#62;
+   =====
+           &#60;TITLE&#62;Your Title Here&#60;/TITLE&#62;
+   =====
+       &#60;/HEAD&#62;
+   =====
+       &#60;BODY&#62;
+   =====
+           &#60;H1&#62;This is a Header&#60;/H1&#62;
+   =====
+           &#60;H2&#62;This is a Medium Header&#60;/H2&#62;
+   ===== 
+           &#60;P&#62; This is a new paragraph!&#60;/P&#62;
+   ===== 
+       &#60;/BODY&#62;
+   ===== 
+   &#60;/HTML&#62;
+   

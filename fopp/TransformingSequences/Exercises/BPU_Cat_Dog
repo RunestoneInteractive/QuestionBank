@@ -1,0 +1,26 @@
+
+   :author: Jane Weyant
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: TransformingSequences/Exercises
+   :from_source: F
+.. activecode:: BPU_Cat_Dog
+   :autograde: unittest
+   :language: python
+
+   You are supplied with a string ``s`` below. Write code that will swap cat with dog and vice versa.  The final output should be a string that says 'The dog ate the cat food, it was YUMMY!'
+
+   ~~~~
+   s='The cat ate the dog food, it was YUMMY!'
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertTrue('newS' in globals(),'newS has been created')
+           self.assertTrue(newS==s.strip().lower().replace('cat','dog'), 'Correct string created')
+           self.assertTrue('the dog ate the dog food, it was yummy!' not in self.getEditorText(), 'The string was not hard coded')
+
+   myTests().main()   

@@ -1,0 +1,18 @@
+.. activecode:: ac4_7_4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: fopp
+    :topic: Debugging/KnowyourerrorMessages
+    :from_source: T
+
+    a = input('wpisz godzine')
+    x = input('wpisz liczbe godzin')
+    int(x)
+    int(a)
+    h = x // 24
+    s = x % 24
+    print (h, s)
+    a = a + s
+    print ('godzina teraz', a)
+
+

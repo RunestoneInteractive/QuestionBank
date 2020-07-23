@@ -1,0 +1,13 @@
+.. actex:: atheno-hw03-q6-number_of_trees
+   :author: Atheno Chen
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: PythonModules/Exercises
+   :from_source: F
+
+   Write a program to solve the type of problem "How many trees in X state 
+   (e.g. New York State, Fujian Province, etc)". Hint: You will
+   need two inputs from the user and then print out the result.
+
+   ~~~~
+   ====

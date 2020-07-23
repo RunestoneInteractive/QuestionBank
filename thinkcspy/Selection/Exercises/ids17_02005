@@ -1,0 +1,25 @@
+.. activecode:: ids17_02005
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+   
+    4.6(劉邦鋒，由片語學習C程式設計)寫一個程式讀入三個正整數a、b、c。如果邊長a、b、c的三角形不存在則輸出0，否則輸出1。
+
+    輸入：
+
+    8
+
+    4
+
+    3
+
+    輸出：
+
+    0
+
+    ~~~~
+    
+    ====
+    

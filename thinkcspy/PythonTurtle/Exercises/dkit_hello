@@ -1,0 +1,12 @@
+.. activecode:: dkit_hello
+   :author: Jean Griffin
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :nocodelens: 
+   :autorun:
+   :hidecode: 
+   :caption: SHOW CODE -- FIX THE BUG -- SAVE & RUN --  
+ 
+   print("hello worrrrld")   # FIX THE BUG

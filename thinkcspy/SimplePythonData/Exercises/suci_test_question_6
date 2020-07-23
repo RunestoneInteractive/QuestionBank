@@ -1,0 +1,10 @@
+.. actex:: suci_test_question_6
+   :author: peter suci
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Write a program that uses a loop to draw 5 squares with side length 30 spaced 50 units apart from the left corner of one square to the left corner of the next square.
+   ~~~~
+   # put code here 

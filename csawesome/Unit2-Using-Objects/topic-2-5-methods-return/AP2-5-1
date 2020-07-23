@@ -1,0 +1,36 @@
+.. mchoice:: AP2-5-1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csawesome
+    :topic: Unit2-Using-Objects/topic-2-5-methods-return
+    :from_source: T
+    :practice: T
+
+    Consider the following method.
+
+    .. code-block:: java
+
+        public double calculatePizzaBoxes(int numOfPeople, double slicesPerBox)
+        { /*implementation not shown */}
+
+    Which of the following lines of code, if located in a method in the same class as calculatePizzaBoxes, will compile without an error?
+
+    - int result = calculatePizzaBoxes(45, 9.0);
+
+      - The method calculatePizzaBoxes returns a double value that cannot be saved into an int variable.
+
+    - double result = calculatePizzaBoxes(45.0, 9.0);
+
+      - The method calculatePizzaBoxes has an int parameter that cannot hold a double value 45.0.
+
+    - int result = calculatePizzaBoxes(45.0, 9);
+
+      - The method calculatePizzaBoxes has an int parameter that cannot hold a double value 45.0. Note that the int 9 can be passed into a double parameter.
+
+    - double result = calculatePizzaBoxes(45, 9.0);
+
+      + The method calculatePizzaBoxes has an int and a double parameter and returns a double result.
+
+    - result = calculatePizzaBoxes(45, 9);
+
+      - The variable result has not been declared (with an appropriate data type).

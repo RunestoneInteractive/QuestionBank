@@ -1,0 +1,20 @@
+.. mchoice:: formal_natural_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: thinkcpp
+   :topic: Chapter1/formal_natural
+   :from_source: T
+   :multiple_answers:
+   :answer_a: ambiguous
+   :answer_b: redundant
+   :answer_c: literal
+   :answer_d: verbose
+   :answer_e: concise
+   :correct: c,e
+   :feedback_a: Formal languages are designed to be unambiguous, so that each statement has only one meaning.
+   :feedback_b: Formal language is straight to the point.
+   :feedback_c: Formal languages mean exactly what they say.
+   :feedback_d: Formal language is straight to the point.
+   :feedback_e: Formal language is straight to the point.
+
+   **Multiple Response** Formal languages are...

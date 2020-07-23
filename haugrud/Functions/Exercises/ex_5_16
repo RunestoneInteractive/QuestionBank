@@ -1,0 +1,23 @@
+.. activecode:: ex_5_16
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: haugrud
+   :topic: Functions/Exercises
+   :from_source: None
+
+   def areaOfCircle(r):
+       # your code here
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+          self.assertAlmostEqual(areaOfCircle(5.0),78.53981633974483,5,"Tested input: areaOfCircle(5.0)")
+          self.assertEqual(areaOfCircle(5.0),78.53981633974483,"Tested input: areaOfCirlce(5.0)")
+          self.assertEqual(areaOfCircle(0),0.0,"Tested input: areaOfCirlce(0)")
+          self.assertAlmostEqual(areaOfCircle(31415.926535897932),3100627668.0299816,5,"Tested input: areaOfCirlce(31415.926535897932)")
+
+
+   myTests().main()

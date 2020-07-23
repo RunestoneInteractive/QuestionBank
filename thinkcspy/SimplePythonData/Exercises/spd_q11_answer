@@ -1,0 +1,16 @@
+.. activecode:: spd_q11_answer
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: SimplePythonData/Exercises
+    :from_source: T
+    :nocanvas:
+
+    ## question 11 solution ##
+
+    deg_c = int(input("What is the temperature in Celsius? "))
+
+    # formula to convert C to F is: (degrees Celcius) times (9/5) plus (32)
+    deg_f = deg_c * (9 / 5) + 32
+
+    print(deg_c, " degrees Celsius is", deg_f, " degrees Farenheit.")

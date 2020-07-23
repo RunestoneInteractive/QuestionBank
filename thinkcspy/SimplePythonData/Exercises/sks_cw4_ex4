@@ -1,0 +1,23 @@
+.. activecode:: sks_cw4_ex4
+   :author: Shishir Shah
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   [30 pts] Write a program to print the first ``k`` prime numbers.  Your program should 
+   request the value of ``k`` from the user and use the given function ``isPrime`` as part of your solution.  
+   The given function ''isPrime`` takes as argument an integer and returns ``True`` if that integer is a 
+   prime number, else returns ``False``.
+
+   ~~~~
+   def isPrime(n):
+      is_prime = True
+      for i in range(2, n):
+          if n % i == 0:
+              is_prime = False
+      return is_prime
+
+   # Write your main program here
+
+   ====

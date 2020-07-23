@@ -1,0 +1,28 @@
+
+   :author: Bill Montana
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Functions/Exercises
+   :from_source: F
+.. activecode:: wjm_func_1
+   :autograde: 
+   :language: python3
+   :enabledownload:
+   :nopair:
+
+    Write functions to calculate the volume and surface area of a sphere, from its radius, given as input. Get user input for the radius. Print the results using one print statement. The output should be informative and nicely formatted.
+
+    Useful formulae:
+
+    V = 4/3 π r^3
+    A = 4 π r^2
+    ~~~~
+    print("hello world")
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")
+
+config values (conf.py):
+
+- activecode_div_class - custom CSS class of the component's outermost div
+- activecode_hide_load_history - if True, hide the load history button
+    

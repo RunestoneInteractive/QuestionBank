@@ -1,0 +1,15 @@
+.. mchoice:: trd_question1_6
+   :author: Majid Rouhani
+   :difficulty: 0.0
+   :basecourse: pythonds
+   :topic: Introduction/Exercises
+   :from_source: F
+   :multiple_answers:
+   :answer_a: True
+   :answer_b: False
+   :correct: a
+   :feedback_a: Yes.
+   :feedback_b: No.
+   :feedback_d: No.
+
+   Encapsulation is the combining of data and code into a single object

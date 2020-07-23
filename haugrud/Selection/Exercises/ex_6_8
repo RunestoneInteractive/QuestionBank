@@ -1,0 +1,24 @@
+.. activecode:: ex_6_8
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: haugrud
+   :topic: Selection/Exercises
+   :from_source: None
+
+   def isLeap(year):
+       # your code here
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(isLeap(1944),True,"Tested isLeap on an input of 1944")
+           self.assertEqual(isLeap(2011),False,"Tested isLeap on an input of 2011")
+           self.assertEqual(isLeap(1986),False,"Tested isLeap on an input of 1986")
+           self.assertEqual(isLeap(1800),False,"Tested isLeap on an input of 1800")
+           self.assertEqual(isLeap(1900),False,"Tested isLeap on an input of 1900")
+           self.assertEqual(isLeap(2000),True,"Tested isLeap on an input of 2000")
+           self.assertEqual(isLeap(2056),True,"Tested isLeap on an input of 2056")
+
+   myTests().main()

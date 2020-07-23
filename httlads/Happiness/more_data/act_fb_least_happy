@@ -1,0 +1,13 @@
+.. fillintheblank:: act_fb_least_happy
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: httlads
+   :topic: Happiness/more_data
+   :from_source: T
+
+   The least happy country in Southeast Asia is |blank|.
+
+   - :Cambodia: Is the correct answer
+     :Singapore: Is the most happy country
+     :x: Make sure you are summarizing the value with the MIN function
+

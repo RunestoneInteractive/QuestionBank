@@ -1,0 +1,42 @@
+.. parsonsprob:: 89
+    :author: Renske Weeda
+    :difficulty: 1.0
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/Exercises
+    :from_source: F
+    :numbered: left
+
+    [89] Het volgende programma vraagt de gebruiker herhaaldelijk om een getal en print na afloop het gemiddelde, als de gebruiker 99999 invoert stopt het programma. Maar de blokken staan in de verkeerde volgorde. Er staat 1 overbodige regel code tussen. Sleep de benodigde code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
+    -----
+    gemiddelde = 0
+    a = 0
+    b = 0
+    =====
+    invoer = int( input ("Getal: "))
+    =====
+    while invoer != 99999:
+    =====
+    while invoer == 99999: #paired
+    =====
+    if invoer != 99999: #paired
+    =====
+        b += 1
+        a += invoer
+    =====
+        a += 1
+        invoer += b #paired
+     =====
+        a += 1
+        b += invoer #paired
+    =====
+        invoer = int( input ("Getal: "))
+    =====
+    if b > 0:
+    =====
+    if a > 0: #paired
+    =====
+        gemiddelde = a / b
+    =====
+        print( gemiddelde )
+    =====
+    b += 1 #distractor

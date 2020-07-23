@@ -1,0 +1,27 @@
+.. mchoice:: cswfinal_q30
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: MoreAboutIteration/Exercises
+   :from_source: F
+   :answer_a: Creates a mirror image of the original
+   :answer_b: Sharpens an image
+   :answer_c: Turns the original image upside down
+   :answer_d: Blurs an image
+   :correct: a
+   :random:
+ 
+   30. What does the following function do? You may run it to find out.::
+
+      import cImage as image
+      def change(img):
+          new_img = img.clone()
+          w = img.getWidth()
+          h = img.getHeight()
+          for y in range(h):
+              for x in range(int(w/2)):
+                  p1 = img.getPixel(x, y)
+                  p2 = img.getPixel(w - x - 1, y)
+                  new_img.setPixel(x, y, p2)
+                  new_img.setPixel(w - x - 1, y, p1)
+          return new_img

@@ -1,0 +1,37 @@
+.. mchoice:: AP5-4-1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit5-Writing-Classes/topic-5-4-accessor-methods
+   :from_source: T
+   :practice: T
+   :answer_a: The getNumOfPeople method should be declared as public.
+   :answer_b: The return type of the getNumOfPeople method should be void.
+   :answer_c: The getNumOfPeople method should have at least one parameter.
+   :answer_d: The variable numOfPeople is not declared inside the getNumOfPeople method.
+   :answer_e: The instance variable num should be returned instead of numOfPeople,  which is local to the constructor.
+   :correct: a
+   :feedback_a: Correct, accessor methods should be public so they can be accessed from outside the class.
+   :feedback_b: The method return type should stay as int.
+   :feedback_c: This method should not have any parameters
+   :feedback_d: This is an instance variable and should be declared outside.
+   :feedback_e: The numOfPeople variable is correctly returned.
+
+    Consider the following Party class. The getNumOfPeople method is intended to allow methods in other classes to access a Party object’s numOfPeople instance variable value; however, it does not work as intended. Which of the following best explains why the getNumOfPeople method does NOT work as intended?
+
+    .. code-block:: java
+
+        public class Party
+        {
+            private int numOfPeople;
+
+            public Party(int num)
+            {
+                numOfPeople = num;
+            }
+
+            private int getNumOfPeople()
+            {
+                return numOfPeople;
+            }
+        }

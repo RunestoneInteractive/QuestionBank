@@ -1,0 +1,12 @@
+.. actex:: ex_7_7
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+
+   Add a print statement to Newton's ``sqrt`` function that
+   prints out ``better`` each time it is calculated. Call your modified
+   function with 25 as an argument and record the results.
+   ~~~~
+   def newtonSqrt(n):

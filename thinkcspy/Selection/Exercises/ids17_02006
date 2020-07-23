@@ -1,0 +1,25 @@
+.. activecode:: ids17_02006
+    :author:  KUO TZU-CHI
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: Selection/Exercises
+    :from_source: F
+   
+    4.8(劉邦鋒，由片語學習C程式設計)寫一個程式讀入三個正整數a、b、c並判定由a、b、c為邊長的三角形為銳角、鈍角或是直角三角形。如為銳角三角形則輸出1，鈍角三角形輸出2，直角三角形則輸出3。題目保證a、b、c可形成一個三角形。
+
+    輸入：
+
+    5
+
+    4
+
+    3
+
+    輸出：
+
+    3
+
+    ~~~~
+    
+    ====
+    

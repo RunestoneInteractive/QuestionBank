@@ -1,0 +1,21 @@
+.. activecode::  ch6ex5a
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit4-Iteration/topic-4-8-practice-coding
+   :from_source: T
+   :language: java
+   :optional:
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int x = 1;
+           while (x <= 10)
+           {
+               System.out.println(x);
+               x++;
+           }
+       }
+   }

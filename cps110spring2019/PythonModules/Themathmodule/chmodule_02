@@ -1,0 +1,17 @@
+.. activecode:: chmodule_02
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110spring2019
+    :topic: PythonModules/Themathmodule
+    :from_source: None
+
+    import math
+
+    print(math.pi)
+    print(math.e)
+
+    print(math.sqrt(2.0))
+
+    print(math.sin(math.radians(90)))   # sin of 90 degrees
+
+

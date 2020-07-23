@@ -1,0 +1,26 @@
+.. activecode:: KDL_ch5_4
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: PythonTurtle/Exercises
+   :from_source: F
+   :autograde: unittest
+   :language: python
+
+   Use the turtle module to draw an L. The side of the L should be 100 long and the width of the L should be 75 long. The top left should start at :math:`x=-100`, :math:`y=100`.
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertIn('import turtle', self.getEditorText(), 'Contains Turtle module')
+           self.assertIn('100', self.getEditorText(), '100 in code')
+           self.assertIn('75', self.getEditorText(), '75 in code')
+
+           
+   myTests().main()   

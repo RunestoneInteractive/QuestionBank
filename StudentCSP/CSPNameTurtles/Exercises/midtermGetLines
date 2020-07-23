@@ -1,0 +1,26 @@
+.. parsonsprob:: midtermGetLines
+   :author: Barbara  Ericson
+   :difficulty: 1.0
+   :basecourse: StudentCSP
+   :topic: CSPNameTurtles/Exercises
+   :from_source: F
+   :adaptive:
+   :numbered: left
+
+   Put the mixed up code below in order to define a function that reads all the lines from the passed file into a list, closes the file, and returns the list. 
+   -----
+   def get_lines(filename):
+   =====
+       dir = os.path.dirname(__file__)
+   =====
+       inFile = open(os.path.join(dir, filename), "r")
+   =====
+       inFile = open(os.path.join(dir, filename), "w") #distractor
+   =====
+       lines = inFile.readlines()
+   =====
+       lines = inFile.read() #distractor
+   =====
+       inFile.close()
+   =====
+       return lines

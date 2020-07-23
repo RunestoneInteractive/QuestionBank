@@ -1,0 +1,14 @@
+.. activecode:: ch09_11
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: Lists/ListDeletion
+    :from_source: None
+
+    a = ['one', 'two', 'three']
+    del a[1]
+    print(a)
+
+    alist = ['a', 'b', 'c', 'd', 'e', 'f']
+    del alist[1:5]
+    print(alist)

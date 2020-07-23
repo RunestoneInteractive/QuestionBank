@@ -1,0 +1,10 @@
+.. actex:: ex_7_17
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110spring2019
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Write a function to convert an image to black and white.
+   ~~~~

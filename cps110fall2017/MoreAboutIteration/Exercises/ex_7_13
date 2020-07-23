@@ -1,0 +1,11 @@
+.. actex:: ex_7_13
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2017
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   Modify the turtle walk program so that you have two turtles each with a
+   random starting location.  Keep the turtles moving until one of them leaves the screen.
+   ~~~~

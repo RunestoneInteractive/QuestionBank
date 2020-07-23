@@ -1,0 +1,13 @@
+
+    :author: Eric Reed
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: Conditionals/Exercises
+    :from_source: F
+.. activecode:: er2002
+
+    Write code that will ask the user for a number.  Using ONLY ONE
+    if statement, print "This number is even" or "This number is odd".
+    Hint: even numbers have a remainder of zero when divided by 2.
+    Another hint: use the % operator
+    ~~~~

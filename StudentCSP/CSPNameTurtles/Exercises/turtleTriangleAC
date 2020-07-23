@@ -1,0 +1,18 @@
+
+    :author: Barbara  Ericson
+    :difficulty: 1.0
+    :basecourse: StudentCSP
+    :topic: CSPNameTurtles/Exercises
+    :from_source: F
+.. activecode:: turtleTriangleAC
+
+    Finish writing the function to draw a equilateral (all sides the same length) triangle with a turtle.
+    ~~~~
+    def triangle(turtle,length):
+        # finish the function here
+
+    from turtle import *
+    space = Screen()
+    t1 = Turtle()
+
+   

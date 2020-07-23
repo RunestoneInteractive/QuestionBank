@@ -1,0 +1,10 @@
+.. actex:: ex_5_6
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: Functions/thinkcspyExercises
+   :from_source: None
+
+   Write a non-fruitful function ``drawEquitriangle(someturtle, somesize)`` which calls ``drawPoly`` from the
+   previous question to have its turtle draw a equilateral triangle.
+   ~~~~

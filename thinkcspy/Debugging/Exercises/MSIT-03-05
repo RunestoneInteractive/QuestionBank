@@ -1,0 +1,22 @@
+.. mchoice:: MSIT-03-05
+   :author: Kevin Austin
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: Debugging/Exercises
+   :from_source: F
+   :multiple_answers:
+   :random:
+   :answer_a: Parse errors happen because of syntax errors.
+   :feedback_a: Yes.  If there's a syntax error, the interpreter will not be able to parse the statement.
+   :answer_b: The source code line number specified in an error message is always the line that contains an error.
+   :feedback_b: No.  The actual error may have been made be in a previous line.
+   :answer_c: The Python interpreter can identify a runtime error in a statement before trying to execute it.
+   :feedback_c: No.  By definition, runtime errors occur when a statement is executed.
+   :answer_d: The Python interpreter must parse a statement before executing it.
+   :feedback_d: Yes.  The interpreter parses the statement to determine if it is understandable and unambiguous.
+   :answer_e: Typing an extra character in a statement will always result in a syntax error.
+   :feedback_e: No.  Whether or not an extra character results in an error depends on the specific context.
+   :correct: a,d
+
+   Choose all the statements that are true.
+

@@ -1,0 +1,14 @@
+.. mchoice:: cswt1_q10
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: 2048
+   :answer_b: 11
+   :answer_c: 512
+   :answer_d: 32768
+   :correct: a
+   :random:
+
+   You are the technical consultant on a new movie: Hercules in the 21st Century. In one scene, Hercules attacks a hydra robot with a rocket powered chainsaw. Unfortunately, when one of the hydra’s heads is cut off, two grow back. How many heads will the hydra have when Hercules has cut all of them off 11 times (assume the hydra starts with one head)?

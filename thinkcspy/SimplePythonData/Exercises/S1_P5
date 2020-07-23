@@ -1,0 +1,13 @@
+.. actex:: S1_P5
+   :author: Neil Kakhandiki
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+
+   Define a function that takes an input (use input function) of 0 - 6, which symbolizes the days of the week; Sunday(0), Saturday(6). Ask what day are you leaving and the length of the stay.
+   Print out the day they left, the length of their stay, and the day they returned using the numbers one through six.
+   ~~~~
+
+   def retDay():
+   # put two arguments, using the input function asking the user

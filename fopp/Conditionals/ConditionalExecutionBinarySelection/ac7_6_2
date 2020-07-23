@@ -1,0 +1,25 @@
+.. activecode:: ac7_6_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Conditionals/ConditionalExecutionBinarySelection
+   :from_source: T
+   :language: python
+   :autograde: unittest
+   :practice: T
+
+   Write code to assign the string ``"You can apply to SI!"`` to ``output`` *if* the string ``"SI 106"`` is in the list ``courses``. If it is not in ``courses``, assign the value ``"Take SI 106!"`` to the variable ``output``.
+   ~~~~
+   courses = ["ENGR 101", "SI 110", "ENG 125", "SI 106", "CHEM 130"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(output, "You can apply to SI!", "Testing that output has the correct value, given the courses list provided")
+         self.assertIn("if", self.getEditorText(), "Testing output (Don't worry about actual and expected values).")
+
+   myTests().main()

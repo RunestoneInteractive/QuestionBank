@@ -1,0 +1,45 @@
+.. mchoice:: arrayEx4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit6-Arrays/arrayExam
+   :from_source: T
+   :practice: T
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 2
+   :answer_d: 3
+   :answer_e: 4
+   :correct: e
+   :feedback_a: While count starts at 0 it is incremented when a match is found, which will happen when i1 is 1 and i2 is 0.
+   :feedback_b: This would be true if the loop stopped after the first match was found, but it does not.
+   :feedback_c: This would be true if the code only looked for a match at the same indicies.
+   :feedback_d: This would be true if both i2 and i1 were incremented when a match was found.
+   :feedback_e: This code only increments i2 when a match is found, which means that the 2 at position 2 in x1 matches both 2's in x2.
+
+   What is the value of ``count`` after the following code has executed?
+
+   .. code-block:: java
+
+     int[ ] x1 = {0, 1, 2, 3};
+     int[ ] x2 = {1, 2, 2, 3};
+     int i1 = 0;
+     int i2 = 0;
+     int count = 0;
+     while ( (i1 < x1.length) &&
+             (i2 < x2.length))
+     {
+        if (x1[i1] == x2[i2])
+        {
+           count++;
+           i2++;
+        }
+        else if (x1[i1] < x2[i2])
+        {
+           i1++;
+        }
+        else
+        { // x1[i1] > x2[i2]
+           i2++;
+        }
+     }

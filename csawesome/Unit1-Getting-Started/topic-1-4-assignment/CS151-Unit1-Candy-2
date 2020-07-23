@@ -1,0 +1,39 @@
+.. activecode:: CS151-Unit1-Candy-2
+   :author: John Cigas
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: F
+   :language: java
+
+   Write a program to calculate the amount of candy each child at a party gets. You specify
+   the number of children and the total amount of candy, then compute how many pieces each child
+   gets, and how many are left over (for the parents to fight over!).
+   ~~~~
+
+
+
+   public class Candy2
+   {
+      public static void main(String[] args)
+      {
+         // Fill in values for these variables - you choose
+         int numChildren =
+         int numPieces =
+
+         // Write a formula to calculate the number of pieces each child gets
+
+         int piecesPerChild =
+
+         // Write a formula to calculate the number of pieces left over
+
+         int leftOverPieces = 
+
+         // Print out the number of number of pieces per child and the amount left over. 
+         //Make sure you print out text too so that the user knows what is being printed out.
+
+
+
+      }
+   }
+

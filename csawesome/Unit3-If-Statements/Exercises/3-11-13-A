@@ -1,0 +1,21 @@
+.. mchoice:: 3-11-13-A
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit3-If-Statements/Exercises
+   :from_source: F
+   :answer_a: first
+   :answer_b: second
+   :answer_c: first second
+   :answer_d: None of the above
+   :correct: b
+
+   What would the following print?
+
+   .. code-block:: java
+
+    int x = 3; 
+    int y = 2;
+    if (y / x > 0.5) 
+	System.out.print(“first ”);
+	System.out.print(“second ”);

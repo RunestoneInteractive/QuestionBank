@@ -1,0 +1,12 @@
+
+    :author: Eric Reed
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: PythonModules/Exercises
+    :from_source: F
+.. activecode:: er1002
+   
+    Write a program that spins a "Magic Eight Ball."
+    The user thinks of a question and then runs the program.
+    The program randomly chooses one of eight "yes/no/maybe" answers (you can make these up).
+    The program then asks the user if they want to go again, and responds appropriately.

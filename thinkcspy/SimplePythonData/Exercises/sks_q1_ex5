@@ -1,0 +1,25 @@
+.. mchoice:: sks_q1_ex5
+   :author: Shishir Shah
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: SimplePythonData/Exercises
+   :from_source: F
+   :answer_a: 500
+   :answer_b: Error
+   :answer_c: 800
+   :answer_d: 1000
+   :correct: e
+   :random:
+   :feedback_a: Thank you.  Your answer has been noted.
+   :feedback_b: Thank you.  Your answer has been noted.
+   :feedback_c: Thank you.  Your answer has been noted.
+   :feedback_d: Thank you.  Your answer has been noted.
+
+
+   [2 pts.] What is printed by the following programs? If an error message is expected, state that.::
+
+      val=100
+      for i in range(4,1,-1):
+	   val=val+100*i
+      print(val)
+

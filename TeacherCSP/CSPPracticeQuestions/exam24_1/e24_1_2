@@ -1,0 +1,17 @@
+.. mchoice:: e24_1_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :topic: CSPPracticeQuestions/exam24_1
+   :from_source: T
+   :answer_a: Abstraction requires users to understand the low-level details of a system.
+   :answer_b: Abstraction reduces information and detail to facilitate focus on relevant concepts.
+   :answer_c: Abstraction increases the complexity of the software system.
+   :answer_d: Abstraction compresses a program file to reduce file size.
+   :correct: b
+   :feedback_a: Incorrect
+   :feedback_b: Correct
+   :feedback_c: Incorrect
+   :feedback_d: Incorrect
+
+   Which of the following statements about abstraction is true?

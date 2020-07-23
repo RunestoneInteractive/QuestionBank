@@ -1,0 +1,11 @@
+.. activecode:: ch02_21
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: cps110fall2018
+    :topic: SimplePythonData/Typeconversionfunctions
+    :from_source: None
+    :nocanvas:
+
+    print(float("123.45"))
+    print(type(float("123.45")))
+

@@ -1,0 +1,16 @@
+
+    :author: Eric Reed
+    :difficulty: 2.0
+    :basecourse: fopp
+    :topic: TransformingSequences/Exercises
+    :from_source: F
+.. activecode:: er2001
+
+
+    First copy your code from the previous problem.  This problem
+    will again ask the user for a bunch of words and print out
+    the words.  Then it will sort the words using the bubble sort
+    technique we learned in class (no other sort methods allowed!)
+    Print out the sorted list.
+    ~~~~
+ 

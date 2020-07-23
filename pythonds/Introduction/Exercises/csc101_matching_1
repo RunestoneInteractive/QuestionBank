@@ -1,0 +1,16 @@
+.. dragndrop:: csc101_matching_1
+    :author: Isaac Sung
+    :difficulty: 0.0
+    :basecourse: pythonds
+    :topic: Introduction/Exercises
+    :from_source: F
+    :feedback: Try again.
+    :match_1: 14 ||| print(2+3*4)
+    :match_2: 1024 ||| print(2**10)
+    :match_3: 0.5 ||| print(17/34)
+    :match_4: 17 ||| print(17%35)
+    :match_5: 10 ||| print(51//5)
+    :match_6: 20 ||| print(5*2*2)
+   
+    Matchup the output the to Python code that produced it.
+    

@@ -1,0 +1,13 @@
+
+    :author: Jane Weyant
+    :difficulty: 0.0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
+.. actex:: BPU_Remainder
+
+    Write a program that asks the user for two different numbers.  Output the remainder of the first number divided by the second number.
+    ~~~~
+    
+ 
+    

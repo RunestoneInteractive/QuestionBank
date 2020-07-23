@@ -1,0 +1,27 @@
+
+   :author: Kaelyn Leake
+   :difficulty: 0.0
+   :basecourse: fopp
+   :topic: Dictionaries/Exercises
+   :from_source: F
+.. activecode:: KDL_ch11_4
+   :autograde: unittest
+   :language: python
+
+   Create a function ``OddEvenCount`` that accepts a list of integers and returns a dictionary. The function should use a if statement to determine if each of the integers is odd or even and keep a count of each. The keys of the dictionary should be `odd` and `even` and the values should be the number of odd values and the number of even values. If there are no odds or evens the function should return {'odd':0,'even':0} 
+   ~~~~
+   
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           
+           self.assertTrue('def' in self.getEditorText(), 'a function is created')
+           self.assertTrue( OddEvenCount([1,2,3])=={'odd':2,'even':1}, '1st situation tested')
+           self.assertTrue( OddEvenCount([5,7,9])=={'odd':3,'even':0}, '2nd situation tested')
+           self.assertTrue( OddEvenCount([2,4,6])=={'odd':0,'even':3}, '3rd situation tested')
+           self.assertTrue( OddEvenCount([])=={'odd':0,'even':0}, '4th situation tested')
+   myTests().main()   

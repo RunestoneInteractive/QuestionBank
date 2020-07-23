@@ -1,0 +1,18 @@
+.. mchoice:: 2-13-10-B
+   :author: Rachel Reyes
+   :difficulty: 1.0
+   :basecourse: csawesome
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: F
+   :answer_a: 5742
+   :answer_b: 126
+   :answer_c: 1242
+   :answer_d: It will give a compile-time error.
+   :answer_e: It will give a run-time error.
+   :correct: c
+
+   What does the following code print?
+
+   .. code-block:: java
+
+    System.out.println(5 + 7 + “4” + 2);

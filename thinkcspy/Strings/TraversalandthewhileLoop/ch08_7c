@@ -1,0 +1,16 @@
+.. activecode:: ch08_7c
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcspy
+    :topic: Strings/TraversalandthewhileLoop
+    :from_source: T
+    :nocanvas:
+
+
+    fruit = "apple"
+
+    position = 0
+    while position < len(fruit):
+        print(fruit[position])
+        position = position + 1
+

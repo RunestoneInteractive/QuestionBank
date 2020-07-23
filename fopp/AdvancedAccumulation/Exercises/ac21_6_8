@@ -1,0 +1,26 @@
+.. actex:: ac21_6_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: AdvancedAccumulation/Exercises
+   :from_source: T
+
+   Define longwords using manual accumulation.
+   ~~~~
+
+   def longwords(strings):
+       """Return a shorter list of strings containing only the strings with more than four characters. Use manual accumulation."""
+       # write your code here
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(longwords(["Hello", "hi", "bye", "wonderful"]), ["Hello", "wonderful"], "Testing whether longwords has been correctly defined.")
+           self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+           self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
+
+   myTests().main()

@@ -1,0 +1,69 @@
+.. mchoice:: qtnt3_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csawesome
+   :topic: Tests/test3nt
+   :from_source: T
+   :answer_a: "My name is Piglet!"
+   :answer_b: "Piglet"
+   :answer_c: "My name is Animal!"
+   :answer_d: "Animal"
+   :answer_e: "Oink"
+   :correct: a
+   :feedback_a: At run-time, piglet is a Pig object. The compiler uses the overwritten getName method located in the Pig class, which prints out "My name is " before calling on the getName method in the Animal class.
+   :feedback_b: This would be correct if the getName method had not been overwritten in the Pig class. Because piglet is a Pig object at run-time, the compiler uses the getName method from the Pig class.
+   :feedback_c: Check the constructor method in the Pig class. The Pig class constructor uses the Animal class constructor that has one String parameter, not the default Animal constructor.
+   :feedback_d: The constructor in the Pig class uses the Animal class constructor that takes in a string parameter, not the default constructor. The getName method has been overwritten in the Pig class, so "My name is " is printed before the name of the object.
+   :feedback_e: Check the problem and note which method has been used. This is what is returned by the makeNoise method.
+
+   Consider the classes ``Animal`` and ``Pig`` shown below. What is printed as a result of executing the code below?
+
+   .. code-block:: java
+
+      public class Animal
+      {
+          private String name;
+
+          public Animal(String theName)
+          {
+              name = theName;
+          }
+
+          public Animal()
+          {
+              name = "Animal";
+          }
+
+          public String makeNoise() { return ""; };
+
+          public String getName()
+          {
+              return name;
+          }
+      }
+
+      public class Pig extends Animal
+      {
+           public Pig(String theName)
+           {
+               super(theName);
+           }
+
+           public String makeNoise()
+           {
+               return "Oink!";
+           }
+
+           public String getName()
+           {
+               return "My name is " + super.getName() + "!";
+           }
+
+           public static void main(String[] args)
+           {
+              Animal piglet = new Pig("Piglet");
+              System.out.print(piglet.getName());
+           }
+      }
+
+

@@ -1,0 +1,36 @@
+
+   :author: Tom Babbitt
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: IT105Resources/Exercises
+   :from_source: F
+.. activecode:: it105_ps01_01
+   :nocanvas:  
+   :autograde: unittest
+
+   Create a function called ``cadetList``. The function has no parameters. It asks the user to input Last Name, 
+   First Name, pushup score (0 to 100), situp score (0 to 100), and run score (0 to 100). The function returns a list
+   in the format **["Jones", "Bob", 67, 87, 99]**.
+   ~~~~
+   #Create your function here
+
+   ====
+   print('Ensure your function returns in the format - ["Jones", "Bob", 67, 87, 99] ')
+   ###This works using Python3 in a linux environment but not in Skulpt 
+   ###or in the Runestone environment. That might change; however, Skulpt
+   ###uses Python 2.6 and 2.7 for implementation and mock is not standard.
+   #import unittest
+   #from unittest.gui import TestCaseGui
+   #from unittest.mock import patch
+
+   #class myTests(TestCaseGui):
+      
+   #   @patch('builtins.input')
+   #   def testOne(self, m_input):
+   #      m_input.side_effects = ['Babbitt', 'Thomas', '90', '100', '75']
+   #      expected_output = ['Babbitt', 'Thomas', 90, 100, 75]
+   #      self.assertEqual(cadetTest(), expect_output)
+       
+
+   #if __name__ == '__main__':
+   #   unittest.main()

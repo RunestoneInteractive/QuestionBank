@@ -1,0 +1,14 @@
+.. mchoice:: cswt1_q7
+   :author: Lloyd Smith
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :topic: GeneralIntro/Exercises
+   :from_source: F
+   :answer_a: F3CB
+   :answer_b: F593
+   :answer_c: F289
+   :answer_d: E368
+   :correct: a
+   :random:
+
+   Show the hexadecimal number corresponding to the following bit pattern: 1111 0011 1100 1011

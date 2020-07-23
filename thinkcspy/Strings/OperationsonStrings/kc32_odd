@@ -1,0 +1,11 @@
+.. activecode:: kc32_odd
+    :author: Karioki Crosby
+    :difficulty: 0.0
+    :basecourse: thinkcspy
+    :topic: Strings/OperationsonStrings
+    :from_source: F
+    :nocanvas:
+
+    fruit = "apple"
+    bakedGood = " nut bread"
+    print(fruit + bakedGood)

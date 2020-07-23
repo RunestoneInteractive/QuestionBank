@@ -1,0 +1,14 @@
+
+    :author: Brian Powell
+    :difficulty: 1.0
+    :basecourse: fopp
+    :topic: GeneralIntro/Exercises
+    :from_source: F
+.. activecode:: wvu_hello_world
+
+
+    Write a statement to print the message "Hello, WVU!".
+    ~~~~
+    # Your code goes here
+
+    

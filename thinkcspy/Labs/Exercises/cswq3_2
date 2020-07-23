@@ -1,0 +1,19 @@
+.. mchoice:: cswq3_2
+   :author: Lloyd Smith
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :topic: Labs/Exercises
+   :from_source: F
+   :answer_a: 3
+   :answer_b: 4
+   :answer_c: 2
+   :answer_d: 5
+   :correct: a
+   :random:
+   :feedback_a: Yes, three bits will enable you to represent eight different values
+   :feedback_b: No, four bits is more than you need
+   :feedback_c: No, two bits can only represent four different values
+   :feedback_d: No, five bits is more than you need
+
+   Imagine that you want to create a code to represent ethnicity; the choices are African-American,
+   Caucasian, Hispanic, Other, Prefer not to say. How many bits will you need?

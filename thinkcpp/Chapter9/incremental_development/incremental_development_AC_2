@@ -1,0 +1,60 @@
+.. activecode:: incremental_development_AC_2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: thinkcpp
+  :topic: Chapter9/incremental_development
+  :from_source: T
+  :language: cpp
+
+  Write your implementation of ``increment`` in the commented area of the active
+  code below. If you get stuck, you can reveal the extra problem at the end for help.
+  ~~~~
+  #include <iostream>
+  using namespace std;
+
+  struct Time {
+      int hour, minute;
+      double second;
+  };
+
+  void printTime (Time& t) {
+      cout << t.hour << ":" << t.minute << ":" << t.second << endl;
+  }
+
+  double convertToSeconds (const Time& t) {
+      int minutes = t.hour * 60 + t.minute;
+      double seconds = minutes * 60 + t.second;
+      return seconds;
+  }
+
+  Time makeTime (double secs) {
+      Time time;
+      time.hour = int (secs / 3600.0);
+      secs -= time.hour * 3600.0;
+      time.minute = int (secs / 60.0);
+      secs -= time.minute * 60;
+      time.second = secs;
+      return time;
+  }
+
+  Time addTime (const Time& t1, const Time& t2) {
+      double seconds = convertToSeconds (t1) + convertToSeconds (t2);
+      return makeTime (seconds);
+  }
+
+  void increment (Time& time, double secs) {
+      // This version of ``increment`` should use ``convertToSeconds``
+      // and ``makeTime``. Write your implementation here.
+  }
+
+  int main() {
+      Time t1 = { 9, 14, 30.0 };
+      increment(t1, 60.0);
+      // Should output "9:15:30"
+      printTime (t1);
+
+      Time t2 = { 9, 59, 45.0 };
+      increment(t2, 120.0);
+      // Should output "10:1:45"
+      printTime (t2);
+  }

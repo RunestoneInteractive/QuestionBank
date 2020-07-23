@@ -1,0 +1,40 @@
+
+   :author: Barbara  Ericson
+   :difficulty: 0.0
+   :basecourse: StudentCSP
+   :topic: CSPWhileAndForLoops/Exercises
+   :from_source: F
+.. parsonsprob:: list_loop_pp2b
+   :numbered: left
+   :adaptive:
+
+   Put the blocks in order to define a print_BMI_result function that takes a weight and height
+   and prints a result.  If the BMImetric is less than 18.5 print "Underweight", otherwise 
+   if it is less than or equal 24.9 print "Healthy", otherwise print "Overweight".  
+   -----
+   def print_BMI_result(weight, height):
+   =====
+       heightSquared = height * height
+       BMI = weight / heightSquared
+       BMImetric = BMI * 703
+   =====
+       if BMImetric < 18.5:
+   =====
+       if BMImetric > 18.5: #paired
+   =====
+           print("Underweight")
+   =====
+           print("Underweight) #paired
+   =====
+       elif BMImetric <= 24.9:
+   =====
+       if BMImetric <= 24.9: #paired
+   =====
+           print("Healthy")
+   =====
+       else:
+   =====
+       else #paired
+   =====
+           print("Overweight")
+   

@@ -1,0 +1,10 @@
+.. actex:: ex_rec_6
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: cps110fall2018
+   :topic: IntroRecursion/ProgrammingExercises
+   :from_source: None
+
+   Implement a solution to the Tower of Hanoi using three stacks to keep
+   track of the disks.
+   ~~~~

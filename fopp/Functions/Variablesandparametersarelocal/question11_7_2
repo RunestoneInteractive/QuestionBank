@@ -1,0 +1,31 @@
+.. fillintheblank:: question11_7_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/Variablesandparametersarelocal
+   :from_source: T
+
+   Which of the following are local variables? Please, write them in order of what line they are on in the code.
+
+   .. sourcecode:: python
+
+    numbers = [1, 12, 13, 4]
+    def foo(bar):
+        aug = str(bar) + "street"
+        return aug
+
+    addresses = []
+    for item in numbers:
+        addresses.append(foo(item))
+
+
+   The local variables are
+
+   -  :bar: Good work!
+      :aug: While aug is a local variable, it is not the first one in the code.
+      :item: item is not a local variable.
+      :.*: Incorrect, try again.
+   -  :aug: Good work!
+      :bar: While bar is a local variable, it is not the first one in the code.
+      :item: item is not a local variable.
+      :.*: Incorrect, try again.

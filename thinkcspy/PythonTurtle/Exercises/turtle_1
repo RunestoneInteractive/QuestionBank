@@ -1,0 +1,13 @@
+
+    :author: DANIEL LEE
+    :difficulty: 1.0
+    :basecourse: thinkcspy
+    :topic: PythonTurtle/Exercises
+    :from_source: F
+.. activecode:: turtle_1
+
+    Draw a rectangle that longer horizontally.
+
+    ~~~~
+    
+    

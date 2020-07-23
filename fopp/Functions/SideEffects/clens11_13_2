@@ -1,0 +1,14 @@
+.. codelens:: clens11_13_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: fopp
+   :topic: Functions/SideEffects
+   :from_source: T
+   :python: py3
+
+   def double(n):
+      return 2 * n
+
+   y = 5
+   y = double(y)
+   print(y)

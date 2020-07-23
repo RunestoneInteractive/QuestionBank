@@ -1,0 +1,16 @@
+.. activecode::  ch8ex7a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :topic: CSPWhileAndForLoops/ch8_exercises
+    :from_source: T
+    :nocodelens:
+
+    target = 6
+    guess = 2
+    guessSquared = guess * guess
+    while abs(target-guessSquared) > 0.01:
+        closer = target / guess
+        guess = (guess + closer) / 2.0
+        guessSquared = guess * guess
+    print("Square root of", target,"is", guess)
