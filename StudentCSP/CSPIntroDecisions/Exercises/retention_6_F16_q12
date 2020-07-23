@@ -1,6 +1,6 @@
 .. mchoice:: retention_6_F16_q12
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPIntroDecisions/Exercises
    :from_source: F
@@ -43,4 +43,3 @@
    -   Error
 
        -   Incorrect! ``bvr`` will be replaced by its value, 'b', then the value corresponding to key 'b' in the dictionary will be updated to 20.
-

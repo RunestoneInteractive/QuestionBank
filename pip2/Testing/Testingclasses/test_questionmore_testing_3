@@ -1,0 +1,19 @@
+.. mchoice:: test_questionmore_testing_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Testing/Testingclasses
+   :from_source: None
+   :answer_a: return value test
+   :answer_b: side effect test
+   :feedback_a: You want to check if maxabs returns the correct value for some input.
+   :feedback_b: The function has no side effects; even though it takes a list L as a parameter, it doesn't alter its contents.
+   :correct: a
+
+   To test the function maxabs, which kind of test case should you write?
+
+   .. sourcecode:: python
+
+      def maxabs(L):
+         """L should be a list of numbers (ints or floats). The return value should be the maximum absolute value of the numbers in L."""
+         return max(L, key = abs)

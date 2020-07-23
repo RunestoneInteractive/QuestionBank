@@ -1,6 +1,6 @@
 .. parsonsprob:: ch13ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPStringDecisions/mixup_IF
    :from_source: T
@@ -25,4 +25,3 @@
    DISPLAY(avg)
    =====
    avg <- sum / item #distractor
-

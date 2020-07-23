@@ -1,6 +1,6 @@
 .. activecode:: trd_lst_recsum
     :author: Majid Rouhani
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: pythonds
     :topic: Recursion/pythondsCalculatingtheSumofaListofNumbers
     :from_source: F

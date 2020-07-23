@@ -1,6 +1,6 @@
 .. activecode:: ch06_distance1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Functions/ProgramDevelopment
     :from_source: None
@@ -9,4 +9,3 @@
         return 0.0
 
     print(distance(1, 2, 4, 6))
-

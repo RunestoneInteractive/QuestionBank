@@ -1,6 +1,6 @@
 .. activecode:: madlib1_split2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPStringPieces/split
    :from_source: T
@@ -32,4 +32,3 @@
    print(next2)
    print(next3)
    print(ending)
-

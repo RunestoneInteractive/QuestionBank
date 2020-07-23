@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch9_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -59,4 +59,4 @@
            self.assertEqual(_taylorterm(40,10),taylorterm(40,10), 'taylorterm function works')
            self.assertEqual(_taylorlist(2,5),taylorlist(2,5), 'taylorlist function works')
            self.assertEqual(_taylorex(9,26),taylorex(9,27), 'taylorex function works')
-   myTests().main()   
+   myTests().main()

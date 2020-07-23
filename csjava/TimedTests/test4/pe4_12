@@ -1,0 +1,27 @@
+.. mchoice:: pe4_12
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: TimedTests/test4
+   :from_source: T
+   :answer_a: mp
+   :answer_b: mpu
+   :answer_c: mpur
+   :answer_d: omp
+   :answer_e: om
+   :correct: b
+   :feedback_a: A substring of (0,3) will have 3 characters in it (index 0, index 1, and index 2).
+   :feedback_b: Remember that substring with two numbers starts at the first index and ends before the second.  So s1 = Computer, s2 = mputer, s3 = mpu
+   :feedback_c: A substring of (0,3) will have 3 characters in it (index 0, index 1, and index 2).
+   :feedback_d: Remember that the first character in a string object is at index 0.
+   :feedback_e: A substring of (0,3) will have 3 characters in it (index 0, index 1, and index 2).
+
+   What is the output from the following code?
+
+   .. code-block:: java
+
+     String s = "Computer Science is fun!";
+     String s1 = s.substring(0,8);
+     String s2 = s1.substring(2);
+     String s3 = s2.substring(0,3);
+     System.out.println(s3);

@@ -1,6 +1,6 @@
 .. parsonsprob:: assignment_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Assignment
    :from_source: T
@@ -34,4 +34,3 @@
    =====
    int year; #paired
    year = 2001
-

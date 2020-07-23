@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_04007
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: ids17_04007
 
     6.9(劉邦鋒，由片語學習C程式設計)寫一個程式玩井字遊戲。我們用1到9的數字代表井字遊戲由上到下，由左到右的九個格子，1代表左上角，9代表右下角。輸入為一行雙方下子的紀錄，最多有9個數字。如果任一方獲勝，則輸出為獲勝一方下的最後一個數字。如果平手，則輸出為0。
 
@@ -19,5 +18,3 @@
     ~~~~
     
     ====
-    
-    

@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_11_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Strings/TheAccumulatorPatternwithStrings
    :from_source: T
@@ -22,4 +22,3 @@
       for item in s:
           r = item.upper() + r
       print(r)
-

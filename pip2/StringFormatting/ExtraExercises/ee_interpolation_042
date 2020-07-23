@@ -1,0 +1,20 @@
+.. activecode:: ee_interpolation_042
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(grades(["Jenny", 90]), "Congrats, Jenny, you passed the test with a 90!", "Testing the function grades on input ['Jenny', 90].")
+         self.assertEqual(grades(["Tina", 70]), "Congrats, Tina, you passed the test with a 70!", "Testing the function grades on input ['Tina', 70].")
+         self.assertEqual(grades(["Betty", 45]), "Sorry, Betty, you failed the test with a 45.", "Testing the function grades on input ['Betty', 45].")
+
+   myTests().main()

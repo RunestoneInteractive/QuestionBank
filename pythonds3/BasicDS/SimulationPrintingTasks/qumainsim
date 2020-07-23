@@ -1,6 +1,6 @@
 .. activecode:: qumainsim
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: BasicDS/SimulationPrintingTasks
     :from_source: T
@@ -74,4 +74,3 @@
 
     for i in range(10):
         simulation(3600, 5)
-

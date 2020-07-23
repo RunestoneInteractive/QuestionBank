@@ -1,6 +1,6 @@
 .. activecode:: ch06_newarea
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Functions/Composition
     :from_source: None
@@ -22,5 +22,3 @@
         return result
 
     print(area2(0,0,1,1))
-
-

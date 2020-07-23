@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw6_s20_q3_ext
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: 1306_cw6_s20_q3_ext
 
     **Question 3 Additional Practice** [No points]
 
@@ -14,8 +13,3 @@
    
     ~~~~
     # Write your code here
-
-    
-
-
-  

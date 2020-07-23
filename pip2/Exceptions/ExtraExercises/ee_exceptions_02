@@ -1,0 +1,22 @@
+.. activecode:: ee_exceptions_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Exceptions/ExtraExercises
+   :from_source: None
+   :tags:Exceptions/intro-exceptions.rst
+
+   numb = [6, 0, 36, 8, 2, 36, 0, 12, 60, 0, 45, 0, 3, 23]
+
+   remainder = []
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOneA(self):
+         self.assertEqual(remainder, [0, 'Error', 0, 4, 0, 0, 'Error', 0, 36, 'Error', 36, 'Error', 0, 13], "Testing that remainder is assigned to correct values.")
+
+   myTests().main()

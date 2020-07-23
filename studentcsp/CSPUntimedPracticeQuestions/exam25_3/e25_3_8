@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: Incorrect. This is not a main concern and would be up to the discretion of the IT director.
 
    New data is available to add to a company’s existing data. The IT director wants to store the new data on the cloud. What is a concern that needs to be addressed before implementing the plan?
-
-

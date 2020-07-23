@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_10_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/UpdatingVariables
    :from_source: T

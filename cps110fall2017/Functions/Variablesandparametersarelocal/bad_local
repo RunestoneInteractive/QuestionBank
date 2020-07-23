@@ -1,6 +1,6 @@
 .. codelens:: bad_local
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Functions/Variablesandparametersarelocal
     :from_source: None
@@ -11,4 +11,3 @@
 
     z = square(10)
     print(y)
-

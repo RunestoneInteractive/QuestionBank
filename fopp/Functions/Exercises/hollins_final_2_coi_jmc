@@ -1,0 +1,45 @@
+.. activecode:: hollins_final_2_coi_jmc
+   :author: Jonny Comes
+   :difficulty: 0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :language: python
+   :nopair:
+   :nocodelens:
+   :autograde: unittest
+
+   Write a function named ``merge_strings`` that takes two
+   parameters, both strings, and merges them into one,
+   alternating the characters. For example, if ``merge_strings``
+   is called with the actual parameters ``"abc"`` and ``"123"``,
+   ``merge_strings`` should return ``"a1b2c3"``. If the function
+   ``merge_strings`` is called with strings that aren't the
+   same length, then it should print the error message
+   ``"Strings must be the same length"`` and return the empty
+   string.
+   ~~~~
+
+
+   ====
+   from unittest.gui import TestCaseGui
+   import re
+   class myTests(TestCaseGui):
+      def testOne(self):
+         self.assertEqual(type(merge_strings('a','1')), type('a'), "Checking the function returns a str")
+         def answer(first: str, second: str) -> str:
+             zipped = ''
+             if len(first) != len(second):
+                 print("Strings must be the same length")
+                 return zipped
+             for i in range(len(first)):
+                 zipped += first[i]
+                 zipped += second[i]
+             return zipped
+         self.assertEqual(merge_strings('abc', '123'), answer('abc', '123'), "Checking merge_strings('abc', '123')")
+         self.assertEqual(merge_strings('hh', 'aa'), answer('hh', 'aa'), "Checking merge_strings('hh', 'aa')")
+         self.assertEqual(merge_strings('asdfasdf', 'wertghkj'), answer('asdfasdf', 'wertghkj'), "Checking other inputs")
+         self.assertEqual(merge_strings('asdf', '12'), '', "The function should return the empty string when it is called with parameters that don't have the same length")
+         # The test below relies on the execution of merge_strings in the line above (with parameters of unequal length)
+         self.assertTrue(re.search('Strings must be the same length', self.getOutput()), "The function should print the error message 'Strings must be the same length' when it is called with parameters that don't have the same length")
+   myTests().main()

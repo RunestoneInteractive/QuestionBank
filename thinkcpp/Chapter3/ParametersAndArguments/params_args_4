@@ -1,6 +1,6 @@
 .. dragndrop:: params_args_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter3/ParametersAndArguments
     :from_source: T

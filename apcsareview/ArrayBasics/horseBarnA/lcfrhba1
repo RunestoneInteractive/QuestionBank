@@ -1,6 +1,6 @@
 .. activecode:: lcfrhba1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/horseBarnA
    :from_source: T
@@ -94,4 +94,3 @@
                            barn.findHorseSpace("Coco"));
       }
    }
-

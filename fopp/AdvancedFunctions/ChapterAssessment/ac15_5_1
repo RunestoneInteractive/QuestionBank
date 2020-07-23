@@ -1,6 +1,6 @@
 .. activecode:: ac15_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: AdvancedFunctions/ChapterAssessment
    :from_source: T
@@ -23,4 +23,3 @@
          self.assertEqual(mult(4,"hello"), "hellohellohellohello", "testing that mult returns the correct value on input (4, 'hello'")
 
    myTests().main()
-

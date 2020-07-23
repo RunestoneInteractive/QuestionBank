@@ -1,0 +1,18 @@
+.. activecode:: is_prefix_4
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/OptionalKeywordParams
+    :from_source: None
+
+    # Example using the flag pattern you learned last week
+    # Can be used in any kind of iteration, not just indefinite iteration
+
+    def is_prefix(s1, s2):
+        is_it_good = True  # This is called a Boolean "flag"
+        for i in range(len(s1)):  # [0, 1]
+            if s1[i] != s2[i]:
+                is_it_good = False
+        return is_it_good
+
+    print is_prefix("hel", "hello")

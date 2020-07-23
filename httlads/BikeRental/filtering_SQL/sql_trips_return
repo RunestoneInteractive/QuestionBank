@@ -1,6 +1,6 @@
 .. fillintheblank:: sql_trips_return
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: httlads
     :topic: BikeRental/filtering_SQL
     :from_source: F
@@ -10,5 +10,3 @@
     - :4: Is the correct answer
       :5: Is the total for both members and casual riders
       :x: catchall feedback
-
-

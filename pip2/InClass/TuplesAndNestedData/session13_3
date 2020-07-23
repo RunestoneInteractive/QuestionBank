@@ -1,0 +1,36 @@
+.. activecode:: session13_3
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/TuplesAndNestedData
+    :from_source: None
+
+    # Also for return values
+    # Remember functions only return 1 value --
+    # With tuples, 1 value can hold multiple pieces of data
+
+    # Here's most of a function that takes a dictionary as input with
+    # key-value pairs that are names as keys
+    # and integers as values.
+    # The values represent the score that person got in a game.
+    # For example, {"Nick":12,"Ayo":15,"Lauren":21}
+
+    # The function should return a tuple:
+    # the name of the person who got the highest score, and their score
+
+    def highest_scoring(score_diction):
+        keys = score_diction.keys() # could also use .items(), but that would lead to different code
+        max_key_so_far = keys[0]
+        for k in keys:
+            if score_diction[k] > score_diction[max_key_so_far]:
+                max_key_so_far = k
+        # FILL IN THE RETURN STATEMENT
+
+    # example invocation code
+
+    sd = {"Nick":12,"Ayo":15,"Lauren":21}
+    sd2 = {"Natalie":62,"Jackie":35,"Jaime":44}
+
+    print highest_scoring(sd) # should print: Lauren 21
+    print highest_scoring(sd2) # should print: Natalie 62
+    # Like strings, tuples print a little different than they're represented in code

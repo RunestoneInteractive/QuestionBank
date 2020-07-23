@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_H-atom_energy
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -47,4 +47,4 @@
 	   for level in range(1,10):
 	       self.assertAlmostEqual(h_atom_ene(level), _h_atom_ene(level), 7,
 	           "Check energy level "+str(level))
-   myTests().main()	    
+   myTests().main()

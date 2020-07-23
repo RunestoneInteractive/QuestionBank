@@ -1,0 +1,56 @@
+.. mchoice:: AP5-8-3
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/Exercises
+    :from_source: T
+    :practice: T
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+            private int currentTemp;
+            private int boilingPoint;
+
+            public Liquid(int ct, int bp)
+            {
+                currentTemp = ct;
+                boilingPoint = bp;
+            }
+
+            public void changeTemp(int newTemp)
+            {
+                currentTemp = newTemp;
+            }
+
+            public void increaseTemp(int howMuch)
+            {
+                currentTemp = newTemp + howMuch;
+            }
+
+        }
+
+    Which of the following best explains why the class will not compile?
+
+    - The class is missing an accessor method.
+
+      - The class does not necessarily need an accessor method.
+
+    - The instance variables currentTemp and boilingPoint should be  public instead of private.
+
+      - Instance variables are usually private.
+
+    - The Liquid constructor needs a return type.
+
+      - Constructors do not have return types.
+
+    - The Liquid class is missing a constructor.
+
+      - The class includes a constructor.
+
+    - The variable newTemp is not defined in the increaseTemp method.
+
+      + Correct! newTemp is defined in a different method. The instance variable currentTemp should be used instead.

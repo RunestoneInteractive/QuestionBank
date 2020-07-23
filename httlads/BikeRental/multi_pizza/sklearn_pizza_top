@@ -1,6 +1,6 @@
 .. fillintheblank:: sklearn_pizza_top
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/multi_pizza
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :18.58.*: Is the correct answer
      :x: Keep on trying
-

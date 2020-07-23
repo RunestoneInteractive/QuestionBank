@@ -1,6 +1,6 @@
 .. poll:: exp1_pp1a_poll
     :author: Barbara  Ericson
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: StudentCSP
     :topic: CSPNameStrings/Exercises
     :from_source: F
@@ -16,4 +16,4 @@
     :option_9: Very, very high mental effort
     :results: instructor
 
-    Is solving the preceding problem I invested: 
+    Is solving the preceding problem I invested:

@@ -1,6 +1,6 @@
 .. activecode:: act_xkcdp_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/xkcd_pass
     :from_source: T
@@ -10,5 +10,3 @@
     adjs = ['busy', 'closer', 'national', 'pale', 'encouraging', 'historical', 'extreme', 'cruel', 'expensive', 'comfortable', 'steady', 'necessary', 'isolated', 'deep', 'bad', 'free', 'voluntary', 'informal', 'loud', 'key', 'extra', 'wise', 'improved', 'mad', 'willing', 'actual', 'OK', 'gray', 'little', 'religious', 'municipal', 'just', 'psychological', 'essential', 'perfect', 'intense', 'blue', 'following', 'Asian', 'shared', 'rare', 'developmental', 'uncomfortable', 'interesting', 'environmental', 'amazing', 'unhappy', 'horrible', 'philosophical', 'American']
 
     # Make a four word password by combining words from the list of nouns, verbs and adjs
-
-

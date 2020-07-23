@@ -1,6 +1,6 @@
 .. mchoice:: local_variables_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter6/local_variables
    :from_source: T

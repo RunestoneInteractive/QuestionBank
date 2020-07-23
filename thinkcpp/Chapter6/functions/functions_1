@@ -1,6 +1,6 @@
 .. mchoice:: functions_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter6/functions
    :from_source: T
@@ -16,4 +16,3 @@
    :feedback_d: This statement is called an assignment statement.  It assigns the value on the right (9), to the name on the left (x).
 
    What is a function in C++?
-

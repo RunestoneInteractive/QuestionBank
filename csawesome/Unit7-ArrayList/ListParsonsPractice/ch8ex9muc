@@ -1,6 +1,6 @@
 .. parsonsprob:: ch8ex9muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit7-ArrayList/ListParsonsPractice
    :from_source: T
@@ -28,4 +28,3 @@
        } //end while loop
    =====
    } //end doubleList method
-

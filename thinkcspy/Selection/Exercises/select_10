@@ -1,10 +1,9 @@
-
+.. activecode:: select_10
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: select_10
   
     Write a nested conditional statement that checks if a variable 'num' is equal 
     to 5. When 'num' is not equal to 5, then the algorithm checks if 'num' is less 
@@ -12,4 +11,3 @@
     else the program will print out "num is greater than 5."
 
     ~~~~
-    

@@ -1,0 +1,14 @@
+.. activecode:: session10_first
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/IndefiniteIteration
+    :from_source: None
+
+    theSum = 0
+    x = -1
+    while x != 0:
+        x = int(raw_input("Next number to add up (enter 0 if you want to stop): "))
+        theSum = theSum + x
+
+    print theSum

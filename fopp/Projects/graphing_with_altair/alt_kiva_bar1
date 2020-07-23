@@ -1,6 +1,6 @@
 .. activecode:: alt_kiva_bar1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/graphing_with_altair
     :from_source: T
@@ -13,4 +13,3 @@
     mark = chart.mark_bar()
     enc = mark.encode(x='customer:N',y='cakes',color='flavor:N')
     enc.display()
-

@@ -1,10 +1,9 @@
-
+.. dragndrop:: dcb_dnd_testquestion
     :author: Doss Bradford
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. dragndrop:: dcb_dnd_testquestion
     :feedback: Feedback that is displayed if things are incorrectly matched--is optional
     :match_1: Wolverine|||Marvel
     :match_2: Donald Duck|||Disney
@@ -12,4 +11,3 @@
 
 
     Match the character to the Publisher
-    

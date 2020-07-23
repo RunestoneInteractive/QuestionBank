@@ -1,6 +1,6 @@
 .. fillintheblank:: recFBTracey
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Recursion/rPractice
    :from_source: F
@@ -9,4 +9,3 @@
 
    -    :^81$: Correct!
         :.*: It is the result of 3 * mystery(3)
-

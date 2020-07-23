@@ -1,6 +1,6 @@
 .. mchoice:: qsbeq_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Strings/sEquality
    :from_source: T

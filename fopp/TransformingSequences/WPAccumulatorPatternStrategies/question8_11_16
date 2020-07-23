@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_16
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/WPAccumulatorPatternStrategies
    :from_source: T

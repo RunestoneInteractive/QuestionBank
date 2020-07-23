@@ -1,0 +1,24 @@
+.. activecode:: ee_ch13_01
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/ImprovingourConstructor.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(testOne.color, "blue", "Testing that testOne has the correct color assigned.")
+         self.assertEqual(testOne.price, 89.99, "Testing that testOne has the correct price assigned.")
+
+      def testTwo(self):
+         self.assertEqual(testTwo.color, "purple", "Testing that testTwo has the correct color assigned.")
+         self.assertEqual(testTwo.price, 25, "Testing that testTwo has the correct color assigned.")
+
+   myTests().main()

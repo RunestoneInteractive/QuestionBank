@@ -1,11 +1,13 @@
 .. activecode:: lcfrhba1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/horseBarnA
    :from_source: T
    :language: java
 
+   FRQ HorseBarn A: Write the method findHorseSpace.
+   ~~~~
    class Horse
    {
       private String name;
@@ -85,4 +87,3 @@
                            barn.findHorseSpace("Coco"));
       }
    }
-

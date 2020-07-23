@@ -1,6 +1,6 @@
 .. activecode:: addfrac
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Introduction/ObjectOrientedProgrammingDefiningClasses
   :from_source: T
@@ -44,4 +44,3 @@
       cout << f3 << " is "<< f1 << " + " << f2 << endl;
       return 0;
   }
-

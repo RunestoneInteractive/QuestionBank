@@ -1,0 +1,21 @@
+.. activecode:: ee_interpolation_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   info = [('Sarah', 'Mattawan'), ("Grace", "Kalamazoo"), ('Mariana', "Sao Paulo"), ('Kevin', 'Melbourne'), ('Srishti', 'Dubai'), ('Kathleen', 'Bagota'), ('Ann', 'Excel')]
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(user_info, ['Sarah is from Mattawan', 'Grace is from Kalamazoo', 'Mariana is from Sao Paulo', 'Kevin is from Melbourne', 'Srishti is from Dubai', 'Kathleen is from Bagota', 'Ann is from Excel'], "Testing that user_info has the correct value.")
+
+   myTests().main()

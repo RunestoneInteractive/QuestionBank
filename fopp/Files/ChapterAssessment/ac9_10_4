@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Files/ChapterAssessment
    :from_source: T
@@ -24,4 +24,3 @@
          self.assertEqual(beginning_chars, "Writing essays for school can ", "Testing that beginning_chars has the correct string.")
 
    myTests().main()
-

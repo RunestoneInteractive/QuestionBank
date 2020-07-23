@@ -1,6 +1,6 @@
 .. activecode:: IT105_AY182_GradedLab02_03
    :author: Tom Babbitt
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
@@ -65,5 +65,4 @@
             count+=1
             self.assertEqual(findNumTries(a,b), answer, "Random try # " + str(count) + "; numConnections = " + str(a) + "; myID = " + str(b))
 
-   myTests().main()  
-    
+   myTests().main()

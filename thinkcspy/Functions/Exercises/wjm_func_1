@@ -1,10 +1,9 @@
-
+.. activecode:: wjm_func_1
    :author: Bill Montana
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: wjm_func_1
    :autograde: 
    :language: python3
    :enabledownload:
@@ -25,4 +24,3 @@ config values (conf.py):
 
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
-    

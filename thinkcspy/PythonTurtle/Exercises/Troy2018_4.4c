@@ -1,10 +1,9 @@
-
+.. activecode:: Troy2018_4.4c
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Troy2018_4.4c
 
     This is a BONUS.  
 
@@ -21,4 +20,4 @@
     different size, somewhere else in the window.   Input the turtle
     color from the user.  
     ~~~~
-    # Assmt. 4  Bonus.   Two Triangles  by  >> YOUR NAME HERE 
+    # Assmt. 4  Bonus.   Two Triangles  by  >> YOUR NAME HERE

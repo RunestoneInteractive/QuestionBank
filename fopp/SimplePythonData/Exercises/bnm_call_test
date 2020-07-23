@@ -1,10 +1,9 @@
-
+.. activecode:: bnm_call_test
     :author: Brad Miller
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: bnm_call_test
 
     If this is a homework problem instead of an example in the text
     then the assignment text should go here.  The assignment text ends with

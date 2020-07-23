@@ -1,0 +1,19 @@
+.. activecode::  ch6ex1a
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit4-Iteration/topic-4-8-practice-coding
+   :from_source: T
+   :language: java
+   :optional:
+
+   Answer: In a ``for`` loop you declare and initialize the variable(s), specify the condition, and specify how the loop variable(s) change in the header of the ``for`` loop as shown below.
+   ~~~~
+   public class Test
+   {
+       public static void main(String[] args)
+       {
+           for (int x = 5; x > 0; x = x - 1)
+               System.out.println(x);
+       }
+   }

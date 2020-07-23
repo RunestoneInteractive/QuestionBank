@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_filter_and_group_by_different_columns
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -16,4 +16,3 @@
      end_station = 31111
    GROUP BY
      start_station
-

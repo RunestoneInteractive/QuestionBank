@@ -1,10 +1,9 @@
-
+.. activecode:: CS152_Triangle_2
     :author: John Cigas
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: CS152_Triangle_2
 
 
     Write a turtle program to draw a right triangle, starting at a random location in the window. 

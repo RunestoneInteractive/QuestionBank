@@ -1,6 +1,6 @@
 .. activecode:: ac17_100_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: NestedData/DeepandShallowCopies
     :from_source: T
@@ -17,4 +17,3 @@
     print(deeply_copied_version)
     print("-------- shallow copy -----------")
     print(shallow_copy_version)
-

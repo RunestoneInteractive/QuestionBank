@@ -1,6 +1,6 @@
 .. activecode:: 1306_cw3_f19_q3
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -62,5 +62,3 @@
    m = float(input("Enter a slope: "))
    b = float(input("Enter a y-intercept: "))
    linear(m,b)
-
-

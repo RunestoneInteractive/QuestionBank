@@ -1,6 +1,6 @@
 .. parsonsprob:: 16_9_1_rainfall
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: studentcsp
   :topic: CSPIntroData/rainfall
   :from_source: T
@@ -37,6 +37,3 @@
   =====
       # print no rain
       print("No rain")
-
-
-

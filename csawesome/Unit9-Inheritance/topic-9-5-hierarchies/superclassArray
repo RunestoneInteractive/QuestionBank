@@ -1,6 +1,6 @@
 .. activecode:: superclassArray
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit9-Inheritance/topic-9-5-hierarchies
   :from_source: T
@@ -44,4 +44,3 @@
          super(n, "dog");
        }
     }
-

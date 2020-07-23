@@ -1,6 +1,6 @@
 .. activecode:: params_args_AC_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/ParametersAndArguments
    :from_source: T
@@ -22,4 +22,3 @@
        printTwice (argument);
        return 0;
    }
-

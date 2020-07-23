@@ -1,10 +1,9 @@
-
+.. actex:: ermHW
    :author: Eric Reed
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Labs/Exercises
    :from_source: F
-.. actex:: ermHW
    :autograde: unittest
 
    Write a program below that outputs "Hi There!"
@@ -21,5 +20,3 @@
            self.assertIn(self.getOutput(),"Hello World\n", "hi" )
 
    myTests().main()
-
-    

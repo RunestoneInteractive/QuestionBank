@@ -1,6 +1,6 @@
 .. parsonsprob:: BPU_Quiz1_Q2
    :author: Jane Weyant
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: GeneralIntro/Exercises
    :from_source: F
@@ -17,4 +17,3 @@
    =====
    output Cels so that the user sees the result
    =====
-    

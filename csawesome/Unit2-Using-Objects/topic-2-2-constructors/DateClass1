@@ -1,6 +1,6 @@
 .. mchoice:: DateClass1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-2-constructors
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: Make sure the order of the parameters match the constructor signature above.
 
    Given the ``Date`` class in the figure above and assuming that months in the ``Date`` class are numbered starting at 1, which of the following code segments will create a ``Date`` object for the date September 20, 2020 using the correct constructor?
-

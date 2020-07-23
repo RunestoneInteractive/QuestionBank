@@ -1,13 +1,13 @@
 .. activecode:: compound1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: T
    :language: java
    :autograde: unittest
 
-   In the example below, try to guess what it will print out and then run it to see if you are right. Remember to consider **operator precedence**.
+   In the example below, try to guess what it will print out and then run it to see if you are right. Remember to consider **operator precedence**. How do the parentheses change the precedence?
    ~~~~
    public class TestCompound
    {
@@ -19,7 +19,7 @@
       }
    }
    ====
-   // Test Code for Lesson 1.4 Expressions - compunds
+   // Test Code for Lesson 1.4 Expressions - compounds
     import static org.junit.Assert.*;
     import org.junit.After;
     import org.junit.Before;
@@ -37,5 +37,3 @@
             assertTrue(passed);
         }
     }
-
-

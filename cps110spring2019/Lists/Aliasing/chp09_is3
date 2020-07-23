@@ -1,6 +1,6 @@
 .. codelens:: chp09_is3
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: Lists/Aliasing
     :from_source: None
@@ -18,5 +18,3 @@
 
     b[0] = 5
     print(a)
-
-

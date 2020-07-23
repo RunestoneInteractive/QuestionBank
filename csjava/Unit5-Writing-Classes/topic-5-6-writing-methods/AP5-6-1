@@ -1,0 +1,58 @@
+.. mchoice:: AP5-6-1
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
+    :from_source: T
+    :practice: T
+
+    Consider the following class, which uses the instance variable dollars to represent the money in a wallet in dollars.
+
+    .. code-block:: java
+
+        public class Wallet
+        {
+            private double dollars;
+
+            public double putMoneyInWallet(int amount)
+            {
+                /* missing code */
+            }
+        }
+
+    The putMoneyInWallet method is intended to increase the dollars in the wallet by the parameter amount and then return the updated dollars in the wallet. Which of the following code segments should replace  *missing code* so that the putMoneyInWallet method will work as intended?
+
+    - .. code-block:: java
+
+        amount += dollars;
+        return dollars;
+
+      - dollars should be incremented by amount.
+
+    - .. code-block:: java
+
+        dollars = amount;
+        return amount;
+
+      - dollars should be incremented by amount.
+
+    - .. code-block:: java
+
+        dollars += amount;
+        return dollars;
+
+      + Correct.
+
+    - .. code-block:: java
+
+        dollars = dollars + amount;
+        return amount;
+
+      - amount is returned instead of dollars.
+
+    - .. code-block:: java
+
+        amount = dollars + amount;
+        return dollars;
+
+      - dollars should be incremented by amount.

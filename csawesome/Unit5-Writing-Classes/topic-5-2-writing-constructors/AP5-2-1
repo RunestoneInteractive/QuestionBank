@@ -1,6 +1,6 @@
 .. mchoice:: AP5-2-1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-2-writing-constructors
     :from_source: T
@@ -51,6 +51,3 @@
     - Cat c = new Cat ("Bella", isSenior);
 
       - An integer should be passed in as the second parameter and isSenior would be undefined outside of the class.
-
-
-

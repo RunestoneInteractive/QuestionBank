@@ -1,6 +1,6 @@
 .. actex:: h1_q4
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
@@ -18,5 +18,3 @@
     3. print the variable ``c`` and make sure you have the desired 
     result
     ~~~~
-
-    

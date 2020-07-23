@@ -1,6 +1,6 @@
 .. dragndrop:: chapter_one_glossary_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/glossary
    :from_source: T
@@ -9,4 +9,3 @@
    :match_2: syntax|||The structure of a program.
    :match_3: semantics|||The meaning of a program.
    :match_4: parse|||To examine a program and analyze the syntactic structure.
-

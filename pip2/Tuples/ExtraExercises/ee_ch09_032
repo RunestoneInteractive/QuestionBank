@@ -1,0 +1,24 @@
+.. activecode:: ee_ch09_032
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Tuples/ExtraExercises
+   :from_source: None
+   :tags: Tuples/TupleAssignmentwithunpacking.rst
+
+
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(v1, 1, "Testing that v1 was assigned correctly.")
+         self.assertEqual(v2, 2, "Testing that v2 was assigned correctly.")
+         self.assertEqual(v3, 3, "Testing that v3 was assigned correctly.")
+         self.assertEqual(v4, 4, "Testing that v4 was assigned correctly.")
+
+   myTests().main()

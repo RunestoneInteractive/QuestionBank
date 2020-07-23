@@ -1,6 +1,6 @@
 .. mchoice:: qcb_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: Conditionals/cDeMorgans
    :from_source: None

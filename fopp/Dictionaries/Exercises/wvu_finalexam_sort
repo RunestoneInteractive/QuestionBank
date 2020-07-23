@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_sort
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_sort
     :autograde: unittest
 
     Create a list named **sorted_presidents** that contains the contents of the **presidents** list, sorted by the presidents' last names.
@@ -18,4 +17,3 @@
             self.assertEqual(sorted_presidents, sorted(presidents, key=lambda x: x.split()[-1]), 'Sorted in correct order.')
     
     myTests().main()
-    

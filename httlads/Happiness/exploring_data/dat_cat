@@ -1,6 +1,6 @@
 .. mchoice:: dat_cat
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
@@ -23,4 +23,3 @@
    - Generosity
 
      - Incorrect, categorical data is generally classes of things not real numbers
-

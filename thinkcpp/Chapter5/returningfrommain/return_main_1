@@ -1,6 +1,6 @@
 .. mchoice:: return_main_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/returningfrommain
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Main has a return type, check its function definition.
 
    What data type is the main function supposed to return?
-

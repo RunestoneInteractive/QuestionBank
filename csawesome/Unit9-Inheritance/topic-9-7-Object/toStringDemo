@@ -1,6 +1,6 @@
 .. activecode:: toStringDemo
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit9-Inheritance/topic-9-7-Object
   :from_source: T
@@ -41,5 +41,3 @@
           return super.toString() + " " + id;
        }
     }
-
-

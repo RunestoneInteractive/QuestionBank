@@ -1,10 +1,9 @@
-
+.. shortanswer:: schs_ch3_question_2
    :author: Rena Sweeney
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: apcsareview
    :topic: VariableBasics/Exercises
    :from_source: F
-.. shortanswer:: schs_ch3_question_2
    :optional:
 
    Given
@@ -18,4 +17,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

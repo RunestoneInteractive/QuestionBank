@@ -1,6 +1,6 @@
 .. mchoice:: more_recursion_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/morerecursion
    :from_source: T
@@ -16,4 +16,3 @@
 
    In the example above, how many times was the ``factorial`` function
    called?
-

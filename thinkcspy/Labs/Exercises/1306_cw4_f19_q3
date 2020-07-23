@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw4_f19_q3
    :author: Nabeel Bacchus
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Labs/Exercises
    :from_source: F
-.. activecode:: 1306_cw4_f19_q3
 
    **[30 points] Question 3**. A palindrome is a string that reads identical forwards and backwards. Examples include abba, abcba,  a1b1b1a, houstonnotsuoh  etc. 
    

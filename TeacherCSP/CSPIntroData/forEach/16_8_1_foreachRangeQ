@@ -1,6 +1,6 @@
 .. mchoice:: 16_8_1_foreachRangeQ
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPIntroData/forEach
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: This would be true if 1.5 was rounded to 2, but that doesn't happen.
 
    What would happen if we changed line 2 to `myList = range(0,len(myString)/2)`? (Hint: You could try it)
-
-

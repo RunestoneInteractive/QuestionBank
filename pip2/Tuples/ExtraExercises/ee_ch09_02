@@ -1,0 +1,20 @@
+.. activecode:: ee_ch09_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Tuples/ExtraExercises
+   :from_source: None
+   :tags: Tuples/Tuples.rst
+
+   tuples_lst = [('Beijing', 'China', 2008), ('London', 'England', 2012), ('Rio', 'Brazil', 2016, 'Current'), ('Tokyo', 'Japan', 2020, 'Future')]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(country, ['China', 'England', 'Brazil', 'Japan'], "Testing that third is assigned to correct values")
+
+   myTests().main()

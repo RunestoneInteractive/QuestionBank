@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_02001
     :author: 弘倫 王
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: ids17_02001
 
     If this is a homework problem instead of an example in the text
     then the assignment text should go here.  The assignment text ends with
@@ -13,4 +12,3 @@
     print("hello world")
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

@@ -1,6 +1,6 @@
 .. codelens:: chp13_points
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: ClassesBasics/UserDefinedClasses
     :from_source: None
@@ -17,4 +17,3 @@
     q = Point()         # and make a second point
 
     print("Nothing seems to have happened with the points")
-

@@ -1,0 +1,14 @@
+.. activecode::  ch3ex11q
+     :author: bmiller
+     :difficulty: 3
+     :basecourse: TeacherCSP
+     :topic: CSPNameNumbers/ch3_exercises
+     :from_source: T
+     :nocodelens:
+
+     numPeople = 5
+     amountPerPerson = 4
+     price = 0.5
+     total =
+     numWings =
+     print(numWings)

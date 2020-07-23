@@ -1,6 +1,6 @@
 .. activecode:: rangeForLoop1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: Control_Structures/for_loop
    :from_source: T
@@ -18,4 +18,3 @@
 
         return 0;
     }
-

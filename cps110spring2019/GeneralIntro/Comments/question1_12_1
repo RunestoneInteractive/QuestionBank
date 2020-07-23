@@ -1,6 +1,6 @@
 .. mchoice:: question1_12_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: GeneralIntro/Comments
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: Even small programs benefit from comments.
 
    What are comments for?
-

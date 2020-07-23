@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch9_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: KDL_ch9_4
    :autograde: unittest
    :language: python
 
@@ -40,4 +39,4 @@
            self.assertEqual(sortandseperate(tlist), _sortandseperate(tlist), 'full function works')
 
          
-   myTests().main()   
+   myTests().main()

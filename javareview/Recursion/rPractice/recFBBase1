@@ -1,0 +1,11 @@
+.. fillintheblank:: recFBBase1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Recursion/rPractice
+   :from_source: None
+
+   What is the value of X in the trace above?
+
+   -    :^1$: Correct!
+        :.*: What is the value returned when mystery is called with a 0?

@@ -1,6 +1,6 @@
 .. mchoice:: mc2i
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: SimplePythonData/Input
    :from_source: None

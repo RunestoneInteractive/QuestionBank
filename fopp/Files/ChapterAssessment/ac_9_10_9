@@ -1,6 +1,6 @@
 .. activecode:: ac_9_10_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Files/ChapterAssessment
    :from_source: T
@@ -27,4 +27,3 @@
          self.assertEqual(max_interest, 2.49, "Testing the max_interest is correct. Make sure to use only the correct 12 month period.")
 
    myTests().main()
-

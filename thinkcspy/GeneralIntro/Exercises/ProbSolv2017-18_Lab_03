@@ -1,10 +1,9 @@
-
+.. activecode:: ProbSolv2017-18_Lab_03
     :author: Max Garagnani
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: ProbSolv2017-18_Lab_03
  
 
     ~~~~
@@ -16,4 +15,3 @@
         result = result * i 
         print(" Factoring in ", i)
     print(" The final product is: ",result)
-

@@ -1,6 +1,6 @@
 .. activecode:: CSC101-bills
    :author: Yan Chen
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -52,4 +52,3 @@
    # Print the number of    $1 bills here (e.g. "     $1 * X")
 
    ====
-    

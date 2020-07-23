@@ -1,6 +1,6 @@
 .. activecode:: chp09_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/ConcatenationandRepetition
     :from_source: T
@@ -11,4 +11,3 @@
 
     print([0] * 4)
     print([1, 2, ["hello", "goodbye"]] * 2)
-

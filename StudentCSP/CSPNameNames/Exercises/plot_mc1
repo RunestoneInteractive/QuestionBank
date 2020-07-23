@@ -1,6 +1,6 @@
 .. mchoice:: plot_mc1
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
@@ -15,6 +15,3 @@
    :feedback_d: This is the original owner's local repository
 
    If you fork a repository, which repository is the upstream one?
-
-
-       

@@ -1,6 +1,6 @@
 .. activecode:: act_dict_hu_final_mkup_2_so
     :author: Sean Joyce
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: F
@@ -8,5 +8,3 @@
     *(10 points)* Complete your solution to Problem 2 in the ActiveCode box below.
     ~~~~
     # your code here
-
-    

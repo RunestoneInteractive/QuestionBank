@@ -1,6 +1,6 @@
 .. actex:: TL_365_ac7_14_7
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: F
@@ -37,4 +37,4 @@
 	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
 	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
 	   self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements (there shouldn\'t be any)')
-   myTests().main()    
+   myTests().main()

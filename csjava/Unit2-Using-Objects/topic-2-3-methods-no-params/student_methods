@@ -1,0 +1,31 @@
+.. clickablearea:: student_methods
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit2-Using-Objects/topic-2-3-methods-no-params
+    :from_source: T
+    :question: Click on the methods headers (signatures) in the following class. Do not click on the constructors.
+    :iscode:
+    :feedback: Methods follow the constructors. The method header is the first line of a method.
+
+    :click-incorrect:public class Student {:endclick:
+
+        :click-incorrect:private String name;:endclick:
+        :click-incorrect:private String email;:endclick:
+
+        :click-incorrect:public Student(String initName, String intEmail) :endclick:
+        :click-incorrect:{:endclick:
+            :click-incorrect:name = initName;:endclick:
+            :click-incorrect:email = initEmail;:endclick:
+         :click-incorrect:}:endclick:
+
+         :click-correct:public String getName() :endclick:
+         :click-incorrect:{:endclick:
+            :click-incorrect:return name;:endclick:
+         :click-incorrect:}:endclick:
+
+         :click-correct:public void print() :endclick:
+         :click-incorrect:{:endclick:
+            :click-incorrect:System.out.println(name + ":" + email);:endclick:
+         :click-incorrect:}:endclick:
+    :click-incorrect:}:endclick:

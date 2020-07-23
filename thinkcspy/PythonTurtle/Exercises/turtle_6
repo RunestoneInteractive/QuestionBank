@@ -1,10 +1,9 @@
-
+.. activecode:: turtle_6
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: turtle_6
 
     Create a program that draws a triangle using a for loop.
  
@@ -15,5 +14,3 @@
     each of the original 3 triangles.
 
     ~~~~
-    
-    

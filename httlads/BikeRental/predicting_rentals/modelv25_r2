@@ -1,6 +1,6 @@
 .. fillintheblank:: modelv25_r2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/predicting_rentals
    :from_source: T
@@ -10,4 +10,3 @@
    - :0.598|0.6.*|.6.*|0.59.*: Is the correct answer
      :incorrect: Is feedback on a specific incorrect
      :x: catchall feedback
-

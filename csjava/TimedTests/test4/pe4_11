@@ -1,0 +1,29 @@
+.. mchoice:: pe4_11
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: TimedTests/test4
+   :from_source: T
+   :answer_a: hi there
+   :answer_b: HI THERE
+   :answer_c: Hi There
+   :answer_d: null
+   :answer_e: hI tHERE
+   :correct: c
+   :feedback_a: This would be true if we asked what the value of s3 was.
+   :feedback_b: This would be true if we asked what the value of s2 was.
+   :feedback_c: Strings are immutable in Java which means they never change.  Any method that looks like it changes a string returns a new string object.  Since s1 was never changed to refer to a different string it stays the same.
+   :feedback_d: This would be true if we asked what the value of s4 was.
+   :feedback_e: How could this have happened?
+
+   What is value of s1 after the code below executes?
+
+   .. code-block:: java
+
+     String s1 = "Hi There";
+     String s2 = s1;
+     String s3 = s2;
+     String s4 = s1;
+     s2 = s2.toUpperCase();
+     s3 = s3.toLowerCase();
+     s4 = null;

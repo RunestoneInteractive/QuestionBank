@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_codingchallenge_groceries
     :author: Brian Powell
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: fopp
     :topic: Projects/Exercises
     :from_source: F
-.. activecode:: wvu_codingchallenge_groceries
 
     The below lists contain information on groceries: the SKU code, product category, brand, product name, price, and unit size.
 

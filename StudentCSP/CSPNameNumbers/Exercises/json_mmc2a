@@ -1,6 +1,6 @@
 .. mchoice:: json_mmc2a
    :author: Barbara  Ericson
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/Exercises
    :from_source: F
@@ -28,4 +28,3 @@
           "correct_answer": "JoJo Kikasu"}]  
       }'''
       dict = json.loads(data)
-   

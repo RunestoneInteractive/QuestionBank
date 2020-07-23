@@ -1,0 +1,20 @@
+.. activecode:: ee_mod_012
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags: PythonModules/intro-ModulesandGettingHelp.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(kws, ['and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'exec', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'not', 'or', 'pass', 'print', 'raise', 'return', 'try', 'while', 'with', 'yield'], "Testing that kws was created correctly.")
+      def testB(self):
+         self.assertEqual(kw3, ['and', 'def', 'del', 'for', 'not', 'try'], "Testing that kw3 was created correctly.")
+
+   myTests().main()

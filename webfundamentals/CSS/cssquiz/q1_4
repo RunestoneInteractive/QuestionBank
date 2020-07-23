@@ -1,6 +1,6 @@
 .. mchoice:: q1_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/cssquiz
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: No, this selector is looking for a paragraph with a class of high
 
    Which of the following will match the CSS selector ``p.high``
-

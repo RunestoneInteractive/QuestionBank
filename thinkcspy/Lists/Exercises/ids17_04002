@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_04002
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: ids17_04002
   
     6.2(劉邦鋒，由片語學習C程式設計)寫一個程式將一個數列依奇偶順序印出。輸入的第一行為數列的長度 n，第二行為數列中的數字。輸出有兩行，第一行為數列中的第一個、第三個、第五個等數字，第二行為數列中的第二個、第四個、第六個等數字。同一行輸出的數字之間有一個空格。參數規範：0 < n <= 100。
 
@@ -22,5 +21,3 @@
     ~~~~
     
     ====
-    
-    

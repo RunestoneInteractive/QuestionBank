@@ -1,6 +1,6 @@
 .. mchoice:: mc_whileloop
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cpp4python
   :topic: Control_Structures/while_loop
   :from_source: T

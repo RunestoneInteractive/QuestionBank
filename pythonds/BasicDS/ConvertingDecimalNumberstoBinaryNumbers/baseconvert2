@@ -1,0 +1,13 @@
+.. fillintheblank:: baseconvert2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: pythonds
+   :topic: BasicDS/ConvertingDecimalNumberstoBinaryNumbers
+   :from_source: T
+
+   What is value of 256 expressed as a hexidecimal number?
+
+   |blank|
+
+   -  :100: Correct.
+      :x: Incorrect.

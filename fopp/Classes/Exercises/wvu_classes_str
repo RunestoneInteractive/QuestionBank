@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_classes_str
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Classes/Exercises
     :from_source: F
-.. activecode:: wvu_classes_str
 
     Add a **__str__()** function to the **Vehicle** class to return a string representation of object contents. Your function should return the vehicle's year, make, and model like "2015 Dodge Journey".
 

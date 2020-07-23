@@ -1,10 +1,9 @@
-
+.. parsonsprob:: dbgetoradd1
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWebData/Exercises
    :from_source: F
-.. parsonsprob:: dbgetoradd1
    :adaptive:
    :numbered: left
 

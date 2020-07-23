@@ -1,0 +1,21 @@
+.. activecode:: is_prefix_ex
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/OptionalKeywordParams
+    :from_source: None
+
+    def is_prefix(s1,s2):
+        return s2.find(s1) == 0
+
+    #x = 5
+    x = -2
+
+    # To illustrate what we're doing with the boolean statement
+    if x > 0:
+        print True
+    else:
+        print False
+
+    #That code does exactly the same thing as the following line of code
+    print x > 0

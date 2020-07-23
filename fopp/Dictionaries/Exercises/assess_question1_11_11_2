@@ -1,6 +1,6 @@
 .. fillintheblank:: assess_question1_11_11_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: T
@@ -19,4 +19,3 @@
         :work: It prints "failure".
         :success: It prints "money".
         :.*: Incorrect, try again.
-

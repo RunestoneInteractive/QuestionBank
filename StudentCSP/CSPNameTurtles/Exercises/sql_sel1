@@ -1,10 +1,9 @@
-
+.. fillintheblank:: sql_sel1
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
-.. fillintheblank:: sql_sel1
 
    Fill in the following: [blank] * FROM Customers; to get all the columns in the Customers table
 

@@ -1,0 +1,13 @@
+.. activecode::  ch3ex13q
+     :author: bmiller
+     :difficulty: 3
+     :basecourse: StudentCSP
+     :topic: CSPNameNumbers/Exercises
+     :from_source: T
+     :nocodelens:
+
+     totalMinutes = 270
+     numMinutes =
+     numHours =
+     print(numHours)
+     print(numMinutes)

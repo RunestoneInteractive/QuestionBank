@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex6muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayParsonsPractice
    :from_source: T
@@ -31,4 +31,3 @@
       return largest;
    =====
    } //end findLargest method
-

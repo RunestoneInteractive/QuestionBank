@@ -1,10 +1,9 @@
-
+.. activecode:: cs925_loops_2
    :author: Doug Vermes
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: apcsareview
    :topic: LoopBasics/Exercises
    :from_source: F
-.. activecode:: cs925_loops_2
    :language: java
 
    Write a program that returns the sum of 2j-1 as j varies from 2 to p/2. HINT: You will need to input the value of p using a parameter
@@ -28,5 +27,3 @@
       }
    }
    ====
-    
-    

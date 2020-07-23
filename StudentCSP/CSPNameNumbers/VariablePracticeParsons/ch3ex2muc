@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex2muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/VariablePracticeParsons
    :from_source: T
@@ -23,4 +23,3 @@
    print(perPersonCost)
    =====
    print(perpersoncost) #distractor
-

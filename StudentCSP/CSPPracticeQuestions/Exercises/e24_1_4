@@ -1,0 +1,23 @@
+.. mchoice:: e24_1_4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: T
+   :answer_a: X = 155, Y = 1555
+   :answer_b: X = 20, Y = 20
+   :answer_c: X = 15, Y = 5
+   :answer_d: X = 20, Y = 25
+   :correct: d
+   :feedback_a: Incorrect. Since 'X' and 'Y' are not strings, we cannot simply concatenate their characters.
+   :feedback_b: Incorrect. While the value of 'X' is correct in this answer choice, the final value of 'Y' is not.
+   :feedback_c: Incorrect. The values of both 'X' and 'Y' are incorrect in this answer choice.
+   :feedback_d: Correct. Trace the code! Don't forget to use the updated value of 'X' while finding the value of 'Y' in the last statement.
+
+   What is the final value of the integers ``X`` and ``Y`` after the following statements are executed?
+   ::
+
+     X ← 15
+     Y ← 5
+     X ← X + Y
+     Y ← X + Y

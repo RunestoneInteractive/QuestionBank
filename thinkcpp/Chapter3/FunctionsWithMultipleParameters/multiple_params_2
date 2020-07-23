@@ -1,6 +1,6 @@
 .. mchoice:: multiple_params_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/FunctionsWithMultipleParameters
    :from_source: T

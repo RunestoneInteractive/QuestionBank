@@ -1,6 +1,6 @@
 .. activecode:: msdie_initial
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: ProperClasses/a_proper_python_class
     :from_source: T
@@ -33,4 +33,3 @@
 
     d_list = [MSDie(6), MSDie(20)]
     print(d_list)
-

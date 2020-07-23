@@ -1,14 +1,12 @@
-
+.. activecode:: simple_17
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_17
 
     Write code that asks the user for a number of hours. Calculate the number 
     of days AND the number of hours left over. Print the results to the user. * Be 
     sure to use the '%' operator.
 
     ~~~~
-    

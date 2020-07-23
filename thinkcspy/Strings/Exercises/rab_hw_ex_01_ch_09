@@ -1,6 +1,6 @@
 .. actex:: rab_hw_ex_01_ch_09
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: F
@@ -30,4 +30,3 @@
    
    
    myTests().main()
-    

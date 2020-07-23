@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_in_list
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -26,4 +26,4 @@
 	           "Looking for {} in {}".format(elem, str(test_list)))
 	   self.assertFalse(re.search(r'obj *in *lst', self.getEditorText()), 'Checking for hardcoding')
 
-   myTests().main()	    
+   myTests().main()

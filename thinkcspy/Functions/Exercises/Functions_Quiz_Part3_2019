@@ -1,10 +1,9 @@
-
+.. activecode:: Functions_Quiz_Part3_2019
     :author: Shawn Haarer
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: Functions_Quiz_Part3_2019
    
     Write a Function that will calculate the Perimeter of a rectangle.  Your 
     program should 
@@ -49,5 +48,3 @@
     print("\nSuccessful ending of the Rectangle Perimeter Program") 
 
     ====
-
-    

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: csuf_cpsc120_q5
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. parsonsprob:: csuf_cpsc120_q5
 
    Sometimes, we unintentionally create <b>infinite loops.</b> An infinite loop occurs when a loop never reaches an exit condition. An <b>Alderson loop</b> (like Elliot Alderson from the hit TV series, Mr. Robot!) is when an exit condition is programmed but can never be reached.
    <br><br>

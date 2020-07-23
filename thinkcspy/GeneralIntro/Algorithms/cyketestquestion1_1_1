@@ -1,6 +1,6 @@
 .. mchoice:: cyketestquestion1_1_1
    :author: Didier van den Daele
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: GeneralIntro/Algorithms
    :from_source: F

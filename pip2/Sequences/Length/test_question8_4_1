@@ -1,0 +1,18 @@
+.. mchoice:: test_question8_4_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sequences/Length
+   :from_source: None
+   :answer_a: 11
+   :answer_b: 12
+   :feedback_a: The blank space counts as a character.
+   :feedback_b: Yes, there are 12 characters in the string.
+   :correct: b
+
+   What is printed by the following statements?
+
+   .. code-block:: python
+
+      s = "python rocks"
+      print len(s)

@@ -1,6 +1,6 @@
 .. mchoice:: 17_3_2_question_firstsplit2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPStringPieces/split
    :from_source: T

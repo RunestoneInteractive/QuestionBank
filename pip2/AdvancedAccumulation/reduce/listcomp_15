@@ -1,0 +1,29 @@
+.. activecode:: listcomp_15
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/reduce
+   :from_source: None
+
+   # manual accumulation
+   def maxabs(nums):
+       best_so_far = nums[0]
+       for num in nums:
+           if abs(num) > abs(best_so_far):
+               best_so_far = num
+       return best_so_far
+
+   # alternative using reduce
+   # find the max absolute value
+   def greater_abs(x, y):
+       if abs(x) > abs(y):
+           return x
+       else:
+           return y
+
+   def maxabs2(nums):
+       return reduce(greater_abs, nums)
+
+   nums = [3, 4, 6, -7, 0, 1]
+   print maxabs(nums)
+   print maxabs2(nums)

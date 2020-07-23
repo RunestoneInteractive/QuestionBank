@@ -1,6 +1,6 @@
 .. parsonsprob:: ch8ex2muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ListBasics/ListParsonsPractice
    :from_source: T
@@ -21,4 +21,3 @@
    =====
        } //end for loop
    } //end printBackwards method
-

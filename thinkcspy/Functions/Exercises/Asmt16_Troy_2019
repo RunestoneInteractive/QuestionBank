@@ -1,15 +1,12 @@
-
+.. activecode:: Asmt16_Troy_2019
     :author: Shawn Haarer
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: Asmt16_Troy_2019
 
     Assignment 16.  Snowman in June
     See Google Classroom for an Assignment Description.  
     ~~~~
     print("Snowman / woman by  xxx MyNameHere xxx")
     ====
-    
-    

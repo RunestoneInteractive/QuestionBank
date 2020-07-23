@@ -1,6 +1,6 @@
 .. actex:: IT105_AY182_TEE_TEST
                :author: Kyle King
-               :difficulty: 1.0
+               :difficulty: 1
                :basecourse: thinkcspy
                :topic: IT105Resources/Exercises
                :from_source: F
@@ -22,4 +22,3 @@
                Using the text file ``studentdata.txt`` write a program that prints out the names of
                students that have more than six quiz scores.
                ~~~~
-

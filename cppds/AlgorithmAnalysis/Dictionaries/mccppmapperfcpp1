@@ -1,6 +1,6 @@
 .. mchoice:: mccppmapperfcpp1
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: AlgorithmAnalysis/Dictionaries
     :from_source: F

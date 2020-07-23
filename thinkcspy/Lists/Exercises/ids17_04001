@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_04001
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: ids17_04001
   
     6.1(劉邦鋒，由片語學習C程式設計)寫一個程式將一個數列反向印出。輸入的第一行為數列的長度n，第二行為數列中的數字。參數規範：0 < n <= 100。
 
@@ -20,5 +19,3 @@
     ~~~~
     
     ====
-    
-    

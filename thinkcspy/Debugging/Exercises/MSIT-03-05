@@ -1,6 +1,6 @@
 .. mchoice:: MSIT-03-05
    :author: Kevin Austin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
@@ -19,4 +19,3 @@
    :correct: a,d
 
    Choose all the statements that are true.
-

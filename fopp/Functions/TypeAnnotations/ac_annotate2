@@ -1,6 +1,6 @@
 .. activecode:: ac_annotate2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Functions/TypeAnnotations
     :from_source: T
@@ -20,4 +20,3 @@
 
         print(msg)
         print('-------------------------------------')
-

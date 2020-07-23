@@ -1,6 +1,6 @@
 .. activecode:: tamagotchi_2_copy
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Classes/Tamagotchi
     :from_source: T
@@ -18,5 +18,3 @@
     for i in range(10):
         p1.hi()
     print(p1)
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -26,4 +26,3 @@
     -   34
 
         -   ``2 + 6 / 3`` is not computed first.
-

@@ -1,6 +1,6 @@
 .. mchoice:: crossoverefficiency
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: AlgorithmAnalysis/BigONotation
     :from_source: T
@@ -17,4 +17,3 @@
     Which of the following statements is true about the two algorithms?
     Algorithm 1: 100n + 1
     Algorithm 2: n^2 + n + 1
-

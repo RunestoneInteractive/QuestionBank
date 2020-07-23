@@ -1,6 +1,6 @@
 .. mchoice:: TL_365_math_functio
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: PythonModules/Exercises
    :from_source: F
@@ -31,4 +31,4 @@
        
    - ``pi``
      
-     - 
+     -

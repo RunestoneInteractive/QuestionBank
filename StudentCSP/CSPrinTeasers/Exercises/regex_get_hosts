@@ -1,6 +1,6 @@
 .. parsonsprob:: regex_get_hosts
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPrinTeasers/Exercises
    :from_source: F
@@ -28,9 +28,3 @@
                    host_list.append(item)
    =====
        return host_list
-
-
-    
-
-
-    

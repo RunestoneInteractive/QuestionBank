@@ -1,0 +1,14 @@
+.. activecode:: prediction_10
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Prediction/training
+    :from_source: None
+    :nocanvas:
+    :include: prediction_training_helpers
+
+    import sys
+    sys.setExecutionLimit(60000)     # let it take up to a minute, 60 * 1000 milliseconds
+
+    performance(test_txt, [(None, alphabet)])
+    performance(test_txt, [(None, sorted_lets), (None, alphabet)])

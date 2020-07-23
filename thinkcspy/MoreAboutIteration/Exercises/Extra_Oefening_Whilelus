@@ -1,6 +1,6 @@
 .. activecode:: Extra_Oefening_Whilelus
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Het kleinste gemene veelvoud van 2 getallen a en b is het kleinste natuurlijke getal dat deelbaar is door a en door b. Schrijf een programma waarbij je het kleinste gemene veelvoud berekent van 2 gegeven getallen, bijvoorbeeld 15 en 20.
     ~~~~
-    

@@ -1,0 +1,21 @@
+.. activecode:: ee_interpolation_021
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   sent = "{}, {}, and {} have taught or are teaching this class.".format()
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sent, "Paul, Jackie, and Stephen have taught or are teaching this class.", "Testing that sent has the correct value.")
+         self.assertEqual(names, ['Paul', 'Jackie', 'Stephen'], "Testing that names has the correct values assigned")
+
+   myTests().main()

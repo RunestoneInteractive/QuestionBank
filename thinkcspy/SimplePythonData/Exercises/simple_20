@@ -1,10 +1,9 @@
-
+.. activecode:: simple_20
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_20
 
     Write a program that creates the variables 'a', 'b', and 'c'. Set all the 
     variables to the same value. Print out the values of all the variables. Then 
@@ -26,4 +25,3 @@
          	c = 32
 
     ~~~~
-    

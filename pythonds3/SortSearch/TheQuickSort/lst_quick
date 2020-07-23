@@ -1,6 +1,6 @@
 .. activecode:: lst_quick
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: SortSearch/TheQuickSort
     :from_source: T
@@ -43,5 +43,3 @@
     a_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     quick_sort(a_list)
     print(a_list)
-
-

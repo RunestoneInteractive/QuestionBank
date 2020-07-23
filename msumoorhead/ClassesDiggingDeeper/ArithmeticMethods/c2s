@@ -1,6 +1,6 @@
 .. activecode:: c2s
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/ArithmeticMethods
     :from_source: None
@@ -39,7 +39,3 @@
         f3 = f1 + f2
         test.testEqual(f3.num, 2)
         test.testEqual(f3.den, 3)
-
-
-
-

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: question1_400_1
    :author: Sara Spiegel
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: Unit4-Iteration/Exercises
    :from_source: F
-.. parsonsprob:: question1_400_1
    
    The following puzzle has the correct code to <b>modify</b> an inputted String so that all a's removed, but the code is mixed up. Drag the blocks from the left area into the correct order in the right area. Click on the "Check Me" button to check your solution.
    -----
@@ -26,6 +25,3 @@
    } //end loop
    =====
    System.out.println(word);
-     
-
-

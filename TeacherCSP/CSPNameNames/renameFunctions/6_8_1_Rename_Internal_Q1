@@ -1,6 +1,6 @@
 .. mchoice:: 6_8_1_Rename_Internal_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameNames/renameFunctions
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Yes! Absolute will make it positive, and noDecimal will throw away the values after the decimal point leaving just the 16.
 
    If you add one more line to the above program, `print(noDecimal(absolute(-16.789)))`, what prints?
-

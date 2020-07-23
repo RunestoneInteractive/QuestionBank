@@ -1,10 +1,9 @@
-
+.. parsonsprob:: unittest-sum
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPIntroData/Exercises
    :from_source: F
-.. parsonsprob:: unittest-sum
    :adaptive:
    :numbered: left
 

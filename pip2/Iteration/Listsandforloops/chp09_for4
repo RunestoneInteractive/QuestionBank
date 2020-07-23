@@ -1,0 +1,14 @@
+.. activecode:: chp09_for4
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Iteration/Listsandforloops
+    :from_source: None
+
+    numbers = [10, 20, 30, 40, 50]
+    print numbers
+
+    for i in range(len(numbers)):
+        numbers[i] = numbers[i]**2
+
+    print numbers

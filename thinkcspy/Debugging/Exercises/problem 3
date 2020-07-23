@@ -1,6 +1,6 @@
 .. mchoice:: problem 3
     :author: David Birrow
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Debugging/Exercises
     :from_source: F
@@ -15,5 +15,3 @@
     :feedback_d: No sorry
 
     If you want a float as an output, use "blank" as an operator, if you want only the remainder, use "blank" as an operator, if you want just the times the number divides into another number, then use "blank" as an operator.
-
-  

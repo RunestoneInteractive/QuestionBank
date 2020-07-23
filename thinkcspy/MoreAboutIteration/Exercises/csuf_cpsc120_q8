@@ -1,10 +1,9 @@
-
+.. parsonsprob:: csuf_cpsc120_q8
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. parsonsprob:: csuf_cpsc120_q8
 
    As with the <b>Fibonacci Sequence</b>, the <b>factorial problem</b> is another important problem in computer science. It can be done using recursion which again, will be taught in later courses.</b><br>
    <br>

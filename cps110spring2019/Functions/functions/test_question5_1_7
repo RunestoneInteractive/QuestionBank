@@ -1,6 +1,6 @@
 .. mchoice:: test_question5_1_7
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Functions/functions
    :from_source: None

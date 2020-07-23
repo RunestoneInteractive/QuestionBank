@@ -1,6 +1,6 @@
 .. mchoice:: AP5-5-1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-5-mutator-methods
     :from_source: T
@@ -46,4 +46,3 @@
     - The instance variable currentTemp should be public instead of private.
 
       - Instance variables should be private variables.
-

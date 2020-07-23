@@ -1,6 +1,6 @@
 .. actex:: rab_hw_ex_03_ch_10
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Lists/Exercises
    :from_source: F
@@ -34,5 +34,4 @@
            t_out = change_tuple(t_in, 'replace', 'Iowa City', 3)
            self.assertEqual(t_out, ('James', 'Smith', 42, 'Iowa City', 'Iowa'), "Tested change_tuple(t_in, 'replace', 'Iowa City', 3)")            
           
-   myTests().main()   
-    
+   myTests().main()

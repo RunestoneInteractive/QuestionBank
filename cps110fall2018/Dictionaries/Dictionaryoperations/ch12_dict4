@@ -1,6 +1,6 @@
 .. codelens:: ch12_dict4
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: Dictionaries/Dictionaryoperations
     :from_source: None
@@ -8,4 +8,3 @@
     inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
 
     del inventory['pears']
-

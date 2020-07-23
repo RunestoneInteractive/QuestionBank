@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw4_s20_q2
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: 1306_cw4_s20_q2
 
     **Question 2 [40 points]**  Write a Python function ``printline(num,sym)`` that takes an integer ``num`` and a symbol ``sym`` as parameters and prints a line with ``sym`` repeated ``num`` times. 
 
@@ -60,10 +59,3 @@
 
     ~~~~
     # Write your code here
-
-    
-
-
-  
-
-   

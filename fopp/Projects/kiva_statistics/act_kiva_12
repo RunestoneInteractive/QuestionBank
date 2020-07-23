@@ -1,6 +1,6 @@
 .. activecode:: act_kiva_12
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/kiva_statistics
     :from_source: T
@@ -11,5 +11,3 @@
     loan_amount_num_lenders = 0
     loan_amount_ttr = 0
     num_lenders_ttr = 0
-
-

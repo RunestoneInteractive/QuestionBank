@@ -1,0 +1,20 @@
+.. activecode:: ee_nested_data_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/ExtraExercises
+   :from_source: None
+   :tags: NestedData/NestedDictionaries.rst, NestedData/DebuggingNestedData.rst
+
+   nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 'London':{'USA':46, 'China':38, 'Great Britain':29, 'Russia':22}, 'Rio':{'USA':35, 'Great Britain':22, 'China':20, 'Germany':13}}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(london_gold, 29, "Testing that london_gold is assigned to correct value")
+
+   myTests().main()

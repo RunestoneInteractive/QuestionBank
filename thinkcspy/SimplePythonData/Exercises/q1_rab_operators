@@ -1,6 +1,6 @@
 .. mchoice:: q1_rab_operators
    :author: Richard Bernatz
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F

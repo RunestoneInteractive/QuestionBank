@@ -1,6 +1,6 @@
 .. mchoice:: act_mc_samechange
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/yearly_happiness
    :from_source: T
@@ -15,4 +15,3 @@
    - True
 
      - No, the countries are different
-

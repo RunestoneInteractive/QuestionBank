@@ -1,11 +1,9 @@
-
+.. parsonsprob:: unittest-car
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
-
-.. parsonsprob:: unittest-car
    :adaptive:
    :numbered: left
 
@@ -37,5 +35,3 @@
            c.set_model("Focus") #paired
    =====
            self.assertEqual(self.c.get_model(),"Focus")
-
-   

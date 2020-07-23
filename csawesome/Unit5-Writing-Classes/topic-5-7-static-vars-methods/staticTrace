@@ -1,6 +1,6 @@
 .. mchoice:: staticTrace
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/topic-5-7-static-vars-methods
    :from_source: T
@@ -50,4 +50,3 @@
    - Max Temp: 65
 
      - maxTemp will not be changed to 65 by the third constructor call because 67 is not > 100.
-

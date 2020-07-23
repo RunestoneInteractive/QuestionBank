@@ -1,0 +1,44 @@
+.. mchoice:: pe4_1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test4
+   :from_source: None
+   :answer_a: All three are valid
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: II and III
+   :answer_e: None are valid
+   :correct: d
+   :feedback_a:  If there is not a call to super as the first line in a child class constructor then super() is automatically added.  However, this will cause a problem if the parent class does not have a no argument constructor.
+   :feedback_b:  While II is valid so is another choice.
+   :feedback_c:  While III is valid so is another choice.
+   :feedback_d:  Since C1 has constructors that take just an int and just a String both of these are valid.
+   :feedback_e:  C2 constructors can call C1 constructors using the super keyword.  In fact this call is automatically added to C2 constructors as the first line in any C2 constructor if it isn't there.
+
+   Consider the following partial class definitions.  Which of the constructors shown below (I, II, and III) are valid for C2?
+
+   .. code-block:: java
+
+     public class C1 {
+        private int num;
+        private String name;
+
+        public C1(int theNum) {
+           num = theNum;
+        }
+
+        public C1(String theName) {
+           name = theName;
+        }
+        // other methods not shown
+     }
+
+     public class C2 extends C1 {
+     // methods not shown
+     }
+
+     Possible constructors
+     I.   public C2 () { }
+     II.  public C2 (int quan) {super (quan); }
+     III. public C2 (String label) { super(label); }

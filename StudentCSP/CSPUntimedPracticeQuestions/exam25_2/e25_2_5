@@ -1,0 +1,27 @@
+.. mchoice:: e25_2_5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_2
+   :from_source: T
+   :answer_a: "Where are you going with that?"
+   :answer_b: Nothing
+   :answer_c: "?"
+   :answer_d: "?Where are you going with that?"
+   :correct: d
+   :feedback_a: Incorrect. We are adding onto the existing value of newS which is "?", so newS will begin with a "?".
+   :feedback_b: Incorrect. newS has a value, therefore something will display.
+   :feedback_c: Incorrect. "? is the initial value of the variable newS".
+   :feedback_d: Correct. The code iterates through the string phrase and adds each character in the string to the variable newS which is initially "?".
+
+   What will the following code print?
+
+   newS ← “?”
+
+   phrase ← ”Where are you going with that?”
+
+   for EACH item in phrase:
+
+    { newS ← newS + item }
+
+   DISPLAY(newS)

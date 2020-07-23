@@ -1,6 +1,6 @@
 .. parsonsprob:: 2016Q4B
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: ListBasics/2016freeresponseQ4B
    :from_source: None
@@ -23,4 +23,3 @@
        return numSpaces / numGaps;
    =====
    }
-

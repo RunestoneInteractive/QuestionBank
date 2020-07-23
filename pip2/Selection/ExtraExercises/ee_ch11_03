@@ -1,0 +1,20 @@
+.. activecode:: ee_ch11_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/ExtraExercises
+   :from_source: None
+   :tags:Selection/Chainedconditionals.rst
+
+   str1 = "Today you are you! That is truer than true! There is no one alive who is you-er than you!"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testThree(self):
+         self.assertEqual(output, "True! You are you!", "Testing that output has the correct value, given the str1 provided.")
+
+   myTests().main()

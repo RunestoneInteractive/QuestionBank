@@ -1,6 +1,6 @@
 .. activecode:: Turtle_Nested_Error2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: TeacherCSP
     :topic: CSPRepeatTurtles/patterns
     :from_source: T
@@ -23,4 +23,3 @@
             mateo.color("blue")
             mateo.Forward(50)
             mateo.right(120)
-

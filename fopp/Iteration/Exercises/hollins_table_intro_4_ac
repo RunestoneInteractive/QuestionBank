@@ -1,6 +1,6 @@
 .. actex:: hollins_table_intro_4_ac
    :author: Stephen Wassell
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
@@ -32,4 +32,4 @@
    class myTests(TestCaseGui):
        def testOne(self):  
            self.assertEqual(int(self.getOutput()), 78)
-   myTests().main() 
+   myTests().main()

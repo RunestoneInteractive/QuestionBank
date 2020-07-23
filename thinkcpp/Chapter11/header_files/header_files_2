@@ -1,6 +1,6 @@
 .. mchoice:: header_files_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter11/header_files
    :from_source: T

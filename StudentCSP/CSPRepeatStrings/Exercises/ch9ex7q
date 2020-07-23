@@ -1,0 +1,13 @@
+.. activecode::  ch9ex7q
+     :author: bmiller
+     :difficulty: 3
+     :basecourse: StudentCSP
+     :topic: CSPRepeatStrings/Exercises
+     :from_source: T
+     :nocodelens:
+
+     str = "Th1s is a str1ng"
+     pos = str.find("1")
+     while pos >= 0:
+         str = str[0:pos] + "i" + str[pos+1:len(str)]
+     print(str)

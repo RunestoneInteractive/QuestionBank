@@ -1,6 +1,6 @@
 .. activecode:: stw
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Strings/StringMethods
     :from_source: None
@@ -16,4 +16,3 @@
 
     news = ss.replace("l", "***")
     print(news)
-

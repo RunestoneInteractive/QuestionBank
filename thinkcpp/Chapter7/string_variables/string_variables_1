@@ -1,6 +1,6 @@
 .. parsonsprob:: string_variables_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter7/string_variables
    :from_source: T
@@ -16,4 +16,3 @@
    x = "It is cold outside" #paired
 
    cout << x << endl;
-

@@ -1,6 +1,6 @@
 .. mchoice:: test_question3_5_4
   :author: jenkins
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cps110fall2017
   :topic: PythonTurtle/TherangeFunction
   :from_source: None
@@ -15,4 +15,3 @@
   :feedback_d: the sequence can never include the second parameter (5).  The second parameter must always be past the end of the range sequence.
 
   Which range function call will produce the sequence 20, 15, 10, 5?
-

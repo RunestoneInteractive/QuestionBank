@@ -1,10 +1,9 @@
-
+.. activecode:: Circle_Asmt14_ 2019_Troy
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: Circle_Asmt14_ 2019_Troy
     
     Write a program that will calculate the area and circumference of a
     circle.  
@@ -41,8 +40,4 @@
 
 
     print("The Circle code has ended successfully")
-    # THE END 
- 
-    
-
-    
+    # THE END

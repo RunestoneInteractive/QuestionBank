@@ -1,0 +1,35 @@
+.. mchoice:: qtnt1_7
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Tests/test1nt
+   :from_source: T
+   :answer_a: I and II are exactly equivalent for all input values n.
+   :answer_b: I and II are only equivalent when n is an even number.
+   :answer_c: I and II are only equivalent when n = 0
+   :answer_d: I and II are equivalent for all values except when n = 0
+   :answer_e: I and II are never going to have the exact same outputs.
+   :correct: e
+   :feedback_a: I and II will never be equivalent because because count is incremented after it is printed in Code block I and before it is printed in Code block II.
+   :feedback_b: I and II are not equivalent when n is even.
+   :feedback_c: When n = 0, Code block I will print out 0, while Code block 2 will print out 1.
+   :feedback_d: The code blocks never output the same value.
+   :feedback_e: I and II will never be equivalent because count is incremented after it is printed in Code block I and before it is printed in Code block II.
+
+   Given that both ``count`` and ``n`` are integer values, which of the following statements is true about both code blocks?
+
+   .. code-block:: java
+
+      // Code block I
+      for (count = 0; count <= n; count++)
+      {
+          System.out.println(count);
+      }
+
+      //Code block II
+      count = 0;
+      while (count <= n)
+      {
+          count = count + 1;
+          System.out.println(count);
+      }

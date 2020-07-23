@@ -1,6 +1,6 @@
 .. video:: unaryselection
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Selection/OmittingtheelseClauseUnarySelection
    :from_source: None
@@ -9,6 +9,3 @@
 
    http://media.interactivepython.org/thinkcsVideos/unaryselection.mov
    http://media.interactivepython.org/thinkcsVideos/unaryselection.webm
-
-
-

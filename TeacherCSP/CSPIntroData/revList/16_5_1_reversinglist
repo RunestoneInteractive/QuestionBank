@@ -1,6 +1,6 @@
 .. mchoice:: 16_5_1_reversinglist
                   :author: bmiller
-                  :difficulty: 3.0
+                  :difficulty: 3
                   :basecourse: TeacherCSP
                   :topic: CSPIntroData/revList
                   :from_source: T
@@ -13,5 +13,3 @@
                   :feedback_c: We need those in order to add elements into the list.  You can only add a list to a list.
 
                    Why did the code above end up reversing the list?
-
-

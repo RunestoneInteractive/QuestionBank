@@ -1,6 +1,6 @@
 .. activecode:: ac10_9_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/ChapterAssessment
    :from_source: T
@@ -23,4 +23,3 @@
          self.assertEqual(sorted(freq_words.items()), sorted([('a', 1), ('I', 2), ('wish', 2), ('with', 2), ('all', 1), ('my', 1), ('heart', 1), ('to', 1), ('fly', 1), ('dragons', 1), ('in', 1), ('land', 1), ('apart', 1)]), "Testing that freq_words was created correctly.")
 
    myTests().main()
-

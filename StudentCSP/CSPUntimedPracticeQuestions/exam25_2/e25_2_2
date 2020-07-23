@@ -1,0 +1,29 @@
+.. mchoice:: e25_2_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_2
+   :from_source: T
+   :answer_a: Because we started at 0.
+   :answer_b: Because the range only extends to 101.
+   :answer_c: Because the computer only understands 1s and 0s.
+   :answer_d: Because we are using a step of 2.
+   :correct: c
+   :feedback_a: Incorrect. Since we start at 0, we are counting by even numbers with a step of 2.
+   :feedback_b: Incorrect. Since the range extends to 101, the last number we use is 100.
+   :feedback_c: Correct. Binary code is not relevant to why this code stops at 100.
+   :feedback_d: Incorrect. Since we start at 0 and use a step of 2, we are counting by even numbers up to 101.
+
+   Which of the following is NOT why we stop at 100 in the following code?
+
+   sum ← 0
+
+   numbers ← RANGE(0,101,2)
+
+   FOR EACH number IN numbers:
+
+    {
+    sum ← sum + number
+    }
+
+   DISPLAY(sum)

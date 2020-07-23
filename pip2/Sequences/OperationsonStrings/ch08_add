@@ -1,0 +1,11 @@
+.. activecode:: ch08_add
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/OperationsonStrings
+    :from_source: None
+    :nocanvas:
+
+    fruit = "banana"
+    bakedGood = " nut bread"
+    print fruit + bakedGood

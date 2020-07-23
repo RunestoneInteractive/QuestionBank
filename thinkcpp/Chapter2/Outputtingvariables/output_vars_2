@@ -1,6 +1,6 @@
 .. mchoice:: output_vars_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Outputtingvariables
    :from_source: T
@@ -27,4 +27,3 @@
          b = '8';
          cout << b;
        }
-

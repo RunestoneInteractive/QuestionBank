@@ -1,6 +1,6 @@
 .. mchoice:: mc_ethics_anon_cheaters
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: DataEthics/finding_cheaters
    :from_source: T
@@ -43,4 +43,3 @@
    - All are honest
 
      - No, not everyone is honest
-

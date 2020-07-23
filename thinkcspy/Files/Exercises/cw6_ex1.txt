@@ -1,6 +1,6 @@
 .. datafile:: cw6_ex1.txt
    :author: Shishir Shah
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Files/Exercises
    :from_source: F

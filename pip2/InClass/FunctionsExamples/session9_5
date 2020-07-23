@@ -1,0 +1,16 @@
+.. activecode:: session9_5
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/FunctionsExamples
+    :from_source: None
+
+
+    def prof_resnick_function(x):
+        return x*x
+    def jackie_function(y):
+        return y +3
+    def student_function(z):
+        return z * 2
+
+    print prof_resnick_function(jackie_function(student_function(2)))

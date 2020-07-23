@@ -1,6 +1,6 @@
 .. mchoice:: db_qex32
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Debugging/KnowyourerrorMessages
    :from_source: None
@@ -13,4 +13,3 @@
    :feedback_c: No, No, No!
 
    Which of the following explains why ``wait_time_int = int(wait_time_int)`` is an error?
-

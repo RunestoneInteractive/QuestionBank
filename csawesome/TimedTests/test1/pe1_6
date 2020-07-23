@@ -1,6 +1,6 @@
 .. mchoice:: pe1_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test1
    :from_source: T
@@ -22,5 +22,3 @@
 
       Data set 1: "aba", "abba", "aBa", "z"
       Data set 2: "bcb", "bcd", "c"
-
-

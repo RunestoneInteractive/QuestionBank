@@ -1,6 +1,6 @@
 .. fillintheblank:: gen_max_country
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
@@ -11,4 +11,3 @@
      :Mozambique: Not quite, you are off by 1
      :Senegal: Not quite, you are off by 1
      :x: Check your formula carefully
-

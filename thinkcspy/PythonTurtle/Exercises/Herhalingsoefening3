@@ -1,6 +1,6 @@
 .. activecode:: Herhalingsoefening3
     :author: Gilles Fiers
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -10,4 +10,3 @@
 
     Oefening op if-then-else
     ~~~~
-    

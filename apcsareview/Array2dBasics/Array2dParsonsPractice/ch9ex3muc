@@ -1,6 +1,6 @@
 .. parsonsprob:: ch9ex3muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/Array2dParsonsPractice
    :from_source: T
@@ -32,4 +32,3 @@
       return sum;
    =====
    } //end method
-

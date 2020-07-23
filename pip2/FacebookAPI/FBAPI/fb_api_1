@@ -1,0 +1,17 @@
+.. mchoice:: fb_api_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: FacebookAPI/FBAPI
+   :from_source: None
+   :answer_a: EDT
+   :answer_b: GMT
+   :answer_c: Ann Arbor
+   :answer_d: en_US
+   :feedback_a:
+   :feedback_b:
+   :feedback_c:
+   :feedback_d:
+   :correct: d
+
+   Use the same setup to run a GET request on me?fields=locale. In the results, what is the value associated with the "locale" key?

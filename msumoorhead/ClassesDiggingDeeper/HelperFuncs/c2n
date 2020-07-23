@@ -1,6 +1,6 @@
 .. activecode:: c2n
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/HelperFuncs
     :from_source: None
@@ -31,6 +31,3 @@
     print(afraction)
     sfraction = SFraction(12, 16)
     print(sfraction)
-
-
-

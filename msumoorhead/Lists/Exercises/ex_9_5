@@ -1,0 +1,14 @@
+.. activecode:: ex_9_5
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Lists/Exercises
+    :from_source: None
+
+    import random
+
+    def max(lst):
+
+
+
+    print(max(lst))

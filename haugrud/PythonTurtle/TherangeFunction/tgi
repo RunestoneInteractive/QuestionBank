@@ -1,6 +1,6 @@
 .. activecode:: tgi
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: PythonTurtle/TherangeFunction
     :from_source: None
@@ -11,5 +11,3 @@
 
 
     print(list(range(10, 0, -1)))
-
-

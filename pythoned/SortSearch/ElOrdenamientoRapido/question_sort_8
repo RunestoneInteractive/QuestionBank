@@ -1,6 +1,6 @@
 .. mchoice:: question_sort_8
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: SortSearch/ElOrdenamientoRapido
     :from_source: None
@@ -15,5 +15,3 @@
     :feedback_d: Los tres números utilizados en la selección del pivote son 1, 9, 19. El 9 es la mediana. El 19 sería una mala elección ya que es casi el mayor valor.
 
     Dada la siguiente lista de números [1, 20, 11, 5, 2, 9, 16, 14, 13, 19] ¿Cuál sería el primer valor pivote usando el método de la mediana de tres?
-
-

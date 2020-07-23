@@ -1,6 +1,6 @@
 .. mchoice:: question3_3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: PythonTurtle/InstancesAHerdofTurtles
    :from_source: T

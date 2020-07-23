@@ -1,6 +1,6 @@
 .. parsonsprob:: vars_types_p4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/mixedUpCode
    :from_source: T
@@ -35,4 +35,3 @@
     tbsp = 16 * cups;
    =====
    }
-

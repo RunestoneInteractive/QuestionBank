@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_classes_sort
     :author: Brian Powell
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: Classes/Exercises
     :from_source: F
-.. activecode:: wvu_classes_sort
 
     Add a function called **sort_order()** to the **Vehicle** class. It should return the vehicle's make, model, and year like "Dodge Journey 2015" to facilitate sorting vehicles in that order.
 

@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Functions/Returningavaluefromafunction
    :from_source: T

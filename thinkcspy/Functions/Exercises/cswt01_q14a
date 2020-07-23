@@ -1,6 +1,6 @@
 .. mchoice:: cswt01_q14a
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -27,6 +27,3 @@
           print(x)
 
       main()
-
-
-

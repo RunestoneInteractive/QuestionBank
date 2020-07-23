@@ -1,0 +1,9 @@
+.. codelens:: vtest
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Iteration/FlowofExecutionoftheforLoop
+    :from_source: None
+
+    for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
+        print "Hi ", name, "  Please come to my party on Saturday!"

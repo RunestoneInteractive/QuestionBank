@@ -1,0 +1,20 @@
+.. activecode:: ee_nested_data_051
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/ExtraExercises
+   :from_source: None
+   :tags: NestedData/NestedIteration.rst, NestedData/DebuggingNestedData.rst
+
+   L = [['apples', 'bananas', 'oranges', 'blueberries', 'lemons'], ['carrots', 'peas', 'cucumbers', 'green beans'], ['root beer', 'smoothies', 'cranberry juice']]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(b_strings, ['bananas', 'blueberries', 'cucumbers', 'green beans', 'root beer', 'cranberry juice'], "Testing that b_strings was created correctly.")
+
+   myTests().main()

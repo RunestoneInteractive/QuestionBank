@@ -1,0 +1,13 @@
+.. activecode:: iter_accumlist1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Iteration/TheAccumulatorPatternwithLists
+   :from_source: None
+
+   nums = [3, 5, 8]
+   accum = []
+   for w in nums:
+       x = w**2
+       accum.append(x)
+   print accum

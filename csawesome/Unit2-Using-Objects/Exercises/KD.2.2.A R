@@ -1,6 +1,6 @@
 .. mchoice:: KD.2.2.A R
    :author: Gheorghe Ceara
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: F
@@ -18,4 +18,3 @@
    .. code-block:: java
 
      public Monster( int eyes, String name, int arms );
-  

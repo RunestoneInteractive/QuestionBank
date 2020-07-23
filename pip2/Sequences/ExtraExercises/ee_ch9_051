@@ -1,0 +1,20 @@
+.. activecode:: ee_ch9_051
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sequences/ExtraExercises
+   :from_source: None
+   :tags: Sequences/StringMethods.rst
+
+   stri = "HELLO AND WELCOME TO THE ACTIVECODE WINDOW."
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(low_stri, stri.lower(), "Testing that low_stri has the correct string assigned.")
+
+   myTests().main()

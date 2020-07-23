@@ -1,6 +1,6 @@
 .. showeval:: se_ac2_4_1a
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: SimplePythonData/FunctionCalls
    :from_source: T
@@ -12,4 +12,3 @@
    print(sub(9, square({{1+1}}{{2}})))
    print(sub(9, {{square(2)}}{{4}}))
    print({{sub(9, 4)}}{{5}})
-

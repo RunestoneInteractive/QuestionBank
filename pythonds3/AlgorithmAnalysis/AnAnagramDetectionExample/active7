@@ -1,6 +1,6 @@
 .. activecode:: active7
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: AlgorithmAnalysis/AnAnagramDetectionExample
     :from_source: T
@@ -32,4 +32,3 @@
     print(anagram_solution_4("apple", "pleap"))  # expected: True
     print(anagram_solution_4("abcd", "dcba"))  # expected: True
     print(anagram_solution_4("abcd", "dcda"))  # expected: False
-

@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_add_2x_to_the_end
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -42,4 +42,4 @@
 	     test_add_2x([4, 5, 6])
 	     test_add_2x([-1, -2, -3, -4])
 	     
-   myTests().main()	        
+   myTests().main()

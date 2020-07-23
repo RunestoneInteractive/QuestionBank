@@ -1,6 +1,6 @@
 .. parsonsprob:: 10_4_2_turtle-circle
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatTurtles/stamp
    :from_source: T
@@ -36,7 +36,3 @@
        jose.right(36)
    =====
        jose.right(20) #paired
-
-
-
-

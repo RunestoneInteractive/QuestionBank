@@ -1,6 +1,6 @@
 .. activecode:: lst_rectostr
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: Recursion/pythondsConvertinganIntegertoaStringinAnyBase
     :from_source: T

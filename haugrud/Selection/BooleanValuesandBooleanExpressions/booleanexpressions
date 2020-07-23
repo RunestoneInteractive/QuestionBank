@@ -1,0 +1,11 @@
+.. video:: booleanexpressions
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: haugrud
+   :topic: Selection/BooleanValuesandBooleanExpressions
+   :from_source: None
+   :controls:
+   :thumb: ../_static/booleanexpressions.png
+
+   http://media.interactivepython.org/thinkcsVideos/booleanexpressions.mov
+   http://media.interactivepython.org/thinkcsVideos/booleanexpressions.webm

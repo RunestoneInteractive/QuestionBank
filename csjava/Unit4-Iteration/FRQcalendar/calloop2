@@ -1,0 +1,18 @@
+.. mchoice:: calloop2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit4-Iteration/FRQcalendar
+   :from_source: T
+   :practice: T
+   :answer_a: Loop from 0 to year1
+   :answer_b: Loop from 0 to year2
+   :answer_c: Loop from 2020 to 2030
+   :answer_d: Loop from year1 to year2
+   :correct: d
+   :feedback_a: You need to count the leap years between year1 and year2. The problem does not mention starting at year 0.
+   :feedback_b: You need to count the leap years between year1 and year2. The problem does not mention starting at year 0.
+   :feedback_c: You need to count the leap years between year1 and year2. The problem does not mention starting at year 2020.
+   :feedback_d: You need to count the leap years between year1 and year2.
+
+   What is the starting and ending values for the loop to count the leap years between year 1 and year 2?

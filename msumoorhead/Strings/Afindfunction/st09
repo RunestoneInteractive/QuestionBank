@@ -1,6 +1,6 @@
 .. activecode:: st09
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Strings/Afindfunction
     :from_source: None
@@ -26,5 +26,3 @@
     print(find("Compsci", "i"))
     print(find("Compsci", "p"))
     print(find("Compsci", "x"))
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: qce_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit3-If-Statements/Exercises
    :from_source: T
@@ -21,5 +21,3 @@
         System.out.println("first case");
      else
         System.out.println("second case");
-
-

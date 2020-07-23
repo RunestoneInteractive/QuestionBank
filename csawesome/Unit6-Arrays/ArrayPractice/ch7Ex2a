@@ -1,14 +1,15 @@
 .. activecode::  ch7Ex2a
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayPractice
    :from_source: T
    :language: java
+   :optional:
 
    Solution to question above.
    ~~~~
-   public class Test
+   public class Test1
    {
        public static void main(String[] args)
        {

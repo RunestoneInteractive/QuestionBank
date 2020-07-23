@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt2_4.2_2019
     :author: Shawn Haarer
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Asmt2_4.2_2019
 
     # Asmt 2,  Sect. 4.2,   Turtle Intro
 

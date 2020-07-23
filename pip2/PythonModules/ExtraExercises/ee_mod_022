@@ -1,0 +1,24 @@
+.. activecode:: ee_mod_022
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags: PythonModules/intro-ModulesandGettingHelp.rst
+
+   a = 5
+   b = 8
+   d = 125
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(c, 390625, "Testing that c has the correct value.")
+      def testB(self):
+         self.assertEqual(e, 3125, "Testing that e has the correct value.")
+
+   myTests().main()

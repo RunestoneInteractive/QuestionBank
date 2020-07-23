@@ -1,0 +1,32 @@
+.. mchoice:: qtnt1_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Tests/test1nt
+   :from_source: None
+   :answer_a: 9
+   :answer_b: 81
+   :answer_c: 3
+   :answer_d: 243
+   :answer_e: 27
+   :correct: b
+   :feedback_a: This would be true if we called mystery(2).
+   :feedback_b: The argument is 4 so will have 4 recursive calls and then return 3 when we get to mystery(1). Each call will multiply our result by 3, so you can think of this as 3 raised to the 4th power (or 3 * 3 * 3 * 3 = 81).
+   :feedback_c: This value is returned when we call mystery(1), since 1 is the base case and doesn't result in a recursive call.
+   :feedback_d: This value would be returned from mystery(5).
+   :feedback_e: This value would be returned from mystery(3).
+
+   Consider the following recursive method. What does ``mystery(4)`` return?
+
+   .. code-block:: java
+
+      public int mystery(int m)
+      {
+        if (m == 1)
+        {
+            return 3;
+        } else
+        {
+            return 3 * mystery(m - 1);
+        }
+      }

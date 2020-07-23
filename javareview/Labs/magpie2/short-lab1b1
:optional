@@ -1,0 +1,9 @@
+.. shortanswer:: short-lab1b1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Labs/magpie2
+   :from_source: None
+   :optional
+
+   What happens when a keyword is included in another word? Consider statements like “I know all the state capitals” and “I like vegetables smothered in cheese.” Explain the problem with the responses to these statements.

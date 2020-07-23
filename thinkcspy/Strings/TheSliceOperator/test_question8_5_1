@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Strings/TheSliceOperator
    :from_source: T
@@ -22,5 +22,3 @@
 
       s = "python rocks"
       print(s[3:8])
-
-

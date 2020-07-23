@@ -1,6 +1,6 @@
 .. activecode:: lca2dloopPart2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/a2dLoopPart
    :from_source: T
@@ -31,7 +31,3 @@
          System.out.println(countValues(3,matrix,0,2,0,2));
       }
    }
-
-
-
-

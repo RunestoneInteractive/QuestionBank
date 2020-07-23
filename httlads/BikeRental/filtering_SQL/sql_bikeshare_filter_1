@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_filter_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: httlads
     :topic: BikeRental/filtering_SQL
     :from_source: T
@@ -15,7 +15,3 @@
       duration >= 3600
     LIMIT
       10
-
-
-
-

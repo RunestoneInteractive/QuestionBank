@@ -1,0 +1,23 @@
+.. activecode::  ch5Ex5a
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Conditionals/CondPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int x = -3;
+           if (x < 0)
+               System.out.println("x is less than 0");
+           else if (x == 0)
+               System.out.println("x is equal to 0");
+           else
+               System.out.println("x is greater than 0");
+
+       }
+
+   }

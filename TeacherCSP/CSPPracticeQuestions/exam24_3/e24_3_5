@@ -1,0 +1,17 @@
+.. mchoice:: e24_3_5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPPracticeQuestions/exam24_3
+   :from_source: T
+   :answer_a: 8
+   :answer_b: 7
+   :answer_c: 5
+   :answer_d: 3
+   :correct: d
+   :feedback_a: Incorrect. This would be true for a hexadecimal value of 38.
+   :feedback_b: Incorrect. This would be true for a hexadecimal value of 37.
+   :feedback_c: Incorrect. This would be true for a hexadecimal value of 35.
+   :feedback_d: Correct. The ASCII value would be '51'.
+
+   ASCII is a character-encoding scheme that uses numeric values in decimal (base 10)  to represent alphanumeric and special characters. For example, the uppercase letter ‘A’ is represented by the decimal value ‘65’. Digits from ‘0’ - ‘9’ also have a corresponding ASCII value. The digit ‘0’ has an ASCII value of ‘48’, ‘1’ has an ASCII value of ‘49’ and so on.We can represent the ASCII value of digits as hexadecimal  numbers (base 16) as well. Which digit has a hexadecimal value of ‘33’?

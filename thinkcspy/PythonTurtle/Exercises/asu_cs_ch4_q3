@@ -1,10 +1,9 @@
-
+.. activecode:: asu_cs_ch4_q3
     :author: Erdogan Dogdu
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: asu_cs_ch4_q3
     :language: python
     :autograde: unittest
     :nocodelens:

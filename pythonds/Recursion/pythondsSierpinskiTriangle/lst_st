@@ -1,6 +1,6 @@
 .. activecode:: lst_st
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: Recursion/pythondsSierpinskiTriangle
     :from_source: T
@@ -49,7 +49,3 @@
        myWin.exitonclick()
 
     main()
-
-
-
-

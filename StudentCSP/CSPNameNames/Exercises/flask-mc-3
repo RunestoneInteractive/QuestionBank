@@ -1,10 +1,9 @@
-
+.. mchoice:: flask-mc-3
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. mchoice:: flask-mc-3
    :correct: d
    :answer_a: Hello Root!
    :answer_b: Hello Index!

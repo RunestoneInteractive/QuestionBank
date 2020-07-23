@@ -1,10 +1,9 @@
-
+.. activecode:: pelatt_midterm2_4
    :author: Kristine Pelatt
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: F
-.. activecode:: pelatt_midterm2_4
    :language: python
    
    Below are a set of scores that students have received in the past semester. Write code to determine how many are 90 or above and assign that result to the value ``a_scores``.  Calculate the average score and assign that result to the value ``avg_score``. 

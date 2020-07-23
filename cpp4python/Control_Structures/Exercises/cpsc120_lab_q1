@@ -1,10 +1,9 @@
-
+.. parsonsprob:: cpsc120_lab_q1
    :author: Matthew Zuniga
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: cpp4python
    :topic: Control_Structures/Exercises
    :from_source: F
-.. parsonsprob:: cpsc120_lab_q1
 
    Construct a program that will output all the even numbers from 0 to 99 using a for loop. <br>
    Drag and drop the code blocks from the left column into the write column. 

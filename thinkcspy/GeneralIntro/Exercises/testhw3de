@@ -1,10 +1,9 @@
-
+.. activecode:: testhw3de
    :author: Damon Ellingston
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. activecode:: testhw3de
    :nocanvas:  -- do not create a canvas
    :autograde: unittest
    :nopre: -- do not create an output component
@@ -40,4 +39,3 @@ config values (conf.py):
 
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
-    

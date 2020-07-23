@@ -1,6 +1,6 @@
 .. dragndrop:: debugging_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/debugging
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: semantic error|||your program does what you told it to do, not what you intended for it to do
 
    Match each term to its definition!
-

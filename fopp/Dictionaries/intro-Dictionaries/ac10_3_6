@@ -1,0 +1,22 @@
+.. activecode:: ac10_3_6
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: fopp
+    :topic: Dictionaries/intro-Dictionaries
+    :from_source: T
+    :language: python
+    :autograde: unittest
+    :practice: T
+
+    places = {"Australia":2000, "Greece":2004, "China":2008, "England":2012}
+
+    =====
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+          def testOne(self):
+             self.assertEqual(sorted(places.items()), sorted([("Australia", 2000), ("Greece", 2004), ("China", 2008), ("England", 2012), ("Brazil", 2016)]), "Testing that places has been updated correctly.")
+
+    myTests().main()

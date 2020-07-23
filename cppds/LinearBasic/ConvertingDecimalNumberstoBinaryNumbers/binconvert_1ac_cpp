@@ -1,6 +1,6 @@
 .. activecode:: binconvert_1ac_cpp
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: LinearBasic/ConvertingDecimalNumberstoBinaryNumbers
   :from_source: T

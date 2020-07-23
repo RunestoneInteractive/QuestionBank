@@ -1,6 +1,6 @@
 .. actex:: rab_hw_ex_01_ch_10
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Lists/Exercises
    :from_source: F
@@ -28,5 +28,4 @@
            l_out = find_max_index(l_in)
            self.assertTrue(l_out == [0, 1, 2, 3, 4, 5, 6, 7], "Tested  [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]" )           
 
-   myTests().main()  
-    
+   myTests().main()

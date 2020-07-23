@@ -1,10 +1,9 @@
-
+.. activecode:: select_2
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: select_2
   
     What would each boolean expression above evaluate to given the 
     following values for each variable:
@@ -17,4 +16,3 @@
 
 
     ~~~~
-    

@@ -1,10 +1,9 @@
-
+.. activecode:: asu_cs_list_q01
     :author: Erdogan Dogdu
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: asu_cs_list_q01
     :autograde: unittest
 
 
@@ -53,4 +52,3 @@
             self.assertEqual(compareStringList(union(l3,l4),output3),True,"union("+str(l3)+","+str(l4)+") should return "+str(output3))
 
     myTests().main()
-  

@@ -1,6 +1,6 @@
 .. activecode:: tdb
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: Dictionaries/TuplesandMutability
    :from_source: None
@@ -11,4 +11,3 @@
 
    actress = actress[:3] + ("Duplicity", 2009) + actress[5:]
    print(actress)
-

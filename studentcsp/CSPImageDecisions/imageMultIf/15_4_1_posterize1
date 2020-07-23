@@ -1,6 +1,6 @@
 .. mchoice:: 15_4_1_posterize1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPImageDecisions/imageMultIf
    :from_source: T

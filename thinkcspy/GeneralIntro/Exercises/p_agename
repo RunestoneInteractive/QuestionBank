@@ -1,10 +1,9 @@
-
+.. activecode:: p_agename
     :author: Lily Liang
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: p_agename
     :language: python
     :nocodelens:
 
@@ -15,5 +14,3 @@
 
 
     ====
-
-

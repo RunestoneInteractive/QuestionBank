@@ -1,6 +1,6 @@
 .. mchoice:: e25_4_13
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: Incorrect. There is no such thing as sticky data compression.
 
    Data compression that allows for all of the original data to be retrieved is called:
-
-

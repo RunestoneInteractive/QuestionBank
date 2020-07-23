@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -41,4 +41,3 @@
     -   Compile error.
 
         -   There are no syntax errors that will cause an issue compiling.
-

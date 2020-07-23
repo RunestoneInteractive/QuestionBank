@@ -1,6 +1,6 @@
 .. mchoice:: AP2-3-4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/practice-test-objects
     :from_source: T
@@ -69,4 +69,3 @@
          a.wag();
 
       - This would just print "Wag Tail ".
-

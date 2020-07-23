@@ -1,6 +1,6 @@
 .. mchoice:: mc_missing_data
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -22,4 +22,3 @@
    - Ivory Coast
 
      - Technically this one is there but you need to make it "Côte d'Ivoire"
-

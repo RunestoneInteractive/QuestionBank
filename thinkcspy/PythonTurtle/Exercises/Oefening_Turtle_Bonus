@@ -1,6 +1,6 @@
 .. activecode:: Oefening_Turtle_Bonus
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -11,4 +11,3 @@
     import turtle
     wn=turtle.Screen()
     #Jouw code komt hier...
-

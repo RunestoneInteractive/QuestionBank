@@ -1,6 +1,6 @@
 .. fillintheblank:: call_by_reference_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter8/call_by_reference
     :from_source: T

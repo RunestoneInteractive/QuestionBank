@@ -1,6 +1,6 @@
 .. activecode:: act_code_hu_exam1_1
     :author: Sean Joyce
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Conditionals/Exercises
     :from_source: F
@@ -15,5 +15,3 @@
     # and outputs as shown on the exam.
 
     # your code goes HERE
-
-

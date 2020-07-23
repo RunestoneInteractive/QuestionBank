@@ -1,10 +1,9 @@
-
+.. activecode:: sks_hw2_ex6
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: sks_hw2_ex6
     :language: python
     :autograde: unittest
     
@@ -100,4 +99,4 @@
             b = 0
             self.assertEqual(newtons1overX(0), self._newtons1overX(0), "checking b = " + str(b))
             
-    myTests().main()    
+    myTests().main()

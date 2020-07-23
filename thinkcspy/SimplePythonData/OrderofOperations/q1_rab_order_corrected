@@ -1,6 +1,6 @@
 .. mchoice:: q1_rab_order_corrected
    :author: Stephen Walloch
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/OrderofOperations
    :from_source: F
@@ -19,5 +19,3 @@
    .. code-block:: python
 
       2 + 3**2*2
-
-

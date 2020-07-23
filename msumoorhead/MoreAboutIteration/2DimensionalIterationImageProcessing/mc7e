@@ -1,6 +1,6 @@
 .. mchoice:: mc7e
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: MoreAboutIteration/2DimensionalIterationImageProcessing
    :from_source: None
@@ -29,4 +29,3 @@
       newred = p.getRed()
       newgreen = 0
       newblue = 0
-

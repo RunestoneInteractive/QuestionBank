@@ -1,6 +1,6 @@
 .. mchoice:: mc_mlcomment
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cpp4python
   :topic: IntroCpp/firstcppprogram
   :from_source: T
@@ -11,4 +11,3 @@
   :feedback_b: Sorry, both languages support multi-line comments beginning with /* and ending with */.
 
   True or False: Like Python, C++ supports multi-line comments. In C++, they begin with ``/*`` and end with ``*/``.
-

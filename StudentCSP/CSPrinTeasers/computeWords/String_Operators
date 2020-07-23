@@ -1,0 +1,19 @@
+.. activecode:: String_Operators
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: StudentCSP
+  :topic: CSPrinTeasers/computeWords
+  :from_source: T
+  :tour_1: "Line-by-line Tour"; 1: str1-line1; 2: str1-line2; 3: str1-line3; 4: str1-line4; 5: str1-line5; 6: str1-line6; 7: str1-line7; 8: str1-line8; 9: str1-line9; 10: str1-line10;
+  :nocodelens:
+
+  basic = "Ma"
+  print(basic)
+  basic3 = basic + basic + basic
+  print(basic3)
+  next = "Mow"
+  next3 = next * 3
+  print(next3)
+  together = (basic * 3) + (next * 2)
+  print(together)
+  print(together + "Mmm" + together)

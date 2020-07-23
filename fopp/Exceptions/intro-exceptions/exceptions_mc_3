@@ -1,6 +1,6 @@
 .. mchoice:: exceptions_mc_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Exceptions/intro-exceptions
    :from_source: T
@@ -11,4 +11,3 @@
    :correct: b
 
    After a run-time exception is handled by an except clause, the rest of the code in the try clause will be executed.
-

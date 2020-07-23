@@ -1,6 +1,6 @@
 .. activecode:: locals_AC_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/ParametersAndVariablesAreLocal
    :from_source: T
@@ -23,4 +23,3 @@
        printTwice (argument);
        return 0;
    }
-

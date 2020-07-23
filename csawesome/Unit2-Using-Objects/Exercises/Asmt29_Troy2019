@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt29_Troy2019
    :author: Shawn Haarer
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: F
-.. activecode:: Asmt29_Troy2019
    :language:  java
 
    You will need to write four lines of code in the main() method to 
@@ -74,4 +73,3 @@
         }
 
     ====
-    

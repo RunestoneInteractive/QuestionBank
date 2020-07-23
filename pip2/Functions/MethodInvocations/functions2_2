@@ -1,0 +1,8 @@
+.. activecode:: functions2_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/MethodInvocations
+   :from_source: None
+
+   print "This is a sentence".replace("s", "").replace("t", "")

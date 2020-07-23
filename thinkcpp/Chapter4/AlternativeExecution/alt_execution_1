@@ -1,6 +1,6 @@
 .. mchoice:: alt_execution_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/AlternativeExecution
    :from_source: T
@@ -31,4 +31,3 @@
          int degrees = 52;
          weather(degrees);
        }
-

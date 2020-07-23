@@ -1,0 +1,14 @@
+.. activecode:: tdq
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Dictionaries/Aliasingandcopying
+    :from_source: None
+
+    opposites = {'up': 'down', 'right': 'wrong', 'true': 'false'}
+    alias = opposites
+
+    print(alias is opposites)
+
+    alias['right'] = 'left'
+    print(opposites['right'])

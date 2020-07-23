@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex2muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Strings/StringPracticeParsons
    :from_source: T
@@ -17,4 +17,3 @@
    System.out.println("Sugar is sweet");
    =====
    System.out.println("And so are you");
-

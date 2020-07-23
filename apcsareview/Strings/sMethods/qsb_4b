@@ -1,6 +1,6 @@
 .. mchoice:: qsb_4b
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Strings/sMethods
    :from_source: T
@@ -22,4 +22,3 @@
 
      String s1 = "baby";
      String s2 = s1.substring(2);
-

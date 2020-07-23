@@ -1,6 +1,6 @@
 .. activecode:: ac10_3_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Dictionarymethods
     :from_source: T
@@ -9,4 +9,3 @@
 
     for k in inventory:
         print("Got key", k)
-

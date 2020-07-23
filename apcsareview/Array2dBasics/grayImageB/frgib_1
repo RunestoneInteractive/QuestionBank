@@ -1,6 +1,6 @@
 .. mchoice:: frgib_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/grayImageB
    :from_source: T
@@ -13,4 +13,3 @@
    :feedback_c: Because the pixels are of primitive type "int,"  there is not subtract() method which can be executed in this case.
 
    Which is the simplest way to subtract one integer value from another integer value?
-

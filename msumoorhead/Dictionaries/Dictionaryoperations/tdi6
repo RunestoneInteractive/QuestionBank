@@ -1,6 +1,6 @@
 .. activecode:: tdi6
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Dictionaries/Dictionaryoperations
     :from_source: None
@@ -9,5 +9,3 @@
 
     inventory['bananas'] = 0
     print(inventory['bananas'])
-
-

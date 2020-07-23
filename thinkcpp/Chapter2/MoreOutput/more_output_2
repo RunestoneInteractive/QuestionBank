@@ -1,6 +1,6 @@
 .. fillintheblank:: more_output_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/MoreOutput
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :[Ss][Tt][Rr][Ii][Nn][Gg][Ss]?: Correct!
      :.*: Try again!
-

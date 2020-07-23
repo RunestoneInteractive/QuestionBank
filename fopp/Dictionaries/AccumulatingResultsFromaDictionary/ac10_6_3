@@ -1,6 +1,6 @@
 .. activecode:: ac10_6_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/AccumulatingResultsFromaDictionary
    :from_source: T
@@ -22,4 +22,3 @@
          self.assertEqual(total_credits, 63, "Testing that total_credits has the correct value.")
 
    myTests().main()
-

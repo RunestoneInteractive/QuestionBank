@@ -1,6 +1,6 @@
 .. activecode:: StudentList
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit7-ArrayList/topic-7-3-arraylist-loops
   :from_source: T
@@ -42,4 +42,3 @@
        return id + ": " + name + ", " + email;
      }
   }
-

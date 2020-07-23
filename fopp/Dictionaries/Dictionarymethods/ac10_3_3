@@ -1,9 +1,9 @@
 .. activecode:: ac10_3_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Dictionarymethods
-    :from_source: T
+    :from_source: F
 
     inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
 

@@ -1,6 +1,6 @@
 .. actex:: ex_js_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/exercises
    :from_source: T
@@ -13,4 +13,3 @@
 
 
    </html>
-

@@ -1,10 +1,9 @@
-
+.. activecode:: ER1006
     :author: Eric Reed
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Sequences/Exercises
     :from_source: F
-.. activecode:: ER1006
 
 
     Write code that asks the user for a word, and reports
@@ -12,4 +11,3 @@
     bob is a palindrome because it reads the same forwards
     and back.  brenda is not.
     ~~~~
- 

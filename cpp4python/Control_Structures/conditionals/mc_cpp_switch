@@ -1,6 +1,6 @@
 .. mchoice:: mc_cpp_switch
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cpp4python
   :topic: Control_Structures/conditionals
   :from_source: T
@@ -15,4 +15,3 @@
   :feedback_d: No. This is a good idea, but it will not help.
 
   When using a switch, what prevents all the cases from passing as correct?
-

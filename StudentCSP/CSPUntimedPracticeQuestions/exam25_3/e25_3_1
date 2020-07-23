@@ -1,0 +1,69 @@
+.. mchoice:: e25_3_1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a:
+   :answer_b:
+   :answer_c:
+   :answer_d:
+   :correct: b
+   :feedback_a: Incorrect. This does not compare two prices -- the variable 'max' is not a price, it is the index of the current max value.
+   :feedback_b: Correct. This updates the value of max with 'i' if it is greater than the previous maximum price.
+   :feedback_c: Incorrect. This will not update the value of max with the highest price value.
+   :feedback_d: Incorrect. This assigns the price value to the variable max rather than the index value of the list itemList.
+
+   A grocery store uses a database to store important statistics. The prices of all items are stored in a list called itemList, which is indexed from 1 to x. The company uses the following program to assign the index of the item in the store that has the highest price to the variable max.
+
+   ::
+
+     i ← 0
+     max ← i + 1
+     x ← LENGTH(itemList)
+     REPEAT x times
+     {
+             i ← i + 1
+             <MISSING CODE>
+     }
+
+   Which of the following code segments can replace <MISSING CODE> so that the program works as intended?
+
+
+   (A)
+   ::
+
+     IF(itemList[i] > max)
+
+     {
+          max ← itemList[i]
+     }
+
+
+   (B)
+   ::
+
+     IF(itemList[i] > itemList[max])
+
+     {
+         max ← i
+     }
+
+
+   (C)
+   ::
+
+     IF(itemList[i] < itemList[max])
+
+     {
+         max ← i
+     }
+
+   (D)
+   ::
+
+     IF(itemList[i] > itemList[max])
+
+     {
+         max ← itemList[i]
+     }

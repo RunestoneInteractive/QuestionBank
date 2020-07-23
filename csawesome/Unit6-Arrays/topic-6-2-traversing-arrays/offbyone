@@ -1,10 +1,12 @@
 .. activecode:: offbyone
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/topic-6-2-traversing-arrays
    :from_source: T
    :language: java
+   :autograde: unittest
+   :practice: T
 
    The following code has an ArrayIndexOutOfBoundsException. It has 2 common off-by-one errors in the loop. Can you fix it and make the loop print out all the scores?
    ~~~~
@@ -20,6 +22,42 @@
           }
       }
     }
+    ====
+    // Test for Lesson 6.2 OffByOne
+    import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
 
+    public class RunestoneTests extends CodeTestHelper
+    {
+        public RunestoneTests() {
+            super("OffByone");
+        }
 
+        @Test
+        public void test1()
+        {
+            String output = getMethodOutput("main");
+            String expect = "9\n8\n7".replaceAll(" ", "\n");
 
+            boolean passed = output.contains(expect);
+            getResults(expect, output, "Testing right off-by-one error", passed);
+            assertTrue(passed);
+        }
+
+        @Test
+        public void test2()
+        {
+            String output = getMethodOutput("main");
+            String expect = "10\n9\n8".replaceAll(" ", "\n");
+
+            boolean passed = output.contains(expect);
+            getResults(expect, output, "Testing left off-by-one error", passed);
+            assertTrue(passed);
+        }
+        @Test
+        public void checkCodeContains1(){
+            boolean passed = checkCodeContains("fixes to for loop", "for (int i = 0; i <");
+            assertTrue(passed);
+        }
+    }

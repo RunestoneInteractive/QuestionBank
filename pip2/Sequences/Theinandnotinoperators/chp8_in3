@@ -1,0 +1,8 @@
+.. activecode:: chp8_in3
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/Theinandnotinoperators
+    :from_source: None
+
+    print 'x' not in 'apple'

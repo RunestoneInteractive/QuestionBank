@@ -1,6 +1,6 @@
 .. clickablearea:: blockelem
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: HTML/basic
    :from_source: T
@@ -18,4 +18,3 @@
    :click-incorrect:&lt;/p&gt;:endclick:
    &lt;/body&gt;
    &lt;/html&gt;
-

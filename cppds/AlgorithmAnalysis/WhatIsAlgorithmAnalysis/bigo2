@@ -1,6 +1,6 @@
 .. fillintheblank:: bigo2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: AlgorithmAnalysis/WhatIsAlgorithmAnalysis
    :from_source: T
@@ -10,6 +10,3 @@
    - :1: Right! Good job!
      :10: No, consider that the function is called only once, and n is the parameter.
      :default: Incorrect. Please try again.
-
-
-

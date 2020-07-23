@@ -1,6 +1,6 @@
 .. activecode:: qujosephussim
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds
    :topic: BasicDS/SimulationHotPotato
    :from_source: T
@@ -23,4 +23,3 @@
        return simqueue.dequeue()
 
    print(hotPotato(["Bill","David","Susan","Jane","Kent","Brad"],7))
-

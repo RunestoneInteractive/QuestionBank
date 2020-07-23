@@ -1,6 +1,6 @@
 .. mchoice:: test_question6_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Selection/Logicaloperators
    :from_source: T
@@ -14,5 +14,3 @@
    :feedback_c: Yes, with an and keyword both expressions must be true so the number must be greater than 0 an less than 5 for this expression to be true. Although most other programming languages do not allow this mathematical syntax, in Python, you could also write 0 &lt; x &lt; 5.
 
    What is a correct Python expression for checking to see if a number stored in a variable x is between 0 and 5?
-
-

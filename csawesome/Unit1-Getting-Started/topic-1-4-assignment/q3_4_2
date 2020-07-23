@@ -1,6 +1,6 @@
 .. mchoice:: q3_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: T
@@ -14,8 +14,3 @@
    :feedback_c: What is the remainder after you divide 3 by 8?
 
    What is the result of 3 % 8?
-
-
-
-
-

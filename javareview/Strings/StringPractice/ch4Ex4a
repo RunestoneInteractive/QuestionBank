@@ -1,0 +1,18 @@
+.. activecode::  ch4Ex4a
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Strings/StringPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           String message = "Meet me by the bridge";
+           String part = message.substring(0,3);
+           String lower = part.toLowerCase();
+           System.out.println(lower);
+       }
+   }

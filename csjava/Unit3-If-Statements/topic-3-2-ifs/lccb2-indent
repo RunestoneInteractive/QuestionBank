@@ -1,0 +1,49 @@
+.. activecode:: lccb2-indent
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit3-If-Statements/topic-3-2-ifs
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   The code below doesn't work as expected.  Fix it to only print "Wear a coat" and "Wear gloves" when isCold is true.
+   ~~~~
+   public class Test
+   {
+      public static void main(String[] args)
+      {
+        boolean isCold = false;
+        if (isCold = true);
+            System.out.println("Wear a coat");
+            System.out.println("Wear gloves");
+
+      }
+   }
+   ====
+   import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "";
+            boolean passed = getResults(expect, output, "Expected output from main if isCold is false");
+            assertTrue(passed);
+        }
+        @Test
+        public void testCountCurlies()
+        {
+            String code = getCode();
+            int num = countOccurences(code, "{");
+            boolean passed = num >= 3;
+
+            getResults("3", "" + num, "Number of {", passed);
+            assertTrue(passed);
+        }
+    }

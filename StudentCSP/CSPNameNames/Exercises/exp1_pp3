@@ -1,6 +1,6 @@
 .. parsonsprob:: exp1_pp3
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
@@ -19,4 +19,3 @@
        return large - small
    =====
        return small - large #distractor
-

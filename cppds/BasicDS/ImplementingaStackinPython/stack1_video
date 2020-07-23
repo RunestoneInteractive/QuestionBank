@@ -1,6 +1,6 @@
 .. video:: stack1_video
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: BasicDS/ImplementingaStackinPython
     :from_source: F

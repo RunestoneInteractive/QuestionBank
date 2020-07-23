@@ -1,13 +1,11 @@
-
+.. activecode:: modules_8
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: modules_8
   
     Write a program that rolls two 'dice' and prints the results. Use a for loop to 
     roll the dice 10 times.
 
     ~~~~
-    

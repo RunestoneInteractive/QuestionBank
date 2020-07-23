@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_api2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/screenscrape_cids
    :from_source: T
@@ -11,4 +11,3 @@
    - :'BOL', 'BRA', 'CHL', 'COL', 'ECU': Is the correct answer
      :200: 200 is the status code of the request
      :x: There are five country codes, in single quotes separated ', '
-

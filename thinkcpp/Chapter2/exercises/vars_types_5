@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -38,4 +38,3 @@
     -   Line 4 should be replaced with ``c = '3'``
 
         +   This clears up the type mismatch on line 4.
-

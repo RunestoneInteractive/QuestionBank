@@ -1,6 +1,6 @@
 .. activecode:: ac400_1_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TestCases/WPProgramDevelopment
     :from_source: T
@@ -11,4 +11,3 @@
     assert distance(1, 2, 1, 2) == 0
     assert distance(1,2, 4,6) == 5
     assert distance(0,0, 1,1) = 2**0.5
-

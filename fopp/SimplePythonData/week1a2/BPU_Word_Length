@@ -1,6 +1,6 @@
 .. activecode:: BPU_Word_Length
     :author: Jane Weyant
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: SimplePythonData/week1a2
     :from_source: F
@@ -16,5 +16,3 @@
    
 
     =====
-
-    

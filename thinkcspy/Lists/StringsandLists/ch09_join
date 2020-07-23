@@ -1,6 +1,6 @@
 .. activecode:: ch09_join
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/StringsandLists
     :from_source: T
@@ -13,4 +13,3 @@
 
     print("***".join(wds))
     print("".join(wds))
-

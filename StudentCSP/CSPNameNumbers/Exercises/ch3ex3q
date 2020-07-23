@@ -1,0 +1,10 @@
+.. activecode::  ch3ex3q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: T
+    :nocodelens:
+
+    x = 6 * 1 - 2
+    print(x)

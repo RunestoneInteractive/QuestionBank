@@ -1,6 +1,6 @@
 .. mchoice:: program_dvlmt_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/programdevelopment
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: This is good practice, as long as it doesn't make the program difficult to read.
 
    Which of the following is **not** a key aspect of the incremental development process?
-

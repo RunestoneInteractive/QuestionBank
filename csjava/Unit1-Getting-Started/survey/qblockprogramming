@@ -1,0 +1,12 @@
+.. poll:: qblockprogramming
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/survey
+   :from_source: T
+   :option_1: no programming
+   :option_2: block-based programming (like App Inventor)
+   :option_3: text-based programming (like Java)
+   :option_4: both block and text-based programming
+
+   I have experience with:

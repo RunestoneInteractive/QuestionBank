@@ -1,6 +1,6 @@
 .. codelens::  cl_powerof_bad
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Variablesandparametersarelocal
     :from_source: T

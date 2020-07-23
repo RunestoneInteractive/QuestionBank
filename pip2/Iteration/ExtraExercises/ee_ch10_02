@@ -1,0 +1,20 @@
+.. activecode:: ee_ch10_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Iteration/ExtraExercises
+   :from_source: None
+
+   str1 = "I love python"
+   # HINT: what's the accumulator? That should go here.
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(chars, ['I', ' ', 'l', 'o', 'v', 'e', ' ', 'p', 'y', 't', 'h', 'o', 'n'], "Testing that chars is assigned to correct values.")
+
+   myTests().main()

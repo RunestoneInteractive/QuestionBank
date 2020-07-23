@@ -1,6 +1,6 @@
 .. mchoice:: conditional_execution_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/ConditionalExecution
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: main returns an int, so trying to make it return a string will cause an error.
 
    Observe the code above. "Bigger" never prints! How can you modify this so that all of the statements print?
-

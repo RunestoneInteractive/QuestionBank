@@ -1,0 +1,10 @@
+.. activecode:: stj
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Strings/StringsareImmutable
+    :from_source: None
+
+    greeting = "Hello, world!"
+    greeting[0] = 'J'            # ERROR!
+    print(greeting)

@@ -1,6 +1,6 @@
 .. activecode:: ac9_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Files/AlternativeFileReadingMethods
    :from_source: T
@@ -23,4 +23,3 @@
          self.assertEqual(num_lines, 11, "Testing that num_lines is assigned to correct value.")
 
    myTests().main()
-

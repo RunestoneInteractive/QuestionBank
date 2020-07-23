@@ -1,6 +1,6 @@
 .. poll:: skills
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/the_way
    :from_source: T
@@ -8,4 +8,3 @@
 
    On a scale from 1 to 10, how would you rate your programming skills
    **prior to taking this course**?
-

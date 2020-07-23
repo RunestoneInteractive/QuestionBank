@@ -1,10 +1,9 @@
-
+.. activecode:: turtle_8
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: turtle_8
 
     Explain in your own words how the following for loop is executed:
  
@@ -13,5 +12,3 @@
     	print num
 
     ~~~~
-    
-    

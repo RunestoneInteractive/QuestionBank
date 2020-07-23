@@ -1,10 +1,9 @@
-
+.. activecode:: hw_words_5000_pos_graph
     :author: Sean Joyce
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: hw_words_5000_pos_graph
 
     In the first Chapter 10 project, you worked with a file of 
     the 5000 most common words in English.  (You may also wish

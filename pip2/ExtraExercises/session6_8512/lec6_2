@@ -1,0 +1,24 @@
+.. activecode:: lec6_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session6_8512
+   :from_source: None
+   :tags: Selection/OmittingtheelseClauseUnarySelection.rst
+
+   Create the variable ``z`` whose value is ``30``. Write code to see if ``z`` is greater than ``y``. If so, add 5 to ``y``'s value, otherwise do nothing. Then, multiply ``z`` and ``y``, and assign the resulting value to the variable ``x``.
+   ~~~~
+   y = 22
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(x, 810, "Testing the value of x")
+      def testTwo(self):
+         self.assertEqual(z, 30, "Testing that z has correctly been defined.")
+
+   myTests().main()

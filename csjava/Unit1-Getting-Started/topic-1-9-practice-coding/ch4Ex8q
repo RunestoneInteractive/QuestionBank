@@ -1,0 +1,49 @@
+.. activecode::  ch4Ex8q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/topic-1-9-practice-coding
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   Finish the code below to print your favorite animal and food.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           String animal =
+           String food =
+           System.out.println();
+
+       }
+   }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;;
+     import java.io.*;
+
+     public class RunestoneTests extends CodeTestHelper
+     {
+        @Test
+         public void testPrintStringsA() throws IOException
+         {
+           String target1 = "+ animal +";
+           boolean passed1 = checkCodeContains("print animal string variation 1", target1);
+           String target2 = "+ \nanimal";
+           boolean passed2 = checkCodeContains("print animal string variation 2", target2);
+           assertTrue(passed1 || passed2);
+         }
+
+          @Test
+         public void testPrintStringsB() throws IOException
+         {
+             String target1 = "+ food +";
+             boolean passed1 = checkCodeContains("print food string variation 1", target1);
+             String target2 = "+ \nfood";
+             boolean passed2 = checkCodeContains("print food string variation 2", target2);
+             assertTrue(passed1 || passed2);
+         }
+     }

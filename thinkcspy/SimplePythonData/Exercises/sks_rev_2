@@ -1,6 +1,6 @@
 .. mchoice:: sks_rev_2
    :author: Shishir Shah
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -10,4 +10,3 @@
    :correct: a
 
    A local variable in Python is a variable that is
-    

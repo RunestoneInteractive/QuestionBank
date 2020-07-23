@@ -1,13 +1,11 @@
-
+.. activecode:: ER1005
     :author: Eric Reed
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: Sequences/Exercises
     :from_source: F
-.. activecode:: ER1005
 
 
     Write code that will a random sentence using several pools
     of parts of speech (nouns, verbs, etc)
     ~~~~
- 

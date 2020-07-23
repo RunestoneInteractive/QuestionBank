@@ -1,6 +1,6 @@
 .. parsonsprob:: pp7_14_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: T
@@ -16,4 +16,3 @@
    =====
        else:
            print("This is a pretty big number.")
-

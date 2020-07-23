@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Tuples/UnpackingArgumentsToFunctions
     :from_source: T

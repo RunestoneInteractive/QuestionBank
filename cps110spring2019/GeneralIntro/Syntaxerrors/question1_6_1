@@ -1,6 +1,6 @@
 .. mchoice:: question1_6_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: GeneralIntro/Syntaxerrors
    :from_source: None
@@ -13,4 +13,3 @@
    :feedback_c: This will produce the wrong answer, but Python will not consider it an error at all.  The programmer is the one who understands that the answer produced is wrong.
 
    Which of the following is a syntax error?
-

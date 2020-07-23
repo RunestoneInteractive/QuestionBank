@@ -1,6 +1,6 @@
 .. video:: timesTableStructure
                    :author: bmiller
-                   :difficulty: 3.0
+                   :difficulty: 3
                    :basecourse: studentcsp
                    :topic: CSPWhileAndForLoops/nestedLoops
                    :from_source: F
@@ -9,4 +9,3 @@
 
                    http://ice-web.cc.gatech.edu/ce21/1/static/video/nestedLoopStructure.mov
                    http://ice-web.cc.gatech.edu/ce21/1/static/video/nestedLoopStructure.webm
-

@@ -1,6 +1,6 @@
 .. mchoice:: const_parameters_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter9/const_parameters
    :from_source: T

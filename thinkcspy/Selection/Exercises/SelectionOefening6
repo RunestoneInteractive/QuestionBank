@@ -1,6 +1,6 @@
 .. actex:: SelectionOefening6
    :author: Jan Persan
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
@@ -10,5 +10,3 @@
    b) Schrijf een functie om te bepalen of een getal deelbaar is door 3 of 5
    c) Gebruik deze functie om alle getallen te zoeken tussen 1 en 100 die deelbaar zijn door 3 of 5.
    ~~~~
-    
-    

@@ -1,10 +1,10 @@
 .. activecode:: Modules_Voorbeeld2
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
     :language: python
 
     import random
-    print(random.randrange(10,20)) 
+    print(random.randrange(10,20))

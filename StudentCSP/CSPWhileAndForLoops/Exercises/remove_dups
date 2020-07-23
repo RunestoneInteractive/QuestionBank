@@ -1,10 +1,9 @@
-
+.. activecode:: remove_dups
     :author: Barbara  Ericson
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: StudentCSP
     :topic: CSPWhileAndForLoops/Exercises
     :from_source: F
-.. activecode:: remove_dups
     :autograde: unittest
 
     Fix the code below to remove all adjacent duplicate values in the passed list.  For 
@@ -36,8 +35,3 @@
 
               
     myTests().main()
-    
-               
-
-
-    

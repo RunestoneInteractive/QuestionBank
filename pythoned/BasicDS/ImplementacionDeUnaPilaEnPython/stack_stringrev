@@ -1,6 +1,6 @@
 .. actex:: stack_stringrev
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/ImplementacionDeUnaPilaEnPython
    :from_source: None

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: count_subject-Parsons
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. parsonsprob:: count_subject-Parsons
    :numbered: left
    :adaptive:
 
@@ -39,4 +38,3 @@
                count = count + 1
    =====
        print('There were {} subject lines in {}'.format(count, fname))
-      

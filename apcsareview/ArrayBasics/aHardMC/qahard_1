@@ -1,6 +1,6 @@
 .. mchoice:: qahard_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/aHardMC
    :from_source: T
@@ -45,6 +45,3 @@
      for (int j = 0; j < arr.length; j++)
         for (int k = 0; k <= j; k++)
            sum[j] = sum [j] + arr[k];
-
-
-

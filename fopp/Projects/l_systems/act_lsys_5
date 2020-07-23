@@ -1,6 +1,6 @@
 .. actex:: act_lsys_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/l_systems
     :from_source: T
@@ -13,4 +13,3 @@
         F
         F --> F[-F]F[+F]F
     ~~~~
-

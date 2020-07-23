@@ -1,0 +1,26 @@
+.. activecode:: ee_exceptions_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Exceptions/ExtraExercises
+   :from_source: None
+   :tags:Exceptions/intro-exceptions.rst
+
+   food = ["chocolate", "chicken", "corn", "sandwich", "soup", "potatoes", "beef", "lox", "lemonade"]
+   fifth = []
+
+   for x in food:
+
+           fifth.append(x[4])
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOneA(self):
+         self.assertEqual(fifth, ['o', 'k', 'w', 't', 'n'], "Testing that fifth is assigned to correct values.")
+
+
+   myTests().main()

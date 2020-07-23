@@ -1,0 +1,13 @@
+.. codelens:: functions_5
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/FunctionParameters
+   :from_source: None
+
+   def hello3(s, n):
+      print (" hello " + s)*n
+
+   hello3("world", 4)
+   hello3("", 1)
+   hello3("Kitty", 11)

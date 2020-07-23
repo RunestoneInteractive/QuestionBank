@@ -1,0 +1,22 @@
+.. parsonsprob:: 6_4_4_Draw_Squares
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPNameNames/namesInput
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   The following code assumes that a procedure square has been defined that takes a size.  The code should create a turtle and then use it to draw a square, move forward, and draw a second square as shown at left, <img src="../_static/SquareForwardSquare.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  Drag the lines into the correct order on the right.
+   -----
+   from turtle import *
+   =====
+   space = Screen()
+   =====
+   imani = Turtle()
+   =====
+   square(imani, 75)
+   =====
+   imani.forward(100)
+   =====
+   square(imani, 50)

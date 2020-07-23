@@ -1,6 +1,6 @@
 .. activecode:: hellojavascript
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: TheBasics/JS4Python
     :from_source: T
@@ -11,4 +11,3 @@
     function main() {
         console.log("Hello World!");
     }
-

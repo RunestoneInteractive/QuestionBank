@@ -1,0 +1,45 @@
+.. activecode:: TurtleDraw7
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit2-Using-Objects/topic-2-3-methods-no-params
+    :from_source: T
+    :language: java
+    :autograde: unittest
+    :datafile: turtleClasses.jar
+
+    import java.util.*;
+    import java.awt.*;
+
+    public class TurtleDraw7
+    {
+      public static void main(String[] args)
+      {
+          World world = new World(300,300);
+          Turtle yertle = new Turtle(world);
+          // Make yertle draw a 7 using the code above
+
+
+
+          world.show(true);
+      }
+    }
+    ====
+    import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        public RunestoneTests() {
+            super("TurtleDraw7");
+        }
+
+        @Test
+        public void test1()
+        {
+            String orig = "yertle.forward();\nyertle.turnLeft();\nyertle.forward();";
+            boolean passed = checkCodeContains(orig);
+            assertTrue(passed);
+        }
+    }

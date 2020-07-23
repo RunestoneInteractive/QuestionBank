@@ -1,6 +1,6 @@
 .. mchoice:: AP5-9-3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/Exercises
     :from_source: T
@@ -94,5 +94,3 @@
     - Party by Kerry accepted; Party by Jules accepted;
 
       - Jules' party should be rejected because it is not in the 10th month.
-
-

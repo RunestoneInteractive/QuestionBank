@@ -1,0 +1,24 @@
+.. activecode:: prediction_7
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Prediction/shannon_guesser
+   :from_source: None
+   :nocanvas:
+
+   alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+   def guesser(prev_txt, rls):
+       all_guesses = []
+       for (f, guesses) in rls:
+           if f(prev_txt):
+               # append all the guesses that are new
+               for guess in guesses:
+                    if guess not in all_guesses:
+                       all_guesses.append(guess)
+       return all_guesses
+
+   rules = [(lambda x: x[-1] == "Q", "UAI"),
+            (lambda x: True, alphabet)]
+   print guesser(" ", rules)
+   print guesser(" THE Q", rules)
+   print guesser(" THE QUALIT", rules)

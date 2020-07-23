@@ -1,6 +1,6 @@
 .. activecode:: bintree
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: Trees/NodosYReferencias
     :from_source: None
@@ -53,4 +53,3 @@
     print(r.obtenerHijoDerecho().obtenerValorRaiz())
     r.obtenerHijoDerecho().asignarValorRaiz('hola')
     print(r.obtenerHijoDerecho().obtenerValorRaiz())
-

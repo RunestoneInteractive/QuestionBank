@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_rides_over_8_hours_by_W01274
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/filtering
    :from_source: T

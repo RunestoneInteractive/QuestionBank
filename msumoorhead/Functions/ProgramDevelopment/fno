@@ -1,6 +1,6 @@
 .. activecode:: fno
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: Functions/ProgramDevelopment
    :from_source: None
@@ -17,4 +17,3 @@
    test.testEqual(distance(1,2, 1,2), 0)
    test.testEqual(distance(1,2, 4,6), 5)
    test.testEqual(distance(0,0, 1,1), 1.41)
-

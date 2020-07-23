@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_join_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/joining_SQL
     :from_source: T
@@ -22,5 +22,3 @@
       trip_count DESC
     LIMIT
       10
-
-

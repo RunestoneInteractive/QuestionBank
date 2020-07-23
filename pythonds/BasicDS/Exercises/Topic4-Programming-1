@@ -1,10 +1,9 @@
-
+.. shortanswer:: Topic4-Programming-1
    :author: Yachao Zhu
-   :difficulty: 5.0
+   :difficulty: 5
    :basecourse: pythonds
    :topic: BasicDS/Exercises
    :from_source: F
-.. shortanswer:: Topic4-Programming-1
    :optional:
 
    Implement a queue using linked lists.
@@ -13,4 +12,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

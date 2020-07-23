@@ -1,0 +1,31 @@
+.. mchoice:: e12a13_3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPStringDecisions/exam12a13
+   :from_source: T
+   :practice: T
+   :answer_a: 3
+   :answer_b: 25
+   :answer_c: 45
+   :answer_d: 10
+   :correct: c
+   :feedback_a: This will print several things.
+   :feedback_b: This will only print "You will ace a test"
+   :feedback_c: This will only print "You will meet a new friend"
+   :feedback_d: This will only print "You will catch a cold"
+
+   For what value of num will the following print only "You will meet a new friend."?
+
+   ::
+
+      if num < 5 or num > 50:
+          print("You will get a treat.")
+      if num == 5 or num < 0:
+          print("You will lose something.")
+      if num < 10 or num > 40:
+          print("You will meet a new friend.")
+      if num < 20 or num > 60:
+          print("You will catch a cold.")
+      if num >= 20 and num <= 30:
+          print("You will ace a test.")

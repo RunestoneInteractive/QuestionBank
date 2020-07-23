@@ -1,10 +1,9 @@
-
+.. activecode:: CCS1_func_hi_everyone
     :author: Michael McCarrin
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: CCS1_func_hi_everyone
 
     Complete the code below, but this time add a **for ... in** statement that calls the function hi(name) on all the names in the list **my_people**. You can change the names in the list if you prefer.
     ~~~~

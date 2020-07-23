@@ -1,6 +1,6 @@
 .. activecode:: c2g
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/Decorators
     :from_source: None
@@ -28,4 +28,3 @@
     print(c.amount)
     c.amount = -10 # notice the object does not go to an illegal state
     print(c.amount)
-

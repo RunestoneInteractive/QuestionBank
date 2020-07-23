@@ -1,0 +1,10 @@
+.. activecode:: ch02_7
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/DataTypes
+    :from_source: None
+    :nocanvas:
+
+    print 'This is a string.'
+    print """And so is this."""

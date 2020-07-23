@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_4_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Dictionaries/Aliasingandcopying
    :from_source: None
@@ -22,4 +22,3 @@
      yourdict = mydict
      yourdict["elephant"] = 999
      print(mydict["elephant"])
-

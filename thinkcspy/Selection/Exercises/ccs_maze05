@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze05
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze05
    :include: ccs_maze00, ccs_maze03
    
    methodical_walker function. This is extra credit.
@@ -31,4 +30,3 @@
     
        return path
    ====
-   

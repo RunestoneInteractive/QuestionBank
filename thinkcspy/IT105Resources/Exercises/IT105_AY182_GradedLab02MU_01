@@ -1,6 +1,6 @@
 .. activecode:: IT105_AY182_GradedLab02MU_01
    :author: Tom Babbitt
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
@@ -72,5 +72,4 @@
          else:
          	self.assertEqual(Found, True, "for loop not used; You must search DNS entries and not hard code all possibilities.")
 
-   myTests().main()  
-    
+   myTests().main()

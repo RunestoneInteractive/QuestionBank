@@ -1,6 +1,6 @@
 .. activecode:: ch05_unaryselection
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: Selection/OmittingtheelseClauseUnarySelection
     :from_source: None
@@ -9,4 +9,3 @@
     if x < 0:
         print("The negative number ",  x, " is not valid here.")
     print("This is always printed")
-

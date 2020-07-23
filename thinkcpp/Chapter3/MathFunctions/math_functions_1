@@ -1,6 +1,6 @@
 .. dragndrop:: math_functions_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/MathFunctions
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: using namespace std; ||| the standard implementation of cout
 
    Match the statement to its description.
-

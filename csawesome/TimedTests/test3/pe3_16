@@ -1,6 +1,6 @@
 .. mchoice:: pe3_16
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test3
    :from_source: T
@@ -28,4 +28,3 @@
       }
       temp = count > 1;
       return temp;
-

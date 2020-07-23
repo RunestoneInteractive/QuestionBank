@@ -1,0 +1,13 @@
+.. activecode:: bad_local
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Functions/Variablesandparametersarelocal
+    :from_source: None
+
+    def square(x):
+        y = x * x
+        return y
+
+    z = square(10)
+    print y

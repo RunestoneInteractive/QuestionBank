@@ -1,6 +1,6 @@
 .. activecode:: sks_cw6_1306s19_1
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
@@ -42,6 +42,3 @@
     mynewlist = Jsquare(mylist)  # Or whatever is the function name
     print(mylist) 			# should print original list
     print(mynewlist)			# should print squares list
-
-
-    

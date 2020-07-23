@@ -1,0 +1,18 @@
+.. activecode::  ch10ex3q
+     :author: bmiller
+     :difficulty: 3
+     :basecourse: TeacherCSP
+     :topic: CSPRepeatTurtles/ch10_exercises
+     :from_source: T
+     :nocodelens:
+
+     from turtle import *
+         space = Screen()
+     carlos = Turtle()
+
+     # repeat 2 times
+     for i in [1,2]:
+         carlos.forward(175)
+         carlos.right(90)
+     carlos.forward(150)
+     carlos.right(90)

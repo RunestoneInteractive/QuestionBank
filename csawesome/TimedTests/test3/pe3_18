@@ -1,6 +1,6 @@
 .. mchoice:: pe3_18
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test3
    :from_source: T
@@ -53,4 +53,3 @@
              if (num1 < num2) {result = -1;}
              System.out.println(result);
       }
-

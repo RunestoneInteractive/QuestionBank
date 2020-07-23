@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt_7_TroyPython2020
     :author: Shawn Haarer
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: Asmt_7_TroyPython2020
    
     Assignment 7.  Circle
 
@@ -53,5 +52,4 @@
     # Second Circle 
 
 
-    ==== 
-    
+    ====

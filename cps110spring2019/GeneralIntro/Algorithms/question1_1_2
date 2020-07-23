@@ -1,6 +1,6 @@
 .. mchoice:: question1_1_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: GeneralIntro/Algorithms
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: Computer scientists sometimes use a special notation to illustrate or document an algorithm, but this is not the definition of an algorithm.
 
    An algorithm is:
-

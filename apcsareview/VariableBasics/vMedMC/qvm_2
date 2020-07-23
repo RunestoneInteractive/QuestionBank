@@ -1,6 +1,6 @@
 .. mchoice:: qvm_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: VariableBasics/vMedMC
    :from_source: T
@@ -17,4 +17,3 @@
    :feedback_e: This makes sense, but it is not what happens.
 
    What will be printed by ``System.out.println(Integer.MAX_VALUE + 1);``?
-

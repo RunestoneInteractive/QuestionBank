@@ -1,0 +1,16 @@
+.. activecode:: ch_files_q1answer
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: thinkcspy
+    :topic: Files/Exercises
+    :from_source: T
+    :nocodelens:
+
+    f = open("studentdata.txt", "r")
+
+    for aline in f:
+        items = aline.split()
+        if len(items[1:]) > 6:
+            print(items[0])
+
+    f.close()

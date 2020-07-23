@@ -1,6 +1,6 @@
 .. video:: v_selfDivASol
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: LoopBasics/selfDivisorA
    :from_source: F
@@ -9,7 +9,3 @@
 
    http://ice-web.cc.gatech.edu/ce21/1/static/video/selfDivisorCodeA.mov
    http://ice-web.cc.gatech.edu/ce21/1/static/video/selfDivisorCodeA.webm
-
-
-
-

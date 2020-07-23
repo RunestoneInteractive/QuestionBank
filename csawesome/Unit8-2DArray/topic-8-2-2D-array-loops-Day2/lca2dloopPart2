@@ -1,6 +1,6 @@
 .. activecode:: lca2dloopPart2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit8-2DArray/topic-8-2-2D-array-loops-Day2
    :from_source: T
@@ -31,4 +31,3 @@
          System.out.println(countValues(3,matrix,0,2,0,2));
       }
    }
-

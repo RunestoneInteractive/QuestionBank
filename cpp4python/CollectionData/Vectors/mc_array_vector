@@ -1,6 +1,6 @@
 .. mchoice:: mc_array_vector
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: CollectionData/Vectors
    :from_source: T
@@ -17,4 +17,3 @@
    :feedback_e: One of the above is indeed correct.
 
    Which of the following is the biggest difference between a C++ array and a C++ vector?
-

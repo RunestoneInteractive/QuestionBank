@@ -1,0 +1,31 @@
+.. activecode:: prediction_11
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Prediction/training
+    :from_source: None
+    :nocanvas:
+    :include: prediction_training_helpers
+
+    def next_letter_frequencies(txt):
+        # txt is a big text string
+        r = {} # initialize the accumulator, an empty ditionary
+        for i in range(len(txt)-1):
+            # loop through the positions (indexes) of txt;
+            # each iteration, we'll be looking at the
+            # letter txt[i] and the following letter, txt[i+1]
+            if txt[i] not in r:
+                # first time we've seen the current letter
+                # make an empty dictionary for counts of what letters come next
+                r[txt[i]] = {}
+            next_letter_freqs = r[txt[i]]  # dictionary of counts of what letters come next after txt[i]
+            next_letter = txt[i+1]  # next letter is txt[i+1]
+            if next_letter not in next_letter_freqs:
+                # first time seeing next_letter after txt[i+1]
+                next_letter_freqs[next_letter] = 1
+            else:
+                next_letter_freqs[next_letter] = next_letter_freqs[next_letter] + 1
+        return r
+
+    counts = next_letter_frequencies(train_txt)
+    print counts

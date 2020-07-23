@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_gaussian
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -64,4 +64,4 @@
                 _gaussian(1), 7,
                "Checking default parameter values")
 
-   myTests().main()	        
+   myTests().main()

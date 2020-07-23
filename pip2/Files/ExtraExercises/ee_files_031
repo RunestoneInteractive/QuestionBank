@@ -1,0 +1,19 @@
+.. activecode:: ee_files_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Files/ExtraExercises
+   :from_source: None
+   :tags: Files/intro-WorkingwithDataFiles.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(len(beginning_chars), 30, "Testing that beginning_chars has the correct length.")
+         self.assertEqual(beginning_chars, "Writing essays for school can ", "Testing that beginning_chars has the correct string.")
+
+   myTests().main()

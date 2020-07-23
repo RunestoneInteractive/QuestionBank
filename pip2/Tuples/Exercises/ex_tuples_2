@@ -1,0 +1,12 @@
+.. actex:: ex_tuples_2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Tuples/Exercises
+    :from_source: None
+
+    julia = ("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia")
+    claude = ("Claude", "Shannon", 1916, "A Mathematical Theory of Communication", 1948, "Mathematician", "Petoskey, Michigan")
+    alan = ("Alan", "Turing", 1912, "Computing machinery and intelligence", 1950, "Mathematician", "London, England")
+
+    people = [julia, claude, alan]

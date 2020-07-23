@@ -1,0 +1,10 @@
+.. activecode:: ch08_6
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Iteration/Stringsandforloops
+    :from_source: None
+    :nocanvas:
+
+    for achar in "Go Spot Go":
+        print achar

@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_13_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Lists/ListMethods
    :from_source: None
@@ -20,5 +20,3 @@
      temp = alist.pop(2)
      temp = alist.pop()
      print(alist)
-
-

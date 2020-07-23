@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -42,4 +42,3 @@
         -   Everything is syntacticly legal! You can have ``cout`` statements on *multiple lines of code*
             that have *one* line of output... or you can have multiple ``cout`` statements on *one* line of
             code that have *multiple* lines of output!
-

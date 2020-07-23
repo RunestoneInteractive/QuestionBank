@@ -1,0 +1,20 @@
+.. activecode:: ee_ch12_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Dictionaries/ExtraExercises
+   :from_source: None
+   :tags:Dictionaries/Dictionaryoperations.rst
+
+   swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4, 'Phelps':23}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testThree(self):
+         self.assertEqual(sorted(swimmers.items()), sorted([('Adrian', 7), ('Dirado', 4), ('Ledecky', 5), ('Lochte', 12), ('Phelps', 28), ('Manuel',4)]), "Testing that swimmers is assigned to correct values.")
+
+   myTests().main()

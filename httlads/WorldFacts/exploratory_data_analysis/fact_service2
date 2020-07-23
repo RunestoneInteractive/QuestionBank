@@ -1,6 +1,6 @@
 .. fillintheblank:: fact_service2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/exploratory_data_analysis
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :(5|6): Is the correct answer
      :x: Try again, the number is less than 15
-

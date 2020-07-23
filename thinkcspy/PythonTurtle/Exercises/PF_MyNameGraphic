@@ -1,10 +1,9 @@
-
+.. activecode:: PF_MyNameGraphic
     :author: Philip Foster
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: PF_MyNameGraphic
     :language: python
   
     Create a new turtle and use your FirstLastName as your turtle's name.
@@ -23,5 +22,3 @@
     # Draw the first 7 letters of your name Capitalize the first letter of each name and add a space between first and last name
     # Make each letter a different color
     # Set pen size to "4"
-   
-    

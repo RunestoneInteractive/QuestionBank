@@ -1,6 +1,6 @@
 .. dragndrop:: act_enc_match1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/encryption
     :from_source: T
@@ -8,4 +8,3 @@
     :match_2: c|||p
     :match_3: l|||y
     :match_4: g|||t
-

@@ -1,6 +1,6 @@
 .. mchoice:: q1_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/cssquiz
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: Yes
 
    Which of the following will match the CSS selector ``#high``
-

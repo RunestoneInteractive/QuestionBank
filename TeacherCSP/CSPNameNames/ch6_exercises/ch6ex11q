@@ -1,0 +1,14 @@
+.. activecode::  ch6ex11q
+     :author: bmiller
+     :difficulty: 3
+     :basecourse: TeacherCSP
+     :topic: CSPNameNames/ch6_exercises
+     :from_source: T
+     :nocodelens:
+
+     miles = 500
+     milesPerGallon = 26
+     numGallons = miles / milesPerGallon
+     pricePerGallon = 3.45
+     total = numGallons * pricePerGallon
+     print(total)

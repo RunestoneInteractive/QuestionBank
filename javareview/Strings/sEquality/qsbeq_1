@@ -1,0 +1,22 @@
+.. mchoice:: qsbeq_1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Strings/sEquality
+   :from_source: None
+   :answer_a: s1 == s2 && s1 == s3
+   :answer_b: s1 == s2 && s1.equals(s3)
+   :answer_c: s1 != s2 && s1.equals(s3)
+   :correct: b
+   :feedback_a: Do s1 and s3 refer to the same object?
+   :feedback_b: Yes s2 was set to refer to the same object as s1 and s1 and s3 have the same characters.
+   :feedback_c: Did you miss that s2 was set to refer to the same object as s1?
+
+   Which of the following is true after the code executes?
+
+   .. code-block:: java
+
+     String s1 = new String("hi");
+     String s2 = "bye";
+     String s3 = "hi";
+     s2 = s1;

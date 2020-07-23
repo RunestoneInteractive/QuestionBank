@@ -1,0 +1,47 @@
+.. mchoice:: AP5-4-3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit5-Writing-Classes/Exercises
+   :from_source: T
+   :practice: T
+   :random:
+
+   Consider the following Liquid class. The currentTemperature is stored in the method’s int attribute. The getCurrentTemp method is intended to allow methods in other classes to access a Liquid object’s currentTemperature value; however, it does not work as intended. Which of the following best explains why the getCurrentTemperature method does NOT work as intended?
+
+   .. code-block:: java
+
+        public class Liquid
+        {
+            private int currentTemperature;
+
+            public Liquid(int ct)
+            {
+                currentTemperature = ct;
+            }
+
+            public void getCurrentTemperature()
+            {
+                return currentTemperature;
+            }
+        }
+
+   - The getCurrentTemperature method should be declared as private.
+
+     - Accessor methods should be public methods.
+
+   - The return type of the getCurrentTemperature method should be int.
+
+     + Correct! The return type should match the type of the variable being returned.
+
+   - The getCurrentTemperature method should have at least one parameter.
+
+     - Get methods do not need parameters.
+
+   - The variable currentTemperature is not declared inside of the getCurrentTemperature method.
+
+     - currentTemperature is an instance variable that is shared by all the methods in the class.
+
+   - The instance variable ct should be returned instead of currentTemperature.
+
+     - The getCurrentTemperature method does not have access to the ct variable which is the parameter for the constructor.

@@ -1,10 +1,9 @@
-
+.. shortanswer:: week9
    :author: Trina Bond
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: Unit4-Iteration/Exercises
    :from_source: F
-.. shortanswer:: week9
    :optional:
 
    4-2-1: After you complete your code on repl, paste in a link to it (click on share) here.
@@ -13,4 +12,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

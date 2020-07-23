@@ -1,13 +1,11 @@
-
+.. activecode:: simple_18
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_18
 
     Write code that asks the user for a number of days. Calculate, then print out 
     the number of years, months and days.
 
     ~~~~
-    

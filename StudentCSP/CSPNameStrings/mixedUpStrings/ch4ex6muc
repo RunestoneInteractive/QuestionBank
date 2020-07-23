@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex6muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameStrings/mixedUpStrings
    :from_source: T
@@ -18,4 +18,3 @@
    animal = "sheepdog #distractor
    =====
    print("My " + animal + " looks like a Muppet.")
-

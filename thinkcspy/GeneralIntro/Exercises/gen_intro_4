@@ -1,10 +1,9 @@
-
+.. activecode:: gen_intro_4
     :author: DANIEL LEE
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: gen_intro_4
 
     Write down 3 things you have learned about coding by reading this chapter.
     ~~~~

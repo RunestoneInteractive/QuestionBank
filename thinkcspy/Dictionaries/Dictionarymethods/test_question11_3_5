@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_3_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Dictionaries/Dictionarymethods
    :from_source: T
@@ -26,5 +26,3 @@
          if len(akey) > 3:
             total = total + mydict[akey]
       print(total)
-
-

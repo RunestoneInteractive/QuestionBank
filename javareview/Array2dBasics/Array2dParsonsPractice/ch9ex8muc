@@ -1,6 +1,6 @@
 .. parsonsprob:: ch9ex8muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: Array2dBasics/Array2dParsonsPractice
    :from_source: None
@@ -36,4 +36,3 @@
        } //end outer for loop
        return odds;
    } //end method
-

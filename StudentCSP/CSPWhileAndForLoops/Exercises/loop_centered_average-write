@@ -1,10 +1,9 @@
-
+.. activecode:: loop_centered_average-write
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. activecode:: loop_centered_average-write
    :autograde: unittest
    :nocodelens: 
 

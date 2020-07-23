@@ -1,10 +1,9 @@
-
+.. shortanswer:: wvu_exam2_dowhile
    :author: Brian Powell
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: fopp
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. shortanswer:: wvu_exam2_dowhile
 
    (4 points)
 
@@ -14,4 +13,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

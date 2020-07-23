@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_lorentzian
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -62,4 +62,4 @@
 	       _lorzentian(1, 1, 1), 7,
 	       "Checking parameter names")
 
-   myTests().main()	        
+   myTests().main()

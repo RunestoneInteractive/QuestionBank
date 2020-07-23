@@ -1,6 +1,6 @@
 .. mchoice:: AP5-8-3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/Exercises
     :from_source: T
@@ -54,4 +54,3 @@
     - The variable newTemp is not defined in the increaseTemp method.
 
       + Correct! newTemp is defined in a different method. The instance variable currentTemp should be used instead.
-

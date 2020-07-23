@@ -1,0 +1,21 @@
+.. activecode:: lec2_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session2_3921
+   :from_source: None
+
+   Write code to divide the integer value ``3`` by the integer value ``7``, and save the resulting value in the variable ``y``. Then write code to divide the floating point value ``3.0`` by the integer value ``7``, and save the resulting value in the variable ``b``. (**Consider,** before you write the code or print out the values: what type of value will be stored in the variable ``y``? What type of value will be stored in the variable ``b``?)
+   ~~~~
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+          self.assertEqual(y, 0, "Testing the value of the variable y.")
+          self.assertEqual(b, 3.0/7, "Testing the value of the variable b.")
+
+   myTests().main()

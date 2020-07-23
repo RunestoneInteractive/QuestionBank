@@ -1,6 +1,6 @@
 .. activecode:: listarray_cpp
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Introduction/CollectionData
     :from_source: T

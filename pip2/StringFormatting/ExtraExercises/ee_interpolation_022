@@ -1,0 +1,23 @@
+.. activecode:: ee_interpolation_022
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   course = "SI 106"
+   school = "University of Michigan"
+
+   final =
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(final, "I'm enrolled in SI 106 here at University of Michigan.", "Testing that final is correct.")
+
+   myTests().main()

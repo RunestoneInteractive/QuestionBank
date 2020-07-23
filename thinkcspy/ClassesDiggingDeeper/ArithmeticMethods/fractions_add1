@@ -1,6 +1,6 @@
 .. activecode:: fractions_add1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesDiggingDeeper/ArithmeticMethods
     :from_source: T
@@ -45,4 +45,3 @@
 
     f3 = f1.add(f2)
     print(f3)
-

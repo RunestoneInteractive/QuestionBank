@@ -1,6 +1,6 @@
 .. activecode:: fractions_init
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: ClassesDiggingDeeper/Fractions
     :from_source: None
@@ -26,5 +26,3 @@
 
     print(myfraction.getNum())
     print(myfraction.getDen())
-
-

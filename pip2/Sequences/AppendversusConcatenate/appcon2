@@ -1,0 +1,10 @@
+.. codelens:: appcon2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/AppendversusConcatenate
+    :from_source: None
+
+    origlist = [45,32,88]
+
+    origlist = origlist + ["cat"]

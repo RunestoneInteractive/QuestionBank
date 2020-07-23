@@ -1,6 +1,6 @@
 .. mchoice:: turtle_checkyourself_mchoice_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: Turtles/check_yourself
    :from_source: T

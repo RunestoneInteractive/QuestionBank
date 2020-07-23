@@ -1,6 +1,6 @@
 .. mchoice:: 7_4_3_Numbers_Product_Q3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatNumbers/range
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: That is the product of all numbers from 1 to 20 (e.g., you changed the 11 to 21)
 
    Change ONE number in the above program to tell us the product of all numbers from 1 to 20
-
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: fill1412
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: overview
     :topic: overview/
     :from_source: T
@@ -12,4 +12,3 @@
 
     - :away: Corect
       :.*: where did we say the red car was going?
-

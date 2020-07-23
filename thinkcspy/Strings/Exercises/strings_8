@@ -1,13 +1,11 @@
-
+.. activecode:: strings_8
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: strings_8
   
     Ask the user to input a string. Use the ‘len’ method to print out the first, 
     middle and last letter of the string.
 
     ~~~~
-    

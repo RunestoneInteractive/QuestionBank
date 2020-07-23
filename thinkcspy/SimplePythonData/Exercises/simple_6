@@ -1,13 +1,11 @@
-
+.. activecode:: simple_6
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_6
 
     Create a variable "gravity" and set it equal to the value "6.67384". Print 
     "gravity".
 
     ~~~~
-    

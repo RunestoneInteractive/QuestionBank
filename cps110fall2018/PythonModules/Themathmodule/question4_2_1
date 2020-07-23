@@ -1,6 +1,6 @@
 .. mchoice:: question4_2_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: PythonModules/Themathmodule
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: You cannot use a Python module without a statement at the top of your program that explicitly tells Python you want to use the module.
 
    Which statement allows you to use the math module in your program?
-

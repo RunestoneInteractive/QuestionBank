@@ -1,6 +1,6 @@
 .. mchoice:: question2_14_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: SimplePythonData/UpdatingVariables
    :from_source: T

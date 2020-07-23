@@ -1,11 +1,9 @@
-
+.. activecode:: CS152_ASCII_ART_1
     :author: John Cigas
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-
-.. activecode:: CS152_ASCII_ART_1
 
     Visit the site http://www.oocities.org/spunk1111/small.htm to get some ideas for a small shape 
     to draw, then use some print statements to create the shape. If that site is unavailable, then search through https://www.asciiart.eu/food-and-drinks 

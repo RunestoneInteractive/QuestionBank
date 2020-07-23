@@ -1,0 +1,29 @@
+.. mchoice:: test_questionfunctions_3_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/DecodingaFunction
+   :from_source: None
+   :multiple_answers:
+   :answer_a: integer
+   :answer_b: float
+   :answer_c: list
+   :answer_d: string
+   :answer_e: Can't tell
+   :feedback_a: append can't be performed on integers.
+   :feedback_b: append can't be performed on floats.
+   :feedback_c: append can be performed on lists.
+   :feedback_d: append can't be performed on strings.
+   :feedback_e: You can tell from some of the operations that are performed on it.
+   :correct: c
+
+   What are the possible types of variable z?
+
+   .. code-block:: python
+
+      def cyu3(x, y, z):
+         if x - y > 0:
+            return y -2
+         else:
+            z.append(y)
+            return x + 3

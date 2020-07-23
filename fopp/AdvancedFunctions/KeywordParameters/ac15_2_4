@@ -1,6 +1,6 @@
 .. activecode:: ac15_2_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: AdvancedFunctions/KeywordParameters
    :from_source: T
@@ -25,4 +25,3 @@
          self.assertEqual(waste("Pokemon"), "Water type Pokemon", "Testing that waste returns the correct string on input 'Pokemon'")
 
    myTests().main()
-

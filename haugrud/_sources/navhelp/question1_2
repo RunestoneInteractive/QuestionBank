@@ -1,6 +1,6 @@
 .. mchoice:: question1_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: _sources/navhelp
    :from_source: None
@@ -16,4 +16,3 @@
    :feedback_d: Yes, green is one of the colors.
 
    Which colors might be found in a rainbow? (choose all that are correct)
-

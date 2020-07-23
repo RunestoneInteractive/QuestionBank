@@ -1,6 +1,6 @@
 .. mchoice:: question8_1_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/Aliasing
    :from_source: T
@@ -22,5 +22,3 @@
       w = ['Jamboree', 'get-together', 'party']
       y = ['celebration']
       y = w
-
-

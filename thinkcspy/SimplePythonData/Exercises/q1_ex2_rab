@@ -1,14 +1,11 @@
-
+.. activecode:: q1_ex2_rab
     :author: Richard Bernatz
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: q1_ex2_rab
 
     Write a program that takes US dollars as input, coverts the value to Euros (assume the exchange rate is 1.25 dollars per Euro), and prints out the amount in Euros.
     ~~~~
     d = input("enter the dollar amount")
     # your code here
-
-    

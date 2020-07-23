@@ -1,6 +1,6 @@
 .. mchoice:: question1_6_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: GeneralIntro/Syntaxerrors
    :from_source: None
@@ -16,5 +16,3 @@
 
 
    Who or what typically finds syntax errors?
-
-

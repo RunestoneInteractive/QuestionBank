@@ -1,6 +1,6 @@
 .. activecode:: firstptr
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cpp4python
     :topic: AtomicData/AtomicData
     :from_source: T
@@ -21,4 +21,3 @@
 
         return 0;
     }
-

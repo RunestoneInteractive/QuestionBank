@@ -1,6 +1,6 @@
 .. parsonsprob:: nav_question1_100_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: navhelp/
    :from_source: T
@@ -10,5 +10,3 @@
    x = 0
    for i in range(10)
       x = x + 1
-
-

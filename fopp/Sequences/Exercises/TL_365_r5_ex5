@@ -1,6 +1,6 @@
 .. actex:: TL_365_r5_ex5
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -35,4 +35,3 @@
 	       self.assertEqual(line, sentence, 'Checking line '+str(i))
 	   self.assertFalse(re.search(r'print.*(' + '|'.join(sentences[:-1]) + ')', '\n'.join(editor)), 'Checking for hardcoding')
    myTests().main()
-

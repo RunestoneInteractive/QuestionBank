@@ -1,0 +1,10 @@
+.. activecode:: interpolation_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/Interpolation
+   :from_source: None
+
+   name = "Rodney Dangerfield"
+   score = -1  # No respect!
+   print "Hello " + name + ". Your score is " + str(score)

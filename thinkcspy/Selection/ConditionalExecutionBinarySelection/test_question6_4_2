@@ -1,6 +1,6 @@
 .. mchoice:: test_question6_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Selection/ConditionalExecutionBinarySelection
    :from_source: T
@@ -23,4 +23,3 @@
          print("TRUE")
      else:
          print("FALSE")
-

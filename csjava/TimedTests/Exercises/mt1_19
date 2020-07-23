@@ -1,0 +1,29 @@
+.. mchoice:: mt1_19
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: TimedTests/Exercises
+   :from_source: T
+   :answer_a: The values don't matter, this will always cause an infinite loop.
+   :answer_b: Whenever a has a value larger than temp.
+   :answer_c: When all values in a are larger than temp.
+   :answer_d: Whenever a includes a value equal to temp.
+   :answer_e: Whenever a includes a value that is less than or equal to zero.
+   :correct: e
+   :feedback_a: An infinite loop will not always occur in this program segment.
+   :feedback_b: Values larger then temp will not cause an infinite loop.
+   :feedback_c: Values larger then temp will not cause an infinite loop.
+   :feedback_d: Values equal to temp will not cause an infinite loop.
+   :feedback_e: When a contains a value that is less than or equal to zero, then multiplying that value by 2 will never make the result larger than the temp value (which was set to some value > 0), so an infinite loop will occur.
+
+   Assume that ``temp`` is an ``int`` variable initialized to be greater than zero and that ``a`` is an array of type ``int``.  Also, consider the following code segment.  Which of the following will cause an infinite loop?
+
+   .. code-block:: java
+
+      for ( int k = 0; k < a.length; k++ )
+      {
+         while ( a[k] < temp )
+         {
+            a[k] *= 2;
+         }
+      }

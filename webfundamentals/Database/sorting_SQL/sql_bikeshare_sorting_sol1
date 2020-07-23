@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_sorting_sol1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/sorting_SQL
     :from_source: T
@@ -17,4 +17,3 @@
     duration DESC
     LIMIT
     40
-

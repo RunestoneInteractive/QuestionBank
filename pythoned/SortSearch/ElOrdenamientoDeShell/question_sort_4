@@ -1,6 +1,6 @@
 .. mchoice:: question_sort_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: SortSearch/ElOrdenamientoDeShell
    :from_source: None

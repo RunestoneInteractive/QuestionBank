@@ -1,0 +1,48 @@
+.. mchoice:: qcm_4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Conditionals/cMedMC
+   :from_source: None
+   :answer_a: I and III only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and II only
+   :answer_e: I, II, and III
+   :correct: a
+   :feedback_a: Choice I uses multiple if's with logical ands in the conditions to check that the numbers are in range. Choice II won't work since if you had a score of 94, it would first assign the grade to an "A" but then it would execute the next if and change the grade to a "B" and so on until the grade was set to a "C". Choice III uses ifs with else if to make sure that only one conditional is executed.
+   :feedback_b: Choice II won't work since if you had a score of 94 it would first assign the grade to an "A" but then it would execute the next if and change the grade to a "B" and so on until the grade was set to a "C". This could have been fixed by using else if instead of just if.
+   :feedback_c: III is one of the correct answers. However, choice I is also correct. Choice I uses multiple if's with logical ands in the conditions to check that the numbers are in range. Choice II uses ifs with else if to make sure that the only one conditional is executed.
+   :feedback_d: Choice II won't work since if you had a score of 94 it would first assign the grade to an "A" but then it would execute the next if and change the grade to a "B" and so on until the grade was set to a "C". This could have been fixed by using else if instead of just if.
+   :feedback_e: Choice II won't work since if you had a score of 94 it would first assign the grade to an "A" but then it would execute the next if and change the grade to a "B" and so on until the grade was set to a "C". This could have been fixed by using else if instead of just if.
+
+   At a certain high school students receive letter grades based on the following scale: 93 or above is an A, 84 to 92 is a B, 75 to 83 is a C, and below 75 is an F. Which of the following code segments will assign the correct string to grade for a given integer score?
+
+   .. code-block:: java
+
+     I.   if (score >= 93)
+           grade = "A";
+          if (score >= 84 && score <=92)
+           grade = "B";
+          if (score >=75 && score <= 83)
+           grade = "C";
+          if (score < 75)
+           grade = "F";
+
+     II.  if (score >= 93)
+           grade = "A";
+          if (score >= 84)
+           grade = "B";
+          if (score >=75)
+           grade = "C";
+          if (score < 75)
+           grade = "F";
+
+     III. if (score >= 93)
+           grade = "A";
+          else if (score >= 84)
+           grade = "B";
+          else if (score >=75)
+           grade = "C";
+          else
+           grade = "F";

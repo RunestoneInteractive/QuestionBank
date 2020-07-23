@@ -1,10 +1,9 @@
-
+.. parsonsprob:: pItemmt1
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. parsonsprob:: pItemmt1
    :numbered: left
    :adaptive:
 

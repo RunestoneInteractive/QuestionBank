@@ -1,6 +1,6 @@
 .. activecode:: String_Methods2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameStrings/strObjects
    :from_source: T
@@ -12,4 +12,3 @@
    print(better)
    betterStill = better.capitalize() + "."
    print(betterStill)
-

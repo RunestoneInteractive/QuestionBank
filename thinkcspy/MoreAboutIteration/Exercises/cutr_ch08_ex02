@@ -1,6 +1,6 @@
 .. actex:: cutr_ch08_ex02
    :author: Sandra Jackson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
@@ -24,4 +24,3 @@
            self.assertEqual(listSumBelow([],12),[], "Tested on the Empty List")
 
    myTests().main()
-    

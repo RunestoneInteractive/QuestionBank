@@ -1,0 +1,24 @@
+.. activecode::  ch7Ex6q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit6-Arrays/ArrayPractice
+   :from_source: T
+   :language: java
+
+   Finish the following method to return the sum of all of the non-negative values in the passed array.
+   ~~~~
+   public class Test
+   {
+
+       public static int getSumNonNeg(int[] arr)
+       {
+       }
+
+       public static void main(String[] args)
+       {
+           int[] a1 = {1, 2, 5, 3, -1, -20};
+           System.out.println("The code should print 11 " +
+                              "and your answer is: " + getSumNonNeg(a1));
+       }
+   }

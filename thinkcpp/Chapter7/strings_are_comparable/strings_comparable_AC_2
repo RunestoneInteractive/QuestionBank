@@ -1,6 +1,6 @@
 .. activecode:: strings_comparable_AC_2
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: thinkcpp
   :topic: Chapter7/strings_are_comparable
   :from_source: T

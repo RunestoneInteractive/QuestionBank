@@ -1,0 +1,9 @@
+.. activecode:: sde
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: SimplePythonData/ValuesandDataTypes
+    :from_source: None
+    :nocanvas:
+
+    print("Oh no", she exclaimed, "Ben's bike is broken!")

@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_7_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Lists/ListsareMutable
    :from_source: None
@@ -19,4 +19,3 @@
      alist = [4, 2, 8, 6, 5]
      alist[2] = True
      print(alist)
-

@@ -1,6 +1,6 @@
 .. mchoice:: mc2j
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: SimplePythonData/OrderofOperations
    :from_source: None
@@ -19,5 +19,3 @@
    .. code-block:: python
 
       16 - 2 * 5 // 3 + 1
-
-

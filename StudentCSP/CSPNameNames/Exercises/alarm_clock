@@ -1,10 +1,9 @@
-
+.. activecode:: alarm_clock
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. activecode:: alarm_clock
    :autograde: unittest
    :nocodelens: 
 

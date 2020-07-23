@@ -1,6 +1,6 @@
 .. mchoice:: assignment_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Assignment
    :from_source: T
@@ -28,4 +28,3 @@
          p = 'h';
          q = '9';
        }
-

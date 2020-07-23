@@ -1,6 +1,6 @@
 .. mchoice:: 8_5_1_NumStars
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPWhileAndForLoops/nestedLoops
    :from_source: T

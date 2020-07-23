@@ -1,0 +1,19 @@
+.. activecode:: ex_7_17
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: msumoorhead
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   import image
+
+   def convertBlackWhite(input_image):
+
+   win = image.ImageWin()
+   img = image.Image("luther.jpg")
+
+   bw_img = convertBlackWhite(img)
+   bw_img.draw(win)
+
+   win.exitonclick()

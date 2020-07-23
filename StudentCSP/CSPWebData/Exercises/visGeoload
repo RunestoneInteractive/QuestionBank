@@ -1,11 +1,9 @@
-
+.. parsonsprob:: visGeoload
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWebData/Exercises
    :from_source: F
-
-.. parsonsprob:: visGeoload
    :adaptive:
    :numbered: left
 

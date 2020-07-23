@@ -1,10 +1,9 @@
-
+.. parsonsprob:: midtermFiindMonthv2
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: midtermFiindMonthv2
    :adaptive:
    :numbered: left
 
@@ -39,4 +38,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

@@ -1,6 +1,6 @@
 .. parsonsprob:: pass_others_reference_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter8/passing_other_types_by_reference
    :from_source: T

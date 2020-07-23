@@ -1,10 +1,9 @@
-
+.. activecode:: msmu_class_3
     :author: Irma Ravkic
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Inheritance/Exercises
     :from_source: F
-.. activecode:: msmu_class_3
     :autograde: unittest
 
     

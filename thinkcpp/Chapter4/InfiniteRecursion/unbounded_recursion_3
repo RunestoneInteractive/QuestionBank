@@ -1,6 +1,6 @@
 .. mchoice:: unbounded_recursion_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/InfiniteRecursion
    :from_source: T
@@ -25,4 +25,3 @@
        int main() {
          isNegative(10);
        }
-

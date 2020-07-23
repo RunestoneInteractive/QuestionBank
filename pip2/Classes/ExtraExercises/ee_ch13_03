@@ -1,0 +1,20 @@
+.. activecode:: ee_ch13_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/AddingOtherMethodstoourClass.rst, Classes/ImprovingourConstructor.rst, Classes/ConvertinganObjecttoaString.rst
+
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(t1.__str__(), "Your account, Bob, has 100 dollars.", "Testing that t1 is assigned to correct value")
+
+   myTests().main()

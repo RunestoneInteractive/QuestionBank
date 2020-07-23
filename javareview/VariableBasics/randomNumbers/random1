@@ -1,0 +1,16 @@
+.. activecode:: random1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/randomNumbers
+   :from_source: None
+   :language: java
+
+   public class Test3
+   {
+      public static void main(String[] args)
+      {
+        System.out.println(Math.random());
+        System.out.println(Math.random());
+      }
+   }

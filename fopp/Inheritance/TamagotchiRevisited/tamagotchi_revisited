@@ -1,6 +1,6 @@
 .. activecode:: tamagotchi_revisited
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/TamagotchiRevisited
     :from_source: T

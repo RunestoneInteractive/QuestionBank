@@ -1,6 +1,6 @@
 .. activecode:: chp13_classes1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Classes/UserDefinedClasses
     :from_source: T
@@ -17,4 +17,3 @@
     q = Point()         # and make a second point
 
     print("Nothing seems to have happened with the points")
-

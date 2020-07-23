@@ -1,10 +1,9 @@
-
+.. shortanswer:: mihaela_hp1_2
    :author: Mihaela Sabin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
-.. shortanswer:: mihaela_hp1_2
    :optional:
 
   Compare lists and strings
@@ -14,4 +13,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

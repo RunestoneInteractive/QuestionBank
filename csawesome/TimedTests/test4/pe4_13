@@ -1,6 +1,6 @@
 .. mchoice:: pe4_13
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test4
    :from_source: T
@@ -25,4 +25,3 @@
      {
         // code for class
      }
-

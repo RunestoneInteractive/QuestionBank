@@ -1,6 +1,6 @@
 .. parsonsprob:: Image_Set_Green_Half_Red
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatImages/pattern
    :from_source: T
@@ -29,4 +29,3 @@
    =====
    win = ImageWin(Img.getWidth(),img.getHeight())
    img.draw(win) #paired
-

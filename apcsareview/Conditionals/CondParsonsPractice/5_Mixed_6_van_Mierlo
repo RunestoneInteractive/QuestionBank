@@ -1,6 +1,6 @@
 .. parsonsprob:: 5_Mixed_6_van_Mierlo
    :author: Matthijs van Mierlo
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: apcsareview
    :topic: Conditionals/CondParsonsPractice
    :from_source: F
@@ -42,4 +42,3 @@
    =====
        }
    }
-

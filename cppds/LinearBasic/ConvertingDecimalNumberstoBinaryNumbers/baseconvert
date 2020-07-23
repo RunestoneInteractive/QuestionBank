@@ -1,6 +1,6 @@
 .. activecode:: baseconvert
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: LinearBasic/ConvertingDecimalNumberstoBinaryNumbers
     :from_source: T
@@ -32,6 +32,6 @@
 
     def main():
         imynum = 25
-        print(baseConverter(mynum, 2))
-        print(baseConverter(mynum, 16))
+        print(baseConverter(imynum, 2))
+        print(baseConverter(imynum, 16))
     main()

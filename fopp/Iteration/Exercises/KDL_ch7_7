@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch7_7
    :author: Kaelyn Leake
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
@@ -26,4 +26,4 @@
            self.assertIn('input(', self.getEditorText(), 'Contains input')
            self.assertEqual(split(s), l, "testing list.")
            
-   myTests().main()   
+   myTests().main()

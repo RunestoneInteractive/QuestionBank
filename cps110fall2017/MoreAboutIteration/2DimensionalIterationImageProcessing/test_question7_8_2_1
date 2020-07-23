@@ -1,6 +1,6 @@
 .. mchoice:: test_question7_8_2_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: MoreAboutIteration/2DimensionalIterationImageProcessing
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: These are simply made-up values that may or may not appear in the image.  Get the values for row 100 and column 30 with p = img.getPixel(30, 100).
 
    Using the previous ActiveCode example, select the answer that is closest to the RGB values of the pixel at row 100, column 30?  The values may be off by one or two due to differences in browsers.
-

@@ -1,0 +1,18 @@
+.. activecode:: ee_files_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Files/ExtraExercises
+   :from_source: None
+   :tags: Files/Iteratingoverlinesinafile.rst, Files/intro-WorkingwithDataFiles.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(num_lines, 11, "Testing that num_lines is assigned to correct value.")
+
+   myTests().main()

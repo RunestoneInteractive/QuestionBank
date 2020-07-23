@@ -1,0 +1,10 @@
+.. activecode:: lih
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Lists/ListsareMutable
+    :from_source: None
+
+    alist = ['a', 'b', 'c', 'd', 'e', 'f']
+    alist[1:3] = ['x', 'y']
+    print(alist)

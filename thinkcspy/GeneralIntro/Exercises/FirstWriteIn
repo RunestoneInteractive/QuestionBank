@@ -1,10 +1,9 @@
-
+.. dragndrop:: FirstWriteIn
     :author: Oscar Gracias
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. dragndrop:: FirstWriteIn
     :feedback: This is feedback
     :match_1: Jacob|||First name
     :match_2: Gracias|||Answer B
@@ -15,4 +14,3 @@
 config values (conf.py): 
 
 - dragndrop_div_class - custom CSS class of the component's outermost div
-    

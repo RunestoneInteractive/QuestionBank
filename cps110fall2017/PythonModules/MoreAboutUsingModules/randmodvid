@@ -1,6 +1,6 @@
 .. video:: randmodvid
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: PythonModules/MoreAboutUsingModules
     :from_source: None
@@ -9,4 +9,3 @@
 
     http://media.interactivepython.org/thinkcsVideos/mathrandommodule.mov
     http://media.interactivepython.org/thinkcsVideos/mathrandommodule.webm
-

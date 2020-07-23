@@ -1,6 +1,6 @@
 .. mchoice:: fun_comp_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/composition
    :from_source: T

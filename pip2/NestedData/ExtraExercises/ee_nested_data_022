@@ -1,0 +1,34 @@
+.. activecode:: ee_nested_data_022
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/ExtraExercises
+   :from_source: None
+   :tags: NestedData/NestedDictionaries.rst
+
+   nested = {'data': ['finding', 23, ['exercises', 'hangout', 34]], 'window': ['part', 'whole', [], 'sum', ['math', 'calculus', 'algebra', 'geometry', 'statistics',['physics', 'chemistry', 'biology']]]}
+
+   # Check to see if the key data is in nested, if it is, assign True to the variable data, otherwise assign False.
+
+   # Check to see if the integer 24 is in the value of the key data, if it is then assign to the variable twentyfour the value of True, otherwise False.
+
+   # Check to see that whole is not in the value of the key window. If it's not, then assign to the variable whole the value of True, otherwise False.
+
+   # Check to see if the string 'physics' is a key in the dictionary nested. If it is, assign to the variable physics, the value of True, otherwise False.
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(data, True, "Testing that data has the correct value.")
+      def testTwo(self):
+         self.assertEqual(twentyfour, False, "Testing that twentyfour has the correct value.")
+      def testThree(self):
+         self.assertEqual(whole, False, "Testing that whole has the correct value.")
+      def testFour(self):
+         self.assertEqual(physics, False, "Testing that physics has the correct value.")
+
+   myTests().main()

@@ -1,6 +1,6 @@
 .. activecode:: bin_tree
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: Trees/ListofListsRepresentation
     :from_source: T
@@ -57,4 +57,3 @@
     insert_left(left_child, 11)
     print(a_tree)
     print(get_right_child(get_right_child(a_tree)))
-

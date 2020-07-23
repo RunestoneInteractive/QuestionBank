@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameStrings/mixedUpStrings
    :from_source: T
@@ -18,4 +18,3 @@
    print(emotion + 4 + " you!") #distractor
    =====
    print(emotion + str(4) + " you!")
-

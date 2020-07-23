@@ -1,0 +1,11 @@
+.. activecode:: Complete_Assignment
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPNameNumbers/invoice
+   :from_source: T
+
+   apples = 4
+   pears = 3
+   totalCost =
+   print(totalCost)

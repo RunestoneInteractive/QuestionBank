@@ -1,6 +1,6 @@
 .. activecode:: pdp_asn1_1
    :author: Lloyd Smith
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
@@ -33,5 +33,3 @@
    #Etc
 
    wn.exitonclick()  #This should be your last statement
-
-    

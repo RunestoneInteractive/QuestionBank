@@ -1,10 +1,9 @@
-
+.. parsonsprob:: mt1dictcolors
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPStringPieces/Exercises
    :from_source: F
-.. parsonsprob:: mt1dictcolors
    :numbered: left
    :adaptive:
 
@@ -26,4 +25,3 @@
            color_dict[color] = color_dict[color] + 1 #paired
    =====
        return color_dict
-  

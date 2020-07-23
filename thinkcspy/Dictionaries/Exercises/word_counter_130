@@ -1,10 +1,9 @@
-
+.. activecode:: word_counter_130
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Dictionaries/Exercises
    :from_source: F
-.. activecode:: word_counter_130
    :language: python3
    :nopair:
 
@@ -52,5 +51,3 @@
        #Use show_counts() to display words and counts
    
    main()
-
-    

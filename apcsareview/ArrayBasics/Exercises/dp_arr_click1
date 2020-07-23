@@ -1,10 +1,9 @@
-
+.. clickablearea:: dp_arr_click1
     :author: Daniel Pearson
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: apcsareview
     :topic: ArrayBasics/Exercises
     :from_source: F
-.. clickablearea:: dp_arr_click1
     :question: This questions goes with Section 8.6. What is wrong with the code? If you figured out you need to delete a line of text, you are on the right track. Click on the line of text to delete.
     :feedback: The loop is ending early because of a return statement.
     :iscode: 

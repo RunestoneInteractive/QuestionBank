@@ -1,0 +1,18 @@
+.. activecode:: lcfrsda4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: LoopBasics/selfDivisorA
+   :from_source: None
+   :language: java
+
+   public class Test
+   {
+      public static void main(String[] args)
+      {
+         System.out.println(128 % 10);
+         System.out.println(128 / 10);
+         System.out.println(12 % 10);
+         System.out.println(12 / 10);
+      }
+   }

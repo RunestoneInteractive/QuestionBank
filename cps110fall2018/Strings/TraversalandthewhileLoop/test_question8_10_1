@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_10_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Strings/TraversalandthewhileLoop
    :from_source: None
@@ -22,4 +22,3 @@
       while idx < len(s):
           print(s[idx])
           idx = idx + 2
-

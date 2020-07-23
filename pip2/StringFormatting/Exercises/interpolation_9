@@ -1,0 +1,10 @@
+.. activecode:: interpolation_9
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/Exercises
+   :from_source: None
+
+   val =
+   temp = "Hey, {0}, {0} there!".format(val)
+   print temp

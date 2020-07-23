@@ -1,6 +1,6 @@
 .. dragndrop:: matching_searchhash
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: SearchHash/Glossary
     :from_source: T

@@ -1,10 +1,9 @@
-
+.. activecode:: Troy2018_4.3B
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Troy2018_4.3B
   
     Complete the Four Square assignment.  
     
@@ -25,5 +24,3 @@
     # Turtle Four Square Program by ....... type your name here
 
     import turtle
-
-    

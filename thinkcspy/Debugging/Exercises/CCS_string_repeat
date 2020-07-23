@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_string_repeat
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_string_repeat
 
    **Write a program that does the following:**
 
@@ -29,4 +28,3 @@
    **NOTE: The IF statement is not permitted.**
     
    ~~~~
-    

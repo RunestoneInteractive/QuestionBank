@@ -1,6 +1,6 @@
 .. activecode:: order-fix-test
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
@@ -61,5 +61,3 @@
            self.assertEqual(self.o1.total, 9.98, 'self.o1.total()')
 
    TestOrder().main()
-
-      

@@ -1,6 +1,6 @@
 .. dragndrop:: formal_natural_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/formal_natural
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: literalness|||meaning exactly what is said, nothing more
 
    Match each term to an example of it!
-

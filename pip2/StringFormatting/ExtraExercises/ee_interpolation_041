@@ -1,0 +1,20 @@
+.. activecode:: ee_interpolation_041
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(data_mine(('Iron Mountain', 'snow')), "In Iron Mountain there is snow so it is cold.", "Testing that data_mine has the correct return value with input ('Iron Mountain', 'snow').")
+         self.assertEqual(data_mine(('Santa Clara', 'sun')), 'In Santa Clara there is sun so there are blue skies.', "Testing that data_mine has the correct return value with input ('Santa Clara', 'sun')")
+         self.assertEqual(data_mine(('Seattle', 'rain')), "In Seattle there is rain so it is cloudy.", "Testing that data_mine has the correct return value with input ('Seattle', 'rain')")
+
+   myTests().main()

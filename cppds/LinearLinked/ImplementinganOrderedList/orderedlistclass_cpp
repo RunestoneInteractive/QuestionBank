@@ -1,6 +1,6 @@
 .. activecode:: orderedlistclass_cpp
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: LinearLinked/ImplementinganOrderedList
    :from_source: T
@@ -152,5 +152,3 @@
        cout<<"MY LIST: "<<endl<<mylist;
        return 0;
    }
-
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: act_corr_free_gen
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/correlation_matrix
    :from_source: T
@@ -12,4 +12,3 @@
      :0.317: Use the ROUND function to perform the rounding, don't just truncate the result
      :0.3175795514: Make sure you round to three decimal places
      :x: catchall feedback
-

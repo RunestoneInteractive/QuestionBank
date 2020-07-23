@@ -1,6 +1,6 @@
 .. activecode:: activepassrefcpp
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cpp4python
     :topic: Functions/DefiningFunctions
     :from_source: T
@@ -33,4 +33,3 @@
 
         return 0;
     }
-

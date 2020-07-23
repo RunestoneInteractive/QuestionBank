@@ -1,0 +1,31 @@
+.. activecode:: ee_ch13_061
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: DictionaryAccumulation/ExtraExercises
+   :from_source: None
+   :tags: DictionaryAccumulation/intro-AccumulatingMultipleResultsInaDictionary.rst
+
+   string1 = "There is a tide in the affairs of men, Which taken at the flood, leads on to fortune. Omitted, all the voyage of their life is bound in shallows and in miseries. On such a full sea are we now afloat. And we must take the current when it serves, or lose our ventures."
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(letter_counts['t'], 19, "Testing that the letter 't' has the correct value.")
+
+      def testTwo(self):
+         self.assertEqual(letter_counts['w'], 6, "Testing that the letter 'w' has the correct value.")
+
+      def testThree(self):
+         self.assertEqual(letter_counts['o'], 17, "Testing that the letter 'o' has the correct value.")
+
+      def testFour(self):
+         self.assertEqual(letter_counts['a'], 17, "Testing that the letter 'a' has the correct value.")
+
+
+
+   myTests().main()

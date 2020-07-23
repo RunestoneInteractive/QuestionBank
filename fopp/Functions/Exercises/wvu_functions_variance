@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_functions_variance
    :author: Brian Powell
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: wvu_functions_variance
    :autograde: unittest
 
    Variance can be calculated as **(∑(x−x̄)²)/n**, where **x̄** is the average of all **x** and **n** is the count of how many **x** there are.

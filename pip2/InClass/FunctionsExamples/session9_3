@@ -1,0 +1,18 @@
+.. activecode:: session9_3
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/FunctionsExamples
+    :from_source: None
+
+    def get_acronym(list_of_strs):
+        accum_str = ""
+        for s in list_of_strs:
+            accum_str = accum_str + s[0]
+        return accum_str
+
+    # example invocations
+    words = ["PRAY", "YOU", "TOOK", "HER", "ONLY", "NEEDLE"]
+    print get_acronym(words)
+
+    print get_acronym(["YO","IS","KRAZY-GLUE","EVEN","SURPRISING"])

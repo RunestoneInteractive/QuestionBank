@@ -1,13 +1,11 @@
-
+.. activecode:: more_6
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: more_6
   
     How did the function "isInScreen()" from the "Randomly Walking Turtles" 
     chapter determine if the turtle is in the screen?
 
     ~~~~
-    

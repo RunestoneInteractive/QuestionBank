@@ -1,6 +1,6 @@
 .. activecode:: ch02_10
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: SimplePythonData/Variables
     :from_source: None
@@ -13,4 +13,3 @@
     print(type(message))
     print(type(n))
     print(type(pi))
-

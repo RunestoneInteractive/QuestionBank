@@ -1,6 +1,6 @@
 .. activecode:: bintree
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: Trees/NodesandReferences
     :from_source: T
@@ -54,4 +54,3 @@
     print(r.getRightChild().getRootVal())
     r.getRightChild().setRootVal('hello')
     print(r.getRightChild().getRootVal())
-

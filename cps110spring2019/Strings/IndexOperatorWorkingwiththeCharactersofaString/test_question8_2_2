@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_2_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Strings/IndexOperatorWorkingwiththeCharactersofaString
    :from_source: None
@@ -21,6 +21,3 @@
 
       s = "python rocks"
       print(s[2] + s[-5])
-
-
-

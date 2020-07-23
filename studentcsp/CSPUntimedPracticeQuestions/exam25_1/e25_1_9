@@ -1,6 +1,6 @@
 .. mchoice:: e25_1_9
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: studentcsp
   :topic: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
@@ -22,5 +22,3 @@
     Right ← 10
     Left ← 4
     Product ← Right *((Right+Left)+ Mid)
-
-

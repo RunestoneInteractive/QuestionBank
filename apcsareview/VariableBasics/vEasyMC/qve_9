@@ -1,6 +1,6 @@
 .. mchoice:: qve_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: VariableBasics/vEasyMC
    :from_source: T
@@ -13,13 +13,3 @@
    :feedback_c: Using base 2 the value of 10111011 is:  128+32+16+8+2+1 = 187
 
    What is the binary equivalent of the following base 10 number: 187?
-
-
-
-
-
-
-
-
-
-

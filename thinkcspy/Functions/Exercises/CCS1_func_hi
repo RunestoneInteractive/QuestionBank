@@ -1,10 +1,9 @@
-
+.. activecode:: CCS1_func_hi
     :author: Michael McCarrin
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: CCS1_func_hi
 
     Complete the function below so the program prints the message "Hello Ola!"
     ~~~~

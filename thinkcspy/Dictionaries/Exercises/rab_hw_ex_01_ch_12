@@ -1,6 +1,6 @@
 .. actex:: rab_hw_ex_01_ch_12
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Dictionaries/Exercises
    :from_source: F
@@ -30,5 +30,4 @@
            nw = cipher('jack in the box', d)
            self.assertEqual(nw, '#ack in the !&x' ,"Tested jack in the box == #ack in the !&x")          
 
-   myTests().main() 
-    
+   myTests().main()

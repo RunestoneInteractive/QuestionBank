@@ -1,0 +1,10 @@
+.. activecode::  16_7_3_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPIntroData/decRange
+    :from_source: T
+    :nocodelens:
+
+    for index in range(10, -2, -2):
+      print(index)

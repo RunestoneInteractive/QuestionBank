@@ -1,6 +1,6 @@
 .. mchoice:: question15_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter15/File_output
    :from_source: T

@@ -1,0 +1,27 @@
+.. activecode::  6_5_2_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNames/nameSets
+    :from_source: T
+    :nocodelens:
+
+    # DEFINE THE PROCEDURE
+    def pentagon(turtle,size):
+        turtle.forward(size)
+        turtle.right(72)
+        turtle.forward(size)
+        turtle.right(72)
+        turtle.forward(size)
+        turtle.right(72)
+        turtle.forward(size)
+        turtle.right(72)
+        turtle.forward(size)
+        turtle.right(72)
+
+    # CREATE TURTLE WORLD
+    from turtle import *
+    space = Screen()
+    emily = Turtle()
+    # CALL THE PROCEDURE
+    pentagon(emily,100)

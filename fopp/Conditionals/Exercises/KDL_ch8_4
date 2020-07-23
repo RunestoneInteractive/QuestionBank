@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch8_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: F
-.. activecode:: KDL_ch8_4
    :autograde: unittest
    :language: python
 
@@ -26,4 +25,4 @@
            self.assertIn('print(', self.getEditorText(), 'Contains print')
            self.assertIn('for', self.getEditorText(), 'Contains print')
            
-   myTests().main()    
+   myTests().main()

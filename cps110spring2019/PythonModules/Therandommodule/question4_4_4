@@ -1,6 +1,6 @@
 .. mchoice:: question4_4_4
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: PythonModules/Therandommodule
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: While a programmer would need to ensure the computer did not select the same number more than once, it is easy to ensure this.
 
    One reason that lotteries don't use computers to generate random numbers is:
-

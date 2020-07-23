@@ -1,6 +1,6 @@
 .. actex:: SelectionOefening4
    :author: Gilles Fiers
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
@@ -23,4 +23,3 @@
    Schrijf een programma dat aan de gebruiker zijn/haar gewicht en lengte vraagt, en weergeeft of die al of niet een normaal gewicht heeft. 
    Nadien kan je je programma uitbreiden om weer te geven onder welke categorie zich men bevindt. 
    ~~~~
-    

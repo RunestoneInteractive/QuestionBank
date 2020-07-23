@@ -1,0 +1,8 @@
+.. actex:: ex_2_6
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: SimplePythonData/Exercises
+   :from_source: None
+
+   print 6 * 1 -2

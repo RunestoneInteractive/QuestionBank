@@ -1,0 +1,13 @@
+.. dragndrop:: ch5_cond2
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: javareview
+    :topic: Conditionals/Exercises
+    :from_source: None
+    :feedback: Review the summaries above.
+    :match_1: used to execute code when one of two conditions is true|||logical or
+    :match_2: one or more statements enclosed in a open curly brace and a close curly brace|||blocks of statements
+    :match_3: used to start a conditional and execute code if a condition is true|||if
+    :match_4: used to distribute a negation on a complex conditional|||DeMorgan's Laws
+
+    Drag the definition from the left and drop it on the correct method on the right.  Click the "Check Me" button to see if you are correct.

@@ -1,6 +1,6 @@
 .. mchoice:: test_question3_4_3
       :author: bmiller
-      :difficulty: 3.0
+      :difficulty: 3
       :basecourse: thinkcspy
       :topic: PythonTurtle/IterationSimplifiesourTurtleProgram
       :from_source: T
@@ -21,4 +21,3 @@
 
          for number in [5, 4, 3, 2, 1, 0]:
              print("I have", number, "cookies.  I'm going to eat one.")
-

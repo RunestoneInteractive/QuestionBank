@@ -1,10 +1,9 @@
-
+.. activecode:: JOC_Ch12_1
    :author: Joaquin Carbonara
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: JOC_Ch12_1
    :autograde: unittest
    :language: python
 
@@ -14,4 +13,4 @@
    ====
    
          
-   myTests().main()   
+   myTests().main()

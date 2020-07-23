@@ -1,0 +1,17 @@
+.. mchoice:: q3_1_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/vIntro
+   :from_source: None
+   :answer_a: int
+   :answer_b: double
+   :answer_c: boolean
+   :answer_d: String
+   :correct: a
+   :feedback_a: The number of people is a whole number so using an integer make sense.
+   :feedback_b: Can you have 2.5 people in a household?
+   :feedback_c: Is the number of people something that is either true or false?
+   :feedback_d: While you can use a string, a number is better for doing calculations with (like finding the average number of people in a household).
+
+   What type should you use to represent the number of people in a household?

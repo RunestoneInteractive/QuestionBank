@@ -1,0 +1,11 @@
+.. activecode:: NumberGroupA
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: FreeResponse/NumberGroupA
+   :from_source: T
+   :language: java
+
+   public interface NumberGroup{
+      //Finish the interface here!
+   }

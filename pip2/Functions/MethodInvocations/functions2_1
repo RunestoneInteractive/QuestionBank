@@ -1,0 +1,14 @@
+.. activecode:: functions2_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/MethodInvocations
+   :from_source: None
+
+   y = "This is a sentence"
+   z = y.split()
+   print type(z)
+   print len(z)
+   print z
+   for w in z:
+       print w

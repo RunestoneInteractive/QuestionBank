@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_wfb_
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/scrape_cia
    :from_source: T
@@ -13,4 +13,3 @@
      :../fields/2153.html#126: No, #126 is not part of the filename
      :2153.html: Is only the filename
      :#126: Is not part of the filename
-

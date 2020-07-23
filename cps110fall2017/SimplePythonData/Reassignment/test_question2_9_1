@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_9_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: SimplePythonData/Reassignment
    :from_source: None
@@ -22,4 +22,3 @@
      x = 15
      y = x
      x = 22
-

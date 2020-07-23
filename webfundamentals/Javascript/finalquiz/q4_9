@@ -1,6 +1,6 @@
 .. mchoice:: q4_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/finalquiz
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: No, link is used for including css
 
    What is the correct syntax for referring to an external script called "xxx.js"?
-

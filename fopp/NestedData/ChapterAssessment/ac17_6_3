@@ -1,6 +1,6 @@
 .. activecode:: ac17_6_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/ChapterAssessment
    :from_source: T
@@ -35,4 +35,3 @@
          self.assertEqual(test3, True, "Testing that test3 has the correct value.")
 
    myTests().main()
-

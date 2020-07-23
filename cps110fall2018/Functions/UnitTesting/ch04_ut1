@@ -1,6 +1,6 @@
 .. activecode:: ch04_ut1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: Functions/UnitTesting
     :from_source: None
@@ -12,4 +12,3 @@
     import test
     print('testing square function')
     test.testEqual(square(10), 100)
-

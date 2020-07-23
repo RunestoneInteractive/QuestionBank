@@ -1,6 +1,6 @@
 .. fillintheblank:: mean_salary_in_wonkytown
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/measures_of_spread
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :(\$|)50(,|)000: Correct
      :x: Incorrect
-

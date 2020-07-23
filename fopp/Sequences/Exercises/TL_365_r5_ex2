@@ -1,6 +1,6 @@
 .. actex:: TL_365_r5_ex2
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -33,4 +33,3 @@
 	   self.assertEqual(message, 'Who run the world? girls', 'Checking if assigned variable gives correct value')
 	   self.assertFalse(re.search(r'(\?|Who run the world? girls)', '\n'.join(editor[1:])), 'Checking for hardcoding')
    myTests().main()
-

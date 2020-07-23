@@ -1,6 +1,6 @@
 .. mchoice:: bigOefficiency
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: AlgorithmAnalysis/HashTableAnalysis
     :from_source: T

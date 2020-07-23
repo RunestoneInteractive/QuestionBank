@@ -1,6 +1,6 @@
 .. activecode:: ac17_6_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/ChapterAssessment
    :from_source: T
@@ -25,4 +25,3 @@
          self.assertEqual(london_gold, 29, "Testing that london_gold is assigned to correct value")
 
    myTests().main()
-

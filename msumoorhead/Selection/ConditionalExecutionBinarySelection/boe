@@ -1,0 +1,15 @@
+.. activecode:: boe
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Selection/ConditionalExecutionBinarySelection
+    :from_source: None
+
+    word = "banana"
+
+    if word == "banana":
+        print("Yes, we have bananas!")
+    else:
+        print("Yes, we have NO bananas!")
+
+    print("This is always printed")

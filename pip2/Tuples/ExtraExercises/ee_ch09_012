@@ -1,0 +1,19 @@
+.. activecode:: ee_ch09_012
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Tuples/ExtraExercises
+   :from_source: None
+   :tags: Tuples/Tuples.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(tup1, ('a', 'b', 'c'), "Testing that tup1 was created correctly.")
+
+   myTests().main()

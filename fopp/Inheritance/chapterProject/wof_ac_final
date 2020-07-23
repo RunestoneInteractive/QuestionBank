@@ -1,6 +1,6 @@
 .. activecode:: wof_ac_final
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/chapterProject
     :from_source: T
@@ -208,4 +208,3 @@
                 print('    - {}'.format(prize))
     else:
         print('Nobody won.')
-

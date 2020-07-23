@@ -1,6 +1,6 @@
 .. mchoice:: AP5-5-3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/Exercises
     :from_source: T
@@ -59,4 +59,3 @@
     - currentTemp does not have a value.
 
       - currentTemp is initialized to a value by the constructor but it is private and cannot be accessed outside the class.
-

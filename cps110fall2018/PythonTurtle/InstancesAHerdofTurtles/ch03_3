@@ -1,6 +1,6 @@
 .. activecode:: ch03_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: PythonTurtle/InstancesAHerdofTurtles
    :from_source: None
@@ -39,4 +39,3 @@
    alex.left(90)
 
    wn.exitonclick()
-

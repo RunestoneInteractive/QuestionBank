@@ -1,6 +1,6 @@
 .. video:: typesnconvert
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: SimplePythonData/intro-VariablesExpressionsandStatements
     :from_source: None
@@ -9,5 +9,3 @@
 
     http://media.interactivepython.org/thinkcsVideos/TypesNTypeConversion.mov
     http://media.interactivepython.org/thinkcsVideos/TypesNTypeConversion.webm
-
-

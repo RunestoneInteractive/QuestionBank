@@ -1,6 +1,6 @@
 .. activecode:: vars_types_a3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/activeCode
    :from_source: T
@@ -12,4 +12,3 @@
        int Cady = (3 * 5) * 6 / 100;
        cout << "Cady scored" << Cady <<"on the exam."
    }
-

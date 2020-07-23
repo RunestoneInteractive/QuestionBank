@@ -1,6 +1,6 @@
 .. activecode:: menu_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/advancedmatching
    :from_source: T
@@ -80,4 +80,3 @@
    </main>
    </body>
    </html>
-

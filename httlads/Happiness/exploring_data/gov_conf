@@ -1,6 +1,6 @@
 .. fillintheblank:: gov_conf
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :Uzbekistan: Is the correct answer
      :x: Incorrect
-

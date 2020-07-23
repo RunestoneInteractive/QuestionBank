@@ -1,6 +1,6 @@
 .. mchoice:: question12_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Tuples/TuplesasReturnValues
    :from_source: T
@@ -19,4 +19,3 @@
    :correct: b,c,d
 
    If you want a function to return two values, contained in variables x and y, which of the following methods will work?
-

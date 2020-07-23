@@ -1,6 +1,6 @@
 .. mchoice:: sortefficiencyrandom
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Sort/TheQuickSort
    :from_source: T

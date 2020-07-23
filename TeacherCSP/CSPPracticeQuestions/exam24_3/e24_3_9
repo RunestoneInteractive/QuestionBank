@@ -1,6 +1,6 @@
 .. mchoice:: e24_3_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPPracticeQuestions/exam24_3
    :from_source: T
@@ -19,4 +19,3 @@
      | I. If an algorithm runs in reasonable time, the number of steps the algorithm takes is a polynomial function (constant, linear, squared, etc.) of the size of the input.
      | II. All problems can be solved using an algorithm that runs in reasonable time.
      | III. If a problem cannot be solved in reasonable time, a heuristic approach is helpful to solve the problem.
-

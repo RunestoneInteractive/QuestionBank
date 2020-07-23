@@ -1,6 +1,6 @@
 .. mchoice:: sks_rev_4
    :author: Shishir Shah
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -11,4 +11,3 @@
    :correct: a, c
 
    When we open a file in Python it is important to remember to close it
-    

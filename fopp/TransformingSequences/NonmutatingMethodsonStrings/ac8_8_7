@@ -1,6 +1,6 @@
 .. activecode:: ac8_8_7
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/NonmutatingMethodsonStrings
     :from_source: T
@@ -8,4 +8,3 @@
     person = input('Your name: ')
     greeting = 'Hello {}!'.format(person)
     print(greeting)
-

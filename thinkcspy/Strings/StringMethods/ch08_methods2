@@ -1,6 +1,6 @@
 .. activecode:: ch08_methods2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/StringMethods
     :from_source: T
@@ -22,4 +22,3 @@
     print(food.rfind("b"))
 
     print(food.index("e"))
-

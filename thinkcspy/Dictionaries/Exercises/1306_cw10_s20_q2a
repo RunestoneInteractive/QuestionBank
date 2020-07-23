@@ -1,6 +1,6 @@
 .. activecode:: 1306_cw10_s20_q2a
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Dictionaries/Exercises
     :from_source: F
@@ -47,6 +47,3 @@
 
 
     myTests().main()
-  
-
-

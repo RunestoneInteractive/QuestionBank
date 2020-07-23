@@ -1,0 +1,25 @@
+.. activecode:: ee_ch13_04
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/AddingOtherMethodstoourClass.rst, Classes/ImprovingourConstructor.rst, Classes/ConvertinganObjecttoaString.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFourA(self):
+         self.assertEqual(bob.__str__(), "Your account, Bob, has 200 dollars.", "Testing that bob is assigned to correct value")
+      def testFourB(self):
+         self.assertEqual(sally.__str__(), 'Your account, Sally, has 75 dollars.', "Testing that sally is assigned to correct value")
+      def testFourC(self):
+         self.assertEqual(bob_amt, 200, "Testing that bob_amt is assigned to correct value")
+      def testFourD(self):
+         self.assertEqual(sally_amt, 75, "Testing that sally is assigned to correct value")
+
+   myTests().main()

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch13ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPStringDecisions/mixup_IF
    :from_source: T
@@ -24,4 +24,3 @@
    if player1 = player2
    =====
        DISPLAY("It's a tie!")
-

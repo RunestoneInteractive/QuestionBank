@@ -1,10 +1,9 @@
-
+.. activecode:: BPU_Dessert
     :author: Jane Weyant
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Conditionals/Exercises
     :from_source: F
-.. activecode:: BPU_Dessert
   
     Given the following list and the indication of your favorite, write a program using conditional statements that will, for each dessert, say if it is your favorite dessert or not. Use a for loop and == to check whether a dessert equals your favorite dessert. Your code should print the following sentences:
    
@@ -19,6 +18,3 @@
     ~~~~
     desserts = ['ice cream', 'chocolate', 'apple crisp', 'cookies']
     favorite_dessert = 'apple crisp'
-    
-
-   

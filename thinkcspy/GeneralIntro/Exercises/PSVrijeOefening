@@ -1,6 +1,6 @@
 .. activecode:: PSVrijeOefening
     :author: Gilles Fiers
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -9,4 +9,3 @@
     Kies één van de wiskundige problemen van uit de slides en los ze op !
     ~~~~
     #Jouw code
- 

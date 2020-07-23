@@ -1,6 +1,6 @@
 .. mchoice:: q2_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: JavaBasics/introClassObject
    :from_source: T
@@ -15,6 +15,3 @@
    :feedback_d: The object data or state is stored in the fields of the object.  The fields are defined in the class.
 
    What specifies the data or state for an object in Java?
-
-
-

@@ -1,6 +1,6 @@
 .. youtube:: vNfCfowr-pQ
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: SimplePythonData/intro-VariablesExpressionsandStatements
     :from_source: None
@@ -8,6 +8,3 @@
     :height: 315
     :width: 560
     :align: left
-
-
-

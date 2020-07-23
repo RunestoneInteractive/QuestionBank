@@ -1,6 +1,6 @@
 .. activecode:: act_kiva_9
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/kiva_statistics
     :from_source: T
@@ -19,5 +19,3 @@
             self.assertEqual(longest_to_fund, country_name[time_to_raise.index(max(time_to_raise))], "Hint: max and index are your friends")
 
     MyTests().main()
-
-

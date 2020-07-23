@@ -1,6 +1,6 @@
 .. activecode:: ac8_8_11
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/NonmutatingMethodsonStrings
    :from_source: T
@@ -14,4 +14,3 @@
    print(s.format(greeting,name)) # will print Hello, Nice to meet you. Sally.
 
    print(s.format(name)) # 2 {}s, only one interpolation item! Not ideal.
-

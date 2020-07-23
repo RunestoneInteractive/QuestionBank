@@ -1,6 +1,6 @@
 .. activecode:: superclassMethodKA
   :author: Katie Anderson
-  :difficulty: 0.0
+  :difficulty: 0
   :basecourse: csawesome
   :topic: Unit9-Inheritance/topic-9-5-hierarchies
   :from_source: F
@@ -63,5 +63,3 @@
 
 //3.  What would happen if you commented out the Student toString() method?  
 //    Which toString() method would be called now? Try it first, then answer.
-
-

@@ -1,6 +1,6 @@
 .. activecode:: piguessstart
         :author: jenkins
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: cps110fall2018
         :topic: Labs/montepi
         :from_source: None
@@ -25,5 +25,3 @@
             y =
 
         wn.exitonclick()
-
-

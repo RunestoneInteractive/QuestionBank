@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_10_16
     :author: LHS CS Team
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: lhs_10_16
     :language: python
     :autograde: unittest
 

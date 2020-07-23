@@ -1,0 +1,11 @@
+.. video:: v_array
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: sigcse2019
+   :topic: Directives/video
+   :from_source: None
+   :controls:
+   :thumb: ../_static/videoStart.png
+
+   http://ice-web.cc.gatech.edu/ce21/1/static/video/Arrays.mov
+   http://ice-web.cc.gatech.edu/ce21/1/static/video/Arrays.webm

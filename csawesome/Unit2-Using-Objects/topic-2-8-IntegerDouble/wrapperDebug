@@ -1,6 +1,6 @@
 .. activecode:: wrapperDebug
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-8-IntegerDouble
    :from_source: F
@@ -19,5 +19,3 @@
         System.out.println( i.MAX_VALUE() );
       }
    }
-
-

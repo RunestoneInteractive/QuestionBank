@@ -1,0 +1,16 @@
+.. activecode:: ch02_6
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/DataTypes
+    :from_source: None
+    :nocanvas:
+
+    message = """This message will
+    span several
+    lines."""
+    print message
+
+    print """This message will span
+    several lines
+    of the text."""

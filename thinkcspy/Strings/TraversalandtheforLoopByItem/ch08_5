@@ -1,6 +1,6 @@
 .. activecode:: ch08_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/TraversalandtheforLoopByItem
     :from_source: T
@@ -8,4 +8,3 @@
 
     for avalue in range(10):
         print(avalue)
-

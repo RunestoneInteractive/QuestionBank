@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_select_columns
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/selecting
    :from_source: T

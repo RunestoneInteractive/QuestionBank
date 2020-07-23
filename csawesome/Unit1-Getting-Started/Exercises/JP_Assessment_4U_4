@@ -1,10 +1,9 @@
-
+.. activecode:: JP_Assessment_4U_4
    :author: John Pataracchia
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/Exercises
    :from_source: F
-.. activecode:: JP_Assessment_4U_4
    :language: java
 
    Write a program that will calculate the cost of buying five items at 

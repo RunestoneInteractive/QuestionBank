@@ -1,0 +1,14 @@
+.. activecode:: chp12_dict8
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Dictionaries/Dictionarymethods
+    :from_source: None
+
+    inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+
+    print list(inventory.values())
+    print list(inventory.items())
+
+    for k in inventory:
+        print "Got",k,"that maps to",inventory[k]

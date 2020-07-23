@@ -1,6 +1,6 @@
 .. clickablearea:: keywords_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/Keywords
     :from_source: T
@@ -18,4 +18,3 @@
         }
         :click-incorrect:cout:endclick: << :click-incorrect:Bool:endclick: << :click-correct:endl:endclick:;
     }
-

@@ -1,6 +1,6 @@
 .. mchoice:: pt_9
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: TheBasics/pretest
     :from_source: T
@@ -11,5 +11,3 @@
     :correct: c
 
     What is the correct way to write a JavaScript array?
-
-

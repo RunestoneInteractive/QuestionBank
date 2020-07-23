@@ -1,6 +1,6 @@
 .. activecode:: For-lus-Voorbeeld3b
     :author: Gilles Fiers
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -9,7 +9,3 @@
     ~~~~
     print(range(4))
     print(range(1, 5))
-
-
-
-

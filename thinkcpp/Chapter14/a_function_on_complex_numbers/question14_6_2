@@ -1,6 +1,6 @@
 .. mchoice:: question14_6_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter14/a_function_on_complex_numbers
    :from_source: T

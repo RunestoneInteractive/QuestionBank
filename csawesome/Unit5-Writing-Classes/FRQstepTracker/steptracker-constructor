@@ -1,6 +1,6 @@
 .. mchoice:: steptracker-constructor
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/FRQstepTracker
    :from_source: T

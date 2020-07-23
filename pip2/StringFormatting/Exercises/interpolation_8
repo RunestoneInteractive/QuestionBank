@@ -1,0 +1,10 @@
+.. activecode:: interpolation_8
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/Exercises
+   :from_source: None
+
+   vals =
+   templ = "{}, {} are the {} items in the list"
+   print templ.format(vals[0], vals[1], len(vals))

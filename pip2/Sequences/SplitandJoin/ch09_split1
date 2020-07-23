@@ -1,0 +1,10 @@
+.. activecode:: ch09_split1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/SplitandJoin
+    :from_source: None
+
+    song = "The rain in Spain..."
+    wds = song.split()
+    print wds

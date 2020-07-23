@@ -1,6 +1,6 @@
 .. mchoice:: mc_cpp_strings
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Introduction/GettingStartedwithData
    :from_source: T
@@ -17,4 +17,3 @@
    :feedback_e: One of the above is indeed correct.
 
    If I want to create a string in C++, what set of symbols may be used?
-

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: htmlp3
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWebData/Exercises
    :from_source: F
-.. parsonsprob:: htmlp3
    :adaptive:
    :numbered: left
 
@@ -25,4 +24,3 @@
        &#60;/body&#62;
    =====
    &#60;/html&#62;
-      

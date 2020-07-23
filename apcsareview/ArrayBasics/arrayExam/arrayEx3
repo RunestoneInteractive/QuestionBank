@@ -1,6 +1,6 @@
 .. mchoice:: arrayEx3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/arrayExam
    :from_source: T
@@ -31,4 +31,3 @@
      {
         if (b[i] == true) count++;
      }
-

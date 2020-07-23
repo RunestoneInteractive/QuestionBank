@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -28,4 +28,3 @@
      DISPLAY(price)
 
    What will be printed?
-

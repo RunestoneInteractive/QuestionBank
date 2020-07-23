@@ -1,0 +1,21 @@
+.. activecode:: ee_ch13_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/ImprovingourConstructor.rst, Classes/AddingOtherMethodstoourClass.rst, Classes/ConvertinganObjecttoaString.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(football_info.__str__(), "The name of the sport is football and 11 people create one team!", "Testing that football_info has the correct value assigned.")
+      def testTwo(self):
+         self.assertEqual(quidditch_info.__str__(), 'The name of the sport is quidditch and 7 people create one team!', "Testing that quidditch_info has the correct value assigned.")
+
+
+   myTests().main()

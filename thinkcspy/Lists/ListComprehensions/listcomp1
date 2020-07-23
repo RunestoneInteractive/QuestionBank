@@ -1,6 +1,6 @@
 .. activecode:: listcomp1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/ListComprehensions
     :from_source: T
@@ -10,5 +10,3 @@
     yourlist = [item ** 2 for item in mylist]
 
     print(yourlist)
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: values_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Values
    :from_source: T
@@ -27,4 +27,3 @@
          cout << 7;
          cout << 7;
        }
-

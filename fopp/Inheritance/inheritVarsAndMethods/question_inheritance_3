@@ -1,6 +1,6 @@
 .. mchoice:: question_inheritance_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Inheritance/inheritVarsAndMethods
    :from_source: T
@@ -24,4 +24,3 @@
          print("We are Siamese if you please. We are Siamese if you don’t please.")
      another_cat = Siamese("Lady")
      new_cat.song()
-

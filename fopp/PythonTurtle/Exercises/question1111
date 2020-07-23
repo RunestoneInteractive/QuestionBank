@@ -1,10 +1,9 @@
-
+.. mchoice:: question1111
         :author: Sabrina Morales
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: fopp
         :topic: PythonTurtle/Exercises
         :from_source: F
-    .. mchoice:: question1111
         :multiple_answers: "true"
 
         :correct: a, b
@@ -19,4 +18,3 @@
       
 
         Qual a resposta correta?
-    

@@ -1,6 +1,6 @@
 .. activecode:: histojava
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: TheBasics/collections
     :from_source: T
@@ -22,5 +22,3 @@
     }
 
     main()
-
-

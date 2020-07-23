@@ -1,6 +1,6 @@
 .. activecode:: act_scramble_ac_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/encryption
     :from_source: T
@@ -19,4 +19,3 @@
             self.assertEqual(ciphertext, 'sbqfzs fqmcpqfzxofqmcpqf mlxcdqumeqsbqgmwwmd fqmcpqyxcdf')
 
     MyTests().main()
-

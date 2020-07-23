@@ -1,6 +1,6 @@
 .. activecode:: sort_instances_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Classes/sorting_instances
    :from_source: T

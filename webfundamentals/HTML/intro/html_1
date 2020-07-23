@@ -1,6 +1,6 @@
 .. activecode:: html_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: HTML/intro
    :from_source: T
@@ -16,5 +16,3 @@
            <p>Another paragraph of text</p>
        </body>
    </html>
-
-

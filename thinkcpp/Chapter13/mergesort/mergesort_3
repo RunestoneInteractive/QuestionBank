@@ -1,6 +1,6 @@
 .. activecode:: mergesort_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter13/mergesort
    :from_source: T

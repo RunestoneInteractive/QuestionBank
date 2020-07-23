@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_exam2_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: F
-.. activecode:: KDL_exam2_1
    :autograde: unittest
    :language: python
 
@@ -33,4 +32,4 @@
            self.assertTrue( '.write' in self.getEditorText(), 'Something written to file')
            self.assertTrue( open('data_set.txt','r').read()=='x,y\n1,2\n2,4\n3,6\n4,8\n5,10', 'File correct')
 
-   myTests().main()   
+   myTests().main()

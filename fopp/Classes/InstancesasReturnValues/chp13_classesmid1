@@ -1,6 +1,6 @@
 .. activecode:: chp13_classesmid1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Classes/InstancesasReturnValues
     :from_source: T
@@ -39,4 +39,3 @@
     print(mid)
     print(mid.getX())
     print(mid.getY())
-

@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_1_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: SimplePythonData/ValuesandDataTypes
    :from_source: None

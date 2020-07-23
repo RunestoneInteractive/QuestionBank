@@ -1,6 +1,6 @@
 .. activecode:: ac8_72
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/AppendversusConcatenate
     :from_source: T

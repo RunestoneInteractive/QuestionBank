@@ -1,0 +1,24 @@
+.. activecode:: ee_ch7_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: IndefiniteIteration/ExtraExercises
+   :from_source: None
+   :tags: IndefiniteIteration/listenerLoop.rst
+
+   def stop_at_four():
+
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(stop_at_four([0, 9, 4.5, 1, 7, 4, 8, 9, 3]), [0, 9, 4.5, 1, 7], "Testing the function stop_at_four on the input [0, 9, 4.5, 1, 7, 4, 8, 9, 3].")
+         self.assertEqual(stop_at_four([4, 1, 2, 8]), [], "Testing the function stop_at_four on the input [4, 1, 2, 8].")
+         self.assertEqual(stop_at_four([4]), [], "Testing the function stop_at_four on the input [4].")
+
+   myTests().main()

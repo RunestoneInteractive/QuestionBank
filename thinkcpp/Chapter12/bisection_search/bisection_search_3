@@ -1,6 +1,6 @@
 .. mchoice:: bisection_search_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter12/bisection_search
    :from_source: T

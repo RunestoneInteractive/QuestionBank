@@ -1,6 +1,6 @@
 .. poll:: major
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/the_way
    :from_source: T
@@ -13,4 +13,3 @@
    :option_7: Other non-Engineering Degree
 
    What is your intended major?
-

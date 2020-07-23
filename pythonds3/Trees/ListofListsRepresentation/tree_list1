@@ -1,6 +1,6 @@
 .. activecode:: tree_list1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: Trees/ListofListsRepresentation
     :from_source: T
@@ -11,4 +11,3 @@
     print("left subtree = ", my_tree[1])
     print("root = ", my_tree[0])
     print("right subtree = ", my_tree[2])
-

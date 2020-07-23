@@ -1,0 +1,22 @@
+.. activecode:: reduce_exercise_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/exercises
+   :from_source: None
+
+   def sumSquares(L):
+       return None
+
+   nums = [3, 2, 2, -1, 1]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sumSquares(nums), 19, "Testing whether sumSquares has been correctly defined.")
+
+   myTests().main()

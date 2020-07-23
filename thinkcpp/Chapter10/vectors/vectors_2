@@ -1,6 +1,6 @@
 .. mchoice:: vectors_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter10/vectors
    :from_source: T

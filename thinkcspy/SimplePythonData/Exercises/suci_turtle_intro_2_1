@@ -1,10 +1,9 @@
-
+.. actex:: suci_turtle_intro_2_1
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_intro_2_1
 
    Run the program then modify it so that it draws a dashed line with spaces that are twice as long.
    ~~~~

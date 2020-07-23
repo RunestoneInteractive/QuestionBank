@@ -1,6 +1,6 @@
 .. mchoice:: question_sort_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds3
    :topic: SortSearch/TheShellSort
    :from_source: T

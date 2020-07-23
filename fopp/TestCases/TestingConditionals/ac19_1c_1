@@ -1,6 +1,6 @@
 .. activecode:: ac19_1c_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TestCases/TestingConditionals
     :from_source: T
@@ -16,5 +16,3 @@
             ## x must be equal to y
             assert x==y
             z = 0
-
-

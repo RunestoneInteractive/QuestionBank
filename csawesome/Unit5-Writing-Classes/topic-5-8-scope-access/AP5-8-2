@@ -1,6 +1,6 @@
 .. mchoice:: AP5-8-2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-8-scope-access
     :from_source: T
@@ -54,4 +54,3 @@
     - The currentPrice instance variable does not have a value.
 
       - Accessor methods are usually public.
-

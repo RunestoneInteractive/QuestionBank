@@ -1,0 +1,11 @@
+.. video:: binaryselection
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: thinkcspy
+   :topic: Selection/ConditionalExecutionBinarySelection
+   :from_source: F
+   :controls:
+   :thumb: ../_static/binaryselection.png
+
+   http://media.interactivepython.org/thinkcsVideos/binaryselection.mov
+   http://media.interactivepython.org/thinkcsVideos/binaryselection.webm

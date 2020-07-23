@@ -1,6 +1,6 @@
 .. mchoice:: KD.2.2.D
    :author: Kuri DiFede
-   :difficulty: 4.0
+   :difficulty: 4
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: F

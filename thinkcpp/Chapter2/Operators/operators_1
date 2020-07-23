@@ -1,6 +1,6 @@
 .. dragndrop:: operators_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Operators
    :from_source: T
@@ -11,4 +11,3 @@
    :match_4: (x+x+x+x+x)*20|||1000
 
    Match the statement to the result, given that x = 10.
-

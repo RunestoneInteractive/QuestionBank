@@ -1,0 +1,10 @@
+.. activecode:: extract_nested_data_10
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/DebuggingNestedData
+   :from_source: None
+   :include: extract_nested_data_1
+
+   for res3 in res['statuses']:
+       print res3['user']['screen_name'], res3['user']['created_at']

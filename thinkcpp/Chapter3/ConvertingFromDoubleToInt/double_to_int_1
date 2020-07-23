@@ -1,6 +1,6 @@
 .. mchoice:: double_to_int_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/ConvertingFromDoubleToInt
    :from_source: T
@@ -30,4 +30,3 @@
        }
 
    What is the value of roundedTemp?
-

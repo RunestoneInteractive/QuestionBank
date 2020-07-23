@@ -1,10 +1,9 @@
-
+.. parsonsprob:: mt1turtrect
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPIntroDecisions/Exercises
    :from_source: F
-.. parsonsprob:: mt1turtrect
    :numbered: left
    :adaptive: 
 
@@ -25,4 +24,3 @@
    =====
            turtle.forward(height)
            turtle.right(90)
-        

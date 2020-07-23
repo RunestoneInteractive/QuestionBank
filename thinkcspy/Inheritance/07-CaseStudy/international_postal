@@ -1,6 +1,6 @@
 .. activecode:: international_postal
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Inheritance/07-CaseStudy
     :from_source: T
@@ -37,6 +37,3 @@
             return (super().validate() and self.city != '' and
                 len(self.state) == 2 and
                 (len(self.postalCode) == 5 or len(self.postalCode) == 9))
-
-
-

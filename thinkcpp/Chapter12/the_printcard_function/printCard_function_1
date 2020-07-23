@@ -1,6 +1,6 @@
 .. mchoice:: printCard_function_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter12/the_printcard_function
    :from_source: T

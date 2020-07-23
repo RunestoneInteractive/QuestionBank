@@ -1,10 +1,9 @@
-
+.. parsonsprob:: addClimbB
    :author: Leonardo Alvarez
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: Unit7-ArrayList/Exercises
    :from_source: F
-.. parsonsprob:: addClimbB
    :adaptive:
    :numbered: left
 
@@ -31,6 +30,4 @@
    =====
      } // end while 
    =====
-   } //end method 
-
-
+   } //end method

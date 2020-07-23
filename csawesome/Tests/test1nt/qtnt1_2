@@ -1,6 +1,6 @@
 .. mchoice:: qtnt1_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test1nt
    :from_source: T
@@ -30,4 +30,3 @@
             return 3 * mystery(m - 1);
         }
       }
-

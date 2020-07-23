@@ -1,6 +1,6 @@
 .. mchoice:: sks_rev_5
    :author: Shishir Shah
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -11,4 +11,3 @@
    :correct: a, d
 
    Which of the following are correct function definition beginnings?
-    

@@ -1,6 +1,6 @@
 .. codelens:: chp12_dict1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Dictionaries/intro-Dictionaries
     :from_source: T
@@ -9,4 +9,3 @@
     eng2sp['one'] = 'uno'
     eng2sp['two'] = 'dos'
     eng2sp['three'] = 'tres'
-

@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Functions/Returningavaluefromafunction
    :from_source: T
@@ -21,4 +21,3 @@
          self.assertEqual(intro("Mike"), "Hello, my name is Mike and I love SI 106.", "Testing the intro function on input 'Mike'.")
 
    myTests().main()
-

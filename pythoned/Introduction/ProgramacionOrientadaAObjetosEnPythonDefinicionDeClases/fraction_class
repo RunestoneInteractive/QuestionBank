@@ -1,6 +1,6 @@
 .. activecode:: fraction_class
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: Introduction/ProgramacionOrientadaAObjetosEnPythonDefinicionDeClases
    :from_source: None

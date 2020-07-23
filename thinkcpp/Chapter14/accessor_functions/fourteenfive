@@ -1,6 +1,6 @@
 .. activecode:: fourteenfive
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter14/accessor_functions
    :from_source: T

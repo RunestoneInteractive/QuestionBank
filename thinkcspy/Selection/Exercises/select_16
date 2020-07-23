@@ -1,10 +1,9 @@
-
+.. activecode:: select_16
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: select_16
   
     On what line(s) of code is the function 'isString()' called?
  
@@ -29,4 +28,3 @@
         10.     	print( "We found a symbol!" )
 
     ~~~~
-    

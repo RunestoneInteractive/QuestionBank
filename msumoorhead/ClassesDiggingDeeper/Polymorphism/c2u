@@ -1,6 +1,6 @@
 .. activecode:: c2u
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/Polymorphism
     :from_source: None
@@ -36,4 +36,3 @@
     b = Fraction(1,2)
     print(a + b)
     print(b + 2)
-

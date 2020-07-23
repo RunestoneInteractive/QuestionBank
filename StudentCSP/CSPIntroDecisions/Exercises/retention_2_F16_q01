@@ -1,6 +1,6 @@
 .. mchoice:: retention_2_F16_q01
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPIntroDecisions/Exercises
    :from_source: F
@@ -13,4 +13,3 @@
    :topics: Final_Exam_F16/q_01
 
    True or False? Tuples are mutable.
-      

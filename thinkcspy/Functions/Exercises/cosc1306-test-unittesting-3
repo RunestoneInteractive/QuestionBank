@@ -1,10 +1,9 @@
-
+.. activecode:: cosc1306-test-unittesting-3
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: cosc1306-test-unittesting-3
     :autograde: unittest
 
     Develop a function addseries(N,K)  that computes the sum of the series: N + (N+1) + (N+2) +… (N+K)

@@ -1,0 +1,22 @@
+.. activecode::  ch6ex14na
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: LoopBasics/LoopPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           for (int row = 0; row < 5; row++)
+           {
+              for (int col = 0; col < 3; col++)
+              {
+                  System.out.print("*");
+              }
+              System.out.println();
+           }
+       }
+   }

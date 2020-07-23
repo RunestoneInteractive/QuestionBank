@@ -1,10 +1,10 @@
 .. actex:: suci_test_question_1
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
 
    Write a program that will print your name
    ~~~~
-   # put code here 
+   # put code here

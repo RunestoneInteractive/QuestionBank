@@ -1,6 +1,6 @@
 .. mchoice:: mt1_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/Exercises
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: This declares nums to be an array of integers and then creates the array.
 
    Which is NOT a correct way to declare an array of 5 integers?
-

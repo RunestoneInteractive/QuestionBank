@@ -1,6 +1,6 @@
 .. activecode:: vars_types_a2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/activeCode
    :from_source: T
@@ -19,4 +19,3 @@
        cout << "I drive a";  cout << " ";
        cout << year << model << make << endl.
    }
-

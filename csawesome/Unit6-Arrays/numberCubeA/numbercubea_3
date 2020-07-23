@@ -1,6 +1,6 @@
 .. mchoice:: numbercubea_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/numberCubeA
    :from_source: T
@@ -13,4 +13,3 @@
    :feedback_c: This will execute numTosses times.
 
    Which of the following correctly loops numTosses number of times?
-

@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Functions/Returningavaluefromafunction
    :from_source: T
@@ -21,4 +21,3 @@
          self.assertEqual(same('hello'), 'hello', "Testing the same function on input 'hello'.")
 
    myTests().main()
-

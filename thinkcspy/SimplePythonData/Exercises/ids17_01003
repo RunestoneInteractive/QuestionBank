@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_01003
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: ids17_01003
    
 
     3.1(劉邦鋒，由片語學習C程式設計) 寫一個程式讀入三個整數，計算並輸出他們的連乘積。
@@ -24,4 +23,3 @@
     
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

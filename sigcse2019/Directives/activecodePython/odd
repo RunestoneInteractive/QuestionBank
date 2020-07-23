@@ -1,0 +1,23 @@
+.. activecode:: odd
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: sigcse2019
+   :topic: Directives/activecodePython
+   :from_source: None
+   :nocodelens:
+
+   def is_odd(n):
+       # your code here
+
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+       def testOne(self):
+           self.assertEqual(is_odd(10),False,"Tested is_odd on input of 10")
+           self.assertEqual(is_odd(5),True,"Tested is_odd on input of 5")
+           self.assertEqual(is_odd(1),True,"Tested is_odd on input of 1")
+           self.assertEqual(is_odd(0),False,"Tested is_odd on input of 0")
+
+   myTests().main()

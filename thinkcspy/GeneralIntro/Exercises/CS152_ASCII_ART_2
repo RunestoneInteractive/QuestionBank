@@ -1,11 +1,9 @@
-
+.. activecode:: CS152_ASCII_ART_2
     :author: John Cigas
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-
-.. activecode:: CS152_ASCII_ART_2
 
     Using your program from the previous exercise, write a program to print two of these shapes, 
     one on top of the other. Again, each print statement should print one line of the shape.

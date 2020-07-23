@@ -1,10 +1,9 @@
-
+.. activecode:: jmg_testA
    :author: Jean Griffin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. activecode:: jmg_testA
    :nocodelens: 
    :caption: HEY THIS IS A CAPTION
    :autorun: 

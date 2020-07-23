@@ -1,6 +1,6 @@
 .. activecode:: office_hours_1031
     :author: Brad Miller
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: Inheritance/Exercises
     :from_source: F
@@ -12,4 +12,3 @@
     print("hello world")
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-

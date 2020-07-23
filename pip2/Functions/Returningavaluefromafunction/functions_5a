@@ -1,0 +1,15 @@
+.. activecode:: functions_5a
+  :author: Brad Miller
+  :difficulty: 3
+  :basecourse: pip2
+  :topic: Functions/Returningavaluefromafunction
+  :from_source: None
+
+  def weird():
+      print "here"
+      return 5
+      print "there"
+      return 10
+
+  x = weird()
+  print x

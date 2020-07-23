@@ -1,0 +1,27 @@
+.. mchoice:: AP2-1-5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: An attribute of breed is String.
+   :answer_b: color, breed, and age are instances of the Cat class.
+   :answer_c: Cat is an instance of the myCat class.
+   :answer_d: age is an attribute of the myCat object.
+   :answer_e: An attribute of Cat is myCat.
+   :correct: d
+   :feedback_a: The data type of breed is String.
+   :feedback_b: color, breed, and age are attributes of the Cat class.
+   :feedback_c: myCat is an instance of the Cat class.
+   :feedback_d: Attributes of the Cat class and myCat object are color, breed, age.
+   :feedback_e: Attributes of the Cat class are color, breed, age.
+
+
+    A student has created a Cat class. The class contains variables to represent the following.
+    - A String variable called color to represent the color of the cat
+    - A String variable called breed to represent the breed of the cat
+    - An int variable called age to represent the age of the cat
+
+    The object myCat will be declared as type Cat.
+    Which of the following descriptions is accurate?

@@ -1,6 +1,6 @@
 .. activecode:: units2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: overview
    :topic: overview/
    :from_source: T
@@ -21,4 +21,3 @@
            self.assertAlmostEqual(add(2.0,3.0), 5.0, 5, "Try adding your parameters")
 
    myTests().main()
-

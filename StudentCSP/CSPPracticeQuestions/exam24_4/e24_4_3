@@ -1,0 +1,25 @@
+.. mchoice:: e24_4_3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: BOG
+   :answer_b: BON
+   :answer_c: CON
+   :answer_d: BEG
+   :correct: a
+   :feedback_a: Correct. We can see that 102 base-8 = 1 * 64 + 0 * 8 + 2 * 1 = 66 base-10 = 'B', similarly 117 base-8 = 'O' and 107 base-8 = 'G'
+   :feedback_b: Incorrect. Check your calculations. See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
+   :feedback_c: Incorrect. Check your calculations. See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
+   :feedback_d: Incorrect. Check your calculations. See feedback for answer choice A to understand how to convert ocal numbers to decimal numbers.
+
+   ASCII is a character-encoding scheme that uses numeric values to represent alphanumeric and special characters. For example, the uppercase letter ‘A’ is represented by the decimal (base 10) value 65. A partial list of characters and their corresponding ASCII values are shown in the table below.
+
+   .. figure:: Figures/ascii.png
+      :scale: 75 %
+      :align: center
+
+   ASCII characters can also be represented by octal numbers (base 8). To represent an entire word using octal numbers, we can find the octal value for each letter in the word and then concatenate the values. According to the information provided above, which English word do the following octal numbers represent:
+
+   *102 117 107*

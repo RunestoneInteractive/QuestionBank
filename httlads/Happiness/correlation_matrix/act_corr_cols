@@ -1,6 +1,6 @@
 .. fillintheblank:: act_corr_cols
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/correlation_matrix
    :from_source: T
@@ -13,4 +13,3 @@
 
    - :Life Ladder: Is the correct answer
      :x: Make sure you have capitalization correct.
-

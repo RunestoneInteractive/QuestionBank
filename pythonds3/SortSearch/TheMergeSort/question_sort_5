@@ -1,6 +1,6 @@
 .. mchoice:: question_sort_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds3
    :topic: SortSearch/TheMergeSort
    :from_source: T

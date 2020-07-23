@@ -1,10 +1,11 @@
 .. activecode:: stepTrackerCode4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/FRQstepTracker
    :from_source: T
    :language: java
+   :autograde: unittest
 
    Copy the code from your draft of the class StepTracker above  with the instance variables, constructor, accessor and mutator methods. Write the accessor method **averageSteps** which returns the average number of steps per day, calculated by dividing the total number of steps taken by the number of days tracked.
    ~~~~
@@ -46,3 +47,28 @@
          System.out.println(tr.averageSteps()); // returns 10222.2. The average number of steps per day is (51111 / 5).
       }
    }
+   ====
+   import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+     @Test
+     public void testMain() throws IOException
+      {
+        String output = getMethodOutput("main");
+        String expect = "0\n0.0\n0\n7000.0\n1\n9000.0\n2\n10222.2\n";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+      }
+
+      @Test
+      public void checkCodeContains1()
+      {
+        //check mutator method averageSteps()
+        boolean passed = checkCodeContains("averageSteps() method","public double averageSteps()");
+        assertTrue(passed);
+
+      }
+      }

@@ -1,0 +1,11 @@
+.. actex:: ex_3_6
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: fopp
+   :topic: Iteration/Exercises
+   :from_source: T
+   :nocodelens:
+
+   Write a program that asks the user for the number of sides, the length of the side, the color, and the fill color of a
+   regular polygon.  The program should draw the polygon and then fill it in.
+   ~~~~

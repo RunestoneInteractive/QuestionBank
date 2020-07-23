@@ -1,0 +1,15 @@
+.. activecode:: session10_2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/IndefiniteIteration
+    :from_source: None
+
+    all_nums_entered = []
+    while len(all_nums_entered) < 10:
+        n = int(raw_input("Please enter a number to add to the list of numbers: "))
+        all_nums_entered.append(n)
+
+    print "You entered 10 numbers! Here they are: "
+    for num in all_nums_entered:
+        print num

@@ -1,6 +1,6 @@
 .. fillintheblank:: sql_agg_0
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/aggregation_SQL
    :from_source: F
@@ -10,4 +10,3 @@
    - :40669.5: Is the correct answer
      :2368.5.*: Is the 10th largest
      :x: Keep trying
-

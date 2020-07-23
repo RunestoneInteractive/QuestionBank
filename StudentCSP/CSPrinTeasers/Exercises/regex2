@@ -1,6 +1,6 @@
 .. fillintheblank:: regex2
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPrinTeasers/Exercises
    :from_source: F
@@ -8,4 +8,4 @@
    Enter a string that matches the following regular expression: "b[ea]d". 
 
    -    :b[ea]d: Correct.  This will match the letter b followed by e or a and then a d.
-        :.*: No match, try again.  
+        :.*: No match, try again.

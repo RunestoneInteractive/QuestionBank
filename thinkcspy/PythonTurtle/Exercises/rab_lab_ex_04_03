@@ -1,13 +1,11 @@
-
+.. activecode:: rab_lab_ex_04_03
     :author: Richard Bernatz
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: rab_lab_ex_04_03
 
     Use this active code window for lab activity 3 in Chapter 4. Please see the full instructions on the Chapter 4 course web page.
     ~~~~
 
-    # (your name)  
-    
+    # (your name)

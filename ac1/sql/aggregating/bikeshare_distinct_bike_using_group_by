@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_distinct_bike_using_group_by
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -13,4 +13,3 @@
      trip_data
    GROUP BY
      bike_number
-

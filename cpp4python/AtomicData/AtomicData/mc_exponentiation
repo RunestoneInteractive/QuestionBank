@@ -1,6 +1,6 @@
 .. mchoice:: mc_exponentiation
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cpp4python
   :topic: AtomicData/AtomicData
   :from_source: T
@@ -15,4 +15,3 @@
   :feedback_d: You got it! Remember the cmath library will need to be included for pow() to work.
 
   How do I raise 4 to 5th power in C++?
-

@@ -1,6 +1,6 @@
 .. mchoice:: qab_6A
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/aForEach
    :from_source: T
@@ -22,4 +22,3 @@
       I: If you wish to access every element of an array.
       II: If you wish to modify elements of the array.
       III: If you wish to refer to elements through a variable name instead of an array index.
-

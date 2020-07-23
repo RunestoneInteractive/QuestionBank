@@ -1,0 +1,35 @@
+.. activecode:: ex_6_3
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Selection/Exercises
+    :from_source: None
+
+    def getGrade(mark):
+        #your code here
+
+
+    ====
+
+    from unittest.gui import TestCaseGui
+    import random
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertEqual(getGrade(90),'A','Tested boundary of 90')
+            self.assertEqual(getGrade(80),'B','Tested boundary of 80')
+            self.assertEqual(getGrade(70),'C','Tested boundary of 70')
+            self.assertEqual(getGrade(60),'D','Tested boundary of 60')
+            r = random.random()*10
+            self.assertEqual(getGrade(90+r),'A','Tested getGrade on input of '+str(90+r))
+            r = random.random()*10
+            self.assertEqual(getGrade(80+r),'B','Tested getGrade on input of '+str(80+r))
+            r = random.random()*10
+            self.assertEqual(getGrade(70+r),'C','Tested getGrade on input of '+str(70+r))
+            r = random.random()*10
+            self.assertEqual(getGrade(60+r),'D','Tested getGrade on input of '+str(60+r))
+            r = random.random()*60
+            self.assertEqual(getGrade(r),'F','Tested getGrade on input of '+str(r))
+
+
+    myTests().main()

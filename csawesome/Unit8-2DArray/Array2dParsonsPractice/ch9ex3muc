@@ -1,6 +1,6 @@
 .. parsonsprob:: ch9ex3muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit8-2DArray/Array2dParsonsPractice
    :from_source: T
@@ -33,4 +33,3 @@
       return sum;
    =====
    } //end method
-

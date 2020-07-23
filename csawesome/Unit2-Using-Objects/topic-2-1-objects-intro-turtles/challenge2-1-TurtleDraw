@@ -1,6 +1,6 @@
 .. activecode:: challenge2-1-TurtleDraw
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
     :from_source: T
@@ -8,6 +8,8 @@
     :autograde: unittest
     :datafile: turtleClasses.jar
 
+    Create a Turtle object and have it draw a shape, for example a small square and then a larger square (by calling the forward method multiple times).
+    ~~~~
     import java.util.*;
     import java.awt.*;
 
@@ -99,4 +101,3 @@
             assertTrue(passed);
         }
     }
-

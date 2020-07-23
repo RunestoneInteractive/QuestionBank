@@ -1,10 +1,9 @@
-
+.. parsonsprob:: csuf_cpsc120_q7
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. parsonsprob:: csuf_cpsc120_q7
 
    You are writing a program for an ATM that will validate the user's PIN. Here are some specifications:<br>
    <br>

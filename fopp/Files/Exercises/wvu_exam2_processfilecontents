@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_exam2_processfilecontents
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: wvu_exam2_processfilecontents
     :autograde: unittest
 
     (15 points)
@@ -49,5 +48,3 @@
             self.assertEqual(len(process_file_contents()['Monongalia']),12,"There should be 12 values recorded for Monongalia County")
 
     myTests().main()
-
-    

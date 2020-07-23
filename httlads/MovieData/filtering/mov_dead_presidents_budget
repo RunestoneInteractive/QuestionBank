@@ -1,6 +1,6 @@
 .. fillintheblank:: mov_dead_presidents_budget
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: MovieData/filtering
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :10000000: Is the correct answer
      :x: catchall feedback
-

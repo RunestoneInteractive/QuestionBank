@@ -1,0 +1,49 @@
+.. mchoice:: AP5-5-4
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/Exercises
+    :from_source: T
+    :practice: T
+    :random:
+
+    In the Liquid class below, the raiseTemperature method is intended to increase the value of the instance variable currentTemp by the value of the parameter increase. The method does not work as intended.
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+            private int currentTemp;
+
+            public Liquid(int ct)
+            {
+                currentTemp = ct;
+            }
+
+            public void raiseTemperature(int increase) // Line 10
+            {
+                return currentTemp + increase; // Line 12
+            }
+        }
+
+    Which of the following changes should be made so that the class definition compiles without error and the method raiseTemperature works as intended?
+
+    - Replace line 12 with ``currentTemp += increase;``
+
+      + Correct! This void mutator method should just change the value of currentTemp and not return a value.
+
+    - Replace line 12 with ``return currentTemp += increase;``
+
+      - This void mutator method should just change the value of currentTemp and not return a value.
+
+    - Replace line 12 with  ``increase += currentTemp;``
+
+      - This method should  change the value of currentTemp, not increase.
+
+    - Replace line 10 with  ``public raiseTemperature(int increase)``
+
+      - This mutator method needs a return type of void.
+
+    - Replace line 10 with  ``public int raiseTemperature(int increase)``
+
+      - This mutator method should have a void return value and just change the value of currentTemp without returning a value.

@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_bikes_having_over_1_hour
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -15,4 +15,3 @@
    ====
    assert 0,0 == W01204
    assert 0,1 == 3765
-

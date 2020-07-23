@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex2muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: ArrayBasics/ArrayParsonsPractice
    :from_source: None
@@ -18,4 +18,3 @@
        System.out.println(arr[i]);
    =====
    }
-

@@ -1,0 +1,38 @@
+.. activecode:: lcnv1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/topic-1-3-variables
+   :from_source: T
+   :language: java
+   :autograde: unittest
+
+   Java is case sensitive so ``playerScore`` and ``playerscore`` are not the same.  Run the code below to see the difference.
+   ~~~~
+   public class CaseSensitiveClass
+   {
+      public static void main(String[] args)
+      {
+        int playerScore = 0; // variable name using camel case
+        int playerscore = 1; // this is a different variable
+        System.out.println("playerScore is " + playerScore);
+        System.out.println("playerscore is " + playerscore);
+      }
+   }
+
+   ====
+   import static org.junit.Assert.*;
+   import org.junit.*;;
+   import java.io.*;
+
+   public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "playerScore is 0\nplayerscore is 1";
+            boolean passed = getResults(expect, output, "Expected output from main", true);
+            assertTrue(passed);
+        }
+    }

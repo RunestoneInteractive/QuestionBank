@@ -1,10 +1,9 @@
-
+.. parsonsprob:: pNumGuess1
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. parsonsprob:: pNumGuess1
    :numbered: left
    :adaptive:
 
@@ -36,4 +35,3 @@
                else:
    =====
                    print("You guessed the number!")
-  

@@ -1,21 +1,23 @@
 .. activecode:: APLineFRQ
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/APLine
    :from_source: T
    :language: java
    :autograde: unittest
 
+   Write a class APLine with instance variables, a constructor with 3 paramaters for a, b, c, and the methods getSlope() and isOnLine(x,y).
+   ~~~
    // Declare the APLine class
    {
-    /** State variables. Any numeric type; object or primitive. */
+    /** Declare instance variables */
 
     /** Constructor with 3 int parameters. */
 
-    /** Determine the slope of this APLine. */
+    /** method getSlope(): Determine the slope of this APLine. */
 
-    /** Determine if coordinates represent a point on this APLine. */
+    /** method isOnLine(x,y): Determine if coordinates (x,y) represent a point on this APLine. */
 
     /** Test with this main method */
     public static void main(String[] args)

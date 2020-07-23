@@ -1,6 +1,6 @@
 .. mchoice:: time_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter9/time
    :from_source: T

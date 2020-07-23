@@ -1,6 +1,6 @@
 .. mchoice:: keywords_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Keywords
    :from_source: T
@@ -20,4 +20,3 @@
    Multiple Response: Which of the following are keywords or will
    otherwise generate some error from the compiler if used as a
    variable name?
-

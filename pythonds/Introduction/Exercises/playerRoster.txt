@@ -1,6 +1,6 @@
 .. datafile:: playerRoster.txt
    :author: Chelsea Hunter
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds
    :topic: Introduction/Exercises
    :from_source: F

@@ -1,6 +1,6 @@
 .. mchoice:: mc7b
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: MoreAboutIteration/SimpleTables
    :from_source: None
@@ -56,4 +56,3 @@
       0   1
       0   1
       0   1
-

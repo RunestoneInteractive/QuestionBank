@@ -1,6 +1,6 @@
 .. activecode:: helloworld
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/tab
    :from_source: T

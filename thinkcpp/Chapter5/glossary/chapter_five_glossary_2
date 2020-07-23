@@ -1,6 +1,6 @@
 .. dragndrop:: chapter_five_glossary_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/glossary
    :from_source: T
@@ -8,4 +8,3 @@
    :match_1: dead code|||Part of a program that can never be executed.
    :match_2: scaffolding|||Codemused during program development but not part of the final version.
    :match_3: overloading|||Having more than one function with the same name but different parameters.
-

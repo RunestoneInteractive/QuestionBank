@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -26,4 +26,3 @@
     -   string
 
         +   Anything in double quotes is a string.
-

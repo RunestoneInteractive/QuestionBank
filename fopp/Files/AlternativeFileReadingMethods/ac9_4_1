@@ -1,6 +1,6 @@
 .. activecode:: ac9_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Files/AlternativeFileReadingMethods
    :from_source: T
@@ -23,4 +23,3 @@
          self.assertEqual(num_char, 537, "Testing that num_char has the correct value.")
 
    myTests().main()
-

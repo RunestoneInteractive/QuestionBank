@@ -1,0 +1,14 @@
+.. activecode:: ch3ex16q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: T
+    :nocodelens:
+
+    totalDays =
+    numHours = totalDays * 24
+    numMinutes =
+    numSeconds =
+    print(numMinutes)
+    print(numSeconds)

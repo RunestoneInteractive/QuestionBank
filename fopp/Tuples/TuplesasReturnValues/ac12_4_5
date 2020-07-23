@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Tuples/TuplesasReturnValues
     :from_source: T
@@ -20,5 +20,3 @@
     circumference_two, area_two = circleInfo(45)
     print(circumference_two)
     print(area_two)
-
-

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: loop_avg_drop_lowest
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. parsonsprob:: loop_avg_drop_lowest
    :numbered: left
 
    Order the code to return the average of a list of numbers, but drop the lowest value.  However, if the list 
@@ -30,4 +29,3 @@
            return (total - lowest) / (num - 1)
    =====
            return total / num  #paired
-   

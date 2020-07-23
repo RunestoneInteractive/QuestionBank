@@ -1,6 +1,6 @@
 .. fillintheblank:: exponent_formula
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sheets_basics/what_is_a_formula
    :from_source: T
@@ -10,4 +10,3 @@
    - :=2\^10: Correct
      :2\^10: Incorrect: Don't forget the ``=`` symbol.
      :x: Incorrect
-

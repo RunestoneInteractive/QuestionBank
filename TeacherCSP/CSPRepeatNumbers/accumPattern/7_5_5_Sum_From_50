@@ -1,6 +1,6 @@
 .. parsonsprob:: 7_5_5_Sum_From_50
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatNumbers/accumPattern
    :from_source: T
@@ -20,6 +20,3 @@
    print(sum)
    =====
    numbers = range(50,100,2) #distractor
-
-
-

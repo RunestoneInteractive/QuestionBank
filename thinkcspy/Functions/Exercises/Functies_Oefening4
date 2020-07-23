@@ -1,6 +1,6 @@
 .. activecode:: Functies_Oefening4
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Oefening 4: Gebruik de code uit oefening 3 om een functie te schrijven die een gelijkzijdige driehoek maakt. Je schrijft dus een functie die volgende definitie heeft tekenGelijkzijdigeDriehoek(turtle,zijde). In deze functie maak je gebruik van de functie tekenPolygoon die je in oefening 3 reeds geschreven hebt.
     ~~~~
-    

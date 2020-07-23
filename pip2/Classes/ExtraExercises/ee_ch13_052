@@ -1,0 +1,31 @@
+.. activecode:: ee_ch13_052
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/sorting_instances.rst, Classes/InstancesasReturnValues.rst
+
+   tups = [("blue", 2, 30000), ("white", 5, 10000), ("yellow", 8, 100000), ("green", 1, 8000), ("brown", 3, 400000), ("taupe", 4, 200000), ("orange", 6, 250000)]
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(len(houses), 7, "Testing that houses has the correct number of instances in it.")
+
+      def testB(self):
+         self.assertEqual(houses_by_price[0].price, 400000, "Testing that houses_by_price was created correctly.")
+         self.assertEqual(houses_by_price[1].price, 250000, "Testing that houses_by_price was created correctly.")
+         self.assertEqual(houses_by_price[-1].price, 8000, "Testing that houses_by_price was created correctly.")
+
+      def testC(self):
+         self.assertEqual(houses_by_rooms[0].rooms, 8, "Testing that houses_by_rooms was created correctly.")
+         self.assertEqual(houses_by_rooms[1].rooms, 6, "Testing that houses_by_rooms was created correctly.")
+         self.assertEqual(houses_by_rooms[-1].rooms, 1, "Testing that houses_by_rooms was created correctly.")
+
+   myTests().main()

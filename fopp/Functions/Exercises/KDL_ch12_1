@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch12_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: KDL_ch12_1
    :autograde: unittest
    :language: python
 
@@ -21,4 +20,4 @@
            
            self.assertEqual(remove_letter('dogs and cats',' '), 'dogsandcats', "Testing the remove_letter function on input 'dogs and cats' and ' '.")
            
-   myTests().main()   
+   myTests().main()

@@ -1,6 +1,6 @@
 .. mchoice:: e24_2_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPPracticeQuestions/exam24_2
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Incorrect. As the number of inputs increases, the number of steps in this algorithm will always be increasing in this case.
 
    If the number of steps that an algorithm takes is equal to a linear function of the input size, then which of the following statements is true regarding the runtime of the algorithm?
-

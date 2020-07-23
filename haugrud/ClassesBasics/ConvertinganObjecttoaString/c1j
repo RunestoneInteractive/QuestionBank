@@ -1,6 +1,6 @@
 .. activecode:: c1j
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: ClassesBasics/ConvertinganObjecttoaString
     :from_source: None
@@ -31,4 +31,3 @@
     p = Account()
     p.deposit(150)
     print(p)
-

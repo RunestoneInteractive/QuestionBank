@@ -1,6 +1,6 @@
 .. fillintheblank:: Shape_fill
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: instructorguide
     :topic: Directives/fillBlank
     :from_source: T
@@ -9,5 +9,3 @@
 
     - :(^square$|^Square$|^SQUARE$): Correct!
       :x: Did you actually run the program?
-
-

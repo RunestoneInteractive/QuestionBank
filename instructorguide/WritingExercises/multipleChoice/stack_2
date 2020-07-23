@@ -1,0 +1,27 @@
+.. mchoice:: stack_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: instructorguide
+   :topic: WritingExercises/multipleChoice
+   :from_source: T
+   :answer_a: 'x'
+   :answer_b: the stack is empty
+   :answer_c: an error will occur
+   :answer_d: 'z'
+   :correct: c
+   :feedback_a: You may want to check out the docs for isEmpty
+   :feedback_b: There is an odd number of things on the stack but each time through the loop 2 things are popped.
+   :feedback_c: Good Job.
+   :feedback_d: You may want to check out the docs for isEmpty
+
+   Given the following sequence of stack operations, what is the top item on the stack when the sequence is complete?
+
+   .. code-block:: python
+
+     m = Stack()
+     m.push('x')
+     m.push('y')
+     m.push('z')
+     while not m.isEmpty():
+        m.pop()
+        m.pop()

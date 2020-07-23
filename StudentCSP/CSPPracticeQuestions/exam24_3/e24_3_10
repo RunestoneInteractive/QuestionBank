@@ -1,0 +1,35 @@
+.. mchoice:: e24_3_10
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/exam24_3
+   :from_source: T
+   :answer_a: (3,3)
+   :answer_b: (1,3)
+   :answer_c: (5,3)
+   :answer_d: (1,1)
+   :correct: b
+   :feedback_a: Incorrect. Notice that n is changed to n/2 after the inner loop.
+   :feedback_b: Correct. By following the code, you can see that the triangle ends up in (1,3).
+   :feedback_c: Incorrect. The triangle only turns right throughout the enter code segment.
+   :feedback_d: Incorrect. Did you miss the TURN_RIGHT call after the inner loop?
+
+   The red triangle in the grid below is currently located at the position (5, 1) (5th row down and 1st column across), and is facing upward.
+
+   .. image:: Figures/triangle.png
+      :height: 250px
+      :width: 250px
+
+   If the following code is run, which position will the red triangle end up on?
+   ::
+
+      n ← 4
+      REPEAT UNTIL n = 1
+      {
+         REPEAT n TIMES
+         {
+            MOVE_FORWARD
+         }
+         TURN_RIGHT
+         n ← n/2
+      }

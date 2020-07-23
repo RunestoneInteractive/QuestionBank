@@ -1,0 +1,22 @@
+.. activecode::  ch7Ex4a
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: ArrayBasics/ArrayPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int[] a1 = {0, 3, 6, 7, 9, 10};
+           for (int value : a1)
+           {
+               if (value % 2 == 1)
+               {
+                   System.out.print(value + " ");
+               }
+           }
+       }
+   }

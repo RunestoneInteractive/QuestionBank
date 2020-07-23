@@ -1,14 +1,12 @@
-
+.. activecode:: moff_3wk_check
     :author: Richard Moffat
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: moff_3wk_check
 
     Use this active code window to complete the following:
     Your aunt has found out about your programming skills and has asked you to create a program to help your cousin learn order of operations.
     Use the turtle module to create a wizard in the window. Use for loops, geometric shapes, colors to create a wizard. 
     ~~~~
-    # Name : 
-    
+    # Name :

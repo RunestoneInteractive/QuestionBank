@@ -1,6 +1,6 @@
 .. activecode:: Turtle_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: studentcsp
     :topic: CSPrinTeasers/computeTurtles
     :from_source: T
@@ -13,4 +13,3 @@
     alex.forward(150)           # move forward by 150 units
     alex.left(90)               # turn by 90 degrees
     alex.forward(75)            # move forward by 75 units
-

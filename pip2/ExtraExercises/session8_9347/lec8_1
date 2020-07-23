@@ -1,0 +1,21 @@
+.. activecode:: lec8_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session8_9347
+   :from_source: None
+   :tags: DictionaryAccumulation/AccumulatingResultsFromaDictionary.rst
+
+   The dictionary ``Junior`` shows a schedule for a junior year semester. The key is the course name and the value is the number of credits. Find the total number of credits taken this semester and assign it to the variable ``credits``. Do not hardcode this -- use dictionary accumulation!
+   ~~~~
+   courses = {'SI 206':4, 'SI 310':4, 'BL 300':3, 'TO 313':3, 'BCOM 350':1, 'MO 300':3}
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(credits, 18, "Testing that credits is assigned to correct values")
+
+   myTests().main()

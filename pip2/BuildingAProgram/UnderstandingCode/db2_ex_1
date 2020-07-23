@@ -1,0 +1,19 @@
+.. activecode:: db2_ex_1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: BuildingAProgram/UnderstandingCode
+    :from_source: None
+
+    numbers = [1,2,6,4,5,6, 93]
+
+    z = 0
+    for num in numbers:
+        print "*** LOOP ***"
+        print "Num =",num
+        if (num % 2) == 0:
+            print "Is even. Adding",num,"to",z
+            z = num + z
+        print "Running sum =",z
+    print "*** DONE ***"
+    print "Total = " , z

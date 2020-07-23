@@ -1,6 +1,6 @@
 .. activecode:: piguessstart
         :author: bmiller
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: thinkcspy
         :topic: Labs/montepi
         :from_source: T
@@ -25,5 +25,3 @@
             y =
 
         wn.exitonclick()
-
-

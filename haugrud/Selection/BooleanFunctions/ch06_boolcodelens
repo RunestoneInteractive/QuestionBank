@@ -1,6 +1,6 @@
 .. codelens:: ch06_boolcodelens
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: Selection/BooleanFunctions
     :from_source: None
@@ -18,5 +18,3 @@
         print("That works")
     else:
         print("Those values are no good")
-
-

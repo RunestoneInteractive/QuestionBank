@@ -1,6 +1,6 @@
 .. mchoice:: test_question7_4_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: MoreAboutIteration/The3n1Sequence
    :from_source: None
@@ -13,4 +13,3 @@
    :feedback_c: That this sequence terminates for all values of n has not been proven or disproven so no one knows whether the while loop will always terminate or not.
 
    Consider the code that prints the 3n+1 sequence in ActiveCode box 6.  Will the while loop in this code always terminate for any positive integer value of n?
-

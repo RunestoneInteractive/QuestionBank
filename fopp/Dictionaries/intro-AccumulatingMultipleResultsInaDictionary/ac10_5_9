@@ -1,6 +1,6 @@
 .. activecode:: ac10_5_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
    :from_source: T
@@ -8,8 +8,6 @@
    :autograde: unittest
    :practice: T
 
-   **3.** Create a dictionary called ``char_d`` from the string ``stri``, so that the key is a character and the value is how many times it occurs.
-   ~~~~
    stri = "what can I do"
 
    =====
@@ -22,4 +20,3 @@
          self.assertEqual(sorted(char_d.items()), sorted([('w', 1), ('h', 1), ('a', 2), ('t', 1), (' ', 3), ('c', 1), ('n', 1), ('I', 1), ('d', 1), ('o', 1)]), "Testing that char_d has been created correctly.")
 
    myTests().main()
-

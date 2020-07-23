@@ -1,6 +1,6 @@
 .. parsonsprob:: 3_9
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: PythonTurtle/IterationSimplifiesourTurtleProgram
    :from_source: None
@@ -22,4 +22,3 @@
      carlos.right(90)
    =====
    wn.exitonclick()
-

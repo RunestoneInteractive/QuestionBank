@@ -1,6 +1,6 @@
 .. activecode:: hot_potato_cpp
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: LinearBasic/SimulationHotPotato
   :from_source: T

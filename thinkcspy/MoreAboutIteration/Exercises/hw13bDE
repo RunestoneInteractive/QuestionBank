@@ -1,10 +1,9 @@
-
+.. activecode:: hw13bDE
     :author: Damon Ellingston
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: hw13bDE
 
     **Homework 13 b  - -  doubling time**
 

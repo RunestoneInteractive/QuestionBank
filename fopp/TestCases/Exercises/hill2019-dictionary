@@ -1,6 +1,6 @@
 .. activecode:: hill2019-dictionary
    :author: Scott Hill
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TestCases/Exercises
    :from_source: F
@@ -31,6 +31,3 @@
         
 
    myTests().main()
-
-
-

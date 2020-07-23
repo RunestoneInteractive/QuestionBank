@@ -1,0 +1,20 @@
+.. activecode:: ee_ch_081
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sequences/ExtraExercises
+   :from_source: None
+   :tags: Sequences/ListDeletion.rst
+
+   letts = ['a', 'b', 'b', 'c', 'd', 'e', 'e', 'e', 'f', 'f']
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(letts, ['a', 'b', 'b', 'c', 'd', 'f', 'f'], "Testing the list letts.")
+
+   myTests().main()

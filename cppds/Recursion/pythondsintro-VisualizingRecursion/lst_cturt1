@@ -1,6 +1,6 @@
 .. activecode:: lst_cturt1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Recursion/pythondsintro-VisualizingRecursion
     :from_source: T
@@ -11,19 +11,19 @@
     namespace ct = cturtle;
 
     void spiral(ct::Turtle& turtle, int length) {
-        if (len > 0) {
-            rt.forward(length);
-            rt.right(90);
-            spiral(rt, len - 5);
+        if (length > 0) {
+            turtle.forward(length);
+            turtle.right(90);
+            spiral(turtle, length - 5);
         }
     }
 
-    int main(int argc, char** argv) {
+    int main() {
         ct::TurtleScreen screen;
-        ct::Turtle turtle(scr);
+        ct::Turtle turtle(screen);
 
         spiral(turtle, 100);
 
-        scr.bye();
+        screen.bye();
         return 0;
     }

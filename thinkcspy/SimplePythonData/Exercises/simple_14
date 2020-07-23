@@ -1,10 +1,9 @@
-
+.. activecode:: simple_14
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_14
 
     Take a look at the 3 lines of code below and tell me what the operators 
     and the operands are:
@@ -17,4 +16,3 @@
 
 
     ~~~~
-    

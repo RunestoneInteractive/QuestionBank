@@ -1,10 +1,9 @@
-
+.. activecode:: CS152_Assignment_03
      :author: John Cigas
-     :difficulty: 2.0
+     :difficulty: 2
      :basecourse: thinkcspy
      :topic: Labs/Exercises
      :from_source: F
-.. activecode:: CS152_Assignment_03
 
      See Canvas for a description of the turtle graphics problem.
 
@@ -16,5 +15,3 @@
 
     Write your code in this window. Write your reflection in the Google doc we set up in class.
     ~~~~
-
-    

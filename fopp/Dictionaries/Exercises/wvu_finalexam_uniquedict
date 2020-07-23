@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_uniquedict
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_uniquedict
     :autograde: unittest
 
     Create a list named **presidents** that contains the unique names of the presidents from **elections**. Each president should only appear once in the list.

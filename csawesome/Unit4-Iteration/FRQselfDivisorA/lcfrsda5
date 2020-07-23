@@ -1,12 +1,14 @@
 .. activecode:: lcfrsda5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit4-Iteration/FRQselfDivisorA
    :from_source: T
    :language: java
    :autograde: unittest
 
+   FRQ SelfDivisor: Write the method isSelfDivisor.
+   ~~~~
    public class SelfDivisor
    {
 
@@ -64,4 +66,3 @@
             assertTrue(passed);
         }
     }
-

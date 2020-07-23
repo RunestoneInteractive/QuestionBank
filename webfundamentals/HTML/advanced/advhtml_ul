@@ -1,6 +1,6 @@
 .. activecode:: advhtml_ul
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: HTML/advanced
    :from_source: T
@@ -10,4 +10,3 @@
    <li>This is an unordered list</li>
    <li>The <code>li</code> tags come between two <code>ul</code> tags
    </ul>
-

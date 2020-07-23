@@ -1,0 +1,9 @@
+.. activecode:: ch3ex1
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPNameNumbers/ch3_exercises
+    :from_source: T
+    :nocodelens:
+
+   print(9 * 5)

@@ -1,6 +1,6 @@
 .. activecode:: chp13_classesstr2
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: ClassesBasics/ConvertinganObjecttoaString
     :from_source: None
@@ -27,4 +27,3 @@
 
     p = Point(7, 6)
     print(p)
-

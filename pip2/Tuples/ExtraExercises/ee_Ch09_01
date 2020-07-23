@@ -1,0 +1,18 @@
+.. activecode:: ee_Ch09_01
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Tuples/ExtraExercises
+   :from_source: None
+   :tags: Tuples/Tuples.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(olympics, ('Beijing', 'London', 'Rio', 'Tokyo'), "Testing that olympics is assigned to correct values")
+
+   myTests().main()

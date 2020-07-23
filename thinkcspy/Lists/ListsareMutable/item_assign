@@ -1,6 +1,6 @@
 .. codelens:: item_assign
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/ListsareMutable
     :from_source: T
@@ -9,5 +9,3 @@
 
     fruit[0] = "pear"
     fruit[-1] = "orange"
-
-

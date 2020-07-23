@@ -1,0 +1,27 @@
+.. mchoice:: test_questionkeyword_params_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: OptionalAndKeywordParameters/KeywordParameters
+   :from_source: None
+   :answer_a: 2
+   :answer_b: 3
+   :answer_c: 5
+   :answer_d: 10
+   :answer_e: Runtime error since no value is provided for y, which comes before z
+   :feedback_a: 2 is bound to x, not y
+   :feedback_b: 3 is the default value for y, and no value is specified for y,
+   :feedback_c: say what?
+   :feedback_d: 10 is the second value passed, but it is bound to z, not y.
+   :feedback_e: That's the beauty of passing parameters with keywords; you can skip some parameters and they get their default values.
+   :correct: b
+
+   What value will be printed for y?
+
+   .. code-block:: python
+
+      initial = 7
+      def f(x, y = 3, z = initial):
+          print "x, y, z are:", x, y, z
+
+      f(2, z = 10)

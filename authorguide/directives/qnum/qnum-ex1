@@ -1,6 +1,6 @@
 .. mchoice:: qnum-ex1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/qnum
    :from_source: T
@@ -22,4 +22,3 @@
    - Grey
 
      - Grey is not a color found in a rainbow.
-

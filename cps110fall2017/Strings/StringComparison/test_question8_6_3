@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_6_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Strings/StringComparison
    :from_source: None
@@ -15,4 +15,3 @@
    .. code-block:: python
 
       "dog" < "Doghouse"
-

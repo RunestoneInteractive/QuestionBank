@@ -1,6 +1,6 @@
 .. activecode:: Extra_oefening_2
    :author: Jan Persan
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
@@ -32,4 +32,3 @@
     print("hello world")
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

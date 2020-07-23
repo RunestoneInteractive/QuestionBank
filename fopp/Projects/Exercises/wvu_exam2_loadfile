@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_exam2_loadfile
     :author: Brian Powell
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: Projects/Exercises
     :from_source: F
-.. activecode:: wvu_exam2_loadfile
     :autograde: unittest
 
     Create a function named **read_file_contents()**. This function should take no parameters.
@@ -23,5 +22,3 @@
             self.assertEqual(len(read_file_contents()),2000,"Your function must return a list with 2000 elements")
 
     myTests().main()
-
-    

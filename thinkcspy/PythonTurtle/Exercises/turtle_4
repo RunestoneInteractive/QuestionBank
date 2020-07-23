@@ -1,10 +1,9 @@
-
+.. activecode:: turtle_4
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: turtle_4
 
     Using a for loop, print out the contents of the following list:
  
@@ -12,5 +11,3 @@
     Biv']
 
     ~~~~
-    
-    

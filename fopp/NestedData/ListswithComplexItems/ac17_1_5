@@ -1,6 +1,6 @@
 .. activecode:: ac17_1_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/ListswithComplexItems
    :from_source: T
@@ -24,4 +24,3 @@
          self.assertEqual(idx1, 'horse', "Testing that idx1 was assigned correctly.")
 
    myTests().main()
-

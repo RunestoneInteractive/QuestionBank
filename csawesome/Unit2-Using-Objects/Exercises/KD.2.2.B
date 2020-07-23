@@ -1,6 +1,6 @@
 .. mchoice:: KD.2.2.B
    :author: Kuri DiFede
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: F
@@ -21,4 +21,3 @@
 
      public Rectangle( int length, int width );
      public Rectangle();
-  

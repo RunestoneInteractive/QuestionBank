@@ -1,6 +1,6 @@
 .. activecode:: fnj
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Functions/UnitTesting
     :from_source: None
@@ -13,4 +13,3 @@
     import test
     print('testing square function')
     test.testEqual(square(10), 100)
-

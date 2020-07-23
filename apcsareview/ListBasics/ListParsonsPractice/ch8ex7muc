@@ -1,6 +1,6 @@
 .. parsonsprob:: ch8ex7muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ListBasics/ListParsonsPractice
    :from_source: T
@@ -30,4 +30,3 @@
        nums.add(largest); #distractor
    =====
    } //end moveLargest method
-

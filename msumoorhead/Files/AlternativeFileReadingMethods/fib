@@ -1,6 +1,6 @@
 .. activecode:: fib
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Files/AlternativeFileReadingMethods
     :from_source: None

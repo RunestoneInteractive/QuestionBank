@@ -1,6 +1,6 @@
 .. mchoice:: question5_5_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Sequences/Length
    :from_source: T
@@ -17,4 +17,3 @@
 
      alist = [3, 67, "cat", 3.14, False]
      print(len(alist))
-

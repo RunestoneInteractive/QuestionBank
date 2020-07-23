@@ -1,6 +1,6 @@
 .. video::  pythonopsperf2
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: AlgorithmAnalysis/HashTables
    :from_source: F

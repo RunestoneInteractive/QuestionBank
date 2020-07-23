@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameNumbers/VariablePracticeParsons
    :from_source: T
@@ -17,4 +17,3 @@
    pricePerShirt = totalCost / 3
    =====
    print(pricePerShirt)
-

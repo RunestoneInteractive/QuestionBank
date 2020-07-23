@@ -1,13 +1,11 @@
-
+.. activecode:: hangman game
     :author: Richard Moffat
-    :difficulty: 5.0
+    :difficulty: 5
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: hangman game
    
     Place your code for the hangman game here. See https://goo.gl/h9sCym for game specifications.
     ~~~~
     
     ====
-    

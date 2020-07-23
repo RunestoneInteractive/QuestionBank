@@ -1,6 +1,6 @@
 .. activecode:: assess_ps_01_02
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: SimplePythonData/week1a2
     :from_source: T
@@ -30,4 +30,3 @@
            self.assertEqual(num_chars, len(rv), "Testing that num_chars has been set to the length of rv")
 
     myTests().main()
-

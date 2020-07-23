@@ -1,6 +1,6 @@
 .. mchoice:: AP2-1-6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: T
@@ -24,4 +24,3 @@
 
     The object scaryMovie will be declared as type Movie.
     Which of the following descriptions is accurate?
-

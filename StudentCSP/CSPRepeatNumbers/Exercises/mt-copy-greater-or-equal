@@ -1,10 +1,9 @@
-
+.. parsonsprob:: mt-copy-greater-or-equal
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPRepeatNumbers/Exercises
    :from_source: F
-.. parsonsprob:: mt-copy-greater-or-equal
    :numbered: left
 
    Solve my really cool parsons problem...if you can.
@@ -28,4 +27,3 @@
                list2.add(item) #paired
    =====
        return list2
- 

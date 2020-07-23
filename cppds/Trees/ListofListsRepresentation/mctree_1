@@ -1,6 +1,6 @@
 .. mchoice:: mctree_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Trees/ListofListsRepresentation
    :from_source: T

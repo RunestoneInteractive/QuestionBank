@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_where_with_aggregation
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -16,4 +16,3 @@
      COUNT(*) > 100
    GROUP BY
      start_station
-

@@ -1,0 +1,20 @@
+.. activecode:: ee_listcomp_052
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/ExtraExercises
+   :from_source: None
+   :tags: AdvancedAccumulation/listcomp.rst
+
+   students = [('Tommy', 95), ('Linda', 63), ('Carl', 70), ('Bob', 100), ('Raymond', 50), ('Sue', 75)]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(passed, ['Tommy', 'Carl', 'Bob', 'Sue'], "Testing that passed is correct.")
+
+   myTests().main()

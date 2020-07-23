@@ -1,6 +1,6 @@
 .. activecode:: Turtle_For_Range
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: studentcsp
   :topic: CSPRepeatTurtles/repeatturtles
   :from_source: T
@@ -16,4 +16,3 @@
   for sides in range(4):        # repeat the indented lines 4 times
       marcus.forward(100)               # move forward by 100 units
       marcus.right(90)                          # turn by 90 degrees
-

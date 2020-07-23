@@ -1,6 +1,6 @@
 .. actex:: sigcse_ex2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: instructorguide
     :topic: WritingExercises/theExerciseBank
     :from_source: T
@@ -10,5 +10,3 @@
     ~~~~
     def sum_first_n(N):
         # your code here
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: decks_and_subdecks_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter12/decks_and_subdecks
    :from_source: T

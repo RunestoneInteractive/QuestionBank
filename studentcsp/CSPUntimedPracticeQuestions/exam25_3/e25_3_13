@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_13
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -17,5 +17,3 @@
    A weatherman record atmospheric data to predict future weather conditions. Suppose that his lab in Detroit takes hourly measurements of air temperature and precipitation in the city for a total period of 12 months. The lab also records the exact time and date for each measurement.
 
    Which of the following questions about the Detroit’s weather could be accurately answered using only the data collected by the lab?
-
-

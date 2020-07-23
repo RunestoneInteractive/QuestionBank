@@ -1,6 +1,6 @@
 .. mchoice:: AP2-1-3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/practice-test-objects
    :from_source: T
@@ -25,4 +25,3 @@
 
     The object liquid1 will be declared as type Liquid.
     Which of the following statements is accurate?
-

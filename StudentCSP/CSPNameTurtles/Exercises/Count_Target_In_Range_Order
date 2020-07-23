@@ -1,10 +1,9 @@
-
+.. parsonsprob:: Count_Target_In_Range_Order
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
-.. parsonsprob:: Count_Target_In_Range_Order
    :adaptive:
    :maxdist: 4
 

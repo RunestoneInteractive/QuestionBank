@@ -1,6 +1,6 @@
 .. mchoice:: question8_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/Mutability
    :from_source: T

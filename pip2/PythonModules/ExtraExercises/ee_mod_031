@@ -1,0 +1,22 @@
+.. activecode:: ee_mod_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags: PythonModules/intro-ModulesandGettingHelp.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(top, 3, "Testing that top has the correct value.")
+      def testTwo(self):
+         self.assertEqual(bottom, 94, "Testing that bottom has the correct value.")
+
+
+   myTests().main()

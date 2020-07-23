@@ -1,6 +1,6 @@
 .. mchoice:: test_question_five_three_two_eight
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/returningfrommain
    :from_source: F

@@ -1,6 +1,6 @@
 .. activecode:: ac2_5_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: SimplePythonData/DataTypes
     :from_source: T
@@ -10,4 +10,3 @@
     print(type(17))
     print("Hello, World")
     print(type(3.2))
-

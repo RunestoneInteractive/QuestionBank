@@ -1,12 +1,13 @@
 .. activecode:: PersonClassThis
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-9-this
   :from_source: T
   :language: java
+  :autograde: unittest
 
-  Observe the use of the keyword this in the code below.
+  Observe the use of the keyword this in the code below. Click on the CodeLens button and then forward to see the memory in action.
   ~~~~
   public class Person
   {
@@ -46,3 +47,24 @@
         System.out.println(p2);
      }
   }
+  ====
+   import static org.junit.Assert.*;
+      import org.junit.*;
+      import java.io.*;
+
+      public class RunestoneTests extends CodeTestHelper
+      {
+          public RunestoneTests() {
+              super("Person");
+          }
+
+            @Test
+            public void testMain() throws IOException
+            {
+               String output = getMethodOutput("main");
+                String expect = "Sana null null\nJean jean@gmail.com 404 899-9955";
+
+                boolean passed = getResults(expect, output, "Expected output from main", true);
+                assertTrue(passed);
+            }
+      }

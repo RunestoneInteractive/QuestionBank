@@ -1,0 +1,29 @@
+.. mchoice:: q3_4_3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/topic-1-5-shortcutoperators
+   :from_source: T
+   :practice: T
+   :answer_a: x = -1, y = 1, z = 4
+   :answer_b: x = -1, y = 2, z = 3
+   :answer_c: x = -1, y = 2, z = 2
+   :answer_d: x = -1, y = 2, z = 2
+   :answer_e: x = -1, y = 2, z = 4
+   :correct: e
+   :feedback_a: This code subtracts one from x, adds one to y, and then sets z to to the value in z plus the current value of y.
+   :feedback_b: This code subtracts one from x, adds one to y, and then sets z to to the value in z plus the current value of y.
+   :feedback_c: This code subtracts one from x, adds one to y, and then sets z to to the value in z plus the current value of y.
+   :feedback_d: This code subtracts one from x, adds one to y, and then sets z to to the value in z plus the current value of y.
+   :feedback_e: This code subtracts one from x, adds one to y, and then sets z to to the value in z plus the current value of y.
+
+   What are the values of x, y, and z after the following code executes?
+
+   .. code-block:: java
+
+     int x = 0;
+     int y = 1;
+     int z = 2;
+     x--;
+     y++;
+     z+=y;

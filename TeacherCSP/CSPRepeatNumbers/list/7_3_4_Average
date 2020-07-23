@@ -1,6 +1,6 @@
 .. parsonsprob:: 7_3_4_Average
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatNumbers/list
    :from_source: T
@@ -14,5 +14,3 @@
    for number in numbers:
        sum = sum + number
    print(sum / 5)
-
-

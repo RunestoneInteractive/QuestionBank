@@ -1,6 +1,6 @@
 .. fillintheblank:: question4
         :author: Oyebisi Layode
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: thinkcspy
         :topic: GeneralIntro/Exercises
         :from_source: F
@@ -10,4 +10,4 @@
         -   :main memory: Is the correct answer.
             :Main memory: Try "main memory".
             :volatile memory: This is not what i am looking for.
-            :x: Try again. 
+            :x: Try again.

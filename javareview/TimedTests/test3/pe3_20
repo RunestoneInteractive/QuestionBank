@@ -1,0 +1,31 @@
+.. mchoice:: pe3_20
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test3
+   :from_source: None
+   :answer_a: I and III
+   :answer_b: All are true
+   :answer_c: I, III, and IV
+   :answer_d: II and IV
+   :answer_e: III and IV
+   :correct: c
+   :feedback_a: These are both true, but one more is also true.
+   :feedback_b: Since s1 and s2 were created using the new operator they do not refer to the same object so s1 == s2 is false.
+   :feedback_c: I is true since they have the same characters in the same order.  III and IV are both true since they refer to the same object.
+   :feedback_d: II is not true.  Since s1 and s2 were created using the new operator they do not refer to the same object so s1 == s2 is false.
+   :feedback_e: These are both true, but one more is also true.
+
+   Given the following code.
+
+   .. code-block:: java
+
+      String s1 = new String("hi");
+      String s2 = new String("hi");
+      String s3 = s2;
+
+      Which of the following would return true:
+      I.  s1.equals(s2)
+      II. s1 == s2
+      III. s2.equals(s3);
+      IV. s2 == s3;

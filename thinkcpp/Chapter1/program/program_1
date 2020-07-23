@@ -1,6 +1,6 @@
 .. fillintheblank:: program_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/program
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :[Pp][Rr][Oo][Gg][Rr][Aa][Mm]: Correct!
      :.*: Try again!
-

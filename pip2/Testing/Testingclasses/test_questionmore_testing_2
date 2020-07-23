@@ -1,0 +1,13 @@
+.. mchoice:: test_questionmore_testing_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Testing/Testingclasses
+   :from_source: None
+   :answer_a: return value test
+   :answer_b: side effect test
+   :feedback_a: The method may return the correct value but not properly change the values of instance variables. See the move method of the Point class above.
+   :feedback_b: The move method of the Point class above is a good example.
+   :correct: b
+
+   To test a method that changes the value of an instance variable, which kind of test case should you write?

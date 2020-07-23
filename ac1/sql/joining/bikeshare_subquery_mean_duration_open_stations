@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_subquery_mean_duration_open_stations
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/joining
    :from_source: T
@@ -20,4 +20,3 @@
        WHERE
          status = 'open'
      )
-

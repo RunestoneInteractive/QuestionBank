@@ -1,6 +1,6 @@
 .. activecode:: stepTrackerCode_SSell_1
    :author: Stephen Sell
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/Exercises
    :from_source: F
@@ -49,6 +49,3 @@
          System.out.println(tr.averageSteps()); // returns 10222.2. The average number of steps per day is (51111 / 5).
       }
    }
-
-
-    

@@ -1,0 +1,26 @@
+.. activecode:: ee_listcomp_04
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/ExtraExercises
+   :from_source: None
+   :tags: AdvancedAccumulation/listcomp.rst
+
+   L = [12, 34, 21, 4, 6, 9, 42]
+   lst = []
+   for x in L:
+       if x > 10:
+           lst.append(x)
+   print lst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFourA(self):
+         self.assertEqual(lst2, [12, 34, 21, 42], "Testing that lst2 is assigned to correct values")
+
+
+   myTests().main()

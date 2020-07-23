@@ -1,6 +1,6 @@
 .. activecode:: lst_shellSort
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: SortSearch/ElOrdenamientoDeShell
     :from_source: None
@@ -33,5 +33,3 @@
     unaLista = [54,26,93,17,77,31,44,55,20]
     ordenamientoDeShell(unaLista)
     print(unaLista)
-
-

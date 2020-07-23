@@ -1,10 +1,9 @@
 .. activecode:: ac2_5_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: SimplePythonData/DataTypes
     :from_source: T
     :nocanvas:
 
     print('''"Oh no", she exclaimed, "Ben's bike is broken!"''')
-

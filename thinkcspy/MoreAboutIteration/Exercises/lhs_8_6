@@ -1,6 +1,6 @@
 .. activecode:: lhs_8_6
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -69,4 +69,4 @@
                 self.assertEqual(actual, expected, "Check iteration count")
                 self.assertEqual(e, good_e, "Check e-value")
                 
-    myTests().main()       
+    myTests().main()

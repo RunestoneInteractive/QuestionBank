@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_10_3a
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: lhs_10_3a
     :language: python
     :autograde: unittest
 
@@ -47,4 +46,4 @@
             self.assertEqual(sumEvenAndDiv3(l), self._sumEvenAndDiv3(l), "Random List 1")
             editText = self.getEditorText()
 
-    myTests().main() 
+    myTests().main()

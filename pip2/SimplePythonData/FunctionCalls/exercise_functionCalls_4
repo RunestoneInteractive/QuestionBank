@@ -1,0 +1,21 @@
+.. mchoice:: exercise_functionCalls_4
+      :author: Brad Miller
+      :difficulty: 3
+      :basecourse: pip2
+      :topic: SimplePythonData/FunctionCalls
+      :from_source: None
+      :answer_a: sub(5, 8)
+      :answer_b: -3
+      :answer_c: 3
+      :answer_d: nothing will print
+      :feedback_a: There is no print statement
+      :feedback_b: There is no print statement
+      :feedback_c: There is no print statement
+      :feedback_d: There is no print statement
+      :correct: d
+
+      What will the output be from this code?
+
+      .. code-block:: python
+
+         "sub(5, 8)"

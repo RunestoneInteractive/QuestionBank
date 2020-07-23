@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch12_3
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: KDL_ch12_3
    :autograde: unittest
    :language: python
 
@@ -26,4 +25,4 @@
            self.assertIn('def X', self.getEditorText(), 'function exists')  
            self.assertIn('input', self.getEditorText(), 'Contains input in loop')
          
-   myTests().main()   
+   myTests().main()

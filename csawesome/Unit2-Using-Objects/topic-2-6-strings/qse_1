@@ -1,6 +1,6 @@
 .. mchoice:: qse_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-6-strings
    :from_source: T
@@ -24,4 +24,3 @@
      String s1 = "xy";
      String s2 = s1;
      s1 = s1 + s2 + "z";
-

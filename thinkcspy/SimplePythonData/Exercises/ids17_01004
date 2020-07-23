@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_01004
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: ids17_01004
    
 
     3.2(劉邦鋒，由片語學習C程式設計) 寫一個程式讀入一個整數。如果該整數為偶數則輸出1，否則輸出0。
@@ -20,4 +19,3 @@
     
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

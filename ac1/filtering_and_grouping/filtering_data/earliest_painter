@@ -1,6 +1,6 @@
 .. fillintheblank:: earliest_painter
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: filtering_and_grouping/filtering_data
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :Giotto di Bondone: Correct
      :x: Incorrect
-

@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch8_3
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: F
-.. activecode:: KDL_ch8_3
    :autograde: unittest
    :language: python
 
@@ -32,4 +31,4 @@
            self.assertIn('print(', self.getEditorText(), 'Contains print')
            self.assertIn(number+endingval, self.getOutput(), 'Correct ordinal printed')
 
-   myTests().main()    
+   myTests().main()

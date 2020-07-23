@@ -1,10 +1,11 @@
 .. activecode::  ch7Ex7na
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayPractice
    :from_source: T
    :language: java
+   :optional:
 
    Solution to question above.
    ~~~~

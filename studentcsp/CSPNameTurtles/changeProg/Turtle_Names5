@@ -1,6 +1,6 @@
 .. activecode:: Turtle_Names5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: studentcsp
     :topic: CSPNameTurtles/changeProg
     :from_source: T
@@ -14,4 +14,3 @@
     alex.forward(40)            # complete the second leg of a triangle
     alex.left(0)                # ZERO won't actually work
     alex.forward(57)            # Close the triangle
-

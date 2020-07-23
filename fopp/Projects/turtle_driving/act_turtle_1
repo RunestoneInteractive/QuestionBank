@@ -1,6 +1,6 @@
 .. activecode:: act_turtle_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/turtle_driving
     :from_source: T
@@ -16,4 +16,3 @@
     my_turtle.right(90)           # change direction to the right, left works too
     my_turtle.down()              # put the tail down
     my_turtle.backward(100)       # draw a green line 100 units long
-

@@ -1,6 +1,6 @@
 .. activecode:: String_Slice1_ch17
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPStringPieces/createPartsOfStrings
    :from_source: T

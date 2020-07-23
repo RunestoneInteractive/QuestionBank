@@ -1,6 +1,6 @@
 .. mchoice:: programming_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter1/exercises
     :from_source: T
@@ -23,4 +23,3 @@
     -   a general process for solving a category of problems
 
         -   This is actually called an algorithm!
-

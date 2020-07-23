@@ -1,10 +1,9 @@
-
+.. activecode:: CCS1_func_area
     :author: Michael McCarrin
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: CCS1_func_area
    
     Complete the function below so it calculates the area of a square and returns the answer.
     ~~~~

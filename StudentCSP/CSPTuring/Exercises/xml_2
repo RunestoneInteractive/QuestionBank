@@ -1,10 +1,9 @@
-
+.. parsonsprob:: xml_2
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPTuring/Exercises
    :from_source: F
-.. parsonsprob:: xml_2
    :adaptive: 
    :numbered: left
 
@@ -25,5 +24,3 @@
            print("Num neighbors: %d" % len(neighbors))
    =====
            print("Num neighbors: %d" % neighbors) #paired
-
-   

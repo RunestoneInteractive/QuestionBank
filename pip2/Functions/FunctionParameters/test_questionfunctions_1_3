@@ -1,0 +1,17 @@
+.. mchoice:: test_questionfunctions_1_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/FunctionParameters
+   :from_source: None
+   :answer_a: def greet(t):
+   :answer_b: def greet:
+   :answer_c: greet(t, n):
+   :answer_d: def greet(t, n)
+   :feedback_a: A function may take zero or more parameters.  In this case it has one.
+   :feedback_b: A function needs to specify its parameters in its header. If there are no paramters, put () after the function name.
+   :feedback_c: A function definition needs to include the keyword def.
+   :feedback_d: A function definition header must end in a colon (:).
+   :correct: a
+
+   Which of the following is a valid function header (first line of a function definition)?

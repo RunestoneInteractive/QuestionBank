@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_1_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: SimplePythonData/ValuesandDataTypes
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: Strings can be enclosed in single quotes.
 
    What is the data type of 'this is what kind of data'?
-

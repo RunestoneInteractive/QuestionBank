@@ -1,6 +1,6 @@
 .. activecode:: chp13_classes5
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: ClassesBasics/AddingOtherMethodstoourClass
     :from_source: None
@@ -25,5 +25,3 @@
 
     p = Point(7, 6)
     print(p.distanceFromOrigin())
-
-

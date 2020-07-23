@@ -1,0 +1,11 @@
+.. codelens:: Assign_Basic
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPNameNumbers/walkAssign
+   :from_source: T
+
+   a = 1
+   b = 12.3
+   c = "Fred"
+   d = b

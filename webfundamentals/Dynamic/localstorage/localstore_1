@@ -1,6 +1,6 @@
 .. activecode:: localstore_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Dynamic/localstorage
     :from_source: T
@@ -15,4 +15,3 @@
     }
     localStorage.counter = counter
     writeln("counter is now " + localStorage.counter)
-

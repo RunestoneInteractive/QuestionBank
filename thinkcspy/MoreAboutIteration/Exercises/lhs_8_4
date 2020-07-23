@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_8_4
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: lhs_8_4
     :language: python
     :autograde: unittest
 
@@ -102,4 +101,3 @@
             self.assertEqual(actual, expected, "checking output for drugPotency(" + str(loss) + ", " + str(exp) + ")")
     
     myTests().main()
-

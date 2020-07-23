@@ -1,6 +1,6 @@
 .. mchoice:: files_assessment_irma2
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: F
@@ -17,4 +17,3 @@
    :topics: Files
 
    Which of the following commands is used to open a file called ``myText.txt`` in Write-Only mode?
-

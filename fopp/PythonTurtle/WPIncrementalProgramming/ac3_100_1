@@ -1,6 +1,6 @@
 .. activecode:: ac3_100_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: PythonTurtle/WPIncrementalProgramming
     :from_source: T
@@ -14,4 +14,3 @@
     bob.forward(50)
 
     # Add your code below!
-

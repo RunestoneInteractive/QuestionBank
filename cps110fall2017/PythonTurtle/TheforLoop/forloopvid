@@ -1,6 +1,6 @@
 .. video:: forloopvid
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: PythonTurtle/TheforLoop
    :from_source: None
@@ -9,4 +9,3 @@
 
    http://media.interactivepython.org/thinkcsVideos/for_loop.mov
    http://media.interactivepython.org/thinkcsVideos/for_loop.webm
-

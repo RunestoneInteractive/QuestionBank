@@ -1,6 +1,6 @@
 .. activecode:: tgg
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: PythonTurtle/IterationSimplifiesourTurtleProgram
     :from_source: None

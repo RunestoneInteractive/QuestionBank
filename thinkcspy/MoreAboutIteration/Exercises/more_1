@@ -1,12 +1,10 @@
-
+.. activecode:: more_1
     :author: DANIEL LEE
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: more_1
   
     Think of 3 things besides programming loops that iterate.
 
     ~~~~
-    

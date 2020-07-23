@@ -1,6 +1,6 @@
 .. parsonsprob:: 8_3_3_While_Countdown
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWhileAndForLoops/whileCount
    :from_source: T

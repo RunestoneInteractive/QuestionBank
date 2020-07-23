@@ -1,6 +1,6 @@
 .. fillintheblank:: pizza_solver_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/pizza_regression
    :from_source: T
@@ -11,4 +11,3 @@
      :1441: Is the sum of squared errors
      :3.17: Oops it looks like you are still using 0.7 and 5 as your slope and intercept
      :x: Double check your formulas and data.
-

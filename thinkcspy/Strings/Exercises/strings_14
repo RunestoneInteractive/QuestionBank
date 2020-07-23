@@ -1,13 +1,11 @@
-
+.. activecode:: strings_14
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: strings_14
   
     Create a program that traverses a user inputted string and outputs the 
     number of spaces that appear in the string.
 
     ~~~~
-    

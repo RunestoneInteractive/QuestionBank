@@ -1,6 +1,6 @@
 .. shortanswer:: bikeshare_if_start_end_same_station
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/ifs_and_cases
    :from_source: T

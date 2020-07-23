@@ -1,14 +1,12 @@
-
+.. dragndrop:: dndWtsVideoDemo
     :author: Tom Sej
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. dragndrop:: dndWtsVideoDemo
     :feedback: Feedback that is displayed if things are incorrectly matched
     :match_1: Star Tribune|||Minneapolis
     :match_2: Boston Globe|||Boston
     :match_3: New York Times|||New York
 
     Match the newspaper with the corresponding city that it is published in.
-    

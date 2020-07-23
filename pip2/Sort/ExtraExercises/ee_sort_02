@@ -1,0 +1,20 @@
+.. activecode:: ee_sort_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags: Sort/SortingaDictionary.rst, Sort/intro-SortingwithSortandSorted.rst
+
+   medals = {'Japan':41, 'Russia':56, 'South Korea':21, 'United States':121, 'Germany':42, 'China':70}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(alphabetical, sorted(medals.keys()), "Testing that alphabetical value is assigned to correct values.")
+
+   myTests().main()

@@ -1,10 +1,9 @@
-
+.. activecode:: TroyCh4Q1_2019
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: TroyCh4Q1_2019
 
 
     The window below is an Optional coding window for the Quiz.  
@@ -16,4 +15,3 @@
     print("Hello - Quiz Code")
     #
     ====
-        

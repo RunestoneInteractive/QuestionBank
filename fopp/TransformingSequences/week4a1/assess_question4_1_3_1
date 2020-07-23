@@ -1,6 +1,6 @@
 .. mchoice:: assess_question4_1_3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/week4a1
    :from_source: T
@@ -44,4 +44,3 @@
 
    .. image:: Figures/week3a2_4.png
       :alt: Fourth Potential Solution
-

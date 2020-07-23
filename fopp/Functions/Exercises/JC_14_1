@@ -1,6 +1,6 @@
 .. actex:: JC_14_1
    :author: Joaquin Carbonara
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -17,5 +17,3 @@
    print(remove_letter('p',tong_twister)) #This should remove all upper and lower case p.
 
    ====
-
-

@@ -1,0 +1,20 @@
+.. mchoice:: qsm_5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: Use one class, Car, which has three attributes: int numDoors, double mpg, and boolean hasAir.
+   :answer_b: Use four unrelated classes: Car, Doors, MilesPerGallon, and AirConditioning
+   :answer_c: Use a class, Car, which has three subclasses: Doors, MilesPerGallon, and AirConditioning
+   :answer_d: Use a class Car, which has a subclass Doors, with a subclass AC, with a subclass MPG.
+   :answer_e: Use three classes: Doors, AirConditioning, and MilesPerGallon, each with a subclass Car.
+   :correct: a
+   :feedback_a: Having one class with all the attributes needed is the most efficient design in this case.
+   :feedback_b: The point of storing the car information is so we can easily access the attributes related to a car.
+   :feedback_c: In this case, the information only refers to a couple of basic attributes so it is better to store that data as fields within a single class.
+   :feedback_d: It doesn't really make sense for AC to be a subclass of MPG, and that being a subclass of Doors.
+   :feedback_e: A car doesn't really make sense to be a subclass of AC, and so on. It would also be better to group a couple of pieces of data into a single class.
+
+   A car dealership needs a program to store information about the cars for sale.For each car, they want to keep track of the following information: the number of doors (2 or 4),its average number of miles per gallon, and whether the car has air conditioning. Which of the following is the best design?

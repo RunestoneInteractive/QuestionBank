@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_region_count
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :10: Is the correct answer
      :x: Use the UNIQUE function on the Region Column
-

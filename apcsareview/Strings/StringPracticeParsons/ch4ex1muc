@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Strings/StringPracticeParsons
    :from_source: T
@@ -18,4 +18,3 @@
    System.out.println(lastName);
    =====
    System.out.println(firstname); #distractor
-

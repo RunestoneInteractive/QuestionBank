@@ -1,0 +1,13 @@
+.. mchoice:: 6_3_1_Functions_Q2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPNameNames/nameSteps
+   :from_source: T
+   :answer_a: Procedure
+   :answer_b: Function
+   :correct: b
+   :feedback_a: It returns a value so it is a function
+   :feedback_b: It returns a value so it can't be a procedure
+
+   Is ``abs`` a procedure or a function?

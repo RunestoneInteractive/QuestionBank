@@ -1,0 +1,28 @@
+.. mchoice:: test_questionfunctions_3_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/DecodingaFunction
+   :from_source: None
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 2
+   :answer_d: 3
+   :answer_e: Can't tell
+   :feedback_a: Count the number of variable names inside the parenetheses on line 1.
+   :feedback_b: Count the number of variable names inside the parenetheses on line 1.
+   :feedback_c: Count the number of variable names inside the parenetheses on line 1.
+   :feedback_d: x, y, and z.
+   :feedback_e: You can tell by looking inside the parentheses on line 1. Each variable name is separated by a comma.
+   :correct: d
+
+   How many parameters does function cyu3 take?
+
+   .. code-block:: python
+
+      def cyu3(x, y, z):
+         if x - y > 0:
+            return y -2
+         else:
+            z.append(y)
+            return x + 3

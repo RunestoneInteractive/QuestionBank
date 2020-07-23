@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_join_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/joining_SQL
     :from_source: T
@@ -11,4 +11,3 @@
       COUNT(*)
     FROM
       trip_data JOIN bikeshare_stations ON start_station = station_id
-

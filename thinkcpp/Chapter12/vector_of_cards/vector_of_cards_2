@@ -1,6 +1,6 @@
 .. fillintheblank:: vector_of_cards_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter12/vector_of_cards
     :from_source: T

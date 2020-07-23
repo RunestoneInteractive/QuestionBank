@@ -1,6 +1,6 @@
 .. activecode:: multiple_params_AC_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/FunctionsWithMultipleParameters
    :from_source: T
@@ -23,4 +23,3 @@
        printPrice (dollar_amount, cent_amount);
        return 0;
    }
-

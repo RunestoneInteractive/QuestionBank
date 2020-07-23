@@ -1,10 +1,9 @@
-
+.. activecode:: stepTrackerCode_SSell_2
    :author: Stephen Sell
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/Exercises
    :from_source: F
-.. activecode:: stepTrackerCode_SSell_2
    :language: java
 
    Write the code for the class StepTracker below with the class name, the instance variables, and the constructor with a parameter for the minimum number of steps threshold for active days. Make sure it compiles.  
@@ -50,7 +49,3 @@
          System.out.println(tr.averageSteps()); // returns 10222.2. The average number of steps per day is (51111 / 5).
       }
    }
-
-
-    
-    

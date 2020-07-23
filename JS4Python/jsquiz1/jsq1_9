@@ -1,6 +1,6 @@
 .. mchoice:: jsq1_9
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: jsquiz1/
     :from_source: T
@@ -21,4 +21,3 @@
             console.log(sum)
             i -= 1
         } while( i > 0 )
-

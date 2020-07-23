@@ -1,6 +1,6 @@
 .. dragndrop:: chapter_one_glossary_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/glossary
    :from_source: T
@@ -9,4 +9,3 @@
    :match_2: executable|||Another name for object code that is ready to be executed.
    :match_3: algorithm|||A general process for solving a category of problems.
    :match_4: bug|||An error in a program.
-

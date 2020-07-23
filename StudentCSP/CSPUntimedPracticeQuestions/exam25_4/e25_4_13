@@ -1,0 +1,17 @@
+.. mchoice:: e25_4_13
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: Lossy
+   :answer_b: Lossless
+   :answer_c: Data manipulation
+   :answer_d: Sticky
+   :correct: b
+   :feedback_a: Incorrect. Data is lost in lossy compression.
+   :feedback_b: Correct. All original data can be retrieved through lossless compression.
+   :feedback_c: Incorrect. Data manipulation is not a specific form of data compression.
+   :feedback_d: Incorrect. There is no such thing as sticky data compression.
+
+   Data compression that allows for all of the original data to be retrieved is called:

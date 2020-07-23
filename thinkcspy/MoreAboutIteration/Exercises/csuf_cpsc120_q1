@@ -1,10 +1,9 @@
-
+.. parsonsprob:: csuf_cpsc120_q1
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. parsonsprob:: csuf_cpsc120_q1
 
    Construct a program that will output all the even numbers from 0 to 99 using a for loop. <br>
    Drag and drop the code blocks from the left column into the write column. 

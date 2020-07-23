@@ -1,6 +1,6 @@
 .. parsonsprob:: ch9ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit8-2DArray/Array2dParsonsPractice
    :from_source: T
@@ -34,4 +34,3 @@
            } //end inner for loop
        } //end outer for loop
    } //end method
-

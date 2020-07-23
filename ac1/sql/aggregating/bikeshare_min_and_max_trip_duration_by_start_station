@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_min_and_max_trip_duration_by_start_station
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -15,4 +15,3 @@
      trip_data
    GROUP BY
      start_station
-

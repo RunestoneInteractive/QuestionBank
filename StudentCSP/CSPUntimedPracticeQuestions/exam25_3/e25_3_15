@@ -1,0 +1,17 @@
+.. mchoice:: e25_3_15
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a: An algorithm that returns the number of elements that are positive.
+   :answer_b: An algorithm that returns true if the first element equals the last.
+   :answer_c: An algorithm that calculates the average of the elements in the list.
+   :answer_d: An algorithm that swaps the first and second elements in the list.
+   :correct: a
+   :feedback_a: Correct. The algorithm will have to iterate through the list and select the positive integers.
+   :feedback_b: Incorrect. The algorithm will only need to select the first and last integers and compare the values.
+   :feedback_c: Incorrect. This only requires iteration since no individual values are selected.
+   :feedback_d: Incorrect. This does not require iteration.
+
+   Which of the following algorithms, given a list of integers, require both selection and iteration?

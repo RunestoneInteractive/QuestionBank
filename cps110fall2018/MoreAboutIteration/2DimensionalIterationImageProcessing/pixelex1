@@ -1,6 +1,6 @@
 .. activecode::  pixelex1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: MoreAboutIteration/2DimensionalIterationImageProcessing
     :from_source: None
@@ -14,4 +14,3 @@
 
     p = img.getPixel(45, 55)
     print(p.getRed(), p.getGreen(), p.getBlue())
-

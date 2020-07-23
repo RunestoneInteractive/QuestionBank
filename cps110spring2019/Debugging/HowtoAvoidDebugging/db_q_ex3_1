@@ -1,6 +1,6 @@
 .. mchoice:: db_q_ex3_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Debugging/HowtoAvoidDebugging
    :from_source: None

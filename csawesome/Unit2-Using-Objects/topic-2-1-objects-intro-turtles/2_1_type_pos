@@ -1,6 +1,6 @@
 .. mchoice:: 2_1_type_pos
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: A method is something an object can do like turn right.
 
    What type of thing is the position of a turtle in a world?
-

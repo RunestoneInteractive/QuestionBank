@@ -1,6 +1,6 @@
 .. activecode::  ch3Ex7q
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-9-practice-coding
    :from_source: T
@@ -38,10 +38,16 @@
      @Test
        public void testFormulaMiles() throws IOException
        {
-         String target1 = "double miles = numGallons * milesPerGallon;";
-         String target2 = "double miles = milesPerGallon * numGallons;";
-         boolean passed1 = checkCodeContainsNoRegex("formula variant for miles using milesPerGallon and numGallons", target1);
-         boolean passed2 = checkCodeContains("formula variant for miles using milesPerGallon and numGallons", target2);
-         assertTrue(passed1 || passed2);
+         String target1 = removeSpaces("double miles = numGallons * milesPerGallon;");
+         String target2 = removeSpaces("double miles = milesPerGallon * numGallons;");
+         String code = removeSpaces(getCode());
+
+         boolean passed1 = code.contains(target1);
+         boolean passed2 = code.contains(target2);
+
+         boolean passed = passed1 || passed2;
+
+         getResults("true", ""+passed, "formula for miles using milesPerGallon and numGallons", passed);
+         assertTrue(passed);
        }
      }

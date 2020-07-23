@@ -1,0 +1,46 @@
+.. mchoice:: AP2-2-5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: Movie one = new Movie("Harry Potter", "Bob");
+   :answer_b: Movie two = new Movie("Sponge Bob");
+   :answer_c: Movie three = new Movie(title, rating, director);
+   :answer_d: Movie four = new Movie("My Cool Movie", "Steven Spielburg", "4.4");
+   :answer_e: Movie five = new Movie(t);
+   :correct: b
+   :feedback_a: There is no Movie constructor with 2 parameters.
+   :feedback_b: This creates a Movie object with the title "Sponge Bob".
+   :feedback_c: It is not clear whether the variables title, rating, and director are the correct types or in the correct order.
+   :feedback_d: The third argument "4.4" is a String because it is in quotes, but the constructor expects a double.
+   :feedback_e: It is not clear whether t is the correct type for this constructor.
+
+    Consider the following class.  Which of the following code segments would successfully create a new Movie object?
+
+    .. code-block:: java
+
+        public class Movie
+        {
+            private String title;
+            private String director;
+            private double rating;
+            private boolean inTheaters;
+
+            public Movie(String t, String d, double r)
+            {
+                title = t;
+                director = d;
+                rating = r;
+                inTheaters = false;
+            }
+
+            public Movie(String t)
+            {
+                title = t;
+                director = "unknown";
+                rating = 0.0;
+                inTheaters = false;
+            }
+        }

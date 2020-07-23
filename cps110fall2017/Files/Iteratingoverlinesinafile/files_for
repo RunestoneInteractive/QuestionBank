@@ -1,6 +1,6 @@
 .. activecode:: files_for
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Files/Iteratingoverlinesinafile
     :from_source: None
@@ -14,4 +14,3 @@
         print('QB ', values[0], values[1], 'had a rating of ', values[10] )
 
     qbfile.close()
-

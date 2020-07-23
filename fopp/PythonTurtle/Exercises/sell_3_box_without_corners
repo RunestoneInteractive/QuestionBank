@@ -1,6 +1,6 @@
 .. activecode:: sell_3_box_without_corners
     :author: Stephen Sell
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -13,5 +13,3 @@
     #think - what do you want the turtle to do 4 times???
 
     #make sure you exit on click after the loop
-
-    

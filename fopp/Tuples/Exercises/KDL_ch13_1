@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch13_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Tuples/Exercises
    :from_source: F
@@ -23,4 +23,4 @@
            self.assertEqual(compare_str('m','mmmm me like muffins.'), ([0, 1, 2, 3, 5, 13],6/21), "Testing compare_str('m','mmmm me like muffins.') should get ([0, 1, 2, 3, 5, 13],0.285714285714)")
 
 
-   myTests().main()   
+   myTests().main()

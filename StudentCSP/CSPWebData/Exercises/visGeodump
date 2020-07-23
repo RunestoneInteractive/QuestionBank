@@ -1,10 +1,9 @@
-
+.. parsonsprob:: visGeodump
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWebData/Exercises
    :from_source: F
-.. parsonsprob:: visGeodump
    :adaptive:
    :numbered: left
 
@@ -32,6 +31,3 @@
    Finish the output file
    Close the cursor and file
    Print the total number of records written out
-   
-
-

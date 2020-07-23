@@ -1,6 +1,6 @@
 .. mchoice:: 6_7_1_Image_Functions_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameNames/imageLib
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: This would be true if it was 0.5 instead of r * 0.5
 
    What does the line ``p.setRed(r * 0.5)`` do?
-

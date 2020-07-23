@@ -1,6 +1,6 @@
 .. actex:: ex_8_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: T
@@ -31,4 +31,3 @@
 
 
    myTests().main()
-

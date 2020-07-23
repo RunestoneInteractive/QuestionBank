@@ -1,0 +1,20 @@
+.. mchoice:: TurtleClass1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :from_source: T
+   :practice: T
+   :answer_a: Turtle t = new Turtle();
+   :answer_b: Turtle t = new Turtle(50,150);
+   :answer_c: Turtle t = new Turtle(world1);
+   :answer_d: Turtle t = new Turtle(world1,50,150);
+   :answer_e: Turtle t = new Turtle(50,150,world1);
+   :correct: e
+   :feedback_a: There is no Turtle constructor that takes no parameters according to the figure above.
+   :feedback_b: There is no Turtle constructor that takes 2 parameters according to the figure above.
+   :feedback_c: This would initialize the Turtle to the middle of the world, not necessarily coordinates (50,150).
+   :feedback_d: Make sure the order of the parameters match the constructor signature above.
+   :feedback_e: This matches the second constructor above with the parameters of x, y, and world.
+
+   Given the Turtle class in the figure above and a World object world1, which of the following code segments will correctly create an instance of a Turtle object at (x,y) coordinates (50,150)?

@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_8_11
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: lhs_8_11
     :language: python
     :autograde: unittest
 
@@ -153,4 +152,4 @@
             count = self.cmpImage(i1, i2, w, h)
             self.assertEqual(count, 0, "Comparing pixels and counting differences")
 
-    myTests().main() 
+    myTests().main()

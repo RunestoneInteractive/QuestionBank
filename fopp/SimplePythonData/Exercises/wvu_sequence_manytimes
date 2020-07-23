@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_sequence_manytimes
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. activecode:: wvu_sequence_manytimes
    :autograde: unittest
 
    Write code to determine how many times "West Virginia" appears in the lyrics to Country Roads. Store the number in a variable named **country_roads_times**.

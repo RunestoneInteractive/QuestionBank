@@ -1,6 +1,6 @@
 .. parsonsprob:: pa-ex1-cpp
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/parsons
    :from_source: T
@@ -17,5 +17,3 @@
        }
        return value;
    }
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: localstore_client
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Dynamic/prototype3
    :from_source: T

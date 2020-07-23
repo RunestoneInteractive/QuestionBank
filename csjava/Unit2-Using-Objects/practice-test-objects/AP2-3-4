@@ -1,0 +1,71 @@
+.. mchoice:: AP2-3-4
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit2-Using-Objects/practice-test-objects
+    :from_source: T
+    :practice: T
+    :random:
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Dog
+        {
+            public void bark()
+            {
+                System.out.print("Woof ");
+            }
+
+            public void wag()
+            {
+                System.out.print("Wag Tail ");
+            }
+
+            public void happy()
+            {
+                wag();
+                bark();
+            }
+            /* Constructors not shown */
+        }
+
+    Which of the following code segments, if located in a method in a class other than Dog, will cause the message "Wag Tail Wag Tail Woof " to be printed?
+
+    - .. code-block:: java
+
+        Dog a = new Dog();
+        a.bark();
+        a.wag();
+
+      - This would print "Woof Wag Tail "
+
+    - .. code-block:: java
+
+        Dog a = new Dog();
+        Dog.happy();
+
+      - You must use the object a, not the class name Dog, to call its methods.
+
+    - .. code-block:: java
+
+        Dog a = new Dog();
+        a.happy();
+
+      - This would print out "Wag Tail Woof ".
+
+    - .. code-block:: java
+
+        Dog a = new Dog();
+        a.wag();
+        a.happy();
+
+      + This would print out "Wag Tail Wag Tail Woof ";
+
+    - .. code-block:: java
+
+         Dog a = new Dog();
+         a.wag();
+
+      - This would just print "Wag Tail ".

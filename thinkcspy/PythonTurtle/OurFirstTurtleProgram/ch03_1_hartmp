@@ -1,6 +1,6 @@
 .. activecode:: ch03_1_hartmp
     :author: Shawn Haarer
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/OurFirstTurtleProgram
     :from_source: F
@@ -15,6 +15,3 @@
     alex.forward(150)           # tell alex to move forward by 150 units
     alex.left(90)               # turn by 90 degrees
     alex.forward(75)            # complete the second side of a rectangle
-
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: test_question5_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Functions/Functionsthatreturnvalues
    :from_source: T
@@ -22,4 +22,3 @@
      def addEm(x, y, z):
          return x + y + z
          print('the answer is', x + y + z)
-

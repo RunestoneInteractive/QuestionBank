@@ -1,6 +1,6 @@
 .. activecode:: Oefening_Variabelen_Bonus
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
@@ -14,4 +14,3 @@
     #Code om de inhoud van de variabelen te wisselen
     print(a)
     print(b)
- 

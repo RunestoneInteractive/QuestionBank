@@ -1,6 +1,6 @@
 .. activecode:: ac11_7_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Functions/Variablesandparametersarelocal
     :from_source: T
@@ -11,4 +11,3 @@
 
     z = square(10)
     print(y)
-

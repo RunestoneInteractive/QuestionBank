@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -36,4 +36,3 @@
 
         -   If y and z were characters ``'y'`` and ``'z'``, it would be legal to add
             them together.  But the result ``243`` might surprise you!
-

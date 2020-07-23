@@ -1,6 +1,6 @@
 .. mchoice:: 15_4_1_posterize1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPImageDecisions/imageMultIf
    :from_source: T
@@ -15,9 +15,3 @@
    :feedback_d: That's the total number of colors possible.  But this code reduces that.
 
    How many different colors will be in our image when we are done?
-
-
-
-
-
-

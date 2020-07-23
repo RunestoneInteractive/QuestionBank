@@ -1,6 +1,6 @@
 .. activecode:: ch03_forcolor
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: PythonTurtle/IterationSimplifiesourTurtleProgram
    :from_source: T

@@ -1,0 +1,11 @@
+.. video:: function_intro
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/FunctionDefinitions
+   :from_source: None
+   :controls:
+   :thumb: ../_static/function_intro.png
+
+   http://media.interactivepython.org/thinkcsVideos/FunctionsIntro.mov
+   http://media.interactivepython.org/thinkcsVideos/FunctionsIntro.webm

@@ -1,6 +1,6 @@
 .. mchoice:: 9_2_1_Copy_Reverse_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPRepeatStrings/reverse
    :from_source: T

@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_2_7
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: lhs_2_7
     :language: python
     :autograde: unittest
 
@@ -48,4 +47,3 @@
             self.assertIn("The rounded down average is: 89", outText, "Testing rounded down calc printout")
 
     myTests().main()
-

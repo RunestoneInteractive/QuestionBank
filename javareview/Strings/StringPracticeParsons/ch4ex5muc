@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: Strings/StringPracticeParsons
    :from_source: None
@@ -27,4 +27,3 @@
    } // end class
    =====
            System.out.println("Your age is " age); #distractor
-

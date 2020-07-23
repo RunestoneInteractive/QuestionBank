@@ -1,10 +1,9 @@
-
+.. parsonsprob:: count_lines-Parsons
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPRepeatNumbers/Exercises
    :from_source: F
-.. parsonsprob:: count_lines-Parsons
    :numbered: left
    :adaptive:
 

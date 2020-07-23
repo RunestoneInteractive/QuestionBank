@@ -1,10 +1,9 @@
-
+.. parsonsprob:: mt-turtle-square
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPImageDecisions/Exercises
    :from_source: F
-.. parsonsprob:: mt-turtle-square
    :numbered: left
 
    Complete the turtle_square function that takes a turtle, xpos, ypos, and width and draws a square with the lower right corner at (xpos, ypos).  
@@ -31,5 +30,3 @@
            turtle.left(90) 
    =====      
            turtle.right(90) #paired
-
- 

@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_7
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -44,4 +44,3 @@
         -   If the error was corrected, this would be the output.
             Unfortunately, there is an error that prevents this line
             from executing.
-

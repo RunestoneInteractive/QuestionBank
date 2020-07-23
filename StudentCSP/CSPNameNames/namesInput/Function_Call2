@@ -1,0 +1,26 @@
+.. activecode:: Function_Call2
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: StudentCSP
+  :topic: CSPNameNames/namesInput
+  :from_source: T
+  :tour_1: "Important lines tour"; 1-9: dsq3-line1-9; 2: dsq3-line2; 11-13: dsq3-line11-13; 14: dsq3-line14; 15: dsq3-line15; 16: dsq3-line16; 17: dsq3-line17;
+  :nocodelens:
+
+  def square(turtle,size):
+      turtle.forward(size)
+      turtle.right(90)
+      turtle.forward(size)
+      turtle.right(90)
+      turtle.forward(size)
+      turtle.right(90)
+      turtle.forward(size)
+      turtle.right(90)
+
+  from turtle import *  # use the turtle library
+  space = Screen()      # create a turtle screen (space)
+  malik = Turtle()      # create a turtle named malik
+  square(malik, 100)    # draw a square of size 100
+  square(malik, 75)     # draw a square of size 75
+  square(malik, 50)     # draw a square of size 50
+  square(malik, 25)     # draw a square of size 25

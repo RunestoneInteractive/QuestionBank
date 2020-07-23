@@ -1,6 +1,6 @@
 .. activecode:: selSort
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: apcsareview
   :topic: SearchSort/selSort
   :from_source: T

@@ -1,6 +1,6 @@
 .. activecode:: challenge-5-3-comments
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-3-comments-conditions
     :from_source: T
@@ -54,7 +54,7 @@
         private String program;
 
         @Test
-        public void testMain() throws IOException
+        public void testMain()
         {
             String output = getMethodOutput("main");
             String expect = "Welcome guest!\nWelcome cooldude@gmail.com!";
@@ -63,9 +63,8 @@
         }
 
         @Test
-        public void testClassComment() throws IOException {
-            //System.out.println(program);
-            program = new String(Files.readAllBytes(Paths.get("User.java")));
+        public void testClassComment() {
+            program = getCodeWithComments();
 
             int index = program.indexOf("public class User");
 
@@ -80,9 +79,8 @@
         }
 
         @Test
-        public void testVariablesComment() throws IOException {
-            //System.out.println(program);
-            program = new String(Files.readAllBytes(Paths.get("User.java")));
+        public void testVariablesComment() {
+            program = getCodeWithComments();
 
             int start = program.indexOf("{") + 1;
             int end = program.indexOf("private String username");
@@ -96,9 +94,8 @@
         }
 
         @Test
-        public void testDefaultConstructorComment() throws IOException {
-            //System.out.println(program);
-            program = new String(Files.readAllBytes(Paths.get("User.java")));
+        public void testDefaultConstructorComment() {
+            program = getCodeWithComments();
 
             int start = program.indexOf("password;") + "password;".length() + 1;
             int end = program.indexOf("public User()");
@@ -112,9 +109,8 @@
         }
 
         @Test
-        public void testConstructorComment() throws IOException {
-            //System.out.println(program);
-            program = new String(Files.readAllBytes(Paths.get("User.java")));
+        public void testConstructorComment() {
+            program = getCodeWithComments();
 
             int start = program.indexOf("*1000);");
             start = program.indexOf("}", start) + 1;
@@ -129,9 +125,8 @@
         }
 
         @Test
-        public void testWelcomeComment() throws IOException {
-            //System.out.println(program);
-            program = new String(Files.readAllBytes(Paths.get("User.java")));
+        public void testWelcomeComment() {
+            program = getCodeWithComments();
 
             int start = program.indexOf("password = pwordInit;");
             start = program.indexOf("}", start) + 1;
@@ -146,9 +141,8 @@
         }
 
         @Test
-        public void testMainComment() throws IOException {
-            //System.out.println(program);
-            program = new String(Files.readAllBytes(Paths.get("User.java")));
+        public void testMainComment() {
+            program = getCodeWithComments();
 
             int start = program.indexOf("username + \"!\");");
             start = program.indexOf("}", start) + 1;
@@ -171,4 +165,3 @@
 
         }
     }
-

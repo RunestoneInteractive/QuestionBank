@@ -1,6 +1,6 @@
 .. activecode:: c2a
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/Inheritance
     :from_source: None
@@ -31,4 +31,3 @@
     print(a)
     a.withdraw(300)
     print(a.getBalance())
-

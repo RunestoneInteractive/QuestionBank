@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/VariablePracticeParsons
    :from_source: T
@@ -22,4 +22,3 @@
    print(total)
    =====
    total = sInDay / 5 #distractor
-

@@ -1,6 +1,6 @@
 .. activecode:: more_output_AC_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/MoreOutput
    :from_source: T
@@ -18,4 +18,3 @@
        cout<<"Goodbye, ";
        cout<<"cruel world!"<<endl;
    }
-

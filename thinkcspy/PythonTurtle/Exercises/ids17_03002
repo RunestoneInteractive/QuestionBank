@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_03002
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: ids17_03002
    
     5.3(劉邦鋒，由片語學習C程式設計)寫一個程式讀入一正整數n並印出n組輸出。第i組輸出是1到i的數字。
 
@@ -46,5 +45,3 @@
     ~~~~
     
     ====
-   
-    

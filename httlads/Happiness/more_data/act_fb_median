@@ -1,6 +1,6 @@
 .. fillintheblank:: act_fb_median
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :4.320: Is the correct answer
      :x: You should have a Life Ladder column summarized by Median
-

@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_order_by_duration_with_where_clause
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/sorting
    :from_source: T
@@ -19,4 +19,3 @@
      duration DESC
    LIMIT
      10
-

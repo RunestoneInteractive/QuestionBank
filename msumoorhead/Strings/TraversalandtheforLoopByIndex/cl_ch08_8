@@ -1,0 +1,10 @@
+.. codelens:: cl_ch08_8
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Strings/TraversalandtheforLoopByIndex
+    :from_source: None
+
+    fruit = "apple"
+    for idx in range(len(fruit)-1, -1, -1):
+        print(fruit[idx])

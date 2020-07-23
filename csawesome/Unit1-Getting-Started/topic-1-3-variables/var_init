@@ -1,6 +1,6 @@
 .. clickablearea:: var_init
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit1-Getting-Started/topic-1-3-variables
     :from_source: T
@@ -21,4 +21,3 @@
             :click-incorrect:System.out.println(powerUp);:endclick:
         :click-incorrect:}:endclick:
     :click-incorrect:}:endclick:
-

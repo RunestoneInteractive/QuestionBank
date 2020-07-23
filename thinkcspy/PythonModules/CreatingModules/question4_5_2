@@ -1,6 +1,6 @@
 .. mchoice:: question4_5_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: PythonModules/CreatingModules
    :from_source: T

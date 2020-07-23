@@ -1,6 +1,6 @@
 .. codelens:: ch09_mod3
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Lists/PureFunctions
     :from_source: None
@@ -15,5 +15,3 @@
 
     things = [2, 5, 9]
     things = doubleStuff(things)
-
-

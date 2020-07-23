@@ -1,10 +1,9 @@
-
+.. activecode:: CS152_Triangle_1
     :author: John Cigas
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: CS152_Triangle_1
 
 
     Write a turtle program to draw a right triangle, starting at location (10,50).

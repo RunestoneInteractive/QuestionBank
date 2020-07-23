@@ -1,6 +1,6 @@
 .. activecode:: ExamenJuniKladblok
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Kladblok. Hier kan je je programma's uitproberen zonder je tijdelijke versie te moeten aanpassen.
     ~~~~
-    

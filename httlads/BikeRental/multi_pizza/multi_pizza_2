@@ -1,6 +1,6 @@
 .. fillintheblank:: multi_pizza_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/multi_pizza
    :from_source: T
@@ -16,4 +16,3 @@
 
    - :2.41.*: Is the correct answer
      :x: Not quite. Keep trying
-

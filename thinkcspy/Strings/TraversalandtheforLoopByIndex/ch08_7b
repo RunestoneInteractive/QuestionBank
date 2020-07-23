@@ -1,6 +1,6 @@
 .. activecode:: ch08_7b
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/TraversalandtheforLoopByIndex
     :from_source: T
@@ -10,4 +10,3 @@
     fruit = "apple"
     for idx in range(len(fruit)):
         print(fruit[idx])
-

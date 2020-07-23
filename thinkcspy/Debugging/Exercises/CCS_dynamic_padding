@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_dynamic_padding
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_dynamic_padding
 
    **Complete the code below to create a program that asks the user to specify a total width that numbers should be padded to and then asks the enter to enter a number with equal or fewer digits than the width given by the first input.** 
    

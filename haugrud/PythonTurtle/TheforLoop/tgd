@@ -1,0 +1,11 @@
+.. activecode:: tgd
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: PythonTurtle/TheforLoop
+    :from_source: None
+    :nocanvas:
+    :tour_1: "Overall Tour"; 1-2: Example04_Tour01_Line01; 2: Example04_Tour01_Line02; 1: Example04_Tour01_Line03;
+
+    for name in ["Adam", "Seth", "Enosh", "Kenan", "Mahalalel", "Jared", "Enoch", "Methuselah", "Lamech", "Noah"]:
+        print("Hi", name, "Please come to my party!")

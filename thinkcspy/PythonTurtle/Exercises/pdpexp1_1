@@ -1,10 +1,9 @@
-
+.. parsonsprob:: pdpexp1_1
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. parsonsprob:: pdpexp1_1
    :language: python
 
    Construct a block of code to draw a square
@@ -23,4 +22,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

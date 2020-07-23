@@ -1,6 +1,6 @@
 .. mchoice:: mc_IS-A_HAS-A
         :author: bmiller
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: cppds
         :topic: Introduction/ObjectOrientedProgrammingDerivedClasses
         :from_source: T
@@ -18,5 +18,3 @@
         :feedback_e: Correct!
 
         What is the difference between HAS-A and IS-A relationships? Select all that apply.
-
-

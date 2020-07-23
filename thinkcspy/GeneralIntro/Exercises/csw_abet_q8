@@ -1,6 +1,6 @@
 .. mchoice:: csw_abet_q8
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
@@ -11,5 +11,3 @@
    :correct: d
 
    8. One of the professional educational goals of the MSU Computer Science program is that, if you are a CSC major, then within a few years after your graduation you will have
-
-

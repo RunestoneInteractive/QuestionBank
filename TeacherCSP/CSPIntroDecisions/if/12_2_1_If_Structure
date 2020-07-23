@@ -1,6 +1,6 @@
 .. mchoice:: 12_2_1_If_Structure
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: TeacherCSP
   :topic: CSPIntroDecisions/if
   :from_source: T
@@ -18,5 +18,3 @@
      if x < 3:
          print ("x is less than 3")
      print ("All done")
-
-

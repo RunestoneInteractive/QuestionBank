@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_13_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Lists/ListMethods
    :from_source: None
@@ -20,5 +20,3 @@
      alist.append(True)
      alist.append(False)
      print(alist)
-
-

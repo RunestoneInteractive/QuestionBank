@@ -1,6 +1,6 @@
 .. fillintheblank:: mean_number_of_paintings_by_italian_painters
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: filtering_and_grouping/grouping_data
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :136: Correct
      :x: Incorrect
-

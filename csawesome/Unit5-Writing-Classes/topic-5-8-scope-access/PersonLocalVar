@@ -1,11 +1,14 @@
 .. activecode:: PersonLocalVar
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-8-scope-access
   :from_source: T
   :language: java
+  :autograde: unittest
 
+  In this example, the local variable is used instead of the instance variable of the same name. What will the code print out? Try it with the CodeLens button.
+  ~~~~
   public class Person
   {
      private String name;
@@ -33,3 +36,19 @@
         System.out.println(p1);
      }
   }
+  ====
+  import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "unknown: sana@gmail.com";
+            boolean passed = getResults(expect, output, "Expected output from main", true);
+            assertTrue(passed);
+        }
+    }

@@ -1,10 +1,9 @@
-
+.. activecode:: func_2
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_2
   
     Write a program that uses a function to draw 3 stars.
  
@@ -13,4 +12,3 @@
     +0.25 Draw stars of random sizes randomly around the screen.
 
     ~~~~
-    

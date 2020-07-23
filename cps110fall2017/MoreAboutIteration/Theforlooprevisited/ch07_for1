@@ -1,10 +1,9 @@
 .. activecode:: ch07_for1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: MoreAboutIteration/Theforlooprevisited
     :from_source: None
 
     for f in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
         print("Hi", f, "Please come to my party on Saturday")
-

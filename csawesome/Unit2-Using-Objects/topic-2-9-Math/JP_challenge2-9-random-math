@@ -1,6 +1,6 @@
 .. activecode:: JP_challenge2-9-random-math
    :author: John Pataracchia
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-9-Math
    :from_source: F
@@ -27,4 +27,3 @@
 
       }
    }
-

@@ -1,6 +1,6 @@
 .. mchoice:: structures_return_types_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter8/structures_as_returns_types
    :from_source: T

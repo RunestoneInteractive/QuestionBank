@@ -1,0 +1,11 @@
+.. activecode:: stn
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Strings/TraversalandtheforLoopByItem
+    :from_source: None
+    :nocanvas:
+
+    aString = input('enter a string')
+    for achar in aString:
+        print(achar)

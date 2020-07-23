@@ -1,6 +1,6 @@
 .. mchoice:: initialize_or_construct_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter11/initialize_or_construct
    :from_source: T

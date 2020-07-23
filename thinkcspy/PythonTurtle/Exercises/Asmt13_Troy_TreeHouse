@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt13_Troy_TreeHouse
     :author: Shawn Haarer
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Asmt13_Troy_TreeHouse
    
     See Google Classroom for a description of the assignment.  
     ~~~~
@@ -14,4 +13,3 @@
     YOUR NAME  HERE xx ")
     #
     ====
-    

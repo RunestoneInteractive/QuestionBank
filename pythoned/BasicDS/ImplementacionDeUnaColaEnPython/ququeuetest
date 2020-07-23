@@ -1,6 +1,6 @@
 .. codelens:: ququeuetest
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/ImplementacionDeUnaColaEnPython
    :from_source: None
@@ -28,4 +28,3 @@
    c.agregar('perro')
    c.agregar(True)
    print(c.tamano())
-

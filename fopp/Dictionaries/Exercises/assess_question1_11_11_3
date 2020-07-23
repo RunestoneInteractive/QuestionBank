@@ -1,6 +1,6 @@
 .. mchoice:: assess_question1_11_11_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: T
@@ -28,4 +28,3 @@
         for c in d:
             e[d[c]] = c
         print e
-

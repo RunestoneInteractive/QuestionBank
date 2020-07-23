@@ -1,6 +1,6 @@
 .. fillintheblank:: order_of_operations_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/OrderofOperations
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :[Pp][Aa][Rr][Ee][Nn][Tt][Hh][Ee][Ss][Ee][Ss]: Correct!
      :.*: Try again!
-

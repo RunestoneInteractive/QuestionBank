@@ -1,6 +1,6 @@
 .. mchoice:: 8_1_2_While_InputError
                   :author: bmiller
-                  :difficulty: 3.0
+                  :difficulty: 3
                   :basecourse: studentcsp
                   :topic: CSPWhileAndForLoops/forAndWhile
                   :from_source: T

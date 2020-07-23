@@ -1,6 +1,6 @@
 .. mchoice:: question1_4_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: GeneralIntro/MoreAboutPrograms
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: Programs often implement algorithms, but they are not the same thing.  An algorithm is a step by step list of instructions, but those instructions are not necessarily precise enough for a computer to follow.  A program must be written in a programming language that the computer knows how to interpret.
 
    A program is:
-

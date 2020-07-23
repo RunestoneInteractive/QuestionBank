@@ -1,0 +1,31 @@
+.. activecode:: zip_6
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/zip
+   :from_source: None
+
+   def possible(word, blanked, guesses_made):
+       if len(word) != len(blanked):
+           return False
+       for i in range(len(word)):
+           bc = blanked[i]
+           wc = word[i]
+           if bc == '_' and wc in guesses_made:
+               return False
+           elif bc != '_' and bc != wc:
+               return False
+       return True
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(possible("HELLO", "_ELL_", "ELJ"), True, "Testing whether possible has been correctly defined.")
+         self.assertEqual(possible("HELLO", "_ELL_", "ELJH"), False, "Testing whether possible has been correctly defined.")
+         self.assertEqual(possible("HELLO", "_E___", "ELJ"), False, "Testing whether possible has been correctly defined.")
+
+   myTests().main()

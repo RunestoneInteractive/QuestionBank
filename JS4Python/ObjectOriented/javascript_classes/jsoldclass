@@ -1,6 +1,6 @@
 .. activecode:: jsoldclass
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: ObjectOriented/javascript_classes
     :from_source: T
@@ -17,5 +17,3 @@
 
     f = new Fraction(2,3);
     writeln("f is " + f)
-
-

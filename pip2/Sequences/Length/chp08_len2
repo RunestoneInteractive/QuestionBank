@@ -1,0 +1,11 @@
+.. activecode:: chp08_len2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/Length
+    :from_source: None
+
+    fruit = "Banana"
+    sz = len(fruit)
+    last = fruit[sz]       # ERROR!
+    print last

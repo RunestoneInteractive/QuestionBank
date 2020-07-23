@@ -1,6 +1,6 @@
 .. parsonsprob:: 3_7_4_Per_Person_Cost
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameNumbers/walkAssign
    :from_source: T
@@ -19,6 +19,3 @@
    print(perPersonCost)
    =====
    print(perpersoncost) #paired
-
-
-

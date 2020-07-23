@@ -1,6 +1,6 @@
 .. codelens:: cl_ch04_clsquare
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Functions/Functionsthatreturnvalues
     :from_source: None
@@ -16,4 +16,3 @@
     toSquare = 10
     squareResult = square(toSquare)
     print("The result of ", toSquare, " squared is ", squareResult)
-

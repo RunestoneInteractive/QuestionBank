@@ -1,10 +1,9 @@
-
+.. activecode:: hill_test3
     :author: Scott Hill
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: hill_test3
 
     Define a function ``graph(x_list,y_list)`` which takes two lists and uses Altair to make a point graph of the ``x_list`` versus the ``y_list``.  
 
@@ -15,4 +14,3 @@ config values (conf.py):
 
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
-    

@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_zero_padding
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_zero_padding
 
    You have seen that numbers can be treated in several ways in Python. The number 1 can be stored as an int, a float or a string.  The Python interpreter uses little hints to remind you of this, as the following lines of code demonstrate:
    
@@ -37,4 +36,3 @@
 
    **NOTE: The IF statement is not permitted.**
    ~~~~
-    

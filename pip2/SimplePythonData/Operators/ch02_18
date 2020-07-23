@@ -1,0 +1,10 @@
+.. activecode:: ch02_18
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/Operators
+    :from_source: None
+    :nocanvas:
+
+    print 7 // 3     # This is the integer division operator
+    print 7 % 3      # This is the remainder or modulus operator

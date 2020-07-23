@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_start_station_name_with_most_trips_by_casual
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/joining
    :from_source: T
@@ -13,4 +13,3 @@
    ====
    assert 0,0 == USDA / 12th & Independence Ave SW
    assert 0,1 == 3609
-

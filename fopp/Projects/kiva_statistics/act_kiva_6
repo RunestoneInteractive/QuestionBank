@@ -1,6 +1,6 @@
 .. activecode:: act_kiva_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/kiva_statistics
     :from_source: T
@@ -21,4 +21,3 @@
 
 
     MyTests().main()
-

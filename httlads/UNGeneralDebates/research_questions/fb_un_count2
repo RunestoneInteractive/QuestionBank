@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_un_count2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: UNGeneralDebates/research_questions
    :from_source: T
@@ -11,4 +11,3 @@
    - :18: Is the correct answer
      :663: Is the number of rows
      :x: Remember that Pandas has a unique method that removes duplicates
-

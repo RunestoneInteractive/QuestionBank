@@ -1,6 +1,6 @@
 .. dragndrop:: floating_point_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/Floating-point
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: double pi;|||declaration
 
    Match the statement to the word that best describes it.
-

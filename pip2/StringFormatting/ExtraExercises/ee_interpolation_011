@@ -1,0 +1,20 @@
+.. activecode:: ee_interpolation_011
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   info = "This book {} students {}.".format()
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(info, "This book teaches students python.", "Testing that info has the correct value.")
+
+   myTests().main()

@@ -1,0 +1,20 @@
+.. activecode:: ee_ch12_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Dictionaries/ExtraExercises
+   :from_source: None
+   :tags:Dictionaries/Dictionaryoperations.rst
+
+   golds = {"Italy": 12, "USA": 33, "Brazil": 15, "China": 27, "Spain": 19, "Canada": 22, "Argentina": 8, "England": 29}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sorted(golds.items()), sorted([("Italy", 12), ("USA", 33), ("Brazil", 15), ("China", 27), ("Spain", 21), ("Canada", 22), ("Argentina", 8), ("England", 29)]), "Testing that golds has been updated correctly.")
+
+   myTests().main()

@@ -1,6 +1,6 @@
 .. mchoice:: 2-13-8-A
    :author: Beryl Hoffman
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: F
@@ -24,4 +24,4 @@
     Data Set 1			Data Set 2
     racecar			tacocat
     ebbe			tacos!!
-    RaCeCaR                      
+    RaCeCaR

@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze08
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze08
    :include: ccs_maze00, ccs_maze01, ccs_maze02, ccs_maze03, ccs_maze04, ccs_maze05, ccs_maze06, ccs_maze07
    :datafile: :maze1a.txt
 
@@ -60,4 +59,3 @@
    else:
        print("Sorry. We did not escape the maze.")
    ====
-   

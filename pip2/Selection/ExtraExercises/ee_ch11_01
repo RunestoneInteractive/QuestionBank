@@ -1,0 +1,20 @@
+.. activecode:: ee_ch11_01
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/ExtraExercises
+   :from_source: None
+   :tags:Selection/ConditionalExecutionBinarySelection.rst
+
+   courses = ["ENGR 101", "SI 110", "ENG 125", "SI 106", "CHEM 130"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(output, "You can apply to SI!", "Testing that output has the correct value, given the courses list provided")
+
+   myTests().main()

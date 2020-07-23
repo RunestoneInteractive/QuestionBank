@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_03001
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: ids17_03001
    
     5.1(劉邦鋒，由片語學習C程式設計)寫一個程式讀入兩個整數n、i >= 0 並計算n^i。注意當i為0時必須輸出1。
 
@@ -20,5 +19,3 @@
     ~~~~
     
     ====
-   
-    

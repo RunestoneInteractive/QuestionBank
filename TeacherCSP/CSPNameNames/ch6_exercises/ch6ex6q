@@ -1,0 +1,22 @@
+.. activecode::  ch6ex6q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPNameNames/ch6_exercises
+    :from_source: T
+    :nocodelens:
+
+    def move(turtle):
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(100)
+        turtle.right(90)
+        turtle.forward(100)
+        turtle.right(90)
+
+    from turtle import *
+    space = Screen()
+    t = Turtle()
+    move(t, 100, 90)

@@ -1,6 +1,6 @@
 .. mchoice:: qcbdm6_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit3-If-Statements/topic-3-6-DeMorgan
    :from_source: T
@@ -21,4 +21,3 @@
    .. code-block:: java
 
      !(x<= 5 && y > 7)
-

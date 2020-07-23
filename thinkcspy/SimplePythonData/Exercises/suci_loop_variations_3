@@ -1,6 +1,6 @@
 .. actex:: suci_loop_variations_3
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -9,4 +9,4 @@
 
 
    ~~~~
-   # put code here 
+   # put code here

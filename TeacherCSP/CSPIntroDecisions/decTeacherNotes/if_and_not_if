@@ -1,6 +1,6 @@
 .. activeCode:: if_and_not_if
      :author: bmiller
-     :difficulty: 3.0
+     :difficulty: 3
      :basecourse: TeacherCSP
      :topic: CSPIntroDecisions/decTeacherNotes
      :from_source: T
@@ -15,4 +15,3 @@
      print(weight)
      print(price)
      print(total)
-

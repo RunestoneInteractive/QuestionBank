@@ -1,0 +1,68 @@
+.. mchoice:: AP5-2-6
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/Exercises
+    :from_source: T
+    :practice: T
+    :random:
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Party
+        {
+            private int numOfPeople;
+            private double volumeOfMusic;
+            /* missing constructor */
+        }
+
+    The following statement appears in a method in a class other than Party. It is intended to create a new Party object p with its attributes set to 10 and 5.0.
+
+    .. code-block:: java
+
+         Party p = new Party(10, 5.0);
+
+         Which of the following can be used to replace /* missing constructor */
+         so that the object p is correctly created?
+
+    - .. code-block:: java
+
+        public Party(int first, double second)
+        {
+            numOfPeople = 10;
+            volumeOfMusic = 5.0;
+        }
+
+      - The constructor should be using the local variables to set the instance variables.
+
+    - .. code-block:: java
+
+        public Party(int first, double second)
+        {
+            numOfPeople = first;
+            volumeOfMusic = second;
+        }
+
+      + Correct
+
+    - .. code-block:: java
+
+        public Party(int first, double second)
+        {
+            first = 10;
+            second = 5.0;
+        }
+
+      - The constructor should be using the parameters to set the instance variables.
+
+    - .. code-block:: java
+
+        public Party(int first, double second)
+        {
+            first = numOfPeople;
+            second = volumeOfMusic;
+        }
+
+      - The constructor should be changing the instance variables, not the local variables.

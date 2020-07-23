@@ -1,0 +1,16 @@
+.. activecode:: db_ex3_8
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Debugging/KnowyourerrorMessages
+    :from_source: None
+
+    a = input('wpisuj cieciu godzine')
+    x = input('wpisuj ile godzin cieciu')
+    int(x)
+    int(a)
+    h = x // 24
+    s = x % 24
+    print (h, s)
+    a = a + s
+    print ('godzina teraz %s' %a)

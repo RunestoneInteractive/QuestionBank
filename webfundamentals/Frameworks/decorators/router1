@@ -1,6 +1,6 @@
 .. activecode:: router1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Frameworks/decorators
    :from_source: T
@@ -28,4 +28,3 @@
 
    app.call_by_route('/')
    print(hello)
-

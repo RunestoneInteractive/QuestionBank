@@ -1,6 +1,6 @@
 .. shortanswer:: questions_on_right_skew
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/outliers_and_skew
    :from_source: T
@@ -8,4 +8,3 @@
    In the histogram above, do you think more of the values are above or below
    the mean? How does that compare to the median? Will the median be greater or
    less than the mean in this case?
-

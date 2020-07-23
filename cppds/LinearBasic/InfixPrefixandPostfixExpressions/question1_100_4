@@ -1,6 +1,6 @@
 .. parsonsprob:: question1_100_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: LinearBasic/InfixPrefixandPostfixExpressions
    :from_source: T

@@ -1,6 +1,6 @@
 .. activecode:: fractions_is
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesDiggingDeeper/Sameness
     :from_source: T
@@ -22,4 +22,3 @@
 
     ourfraction = myfraction
     print(myfraction is ourfraction)
-

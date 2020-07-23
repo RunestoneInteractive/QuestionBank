@@ -1,6 +1,6 @@
 .. activecode:: Turtles_Voorbeeld2
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -17,4 +17,4 @@
     alex.speed(10)
     alex.forward(150)           
     alex.left(90)               
-    alex.forward(75)            
+    alex.forward(75)

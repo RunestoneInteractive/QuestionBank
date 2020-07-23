@@ -1,6 +1,6 @@
 .. parsonsprob:: 9_3_3_Palindrome
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: _sources/index
    :from_source: F
@@ -15,4 +15,3 @@
        newStr = char + newStr + char
    =====
    print(newStr)
-

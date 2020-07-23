@@ -1,6 +1,6 @@
 .. activecode:: ch07_sentinel
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/SentinelValuesAndValidation
     :from_source: T

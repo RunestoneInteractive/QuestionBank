@@ -1,0 +1,24 @@
+.. mchoice:: e1a2_4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPTuring/exam1a2
+   :from_source: T
+   :answer_a: 3
+   :answer_b: 2
+   :answer_c: 5
+   :answer_d: 0
+   :correct: b
+   :feedback_a: That is the original value of var1.  What is the value of var2?
+   :feedback_b: When var1 is assigned to have the same value as var2 the value from var2 is copied and not changed.
+   :feedback_c: That is the original value of var3.  What is the value of var2?
+   :feedback_d: When one variable (var1) is set to the value of another (var2) it copies the value from the other (var2).  It does't change the value in the other (var2).
+
+   What is the value of var2 after the following code executes?
+
+   ::
+
+      var1 = 3
+      var2 = 2
+      var3 = 5
+      var1 = var2

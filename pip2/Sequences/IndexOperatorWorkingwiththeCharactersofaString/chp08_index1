@@ -1,0 +1,13 @@
+.. activecode:: chp08_index1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/IndexOperatorWorkingwiththeCharactersofaString
+    :from_source: None
+
+    school = "Luther College"
+    m = school[2]
+    print m
+
+    lastchar = school[-1]
+    print lastchar

@@ -1,0 +1,37 @@
+.. parsonsprob:: ch5ex6muc
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit3-If-Statements/topic-3-9-practice-mixed-code
+   :from_source: T
+   :numbered: left
+   :practice: T
+   :adaptive:
+   :noindent:
+
+   The main method in the following class should print your fine if you are speeding.  If you are going over 65 but less than 75 the fine is 50.  If you are going at least 75 and less than 85 the fine is 100.  Over that the fine is 200.   But, the blocks have been mixed up and includes <b>two extra blocks</b> that aren't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+   =====
+           int speed = 90;
+   =====
+           if (speed > 65 && speed < 75)
+   =====
+           if (speed > 65 || speed < 75) #paired
+   =====
+               System.out.println("50");
+   =====
+           else if (speed >= 75 && speed < 85)
+   =====
+           else if (speed >= 75 || speed < 85) #paired
+   =====
+               System.out.println("100");
+   =====
+           else
+               System.out.println("200");
+   =====
+       }
+   }

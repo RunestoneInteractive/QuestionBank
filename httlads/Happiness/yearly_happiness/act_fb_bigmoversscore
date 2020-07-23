@@ -1,6 +1,6 @@
 .. fillintheblank:: act_fb_bigmoversscore
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/yearly_happiness
    :from_source: T
@@ -13,4 +13,3 @@
 
    - :Ghana: Is the correct answer
      :x: Remember to use the MATCH and INDEX functions for this part
-

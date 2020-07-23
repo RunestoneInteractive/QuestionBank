@@ -1,14 +1,10 @@
-
+.. activecode:: rab_lab_sw_02_01
     :author: Richard Bernatz
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: rab_lab_sw_02_01
 
     Use this active code window for scratch work for Chapter 2.
     ~~~~
-    # (your name)   
-    
- 
-    
+    # (your name)

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex3muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayParsonsPractice
    :from_source: T
@@ -22,4 +22,3 @@
        } //end conditional
    =====
    } //end for loop
-

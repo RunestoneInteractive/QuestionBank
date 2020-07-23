@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_6_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: SimplePythonData/OperatorsandOperands
    :from_source: None
@@ -19,5 +19,3 @@
    .. code-block:: python
 
       print(18 / 4)
-
-

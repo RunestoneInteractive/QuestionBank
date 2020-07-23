@@ -1,10 +1,9 @@
-
+.. parsonsprob:: testProblem12345
    :author: Derek Miller
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. parsonsprob:: testProblem12345
    :maxdist:
    :order:
    :language:
@@ -32,4 +31,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

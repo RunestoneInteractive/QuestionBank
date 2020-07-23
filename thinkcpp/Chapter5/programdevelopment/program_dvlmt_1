@@ -1,6 +1,6 @@
 .. mchoice:: program_dvlmt_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/programdevelopment
    :from_source: T
@@ -16,4 +16,3 @@
 
    When writing the implementation for a function, a good place to
    start is __________.
-

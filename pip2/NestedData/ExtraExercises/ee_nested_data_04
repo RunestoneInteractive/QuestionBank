@@ -1,0 +1,23 @@
+.. activecode:: ee_nested_data_04
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/ExtraExercises
+   :from_source: None
+   :tags: NestedData/NestedIteration.rst, NestedData/DebuggingNestedData.rst, NestedData/NestedDictionaries.rst
+
+   nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 'London':{'USA':46, 'China':38, 'Great Britain':29, 'Russia':22}, 'Rio':{'USA':35, 'Great Britain':22, 'China':20, 'Germany':13}}
+
+   US_count = []
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFour(self):
+         self.assertEqual(sorted(US_count), [35, 36, 46], "Testing that US_count is assigned to correct values.")
+
+   myTests().main()

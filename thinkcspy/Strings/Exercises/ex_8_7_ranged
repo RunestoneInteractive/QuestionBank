@@ -1,6 +1,6 @@
 .. actex:: ex_8_7_ranged
    :author: Karl Sickendick
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: F
@@ -29,5 +29,3 @@
 
 
    myTests().main()
-
-

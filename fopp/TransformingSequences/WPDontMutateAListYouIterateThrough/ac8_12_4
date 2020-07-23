@@ -1,6 +1,6 @@
 .. activecode:: ac8_12_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/WPDontMutateAListYouIterateThrough
     :from_source: T

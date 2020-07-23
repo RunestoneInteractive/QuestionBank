@@ -1,6 +1,6 @@
 .. mchoice:: qve_new8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: T
@@ -21,4 +21,3 @@
 
       double value = Math.random();
       int num = (int) (value * 11) - 5;
-

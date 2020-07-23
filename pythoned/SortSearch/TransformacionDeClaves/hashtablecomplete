@@ -1,6 +1,6 @@
 .. activecode:: hashtablecomplete
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: SortSearch/TransformacionDeClaves
    :from_source: None
@@ -83,5 +83,3 @@
    H[20]='pato'
    print(H[20])
    print(H[99])
-
-

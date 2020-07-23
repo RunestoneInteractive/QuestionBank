@@ -1,10 +1,9 @@
 .. activecode:: ex_8_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: Strings/Exercises
    :from_source: None
 
    def count(p):
        # your code here
-

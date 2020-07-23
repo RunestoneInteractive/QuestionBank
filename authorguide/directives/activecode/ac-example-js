@@ -1,6 +1,6 @@
 .. activecode:: ac-example-js
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/activecode
    :from_source: T
@@ -19,4 +19,3 @@
    }
    console.log(fact(10));
    writeln('hello world');
-

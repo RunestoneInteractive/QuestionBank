@@ -1,6 +1,6 @@
 .. mchoice:: constructors_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter11/constructors
    :from_source: T

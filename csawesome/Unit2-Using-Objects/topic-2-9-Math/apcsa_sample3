@@ -1,6 +1,6 @@
 .. mchoice:: apcsa_sample3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-9-Math
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: This would give us random numbers from 25 to 85. Remember that you can compute the range you need with (max number - min number + 1).
 
    Which of the following statements assigns a random integer between 25 and 60, inclusive, to rn?
-

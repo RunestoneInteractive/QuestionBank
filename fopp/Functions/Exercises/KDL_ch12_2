@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch12_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: KDL_ch12_2
    :autograde: unittest
    :language: python
 
@@ -21,4 +20,4 @@
            
            self.assertEqual(int(root(128,7)), 2, "Testing the root function on input 128,7.")
            
-   myTests().main()   
+   myTests().main()

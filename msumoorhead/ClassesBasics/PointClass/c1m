@@ -1,6 +1,6 @@
 .. activecode:: c1m
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesBasics/PointClass
     :from_source: None
@@ -36,4 +36,3 @@
 
         b = Point(1,1)
         test.testEqual(b.distFromOrigin(), 2**0.5)
-

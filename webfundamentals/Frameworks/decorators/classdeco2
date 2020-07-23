@@ -1,6 +1,6 @@
 .. activecode:: classdeco2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Frameworks/decorators
    :from_source: T
@@ -28,4 +28,3 @@
    print(fib(30))
    print(fib.wrapper.counter)
    print(fib.wrapper.define_time)
-

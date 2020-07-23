@@ -1,10 +1,9 @@
 .. codelens:: vtest
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: PythonTurtle/FlowofExecutionoftheforLoop
     :from_source: T
 
     for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
         print("Hi ", name, "  Please come to my party on Saturday!")
-

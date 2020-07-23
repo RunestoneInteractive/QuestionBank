@@ -1,6 +1,6 @@
 .. mchoice:: programming_8
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter1/exercises
     :from_source: T
@@ -29,4 +29,3 @@
     -   The end of each statement is marked with a colon ``:``.
 
         -   Actually, each statement is terminated with a *semi* colon ``;``.
-

@@ -1,10 +1,9 @@
-
+.. activecode:: asu_cs_ch4_q4
     :author: Erdogan Dogdu
-    :difficulty: 5.0
+    :difficulty: 5
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: asu_cs_ch4_q4
 
     Write a program to draw the (turtle) graphics for a 4th degree polynomial function
     given its coefficients as variables a3, a2, a1, a0.

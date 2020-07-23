@@ -1,6 +1,6 @@
 .. mchoice:: 8_1_1_For_Counter_Q1
                   :author: bmiller
-                  :difficulty: 3.0
+                  :difficulty: 3
                   :basecourse: studentcsp
                   :topic: CSPWhileAndForLoops/forAndWhile
                   :from_source: T

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch9ex7muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/Array2dParsonsPractice
    :from_source: T
@@ -34,4 +34,3 @@
        } //end outer for loop
        return averages;
    } //end method
-

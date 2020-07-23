@@ -1,0 +1,26 @@
+.. mchoice:: pe1_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test1
+   :from_source: None
+   :answer_a: 1 2 3 2 4 6
+   :answer_b: 1 2 3 2 4 6 3 6 9
+   :answer_c: 1 2 2 4 3 6
+   :answer_d: 1 2 3 4 2 4 6 8 3 6 9 12
+   :answer_e: 0 1 2 3 0 2 4 6 0 3 6 9
+   :correct: b
+   :feedback_a: This would be true if it was j < 3.
+   :feedback_b: The variable j will range from 1 to 3 and k will range from 1 to 3.
+   :feedback_c: This would be true if it was k <= 3.
+   :feedback_d: This would be true if it was k <= 4.
+   :feedback_e: This would be true if k started at 0 instead of 1.
+
+   What will the following code print when it is executed?
+
+   .. code-block:: java
+
+     for (int j = 1; j <= 3; j++) {
+        for (int k = 1; k < 4; k++)
+           System.out.print(j * k + " ");
+     }

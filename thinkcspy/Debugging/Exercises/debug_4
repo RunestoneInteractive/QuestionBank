@@ -1,13 +1,10 @@
-
+.. activecode:: debug_4
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Debugging/Exercises
     :from_source: F
-.. activecode:: debug_4
 
     Give two examples of code that will result in a TypeError.
    
     ~~~~
-    
-    

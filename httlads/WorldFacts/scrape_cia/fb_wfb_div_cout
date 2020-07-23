@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_wfb_div_cout
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/scrape_cia
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :793: Is the correct answer
      :x: Use the select method to find only a div tag
-

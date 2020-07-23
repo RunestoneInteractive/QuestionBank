@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch11_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Dictionaries/Exercises
    :from_source: F
@@ -25,4 +25,4 @@
            self.assertEqual(word_count(song),slist,"the correct count for the Holla song!")
 
            
-   myTests().main()   
+   myTests().main()

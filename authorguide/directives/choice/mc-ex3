@@ -1,6 +1,6 @@
 .. mchoice:: mc-ex3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/choice
    :from_source: T
@@ -17,4 +17,3 @@
    :correct: a
 
    Which of these are valid variable names in Python? (Choose all that are correct)
-

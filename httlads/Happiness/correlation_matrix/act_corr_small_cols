@@ -1,6 +1,6 @@
 .. fillintheblank:: act_corr_small_cols
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/correlation_matrix
    :from_source: T
@@ -12,4 +12,3 @@
 
    - :Social Support: Is the correct answer
      :x: Maybe your order is wrong?
-

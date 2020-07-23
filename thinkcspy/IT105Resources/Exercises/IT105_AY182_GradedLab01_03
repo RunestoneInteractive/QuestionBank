@@ -1,10 +1,9 @@
-
+.. activecode:: IT105_AY182_GradedLab01_03
    :author: Tom Babbitt
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
-.. activecode:: IT105_AY182_GradedLab01_03
    :language: python
    :nocodelens:
    :include: IT105_AY182_GradedLab01_01, IT105_AY182_GradedLab01_02
@@ -46,6 +45,3 @@
    
    ====
    print("Check your results against the picture.")
-
-   
-    

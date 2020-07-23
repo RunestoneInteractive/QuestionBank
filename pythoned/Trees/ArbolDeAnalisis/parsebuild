@@ -1,6 +1,6 @@
 .. activecode::  parsebuild
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: Trees/ArbolDeAnalisis
     :from_source: None
@@ -39,4 +39,3 @@
     miArbolAnalisis = construirArbolAnalisis("( ( 10 + 5 ) * 3 )")
     print(miArbolAnalisis) # Imprimir el objeto árbol pero no muestra los valores en los nodos
     #miArbolAnalisis.postorden()  #definida y explicada en la próxima sección
-

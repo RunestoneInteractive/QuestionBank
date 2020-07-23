@@ -1,6 +1,6 @@
 .. activecode:: tdi1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Dictionaries/intro-Dictionaries
     :from_source: None
@@ -10,4 +10,3 @@
     eng2sp['two'] = 'dos'
 
     print(eng2sp)
-

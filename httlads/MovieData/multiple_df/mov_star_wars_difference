@@ -1,6 +1,6 @@
 .. fillintheblank:: mov_star_wars_difference
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: MovieData/multiple_df
    :from_source: T
@@ -12,4 +12,3 @@
      :10: Make sure you use the popular rating minus my rating
      :-0.10: Make sure you convert your answer to a percentage
      :x: catchall feedback
-

@@ -1,0 +1,29 @@
+.. activecode:: ee_sort_06
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags: Sort/SortingaDictionary.rst, Sort/Optionalkeyparameter.rst, Sort/Optionalreverseparameter.rst, Sort/Anonymousfunctionswithlambdaexpressions.rst, Sort/intro-SortingwithSortandSorted.rst
+
+   pokemon = {'Trainer1':
+                    {'rattatas':15, 'eevees': 2, 'ditto':1, 'magikarps':3, 'zubats':8, 'pidgey': 12},
+               'Trainer2':
+                    {'rattatas':25, 'eevees': 1, 'magikarps':7, 'zubats':3, 'pidgey': 15},
+               'Trainer3':
+                    {'rattatas':10, 'eevees': 3, 'ditto':2, 'magikarps':2, 'zubats':3, 'pidgey': 20},
+               'Trainer4':
+                    {'rattatas':17, 'eevees': 1, 'magikarps':9, 'zubats':12, 'pidgey': 14}}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testSixA(self):
+         self.assertEqual(sorted(pooled.items()), [('ditto', 3), ('eevees', 7), ('magikarps', 21), ('pidgey', 61), ('rattatas', 67), ('zubats', 26)], "Testing that pooled contains correct values.")
+      def testSixB(self):
+         self.assertEqual(common, "rattatas", "Testing that common contains the correct value.")
+
+   myTests().main()

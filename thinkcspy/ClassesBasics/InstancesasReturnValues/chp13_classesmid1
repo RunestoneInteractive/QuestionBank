@@ -1,6 +1,6 @@
 .. activecode:: chp13_classesmid1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesBasics/InstancesasReturnValues
     :from_source: T
@@ -36,4 +36,3 @@
     print(mid)
     print(mid.getX())
     print(mid.getY())
-

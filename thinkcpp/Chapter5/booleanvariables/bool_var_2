@@ -1,6 +1,6 @@
 .. dragndrop:: bool_var_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/booleanvariables
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: bool testResult = false;|||initialization
 
    Match the statement to the word that describes it best.
-

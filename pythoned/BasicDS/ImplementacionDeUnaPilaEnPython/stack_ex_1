@@ -1,6 +1,6 @@
 .. activecode:: stack_ex_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/ImplementacionDeUnaPilaEnPython
    :from_source: None
@@ -21,4 +21,3 @@
    print(p.extraer())
    print(p.extraer())
    print(p.tamano())
-

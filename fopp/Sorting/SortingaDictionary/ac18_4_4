@@ -1,6 +1,6 @@
 .. activecode:: ac18_4_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Sorting/SortingaDictionary
     :from_source: F
@@ -21,4 +21,3 @@
     sorted_items = sorted(items, key=g, reverse=True)
     for x in sorted_items:
         print(str(x[0]) + " appears " + str(x[1]) + " times")
-

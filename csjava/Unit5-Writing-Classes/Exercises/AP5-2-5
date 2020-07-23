@@ -1,0 +1,48 @@
+.. mchoice:: AP5-2-5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit5-Writing-Classes/Exercises
+   :from_source: T
+   :practice: T
+   :random:
+   :answer_a: I only
+   :answer_b: I and II
+   :answer_c: I and III
+   :answer_d: I, II, and III
+   :answer_e: II and III
+   :correct: d
+   :feedback_a: II and III can also create a correct Party instance
+   :feedback_b: III can also create a correct Party instance
+   :feedback_c: II can also create a correct Party instance
+   :feedback_d: I, II, and III can successfully create the Party instance.
+   :feedback_e: I can also create a correct Party instance
+
+   Consider the following class definition. Each object of the class Party will store the party host’s name as partyHost, the number of people as numOfPeople, and the capacity that the event can hold as capacity. Which of the following code segments, found in a class other than Party, can be used to create a party hosted by Charlie without anyone there initially, but the place can hold 78 people ?
+
+   .. code-block:: java
+
+    public class Party
+    {
+        private String partyHost;
+        private int numOfPeople;
+        private int capacity;
+
+        public Party(String name, int num, int cap)
+        {
+            partyHost = name;
+            numOfPeople = num;
+            capacity = cap;
+        }
+        public Party (String name, int cap)
+        {
+            partyHost = name;
+            numOfPeople = 0;
+            capacity = cap;
+        }
+        /* Other methods not shown */
+    }
+
+    I.   Party b = new Party("Charlie", 78);
+    II.  Party b = new Party("Charlie", 0, 70+8);
+    III. Party b = new Party("Charlie", 0, 78);

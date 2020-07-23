@@ -1,0 +1,35 @@
+.. mchoice:: e12a13_4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPStringDecisions/exam12a13
+   :from_source: T
+   :practice: T
+   :answer_a: I
+   :answer_b: II
+   :answer_c: III
+   :answer_d: IV
+   :correct: c
+   :feedback_a: This would always set x to 0 but if x was 1 in the original code it would not change.
+   :feedback_b: If x is greater than 4 it is reset to 0 in the original code.
+   :feedback_c: Anytime x is greater than 2 it will be set to 0 in the original code.
+   :feedback_d: What if x is negative in the original code?
+
+   Which of the following is equivalent to the code segment below?
+
+   ::
+
+      if x > 2:
+          x = x * 2
+      if x > 4:
+          x = 0
+
+      I.   x = 0
+      II.  if x > 2:
+               x = x * 2
+      III. if x > 2:
+               x = 0
+      IV.  if x > 2:
+               x = 0
+           else:
+               x = x * 2

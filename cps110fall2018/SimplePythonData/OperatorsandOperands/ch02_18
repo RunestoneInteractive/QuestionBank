@@ -1,6 +1,6 @@
 .. activecode:: ch02_18
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: SimplePythonData/OperatorsandOperands
     :from_source: None
@@ -10,4 +10,3 @@
     print(quotient)
     remainder = 7 % 3
     print(remainder)
-

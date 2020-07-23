@@ -1,0 +1,21 @@
+.. activecode:: ee_ch13_021
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/ImprovingourConstructor.rst, Classes/AddingOtherMethodstoourClass.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(tester.quantity, 8, "Testing that testOne has the correct value assigned.")
+      def testTwo(self):
+         self.assertEqual(initial_quantity, 4, "Testing that initial_quantity has the correct value assigned.")
+
+
+   myTests().main()

@@ -1,12 +1,10 @@
-
+.. actex:: suci_try_1
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. actex:: suci_try_1
 
    Write a program that will convert degrees celsius to degrees fahrenheit.
    ~~~~
    # put code here (indent 3 spaces)
-

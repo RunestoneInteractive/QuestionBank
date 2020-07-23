@@ -1,6 +1,6 @@
 .. activecode:: chp13_classes6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesBasics/ObjectsasArgumentsandParameters
     :from_source: T
@@ -34,4 +34,3 @@
     p = Point(4, 3)
     q = Point(0, 0)
     print(distance(p, q))
-

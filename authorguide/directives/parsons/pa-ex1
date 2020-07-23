@@ -1,6 +1,6 @@
 .. parsonsprob:: pa-ex1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/parsons
    :from_source: T
@@ -11,4 +11,3 @@
    x = 0
    for i in range(10):
        x = x + 1
-

@@ -1,6 +1,6 @@
 .. activecode:: alt_kiva_hist1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/graphing_with_altair
     :from_source: T
@@ -17,4 +17,3 @@
     Y = altair.Axis('count()')
     enc = mark.encode(x=X,y=Y)
     enc.display()
-

@@ -1,6 +1,6 @@
 .. activecode:: ch07_indef1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: MoreAboutIteration/The3n1Sequence
     :from_source: None
@@ -16,6 +16,3 @@
         print(n)                  # the last print is 1
 
     seq3np1(3)
-
-
-

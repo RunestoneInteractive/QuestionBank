@@ -1,6 +1,6 @@
 .. activecode:: CS151-Unit1-Candy
    :author: John Cigas
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: F
@@ -34,4 +34,3 @@
 
       }
    }
-

@@ -1,10 +1,9 @@
-
+.. activecode:: get_index_duplicate-fix
        :author: Barbara  Ericson
-       :difficulty: 0.0
+       :difficulty: 0
        :basecourse: StudentCSP
        :topic: CSPWhileAndForLoops/Exercises
        :from_source: F
-.. activecode:: get_index_duplicate-fix
        :autograde: unittest
 
        Fix the code below to return the index of the first adjacent duplicate value in a 

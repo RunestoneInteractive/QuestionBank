@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_scalar_multiply
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -34,5 +34,4 @@
 		       'Checking element {:d} {:d}'.format(i, j))
 	           self.assertFalse(re.search(str(ref_a[i][j]), self.getEditorText()),
 		       'Checking for hardcoding {:d} {:d}'.format(i, j))
-   myTests().main() 
-
+   myTests().main()

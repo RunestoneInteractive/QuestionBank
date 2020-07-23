@@ -1,6 +1,6 @@
 .. mchoice:: program_lang_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/programming_language
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: High-level programs are portable, meaning they can run on different kinds of computers with little to no modification.
 
    **Multiple Response** Which is true about a high-level programming language?
-

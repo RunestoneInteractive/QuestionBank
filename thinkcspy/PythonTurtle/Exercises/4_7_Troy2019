@@ -1,10 +1,9 @@
-
+.. activecode:: 4_7_Troy2019
     :author: Shawn Haarer
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: 4_7_Troy2019
    
 
     Write a two line program that prints out 5 lines with 5 student names, like 
@@ -24,4 +23,3 @@
     Section 4.4 in online text or follow the Link above in another tab.  )
     ~~~~
     print("Who Loves to Code ")
-

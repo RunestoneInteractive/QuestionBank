@@ -1,6 +1,6 @@
 .. activecode:: lhs_9_3
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
@@ -80,4 +80,4 @@
                     comment = t[1]
                     self.assertEqual(removeExtraSpaces(s), self._remove(s), comment)
                 
-    myTests().main() 
+    myTests().main()

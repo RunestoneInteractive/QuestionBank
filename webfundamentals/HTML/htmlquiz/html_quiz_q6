@@ -1,6 +1,6 @@
 .. mchoice:: html_quiz_q6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: HTML/htmlquiz
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: None
 
    Which of these elements are all &lt;table&gt; elements?
-

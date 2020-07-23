@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt_1_TroyPython2019
     :author: Shawn Haarer
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Asmt_1_TroyPython2019
    
     Draw 3 different shapes: rectangle, square, and triangle
  
@@ -20,5 +19,4 @@
     win = turtle.Screen()   # You can FINISH the code from here.
 
     # create a turtle, give it a color, pensize, etc.  
-    ==== 
-    
+    ====

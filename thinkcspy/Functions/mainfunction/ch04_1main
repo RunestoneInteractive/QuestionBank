@@ -1,6 +1,6 @@
 .. activecode:: ch04_1main
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/mainfunction
     :from_source: T
@@ -26,4 +26,3 @@
         wn.exitonclick()
 
     main()                           # Invoke the main function
-

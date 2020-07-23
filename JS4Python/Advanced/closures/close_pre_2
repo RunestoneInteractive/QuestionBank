@@ -1,6 +1,6 @@
 .. mchoice:: close_pre_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: Advanced/closures
     :from_source: T
@@ -47,4 +47,3 @@
     - An error occurs
 
       - This is all legal!
-

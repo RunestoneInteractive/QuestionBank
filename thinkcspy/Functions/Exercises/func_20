@@ -1,13 +1,11 @@
-
+.. activecode:: func_20
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_20
   
     Using the principle of "composition", write a program that calculates the 
     angles of a right triangle given the length of two legs.
 
     ~~~~
-    

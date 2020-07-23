@@ -1,6 +1,6 @@
 .. showeval:: se_updatevar1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: SimplePythonData/UpdatingVariables
    :from_source: None
@@ -12,4 +12,3 @@
    x = {{x}}{{6}} + 1
    x = 6 + {{1}}{{1}}
    x = {{6 + 1}}{{7}}
-

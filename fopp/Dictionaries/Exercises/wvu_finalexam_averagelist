@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_averagelist
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_averagelist
     :autograde: unittest
 
     Write a function named **average** that accepts a list as a parameter. It must return the average of all the numbers in the list.
@@ -21,4 +20,3 @@
             self.assertEqual(average([50,100]), 75.0, "Function gives correct result for [50, 100].")
     
     myTests().main()
-    

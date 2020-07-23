@@ -1,6 +1,6 @@
 .. actex:: TL_365_class_charged_particle
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Classes/Exercises
    :from_source: F
@@ -44,4 +44,4 @@
 	     self.assertEqual(Charge(-6.54,-8.99,8.03,6.27).potential_at(1.52,-6.61,3.92),
 	         _Charge(-6.54,-8.99,8.03,6.27).potential_at(1.52,-6.61,3.92),
 	         'Checking potential(2,3,4) for Charge(1, 2, 3, 4)')
-   myTests().main()	        
+   myTests().main()

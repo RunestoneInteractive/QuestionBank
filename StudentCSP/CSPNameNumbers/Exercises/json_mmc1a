@@ -1,11 +1,9 @@
-
+.. mchoice:: json_mmc1a
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/Exercises
    :from_source: F
-
-.. mchoice:: json_mmc1a
    :correct: c
    :answer_a: name = dList.get("last_name", None)
    :answer_b: name = dlist[0][last_name]
@@ -34,4 +32,3 @@
           "last_name" : "Russo"
       }]'''
       dList = json.loads(data)
-   

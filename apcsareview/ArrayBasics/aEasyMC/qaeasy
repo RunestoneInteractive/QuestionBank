@@ -1,6 +1,6 @@
 .. mchoice:: qaeasy
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/aEasyMC
    :from_source: T
@@ -28,7 +28,3 @@
            a[i] = a[i] * amt;
         } // end while
      } // end method
-
-
-
-

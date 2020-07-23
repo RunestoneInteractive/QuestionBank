@@ -1,6 +1,6 @@
 .. parsonsprob:: ch8ex6muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit7-ArrayList/ListParsonsPractice
    :from_source: T
@@ -25,4 +25,3 @@
       return (sum / nums.size());
    =====
    } //end average method
-

@@ -1,6 +1,6 @@
 .. activecode:: apclass
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit9-Inheritance/topic-9-1-inheritance-day2
   :from_source: T
@@ -33,4 +33,3 @@
           System.out.println(csa instanceof Course);
        }
     }
-

@@ -1,6 +1,6 @@
 .. dragndrop:: csc101_matching_1
     :author: Isaac Sung
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: pythonds
     :topic: Introduction/Exercises
     :from_source: F
@@ -13,4 +13,3 @@
     :match_6: 20 ||| print(5*2*2)
    
     Matchup the output the to Python code that produced it.
-    

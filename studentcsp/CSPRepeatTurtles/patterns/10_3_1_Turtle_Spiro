@@ -1,6 +1,6 @@
 .. parsonsprob:: 10_3_1_Turtle_Spiro
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPRepeatTurtles/patterns
    :from_source: T
@@ -36,4 +36,3 @@
            mateo.color("blue")
            mateo.forward(50)
            mateo.right(120)
-

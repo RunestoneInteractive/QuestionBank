@@ -1,6 +1,6 @@
 .. parsonsprob:: ch6ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: LoopBasics/LoopParsonsPractice
    :from_source: T
@@ -25,4 +25,3 @@
        }
    =====
    }
-

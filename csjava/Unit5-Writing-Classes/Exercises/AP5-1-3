@@ -1,0 +1,63 @@
+.. mchoice:: AP5-1-3
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/Exercises
+    :from_source: T
+    :practice: T
+
+    The Liquid class will contain two double attributes for a liquid’s boiling point temperature and freezing point temperature. The class will also contain a constructor.
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+           /* missing code */
+        }
+        Which of the following replacements for /* missing code */ is the most appropriate
+        implementation of the class?
+
+    - .. code-block:: java
+
+        private double boilingPoint;
+        private double freezingPoint;
+        public Liquid(double boilingPoint, double freezingPoint)
+        { /* implementation not shown */ }
+
+      + Correct! The instance variables should be private and the constructor and methods should be public.
+
+    - .. code-block:: java
+
+        private double boilingPoint;
+        private double freezingPoint;
+        private Liquid(double boilingPoint, double freezingPoint)
+        { /* implementation not shown */ }
+
+      - Constructors should be public.
+
+    - .. code-block:: java
+
+        private double boilingPoint;
+        public double freezingPoint;
+        private Liquid(double freezingPoint, double boilingPoint)
+        { /* implementation not shown */ }
+
+      - The instance variables should be private and the constructor and methods should be public.
+
+    - .. code-block:: java
+
+        public double boilingPoint;
+        public double freezingPoint;
+        private Liquid(double boilingPoint, double freezingPoint)
+        { /* implementation not shown */ }
+
+      - The instance variables should be private and the constructor and methods should be public.
+
+    - .. code-block:: java
+
+          public double freezingPoint;
+          public double boilingPoint;
+          public Liquid(double freezingPoint, double boilingPoint)
+          { /* implementation not shown */ }
+
+      - The instance variables should be private.

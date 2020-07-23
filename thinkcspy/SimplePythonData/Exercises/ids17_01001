@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_01001
     :author: 弘倫 王
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: ids17_01001
 
     2.1 (劉邦鋒，由片語學習C程式設計) 寫一個程式讀入兩個整數並顯示在瑩幕上，但是先讀入的整數後顯示，後讀入的整數先顯示。
 
@@ -24,4 +23,3 @@
 
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

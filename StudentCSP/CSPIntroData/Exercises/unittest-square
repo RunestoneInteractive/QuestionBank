@@ -1,10 +1,9 @@
-
+.. parsonsprob:: unittest-square
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPIntroData/Exercises
    :from_source: F
-.. parsonsprob:: unittest-square
    :adaptive:
    :numbered: left
 
@@ -35,6 +34,3 @@
        def test_zero(self):
    =====
            self.assertEqual(square(0), 0)
-
-
-   

@@ -1,6 +1,6 @@
 .. activecode:: chp12_sparse
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Dictionaries/Sparsematrices
    :from_source: T
@@ -9,4 +9,3 @@
    print(matrix.get((0,3)))
 
    print(matrix.get((1, 3), 0))
-

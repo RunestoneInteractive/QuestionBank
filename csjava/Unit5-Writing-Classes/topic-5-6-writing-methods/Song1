@@ -1,0 +1,70 @@
+.. activecode:: Song1
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: csjava
+  :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
+  :from_source: T
+  :language: java
+  :autograde: unittest
+  :practice: T
+
+  Run the following code to see the song This Old Man print out. Can you replace the last two lines in the second verse in the main method with a call the chorus() method instead? You can also see this code run in the |Java visualizer| by clicking on the Code Lens button.
+  ~~~~
+  public class Song
+  {
+    // The chorus method
+    public void chorus()
+    {
+       System.out.println("With a knick knack paddy whack, give a dog a bone.");
+       System.out.println("This old man came rolling home.");
+    }
+
+    public static void main(String args[])
+    {
+      Song mySong = new Song();
+      System.out.println("This old man, he played one.");
+      System.out.println("He played knick knack on my thumb. ");
+      mySong.chorus();
+
+      System.out.println("This old man, he played two.");
+      System.out.println("He played knick knack on my shoe. ");
+      // Can you replace these 2 lines with a method call to chorus()?
+      System.out.println("With a knick knack paddy whack, give a dog a bone.");
+      System.out.println("This old man came rolling home.");
+    }
+  }
+  ====
+  import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "This old man, he played one.\nHe played knick knack on my thumb.  \nWith a knick knack paddy whack, give a dog a bone.\nThis old man came rolling home.\nThis old man, he played two.\nHe played knick knack on my shoe. \nWith a knick knack paddy whack, give a dog a bone.\nThis old man came rolling home.";
+            boolean passed = getResults(expect, output, "Expected output from main");
+            assertTrue(passed);
+        }
+
+        @Test
+        public void testChangedCode() {
+            String origCode = "public class Song{ // The chorus method public void chorus() { System.out.println(\"With a knick knack paddy whack, give a dog a bone.\"); System.out.println(\"This old man came rolling home.\"); }  public static void main(String args[])  {  Song mySong = new Song();  System.out.println(\"This old man, he played one.\");  System.out.println(\"He played knick knack on my thumb. \");  mySong.chorus();  System.out.println(\"This old man, he played two.\");  System.out.println(\"He played knick knack on my shoe. \");  // Can you replace these 2 lines with a method call to chorus()?  System.out.println(\"With a knick knack paddy whack, give a dog a bone.\");  System.out.println(\"This old man came rolling home.\")  }  }";
+
+            boolean changed = codeChanged(origCode);
+
+            assertTrue(changed);
+
+        }
+
+        @Test
+        public void testcodeContains(){
+          int count = countOccurences(getCode(),"mySong.chorus();");
+          boolean passed = count > 1;
+          passed = getResults("> 1 chorus call",  count  + " chorus call(s)", "Added a call to chorus?", passed);
+          assertTrue(passed);
+        }
+
+    }

@@ -1,6 +1,6 @@
 .. fillintheblank:: fitb-ex5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/fitb
    :from_source: T
@@ -9,5 +9,3 @@
 
    - :\[\]: Correct.
      :x: Try again.
-
-

@@ -1,6 +1,6 @@
 .. activecode:: sc2error1TNS
    :author: Tiffani Slutsky
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-2-java-intro
    :from_source: F
@@ -34,5 +34,3 @@
             assertTrue(passed);
         }
    }
-
-

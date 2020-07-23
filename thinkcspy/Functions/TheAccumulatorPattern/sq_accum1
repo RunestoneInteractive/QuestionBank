@@ -1,6 +1,6 @@
 .. activecode:: sq_accum1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/TheAccumulatorPattern
     :from_source: T
@@ -15,7 +15,3 @@
     toSquare = 10
     squareResult = square(toSquare)
     print("The result of", toSquare, "squared is", squareResult)
-
-
-
-

@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_floor_and_ceil
    :author: Michael McCarrin
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_floor_and_ceil
 
    The "floor" operation takes any decimal input and returns the largest integer that is smaller than the input. For example, if the input is 1.2, the floor of 1.2 is 1. If the input is 1.5, the floor is also 1 and if the input is .9999 the floor is 0.
 
@@ -27,4 +26,3 @@
    print("The floor is:", floor)
 
    print("The ceil is:", ceil)
-    

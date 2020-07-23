@@ -1,10 +1,9 @@
-
+.. activecode:: hu_image_right_half_black
     :author: Sean Joyce
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/Exercises
     :from_source: F
-.. activecode:: hu_image_right_half_black
 
     Starting with the code below, complete a program that will transform
     the given image such that the right half of the image is completely

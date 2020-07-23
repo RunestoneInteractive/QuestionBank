@@ -1,10 +1,9 @@
-
+.. activecode:: hu_caesar_shift_prompt
     :author: Sean Joyce
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: fopp
     :topic: TransformingSequences/Exercises
     :from_source: F
-.. activecode:: hu_caesar_shift_prompt
    
     Write a program that prompts the user to enter a string of text. Store the 
     text in variable ``plaintext``.  Your program should then prompt the user
@@ -24,4 +23,3 @@
 
 
     ====
-    

@@ -1,10 +1,9 @@
-
+.. activecode:: ids17_04003
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: ids17_04003
   
     6.4(劉邦鋒，由片語學習C程式設計)寫一個程式計算平均成績。假設有s位同學修習相同的c門課程，請計算每一位同學的平均成績，以及每一門課程所有學生的平均成績。輸入第一行為s及c。以下s行每行代表一位學生的修課成績。每一行有c個數字，第i個數字代表學生修第i門課的成績。輸出有s + c行。前s行代表s位學生的平均成績，後c行代表c門課所有學生的平均成績。參數規範： 0 < s <= 100，0 < c <= 100。
 
@@ -36,5 +35,3 @@
     ~~~~
     
     ====
-    
-    

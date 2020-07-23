@@ -1,6 +1,6 @@
 .. mchoice:: test_question3_5_5
   :author: jenkins
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cps110fall2017
   :topic: PythonTurtle/TherangeFunction
   :from_source: None
@@ -13,5 +13,3 @@
   :feedback_c: Yes, any integer past 10, and not past the next step at 14 would work.
 
   What could the second parameter (12) in range(2, 12, 4) be replaced with and generate exactly the same sequence?
-
-

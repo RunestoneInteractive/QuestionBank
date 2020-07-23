@@ -1,14 +1,12 @@
-
+.. activecode:: Lesson4_for_loop_intro_2019_c
     :author: Shawn Haarer
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Lesson4_for_loop_intro_2019_c
 
     In Python we use a FOR LOOP to code a Repeat Block
     ~~~~
     # LESSON 4   FOR LOOP - a repeat block in Python
     #
     ====
-    

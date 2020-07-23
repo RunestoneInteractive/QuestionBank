@@ -1,6 +1,6 @@
 .. mchoice:: question1_5_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: GeneralIntro/WhatisDebugging
    :from_source: None
@@ -15,5 +15,3 @@
    :feedback_d: This is partially correct.  But, debugging is more than just fixing the bugs. What do you need to do before you can fix them?
 
    Debugging is:
-
-

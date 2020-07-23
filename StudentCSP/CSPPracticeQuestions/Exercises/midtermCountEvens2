@@ -1,10 +1,9 @@
-
+.. parsonsprob:: midtermCountEvens2
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: midtermCountEvens2
    :adaptive:
    :numbered: left
 
@@ -25,4 +24,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

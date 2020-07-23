@@ -1,10 +1,9 @@
-
+.. activecode:: plunk_dvd
     :author: Laura Plunkett
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: plunk_dvd
 
     This is our shared activecode window for today's class. We'll be coding a DVD bouncing ball with turtles
 
@@ -18,4 +17,3 @@ config values (conf.py):
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
 - wasm_uri - Path or Full URL to folder containing WASM files for SQL. /_static is default
-    

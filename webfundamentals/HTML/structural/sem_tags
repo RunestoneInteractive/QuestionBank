@@ -1,6 +1,6 @@
 .. activecode:: sem_tags
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: HTML/structural
    :from_source: T
@@ -20,4 +20,3 @@
    <p>Notice that there is nothing special about the location of any of this text.  Without CSS the semantic tags simply divide the document logically</p>
    </body>
    </html>
-

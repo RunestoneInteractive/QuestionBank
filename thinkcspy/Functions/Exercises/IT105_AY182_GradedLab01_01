@@ -1,10 +1,9 @@
-
+.. activecode:: IT105_AY182_GradedLab01_01
    :author: Tom Babbitt
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: IT105_AY182_GradedLab01_01
    :language: python
    :nocodelens:
    :autograde: unittest
@@ -56,7 +55,4 @@
          self.assertEqual(areaOfEqTriangle(0.0),-1,"Check the boundary conditions.")
          self.assertEqual(areaOfEqTriangle(-1.0),-1,"Negative numbers should return a -1.")
 
-   myTests().main()  
-
-   
-    
+   myTests().main()

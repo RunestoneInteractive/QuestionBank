@@ -1,0 +1,18 @@
+.. activecode:: lcse1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Strings/sEquality
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+      public static void main(String[] args)
+      {
+        String s1 = "Hello";
+        String s2 = "Bye";
+        String s3 = s2;
+        System.out.println(s3);
+      }
+   }

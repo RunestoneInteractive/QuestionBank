@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_filter_sol1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/filtering_SQL
     :from_source: T
@@ -8,4 +8,3 @@
     :dburl: /runestone/books/published/webfundamentals/_static/bikeshare.db
 
     select * from trip_data where bike_number = 'W01274' and duration < 900
-

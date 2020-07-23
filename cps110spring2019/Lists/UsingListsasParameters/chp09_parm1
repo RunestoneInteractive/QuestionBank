@@ -1,6 +1,6 @@
 .. activecode:: chp09_parm1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: Lists/UsingListsasParameters
     :from_source: None
@@ -14,5 +14,3 @@
     print(things)
     doubleStuff(things)
     print(things)
-
-

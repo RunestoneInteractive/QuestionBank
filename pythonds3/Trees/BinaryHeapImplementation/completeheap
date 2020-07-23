@@ -1,6 +1,6 @@
 .. activecode:: completeheap
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: Trees/BinaryHeapImplementation
     :from_source: T
@@ -74,4 +74,3 @@
 
     while not a_heap.is_empty():
         print(a_heap.delete())
-

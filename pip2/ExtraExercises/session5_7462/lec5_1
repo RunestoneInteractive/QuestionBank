@@ -1,0 +1,23 @@
+.. activecode:: lec5_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session5_7462
+   :from_source: None
+
+   For each character in the string already saved in the variable ``str1``, append each character to a list called ``chars``.
+   ~~~~
+
+   str1 = "I love python"
+   # HINT: what's the accumulator? That should go here.
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwo(self):
+         self.assertEqual(chars, ['I', ' ', 'l', 'o', 'v', 'e', ' ', 'p', 'y', 't', 'h', 'o', 'n'], "Testing that chars has the correct value.")
+
+   myTests().main()

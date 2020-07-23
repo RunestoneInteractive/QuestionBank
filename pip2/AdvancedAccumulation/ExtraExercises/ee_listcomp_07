@@ -1,0 +1,28 @@
+.. activecode:: ee_listcomp_07
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/ExtraExercises
+   :from_source: None
+   :tags: AdvancedAccumulation/listcomp.rst
+
+   def onelist(lst):
+       result = []
+       for each_list in lst:
+           for item in each_list:
+               result.append(item)
+       return result
+
+   L = [["hi", "bye"], ["hello", "goodbye"], ["hola", "adios", "bonjour", "au revoir"]]
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testSeven(self):
+         self.assertEqual(result2, ['hi', 'bye', 'hello', 'goodbye', 'hola', 'adios', 'bonjour', 'au revoir'], "Testing that result2 is assigned to correct values")
+
+   myTests().main()

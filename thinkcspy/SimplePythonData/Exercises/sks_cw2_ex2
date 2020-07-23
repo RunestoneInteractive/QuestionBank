@@ -1,6 +1,6 @@
 .. activecode:: sks_cw2_ex2
    :author: Shishir Shah
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -25,4 +25,3 @@
    total = quiz_average*0.3 + mid_term*0.3 + final*0.4
 
    print('Your class grade is:', “total”)
-

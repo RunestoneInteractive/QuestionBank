@@ -1,6 +1,6 @@
 .. activecode:: act_ico_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/input_compute_output
     :from_source: T
@@ -12,4 +12,3 @@
     hours = days * 24
     minutes = hours * 60
     print(years, "years is ", minutes, "minutes")
-

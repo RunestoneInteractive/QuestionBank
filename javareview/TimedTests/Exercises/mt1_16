@@ -1,0 +1,29 @@
+.. mchoice:: mt1_16
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/Exercises
+   :from_source: None
+   :answer_a: hi there
+   :answer_b: HI THERE
+   :answer_c: Hi There
+   :answer_d: null
+   :answer_e: hI tHERE
+   :correct: c
+   :feedback_a: This would only be correct if we had s1 = s2; after s2.toLowerCase(); was executed.  Strings are immutable and so any change to a string returns a new string.
+   :feedback_b: This would be correct if we had s1 = s3; after s3.toUpperCase(); was executed.  Strings are immutable and so any change to a string returns a new string.
+   :feedback_c: Strings are immutable meaning that any changes to a string creates and returns a new string, so the string referred to by s1 does not change
+   :feedback_d: This would be true if we had s1 = s4; after s4 = null; was executed.  Strings are immutable and so any changes to a string returns a new string.
+   :feedback_e: Strings are immutable and so any changes to a string returns a new string.
+
+   Consider the following code.  What string is referenced by ``s1`` after the code executes?
+
+   .. code-block:: java
+
+      String s1 = "Hi There";
+      String s2 = s1;
+      String s3 = s2;
+      String s4 = s1;
+      s2 = s2.toLowerCase();
+      s3 = s3.toUpperCase();
+      s4 = null;

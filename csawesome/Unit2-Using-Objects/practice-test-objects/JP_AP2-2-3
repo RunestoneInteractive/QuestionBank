@@ -1,6 +1,6 @@
 .. mchoice:: JP_AP2-2-3
    :author: John Pataracchia
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/practice-test-objects
    :from_source: F
@@ -43,4 +43,3 @@
              BaseballLeague yourTeam = new BaseballLeague(numOfTeams + 6);
         III. int teamCount = 16;
              BaseballLeague ourTeam = new BaseballLeague(teamCount);
-

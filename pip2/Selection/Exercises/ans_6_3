@@ -1,0 +1,22 @@
+.. activecode:: ans_6_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/Exercises
+   :from_source: None
+
+   sc = raw_input("Enter a score from 0 to 100 (decimal points are allowed)")
+   fl_sc = float(sc)
+
+   if fl_sc < 60:
+       gr = "F"
+   elif fl_sc <70:
+       gr = "D"
+   elif fl_sc < 80:
+       gr = "C"
+   elif fl_sc < 90:
+       gr = "B"
+   else:
+       gr = "A"
+
+   print "Score", fl_sc, "gets a grade of", gr

@@ -1,12 +1,10 @@
-
+.. activecode:: rab_lab_sw_03_01
     :author: Richard Bernatz
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Debugging/Exercises
     :from_source: F
-.. activecode:: rab_lab_sw_03_01
 
     Use this active code window for scratch work for Chapter 3.
     ~~~~
-    # (your name)  
-    
+    # (your name)

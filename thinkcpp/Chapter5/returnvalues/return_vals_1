@@ -1,6 +1,6 @@
 .. mchoice:: return_vals_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/returnvalues
    :from_source: T
@@ -28,4 +28,3 @@
         }
         return outside;
        }
-

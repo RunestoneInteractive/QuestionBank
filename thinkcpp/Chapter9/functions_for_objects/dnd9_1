@@ -1,6 +1,6 @@
 .. dragndrop:: dnd9_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter9/functions_for_objects
     :from_source: T

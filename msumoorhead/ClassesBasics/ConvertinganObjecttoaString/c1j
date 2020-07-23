@@ -1,6 +1,6 @@
 .. activecode:: c1j
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesBasics/ConvertinganObjecttoaString
     :from_source: None
@@ -32,4 +32,3 @@
     p = Account('Jan')
     p.deposit(150)
     print(str(p))
-

@@ -1,0 +1,29 @@
+.. mchoice:: qtnt3_6
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Tests/test3nt
+   :from_source: None
+   :answer_a: "!hello!"
+   :answer_b: "hello!"
+   :answer_c: "!hello"
+   :answer_d: "olleh!"
+   :answer_e: "!olleh"
+   :correct: e
+   :feedback_a: The exclamation point is returned only once, when the method reaches its base case. Because the compiler works through the recursive calls to the end of the word before it returns any strings, the letters are printed in reverse order.
+   :feedback_b: The compiler works through all of the recursive calls before it returns any strings. The exclamation point is returned first, followed by the letters of the original string in reverse order.
+   :feedback_c: This string would be correct if the substring was returned before the recursive call. Because the recursive call occurs before the substring is returned, the compiler reaches the end of the string before it returns the letters, so the letters are reversed.
+   :feedback_d: The exclamation point is printed before the letters of the word. The method makes recursive calls until the length of the string equals 0 and the base case has been reached. Then, an exclamation point is returned to the recursive calls, and the letters are returned after the exclamation point in reverse order.
+   :feedback_e: This method makes multiple calls, removing the first letter from the string until the length of the string in the call equals 0. Then, it returns an exclamation point, followed by the letters of the string in reverse order.
+
+   The ``wordScramble`` method is shown below. What is returned as a result of ``wordScramble("hello")``?
+
+   .. code-block:: java
+
+      public static String wordScramble (String str)
+      {
+          if (str.length() == 0)
+              return "!";
+          else
+              return wordScramble(str.substring(1)) + str.substring(0,1);
+      }

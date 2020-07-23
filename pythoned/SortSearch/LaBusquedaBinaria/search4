@@ -1,6 +1,6 @@
 .. codelens:: search4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: SortSearch/LaBusquedaBinaria
     :from_source: None
@@ -22,5 +22,3 @@
     listaPrueba = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
     print(busquedaBinaria(listaPrueba, 3))
     print(busquedaBinaria(listaPrueba, 13))
-
-

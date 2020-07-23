@@ -1,6 +1,6 @@
 .. mchoice:: q2_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
    :from_source: T
@@ -16,4 +16,3 @@
    :feedback_d: The object data or state is stored in the attributes of the object.  The attributes are defined in the class.
 
    What specifies the data or state for an object in Java?
-

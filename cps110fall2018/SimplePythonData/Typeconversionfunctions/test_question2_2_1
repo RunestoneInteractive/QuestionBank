@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_2_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: SimplePythonData/Typeconversionfunctions
    :from_source: None
@@ -19,4 +19,3 @@
    .. code-block:: python
 
       print( int(53.785) )
-

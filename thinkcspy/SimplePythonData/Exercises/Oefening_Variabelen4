@@ -1,6 +1,6 @@
 .. activecode:: Oefening_Variabelen4
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
@@ -9,4 +9,3 @@
     Ontwerp een programma waarmee je een ingevoerd bedrag in euro kan omrekenen naar dollar. Gebruik hierbij de volgende wisselkoers: 1,0000 EUR=1,2231 USD. Je hoeft niet af te ronden. Het resultaat wordt als volgt weergegeven: "X EUR is gelijk aan Y USD".
     ~~~~
     #Jouw code
- 

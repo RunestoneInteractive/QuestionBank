@@ -1,6 +1,6 @@
 .. activecode:: challenge3-2-if-Magic8ball
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit3-If-Statements/topic-3-2-ifs
    :from_source: T
@@ -79,4 +79,3 @@
             assertTrue(passed);
         }
     }
-

@@ -1,11 +1,10 @@
-
+.. actex:: suci_practice_variables_3
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: F
-.. actex:: suci_practice_variables_3
 
    Write a program that will print your first and last name using two variables: first_name and last_name.
    ~~~~
-   # put code here 
+   # put code here

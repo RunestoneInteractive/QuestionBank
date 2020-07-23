@@ -1,6 +1,6 @@
 .. activecode:: ac10_4_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Aliasingandcopying
     :from_source: T
@@ -12,5 +12,3 @@
 
     alias['right'] = 'left'
     print(opposites['right'])
-
-

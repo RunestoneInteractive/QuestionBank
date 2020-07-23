@@ -1,6 +1,6 @@
 .. clickablearea:: extracting_characters_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter7/extracting_characters
     :from_source: T
@@ -14,4 +14,3 @@
         :click-incorrect:cout << fruit << endl;:endclick:
         cout <<  :click-correct:fruit[4]:endclick:  << endl;
     }
-

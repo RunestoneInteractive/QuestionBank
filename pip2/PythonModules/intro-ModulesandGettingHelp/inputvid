@@ -1,0 +1,11 @@
+.. video:: inputvid
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: PythonModules/intro-ModulesandGettingHelp
+    :from_source: None
+    :controls:
+    :thumb: ../_static/modules.png
+
+    http://media.interactivepython.org/thinkcsVideos/modules.mov
+    http://media.interactivepython.org/thinkcsVideos/modules.webm

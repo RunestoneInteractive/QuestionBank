@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt_2_TroyPython2020
     :author: Shawn Haarer
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Asmt_2_TroyPython2020
    
     Draw a square using two turtles. Each will draw half a square.
 
@@ -19,5 +18,4 @@
     win = turtle.Screen()   # You can FINISH the code from here.
 
     # create a turtle, give it a color, pensize, etc.  
-    ==== 
-    
+    ====

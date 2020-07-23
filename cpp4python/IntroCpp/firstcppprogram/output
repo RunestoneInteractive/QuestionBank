@@ -1,6 +1,6 @@
 .. fillintheblank:: output
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: IntroCpp/firstcppprogram
    :from_source: T
@@ -11,4 +11,3 @@
      :print: That's Python, not C++!
      :printf: That's C, not C++!
      :default: Incorrect. Please try again.
-

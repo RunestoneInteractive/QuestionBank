@@ -1,0 +1,37 @@
+.. mchoice:: e25_2_1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_2
+   :from_source: T
+   :answer_a: 10
+   :answer_b: [1,2,3,4]
+   :answer_c: 4
+   :answer_d: None
+   :correct: a
+   :feedback_a: Correct. PROCEDURE counter(lst) is called on new_list and adds together its values.
+   :feedback_b: Incorrect. This is what is assigned to the variable new_list.
+   :feedback_c: Incorrect. This is the final value in new_list.
+   :feedback_d: Incorrect. The value of run_counter is what is returned from count(new_list).
+
+   What will the following code print?
+
+
+
+   PROCEDURE counter(lst):
+
+    count ← 0
+
+    FOR EACH item IN lst:
+
+     {
+     count ← count + item
+     }
+
+    RETURN (count)
+
+   new_list ← [1,2,3,4]
+
+   run_counter ← counter(new_list)
+
+   DISPLAY (run_counter)

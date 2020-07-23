@@ -1,0 +1,46 @@
+.. mchoice:: qtnt1_4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Tests/test1nt
+   :from_source: None
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: II and III only
+   :answer_d: I and II only
+   :answer_e: I, II, and III
+   :correct: d
+   :feedback_a: Loop I will produce this output, but it is not the only loop that will output these values.
+   :feedback_b: Loop II will produce this output, but it is not the only loop that will output these values.
+   :feedback_c: Loop II is correct, but loop III will produce the reverse output, 43210.
+   :feedback_d: Both of these loops will have the correct output. They iterate (and print each value) starting from 0 until the max value which we defined earlier in our code.
+   :feedback_e: While loop I and II will produce the correct output, loop III will actually produce the reverse of the correct output.
+
+   Which of these loops will output ``01234``?
+
+   .. code-block:: java
+
+      int max = 5;
+
+      //Loop I
+      for (int i = 0; i < max; i++)
+      {
+         System.out.print(i);
+      }
+
+
+      //Loop II
+      int j = 0;
+      while (j < max)
+      {
+         System.out.print(j);
+         j++;
+      }
+
+
+      //Loop III
+      int k = 0;
+      for (int i = max; i > 0; i--)
+      {
+         System.out.print(i);
+      }

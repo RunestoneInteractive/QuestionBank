@@ -1,6 +1,6 @@
 .. mchoice:: nested_conditionals_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/NestedConditionals
    :from_source: T

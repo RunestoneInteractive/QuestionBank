@@ -1,13 +1,11 @@
-
+.. activecode:: strings_11
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: strings_11
   
     Describe what happens when a for loop traverses over the string 
     “traversal”.
 
     ~~~~
-    

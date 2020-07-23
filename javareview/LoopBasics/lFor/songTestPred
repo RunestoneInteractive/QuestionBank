@@ -1,0 +1,8 @@
+.. shortanswer:: songTestPred
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: LoopBasics/lFor
+   :from_source: None
+
+   What do you think will happen when you run the code below?  How would it change if you changed line 11 to <code>i = 3</code>?

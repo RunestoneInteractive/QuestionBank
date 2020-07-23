@@ -1,6 +1,6 @@
 .. mchoice:: retention_5_F16_q11A
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPIntroDecisions/Exercises
    :from_source: F
@@ -25,5 +25,3 @@
    -   No
 
        -   Incorrect! At first, a = 1. In the first iteration, it becomes 11. So, it will never be equal to 10.
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: AP2-3-1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-3-methods-no-params
     :from_source: T
@@ -53,4 +53,3 @@
     - System.out.println( myParty.cancelParty() );
 
       - This would cause an error because the void method cancelParty() does not return a String that could be printed out.
-

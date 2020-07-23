@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_wfb_tagtype
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/scrape_cia
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :button: Is correct
      :x: Hint: There are three items with class="cfclose", all are the same tag
-

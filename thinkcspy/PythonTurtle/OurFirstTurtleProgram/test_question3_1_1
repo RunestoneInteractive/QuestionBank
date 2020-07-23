@@ -1,6 +1,6 @@
 .. mchoice:: test_question3_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: PythonTurtle/OurFirstTurtleProgram
    :from_source: T

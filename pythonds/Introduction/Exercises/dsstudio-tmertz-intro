@@ -1,10 +1,9 @@
-
+.. shortanswer:: dsstudio-tmertz-intro
    :author: Thomas Mertz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: pythonds
    :topic: Introduction/Exercises
    :from_source: F
-.. shortanswer:: dsstudio-tmertz-intro
 
    After our class discussion of this reading, type out, in your own words, your understanding of the thirteen concepts presented.
 
@@ -13,4 +12,3 @@
 config values (conf.py): 
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

@@ -1,12 +1,10 @@
-
+.. actex:: suci_turtle_intro_7b
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_intro_7b
 
    Write a program that will draw a square and color it red.
    ~~~~
-   # put code here 
-
+   # put code here

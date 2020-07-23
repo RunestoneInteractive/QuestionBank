@@ -1,10 +1,9 @@
-
+.. activecode:: medium_001-x
    :author: Ivan Lakovic
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. activecode:: medium_001-x
    :caption: naslov
    :coach:
 
@@ -13,4 +12,3 @@
     kornjaca = turtle.Turtle()
     prozor = turtle.Screen()
     print("hello world")
-    

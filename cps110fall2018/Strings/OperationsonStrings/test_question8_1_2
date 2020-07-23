@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_1_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Strings/OperationsonStrings
    :from_source: None
@@ -22,6 +22,3 @@
       s = "python"
       excl = "!"
       print(s+excl*3)
-
-
-

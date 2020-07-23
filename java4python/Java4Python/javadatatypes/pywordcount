@@ -1,6 +1,6 @@
 .. activecode:: pywordcount
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: java4python
    :topic: Java4Python/javadatatypes
    :from_source: T
@@ -19,4 +19,3 @@
            print("%-20s occurred %4d times" % (k, count[k]))
 
    main()
-

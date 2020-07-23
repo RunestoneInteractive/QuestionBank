@@ -1,0 +1,19 @@
+.. mchoice:: qtnt3_19
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: Tests/test3nt
+   :from_source: T
+   :answer_a: (x < 10) && (x > 5)
+   :answer_b: (x > 10) && (x <=5)
+   :answer_c: (x <= 10) && (x > 5)
+   :answer_d: (x <= 10) || (x > 5)
+   :answer_e: (x > 10) || (x <= 5)
+   :correct: d
+   :feedback_a: Use A and B to represent the expressions -- A becomes (x > 10), B becomes (x <= 5). ! (A && B) is NOT equivalent to (!A && !B). Also, (x < 10) is not correct negation for (x > 10); the correct negation is (x <= 10).
+   :feedback_b: Use A and B to represent the expressions -- A becomes (x > 10), B becomes (x <= 5). ! (A && B) is NOT equivalent to (A && B).
+   :feedback_c: Use A and B to represent the expressions -- A becomes (x > 10), B becomes (x <= 5). ! (A && B) is NOT equivalent to (!A && !B). The AND should be changed to an OR.
+   :feedback_d: Use A and B to represent the expressions -- A becomes (x > 10), B becomes (x <= 5). ! (A && B) is equivalent to (!A || !B), according to DeMorgan's principle. The negation of (x > 10) is (x <= 10), and the negation of (x <= 5) is (x > 5).
+   :feedback_e: Use A and B to represent the expressions -- A becomes (x > 10), B becomes (x <= 5). ! (A && B) is NOT equivalent to (A || B). Both A and B should also be negated.
+
+   Which of the following is equivalent to ``! ( (x > 10) && (x <= 5) )``?

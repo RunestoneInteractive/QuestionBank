@@ -1,6 +1,6 @@
 .. mchoice:: cswt01_q13a
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
@@ -15,10 +15,3 @@
 
       for i in range(0, 20, 3) :
           x = i % 5
-
-
-
-
-
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: question4_4_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: PythonModules/Therandommodule
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: Python does not have a game module.
 
    Which module would you most likely use if you were writing a function to simulate rolling dice?
-

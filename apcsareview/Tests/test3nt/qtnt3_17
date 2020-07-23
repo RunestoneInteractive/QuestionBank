@@ -1,6 +1,6 @@
 .. mchoice:: qtnt3_17
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Tests/test3nt
    :from_source: T
@@ -62,4 +62,3 @@
       II. Grape b = new Grape("grape");
       III. SeedlessGrape c = new Grape("grape", "green");
       IV. Fruit d = new Fruit("strawberry");
-

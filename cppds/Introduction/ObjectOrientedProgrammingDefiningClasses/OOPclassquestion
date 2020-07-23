@@ -1,6 +1,6 @@
 .. mchoice:: OOPclassquestion
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Introduction/ObjectOrientedProgrammingDefiningClasses
     :from_source: T
@@ -15,5 +15,3 @@
     :feedback_d: Abstraction is the principle of focusing on desired behaviors and properties while disregarding what is irrelevant/unimportant. Take another look at what the two classes have in common.
 
     Which OOP principle is the above code an example of?
-
-

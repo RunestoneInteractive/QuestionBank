@@ -1,6 +1,6 @@
 .. activecode:: challenge2-4-TurtleHouse
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
     :from_source: T
@@ -8,6 +8,8 @@
     :autograde: unittest
     :datafile: turtleClasses.jar
 
+    Draw a Turtle House! Make sure you use forward, turn, penUp, penDown, moveTo methods as well as different colors. Have fun!
+    ~~~~
     import java.util.*;
     import java.awt.*;
 
@@ -59,7 +61,7 @@
             int num = countOccurences(code, ".penUp()");
 
             boolean passed = num >= 1;
-            passed = getResults("4 or more", ""+num, "Calls penUp()", passed);
+            passed = getResults("1 or more", ""+num, "Calls penUp()", passed);
             assertTrue(passed);
         }
 
@@ -95,4 +97,3 @@
             assertTrue(passed);
         }
     }
-

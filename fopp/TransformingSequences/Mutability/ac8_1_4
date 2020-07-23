@@ -1,6 +1,6 @@
 .. activecode:: ac8_1_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/Mutability
     :from_source: T
@@ -11,4 +11,3 @@
     fruit[0] = "pear"
     fruit[-1] = "orange"
     print(fruit)
-

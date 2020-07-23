@@ -1,6 +1,6 @@
 .. activecode:: stv
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: Strings/StringMethods
     :from_source: None
@@ -10,4 +10,3 @@
 
     tt = ss.lower()
     print('line 4:', tt)
-

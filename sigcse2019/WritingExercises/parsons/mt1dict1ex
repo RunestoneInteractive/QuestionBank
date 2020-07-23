@@ -1,0 +1,29 @@
+.. parsonsprob:: mt1dict1ex
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: sigcse2019
+   :topic: WritingExercises/parsons
+   :from_source: None
+   :numbered: left
+
+   Complete the function greater_dictionary. Given a dictionary d and an integer cutoff, return a dictionary that contains only the key-value pairs where they key is greater than or equal to cutoff.
+   -----
+   def greater_dictionary(d, cutoff):
+   =====
+   def greater_dictionary(self, d, cutoff): #paired
+   =====
+       result = {}
+   =====
+       for key in d.keys():
+   =====
+       for key in range(d): #paired
+   =====
+           if key >= cutoff:
+   =====
+           if key > cutoff: #paired
+   =====
+               result[key] = d[key]
+   =====
+               d[key] = result[key] #paired
+   =====
+       return result

@@ -1,6 +1,6 @@
 .. mchoice:: hashcollisions
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: SearchHash/Hashing
    :from_source: T

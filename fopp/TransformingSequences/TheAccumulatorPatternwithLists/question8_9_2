@@ -1,6 +1,6 @@
 .. mchoice:: question8_9_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/TheAccumulatorPatternwithLists
    :from_source: T

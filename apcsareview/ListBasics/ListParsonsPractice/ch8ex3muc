@@ -1,6 +1,6 @@
 .. parsonsprob:: ch8ex3muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ListBasics/ListParsonsPractice
    :from_source: T
@@ -26,4 +26,3 @@
        i++; #distractor
    =====
    } //end while loop
-

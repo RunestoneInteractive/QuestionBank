@@ -1,12 +1,10 @@
-
+.. actex:: suci_input_2_4
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. actex:: suci_input_2_4
 
    Copy & paste your code from the last exercise here. Modify your program so that all the plus signs line up on the right side.
 
    ~~~~
-  

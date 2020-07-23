@@ -1,6 +1,6 @@
 .. clickablearea:: class_syntax
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Introduction/ObjectOrientedProgrammingDefiningClasses
     :from_source: T
@@ -18,4 +18,4 @@
       :click-incorrect:private::endclick:
           :click-incorrect:int num; // num atribute:endclick:
           :click-incorrect:int den; // den attribute:endclick:
-            :click-correct:}:endclick:
+    :click-correct:}:endclick:

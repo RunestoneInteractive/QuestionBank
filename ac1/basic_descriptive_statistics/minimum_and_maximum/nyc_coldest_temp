@@ -1,6 +1,6 @@
 .. fillintheblank:: nyc_coldest_temp
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/minimum_and_maximum
    :from_source: T
@@ -11,4 +11,3 @@
    - :2: Correct
      :11: Incorrect: Look at the minimum of the “actual_min_temp” column.
      :x: Incorrect
-

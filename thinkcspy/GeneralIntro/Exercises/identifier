@@ -1,10 +1,9 @@
-
+.. dragndrop:: identifier
     :author: Dane Brown
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. dragndrop:: identifier
     :feedback: Feedback that is displayed if things are incorrectly matched--is optional
     :match_1: Draggable element text|||Dropzone to be matched with text
     :match_2: Drag to Answer B|||Answer B

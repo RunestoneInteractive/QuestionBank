@@ -1,6 +1,6 @@
 .. parsonsprob:: ch17RandStr1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: MixedFreeResponse/RandomStringChooserParsonsB
    :from_source: None

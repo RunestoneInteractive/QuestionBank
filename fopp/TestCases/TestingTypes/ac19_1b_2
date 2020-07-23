@@ -1,6 +1,6 @@
 .. activecode:: ac19_1b_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TestCases/TestingTypes
     :from_source: T
@@ -15,4 +15,3 @@
     first_type = type(lst2[0])
     for item in lst2:
         assert type(item) == first_type
-

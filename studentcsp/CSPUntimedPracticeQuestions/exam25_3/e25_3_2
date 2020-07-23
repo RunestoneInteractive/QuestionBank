@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Incorrect. Debugging involves a person finding errors or "bugs" in their code. Iteration with loops runs a set of code until a condition is met.
 
    What does iteration with computer science loops mean?
-

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: list_pp4
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. parsonsprob:: list_pp4
    :numbered: left
 
    Order the mixed up blocks below on the right side to create a function that will calculate and return a "centered average".  Calculate the total of the items in the list, the lowest value, and the highest value.  Set the revised total to the total minus the lowest and highest values.  Set the number of items in the revised total to the number of items in the list minus two.  Return the revised total divided by the number of items in the revised total.
@@ -28,4 +27,3 @@
        return rev_total / num_items
    =====
        ret rev_total / num_items #paired
-  

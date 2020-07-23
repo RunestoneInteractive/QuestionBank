@@ -1,6 +1,6 @@
 .. mchoice:: 7_5_1_Numbers_Even_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPRepeatNumbers/accumPattern
    :from_source: T

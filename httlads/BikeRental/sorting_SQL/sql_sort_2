@@ -1,6 +1,6 @@
 .. fillintheblank:: sql_sort_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/sorting_SQL
    :from_source: F
@@ -14,4 +14,3 @@
    - :31221: Is the correct answer
      :31201: Is for the shortest ride
      :x: Incorrect
-

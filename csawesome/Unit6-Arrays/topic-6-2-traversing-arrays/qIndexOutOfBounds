@@ -1,6 +1,6 @@
 .. mchoice:: qIndexOutOfBounds
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/topic-6-2-traversing-arrays
    :from_source: T
@@ -28,4 +28,3 @@
    - for (int i = scores.length - 1; i >= 0; i++)
 
      + This will cause an error because i++ will continue to increment the index past the end of the array. It should be replaced with i-- to avoid this error.
-

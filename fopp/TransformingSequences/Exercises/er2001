@@ -1,10 +1,9 @@
-
+.. activecode:: er2001
     :author: Eric Reed
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: TransformingSequences/Exercises
     :from_source: F
-.. activecode:: er2001
 
 
     First copy your code from the previous problem.  This problem
@@ -13,4 +12,3 @@
     technique we learned in class (no other sort methods allowed!)
     Print out the sorted list.
     ~~~~
- 

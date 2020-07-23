@@ -1,10 +1,9 @@
-
+.. activecode:: TroyAsmt16A_2019
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: TroyAsmt16A_2019
    
        
    
@@ -53,5 +52,3 @@
 
     print()
     print("I bet you enjoyed this useful program")
-    
-    

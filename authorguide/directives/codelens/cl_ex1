@@ -1,6 +1,6 @@
 .. codelens:: cl_ex1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/codelens
    :from_source: T
@@ -18,4 +18,3 @@
    input = [8, 3, 9, 15, 29, 7, 10]
    InsertionSort(input)
    print(input)
-

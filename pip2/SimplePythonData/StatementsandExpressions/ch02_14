@@ -1,0 +1,12 @@
+.. activecode:: ch02_14
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/StatementsandExpressions
+    :from_source: None
+    :nocanvas:
+
+    y = 3.14
+    x = len("hello")
+    print x
+    print y

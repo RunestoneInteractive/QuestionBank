@@ -1,6 +1,6 @@
 .. activecode::    Troy2018_42
     :author: Juraj Vasek
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -14,7 +14,4 @@
     import turtle
     wn = turtle.Screen()
 
-    # you take it from here 
-
-    
-    
+    # you take it from here

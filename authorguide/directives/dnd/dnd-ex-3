@@ -1,6 +1,6 @@
 .. dragndrop:: dnd-ex-3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: authorguide
     :topic: directives/dnd
     :from_source: T
@@ -9,5 +9,3 @@
     :match_13: Python|||py
 
     Match the language with its common file extension.
-
-

@@ -1,6 +1,6 @@
 .. activecode:: example-unit
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/activecode
    :from_source: T
@@ -25,5 +25,3 @@
            self.assertEqual(add(3,-5),-2)
 
    myTests().main()
-
-

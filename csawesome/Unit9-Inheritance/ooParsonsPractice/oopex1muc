@@ -1,6 +1,6 @@
 .. parsonsprob:: oopex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/ooParsonsPractice
    :from_source: F
@@ -18,4 +18,3 @@
            public void walk(); #distractor
    =====
    } // end class
-

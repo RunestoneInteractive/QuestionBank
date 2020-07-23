@@ -1,0 +1,23 @@
+.. activecode:: ex_7_21
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: haugrud
+   :topic: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   import image
+
+   def pixelMapper(oldimage, rgbFunction):
+
+
+   def graypixel(oldpixel):
+
+
+   win = image.ImageWin()
+   img = image.Image("luther.jpg")
+
+   newim = pixelMapper(img, graypixel)
+   newim.draw(win)
+
+   win.exitonclick()

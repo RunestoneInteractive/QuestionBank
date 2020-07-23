@@ -1,6 +1,6 @@
 .. activecode:: lhs_5_3
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
@@ -79,4 +79,3 @@
             self.assertEqual(1, self.count_code(editText, 'range', 3), "Checking 'range' usage")
         
     myTests().main()
-

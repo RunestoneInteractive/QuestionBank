@@ -1,10 +1,9 @@
-
+.. activecode:: program_multiply
     :author: Lily Liang
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: program_multiply
     :language: python
     :nocodelens:
     :autograde:
@@ -15,5 +14,3 @@
 
 
     ====
-
-

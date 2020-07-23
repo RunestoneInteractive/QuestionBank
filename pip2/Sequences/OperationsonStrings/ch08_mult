@@ -1,0 +1,16 @@
+.. activecode:: ch08_mult
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/OperationsonStrings
+    :from_source: None
+    :nocanvas:
+
+    print "Go"*6
+
+    x = "Blue"
+    print x * 3
+
+    print "Go" * 3 + x
+
+    print ("Go " + x + "  ") * 3

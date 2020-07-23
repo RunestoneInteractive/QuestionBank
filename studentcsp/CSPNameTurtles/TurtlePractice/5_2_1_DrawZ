@@ -1,6 +1,6 @@
 .. parsonsprob:: 5_2_1_DrawZ
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameTurtles/TurtlePractice
    :from_source: T
@@ -32,4 +32,3 @@
    alex.left(120)
    =====
    alex.forward(50)
-

@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_printdict
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_printdict
     :autograde: unittest
 
     Using the data from the **elections** dictionary, print the year of each presidential election and its winner, one election to a line like:
@@ -28,4 +27,3 @@
             self.assertIn('2008: Barack Obama\n', self.getOutput(), '2008 displayed')
     
     myTests().main()
-    

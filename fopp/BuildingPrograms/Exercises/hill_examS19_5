@@ -1,10 +1,9 @@
-
+.. activecode:: hill_examS19_5
     :author: Scott Hill
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: BuildingPrograms/Exercises
     :from_source: F
-.. activecode:: hill_examS19_5
 
     Define a function ``first_letters(sentence)`` which takes in a sentence (as a string), and counts the number of words that begin with each letter of the alphabet.  The function should return a dictionary. Capitals and lower-case letters (e.g. ``S`` and ``s``) should count as the same letter.
     ~~~~
@@ -14,5 +13,3 @@
 config values (conf.py): 
     : activecode_hide_load_history: True
 - activecode_div_class - custom CSS class of the component's outermost div
-
-    

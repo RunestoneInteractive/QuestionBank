@@ -1,6 +1,6 @@
 .. activecode:: ac_exceptions_011
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Exceptions/ChapterAssessment
    :from_source: T
@@ -27,4 +27,3 @@
          self.assertEqual(total, 130, "Testing that total has the correct value.")
 
    myTests().main()
-

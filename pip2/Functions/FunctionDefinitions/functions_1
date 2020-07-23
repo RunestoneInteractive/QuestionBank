@@ -1,0 +1,11 @@
+.. activecode:: functions_1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Functions/FunctionDefinitions
+    :from_source: None
+
+    def hello():
+        """This function says hello and greets you"""
+        print "Hello"
+        print "Glad to meet you"

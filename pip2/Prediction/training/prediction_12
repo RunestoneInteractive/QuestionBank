@@ -1,0 +1,23 @@
+.. activecode:: prediction_12
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Prediction/training
+    :from_source: None
+    :nocanvas:
+    :include: prediction_training_helpers
+
+    context_sensitive_rules = []
+    for c in counts.keys():
+        fs = counts[c]
+        sorted_lets = sorted(fs.keys(), key = lambda c: fs[c], reverse=True)
+        context_sensitive_rules.append((c, sorted_lets))
+    # make default rule for letters in test_txt that weren't in train_txt
+    context_sensitive_rules.append((None, alphabet))
+
+    import sys
+    sys.setExecutionLimit(60000)     # let it take up to a minute, 60 * 1000 milliseconds
+
+    performance(test_txt, [(None, sorted_lets), (None, alphabet)])
+    performance(test_txt, context_sensitive_rules)
+    entropy(test_txt, context_sensitive_rules)

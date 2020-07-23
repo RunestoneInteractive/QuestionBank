@@ -1,10 +1,9 @@
-
+.. activecode:: L4.9a_Troy2018
     :author: Shawn Haarer
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: L4.9a_Troy2018
 
     # Lesson 4.8 & 4.9  
 
@@ -13,7 +12,4 @@
     # Polygon Angles
 
 
-    # Filling a Polygon with a color 
-
-    
-    
+    # Filling a Polygon with a color

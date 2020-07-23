@@ -1,10 +1,9 @@
-
+.. activecode:: CS152_Prints_2
     :author: John Cigas
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: CS152_Prints_2
 
     Change the program so that it prints a box with 5 rows instead of just 3.
     ~~~~

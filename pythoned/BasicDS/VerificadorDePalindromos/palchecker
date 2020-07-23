@@ -1,6 +1,6 @@
 .. activecode:: palchecker
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/VerificadorDePalindromos
    :from_source: None

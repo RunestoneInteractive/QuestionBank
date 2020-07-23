@@ -1,6 +1,6 @@
 .. activecode:: ac_ex_employee
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/activecode
    :from_source: T
@@ -33,5 +33,3 @@
          System.out.println(emp.getId());
       }
    }
-
-

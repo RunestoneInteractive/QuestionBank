@@ -1,0 +1,21 @@
+.. activecode:: dict_accum_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: DictionaryAccumulation/intro-AccumulatingMultipleResultsInaDictionary
+   :from_source: None
+
+   f = open('scarlet.txt', 'r')
+   txt = f.read()
+   # now txt is one long string containing all the characters
+   x = {} # start with an empty dictionary
+   x['t'] = 0  # initialize the t counter
+   x['s'] = 0  # initialize the s counter
+   for c in txt:
+       if c == 't':
+           x['t'] = x['t'] + 1  # increment the t counter
+       elif c == 's':
+           x['s'] = x['s'] + 1  # increment the s counter
+
+   print "t: " + str(x['t']) + " occurrences"
+   print "s: " + str(x['s']) + " occurrences"

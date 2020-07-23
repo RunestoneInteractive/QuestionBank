@@ -1,0 +1,12 @@
+.. activecode:: chp08_upper
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/StringMethods
+    :from_source: None
+
+    ss = "Hello, World"
+    print ss.upper()
+
+    tt = ss.lower()
+    print tt

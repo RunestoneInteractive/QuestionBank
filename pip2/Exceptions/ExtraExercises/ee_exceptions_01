@@ -1,0 +1,26 @@
+.. activecode:: ee_exceptions_01
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Exceptions/ExtraExercises
+   :from_source: None
+   :tags: Exceptions/intro-exceptions.rst
+
+   gold = {"US":46, "Fiji":1, "Great Britain":27, "Cuba":5, "Thailand":2, "China":26, "France":10}
+   country = ["Fiji", "Chile", "Mexico", "France", "Norway", "US"]
+   country_gold = []
+
+   for x in country:
+        country_gold.append(gold[x])
+        country_gold.append("Did not get gold")
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOneA(self):
+         self.assertEqual(country_gold, [1, 'Did not get gold', 'Did not get gold', 10, 'Did not get gold', 46], "Testing that country_gold is assigned to correct values")
+
+   myTests().main()

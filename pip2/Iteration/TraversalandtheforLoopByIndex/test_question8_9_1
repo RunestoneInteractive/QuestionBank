@@ -1,0 +1,25 @@
+.. mchoice:: test_question8_9_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Iteration/TraversalandtheforLoopByIndex
+   :from_source: None
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 2
+   :answer_d: 3
+   :answer_e: 6
+   :feedback_a: idx % 2 is 0 whenever idx is even.
+   :feedback_b: idx % 2 is 0 whenever idx is even.
+   :feedback_c: idx % 2 is 0 whenever idx is even.
+   :feedback_d: idx % 2 is 0 whenever idx is even.
+   :feedback_e: idx % 2 is 0 whenever idx is even.
+   :correct: d
+
+   How many times is the letter p printed by the following statements?
+
+   .. code-block:: python
+
+      s = "python"
+      for idx in range(len(s)):
+         print s[idx % 2]

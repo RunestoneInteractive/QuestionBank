@@ -1,15 +1,12 @@
-
+.. actex:: suci_turtle_loop_2_2
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_loop_2_2
 
    Same as problem 1 but have turtle start at the upper left of the screen at coordinate (-100, 50)
 
 
    ~~~~
-   # put code here 
-
-    
+   # put code here

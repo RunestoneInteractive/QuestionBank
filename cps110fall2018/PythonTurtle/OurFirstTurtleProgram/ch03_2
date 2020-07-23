@@ -1,6 +1,6 @@
 .. activecode:: ch03_2
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: PythonTurtle/OurFirstTurtleProgram
     :from_source: None
@@ -22,4 +22,3 @@
     tess.forward(50)
 
     wn.exitonclick()                # wait for a user click on the canvas
-

@@ -1,6 +1,6 @@
 .. activecode:: wof_ac_rand
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/chapterProject
     :from_source: T
@@ -21,4 +21,3 @@
     letters = [letter for letter in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
     rand_letter = random.choice(letters)
     print('Random letter: {}'.format(rand_letter))
-

@@ -1,6 +1,6 @@
 .. parsonsprob:: looping_counting_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter7/looping_and_counting
    :from_source: T
@@ -41,4 +41,3 @@
    =====
       cout << countLetter(city, letter);
    }
-

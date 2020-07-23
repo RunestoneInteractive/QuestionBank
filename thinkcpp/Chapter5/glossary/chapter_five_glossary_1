@@ -1,6 +1,6 @@
 .. dragndrop:: chapter_five_glossary_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/glossary
    :from_source: T
@@ -9,4 +9,3 @@
    :match_2: return value|||The value provided as the result of a function call.
    :match_3: comparison operator|||An operator that compares two values and produces a boolean.
    :match_4: logical operator|||An operator that combines boolean values in order to test compound conditions.
-

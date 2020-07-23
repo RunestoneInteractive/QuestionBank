@@ -1,0 +1,28 @@
+.. mchoice:: e16a17_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPStringPieces/exam16a17
+   :from_source: T
+   :practice: T
+   :answer_a: Crfyro
+   :answer_b: SC rof yarooH
+   :answer_c: S o ao
+   :answer_d: Hoa o C
+   :answer_e: out of range error
+   :correct: c
+   :feedback_a: This would be true if it was range(len(source)-2,0,-2).
+   :feedback_b: This would be true if it was range(len(source)-1,0,-1).
+   :feedback_c: This adds elements from source to answer starting at the last index and moving forward toward the front by 2 each time.  It stops before index reaches 0.
+   :feedback_d: This would be true if it was range(0,len(source),2)
+   :feedback_e: This would be true if it was range(len(source),0,-2)
+
+   What does the following code print?
+
+   ::
+
+      source = "Hooray for CS"
+      answer = ""
+      for index in range(len(source)-1,0,-2):
+          answer = answer + source[index]
+      print (answer)

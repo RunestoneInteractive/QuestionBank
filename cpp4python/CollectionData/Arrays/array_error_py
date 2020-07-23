@@ -1,6 +1,6 @@
 .. activecode:: array_error_py
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cpp4python
     :topic: CollectionData/Arrays
     :from_source: T

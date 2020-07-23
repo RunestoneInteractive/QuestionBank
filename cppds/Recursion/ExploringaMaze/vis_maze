@@ -1,6 +1,6 @@
 .. video:: vis_maze
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Recursion/ExploringaMaze
    :from_source: T
@@ -8,4 +8,3 @@
    :thumb: ../_static/vis_maze_thumb.png
 
     ../_static/vis_maze.webm
-

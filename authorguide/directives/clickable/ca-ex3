@@ -1,6 +1,6 @@
 .. clickablearea:: ca-ex3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: authorguide
     :topic: directives/clickable
     :from_source: T
@@ -14,4 +14,3 @@
         :click-correct:System.out.println(x);:endclick:
         :click-correct:x = x - 1;:endclick:
     :click-incorrect:}:endclick:
-

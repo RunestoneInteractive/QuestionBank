@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch8_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: F
-.. activecode:: KDL_ch8_2
    :autograde: unittest
    :language: python
 
@@ -42,4 +41,4 @@
            self.assertIn('if ', self.getEditorText(), 'Contains if statement')
            self.assertIn('print(', self.getEditorText(), 'Contains print in if statement')
            
-   myTests().main()    
+   myTests().main()

@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt_6_TroyPython2020
     :author: Shawn Haarer
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Asmt_6_TroyPython2020
    
     Quiz 2.  Turtle House and Tree
 
@@ -26,5 +25,4 @@
 
 
 
-    ==== 
-    
+    ====

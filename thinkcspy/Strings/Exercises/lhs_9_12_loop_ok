@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_9_12_loop_ok
     :author: Norm Prokup
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: lhs_9_12_loop_ok
     :language: python
     :autograde: unittest
 

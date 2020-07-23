@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_13_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/ListMethods
    :from_source: T
@@ -21,4 +21,3 @@
      alist.insert(2, True)
      alist.insert(0, False)
      print(alist)
-

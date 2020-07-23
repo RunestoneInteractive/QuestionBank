@@ -1,6 +1,6 @@
 .. activecode:: UCExam1_Question1
     :author: Tom Whittaker
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -68,5 +68,3 @@
 
     #Enter your code below
     =====
-
-  

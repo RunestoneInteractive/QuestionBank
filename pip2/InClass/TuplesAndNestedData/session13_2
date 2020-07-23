@@ -1,0 +1,30 @@
+.. activecode:: session13_2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/TuplesAndNestedData
+    :from_source: None
+
+    # Borrowed from the exercise from textbook chapter
+    julia = ("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia")
+    claude = ("Claude", "Shannon", 1916, "A Mathematical Theory of Communication", 1948, "Mathematician", "Petoskey, Michigan")
+    alan = ("Alan", "Turing", 1912, "Computing machinery and intelligence", 1950, "Mathematician", "London, England")
+
+    people = [julia, claude, alan]
+
+    # using tuple packing
+    # print out only the years people were born
+    years = julia[2],claude[2],alan[2]
+    print years
+
+    print "-----"
+
+    # want to just print each year on its own
+    for p in people:
+        print p[2] # indexing into the tuple -- same mechanics as lists!
+
+    # unpacking -- save a bunch of values into different variables on one line
+    julia_year, claude_year, alan_year = years
+
+    # then can do stuff with one at a time really easily
+    print "Claude Shannon was born in", claude_year

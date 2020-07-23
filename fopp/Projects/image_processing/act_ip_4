@@ -1,6 +1,6 @@
 .. activecode::  act_ip_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/image_processing
     :from_source: T
@@ -21,4 +21,3 @@
 
     img.draw(win)
     win.exitonclick()
-

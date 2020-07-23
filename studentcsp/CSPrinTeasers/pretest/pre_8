@@ -1,6 +1,6 @@
 .. mchoice:: pre_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPrinTeasers/pretest
    :from_source: T
@@ -26,5 +26,3 @@
           sum = sum + counter
           counter = counter + 2
       print (sum)
-
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: french_impressionist_painters
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: filtering_and_grouping/filtering_data
    :from_source: T
@@ -18,4 +18,3 @@
    - :Vincent van Gogh: Correct
      :Rene Magritte: Remember to list the artists in the right order.
      :x: Incorrect
-

@@ -1,6 +1,6 @@
 .. mchoice:: qa2ldb_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/a2dLoop
    :from_source: T

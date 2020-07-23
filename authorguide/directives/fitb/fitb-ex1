@@ -1,6 +1,6 @@
 .. fillintheblank:: fitb-ex1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/fitb
    :from_source: T
@@ -14,4 +14,3 @@
        :x: Incorrect. Try 'red'.
    -   :away: Correct.
        :x: Incorrect. Try 'away'.
-

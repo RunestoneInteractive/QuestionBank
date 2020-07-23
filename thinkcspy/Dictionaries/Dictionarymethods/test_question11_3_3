@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Dictionaries/Dictionarymethods
    :from_source: T
@@ -17,5 +17,3 @@
 
      mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
      print("dog" in mydict)
-
-

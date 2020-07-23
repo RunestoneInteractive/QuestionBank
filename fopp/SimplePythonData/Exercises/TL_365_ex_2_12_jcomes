@@ -1,6 +1,6 @@
 .. actex:: TL_365_ex_2_12_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -22,4 +22,4 @@
            self.assertEqual(type(miles), type(2.2), 'Checking the type of the variable miles')
            self.assertEqual(type(gallons), type(2.2), 'Checking the type of the variable gallons')
            self.assertTrue(re.search(str(miles/gallons)[:5], self.getOutput()), 'Checking answer.')
-   myTests().main() 
+   myTests().main()

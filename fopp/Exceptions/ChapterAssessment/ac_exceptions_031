@@ -1,6 +1,6 @@
 .. activecode:: ac_exceptions_031
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Exceptions/ChapterAssessment
    :from_source: T
@@ -29,4 +29,3 @@
          self.assertEqual(third_countries, ['Greece', 'Canada', 'Korea', 'Brazil', 'Continent does not have 3 countries', 'Kenya', 'Continent does not have 3 countries'], "Testing that third_countries is created correctly.")
 
    myTests().main()
-

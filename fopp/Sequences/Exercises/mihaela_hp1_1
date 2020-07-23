@@ -1,10 +1,9 @@
-
+.. activecode:: mihaela_hp1_1
     :author: Mihaela Sabin
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: Sequences/Exercises
     :from_source: F
-.. activecode:: mihaela_hp1_1
     :language: python
     :autograde: unittest
     :practice: T
@@ -27,5 +26,3 @@
             self.assertEqual(lower_temps, result, "All temp values are reduced by 10")
 
     myTests().main()
-
-  

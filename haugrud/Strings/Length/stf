@@ -1,0 +1,11 @@
+.. activecode:: stf
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Strings/Length
+    :from_source: None
+
+    fruit = "Banana"
+    length = len(fruit)
+    lastch = fruit[length-1]
+    print(lastch)

@@ -1,6 +1,6 @@
 .. activecode:: fractions_init
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesDiggingDeeper/Fractions
     :from_source: T
@@ -26,5 +26,3 @@
 
     print(myfraction.getNum())
     print(myfraction.getDen())
-
-

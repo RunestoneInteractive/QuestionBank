@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_agg_ex3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/aggregation_SQL
     :from_source: T
@@ -16,4 +16,3 @@
     assert 0,1 == 246949
     assert 1,0 == Member
     assert 1,1 == 979814
-

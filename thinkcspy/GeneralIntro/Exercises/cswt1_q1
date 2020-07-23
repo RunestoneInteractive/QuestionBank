@@ -1,6 +1,6 @@
 .. mchoice:: cswt1_q1
       :author: Lloyd Smith
-      :difficulty: 1.0
+      :difficulty: 1
       :basecourse: thinkcspy
       :topic: GeneralIntro/Exercises
       :from_source: F
@@ -12,4 +12,3 @@
       :random:
 
       Convert the following binary number to decimal: 010100111
-

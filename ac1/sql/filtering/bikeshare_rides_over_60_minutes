@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_rides_over_60_minutes
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/filtering
    :from_source: T
@@ -17,4 +17,3 @@
      duration >= 3600
    LIMIT
      10
-

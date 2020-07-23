@@ -1,6 +1,6 @@
 .. activecode:: ac10_5_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
    :from_source: T
@@ -8,14 +8,14 @@
    f = open('scarlet.txt', 'r')
    txt = f.read()
    # now txt is one long string containing all the characters
-   x = {} # start with an empty dictionary
-   x['t'] = 0  # intiialize the t counter
-   x['s'] = 0  # initialize the s counter
+   letter_counts = {} # start with an empty dictionary
+   letter_counts['t'] = 0  # intiialize the t counter
+   letter_counts['s'] = 0  # initialize the s counter
    for c in txt:
        if c == 't':
-           x[c] = x[c] + 1   # increment the t counter
+           letter_counts[c] = letter_counts[c] + 1   # increment the t counter
        elif c == 's':
-           x[c] = x[c] + 1   # increment the s counter
+           letter_counts[c] = letter_counts[c] + 1   # increment the s counter
 
-   print("t: " + str(x['t']) + " occurrences")
-   print("s: " + str(x['s']) + " occurrences")
+   print("t: " + str(letter_counts['t']) + " occurrences")
+   print("s: " + str(letter_counts['s']) + " occurrences")

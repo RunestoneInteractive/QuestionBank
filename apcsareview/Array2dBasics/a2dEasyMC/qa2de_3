@@ -1,6 +1,6 @@
 .. mchoice:: qa2de_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/a2dEasyMC
    :from_source: T
@@ -17,5 +17,3 @@
    :feedback_e: The row index is specified first and the indicies start at 0.
 
    How would you get the value 6 out of the following array ``int[][] a = { {2, 4, 6, 8}, {1, 2, 3, 4} };``?
-
-

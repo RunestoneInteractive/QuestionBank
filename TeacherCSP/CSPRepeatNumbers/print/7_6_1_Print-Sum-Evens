@@ -1,6 +1,6 @@
 .. parsonsprob:: 7_6_1_Print-Sum-Evens
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatNumbers/print
    :from_source: T
@@ -20,4 +20,3 @@
        sum = sum + number
    =====
        print(sum)
-

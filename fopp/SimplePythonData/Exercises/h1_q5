@@ -1,6 +1,6 @@
 .. fillintheblank:: h1_q5
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
@@ -13,11 +13,3 @@
     - :#: Is the correct answer!
       ://: That is another programming language (C, C++, Java)
       :.*: 25 in octal please
-    
-
-
-
-  
-
-  
-    

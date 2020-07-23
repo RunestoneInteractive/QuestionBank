@@ -1,6 +1,6 @@
 .. parsonsprob:: 10_2_2_Triangle
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPRepeatTurtles/turtleGeom
    :from_source: T
@@ -30,4 +30,3 @@
        marie.left(120)
    =====
        marie.turn(120) #paired
-

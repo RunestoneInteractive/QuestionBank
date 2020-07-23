@@ -1,6 +1,6 @@
 .. activecode:: Variabelen_Voorbeeld6
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -9,4 +9,3 @@
     
     ~~~~
     temperatuur=int(input("Geef de huidige temperatuur in"))
-

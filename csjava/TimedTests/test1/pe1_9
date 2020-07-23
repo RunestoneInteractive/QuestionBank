@@ -1,0 +1,70 @@
+.. mchoice:: pe1_9
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: TimedTests/test1
+   :from_source: T
+   :answer_a: I and III
+   :answer_b: I only
+   :answer_c: II only
+   :answer_d: III only
+   :answer_e: I and II
+   :correct: a
+   :feedback_a:  NamedPoint will inherit from Point all fields but the fields are private and they can not be directly accessed in NamedPoint.  You can use super as the first line in a constructor to initialize inherited fields.  You can also set your own fields in a constructor.  If you don't use super as the first line in a constructor one will be put there by the compiler that will call the parent's no argument constructor.
+   :feedback_b: I is okay but III is also okay.
+   :feedback_c: II is invalid.  Children inherit all of the fields from a parent but do not have direct access to private fields.  You can use super in a constructor to initialize inherited fields by calling the parent's constructor with the same parameter list.
+   :feedback_d: I is also okay
+   :feedback_e: I is okay but II is invalid.  Children inherit all of the fields from a parent but do not have direct access to private fields.  You can use super in a constructor to initialize inherited fields by calling the parent's constructor with the same parameter list.
+
+   Consider the following declaration for a class that will be used to represent points in the xy-coordinate plane.  Which of these constructors would be legal for the NamedPoint class?
+
+   .. code-block:: java
+
+      public class Point
+      {
+         private int myX; // coordinates
+         private int myY;
+
+         public Point( )
+         {
+            myX = 0;
+            myY = 0;
+         }
+
+         public Point(int a, int b)
+         {
+            myX = a;
+            myY = b;
+         }
+
+         // ... other methods not shown
+
+      }
+
+      // The following incomplete class declaration is intended to extend the
+      // above class so that two-dimensional points can be named.
+
+      public class NamedPoint extends Point
+      {
+         private String myName;
+         // constructors go here
+         // ... other methods not shown
+      }
+
+     Proposed Constructors:
+
+     I.   public NamedPoint()
+          {
+             myName = "";
+          }
+     II.  public NamedPoint(int d1, int d2, String name)
+          {
+             myX = d1;
+             myY = d2;
+             myName = name;
+          }
+     III. public NamedPoint(int d1, int d2, String name)
+          {
+             super(d1, d2);
+             myName = name;
+          }

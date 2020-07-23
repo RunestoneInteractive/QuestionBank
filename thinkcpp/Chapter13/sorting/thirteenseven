@@ -1,6 +1,6 @@
 .. activecode:: thirteenseven
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter13/sorting
    :from_source: F
@@ -147,4 +147,3 @@
        swapCards (i, x);
      }
    }
-

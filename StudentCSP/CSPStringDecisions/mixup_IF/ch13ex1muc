@@ -1,6 +1,6 @@
 .. parsonsprob:: ch13ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPStringDecisions/mixup_IF
    :from_source: T
@@ -22,4 +22,3 @@
    DISPLAY(above_freezing)
    =====
            above_freezing <- item #distractor
-

@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_3_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Dictionaries/Dictionarymethods
    :from_source: None
@@ -22,5 +22,3 @@
      mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
      answer = mydict.get("cat") // mydict.get("dog")
      print(answer)
-
-

@@ -1,6 +1,6 @@
 .. dragndrop:: dd_summarystats
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
@@ -11,4 +11,3 @@
    :match_4: Standard Deviation|||A measure of how spread out your data is
 
    Match the Term on the left with the description on the right.
-

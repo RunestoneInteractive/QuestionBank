@@ -1,10 +1,9 @@
-
+.. parsonsprob:: list_loop_pp2b
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. parsonsprob:: list_loop_pp2b
    :numbered: left
    :adaptive:
 
@@ -37,4 +36,3 @@
        else #paired
    =====
            print("Overweight")
-   

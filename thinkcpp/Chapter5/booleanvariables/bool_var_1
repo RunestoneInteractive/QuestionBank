@@ -1,6 +1,6 @@
 .. dragndrop:: bool_var_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/booleanvariables
    :from_source: T
@@ -9,4 +9,3 @@
    :match_2: x >= 2|||true
 
    Match the conditional statement to the correct boolean, given x = 2.
-

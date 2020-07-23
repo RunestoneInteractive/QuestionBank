@@ -1,6 +1,6 @@
 .. activecode:: min10_ex
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWebData/lowestPoll
    :from_source: T
@@ -19,4 +19,3 @@
            # Save the minimum city and state
            # save the minimum PM 10 value
    print("Smallest PM 10 value is ",min10," in ",minCity)
-

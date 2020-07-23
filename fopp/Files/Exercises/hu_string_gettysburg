@@ -1,10 +1,9 @@
-
+.. activecode:: hu_string_gettysburg
     :author: Sean Joyce
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: hu_string_gettysburg
   
 
     Write code to determine the average length of a word

@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_8d
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Tuples/TupleAssignmentwithunpacking
    :from_source: T
@@ -8,4 +8,3 @@
    fruits = ['apple', 'pear', 'apricot', 'cherry', 'peach']
    for idx, fruit in enumerate(fruits):
        print(idx, fruit)
-

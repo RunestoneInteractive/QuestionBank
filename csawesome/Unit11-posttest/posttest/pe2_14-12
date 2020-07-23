@@ -1,6 +1,6 @@
 .. mchoice:: pe2_14-12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit11-posttest/posttest
    :from_source: T
@@ -27,4 +27,3 @@
      s2 = s2.toLowerCase();
      s3 = s3.toUpperCase();
      s4 = null;
-

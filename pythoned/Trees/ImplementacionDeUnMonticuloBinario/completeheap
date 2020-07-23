@@ -1,6 +1,6 @@
 .. activecode:: completeheap
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: Trees/ImplementacionDeUnMonticuloBinario
    :from_source: None
@@ -68,5 +68,3 @@
    print(miMonticulo.eliminarMin())
    print(miMonticulo.eliminarMin())
    print(miMonticulo.eliminarMin())
-
-

@@ -1,0 +1,35 @@
+.. activecode:: lcso2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/topic-2-6-strings
+   :from_source: T
+   :language: java
+   :autograde: unittest
+
+   What do you think the following will print? Guess before you hit run. If you want the addition to take place before the numbers are turned into a string what should you do? Try to modify the code  so that it adds 4 + 3 before appending the value to the string. Hint: you used this to do addition before multiplication in arithmetic expressions.
+   ~~~~
+   public class Test2
+   {
+      public static void main(String[] args)
+      {
+        String message = "12" + 4 + 3;
+        System.out.println(message);
+      }
+   }
+   ====
+   import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "127";
+            boolean passed = getResults(expect, output, "Expected output from main");
+            assertTrue(passed);
+        }
+    }

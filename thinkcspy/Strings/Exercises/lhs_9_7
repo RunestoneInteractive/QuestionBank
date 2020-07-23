@@ -1,6 +1,6 @@
 .. activecode:: lhs_9_7
     :author: LHS CS Team
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
@@ -54,4 +54,3 @@
                 self.assertEqual(cmpString(s1, s2, b), self._cmp(s1, s2, b), c)
                 
     myTests().main()
-    

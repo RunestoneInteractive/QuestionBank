@@ -1,6 +1,6 @@
 .. mchoice:: mc5d
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: Functions/functions
    :from_source: None
@@ -23,5 +23,3 @@
          for i in range(4):
              t.forward(sz)
              t.left(90)
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: apcsa-sample5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit3-If-Statements/topic-3-6-DeMorgan
    :from_source: T
@@ -18,6 +18,3 @@
    :feedback_e: Try the expression with a = true. Is the result true?
 
     Which of the following best describes the value of the Boolean expression: a && !(b || a)
-
-
-

@@ -1,6 +1,6 @@
 .. actex:: act_lsys_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/l_systems
     :from_source: T
@@ -12,4 +12,3 @@
         X -> YF+XF+Y
         Y -> XF-YF-X
     ~~~~
-

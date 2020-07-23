@@ -1,0 +1,11 @@
+.. codelens:: cl_chp12_dict1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Dictionaries/intro-Dictionaries
+    :from_source: None
+
+    eng2sp = {}
+    eng2sp['one'] = 'uno'
+    eng2sp['two'] = 'dos'
+    eng2sp['three'] = 'tres'

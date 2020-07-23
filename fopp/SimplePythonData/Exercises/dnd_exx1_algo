@@ -1,10 +1,9 @@
-
+.. dragndrop:: dnd_exx1_algo
     :author: Sabrina Morales
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. dragndrop:: dnd_exx1_algo
     :feedback: Feedback that is displayed if things are incorrectly matched
     :match_1: Draggable element|||Dropzone to be matched with text
     :match_2: Drag to Answer B|||Answer B
@@ -12,5 +11,3 @@
 
 
     Junte os pares corretamente.
-
-    

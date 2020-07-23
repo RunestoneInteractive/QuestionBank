@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_8
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -43,4 +43,3 @@
         -   Integer division rounds the quotient down to the nearest integer. Take
             a closer look at what is being divided on each line, because not everyone
             recieved a zero!
-

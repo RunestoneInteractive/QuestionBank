@@ -1,6 +1,6 @@
 .. activecode:: TurtleArea
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-5-methods-return
     :from_source: T
@@ -43,6 +43,31 @@
             String actual = getMethodOutput("main");
             String expected = "Yertle's area is: 270";
             boolean passed = getResults(expected, actual, "Prints correct answer");
+            assertTrue(passed);
+        }
+         @Test
+        public void test2() {
+            String code = getCode();
+            String target = ".getHeight()";
+
+            int num = countOccurences(code, target);
+
+            boolean passed = num >= 1;
+
+            getResults("1+", "" + num, "Calls to " + target, passed);
+            assertTrue(passed);
+        }
+
+        @Test
+        public void test3() {
+            String code = getCode();
+            String target = ".getWidth()";
+
+            int num = countOccurences(code, target);
+
+            boolean passed = num >= 1;
+
+            getResults("1+", "" + num, "Calls to " + target, passed);
             assertTrue(passed);
         }
     }

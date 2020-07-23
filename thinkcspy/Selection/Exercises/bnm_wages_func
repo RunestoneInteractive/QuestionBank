@@ -1,6 +1,6 @@
 .. activecode:: bnm_wages_func
     :author: Brad Miller
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
@@ -9,4 +9,3 @@
     ~~~~
     def wages(pay_rate, hours):
         # your code here
-    

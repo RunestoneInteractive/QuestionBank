@@ -1,11 +1,9 @@
-
+.. activecode:: ch_13_except_pokemon
     :author: Karl Sickendick
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Exceptions/Exercises
     :from_source: F
-
-.. activecode:: ch_13_except_pokemon
 
     Change the first two try/except blocks to catch the exceptions.  Add a try/except block in the correct way to make the third catch, and print "CATCH 3!" only when the exception happens.
 

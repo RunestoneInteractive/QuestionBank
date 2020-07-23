@@ -1,6 +1,6 @@
 .. codelens:: WaitingIf2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: TeacherCSP
     :topic: CSPIntroDecisions/noteWaitingIf
     :from_source: T
@@ -11,4 +11,3 @@
         print(size)
         if size == 5:
             print("Hello")
-

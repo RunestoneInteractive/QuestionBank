@@ -1,0 +1,18 @@
+.. activecode:: ch9ex1q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPRepeatStrings/Exercises
+    :from_source: T
+    :nocodelens:
+
+    # STEP 1: INITIALIZE ACCUMULATOR
+    newString = ""
+    # STEP 2: GET DATA
+    Phrase = "Rubber baby buggy bumpers.
+    # STEP 3: LOOP THROUGH THE DATA
+    for letter in phrase
+        # STEP 4: ACCUMULATE
+        newString = newString letter
+    # STEP 5: PROCESS RESULT
+    print(newString

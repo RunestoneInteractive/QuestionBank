@@ -1,0 +1,9 @@
+.. actex:: ex_3_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sequences/Exercises
+   :from_source: None
+
+   w = [3, 6, 9]
+   # add code that changes w

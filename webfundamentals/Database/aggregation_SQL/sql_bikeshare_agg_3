@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_agg_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/aggregation_SQL
     :from_source: T
@@ -19,5 +19,3 @@
       COUNT(*) DESC
     LIMIT
       20
-
-

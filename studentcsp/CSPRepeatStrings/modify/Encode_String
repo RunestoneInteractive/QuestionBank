@@ -1,6 +1,6 @@
 .. codelens:: Encode_String
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: studentcsp
     :topic: CSPRepeatStrings/modify
     :from_source: T
@@ -13,4 +13,3 @@
         pos = str.find(letter)
         encodedMessage = encodedMessage + eStr[pos:pos+1]
     print(encodedMessage)
-

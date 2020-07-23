@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_1
         :author: Irma Ravkic
-        :difficulty: 1.0
+        :difficulty: 1
         :basecourse: fopp
         :topic: GeneralIntro/Exercises
         :from_source: F
@@ -23,5 +23,3 @@
         line 3: c = a + b (the value of c is a + b)
         
         Can you predict what could be the value of c in line 3?
-
-    

@@ -1,6 +1,6 @@
 .. activecode:: ch08_imm2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/StringsareImmutable
     :from_source: T

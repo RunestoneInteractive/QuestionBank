@@ -1,6 +1,6 @@
 .. activecode:: inheritance_cat_example
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/inheritVarsAndMethods
     :from_source: T
@@ -62,4 +62,3 @@
 
         def chasing_rats(self):
             return "What are you doing, Pinky? Taking over the world?!"
-

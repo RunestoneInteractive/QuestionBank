@@ -1,0 +1,16 @@
+.. activecode:: c2i
+        :author: jenkins
+        :difficulty: 3
+        :basecourse: haugrud
+        :topic: ClassesDiggingDeeper/HelperFuncs
+        :from_source: None
+
+        def gcd(m, n):
+            while m % n != 0:
+                oldm = m
+                oldn = n
+                m = oldn
+                n = oldm % oldn
+            return n
+
+        print(gcd(12, 16))

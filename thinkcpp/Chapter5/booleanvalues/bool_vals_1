@@ -1,6 +1,6 @@
 .. fillintheblank:: bool_vals_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter5/booleanvalues
     :from_source: T

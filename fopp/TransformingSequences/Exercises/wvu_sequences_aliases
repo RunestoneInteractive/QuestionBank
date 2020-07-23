@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_sequences_aliases
    :author: Brian Powell
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: F
-.. activecode:: wvu_sequences_aliases
    :autograde: unittest
 
    Create an alias named **cities** that points to the same list as the existing **municipalities** variable. Then, create a list named **towns** that is a clone of **cities**. **towns** and **cities** should be independent objects and not aliases.

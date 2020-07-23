@@ -1,6 +1,6 @@
 .. mchoice:: question4_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Debugging/KnowyourerrorMessages
    :from_source: T
@@ -14,4 +14,3 @@
    :practice: T
 
    Which of the following explains why ``wait_time_int = int(wait_time_int)`` is an error?
-

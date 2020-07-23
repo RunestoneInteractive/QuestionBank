@@ -1,6 +1,6 @@
 .. fillintheblank:: number_of_paintings_by_french_painters
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: filtering_and_grouping/grouping_data
    :from_source: T
@@ -11,4 +11,3 @@
    - :2120: Correct
      :2618: Incorrect: In this example, “French” means exclusively French.
      :x: Incorrect
-

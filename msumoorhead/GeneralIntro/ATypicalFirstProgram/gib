@@ -1,0 +1,8 @@
+.. activecode:: gib
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: GeneralIntro/ATypicalFirstProgram
+    :from_source: None
+
+    print("Hello, World!")

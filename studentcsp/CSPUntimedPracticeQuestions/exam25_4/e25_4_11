@@ -1,6 +1,6 @@
 .. mchoice:: e25_4_11
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Incorrect. 1010101 = (1 × 2⁶) + (0 × 2⁵) + (1 × 2⁴) + (0 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰) = 85
 
    Which of the following correctly converts 167 to the binary number system? (Hint: Binary numbers have place values that are powers of 2.)
-

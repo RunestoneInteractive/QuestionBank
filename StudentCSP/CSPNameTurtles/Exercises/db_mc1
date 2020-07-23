@@ -1,6 +1,6 @@
 .. mchoice:: db_mc1
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
@@ -15,5 +15,3 @@
    :feedback_d: This would be several rows in the same table.
 
    Which of the following would be a row (tuple) in a database?
-
-

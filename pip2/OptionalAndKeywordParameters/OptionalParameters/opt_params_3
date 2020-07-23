@@ -1,0 +1,13 @@
+.. codelens:: opt_params_3
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: OptionalAndKeywordParameters/OptionalParameters
+    :from_source: None
+
+    initial = 7
+    def f(x, y =3, z=initial):
+        print "x, y, z, are: " + str(x) + ", " + str(y) + ", " + str(z)
+
+    initial = 10
+    f(2)

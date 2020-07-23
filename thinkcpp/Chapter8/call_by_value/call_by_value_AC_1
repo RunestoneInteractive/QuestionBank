@@ -1,6 +1,6 @@
 .. activecode:: call_by_value_AC_1
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: thinkcpp
   :topic: Chapter8/call_by_value
   :from_source: T

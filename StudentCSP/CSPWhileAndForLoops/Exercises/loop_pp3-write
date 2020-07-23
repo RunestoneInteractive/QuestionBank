@@ -1,10 +1,9 @@
-
+.. activecode:: loop_pp3-write
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. activecode:: loop_pp3-write
    :autograde: unittest
    :nocodelens: 
 
@@ -31,5 +30,3 @@
          
               
    myTests().main()
-
-    

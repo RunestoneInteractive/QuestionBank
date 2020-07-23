@@ -1,10 +1,9 @@
-
+.. activecode:: Troy_Asmt12_if/else
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: Troy_Asmt12_if/else
 
     Asmt 12.  GUESS THE DIE ROLL 
 
@@ -32,5 +31,3 @@
     # Asmt 12  Guess the Die Roll
     
     # Start with an import statement ...
-
-    

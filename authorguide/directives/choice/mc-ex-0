@@ -1,6 +1,6 @@
 .. mchoice:: mc-ex-0
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/choice
    :from_source: T
@@ -11,4 +11,3 @@
    :correct: a
 
    Which color is found in the rainbow?
-

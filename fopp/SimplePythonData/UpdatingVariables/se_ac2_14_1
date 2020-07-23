@@ -1,6 +1,6 @@
 .. showeval:: se_ac2_14_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: SimplePythonData/UpdatingVariables
    :from_source: T
@@ -11,6 +11,3 @@
    ~~~~
    x = {{x}}{{6}} + 1
    x = {{6 + 1}}{{7}}
-
-
-

@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_subquery_proportion_trips_per_start_station
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/joining
    :from_source: T
@@ -19,4 +19,3 @@
      GROUP BY
        start_station
      )
-

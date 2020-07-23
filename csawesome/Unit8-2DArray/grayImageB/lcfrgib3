@@ -1,6 +1,6 @@
 .. activecode:: lcfrgib3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit8-2DArray/grayImageB
    :from_source: T
@@ -24,5 +24,3 @@
         }
       }
    }
-
-

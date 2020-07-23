@@ -1,11 +1,10 @@
-
+.. actex:: suci_practice_variable_expression_4
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_practice_variable_expression_4
 
    In class activity
    ~~~~
-   # put code here 
+   # put code here

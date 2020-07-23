@@ -1,6 +1,6 @@
 .. activecode:: ch02_18
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: SimplePythonData/OperatorsandOperands
     :from_source: T
@@ -10,4 +10,3 @@
     print(quotient)
     remainder = 7 % 3
     print(remainder)
-

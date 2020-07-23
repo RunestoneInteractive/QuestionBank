@@ -1,6 +1,6 @@
 .. activecode:: challenge-9-3-Pet-Sounds
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/topic-9-3-overriding
    :from_source: T
@@ -53,5 +53,3 @@
     }
 
     // Add a Cat class
-
-

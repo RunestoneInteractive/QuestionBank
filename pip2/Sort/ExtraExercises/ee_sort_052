@@ -1,0 +1,23 @@
+.. activecode:: ee_sort_052
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags: Sort/intro-SortingwithSortandSorted.rst, Sort/Anonymousfunctionswithlambdaexpressions.rst, Sort/Optionalreverseparameter.rst
+
+   nums = ['1450', '33', '871', '19', '14378', '32', '1005', '44', '8907', '16']
+
+   nums_sorted_lambda =
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(nums_sorted_lambda, ['19', '14378', '8907', '16', '1005', '44', '33', '32', '871', '1450'], "Testing that nums_sorted_lambda was created correctly.")
+
+
+   myTests().main()

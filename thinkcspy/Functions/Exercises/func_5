@@ -1,12 +1,10 @@
-
+.. activecode:: func_5
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_5
   
     Describe what a "fruitful function" is.
 
     ~~~~
-    

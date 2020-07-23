@@ -1,0 +1,15 @@
+.. activecode::  8_3_5_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/whileCount
+    :from_source: T
+    :nocodelens:
+
+    # INITIALIZE COUNTER
+    counter = 5
+    # SET LOOP CONDITION
+    while counter < 10 :
+      # PRINT CURRENT VALUE
+      print(counter)
+      counter = counter + 1

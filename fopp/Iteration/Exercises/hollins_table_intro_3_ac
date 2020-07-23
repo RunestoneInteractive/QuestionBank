@@ -1,6 +1,6 @@
 .. actex:: hollins_table_intro_3_ac
    :author: Stephen Wassell
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
@@ -31,4 +31,4 @@
    class myTests(TestCaseGui):
        def testOne(self):  
            self.assertTrue(True)
-   myTests().main() 
+   myTests().main()

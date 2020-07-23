@@ -1,6 +1,6 @@
 .. mchoice:: chained_conditionals_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/ChainedConditionals
    :from_source: T
@@ -34,4 +34,3 @@
          }
          return 0;
        }
-

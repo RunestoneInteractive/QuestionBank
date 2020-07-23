@@ -1,6 +1,6 @@
 .. poll:: poll1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: instructorguide
    :topic: Directives/poll
    :from_source: T
@@ -8,4 +8,3 @@
    :allowcomment:
 
     On a scale from 1 (low) to 5 (high), how important do you think it is to have a polling directive in the Runestone Tools?
-

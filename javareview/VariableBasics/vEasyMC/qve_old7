@@ -1,0 +1,15 @@
+.. mchoice:: qve_old7
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/vEasyMC
+   :from_source: None
+   :answer_a: 5
+   :answer_b: 4
+   :answer_c: 6
+   :correct: a
+   :feedback_a: This would be enough to represent 32 distinct values, so that is more then enough to represent 25 distinct values.
+   :feedback_b: This would only be enough to represent 16 distinct values (2 to the 4th).
+   :feedback_c: This is more than you need.  2 to the 6th is 64.
+
+   How many bits would you need to represent 25 distinct values?

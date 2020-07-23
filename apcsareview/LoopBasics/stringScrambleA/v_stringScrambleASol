@@ -1,6 +1,6 @@
 .. video:: v_stringScrambleASol
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: LoopBasics/stringScrambleA
    :from_source: F
@@ -8,10 +8,3 @@
    :thumb: ../_static/codeVideo.png
 
    http://ice-web.cc.gatech.edu/ce21/1/static/video/20141-a.mov
-
-
-
-
-
-
-

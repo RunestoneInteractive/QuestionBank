@@ -1,6 +1,6 @@
 .. fillintheblank:: qtrio3_total
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/TrioScore3
    :from_source: T
@@ -9,9 +9,3 @@
 
    -    :^2$: Correct.  This solution only got 2 points
         :.*: Add 1 point for each yes response
-
-
-
-
-
-

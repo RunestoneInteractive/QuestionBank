@@ -1,0 +1,32 @@
+.. mchoice:: pe4_14
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test4
+   :from_source: None
+   :answer_a: 2
+   :answer_b: 5
+   :answer_c: 1
+   :answer_d: 4
+   :answer_e: 0
+   :correct: b
+   :feedback_a: This would be true if the recursion stopped when you first the first non "x", but is that what happens?
+   :feedback_b: This returns the number of "x"'s it finds in the str.
+   :feedback_c: Did you notice the recursive calls?
+   :feedback_d: How does it miss one "x"?
+   :feedback_e: Since the first character is "x" how can this be true?
+
+   What will the method below return when called with mystery(“xxzxyxx”)?
+
+   .. code-block:: java
+
+     public static int mystery(String str)
+     {
+        if (str.length() == 0) return 0;
+        else
+        {
+           if (str.substring(0,1).equals("x")) return 1 +
+                            mystery(str.substring(1));
+           else return mystery(str.substring(1));
+        }
+     }

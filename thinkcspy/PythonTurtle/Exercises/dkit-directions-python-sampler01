@@ -1,10 +1,9 @@
-
+.. reveal:: dkit-directions-python-sampler01
    :author: Jean Griffin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. reveal:: dkit-directions-python-sampler01
    :showtitle: Show Directions
    :hidetitle: Hide Directions
 
@@ -16,5 +15,3 @@
       5. If it doesn't work, try again :)
 
    Good luck!!!
-     
-    

@@ -1,6 +1,6 @@
 .. mchoice:: question15_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: AdvancedFunctions/KeywordParameters
    :from_source: T

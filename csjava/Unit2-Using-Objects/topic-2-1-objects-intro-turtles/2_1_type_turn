@@ -1,0 +1,18 @@
+.. mchoice:: 2_1_type_turn
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: object
+   :answer_b: class
+   :answer_c: attribute
+   :answer_d: method
+   :correct: d
+   :feedback_a: An object has data and behavior.
+   :feedback_b: A class defines the data and behavior for all objects of that type.
+   :feedback_c: An attribute is something the object knows about itself.
+   :feedback_d: A method is something an object can do like turn.
+
+   A turtle object knows how to turn by a specified number of degrees.  What type of thing is turn?

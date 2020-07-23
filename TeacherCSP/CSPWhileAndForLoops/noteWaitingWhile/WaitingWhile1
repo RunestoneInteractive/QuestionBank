@@ -1,6 +1,6 @@
 .. codelens:: WaitingWhile1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: TeacherCSP
     :topic: CSPWhileAndForLoops/noteWaitingWhile
     :from_source: T

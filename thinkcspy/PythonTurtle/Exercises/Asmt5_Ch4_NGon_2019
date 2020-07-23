@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt5_Ch4_NGon_2019
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Asmt5_Ch4_NGon_2019
 
 
     Ask the user how many sides he/she would like for his her polygon.
@@ -23,4 +22,3 @@
     # Assignment 5.  N-Gon.   by   YOUR NAME HERE      date XXXX 
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-

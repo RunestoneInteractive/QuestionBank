@@ -1,6 +1,6 @@
 .. mchoice:: accessing_instance_variables_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter8/accessing_instance_variables
    :from_source: T
@@ -16,4 +16,3 @@
    :feedback_d: Yes, we access the instance variable ``cube`` of the object ``thing`` using the dot operator.
 
    In ``string x = thing.cube;``, what is the object and what is the instance variable we are reading the value of?
-

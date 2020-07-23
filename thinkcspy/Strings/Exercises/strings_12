@@ -1,12 +1,10 @@
-
+.. activecode:: strings_12
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: strings_12
   
     Describe the difference between traversing by item and by index.
 
     ~~~~
-    

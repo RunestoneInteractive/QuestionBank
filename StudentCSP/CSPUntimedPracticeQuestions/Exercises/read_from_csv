@@ -1,10 +1,9 @@
-
+.. parsonsprob:: read_from_csv
    :author: Matthew Whitehead
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPUntimedPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: read_from_csv
    :adaptive:
    :numbered: left
 
@@ -41,4 +40,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

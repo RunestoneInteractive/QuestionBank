@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Strings/StringMethods
    :from_source: T
@@ -23,4 +23,3 @@
        x = 2
        y = 6
        print('sum of {} and {} is {}; product: {}.'.format( x, y, x+y, x*y))
-

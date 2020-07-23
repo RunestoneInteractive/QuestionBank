@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_10_12
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: lhs_10_12
     :language: python
     :autograde: unittest
 
@@ -82,4 +81,4 @@
                     moveToBack(actual, pat, wc)
                     self.assertEqual(actual, expected, "Test "+str(i))
 
-    myTests().main() 
+    myTests().main()

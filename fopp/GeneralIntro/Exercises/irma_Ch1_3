@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_3
         :author: Irma Ravkic
-        :difficulty: 1.0
+        :difficulty: 1
         :basecourse: fopp
         :topic: GeneralIntro/Exercises
         :from_source: F
@@ -27,7 +27,3 @@
         
         But oops, you realize that in line 4 you cannot divide the value of `b` by 0 (not allowed in math). 
         Which line of code will you need to change in order to succesfully divide `b` by something that doesn't have the value of 0?
-
-      
-
-    

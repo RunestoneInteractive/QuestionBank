@@ -1,6 +1,6 @@
 .. mchoice:: qtnt1_20
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test1nt
    :from_source: T
@@ -60,4 +60,3 @@
     V. 1 5 7 7
        2 6 8 8
        3 7 9 9
-

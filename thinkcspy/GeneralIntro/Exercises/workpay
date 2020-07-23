@@ -1,10 +1,9 @@
-
+.. activecode:: workpay
     :author: Erdogan Dogdu
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: workpay
     ~~~~
 
     ====
@@ -16,4 +15,3 @@ class myTests(TestCaseGui):
         self.assertIn("Hello World", self.getOutput(), )
 
 myTests().main()
-

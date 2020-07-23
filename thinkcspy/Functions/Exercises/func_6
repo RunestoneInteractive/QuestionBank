@@ -1,10 +1,9 @@
-
+.. activecode:: func_6
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_6
   
     Write a program that asks the user for a number and calls a function that 
     returns the number multiplied by 10.
@@ -16,4 +15,3 @@
     Your function should return the first number raised to the power of the 
     second number using a for loop.
     ~~~~
-    

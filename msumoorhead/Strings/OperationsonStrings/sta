@@ -1,0 +1,12 @@
+.. activecode:: sta
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Strings/OperationsonStrings
+    :from_source: None
+    :nocanvas:
+
+    fruit = "banana"
+    bakedGood = "nut bread"
+
+    print(fruit + bakedGood)

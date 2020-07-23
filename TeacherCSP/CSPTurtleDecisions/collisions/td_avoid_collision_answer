@@ -1,6 +1,6 @@
 .. activecode:: td_avoid_collision_answer
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPTurtleDecisions/collisions
    :from_source: T

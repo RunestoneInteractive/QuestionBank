@@ -1,6 +1,6 @@
 .. mchoice:: e24_1_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPPracticeQuestions/exam24_1
    :from_source: T
@@ -18,4 +18,3 @@
    A user’s smartphone makes a request to a server for 4 packets that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image?
 
    .. figure:: Figures/duckpacket.jpg
-

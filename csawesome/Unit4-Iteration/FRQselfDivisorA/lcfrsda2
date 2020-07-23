@@ -1,13 +1,13 @@
 .. activecode:: lcfrsda2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit4-Iteration/FRQselfDivisorA
    :from_source: T
    :language: java
    :autograde: unittest
 
-   public class Test
+   public class TestMod
    {
       public static void main(String[] args)
       {
@@ -33,4 +33,3 @@
             assertTrue(passed);
         }
     }
-

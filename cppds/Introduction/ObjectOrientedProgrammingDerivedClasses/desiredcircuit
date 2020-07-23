@@ -1,9 +1,9 @@
 .. activecode:: desiredcircuit
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Introduction/ObjectOrientedProgrammingDerivedClasses
-  :from_source: T
+  :from_source: F
   :language: cpp
   :caption: Implementing our desired circuit
 

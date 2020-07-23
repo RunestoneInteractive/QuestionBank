@@ -1,6 +1,6 @@
 .. activecode:: StringCoderA
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: FreeResponse/StringCoderA
    :from_source: T
@@ -100,4 +100,3 @@
       }
 
    }
-

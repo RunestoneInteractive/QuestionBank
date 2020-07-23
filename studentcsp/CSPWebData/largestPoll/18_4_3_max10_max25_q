@@ -1,6 +1,6 @@
 .. mchoice:: 18_4_3_max10_max25_q
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWebData/largestPoll
    :from_source: T

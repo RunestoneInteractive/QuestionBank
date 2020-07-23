@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex8muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameStrings/mixedUpStrings
    :from_source: T
@@ -17,4 +17,3 @@
    print(var1 + " " + var2)
    =====
    print(var1 + var2) #paired
-

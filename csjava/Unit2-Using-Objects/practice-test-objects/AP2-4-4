@@ -1,0 +1,45 @@
+.. mchoice:: AP2-4-4
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit2-Using-Objects/practice-test-objects
+    :from_source: T
+    :practice: T
+    :random:
+
+    Consider the following methods, which appear in the same class.
+
+    .. code-block:: java
+
+        public void calculatePizzaOrder(int numOfPeople, double slicesPerPerson)
+        {
+            int numOfPizzas = (numOfPeople * slicesPerPerson)/8;
+            /* INSERT CODE HERE */
+        }
+
+        public void printOrder(int number)
+        {
+            System.out.println("Order " + number + " pizzas ");
+        }
+
+    What of the following lines would go into ``/* INSERT CODE HERE */`` in line 4 in order to call the ``printOrder`` method to print the number of pizzas to order correctly?
+
+    - printOrder(numOfPizzas);
+
+      + Correct! If you had 8 people who want to eat 2 pizza slices each, numOfPizzas would be 8*2/8 = 2 pizzas, and printOrder would print out "Order 2 pizzas".
+
+    - printOrder(numOfPeople);
+
+      - This would always print out an order of how many people you have instead of how many calculated pizzas.
+
+    - printOrder(2);
+
+      - This would always print out "Order 2 pizzas" instead of the calculated number of pizzas.
+
+    - printOrder(slicesPerPerson);
+
+      - This would always print out an order of how many slices per person instead of how many calculated pizzas.
+
+    - calculatePizzaOrder(numOfPizzas);
+
+      - This would not call the printOrder method.

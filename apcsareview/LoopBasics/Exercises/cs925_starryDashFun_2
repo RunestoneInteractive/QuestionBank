@@ -1,10 +1,9 @@
-
+.. activecode:: cs925_starryDashFun_2
    :author: Doug Vermes
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: apcsareview
    :topic: LoopBasics/Exercises
    :from_source: F
-.. activecode:: cs925_starryDashFun_2
    :nocanvas: 
    :timelimit: 2
    :language: java
@@ -51,4 +50,3 @@
       }
    }
    ====
-    

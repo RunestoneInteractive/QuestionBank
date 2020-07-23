@@ -1,10 +1,9 @@
-
+.. activecode:: sks_hw2_ex7
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: sks_hw2_ex7
     :language: python
 
     Say that you owe the credit card company $1000.00. The company charges you 1.5% per month 

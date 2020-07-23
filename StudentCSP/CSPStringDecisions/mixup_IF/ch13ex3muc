@@ -1,6 +1,6 @@
 .. parsonsprob:: ch13ex3muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPStringDecisions/mixup_IF
    :from_source: T
@@ -19,4 +19,3 @@
            item <- item + 1
    =====
        IF item > 3 #distractor
-

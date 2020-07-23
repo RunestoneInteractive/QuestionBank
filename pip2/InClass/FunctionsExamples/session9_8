@@ -1,0 +1,15 @@
+.. activecode:: session9_8
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/FunctionsExamples
+    :from_source: None
+
+    def f(nums):
+        accum = 0
+        for num in nums:
+            accum += num
+            return accum
+        print "all done"
+
+    print f([2, 4, 6, 8])

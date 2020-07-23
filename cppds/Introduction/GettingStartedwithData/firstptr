@@ -1,6 +1,6 @@
 .. activecode:: firstptr
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Introduction/GettingStartedwithData
     :from_source: T
@@ -21,4 +21,3 @@
 
         return 0;
     }
-

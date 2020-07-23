@@ -1,6 +1,6 @@
 .. actex:: SelectionOefening2
    :author: Gilles Fiers
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
@@ -8,4 +8,3 @@
 
    Vraag aan de gebruiker om een promille in te geven. Indien het ingegeven promille groter is dan 0.2, mag de gebruiker niet rijden en wordt de boodschap "U riskeert een boete, gelieve een taxi te bellen" weergegeven. 
    ~~~~
-    

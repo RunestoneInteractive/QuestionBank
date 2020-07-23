@@ -1,10 +1,9 @@
-
+.. activecode:: Asmt15_Troy2019
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: Asmt15_Troy2019
    
     You have been given two functions
 
@@ -90,4 +89,3 @@
 
     print()
     print("Well done.  Keep up those high scores.")
-

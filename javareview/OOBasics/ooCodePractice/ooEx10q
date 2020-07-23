@@ -1,0 +1,34 @@
+.. activecode::  ooEx10q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: OOBasics/ooCodePractice
+   :from_source: None
+   :language: java
+
+   abstract class Animal
+   {
+       public String name;
+       public int numLegs;
+       public abstract void speak();
+       public abstract void eat();
+
+       public static void main(String[] args)
+       {
+          Dog myDog = new Dog();
+          myDog.speak();
+          myDog.eat();
+       }
+   }
+
+   public class Dog extends Animal
+   {
+       // ADD CODE HERE
+
+       public static void main(String[] args)
+       {
+           Dog myDog = new Dog();
+           myDog.speak();
+           myDog.eat();
+       }
+   }

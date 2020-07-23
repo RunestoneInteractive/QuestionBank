@@ -1,6 +1,6 @@
 .. mchoice:: q4_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/finalquiz
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: No, appendChild does not create an element
 
    Which javascript statement correctly creates a new entry for a list?
-

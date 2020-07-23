@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze07
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze07
    :include: ccs_maze00, ccs_maze01, ccs_maze06
    
    display function. Implement according to the specification.
@@ -25,4 +24,3 @@
        print("display_with_path() not yet implemented") # MODIFY THIS
 
    ====
-   

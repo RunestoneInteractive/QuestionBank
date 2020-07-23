@@ -1,6 +1,6 @@
 .. mchoice:: 5_6_1_Turtle_Names4_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameTurtles/changeProg
    :from_source: T
@@ -13,4 +13,3 @@
    :feedback_c: Then both sides would be 150 units long.
 
    If you wanted to make both of the turtle lines in that last program the same length, what change would you make to the program?  (Feel free to actually make the change in the program and click *Run* to try it!)
-

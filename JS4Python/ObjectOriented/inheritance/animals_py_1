@@ -1,6 +1,6 @@
 .. activecode:: animals_py_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: ObjectOriented/inheritance
     :from_source: T
@@ -40,4 +40,3 @@
     brian = CartoonDog("Brian")
     brian.speak()
     print(brian.name)
-

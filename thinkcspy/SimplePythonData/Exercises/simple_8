@@ -1,10 +1,9 @@
-
+.. activecode:: simple_8
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_8
 
     Describe in English what is happening in the following lines of code:
  
@@ -15,4 +14,3 @@
          	print(number)
 
     ~~~~
-    

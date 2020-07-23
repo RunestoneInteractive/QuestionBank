@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Files/ChapterAssessment
    :from_source: T
@@ -23,4 +23,3 @@
          self.assertEqual(first_chars, "This summer I will be travelling.", "Testing that first_chars is assigned to correct value.")
 
    myTests().main()
-

@@ -1,6 +1,6 @@
 .. codelens:: search4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: SortSearch/TheBinarySearch
     :from_source: T
@@ -22,5 +22,3 @@
     testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
     print(binarySearch(testlist, 3))
     print(binarySearch(testlist, 13))
-
-

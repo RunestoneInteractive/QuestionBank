@@ -1,6 +1,6 @@
 .. mchoice:: compound_values_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter8/compound_values
    :from_source: T

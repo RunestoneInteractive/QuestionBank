@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex6muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: ArrayBasics/ArrayParsonsPractice
    :from_source: None
@@ -29,4 +29,3 @@
       return largest;
    =====
    } //end findLargest method
-

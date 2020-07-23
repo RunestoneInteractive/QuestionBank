@@ -1,0 +1,12 @@
+.. codelens:: ch08_7
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Iteration/TraversalandtheforLoopByIndex
+    :from_source: None
+
+    fruit = "apple"
+    x = range(5)
+    for idx in x:
+        currentChar = fruit[idx]
+        print currentChar

@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_exam2_fixloop
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. activecode:: wvu_exam2_fixloop
    :autograde: unittest
 
    (8 points)
@@ -23,4 +22,3 @@
        return num_list
 
    ====
- 

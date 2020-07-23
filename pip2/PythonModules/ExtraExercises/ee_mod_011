@@ -1,0 +1,32 @@
+.. activecode:: ee_mod_011
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags: PythonModules/intro-ModulesandGettingHelp.rst
+
+   # assign to the variable check_one, the value returned by checking the string "and"
+
+   # assign to the variable check_two, the value returned by checking the string "And"
+
+   # assign to the variable check_three, the value returned by checking the string "python"
+
+   # assign to the variable check_four, the value returned by checking the string "in"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(check_one, True, "Testing that check_one has the correct value.")
+      def testTwo(self):
+         self.assertEqual(check_two, False, "Testing that check_two has the correct value.")
+      def testThree(self):
+         self.assertEqual(check_three, False, "Testing that check_three has the correct value.")
+      def testFour(self):
+         self.assertEqual(check_four, True, "Testing that check_four has the correct value.")
+
+   myTests().main()

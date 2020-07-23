@@ -1,10 +1,9 @@
-
+.. parsonsprob:: midtermListInfo2
    :author: Nelson Yang
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: midtermListInfo2
    :adaptive:
 
    Put the code in order to print the following information from the list of numbers in nums: sum, max, min, and if there is at least one number in nums, print the average.
@@ -25,4 +24,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

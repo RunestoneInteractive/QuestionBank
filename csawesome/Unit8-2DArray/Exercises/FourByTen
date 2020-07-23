@@ -1,6 +1,6 @@
 .. parsonsprob:: FourByTen
    :author: Leonardo Alvarez
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: Unit8-2DArray/Exercises
    :from_source: F
@@ -20,6 +20,4 @@
    =====
    } // end inner loop
    =====
-   } // end outer loop 
-
-    
+   } // end outer loop

@@ -1,6 +1,6 @@
 .. mchoice:: question1_2_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: None

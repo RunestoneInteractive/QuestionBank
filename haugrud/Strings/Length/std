@@ -1,0 +1,9 @@
+.. activecode:: std
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Strings/Length
+    :from_source: None
+
+    fruit = "Banana"
+    print(len(fruit))

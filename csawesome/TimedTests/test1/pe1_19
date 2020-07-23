@@ -1,6 +1,6 @@
 .. mchoice:: pe1_19
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test1
    :from_source: T
@@ -27,4 +27,3 @@
             a[ k ] *= 2;
          }
       }
-

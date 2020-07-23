@@ -1,6 +1,6 @@
 .. parsonsprob:: char_operations_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/OperatorsforCharacters
    :from_source: T

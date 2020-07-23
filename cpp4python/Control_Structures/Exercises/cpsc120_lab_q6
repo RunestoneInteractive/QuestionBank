@@ -1,10 +1,9 @@
-
+.. parsonsprob:: cpsc120_lab_q6
    :author: Matthew Zuniga
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: cpp4python
    :topic: Control_Structures/Exercises
    :from_source: F
-.. parsonsprob:: cpsc120_lab_q6
 
    Another type of for loop would be the <b>ranged based for-loop.</b><br>
    Use the range based for-loop to add up all EVEN and ODD numbers from 1 to 100 in their respective variables called evenSum and oddSum. <br>

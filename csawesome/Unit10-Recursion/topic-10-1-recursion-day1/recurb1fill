@@ -1,6 +1,6 @@
 .. fillintheblank:: recurb1fill
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit10-Recursion/topic-10-1-recursion-day1
    :from_source: T
@@ -9,4 +9,3 @@
 
    -    :4$: Correct.  This line contains a call to the same method, which makes it a recursive method.
         :.*: Look for a call to the same method name
-

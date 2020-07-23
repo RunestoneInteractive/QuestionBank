@@ -1,0 +1,15 @@
+.. codelens:: Encode_String
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPRepeatStrings/modify
+    :from_source: T
+
+    message = "meet me at midnight"
+    str = "abcdefghijklmnopqrstuvwxyz. "
+    eStr = "zyxwvutsrqponmlkjihgfedcba ."
+    encodedMessage = ""
+    for letter in message:
+        pos = str.find(letter)
+        encodedMessage = encodedMessage + eStr[pos:pos+1]
+    print(encodedMessage)

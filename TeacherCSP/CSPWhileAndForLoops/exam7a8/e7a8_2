@@ -1,6 +1,6 @@
 .. mchoice:: e7a8_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPWhileAndForLoops/exam7a8
    :from_source: T
@@ -21,4 +21,3 @@
       helloArray = range(1,4)
       for x in helloArray:
           print ("hello")
-

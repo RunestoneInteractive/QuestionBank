@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_inheritance_car
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Inheritance/Exercises
     :from_source: F
-.. activecode:: wvu_inheritance_car
 
     Create a new class called **Car** that inherits from the existing **Vehicle** class. Add a class variable named **engine_size** to your new class with a value of ``None``.
 

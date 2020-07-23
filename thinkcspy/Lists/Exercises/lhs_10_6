@@ -1,6 +1,6 @@
 .. activecode:: lhs_10_6
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
@@ -48,4 +48,4 @@
                 i += 1
                 self.assertEqual(replace(aList, old, new), self._replace(aList, old, new), "Test "+str(i))
             
-    myTests().main() 
+    myTests().main()

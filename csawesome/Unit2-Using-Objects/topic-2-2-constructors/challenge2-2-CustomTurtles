@@ -1,6 +1,6 @@
 .. activecode:: challenge2-2-CustomTurtles
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-2-constructors
     :from_source: T
@@ -47,7 +47,7 @@
        private int height;
 
      /** Constructor that takes the model display
-       * @param modelDisplay the thing that displays the model
+       * @param modelDisplay the thing that displays the model or world
        */
       public CustomTurtle(ModelDisplay modelDisplay)
       {
@@ -115,7 +115,7 @@
         @Test
         public void test1()
         {
-            String target = "new CustomTurtle(150,300,world, Color.green, Color.blue, 180, 200)";
+            String target = "new CustomTurtle(150,300,world, Color.green, Color.blue, 150, 200)";
             boolean passed = checkCodeContains("constructor for a large 150x200 CustomTurtle with a green body and a blue shell at position (150,300)",target);
             assertTrue(passed);
         }

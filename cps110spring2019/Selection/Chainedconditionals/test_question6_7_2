@@ -1,6 +1,6 @@
 .. mchoice:: test_question6_7_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Selection/Chainedconditionals
    :from_source: None
@@ -22,5 +22,3 @@
          print("b")
      else:
          print("c")
-
-

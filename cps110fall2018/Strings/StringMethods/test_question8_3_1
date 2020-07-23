@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_3_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Strings/StringMethods
    :from_source: None
@@ -19,6 +19,3 @@
 
       s = "python rocks"
       print(s.count("o") + s.count("p"))
-
-
-

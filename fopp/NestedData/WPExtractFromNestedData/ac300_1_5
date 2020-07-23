@@ -1,6 +1,6 @@
 .. activecode:: ac300_1_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/WPExtractFromNestedData
    :from_source: T
@@ -16,4 +16,3 @@
    for res3 in res2[:1]:
       print("----Level 3: a tweet----")
       print(json.dumps(res3, indent=2)[:30])
-

@@ -1,6 +1,6 @@
 .. activecode:: JC_ch13_1
    :author: Joaquin Carbonara
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Tuples/Exercises
    :from_source: F
@@ -17,4 +17,3 @@
    print(add(z)) # this line will cause an error
 
    ====
-    

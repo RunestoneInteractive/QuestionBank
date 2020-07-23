@@ -1,6 +1,6 @@
 .. mchoice:: 17_6_1_Find_red
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPStringPieces/createPartsOfStrings
    :from_source: T

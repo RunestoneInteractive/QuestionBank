@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze02
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze02
    :include: ccs_maze00
    
    find_cell function. Implement according to the specification.
@@ -23,4 +22,3 @@
        # ADD CODE HERE
        return position
    ====
-   

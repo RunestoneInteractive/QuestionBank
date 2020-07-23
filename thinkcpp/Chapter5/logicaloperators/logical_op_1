@@ -1,6 +1,6 @@
 .. mchoice:: logical_op_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/logicaloperators
    :from_source: T

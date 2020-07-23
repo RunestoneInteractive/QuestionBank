@@ -1,6 +1,6 @@
 .. activecode:: ex_8_18
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: Strings/Exercises
    :from_source: None
@@ -8,5 +8,3 @@
    def encrypt(message, cipher):
 
    def decrypt(encrypted, cipher):
-
-

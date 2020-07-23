@@ -1,10 +1,9 @@
-
+.. activecode:: gi_1
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: gi_1
 
     Problem #1
     ~~~~
@@ -23,4 +22,3 @@
 
     Problem #4
     ~~~~
-    

@@ -1,0 +1,19 @@
+.. mchoice:: qve_old6
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/vEasyMC
+   :from_source: None
+   :answer_a: 75
+   :answer_b: 67
+   :answer_c: 150
+   :answer_d: 43
+   :answer_e: 74
+   :correct: a
+   :feedback_a: To convert from binary to decimal use the powers of 2 starting with 2 raised to the 0 power which is 1.  So 1001011 is 1 + 2 + 8 + 64 = 75.
+   :feedback_b: This would be true if the binary number was 1000011.  This would be 1 + 2 + 64 = 67.
+   :feedback_c: This would be true if we started at the right hand side with 2, but we start with 1 (2 raised to the 0 power is 1).
+   :feedback_d: This would be true if the binary number was 101011.
+   :feedback_e: This would be true if the binary number was 1001010.
+
+   Which of the following is the decimal value for the binary number 1001011?

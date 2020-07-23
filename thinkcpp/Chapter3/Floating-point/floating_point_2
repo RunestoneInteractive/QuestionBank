@@ -1,6 +1,6 @@
 .. fillintheblank:: floating_point_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/Floating-point
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :[Ii][Nn][Ii][Tt][Ii][Aa][Ll][Ii][Zz][Aa][Tt][Ii][Oo][Nn]: Correct!
      :.*: Try again!
-

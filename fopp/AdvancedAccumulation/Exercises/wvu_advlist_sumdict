@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_advlist_sumdict
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: AdvancedAccumulation/Exercises
     :from_source: F
-.. activecode:: wvu_advlist_sumdict
     :autograde: unittest
 
     Create a dictionary named **coal_total** that contains the total amount of coal produced in each county. The key should be the county name and the value should be the total tons of coal mined.
@@ -20,4 +19,3 @@
             self.assertEqual(coal_total["Berkeley"], 0,"Berkeley County produced no coal")
 
     myTests().main()
-

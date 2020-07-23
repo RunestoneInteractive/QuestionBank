@@ -1,6 +1,6 @@
 .. fillintheblank:: qtrio2_total
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/TrioScore2
    :from_source: T
@@ -9,9 +9,3 @@
 
    -    :^6$: Correct.  The answer lost a total of 3 points.
         :.*: Subtract 1 point for each no response from the 9 possible points
-
-
-
-
-
-

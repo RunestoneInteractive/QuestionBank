@@ -1,6 +1,6 @@
 .. activecode:: HQ4
    :author: Harsha Madu
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -12,4 +12,4 @@
    total = 0
    for num in myList:
        total = total + num
-   print(total)  
+   print(total)

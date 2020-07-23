@@ -1,6 +1,6 @@
 .. activecode:: cturtle_practical_example_Python
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cpp4python
     :topic: Turtles/pattern_application
     :from_source: T
@@ -42,4 +42,3 @@
         else:
             b=0
     wn.exitonclick()
-

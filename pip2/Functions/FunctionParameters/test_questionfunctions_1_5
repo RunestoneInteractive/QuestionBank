@@ -1,0 +1,24 @@
+.. mchoice:: test_questionfunctions_1_5
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/FunctionParameters
+   :from_source: None
+   :answer_a: i
+   :answer_b: x
+   :answer_c: x, y
+   :answer_d: x, y, i
+   :feedback_a: i is a variable used inside of the function, but not a parameter, which is passed in to the function.
+   :feedback_b: x is only one of the parameters to this function.
+   :feedback_c: Yes, the function specifies two parameters: x and y.
+   :feedback_d: the parameters include only those variables whose values that the function expects to receive as input.  They are specified in the header of the function.
+   :correct: c
+
+   What are the parameters of the following function?
+
+   .. code-block:: python
+
+     def print_many(x, y):
+         """Print out string x, y times."""
+         for i in range(y):
+             print x

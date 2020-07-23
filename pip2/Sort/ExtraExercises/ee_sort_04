@@ -1,0 +1,25 @@
+.. activecode:: ee_sort_04
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags:Sort/intro-SortingwithSortandSorted.rst
+
+   def last_four(x):
+
+
+
+
+   ids = [17573005, 17572342, 17579000, 17570002, 17572345, 17579329]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFour(self):
+         self.assertEqual(sorted_ids, sorted(ids, key = last_four), "Testing that sorted_ids is assigned to correct values.")
+
+   myTests().main()

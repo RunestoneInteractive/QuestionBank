@@ -1,6 +1,6 @@
 .. activecode:: convert2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: TheBasics/datatypes
     :from_source: T
@@ -15,4 +15,3 @@
     }
 
     main()
-

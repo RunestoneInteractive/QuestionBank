@@ -1,6 +1,6 @@
 .. mchoice:: MSIT-03-09
    :author: Kevin Austin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
@@ -19,4 +19,3 @@
    :correct: a,b,c
 
    Choose all of of the activities that will help you find the cause of an error and fix it …
-

@@ -1,6 +1,6 @@
 .. activecode:: sks_cw2_ex1
    :author: Shishir Shah
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -25,4 +25,3 @@
    firstName = input((("What is your first name: ")))
    lastName = input("What is your last name: ")
    print('Hello', firstName + " " + lastName, """your favorite number is""", num1+num2)
-

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-8-practice-mixed-code
    :from_source: T
@@ -18,4 +18,3 @@
    double pricePerShirt = totalCost / 3;
    =====
    System.out.println(pricePerShirt);
-

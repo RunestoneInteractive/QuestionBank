@@ -1,10 +1,9 @@
-
+.. activecode:: turtle_3
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: turtle_3
 
     Create a window with a background color. Create a herd of 4 colored 
     turtles that will draw 4 lines that will touch the edge of the window starting 
@@ -17,5 +16,3 @@
     +0.25 Use 8 more turtles.
 
     ~~~~
-    
-    

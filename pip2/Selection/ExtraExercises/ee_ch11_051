@@ -1,0 +1,20 @@
+.. activecode:: ee_ch11_051
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/ExtraExercises
+   :from_source: None
+   :tags:Selection/OmittingtheelseClauseUnarySelection.rst
+
+   wrd_lst = ["Hello", "activecode", "Java", "C#", "Python", "HTML and CSS", "Javascript", "Swift", "php"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(accum, 5, "Testing the value of accum")
+
+   myTests().main()

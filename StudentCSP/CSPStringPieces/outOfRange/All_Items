@@ -1,0 +1,9 @@
+.. activecode:: All_Items
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: StudentCSP
+  :topic: CSPStringPieces/outOfRange
+  :from_source: T
+
+  myList = ["this",1,"can","do", 2]
+  # You fill in here

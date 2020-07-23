@@ -1,0 +1,15 @@
+.. activecode:: is_prefix_3
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/OptionalKeywordParams
+    :from_source: None
+
+    def is_prefix(s1, s2):# not quite right; why not?
+        return s1 in s2
+
+    print is_prefix("ell", "hello")
+    # will get True if the function just uses the in operator, and that's not a prefix
+
+    # Rephrase this problem in English
+    # and then translate to code (look stuff up!)

@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze03
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze03
    :include: ccs_maze00
    
    look_around function. This has been implemented for you. Code is provided for information only--please don't edit.
@@ -53,4 +52,3 @@
        
        return options
    ====
-   

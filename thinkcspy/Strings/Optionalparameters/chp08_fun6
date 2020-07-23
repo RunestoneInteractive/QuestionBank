@@ -1,6 +1,6 @@
 .. activecode:: chp08_fun6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/Optionalparameters
     :from_source: T
@@ -32,4 +32,3 @@
     print(find4(ss, 's', 8))
     print(find4(ss, 's', 8, 13))
     print(find4(ss, '.'))
-

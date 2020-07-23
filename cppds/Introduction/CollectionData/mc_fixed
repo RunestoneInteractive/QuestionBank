@@ -1,6 +1,6 @@
 .. mchoice:: mc_fixed
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Introduction/CollectionData
   :from_source: T
@@ -17,5 +17,3 @@
   :feedback_e: Only of the above is best.
 
   Which C++ structure is the best choice for a group of ordered data of a fixed length?
-
-

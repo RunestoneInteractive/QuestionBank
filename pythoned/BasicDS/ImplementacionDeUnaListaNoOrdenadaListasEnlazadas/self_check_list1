@@ -1,6 +1,6 @@
 .. actex:: self_check_list1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: BasicDS/ImplementacionDeUnaListaNoOrdenadaListasEnlazadas
     :from_source: None
@@ -74,4 +74,3 @@
                 previo.asignarSiguiente(actual.obtenerSiguiente())
 
     milista = ListaNoOrdenada()
-

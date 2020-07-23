@@ -1,0 +1,9 @@
+.. activecode:: li1
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Lists/RepetitionandReferences
+    :from_source: None
+
+    origlist = [45, 76, 34, 55]
+    print(origlist * 3)

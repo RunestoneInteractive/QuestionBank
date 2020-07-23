@@ -1,6 +1,6 @@
 .. mchoice:: wine_correlation
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: scatter_plots_and_correlation/correlation_versus_causation
    :from_source: T
@@ -24,4 +24,3 @@
    - Having a heart attack decreases the probability of drinking red wine.
 
      - Incorrect: The heart attack itself does not decrease the consumption of red wine.
-

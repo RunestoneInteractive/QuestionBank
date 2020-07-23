@@ -1,6 +1,6 @@
 .. activecode:: seq3nlab1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Labs/sequencelab
     :from_source: T
@@ -17,4 +17,3 @@
         print(n)                  # the last print is 1
 
     seq3np1(3)
-

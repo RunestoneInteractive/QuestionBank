@@ -1,0 +1,14 @@
+.. activecode:: db_ex3_9
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Debugging/KnowyourerrorMessages
+    :from_source: None
+
+    str_time=input("what time is it now?")
+    str_wait_time=input("what is the number of nours to wait?")
+    time=int(str_time)
+    wai_time=int(str_wait_time)
+
+    time_when_alarm_go_off=time+wait_time
+    print time_when_alarm_go_off

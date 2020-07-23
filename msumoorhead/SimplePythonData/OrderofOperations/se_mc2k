@@ -1,6 +1,6 @@
 .. showeval:: se_mc2k
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: SimplePythonData/OrderofOperations
    :from_source: None
@@ -11,4 +11,3 @@
    2 ** {{2 ** 3}}{{8}} * 3
    {{2 ** 8}}{{256}} * 3
    {{256 * 3}}{{768}}
-

@@ -1,6 +1,6 @@
 .. actex:: rab_hw_ex_01_ch_13
    :author: Richard Bernatz
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Dictionaries/Exercises
    :from_source: F
@@ -35,5 +35,4 @@
            (mt, ect) = ([[0, 3], [0, 0]], 3)
            self.assertEqual((m, ec), (mt, ect), "Tested {(0, 1): 3, (2,2): -2}, 2, 2")
          
-   myTests().main()    
-    
+   myTests().main()

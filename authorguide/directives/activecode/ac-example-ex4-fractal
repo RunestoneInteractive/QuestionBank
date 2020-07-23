@@ -1,6 +1,6 @@
 .. activecode:: ac-example-ex4-fractal
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: authorguide
     :topic: directives/activecode
     :from_source: T
@@ -56,5 +56,3 @@
        myWin.exitonclick()
 
     main()
-
-

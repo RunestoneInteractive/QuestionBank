@@ -1,6 +1,6 @@
 .. dragndrop:: dragndrop_five_three
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter5/boolfunctions
     :from_source: F
@@ -10,4 +10,3 @@
 
 
     Match the conditional statement to its output, assuming it is outputted using cout and x = 3.
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_api1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/screenscrape_cids
    :from_source: T
@@ -10,4 +10,3 @@
    - :(604|'604'): Is the correct answer
      :51: Is the callingCode for Peru, use that if you are phoning a friend
      :x: Check your answer again
-

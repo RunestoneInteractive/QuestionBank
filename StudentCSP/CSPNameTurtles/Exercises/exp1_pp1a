@@ -1,10 +1,9 @@
-
+.. parsonsprob:: exp1_pp1a
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
-.. parsonsprob:: exp1_pp1a
    :adaptive:
    :numbered: left
 

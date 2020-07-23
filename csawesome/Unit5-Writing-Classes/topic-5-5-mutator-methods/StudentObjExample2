@@ -1,10 +1,11 @@
 .. activecode:: StudentObjExample2
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-5-mutator-methods
   :from_source: T
   :language: java
+  :autograde: unittest
 
   Fix the main method to include a call to the appropriate set method.
   ~~~~
@@ -64,3 +65,34 @@
         return id + ": " + name + ", " + email;
      }
   }
+  ====
+  import static org.junit.Assert.*;
+    import org.junit.*;
+
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        public RunestoneTests()
+        {
+            super("TesterClass");
+        }
+
+        @Test
+        public void test1()
+        {
+            String target = "s1.setEmail(\"skyler2@gmail.com\");";
+            boolean passed = checkCodeContains("call to setEmail()", target);
+            assertTrue(passed);
+        }
+
+        @Test
+        public void testMain()
+        {
+            String output = getMethodOutput("main");
+            String expect = "123456: Skyler, skyler@sky.com\n123456: Skyler 2, skyler2@gmail.com";
+
+            boolean passed = getResults(expect, output, "Checking main()", true);
+            assertTrue(passed);
+        }
+    }

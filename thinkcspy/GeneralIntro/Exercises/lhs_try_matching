@@ -1,6 +1,6 @@
 .. dragndrop:: lhs_try_matching
     :author: LHS CS Team
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -11,4 +11,3 @@
     :match_4: An expression that is either true or false|||Boolean
 
     Drag the definition from the left and drop it on the correct concept on the right.  Click the "Check Me" button to see if you are correct
-

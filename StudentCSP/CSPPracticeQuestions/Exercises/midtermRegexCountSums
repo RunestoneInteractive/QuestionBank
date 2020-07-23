@@ -1,10 +1,9 @@
-
+.. parsonsprob:: midtermRegexCountSums
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: midtermRegexCountSums
    :adaptive:
    :numbered: left
 
@@ -32,6 +31,3 @@
            numList.append(int(strNum))
    =====
        return sum(numList)
-
-
-    

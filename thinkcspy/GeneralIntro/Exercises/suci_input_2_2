@@ -1,10 +1,9 @@
-
+.. actex:: suci_input_2_2
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. actex:: suci_input_2_2
 
    Run the program then add an input statement to the program so that the user can change the width of the box. 
 

@@ -1,6 +1,6 @@
 .. mchoice:: vars_types_9
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter2/exercises
     :from_source: T
@@ -39,4 +39,3 @@
 
         +   'u' is three letters after 'r', so on line 4, the value of ``u`` becomes
             the value of ``r``.
-

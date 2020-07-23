@@ -1,6 +1,6 @@
 .. mchoice:: qoo_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/topic-9-5-hierarchies
    :from_source: T
@@ -23,4 +23,3 @@
     III. Objects from subclasses can be stored in the same array of the parent type.
     IV.  All of the above
     V.   None of the above
-

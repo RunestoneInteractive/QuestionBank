@@ -1,6 +1,6 @@
 .. activecode:: debug_triangle
     :author: Jean Griffin
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -24,5 +24,4 @@
     pat.left(120)    
               
     # Draw Side 3
-    pat.forward(50)          # FIX THE BUG 
-    
+    pat.forward(50)          # FIX THE BUG

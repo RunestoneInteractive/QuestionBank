@@ -1,6 +1,6 @@
 .. fillintheblank:: print_if_enough_for_spotify_premium
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/count_and_sum
    :from_source: T
@@ -13,4 +13,3 @@
      :=IF\(B1>15, TRUE, FALSE\): Incorrect: Remember to print ``TRUE`` if B1=15.
      :IF\(B1>=15, TRUE, FALSE\): Incorrect: Formulas must start with ``=``.
      :x: Incorrect
-

@@ -1,0 +1,12 @@
+.. activecode:: st07
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Strings/TraversalandtheforLoopByIndex
+    :from_source: None
+    :nocanvas:
+
+
+    fruit = input('enter a string')
+    for idx in range(len(fruit)):
+        print(fruit[idx])

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: visProcess
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWebData/Exercises
    :from_source: F
-.. parsonsprob:: visProcess
    :adaptive:
    :numbered: left
 
@@ -21,4 +20,3 @@
    visualize the data
    =====
    write a final report
-  

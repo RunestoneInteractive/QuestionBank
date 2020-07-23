@@ -1,6 +1,6 @@
 .. mchoice:: question1_10_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: GeneralIntro/FormalandNaturalLanguages
    :from_source: T
@@ -12,4 +12,3 @@
    :feedback_b: It usually takes longer to read a program because the structure is as important as the content and must be interpreted in smaller pieces for understanding.
 
    True or False:  Reading a program is like reading other kinds of text.
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: more_recursion_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter5/morerecursion
     :from_source: T
@@ -10,4 +10,3 @@
 
     - :[Uu][Nn][Rr][Ee][Aa][Ll]: Correct! Circular defintions are a great example of recursion.
       :x: Try again!
-

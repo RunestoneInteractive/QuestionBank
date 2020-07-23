@@ -1,6 +1,6 @@
 .. parsonsprob:: 5_2_1_DrawN
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameTurtles/TurtlePractice
    :from_source: T
@@ -34,4 +34,3 @@
    ella.forward(100)
    =====
    ella.Forward(100) #paired
-

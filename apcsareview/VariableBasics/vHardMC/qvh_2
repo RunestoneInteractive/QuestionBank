@@ -1,6 +1,6 @@
 .. mchoice:: qvh_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: VariableBasics/vHardMC
    :from_source: T
@@ -31,7 +31,3 @@
        }
        value = a[a.length-1];
     }
-
-
-
-

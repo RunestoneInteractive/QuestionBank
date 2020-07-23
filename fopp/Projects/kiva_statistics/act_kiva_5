@@ -1,6 +1,6 @@
 .. activecode:: act_kiva_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/kiva_statistics
     :from_source: T
@@ -20,5 +20,3 @@
             self.assertFalse('sum(' in self.getEditorText(), "you may not use sum")
 
     MyTests().main()
-
-

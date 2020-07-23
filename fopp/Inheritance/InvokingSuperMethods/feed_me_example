@@ -1,6 +1,6 @@
 .. activecode:: feed_me_example
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/InvokingSuperMethods
     :from_source: T

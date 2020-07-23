@@ -1,10 +1,10 @@
 .. actex:: suci_print_dashes_1
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: F
 
    Write a program that will print 5 dashes.
    ~~~~
-   # put code here 
+   # put code here

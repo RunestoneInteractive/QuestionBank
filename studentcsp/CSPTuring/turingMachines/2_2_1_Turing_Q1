@@ -1,6 +1,6 @@
 .. mchoice:: 2_2_1_Turing_Q1
                    :author: bmiller
-                   :difficulty: 3.0
+                   :difficulty: 3
                    :basecourse: studentcsp
                    :topic: CSPTuring/turingMachines
                    :from_source: T

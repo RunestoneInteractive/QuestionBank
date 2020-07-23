@@ -1,6 +1,6 @@
 .. fillintheblank:: compound_values_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter8/compound_values
     :from_source: T
@@ -9,4 +9,3 @@
 
     - :(?:c|C)ompound: Correct!
       :.*: Try again!
-

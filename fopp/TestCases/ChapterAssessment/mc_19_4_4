@@ -1,6 +1,6 @@
 .. mchoice:: mc_19_4_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TestCases/ChapterAssessment
    :from_source: T
@@ -11,4 +11,3 @@
    :correct: a
 
    Are there any other cases, that we can determine based on the current structure of the class, that also fail for the Student class?
-

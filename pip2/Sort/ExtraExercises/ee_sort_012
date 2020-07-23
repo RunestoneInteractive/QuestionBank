@@ -1,0 +1,20 @@
+.. activecode:: ee_sort_012
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags: Sort/intro-SortingwithSortandSorted.rst
+
+   animals = ['elephant', 'cat', 'moose', 'antelope', 'elk', 'rabbit', 'zebra', 'yak', 'salamander', 'deer', 'otter', 'minx', 'giraffe', 'goat', 'cow', 'tiger', 'bear']
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(animals_sorted, ['antelope', 'bear', 'cat', 'cow', 'deer', 'elephant', 'elk', 'giraffe', 'goat', 'minx', 'moose', 'otter', 'rabbit', 'salamander', 'tiger', 'yak', 'zebra'], "Testing that animals_sorted was created correctly.")
+
+   myTests().main()

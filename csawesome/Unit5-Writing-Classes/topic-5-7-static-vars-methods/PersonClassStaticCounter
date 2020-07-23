@@ -1,6 +1,6 @@
 .. activecode:: PersonClassStaticCounter
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-7-static-vars-methods
   :from_source: T
@@ -65,4 +65,3 @@
             assertTrue(passed);
         }
     }
-

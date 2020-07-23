@@ -1,0 +1,20 @@
+.. activecode:: ee_listcomp_032
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/ExtraExercises
+   :from_source: None
+   :tags: AdvancedAccumulation/reduce.rst
+
+   nums = [5, 2, 3, 4, 8, 7, 6]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(product, 40320, "Testing that product is correct.")
+
+   myTests().main()

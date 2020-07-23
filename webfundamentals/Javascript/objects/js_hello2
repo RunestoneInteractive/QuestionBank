@@ -1,6 +1,6 @@
 .. activecode:: js_hello2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/objects
    :from_source: T
@@ -18,4 +18,3 @@
          </script>
       </body>
    </html>
-

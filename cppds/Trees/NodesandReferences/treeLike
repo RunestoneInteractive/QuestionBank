@@ -1,6 +1,6 @@
 .. mchoice:: treeLike
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Trees/NodesandReferences
    :from_source: T

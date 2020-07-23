@@ -1,6 +1,6 @@
 .. activecode:: ac8_4_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/Aliasing
     :from_source: T
@@ -15,5 +15,3 @@
 
     b[0] = 5
     print(a)
-
-

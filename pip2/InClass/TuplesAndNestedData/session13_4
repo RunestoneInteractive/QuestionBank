@@ -1,0 +1,28 @@
+.. activecode:: session13_4
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/TuplesAndNestedData
+    :from_source: None
+
+    # Here's a somewhat complex example.
+    # What does this code do?
+
+    def user_type_numbers(limit_number):
+        tot = 0
+        list_of_nums = []
+        while tot < limit_number:
+            num = int(raw_input("Enter a number:"))
+            tot = tot + num
+            list_of_nums.append(num)
+        return limit_number, tot, len(list_of_nums)
+
+    # example invocations
+    returned_info = user_type_numbers(11)
+
+    print returned_info
+
+    # You can use that one tuple, stored in a variable, to print something like this
+    # Got here with just one function invocation!
+
+    print "We asked the user to input numbers until the sum of the numbers was more than", returned_info[0], "and they entered", returned_info[2], "numbers, and got a sum of", returned_info[1]

@@ -1,6 +1,6 @@
 .. mchoice:: test_question7_2_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: MoreAboutIteration/ThewhileStatement
    :from_source: None
@@ -24,4 +24,3 @@
          answer = answer + n
          n = n + 1
      print(answer)
-

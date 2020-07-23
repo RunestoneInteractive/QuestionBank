@@ -1,0 +1,12 @@
+.. activecode:: sin2
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Labs/sinlab
+    :from_source: None
+
+    import math
+
+    for angle in range(????):
+        y = math.sin(math.radians(angle))
+        print(y)

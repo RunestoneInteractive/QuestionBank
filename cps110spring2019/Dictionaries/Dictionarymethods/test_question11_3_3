@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_3_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Dictionaries/Dictionarymethods
    :from_source: None
@@ -16,5 +16,3 @@
 
      mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
      print("dog" in mydict)
-
-

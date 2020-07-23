@@ -1,6 +1,6 @@
 .. mchoice:: q1_rab_names_2
    :author: Richard Bernatz
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -11,4 +11,3 @@
    :correct: b
 
    Which of the following IS a valid Python variable name?
-    

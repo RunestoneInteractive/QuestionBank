@@ -1,15 +1,12 @@
-
+.. dragndrop:: ams_chap2_vocab1
     :author: Allison Schullo
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: StudentCSP
     :topic: CSPTuring/Exercises
     :from_source: F
-.. dragndrop:: ams_chap2_vocab1
     :feedback:
     :match_1: Java|||A programming language. It is used in the AP Computer Science A course.
     :match_2: Programming Language|||Used to tell a computer what to do.
     :match_3: Programming Tool|||Used to do programming.
 
     Drag the vocabulary term to the correct definition.
-
-    

@@ -1,0 +1,31 @@
+.. activecode:: imageArray
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit6-Arrays/topic-6-1-array-basics
+   :from_source: T
+   :language: java
+
+   Can you change the index variable's value so that it prints out the puppy image? Can you print out the reindeer? Try all of them! What indices did you need to use? Then try using a random number for the index instead. Remember that (int)(Math.random()*max) will return a number from 0 up to max. What's the maximum number it can be for this array?
+   ~~~~
+   public class ImageEx
+   {
+    public static void main(String[] args)
+    {
+        String[] images = {"cow.jpg", "kitten.jpg",
+                  "puppy.jpg", "pig.jpg", "reindeer.jpg"};
+
+        ImageEx obj = new ImageEx();
+        // Change index to see different images in the array!
+        // Can you have it pick out a random image?
+        int index = 0;
+        obj.printHTMLimage( images[index] );
+     }
+
+     // This method will just work in Active Code which interprets html
+     public void printHTMLimage(String filename)
+     {
+        String baseURL = "https://raw.githubusercontent.com/bhoffman0/CSAwesome/master/_sources/Unit6-Arrays/6-1-images/";
+        System.out.print("<img src=" + baseURL + filename + ">");
+      }
+    }

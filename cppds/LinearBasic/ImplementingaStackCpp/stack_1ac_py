@@ -1,6 +1,6 @@
 .. activecode:: stack_1ac_py
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: LinearBasic/ImplementingaStackCpp
    :from_source: T

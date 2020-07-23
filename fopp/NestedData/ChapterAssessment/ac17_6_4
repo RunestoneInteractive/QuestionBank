@@ -1,6 +1,6 @@
 .. activecode:: ac17_6_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/ChapterAssessment
    :from_source: T
@@ -39,4 +39,3 @@
          self.assertEqual(physics, False, "Testing that physics has the correct value.")
 
    myTests().main()
-

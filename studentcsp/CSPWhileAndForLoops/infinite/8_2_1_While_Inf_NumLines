@@ -1,6 +1,6 @@
 .. mchoice:: 8_2_1_While_Inf_NumLines
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWhileAndForLoops/infinite
    :from_source: T

@@ -1,6 +1,6 @@
 .. parsonsprob:: pp_introcpp_order
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: IntroCpp/firstcppprogram
    :from_source: T
@@ -22,5 +22,3 @@
        return 0;
    =====
    }
-
-

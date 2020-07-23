@@ -1,10 +1,9 @@
-
+.. activecode:: func_22
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_22
   
     Use the "Turtle Reference" page
 
@@ -12,4 +11,3 @@
     argument of the function 'setworldcoordinates' does.
 
     ~~~~
-    

@@ -1,6 +1,6 @@
 .. video:: vis_shell_sort
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Sort/TheShellSort
     :from_source: T

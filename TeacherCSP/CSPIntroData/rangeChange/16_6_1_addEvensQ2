@@ -1,6 +1,6 @@
 .. mchoice:: 16_6_1_addEvensQ2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPIntroData/rangeChange
    :from_source: T
@@ -16,5 +16,3 @@
    :feedback_d: No, that would result in 0,3,6,9 in evens
 
    Which of these changes to the program would give you just the odd values in a list? (Again: Try it!)  Select all that work.
-
-

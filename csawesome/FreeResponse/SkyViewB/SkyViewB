@@ -1,6 +1,6 @@
 .. activecode:: SkyViewB
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: FreeResponse/SkyViewB
    :from_source: T
@@ -70,5 +70,3 @@
         } // end of main
 
    } // end of class
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: mc9r
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: Lists/Listsandforloops2
    :from_source: None
@@ -23,4 +23,3 @@
      for item in alist:
          blist.append(item+5)
      print(blist)
-

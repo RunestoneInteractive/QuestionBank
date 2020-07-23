@@ -1,6 +1,6 @@
 .. fillintheblank:: sql_agg_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/aggregation_SQL
    :from_source: F
@@ -14,5 +14,3 @@
    - :3135: Is the correct answer
      :1: Is the fewest number of rides
      :x: Incorrect
-
-

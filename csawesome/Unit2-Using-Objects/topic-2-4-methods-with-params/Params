@@ -1,6 +1,6 @@
 .. dragndrop:: Params
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
     :from_source: T
@@ -11,4 +11,3 @@
     :match_4: asking to run the method|||method call
 
     Drag the definition from the left and drop it on the correct word on the right.  Click the "Check Me" button to see if you are correct.
-

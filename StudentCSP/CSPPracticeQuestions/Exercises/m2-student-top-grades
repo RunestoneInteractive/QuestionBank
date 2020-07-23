@@ -1,10 +1,9 @@
-
+.. parsonsprob:: m2-student-top-grades
    :author: Kathryn Cunningham
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: m2-student-top-grades
    :numbered: left
 
    Solve my really cool parsons problem...if you can.
@@ -32,4 +31,3 @@
 	top = gradesList[0]
    =====
 	return top[0]
-    

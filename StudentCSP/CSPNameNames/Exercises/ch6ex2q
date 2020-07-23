@@ -1,0 +1,13 @@
+.. activecode::  ch6ex2q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNames/Exercises
+    :from_source: T
+    :nocodelens:
+
+    def recPerimeter(length, width)
+    perimeter = 2 * (length + width)
+    Return recPerimeter
+
+    print(recPerimeter(2,4))

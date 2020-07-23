@@ -1,6 +1,6 @@
 .. activecode:: CW3_2_1
     :author: Joaquin Carbonara
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: PythonTurtle/OurFirstTurtleProgram
     :from_source: F
@@ -13,7 +13,4 @@
     alex = turtle.Turtle()   
     alex.forward(150)       
     alex.left(90)          
-    alex.forward(75)     
-
-
-
+    alex.forward(75)

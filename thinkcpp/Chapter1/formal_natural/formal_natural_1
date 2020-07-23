@@ -1,6 +1,6 @@
 .. mchoice:: formal_natural_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/formal_natural
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: Chemical formulas represent what elements a compound is made of! For example CO2 is is carbon dioxide!
 
    **Multiple Response** Select all **formal** languages from the choices below.
-

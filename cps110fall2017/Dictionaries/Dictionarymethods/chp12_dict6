@@ -1,6 +1,6 @@
 .. activecode:: chp12_dict6
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Dictionaries/Dictionarymethods
     :from_source: None
@@ -12,4 +12,3 @@
 
     ks = list(inventory.keys())
     print(ks)
-

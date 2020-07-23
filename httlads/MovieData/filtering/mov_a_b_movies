@@ -1,6 +1,6 @@
 .. fillintheblank:: mov_a_b_movies
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: MovieData/filtering
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :933: Is the correct answer
      :x: catchall feedback
-

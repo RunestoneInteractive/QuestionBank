@@ -1,6 +1,6 @@
 .. poll:: qgender
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/survey
    :from_source: T
@@ -11,5 +11,3 @@
    :option_5: prefer not to answer
 
    I am :
-
-

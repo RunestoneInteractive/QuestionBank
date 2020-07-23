@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_reg_lg_pop
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :Brazil: Is the correct answer
      :x: Not quite, keep on working
-

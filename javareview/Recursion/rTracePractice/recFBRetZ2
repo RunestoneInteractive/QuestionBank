@@ -1,0 +1,11 @@
+.. fillintheblank:: recFBRetZ2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Recursion/rTracePractice
+   :from_source: None
+
+   What is the value of Z in the trace above?
+
+   -    :^2$: Correct!
+        :.*: What is the value returned from strMethod("every")?

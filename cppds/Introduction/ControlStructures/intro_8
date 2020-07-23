@@ -1,6 +1,6 @@
 .. activecode:: intro_8
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Introduction/ControlStructures
     :from_source: F
@@ -27,4 +27,3 @@
 
         cout << letterlist << endl;
     }
-

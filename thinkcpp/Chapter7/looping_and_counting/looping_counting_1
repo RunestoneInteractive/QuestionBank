@@ -1,6 +1,6 @@
 .. mchoice:: looping_counting_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter7/looping_and_counting
    :from_source: T
@@ -24,4 +24,3 @@
         x = x + 1;
         cout << x << " ";
       }
-

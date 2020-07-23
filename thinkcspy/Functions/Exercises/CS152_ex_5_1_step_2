@@ -1,6 +1,6 @@
 .. actex:: CS152_ex_5_1_step_2
     :author: John Cigas
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -12,4 +12,3 @@
        * Make your program draw a row of 4 triangles each with side length 30
 
     ~~~~
-

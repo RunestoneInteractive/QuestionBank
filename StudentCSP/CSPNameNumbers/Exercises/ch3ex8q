@@ -1,0 +1,12 @@
+.. activecode:: ch3ex8q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: T
+    :nocodelens:
+
+    a Number = 12
+    3 = bNumber
+    a Number * b Number = cNumber
+    print(cNumber)

@@ -1,6 +1,6 @@
 .. activecode:: orderedlistclass
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/ImplementacionDeUnaListaOrdenada
    :from_source: None
@@ -88,5 +88,3 @@
    print(milista.tamano())
    print(milista.buscar(93))
    print(milista.buscar(100))
-
-

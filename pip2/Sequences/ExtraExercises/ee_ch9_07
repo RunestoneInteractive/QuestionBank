@@ -1,0 +1,19 @@
+.. activecode:: ee_ch9_07
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sequences/ExtraExercises
+   :from_source: None
+
+   pets = ["cat", "dog", "lizard", "parrot", "hamster"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testSeven(self):
+         self.assertEqual(pets, ["cat", "dog", "lizard", "parrot", "hamster", "goldfish"], "Testing that pets value is assigned to correct value.")
+
+   myTests().main()

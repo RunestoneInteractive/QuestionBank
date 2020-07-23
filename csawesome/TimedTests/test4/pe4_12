@@ -1,6 +1,6 @@
 .. mchoice:: pe4_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test4
    :from_source: T
@@ -25,4 +25,3 @@
      String s2 = s1.substring(2);
      String s3 = s2.substring(0,3);
      System.out.println(s3);
-

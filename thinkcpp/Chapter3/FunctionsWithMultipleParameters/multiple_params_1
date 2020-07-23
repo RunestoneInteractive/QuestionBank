@@ -1,6 +1,6 @@
 .. mchoice:: multiple_params_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/FunctionsWithMultipleParameters
    :from_source: T
@@ -16,4 +16,3 @@
 
    Which of the following would be a legal first line of a function
    definition in C++?
-

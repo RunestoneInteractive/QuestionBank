@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_10_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Lists/Aliasing
    :from_source: None
@@ -18,4 +18,3 @@
      blist = alist
      blist[3] = 999
      print(alist)
-

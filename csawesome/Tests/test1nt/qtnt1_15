@@ -1,6 +1,6 @@
 .. mchoice:: qtnt1_15
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test1nt
    :from_source: T
@@ -27,4 +27,3 @@
      randomList.remove(2);
      randomList.add(randomNum, 4);
      randomList.set(1, 8);
-

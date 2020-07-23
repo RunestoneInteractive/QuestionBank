@@ -1,12 +1,10 @@
-
+.. activecode:: strings_10
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: strings_10
   
     Describe what is meant by the title of the section: “Strings are Immutable”
 
     ~~~~
-    

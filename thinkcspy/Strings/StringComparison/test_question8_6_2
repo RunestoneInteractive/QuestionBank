@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_6_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Strings/StringComparison
    :from_source: T
@@ -18,5 +18,3 @@
    .. code-block:: python
 
       "dog" < "Dog"
-
-

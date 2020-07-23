@@ -1,6 +1,6 @@
 .. parsonsprob:: question15_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter15/File_output
    :from_source: T
@@ -30,4 +30,3 @@
       outfile << line << endl;
     }
    }
-

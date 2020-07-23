@@ -1,6 +1,6 @@
 .. activecode:: Variabelen_Voorbeeld5
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -11,4 +11,3 @@
     print(type(4))
     print(type("het is mooi weer vandaag"))
     print(type(4.25))
-

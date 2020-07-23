@@ -1,10 +1,9 @@
-
+.. activecode:: func_21
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_21
   
     The "Bar Graph in the chapter "A Turtle Bar Chart" looks a bit squished 
     together. Make an adjustment to the "Bar Graph" algorithm so that there is 
@@ -17,4 +16,3 @@
     of the bar graph.
 
     ~~~~
-    

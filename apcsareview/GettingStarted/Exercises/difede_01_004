@@ -1,6 +1,6 @@
 .. mchoice:: difede_01_004
    :author: Kuri DiFede
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: apcsareview
    :topic: GettingStarted/Exercises
    :from_source: F
@@ -15,4 +15,3 @@
    :feedback_d: 4 is the number of bytes. Each byte is 8 bits, so there are 24 digits. 
 
    How many numbers can you represent with 4 bytes? What is the largest number you can represent?
-

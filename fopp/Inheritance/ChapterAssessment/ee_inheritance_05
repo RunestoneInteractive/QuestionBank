@@ -1,6 +1,6 @@
 .. activecode:: ee_inheritance_05
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Inheritance/ChapterAssessment
    :from_source: T
@@ -102,4 +102,3 @@
          self.assertEqual(Flying_Pokemon("Buggy").opponent(), ("Electric", "Fighting"), "Testing that Flying weak and strong are assigned to correct values.")
 
    myTests().main()
-

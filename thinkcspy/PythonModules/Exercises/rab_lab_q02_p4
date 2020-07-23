@@ -1,12 +1,10 @@
-
+.. activecode:: rab_lab_q02_p4
     :author: Richard Bernatz
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: rab_lab_q02_p4
 
     Use this active code window for Lab Quiz 2, problem 4. Please see the quiz sheet for further instructions.
     ~~~~
-    # Name : 
-    
+    # Name :

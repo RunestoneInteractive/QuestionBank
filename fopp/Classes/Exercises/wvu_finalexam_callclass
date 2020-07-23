@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_callclass
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Classes/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_callclass
     :autograde: unittest
 
     

@@ -1,6 +1,6 @@
 .. mchoice:: 3_5_2_Chicago_2_Dallas_Q2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameNumbers/driving
    :from_source: T
@@ -13,5 +13,3 @@
    :feedback_c: Since <code>costPerGallon</code> is in double quotes it is a string, and it will print out those exact characters.
 
    What would be printed by ``print("costPerGallon")`` if this line was added to the end of the last program?
-
-

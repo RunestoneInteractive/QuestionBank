@@ -1,6 +1,6 @@
 .. mchoice:: 4_4_1_Story1_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameStrings/madlib
    :from_source: T
@@ -13,4 +13,3 @@
    :feedback_c: This <i>would</i> work.  But if you changed the <code>firstName</code> variable, this line would not change.  A different answer is better.
 
    Now you want to add more to the story. You want it to say: "Pat called the police who took the witch away."  Adding which of these lines to the end of the program will make that happen?  (Hint: It is okay to *try* each one!)
-

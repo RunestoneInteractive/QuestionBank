@@ -1,6 +1,6 @@
 .. actex:: TL_365_r5_ex1
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -27,4 +27,3 @@
            self.assertEqual(progress, 'Now I know how to concatenate strings in Python!', 'Checking if assigned variable gives correct value')
 	   self.assertFalse(re.search(r'Now I know how to concatenate strings in Python!', self.getEditorText()), 'Checking for hardcoding')
    myTests().main()
-

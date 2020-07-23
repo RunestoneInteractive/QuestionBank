@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Dictionaries/Dictionaryoperations
    :from_source: T
@@ -23,6 +23,3 @@
      mydict = {"cat":12, "dog":6, "elephant":23}
      mydict["mouse"] = mydict["cat"] + mydict["dog"]
      print(mydict["mouse"])
-
-
-

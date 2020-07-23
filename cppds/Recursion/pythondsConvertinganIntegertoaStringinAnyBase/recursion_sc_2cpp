@@ -1,6 +1,6 @@
 .. actex:: recursion_sc_2cpp
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Recursion/pythondsConvertinganIntegertoaStringinAnyBase
     :from_source: T

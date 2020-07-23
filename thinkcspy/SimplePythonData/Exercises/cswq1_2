@@ -1,6 +1,6 @@
 .. mchoice:: cswq1_2
    :author: Lloyd Smith
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -19,4 +19,3 @@
 
       x = 27
       x += 10
-

@@ -1,6 +1,6 @@
 .. activecode:: first_program_AC
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/first_program
    :from_source: T
@@ -17,4 +17,3 @@
        cout << "Hello, World." << endl;
        return 0;
    }
-

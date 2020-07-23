@@ -1,6 +1,6 @@
 .. parsonsprob:: ch11ex1muc
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Recursion/rParsonsPractice
    :from_source: F
@@ -25,4 +25,3 @@
    =====
        } //end else
    } //end method
-

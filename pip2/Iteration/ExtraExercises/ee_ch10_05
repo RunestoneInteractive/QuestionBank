@@ -1,0 +1,19 @@
+.. activecode:: ee_ch10_05
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Iteration/ExtraExercises
+   :from_source: None
+
+   numbs = [5, 10, 15, 20, 25]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFive(self):
+         self.assertEqual(numbs, [10, 15, 20, 25, 30], "Testing that numbs is assigned to correct values.")
+
+   myTests().main()

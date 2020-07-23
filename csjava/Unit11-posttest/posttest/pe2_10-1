@@ -1,0 +1,27 @@
+.. mchoice:: pe2_10-1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit11-posttest/posttest
+   :from_source: T
+   :answer_a: 112233445566
+   :answer_b: 123456
+   :answer_c: 1223344556
+   :answer_d: 123234345456
+   :answer_e: Nothing will be printed due to an IndexOutOfBoundsException.
+   :correct: c
+   :feedback_a: This would be true if the loop was printing each character twice and was incrementing the index by 1, but it prints two characters at a time and increments the index by 2.
+   :feedback_b: This would be true if the loop was incremented by 2 instead of 1.
+   :feedback_c: This code loops through the string printing 2 characters at a time.  The last time through the loop the index is test.length() - 2.
+   :feedback_d: This would be true if the loop was printing 3 characters at a time instead of 2.  Remember that the substring doesn't include the character at the specified last index.
+   :feedback_e: This would be true if the loop stopped when index was less than the string length instead of one less than the string length.
+
+   Given the following code segment, what is printed when it is executed?
+
+   .. code-block:: java
+
+     String test = "123456";
+     for (int index = 0; index < test.length() - 1; index = index + 1)
+     {
+          System.out.print(test.substring(index,index+2));
+     }

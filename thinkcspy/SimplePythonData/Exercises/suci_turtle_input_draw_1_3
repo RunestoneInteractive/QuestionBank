@@ -1,12 +1,10 @@
-
+.. actex:: suci_turtle_input_draw_1_3
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_input_draw_1_3
 
    Prompt the user side length make turtle to draw the an equilateral triangle of that size.
    ~~~~
-   # put code here 
-   
+   # put code here

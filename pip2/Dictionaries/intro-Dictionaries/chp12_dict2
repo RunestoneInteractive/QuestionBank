@@ -1,0 +1,10 @@
+.. codelens:: chp12_dict2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Dictionaries/intro-Dictionaries
+    :from_source: None
+
+
+    eng2sp = {'three': 'tres', 'one': 'uno', 'two': 'dos'}
+    print eng2sp

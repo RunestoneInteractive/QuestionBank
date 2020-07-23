@@ -1,6 +1,6 @@
 .. codelens:: chp12_dict3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Dictionaries/intro-Dictionaries
     :from_source: T
@@ -10,4 +10,3 @@
 
     value = eng2sp['two']
     print(value)
-

@@ -1,13 +1,10 @@
-
+.. actex:: suci_turtle_loop_1_3
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_loop_1_3
 
    A square with sides 50 units long
    ~~~~
-   # put code here 
-
-    
+   # put code here

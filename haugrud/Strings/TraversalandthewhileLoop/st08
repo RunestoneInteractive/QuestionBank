@@ -1,0 +1,15 @@
+.. activecode:: st08
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Strings/TraversalandthewhileLoop
+    :from_source: None
+    :nocanvas:
+
+
+    fruit = input('enter a string')
+
+    position = 0
+    while position < len(fruit):
+        print(fruit[position])
+        position = position + 1

@@ -1,6 +1,6 @@
 .. mchoice:: 1_3_1_BMI_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPrinTeasers/computeNumbers
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: No, the computer does not round the result.
 
    Imagine that you are 5 foot 7 inches and weighed 140 pounds.  What is your BMI?
-

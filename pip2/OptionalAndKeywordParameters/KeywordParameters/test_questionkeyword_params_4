@@ -1,0 +1,25 @@
+.. mchoice:: test_questionkeyword_params_4
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: OptionalAndKeywordParameters/KeywordParameters
+   :from_source: None
+   :answer_a: 2
+   :answer_b: 7
+   :answer_c: 0
+   :answer_d: Runtime error since two different values are provided for initial.
+   :feedback_a: 2 is bound to x, not z.
+   :feedback_b: the default value for z is determined at the time the function is defined; at that time initial has the value 0.
+   :feedback_c: the default value for z is determined at the time the function is defined, not when it is invoked.
+   :feedback_d: there's nothing wrong with reassigning the value of a variable at a later time.
+   :correct: b
+
+   What value will be printed for z?
+
+   .. code-block:: python
+
+      initial = 7
+      def f(x, y = 3, z = initial):
+          print "x, y, z are:", x, y, z
+      initial = 0
+      f(2)

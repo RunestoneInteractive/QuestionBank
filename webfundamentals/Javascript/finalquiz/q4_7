@@ -1,6 +1,6 @@
 .. mchoice:: q4_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/finalquiz
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: No, this is syntactically all wrong
 
    How do you create a function in JavaScript?
-

@@ -1,10 +1,9 @@
-
+.. shortanswer:: wvu_typeerror_concatenateintstr
    :author: Brian Powell
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. shortanswer:: wvu_typeerror_concatenateintstr
 
    Suppose Python gives you this error:
    :code:`TypeError: cannot concatenate 'str' and 'int' objects on line 1`
@@ -15,4 +14,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

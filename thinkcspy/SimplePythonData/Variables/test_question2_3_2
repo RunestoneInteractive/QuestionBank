@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/Variables
    :from_source: T
@@ -23,4 +23,3 @@
      day = 32.5
      day = 19
      print(day)
-

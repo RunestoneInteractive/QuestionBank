@@ -1,11 +1,9 @@
-
+.. activecode:: KDL_ch2_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
-
-.. activecode:: KDL_ch2_5
    :language: python
    :autograde: unittest
 
@@ -25,5 +23,4 @@
            self.assertEqual(pennies,int(amount_of_money)%25%10%5,feedback="The pennies are correct!")
            self.assertIn('input(', self.getEditorText(), 'Contains user input')
            self.assertIn('print(', self.getEditorText(), 'Contains print')
-   myTests().main()  
-    
+   myTests().main()

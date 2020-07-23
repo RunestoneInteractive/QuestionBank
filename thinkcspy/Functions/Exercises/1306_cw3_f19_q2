@@ -1,6 +1,6 @@
 .. activecode:: 1306_cw3_f19_q2
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -35,4 +35,3 @@
    # The program will print:
    # …
    # …
-

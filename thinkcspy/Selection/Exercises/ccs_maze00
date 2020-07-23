@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze00
     :author: Michael McCarrin
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: ccs_maze00
     :include: ccs_mazes
 
     from random import choice
@@ -231,4 +230,3 @@
             display_with_path(maze,solution_path)
         else:
             print("Sorry. We did not escape the maze.")
-           

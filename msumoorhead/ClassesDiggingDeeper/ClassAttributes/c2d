@@ -1,6 +1,6 @@
 .. activecode:: c2d
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/ClassAttributes
     :from_source: None
@@ -37,4 +37,3 @@
     b = GBP(100) # 100 GB Pounds
     print(b.getAmount(), 'GB pounds is worth')
     print(b.exchange(), 'US dollars')
-

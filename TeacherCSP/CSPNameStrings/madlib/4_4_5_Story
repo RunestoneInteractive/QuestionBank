@@ -1,6 +1,6 @@
 .. parsonsprob:: 4_4_5_Story
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameStrings/madlib
    :from_source: T
@@ -19,4 +19,3 @@
    print("But, he didn't like any.")
    =====
    print("So, " + name + " went home.")
-

@@ -1,0 +1,18 @@
+.. activecode:: lcso1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Strings/sOperators
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+      public static void main(String[] args)
+      {
+        String start = "Happy Birthday";
+        String name = "Jose";
+        String result = start + " " + name;
+        System.out.println(result);
+      }
+   }

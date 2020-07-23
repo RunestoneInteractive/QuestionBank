@@ -1,0 +1,23 @@
+.. activecode:: ee_ch11_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/ExtraExercises
+   :from_source: None
+   :tags:Selection/OmittingtheelseClauseUnarySelection.rst
+
+   a = 20
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testTwoA(self):
+         self.assertEqual(a, 20, "Testing that a has the correct value.")
+
+      def testTwoB(self):
+         self.assertEqual(c, 35, "Testing that c has the correct value.")
+
+   myTests().main()

@@ -1,6 +1,6 @@
 .. activecode:: animation1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/csstricks
    :from_source: T
@@ -29,4 +29,3 @@
    </div>
    </body>
    </html>
-

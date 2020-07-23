@@ -1,10 +1,9 @@
-
+.. parsonsprob:: turtleRep2-adp
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPRepeatTurtles/Exercises
    :from_source: F
-.. parsonsprob:: turtleRep2-adp
    :numbered: left
    :adaptive:
 
@@ -29,6 +28,3 @@
        will.right(72)
    =====   
        will.right(60)  #paired
-
-
-    

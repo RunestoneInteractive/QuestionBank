@@ -1,6 +1,6 @@
 .. mchoice:: question_recsimp_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds
    :topic: Recursion/TheThreeLawsofRecursion
    :from_source: T

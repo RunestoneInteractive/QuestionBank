@@ -1,6 +1,6 @@
 .. activecode:: lst_st
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: IntroRecursion/SierpinskiTriangle
     :from_source: None
@@ -49,7 +49,3 @@
        myWin.exitonclick()
 
     main()
-
-
-
-

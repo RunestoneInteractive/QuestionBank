@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_debug_group_by_query
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -19,4 +19,3 @@
      member_type
    ====
    assert 0,0 == 772.0053481492348
-

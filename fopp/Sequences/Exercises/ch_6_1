@@ -1,6 +1,6 @@
 .. activecode:: ch_6_1
     :author: Irma Ravkic
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Sequences/Exercises
     :from_source: F
@@ -18,5 +18,3 @@
     list (letters).  You cannot do print('C')!
     ~~~~
     letters = ['A', 'B', 'C', 'D', 'E']
-    
-

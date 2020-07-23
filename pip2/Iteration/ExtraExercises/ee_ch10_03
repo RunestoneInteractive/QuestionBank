@@ -1,0 +1,17 @@
+.. activecode:: ee_ch10_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Iteration/ExtraExercises
+   :from_source: None
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testThree(self):
+         self.assertEqual(output, "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "Testing that output has the correct value.")
+
+   myTests().main()

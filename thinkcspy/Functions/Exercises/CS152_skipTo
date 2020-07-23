@@ -1,6 +1,6 @@
 .. actex:: CS152_skipTo
     :author: John Cigas
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -40,4 +40,3 @@
 
 
     myTests().main()
- 

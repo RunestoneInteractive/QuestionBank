@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_trips_starting_and_ending_at_31111
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/filtering
    :from_source: T

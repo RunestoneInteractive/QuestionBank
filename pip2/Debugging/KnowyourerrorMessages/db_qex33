@@ -1,0 +1,15 @@
+.. mchoice:: db_qex33
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Debugging/KnowyourerrorMessages
+   :from_source: None
+   :answer_a: Nothing. The program has a syntax error and can't run.
+   :answer_b: The left parenthesis turns green.
+   :answer_c: The left parenthesis turns red.
+   :feedback_a: You may be reading too fast and not trying to test your understanding using an ActiveCode window.
+   :feedback_b: Sounds like you tried it on a left paren that did have a matching right paren.
+   :feedback_c: This color coding is your friend and can help you notice and fix parenthesis errors.
+   :correct: c
+
+   In an ActiveCode window, what happens when you put the cursor left of a left parenthesis ``(`` that has no matching right parenthesis ``)``?

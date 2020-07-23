@@ -1,6 +1,6 @@
 .. mchoice:: recursive_leap_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/leapoffaith
    :from_source: T

@@ -1,6 +1,6 @@
 .. fillintheblank:: defns_uses_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/DefinitionsAndUses
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :([Bb][Ee][Ff][Oo][Rr][Ee])|([Aa][Bb][Oo][Vv][Ee]): Correct!
      :.*: Try again!
-

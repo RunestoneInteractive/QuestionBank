@@ -1,6 +1,6 @@
 .. activecode:: act_pw_ac_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/encryption
     :from_source: T
@@ -18,4 +18,3 @@
             self.assertEqual(key, 'paswordefghijklmnqtuvxyzbc')
 
     MyTests().main()
-

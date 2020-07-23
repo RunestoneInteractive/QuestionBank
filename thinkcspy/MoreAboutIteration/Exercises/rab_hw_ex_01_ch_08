@@ -1,6 +1,6 @@
 .. actex:: rab_hw_ex_01_ch_08
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
@@ -34,5 +34,4 @@
            l_out = list_ordering(l_in)
            self.assertTrue(l_out == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], "Tested list_in= [10, 9 ,8 ,7, 6, 5, 4, 3, 2, 1]")
 
-   myTests().main()    
-    
+   myTests().main()

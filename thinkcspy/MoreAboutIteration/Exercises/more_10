@@ -1,13 +1,11 @@
-
+.. activecode:: more_10
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: more_10
   
     Why do you think human language is so difficult to recreate using an 
     algorithm?
 
     ~~~~
-    

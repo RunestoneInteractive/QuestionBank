@@ -1,6 +1,6 @@
 .. mchoice:: arrayEx9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/arrayExam
    :from_source: T
@@ -73,4 +73,3 @@
             array2[a2] = array1[a1];
          }
       }
-

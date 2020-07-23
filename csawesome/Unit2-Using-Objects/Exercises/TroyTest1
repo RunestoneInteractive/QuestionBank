@@ -1,10 +1,9 @@
-
+.. activecode:: TroyTest1
     :author: Shawn Haarer
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/Exercises
     :from_source: F
-.. activecode:: TroyTest1
 
     Try this  homework problem instead of an example in the text
     ~~~~
@@ -27,4 +26,3 @@
               world.show(true);
        }
        }
-    

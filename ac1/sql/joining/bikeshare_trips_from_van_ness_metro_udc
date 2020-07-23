@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_trips_from_van_ness_metro_udc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/joining
    :from_source: T
@@ -17,4 +17,3 @@
      trips.start_station = stations.station_id
    WHERE
      stations.name = 'Van Ness Metro / UDC'
-

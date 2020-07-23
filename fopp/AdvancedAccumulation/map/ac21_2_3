@@ -1,6 +1,6 @@
 .. activecode:: ac21_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: AdvancedAccumulation/map
    :from_source: T
@@ -12,4 +12,3 @@
 
    # or all on one line
    print(list(map((lambda value: 5*value), [1, 2, 3])))
-

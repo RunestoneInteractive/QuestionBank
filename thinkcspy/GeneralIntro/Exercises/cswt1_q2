@@ -1,6 +1,6 @@
 .. mchoice:: cswt1_q2
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
@@ -11,5 +11,4 @@
    :correct: a
    :random:
 
-   Convert the following binary number to decimal: 01111111 
-
+   Convert the following binary number to decimal: 01111111

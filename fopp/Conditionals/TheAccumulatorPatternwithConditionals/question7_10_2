@@ -1,6 +1,6 @@
 .. mchoice:: question7_10_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Conditionals/TheAccumulatorPatternwithConditionals
    :from_source: T

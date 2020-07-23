@@ -1,6 +1,6 @@
 .. activecode:: Week5PseudoQuiz
    :author: David Birrow
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -8,4 +8,3 @@
 
    Write a function that estimates the value of a car. The function should take two arguments: starting value of the car and how old the car is in years. Cars typically lose about 10% of their value each year. Then call the function and have it print the value.
    ~~~~
-  

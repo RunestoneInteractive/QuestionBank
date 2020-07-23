@@ -1,6 +1,6 @@
 .. codelens:: appcon3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/AppendversusConcatenate
     :from_source: T
@@ -8,4 +8,3 @@
     origlist = [45, 32, 88]
 
     newlist = origlist + ["cat"]
-

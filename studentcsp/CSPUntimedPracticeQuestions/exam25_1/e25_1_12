@@ -1,6 +1,6 @@
 .. mchoice:: e25_1_12
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: studentcsp
   :topic: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
@@ -20,4 +20,3 @@
 
     num ← 4 MOD 2
     DISPLAY (num)
-

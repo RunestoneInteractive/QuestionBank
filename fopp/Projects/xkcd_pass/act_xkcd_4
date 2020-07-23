@@ -1,6 +1,6 @@
 .. activecode:: act_xkcd_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/xkcd_pass
     :from_source: T
@@ -19,4 +19,3 @@
         if guessed_pw == my_password:
             print("found it after ", guess_num, " tries")
             done = True
-

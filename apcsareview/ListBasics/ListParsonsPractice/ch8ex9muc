@@ -1,6 +1,6 @@
 .. parsonsprob:: ch8ex9muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ListBasics/ListParsonsPractice
    :from_source: T
@@ -26,4 +26,3 @@
        } //end while loop
    =====
    } //end doubleList method
-

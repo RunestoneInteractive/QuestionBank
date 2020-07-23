@@ -1,6 +1,6 @@
 .. parsonsprob:: ch12ex2muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit10-Recursion/rParsonsPractice
    :from_source: T
@@ -29,4 +29,3 @@
    =====
        } //end else
    } //end method
-

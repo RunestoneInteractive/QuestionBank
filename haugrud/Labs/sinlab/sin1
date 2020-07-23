@@ -1,0 +1,11 @@
+.. activecode:: sin1
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: Labs/sinlab
+    :from_source: None
+
+    import math
+
+    y = math.sin(math.radians(90))
+    print(y)

@@ -1,0 +1,27 @@
+.. activecode::  8_5_2_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPWhileAndForLoops/nestedLoops
+    :from_source: T
+    :nocodelens:
+
+    # TOP LINE
+    line = ""
+    for x in range(0,4):
+      line = line + "*"
+    print(line)
+
+    # MIDDLE LINES
+    for x in range(0,2):      # outer loop for edge of square
+      line = "*"
+      for y in range(0,2):    # inner loop for space in square
+          line = line + ' '
+      line = line + '*'
+      print(line)
+
+    # BOTTOM LINE
+    line = ""
+    for x in range(0,4):
+      line = line + "*"
+    print(line)

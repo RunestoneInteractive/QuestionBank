@@ -1,6 +1,6 @@
 .. mchoice:: overloading_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter5/overloading
    :from_source: T
@@ -20,4 +20,3 @@
 
        double price (int x, int y);
        double price (double a, int b, string c);
-

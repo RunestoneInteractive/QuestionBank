@@ -1,6 +1,6 @@
 .. activecode:: inheritance_cheshire_example
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/inheritVarsAndMethods
     :from_source: T
@@ -32,4 +32,3 @@
     p1.hi() # just the regular Pet hello
     #p1.chasing_rats() # This will give you an error -- this method doesn't exist on instances of the Pet class.
     #p1.smile() # This will give you an error, too. This method does not exist on instances of the Pet class.
-

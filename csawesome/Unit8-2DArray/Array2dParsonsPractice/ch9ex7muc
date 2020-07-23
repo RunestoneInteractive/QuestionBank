@@ -1,6 +1,6 @@
 .. parsonsprob:: ch9ex7muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit8-2DArray/Array2dParsonsPractice
    :from_source: T
@@ -35,4 +35,3 @@
        } //end outer for loop
        return averages;
    } //end method
-

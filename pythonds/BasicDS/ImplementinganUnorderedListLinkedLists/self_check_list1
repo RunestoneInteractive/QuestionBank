@@ -1,6 +1,6 @@
 .. actex:: self_check_list1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: BasicDS/ImplementinganUnorderedListLinkedLists
     :from_source: T
@@ -74,5 +74,3 @@
                 previous.setNext(current.getNext())
 
     mylist = UnorderedList()
-
-

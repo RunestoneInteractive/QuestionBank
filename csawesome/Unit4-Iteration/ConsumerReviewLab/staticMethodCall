@@ -1,6 +1,6 @@
 .. mchoice:: staticMethodCall
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit4-Iteration/ConsumerReviewLab
    :from_source: T
@@ -18,4 +18,3 @@
 
 
    Which of the following correctly calls the method sentimentVal?
-

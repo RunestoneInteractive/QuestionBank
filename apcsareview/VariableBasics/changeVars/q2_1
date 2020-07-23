@@ -1,6 +1,6 @@
 .. mchoice:: q2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: VariableBasics/changeVars
    :from_source: T
@@ -24,4 +24,3 @@
        x = y;
        y = y * 2;
        z = 3;
-

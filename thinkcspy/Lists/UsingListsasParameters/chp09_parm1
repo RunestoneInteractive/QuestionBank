@@ -1,6 +1,6 @@
 .. activecode:: chp09_parm1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/UsingListsasParameters
     :from_source: T
@@ -14,5 +14,3 @@
     print(things)
     doubleStuff(things)
     print(things)
-
-

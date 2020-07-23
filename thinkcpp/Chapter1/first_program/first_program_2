@@ -1,6 +1,6 @@
 .. mchoice:: first_program_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/first_program
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: Forgetting a semicolon will cause a compile error!
 
    **Multiple Response** Which is true about writing a program?
-

@@ -1,6 +1,6 @@
 .. mchoice:: ePost_3_20
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPAbilitySummary/Exercises
    :from_source: T
@@ -27,4 +27,3 @@
       b = [3,1,3,val]
       b[3] = 100
       print (b)
-

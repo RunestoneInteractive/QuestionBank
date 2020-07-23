@@ -1,0 +1,17 @@
+.. mchoice:: e24_1_10
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/Exercises
+   :from_source: T
+   :answer_a: Because hexadecimal is a lower level of abstraction than binary.
+   :answer_b: Because hexadecimal can be represented with fewer total digits than binary.
+   :answer_c: Because numbers greater than 1 must be used for certain forms of digital data.
+   :answer_d: Because hexadecimal is easier to convert to decimal form.
+   :correct: b
+   :feedback_a: Incorrect. Hexademical is a higher level of abstraction since more information can be encoded in fewer hexadecimal digits.
+   :feedback_b: Correct. Since hexadecimal is base 16 and binary is base 2, we need fewer hexadecimal digits than binary digits to encode the same information.
+   :feedback_c: Incorrect. Both binary and hexademical can be used to represent decimals greater than 1.
+   :feedback_d: Incorrect. Calculations involved in converting hexadecimal to decimal are more intensive.
+
+   Why is digital data often represented in hexadecimal as opposed to binary?

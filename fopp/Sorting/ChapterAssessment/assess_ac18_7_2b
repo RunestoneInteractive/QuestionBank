@@ -1,6 +1,6 @@
 .. activecode:: assess_ac18_7_2b
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Sorting/ChapterAssessment
     :from_source: T
@@ -23,4 +23,3 @@
         self.assertEqual(z_winners, ['Youyou Tu','Rainer Weiss', 'Malala Yousafzai','Kazuo Ishiguro', 'Alvin E. Roth', 'Alice Munro'], "Testing that z_winners is set correctly.")
 
     myTests().main()
-

@@ -1,6 +1,6 @@
 .. mchoice:: jsq1_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: jsquiz1/
     :from_source: T
@@ -11,4 +11,3 @@
     :correct: c
 
     How do you declare a JavaScript variable with block scope?
-

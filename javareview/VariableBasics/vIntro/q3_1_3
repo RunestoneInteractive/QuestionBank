@@ -1,0 +1,17 @@
+.. mchoice:: q3_1_3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/vIntro
+   :from_source: None
+   :answer_a: int
+   :answer_b: double
+   :answer_c: boolean
+   :answer_d: String
+   :correct: d
+   :feedback_a: People don't usually have whole numbers like 7 as their first name.
+   :feedback_b: People don't usually have decimal numbers like 3.5 as their first name.
+   :feedback_c: This could only be used if the name was true or false.  People don't usually have those as first names.
+   :feedback_d: Strings hold sequences of characters like you have in a person's name.
+
+   What type should you use to hold the first name of a person?

@@ -1,6 +1,6 @@
 .. activecode:: lst_complete_tree
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: IntroRecursion/intro-VisualizingRecursion
     :from_source: None
@@ -31,4 +31,3 @@
         myWin.exitonclick()
 
     main()
-

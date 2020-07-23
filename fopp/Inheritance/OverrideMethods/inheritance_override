@@ -1,6 +1,6 @@
 .. activecode:: inheritance_override
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/OverrideMethods
     :from_source: T

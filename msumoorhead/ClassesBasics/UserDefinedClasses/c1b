@@ -1,6 +1,6 @@
 .. activecode:: c1b
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesBasics/UserDefinedClasses
     :from_source: None
@@ -22,4 +22,3 @@
     print(q)
 
     print(p is q)
-

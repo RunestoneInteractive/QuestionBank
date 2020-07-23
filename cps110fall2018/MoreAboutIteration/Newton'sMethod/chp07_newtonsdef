@@ -1,6 +1,6 @@
 .. activecode:: chp07_newtonsdef
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: MoreAboutIteration/Newton'sMethod
     :from_source: None
@@ -15,4 +15,3 @@
     print(newtonSqrt(100, 10))
     print(newtonSqrt(4, 10))
     print(newtonSqrt(1, 10))
-

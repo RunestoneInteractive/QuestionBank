@@ -1,6 +1,6 @@
 .. mchoice:: qArrayListInteger
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit7-ArrayList/topic-7-1-arraylist-basics
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: The wrapper class Integer is used to hold integers in an ArrayList.
 
    Which of the following is the correct way to create an ArrayList of integers?
-
-

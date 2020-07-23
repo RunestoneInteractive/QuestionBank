@@ -1,6 +1,6 @@
 .. parsonsprob:: ch6ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: LoopBasics/LoopParsonsPractice
    :from_source: None
@@ -18,4 +18,3 @@
        x++;
    =====
    }
-

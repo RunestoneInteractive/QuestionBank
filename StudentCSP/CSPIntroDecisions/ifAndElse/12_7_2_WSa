@@ -1,0 +1,19 @@
+.. activecode::  12_7_2_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPIntroDecisions/ifAndElse
+    :from_source: T
+    :nocodelens:
+
+    weight = 0.5
+    if weight < 1:
+      price = 1.45
+    if weight == 1:
+      price = 0
+    if weight > 1:
+      price = 1.15
+    total = weight * price
+    print(weight)
+    print(price)
+    print(total)

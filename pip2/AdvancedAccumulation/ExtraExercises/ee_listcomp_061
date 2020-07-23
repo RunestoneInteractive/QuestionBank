@@ -1,0 +1,21 @@
+.. activecode:: ee_listcomp_061
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/ExtraExercises
+   :from_source: None
+   :tags: AdvancedAccumulation/zip.rst, AdvancedAccumulation/filter.rst
+
+   l1 = ['left', 'up', 'front']
+   l2 = ['right', 'down', 'back']
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(opposites, [('left','right'), ('front','back')], "Testing that opposites has the correct list of tuples.")
+
+   myTests().main()

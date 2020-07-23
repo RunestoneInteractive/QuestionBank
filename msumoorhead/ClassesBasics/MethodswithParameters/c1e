@@ -1,6 +1,6 @@
 .. activecode:: c1e
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesBasics/MethodswithParameters
     :from_source: None
@@ -29,4 +29,3 @@
     print(p.getBalance())
     p.withdraw(200)
     print(p.getBalance())
-

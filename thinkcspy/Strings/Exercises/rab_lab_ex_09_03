@@ -1,12 +1,10 @@
-
+.. activecode:: rab_lab_ex_09_03
     :author: Richard Bernatz
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: rab_lab_ex_09_03
 
     Use this active code window for lab activity 3 in Chapter 9. Refer to the course web page for instructions.
     ~~~~
-    # (your name)  
-    
+    # (your name)

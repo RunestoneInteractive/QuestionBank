@@ -1,6 +1,6 @@
 .. activecode:: hill2019-replacement
    :author: Scott Hill
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: fopp
    :topic: TestCases/Exercises
    :from_source: F
@@ -34,6 +34,3 @@
         
 
    myTests().main()
-
-
-

@@ -1,6 +1,6 @@
 .. parsonsprob:: irma_Ch1_q4
    :author: Irma Ravkic
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: fopp
    :topic: GeneralIntro/Exercises
    :from_source: F
@@ -17,4 +17,3 @@
    =====
    output Cels so that the user sees the result
    =====
-    

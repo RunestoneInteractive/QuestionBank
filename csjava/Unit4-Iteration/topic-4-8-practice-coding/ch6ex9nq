@@ -1,0 +1,44 @@
+.. activecode::  ch6ex9nq
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit4-Iteration/topic-4-8-practice-coding
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   Finish the following code so that it prints a string message minus the last character each time through the loop until there are no more characters in message.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+              String message = "help";
+
+       }
+   }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;
+     import java.io.*;
+
+     public class RunestoneTests extends CodeTestHelper
+     {
+         @Test
+         public void testMain() throws IOException
+         {
+             String output = getMethodOutput("main");
+             String expect = "help\nhel\nhe\nh\n";
+             boolean passed = getResults(expect, output, "Expected output from main");
+             assertTrue(passed);
+         }
+         @Test
+         public void testForLoop()
+         {
+            String code = getCode();
+            boolean passed = code.contains("for") || code.contains("while");
+            getResults("Expected loop",""+passed, "Checking for loop",passed);
+            assertTrue(passed);
+         }
+     }

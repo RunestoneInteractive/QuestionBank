@@ -1,0 +1,11 @@
+.. activecode:: listcomp_11
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/reduce
+   :from_source: None
+
+   nums = [3, 4, 6, 7, 0, 1]
+
+   print len(nums)
+   print sum(nums)

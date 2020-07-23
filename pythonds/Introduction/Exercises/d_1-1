@@ -1,10 +1,9 @@
-
+.. shortanswer:: d_1-1
    :author: arika prime
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: pythonds
    :topic: Introduction/Exercises
    :from_source: F
-.. shortanswer:: d_1-1
    :optional:
 
    Construct a class hierarchy for people on a college campus. Include faculty, staff, and students. What do they have in common? What distinguishes them from one another?
@@ -13,4 +12,3 @@
 config values (conf.py): 
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

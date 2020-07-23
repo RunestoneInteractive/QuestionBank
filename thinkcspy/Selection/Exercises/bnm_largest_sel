@@ -1,13 +1,11 @@
-
+.. activecode:: bnm_largest_sel
     :author: Brad Miller
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: bnm_largest_sel
 
     Write a function that takes three integers as parameters and returns the largest.
     ~~~~
     def largest(a, b, c):
         # your code here
-    

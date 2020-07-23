@@ -1,0 +1,28 @@
+.. mchoice:: ePost_9_19
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPAbilitySummary/Exercises
+   :from_source: T
+   :answer_a: 6          [3, 1, -2]         -2
+   :answer_b: 6          [3, 1, -2]         -1
+   :answer_c: 6          [3, 1, -2]          2
+   :answer_d: 10        [3, 1, -2]          1
+   :answer_e: 10        [3, 1, -2]          2
+   :correct: b
+   :feedback_a: This would be correct if we hand't changed the value at index 2 in b.
+   :feedback_b: This will print the value at index 3 in a which is 6.  Then it will print b which has [3, 1, -2].  Then it adds one to the value at index 2 in b which is -2 so -2 + 1 is -1.  Then is prints the value at index 2 in b which is -1.
+   :feedback_c: This would be correct if the original value at index 2 in b was 1, but it was -2.
+   :feedback_d: This would be correct if we had added 3 to the value at index 2 in b.
+   :feedback_e: This would be correct if we had added 4 to the value at index 2 in b.
+
+   What is the output from the program below?
+
+   ::
+
+      a = [10,5,10,6]
+      print (a[3])
+      b = [3,1,-2]
+      print b
+      b[2] = b[2] + 1
+      print (b[2])

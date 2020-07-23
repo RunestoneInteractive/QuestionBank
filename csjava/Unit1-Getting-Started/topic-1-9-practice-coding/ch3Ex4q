@@ -1,0 +1,37 @@
+.. activecode::  ch3Ex4q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/topic-1-9-practice-coding
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   The following code should calculate the cost of an item that is on clearance (70% off) when you also have a coupon for an additional 20% off the clearance price.  However, the code has errors.  Fix the code so that it compiles and runs correctly.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int originalPrice = 68.00;
+           int clearancePrice = originalPrice * 0.3;
+           int finalPrice = clearancePrice * 0.8;
+           System.out.println(finalPrice);
+       }
+   }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;
+     import java.io.*;
+     public class RunestoneTests extends CodeTestHelper
+     {
+         @Test
+         public void testMain() throws IOException
+         {
+             String output = getMethodOutput("main");
+             String expect = "16.32\n";
+             boolean passed = getResults(expect, output, "Expected output from main");
+             assertTrue(passed);
+         }
+     }

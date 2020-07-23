@@ -1,6 +1,6 @@
 .. activecode:: assess_ps_01_09a
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: PythonTurtle/week1a3
     :from_source: T
@@ -10,5 +10,3 @@
 
     ~~~~
     import turtle
-
-

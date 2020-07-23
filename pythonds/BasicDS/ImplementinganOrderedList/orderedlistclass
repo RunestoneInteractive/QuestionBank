@@ -1,6 +1,6 @@
 .. activecode:: orderedlistclass
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds
    :topic: BasicDS/ImplementinganOrderedList
    :from_source: T
@@ -88,5 +88,3 @@
    print(mylist.size())
    print(mylist.search(93))
    print(mylist.search(100))
-
-

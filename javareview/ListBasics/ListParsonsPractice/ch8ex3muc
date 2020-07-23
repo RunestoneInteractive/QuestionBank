@@ -1,0 +1,28 @@
+.. parsonsprob:: ch8ex3muc
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: ListBasics/ListParsonsPractice
+   :from_source: None
+   :adaptive:
+   :noindent:
+
+   The following program segment should remove all the zeros from an ArrayList of Integers.  Assume the ArrayList "listOfNums" has been instantiated and filled with Integers.  But, the blocks have been mixed up and include <b>one extra block</b> that is not needed in a correct solution.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution. </p>
+   -----
+   int i = 0;
+   =====
+   while (i < listOfNums.size()) {
+   =====
+       if (listOfNums.get(i) == 0) {
+   =====
+           listOfNums.remove(i);
+   =====
+       } //end if
+   =====
+       else {
+           i++;
+       }
+   =====
+       i++; #distractor
+   =====
+   } //end while loop

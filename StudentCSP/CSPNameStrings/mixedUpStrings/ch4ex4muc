@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameStrings/mixedUpStrings
    :from_source: T
@@ -17,4 +17,3 @@
    print("It takes us " + str(numHours) + " hours and " + str(numMinutes) + " minutes to get home from camp.")
    =====
    print("It takes us " + numHours + " hours and " + numMinutes + " minutes to get home from camp.") #paired
-

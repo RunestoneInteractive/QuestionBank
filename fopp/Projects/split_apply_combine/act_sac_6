@@ -1,11 +1,9 @@
 .. activecode:: act_sac_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/split_apply_combine
     :from_source: T
 
     Are people who majored in computer science more or less satisfied with their jobs than humanities majors?
     ~~~~
-
-

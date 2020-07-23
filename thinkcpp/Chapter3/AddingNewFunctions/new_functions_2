@@ -1,6 +1,6 @@
 .. mchoice:: new_functions_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/AddingNewFunctions
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: This is true! As long as each statement ends with a semicolon.
 
    Which of the following is **false** about functions?
-

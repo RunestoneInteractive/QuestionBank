@@ -1,0 +1,26 @@
+.. codelens:: prediction_3a
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Prediction/rule-based
+   :from_source: None
+
+   def final_e(s):
+      return s[-1] == 'e'
+   def final_a(s):
+      return s[-1] == 'a'
+   def final_i(s):
+      return s[-1] == 'i'
+
+   def classify(s, rls):
+      for (f, gender) in rls:
+         if f(s):
+            return gender
+      return "male"
+
+   rules = [(final_e, "female"),
+            (final_a, "female"),
+            (final_i, "female")]
+
+   print classify("Mark", rules)
+   print classify("Julie", rules)

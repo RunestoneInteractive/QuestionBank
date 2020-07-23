@@ -1,6 +1,6 @@
 .. activecode:: over_ac_example1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: overview
    :topic: overview/
    :from_source: T
@@ -12,4 +12,3 @@
    for num in myList:
        total = total + num
    print(total)
-

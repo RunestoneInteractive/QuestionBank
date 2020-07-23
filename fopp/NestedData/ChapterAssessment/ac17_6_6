@@ -1,6 +1,6 @@
 .. activecode:: ac17_6_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/ChapterAssessment
    :from_source: T
@@ -46,4 +46,3 @@
          self.assertNotIn('v4 = "rings"', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
 
    myTests().main()
-

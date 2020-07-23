@@ -1,6 +1,6 @@
 .. fillintheblank:: us_happiness_vlookup
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -16,4 +16,3 @@
    - :298444215: Is the correct answer
      :#N/A: Make sure you are looking at the right spreadsheet
      :x: Check a little more carefully
-

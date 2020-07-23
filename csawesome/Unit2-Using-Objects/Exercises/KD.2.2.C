@@ -1,6 +1,6 @@
 .. mchoice:: KD.2.2.C
    :author: Kuri DiFede
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: F
@@ -16,6 +16,3 @@
    :feedback_d: 
 
    What is a constructor in Java?
-
-
-  

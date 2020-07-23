@@ -1,6 +1,6 @@
 .. mchoice:: compos_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Composition
    :from_source: T
@@ -29,4 +29,3 @@
          cout << "I have " << pets << " pets!";
          return 0;
        }
-

@@ -1,6 +1,6 @@
 .. dragndrop:: dnd-ex-1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/dnd
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: Draggable text|||Text of dropzone
 
    The question goes here.
-

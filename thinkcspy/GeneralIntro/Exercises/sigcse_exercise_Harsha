@@ -1,6 +1,6 @@
 .. activecode:: sigcse_exercise_Harsha
     :author: Harsha Madu
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -10,4 +10,3 @@
     ~~~~
     def sum_first_n(N):
         # your code here
-    

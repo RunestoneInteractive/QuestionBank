@@ -1,16 +1,13 @@
-
+.. activecode:: L7.4a_Troy_If/Else
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: L7.4a_Troy_If/Else
     
     Lesson 7.4  Use  IF / ELSE  to decide between Heads and Tails
 
     Use the random module to simulate a coin flip.     
 
     ~~~~
-    # Lesson 7.4   If / Else and a Coin Flip  
-    
-    
+    # Lesson 7.4   If / Else and a Coin Flip

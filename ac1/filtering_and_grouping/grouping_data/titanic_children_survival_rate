@@ -1,6 +1,6 @@
 .. fillintheblank:: titanic_children_survival_rate
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: filtering_and_grouping/grouping_data
    :from_source: T
@@ -11,4 +11,3 @@
    - :51.61: Correct
      :0.52: Remember to give your answer as a percentage.
      :x: Incorrect
-

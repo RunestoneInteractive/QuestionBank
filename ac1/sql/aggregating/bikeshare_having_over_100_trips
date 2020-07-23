@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_having_over_100_trips
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -16,4 +16,3 @@
      start_station
    HAVING
      COUNT(*) > 100
-

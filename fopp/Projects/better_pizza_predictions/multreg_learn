@@ -1,6 +1,6 @@
 .. activecode:: multreg_learn
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/better_pizza_predictions
     :from_source: T
@@ -26,4 +26,3 @@
            self.assertAlmostEqual(res[2], 0.3958, 2)
 
     myTests().main()
-

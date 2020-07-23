@@ -1,6 +1,6 @@
 .. mchoice:: qtnt2_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test2nt
    :from_source: T
@@ -53,6 +53,3 @@
       III. getName()
 
       IV. private String name;
-
-
-

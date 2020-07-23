@@ -1,0 +1,20 @@
+.. activecode:: ee_mod_042
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags: PythonModules/intro-ModulesandGettingHelp.rst
+
+   chars = ['h', '1', 'C', 'i', '9', 'True', '3.1', '8', 'F', '4', 'j']
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(is_num, [('h', False), ('1', True), ('C', False), ('i', False), ('9', True), ('True', False), ('3.1', False), ('8', True), ('F', False), ('4', True), ('j', False)], "Testing that is_num was created correctly.")
+
+   myTests().main()

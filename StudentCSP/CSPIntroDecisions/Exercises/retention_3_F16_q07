@@ -1,6 +1,6 @@
 .. mchoice:: retention_3_F16_q07
     :author: Barbara  Ericson
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: StudentCSP
     :topic: CSPIntroDecisions/Exercises
     :from_source: F
@@ -46,4 +46,3 @@
     -   No output; there is an error
 
         -   Incorrect!
-      

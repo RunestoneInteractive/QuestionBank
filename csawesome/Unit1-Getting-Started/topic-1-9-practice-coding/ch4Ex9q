@@ -1,6 +1,6 @@
 .. activecode::  ch4Ex9q
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-9-practice-coding
    :from_source: T
@@ -28,20 +28,16 @@
         @Test
          public void testPrintStringsA() throws IOException
          {
-           String target1 = "+ movie +";
-           boolean passed1 = checkCodeContains("print movie string variation 1", target1);
-           String target2 = "+ \nmovie";
-           boolean passed2 = checkCodeContains("print movie string variation 2", target2);
-           assertTrue(passed1 || passed2);
+           String target1 = "+movie";
+           boolean passed1 = checkCodeContains("print movie string", target1);
+           assertTrue(passed1);
          }
 
           @Test
          public void testPrintStringsB() throws IOException
          {
-             String target1 = "+ book +";
-             boolean passed1 = checkCodeContains("print book string variation 1", target1);
-             String target2 = "+ \nbook";
-             boolean passed2 = checkCodeContains("print book string variation 2", target2);
-             assertTrue(passed1 || passed2);
+             String target1 = "+book";
+             boolean passed1 = checkCodeContains("print book string", target1);
+             assertTrue(passed1);
          }
      }

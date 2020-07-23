@@ -1,6 +1,6 @@
 .. mchoice:: qab_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/aLoopBackToFront
    :from_source: T

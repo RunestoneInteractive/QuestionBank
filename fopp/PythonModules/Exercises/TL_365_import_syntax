@@ -1,6 +1,6 @@
 .. mchoice:: TL_365_import_syntax
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: PythonModules/Exercises
    :from_source: F

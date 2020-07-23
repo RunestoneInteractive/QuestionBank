@@ -1,6 +1,6 @@
 .. activecode:: ch08_7c
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/TraversalandthewhileLoop
     :from_source: T
@@ -13,4 +13,3 @@
     while position < len(fruit):
         print(fruit[position])
         position = position + 1
-

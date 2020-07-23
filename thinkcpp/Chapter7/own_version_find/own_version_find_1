@@ -1,6 +1,6 @@
 .. mchoice:: own_version_find_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter7/own_version_find
    :from_source: T

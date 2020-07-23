@@ -1,0 +1,11 @@
+.. activecode::  ch4ex2q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPNameStrings/ch4_exercises
+    :from_source: T
+    :nocodelens:
+
+    name = Sam
+    age = 12
+    print("My name is name and I am" + age + "years old".)

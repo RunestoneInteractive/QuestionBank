@@ -1,6 +1,6 @@
 .. mchoice:: test_question5_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Functions/TheAccumulatorPattern
    :from_source: T
@@ -28,4 +28,3 @@
    What happens if you put the initialization of runningtotal (the
    line runningtotal = 0) inside the for loop as the first
    instruction in the loop?
-

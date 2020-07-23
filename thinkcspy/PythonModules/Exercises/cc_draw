@@ -1,10 +1,9 @@
-
+.. activecode:: cc_draw
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: cc_draw
    
     Complete the "Draw Something" project found on CodeCreative @ goo.gl/iEfsye
 

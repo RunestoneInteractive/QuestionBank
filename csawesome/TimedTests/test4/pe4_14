@@ -1,6 +1,6 @@
 .. mchoice:: pe4_14
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test4
    :from_source: T
@@ -30,4 +30,3 @@
            else return mystery(str.substring(1));
         }
      }
-

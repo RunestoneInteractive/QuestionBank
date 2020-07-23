@@ -1,0 +1,13 @@
+.. activecode:: ac10_3_3a
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: fopp
+    :topic: Dictionaries/Dictionarymethods
+    :from_source: T
+
+    inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+
+    print(list(inventory.values()))
+
+    for v in inventory.values():
+        print("Got", v)

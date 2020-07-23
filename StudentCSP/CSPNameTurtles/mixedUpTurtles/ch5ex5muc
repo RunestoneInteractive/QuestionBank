@@ -1,6 +1,6 @@
 .. parsonsprob:: ch5ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/mixedUpTurtles
    :from_source: T
@@ -30,4 +30,3 @@
    =====
    chris.left(90)
    chris.forward(100) #paired
-

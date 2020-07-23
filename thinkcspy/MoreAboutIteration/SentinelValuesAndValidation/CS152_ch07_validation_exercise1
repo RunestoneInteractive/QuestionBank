@@ -1,6 +1,6 @@
 .. activecode:: CS152_ch07_validation_exercise1
     :author: John Cigas
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/SentinelValuesAndValidation
     :from_source: F

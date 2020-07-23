@@ -1,6 +1,6 @@
 .. fillintheblank:: json_types
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Dynamic/localstorage
     :from_source: T
@@ -14,5 +14,3 @@
     - :Object: Is the correct answer
       :Item: Is not correct.  JSON has no way to remember the  "user defined type" of an object.
       :x: Try running the code and looking at the output.
-
-

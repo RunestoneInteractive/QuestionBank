@@ -1,0 +1,11 @@
+.. activecode:: ch05_unaryselection
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Selection/OmittingtheelseClauseUnarySelection
+    :from_source: None
+
+    x = 10
+    if x < 0:
+        print "The negative number ",  x, " is not valid here."
+    print "This is always printed"

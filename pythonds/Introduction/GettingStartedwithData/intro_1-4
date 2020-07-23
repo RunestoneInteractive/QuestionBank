@@ -1,6 +1,6 @@
 .. activecode:: intro_1-4
     :author: Denny Hermawan
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: pythonds
     :topic: Introduction/GettingStartedwithData
     :from_source: F
@@ -17,4 +17,3 @@
     print(3//6)
     print(3%6)
     print(2**100)
-

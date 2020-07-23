@@ -1,6 +1,6 @@
 .. activecode:: tgh
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: PythonTurtle/TherangeFunction
    :from_source: None
@@ -15,4 +15,3 @@
        alex.left(90)
 
    wn.exitonclick()
-

@@ -1,12 +1,13 @@
 .. activecode:: PayClassThis
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit5-Writing-Classes/topic-5-9-this
    :from_source: T
    :language: java
+   :autograde: unittest
 
-   What does this code print out? Trace through the code. Notice how the this Pay object is passed to the Overtime constructor.
+   What does this code print out? Trace through the code with the CodeLens button. Notice how the this Pay object is passed to the Overtime constructor.
    ~~~~
    public class Pay
    {
@@ -51,3 +52,20 @@
         return payWithOvertime;
     }
    }
+   ====
+    import static org.junit.Assert.*;
+      import org.junit.*;
+      import java.io.*;
+
+      public class RunestoneTests extends CodeTestHelper
+      {
+            @Test
+            public void testMain() throws IOException
+            {
+               String output = getMethodOutput("main");
+                String expect = "150.0";
+
+                boolean passed = getResults(expect, output, "Expected output from main", true);
+                assertTrue(passed);
+            }
+      }

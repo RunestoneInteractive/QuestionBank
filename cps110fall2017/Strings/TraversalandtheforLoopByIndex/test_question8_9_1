@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_9_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Strings/TraversalandtheforLoopByIndex
    :from_source: None
@@ -23,6 +23,3 @@
       for idx in range(len(s)):
           if idx % 2 == 0:
               print(s[idx])
-
-
-

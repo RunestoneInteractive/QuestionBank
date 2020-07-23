@@ -1,6 +1,6 @@
 .. activecode:: proto_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: AdvancedJavascript/prototype
    :from_source: T
@@ -10,7 +10,3 @@
    x.foo = 1
    x.bar = 2
    alert(x['bar'])
-
-
-
-

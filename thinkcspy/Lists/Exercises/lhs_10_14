@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_10_14
     :author: LHS CS Team
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: lhs_10_14
     :language: python
     :autograde: unittest
 
@@ -46,4 +45,4 @@
             l_out = find_max_index(l_in)
             self.assertEqual(l_out, [0, 1, 2, 3, 4, 5, 6, 7], "Tested  [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]" )
 
-    myTests().main()  
+    myTests().main()

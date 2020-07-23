@@ -1,0 +1,37 @@
+.. activecode:: session9_7
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/FunctionsExamples
+    :from_source: None
+
+    # BAD - Don't do stuff like this with function definitions
+    accum = 0
+
+    def how_many_letter(letter,sentence):
+        for ch in sentence:
+            if ch == letter:
+                accum += 1
+        return accum
+
+    # GOOD
+
+    def better(letter,sentence):
+        accum = 0
+        for ch in sentence:
+            if ch == letter:
+                accum += 1
+        return accum
+
+    # try invoking this function
+
+    # sample sentences to use
+    s1 = "by a route obscure and lonely, haunted by ill angels only"
+    s2 = "when you come to a fork in the road, take it"
+    s3 = "small example"
+
+    print how_many_letter('a', s1)
+    print how_many_letter('x', s3)
+
+    print better('a', s1)
+    print better('x', s3)

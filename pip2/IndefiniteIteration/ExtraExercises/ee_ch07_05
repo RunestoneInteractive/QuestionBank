@@ -1,0 +1,25 @@
+.. activecode:: ee_ch07_05
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: IndefiniteIteration/ExtraExercises
+   :from_source: None
+   :tags: IndefiniteIteration/ThewhileStatement.rst
+
+   sum1 = 0
+
+   lst = [65, 78, 21, 33]
+
+   for x in lst:
+       sum1 = sum1 + x
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFive(self):
+         self.assertEqual(sum2, 197, "Testing that sum2 is assigned to correct value.")
+
+   myTests().main()

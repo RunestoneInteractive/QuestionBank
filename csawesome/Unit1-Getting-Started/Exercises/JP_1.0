@@ -1,10 +1,9 @@
-
+.. activecode:: JP_1.0
     :author: John Pataracchia
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: csawesome
     :topic: Unit1-Getting-Started/Exercises
     :from_source: F
-.. activecode:: JP_1.0
     :language: java   
 
     Your program should set the variable 'name' to your name.
@@ -37,6 +36,4 @@
 
 
         }      // end of main
-    }          // end of class 
-
-
+    }          // end of class

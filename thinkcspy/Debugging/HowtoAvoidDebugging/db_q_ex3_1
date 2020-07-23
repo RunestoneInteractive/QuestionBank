@@ -1,6 +1,6 @@
 .. mchoice:: db_q_ex3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Debugging/HowtoAvoidDebugging
    :from_source: T

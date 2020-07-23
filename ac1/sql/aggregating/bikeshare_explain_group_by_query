@@ -1,6 +1,6 @@
 .. shortanswer:: bikeshare_explain_group_by_query
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -20,4 +20,3 @@
         start_station
       ORDER BY
         AVG(duration) DESC
-

@@ -1,11 +1,12 @@
 .. activecode::  ch7Ex7nq
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayPractice
    :from_source: T
    :language: java
-
+   :autograde: unittest
+   :practice: T
 
    Finish the following code to print the strings at the odd indices in the array.
    ~~~~
@@ -16,4 +17,28 @@
            String[] stArr1 = {"Destini", "Landon", "Anaya", "Gabby", "Evert"};
 
        }
+
    }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;;
+     import java.io.*;
+
+     public class RunestoneTests extends CodeTestHelper
+     {
+         @Test
+         public void testMain() throws IOException
+         {
+             String output = getMethodOutput("main");
+             String expectNewL = "Landon\nGabby\n";
+             boolean passedNewL = getResults(expectNewL, output, "Expected output from main");
+             assertTrue(passedNewL);
+         }
+         @Test
+         public void testCodeContains()
+         {
+
+             boolean passed = checkCodeContains("for loop", "for");
+             assertTrue(passed);
+         }
+     }

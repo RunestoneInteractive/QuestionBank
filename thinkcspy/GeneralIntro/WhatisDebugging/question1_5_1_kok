@@ -1,6 +1,6 @@
 .. mchoice:: question1_5_1_kok
    :author: Jasper Kok
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: GeneralIntro/WhatisDebugging
    :from_source: F
@@ -14,5 +14,3 @@
    :feedback_c: This is partially correct.  But, debugging is more than just finding the bugs.  What do you need to do once you find them?
 
    Debugging is:
-
-

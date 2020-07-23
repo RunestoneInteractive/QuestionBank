@@ -1,0 +1,20 @@
+.. activecode:: ee_sort_011
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags: Sort/intro-SortingwithSortandSorted.rst, Sort/Optionalkeyparameter.rst, Sort/Optionalreverseparameter.rst,
+
+   lst = [3, 5, 1, 6, 7, 2, 9, -2, 5]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(lst_sorted, sorted(lst, reverse = True), "Testing that lst_sorted value is assigned to correct values.")
+
+   myTests().main()

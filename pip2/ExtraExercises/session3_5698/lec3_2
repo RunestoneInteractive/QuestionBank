@@ -1,0 +1,13 @@
+.. activecode:: lec3_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session3_5698
+   :from_source: None
+
+   Try to write code to draw a triangle with the ``turtle`` module. (If you have time/want to try, attempt some more fun shapes: a star? A heart? What about a small square shape inside a larger square shape?)
+   ~~~~
+
+   =====
+   print "============="
+   print "\nNo tests for turtles.\n"

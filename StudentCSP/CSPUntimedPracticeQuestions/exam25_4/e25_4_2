@@ -1,0 +1,17 @@
+.. mchoice:: e25_4_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: An unsolvable problem cannot be solved using any algorithm.
+   :answer_b: A solvable problem can be solved using an algorithm.
+   :answer_c: Some solvable problems will not run in reasonable time.
+   :answer_d: An unsolvable problem can be solved using an algorithm.
+   :correct: b
+   :feedback_a: Incorrect. If a problem is unsolvable, not even an algorithm can solve it.
+   :feedback_b: Correct. An algorithm can solve an a solvable problem.
+   :feedback_c: Incorrect. Some solvable problems will take long to solve with an algorithm and will, therefore, not run in reasonable time.
+   :feedback_d: Incorrect. If a problem is unsolvable, an algorithm will not solve it.
+
+   Which of the following statements is NOT true?

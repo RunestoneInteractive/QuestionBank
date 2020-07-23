@@ -1,6 +1,6 @@
 .. mchoice:: checking_values_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter10/checking_the_other_values
    :from_source: T

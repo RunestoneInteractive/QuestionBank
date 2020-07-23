@@ -1,6 +1,6 @@
 .. activecode:: SLC_2017_CH2_1
    :author: Derek Green
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -15,4 +15,3 @@
 
 
    ====
-    

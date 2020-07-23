@@ -1,0 +1,20 @@
+.. activecode:: ee_nested_data_042
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/ExtraExercises
+   :from_source: None
+   :tags: NestedData/ListswithComplexItems.rst, NestedData/DebuggingNestedData.rst
+
+   l_of_l = [['purple', 'mauve', 'blue'], ['red', 'maroon', 'blood orange', 'crimson'], ['sea green', 'cornflower', 'lavender', 'indigo'], ['yellow', 'amarillo', 'mac n cheese', 'golden rod']]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(third, ['blue', 'blood orange', 'lavender', 'mac n cheese'], "Testing that third has the correct list assigned to it.")
+
+   myTests().main()

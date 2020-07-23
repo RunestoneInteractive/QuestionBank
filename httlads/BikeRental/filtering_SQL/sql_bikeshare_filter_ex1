@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_filter_ex1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: httlads
     :topic: BikeRental/filtering_SQL
     :from_source: T
@@ -16,4 +16,3 @@
     assert 0,1 == 828
     assert 1,1 == 594
     assert 12,1 == 669
-

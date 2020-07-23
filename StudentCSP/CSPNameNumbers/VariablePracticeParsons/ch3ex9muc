@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex9muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/VariablePracticeParsons
    :from_source: T
@@ -21,4 +21,3 @@
    print(finalPrice)
    =====
    finalPrice = price - discount #distractor
-

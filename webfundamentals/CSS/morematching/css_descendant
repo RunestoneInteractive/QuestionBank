@@ -1,6 +1,6 @@
 .. activecode:: css_descendant
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/morematching
    :from_source: T
@@ -24,4 +24,3 @@
       </article>
       </body>
    </html>
-

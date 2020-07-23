@@ -1,0 +1,33 @@
+.. mchoice:: e12a13_5
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPStringDecisions/exam12a13
+   :from_source: T
+   :practice: T
+   :answer_a: A
+   :answer_b: B
+   :answer_c: C
+   :answer_d: D
+   :answer_e: E
+   :correct: d
+   :feedback_a: This would be true if the 2nd - 4th if were elif instead.
+   :feedback_b: This would be true if the score was 83 and the 2nd - 4th if were elif instead.
+   :feedback_c: This would be true if the score was 73 and the 2nd - 4th if were elif instead.
+   :feedback_d: Since it is true that 93 is greater than 60 this will set grade to "D"
+   :feedback_e: This would be true if score was less than 60.
+
+   What is the value of grade when the following code executes and score is 93?
+
+   ::
+
+      if score >= 90:
+          grade = "A"
+      if score >= 80:
+          grade = "B"
+      if score >= 70:
+          grade = "C"
+      if score >= 60:
+          grade = "D"
+      else
+          grade = "E"

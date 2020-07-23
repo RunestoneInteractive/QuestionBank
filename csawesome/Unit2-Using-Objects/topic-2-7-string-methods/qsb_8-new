@@ -1,6 +1,6 @@
 .. mchoice:: qsb_8-new
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-7-string-methods
    :from_source: T
@@ -20,7 +20,3 @@
      String s1 = "Hi";
      String s2 = "Bye";
      int answer = s1.compareTo(s2);
-
-
-
-

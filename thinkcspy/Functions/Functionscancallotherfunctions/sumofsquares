@@ -1,6 +1,6 @@
 .. codelens:: sumofsquares
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Functionscancallotherfunctions
     :from_source: T
@@ -21,4 +21,3 @@
     c = 10
     result = sum_of_squares(a, b, c)
     print(result)
-

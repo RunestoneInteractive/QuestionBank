@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_1_cofi_lad
         :author: Lynda Danielson
-        :difficulty: 0.0
+        :difficulty: 0
         :basecourse: fopp
         :topic: GeneralIntro/Exercises
         :from_source: F
@@ -23,5 +23,3 @@
         line 3: c = b - a (the value of c is b - a)
         
         Predict the value of c in line 3.
-
-    

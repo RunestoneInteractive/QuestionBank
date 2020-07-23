@@ -1,0 +1,1619 @@
+Bad Encoding
+Problem with cps110spring2018 unaryselection - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_06_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_3 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_cl_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 se_tq631 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 inputvid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_17 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_18 - write() argument must be str, not None
+Problem with msumoorhead ch_c2_8 - list index out of range
+Problem with msumoorhead ch_cl_04 - list index out of range
+Problem with haugrud ex_6_2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_2_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 inputfun - write() argument must be str, not None
+Problem with haugrud ex_2_2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch02_19_codelens - write() argument must be str, not None
+Problem with haugrud classes_q1 - list index out of range
+Problem with haugrud ch_cl_02 - list index out of range
+Problem with haugrud classes_q3 - list index out of range
+Problem with haugrud classes_q5 - list index out of range
+Problem with haugrud ch_cl_04 - list index out of range
+Problem with haugrud scratch_cl_01 - list index out of range
+Problem with haugrud c2p - list index out of range
+Problem with haugrud classes_deeper_q1 - list index out of range
+Problem with haugrud ch_cl2_q2 - list index out of range
+Problem with haugrud ch_cl2_q4 - list index out of range
+Problem with haugrud classes_q7 - list index out of range
+Problem with haugrud ch_cl2_q8 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question2_6_2 - write() argument must be str, not None
+Problem with haugrud tds - list index out of range
+Problem with haugrud tdo - list index out of range
+Bad Encoding
+Problem with cps110spring2018 precedencevid - write() argument must be str, not None
+Problem with haugrud ex_11_01 - list index out of range
+Problem with haugrud ex_11_02 - list index out of range
+Problem with haugrud ex_11_03 - list index out of range
+Problem with haugrud ex_11_04 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 associativityvid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_23 - write() argument must be str, not None
+Problem with haugrud tdh - list index out of range
+Problem with haugrud tdi - list index out of range
+Problem with haugrud ex_6_1 - list index out of range
+Problem with haugrud scratch_05_06 - list index out of range
+Problem with haugrud fnr - list index out of range
+Problem with haugrud fnd - list index out of range
+Problem with msumoorhead its - list index out of range
+Bad Encoding
+Problem with cps110spring2018 se_tq281 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 se_tq282 - write() argument must be str, not None
+Problem with haugrud gid - list index out of range
+Problem with haugrud ex_rec_5 - list index out of range
+Problem with haugrud ex_rec_6 - list index out of range
+Problem with haugrud ex_rec_9 - list index out of range
+Problem with haugrud ex_9_2 - list index out of range
+Problem with haugrud ex_9_3 - list index out of range
+Problem with haugrud liq - list index out of range
+Problem with pythonds self_check_4 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 int_secs - write() argument must be str, not None
+Problem with haugrud li5 - list index out of range
+Problem with haugrud scratch_07_05 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question2_7_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 reassignmentvid - write() argument must be str, not None
+Problem with haugrud ex_mod_1 - list index out of range
+Problem with haugrud ex_mod_2 - list index out of range
+Problem with haugrud ex_mod_3 - list index out of range
+Problem with haugrud ex_mod_4 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 se_reassign - write() argument must be str, not None
+Problem with haugrud sle - list index out of range
+Problem with haugrud ex_3_3 - list index out of range
+Problem with haugrud ex_3_4 - list index out of range
+Problem with haugrud its - list index out of range
+Problem with haugrud tgk - list index out of range
+Problem with haugrud bon - list index out of range
+Problem with haugrud ex_6_12 - list index out of range
+Problem with haugrud boh - list index out of range
+Problem with haugrud ex_2_3 - list index out of range
+Problem with haugrud ex_2_4 - list index out of range
+Problem with haugrud ex_2_7 - list index out of range
+Problem with haugrud ex_2_10 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 expression_vid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_21 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_22 - write() argument must be str, not None
+Problem with haugrud sd0 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 updatevid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 se_updatevar1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_update1 - write() argument must be str, not None
+Problem with haugrud ex_8_2 - list index out of range
+Problem with haugrud ex_8_17 - list index out of range
+Problem with haugrud sti - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch02_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_5 - write() argument must be str, not None
+Problem with haugrud st09 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch02_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_8a - write() argument must be str, not None
+Problem with msumoorhead scratch_cl_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 assignvid - write() argument must be str, not None
+Problem with msumoorhead ch_c2_7 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch02_9_codelens - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_3_2 - write() argument must be str, not None
+Problem with haugrud ex_rec_10 - list index out of range
+Problem with haugrud ex_rec_11 - list index out of range
+Problem with haugrud ex_rec_13 - list index out of range
+Problem with haugrud ex_9_4 - list index out of range
+Problem with msumoorhead ch_c2_2 - list index out of range
+Problem with httlads YKACzIrog24 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 typesnconvert - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 string_class_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_08_04 - write() argument must be str, not None
+Problem with haugrud bok - list index out of range
+Problem with haugrud ex_2_5 - list index out of range
+Problem with haugrud ex_2_6 - list index out of range
+Problem with haugrud ex_2_8 - list index out of range
+Problem with haugrud ex_2_9 - list index out of range
+Problem with haugrud ex_2_11 - list index out of range
+Problem with haugrud ex_2_12 - list index out of range
+Problem with msumoorhead ex_11_01 - list index out of range
+Problem with haugrud ex_8_4 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ca_id_ints - write() argument must be str, not None
+Problem with pythonds scratch_01_01 - list index out of range
+Problem with haugrud li7 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question2_8_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_10_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_10_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question2_10_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_1_1 - write() argument must be str, not None
+Problem with overview question1_ma - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_8_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_12 - write() argument must be str, not None
+Problem with pip2 ex_2_8 - list index out of range
+Problem with pip2 ex_2_11 - list index out of range
+Problem with overview mdactive - list index out of range
+Problem with pip2 scratch_11_02 - list index out of range
+Problem with pythonds3 self_check_4 - list index out of range
+Problem with pip2 dict_q2_question - list index out of range
+Problem with pythonds pset2_1 - list index out of range
+Problem with pythonds3 scratch_01_01 - list index out of range
+Problem with cps110fall2017 scratch_11_01 - list index out of range
+Problem with overview bnm_3_1_2018_md - can't multiply sequence by non-int of type 'NoneType'
+Bad Encoding
+Problem with cps110spring2018 ex_8_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_14 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question_recsimp_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question_recsimp_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lst_complete_tree - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_15 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_16 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_17 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_18 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 astlab_ast1 - write() argument must be str, not None
+Problem with pip2 ex_6_1 - list index out of range
+Problem with pip2 ex_2_5 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp08_index1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_len1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_add - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_fun5 - write() argument must be str, not None
+Problem with pip2 ex_2_2 - list index out of range
+Problem with msumoorhead ch_c2_3 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch08_ord2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_methods4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 cg08_imm1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_acc2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_08_03 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_slice2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_08_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp8_in3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_7b - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_7c1 - write() argument must be str, not None
+Problem with pip2 ex_8_6 - list index out of range
+Problem with pip2 ex_8_5 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 scratch_08_02 - write() argument must be str, not None
+Problem with pip2 ex_mod_2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 strings_lys2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 unique_id_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nav_codeexample1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nav_firstexample_cl - write() argument must be str, not None
+Problem with pip2 ex_rec_1 - list index out of range
+Problem with pip2 ex_rec_2 - list index out of range
+Problem with pip2 ex_rec_13 - list index out of range
+Problem with pip2 scratch_06_02 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 nav_question1_100_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nav_videoinfo - write() argument must be str, not None
+Problem with pip2 ex_2_3 - list index out of range
+Problem with msumoorhead ch_cl2_q2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp13_classes4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_3_1 - write() argument must be str, not None
+Problem with msumoorhead classes_q7 - list index out of range
+Problem with pip2 ex_2_9 - list index out of range
+Problem with pip2 ex_2_10 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 q19_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_19 - write() argument must be str, not None
+Problem with pip2 ex_rec_9 - list index out of range
+Problem with pip2 ex_rec_11 - list index out of range
+Problem with pip2 ex_rec_5 - list index out of range
+Problem with pip2 ex_rec_6 - list index out of range
+Problem with pip2 scratch_09_03 - list index out of range
+Problem with pip2 ex_3_1 - list index out of range
+Problem with msumoorhead ex_mod_2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question9_15_1 - write() argument must be str, not None
+Problem with msumoorhead liq - list index out of range
+Problem with cps110fall2018 scratch_cl_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_9_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_12 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_11_02 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp09_meth1 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_11_01 - list index out of range
+Problem with msumoorhead li8 - list index out of range
+Problem with cps110fall2018 scratch_05_06 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question9_13_1 - write() argument must be str, not None
+Problem with msumoorhead ex_mod_1 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question9_13_2 - write() argument must be str, not None
+Problem with msumoorhead ex_9_3 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question9_12_1 - write() argument must be str, not None
+Problem with msumoorhead tdi - list index out of range
+Problem with cps110fall2018 scratch_05_04 - list index out of range
+Problem with msumoorhead fnr - list index out of range
+Problem with msumoorhead classes_q6 - list index out of range
+Problem with msumoorhead boh - list index out of range
+Problem with cps110fall2018 scratch_05_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question9_22_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 list_lsys2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 pixelex1a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_8_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 pixelex1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_8_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nested1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 acimg_1 - write() argument must be str, not None
+Problem with msumoorhead scratch_05_06 - list index out of range
+Problem with cps110fall2018 scratch_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question7_8_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_8_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_8 - write() argument must be str, not None
+Problem with pip2 ex_8_2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_7_18 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 answer_7_11 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_07_01 - list index out of range
+Problem with msumoorhead classes_deeper_q1 - list index out of range
+Problem with msumoorhead ch_cl2_q8 - list index out of range
+Problem with msumoorhead ch_cl2_q4 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp07_newtonsdef - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_6_1 - write() argument must be str, not None
+Problem with msumoorhead ex_3_3 - list index out of range
+Problem with pip2 scratch_09_01 - list index out of range
+Problem with cps110fall2018 ex_9_5 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp13_classes5 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_09_06 - list index out of range
+Problem with cps110fall2018 scratch_09_01 - list index out of range
+Problem with msumoorhead ex_6_12 - list index out of range
+Problem with cps110fall2018 scratch_09_03 - list index out of range
+Problem with msumoorhead ex_8_4 - list index out of range
+Problem with cps110fall2018 scratch_09_07 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 iter_randwalk1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_validation - write() argument must be str, not None
+Problem with cps110fall2018 scratch_07_03 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question7_7_1 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_07_05 - list index out of range
+Problem with cps110fall2018 scratch_07_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question8_6_2 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_04 - list index out of range
+Problem with pip2 scratch_08_03 - list index out of range
+Problem with msumoorhead tgm - list index out of range
+Problem with msumoorhead ex_rec_10 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question8_6_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_upper - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_methods1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_methods2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_methods3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_methods5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_methods6 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_03 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question8_3_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_slice1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_5_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_5_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp8_in1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp8_in2 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_06_03 - list index out of range
+Problem with cps110fall2018 scratch_06_02 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question7_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_2_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_mod_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_qex32 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_6 - write() argument must be str, not None
+Problem with thinkcspy scratch_05_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chmodule_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_7 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_06_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 db_ex3_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp13_classesstr1 - write() argument must be str, not None
+Problem with msumoorhead classes_q1 - list index out of range
+Problem with msumoorhead ch_cl_02 - list index out of range
+Problem with cps110fall2018 scratch_08_04 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp13_classesstr2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl_ex_3_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl_04 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl_05_answer - write() argument must be str, not None
+Problem with msumoorhead ex_8_17 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_3_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp13_classes6 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_08_03 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 chp13_classes2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 fractions_add1 - write() argument must be str, not None
+Problem with cps110fall2018 scratch_08_01 - list index out of range
+Problem with cps110fall2018 scratch_08_02 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question11_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_4_3 - write() argument must be str, not None
+Problem with msumoorhead classes_q3 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 test_question11_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_3_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_3_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_3_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_11_04 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_9_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_8_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 classes_deeper_q1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_answer1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_q3answer - write() argument must be str, not None
+Problem with msumoorhead ex_rec_6 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_q5answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_8_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_7c - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_answer7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch11_q5_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_4_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_1_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_5_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_boolfun2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_6 - write() argument must be str, not None
+Problem with msumoorhead ex_11_04 - list index out of range
+Problem with msumoorhead sle - list index out of range
+Problem with pip2 ex_rec_10 - list index out of range
+Problem with pip2 ex_6_12 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch_files_q5answer - write() argument must be str, not None
+Problem with msumoorhead fnd - list index out of range
+Bad Encoding
+Problem with cps110spring2018 sq_accum1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_4_1 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_cl_02 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch04_accum3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_3_3 - write() argument must be str, not None
+Problem with msumoorhead tdo - list index out of range
+Problem with pip2 ex_6_3 - list index out of range
+Problem with pip2 session_11_5 - list index out of range
+Problem with cps110fall2017 scratch_11_02 - list index out of range
+Problem with pip2 scratch_08_04 - list index out of range
+Problem with msumoorhead ex_mod_4 - list index out of range
+Problem with cps110fall2017 scratch_05_06 - list index out of range
+Problem with cps110fall2017 scratch_05_04 - list index out of range
+Problem with msumoorhead ex_6_2 - list index out of range
+Problem with pip2 scratch_08_01 - list index out of range
+Problem with pip2 ex_6_2 - list index out of range
+Problem with cps110fall2017 scratch_05_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_6_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_9 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_6_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch05_unaryselection - write() argument must be str, not None
+Problem with msumoorhead ex_rec_11 - list index out of range
+Problem with cps110fall2017 ex_9_5 - list index out of range
+Problem with cps110fall2017 scratch_09_06 - list index out of range
+Problem with cps110fall2017 scratch_09_01 - list index out of range
+Problem with cps110fall2017 scratch_09_03 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch04_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_5 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_09_07 - list index out of range
+Problem with cps110fall2017 scratch_07_03 - list index out of range
+Problem with cps110fall2017 scratch_07_05 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_5_15 - write() argument must be str, not None
+Problem with msumoorhead ex_3_4 - list index out of range
+Problem with cps110fall2017 scratch_04 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_5_18 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_11_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch01_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_12_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_10_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_7_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_8_2 - write() argument must be str, not None
+Problem with msumoorhead sd0 - list index out of range
+Problem with cps110fall2017 scratch_03 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 question1_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_6_2 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_06_03 - list index out of range
+Problem with cps110fall2017 scratch_06_02 - list index out of range
+Problem with msumoorhead ch_c2_5 - list index out of range
+Problem with msumoorhead gid - list index out of range
+Problem with pip2 ex_2_12 - list index out of range
+Problem with cps110fall2017 scratch_02 - list index out of range
+Problem with cps110fall2017 scratch_08_04 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 question1_2_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 fractions_init - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 fractions_simplify - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_2_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lst_recsum - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 recursion_sc_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 recursion_sc_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_2 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_08_03 - list index out of range
+Problem with msumoorhead ch_c1_8 - list index out of range
+Problem with msumoorhead ch_c1_9 - list index out of range
+Problem with cps110fall2017 scratch_08_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 fractions_is - write() argument must be str, not None
+Problem with cps110fall2017 scratch_08_02 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 fractions_eq1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_9 - write() argument must be str, not None
+Problem with authorguide poll-ex3 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ex_rec_11 - write() argument must be str, not None
+Problem with msumoorhead bok - list index out of range
+Problem with msumoorhead ex_8_1 - list index out of range
+Bad Encoding
+Problem with cps110fall2017 with_ex1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 classes_q1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl_ex_1_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp13_improveconstructor - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp13_classesmid1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp13_points - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_cl_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp13_classes1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_cl_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_q2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_q4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 classes_q7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_cl2_q8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 fractions_gcd - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch12_dict11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_11_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch12_dict4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch12_dict4a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch12_dict5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_11_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 q2_dict_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_11_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_11_03 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_sparse - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_dict3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_11_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 files_while - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_files_q1answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch_files_q3answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 files_for - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 with_ex1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_05_06 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sumofsquares - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_4 - write() argument must be str, not None
+Problem with cps110fall2017 scratch_06_01 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch04_square - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_clsquare - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_clsquare_bad - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_distance1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_distancefinal - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 function_accumulator_pattern - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sq_accum3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_05_04 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question5_4_1p - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 bad_local - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_ut1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 badsquare_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 cl_powerof_bad - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 cl_change_parm - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 function_intro - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_1a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_05_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_1main - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_adv - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_16 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_17 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch01_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_9_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_10_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_7_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_8_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 codelensvid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch01_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 firstexample - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_6_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question1_5_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lst_itsum - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lst_rectostr - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_rec_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lst_st - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 recursion_sc_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lab01_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 l0401 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lab0401a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp12_single - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 histlab - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 seq3nlab1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sin1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sin2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sinlab1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_is3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_3_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 listalias1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 appcon1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 appcon2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 appcon3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_10_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_is4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_concatid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_14 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_9_16 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 listcomp1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_09_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_2_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_4_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_meth2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_13_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_13_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_09_03 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 item_assign - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_03a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_03b - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_for3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_7_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_nest - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_21_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_is1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_is2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_istrace - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_mod3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_mod2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 repref1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 repref2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 repref3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 reprefstep - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_12_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_split1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_split2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_join - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 list_lsys1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_tuple1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_tuple2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_tuple3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_09_07 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_parm1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_parm1_trace - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch09_list1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nested2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_07_03 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_14 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_q_ex3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 db_ex3_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_15 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_16 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_17 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_19 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_20 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp07_newtonswhile - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_21 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_22 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_23 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_07_05 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 iter_randwalk2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_sentinel - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_table1 - write() argument must be str, not None
+Problem with thinkcspy ssum_first_n_2 - list index out of range
+Bad Encoding
+Problem with cps110spring2018 ch07_indef1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_for1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_summation - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 whileloop - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_while2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_while1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_07_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question7_2_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp07_sum2n - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_mod_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 mod_q1_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_mod_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 mod_q3_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_mod_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 randmodvid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chmodule_rand - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chmodule_rand2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_4_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_4_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 vid_modules - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_04 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chmod_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_1_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 turtle_reflect - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_3_12 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 vtest - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_for1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 colorlist - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_4_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_1_0 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_1_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_03 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 forloopvid - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 advrange - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 rangeme - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 rangeme2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_5_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_5_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_5_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_5_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_boolcodelens - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_boolfun1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 vid_turtleintro - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 booleanexpressions - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_boolfun3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_06_03 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch05_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch05_1a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch05_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sel4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_06_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_7_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_7_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 binaryselection - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch05_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_4_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_4_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 q3_question - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 answer_ex_6_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 answer_ex_6_13 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp05_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sel1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sel2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_6_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question11_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_10_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_10_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_10_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch05_barchart - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch06_newarea - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_6_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_6_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch04_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_2_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question5_1_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_5_14 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lab01_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 lab0401aa - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 piguessstart - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 sinlab2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_02 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_5_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_5_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 scratch_09_06 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_20_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_01a - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_6_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_01 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp09_for4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question9_16_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 question4_4_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_forcolor - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 3_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch03_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question3_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_8_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_8_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_6_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_5_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_5_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question6_3_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_ex1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_7 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_2_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ca_id_str - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_15 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_16 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_6_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_6_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_8_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_reassign1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch07_reassign2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_9_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_14 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_20 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question2_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch02_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_run3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_7_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_5 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_8 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_9 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_10 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_11 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_20 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 q21_answer - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ex_8_22 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_2_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_2_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_len2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_len3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_4_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_4_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_4_3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_fun2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_mult - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_1_2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_fun4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_fun6 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_comp1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_comp2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 chp08_ord1 - write() argument must be str, not None
+Bad Encoding/home/bmiller/.virtualenvs/research/lib/python3.8/site-packages/pandas/compat/__init__.py:117: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+
+Problem with cps110spring2018 ch08_ord3 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_3_4 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_imm2 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_7_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 ch08_acc1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_11_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 test_question8_10_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 string_lsys1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nav_question1_1 - write() argument must be str, not None
+Bad Encoding
+Problem with cps110spring2018 nav_question1_2 - write() argument must be str, not None
+Problem with msumoorhead ex_mod_3 - list index out of range
+Problem with msumoorhead sti - list index out of range
+Problem with thinkcspy scratch_05_04 - list index out of range
+Problem with msumoorhead ch_c1_7 - list index out of range
+Problem with thinkcspy ccs_practice_anything - list index out of range
+Problem with pip2 ex_3_2 - list index out of range
+Problem with thinkcspy madlib - can't multiply sequence by non-int of type 'NoneType'
+Problem with thinkcspy ex_9_5 - list index out of range
+Problem with thinkcspy scratch_07_05 - list index out of range
+Problem with pip2 scratch_01 - list index out of range
+Problem with pip2 scratch_11_01 - list index out of range
+Problem with thinkcspy scratch_04 - list index out of range
+Problem with thinkcspy IT105_scratch_01 - list index out of range
+Problem with msumoorhead ex_9_4 - list index out of range
+Problem with thinkcspy scratch_11_02 - list index out of range
+Problem with thinkcspy scratch_05_06 - list index out of range
+Problem with thinkcspy  - [Errno 21] Is a directory: 'thinkcspy/SimplePythonData/Exercises'
+Problem with msumoorhead ex_9_2 - list index out of range
+Problem with thinkcspy scratch_09_01 - list index out of range
+Problem with thinkcspy scratch_09_03 - list index out of range
+Problem with thinkcspy scratch_09_07 - list index out of range
+Problem with thinkcspy scratch_07_03 - list index out of range
+Problem with msumoorhead ex_rec_13 - list index out of range
+Problem with msumoorhead ex_rec_5 - list index out of range
+Problem with msumoorhead ex_rec_9 - list index out of range
+Problem with thinkcspy scratch_07_01 - list index out of range
+Problem with thinkcspy scratch_06_02 - list index out of range
+Problem with thinkcspy scratch_06_03 - list index out of range
+Problem with msumoorhead scratch_07_05 - list index out of range
+Problem with thinkcspy scratch_06_01 - list index out of range
+Problem with msumoorhead ex_8_2 - list index out of range
+Problem with thinkcspy scratch_cl_02 - list index out of range
+Problem with thinkcspy scratch_02 - list index out of range
+Problem with thinkcspy scratch_08_03 - list index out of range
+Problem with thinkcspy scratch_08_01 - list index out of range
+Problem with thinkcspy scratch_08_02 - list index out of range
+Problem with cps110fall2018 scratch_cl_02 - list index out of range
+Problem with pythoned scratch_01_01 - list index out of range
+Problem with pythoned self_check_4 - list index out of range
+Problem with thinkcspy scratch_03 - list index out of range
+Problem with cps110fall2018 scratch_02 - list index out of range
+Problem with msumoorhead classes_q5 - list index out of range
+Problem with msumoorhead tdh - list index out of range
+Problem with cps110spring2019 scratch_cl_01 - list index out of range
+Problem with cps110spring2019 scratch_cl_02 - list index out of range
+Problem with cps110spring2019 scratch_11_02 - list index out of range
+Problem with msumoorhead ex_6_1 - list index out of range
+Problem with cps110spring2019 scratch_05_06 - list index out of range
+Problem with cps110spring2019 scratch_05_04 - list index out of range
+Problem with cps110spring2019 scratch_05_01 - list index out of range
+Problem with thinkcspy scratch_01 - list index out of range
+Problem with cps110spring2019 scratch_01 - list index out of range
+Problem with cps110spring2019 ex_9_5 - list index out of range
+Problem with cps110spring2019 scratch_09_06 - list index out of range
+Problem with cps110spring2019 scratch_09_01 - list index out of range
+Problem with cps110spring2019 scratch_09_03 - list index out of range
+Problem with cps110spring2019 scratch_09_07 - list index out of range
+Problem with cps110spring2019 scratch_07_03 - list index out of range
+Problem with cps110spring2019 scratch_07_05 - list index out of range
+Problem with cps110spring2019 scratch_07_01 - list index out of range
+Problem with cps110spring2019 scratch_04 - list index out of range
+Problem with cps110spring2019 scratch_03 - list index out of range
+Problem with thinkcspy scratch_08_04 - list index out of range
+Problem with cps110spring2019 scratch_06_03 - list index out of range
+Problem with cps110spring2019 scratch_06_02 - list index out of range
+Problem with cps110spring2019 scratch_06_01 - list index out of range
+Problem with cps110spring2019 scratch_02 - list index out of range
+Problem with cps110spring2019 scratch_08_04 - list index out of range
+Problem with cps110spring2019 scratch_08_03 - list index out of range
+Problem with cps110spring2019 scratch_08_01 - list index out of range
+Problem with cps110spring2019 scratch_08_02 - list index out of range
+Problem with fopp act_xkcd_5 - list index out of range
+Problem with cps110spring2019 scratch_11_01 - list index out of range
+Problem with fopp ex_2_7b - list index out of range
+Problem with authorguide cl_ex_null - list index out of range
+Problem with authorguide dnd-ex-2 - list index out of range
+Problem with authorguide empty_block - list index out of range
+Problem with webfundamentals YKACzIrog24 - list index out of range
+Problem with fopp RxNDC0V25iQ - list index out of range
+Problem with fopp 2fYNcqVM7T0 - list index out of range
+Problem with fopp ac7_5_1 - list index out of range
+Problem with fopp JOC_ex_2_7b - list index out of range
+Problem with fopp cluster_km_3 - list index out of range
+Problem with thinkcspy scratch_09_06 - list index out of range
+Problem with thinkcspy scratch_cl_01 - list index out of range
+Problem with thinkcspy scratch_11_01 - list index out of range
+Problem with fopp act_pizza_2 - list index out of range
+Problem with fopp cluster_km_1 - list index out of range
+Problem with fopp cluster_km_2 - list index out of range
+Problem with fopp act_imfunc_1 - list index out of range
+Problem with fopp act_imfunc_2 - list index out of range
+Problem with fopp act_imfunc_3 - list index out of range
+Problem with fopp act_imfunc_4 - list index out of range
+Problem with fopp act_imfunc_5 - list index out of range
+Problem with fopp act_monte_3 - list index out of range
+Problem with fopp act_monte_7 - list index out of range
+Problem with fopp act_monte_8 - list index out of range
+Problem with fopp act_pizza_3 - list index out of range
+Problem with fopp act_pizza_4 - list index out of range
+Problem with fopp act_pizza_5 - list index out of range
+Problem with fopp act_pizza_6 - list index out of range
+Problem with fopp act_tweets_clean - list index out of range
+Problem with fopp act_tweets_build - list index out of range
+Problem with fopp act_tweets_classify - list index out of range
+Problem with fopp act_tweets_score - list index out of range
+Problem with fopp ex_2_7 - list index out of range
+Problem with httlads act_pizza_5 - list index out of range
+Problem with httlads 0tuEEnL61HM - list index out of range
+Problem with httlads act_pizza_4 - list index out of range
+Problem with httlads act_pizza_6 - list index out of range

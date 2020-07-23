@@ -1,0 +1,10 @@
+.. activecode:: itb
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: MoreAboutIteration/SimpleTables
+    :from_source: None
+
+    for i in range(5):
+        for j in range(3):
+            print(i, j)

@@ -1,6 +1,6 @@
 .. mchoice:: arrayEx9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/arrayExam
    :from_source: T
@@ -74,4 +74,3 @@
             array2[a2] = array1[a1];
          }
       }
-

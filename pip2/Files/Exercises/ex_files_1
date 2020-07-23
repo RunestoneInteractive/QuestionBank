@@ -1,0 +1,12 @@
+.. actex:: ex_files_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Files/Exercises
+   :from_source: None
+
+   # Hint: first see if you can write a program that just prints out the number of scores on each line
+
+   # Then, make it print the number only if the number is at least six
+
+   # Then, switch it to printing the name instead of the number

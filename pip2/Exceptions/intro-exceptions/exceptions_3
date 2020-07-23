@@ -1,0 +1,16 @@
+.. activecode:: exceptions_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Exceptions/intro-exceptions
+   :from_source: None
+   :nocanvas:
+
+   try:
+       items = ['a', 'b']
+       third = items[2]
+       print "This won't print"
+   except Exception:
+       print "got an error"
+
+   print "continuing"

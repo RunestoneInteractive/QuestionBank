@@ -1,0 +1,11 @@
+.. fillintheblank:: fillDecVar2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/topic-1-3-variables
+   :from_source: T
+
+   What type should you use for a shoe size like 8.5?
+
+   -    :^\s*double$: Correct.  Any variable that needs to values after the decimal point should be declared as a double.
+        :.*: What type allows for a decimal value

@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_6_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/ListSlices
    :from_source: T
@@ -19,5 +19,3 @@
 
      alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
      print(alist[4:])
-
-

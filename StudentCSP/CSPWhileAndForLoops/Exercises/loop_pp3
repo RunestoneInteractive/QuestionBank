@@ -1,10 +1,9 @@
-
+.. parsonsprob:: loop_pp3
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. parsonsprob:: loop_pp3
    :numbered: left
 
    Order the code to print the numbers from 1 to 10 (inclusive).  This means printing 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -20,4 +19,3 @@
           print(x)
    =====
           print(X) #paired
-   

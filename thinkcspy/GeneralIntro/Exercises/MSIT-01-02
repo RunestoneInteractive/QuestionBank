@@ -1,10 +1,9 @@
-
+.. shortanswer:: MSIT-01-02
    :author: Kevin Austin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. shortanswer:: MSIT-01-02
    :optional:
 
    Briefly explain how an algorithm and a program are different in the space provided below.
@@ -13,4 +12,3 @@
 config values (conf.py): 
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

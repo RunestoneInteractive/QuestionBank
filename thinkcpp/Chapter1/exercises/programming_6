@@ -1,6 +1,6 @@
 .. mchoice:: programming_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter1/exercises
     :from_source: T
@@ -31,4 +31,3 @@
     -   no error
 
         -   Take a closer look at the structure of the code.
-

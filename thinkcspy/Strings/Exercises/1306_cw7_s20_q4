@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw7_s20_q4
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: 1306_cw7_s20_q4
     :autograde: unittest
 
     **Question 4 [PRACTICE]** 

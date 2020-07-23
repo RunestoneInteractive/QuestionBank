@@ -1,6 +1,6 @@
 .. activecode:: qs_ex1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: AdvancedJavascript/mashup
     :from_source: T
@@ -10,4 +10,3 @@
     ~~~~
     def query_string_parser(qs):
         # your code Here
-

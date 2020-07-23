@@ -1,0 +1,9 @@
+.. activecode:: values_2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/Values
+    :from_source: None
+    :nocanvas:
+
+    print "Two tabs after this\tand then newlines\n\nand that's all"

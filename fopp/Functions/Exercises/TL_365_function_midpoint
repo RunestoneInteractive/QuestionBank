@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_midpoint
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -32,4 +32,4 @@
 	     self.assertAlmostEqual(midpoint(lambda x: x**2, 1, 2), _midpoint(lambda x: x**2, 1, 2), 7, 'Checking answer for x**2, x1=1, x2=2')
 	     self.assertAlmostEqual(midpoint(math.exp, -1, 2), _midpoint(math.exp, -1, 2), 7, 'Checking answer for exp(x), x1=-1, x2=2')
 	     self.assertAlmostEqual(midpoint(math.sin, -1, -2), _midpoint(math.sin, -1, -2), 7, 'Checking answer for sin(x), x1=-1, x2=-2')
-   myTests().main()	        
+   myTests().main()

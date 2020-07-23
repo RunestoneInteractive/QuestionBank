@@ -1,6 +1,6 @@
 .. codelens:: deqtest
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: BasicDS/ImplementingaDequeinPython
     :from_source: T
@@ -48,4 +48,3 @@
     d.add_rear(8.4)
     print(d.remove_rear())
     print(d.remove_front())
-

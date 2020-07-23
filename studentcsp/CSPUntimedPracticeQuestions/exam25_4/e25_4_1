@@ -1,6 +1,6 @@
 .. mchoice:: e25_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: Incorrect. Linear search is generally preferred for smaller data.
 
    Which of the following is true about linear and binary search?
-
-

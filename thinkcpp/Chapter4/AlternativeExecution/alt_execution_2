@@ -1,6 +1,6 @@
 .. parsonsprob:: alt_execution_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/AlternativeExecution
    :from_source: T

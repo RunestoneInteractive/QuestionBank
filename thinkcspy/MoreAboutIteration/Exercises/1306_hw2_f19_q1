@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_hw2_f19_q1
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: 1306_hw2_f19_q1
     :language: python
 
     Write a Python function ``isPrime(number)`` that determines if the number given as an 

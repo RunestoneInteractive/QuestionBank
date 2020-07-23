@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch6_3
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
-.. activecode:: KDL_ch6_3
    :autograde: unittest
    :language: python
 
@@ -23,4 +22,4 @@
            self.assertIn('for', self.getEditorText(), 'contains for loop')
            self.assertIn('random.randrange(1,11)', self.getEditorText(), 'gets random')
            self.assertIn('range(3)', self.getEditorText(), 'loops 3 times')
-   myTests().main()    
+   myTests().main()

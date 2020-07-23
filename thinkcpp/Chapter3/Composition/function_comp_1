@@ -1,6 +1,6 @@
 .. mchoice:: function_comp_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/Composition
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Make sure to use the math keywords reserved in C++ when using math functions. Using **cosine** instead of *cos* is incorrect.
 
    Which of these statements has correct syntax?
-

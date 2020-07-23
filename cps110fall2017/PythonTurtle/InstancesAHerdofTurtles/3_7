@@ -1,6 +1,6 @@
 .. parsonsprob:: 3_7
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: PythonTurtle/InstancesAHerdofTurtles
    :from_source: None
@@ -24,4 +24,3 @@
    tina.forward(150)
    =====
    wn.exitonclick()
-

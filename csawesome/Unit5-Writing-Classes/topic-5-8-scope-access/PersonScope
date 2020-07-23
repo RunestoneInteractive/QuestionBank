@@ -1,10 +1,11 @@
 .. activecode:: PersonScope
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-8-scope-access
   :from_source: T
   :language: java
+  :autograde: unittest
 
   Try the following code to see that you cannot access the variables outside of their scope levels in the toString() method. Explain to someone sitting next to you why you can't access these. Try to fix the errors by either using variables that are in scope or moving the variable declarations so that the variables have larger scope.
   ~~~~
@@ -40,3 +41,22 @@
         System.out.println(p1);
      }
   }
+  ====
+  import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testCodeContains(){
+          boolean passed = checkCodeContains("returning instance variables", "return  name + \": \" + email;");
+          assertTrue(passed);
+        }
+
+        @Test
+        public void testCodeContains2(){
+          boolean passed = checkCodeContains("declaration and initialization of id to 0", "int id = 0;");
+          assertTrue(passed);
+        }
+    }

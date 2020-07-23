@@ -1,6 +1,6 @@
 .. activecode:: ac19_2_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TestCases/Testingfunctions
     :from_source: T
@@ -18,5 +18,3 @@
     assert counts['a'] == 6
     # 1 more occurrence of b, so 3 in all
     assert counts['b'] == 3
-
-

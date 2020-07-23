@@ -1,6 +1,6 @@
 .. mchoice:: sks_rev_1
    :author: Shishir Shah
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -11,4 +11,3 @@
    :correct: b
 
    If we make a typo in the filename when using the function "open", which mode will generate an error?
-    

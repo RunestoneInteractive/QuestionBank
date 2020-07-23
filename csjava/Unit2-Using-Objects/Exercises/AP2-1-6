@@ -1,0 +1,26 @@
+.. mchoice:: AP2-1-6
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: An attribute of the scaryMovie class is title.
+   :answer_b: scaryMovie is an instance of the Movie class.
+   :answer_c: Title, director, and rating are instances of the scaryMovie object.
+   :answer_d: An attribute of the Movie instance is scaryMovie
+   :answer_e: Movie is an instance of scaryMovie.
+   :correct: b
+   :feedback_a: scaryMovie is an object, not a class.
+   :feedback_b: scaryMovie is an object which is an instance of the Movie class.
+   :feedback_c: These are attributes of the object or class.
+   :feedback_d: scaryMovie is an instance of the Movie class.
+   :feedback_e: scaryMovie is an instance of the Movie class.
+
+    A student has created a Movie class. The class contains variables to represent the following.
+    - A String variable called title to represent the title of the movie
+    - A String variable called director to represent the director of the movie
+    - A double variable called rating to represent the rating of the movie
+
+    The object scaryMovie will be declared as type Movie.
+    Which of the following descriptions is accurate?

@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_4_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: SimplePythonData/VariableNamesandKeywords
    :from_source: None
@@ -11,4 +11,3 @@
    :feedback_b: -  The + character is not allowed in variable names (everything else in this name is fine).
 
    True or False:  the following is a legal variable name in Python:   A_good_grade_is_A+
-

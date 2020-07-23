@@ -1,6 +1,6 @@
 .. activecode:: sks_hw2_ex5
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -129,4 +129,4 @@
 
             self.assertEqual(actual, expected, "checking output for eToX(" + str(x) + ")")
             
-    myTests().main()     
+    myTests().main()

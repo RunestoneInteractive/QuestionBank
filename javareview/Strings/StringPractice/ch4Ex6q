@@ -1,0 +1,18 @@
+.. activecode::  ch4Ex6q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Strings/StringPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           String name = "Justin";
+           int age = 16;
+           System.out.println();
+
+       }
+   }

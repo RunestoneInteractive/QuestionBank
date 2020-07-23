@@ -1,9 +1,8 @@
 .. clickablearea:: HQ2
     :author: Harsha Madu
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
     :question: Write a programe to add two number together.
     :iscode:
-    

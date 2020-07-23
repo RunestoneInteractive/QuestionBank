@@ -1,0 +1,19 @@
+.. mchoice:: pe4_15
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: TimedTests/test4
+   :from_source: T
+   :answer_a: The value is the first one in the array
+   :answer_b: The value is in the middle of the array
+   :answer_c: The value is at index 1 in the array
+   :answer_d: The value isn’t in the array
+   :answer_e: The value is at index 6 in the array
+   :correct: d
+   :feedback_a: This could take a long time, but there is an answer that takes longer.
+   :feedback_b: This would be true if we were looking for the shortest execution of a binary search
+   :feedback_c: This would be the second value checked if the value at the middle is greater than the desired value.
+   :feedback_d: This will always take the longest when you are doing binary search.
+   :feedback_e: This would be the second value checked if the value at the middle is less than the desired value.
+
+   Which will cause the longest execution of a binary search looking for a value in an array of 9 integers?

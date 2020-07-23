@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_8_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/OrderofOperations
    :from_source: T
@@ -20,5 +20,3 @@
    .. code-block:: python
 
       16 - 2 * 5 // 3 + 1
-
-

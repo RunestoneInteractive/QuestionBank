@@ -1,0 +1,24 @@
+.. mchoice:: NegativeCounter-Python
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: sigcse2019
+   :topic: Directives/multipleChoice
+   :from_source: None
+   :answer_a: 5 4 3 2 1
+   :answer_b: -5 -4 -3 -2 -1
+   :answer_c: -4 -3 -2 -1
+   :correct: c
+   :feedback_a: If x starts at -5 how can the first value printed be 5?
+   :feedback_b: This would be true if the print statement was before we incremented x.
+   :feedback_c: The value of x is incremented before it is printed so the first value printed is -4.
+
+   What does the following code print?
+
+   ::
+
+      output = ""
+      x = -5
+      while x < 0:
+          x = x + 1
+          output = output + str(x) + " "
+      print(output)

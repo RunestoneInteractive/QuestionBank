@@ -1,0 +1,15 @@
+.. mchoice:: test_questionsimple_test_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Testing/intro-TestCases
+   :from_source: None
+   :answer_a: True
+   :answer_b: False
+   :answer_c: It depends
+   :feedback_a: A message is printed out, but the program does not stop executing
+   :feedback_b: A message is printed out, but the program does not stop executing
+   :feedback_c: A message is printed out, but the program does not stop executing
+   :correct: b
+
+   When ``TestCase.assertEqual()`` is passed two values that are not the same, it generates an error and stops execution of the program.

@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_api3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/screenscrape_cids
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :24: Is the correct answer
      :x: Use the keys method after .json() to see the list of keys
-

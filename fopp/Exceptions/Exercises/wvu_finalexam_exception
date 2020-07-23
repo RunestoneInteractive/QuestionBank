@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_exception
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Exceptions/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_exception
     :autograde: unittest
 
     Add exception handling to the **get_value()** function so that it, if an IndexError exeception occurs because the specified index does not exist, the function returns the keyword ``None``. Do not handle any other types of exceptions.    

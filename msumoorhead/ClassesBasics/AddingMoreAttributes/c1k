@@ -1,6 +1,6 @@
 .. activecode:: c1k
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesBasics/AddingMoreAttributes
     :from_source: None
@@ -43,4 +43,3 @@
     p.withdraw(30)
     p.withdraw(20)
     p.statement()
-

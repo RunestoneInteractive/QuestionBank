@@ -1,6 +1,6 @@
 .. activecode:: chp09_tuple2
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Lists/TuplesandMutability
     :from_source: None
@@ -10,5 +10,3 @@
 
     x = (5)
     print(type(x))
-
-

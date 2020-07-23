@@ -1,6 +1,6 @@
 .. codelens:: chp09_concatid
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/ConcatenationandRepetition
     :from_source: T
@@ -11,7 +11,3 @@
     newlist = fruit + numlist
 
     zeros = [0] * 4
-
-
-
-

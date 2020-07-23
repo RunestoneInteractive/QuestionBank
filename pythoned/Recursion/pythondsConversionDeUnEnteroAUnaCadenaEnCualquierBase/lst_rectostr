@@ -1,6 +1,6 @@
 .. activecode:: lst_rectostr
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: Recursion/pythondsConversionDeUnEnteroAUnaCadenaEnCualquierBase
     :from_source: None

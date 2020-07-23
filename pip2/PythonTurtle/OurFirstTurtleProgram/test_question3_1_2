@@ -1,0 +1,15 @@
+.. mchoice:: test_question3_1_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonTurtle/OurFirstTurtleProgram
+   :from_source: None
+   :answer_a: This is simply for clarity.  It would also work to just type "Turtle()" instead of "turtle.Turtle()".
+   :answer_b: The period (.) is what tells Python that we want to invoke a new object.
+   :answer_c: The first "turtle" (before the period) tells Python that we are referring to the turtle module, which is where the object "Turtle" is found.
+   :feedback_a: We must specify the name of the module where Python can find the Turtle object.
+   :feedback_b: The period separates the module name from the object name.  The parentheses at the end are what tell Python to invoke a new object.
+   :feedback_c: Yes, the Turtle type is defined in the module turtle.  Remember that Python is case sensitive and Turtle is different from turtle.
+   :correct: c
+
+   Why do we type ``turtle.Turtle()`` to get a new Turtle object?

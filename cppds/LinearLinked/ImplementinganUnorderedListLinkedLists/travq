@@ -1,6 +1,6 @@
 .. mchoice:: travq
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: LinearLinked/ImplementinganUnorderedListLinkedLists
     :from_source: T

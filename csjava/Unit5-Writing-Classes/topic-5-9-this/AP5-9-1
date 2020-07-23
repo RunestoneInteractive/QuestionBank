@@ -1,0 +1,77 @@
+.. mchoice:: AP5-9-1
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/topic-5-9-this
+    :from_source: T
+    :practice: T
+
+    Consider the following class definitions.
+
+    .. code-block:: java
+
+       public class Pay
+       {
+        private double pay;
+
+        public Pay(double p)
+        {
+            pay = p;
+        }
+
+        public double getPay()
+        {
+            return pay;
+        }
+
+        public void calculatePayWithOvertime()
+        {
+            // this Pay object is passed to the Overtime constructor
+            Overtime ot = new Overtime(this);
+            pay = ot.getOvertimePay();
+        }
+       }
+
+       public class Overtime
+       {
+        private double payWithOvertime;
+
+        public Overtime(Pay p)
+        {
+            payWithOvertime = p.getPay() * 1.5;
+        }
+        public double getOvertimePay()
+        {
+            return payWithOvertime;
+        }
+       }
+
+    The following code segment appears in a class other than Pay or Overtime.
+
+    .. code-block:: java
+
+        Pay one = new Pay(20.0);
+        one.calculatePayWithOvertime();
+        System.out.println(one.getPay());
+
+    What, if anything, is printed as a result of executing the code segment?
+
+    - 10.0
+
+      - The pay starts at 20 and then increases with overtime.
+
+    - 15.0
+
+      - If the pay started at 10, this would be the result.
+
+    - 20.0
+
+      - The pay starts at 20 and then increases with overtime.
+
+    - 30.0
+
+      + Correct! The pay starts at 20 and then increases with overtime by multiplying by 1.5.
+
+    - Nothing is printed because the code will not compile.
+
+      - Incorrect. The code will compile.

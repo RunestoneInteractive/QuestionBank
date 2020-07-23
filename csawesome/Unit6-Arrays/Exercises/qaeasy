@@ -1,6 +1,6 @@
 .. mchoice:: qaeasy
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/Exercises
    :from_source: T
@@ -29,9 +29,3 @@
            a[i] = a[i] * amt;
         } // end while
      } // end method
-
-
-
-
-
-

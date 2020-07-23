@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_7_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: SimplePythonData/Input
    :from_source: None
@@ -21,4 +21,3 @@
      n = input("Please enter your age: ")
      # user types in 18
      print ( type(n) )
-

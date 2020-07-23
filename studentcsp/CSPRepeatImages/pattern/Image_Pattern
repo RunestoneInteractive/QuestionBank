@@ -1,6 +1,6 @@
 .. activecode:: Image_Pattern
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: studentcsp
     :topic: CSPRepeatImages/pattern
     :from_source: T
@@ -33,4 +33,3 @@
     # STEP 7: SHOW THE RESULT
     win = ImageWin(img.getWidth(),img.getHeight())
     img.draw(win)
-

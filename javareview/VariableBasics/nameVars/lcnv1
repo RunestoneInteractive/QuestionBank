@@ -1,0 +1,18 @@
+.. activecode:: lcnv1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/nameVars
+   :from_source: None
+   :language: java
+
+   public class Test
+   {
+      public static void main(String[] args)
+      {
+        int PlayerScore = 0; // variables names using camel case
+        int playerScore = 1;
+        System.out.println(PlayerScore);
+        System.out.println(playerScore);
+      }
+   }

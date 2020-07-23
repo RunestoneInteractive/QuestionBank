@@ -1,6 +1,6 @@
 .. mchoice:: 2D_tables_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter6/two_dimensional_tables
    :from_source: T

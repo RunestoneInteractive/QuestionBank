@@ -1,0 +1,11 @@
+.. fillintheblank:: recFBTracey
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Recursion/rPractice
+   :from_source: None
+
+   What is the value of y in the trace above?
+
+   -    :^81$: Correct!
+        :.*: It is the result of 3 * mystery(3)

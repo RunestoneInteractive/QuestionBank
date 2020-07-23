@@ -1,6 +1,6 @@
 .. mchoice:: 2_1_turle_dir
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
    :from_source: T
@@ -16,4 +16,3 @@
    :feedback_d: Which way does yertle first move in the example above?
 
    Which way does a turtle face when it is first created?
-

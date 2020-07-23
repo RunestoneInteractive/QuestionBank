@@ -1,0 +1,17 @@
+.. mchoice:: 13_1_3_score1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPStringDecisions/decisionStrings
+   :from_source: T
+   :answer_a: You can do better.
+   :answer_b: Good job!
+   :answer_c: Amazing!
+   :answer_d: Nothing is printed
+   :correct: d
+   :feedback_a: This line will only print when score is less than 10.
+   :feedback_b: This line will only print whenever the score is more than 10.
+   :feedback_c: This line will only print whenever the score is more then 20.
+   :feedback_d: When score equals 10 none of the current if statements will be true, so nothing is printed.
+
+   What is printed when the score is 10?

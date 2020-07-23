@@ -1,6 +1,6 @@
 .. parsonsprob:: ch5ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/mixedUpTurtles
    :from_source: T
@@ -24,4 +24,3 @@
    turt = Turtle()
    =====
    turt = turtle() #paired
-

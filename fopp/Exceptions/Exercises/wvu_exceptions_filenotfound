@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_exceptions_filenotfound
     :author: Brian Powell
-    :difficulty: 4.0
+    :difficulty: 4
     :basecourse: fopp
     :topic: Exceptions/Exercises
     :from_source: F
-.. activecode:: wvu_exceptions_filenotfound
     :autograde: unittest
 
     The **read_file()** function below opens the specified filename and returns a list containing each line of its contents.

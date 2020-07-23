@@ -1,6 +1,6 @@
 .. fillintheblank:: act_fb_most_happy
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -11,4 +11,3 @@
    - :Singapore: Is the correct answer
      :Cambodia: Is the least happy country
      :x: Make sure you are summarizing the value with the MAX function
-

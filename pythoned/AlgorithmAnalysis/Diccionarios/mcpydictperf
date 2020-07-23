@@ -1,6 +1,6 @@
 .. mchoice:: mcpydictperf
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: pythoned
   :topic: AlgorithmAnalysis/Diccionarios
   :from_source: None

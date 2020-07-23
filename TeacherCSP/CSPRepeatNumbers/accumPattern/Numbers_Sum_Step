@@ -1,0 +1,17 @@
+.. codelens:: Numbers_Sum_Step
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPRepeatNumbers/accumPattern
+    :from_source: T
+
+    # STEP 1: INITIALIZE ACCUMULATOR
+    sum = 0  # Start out with nothing
+    # STEP 2: GET DATA
+    numbers = range(0,21,2)
+    # STEP 3: LOOP THROUGH THE DATA
+    for number in numbers:
+        # STEP 4: ACCUMULATE
+        sum = sum + number
+    # STEP 5: PROCESS RESULT
+    print(sum)

@@ -1,10 +1,9 @@
-
+.. shortanswer:: remainingQuestions2
    :author: Pauline Lake
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: csawesome
    :topic: GettingStarted/Exercises
    :from_source: F
-.. shortanswer:: remainingQuestions2
    :optional:
 
    Do you have any remaining questions?
@@ -12,4 +11,3 @@
 config values (conf.py): 
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

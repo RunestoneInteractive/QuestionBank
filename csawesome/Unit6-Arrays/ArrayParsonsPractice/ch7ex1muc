@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex1muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayParsonsPractice
    :from_source: T
@@ -20,4 +20,3 @@
        System.out.println(arr[i]);
    =====
    }
-

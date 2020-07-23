@@ -1,6 +1,6 @@
 .. mchoice:: test_question6_5_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Selection/OmittingtheelseClauseUnarySelection
    :from_source: None

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: m2-beautiful-soup
    :author: Kathryn Cunningham
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPPracticeQuestions/Exercises
    :from_source: F
-.. parsonsprob:: m2-beautiful-soup
    :numbered: left
    
 
@@ -27,5 +26,3 @@
     	    urls.append(tag.get(‘img’)) #distractor
    =====
 	return urls
-
-    

@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_count_list
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -24,4 +24,4 @@
                self.assertEqual(count_list(test_list, elem), test_list.count(elem),
 	           "Counting for {} in {}".format(elem, str(test_list)))
 	   self.assertFalse(re.search(r'count *\(', self.getEditorText()), 'Checking for count()')
-   myTests().main()	   
+   myTests().main()

@@ -1,6 +1,6 @@
 .. activecode:: c2a1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/Decorators
     :from_source: None
@@ -27,4 +27,3 @@
     print('changing the exchange rate')
     CAD.changeRate(0.8)
     print(c.exchange(), 'US dollars')
-

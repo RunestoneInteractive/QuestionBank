@@ -1,6 +1,6 @@
 .. parsonsprob:: ch5ex9muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: Conditionals/CondParsonsPractice
    :from_source: None
@@ -36,4 +36,3 @@
    =====
        }
    }
-

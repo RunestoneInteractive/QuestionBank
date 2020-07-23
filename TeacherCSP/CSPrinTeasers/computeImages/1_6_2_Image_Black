@@ -1,6 +1,6 @@
 .. mchoice:: 1_6_2_Image_Black
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPrinTeasers/computeImages
    :from_source: T
@@ -13,4 +13,3 @@
    :feedback_c: Black is the absence of light so setting all colors to 0 results in an all black image since there is no light.
 
    What do you think happens when you set all the colors to 0?  Try adding ``p.setBlue(0)`` and ``p.setGreen(0)`` to the program above after the ``p.setRed(0)`` and run it to check.
-

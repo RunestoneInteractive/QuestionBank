@@ -1,6 +1,6 @@
 .. activecode:: ICE01_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: ICE/ICE01_Test
    :from_source: F
@@ -27,4 +27,3 @@
    print(b-a)                                            # 7. Print the difference
 
    # your code goes here
-

@@ -1,6 +1,6 @@
 .. activecode:: astlab_ast1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Labs/astronomylab
     :from_source: T
@@ -209,4 +209,3 @@
        ss.freeze()
 
     createSSandAnimate()
-

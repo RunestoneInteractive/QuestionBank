@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_wfb_avg_im
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/scrape_cia
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :22.13: Is the correct answer
      :x: Check your answer again
-

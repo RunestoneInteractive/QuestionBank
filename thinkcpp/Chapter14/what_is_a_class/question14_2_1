@@ -1,6 +1,6 @@
 .. mchoice:: question14_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter14/what_is_a_class
    :from_source: T

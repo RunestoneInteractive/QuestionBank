@@ -1,0 +1,33 @@
+.. mchoice:: e24_2_7
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPPracticeQuestions/exam24_2
+   :from_source: T
+   :answer_a: I, II only
+   :answer_b: II, III only
+   :answer_c: I only
+   :answer_d: I, II, III
+   :correct: d
+   :feedback_a: Incorrect. These situations are correct, but there is another correct situtation.
+   :feedback_b: Incorrect. These situations are correct, but there is another correct situtation.
+   :feedback_c: Incorrect. This situation is correct, but there are more correct situations.
+   :feedback_d: Correct. All three of these scenarios occur at the given n.
+
+   Consider the following code snippet that takes a positive integer ‘n’ as input and answer the question that follows
+   ::
+
+    i <- 1
+    REPEAT UNTIL i ≤ n
+       IF i MOD 2 = 1
+           DISPLAY(“ODD”)
+       ELSE
+           DISPLAY(“EVEN”)
+       i <- i + 1
+
+   Which of the following statements are true?
+   ::
+
+    I.   “ODD” is printed n/2 times if n is even
+    II.  “ODD” is printed (n + 1)/2 times if n is odd
+    III. “EVEN” is printed (n - 1)/2 times if n is odd

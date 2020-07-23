@@ -1,0 +1,11 @@
+.. video:: unaryselection
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/OmittingtheelseClauseUnarySelection
+   :from_source: None
+   :controls:
+   :thumb: ../_static/unaryselection.png
+
+   http://media.interactivepython.org/thinkcsVideos/unaryselection.mov
+   http://media.interactivepython.org/thinkcsVideos/unaryselection.webm

@@ -1,6 +1,6 @@
 .. activecode:: vector_of_rand_nums_AC_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter10/vector_of_random_numbers
    :from_source: T

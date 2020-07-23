@@ -1,6 +1,6 @@
 .. actex:: CS152_Accumlator_Pattern
    :author: John Cigas
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -14,6 +14,3 @@
 
    Sorry, there is no automatic test for this practice session. Just print the results.
    ~~~~
-
-
-

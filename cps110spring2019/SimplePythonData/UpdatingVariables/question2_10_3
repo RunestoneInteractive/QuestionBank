@@ -1,6 +1,6 @@
 .. parsonsprob:: question2_10_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: SimplePythonData/UpdatingVariables
    :from_source: None
@@ -10,4 +10,3 @@
    mybankbalance = 100
    mybankbalance = mybankbalance + 34
    print(mybankbalance)
-

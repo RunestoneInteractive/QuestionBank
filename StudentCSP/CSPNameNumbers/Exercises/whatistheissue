@@ -1,6 +1,6 @@
 .. activecode:: whatistheissue
    :author: Steve Tate
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/Exercises
    :from_source: F
@@ -10,5 +10,3 @@
    This is my new question...
    ~~~~
    print("hello world")
-
-    

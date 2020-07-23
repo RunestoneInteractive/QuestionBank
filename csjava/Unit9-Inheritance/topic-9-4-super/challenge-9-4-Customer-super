@@ -1,0 +1,40 @@
+.. activecode:: challenge-9-4-Customer-super
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit9-Inheritance/topic-9-4-super
+   :from_source: T
+   :language: java
+
+   Complete the OnlineCustomer class below which inherits from Customer and adds an email address and override the toString() method.
+   ~~~~
+   public class Customer
+   {
+       private String name;
+       private String address;
+
+       public Customer(String n, String a)
+       {
+          name = n;
+          address = a;
+       }
+
+       public String toString()
+       {
+          return "Name: " + name + "\nAddress: " + address;
+       }
+
+       public static void main(String[] args)
+       {
+          Customer c = new Customer("Fran Santiago", "123 Main St., Anytown, USA");
+          System.out.println(c);
+         // OnlineCustomer c2 = new OnlineCustomer("Jasper Smith", "456 High St., Anytown, USA", "jsmith456@gmail.com");
+          // System.out.println(c2);
+       }
+    }
+
+    // Complete the OnlineCustomer class to inherit from Customer
+    class OnlineCustomer
+    {
+
+    }

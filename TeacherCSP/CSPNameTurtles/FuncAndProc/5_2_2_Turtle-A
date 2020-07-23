@@ -1,6 +1,6 @@
 .. parsonsprob:: 5_2_2_Turtle-A
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameTurtles/FuncAndProc
    :from_source: T
@@ -35,4 +35,3 @@
    =====
    jamal.left(65)
    jamal.forward(45)
-

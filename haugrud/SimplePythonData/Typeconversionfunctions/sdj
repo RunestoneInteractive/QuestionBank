@@ -1,0 +1,10 @@
+.. activecode:: sdj
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: haugrud
+    :topic: SimplePythonData/Typeconversionfunctions
+    :from_source: None
+    :nocanvas:
+
+    print(float("123.45"))
+    print(type(float("123.45")))

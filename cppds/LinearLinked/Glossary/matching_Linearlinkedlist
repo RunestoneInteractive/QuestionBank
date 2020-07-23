@@ -1,6 +1,6 @@
 .. dragndrop:: matching_Linearlinkedlist
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: LinearLinked/Glossary
     :from_source: T

@@ -1,6 +1,6 @@
 .. activecode:: lst_insertion
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: SortSearch/ElOrdenamientoPorInsercion
     :from_source: None

@@ -1,6 +1,6 @@
 .. actex:: self_check_list1
      :author: bmiller
-     :difficulty: 3.0
+     :difficulty: 3
      :basecourse: pythonds3
      :topic: BasicDS/ImplementinganUnorderedListLinkedLists
      :from_source: T
@@ -87,4 +87,3 @@
 
 
      my_list = UnorderedList()
-

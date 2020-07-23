@@ -1,13 +1,11 @@
-
+.. activecode:: more_8
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: more_8
   
     Describe when a programmer should choose to use a while loop over a for 
     loop and vice versa.
 
     ~~~~
-    

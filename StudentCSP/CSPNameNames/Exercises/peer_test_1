@@ -1,6 +1,6 @@
 .. mchoice:: peer_test_1
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
@@ -29,5 +29,3 @@
        list1 = [3, 0, 2, 0, 0]
        mystery(list1)
        print(list1)
-
-   

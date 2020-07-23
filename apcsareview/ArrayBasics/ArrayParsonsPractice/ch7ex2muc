@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex2muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/ArrayParsonsPractice
    :from_source: T
@@ -19,4 +19,3 @@
        System.out.println(arr[i]);
    =====
    }
-

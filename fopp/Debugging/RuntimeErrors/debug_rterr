@@ -1,6 +1,6 @@
 .. activecode:: debug_rterr
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Debugging/RuntimeErrors
     :from_source: T

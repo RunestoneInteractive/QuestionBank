@@ -1,6 +1,6 @@
 .. activecode:: ac19_2_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TestCases/TestingOptionalParameters
     :from_source: T
@@ -8,4 +8,3 @@
 
     assert sorted([1, 7, 4]) == [1, 4, 7]
     assert sorted([1, 7, 4], reverse=True) == [7, 4, 1]
-

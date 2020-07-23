@@ -1,13 +1,11 @@
-
+.. activecode:: more_5
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: more_5
   
     Why is the ‘rightBound’ variable set to the window width divided by two and 
     the ‘leftBound’ variable set to –‘rightBound’?
 
     ~~~~
-    

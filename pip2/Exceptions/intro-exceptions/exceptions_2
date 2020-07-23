@@ -1,0 +1,10 @@
+.. activecode:: exceptions_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Exceptions/intro-exceptions
+   :from_source: None
+   :nocanvas:
+
+   x = 5
+   y = x/0

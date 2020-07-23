@@ -1,10 +1,9 @@
-
+.. activecode:: hill_examS19_4
     :author: Scott Hill
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: BuildingPrograms/Exercises
     :from_source: F
-.. activecode:: hill_examS19_4
 
     Write a function ``speak(animal,number)`` which takes in the name of an animal (either ``cow``, ``dog``, or ``pig``) and a number between 1 and 5, and prints their signature utterance (``moo``, ``woof``, or ``oink``) as many times as ``number`` says.  It should print an error message if you choose another animal, or if the number is outside the range above.
     ~~~~
@@ -14,5 +13,3 @@
 config values (conf.py): 
     : activecode_hide_load_history: True
 - activecode_div_class - custom CSS class of the component's outermost div
-
-    

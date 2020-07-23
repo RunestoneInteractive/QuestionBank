@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_rides_over_60_minutes_by_members
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/filtering
    :from_source: T
@@ -18,4 +18,3 @@
      member_type = 'Member'
    LIMIT
      10
-

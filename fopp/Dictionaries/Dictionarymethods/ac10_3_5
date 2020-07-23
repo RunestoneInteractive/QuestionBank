@@ -1,6 +1,6 @@
 .. activecode:: ac10_3_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Dictionarymethods
     :from_source: T
@@ -11,4 +11,3 @@
     print(inventory.get("cherries"))
 
     print(inventory.get("cherries",0))
-

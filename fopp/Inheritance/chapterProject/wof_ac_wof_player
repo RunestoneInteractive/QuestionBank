@@ -1,6 +1,6 @@
 .. activecode:: wof_ac_wof_player
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/chapterProject
     :from_source: T
@@ -216,4 +216,3 @@
             self.assertEqual(move, 'pass', "When there aren't any possible moves, getMove() should return 'pass'")
 
     MyTests().main()
-

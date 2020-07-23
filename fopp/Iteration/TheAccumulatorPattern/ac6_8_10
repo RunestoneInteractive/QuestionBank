@@ -1,6 +1,6 @@
 .. activecode:: ac6_8_10
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Iteration/TheAccumulatorPattern
     :from_source: T
@@ -19,7 +19,3 @@
 
     # Note: `range` function is already casted as `list` in the textbook
     print(range(5))
-
-
-
-

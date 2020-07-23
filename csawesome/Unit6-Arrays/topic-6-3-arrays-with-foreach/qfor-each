@@ -1,6 +1,6 @@
 .. mchoice:: qfor-each
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/topic-6-3-arrays-with-foreach
    :from_source: T
@@ -35,4 +35,3 @@
    - The code will not compile.
 
      - This code will compile.
-

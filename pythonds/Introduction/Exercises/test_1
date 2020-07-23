@@ -1,10 +1,9 @@
-
+.. activecode:: test_1
    :author: Louie Giambattista
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: pythonds
    :topic: Introduction/Exercises
    :from_source: F
-.. activecode:: test_1
    :nocanvas:  -- do not create a canvas
    :autograde: unittest
    :nopre: -- do not create an output component
@@ -33,4 +32,3 @@
     print("hello world")
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

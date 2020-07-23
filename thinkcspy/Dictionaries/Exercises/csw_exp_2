@@ -1,10 +1,9 @@
-
+.. activecode:: csw_exp_2
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Dictionaries/Exercises
    :from_source: F
-.. activecode:: csw_exp_2
    :autograde: unittest
    :language: python3
 
@@ -28,4 +27,3 @@
          self.assertEqual(phone_dict["Jan"],"555-5678","Tested phone_dict on string 'Jan'")
 
    myTests().testOne()
-     

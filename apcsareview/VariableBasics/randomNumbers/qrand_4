@@ -1,6 +1,6 @@
 .. mchoice:: qrand_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: VariableBasics/randomNumbers
    :from_source: T
@@ -13,5 +13,3 @@
    :feedback_c: Do not use == with double values!  Remember that Math.random can return any number between 0 and not quite 1 (about .99999999).
 
    Which of the following would be true about 75% of the time?
-
-

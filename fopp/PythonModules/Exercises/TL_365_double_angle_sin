@@ -1,6 +1,6 @@
 .. actex:: TL_365_double_angle_sin
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: PythonModules/Exercises
    :from_source: F
@@ -31,4 +31,3 @@
 	   self.assertFalse(re.search(r'(0.70710|math.sin *\( *math.pi */ *4 *\))', editor), 'Checking for hardcoding')
 	   self.assertFalse(re.search(r'( *import *math *as| *from *math)', editor), 'Checking import statement')
    myTests().main()
-

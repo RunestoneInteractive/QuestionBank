@@ -1,0 +1,17 @@
+.. mchoice:: 3_7_2_Assignment_Multiple_Q1
+                   :author: bmiller
+                   :difficulty: 3
+                   :basecourse: StudentCSP
+                   :topic: CSPNameNumbers/walkAssign
+                   :from_source: T
+                   :answer_a: var1 is 45, var2 is 45
+                   :answer_b: var1 is 45, var2 is var1
+                   :answer_c: var1 is 17.3, var2 is 45
+                   :answer_d: var1 is 17.3, var2 is 17.3
+                   :correct: d
+                   :feedback_a: The variable var1 was set to 45, but that gets changed in line 2, before var2 gets set to any value at all.
+                   :feedback_b: Both variables contain numeric values, because those are the only values in this program.
+                   :feedback_c: The variable var2 never gets set to 45 in this program.
+                   :feedback_d: The variable var1 is first set to 45 and then changed to 17.3, and then, var2 gets the value from var1.
+
+                   What are the values in ``var1`` and ``var2`` after this program runs?

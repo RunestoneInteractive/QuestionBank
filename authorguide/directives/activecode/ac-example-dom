@@ -1,6 +1,6 @@
 .. activecode:: ac-example-dom
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/activecode
    :from_source: T
@@ -10,4 +10,3 @@
 
    t = document.getElementById('text1')
    print('value = ', t.value)
-

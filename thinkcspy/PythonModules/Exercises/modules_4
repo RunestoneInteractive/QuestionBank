@@ -1,12 +1,10 @@
-
+.. activecode:: modules_4
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: modules_4
   
     What does the random module give us programmers the ability to do?
 
     ~~~~
-    

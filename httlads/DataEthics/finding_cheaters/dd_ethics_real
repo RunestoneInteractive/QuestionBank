@@ -1,6 +1,6 @@
 .. dragndrop:: dd_ethics_real
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: DataEthics/finding_cheaters
    :from_source: T
@@ -15,4 +15,3 @@
 
    Match the numeric identifiers from the first part of the project with the
    real names.
-

@@ -1,0 +1,17 @@
+.. mchoice:: mc1a
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: haugrud
+   :topic: GeneralIntro/Algorithms
+   :from_source: None
+   :answer_a: To think like a computer.
+   :answer_b: To be able to write code really well.
+   :answer_c: To be able to solve problems.
+   :answer_d: To be really good at math.
+   :correct: c
+   :feedback_a: Computers do not think, they only do what we humans tell them to do via programs.
+   :feedback_b: While it is necessary for most computer scientists to know how to write code, it is not the most important skill.
+   :feedback_c: Computer scientists are all about solving problems.  We use computers to automate solutions to problems and to do things faster and more accurately than we can do by hand or manually.
+   :feedback_d: Computer science and math are similar in many ways and it helps to have a strong mathematical foundation, but you do not have to be good at math to be a good computer scientist.
+
+   What is the most important skill for a computer scientist?

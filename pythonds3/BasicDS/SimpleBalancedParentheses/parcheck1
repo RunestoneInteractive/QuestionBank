@@ -1,6 +1,6 @@
 .. activecode:: parcheck1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: BasicDS/SimpleBalancedParentheses
     :from_source: T
@@ -28,4 +28,3 @@
     print(par_checker("((()()))"))  # expected True
     print(par_checker("(()"))  # expected False
     print(par_checker(")("))  # expected False
-

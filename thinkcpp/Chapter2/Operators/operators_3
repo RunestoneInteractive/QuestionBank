@@ -1,6 +1,6 @@
 .. fillintheblank:: operators_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Operators
    :from_source: T
@@ -11,4 +11,3 @@
      :x: Try again!
    - :[Ii][Nn][Tt][Ee][Gg][Ee][Rr]: Correct!
      :.*: Try again!
-

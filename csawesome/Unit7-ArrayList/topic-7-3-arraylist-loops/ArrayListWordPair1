@@ -1,6 +1,6 @@
 .. activecode:: ArrayListWordPair1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit7-ArrayList/topic-7-3-arraylist-loops
    :from_source: T
@@ -40,4 +40,3 @@
             return "(" + word1 + ", " + word2 + ")";
         }
     }
-

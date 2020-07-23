@@ -1,6 +1,6 @@
 .. activecode:: lst_recstackcpp
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Recursion/StackFramesImplementingRecursion
    :from_source: T

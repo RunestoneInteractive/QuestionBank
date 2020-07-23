@@ -1,10 +1,9 @@
-
+.. parsonsprob:: loop_centered_average-Parsons
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. parsonsprob:: loop_centered_average-Parsons
    :numbered: left
 
    Order the mixed up blocks below on the right side to create a function that will calculate and return a 
@@ -32,4 +31,3 @@
        return rev_total / num_items
    =====
        ret rev_total / num_items #paired
-  

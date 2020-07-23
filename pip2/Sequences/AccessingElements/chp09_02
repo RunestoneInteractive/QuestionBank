@@ -1,0 +1,12 @@
+.. activecode:: chp09_02
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/AccessingElements
+    :from_source: None
+
+    numbers = [17, 123, 87, 34, 66, 8398, 44]
+    print numbers[2]
+    print numbers[9-8]
+    print numbers[-2]
+    print numbers[len(numbers)-1]

@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch6_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
-.. activecode:: KDL_ch6_2
    :autograde: unittest
    :language: python
 
@@ -24,4 +23,4 @@
            self.assertIn('len(magi8)', self.getEditorText(), 'determines length')
            self.assertIn('random.randrange(0,', self.getEditorText(), 'gets random')
            self.assertIn('print(', self.getEditorText(), 'prints')
-   myTests().main()    
+   myTests().main()

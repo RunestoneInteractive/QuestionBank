@@ -1,11 +1,10 @@
-
+.. actex:: suci_turtle_draw_input_2_3
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_draw_input_2_3
 
    Prompt for the user for a 2 pen colors and 2 fill colors. Have turtle draw two separate squares with those pen and fill colors.
    ~~~~
-   # put code here 
+   # put code here

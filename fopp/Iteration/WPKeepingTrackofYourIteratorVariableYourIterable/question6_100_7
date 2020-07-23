@@ -1,6 +1,6 @@
 .. mchoice:: question6_100_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
    :from_source: T
@@ -24,4 +24,3 @@
        t = [9, "setter", 3, "wing spiker", 10, "middle blocker"]
        for z in t:
            print(z)
-

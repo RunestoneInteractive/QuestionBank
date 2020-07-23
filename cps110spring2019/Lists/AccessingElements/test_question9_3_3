@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_3_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Lists/AccessingElements
    :from_source: None
@@ -20,4 +20,3 @@
 
      alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
      print(alist[2][0])
-

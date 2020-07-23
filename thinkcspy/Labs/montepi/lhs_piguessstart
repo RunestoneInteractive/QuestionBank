@@ -1,6 +1,6 @@
 .. activecode:: lhs_piguessstart
         :author: LHS CS Team
-        :difficulty: 0.0
+        :difficulty: 0
         :basecourse: thinkcspy
         :topic: Labs/montepi
         :from_source: F
@@ -25,5 +25,3 @@
             y =
 
         wn.exitonclick()
-
-

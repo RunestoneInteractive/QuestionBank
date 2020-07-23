@@ -1,6 +1,6 @@
 .. activecode:: tdt
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Dictionaries/Sparsematrices
     :from_source: None
@@ -14,4 +14,3 @@
     print(matrix[0][3])
     print(matrix[2][1])
     print(matrix[1][2])
-

@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_exam2_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Dictionaries/Exercises
    :from_source: F
-.. activecode:: KDL_exam2_2
    :autograde: unittest
    :language: python
 
@@ -24,4 +23,4 @@
            self.assertTrue( strcount('abbcccdddd').values().sort()==[1,2,3,4].sort(), 'correct values')
            self.assertTrue( strcount('aabbcaa')=={'a':4,'b':2,'c':1}, 'correct dictionary')
 
-   myTests().main()   
+   myTests().main()

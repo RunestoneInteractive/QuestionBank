@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_mean_duration_trips_with_same_start_and_end
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -15,4 +15,3 @@
    ====
    assert 0,0 == 31217
    assert 0,3 == 5164
-

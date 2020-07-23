@@ -1,6 +1,6 @@
 .. parsonsprob:: Image_Set_Red_100
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatImages/repeatimages
    :from_source: T
@@ -31,8 +31,3 @@
    =====
    win = ImageWin(img.getWidth(),img.getHeight())
    img.draw(win)
-
-
-
-
-

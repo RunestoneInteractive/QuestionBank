@@ -1,6 +1,6 @@
 .. activecode:: ac19_1_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TestCases/intro-TestCases
     :from_source: F
@@ -12,4 +12,3 @@
     import test
     print('testing square function')
     test.testEqual(square(10), 100)
-

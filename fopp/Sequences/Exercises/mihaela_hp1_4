@@ -1,10 +1,9 @@
-
+.. activecode:: mihaela_hp1_4
     :author: Mihaela Sabin
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: Sequences/Exercises
     :from_source: F
-.. activecode:: mihaela_hp1_4
     
     The variable word references the string 'winter'. 
     Use for loops to create new strings with various text effects as follows.
@@ -27,4 +26,3 @@
 
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
-    

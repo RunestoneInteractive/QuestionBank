@@ -1,0 +1,40 @@
+.. mchoice:: qtnt2_9
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: Tests/test2nt
+   :from_source: T
+   :answer_a: Cats!
+   :answer_b: Cats!  Cool!
+   :answer_c: Cool!
+   :answer_d: Cool! Cats!
+   :answer_e: The code results in an error.
+   :correct: c
+   :feedback_a: This would be the case if obj was a Cat at run-time. At run-time, obj is a FluffyCat, so the overwritten method in the Cat class is used.
+   :feedback_b: This would be the case if the display method in FluffyCat used 'super' to call on the display method in the Cat class before it printed "Cool!".
+   :feedback_c: Although obj is declared to be a Cat at compile time, at run-time it is actually a FluffyCat. The overwritten display method defined in the FluffyCat class will be called.
+   :feedback_d: The method has been overwritten in FluffyCat, so the display method present in the Cat Class ("Cats! ") will not be printed.
+   :feedback_e: This code compiles and runs correctly. A FluffyCat IS-A Cat object, so the code will compile and run without issue.
+
+   Consider the following classes ``Cat`` and ``FluffyCat``. What is the result of executing the following code?
+   ``Cat obj = new FluffyCat();``
+
+   ``obj.display();``
+
+   .. code-block:: java
+
+      public class Cat
+      {
+         public String display()
+         {
+            System.out.print("Cats! ");
+         }
+      }
+
+      public class FluffyCat extends Cat
+      {
+         public String display()
+         {
+            System.out.print("Cool!");
+         }
+      }

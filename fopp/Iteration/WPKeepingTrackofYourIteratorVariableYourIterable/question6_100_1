@@ -1,6 +1,6 @@
 .. mchoice:: question6_100_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
    :from_source: T
@@ -24,4 +24,3 @@
        n = ["word", "phrase", 8, ("beam")]
        for item in n:
            print(item)
-

@@ -1,0 +1,36 @@
+.. activecode::  countstars1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit4-Iteration/topic-4-5-loop-analysis
+   :from_source: T
+   :language: java
+   :autograde: unittest
+
+   How many stars are printed out in this loop? How many times does the loop run? Figure it out on paper before you run the code.
+   ~~~~
+   public class CountLoop
+   {
+
+      public static void main(String[] args)
+      {
+          for (int i = 3; i < 7; i++)
+               System.out.print("*");
+      }
+   }
+   ====
+   import static org.junit.Assert.*;
+    import org.junit.*;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+      @Test
+      public void testMain() throws IOException
+      {
+        String output = getMethodOutput("main");
+        String expect = "****\n";
+        boolean passed = getResults(expect, output, "Expected output from main");
+        assertTrue(passed);
+      }
+    }

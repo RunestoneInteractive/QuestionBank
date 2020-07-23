@@ -1,0 +1,8 @@
+.. activecode:: ch01_2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: GeneralIntro/ATypicalFirstProgram
+    :from_source: None
+
+    print "Hello, World!"

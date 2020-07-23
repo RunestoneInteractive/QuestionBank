@@ -1,6 +1,6 @@
 .. fillintheblank:: variables_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Variables
    :from_source: T
@@ -15,4 +15,3 @@
 
    - :[Dd][Ee][Cc][Ll][Aa][Rr][Aa][Tt][Ii][Oo][Nn]: Correct!
      :.*: Try again!
-

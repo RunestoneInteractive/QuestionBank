@@ -1,13 +1,13 @@
 .. activecode:: lccv1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: T
    :language: java
    :autograde: unittest
 
-   Try the code below to see how score is incremented by 1.
+   Try the code below to see how score is incremented by 1. Try substituting 2 instead of 1 to see what happens.
    ~~~~
    public class Test1
    {

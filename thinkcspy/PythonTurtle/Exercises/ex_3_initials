@@ -1,10 +1,9 @@
-
+.. actex:: ex_3_initials
    :author: Gilles Fiers
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. actex:: ex_3_initials
 
    Write a program which makes a turtle write your own initials.
    ~~~~

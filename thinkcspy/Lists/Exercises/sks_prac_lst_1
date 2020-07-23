@@ -1,6 +1,6 @@
 .. activecode:: sks_prac_lst_1
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
@@ -41,4 +41,4 @@
                 self.assertEqual(sumOfCubes(tcopy), self._sumOfCubes(t), "test "+str(i))
                 i += 1
     
-    myTests().main() 
+    myTests().main()

@@ -1,10 +1,9 @@
-
+.. activecode:: MyPay_R
     :author: Gheorghe Ceara
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: csawesome
     :topic: Unit1-Getting-Started/Exercises
     :from_source: F
-.. activecode:: MyPay_R
     :language: java
    
 
@@ -34,6 +33,4 @@
 
 
         }      // end of main
-    }          // end of class 
-
-
+    }          // end of class

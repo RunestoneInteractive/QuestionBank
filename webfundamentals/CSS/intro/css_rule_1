@@ -1,6 +1,6 @@
 .. activecode:: css_rule_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/intro
    :from_source: T
@@ -22,4 +22,3 @@
          <h1>Hello Again</h1>
       </body>
    </html>
-

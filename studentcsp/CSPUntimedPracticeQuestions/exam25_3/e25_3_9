@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -19,4 +19,3 @@
       | I. True AND False
       | II. False or True
       | III. False AND (True or False)
-

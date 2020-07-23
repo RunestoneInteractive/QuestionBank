@@ -1,6 +1,6 @@
 .. parsonsprob:: 14_3_2_vert_stripes
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPTurtleDecisions/oddEven
    :from_source: T
@@ -33,4 +33,3 @@
        sue.goto(index * 10, -1 * maxY)
        sue.pendown()
        sue.forward(height)
-

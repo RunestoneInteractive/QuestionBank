@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_3
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: fopp
   :topic: Functions/Returningavaluefromafunction
   :from_source: T
@@ -21,4 +21,3 @@
 
   print(longer_than_five(list1))
   print(longer_than_five(list2))
-

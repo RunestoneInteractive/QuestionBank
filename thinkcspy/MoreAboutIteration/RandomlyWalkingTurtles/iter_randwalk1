@@ -1,6 +1,6 @@
 .. activecode:: iter_randwalk1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/RandomlyWalkingTurtles
     :from_source: T
@@ -31,4 +31,3 @@
         t.forward(50)
 
     wn.exitonclick()
-

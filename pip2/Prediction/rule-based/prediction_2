@@ -1,0 +1,26 @@
+.. activecode:: prediction_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Prediction/rule-based
+   :from_source: None
+   :nocanvas:
+
+   def final_e(s):
+       return s[-1] == 'e'
+   def final_a(s):
+       return s[-1] == 'a'
+   def final_i(s):
+       return s[-1] == 'i'
+
+   def classify(s):
+       if final_e(s):
+           return "female"
+       if final_a(s):
+           return "female"
+       if final_i(s):
+           return "female"
+       return "male"
+
+   print classify("Mark")
+   print classify("Julie")

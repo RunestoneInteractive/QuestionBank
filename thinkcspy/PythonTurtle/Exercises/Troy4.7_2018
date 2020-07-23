@@ -1,13 +1,10 @@
-
+.. activecode:: Troy4.7_2018
     :author: Shawn Haarer
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: Troy4.7_2018
    
     Practice together with the for loop, range() function, and print() function
     ~~~~
     print("hello world")
-
-    

@@ -1,6 +1,6 @@
 .. activecode:: Turtle_House
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
     :from_source: F
@@ -22,5 +22,3 @@
           world.show(true);
       }
     }
-
-

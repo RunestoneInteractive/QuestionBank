@@ -1,6 +1,6 @@
 .. mchoice:: 7_2_2_Numbers_Repeat1_Q2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPRepeatNumbers/repeatNums
    :from_source: T
@@ -15,5 +15,3 @@
    :feedback_d: You have to have at least one statement in the body of a loop.
 
    What is printed if you change the program above so that lines 4 and 5 are not indented?
-
-

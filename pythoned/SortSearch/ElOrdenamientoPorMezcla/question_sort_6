@@ -1,6 +1,6 @@
 .. mchoice:: question_sort_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: SortSearch/ElOrdenamientoPorMezcla
    :from_source: None

@@ -1,10 +1,9 @@
-
+.. activecode:: letter_counter_130
    :author: Lloyd Smith
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Files/Exercises
    :from_source: F
-.. activecode:: letter_counter_130
    :language: python3
    :nopair:
 
@@ -19,6 +18,3 @@
    Where's the peck of pickled peppers Peter Piper picked?'''
    
    #Add code here to count the letters and print the results.
-
-
-    

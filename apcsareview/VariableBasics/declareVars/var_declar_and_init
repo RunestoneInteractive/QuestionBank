@@ -1,6 +1,6 @@
 .. clickablearea:: var_declar_and_init
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: apcsareview
     :topic: VariableBasics/declareVars
     :from_source: T

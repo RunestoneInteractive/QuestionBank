@@ -1,6 +1,6 @@
 .. mchoice:: mc_comment
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: IntroCpp/firstcppprogram
    :from_source: T
@@ -17,4 +17,3 @@
    :feedback_e: One of the above is correct.
 
    What symbol or set of symbols will begin a comment in C++ when the comment extends only to the end of the line?
-

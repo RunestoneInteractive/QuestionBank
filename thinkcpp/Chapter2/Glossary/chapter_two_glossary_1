@@ -1,6 +1,6 @@
 .. dragndrop:: chapter_two_glossary_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Glossary
    :from_source: T
@@ -9,4 +9,3 @@
    :match_2: value|||A letter, or number, or other thing that can be stored.
    :match_3: type|||A set of values.
    :match_4: keyword|||A reserved word that is used by the compiler to parse programs.
-

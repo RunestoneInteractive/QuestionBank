@@ -1,6 +1,6 @@
 .. activecode:: Gevorderde_Oef1_Functies
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Schrijf een functie aantalCijfers(x) die het aantal cijfers van een ingegeven getal terug geeft.
     ~~~~
-    

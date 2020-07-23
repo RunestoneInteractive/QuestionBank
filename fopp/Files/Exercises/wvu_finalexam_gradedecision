@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_gradedecision
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_gradedecision
     :autograde: unittest
 
     Assume that the final grade for a course is determined based on this scale - A: 900+ points, B: 800-899 points, C: 700-799 points, D: 600-699 points, F: 599 or fewer points.
@@ -24,4 +23,3 @@
             self.assertEqual(get_letter_grade(599), 'F', 'Correct grade for 599 points.')
     
     myTests().main()
-  

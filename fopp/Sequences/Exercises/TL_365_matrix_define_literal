@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_define_literal
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -79,5 +79,4 @@
 	           self.assertAlmostEqual(mat[i][j], ref_mat[i][j], 
 		       7, 
 		       'Checking element {:d} {:d}'.format(i, j))
-   myTests().main() 
-
+   myTests().main()

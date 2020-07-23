@@ -1,6 +1,6 @@
 .. activecode:: ac10_9_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/ChapterAssessment
    :from_source: T
@@ -24,4 +24,3 @@
          self.assertEqual(sorted(golds.items()), sorted([("Italy", 12), ("USA", 33), ("Brazil", 15), ("China", 27), ("Spain", 21), ("Canada", 22), ("Argentina", 8), ("England", 29)]), "Testing that golds has been updated correctly.")
 
    myTests().main()
-

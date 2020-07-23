@@ -1,6 +1,6 @@
 .. activecode:: chp13_classesstr2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesBasics/ConvertinganObjecttoaString
     :from_source: T
@@ -27,4 +27,3 @@
 
     p = Point(7, 6)
     print(p)
-

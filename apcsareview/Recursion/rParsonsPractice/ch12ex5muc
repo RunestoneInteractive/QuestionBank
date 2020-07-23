@@ -1,6 +1,6 @@
 .. parsonsprob:: ch12ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Recursion/rParsonsPractice
    :from_source: T
@@ -28,4 +28,3 @@
    =====
        } //end else
    } //end method
-

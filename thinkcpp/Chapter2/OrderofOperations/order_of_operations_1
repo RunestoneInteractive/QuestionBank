@@ -1,6 +1,6 @@
 .. dragndrop:: order_of_operations_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/OrderofOperations
    :from_source: T
@@ -12,4 +12,3 @@
 
    Match the expression to its correct output. Don't forget to consider integer
    division!
-

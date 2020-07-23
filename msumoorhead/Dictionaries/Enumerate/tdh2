@@ -1,6 +1,6 @@
 .. activecode:: tdh2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: Dictionaries/Enumerate
    :from_source: None
@@ -10,4 +10,3 @@
 
    for movie in zip(title, year):
        print(movie)
-

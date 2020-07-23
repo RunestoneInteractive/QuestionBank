@@ -1,0 +1,15 @@
+.. activecode:: ch09_join
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/SplitandJoin
+    :from_source: None
+
+    wds = ["red", "blue", "green"]
+    glue = ';'
+    s = glue.join(wds)
+    print s
+    print wds
+
+    print "***".join(wds)
+    print "".join(wds)

@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_2_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Lists/ListLength
    :from_source: None
@@ -16,4 +16,3 @@
 
      alist = [3, 67, "cat", 3.14, False]
      print(len(alist))
-

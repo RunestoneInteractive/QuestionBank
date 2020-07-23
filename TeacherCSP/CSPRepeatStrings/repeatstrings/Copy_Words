@@ -1,0 +1,18 @@
+.. activecode:: Copy_Words
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPRepeatStrings/repeatstrings
+    :from_source: T
+    :tour_1: "Lines of code"; 2: strR1-line2; 4: strR1-line4; 6: strR1-line6; 8: strR1-line8; 10: strR1-line10;
+
+    # STEP 1: INITIALIZE ACCUMULATOR
+    newString = ""
+    # STEP 2: GET DATA
+    phrase = "Rubber baby buggy bumpers."
+    # STEP 3: LOOP THROUGH THE DATA
+    for letter in phrase:
+        # STEP 4: ACCUMULATE
+        newString = newString + letter
+    # STEP 5: PROCESS RESULT
+    print(newString)

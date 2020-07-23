@@ -1,6 +1,6 @@
 .. activecode:: string_class_1
  :author: jenkins
- :difficulty: 3.0
+ :difficulty: 3
  :basecourse: cps110fall2018
  :topic: Strings/Characterclassification
  :from_source: None
@@ -10,5 +10,3 @@
  print(string.ascii_uppercase)
  print(string.digits)
  print(string.punctuation)
-
-

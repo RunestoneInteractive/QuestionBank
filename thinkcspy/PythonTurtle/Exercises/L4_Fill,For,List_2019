@@ -1,10 +1,9 @@
-
+.. activecode:: L4_Fill,For,List_2019
     :author: Shawn Haarer
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: L4_Fill,For,List_2019
    
     Create a window or screen named 'wn'
 
@@ -31,5 +30,3 @@
 
 
     exitonclick()
-    
-    

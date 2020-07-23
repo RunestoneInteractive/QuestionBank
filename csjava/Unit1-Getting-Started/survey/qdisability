@@ -1,0 +1,11 @@
+.. poll:: qdisability
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/survey
+   :from_source: T
+   :option_1: yes
+   :option_2: no
+   :option_3: prefer not to answer
+
+   I have a documented disability or student accommodations.

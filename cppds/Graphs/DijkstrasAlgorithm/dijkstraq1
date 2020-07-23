@@ -1,6 +1,6 @@
 .. mchoice:: dijkstraq1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Graphs/DijkstrasAlgorithm
     :from_source: T

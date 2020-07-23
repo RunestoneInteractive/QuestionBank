@@ -1,6 +1,6 @@
 .. activecode:: TL_365_ac_ch13_01
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Classes/Exercises
    :from_source: F
@@ -32,4 +32,4 @@
          self.assertEqual(testTwo.color, "purple", "Testing that testTwo has the correct color assigned.")
          self.assertEqual(testTwo.price, 25.0, "Testing that testTwo has the correct color assigned.")
 
-   myTests().main()       
+   myTests().main()

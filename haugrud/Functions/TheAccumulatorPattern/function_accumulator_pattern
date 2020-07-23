@@ -1,0 +1,11 @@
+.. video:: function_accumulator_pattern
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: haugrud
+   :topic: Functions/TheAccumulatorPattern
+   :from_source: None
+   :controls:
+   :thumb: ../_static/accumulatorpattern.png
+
+   http://media.interactivepython.org/thinkcsVideos/accumulatorpattern.mov
+   http://media.interactivepython.org/thinkcsVideos/accumulatorpattern.webm

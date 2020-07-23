@@ -1,10 +1,9 @@
-
+.. activecode:: Foundations2017-18_Lab_05
     :author: Max Garagnani
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: Foundations2017-18_Lab_05
  
 
     ~~~~
@@ -15,5 +14,3 @@
     for i in range(10):
         x = 3.9 * x * (1 - x)
         print(x)
-
-    

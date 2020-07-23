@@ -1,0 +1,26 @@
+.. activecode:: simple_test_2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Testing/intro-TestCases
+    :from_source: None
+
+    # define the function blanked().
+    # It takes a word and a string of letters that have been revealed.
+    # It should return a string with the same number of characters as
+    # the original word, but with the unrevealed characters replaced by _
+
+    def blanked(word, revealed_letters):
+        return word
+
+    from unittest.gui import TestCaseGui
+
+    class myTests(TestCaseGui):
+
+        def testOne(self):
+            self.assertEqual(blanked('hello', 'elj'), "_ell_", "testing blanking of hello when e,l, and j have been guessed.")
+            self.assertEqual(blanked('hello', ''), '_____', "testing blanking of hello when nothing has been guessed.")
+            self.assertEqual(blanked('ground', 'rn'), '_r__n_', "testing blanking of ground when r and n have been guessed.")
+            self.assertEqual(blanked('almost', 'vrnalmqpost'), 'almost', "testing blanking of almost when all the letters have been guessed.")
+
+    myTests().main()

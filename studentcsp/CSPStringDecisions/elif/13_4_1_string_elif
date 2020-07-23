@@ -1,6 +1,6 @@
 .. parsonsprob:: 13_4_1_string_elif
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPStringDecisions/elif
    :from_source: T

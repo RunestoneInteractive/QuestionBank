@@ -1,10 +1,9 @@
-
+.. shortanswer:: dsstudio-tmertz-python-subclasses
    :author: Thomas Mertz
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: pythonds
    :topic: Introduction/Exercises
    :from_source: F
-.. shortanswer:: dsstudio-tmertz-python-subclasses
    :optional:
 
    Open the Programming Exercises and complete numbers 10 and 11.
@@ -13,4 +12,3 @@
 config values (conf.py):
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

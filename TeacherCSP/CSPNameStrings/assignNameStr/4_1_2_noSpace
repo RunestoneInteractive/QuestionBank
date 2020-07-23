@@ -1,6 +1,6 @@
 .. mchoice:: 4_1_2_noSpace
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameStrings/assignNameStr
    :from_source: T
@@ -19,5 +19,3 @@
      street = "125 Main Street"
      cityState = "Atlanta, GA"
      print(street + "," + cityState)
-
-

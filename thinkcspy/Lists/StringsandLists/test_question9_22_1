@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_22_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/StringsandLists
    :from_source: T
@@ -25,5 +25,3 @@
      for aname in namelist:
          init = init + aname[0]
      print(init)
-
-

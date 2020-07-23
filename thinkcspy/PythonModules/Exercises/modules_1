@@ -1,13 +1,10 @@
-
+.. activecode:: modules_1
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: modules_1
 
     In your own words, describe what a Python module is.
 
     ~~~~
-    
-    

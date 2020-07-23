@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_13_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/ListMethods
    :from_source: T
@@ -21,5 +21,3 @@
      alist.append(True)
      alist.append(False)
      print(alist)
-
-

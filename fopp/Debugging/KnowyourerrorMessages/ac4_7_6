@@ -1,6 +1,6 @@
 .. activecode:: ac4_7_6
         :author: bmiller
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: fopp
         :topic: Debugging/KnowyourerrorMessages
         :from_source: T
@@ -12,4 +12,3 @@
         sum_time = n + m
         time_of_day = sum_time % 12
         print("The time is now", time_of_day)
-

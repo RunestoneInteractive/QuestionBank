@@ -1,6 +1,6 @@
 .. activecode:: forloopfromwhile
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit4-Iteration/topic-4-2-for-loops
    :from_source: T
@@ -53,7 +53,7 @@
         public void testWhile() throws IOException
         {
             String target = "while (*)";
-            boolean passed = checkCodeNotContains("while loop", target);
+            boolean passed = checkCodeNotContainsRegex("while loop", target);
             assertTrue(passed);
         }
 
@@ -61,7 +61,7 @@
         public void testFor() throws IOException
         {
             String target = "for (int * = #; * ? #; *~)";
-            boolean passed = checkCodeContains("for loop", target);
+            boolean passed = checkCodeContainsRegex("for loop", target);
             assertTrue(passed);
         }
     }

@@ -1,6 +1,6 @@
 .. activecode:: ackermann
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Recursion/TheThreeLawsofRecursion
    :from_source: T

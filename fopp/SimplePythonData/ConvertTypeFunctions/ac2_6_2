@@ -1,6 +1,6 @@
 .. activecode:: ac2_6_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: SimplePythonData/ConvertTypeFunctions
     :from_source: T
@@ -8,4 +8,3 @@
 
     print(float("123.45"))
     print(type(float("123.45")))
-

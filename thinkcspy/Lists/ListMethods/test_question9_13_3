@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_13_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/ListMethods
    :from_source: T
@@ -21,5 +21,3 @@
      temp = alist.pop(2)
      temp = alist.pop()
      print(alist)
-
-

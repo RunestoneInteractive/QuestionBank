@@ -1,0 +1,34 @@
+.. activecode:: ee_nested_data_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: NestedData/ExtraExercises
+   :from_source: None
+   :tags: NestedData/NestedDictionaries.rst, NestedData/DebuggingNestedData.rst
+
+   sports = {'swimming': ['butterfly', 'breaststroke', 'backstroke', 'freestyle'], 'diving': ['springboard', 'platform', 'synchronized'], 'track': ['sprint', 'distance', 'jumps', 'throws'], 'gymnastics': {'women':['vault', 'floor', 'uneven bars', 'balance beam'], 'men': ['vault', 'parallel bars', 'floor', 'rings']}}
+
+   # Assign the string 'platform' to the name v1
+
+   # Assign the string 'backstroke' to the name v2
+
+   # Assign the list ['vault', 'floor', 'uneven bars', 'balance beam'] to the name v3
+
+   # Assign the string 'rings' to the name v4
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testA(self):
+         self.assertEqual(v1, 'platform', "Testing that v1 was created correctly.")
+      def testB(self):
+         self.assertEqual(v2, 'backstroke', "Testing that v2 was created correctly.")
+      def testC(self):
+         self.assertEqual(v3, ['vault', 'floor', 'uneven bars', 'balance beam'], "Testing that v3 was created correctly.")
+      def testD(self):
+         self.assertEqual(v4, 'rings', "Testing that v4 was created correctly.")
+
+   myTests().main()

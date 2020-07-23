@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch10_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: F
@@ -23,4 +23,4 @@
            self.assertEqual(scarlet_count, 2, "Checking value of scarlet_count")
 
            
-   myTests().main()   
+   myTests().main()

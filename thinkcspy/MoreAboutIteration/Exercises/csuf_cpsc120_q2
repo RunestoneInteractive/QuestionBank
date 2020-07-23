@@ -1,10 +1,9 @@
-
+.. parsonsprob:: csuf_cpsc120_q2
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-.. parsonsprob:: csuf_cpsc120_q2
 
    Now that you have written the code to output all the even numbers from 0 to 99, use the accumulator pattern to sum the even numbers up in a variable called int sum.
 

@@ -1,6 +1,6 @@
 .. mchoice:: question4_1_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: PythonModules/modules
    :from_source: None
@@ -11,4 +11,3 @@
    :feedback_b: Only turtle, math, and random have been ported to work in activecode at this time.
 
    True / False:  All standard Python modules will work in activecode.
-

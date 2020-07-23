@@ -1,0 +1,19 @@
+.. activecode:: ee_mod_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags:Inheritance/inheritVarsAndMethods.rst,Inheritance/OverrideMethods.rst,Inheritance/InvokingSuperMethods.rst
+
+   numb = [1, 2, 3, 4, 5]
+   exp = []
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOneA(self):
+         self.assertEqual(str(exp), str([2.71828182846, 7.38905609893, 20.0855369232, 54.5981500331, 148.413159103]), "Testing that exp is assigned to correct values.")
+   myTests().main()

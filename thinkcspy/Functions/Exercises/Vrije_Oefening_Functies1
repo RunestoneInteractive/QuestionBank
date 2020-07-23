@@ -1,6 +1,6 @@
 .. activecode:: Vrije_Oefening_Functies1
     :author: Gilles Fiers
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Zonder gebruik te maken van de math module : schrijf een functie dat de absolute waarde weergeeft van een getal.
     ~~~~
-    

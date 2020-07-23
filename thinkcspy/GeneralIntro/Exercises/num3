@@ -1,12 +1,10 @@
-
+.. shortanswer:: num3
    :author: Diana Linville
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. shortanswer:: num3
    :optional:
 
    Write the single line of Python code that will display (output) the word ‘hello’ 
    on the screen (without the quotes).
-    

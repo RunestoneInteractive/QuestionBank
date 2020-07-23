@@ -1,0 +1,18 @@
+.. mchoice:: test_question9_2_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sequences/ListLength
+   :from_source: None
+   :answer_a: 4
+   :answer_b: 5
+   :feedback_a: len returns the actual number of items in the list, not the maximum index value.
+   :feedback_b: Yes, there are 5 items in this list.
+   :correct: b
+
+   What is printed by the following statements?
+
+   .. code-block:: python
+
+     alist = [3, 67, "cat", 3.14, False]
+     print len(alist)

@@ -1,0 +1,17 @@
+.. mchoice:: e25_1_4
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: StudentCSP
+  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: A name
+  :answer_b: A string
+  :answer_c: A function
+  :answer_d: A variable
+  :correct: d
+  :feedback_a: Incorrect. <i>animal_1</i> is the name of the variable, but the type of <i>animal_1</i> is a variable.
+  :feedback_b: Incorrect. The value of <i>animal_1</i> is a string, however, <i>animal_1</i> is a variable assigned to that value.
+  :feedback_c: Incorrect. A function performs an action on variables and returns some result.
+  :feedback_d: Correct. <i>animal_1</i> is a variable with a string as its value.
+
+  Which of the following is *animal_1* an example of?

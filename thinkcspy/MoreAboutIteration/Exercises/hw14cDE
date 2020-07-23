@@ -1,11 +1,9 @@
-
+.. activecode:: hw14cDE
    :author: Damon Ellingston
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-
-.. activecode:: hw14cDE
 
    **Homework 14 part c**
   
@@ -22,4 +20,3 @@
 
 
    ~~~~
-

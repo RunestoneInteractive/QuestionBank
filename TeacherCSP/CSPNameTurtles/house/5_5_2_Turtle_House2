@@ -1,6 +1,6 @@
 .. parsonsprob:: 5_5_2_Turtle_House2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameTurtles/house
    :from_source: T
@@ -55,5 +55,3 @@
    bob.forward(30)
    bob.right(90)
    bob.forward(30)
-
-

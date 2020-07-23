@@ -1,0 +1,74 @@
+.. mchoice:: AP5-2-3
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/topic-5-2-writing-constructors
+    :from_source: T
+    :practice: T
+
+    Consider the following class definition.
+
+    .. code-block:: java
+
+        public class Cat
+        {
+            private String color;
+            private boolean isHungry;
+            /* missing constructor */
+        }
+
+    The following statement appears in a method in a class other than Cat. It is intended to create a new Cat object c with its attributes set to "black" and true. Which of the following can be used to replace  **missing constructor code** in the class definition so that the object c below is correctly created?
+
+    .. code-block:: java
+
+        Cat c = new Cat("black", true);
+
+    - .. code-block:: java
+
+        public Cat(String c, boolean h)
+        {
+            c = "black";
+            h = true;
+        }
+
+      - The constructor should be changing the instance variables, not the local variables.
+
+    - .. code-block:: java
+
+        public Cat(String c, boolean h)
+        {
+            c = "black";
+            h = "true";
+        }
+
+      - The constructor should be changing the instance variables, not the local variables.
+
+    - .. code-block:: java
+
+        public Cat(String c, boolean h)
+        {
+            c = color;
+            h = isHungry;
+        }
+
+      - The constructor should be changing the instance variables, not the local variables.
+
+    - .. code-block:: java
+
+        public Cat(String c, boolean h)
+        {
+            color = black;
+            isHungry = true;
+        }
+
+      - The constructor should be using  the local variables to set the instance variables.
+
+    - .. code-block:: java
+
+        public Cat(String c, boolean h)
+        {
+            color = c;
+            isHungry = h;
+        }
+
+      + Correct!

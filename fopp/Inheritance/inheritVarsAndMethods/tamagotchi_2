@@ -1,6 +1,6 @@
 .. activecode:: tamagotchi_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Inheritance/inheritVarsAndMethods
     :from_source: T

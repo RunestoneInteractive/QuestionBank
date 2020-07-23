@@ -1,6 +1,6 @@
 .. mchoice:: cswt01_q8a
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
@@ -12,7 +12,3 @@
    :random:
 
    8. Show the hexadecimal number corresponding to the following bit pattern: 111 1101 0000 0110
-
-
-
-

@@ -1,6 +1,6 @@
 .. activecode::  parsebuild
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: Trees/ParseTree
     :from_source: T
@@ -45,4 +45,3 @@
 
     pt = buildParseTree("( ( 10 + 5 ) * 3 )")
     pt.postorder()  #defined and explained in the next section
-

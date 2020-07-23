@@ -1,0 +1,17 @@
+.. mchoice:: 13_1_4_score2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPStringDecisions/decisionStrings
+   :from_source: T
+   :answer_a: You can do better.
+   :answer_b: Good job!
+   :answer_c: Amazing!
+   :answer_d: Nothing is printed
+   :correct: b
+   :feedback_a: This line will only print when score is less than 10.
+   :feedback_b: This line will print whenever the score is more than 10, so if the value is 25 it will print first.  And then it will also print "Amazing!".
+   :feedback_c: This line will print whenever the score is more than 20, but another line will print first.
+   :feedback_d: The value 25 is more than 10.
+
+   What is the first thing printed when the score is 25?

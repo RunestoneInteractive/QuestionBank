@@ -1,6 +1,6 @@
 .. activecode:: tdg
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Dictionaries/TuplesasReturnValues
     :from_source: None
@@ -18,6 +18,3 @@
 
     t = circleInfo(10)
     print(t)
-
-
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: act_fb_cookies1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/sentiment_analysis
     :from_source: T
@@ -12,4 +12,3 @@
 
     - :[0].03.*: Is Correct
       :x: Is incorrect
-

@@ -1,6 +1,6 @@
 .. activecode:: BPU_Short_Words
     :author: Jane Weyant
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: SimplePythonData/week1a2
     :from_source: F
@@ -14,5 +14,3 @@
      names = ['Harry','Ron','Hermione','Hagrid', 'Draco','Albus','Luna','Snape','Dobby','Voldemort','Neville']
 
     =====
-
-    

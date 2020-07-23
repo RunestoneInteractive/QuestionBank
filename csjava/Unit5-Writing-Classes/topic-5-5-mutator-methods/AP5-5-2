@@ -1,0 +1,39 @@
+.. mchoice:: AP5-5-2
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit5-Writing-Classes/topic-5-5-mutator-methods
+    :from_source: T
+    :practice: T
+    :answer_a: Replace line 12 with numOfPeople = additionalPeople;
+    :answer_b: Replace line 12 with return additionalPeople;
+    :answer_c: Replace line 12 with additionalPeople += 3;
+    :answer_d: Replace line 10 with public addPeople (int additionalPeople)
+    :answer_e: Replace line 10 with public void addPeople(int additionalPeople)
+    :correct: e
+    :feedback_a: This method should add additionalPeople to numOfPeople.
+    :feedback_b: This method should add additionalPeople to numOfPeople.
+    :feedback_c: This method should add additionalPeople to numOfPeople.
+    :feedback_d: Mutator methods should have a void return type.
+    :feedback_e: Mutator methods should have a void return type.
+
+    In the Party class below, the addPeople method is intended to increase the value of the instance variable numOfPeople by the value of the parameter additionalPeople. The method does not work as intended.
+
+    .. code-block:: java
+
+        public class Party
+        {
+            private int numOfPeople;
+
+            public Party(int n)
+            {
+                numOfPeople = n;
+            }
+
+            public int addPeople(int additionalPeople) // Line 10
+            {
+                numOfPeople += additionalPeople; // Line 12
+            }
+        }
+
+    Which of the following changes should be made so that the class definition compiles without error and the method addPeople works as intended?

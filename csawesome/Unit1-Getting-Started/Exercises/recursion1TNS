@@ -1,35 +1,26 @@
-
+.. activecode:: recursion1TNS
    :author: Tiffani Slutsky
-   :difficulty: 1.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/Exercises
    :from_source: F
-.. activecode:: recursion1TNS
-   #:above: -- put the canvas above the code
-   
    :language: java
+   :practice: T
 
-
-    What is the expected output when this program is run?  After you figure out the answer, run the program.  Use codeLens to help you trace the code.
-    ~~~~
-    public class Example{
-         public static int calc(int x){
-             if(x<=0) return 4;
-             else return 4 + calc(c-4);
+  
+   What is the expected output when this program is run?  After you figure out the answer, run the program.  Use codeLens to help you trace the code.
+   ~~~~
+   public class Example{
+         public static void fun(int x){
+             if(x>10) 
+               System.out.println("Enough");
+             else{ 
+               System.out.println(x);
+               fun(x+2);
+             }
          }
         
          public static void main(String[] args){
-               int ans = calc(8);
-               System.out.println(ans);
+              fun(3);
         }
      }
-
-    ====
-    
-
-config values (conf.py):
-
-- activecode_div_class - custom CSS class of the component's outermost div
-- activecode_hide_load_history - if True, hide the load history button
-- wasm_uri - Path or Full URL to folder containing WASM files for SQL. /_static is default
-    

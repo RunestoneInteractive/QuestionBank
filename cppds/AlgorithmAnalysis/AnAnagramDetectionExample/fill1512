@@ -1,6 +1,6 @@
 .. fillintheblank:: fill1512
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: AlgorithmAnalysis/AnAnagramDetectionExample
     :from_source: T

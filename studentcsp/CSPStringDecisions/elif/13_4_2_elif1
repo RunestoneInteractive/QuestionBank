@@ -1,6 +1,6 @@
 .. mchoice:: 13_4_2_elif1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPStringDecisions/elif
    :from_source: T

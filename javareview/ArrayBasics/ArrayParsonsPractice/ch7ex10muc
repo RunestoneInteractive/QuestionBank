@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex10muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: ArrayBasics/ArrayParsonsPractice
    :from_source: None
@@ -23,13 +23,3 @@
        return result;
    =====
    } //end firstHalf method
-
-
-
-
-
-
-
-
-
-

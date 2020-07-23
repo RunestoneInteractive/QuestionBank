@@ -1,10 +1,9 @@
-
+.. activecode:: func_7
     :author: DANIEL LEE
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_7
   
     Look at the code below and complete this sentence: "___ is a temporary 
     variable because ___."
@@ -24,4 +23,3 @@
     print("The bigger number is... ", maxResult, "!")
 
     ~~~~
-    

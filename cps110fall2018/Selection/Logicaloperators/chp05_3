@@ -1,6 +1,6 @@
 .. activecode:: chp05_3
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: Selection/Logicaloperators
     :from_source: None
@@ -10,4 +10,3 @@
 
     n = 25
     print(n % 2 == 0 or n % 3 == 0)
-

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: WhileLoop2
    :author: Lizzy Scholten
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Projects/Exercises
    :from_source: F
-.. parsonsprob:: WhileLoop2
 
    Put the code pieces in the right order so that the following number sequence is printed: 4 6 8
    -----

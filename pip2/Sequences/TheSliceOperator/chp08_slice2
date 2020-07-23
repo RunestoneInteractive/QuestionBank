@@ -1,0 +1,10 @@
+.. activecode:: chp08_slice2
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/TheSliceOperator
+    :from_source: None
+
+    fruit = "banana"
+    print fruit[:3]
+    print fruit[3:]

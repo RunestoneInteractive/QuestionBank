@@ -1,6 +1,6 @@
 .. fillintheblank:: mov_expensive_movies
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: MovieData/filtering
    :from_source: T
@@ -10,4 +10,3 @@
    - :7208: Is the correct answer
      :7405: Budget should be over (not including) 1 million dollars
      :x: catchall feedback
-

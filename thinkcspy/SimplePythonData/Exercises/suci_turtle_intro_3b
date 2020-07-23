@@ -1,12 +1,10 @@
-
+.. actex:: suci_turtle_intro_3b
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_intro_3b
 
    Add lines to the program so that it draws 4 lines 75 units long that are at right angles. Use your code from the previous two exercises.
    ~~~~
-   import turtle 
-
+   import turtle

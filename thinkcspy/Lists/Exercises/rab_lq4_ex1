@@ -1,6 +1,6 @@
 .. actex:: rab_lq4_ex1
    :author: Richard Bernatz
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Lists/Exercises
    :from_source: F
@@ -26,5 +26,4 @@
            self.assertEqual(decipher_word('^W1ps3p3n3c4nb'), 'Wapsipinicon', "Tested ^W1ps3p3n3c4nb == Wapsipinicon")
            
           
-   myTests().main() 
-    
+   myTests().main()

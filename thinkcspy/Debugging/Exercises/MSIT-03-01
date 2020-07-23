@@ -1,6 +1,6 @@
 .. fillintheblank:: MSIT-03-01
    :author: Kevin Austin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
@@ -10,5 +10,4 @@
 
    -  :small: Good.  "Little-by-little" is generally better than "all at once".
       :little: OK.  But try a similar 5-letter word starting with S .
-      :x: Try again. 
- 
+      :x: Try again.

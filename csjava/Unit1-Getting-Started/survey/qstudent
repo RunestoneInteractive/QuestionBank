@@ -1,0 +1,12 @@
+.. poll:: qstudent
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit1-Getting-Started/survey
+   :from_source: T
+   :option_1: student
+   :option_2: teacher
+   :option_3: other
+   :option_4: prefer not to answer
+
+   I am a :

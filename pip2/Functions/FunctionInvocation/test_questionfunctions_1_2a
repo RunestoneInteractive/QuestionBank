@@ -1,0 +1,21 @@
+.. mchoice:: test_questionfunctions_1_2a
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/FunctionInvocation
+   :from_source: None
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 2
+   :feedback_a: The code only defines the function. Nothing prints until the function is called.
+   :feedback_b: Check again.
+   :feedback_c: When the function is invoked, it will print two lines, but it has only been defined, not invoked.
+   :correct: a
+
+   How many lines will be output by executing this code?
+
+   .. code-block:: python
+
+      def hello():
+         print "Hello"
+         print "Glad to meet you"

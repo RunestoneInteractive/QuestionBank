@@ -1,11 +1,10 @@
-
+.. actex:: suci_draw_1_2
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_draw_1_2
 
    Use turtle to draw 4 squares, each smaller than the last, inside each other but not touching
    ~~~~
-   # put code here 
+   # put code here

@@ -1,6 +1,6 @@
 .. activecode:: debug_syntaxerr
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Debugging/Syntaxerrors
     :from_source: T

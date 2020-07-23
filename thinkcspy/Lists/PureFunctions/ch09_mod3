@@ -1,6 +1,6 @@
 .. codelens:: ch09_mod3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/PureFunctions
     :from_source: T
@@ -15,5 +15,3 @@
 
     things = [2, 5, 9]
     things = doubleStuff(things)
-
-

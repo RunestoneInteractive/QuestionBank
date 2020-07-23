@@ -1,6 +1,6 @@
 .. shortanswer:: ch_6_2
     :author: Moritz Schubert
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Sequences/Exercises
     :from_source: F
@@ -10,5 +10,3 @@
     ``record = ('Ema', 'Stone', 'LA LA Land')``
 
     ``record[0] = 'Emma'``
-
-    

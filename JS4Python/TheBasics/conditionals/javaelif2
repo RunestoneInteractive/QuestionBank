@@ -1,6 +1,6 @@
 .. activecode:: javaelif2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: JS4Python
    :topic: TheBasics/conditionals
    :from_source: T
@@ -21,4 +21,3 @@
             writeln('B');
         } else  writeln('A');
        }
-

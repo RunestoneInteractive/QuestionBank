@@ -1,6 +1,6 @@
 .. mchoice:: test_question5_6_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Functions/FlowofExecutionSummary
    :from_source: None

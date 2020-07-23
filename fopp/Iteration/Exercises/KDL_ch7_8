@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch7_8
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
@@ -23,4 +23,4 @@
            self.assertTrue('i**4' not in self.getEditorText(), "Checking for hardcoding")
            self.assertTrue('i*i*i*i' not in self.getEditorText(), "Checking for hardcoding")
            self.assertTrue(g==(int(i))**4, "Checking for correct answer")
-   myTests().main()   
+   myTests().main()

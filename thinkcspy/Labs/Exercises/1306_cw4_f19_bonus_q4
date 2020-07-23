@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw4_f19_bonus_q4
    :author: Nabeel Bacchus
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Labs/Exercises
    :from_source: F
-.. activecode:: 1306_cw4_f19_bonus_q4
 
    **[Bonus 20 points] Question 4**. The marketing department wants to make your company's annual report more upbeat!
    You have agreed to help them by replacing all occurrences of "good" in the report to "fantastic", and all occurrences of "poor" to "average". 

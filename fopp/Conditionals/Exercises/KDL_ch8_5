@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch8_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: F
@@ -29,4 +29,4 @@
            self.assertIn('if', self.getEditorText(), 'Contains if statement')
           
            
-   myTests().main()   
+   myTests().main()

@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch7_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
-.. activecode:: KDL_ch7_4
    :autograde: unittest
    :language: python
 
@@ -21,4 +20,4 @@
            self.assertIn('for ', self.getEditorText(), 'Contains for loop')
            for x in names:
                self.assertIn(x, self.getOutput(), 'Checking sentence.')
-   myTests().main()    
+   myTests().main()

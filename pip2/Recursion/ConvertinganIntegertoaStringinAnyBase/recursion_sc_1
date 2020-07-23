@@ -1,0 +1,20 @@
+.. actex:: recursion_sc_1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Recursion/ConvertinganIntegertoaStringinAnyBase
+   :from_source: None
+
+   from unittest.gui import TestCaseGui
+   def reverse(s):
+       return s
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(reverse("hello"), "olleh")
+           self.assertEqual(reverse("l"), "l")
+           self.assertEqual(reverse("follow"), "wollof")
+           self.assertEqual(reverse(""), "")
+
+   myTests().main()

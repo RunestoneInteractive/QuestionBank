@@ -1,6 +1,6 @@
 .. actex:: hollins_table_intro_6_ac
    :author: Stephen Wassell
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
@@ -28,4 +28,4 @@
 	   for i in range(len(target)):
 	       for j in range(len(target[i])):
 	           self.assertEqual(table[i][j], target[i][j])
-   myTests().main() 
+   myTests().main()

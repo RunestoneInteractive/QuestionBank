@@ -1,6 +1,6 @@
 .. dragndrop:: sjc5thinkcsg
     :author: Stefan Cook
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: pythonds
     :topic: Introduction/Exercises
     :from_source: F
@@ -13,4 +13,3 @@
     :match_6: 64 ||| print(96&(1<<6))
    
     Matchup the output the to Python code that produced it.
-    

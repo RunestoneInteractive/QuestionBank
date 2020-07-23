@@ -1,6 +1,6 @@
 .. mchoice:: frgia_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit8-2DArray/grayImageA
    :from_source: T
@@ -13,4 +13,3 @@
    :feedback_c: You could use a nested while loop, but since you know the numbers of rows and columns a nested for loop is usually better since with a while loop you could forget to increment the row or column index.
 
    Which loop should you use to solve this problem?
-

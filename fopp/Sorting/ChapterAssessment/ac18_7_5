@@ -1,6 +1,6 @@
 .. activecode:: ac18_7_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Sorting/ChapterAssessment
    :from_source: T
@@ -24,4 +24,3 @@
          self.assertEqual(most_needed, ['granola bars', 'carrots', 'spinach', 'bananas', 'onions', 'coffee', 'apples', 'cereal', 'salsa', 'pasta', 'peanut butter', 'orange juice', 'rice', 'popcorn'], "Testing that most_needed was created correctly.")
 
    myTests().main()
-

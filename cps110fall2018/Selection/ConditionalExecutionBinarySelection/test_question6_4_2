@@ -1,6 +1,6 @@
 .. mchoice:: test_question6_4_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Selection/ConditionalExecutionBinarySelection
    :from_source: None
@@ -22,4 +22,3 @@
          print("TRUE")
      else:
          print("FALSE")
-

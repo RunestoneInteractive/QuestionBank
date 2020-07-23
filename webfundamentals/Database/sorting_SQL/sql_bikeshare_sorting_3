@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_sorting_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/sorting_SQL
     :from_source: T
@@ -17,7 +17,3 @@
       duration
     LIMIT
       10
-
-
-
-

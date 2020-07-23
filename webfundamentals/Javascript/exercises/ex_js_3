@@ -1,6 +1,6 @@
 .. actex:: ex_js_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/exercises
    :from_source: T
@@ -14,4 +14,3 @@
          <ul id="mytable"><li id=0>1</li><li id=1>1</li></ul>
       </body>
    </html>
-

@@ -1,0 +1,16 @@
+.. activecode:: sql_bikeshare_join_1
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: httlads
+    :topic: BikeRental/joining_SQL
+    :from_source: T
+    :language: sql
+    :dburl: /runestone/books/published/httlads/_static/bikeshare.db
+
+
+    SELECT
+      *
+    FROM
+      bikeshare_stations
+    LIMIT
+      10

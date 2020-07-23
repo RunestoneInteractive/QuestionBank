@@ -1,6 +1,6 @@
 .. activecode:: ac10_9_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/ChapterAssessment
    :from_source: T
@@ -24,4 +24,3 @@
          self.assertEqual(belarus, 4, "Testing that belarus is assigned the correct value.")
 
    myTests().main()
-

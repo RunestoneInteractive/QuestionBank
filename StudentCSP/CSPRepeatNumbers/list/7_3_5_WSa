@@ -1,0 +1,23 @@
+.. activecode::  7_3_5_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPRepeatNumbers/list
+    :from_source: T
+    :nocodelens:
+
+    # DEFINE THE FUNCTION
+    def summation(endvalue):
+      # INITIALIZE ACCUMULATOR
+      sum = 0
+      # NAME DATA
+      numbers = range(1, endvalue +1)
+      # LOOP THROUGH DATA
+      for number in numbers:
+        # ACCUMULATE
+        sum = sum + number
+      # RETURN SUM
+      return sum
+
+    # PRINT RESULT
+    print(summation(10))

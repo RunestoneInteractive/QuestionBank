@@ -1,10 +1,9 @@
-
+.. activecode:: er1002
     :author: Eric Reed
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: PythonModules/Exercises
     :from_source: F
-.. activecode:: er1002
    
     Write a program that spins a "Magic Eight Ball."
     The user thinks of a question and then runs the program.

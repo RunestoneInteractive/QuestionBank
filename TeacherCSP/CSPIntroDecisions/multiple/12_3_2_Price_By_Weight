@@ -1,6 +1,6 @@
 .. parsonsprob:: 12_3_2_Price_By_Weight
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPIntroDecisions/multiple
    :from_source: T
@@ -24,4 +24,3 @@
    print(weight)
    print(price)
    print(total)
-

@@ -1,6 +1,6 @@
 .. codelens:: ch07_while2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/ThewhileStatement
     :from_source: T
@@ -16,5 +16,3 @@
         return theSum
 
     print(sumTo(4))
-
-

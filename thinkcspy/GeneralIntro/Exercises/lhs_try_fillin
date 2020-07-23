@@ -1,10 +1,9 @@
-
+.. fillintheblank:: lhs_try_fillin
         :author: LHS CS Team
-        :difficulty: 1.0
+        :difficulty: 1
         :basecourse: thinkcspy
         :topic: GeneralIntro/Exercises
         :from_source: F
-    .. fillintheblank:: lhs_try_fillin
 
         Complete the sentence: |blank| had a |blank| lamb. One plus one is: (note that if there aren't enough blanks for the feedback given, they're added to the end of the problem. So, we don't **need** to specify a blank here.)
 
@@ -16,4 +15,3 @@
         -   :2: Right on! Numbers can be given in decimal, hex (0x10 == 16), octal (0o10 == 8), binary (0b10 == 2), or using scientific notation (1e1 == 10), both here and by the user when answering the question.
             :2 1: Close.... (The second number is a tolerance, so this matches 1 or 3.)
             :x: Nope. (As earlier, this matches anything.)
-    

@@ -1,6 +1,6 @@
 .. activecode:: cturtle_geometry_ac_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cpp4python
     :topic: Turtles/geometry_shapes_stamps
     :from_source: T

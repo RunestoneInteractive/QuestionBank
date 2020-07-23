@@ -1,0 +1,8 @@
+.. shortanswer:: BigO
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: pythonds
+   :topic: Graphs/DiscussionQuestions
+   :from_source: T
+
+   5. Derive the Big-O running time for the topological sort algorithm.

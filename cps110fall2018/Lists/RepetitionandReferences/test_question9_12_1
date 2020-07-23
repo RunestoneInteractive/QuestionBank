@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_12_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2018
    :topic: Lists/RepetitionandReferences
    :from_source: None
@@ -20,4 +20,3 @@
      blist = alist * 2
      blist[3] = 999
      print(alist)
-

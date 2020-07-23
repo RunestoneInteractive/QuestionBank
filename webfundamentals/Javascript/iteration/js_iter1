@@ -1,6 +1,6 @@
 .. activecode:: js_iter1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/iteration
    :from_source: T
@@ -9,4 +9,3 @@
    for(i = 0; i < 10; i++) {
        writeln("the number is " + i)
    }
-

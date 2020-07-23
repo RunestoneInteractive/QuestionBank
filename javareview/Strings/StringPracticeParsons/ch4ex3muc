@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex3muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: Strings/StringPracticeParsons
    :from_source: None
@@ -28,4 +28,3 @@
    } // end of class
    =====
            System.out.println(Name); #distractor
-

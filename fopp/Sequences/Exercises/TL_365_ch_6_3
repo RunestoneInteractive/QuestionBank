@@ -1,6 +1,6 @@
 .. actex:: TL_365_ch_6_3
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -21,4 +21,3 @@
            self.assertEqual(output, 'k', 'Checking if assigned variable gives correct value')
            self.assertFalse(re.search(r'output *= *["\']k["\']', self.getEditorText()), "Checking for hardcoding")
    myTests().main()
-

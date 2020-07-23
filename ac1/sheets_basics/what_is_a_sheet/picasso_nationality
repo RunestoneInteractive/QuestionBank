@@ -1,6 +1,6 @@
 .. mchoice:: picasso_nationality
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sheets_basics/what_is_a_sheet
    :from_source: T
@@ -22,4 +22,3 @@
    - Italian
 
      - Incorrect
-

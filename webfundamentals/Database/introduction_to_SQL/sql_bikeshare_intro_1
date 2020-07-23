@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_intro_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/introduction_to_SQL
     :from_source: T
@@ -13,7 +13,3 @@
       trip_data
     LIMIT
       10
-
-
-
-

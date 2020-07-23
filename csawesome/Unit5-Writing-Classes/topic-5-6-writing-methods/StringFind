@@ -1,6 +1,6 @@
 .. activecode:: StringFind
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
   :from_source: T
@@ -89,9 +89,9 @@
 
          @Test
         public void test3()
-        {   String code = getCode();
+        {   String code = removeSpaces(getCode());
             boolean passed = code.contains("count++;") ||
-            code.contains("count = count + 1;") || code.contains("count = 1 + count;") || code.contains("count += 1;") || code.contains("++count;");
+            code.contains("count=count+1;") || code.contains("count=1+count;") || code.contains("count+=1;") || code.contains("++count;");
             passed = getResults("count incremented",Boolean.toString(passed),"Count incremented?", passed);
             assertTrue(passed);
         }

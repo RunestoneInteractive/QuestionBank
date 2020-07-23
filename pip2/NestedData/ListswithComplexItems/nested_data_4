@@ -1,0 +1,10 @@
+.. codelens:: nested_data_4
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: NestedData/ListswithComplexItems
+    :from_source: None
+
+    nested1 = [['a', 'b', 'c'],['d', 'e'],['f', 'g', 'h'], ['i']]
+    nested1[1] = [1, 2, 3]
+    nested1[1][0] = 100

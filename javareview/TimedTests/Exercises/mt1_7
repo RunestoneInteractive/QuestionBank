@@ -1,0 +1,26 @@
+.. mchoice:: mt1_7
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/Exercises
+   :from_source: None
+   :answer_a: { 1, 2, 5, 4, 3 }
+   :answer_b: { 1, 2, 5, 4, 5 }
+   :answer_c: { 5, 4, 1, 2, 3 }
+   :answer_d: { 1, 2, 4, 4, 3 }
+   :answer_e: { 1, 4, 3, 2, 5 }
+   :correct: a
+   :feedback_a: Correct!
+   :feedback_b: Incorrect. Remember that arrays are indexed from 0.
+   :feedback_c: Incorrect, temp is used to hold the value from index 2 and that value is put in index 4.
+   :feedback_d: Nums at index 2 is set to the value of nums at index 4, not just the value 4.
+   :feedback_e: Incorrect. Remember that arrays are indexed from 0.
+
+   What are the contents of nums after the following code is executed?
+
+   .. code-block:: java
+
+      int [] nums = { 1, 2, 3, 4, 5 };
+      int temp = nums[2];
+      nums[2] = nums[4];
+      nums[4] = temp;

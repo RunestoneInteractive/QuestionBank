@@ -1,6 +1,6 @@
 .. activecode:: ac3_7_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: PythonTurtle/AFewMoreturtleMethodsandObservations
     :from_source: T
@@ -21,4 +21,3 @@
         tess.right(24)              # and turn her
         dist = dist + 2
     wn.exitonclick()
-

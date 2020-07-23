@@ -1,6 +1,6 @@
 .. activecode:: divisionErr_cpp
   :author: Brad Miller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Introduction/ExceptionHandling
   :from_source: F

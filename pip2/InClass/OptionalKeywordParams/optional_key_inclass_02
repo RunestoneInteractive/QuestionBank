@@ -1,0 +1,18 @@
+.. activecode:: optional_key_inclass_02
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/OptionalKeywordParams
+    :from_source: None
+
+    # here is a function count_vowels
+    def count_vowels(s):
+        vowels = ['a', 'e', 'i', 'o', 'u']
+        ct=0
+        for ch in s:
+            if ch in vowels:
+                ct = ct + 1
+        return ct
+
+    # Example invocation and print statement
+    print count_vowels("supercalifragilisticexpialidocious")

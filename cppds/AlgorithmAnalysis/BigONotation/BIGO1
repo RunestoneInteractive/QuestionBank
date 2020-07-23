@@ -1,6 +1,6 @@
 .. mchoice:: BIGO1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: AlgorithmAnalysis/BigONotation
     :from_source: T
@@ -19,4 +19,3 @@
     The Big O of a particular algorithm is :math:`O(log_{2}n)`.
     Given that it takes 2 seconds to complete the algorithm with 3 million inputs;
     how long would it take with 4 million inputs?
-

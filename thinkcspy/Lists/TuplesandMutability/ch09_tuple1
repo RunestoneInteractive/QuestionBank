@@ -1,6 +1,6 @@
 .. activecode:: ch09_tuple1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/TuplesandMutability
     :from_source: T
@@ -17,4 +17,3 @@
 
     julia = julia[:3] + ("Eat Pray Love", 2010) + julia[5:]
     print(julia)
-

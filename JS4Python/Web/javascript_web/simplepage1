@@ -1,6 +1,6 @@
 .. activecode:: simplepage1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: JS4Python
    :topic: Web/javascript_web
    :from_source: T
@@ -17,4 +17,3 @@
             </script>
        </body>
    </html>
-

@@ -1,6 +1,6 @@
 .. mchoice:: transforming_seq_irma_q2
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: F
@@ -24,4 +24,3 @@
     a = ["holiday", "celebrate!"]
     b = a
     b.append("company")
-    

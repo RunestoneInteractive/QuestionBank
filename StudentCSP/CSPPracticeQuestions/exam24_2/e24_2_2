@@ -1,0 +1,24 @@
+.. mchoice:: e24_2_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPPracticeQuestions/exam24_2
+   :from_source: T
+   :answer_a: I only
+   :answer_b: I, III only
+   :answer_c: II, III only
+   :answer_d: I, II, III
+   :correct: b
+   :feedback_a: Incorrect. The Internet does allow for quick spread of information, but it also can be accessed from different devices (phones, laptops, desktops, etc.)
+   :feedback_b: Correct. This is correct because The Internet is not made with security built-in, rather spread of informaton and availability are key goals.
+   :feedback_c: Incorrect. This is incorrect because the Internet is not made with security built-in.
+   :feedback_d: Incorrect. This is incorrect because the Internet is not made with security built-in.
+
+   Which of the following statements is true regarding the benefits of using the internet?
+   ::
+
+    I.   The Internet allows information to be spread quickly from person to
+    person.
+    II.  Internet users’ private information is protected regardless of
+    what they do on the Internet.
+    III. The Internet can be used from a variety of devices.

@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch7_6
    :author: Kaelyn Leake
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
-.. activecode:: KDL_ch7_6
    :autograde: unittest
    :language: python
    
@@ -24,4 +23,4 @@
            self.assertIn(str(a)[:10], self.getOutput(), 'Checking sentence.')
            self.assertTrue(strg==a,feedback="names is long enough")
            self.assertIn('for ', self.getEditorText(), 'Contains for loop')
-   myTests().main()    
+   myTests().main()

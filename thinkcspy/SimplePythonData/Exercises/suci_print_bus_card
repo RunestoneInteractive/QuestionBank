@@ -1,10 +1,9 @@
-
+.. actex:: suci_print_bus_card
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_print_bus_card
 
    Write code that will print a business card like the one in the G-classroom attachment
    ~~~~

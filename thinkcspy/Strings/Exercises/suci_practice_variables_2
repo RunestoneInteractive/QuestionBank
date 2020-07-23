@@ -1,11 +1,10 @@
-
+.. actex:: suci_practice_variables_2
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: F
-.. actex:: suci_practice_variables_2
 
    Write a program that will print your last name using the variable last_name.
    ~~~~
-   # put code here 
+   # put code here

@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch11_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Dictionaries/Exercises
    :from_source: F
@@ -23,4 +23,4 @@
            self.assertEqual(lower_upper_count('This String Has MANY upper and LOWER case letters'),{'lower': 29, 'upper': 12},"the correct count for 'This String Has MANY upper and LOWER case letters'")
 
            
-   myTests().main()   
+   myTests().main()

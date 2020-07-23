@@ -1,10 +1,9 @@
-
+.. activecode:: CS152_Generic_code_window
     :author: John Cigas
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Labs/Exercises
     :from_source: F
-.. activecode:: CS152_Generic_code_window
 
     Write the code assigned in class.
     ~~~~

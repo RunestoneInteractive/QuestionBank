@@ -1,0 +1,16 @@
+.. activecode:: interpolation_5
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/Interpolation
+   :from_source: None
+
+   # this works
+   names = ["Jack","Jill","Mary"]
+   for n in names:
+       print "'{}!' she yelled. '{}! {}, {}!'".format(n,n,n,"say hello")
+
+   # but this also works!
+   names = ["Jack","Jill","Mary"]
+   for n in names:
+       print "'{0}!' she yelled. '{0}! {0}, {1}!'".format(n,"say hello")

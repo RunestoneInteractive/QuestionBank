@@ -1,6 +1,6 @@
 .. activecode:: MSIT-03-04
    :author: Kevin Austin
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
@@ -14,4 +14,3 @@
     Plan the code change(s) necessary to fix the issue(s)
     Implement and test each code change in some logical order
     Repeat the process until the desired program behavior is achieved
-

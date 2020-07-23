@@ -1,0 +1,26 @@
+.. mchoice:: pe3_17
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: TimedTests/test3
+   :from_source: T
+   :answer_a: 1 1 1 2 2 1 2 2 3 1 3 2 4 1 4 2 5 1 5 2
+   :answer_b: 1 2 2 4 3 6 4 8
+   :answer_c: 1 1 1 2 2 1 2 2 3 1 3 2 4 1 4 2
+   :answer_d: 5 10 15 4 8 12 3 6 9 2 4 6 1 2 3
+   :answer_e: 1 2 2 4 3 6 4 8 5 10
+   :correct: e
+   :feedback_a: This would be true if line 3 was: System.out.print(j + " " + k + " ");
+   :feedback_b: This would be true if line 1 was: for (int j = 1; j < 5; j++).
+   :feedback_c: This would be true if line 1 was: for (int j = 1; j < 5; j++) and if line 3 was: System.out.print(j + " " + k + " ");
+   :feedback_d: This would be true if line 1 was: for (int j = 5; j >=1; j--) and line 2 was: for (int k = 1; k <= 3; k++).
+   :feedback_e: This prints j * k and for each value of j from 1 to 5, k changes from 1 to 2.  So when j is 1 it will print 1 2.  When j is 2 it will print 2 4.  When j is 3 it will print 3 6.  When j is 4 it will print 4 8.  When j is 5 it will print 5 10.
+
+   What is the output from the following code segment?
+
+   .. code-block:: java
+
+      for (int j = 1; j <=5; j++) {
+         for (int k = 1; k < 3; k++)
+            System.out.print(j * k + " ");
+      }

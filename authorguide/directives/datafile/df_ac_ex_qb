@@ -1,6 +1,6 @@
 .. activecode:: df_ac_ex_qb
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/datafile
    :from_source: T
@@ -15,4 +15,3 @@
        print('QB ', values[0], values[1], 'had a rating of ', values[10] )
 
    qbfile.close()
-

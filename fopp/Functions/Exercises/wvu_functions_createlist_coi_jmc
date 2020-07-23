@@ -1,0 +1,32 @@
+.. activecode:: wvu_functions_createlist_coi_jmc
+   :author: Jonny Comes
+   :difficulty: 0
+   :basecourse: fopp
+   :topic: Functions/Exercises
+   :from_source: F
+   :autograde: unittest
+
+   Write a function named ``odds_below`` that will generate a list containing every odd number between 0 and a number specified by the user, excluding the user-specified number. 
+   For example, calling ``odds_below(9)`` should return ``[1, 3, 5, 7]``. 
+   ~~~~
+
+   ====
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+      def testOne(self):
+         self.assertEqual(type(odds_below(2)), type([1]), "Checking the function returns a list")
+         def sorted_odds(bound):
+             odds = odds_below(bound)
+             odds.sort()
+             return odds
+         def answer(bound):
+             return [2*i + 1 for i in range(bound//2)]
+         self.assertEqual(sorted_odds(2), answer(2), "Checking odds_below(2)")
+         self.assertEqual(sorted_odds(5), answer(5), "Checking odds_below(5)")
+         self.assertEqual(sorted_odds(8), answer(8), "Checking odds_below(8)")
+         self.assertEqual(sorted_odds(9), answer(9), "Checking odds_below(9)")
+         self.assertEqual(sorted_odds(200), answer(200), "Checking larger values")
+         self.assertEqual(sorted_odds(255), answer(255), "Checking larger values")
+         self.assertEqual(sorted_odds(13580), answer(13580), "Checking larger values")
+   myTests().main()

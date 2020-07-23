@@ -1,6 +1,6 @@
 .. fillintheblank:: un_bg_numwords
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: UNGeneralDebates/graph_relations
    :from_source: T
@@ -12,4 +12,3 @@
    - :24: Is the correct answer
      :23: You may be missing the United States of America
      :x: Use str.split to create a list of words for each country name.
-

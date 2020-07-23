@@ -1,6 +1,6 @@
 .. fillintheblank:: candy_least_expensive
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/minimum_and_maximum
    :from_source: T
@@ -10,4 +10,3 @@
    - :Tootsie Roll Midgies: Correct
      :Tootsie Roll Juniors: Incorrect: Include the first row in the range.
      :x: Incorrect
-

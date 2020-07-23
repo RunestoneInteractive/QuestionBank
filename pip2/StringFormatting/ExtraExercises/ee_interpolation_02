@@ -1,0 +1,22 @@
+.. activecode:: ee_interpolation_02
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   name = "Oreo"
+   breed = "poodle"
+   str1 = "This is {}, he is a {}."
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(str1, "This is Oreo, he is a poodle.", "Testing that str1 is assigned to correct value")
+
+   myTests().main()

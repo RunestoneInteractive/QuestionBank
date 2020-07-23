@@ -1,6 +1,6 @@
 .. activecode:: chp13_classes2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Classes/UserDefinedClasses
     :from_source: T
@@ -20,4 +20,3 @@
     print(q)
 
     print(p is q)
-

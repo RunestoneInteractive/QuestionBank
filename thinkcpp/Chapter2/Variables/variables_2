@@ -1,6 +1,6 @@
 .. dragndrop:: variables_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Variables
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: int x;|||10
 
    Match the variable to the kind of value it can store.
-

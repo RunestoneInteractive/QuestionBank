@@ -1,6 +1,6 @@
 .. mchoice:: cswt01_q6a
    :author: Lloyd Smith
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
@@ -12,5 +12,3 @@
    :random:
 
    6. Show the bit pattern corresponding to the following hexadecimal number: 46EA
-
-

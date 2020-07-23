@@ -1,6 +1,6 @@
 .. activecode:: CS152-Operators-Candy-1
    :author: John Cigas
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -27,5 +27,3 @@
 
    # Print out the number of number of pieces per child and the amount left over.
    # Make sure you print out text too so that the user knows what is being printed out.
-
-

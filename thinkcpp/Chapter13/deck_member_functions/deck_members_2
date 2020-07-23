@@ -1,6 +1,6 @@
 .. parsonsprob:: deck_members_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter13/deck_member_functions
    :from_source: T

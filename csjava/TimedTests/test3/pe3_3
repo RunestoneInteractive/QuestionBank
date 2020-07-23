@@ -1,0 +1,31 @@
+.. mchoice:: pe3_3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: TimedTests/test3
+   :from_source: T
+   :answer_a: [9, 3, 17, 2, 16, 4, 1]
+   :answer_b: [1, 4, 16, 2, 17, 3, 9]
+   :answer_c: [9, 3, 17, 16, 4, 1, 2]
+   :answer_d: [16, 4, 1, 9, 3, 17, 2]
+   :answer_e: [2, 16, 4, 1, 9, 3, 17]
+   :correct: d
+   :feedback_a: This would be true if it moved all of the values from the front to the back.  But does it?
+   :feedback_b: This would be true if the code reversed the list.  But does it?   Remember that remove(0) removes the first item in the list and returns it.  The add method adds the item to the end of the list.
+   :feedback_c: This would be true if only the value 2 was moved to the end of the list.  Is that what this code does?
+   :feedback_d: This code moves the first item to the end of the list 4 times.  So it moves the 9, 3, 17, and 2.
+   :feedback_e: This would be true if the call was mystery(3) instead of mystery(4).  Then it would move the first 3 values in the list to the end of the list.
+
+   Assume that list has been initialized with the following Integer objects: [9, 3, 17, 2, 16, 4, 1].  Which of the following shows the values in list after a call of mystery(4)?
+
+   .. code-block:: java
+
+      private List list<Integer>;
+      public void mystery(int n)
+      {
+         for (int i= 0; i < n; i++)
+         {
+            Object obj = list.remove(0);
+            list.add((Integer)obj);
+         }
+      }

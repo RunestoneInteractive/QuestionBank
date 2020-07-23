@@ -1,6 +1,6 @@
 .. parsonsprob:: pointer_1_Q1
    :author: Matthew Zuniga
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: AtomicData/Exercises
    :from_source: F
@@ -24,4 +24,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

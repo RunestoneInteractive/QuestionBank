@@ -1,6 +1,6 @@
 .. mchoice:: test_question3_5_3
   :author: jenkins
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cps110spring2019
   :topic: PythonTurtle/TherangeFunction
   :from_source: None

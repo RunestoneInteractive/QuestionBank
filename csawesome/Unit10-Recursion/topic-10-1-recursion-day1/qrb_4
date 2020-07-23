@@ -1,6 +1,6 @@
 .. mchoice:: qrb_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit10-Recursion/topic-10-1-recursion-day1
    :from_source: T
@@ -24,4 +24,3 @@
          else if (bunnies == 1) return 2;
          else return 2 + bunnyEars(bunnies - 1);
       }
-

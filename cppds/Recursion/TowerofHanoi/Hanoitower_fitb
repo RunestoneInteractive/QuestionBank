@@ -1,6 +1,6 @@
 .. fillintheblank:: Hanoitower_fitb
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Recursion/TowerofHanoi
     :from_source: T
@@ -10,4 +10,3 @@
     - :63: Correct, you can make a global counter at line 3, and then cout the increasing total under line 11.
       :62: Technically you are correct but, you are off by one.
       :.*: Please try again you need to add a statement at line 3, and under line 11.
-

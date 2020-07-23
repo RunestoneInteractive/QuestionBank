@@ -1,0 +1,14 @@
+.. activecode:: cp09_tuple4
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Tuples/TupleAssignmentwithunpacking
+    :from_source: None
+
+    def add(x, y):
+        return x + y
+
+    print add(3, 4)
+    z = (5, 4)
+    print add(*z) # this line will cause the values to be unpacked
+    print add(z) # this line causes an error

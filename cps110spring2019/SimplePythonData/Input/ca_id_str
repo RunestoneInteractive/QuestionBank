@@ -1,6 +1,6 @@
 .. clickablearea:: ca_id_str
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: SimplePythonData/Input
     :from_source: None

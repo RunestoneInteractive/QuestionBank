@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch10_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: F
@@ -27,4 +27,4 @@
            strcmp="4375,3489,4257,6205,1010,4099,2090,170,5216,395,4804,130,2013,134\n"
            self.assertEqual(val2,strcmp, 'line 2 csv correct')
            self.assertIn(".write", self.getEditorText(), 'writes to file')
-   myTests().main()   
+   myTests().main()

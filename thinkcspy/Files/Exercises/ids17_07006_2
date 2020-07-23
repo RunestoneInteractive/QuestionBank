@@ -1,14 +1,11 @@
-
+.. activecode:: ids17_07006_2
     :author:  KUO TZU-CHI
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: ids17_07006_2
    
     ZeroJudge：a016，輸入檔的相對路徑為 ../input/testdata.<題號>.in。
     ~~~~
     
     ====
-    
-    

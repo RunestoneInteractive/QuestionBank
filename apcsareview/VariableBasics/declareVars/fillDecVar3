@@ -1,6 +1,6 @@
 .. fillintheblank:: fillDecVar3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: VariableBasics/declareVars
    :from_source: T
@@ -9,4 +9,3 @@
 
    -    :^\s*int$: Correct. You can't buy half a ticket so this will be an integer.
         :.*: Use a type that representes whole numbers like 1, 2, 3, etc
-

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameStrings/mixedUpStrings
    :from_source: T
@@ -16,4 +16,3 @@
    print("Lucy" + feeling + "lemons.") #distractor
    =====
    print("Lucy " + feeling + " lemons.")
-

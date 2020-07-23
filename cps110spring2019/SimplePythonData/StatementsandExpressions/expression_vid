@@ -1,6 +1,6 @@
 .. youtube:: 3WgmLIsXFkI
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: SimplePythonData/StatementsandExpressions
     :from_source: None
@@ -8,4 +8,3 @@
     :height: 315
     :width: 560
     :align: left
-

@@ -1,0 +1,21 @@
+.. mchoice:: exercise_functionCalls_2
+      :author: Brad Miller
+      :difficulty: 3
+      :basecourse: pip2
+      :topic: SimplePythonData/FunctionCalls
+      :from_source: None
+      :answer_a: sub(5, 8)
+      :answer_b: -3
+      :answer_c: 3
+      :answer_d: nothing will print
+      :feedback_a: The character sting is treated as a literal and printed out, without executing.
+      :feedback_b: The character sting is treated as a literal and printed out, without executing.
+      :feedback_c: The character sting is treated as a literal and printed out, without executing.
+      :feedback_d: The character sting is treated as a literal and printed out, without executing.
+      :correct: a
+
+      What will the output be from this code?
+
+      .. code-block:: python
+
+         print "sub(5, 8)"

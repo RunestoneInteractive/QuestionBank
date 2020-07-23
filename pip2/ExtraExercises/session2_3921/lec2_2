@@ -1,0 +1,13 @@
+.. activecode:: lec2_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session2_3921
+   :from_source: None
+
+   Write code to let the user input their name. Store the string in a variable. Then write code to print out ``Welcome to the world of programming, <USER'S NAME>`` (except instead of "<USER'S NAME>" should be the name the user typed).
+   ~~~~
+   # Write your code here.
+
+   =====
+   print "\n We can't test code that requires user input in this case.\n"

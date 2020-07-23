@@ -1,6 +1,6 @@
 .. mchoice:: qtnt3_15
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test3nt
    :from_source: T
@@ -18,4 +18,3 @@
 
 
    A list of 120 names has been sorted in alphabetical order. Using a binary search method, what is the minimum number of passes needed to confirm that a name is not in the list?
-

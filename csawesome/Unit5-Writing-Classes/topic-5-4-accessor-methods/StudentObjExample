@@ -1,6 +1,6 @@
 .. activecode:: StudentObjExample
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-4-accessor-methods
   :from_source: T
@@ -77,5 +77,3 @@
             assertTrue(passed);
         }
     }
-
-

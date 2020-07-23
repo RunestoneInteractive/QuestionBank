@@ -1,6 +1,6 @@
 .. activecode:: debugem_red_square
     :author: Jean Griffin
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
@@ -27,4 +27,4 @@
     pat.left(90)    
             
     # Draw Side 4
-    pat.forward(150) 
+    pat.forward(150)

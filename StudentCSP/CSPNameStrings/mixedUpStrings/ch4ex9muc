@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex9muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameStrings/mixedUpStrings
    :from_source: T
@@ -18,4 +18,3 @@
    col2 = "blue" #distractor
    =====
    print(col1 + " is a primary color. So is " + col2 + ".")
-

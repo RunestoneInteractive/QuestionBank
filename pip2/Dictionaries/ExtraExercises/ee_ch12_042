@@ -1,0 +1,20 @@
+.. activecode:: ee_ch12_042
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Dictionaries/ExtraExercises
+   :from_source: None
+   :tags:Dictionaries/Dictionarymethods.rst
+
+   medal_events = {'Shooting': 7, 'Fencing': 4, 'Judo': 2, 'Swimming': 3, 'Diving': 2}
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sorted(events), sorted(['Shooting', 'Fencing', 'Judo', 'Swimming', "Diving"]), "Testing that events was created correctly")
+
+   myTests().main()

@@ -1,0 +1,16 @@
+.. activecode::  ch5Ex10q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Conditionals/CondPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           double score = 67;
+
+       }
+   }

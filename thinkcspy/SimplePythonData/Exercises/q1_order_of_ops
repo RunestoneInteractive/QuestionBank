@@ -1,6 +1,6 @@
-    .. mchoice:: q1_order_of_ops
+.. mchoice:: q1_order_of_ops
       :author: Richard Bernatz
-      :difficulty: 1.0
+      :difficulty: 1
       :basecourse: thinkcspy
       :topic: SimplePythonData/Exercises
       :from_source: F
@@ -11,4 +11,3 @@
       :correct: b
 
      What number results from the following expression : 2 + 3**2*2 ?
-    

@@ -1,6 +1,6 @@
 .. activecode:: Pubsub1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Dynamic/pubsub
     :from_source: T
@@ -48,4 +48,3 @@
     sub.publish("event 1 happened")
     sub.subscribe(callback1)
     sub.publish("event 2 happened")
-

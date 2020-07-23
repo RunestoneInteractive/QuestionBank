@@ -1,6 +1,6 @@
 .. fillintheblank:: mov_154_min_movies
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: MovieData/indexing
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :31: Is the correct answer
      :x: catchall feedback
-

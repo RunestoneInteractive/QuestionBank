@@ -1,6 +1,6 @@
 .. activecode:: lab0401a
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Labs/lab04_01a
     :from_source: None
@@ -18,4 +18,3 @@
     drawPolygon(geo,30,10)  # draw a decagon
 
     wn.exitonclick()
-

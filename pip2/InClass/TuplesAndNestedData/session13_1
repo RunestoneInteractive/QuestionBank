@@ -1,0 +1,34 @@
+.. activecode:: session13_1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/TuplesAndNestedData
+    :from_source: None
+
+    # swapping variable values
+    # powerful!
+
+    x = 5
+    y = 4
+
+    z = 3
+    b = 2
+
+    # reference diagram
+    # swap z and b
+    temp = z
+    z = b
+    b = temp
+    print "z is", z
+    print "b is", b
+
+    print "before swap"
+    print "x is", x
+    print "y is", y
+    # easier way to swap values - swap x and y
+    x,y = y,x
+
+    print
+    print "after swap"
+    print "x is", x
+    print "y is", y

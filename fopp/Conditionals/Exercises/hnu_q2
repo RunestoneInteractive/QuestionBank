@@ -1,10 +1,9 @@
-
+.. activecode:: hnu_q2
     :author: Anh Thai Nhan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: Conditionals/Exercises
     :from_source: F
-.. activecode:: hnu_q2
    
     Q1. Write a program to prompt the user to enter a test SCORE. Then, use if conditionals to print out the corresponding GRADE. That is SCORE >= 90; then print "Grade: A", SCORE>=80; then print "Grade: B", SCORE >= 70; then print "Grade: C", SCORE>=60; then print "Grade: D"; otherwise print "Grade: F".
  
@@ -22,4 +21,3 @@ config values (conf.py):
 
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
-    

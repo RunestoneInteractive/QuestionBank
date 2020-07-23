@@ -1,6 +1,6 @@
 .. fillintheblank:: modelv1_mae
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/predicting_rentals
    :from_source: T
@@ -10,4 +10,3 @@
    - :1236.04.*: Is the correct answer
      :2547739.2.*: Is the mean squared error
      :x: Make sure you use the ``mean_absolute_error`` function
-

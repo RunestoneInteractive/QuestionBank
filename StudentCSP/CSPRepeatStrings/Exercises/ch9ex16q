@@ -1,0 +1,21 @@
+.. activecode::  ch9ex16q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPRepeatStrings/Exercises
+    :from_source: T
+    :nocodelens:
+
+    # STEP 1: INITIALIZE ACCUMULATOR
+    reverseString = ""
+    mirrorString = " "
+    # STEP 2: GET DATA
+    phrase = "This is the string"
+    # STEP 3: LOOP THROUGH THE DATA
+    for phrase in phrase:
+        # STEP 4: ACCUMULATE
+        reverseString = reverseString + letter
+        mirrorString = letter + letter + reverseString
+    # STEP 5: PROCESS RESULT
+    print(reverseString)
+    print(mirrorString)

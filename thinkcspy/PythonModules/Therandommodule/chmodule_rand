@@ -1,6 +1,6 @@
 .. activecode:: chmodule_rand
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: PythonModules/Therandommodule
     :from_source: T

@@ -1,6 +1,6 @@
 .. fillintheblank:: params_args_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/ParametersAndArguments
    :from_source: T
@@ -26,4 +26,3 @@
    - :bb: The printTwice fucntion will print the character argument proveided two times.
      :error: Something will be printed to the terminal!
      :.*: Try again!
-

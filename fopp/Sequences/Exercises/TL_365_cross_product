@@ -1,6 +1,6 @@
 .. actex:: TL_365_cross_product
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -38,6 +38,3 @@
 	   ref_escaped = '\['+str(ref_vec_c)[1:-1]+'\]'
 	   self.assertFalse(re.search(ref_escaped, self.getEditorText()), 'Checking hardcoding')
    myTests().main()
-
-
-

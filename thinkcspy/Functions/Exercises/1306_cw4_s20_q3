@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw4_s20_q3
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: 1306_cw4_s20_q3
 
     **Question 3 [20 points]** The following question is designed to help your understanding of variable name scoping in Python. Please analyze the code carefully and determine what the program will print.  If a particular print statement will cause an error, then just mention that (and assume that the statement is commented out for rest of the program to run.)
 
@@ -45,11 +44,3 @@
 
     # Line 14 prints
     # (Answer as comments)
-
-
-    
-
-
-  
-
-   

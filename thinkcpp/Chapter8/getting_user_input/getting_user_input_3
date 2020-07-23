@@ -1,6 +1,6 @@
 .. mchoice:: getting_user_input_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter8/getting_user_input
    :from_source: T

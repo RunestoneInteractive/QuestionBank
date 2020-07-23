@@ -1,10 +1,9 @@
-
+.. dragndrop:: kbd_testdrag
     :author: Kuri DiFede
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: apcsareview
     :topic: GettingStarted/Exercises
     :from_source: F
-.. dragndrop:: kbd_testdrag
     :feedback: Try again!!
     :match_1: 6806|||Mineola Wild Reds
     :match_2: 2638|||Great Neck South
@@ -15,4 +14,3 @@
 config values (conf.py): 
 
 - dragndrop_div_class - custom CSS class of the component's outermost div
-    

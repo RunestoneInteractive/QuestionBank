@@ -1,0 +1,14 @@
+.. activecode:: ch3ex18q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPNameNumbers/ch3_exercises
+    :from_source: T
+    :nocodelens:
+
+    gasRate = 23
+    amountGas = 15
+    distance =
+    gasConsumed =
+    gasRemaining =
+    print(gasRemaining)

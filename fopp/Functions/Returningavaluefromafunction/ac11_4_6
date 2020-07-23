@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Functions/Returningavaluefromafunction
    :from_source: T
@@ -22,4 +22,3 @@
          self.assertEqual(subtract_three(-5), -8, "Testing the subtract_three function on input -5.")
 
    myTests().main()
-

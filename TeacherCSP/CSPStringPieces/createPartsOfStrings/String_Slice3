@@ -1,6 +1,6 @@
 .. activecode:: String_Slice3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPStringPieces/createPartsOfStrings
    :from_source: T
@@ -13,6 +13,3 @@
    else:
        name = "Unknown"
    print(name)
-
-
-

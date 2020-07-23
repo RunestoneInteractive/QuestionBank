@@ -1,10 +1,9 @@
-
+.. parsonsprob:: db2ex
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPWebData/Exercises
    :from_source: F
-.. parsonsprob:: db2ex
    :adaptive:
    :numbered: left
 
@@ -31,4 +30,3 @@
        print(row)
    =====
    cur.close()
-  

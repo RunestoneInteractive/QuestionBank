@@ -1,6 +1,6 @@
 .. fillintheblank:: assignment_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Assignment
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :[Aa][Ss][Ss][Ii][Gg][Nn][Mm][Ee][Nn][Tt]: Correct!
      :.*: Try again!
-

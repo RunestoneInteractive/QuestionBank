@@ -1,6 +1,6 @@
 .. fillintheblank:: baseconvert3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/ConversionDeNumerosDecimalesANumerosBinarios
    :from_source: None

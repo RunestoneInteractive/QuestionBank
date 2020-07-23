@@ -1,6 +1,6 @@
 .. mchoice:: nav_question1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: navhelp/
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: No, ML is a functional programming language.  You can use Python to write functional programs as well.
 
    What programming language does this site help you to learn?
-

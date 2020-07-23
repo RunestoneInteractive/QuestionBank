@@ -1,6 +1,6 @@
 .. activecode:: VrijeOefeningenWHileLusEnFuncties6
     :author: Gilles Fiers
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Schrijf een functie dat de grootste gemene deler berekent van 2 getallen.
     ~~~~
-    

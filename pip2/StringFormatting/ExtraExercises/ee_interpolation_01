@@ -1,0 +1,20 @@
+.. activecode:: ee_interpolation_01
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   str1 = "I go to {} and I am in {}".format()
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(str1, "I go to UM and I am in SI 106", "Testing that str1 is assigned to correct value")
+
+   myTests().main()

@@ -1,6 +1,6 @@
 .. activecode:: intro_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: Introduction/GettingStartedwithData
     :from_source: T
@@ -17,4 +17,3 @@
     print(3//6)
     print(3%6)
     print(2**100)
-

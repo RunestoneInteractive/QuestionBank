@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_dictionaries_familyage
     :author: Brian Powell
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: F
-.. activecode:: wvu_dictionaries_familyage
 
     Use a dictionary to store information on the members of your immediate family. The person's name should be the key and their age should be the value.
 

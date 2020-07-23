@@ -1,6 +1,6 @@
 .. fillintheblank:: difede_01_003
    :author: Kuri DiFede
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: apcsareview
    :topic: GettingStarted/Exercises
    :from_source: F
@@ -13,4 +13,3 @@
         :.*: Try Again!
    -    :110100: Correct!
         :.*: Try Again!
-

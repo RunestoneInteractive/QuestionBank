@@ -1,6 +1,6 @@
 .. fillintheblank:: bikes_duration_readsql
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/pandas_and_SQL
    :from_source: T

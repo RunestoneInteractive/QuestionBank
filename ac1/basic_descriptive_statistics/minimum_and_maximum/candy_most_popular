@@ -1,6 +1,6 @@
 .. fillintheblank:: candy_most_popular
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/minimum_and_maximum
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :Reeses Peanut Butter Cup: Correct
      :x: Incorrect
-

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex10muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: VariableBasics/VariablePracticeParsons
    :from_source: None
@@ -29,6 +29,3 @@
    }
    =====
           double priceForTwo = price * 2 #distractor
-
-
-

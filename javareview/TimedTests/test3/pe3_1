@@ -1,6 +1,6 @@
 .. mchoice:: pe3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: javareview
    :topic: TimedTests/test3
    :from_source: None

@@ -1,0 +1,41 @@
+.. mchoice:: e25_2_15
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: StudentCSP
+  :topic: CSPUntimedPracticeQuestions/exam25_2
+  :from_source: T
+  :answer_a: figure = 30, x = 6
+  :answer_b: figure = 20, x = 5
+  :answer_c: figure = 25, x = 6
+  :answer_d: figure = 25, x = 5
+  :correct: c
+  :feedback_a: Incorrect. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 1. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 5 * 2 = 10 and x = 3; after period 3, figure = 5 * 3 = 15 and x = 4; after period 4, figure = 5 * 4 = 20 and x = 5; after period 5, figure = 5 * 5 = 25 and x = 6. The program will stop after period 5 since figure exceeds 20.
+  :feedback_b: Incorrect. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 1. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 5 * 2 = 10 and x = 3; after period 3, figure = 5 * 3 = 15 and x = 4; after period 4, figure = 5 * 4 = 20 and x = 5; after period 5, figure = 5 * 5 = 25 and x = 6. The program will stop after period 5 since figure exceeds 20.
+  :feedback_c: Correct. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 1. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 5 * 2 = 10 and x = 3; after period 3, figure = 5 * 3 = 15 and x = 4; after period 4, figure = 5 * 4 = 20 and x = 5; after period 5, figure = 5 * 5 = 25 and x = 6. The program will stop after period 5 since figure exceeds 20.
+  :feedback_d: Incorrect. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 1. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 5 * 2 = 10 and x = 3; after period 3, figure = 5 * 3 = 15 and x = 4; after period 4, figure = 5 * 4 = 20 and x = 5; after period 5, figure = 5 * 5 = 25 and x = 6. The program will stop after period 5 since figure exceeds 20.
+
+  Consider the following code:
+
+  x ← 1
+
+  figure ← 0
+
+  REPEAT UNTIL figure > 20
+
+  {
+
+   figure ← 5 * x
+
+   x  ← x + 1
+
+  }
+
+  DISPLAY(“figure =”)
+
+  DISPLAY(figure)
+
+  DISPLAY(“, x =”)
+
+  DISPLAY(x)
+
+  What is displayed as a result of running the code above?

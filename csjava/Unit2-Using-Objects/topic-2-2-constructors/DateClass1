@@ -1,0 +1,20 @@
+.. mchoice:: DateClass1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :from_source: T
+   :practice: T
+   :answer_a: Date d = new Date();
+   :answer_b: Date d = new Date(9,20);
+   :answer_c: Date d = new Date(9,20,2020);
+   :answer_d: Date d = new Date(2020,9,20);
+   :answer_e: Date d = new Date(2020,20,9);
+   :correct: d
+   :feedback_a: This would initialize the date attributes to today's date according to the constructor comment above, which might not be Sept. 20, 2020.
+   :feedback_b: There is no Date constructor that takes 2 parameters according to the figure above.
+   :feedback_c: The comment for the second constructor in the Date class above says that the first parameter must be the year.
+   :feedback_d: This matches the second constructor above with the parameters year, month, day.
+   :feedback_e: Make sure the order of the parameters match the constructor signature above.
+
+   Given the ``Date`` class in the figure above and assuming that months in the ``Date`` class are numbered starting at 1, which of the following code segments will create a ``Date`` object for the date September 20, 2020 using the correct constructor?

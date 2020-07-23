@@ -1,0 +1,17 @@
+.. mchoice:: q3_1_1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: VariableBasics/vIntro
+   :from_source: None
+   :answer_a: int
+   :answer_b: double
+   :answer_c: boolean
+   :answer_d: String
+   :correct: b
+   :feedback_a: While you could use an int, this would throw away any digits after the decimal point, so it isn't the best choice.  You might want to round up a grade based on the average (89.5 or above is an A).
+   :feedback_b: An average is calculated by summing all the values and dividing by the number of values.  To keep the most amount of information this should be done with decimal numbers so use a double.
+   :feedback_c: Is an average true or false?
+   :feedback_d: While you can use a string to represent a number, using a number type (int or double) is better for doing calculations.
+
+   What type should you use to represent the average grade for a course?

@@ -1,0 +1,19 @@
+.. activecode:: ee_ch12_012
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Dictionaries/ExtraExercises
+   :from_source: None
+   :tags:Dictionaries/intro-Dictionaries.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sorted(olympics.items()), sorted([('gold', 7), ('silver', 8), ('bronze', 6)]), "Testing that olympics was created correctly.")
+
+   myTests().main()

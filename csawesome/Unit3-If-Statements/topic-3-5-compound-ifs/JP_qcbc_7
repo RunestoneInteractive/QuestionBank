@@ -1,6 +1,6 @@
 .. mchoice:: JP_qcbc_7
    :author: John Pataracchia
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit3-If-Statements/topic-3-5-compound-ifs
    :from_source: F
@@ -22,4 +22,3 @@
      {
         System.out.println("second case");
      }
-

@@ -1,0 +1,22 @@
+.. activecode:: ee_ch09_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Tuples/ExtraExercises
+   :from_source: None
+   :tags: Tuples/TupleAssignmentwithunpacking.rst
+
+   olymp = ('Rio', 'Brazil', 2016)
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testThree(self):
+         self.assertEqual(city, "Rio", "Testing that city is assigned to correct value.")
+         self.assertEqual(country, "Brazil", "Testing that country is assigned to correct value.")
+         self.assertEqual(year, 2016, "Testing that year is assigned to correct value.")
+
+   myTests().main()

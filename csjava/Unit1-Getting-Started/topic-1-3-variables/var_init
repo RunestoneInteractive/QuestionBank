@@ -1,0 +1,23 @@
+.. clickablearea:: var_init
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit1-Getting-Started/topic-1-3-variables
+    :from_source: T
+    :question: Click on all of the variable initializations (first time the variable is set to a value) in the following code.
+    :iscode:
+    :feedback: Variables are initialized using name = value;
+
+    :click-incorrect:public class Test2:endclick:
+    :click-incorrect:{:endclick:
+        :click-incorrect:public static void main(String[] args):endclick:
+        :click-incorrect:{:endclick:
+            :click-incorrect:int numLives;:endclick:
+            :click-correct:numLives = 0;:endclick:
+            :click-incorrect:System.out.println(numLives);:endclick:
+            :click-correct:double health = 8.5;:endclick:
+            :click-incorrect:System.out.println(health);:endclick:
+            :click-correct:boolean powerUp = true;:endclick:
+            :click-incorrect:System.out.println(powerUp);:endclick:
+        :click-incorrect:}:endclick:
+    :click-incorrect:}:endclick:

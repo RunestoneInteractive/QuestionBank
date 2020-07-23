@@ -1,0 +1,20 @@
+.. activecode:: ee_ch07_04
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: IndefiniteIteration/ExtraExercises
+   :from_source: None
+   :tags: IndefiniteIteration/listenerLoop.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFour(self):
+         self.assertEqual(sublist(["bob", "joe", "lucy", "STOP", "carol", "james"]), ["bob", "joe", "lucy"], "Testing that sublist(['bob', 'joe', 'lucy', 'STOP', 'carol', 'james']) returns ['bob', 'joe', 'lucy']")
+         self.assertEqual(sublist(["STOP"]), [], "Testing that sublist(['STOP']) returns []")
+         self.assertEqual(sublist(["jackie", "paul", "STOP"]), ["jackie", "paul"], "Testing that sublist(['jackie', 'paul', 'STOP']) returns ['jackie', 'paul']")
+
+   myTests().main()

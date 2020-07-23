@@ -1,10 +1,9 @@
-
+.. parsonsprob:: faghodsiaghasihgoisagnboeiagn
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: IntroRecursion/Exercises
    :from_source: F
-.. parsonsprob:: faghodsiaghasihgoisagnboeiagn
 
    Solve my really cool parsons problem...if you can.
    -----
@@ -21,4 +20,3 @@
             curmax = item
    =====
       return curmax
-    

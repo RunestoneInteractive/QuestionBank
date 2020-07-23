@@ -1,6 +1,6 @@
 .. activecode:: PigLatin
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-7-string-methods
    :from_source: F
@@ -18,6 +18,3 @@
         System.out.println(word + " in Pig Latin is " + pigLatin);
       }
    }
-
-
-

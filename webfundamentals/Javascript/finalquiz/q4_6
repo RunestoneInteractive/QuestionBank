@@ -1,6 +1,6 @@
 .. mchoice:: q4_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/finalquiz
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Yes!
 
    How do you write "Hello World" in an alert box?
-

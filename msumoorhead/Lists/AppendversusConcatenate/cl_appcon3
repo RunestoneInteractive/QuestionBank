@@ -1,0 +1,10 @@
+.. codelens:: cl_appcon3
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: Lists/AppendversusConcatenate
+    :from_source: None
+
+    origlist = [45, 32, 88]
+
+    newlist = origlist + ["cat"]

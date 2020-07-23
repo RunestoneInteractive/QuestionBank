@@ -1,6 +1,6 @@
 .. mchoice:: mc9rr
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: msumoorhead
    :topic: Lists/FunctionsthatProduceLists
    :from_source: None
@@ -23,5 +23,3 @@
      for item in alist:
          blist.append(item+5)
      print(blist)
-
-

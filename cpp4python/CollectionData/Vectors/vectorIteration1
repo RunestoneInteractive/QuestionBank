@@ -1,6 +1,6 @@
 .. activecode:: vectorIteration1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: CollectionData/Vectors
    :from_source: T
@@ -30,4 +30,3 @@
 
         return 0;
    }
-

@@ -1,6 +1,6 @@
 .. mchoice:: AP5-6-1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
     :from_source: T
@@ -56,5 +56,3 @@
         return dollars;
 
       - dollars should be incremented by amount.
-
-

@@ -1,13 +1,11 @@
-
+.. activecode:: more_14
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: more_14
   
     In exercise ‘pixelex1’, use two nested for loops to make the picture a lighter 
     shade.
 
     ~~~~
-    

@@ -1,6 +1,6 @@
 .. mchoice:: pe4_16
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test4
    :from_source: T
@@ -28,4 +28,3 @@
       Pig doesn’t have a speak method
       Cow has a speak method that returns “Moo”
       Cat has a speak method that returns "Meow"
-

@@ -1,6 +1,6 @@
 .. activecode:: act_kiva_graph_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/kiva_graphs
     :from_source: T
@@ -9,4 +9,3 @@
 
     Create a well scaled scatter plot with X and Y axes using num_lenders_total and loan_amount
     ~~~~
-

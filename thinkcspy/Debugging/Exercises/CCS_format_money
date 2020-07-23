@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_format_money
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_format_money
 
    Add code to complete the program below. The finished program should:
    

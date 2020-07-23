@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw5_s20_q3
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: 1306_cw5_s20_q3
     :autograde: unittest
 
     **Question 2 [30 points]** 

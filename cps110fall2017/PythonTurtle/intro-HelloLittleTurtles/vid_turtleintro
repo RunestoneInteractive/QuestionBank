@@ -1,6 +1,6 @@
 .. video:: vid_turtleintro
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: PythonTurtle/intro-HelloLittleTurtles
     :from_source: None
@@ -9,5 +9,3 @@
 
     http://media.interactivepython.org/thinkcsVideos/turtleintro.mov
     http://media.interactivepython.org/thinkcsVideos/turtleintro.webm
-
-

@@ -1,6 +1,6 @@
 .. activecode:: c2r
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/ArithmeticMethods
     :from_source: None
@@ -32,4 +32,3 @@
     f3 = f1 + f2        # + operation is the __add__ method
     print(f3)
     f4 = Fraction(5,10)
-

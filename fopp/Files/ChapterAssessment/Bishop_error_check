@@ -1,6 +1,6 @@
 .. activecode:: Bishop_error_check
    :author: Carlee Bishop
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Files/ChapterAssessment
    :from_source: F
@@ -21,4 +21,3 @@
                    if word not in p_words:
                        p_words.append(word)
    print(p_words)
-   

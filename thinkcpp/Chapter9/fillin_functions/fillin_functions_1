@@ -1,6 +1,6 @@
 .. mchoice:: fillin_functions_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter9/fillin_functions
    :from_source: T

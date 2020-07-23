@@ -1,6 +1,6 @@
 .. activecode:: ac_exceptions_04
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Exceptions/ChapterAssessment
    :from_source: T
@@ -29,4 +29,3 @@
          self.assertEqual(sorted(ppl_play.items()), [('baseball', 1), ('basketball', 1), ('football', 15), ('hockey', 4), ('soccer', 10), ('tennis', 8)], "Testing that ppl_play is assigned to correct values.")
 
    myTests().main()
-

@@ -1,0 +1,16 @@
+.. activecode:: session10_1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/IndefiniteIteration
+    :from_source: None
+
+    print "Enter even numbers. When you enter anything that is not an even number, the loop will stop."
+
+    # This code as is will give you an error.
+    # What line of code should you add to keep you from getting an error?
+
+    while first_num % 2 == 0:
+        first_num = int(raw_input("Enter an even number: "))
+
+    print "all done!"

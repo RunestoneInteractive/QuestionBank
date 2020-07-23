@@ -1,0 +1,55 @@
+.. activecode:: lcfcnl1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit4-Iteration/topic-4-4-nested-loops
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   Can you change the code to be a 10x8 rectangle? Try replacing line 10 with this print statement to see the rows and columns: System.out.print(row + "-" + col + " ");
+   ~~~~
+   public class NestedLoops
+   {
+
+      public static void main(String[] args)
+      {
+          for (int row = 1; row <= 3; row++)
+          {
+              for (int col = 1; col <= 5; col++)
+              {
+                  System.out.print("*");
+              }
+              System.out.println();
+          }
+      }
+   }
+   ====
+   import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        public RunestoneTests() {
+            super("NestedLoops");
+        }
+
+        @Test
+        public void test1()
+        {
+            String orig = "public class NestedLoops\n{\n\n   public static void main(String[] args)\n   {\n       for (int row = 1; row <= 3; row++)\n       {\n           for (int col = 1; col <= 5; col++)\n           {\n               System.out.print(\"*\");\n           }\n           System.out.println();\n       }\n   }\n}\n";
+
+            boolean passed = codeChanged(orig);
+            assertTrue(passed);
+        }
+
+        @Test
+        public void test2()
+        {
+          boolean passed = checkCodeContains("10 rows","row <= 10")
+               && checkCodeContains("8 columns","col <= 8");
+          assertTrue(passed);
+        }
+    }

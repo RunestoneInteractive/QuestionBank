@@ -1,6 +1,6 @@
 .. activecode:: int_secs
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: SimplePythonData/Input
     :from_source: None
@@ -14,4 +14,3 @@
     secs_finally_remaining = secs_still_remaining  % 60
 
     print("Hrs=", hours, "mins=", minutes, "secs=", secs_finally_remaining)
-

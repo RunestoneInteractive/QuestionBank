@@ -1,10 +1,9 @@
-
+.. activecode:: cs925_whileloopsHW_1
    :author: Doug Vermes
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: apcsareview
    :topic: LoopBasics/Exercises
    :from_source: F
-.. activecode:: cs925_whileloopsHW_1
    :language: java
    :above:
 
@@ -31,5 +30,3 @@
       }
    }
    ====
-   
-    

@@ -1,0 +1,37 @@
+.. mchoice:: AP2-5-3
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit2-Using-Objects/practice-test-objects
+    :from_source: T
+    :practice: T
+    :random:
+
+    Consider the following method in the Movie class.
+
+    .. code-block:: java
+
+        public double calculateMovieRating(int numOfPeople, double rating)
+        { /*implementation not shown */}
+
+    Which of the following lines of code, if located in a method in the same class as calculateMovieRating, will compile without an error?
+
+    - int result = calculateMovieRating(234, null);
+
+      - The method returns a double which cannot be saved in an int variable.
+
+    - double result = calculateMovieRating(100.0, 3.0);
+
+      - The first parameter must be an int.
+
+    - int result = calculateMovieRating(455, false);
+
+      - The method returns a double which cannot be saved in an int variable.
+
+    - double result = calculateMovieRating(10, 4.0);
+
+      + Correct.
+
+    - double result = calculateMovieRating(10);
+
+      - The method has 2 parameters.

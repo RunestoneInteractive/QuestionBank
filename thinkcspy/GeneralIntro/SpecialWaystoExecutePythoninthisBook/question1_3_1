@@ -1,6 +1,6 @@
 .. mchoice:: question1_3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: GeneralIntro/SpecialWaystoExecutePythoninthisBook
    :from_source: T

@@ -1,10 +1,9 @@
-
+.. activecode:: word_counter3_130
    :author: Lloyd Smith
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Files/Exercises
    :from_source: F
-.. activecode:: word_counter3_130
    :datafile: gb.txt
 
    Write a program that counts the number of unique words in a 
@@ -34,4 +33,3 @@
        #Print the unique words
 
    main()
-    

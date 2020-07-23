@@ -1,6 +1,6 @@
 .. activecode:: forloop-backwardsTNS
    :author: Tiffani Slutsky
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit4-Iteration/topic-4-2-for-loops
    :from_source: F
@@ -37,6 +37,3 @@
             assertTrue(passed);
         }
    }
-
-
-

@@ -1,6 +1,6 @@
 .. mchoice:: qooi_1
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/ooInheritanceAndInterfaces
    :from_source: F
@@ -21,4 +21,3 @@
       I. Interfaces can only contain abstract methods or class constants.
       II.  Interfaces can be extended.
       III.  Interfaces can be instantiated (you can create an object of the interface type).
-

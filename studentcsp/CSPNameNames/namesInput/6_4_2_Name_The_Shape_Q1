@@ -1,6 +1,6 @@
 .. mchoice:: 6_4_2_Name_The_Shape_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameNames/namesInput
    :from_source: T
@@ -31,4 +31,3 @@
      space = Screen()           # create a turtle screen (space)
      malik = Turtle()           # create a turtle named malik
      mystery(malik, 100)        # draw something with size = 100
-

@@ -1,10 +1,9 @@
-
+.. activecode:: sks_hw2_ex9
     :author: Shishir Shah
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
-.. activecode:: sks_hw2_ex9
     :language: python
 
     Write a program that will approximate the value of π.  You can do this by computing π to be the 

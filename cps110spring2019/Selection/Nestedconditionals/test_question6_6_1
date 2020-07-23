@@ -1,6 +1,6 @@
 .. mchoice:: test_question6_6_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Selection/Nestedconditionals
    :from_source: None
@@ -22,4 +22,3 @@
              print(x, " is a positive number")
          else:
              print(x," is 0")
-

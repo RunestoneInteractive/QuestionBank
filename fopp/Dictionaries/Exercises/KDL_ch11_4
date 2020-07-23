@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch11_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Dictionaries/Exercises
    :from_source: F
-.. activecode:: KDL_ch11_4
    :autograde: unittest
    :language: python
 
@@ -24,4 +23,4 @@
            self.assertTrue( OddEvenCount([5,7,9])=={'odd':3,'even':0}, '2nd situation tested')
            self.assertTrue( OddEvenCount([2,4,6])=={'odd':0,'even':3}, '3rd situation tested')
            self.assertTrue( OddEvenCount([])=={'odd':0,'even':0}, '4th situation tested')
-   myTests().main()   
+   myTests().main()

@@ -1,6 +1,6 @@
 .. actex:: rab_lq3_ex1_s18
     :author: Richard Bernatz
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
@@ -27,5 +27,4 @@
             self.assertEqual(cipher('a'), 'a',  " 'a' ")
            
           
-    myTests().main() 
-    
+    myTests().main()

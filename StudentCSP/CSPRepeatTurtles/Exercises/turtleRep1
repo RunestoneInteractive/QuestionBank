@@ -1,10 +1,9 @@
-
+.. parsonsprob:: turtleRep1
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPRepeatTurtles/Exercises
    :from_source: F
-.. parsonsprob:: turtleRep1
    :numbered: left
 
    Put the code in order to draw a square with a turtle.  Import the turtle library, create a space for a turtle to draw, create a turtle object.  Then loop four times and have the turtle go forward and turn right 90 degrees.
@@ -29,6 +28,4 @@
    =====
        alisha.forward 100) #paired
    =====
-       alisha.right(90)    
-     
-     
+       alisha.right(90)

@@ -1,6 +1,6 @@
 .. activecode:: ac7_3_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Conditionals/Logicaloperators
     :from_source: T
@@ -10,4 +10,3 @@
 
     n = 25
     print(n % 2 == 0 or n % 3 == 0)
-

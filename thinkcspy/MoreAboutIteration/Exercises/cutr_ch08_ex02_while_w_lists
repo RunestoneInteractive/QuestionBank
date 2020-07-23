@@ -1,6 +1,6 @@
 .. actex:: cutr_ch08_ex02_while_w_lists
    :author: Sandra Jackson
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
@@ -24,4 +24,3 @@
            self.assertEqual(listSumBelow([],12),[], "Tested on the Empty List")
 
    myTests().main()
-    

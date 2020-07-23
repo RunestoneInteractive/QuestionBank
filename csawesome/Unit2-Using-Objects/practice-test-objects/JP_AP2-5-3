@@ -1,6 +1,6 @@
 .. mchoice:: JP_AP2-5-3
     :author: John Pataracchia
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/practice-test-objects
     :from_source: F
@@ -34,4 +34,3 @@
     - double rank = calculateMovieRating(310,420);
 
       - The method has 3 parameters.
-

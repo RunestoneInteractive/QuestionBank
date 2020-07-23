@@ -1,6 +1,6 @@
 .. codelens:: chp09_is3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/Aliasing
     :from_source: T
@@ -18,5 +18,3 @@
 
     b[0] = 5
     print(a)
-
-

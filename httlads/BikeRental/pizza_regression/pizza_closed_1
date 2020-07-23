@@ -1,6 +1,6 @@
 .. fillintheblank:: pizza_closed_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/pizza_regression
    :from_source: T
@@ -13,4 +13,3 @@
    - :1.96.*|1.97: Is the correct answer
      :0.976.*: Is the slope to the intercept
      :x: Check your formulas
-

@@ -1,0 +1,22 @@
+.. mchoice:: qcbdm5_3
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit3-If-Statements/topic-3-6-DeMorgan
+   :from_source: T
+   :practice: T
+   :answer_a: (x == 5) || (y == 7)
+   :answer_b: (x == 5) && (y == 7)
+   :answer_c: (x != 5) || (y != 7)
+   :answer_d: (x < 5) || (x > 5) || (y > 7) || (y < 7)
+   :correct: a
+   :feedback_a: The negation of && is || and the negation of != is ==
+   :feedback_b: The negation of && is ||
+   :feedback_c: The negation of x != 5 is x == 5.  The negation of y !=  7 is y == 7.
+   :feedback_d: The negation of == is != which is the same as < or >.  The negation of != is ==.
+
+   Which of the following is the same as the code below?
+
+   .. code-block:: java
+
+     !(x!=5 && y!=7)

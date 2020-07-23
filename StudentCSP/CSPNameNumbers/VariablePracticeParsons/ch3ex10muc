@@ -1,6 +1,6 @@
 .. parsonsprob:: ch3ex10muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameNumbers/VariablePracticeParsons
    :from_source: T
@@ -20,4 +20,3 @@
    print(itemPrice)
    =====
    itemPrice = priceForTwo / 2 #distractor
-

@@ -1,0 +1,59 @@
+.. activecode::  ch5Ex6q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit3-If-Statements/topic-3-10-practice-coding
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :practice: T
+
+   Finish the code below so that it prints ``You can go out`` if you have a ride or if you can walk and otherwise prints ``You can't go out``.  Use a logical or to create a complex conditional.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           boolean canWalk = true;
+           boolean haveRide = false;
+
+       }
+   }
+   ====
+   import static org.junit.Assert.*;
+     import org.junit.*;;
+     import java.io.*;
+
+     public class RunestoneTests extends CodeTestHelper
+     {
+         @Test
+         public void testCheckCodeContains()
+         {
+             boolean output1 = checkCodeContains("print statement You can go out", "System.out.println(\"You can go out\")");
+             assertTrue(output1);
+         }
+
+         @Test
+         public void testCheckCodeContains2()
+         {
+             boolean output2 = checkCodeContains("print statement You can't go out", "System.out.println(\"You can't go out\")");
+             assertTrue(output2);
+         }
+
+         @Test
+         public void testCheckCodeContains3()
+         {
+             boolean output3 = checkCodeContains("or", "||");
+             assertTrue(output3);
+         }
+
+           @Test
+         public void testChangedCode() {
+             String origCode = "public class Test1 { public static void main(String[] args) { boolean canWalk = true; boolean haveRide = false; } }";
+
+             boolean changed = codeChanged(origCode);
+
+             assertTrue(changed);
+
+         }
+     }

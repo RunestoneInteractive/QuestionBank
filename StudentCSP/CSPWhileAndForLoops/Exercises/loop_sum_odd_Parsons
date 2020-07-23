@@ -1,10 +1,9 @@
-
+.. parsonsprob:: loop_sum_odd_Parsons
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-.. parsonsprob:: loop_sum_odd_Parsons
    :numbered: left
 
    Select the code blocks to define a function that returns the sum of the odd numbers in the passed list.
@@ -31,6 +30,3 @@
       return total
     =====
       ret total #paired
-
-
-    

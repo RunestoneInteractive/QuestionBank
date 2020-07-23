@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze04
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze04
    :include: ccs_maze00, ccs_maze03
    
    random_walker function. Read the "TODO" comments and implement according to the specification.
@@ -36,4 +35,3 @@
    
        return path
    ====
-   

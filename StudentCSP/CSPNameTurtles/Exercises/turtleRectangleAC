@@ -1,10 +1,9 @@
-
+.. activecode:: turtleRectangleAC
     :author: Barbara  Ericson
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: StudentCSP
     :topic: CSPNameTurtles/Exercises
     :from_source: F
-.. activecode:: turtleRectangleAC
 
     Finish writing a function to draw a rectangle with the passed turtle and the given width and height. 
     ~~~~

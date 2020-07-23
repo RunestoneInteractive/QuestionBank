@@ -1,6 +1,6 @@
 .. activecode:: For-lus-Voorbeeld4c
     :author: Gilles Fiers
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -9,8 +9,3 @@
     ~~~~
     for name in ["Joske","Gino","Debby","Johny","Jan"]:
 	print("Dag",name,", welkom bij de cursus informatica !")
-
-
-
-
-

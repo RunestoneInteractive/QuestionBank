@@ -1,0 +1,33 @@
+.. mchoice:: pe3_13
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test3
+   :from_source: None
+   :answer_a: Mirrors the values from the top half to the bottom half of the 2D array
+   :answer_b: Mirrors the values from the left halt to the right half of the 2D array
+   :answer_c: Mirrors the values from the bottom half to the top half of the 2D array
+   :answer_d: Mirrors the values from the right half to the left half of the 2D array
+   :answer_e: All values remain the same.
+   :correct: c
+   :feedback_a: This would be true if it was p[height - row - 1][col] = p[row][col];
+   :feedback_b: This would be true if it was looping through all the rows and half the columns and copying from p[row][width - col - 1] = p[row][col];
+   :feedback_c: This loops through the top half rows (height / 2) and mirrors the values from the bottom half p[row][col] = p[height - row - 1][col];  So p[0][0] = p[height - 1][0] and p[0][1] = p[height - 1][1].
+   :feedback_d: This would be true if it was looping through all the rows and half the columns and copying from p[row][width - col - 1] = p[row][col];
+   :feedback_e: How can this be true since p[row][col] = p[height - row - 1][col]?
+
+   Which of the following best explains what the method m does?
+
+   .. code-block:: java
+
+      public void m(int[][]p)
+      {
+         int height = p.length;
+         for (int row = 0; row < height / 2; row++)
+         {
+            for (int col = 0; col <p[0].length; col++)
+            {
+               p[row][col] = p[height - row - 1][col];
+            }
+         }
+      }

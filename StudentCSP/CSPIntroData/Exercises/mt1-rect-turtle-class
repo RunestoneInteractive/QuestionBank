@@ -1,10 +1,9 @@
-
+.. parsonsprob:: mt1-rect-turtle-class
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPIntroData/Exercises
    :from_source: F
-.. parsonsprob:: mt1-rect-turtle-class
    :numbered: left
 
    Solve my really cool parsons problem...if you can.
@@ -43,5 +42,3 @@
       t.draw_rectangle(0,0,100,50)
    =====
       draw_rectangle(t,0,0,100,50) #paired
-
-   

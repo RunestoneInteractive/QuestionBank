@@ -1,6 +1,6 @@
 .. mchoice:: qtnt1_11
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test1nt
    :from_source: T
@@ -55,4 +55,3 @@
       I objectC.method1();
       II objectB.method2(objectC);
       III objectC.method2(objectB);
-

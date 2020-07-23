@@ -1,0 +1,26 @@
+.. activecode:: session8_7
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/DictionaryAccum
+    :from_source: None
+
+    mystr = 'By a route obscure and lonely, haunted by ill angels only'
+    str2 = "a brain train"
+    vowels = ['a', 'e', 'i', 'o', 'uu']
+
+    ####### which letter occurs most frequently? ########
+    d = {}
+    for letter in str2:
+        if letter in d:
+            d[letter] += 1
+        else:
+            d[letter] = 1
+
+    letters = d.keys()
+    best_letter_so_far = letters[0]
+    for let in letters:
+        if d[let] > d[best_letter_so_far]:
+            best_letter_so_far = let
+
+    print best_letter_so_far + " has the highest value, " + str(d[best_letter_so_far])

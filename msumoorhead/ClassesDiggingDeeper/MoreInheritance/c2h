@@ -1,6 +1,6 @@
 .. activecode:: c2h
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: ClassesDiggingDeeper/MoreInheritance
     :from_source: None
@@ -49,4 +49,3 @@
     print('{} total interest:{}'.format(str(a), a.intpaid))
     a.accrue()
     print('{} total interest:{}'.format(str(a), a.intpaid))
-

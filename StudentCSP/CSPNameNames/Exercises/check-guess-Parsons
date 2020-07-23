@@ -1,10 +1,9 @@
-
+.. parsonsprob:: check-guess-Parsons
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. parsonsprob:: check-guess-Parsons
    :numbered: left
    :adaptive:
 

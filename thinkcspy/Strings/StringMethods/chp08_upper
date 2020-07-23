@@ -1,6 +1,6 @@
 .. activecode:: chp08_upper
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/StringMethods
     :from_source: T
@@ -10,4 +10,3 @@
 
     tt = ss.lower()
     print(tt)
-

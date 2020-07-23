@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Dictionaries/Aliasingandcopying
    :from_source: T
@@ -23,4 +23,3 @@
      yourdict = mydict
      yourdict["elephant"] = 999
      print(mydict["elephant"])
-

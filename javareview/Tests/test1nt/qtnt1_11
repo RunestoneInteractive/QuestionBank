@@ -1,0 +1,57 @@
+.. mchoice:: qtnt1_11
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Tests/test1nt
+   :from_source: None
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: II and III only
+   :answer_d: III only
+   :answer_e: I, II and III
+   :correct: c
+   :feedback_a: This method call compiles because class C inherits all the public methods in class B. This will not produce an error.
+   :feedback_b: Method II will produce a compile time error because class B (the superclass) does not inherit the methods of class C due to the fact that class C is its subclass. But, it is not the only call that will result in a compile time error.
+   :feedback_c: Method II will produce a compile time error because class B (the superclass) does not inherit the methods of class C due to the fact that class C is its subclass. Method III will produce an error because of the parameter it takes in. objectB is not a class C type object which is what the method definition for method III required.
+   :feedback_d: This method produces a compile time error, but method II will also produce a compile time error.
+   :feedback_e: Methods II and III will both produce compile time errors, but method I works because class C inherits all the public methods of class B.
+
+   Consider the following interface and class definitions. Which of I, II and III below would cause an error when used in place of the missing code in the main method?
+
+   .. code-block:: java
+
+      public interface A
+      {
+        public abstract void method1();
+      }
+
+      public class B implements A
+      {
+          // Instance variables and other methods not shown
+
+          public void method1()
+          {
+            /* implementation not shown */
+          }
+      }
+
+      public class C extends B
+      {
+        //Instance variables and other methods not shown
+
+        public void method2(C o)
+        {
+           /* implementation not shown */
+        }
+
+        public static void main(String[] args)
+        {
+          C objectC = new C();
+          B objectB = new B();
+          // Missing code
+        }
+      }
+
+      I objectC.method1();
+      II objectB.method2(objectC);
+      III objectC.method2(objectB);

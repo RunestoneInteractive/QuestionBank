@@ -1,10 +1,10 @@
 .. actex:: suci_test_question_4
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
 
    Write a program that will draw a square with side lengths 50 units
    ~~~~
-   # put code here 
+   # put code here

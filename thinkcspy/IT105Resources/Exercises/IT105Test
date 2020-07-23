@@ -1,10 +1,9 @@
-
+.. parsonsprob:: IT105Test
    :author: Tom Babbitt
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
-.. parsonsprob:: IT105Test
    :maxdist: 2
 
    You are tasked to write a function called ``findMax(aList)`` that iterates through a list and returns the maximum value.
@@ -29,7 +28,3 @@
             currentMax = currentMax + 1 #distractor
    =====
       return currentMax
-
-
-
-    

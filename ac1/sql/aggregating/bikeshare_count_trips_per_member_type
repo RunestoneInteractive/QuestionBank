@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_count_trips_per_member_type
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -14,4 +14,3 @@
      trip_data
    GROUP BY
      member_type
-

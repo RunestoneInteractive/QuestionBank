@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_high_low
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -54,4 +54,4 @@
 	         'Checking answer for -2*x+3, low=10, high=1')
 	     self.assertEqual(order(lambda x: x**2-5, -6, -5), _order(lambda x: x**2-1, -6, -5), 
 	         'Checking answer for x**2-5, low=-6, high=-5')
-   myTests().main()	        
+   myTests().main()

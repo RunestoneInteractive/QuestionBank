@@ -1,10 +1,9 @@
-
+.. parsonsprob:: introParsons1
    :author: Tom Stokke
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. parsonsprob:: introParsons1
    :maxdist:
    :order:
    :language:
@@ -27,4 +26,3 @@
 config values (conf.py):
 
 - parsons_div_class - custom CSS class of the component's outermost div
-    

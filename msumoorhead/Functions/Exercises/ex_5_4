@@ -1,0 +1,13 @@
+.. activecode:: ex_5_4
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: msumoorhead
+   :topic: Functions/Exercises
+   :from_source: None
+   :nocodelens:
+
+
+   import turtle
+
+   def drawPoly(aturtle, num_sides, side_length):
+       ''' '''

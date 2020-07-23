@@ -1,13 +1,9 @@
-
+.. actex:: BPU_Convert_Seconds
     :author: Jane Weyant
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. actex:: BPU_Convert_Seconds
 
     Write a program that inputs the number of seconds, and returns the number of minutes and seconds.  For example, "130" should return "2 minutes and 10 seconds".
     ~~~~
-    
- 
-    

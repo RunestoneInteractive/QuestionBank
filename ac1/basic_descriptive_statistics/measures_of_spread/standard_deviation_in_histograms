@@ -1,6 +1,6 @@
 .. mchoice:: standard_deviation_in_histograms
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/measures_of_spread
    :from_source: T
@@ -14,4 +14,3 @@
    - Blue
 
      + Correct. The blue values are spread out over a wide range.
-

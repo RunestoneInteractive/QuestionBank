@@ -1,6 +1,6 @@
 .. activecode:: ac-example-domjs
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/activecode
    :from_source: T
@@ -9,4 +9,3 @@
 
    let t = document.getElementById('text1');
    writeln('value = ' + t.value);
-

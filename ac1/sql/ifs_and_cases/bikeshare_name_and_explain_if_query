@@ -1,6 +1,6 @@
 .. shortanswer:: bikeshare_name_and_explain_if_query
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/ifs_and_cases
    :from_source: T
@@ -17,4 +17,3 @@
         trip_data
       GROUP BY
         column_1
-

@@ -1,0 +1,25 @@
+.. activecode:: Images_1
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPrinTeasers/computeImages
+    :from_source: T
+    :tour_1: "Important Lines Tour"; 3,6,10,14: timg1-line361014; 4: timg1-line4; 7: timg1-line7; 8: timg1-line8; 11: timg1-line11; 12: timg1-line12; 15-16: timg1-line15-16;
+    :nocodelens:
+
+    from image import *
+
+    # CREATE AN IMAGE FROM A FILE
+    img = Image("arch.jpg")
+
+    # LOOP THROUGH ALL THE PIXELS
+    pixels = img.getPixels()
+    for p in pixels:
+
+        # CLEAR THE RED
+        p.setRed(0)
+        img.updatePixel(p)
+
+    # SHOW THE CHANGED IMAGE
+    win = ImageWin(img.getWidth(),img.getHeight())
+    img.draw(win)

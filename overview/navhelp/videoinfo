@@ -1,6 +1,6 @@
 .. video:: videoinfo
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: overview
     :topic: navhelp/
     :from_source: F
@@ -9,5 +9,3 @@
 
     http://media.interactivepython.org/thinkcsVideos/activecodelens.mov
     http://media.interactivepython.org/thinkcsVideos/activecodelens.webm
-
-

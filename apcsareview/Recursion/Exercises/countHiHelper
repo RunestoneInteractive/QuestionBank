@@ -1,6 +1,6 @@
 .. activecode:: countHiHelper
    :author: Doug Vermes
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: apcsareview
    :topic: Recursion/Exercises
    :from_source: F
@@ -53,5 +53,3 @@
       }
    }
    ====
-
-    

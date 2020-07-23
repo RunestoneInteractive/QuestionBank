@@ -1,6 +1,6 @@
 .. mchoice:: programming_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter1/exercises
     :from_source: T
@@ -31,4 +31,3 @@
     -   repetition
 
         +   This is why you would consider using a loop in your program.
-

@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_finalexam_listcomprehension
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: AdvancedAccumulation/Exercises
     :from_source: F
-.. activecode:: wvu_finalexam_listcomprehension
     :autograde: unittest
 
     Write a list comprehension to filter the values from the **values** list so it includes values that are at least 0 but not more than 100. Place the results in a new list named **filtered_values**.
@@ -21,4 +20,3 @@
             self.assertEqual(test_two, True, 'List comprehension used.')
     
     myTests().main()
-  

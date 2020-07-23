@@ -1,6 +1,6 @@
 .. mchoice:: e5a6_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPNameNames/exam5a6
    :from_source: T
@@ -26,4 +26,3 @@
       sue.forward(75)
       sue.right(90)
       sue.forward(150)
-

@@ -1,10 +1,9 @@
-
+.. activecode:: cosc1306-test-unittesting-2
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Labs/Exercises
    :from_source: F
-.. activecode:: cosc1306-test-unittesting-2
    :autograde: unittest
    :language: python
 
@@ -43,5 +42,3 @@ class myTests(TestCaseGui):
         self.assertEqual(sum_first_n(0),0,feedback="summing 0 numbers should be 0")
 
 myTests().main()
-
-    

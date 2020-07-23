@@ -1,6 +1,6 @@
 .. mchoice:: pe4_11
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: TimedTests/test4
    :from_source: T
@@ -27,4 +27,3 @@
      s2 = s2.toUpperCase();
      s3 = s3.toLowerCase();
      s4 = null;
-

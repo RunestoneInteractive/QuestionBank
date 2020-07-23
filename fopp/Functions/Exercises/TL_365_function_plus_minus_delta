@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_plus_minus_delta
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
@@ -80,4 +80,4 @@
                for i in range(len(_result)):
                    self.assertAlmostEqual(result[i], _result[i], 7,
                        'Evaluating a mystery function at {}'.format(x-dx+i*dx))
-   myTests().main() 
+   myTests().main()

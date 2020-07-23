@@ -1,6 +1,6 @@
 .. parsonsprob:: pp5_11_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: T
@@ -14,4 +14,3 @@
    for sentence in phrases:
    =====
        print(sentence.count("t"))
-

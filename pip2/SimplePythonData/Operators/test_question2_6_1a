@@ -1,0 +1,23 @@
+.. mchoice:: test_question2_6_1a
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: SimplePythonData/Operators
+   :from_source: None
+   :answer_a: 4.5
+   :answer_b: 5
+   :answer_c: 4
+   :answer_d: 4.0
+   :answer_e: 2
+   :feedback_a: Because 18 and 4 are ints, / does integer division.
+   :feedback_b: Integer division results in truncation, not rounding up.
+   :feedback_c: Because 18 and 4 are ints, / does integer division.
+   :feedback_d: Because 18 and 4 are ints, / does integer division and produces an integer.
+   :feedback_e: / does division. Perhaps you were thinking of %, which computes the remainder?
+   :correct: c
+
+   What value is printed when the following statement executes?
+
+   .. code-block:: python
+
+      print 18 / 4

@@ -1,6 +1,6 @@
 .. activecode:: ArrayListWordPair1bd
    :author: Brian Dahlem
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: csawesome
    :topic: Unit7-ArrayList/topic-7-3-arraylist-loops
    :from_source: F
@@ -40,4 +40,3 @@
            return "(" + word1 + ", " + word2 + ")";
        }
    }
-

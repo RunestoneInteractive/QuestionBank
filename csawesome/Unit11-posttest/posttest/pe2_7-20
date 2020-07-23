@@ -1,6 +1,6 @@
 .. mchoice:: pe2_7-20
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit11-posttest/posttest
    :from_source: T
@@ -27,4 +27,3 @@
       III. Objects from subclasses can be stored in the same array
       IV.  All of the above
       V.   None of the above
-

@@ -1,6 +1,6 @@
 .. activecode:: string_class_1
  :author: bmiller
- :difficulty: 3.0
+ :difficulty: 3
  :basecourse: thinkcspy
  :topic: Strings/Characterclassification
  :from_source: T
@@ -10,5 +10,3 @@
  print(string.ascii_uppercase)
  print(string.digits)
  print(string.punctuation)
-
-

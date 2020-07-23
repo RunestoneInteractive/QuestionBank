@@ -1,6 +1,6 @@
 .. mchoice:: objects_and_functions_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter11/objects_and_functions
    :from_source: T

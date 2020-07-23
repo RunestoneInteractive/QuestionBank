@@ -1,0 +1,25 @@
+.. parsonsprob:: ch12p2ex5muc
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Recursion/rMixedUpCodePractice
+   :from_source: None
+   :adaptive:
+   :noindent:
+
+   The following method should recursively find and return the sum of the digits of int n.
+   -----
+   public int sum(int n)
+   {
+   =====
+       if(n / 10 == 0)
+   =====
+           return n;
+   =====
+       else
+   =====
+           return sum(n / 10) + n % 10;
+   =====
+   }
+   =====
+        return 1 + sum(n % 10); #distractor

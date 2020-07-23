@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_classes_repr
     :author: Brian Powell
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: Classes/Exercises
     :from_source: F
-.. activecode:: wvu_classes_repr
 
     Add a **__repr__()** function to the **Vehicle** class to return a string representation of object contents when used with a list. Your **__repr__()** function should call **__str__()** and return the string representation that function provides. You can copy-and-paste your **__str__()** function code into this question.
 

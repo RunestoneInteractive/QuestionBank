@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_splitting_decimals
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_splitting_decimals
    
    **Complete the program below. It should do the following:**
       

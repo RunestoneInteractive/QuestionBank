@@ -1,10 +1,9 @@
-
+.. parsonsprob:: pCar1
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. parsonsprob:: pCar1
    :numbered: left
    :adaptive:
 
@@ -32,5 +31,4 @@
    =====
            return("speed: " + str(theSpeed))
    =====
-           return("speed: " + theSpeed) #paired 
-    
+           return("speed: " + theSpeed) #paired

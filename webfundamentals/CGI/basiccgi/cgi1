@@ -1,6 +1,6 @@
 .. activecode:: cgi1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CGI/basiccgi
    :from_source: T
@@ -14,4 +14,3 @@
    print("<h1>Hello %s</h1>" % "World")
    print("</body>")
    print("</html>")
-

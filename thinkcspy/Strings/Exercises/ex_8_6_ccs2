@@ -1,10 +1,9 @@
-
+.. actex:: ex_8_6_ccs2
    :author: Michael McCarrin
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: thinkcspy
    :topic: Strings/Exercises
    :from_source: F
-.. actex:: ex_8_6_ccs2
    :nocodelens:
 
    Write a function that mirrors its string argument, generating a string containing the original string and the string backwards.

@@ -1,6 +1,6 @@
 .. activecode:: fnq
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: Functions/TuplesasReturnValues
     :from_source: None
@@ -16,4 +16,3 @@
     print(result)
     (circum, area) = circleInfo(10)
     print(circum, area)
-

@@ -1,6 +1,6 @@
 .. activecode:: CS152_Times_Table_1
     :author: John Cigas
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -19,4 +19,3 @@
     print('7 x','3 = 21')
     print('8 x','3 = 24')
     print('9 x','3 = 27')
-

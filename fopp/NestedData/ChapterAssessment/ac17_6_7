@@ -1,6 +1,6 @@
 .. activecode:: ac17_6_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: NestedData/ChapterAssessment
    :from_source: T
@@ -28,4 +28,3 @@
          self.assertEqual(sorted(US_count), [35, 36, 46], "Testing that US_count is assigned to correct values.")
 
    myTests().main()
-

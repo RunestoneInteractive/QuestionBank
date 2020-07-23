@@ -1,0 +1,45 @@
+.. mchoice:: pe3_11
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: TimedTests/test3
+   :from_source: T
+   :answer_a: pm1pm2cm2cm1
+   :answer_b: pm1pm2
+   :answer_c: pm1pm2cm1cm2
+   :answer_d: pm1cm1
+   :answer_e: pm1
+   :correct: a
+   :feedback_a: When p.m1() is run it will execute the m1 method in Child since p is an object of that class.  The first line calls super.m1() which will execute the m1 method in Parent. That method will print "pm1" and then call m2().  The m2 method in child will execute since p is a Child object.  The first line in that method calls super.m2() which will execute the m2 method in Parent.  This will print "pm2".  Then the parent m2 method will return, so execution will continue in the m2 method of Child and it will print "cm2".  Then the child m2 method will return which will continue execution in the m1 method of Child which will print "cm1".
+   :feedback_b: This would be true if p was an object of the Parent class, but it is an object of the Child class and the runtime will start execution of a method in the Child class method if it has it.
+   :feedback_c: Remember that each method call is added to the call stack and after the method returns execution continues with the next statement after the method call.
+   :feedback_d: This would be true if the m1 method in Parent didn't call m2().
+   :feedback_e: This would be true if the m1 method in Parent didn't call m2() and the p was actually an object of the Parent class.
+
+   Assume that Parent p = new Child(); appears in a client program.  What is the result of the call p.m1()?
+
+   .. code-block:: java
+
+      public class Parent {
+         public void m1() {
+           System.out.print("pm1");
+           m2();
+         }
+
+         public void m2() {
+            System.out.print("pm2");
+         }
+      }
+
+      public class Child extends Parent {
+         public void m1()
+         {
+            super.m1();
+            System.out.print("cm1");
+         }
+         public void m2()
+         {
+            super.m2();
+            System.out.print("cm2");
+         }
+      }

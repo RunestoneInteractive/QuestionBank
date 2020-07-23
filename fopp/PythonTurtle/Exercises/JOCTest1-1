@@ -1,10 +1,9 @@
-
+.. activecode:: JOCTest1-1
    :author: Joaquin Carbonara
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. activecode:: JOCTest1-1
 
    Write a turtle program that draws the letters LLL in green.
    In order to get credit you must use one loop repeating the same thing

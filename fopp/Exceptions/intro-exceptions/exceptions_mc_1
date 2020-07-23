@@ -1,6 +1,6 @@
 .. mchoice:: exceptions_mc_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Exceptions/intro-exceptions
    :from_source: T

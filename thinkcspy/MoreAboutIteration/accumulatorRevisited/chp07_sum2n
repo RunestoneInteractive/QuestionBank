@@ -1,6 +1,6 @@
 .. activecode:: chp07_sum2n
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/accumulatorRevisited
     :from_source: T
@@ -17,4 +17,3 @@
         return theSum
 
     print(sumTo())
-

@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_6_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/OperatorsandOperands
    :from_source: T
@@ -20,5 +20,3 @@
    .. code-block:: python
 
       print(18 / 4)
-
-

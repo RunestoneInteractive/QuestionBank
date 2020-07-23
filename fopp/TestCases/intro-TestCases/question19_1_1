@@ -1,6 +1,6 @@
 .. mchoice:: question19_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TestCases/intro-TestCases
    :from_source: T
@@ -18,4 +18,3 @@
    :practice: T
 
    When ``assert x==y`` is executed and x and y have different values, what will happen?
-

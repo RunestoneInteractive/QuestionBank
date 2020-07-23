@@ -1,6 +1,6 @@
 .. activecode:: lhs_10_7
     :author: Shadaj Laddad
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
@@ -24,4 +24,4 @@
             self.assertEqual(add_vectors([1, 2], [1, 4]), [2, 6])
             self.assertEqual(add_vectors([1, 2, 1], [1, 4, 3]), [2, 6, 4])
                 
-    myTests().main() 
+    myTests().main()

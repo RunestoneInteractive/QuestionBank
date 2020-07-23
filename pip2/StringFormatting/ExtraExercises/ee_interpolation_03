@@ -1,0 +1,20 @@
+.. activecode:: ee_interpolation_03
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: StringFormatting/ExtraExercises
+   :from_source: None
+   :tags: StringFormatting/Interpolation.rst
+
+   countries = [('Jamaica', 11), ('Malaysia',5), ('Japan', 41), ('Sweden', 11), ('Serbia', 8)]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(medals, ['Jamaica won 11 medals', 'Malaysia won 5 medals', 'Japan won 41 medals', 'Sweden won 11 medals', 'Serbia won 8 medals'], "Testing that medals is assigned to correct values")
+
+   myTests().main()

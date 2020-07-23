@@ -1,6 +1,6 @@
 .. parsonsprob:: ch5ex6muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Conditionals/CondParsonsPractice
    :from_source: T
@@ -34,4 +34,3 @@
    =====
        }
    }
-

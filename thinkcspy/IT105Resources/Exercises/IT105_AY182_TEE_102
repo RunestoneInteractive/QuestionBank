@@ -1,6 +1,6 @@
 .. activecode:: IT105_AY182_TEE_102
    :author: Tom Babbitt
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
@@ -99,5 +99,4 @@
          self.assertGreaterEqual(len(re.findall("randrange\s*\(\s*1\s*,\s*7\s*\)", editText)) + len(re.findall("randint\s*\(\s*1\s*,\s*6\s*\)", editText)), 2, "Checking for randint or rangerange and proper parameters")
          #self.assertGreaterEqual(self.count_code(editText, 'randint') + self.count_code(editText, 'randrange') , 2, "Checking for a return statement")
 
-   myTests().main()  
-    
+   myTests().main()

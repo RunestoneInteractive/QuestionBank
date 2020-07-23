@@ -1,6 +1,6 @@
 .. fillintheblank:: gen_max
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
@@ -10,4 +10,3 @@
    - :0.629: Is the correct answer
      :0.9.*: Looks like you might be off by a column
      :x: Please check your ranges and try again
-

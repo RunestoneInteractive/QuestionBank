@@ -1,6 +1,6 @@
 .. showeval:: showEval_cpp_copy
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/showeval
    :from_source: T
@@ -15,6 +15,3 @@
    v = -3 -2 {{2 3 1}}{{1 2 3}} -1 0       ## next rotate 1 into v[2]
    v = -3 -2 {{1 2 3 -1}}{{-1 1 2 3}} 0    ## next rotate -1 into v[2]
    v = -3 -2 -1 {{1 2 3 0}}{{0 1 2 3}}     ## finally, rotate 0 into v[3]
-
-
-

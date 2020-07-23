@@ -1,6 +1,6 @@
 .. activecode:: html_details
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/csstricks
    :from_source: T
@@ -12,5 +12,3 @@
        <summary>Show me More</summary>
        <p>This text will only show when the triangle is clicked on</p>
    </details>
-
-

@@ -1,6 +1,6 @@
 .. activecode:: StudentAnswerKeyB
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: FreeResponse/StudentAnswerSheetB
    :from_source: T
@@ -106,4 +106,3 @@
          System.out.println("Your best is: " + results.highestScoringStudent(key) + " and should be S4");
       }
    }
-

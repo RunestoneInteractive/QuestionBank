@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_11
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Incorrect. Nothing is modifying the domain umich.edu.
 
    Which of the following would be considered a subdomain of umich.edu according to the guidelines of the Domain Name System (DNS)?
-

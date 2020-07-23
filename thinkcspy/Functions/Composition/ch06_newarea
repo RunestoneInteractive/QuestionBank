@@ -1,6 +1,6 @@
 .. activecode:: ch06_newarea
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Composition
     :from_source: T
@@ -22,5 +22,3 @@
         return result
 
     print(area2(0,0,1,1))
-
-

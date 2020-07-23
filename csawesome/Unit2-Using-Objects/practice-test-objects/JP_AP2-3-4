@@ -1,6 +1,6 @@
 .. mchoice:: JP_AP2-3-4
     :author: John Pataracchia
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/practice-test-objects
     :from_source: F
@@ -68,4 +68,3 @@
          a.purr();
 
       - This would just print "purrrrrrrr... ".
-

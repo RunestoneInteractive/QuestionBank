@@ -1,6 +1,6 @@
 .. mchoice:: qab_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: ArrayBasics/abasics
    :from_source: T
@@ -11,7 +11,3 @@
    :feedback_b: Since the first element in an array is at index 0 the last element is the length minus 1.
 
    Which index is the last element in an array called ``highScores`` at?
-
-
-
-

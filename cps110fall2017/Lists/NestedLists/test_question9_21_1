@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_21_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Lists/NestedLists
    :from_source: None
@@ -23,4 +23,3 @@
         print(alist[1][0])
      else:
         print(alist[1][1])
-

@@ -1,0 +1,14 @@
+.. codelens:: ch02_11
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/Variables
+    :from_source: None
+    :showoutput:
+
+    day = "Thursday"
+    print day
+    day = "Friday"
+    print day
+    day = 21
+    print day

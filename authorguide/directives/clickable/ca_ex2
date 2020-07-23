@@ -1,6 +1,6 @@
 .. clickablearea:: ca_ex2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/clickable
    :from_source: T
@@ -13,4 +13,3 @@
    :click-correct:hours:endclick: = int(seconds) / :click-incorrect:3600:endclick:
    :click-correct:secs_still_remaining:endclick: = :click-correct:total_secs:endclick: % 3600
    print(:click-correct:secs_still_remaining:endclick:)
-

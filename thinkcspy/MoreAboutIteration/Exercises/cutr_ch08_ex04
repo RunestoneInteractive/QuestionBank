@@ -1,6 +1,6 @@
 .. actex:: cutr_ch08_ex04
   :author: Sandra Jackson
-  :difficulty: 1.0
+  :difficulty: 1
   :basecourse: thinkcspy
   :topic: MoreAboutIteration/Exercises
   :from_source: F
@@ -20,4 +20,3 @@
           self.assertEqual(type(getAges()),type([]), "If this test failed the return type of the function is not a list")
 
   myTests().main()
-    

@@ -1,6 +1,6 @@
 .. activecode:: max10
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWebData/largestPoll
    :from_source: T
@@ -19,4 +19,3 @@
            maxCity = values[0]
            # save the new maximum
    print("Largest PM 10 value is ",max10," in ",maxCity)
-

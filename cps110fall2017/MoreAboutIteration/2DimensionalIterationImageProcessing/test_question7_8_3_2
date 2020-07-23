@@ -1,6 +1,6 @@
 .. mchoice:: test_question7_8_3_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: MoreAboutIteration/2DimensionalIterationImageProcessing
    :from_source: None
@@ -29,5 +29,3 @@
       newred = p.getRed()
       newgreen = 0
       newblue = 0
-
-

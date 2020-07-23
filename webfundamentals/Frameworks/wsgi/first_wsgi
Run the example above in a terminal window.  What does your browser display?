@@ -1,6 +1,6 @@
 .. fillintheblank:: first_wsgi
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Frameworks/wsgi
     :from_source: T

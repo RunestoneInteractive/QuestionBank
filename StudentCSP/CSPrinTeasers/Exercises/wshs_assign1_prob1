@@ -1,10 +1,9 @@
-
+.. dragndrop:: wshs_assign1_prob1
     :author: Allison Schullo
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: StudentCSP
     :topic: CSPrinTeasers/Exercises
     :from_source: F
-.. dragndrop:: wshs_assign1_prob1
     :feedback:
     :match_1: Joel|||dad
     :match_2: Chris|||mom
@@ -16,4 +15,3 @@
 config values (conf.py): 
 
 - dragndrop_div_class - custom CSS class of the component's outermost div
-    

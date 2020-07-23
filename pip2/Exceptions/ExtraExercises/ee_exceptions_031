@@ -1,0 +1,25 @@
+.. activecode:: ee_exceptions_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Exceptions/ExtraExercises
+   :from_source: None
+   :tags: Exceptions/intro-exceptions.rst
+
+   full_lst = ["ab", 'cde', 'fgh', 'i', 'jkml', 'nop', 'qr', 's', 'tv', 'wxy', 'z']
+
+   attempt = []
+
+   for elem in full_lst:
+       attempt.append(elem[1])
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(attempt, ['b', 'd', 'g', 'Error', 'k', 'o', 'r', 'Error', 'v', 'x', 'Error'], "Testing that attempt has the correct values.")
+
+   myTests().main()

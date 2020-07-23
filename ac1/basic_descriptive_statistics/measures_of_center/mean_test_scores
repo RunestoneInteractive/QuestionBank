@@ -1,6 +1,6 @@
 .. fillintheblank:: mean_test_scores
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: basic_descriptive_statistics/measures_of_center
    :from_source: T
@@ -11,4 +11,3 @@
    - :=MEAN\(A1\:A6\): Correct
      :MEAN\(A1\:A6\): Incorrect: Remember formulas must start with ``=``.
      :x: Incorrect
-

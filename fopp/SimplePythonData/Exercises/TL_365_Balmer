@@ -1,6 +1,6 @@
 .. actex:: TL_365_Balmer
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -27,4 +27,4 @@
 	   self.assertTrue(re.search(str(4.3392)[:6], self.getOutput()), 'Checking answer.')
 	   self.assertTrue(re.search(str(4.1006)[:6], self.getOutput()), 'Checking answer.')
 	   self.assertTrue(re.search(str(3.9689)[:6], self.getOutput()), 'Checking answer.')  
-   myTests().main() 
+   myTests().main()

@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch6_7
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -24,4 +24,4 @@
            self.assertEqual(i, pullout(L), "Testing for correct i value")
 
            
-   myTests().main()   
+   myTests().main()

@@ -1,10 +1,9 @@
-
+.. activecode:: Function_QuizA_2019
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: Function_QuizA_2019
 
     A function is provided that will calculate the area of a rectangle.  
 
@@ -53,4 +52,3 @@
     print("\nSuccessful ending of the Rectangle Program") 
 
     ====
-    

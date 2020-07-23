@@ -1,6 +1,6 @@
 .. fillintheblank:: params_args_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/ParametersAndArguments
    :from_source: T
@@ -26,4 +26,3 @@
    - :error: The type provided does not match the expected parameter type!
      :3.143.14: If you look closely, you'll notice that the type of the argument is not the same as the type of the parameter.
      :.*: Try again!
-

@@ -1,0 +1,29 @@
+.. activecode:: lca2dloopPart
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit8-2DArray/topic-8-2-2D-array-loops-Day2
+   :from_source: T
+   :language: java
+
+   What will the following code print out? Can you add another method that gets the total for a column?
+   ~~~~
+   public class Total
+   {
+
+      public static int getTotalForRow(int row, int[][] a)
+      {
+         int total = 0;
+         for (int col = 0; col < a[0].length; col++)
+         {
+            total = total + a[row][col];
+         }
+         return total;
+      }
+
+      public static void main(String[] args)
+      {
+         int[][] matrix = {  {1,2,3},{4,5,6}};
+         System.out.println(getTotalForRow(0,matrix));
+      }
+   }

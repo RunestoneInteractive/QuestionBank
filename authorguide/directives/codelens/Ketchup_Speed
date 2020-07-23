@@ -1,6 +1,6 @@
 .. codelens:: Ketchup_Speed
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/codelens
    :from_source: T
@@ -18,4 +18,3 @@
    print(dripFPM)
    print("Ketchup speed to move 4 feet in a minute:")
    print(4 / dripFPM)
-

@@ -1,0 +1,13 @@
+.. activecode:: mod_q1_answer
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: thinkcspy
+   :topic: PythonModules/Exercises
+   :from_source: T
+
+   import random
+
+   howmany = 10
+   for counter in range(howmany):
+       arandom = random.random()
+       print(arandom)

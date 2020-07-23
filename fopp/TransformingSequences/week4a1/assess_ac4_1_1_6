@@ -1,6 +1,6 @@
 .. activecode:: assess_ac4_1_1_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/week4a1
     :from_source: T
@@ -26,4 +26,3 @@
         self.assertIn('.', self.getEditorText(), "Testing that a method invocation was used in your code.")
 
     myTests().main()
-

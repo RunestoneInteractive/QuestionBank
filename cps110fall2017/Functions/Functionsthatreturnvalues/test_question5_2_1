@@ -1,6 +1,6 @@
 .. mchoice:: test_question5_2_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Functions/Functionsthatreturnvalues
    :from_source: None
@@ -21,4 +21,3 @@
      def addEm(x, y, z):
          return x + y + z
          print('the answer is', x + y + z)
-

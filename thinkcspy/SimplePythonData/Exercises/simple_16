@@ -1,14 +1,12 @@
-
+.. activecode:: simple_16
     :author: DANIEL LEE
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: simple_16
 
     Write code that asks the user for a number of seconds. Calculate the 
     number of hours it represents and prints out the result to the user.
     Be sure to use the '//' operator.
 
     ~~~~
-    

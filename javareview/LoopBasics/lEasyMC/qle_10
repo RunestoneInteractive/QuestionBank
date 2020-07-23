@@ -1,0 +1,27 @@
+.. mchoice:: qle_10
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: LoopBasics/lEasyMC
+   :from_source: None
+   :answer_a: 3 4 5 6 7 8
+   :answer_b: 3 4 5 6 7 8 9
+   :answer_c: 0 1 2 3 4 5 6 7 8
+   :answer_d: 0 1 2 3 4 5 6 7 8 9
+   :answer_e: It is an infinite loop
+   :correct: e
+   :feedback_a: Notice that x isn't changed in the loop.
+   :feedback_b: Notice that x isn't changed in the loop.
+   :feedback_c: Notice that x isn't changed in the loop.
+   :feedback_d: Notice that x isn't changed in the loop.
+   :feedback_e: Since x is never changed in the loop this is an infinite loop.
+
+   What does the following code print?
+
+   .. code-block:: java
+
+     int x = 3;
+     while (x < 9)
+     {
+        System.out.print(x + " ");
+     }

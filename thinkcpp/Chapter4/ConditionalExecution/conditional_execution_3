@@ -1,6 +1,6 @@
 .. dragndrop:: conditional_execution_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/ConditionalExecution
    :from_source: T

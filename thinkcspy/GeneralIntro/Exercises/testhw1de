@@ -1,10 +1,9 @@
-
+.. activecode:: testhw1de
    :author: Damon Ellingston
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-.. activecode:: testhw1de
    :coach:
 
    Write a short program that prints out "Hello, world!"

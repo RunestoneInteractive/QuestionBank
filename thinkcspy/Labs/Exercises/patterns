@@ -1,10 +1,9 @@
-
+.. activecode:: patterns
    :author: Diana Linville
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Labs/Exercises
    :from_source: F
-.. activecode:: patterns
    :autograde: unittest
    :caption: #Write a for loop to print 10 numbers
    :language: python3
@@ -13,4 +12,3 @@
 
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

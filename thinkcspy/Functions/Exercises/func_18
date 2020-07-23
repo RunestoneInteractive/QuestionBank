@@ -1,13 +1,11 @@
-
+.. activecode:: func_18
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_18
   
     Why do programmers follow the principle of "incremental development" 
     when coding?
 
     ~~~~
-    

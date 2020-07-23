@@ -1,6 +1,6 @@
 .. activecode:: compos_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Composition
    :from_source: T
@@ -30,4 +30,3 @@
    REQUIRE( velocity(0,2,3) == 6 );
    REQUIRE( velocity(1,0,3) == 1 );
    }
-

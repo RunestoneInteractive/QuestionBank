@@ -1,0 +1,19 @@
+.. activecode:: ee_files_05
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Files/ExtraExercises
+   :from_source: None
+   :tags:Files/intro-WorkingwithDataFiles.rst
+
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFive(self):
+         self.assertEqual(first_chars, "This summer I will be travelling.", "Testing that first_chars is assigned to correct value.")
+
+   myTests().main()

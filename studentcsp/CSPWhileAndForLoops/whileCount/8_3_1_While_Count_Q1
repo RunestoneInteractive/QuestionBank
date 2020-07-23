@@ -1,6 +1,6 @@
 .. mchoice:: 8_3_1_While_Count_Q1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWhileAndForLoops/whileCount
    :from_source: T

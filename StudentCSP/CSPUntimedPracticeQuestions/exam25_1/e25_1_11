@@ -1,0 +1,17 @@
+.. mchoice:: e25_1_11
+  :author: bmiller
+  :difficulty: 3
+  :basecourse: StudentCSP
+  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: Everyone with access can reach it at any time.
+  :answer_b: The cloud keeps their information private from other companies.
+  :answer_c: The cloud blocks all information from its employees.
+  :answer_d: Half of the company’s data can be transferred to other locations to reduce demand on servers.
+  :correct: a
+  :feedback_a: Correct. Using cloud computing refers to storing and accessing information using the Internet rather than one's hard drive. It allows more than one computer to access it.
+  :feedback_b: Incorrect. Cloud computing systems can keep information private, however, that is not a main advantage of using it.
+  :feedback_c: Incorrect. Advantages of cloud computing do the exact opposite.
+  :feedback_d: Incorrect. This is not a main advantage of cloud computing systems for businesses.
+
+  Which of the following is a main advantage for a company placing their data in the cloud?

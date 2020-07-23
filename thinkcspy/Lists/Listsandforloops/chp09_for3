@@ -1,6 +1,6 @@
 .. activecode:: chp09_for3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Lists/Listsandforloops
     :from_source: T
@@ -8,4 +8,3 @@
     for number in range(20):
         if number % 3 == 0:
             print(number)
-

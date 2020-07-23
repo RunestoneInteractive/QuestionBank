@@ -1,6 +1,6 @@
 .. fillintheblank:: sorting_deck_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter13/sorting
     :from_source: T
@@ -12,4 +12,3 @@
       :.*: Try again!
     - :[Ff][Uu][Nn][Cc][Tt][Ii][Oo][Nn]: Correct!
       :.*: Try again!
-

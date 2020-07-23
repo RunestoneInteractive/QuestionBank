@@ -1,6 +1,6 @@
 .. mchoice:: pe2_12-6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit11-posttest/posttest
    :from_source: T
@@ -26,4 +26,3 @@
                System.out.println("Susan is " + s + " and Matt is " + m);
         }
      }
-

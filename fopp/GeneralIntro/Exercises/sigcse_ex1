@@ -1,6 +1,6 @@
 .. activecode:: sigcse_ex1
     :author: Andrew McDonald
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -20,4 +20,3 @@
             self.assertEqual(sum_first_n(0),0,feedback="summing 0 numbers should be 0")
 
     myTests().main()
-    

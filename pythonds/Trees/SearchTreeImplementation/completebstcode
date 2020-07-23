@@ -1,6 +1,6 @@
 .. activecode:: completebstcode
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds
     :topic: Trees/SearchTreeImplementation
     :from_source: T

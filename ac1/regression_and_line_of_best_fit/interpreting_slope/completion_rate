@@ -1,6 +1,6 @@
 .. mchoice:: completion_rate
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: regression_and_line_of_best_fit/interpreting_slope
    :from_source: T
@@ -22,4 +22,3 @@
        negative, the school with the higher percentage of students with federal
        loans will have a lower completion rate. So, College A will have a lower
        percentage of students graduating within 6 years.
-

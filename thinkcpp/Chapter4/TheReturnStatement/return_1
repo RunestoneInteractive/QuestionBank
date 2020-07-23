@@ -1,6 +1,6 @@
 .. mchoice:: return_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter4/TheReturnStatement
    :from_source: T
@@ -39,4 +39,3 @@
          }
          return 0;
        }
-

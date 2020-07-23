@@ -1,6 +1,6 @@
 .. activecode:: chp12_dict7
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Dictionaries/Dictionarymethods
     :from_source: T
@@ -9,4 +9,3 @@
 
     for k in inventory:
        print("Got key", k)
-

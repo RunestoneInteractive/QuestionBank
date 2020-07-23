@@ -1,0 +1,13 @@
+.. activecode:: listcomp_12
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: AdvancedAccumulation/reduce
+   :from_source: None
+
+   strings = ["Hello", "hi", "bye", "wonderful"]
+
+   result = strings[0]
+   for s in strings[1:]:
+       result = result + "--" + s
+   print result

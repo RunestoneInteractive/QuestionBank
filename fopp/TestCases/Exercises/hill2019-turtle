@@ -1,6 +1,6 @@
 .. activecode:: hill2019-turtle
    :author: Scott Hill
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TestCases/Exercises
    :from_source: F
@@ -17,5 +17,3 @@
    ~~~~
    
    ====
-
-

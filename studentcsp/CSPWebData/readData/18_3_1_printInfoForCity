@@ -1,6 +1,6 @@
 .. parsonsprob:: 18_3_1_printInfoForCity
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWebData/readData
    :from_source: T
@@ -34,4 +34,3 @@
    =====
    # close the file
    inFile.close()
-

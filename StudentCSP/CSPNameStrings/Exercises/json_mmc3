@@ -1,6 +1,6 @@
 .. mchoice:: json_mmc3
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameStrings/Exercises
    :from_source: F
@@ -32,4 +32,3 @@
           "last_name" : "Russo"
       }]'''
       dList = json.loads(data)
-   

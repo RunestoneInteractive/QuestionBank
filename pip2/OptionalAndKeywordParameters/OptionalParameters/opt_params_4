@@ -1,0 +1,16 @@
+.. codelens:: opt_params_4
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: OptionalAndKeywordParameters/OptionalParameters
+    :from_source: None
+
+    def f(a, L=[]):
+        L.append(a)
+        return L
+
+    print f(1)
+    print f(2)
+    print f(3)
+    print f(4, ["Hello"])
+    print f(5, ["Hello"])

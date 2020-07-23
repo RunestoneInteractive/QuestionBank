@@ -1,6 +1,6 @@
 .. activecode:: ac6_6_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: TransformingSequences/TheAccumulatorPatternwithStrings
    :from_source: T

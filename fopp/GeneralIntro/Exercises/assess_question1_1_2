@@ -1,6 +1,6 @@
 .. activecode:: assess_question1_1_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: GeneralIntro/Exercises
     :from_source: T
@@ -20,4 +20,3 @@
             self.assertIn("Hello World", self.getOutput(), "Your output should contain a phrase Hello World")
 
     myTests().main()
-

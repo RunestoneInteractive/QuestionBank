@@ -1,6 +1,6 @@
 .. mchoice:: qsm_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: T
@@ -37,5 +37,3 @@
             System.out.print("Woo " + x.someFunc("Woo"));
         }
      }
-
-

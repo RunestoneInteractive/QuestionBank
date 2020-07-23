@@ -1,6 +1,6 @@
 .. mchoice:: pt_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: JS4Python
     :topic: TheBasics/pretest
     :from_source: T
@@ -10,4 +10,3 @@
     :correct: b
 
     How do you create a function in JavaScript?
-

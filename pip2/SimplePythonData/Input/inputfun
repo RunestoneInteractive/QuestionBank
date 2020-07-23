@@ -1,0 +1,9 @@
+.. activecode:: inputfun
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/Input
+    :from_source: None
+
+    n = raw_input("Please enter your name: ")
+    print "Hello", n

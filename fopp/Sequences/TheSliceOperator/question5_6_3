@@ -1,6 +1,6 @@
 .. mchoice:: question5_6_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Sequences/TheSliceOperator
    :from_source: T
@@ -21,4 +21,3 @@
 
      L = [0.34, '6', 'SI106', 'Python', -2]
      print(len(L[1:-1]))
-

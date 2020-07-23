@@ -1,6 +1,6 @@
 .. parsonsprob:: pp3_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: PythonTurtle/OurFirstTurtleProgram
    :from_source: T
@@ -12,4 +12,3 @@
    jamal = turtle.Turtle()
    jamal.left(180)
    jamal.forward(75)
-

@@ -1,0 +1,32 @@
+.. mchoice:: test_questionfunctions_4_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/Printvs.return
+   :from_source: None
+   :answer_a: 2
+   :answer_b: 5
+   :answer_c: 7
+   :answer_d: 10
+   :answer_e: Error: you can't nest function calls
+   :feedback_a: Better read the section above one more time.
+   :feedback_b: Better read the section above one more time.
+   :feedback_c: That's h(2), but it is passed to g.
+   :feedback_d: h(2) returns 7, so y is bound to 7 when g is invoked
+   :feedback_e: Ah, but you can next function calls.
+   :correct: d
+
+   What will the following code output?
+
+   .. code-block:: python
+
+       def square(x):
+           return x*x
+
+       def g(y):
+           return y + 3
+
+       def h(y):
+           return square(y) + 3
+
+       print g(h(2))

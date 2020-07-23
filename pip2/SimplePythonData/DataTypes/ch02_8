@@ -1,0 +1,10 @@
+.. activecode:: ch02_8
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: SimplePythonData/DataTypes
+    :from_source: None
+    :nocanvas:
+
+    print 42500
+    print 42,500

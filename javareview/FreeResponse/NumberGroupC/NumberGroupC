@@ -1,0 +1,11 @@
+.. activecode:: NumberGroupC
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: FreeResponse/NumberGroupC
+   :from_source: None
+   :language: java
+
+        public boolean contains(int num){
+
+        }

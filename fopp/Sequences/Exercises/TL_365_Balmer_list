@@ -1,6 +1,6 @@
 .. actex:: TL_365_Balmer_list
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -31,4 +31,3 @@
 	       self.assertAlmostEqual(wavelengths[i], ref_wavelengths(n), 7, 'Checking n = '+str(n))
 	   self.assertFalse(re.search(r'(6.5609|4.8599|4.3392|4.1006|3.9689)', self.getEditorText()), 'Checking for hardcoding')
    myTests().main()
-

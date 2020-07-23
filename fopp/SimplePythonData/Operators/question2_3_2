@@ -1,6 +1,6 @@
 .. mchoice:: question2_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: SimplePythonData/Operators
    :from_source: T
@@ -22,4 +22,3 @@
    .. code-block:: python
 
       print(18.0 // 4)
-

@@ -1,10 +1,9 @@
-
+.. parsonsprob:: cpsc120_lab_q10
    :author: Matthew Zuniga
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: cpp4python
    :topic: Control_Structures/Exercises
    :from_source: F
-.. parsonsprob:: cpsc120_lab_q10
 
    As with the <b>Fibonacci Sequence</b>, the <b>factorial problem</b> is another important problem in computer science. It can be done using recursion which again, will be taught in later courses.</b><br>
    <br>

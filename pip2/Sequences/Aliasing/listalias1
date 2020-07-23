@@ -1,0 +1,10 @@
+.. activecode:: listalias1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/Aliasing
+    :from_source: None
+
+    a = [81, 82, 83]
+    b = a
+    print a is b

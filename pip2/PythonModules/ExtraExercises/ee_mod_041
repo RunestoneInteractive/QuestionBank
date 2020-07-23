@@ -1,0 +1,21 @@
+.. activecode:: ee_mod_041
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: PythonModules/ExtraExercises
+   :from_source: None
+   :tags: PythonModules/intro-ModulesandGettingHelp.rst
+
+   options = ["   ", '', '!', 'A', ".", "B", 'b', "a", 'abd', 'abc', ",", ":"]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(small_options, ['', '!', 'A', '.', 'B', 'b', 'a', 'abc', ',', ':'], "Testing that small_options has the correct list assigned.")
+
+
+   myTests().main()

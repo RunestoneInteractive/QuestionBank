@@ -1,6 +1,6 @@
 .. parsonsprob:: NumberCubeA
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/numberCubeA
    :from_source: T
@@ -25,4 +25,3 @@
        return cubeTosses;
    =====
    } // end method
-

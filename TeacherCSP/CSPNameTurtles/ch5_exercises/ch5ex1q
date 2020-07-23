@@ -1,0 +1,12 @@
+.. activecode:: ch5ex1q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: TeacherCSP
+    :topic: CSPNameTurtles/ch5_exercises
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *
+    space = screen()
+    alex = Turtle
+    alex.Forward(150)

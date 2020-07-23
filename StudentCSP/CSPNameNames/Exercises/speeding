@@ -1,11 +1,9 @@
-
+.. activecode:: speeding
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-
-.. activecode:: speeding
    :autograde: unittest
    :nocodelens: 
 

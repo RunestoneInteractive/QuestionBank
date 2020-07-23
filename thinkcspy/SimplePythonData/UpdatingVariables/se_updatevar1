@@ -1,6 +1,6 @@
 .. showeval:: se_updatevar1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/UpdatingVariables
    :from_source: T
@@ -12,4 +12,3 @@
    x = {{x}}{{6}} + 1
    x = 6 + {{1}}{{1}}
    x = {{6 + 1}}{{7}}
-

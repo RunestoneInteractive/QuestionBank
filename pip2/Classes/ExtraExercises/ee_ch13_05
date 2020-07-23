@@ -1,0 +1,35 @@
+.. activecode:: ee_ch13_05
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Classes/ExtraExercises
+   :from_source: None
+   :tags: Classes/sorting_instances.rst, Classes/InstancesasReturnValues.rst
+
+   class Olympics():
+       def __init__(self, country, medal):
+           self.country = country
+           self.medal = medal
+
+       def sort_medal(self):
+           return self.medal
+
+       def sort_country(self):
+           return self.country
+
+   L = [("Italy", 28), ("China", 70), ("Australia", 29), ("United States", 121), ("Russia", 56), ("South Korea", 21), ("Venezuela", 3)]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testFiveA(self):
+         self.assertEqual(len(instances), 7, "Testing that instances is assigned to correct values")
+      def testFiveB(self):
+         self.assertEqual(sort_medal, [('United States', 121), ('China', 70), ('Russia', 56), ('Australia', 29), ('Italy', 28), ('South Korea', 21), ('Venezuela', 3)], "Testing if sort_medal is assigned to correct values")
+      def testFiveC(self):
+         self.assertEqual(sort_alpha, sorted(['Australia', 'China', 'Italy', 'Russia', 'South Korea', 'United States', 'Venezuela']), "Testing if sort_alpha is assigned to correct values")
+
+   myTests().main()

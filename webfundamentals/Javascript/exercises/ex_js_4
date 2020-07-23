@@ -1,6 +1,6 @@
 .. actex:: ex_js_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: Javascript/exercises
    :from_source: T
@@ -16,4 +16,3 @@
    <h2>Hello</h2>
    </body>
    </html>
-

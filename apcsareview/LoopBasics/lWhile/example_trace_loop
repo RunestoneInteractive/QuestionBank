@@ -1,6 +1,6 @@
 .. activecode:: example_trace_loop
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: LoopBasics/lWhile
    :from_source: T
@@ -20,4 +20,3 @@
            }
        }
    }
-

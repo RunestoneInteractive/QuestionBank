@@ -1,6 +1,6 @@
 .. parsonsprob:: stack_prob
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: LinearBasic/WhatisaStack
     :from_source: T

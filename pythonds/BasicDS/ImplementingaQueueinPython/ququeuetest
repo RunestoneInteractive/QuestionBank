@@ -1,6 +1,6 @@
 .. codelens:: ququeuetest
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds
    :topic: BasicDS/ImplementingaQueueinPython
    :from_source: T
@@ -28,4 +28,3 @@
    q.enqueue('dog')
    q.enqueue(True)
    print(q.size())
-

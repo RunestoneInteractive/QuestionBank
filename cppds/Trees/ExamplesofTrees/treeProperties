@@ -1,6 +1,6 @@
 .. mchoice:: treeProperties
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Trees/ExamplesofTrees
    :from_source: T

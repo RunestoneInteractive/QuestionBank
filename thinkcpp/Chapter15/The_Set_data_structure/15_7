@@ -1,6 +1,6 @@
 .. activecode:: 15_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter15/The_Set_data_structure
    :from_source: T
@@ -77,4 +77,3 @@
      numElements++;
      return index;
    }
-

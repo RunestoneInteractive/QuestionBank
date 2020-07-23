@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-11-practice-mixed-code
    :from_source: T
@@ -29,5 +29,3 @@
    } // end class
    =====
            System.out.println(part1 * part2); #distractor
-
-

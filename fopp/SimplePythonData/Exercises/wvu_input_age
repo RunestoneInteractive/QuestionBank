@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_input_age
    :author: Brian Powell
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. activecode:: wvu_input_age
 
    Write code that asks the user to input the year a person was born. Print what the person's age will be after their birthday in 2019.
    ~~~~

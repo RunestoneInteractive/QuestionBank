@@ -1,6 +1,6 @@
 .. activecode:: chp12_dict6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Dictionaries/Dictionarymethods
     :from_source: T
@@ -12,4 +12,3 @@
 
     ks = list(inventory.keys())
     print(ks)
-

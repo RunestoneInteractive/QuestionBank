@@ -1,0 +1,17 @@
+.. mchoice:: qbs_4
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit7-ArrayList/topic-7-5-searching
+   :from_source: T
+   :answer_a: approximately 15 times
+   :answer_b: approximately 9 times
+   :answer_c: 500 times
+   :answer_d: 2 times
+   :correct: b
+   :feedback_a: How many times can you divide 500 in half?
+   :feedback_b: You can divide 500 in half, 9 times, or you can observe that 2^9 = 512 which is slightly bigger than 500.
+   :feedback_c: How many times can you divide 500 in half?
+   :feedback_d: How many times can you divide 500 in half?
+
+   If you had an ordered array of size 500, what is the maximum number of iterations required to find an element with binary search?

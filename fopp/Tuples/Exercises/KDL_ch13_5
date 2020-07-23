@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch13_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Tuples/Exercises
    :from_source: F
-.. activecode:: KDL_ch13_5
    :autograde: unittest
    :language: python
 
@@ -23,4 +22,4 @@
            self.assertTrue(tuplize(1,2)==(1,2), '1st situation checked')
            self.assertTrue(tuplize('cat','dog')==('cat','dog'), '2nd situation checked')
 
-   myTests().main()   
+   myTests().main()

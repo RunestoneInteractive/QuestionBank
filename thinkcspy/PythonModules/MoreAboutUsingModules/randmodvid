@@ -1,6 +1,6 @@
 .. video:: randmodvid
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: PythonModules/MoreAboutUsingModules
     :from_source: F
@@ -9,4 +9,3 @@
 
     http://media.interactivepython.org/thinkcsVideos/mathrandommodule.mov
     http://media.interactivepython.org/thinkcsVideos/mathrandommodule.webm
-

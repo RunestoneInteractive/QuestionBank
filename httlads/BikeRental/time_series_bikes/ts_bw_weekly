@@ -1,6 +1,6 @@
 .. fillintheblank:: ts_bw_weekly
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: BikeRental/time_series_bikes
    :from_source: T
@@ -10,4 +10,3 @@
    - :31371: Is the correct answer
      :31367: Is close but you may be indexing by ``start_date``
      :x: The date used as the index is the ending date
-

@@ -1,6 +1,6 @@
 .. activecode:: functions_AC_2
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: thinkcpp
   :topic: Chapter6/functions
   :from_source: T
@@ -28,4 +28,3 @@
       all_operators(1000);
       all_operators(254);
   }
-

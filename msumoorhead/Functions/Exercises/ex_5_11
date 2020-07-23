@@ -1,0 +1,11 @@
+.. activecode:: ex_5_11
+   :author: jenkins
+   :difficulty: 3
+   :basecourse: msumoorhead
+   :topic: Functions/Exercises
+   :from_source: None
+   :nocodelens:
+
+   import turtle
+
+   def drawStar(t, n):

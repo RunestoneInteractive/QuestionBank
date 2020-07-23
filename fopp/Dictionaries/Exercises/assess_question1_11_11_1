@@ -1,6 +1,6 @@
 .. fillintheblank:: assess_question1_11_11_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: T
@@ -18,4 +18,3 @@
         :autumn: This is a value when the key is 'spring'.
         :spring: This ia a value when the key is 'fall'.
         :.*: Incorrect, try again.
-

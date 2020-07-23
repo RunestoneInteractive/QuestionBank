@@ -1,6 +1,6 @@
 .. mchoice:: 22_7_3_ArtifactQ3
                    :author: bmiller
-                   :difficulty: 3.0
+                   :difficulty: 3
                    :basecourse: studentcsp
                    :topic: CSPGlobalImpact/completing
                    :from_source: T
@@ -15,4 +15,3 @@
                    :feedback_d: This is false.  The artifact should provide further insight on an impact that was previously mentioned.  It should not just reiterate what you have already said.
 
                    Which of the following things are true about your visual artifact?
-

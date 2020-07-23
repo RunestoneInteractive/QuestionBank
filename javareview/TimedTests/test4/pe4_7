@@ -1,0 +1,29 @@
+.. mchoice:: pe4_7
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test4
+   :from_source: None
+   :answer_a: 243
+   :answer_b: 0
+   :answer_c: 3
+   :answer_d: 81
+   :answer_e: 27
+   :correct: d
+   :feedback_a: This would be true if it was mystery(5).
+   :feedback_b: How can this be?  The value 0 is never returned.
+   :feedback_c: Did you notice the recursive call?
+   :feedback_d: This is the same as 3 to the 4th power (3 * 3 * 3 * 3 = 81).
+   :feedback_e: This would be true if it was mystery(3).
+
+   Condsider the following method.  What value is returned from a call of mystery(4)?
+
+   .. code-block:: java
+
+     public static int mystery(int n)
+     {
+        if (n == 0)
+           return 1;
+        else
+           return 3 * mystery (n - 1);
+     }

@@ -1,6 +1,6 @@
 .. activecode:: sql_bikeshare_join_sol1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Database/joining_SQL
     :from_source: T
@@ -19,4 +19,3 @@
     station_id
     LIMIT
     10
-

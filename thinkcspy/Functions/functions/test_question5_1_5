@@ -1,6 +1,6 @@
 .. mchoice:: test_question5_1_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Functions/functions
    :from_source: T
@@ -24,5 +24,3 @@
          for i in range(4):
              t.forward(sz)
              t.left(90)
-
-

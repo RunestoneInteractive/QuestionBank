@@ -1,6 +1,6 @@
 .. dragndrop:: orderingPrinciples
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: LinearBasic/PalindromeChecker
    :from_source: T
@@ -10,4 +10,3 @@
    :match_3: Queue|||first-in first-out
 
    Drag each data structure to its corresponding ordering principle
-

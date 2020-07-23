@@ -1,0 +1,23 @@
+.. mchoice:: 17_5_1_madlib_proc1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPStringPieces/strProcParam
+   :from_source: T
+   :answer_a: Emily
+   :answer_b: Smith
+   :answer_c: girl
+   :answer_d: 2783 Main Street
+   :answer_e: smell
+   :correct: b
+   :feedback_a: That is the value of firstName.
+   :feedback_b: That is the value of lastName.
+   :feedback_c: That is the value of gender.
+   :feedback_d: That is the value of address.
+   :feedback_e: That is the value of verb.
+
+   What would be the value of ``lastName`` in ``witchStory`` given the following call to the procedure?
+
+   ::
+
+       witchStory("Emily", "Smith", "girl", "2783 Main Street", "smell")

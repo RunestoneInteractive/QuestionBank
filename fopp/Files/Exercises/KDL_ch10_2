@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch10_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: F
@@ -27,4 +27,4 @@
            self.assertIn("import altair", self.getEditorText(), 'Using altair')
            self.assertEqual(lengths, list_len, "Testing the list_len values.")
            
-   myTests().main()   
+   myTests().main()

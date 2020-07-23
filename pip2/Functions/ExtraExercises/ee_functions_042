@@ -1,0 +1,19 @@
+.. activecode:: ee_functions_042
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Functions/ExtraExercises
+   :from_source: None
+   :tags: Functions/Returningavaluefromafunction.rst, Functions/Afunctionthataccumulates.rst
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(count([]), 0, "Testing the function count with input []")
+         self.assertEqual(count([1, 5, 9, -2, 9, 23]), 45, "Testing the function count with input [1, 5, 9, -2, 9, 23]")
+
+   myTests().main()

@@ -1,6 +1,6 @@
 .. activecode:: FunDef1
         :author: bmiller
-        :difficulty: 3.0
+        :difficulty: 3
         :basecourse: TeacherCSP
         :topic: CSPNameNames/noteFunDefVsCall
         :from_source: T

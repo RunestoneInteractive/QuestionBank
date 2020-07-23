@@ -1,6 +1,6 @@
 .. parsonsprob:: StringScrambleB2
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: apcsareview
   :topic: ListBasics/stringScrambleB
   :from_source: T
@@ -27,4 +27,3 @@
      } // end for
   =====
   } // end method
-

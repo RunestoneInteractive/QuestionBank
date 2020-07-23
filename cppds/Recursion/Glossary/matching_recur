@@ -1,6 +1,6 @@
 .. dragndrop:: matching_recur
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Recursion/Glossary
     :from_source: T

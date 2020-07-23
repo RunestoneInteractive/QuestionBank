@@ -1,6 +1,6 @@
 .. activecode:: lc-magpie3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Labs/magpie3
    :from_source: T
@@ -188,4 +188,3 @@
           }
 
    }
-

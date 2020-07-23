@@ -1,10 +1,9 @@
-
+.. activecode:: CCS_padding_two
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-.. activecode:: CCS_padding_two
    
    **After you have completed the previous padding problem, create a modified  program that does the following:**
    
@@ -17,4 +16,3 @@
    
    **NOTE: The IF statement is not permitted.**
    ~~~~
-    

@@ -1,6 +1,6 @@
 .. activecode:: transforming_seq_q_1
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: F
@@ -23,5 +23,3 @@
            self.assertEqual('[2, 4, 6, 8, 10]\n', self.getOutput(), 'Checking output.')
 	  
    myTests().main()
-
-

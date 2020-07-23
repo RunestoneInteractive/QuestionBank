@@ -1,6 +1,6 @@
 .. activecode:: cppelif2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: Control_Structures/conditionals
    :from_source: T

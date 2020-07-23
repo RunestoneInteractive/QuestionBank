@@ -1,6 +1,6 @@
 .. fillintheblank:: assess_question1_11_11_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Dictionaries/Exercises
     :from_source: T
@@ -25,7 +25,3 @@
     -   :4: Good Work!
         :error: The code is valid.
         :.*: Incorrect, try again. (*Hint:* Lookup value of each character of "baa" in ``values``.)
-
-
-
-

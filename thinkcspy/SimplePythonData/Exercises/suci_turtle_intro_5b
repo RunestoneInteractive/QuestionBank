@@ -1,10 +1,9 @@
-
+.. actex:: suci_turtle_intro_5b
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_intro_5b
 
    Run the program then modify it so it will draw two lines spaced twice as far apart.
    ~~~~
@@ -17,4 +16,3 @@
    turtle.right(90)
    turtle.pendown() 
    turtle.forward(50)
-

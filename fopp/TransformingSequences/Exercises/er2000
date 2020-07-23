@@ -1,10 +1,9 @@
-
+.. activecode:: er2000
     :author: Eric Reed
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: TransformingSequences/Exercises
     :from_source: F
-.. activecode:: er2000
 
 
     Write a program that will accept words from a user,
@@ -13,4 +12,3 @@
     that list.  After the user types quit, print out the list
     of words.
     ~~~~
- 

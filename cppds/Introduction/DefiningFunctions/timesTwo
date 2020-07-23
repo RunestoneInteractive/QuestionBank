@@ -1,6 +1,6 @@
 .. activecode:: timesTwo
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Introduction/DefiningFunctions
   :from_source: T

@@ -1,6 +1,6 @@
 .. mchoice:: 16_4_1_lastIndex
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPIntroData/listIndexes
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: The length of this list is 3, but the first index is 0 so the 3rd item is at index 2.
 
    What is the last index for the list ``myFirstList``?
-

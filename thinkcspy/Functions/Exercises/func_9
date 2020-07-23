@@ -1,13 +1,11 @@
-
+.. activecode:: func_9
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: func_9
   
     Describe why 'badsquare_1' was poorly programmed using the words 
     "local scope" and "global scope".
 
     ~~~~
-    

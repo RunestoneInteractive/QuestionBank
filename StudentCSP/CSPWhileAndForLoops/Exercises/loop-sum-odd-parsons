@@ -1,11 +1,9 @@
-
+.. parsonsprob:: loop-sum-odd-parsons
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPWhileAndForLoops/Exercises
    :from_source: F
-
-.. parsonsprob:: loop-sum-odd-parsons
    :adaptive:
    :numbered: left
 

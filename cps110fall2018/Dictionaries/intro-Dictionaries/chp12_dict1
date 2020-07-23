@@ -1,6 +1,6 @@
 .. codelens:: chp12_dict1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: Dictionaries/intro-Dictionaries
     :from_source: None
@@ -9,4 +9,3 @@
     eng2sp['one'] = 'uno'
     eng2sp['two'] = 'dos'
     eng2sp['three'] = 'tres'
-

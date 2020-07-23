@@ -1,10 +1,9 @@
-
+.. shortanswer:: whatishtml
    :author: Kuri DiFede
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: webfundamentals
    :topic: WWW/Exercises
    :from_source: F
-.. shortanswer:: whatishtml
    :optional:
 
     What does HTML stand for?
@@ -14,4 +13,3 @@
 config values (conf.py): 
 
 - shortanswer_div_class - custom CSS class of the component's outermost div
-    

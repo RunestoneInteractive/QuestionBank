@@ -1,6 +1,6 @@
 .. activecode:: branches_ex2
     :author: Giulia Toti
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: pythonds
     :topic: Introduction/Exercises
     :from_source: F
@@ -10,4 +10,3 @@
     ~~~~
     carYear = int(input("Enter car year: "))
     #Your code here
-    

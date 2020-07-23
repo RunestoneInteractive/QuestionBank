@@ -1,6 +1,6 @@
 .. activecode:: bin_tree
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: Trees/RepresentacionDeListaDeListas
     :from_source: None
@@ -50,4 +50,3 @@
     insertarIzquierdo(l,11)
     print(r)
     print(obtenerHijoDerecho(obtenerHijoDerecho(r)))
-

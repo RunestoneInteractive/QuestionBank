@@ -1,0 +1,13 @@
+.. activecode::  ch16ex3q
+     :author: bmiller
+     :difficulty: 3
+     :basecourse: TeacherCSP
+     :topic: CSPIntroData/ch16_exercises
+     :from_source: T
+     :nocodelens:
+
+     myFirstList = [12,"ape"13]
+     print(len(myFirstList)
+     print(myfirstList * 3)
+     mySecondList = myFirstList + [321.4
+     print(mySecondList

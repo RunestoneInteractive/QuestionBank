@@ -1,13 +1,11 @@
-
+.. activecode:: trinket1
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: trinket1
   
     Please copy-paste your code solution from https://codeclubprojects.org/en-GB/python/robo-trumps/ ~
     
     ~~~~
     ====
-    

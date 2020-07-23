@@ -1,6 +1,6 @@
 .. activecode:: lsh_comphist_1
    :author: LHS CS Team
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: not set
    :from_source: F
@@ -18,4 +18,3 @@
     print("hello world")
     ====
     print("Hidden code, such as unit tests come after the four = signs")
-    

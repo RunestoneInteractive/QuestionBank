@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Files/ChapterAssessment
    :from_source: T
@@ -23,4 +23,3 @@
          self.assertEqual(three, ['for', 'find', 'to', 'many', 'they', 'solid', 'for', 'have', 'some', 'ups,'], "Testing that three has the correct value.")
 
    myTests().main()
-

@@ -1,6 +1,6 @@
 .. mchoice:: question7_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Conditionals/Logicaloperators
    :from_source: T
@@ -25,4 +25,3 @@
       yesno = input('Enter Yes or No:')
       if len(yesno) > 0 and yesno[0] == 'Y':
          print('Yes!')
-

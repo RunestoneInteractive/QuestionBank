@@ -1,6 +1,6 @@
 .. poll:: javascript_knowledge
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: webfundamentals
     :topic: Projects/intro_day
     :from_source: T
@@ -8,4 +8,3 @@
     :results: instructor
 
     On a scale from 1 to 5 where 1 is a complete novice and 5 means you are an expert rank your knowledge of JavaScript
-

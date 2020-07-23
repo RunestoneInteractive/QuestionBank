@@ -1,6 +1,6 @@
 .. activecode:: ch02_8
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: SimplePythonData/ValuesandDataTypes
     :from_source: None
@@ -8,4 +8,3 @@
 
     print(42000)
     print(42,000)
-

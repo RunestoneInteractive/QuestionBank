@@ -1,0 +1,17 @@
+.. mchoice:: e25_3_10
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: StudentCSP
+   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a: If the student shares only three chapters of the textbook with their classmates.
+   :answer_b: If the student gets permission from textbook’s editor
+   :answer_c: If the student gets permission from the textbook’s copyright owner
+   :answer_d: If the textbook is only shared with one other classmate
+   :correct: c
+   :feedback_a: Incorrect. A single-user license does not allow you to distribute the text, regardless of how many chapters you share.
+   :feedback_b: Incorrect. The editor does not own the rights to the text.
+   :feedback_c: Correct. The copyright owner owns the rights to the text.
+   :feedback_d: Incorrect. Single-user license implies that the text cannot be shared.
+
+   A student purchases a single-user license of an online textbook and wants to share the textbook with their classmates. Under what conditions is it acceptable for the student to share this textbook?

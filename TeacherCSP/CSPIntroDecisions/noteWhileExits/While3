@@ -1,6 +1,6 @@
 .. activecode:: While3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPIntroDecisions/noteWhileExits
    :from_source: T
@@ -13,6 +13,3 @@
        size = size + 1        # loop body
        print(size)            # loop body
    print("Final value of size: " + str(size))
-
-
-

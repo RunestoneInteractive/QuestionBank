@@ -1,6 +1,6 @@
 .. activecode:: TurtleShapes
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit4-Iteration/topic-4-2-for-loops
     :from_source: F
@@ -28,4 +28,3 @@
           world.show(true);
       }
     }
-

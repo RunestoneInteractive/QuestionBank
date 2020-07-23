@@ -1,10 +1,9 @@
-
+.. activecode:: ch17_final_prep_vehicle
     :author: Karl Sickendick
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: ClassesBasics/Exercises
     :from_source: F
-.. activecode:: ch17_final_prep_vehicle
     :autograde: unittest
     :language: python3
     

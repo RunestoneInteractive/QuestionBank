@@ -1,6 +1,6 @@
 .. activecode:: lst_itsumcpp
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Recursion/pythondsCalculatingtheSumofaListofNumbers
     :from_source: T

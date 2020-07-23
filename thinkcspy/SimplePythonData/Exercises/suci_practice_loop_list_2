@@ -1,11 +1,10 @@
-
+.. actex:: suci_practice_loop_list_2
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_practice_loop_list_2
 
    In class activity
    ~~~~
-   # put code here 
+   # put code here

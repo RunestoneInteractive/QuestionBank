@@ -1,6 +1,6 @@
 .. activecode:: frqTrio
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/TrioA
    :from_source: T
@@ -87,11 +87,3 @@
          System.out.println("It should print 6.25 and it prints: " + trio2.getPrice());
       }
    }
-
-
-
-
-
-
-
-

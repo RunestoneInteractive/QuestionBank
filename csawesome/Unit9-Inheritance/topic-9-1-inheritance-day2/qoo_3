@@ -1,6 +1,6 @@
 .. mchoice:: qoo_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/topic-9-1-inheritance-day2
    :from_source: T
@@ -16,4 +16,3 @@
    :feedback_d: The class keyword is used to declare a class, but not the parent class.
 
    What Java keyword is used to set up an inheritance relationship between a subclass and a superclass?
-

@@ -1,6 +1,6 @@
 .. activecode:: ch2_ex2
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -20,7 +20,3 @@
    z = z + (y * 2)
    #write here your shorthand notation
    #print the values of variables if you're not sure. You need to get the same result for full and shorthand expressions
-   
-
-
-

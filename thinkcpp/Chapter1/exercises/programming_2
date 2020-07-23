@@ -1,6 +1,6 @@
 .. mchoice:: programming_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter1/exercises
     :from_source: T
@@ -28,4 +28,3 @@
         out commands.
 
         -   This is the function of an interpreter.
-

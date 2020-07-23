@@ -1,0 +1,20 @@
+.. activecode:: ee_ch11_031
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/ExtraExercises
+   :from_source: None
+   :tags: Selection/Chainedconditionals.rst
+
+   w = "Friendship is a wonderful human experience!"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(wrd, "Friend is here!", "Testing the value of wrd")
+
+   myTests().main()

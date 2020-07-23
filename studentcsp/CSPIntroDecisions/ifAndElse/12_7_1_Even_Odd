@@ -1,6 +1,6 @@
 .. parsonsprob:: 12_7_1_Even_Odd
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPIntroDecisions/ifAndElse
    :from_source: T

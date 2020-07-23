@@ -1,10 +1,9 @@
-
+.. activecode:: ProbSolv2017-18_Lab_02
     :author: Max Garagnani
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. activecode:: ProbSolv2017-18_Lab_02
  
 
     ~~~~
@@ -15,4 +14,4 @@
     for i in range(-n,-1,1):
         result = result * i
         print(" Factoring in ", i)
-    print("The product of the first", n, " negative integers is: ", result) 
+    print("The product of the first", n, " negative integers is: ", result)

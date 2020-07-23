@@ -1,6 +1,6 @@
 .. activecode:: chp08_slice1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Strings/TheSliceOperator
     :from_source: T
@@ -9,4 +9,3 @@
     print(singers[0:5])
     print(singers[7:11])
     print(singers[17:21])
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: values_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Values
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :([Cc][Hh][Aa][Rr]|[Cc][Hh][Aa][Rr][Aa][Cc][Tt][Ee][Rr]): Correct!
      :.*: Try again!
-

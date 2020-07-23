@@ -1,6 +1,6 @@
 .. activecode:: Functies_Oefening5
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Oefening 5: Schrijf een functie die de oppervlakte en een functie die de omtrek van een cirkel berekent. De straal geef je mee als parameter.
     ~~~~
-    

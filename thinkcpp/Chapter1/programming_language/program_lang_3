@@ -1,6 +1,6 @@
 .. mchoice:: program_lang_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/programming_language
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: This happens automatically when we try to compile/interpret our program.
 
    What is the role of an executor?
-

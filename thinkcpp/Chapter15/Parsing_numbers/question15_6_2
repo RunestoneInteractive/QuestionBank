@@ -1,6 +1,6 @@
 .. mchoice:: question15_6_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter15/Parsing_numbers
    :from_source: T

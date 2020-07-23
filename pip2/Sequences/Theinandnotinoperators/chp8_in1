@@ -1,0 +1,11 @@
+.. activecode:: chp8_in1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/Theinandnotinoperators
+    :from_source: None
+
+    print 'p' in 'apple'
+    print 'i' in 'apple'
+    print 'ap' in 'apple'
+    print 'pa' in 'apple'

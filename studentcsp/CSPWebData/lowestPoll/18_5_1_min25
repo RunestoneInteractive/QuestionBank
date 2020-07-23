@@ -1,6 +1,6 @@
 .. mchoice:: 18_5_1_min25
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPWebData/lowestPoll
    :from_source: T
@@ -11,5 +11,3 @@
    :feedback_b: If the actual minimum is greater than 500 this won't work.
 
    Will this code always work to find the minimum PM 2.5 value?
-
-

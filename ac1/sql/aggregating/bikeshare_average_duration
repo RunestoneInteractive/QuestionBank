@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_average_duration
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -11,4 +11,3 @@
      AVG(duration) AS mean_duration
    FROM
      trip_data
-

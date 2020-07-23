@@ -1,6 +1,6 @@
 .. activecode:: fia
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: msumoorhead
     :topic: Files/Iteratingoverlinesinafile
     :from_source: None
@@ -14,4 +14,3 @@
         print('{} {} has a rating of {}'.format(values[0], values[1], values[10]))
 
     qbfile.close()
-

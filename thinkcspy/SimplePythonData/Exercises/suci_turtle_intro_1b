@@ -1,10 +1,9 @@
-
+.. actex:: suci_turtle_intro_1b
    :author: peter suci
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. actex:: suci_turtle_intro_1b
 
    Run the program and modify it so that it will draw a line that is twice as long.
    ~~~~

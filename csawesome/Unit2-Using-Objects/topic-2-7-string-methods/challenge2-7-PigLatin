@@ -1,6 +1,6 @@
 .. activecode:: challenge2-7-PigLatin
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-7-string-methods
    :from_source: T
@@ -47,6 +47,3 @@
            assertTrue(passed);
        }
     }
-
-
-

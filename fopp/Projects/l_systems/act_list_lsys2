@@ -1,6 +1,6 @@
 .. activecode:: act_list_lsys2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/l_systems
     :from_source: T
@@ -32,4 +32,3 @@
     t.setposition(0, -200)
     t.left(90)
     drawLsystem(t, inst, 30, 2)
-

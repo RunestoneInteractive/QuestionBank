@@ -1,0 +1,20 @@
+.. activecode::  ch7Ex4q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit6-Arrays/ArrayPractice
+   :from_source: T
+   :language: java
+
+   Finish the following code so that it prints out all of the odd values in the array ``a1``.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int[] a1 = {0, 3, 6, 7, 9, 10};
+           for (int value : a1)
+           {
+           }
+       }
+   }

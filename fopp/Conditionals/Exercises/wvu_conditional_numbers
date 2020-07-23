@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_conditional_numbers
    :author: Brian Powell
-   :difficulty: 2.0
+   :difficulty: 2
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: F
-.. activecode:: wvu_conditional_numbers
    :autograde: unittest
 
    You are given a variable **number** containing a positive integer greater than zero. Write code so that if **number** contains 1, 2, or 3, the spelled out words "one", "two", or "three", respectively, are printed. If **number** is greater than 3, print the message "greater than three".
@@ -15,4 +14,3 @@
    # Write your code below here
 
    ====
-

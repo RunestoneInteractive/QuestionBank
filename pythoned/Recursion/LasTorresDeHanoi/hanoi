@@ -1,6 +1,6 @@
 .. activecode:: hanoi
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: Recursion/LasTorresDeHanoi
     :from_source: None

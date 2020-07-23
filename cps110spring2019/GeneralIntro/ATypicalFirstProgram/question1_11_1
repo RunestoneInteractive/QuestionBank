@@ -1,6 +1,6 @@
 .. mchoice:: question1_11_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: GeneralIntro/ATypicalFirstProgram
    :from_source: None
@@ -15,4 +15,3 @@
    :feedback_d: That would be a different function.
 
    The print function:
-

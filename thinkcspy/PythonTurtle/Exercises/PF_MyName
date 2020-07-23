@@ -1,10 +1,9 @@
-
+.. activecode:: PF_MyName
       :author: Philip Foster
-      :difficulty: 0.0
+      :difficulty: 0
       :basecourse: thinkcspy
       :topic: PythonTurtle/Exercises
       :from_source: F
-.. activecode:: PF_MyName
       Assignment Requirements
       * Create a new turtle and give it your name. (Your First & Last Name  no spaces)
       * Set the background color to "blue". (Make sure that all letter in your name are clearly visible)
@@ -25,7 +24,4 @@ ted.right (45)
 ted.forward(50)
 ted.right(45)
 # Get input from the user with a pop up box and 
-# Save the input in a variable called   turtleColor    
-
-
-    
+# Save the input in a variable called   turtleColor

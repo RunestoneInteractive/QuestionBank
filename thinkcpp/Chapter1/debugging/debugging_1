@@ -1,6 +1,6 @@
 .. fillintheblank:: debugging_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter1/debugging
    :from_source: T
@@ -12,4 +12,3 @@
      :.*: Try again!
    - :[Dd][Ee][Bb][Uu][Gg][Gg][Ii][Nn][Gg]: Correct!
      :.*: Try again!
-

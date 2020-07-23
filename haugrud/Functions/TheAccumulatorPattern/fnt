@@ -1,6 +1,6 @@
 .. activecode:: fnt
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: Functions/TheAccumulatorPattern
     :from_source: None
@@ -16,4 +16,3 @@
     toSquare = 10
     squareResult = square(toSquare)
     print("The result of", toSquare, "squared is", squareResult)
-

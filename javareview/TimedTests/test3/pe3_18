@@ -1,0 +1,55 @@
+.. mchoice:: pe3_18
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test3
+   :from_source: None
+   :answer_a: method1 and method3
+   :answer_b: method1 only
+   :answer_c: method2 only
+   :answer_d: method2 and method3
+   :answer_e: all of them
+   :correct: a
+   :feedback_a: The problem with method2 is that if num1==num2 the first if will execute, but so will the second if and result will be set to 1.
+   :feedback_b: Another will work as well.
+   :feedback_c: This one won't work.  The problem with method2 is that if num1==num2 the first if will execute, but so will the second if and result will be set to 1.
+   :feedback_d: While method3 will work, method2 won't.  The problem with method2 is that if num1==num2 the first if will execute, but so will the second if and result will be set to 1.
+   :feedback_e: Two will work, but one will not.
+
+   Consider the following methods. Which of method1, method2, and method3 would give the same result as sample?
+
+   .. code-block:: java
+
+      public void sample(int num1, int num2) {
+         int result = 99;
+         if (num1==num2) {result = 0;}
+         else if (num1>num2){result = 1;}
+         else {result = -1;}
+         System.out.println(result);
+      }
+
+      public void method1(int num1, int num2) {
+         int result=99;
+             if (num1 == num2) {result = 0;}
+             else {
+                if(num1 > num2) {result = 1;}
+                else {result = -1;}
+             }
+        System.out.println(result);
+      }
+
+      public void method2(int num1, int num2) {
+             int result = 99;
+             if (num1 == num2) {result = 0;}
+             if (num1 >= num2) {result = 1;}
+             else {result = -1;}
+         System.out.println(result);
+      }
+
+      public void method3(int num1, int num2) {
+             int result = 99 ;
+             if (num1 == num2) {result = 0;}
+             if (num1 > num2) {result = 1;}
+             if (num1 < num2) {result = -1;}
+             System.out.println(result);
+      }

@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_count_distinct_bikes_by_start_station
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -14,4 +14,3 @@
      trip_data
    GROUP BY
      start_station
-

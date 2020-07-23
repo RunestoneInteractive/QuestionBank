@@ -1,6 +1,6 @@
 .. activecode:: ac2_10_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: SimplePythonData/StatementsandExpressions
     :from_source: T
@@ -10,4 +10,3 @@
     x = len("hello")
     print(x)
     print(y)
-

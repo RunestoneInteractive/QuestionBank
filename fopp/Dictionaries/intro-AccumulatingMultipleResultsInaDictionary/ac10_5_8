@@ -1,6 +1,6 @@
 .. activecode:: ac10_5_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
    :from_source: T
@@ -8,8 +8,6 @@
    :autograde: unittest
    :practice: T
 
-   **2.** Provided is a string saved to the variable name ``sentence``. Split the string into a list of words, then create a dictionary that contains each word and the number of times it occurs. Save this dictionary to the variable name ``word_counts``.
-   ~~~~
    sentence = "The dog chased the rabbit into the forest but the rabbit was too quick."
 
    =====

@@ -1,0 +1,17 @@
+.. mchoice:: 13_2_2_story2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPStringDecisions/input
+   :from_source: T
+   :answer_a: The room is pitch black.
+   :answer_b: A ghost appears at the end of the hall.
+   :answer_c: A greenish light is visible in the distance.
+   :answer_d: None of the above is printed.
+   :correct: d
+   :feedback_a: This line will be printed when the user enters in.
+   :feedback_b: This line will printed when the user enters left.
+   :feedback_c: This line will printed when the user enters right.
+   :feedback_d: None of the conditions will be true if the user enters something other than in, left, or right so none of these will be printed.
+
+   What is the printed if the user answer something other than in, left, or right?

@@ -1,6 +1,6 @@
 .. mchoice:: test_question8_4_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Strings/Length
    :from_source: None
@@ -17,5 +17,3 @@
 
       s = "python rocks"
       print(len(s))
-
-

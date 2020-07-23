@@ -1,6 +1,6 @@
 .. activecode:: Exam1_Question6
     :author: Jane Weyant
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: GeneralIntro/Exercises
     :from_source: F
@@ -12,5 +12,3 @@
     player_avg = "0.209,0.305,0.265,0.175,0.324,0.215,0.362,0.178,0.273,0.309"
     #Enter your code below
     =====
-
-  

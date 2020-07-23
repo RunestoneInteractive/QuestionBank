@@ -1,6 +1,6 @@
 .. mchoice:: AP5-9-2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-9-this
     :from_source: T
@@ -84,7 +84,3 @@
     - Nothing, the code segment attempts to access the private variable totalTemp outside of its scope.
 
       - Incorrect. The totalTemp is never used outside its scope.
-
-
-
-

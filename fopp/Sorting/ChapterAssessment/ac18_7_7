@@ -1,6 +1,6 @@
 .. activecode:: ac18_7_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Sorting/ChapterAssessment
    :from_source: T
@@ -25,4 +25,3 @@
          self.assertIn("lambda", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
 
    myTests().main()
-

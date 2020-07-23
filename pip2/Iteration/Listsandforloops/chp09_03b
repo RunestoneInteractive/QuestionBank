@@ -1,0 +1,11 @@
+.. activecode:: chp09_03b
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Iteration/Listsandforloops
+    :from_source: None
+
+    fruits = ["apple","orange","banana","cherry"]
+
+    for position in range(len(fruits)):     # by index
+        print fruits[position]

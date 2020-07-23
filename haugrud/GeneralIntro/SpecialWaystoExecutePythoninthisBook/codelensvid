@@ -1,6 +1,6 @@
 .. video:: codelensvid
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: haugrud
     :topic: GeneralIntro/SpecialWaystoExecutePythoninthisBook
     :from_source: None
@@ -9,4 +9,3 @@
 
     http://media.interactivepython.org/thinkcsVideos/activecodelens.mov
     http://media.interactivepython.org/thinkcsVideos/activecodelens.webm
-

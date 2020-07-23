@@ -1,6 +1,6 @@
 .. activecode:: lst_mergeSort_cpp
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Sort/TheMergeSort
   :from_source: T

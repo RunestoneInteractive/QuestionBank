@@ -1,6 +1,6 @@
 .. poll:: qenjoypost
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit11-posttest/toctree
    :from_source: T
@@ -12,4 +12,3 @@
    :option_6: prefer not to answer
 
    I enjoyed learning about computer science and Java in this course.
-

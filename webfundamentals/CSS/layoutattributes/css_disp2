@@ -1,6 +1,6 @@
 .. activecode:: css_disp2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: webfundamentals
    :topic: CSS/layoutattributes
    :from_source: T
@@ -21,4 +21,3 @@
       property for the ``li`` element and sets its value to ``inline``. </p>
    </body>
    </html>
-

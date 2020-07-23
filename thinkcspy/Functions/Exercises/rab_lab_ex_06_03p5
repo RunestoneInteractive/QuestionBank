@@ -1,6 +1,6 @@
 .. activecode:: rab_lab_ex_06_03p5
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -23,5 +23,4 @@
            self.assertEqual(row_seat(199), (5, 39), "Tested ticket_number = 199, giving row 5 and seat 39")
            
           
-   myTests().main()  
-    
+   myTests().main()

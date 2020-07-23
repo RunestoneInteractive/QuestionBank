@@ -1,6 +1,6 @@
 .. activecode:: lst_recstack
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythoned
     :topic: Recursion/MarcosDePilaImplementacionDeLaRecursividad
     :from_source: None

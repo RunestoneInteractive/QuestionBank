@@ -1,13 +1,10 @@
-
+.. activecode:: debug_3
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Debugging/Exercises
     :from_source: F
-.. activecode:: debug_3
 
     Describe what TypeErrors are.
    
     ~~~~
-    
-    

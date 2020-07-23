@@ -1,6 +1,6 @@
 .. fillintheblank:: fact_literacy
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: WorldFacts/exploratory_data_analysis
    :from_source: T
@@ -14,4 +14,3 @@
 
    - :100: Is correct
      :x: Try again, the number will be between 10 and 100
-

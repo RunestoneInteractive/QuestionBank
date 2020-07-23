@@ -1,6 +1,6 @@
 .. activecode:: challenge-9-4-Customer-super
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit9-Inheritance/topic-9-4-super
    :from_source: T
@@ -38,4 +38,3 @@
     {
 
     }
-

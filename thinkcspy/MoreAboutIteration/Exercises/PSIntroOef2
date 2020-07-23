@@ -1,6 +1,6 @@
 .. activecode:: PSIntroOef2
     :author: Gilles Fiers
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: MoreAboutIteration/Exercises
     :from_source: F
@@ -10,4 +10,3 @@
     ~~~~
     for i in range(5):
         print( " Het kwadraat van",i," is ", ...)
-    

@@ -1,6 +1,6 @@
 .. actex:: TL_365_modify_variables
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -39,4 +39,4 @@
            # check one way
            self.assertTrue(re.search(r'l *= *42', self.getEditorText()), 'Checking code for l.')
 
-   myTests().main() 
+   myTests().main()

@@ -1,6 +1,6 @@
 .. mchoice:: e24_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPPracticeQuestions/exam24_2
    :from_source: T
@@ -29,4 +29,3 @@
    +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
 
    If the store manager wants to know how much money will be made by selling all the small animals, which of the following categories can be ignored when calculating this number?
-

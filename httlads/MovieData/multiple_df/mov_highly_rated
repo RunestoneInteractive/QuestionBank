@@ -1,6 +1,6 @@
 .. fillintheblank:: mov_highly_rated
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: MovieData/multiple_df
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :178: Is the correct answer
      :x: catchall feedback
-

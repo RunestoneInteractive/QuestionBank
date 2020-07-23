@@ -1,0 +1,19 @@
+.. mchoice:: pe1_12
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test1
+   :from_source: None
+   :answer_a: The value is the first one in the array
+   :answer_b: The value is in the middle of the array
+   :answer_c: The value is at position 3 in the array
+   :answer_d: The value isn't in the array
+   :answer_e: The value is at position 6 in the array
+   :correct: d
+   :feedback_a: This would be true for the shortest execution.  This would only take one execution of the loop.
+   :feedback_b: This would take 5 executions of the loop.
+   :feedback_c: This would take 3 executions of the loop.
+   :feedback_d: A sequential search loops through the elements of an array starting with the first and ending with the last and returns from the loop as soon as it finds the passed value.  It has to check every value in the array when the value it is looking for is not in the array.  This would take 10 executions of the loop.
+   :feedback_e: This would take 6 executions of the loop.
+
+   Which will cause the longest execution of a sequential search looking for a value in an array of 10 integers?

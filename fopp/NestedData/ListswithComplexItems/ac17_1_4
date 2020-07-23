@@ -1,6 +1,6 @@
 .. activecode:: ac17_1_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: NestedData/ListswithComplexItems
     :from_source: T
@@ -21,4 +21,3 @@
     print("****just the first one in the list****")
     print(L[0])
     print(L[0](3))
-

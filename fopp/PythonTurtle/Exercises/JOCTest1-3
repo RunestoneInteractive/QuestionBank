@@ -1,10 +1,9 @@
-
+.. activecode:: JOCTest1-3
    :author: Joaquin Carbonara
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. activecode:: JOCTest1-3
 
    Use split (by the empty space) and join (by the "-") to 
    transform the string "Once upon a time" into "Once-upon-a-time".
@@ -12,4 +11,3 @@
 
    ~~~~
     #Your code here
-     

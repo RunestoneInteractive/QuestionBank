@@ -1,6 +1,6 @@
 .. parsonsprob:: ch5ex6muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/mixedUpTurtles
    :from_source: T
@@ -28,4 +28,3 @@
    nic.pendown()
    =====
    nic.forward(100)
-

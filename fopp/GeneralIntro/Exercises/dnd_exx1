@@ -1,10 +1,9 @@
-
+.. dragndrop:: dnd_exx1
     :author: Sabrina Morales
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. dragndrop:: dnd_exx1
     :feedback: Feedback that is displayed if things are incorrectly matched
     :match_1: arraste para opção a||| A
     :match_2: arraste para opção b||| B
@@ -16,4 +15,3 @@
 config values (conf.py): 
 
 - dragndrop_div_class - custom CSS class of the component's outermost div
-    

@@ -1,6 +1,6 @@
 .. clickablearea:: stackclick
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: LinearBasic/BalancedSymbolsGeneralCase
     :from_source: T
@@ -39,4 +39,3 @@
               :click-incorrect:return false;:endclick:
           }
     }
-

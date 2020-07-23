@@ -1,10 +1,9 @@
-
+.. activecode:: L2.8_Troy2018
     :author: Shawn Haarer
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: L2.8_Troy2018
 
     LESSON 2.8 is focused on the difference between inputting
     Words vs. Numbers 
@@ -41,4 +40,3 @@
 
     print()
     print("The End")
-    

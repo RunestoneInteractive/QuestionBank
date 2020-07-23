@@ -1,10 +1,9 @@
-
+.. parsonsprob:: 14214215215wyhaw
    :author: Matthew Zuniga
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: PythonTurtle/Exercises
    :from_source: F
-.. parsonsprob:: 14214215215wyhaw
 
    In computer science, the <b>Fibonacci Sequence</b> is an important problem for the concepts of recursion and memoization. These are introduced to you in later courses. <br> <br>
    The Fibonacci Sequence is also called the <b>Golden Ratio.</b> It is a mathematical principle thought to be harmonious. It is found in nature and art. Have you seen the Roman <i>Pantheon</i>? That was constructed with the Golden Ratio. How about the <i>Mona Lisa</i>? That too uses the Golden Ratio.<br> <br>

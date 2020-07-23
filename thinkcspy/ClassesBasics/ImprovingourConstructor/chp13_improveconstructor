@@ -1,6 +1,6 @@
 .. codelens:: chp13_improveconstructor
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: ClassesBasics/ImprovingourConstructor
     :from_source: T
@@ -14,5 +14,3 @@
             self.y = initY
 
     p = Point(7, 6)
-
-

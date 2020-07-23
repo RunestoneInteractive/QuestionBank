@@ -1,6 +1,6 @@
 .. dragndrop:: multiple_fun_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcpp
     :topic: Chapter3/ProgramsWithMultipleFunctions
     :from_source: T
@@ -11,4 +11,3 @@
     :match_4: addTwo ||| executes last
 
     Match the function to the order it is executed in the program above.
-

@@ -1,6 +1,6 @@
 .. mchoice:: AP5-4-2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-4-accessor-methods
     :from_source: T
@@ -41,4 +41,3 @@
     - The return type of the getId method needs to be defined as int.
 
       + Correct! Accessor methods have a return type of the instance variable they are returning.
-

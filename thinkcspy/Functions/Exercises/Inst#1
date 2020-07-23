@@ -1,11 +1,9 @@
-
+.. shortanswer:: Inst#1
    :author: Joaquin Carbonara
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
-.. shortanswer:: Inst#1
    :optional:
 
  Give an example of a function to add two numbers.
-    

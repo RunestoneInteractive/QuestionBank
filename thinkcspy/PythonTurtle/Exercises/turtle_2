@@ -1,10 +1,9 @@
-
+.. activecode:: turtle_2
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: PythonTurtle/Exercises
     :from_source: F
-.. activecode:: turtle_2
 
     Place a background color and pen color. Write your initials. Make sure the 
     window closes when the user clicks on it.
@@ -18,5 +17,3 @@
          	* I would draw a pencil to show that I'm a teacher.
 
     ~~~~
-    
-    

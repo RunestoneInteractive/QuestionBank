@@ -1,0 +1,27 @@
+.. mchoice:: pe4_9
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test4
+   :from_source: None
+   :answer_a: 21
+   :answer_b: 18
+   :answer_c: 32
+   :answer_d: 28
+   :answer_e: 10
+   :correct: a
+   :feedback_a: The general formula for the number times a loop executes is the last value - the first value  + 1.  The outer loop will execute 3 times (2-0+1) and the inner loop will execute 7 times (7-1+1) so the total is 3 * 7 = 21.
+   :feedback_b: This would be true if the inner loop stopped when j equals 7.
+   :feedback_c: This would be true if the outer loop executed 4 times and the inner loop 8, but is that right?
+   :feedback_d: This would be true if the outer loop executed 4 times, but is that right?
+   :feedback_e: This would be true if you added the number of times the outer loop executes and the number of times the inner loop executes, but you multiply them.
+
+   Consider the following code segment.  How many times will a * be printed?
+
+   .. code-block:: java
+
+     for(int i = 0; i < 3; i++)
+     {
+        for(int j = 1; j <= 7; j++)
+           System.out.println("*");
+     }

@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch9_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: KDL_ch9_2
    :autograde: unittest
    :language: python
 
@@ -31,4 +30,4 @@
            self.assertIn('append(', self.getEditorText(), 'Contains append')
            self.assertEqual(_lettercount(t_list,'s'), lettercount(t_list,'s'), "Result of lettercount correct")
            
-   myTests().main()   
+   myTests().main()

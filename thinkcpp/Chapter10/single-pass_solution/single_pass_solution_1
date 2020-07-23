@@ -1,6 +1,6 @@
 .. mchoice:: single_pass_solution_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter10/single-pass_solution
    :from_source: T

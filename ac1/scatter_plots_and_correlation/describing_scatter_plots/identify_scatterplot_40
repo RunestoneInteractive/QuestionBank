@@ -1,6 +1,6 @@
 .. mchoice:: identify_scatterplot_40
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: scatter_plots_and_correlation/describing_scatter_plots
    :from_source: T
@@ -23,4 +23,3 @@
    - B
 
      + Correct: Cars with higher city mpg also have higher highway mpg.
-

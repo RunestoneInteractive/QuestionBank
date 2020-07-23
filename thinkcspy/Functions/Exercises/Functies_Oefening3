@@ -1,6 +1,6 @@
 .. activecode:: Functies_Oefening3
     :author: Jan Persan
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
@@ -8,4 +8,3 @@
 
     Oefening 3: Schrijf een functie die volgende definitie heeft: tekenPolygoon(turtle,aantalzijden,lengte). Als we deze functie op volgende manier oproepen: tekenPolygoon(alex,8,50) dan moet volgende figuur verschijnen.
     ~~~~
-    

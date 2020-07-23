@@ -1,0 +1,26 @@
+.. activecode:: session8_6
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/DictionaryAccum
+    :from_source: None
+
+    mystr = 'By a route obscure and lonely, haunted by ill angels only'
+    str2 = "a brain train"
+    vowels = ['a', 'e', 'i', 'o', 'uu']
+
+    ####### Scrabble values: combining two dictionaries######
+    d = {}
+    for letter in str2:
+        if letter in d:
+            d[letter] += 1
+        else:
+            d[letter] = 1
+
+    letter_values = {' ': 0, 'a': 1, 'b': 3, 'c': 3, 'd': 2, 'e': 1, 'f':4, 'g': 2, 'h':4, 'i':1, 'j':8, 'k':5, 'l':1, 'm':3, 'n':1, 'o':1, 'p':3, 'q':10, 'r':1, 's':1, 't':1, 'uu':1, 'v':8, 'w':4, 'x':8, 'y':4, 'z':10}
+
+    tot = 0
+    for letter in d: # same as iterating over d.keys()
+        tot = tot + letter_values[letter] * d[letter]
+
+    print tot

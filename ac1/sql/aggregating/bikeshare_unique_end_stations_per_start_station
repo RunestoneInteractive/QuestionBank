@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_unique_end_stations_per_start_station
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T

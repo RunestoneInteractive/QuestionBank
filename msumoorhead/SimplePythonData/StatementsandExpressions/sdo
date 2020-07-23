@@ -1,0 +1,10 @@
+.. activecode:: sdo
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: SimplePythonData/StatementsandExpressions
+    :from_source: None
+    :nocanvas:
+
+    print(1 + 1)
+    print(len("hello"))

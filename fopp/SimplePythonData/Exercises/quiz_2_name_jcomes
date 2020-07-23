@@ -1,6 +1,6 @@
 .. actex:: quiz_2_name_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -23,4 +23,4 @@
            self.assertTrue(re.search('input', self.getEditorText()), 'Checking that input is used.')
            self.assertEqual(type(name), type('Pat'), 'Checking for the variable name')
            self.assertTrue(re.search(str(len(name)), self.getOutput()), 'Checking answer.')
-   myTests().main() 
+   myTests().main()

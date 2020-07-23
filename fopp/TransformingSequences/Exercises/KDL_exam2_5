@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_exam2_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: F
-.. activecode:: KDL_exam2_5
    :autograde: unittest
    :language: python
 
@@ -23,4 +22,4 @@
            self.assertTrue(newS==s.strip().lower().replace('cat','dog'), 'Correct string created')
            self.assertTrue('the dog ate the dog food, it was yummy!' not in self.getEditorText(), 'The string was not hard coded')
 
-   myTests().main()   
+   myTests().main()

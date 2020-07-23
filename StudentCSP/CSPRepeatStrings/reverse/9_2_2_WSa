@@ -1,0 +1,21 @@
+.. activecode::  9_2_2_WSa
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPRepeatStrings/reverse
+    :from_source: T
+    :nocodelens:
+
+    # INITIALIZE ACCUMULATORS
+    newStringA = ""
+    newStringB = ""
+    # NAME DATA
+    word = "popsicle"
+    # LOOP THROUGH THE DATA
+    for letter in word:
+      # ACCUMULATE RESULT
+        newStringA = letter + newStringA
+        newStringB = newStringB + letter
+    # DISPLAY RESULT
+    print("Here's the result of using newStringB + letter:")
+    print(newStringB + newStringA)

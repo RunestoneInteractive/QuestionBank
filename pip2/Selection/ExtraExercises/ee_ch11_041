@@ -1,0 +1,20 @@
+.. activecode:: ee_ch11_041
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Selection/ExtraExercises
+   :from_source: None
+   :tags: Selection/Chainedconditionals.rst
+
+   percent_rain = [94.3, 45, 100, 78, 16, 5.3, 79, 86]
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(resps, ['Bring an umbrella.','Nice day!','Bring an umbrella.','Watch out for clouds!',"Nice day!",'Nice day!','Watch out for clouds!',"Good for the flowers?"], "Testing the value of resps")
+
+   myTests().main()

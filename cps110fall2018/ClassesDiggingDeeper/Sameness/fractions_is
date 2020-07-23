@@ -1,6 +1,6 @@
 .. activecode:: fractions_is
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2018
     :topic: ClassesDiggingDeeper/Sameness
     :from_source: None
@@ -22,4 +22,3 @@
 
     ourfraction = myfraction
     print(myfraction is ourfraction)
-

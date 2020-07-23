@@ -1,14 +1,12 @@
-
+.. dragndrop:: dnd_bnm_videodemo
     :author: Brad Miller
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-.. dragndrop:: dnd_bnm_videodemo
     :feedback: Feedback that is displayed if things are incorrectly matched
     :match_1: Star Tribute|||Minneapolis
     :match_2: Boston Globe|||Boston
     :match_3: New York Times|||New York
 
     Match each newspaper to the city where it is published.
-    

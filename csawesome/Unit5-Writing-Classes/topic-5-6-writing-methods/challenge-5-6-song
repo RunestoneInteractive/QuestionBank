@@ -1,6 +1,6 @@
 .. activecode:: challenge-5-6-song
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: csawesome
   :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
   :from_source: T
@@ -58,10 +58,7 @@
             String output = getMethodOutput("main");
             String expect = "The ants go marching three by three\nThe little one stops to climb a tree";
             boolean passed = output.contains(expect);
-            getResults(expect, output, "Expected output from main contains 3 verses");
+            getResults(expect, output, "Expected output from main contains 3 verses", passed);
             assertTrue(passed);
         }
     }
-
-
-

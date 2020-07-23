@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_reg_sm_pop
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :Bahrain: Is the correct answer
      :x: Keep trying
-

@@ -1,0 +1,42 @@
+.. mchoice:: AP1-2-2
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: csjava
+    :topic: Unit1-Getting-Started/topic-1-2-java-intro
+    :from_source: T
+    :practice: T
+
+    Consider the following code segment.
+
+    .. code-block:: java
+
+       System.out.println("Roses are red, ")      // Line 1;
+       System.out.println("Violets are blue, ")  // Line 2;
+       System.out.print("Unexpected '}' ")        // Line 3;
+       System.out.print("on line 32. ")           // Line 4;
+
+    The code segment is intended to produce the following output but may not work as intended.
+
+    .. raw:: html
+
+       <pre>Roses are red,
+       Violets are blue,
+       Unexpected '}' on line 32.</pre>
+
+    Which change, if any, can be made so that the code segment produces the intended output?
+
+    - Replacing print with println on lines 3 and 4.
+
+      - These should print on the same line without a newline in between.
+
+    - Replacing println with print on lines 1 and 2.
+
+      - These should print out with a newline in between.
+
+    - Removing the single quotes in line 3.
+
+      - The single quotes are fine in this line.
+
+    - Putting the semicolon after the ) on each line.
+
+      + Correct! The semicolon should go after each command but not in the comment.

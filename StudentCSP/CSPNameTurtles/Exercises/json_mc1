@@ -1,10 +1,9 @@
-
+.. mchoice:: json_mc1
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
-.. mchoice:: json_mc1
    :answer_a: List, list, tuple
    :answer_b: List, string, dictionary
    :answer_c: String, list, dictionary
@@ -39,5 +38,3 @@
          print('Name', item['name'])
          print('Id', item['id'])
          print('Attribute', item['x'])
-
-     

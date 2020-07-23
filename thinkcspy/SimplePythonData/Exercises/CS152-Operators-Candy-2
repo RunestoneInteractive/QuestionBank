@@ -1,10 +1,9 @@
-
+.. activecode:: CS152-Operators-Candy-2
    :author: John Cigas
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-.. activecode:: CS152-Operators-Candy-2
    :language: python
 
    Write a program to calculate the total amount of candy to purchase for a children's birthday
@@ -24,5 +23,3 @@
 
    # Print out the number of big kids, little kids and total candy needed. 
    # Make sure you print out text too so that the user knows what is being printed out.
-
-

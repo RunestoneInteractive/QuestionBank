@@ -1,6 +1,6 @@
 .. activecode:: ch07_sentinel
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: MoreAboutIteration/SentinelValuesAndValidation
     :from_source: None

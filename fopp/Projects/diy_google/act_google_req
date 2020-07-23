@@ -1,6 +1,6 @@
 .. activecode:: act_google_req
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/diy_google
     :from_source: T
@@ -13,4 +13,3 @@
     # Now the whole page is just one big string!
 
     print(page_text)
-

@@ -1,6 +1,6 @@
 .. mchoice:: AP5-5-4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/Exercises
     :from_source: T
@@ -47,4 +47,3 @@
     - Replace line 10 with  ``public int raiseTemperature(int increase)``
 
       - This mutator method should have a void return value and just change the value of currentTemp without returning a value.
-

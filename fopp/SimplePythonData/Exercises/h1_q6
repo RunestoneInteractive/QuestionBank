@@ -1,6 +1,6 @@
 .. activecode:: h1_q6
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
@@ -11,9 +11,3 @@
     
     Warning: you cannot write ``print(5)``
     ~~~~
-   
-
-
-
-
-    

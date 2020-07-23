@@ -1,10 +1,10 @@
 .. actex:: suci_test_question_2
    :author: peter suci
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
 
    Write a program that prompt the user to enter their name and then print the name.
    ~~~~
-   # put code here 
+   # put code here

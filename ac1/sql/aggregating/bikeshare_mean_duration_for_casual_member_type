@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_mean_duration_for_casual_member_type
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -13,4 +13,3 @@
      trip_data
    WHERE
      member_type = 'Casual'
-

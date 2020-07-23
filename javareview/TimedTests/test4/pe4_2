@@ -1,0 +1,19 @@
+.. mchoice:: pe4_2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: TimedTests/test4
+   :from_source: None
+   :answer_a: x != y
+   :answer_b: x == y
+   :answer_c: true
+   :answer_d: false
+   :answer_e: x < y
+   :correct: d
+   :feedback_a: If we assume that x is not equal to y then the expression is (false && true) || (true && false) which is false.
+   :feedback_b: If we assume that x == y is the same than using it in the full expression should return true.  But, if x is equal to y you would get (true && false) || (false && true) which is false.
+   :feedback_c: How can this be true?  Remember that && requires both expressions to be true in order to return true.  You can think of (x==y && !(x==y)) as A && !A which is always false.   You can think of ( x!=y && !(x!=y) as B && !B which is always false.
+   :feedback_d: This can be simplified to (A && !A) || (B && !B) which is (false || false) which is false.  You can think of (x==y && !(x==y)) as A && !A which is always false.   You can think of ( x!=y && !(x!=y) as B && !B which is always false.
+   :feedback_e: Since this expression is only about equality how could this be true?
+
+   The Boolean expression (x==y && !(x==y)) || ( x!=y && !(x!=y)) can be simplified to which of the following?

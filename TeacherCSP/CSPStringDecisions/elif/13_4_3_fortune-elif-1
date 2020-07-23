@@ -1,6 +1,6 @@
 .. mchoice:: 13_4_3_fortune-elif-1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPStringDecisions/elif
    :from_source: T
@@ -15,8 +15,3 @@
    :feedback_d: There are only 5 logical expression here so it can't be more than 5.
 
    How many conditions (logical expressions) are checked in the code above if the user answered 2?
-
-
-
-
-

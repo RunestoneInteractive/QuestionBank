@@ -1,6 +1,6 @@
 .. codelens:: stack_cl_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythoned
    :topic: BasicDS/ImplementacionDeUnaPilaEnPython
    :from_source: None
@@ -29,4 +29,3 @@
    s.incluir('hola')
    s.incluir('verdadero')
    print(s.extraer())
-

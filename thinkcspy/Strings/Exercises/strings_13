@@ -1,13 +1,11 @@
-
+.. activecode:: strings_13
     :author: DANIEL LEE
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: strings_13
   
     What additional aspects do you need to program when creating loops with 
     while that you don’t when using for loops?
 
     ~~~~
-    

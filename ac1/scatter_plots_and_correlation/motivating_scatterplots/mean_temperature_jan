@@ -1,6 +1,6 @@
 .. mchoice:: mean_temperature_jan
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: scatter_plots_and_correlation/motivating_scatterplots
    :from_source: T
@@ -23,4 +23,3 @@
    - 33
 
      - Incorrect
-

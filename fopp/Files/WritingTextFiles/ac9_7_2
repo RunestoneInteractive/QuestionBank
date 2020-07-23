@@ -1,6 +1,6 @@
 .. activecode:: ac9_7_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Files/WritingTextFiles
     :from_source: T
@@ -18,4 +18,3 @@
     infile = open(filename, "r")
     print(infile.read()[:10])
     infile.close()
-

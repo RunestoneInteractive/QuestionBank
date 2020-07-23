@@ -1,0 +1,14 @@
+.. activecode:: String_Length
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPNameStrings/strObjects
+   :from_source: T
+   :nocodelens:
+
+   sentence = "This is a test"
+   length = len(sentence)
+   print(length)
+   sentence = "Hi"
+   length = len(sentence)
+   print(length)

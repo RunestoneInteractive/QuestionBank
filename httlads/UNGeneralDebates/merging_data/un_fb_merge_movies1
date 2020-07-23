@@ -1,6 +1,6 @@
 .. fillintheblank:: un_fb_merge_movies1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: UNGeneralDebates/merging_data
    :from_source: T
@@ -10,4 +10,3 @@
    - :2767: Is Correct
      :2770: Includes some duplicate movies.  Remove duplicates or clean your data.
      :x: Use the len function on the results from querying the genres data frame
-

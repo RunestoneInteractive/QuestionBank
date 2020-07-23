@@ -1,6 +1,6 @@
 .. mchoice:: qtnt3_14
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Tests/test3nt
    :from_source: T
@@ -17,4 +17,3 @@
    :feedback_e: Math.random() * 25 finds a random double value between 0 and 24.9999. This is cast to an integer, and 1 is added so the range becomes 1 to 25.
 
    You need to find a random integer in the range 1 to 25, inclusive. Which of the following always returns a value that satisfies this condition?
-

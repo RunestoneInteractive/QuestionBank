@@ -1,0 +1,11 @@
+.. video:: whileloop
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: IndefiniteIteration/ThewhileStatement
+   :from_source: None
+   :controls:
+   :thumb: ../_static/whileloop.png
+
+   http://media.interactivepython.org/thinkcsVideos/whileloop.mov
+   http://media.interactivepython.org/thinkcsVideos/whileloop.webm

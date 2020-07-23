@@ -1,6 +1,6 @@
 .. mchoice:: question15_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter15/File_input
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Incorrect! apstrings are allowed in C++.
 
    We need to use the function ``c_str()`` to convert a string to a native C string because...
-

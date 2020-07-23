@@ -1,10 +1,9 @@
-
+.. activecode:: ccs_maze01
    :author: Michael McCarrin
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: F
-.. activecode:: ccs_maze01
    :include: ccs_maze00
    
    Convert function. Implement according to the specification.

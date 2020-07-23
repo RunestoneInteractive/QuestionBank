@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_21_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/NestedLists
    :from_source: T
@@ -24,4 +24,3 @@
         print(alist[1][0])
      else:
         print(alist[1][1])
-

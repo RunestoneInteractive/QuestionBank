@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_classes_baseclass
     :author: Brian Powell
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Classes/Exercises
     :from_source: F
-.. activecode:: wvu_classes_baseclass
     :autograde: unittest
 
     Create a class named **Vehicle**. Its constructor should take three parameters, the year, the name of the make and the name of the model, which should be stored in variables named **year**, **make**, and **model**, respectively.

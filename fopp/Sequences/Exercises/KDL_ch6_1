@@ -1,10 +1,9 @@
-
+.. activecode:: KDL_ch6_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
-.. activecode:: KDL_ch6_1
    :autograde: unittest
    :language: python
 
@@ -22,4 +21,4 @@
            self.assertEqual(len(friends),5,feedback="Correct length for friends")
            self.assertIn('friends[2]', self.getEditorText(), 'Contains correct command')
            self.assertTrue(re.search(str(friends[2])[:2], self.getOutput()), 'Checking sentence.')
-   myTests().main()    
+   myTests().main()

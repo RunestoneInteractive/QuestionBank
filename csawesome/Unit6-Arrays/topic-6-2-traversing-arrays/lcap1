@@ -1,10 +1,11 @@
 .. activecode:: lcap1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/topic-6-2-traversing-arrays
    :from_source: T
    :language: java
+   :autograde: unittest
 
    What is wrong with the code below?  The first time through the loop it will start with the element at index 0 and check if the item at the array index equals the passed target string.  If they have the same characters in the same order it will return 0, otherwise it will return -1.  But, it has only processed one element of the array.  How would you fix the code to work correctly (process all array elements before returning)?
    ~~~~
@@ -37,5 +38,48 @@
         System.out.println(sWorker.findString("Hey"));
       }
    }
+   ====
+   // Test for Lesson 6.2.4 - ArrayWorker
 
+    import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
 
+    public class RunestoneTests extends CodeTestHelper
+    {
+        public RunestoneTests() {
+            super("StringWorker");
+        }
+
+        @Test
+        public void test1()
+        {
+            String output = getMethodOutput("main");
+            String expect = "1".replaceAll(" ", "\n");
+
+            boolean passed = getResults(expect, output, "Testing main()", true);
+            assertTrue(passed);
+        }
+
+        @Test
+        public void test2()
+        {
+            StringWorker sWorker = new StringWorker();
+            String output = ""+sWorker.findString("Good morning!");
+            String expect = "2";
+
+            boolean passed = getResults(expect, output, "Testing findString(\"Good morning!\")");
+            assertTrue(passed);
+        }
+
+        @Test
+        public void test3()
+        {
+            StringWorker sWorker = new StringWorker();
+            String output = ""+sWorker.findString("Hello!");
+            String expect = "-1";
+
+            boolean passed = getResults(expect, output, "Testing findString(\"Hello!\")");
+            assertTrue(passed);
+        }
+    }

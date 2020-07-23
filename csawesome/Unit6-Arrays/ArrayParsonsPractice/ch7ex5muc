@@ -1,6 +1,6 @@
 .. parsonsprob:: ch7ex5muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit6-Arrays/ArrayParsonsPractice
    :from_source: T
@@ -25,4 +25,3 @@
        return (sum / arr.length);
    =====
    } //end findAverage method
-

@@ -1,0 +1,11 @@
+.. fillintheblank:: recFBTracex
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Recursion/rPractice
+   :from_source: None
+
+   What is the value of x in the trace above?
+
+   -    :^27$: Correct!
+        :.*: It is the result of mystery(3)

@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_exam2_loadfilelist
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: fopp
     :topic: Files/Exercises
     :from_source: F
-.. activecode:: wvu_exam2_loadfilelist
     :autograde: unittest
 
     (10 points)
@@ -28,5 +27,3 @@
             self.assertEqual(len(read_file_contents_so()),2000,"Your function must return a list with 2000 elements")
 
     myTests().main()
-
-    

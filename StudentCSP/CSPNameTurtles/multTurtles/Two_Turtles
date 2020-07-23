@@ -1,0 +1,21 @@
+.. activecode:: Two_Turtles
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameTurtles/multTurtles
+    :from_source: T
+    :tour_1: "Line-by-line Tour"; 1: tt-line1; 2: tt-line2; 3: tt-line3; 4: tt-line4; 5: tt-line5; 6: tt-line6; 7: tt-line7; 8: tt-line8; 9: tt-line9; 10: tt-line10; 11: tt-line11; 12: tt-line12;
+    :nocodelens:
+
+    from turtle import *        # use the turtle library
+    space = Screen()            # create a turtle screen (space)
+    zari = Turtle()             # create a turtle named zari
+    zari.setheading(90)         # Point due north
+    zari.forward(100)           # tell zari to move forward by 100 units
+    zari.right(120)             # turn right by 120 degrees
+    zari.forward(100)           # tell zari to move forward by 100 units
+    zari.right(120)             # turn right by 120 degrees
+    chad = Turtle()             # create a new turtle named chad
+    chad.color("orange")        # change the color chad draws with
+    chad.forward(100)           # tell chad to move forward by 100 units
+    chad.right(120)             # turn chad by 120 degrees

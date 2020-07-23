@@ -1,6 +1,6 @@
 .. mchoice:: question7_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Conditionals/OmittingtheelseClauseUnarySelection
    :from_source: T
@@ -35,4 +35,3 @@
 
      c.
      The negative number -10 is not valid here
-

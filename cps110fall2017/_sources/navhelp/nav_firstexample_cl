@@ -1,6 +1,6 @@
 .. codelens:: nav_firstexample_cl
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: _sources/navhelp
     :from_source: None
@@ -8,4 +8,3 @@
 
     print("My first program adds two numbers, 2 and 3:")
     print(2 + 3)
-

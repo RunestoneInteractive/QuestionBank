@@ -1,6 +1,6 @@
 .. activecode:: MadLibs
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-6-strings
    :from_source: F
@@ -25,7 +25,3 @@
         System.out.println("Do " + pluralnoun2 + " like them too?");
       }
    }
-
-
-
-

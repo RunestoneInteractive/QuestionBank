@@ -1,6 +1,6 @@
 .. mchoice:: implicit_variable_access_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter11/implicit_variable_access
    :from_source: T

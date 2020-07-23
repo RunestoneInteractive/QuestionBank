@@ -1,6 +1,6 @@
 .. activecode:: graph_implementation_cpp
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Graphs/Implementation
   :from_source: T

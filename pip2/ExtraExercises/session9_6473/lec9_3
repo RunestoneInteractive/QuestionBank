@@ -1,0 +1,23 @@
+.. activecode:: lec9_3
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: ExtraExercises/session9_6473
+   :from_source: None
+   :tags: Functions/Returningavaluefromafunction.rst
+
+   Write a function called ``s_change`` that takes one string as input and returns that string, concatenated with the string "for fun.".
+   ~~~~
+   # Define your function here.
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(s_change("Coding"), "Coding for fun." ,"Testing the function s_change with input coding")
+         self.assertEqual(s_change("We go to the beach"), "We go to the beach for fun." , "Testing the function s_change with input We go to the beach")
+
+   myTests().main()

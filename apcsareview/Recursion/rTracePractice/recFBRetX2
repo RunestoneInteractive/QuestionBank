@@ -1,0 +1,11 @@
+.. fillintheblank:: recFBRetX2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: Recursion/rTracePractice
+   :from_source: T
+
+   What is the value of X in the trace above?
+
+   -    :^0$: Correct!
+        :.*: What is the value returned from strMethod("ry")?

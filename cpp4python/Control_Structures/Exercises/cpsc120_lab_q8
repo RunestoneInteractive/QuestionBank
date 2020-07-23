@@ -1,10 +1,9 @@
-
+.. parsonsprob:: cpsc120_lab_q8
    :author: Matthew Zuniga
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: cpp4python
    :topic: Control_Structures/Exercises
    :from_source: F
-.. parsonsprob:: cpsc120_lab_q8
 
    Use a <b>nested for-loop</b> to construct the multiplication table starting from 1 to 10.
    <br>

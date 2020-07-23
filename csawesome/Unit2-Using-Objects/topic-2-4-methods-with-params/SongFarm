@@ -1,6 +1,6 @@
 .. activecode:: SongFarm
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
     :from_source: T
@@ -76,7 +76,8 @@
         {
             String code = getCode();
             int numVerses = countOccurences(code, "verse(");
-            boolean passed = numVerses >= 3;
+            boolean passed = numVerses >= 4;
+            // + 1 because of verse method definition
             passed = getResults("3 or more", ""+numVerses, "Number of verses", passed);
             assertTrue(passed);
         }

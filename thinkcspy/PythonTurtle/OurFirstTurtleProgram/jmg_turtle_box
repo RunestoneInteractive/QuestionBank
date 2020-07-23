@@ -1,6 +1,6 @@
 .. activecode:: jmg_turtle_box
     :author: Jean Griffin
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: PythonTurtle/OurFirstTurtleProgram
     :from_source: F
@@ -25,5 +25,4 @@
     pat.left(90)    
             
     # Draw Side 4
-    pat.forward(150)            
-
+    pat.forward(150)

@@ -1,6 +1,6 @@
 .. activecode:: hashtablecomplete
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: pythonds3
     :topic: SortSearch/Hashing
     :from_source: T
@@ -77,5 +77,3 @@
     h[20] = "duck"
     print(h[20])
     print(h[99])
-
-

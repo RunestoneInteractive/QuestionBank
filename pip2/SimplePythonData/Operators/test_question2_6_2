@@ -1,0 +1,23 @@
+.. mchoice:: test_question2_6_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: SimplePythonData/Operators
+   :from_source: None
+   :answer_a: 4.5
+   :answer_b: 5
+   :answer_c: 4
+   :answer_d: 4.0
+   :answer_e: 2
+   :feedback_a: - The // operator does integer division, not exact divisions
+   :feedback_b: - Integer division results in truncation, not rounding up.
+   :feedback_c: - The // operator does integer division, but it yields a float when one of the operands is a float/
+   :feedback_d: - The // operator does integer division, and  it yields a float when one of the operands is a float.
+   :feedback_e: - / does division. Perhaps you were thinking of %, which computes the remainder?
+   :correct: d
+
+   What value is printed when the following statement executes?
+
+   .. code-block:: python
+
+      print 18.0 // 4

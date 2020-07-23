@@ -1,6 +1,6 @@
 .. codelens:: clens_1_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: NestedData/ListswithComplexItems
     :from_source: T
@@ -12,4 +12,3 @@
     nested1.append(['i'])
     for L in nested1:
         print(L)
-

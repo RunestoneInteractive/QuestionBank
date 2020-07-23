@@ -1,6 +1,6 @@
 .. activecode:: lab01_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Labs/lab03_01
    :from_source: None
@@ -26,4 +26,3 @@
    # your code goes here
 
    wn.exitonclick()
-

@@ -1,6 +1,6 @@
 .. fillintheblank:: keywords_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Keywords
    :from_source: T
@@ -10,4 +10,3 @@
 
    - :[Kk][Ee][Yy][Ww][Oo][Rr][Dd][Ss]: Correct!
      :.*: Try again!
-

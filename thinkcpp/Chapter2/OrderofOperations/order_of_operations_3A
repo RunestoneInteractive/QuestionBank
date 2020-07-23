@@ -1,6 +1,6 @@
 .. clickablearea:: order_of_operations_3A
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/OrderofOperations
    :from_source: T
@@ -9,4 +9,3 @@
    :feedback: Try again!
 
    :click-incorrect:1:endclick: :click-incorrect:+:endclick: :click-incorrect:2:endclick: :click-incorrect:*:endclick: ( :click-correct:10:endclick: :click-correct:-:endclick: :click-correct:2:endclick: ) :click-incorrect:/:endclick: :click-incorrect:4:endclick:
-

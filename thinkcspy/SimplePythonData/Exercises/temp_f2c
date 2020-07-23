@@ -1,10 +1,9 @@
-
+.. activecode:: temp_f2c
     :author: Erdogan Dogdu
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
-.. activecode:: temp_f2c
 
     Write a program to read the temperature in Fahrenheit
     and convert it into Celsius degrees, and then display.
@@ -12,4 +11,3 @@
     ~~~~
     
     ====
-        

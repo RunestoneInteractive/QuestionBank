@@ -1,0 +1,10 @@
+.. activecode:: ch08_7a1
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Iteration/TraversalandtheforLoopByIndex
+   :from_source: None
+
+   x = range(5)
+   print type(x)
+   print x

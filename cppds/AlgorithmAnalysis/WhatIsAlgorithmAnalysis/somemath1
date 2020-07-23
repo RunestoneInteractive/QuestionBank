@@ -1,6 +1,6 @@
 .. mchoice:: somemath1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: AlgorithmAnalysis/WhatIsAlgorithmAnalysis
     :from_source: T
@@ -17,4 +17,3 @@
     :feedback_e: One of the above is correct!
 
     Compute the result of :math:`\sum_{i=1}^{3} i^3`
-

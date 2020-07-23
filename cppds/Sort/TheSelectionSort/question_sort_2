@@ -1,6 +1,6 @@
 .. mchoice:: question_sort_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cppds
    :topic: Sort/TheSelectionSort
    :from_source: T

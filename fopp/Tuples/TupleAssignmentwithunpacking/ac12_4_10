@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_10
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Tuples/TupleAssignmentwithunpacking
    :from_source: T
@@ -25,4 +25,3 @@
          self.assertEqual(v4, 4, "Testing that v4 was assigned correctly.")
 
    myTests().main()
-

@@ -1,0 +1,12 @@
+.. activecode:: ch3ex14q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/Exercises
+    :from_source: T
+    :nocodelens:
+
+    subTotal =
+    tax = 0.07
+    total =
+    print (total)

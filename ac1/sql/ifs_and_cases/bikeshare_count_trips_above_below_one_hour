@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_count_trips_above_below_one_hour
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/ifs_and_cases
    :from_source: T
@@ -14,4 +14,3 @@
      bikeshare_stations
    GROUP BY
      is_over_one_hour
-

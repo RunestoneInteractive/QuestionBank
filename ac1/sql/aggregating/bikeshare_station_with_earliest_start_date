@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_station_with_earliest_start_date
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/aggregating
    :from_source: T
@@ -12,4 +12,3 @@
 
    ====
    assert 0,0 == 31620
-

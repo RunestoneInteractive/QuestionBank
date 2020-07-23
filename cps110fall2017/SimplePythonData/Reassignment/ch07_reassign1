@@ -1,6 +1,6 @@
 .. activecode:: ch07_reassign1
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: SimplePythonData/Reassignment
     :from_source: None
@@ -9,4 +9,3 @@
     print(bruce)
     bruce = 7
     print(bruce)
-

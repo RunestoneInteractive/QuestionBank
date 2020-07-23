@@ -1,6 +1,6 @@
 .. mchoice:: copying_vectors_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter10/copying_vectors
    :from_source: T

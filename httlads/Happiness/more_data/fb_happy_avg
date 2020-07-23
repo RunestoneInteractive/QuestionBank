@@ -1,6 +1,6 @@
 .. fillintheblank:: fb_happy_avg
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
@@ -9,4 +9,3 @@
 
    - :6.020: Is the correct answer
      :x: Please check your formula again
-

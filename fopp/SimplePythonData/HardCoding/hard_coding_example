@@ -1,6 +1,6 @@
 .. actex:: hard_coding_example
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: SimplePythonData/HardCoding
    :from_source: T

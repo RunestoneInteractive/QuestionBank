@@ -1,6 +1,6 @@
 .. mchoice:: question6_100_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
    :from_source: T
@@ -24,4 +24,3 @@
        t = ("couch", "chair", "washer", "dryer", "table")
        for z in t:
            print(z)
-

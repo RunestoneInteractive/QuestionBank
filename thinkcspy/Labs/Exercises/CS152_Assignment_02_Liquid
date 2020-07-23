@@ -1,10 +1,9 @@
-
+.. activecode:: CS152_Assignment_02_Liquid
      :author: John Cigas
-     :difficulty: 0.0
+     :difficulty: 0
      :basecourse: thinkcspy
      :topic: Labs/Exercises
      :from_source: F
-.. activecode:: CS152_Assignment_02_Liquid
 
      Create a Python program that prompts the user to enter a 
      number of quarts, and then calculates the number of gallons and
@@ -43,5 +42,3 @@
 
     Write your code in this window. Write your reflection in the Google doc we set up in class.
     ~~~~
-
-    

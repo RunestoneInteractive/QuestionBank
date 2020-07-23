@@ -1,6 +1,6 @@
 .. mchoice:: question1_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: T

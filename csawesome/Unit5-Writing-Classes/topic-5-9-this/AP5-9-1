@@ -1,6 +1,6 @@
 .. mchoice:: AP5-9-1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/topic-5-9-this
     :from_source: T
@@ -75,7 +75,3 @@
     - Nothing is printed because the code will not compile.
 
       - Incorrect. The code will compile.
-
-
-
-

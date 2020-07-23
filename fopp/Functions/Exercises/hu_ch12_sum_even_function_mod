@@ -1,10 +1,9 @@
-
+.. activecode:: hu_ch12_sum_even_function_mod
    :author: Sean Joyce
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: F
-.. activecode:: hu_ch12_sum_even_function_mod
 
    Complete the definition of function ``sumEven`` below.
 

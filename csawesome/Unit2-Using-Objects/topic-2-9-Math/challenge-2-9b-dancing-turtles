@@ -1,6 +1,6 @@
 .. activecode:: challenge-2-9b-dancing-turtles
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit2-Using-Objects/topic-2-9-Math
     :from_source: T
@@ -8,7 +8,7 @@
     :autograde: unittest
     :datafile: turtleClasses.jar
 
-    Complete the random numbers using Math.random() in the correct ranges to choose x, y coordinates for the turtle.
+    Complete the random numbers using Math.random() in the correct ranges to choose x, y coordinates and random color in the range of 0-255 for the turtle. Put on some music and watch your turtle dance!
     ~~~~
     import java.util.*;
     import java.awt.*;
@@ -78,5 +78,3 @@
            assertTrue(passed);
         }
     }
-
-

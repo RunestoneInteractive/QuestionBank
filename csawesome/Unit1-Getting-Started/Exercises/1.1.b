@@ -1,6 +1,6 @@
 .. mchoice:: 1.1.b
    :author: Beryl Hoffman
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/Exercises
    :from_source: F

@@ -1,0 +1,10 @@
+.. activecode:: Expression_Order2
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameNumbers/orderOfOperations
+    :from_source: T
+    :nocodelens:
+
+    result = (4 + -2) * 3
+    print(result)

@@ -1,0 +1,12 @@
+.. activecode::  ch5ex12q
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: StudentCSP
+    :topic: CSPNameTurtles/Exercises
+    :from_source: T
+    :nocodelens:
+
+    From turtle Import *
+    space = screen()
+    bob = turtle
+    Bob.forward("100")

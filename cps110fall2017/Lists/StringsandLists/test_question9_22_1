@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_22_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Lists/StringsandLists
    :from_source: None
@@ -24,5 +24,3 @@
      for aname in namelist:
          init = init + aname[0]
      print(init)
-
-

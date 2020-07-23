@@ -1,6 +1,6 @@
 .. codelens:: item_assign
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110fall2017
     :topic: Lists/ListsareMutable
     :from_source: None
@@ -9,5 +9,3 @@
 
     fruit[0] = "pear"
     fruit[-1] = "orange"
-
-

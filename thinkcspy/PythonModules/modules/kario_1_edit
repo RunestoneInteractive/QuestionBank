@@ -1,6 +1,6 @@
 .. mchoice:: kario_1_edit
    :author: Karioki Crosby
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: PythonModules/modules
    :from_source: F

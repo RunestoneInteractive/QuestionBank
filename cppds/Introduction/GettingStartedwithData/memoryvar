@@ -1,6 +1,6 @@
 .. fillintheblank:: memoryvar
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cppds
   :topic: Introduction/GettingStartedwithData
   :from_source: T
@@ -11,4 +11,3 @@
    :variable: Be more specific!
    :reference: That's a general description of what it is, not a C++ term!
    :default: Incorrect. Please try again
-

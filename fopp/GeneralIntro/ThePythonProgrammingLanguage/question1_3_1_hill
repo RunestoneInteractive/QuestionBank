@@ -1,6 +1,6 @@
 .. mchoice:: question1_3_1_hill
    :author: Scott Hill
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: F

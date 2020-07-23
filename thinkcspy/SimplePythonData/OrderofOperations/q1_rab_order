@@ -1,6 +1,6 @@
 .. mchoice:: q1_rab_order
    :author: Richard Bernatz
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: SimplePythonData/OrderofOperations
    :from_source: F
@@ -19,5 +19,3 @@
    .. code-block:: python
 
       2 + 3**2*2
-
-

@@ -1,6 +1,6 @@
 .. dragndrop:: multiple_functions_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter3/ProgramsWithMultipleFunctions
    :from_source: F
@@ -10,4 +10,3 @@
    :match_3: main|||executes first
 
    Match the function to the order it is executed in the program above.
-

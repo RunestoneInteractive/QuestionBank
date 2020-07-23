@@ -1,0 +1,23 @@
+.. activecode:: ee_ch13_062
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: DictionaryAccumulation/ExtraExercises
+   :from_source: None
+   :tags: DictionaryAccumulation/intro-AccumulatingMultipleResultsInaDictionary.rst
+
+   p = "Summer is a great time to go outside. You have to be careful of the sun though because of the heat."
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(low_d["s"], 5, "Testing the key s")
+      def testThree(self):
+         self.assertEqual(low_d["y"], 1, "Testing the key y")
+
+
+   myTests().main()

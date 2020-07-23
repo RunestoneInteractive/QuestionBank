@@ -1,6 +1,6 @@
 .. activecode:: parsebuildcpp
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cppds
     :topic: Trees/ParseTree
     :from_source: T

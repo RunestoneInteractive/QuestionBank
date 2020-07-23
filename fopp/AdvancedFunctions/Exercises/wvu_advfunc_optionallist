@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_advfunc_optionallist
     :author: Brian Powell
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: AdvancedFunctions/Exercises
     :from_source: F
-.. activecode:: wvu_advfunc_optionallist
 
     Write a function named **add_wvu()**. It should accept one parameter, an optional parameter named **colleges** designed to take a list. If an existing list is not provided for **colleges** when calling your function, your function should create a new list.
 

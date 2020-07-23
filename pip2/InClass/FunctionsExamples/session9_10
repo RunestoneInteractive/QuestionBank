@@ -1,0 +1,14 @@
+.. activecode:: session9_10
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: InClass/FunctionsExamples
+    :from_source: None
+
+    def f(nums):
+        accum = 0
+        for num in nums:
+            accum += num
+        return accum
+
+    f([2, 4, 6, 8])

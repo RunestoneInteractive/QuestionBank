@@ -1,0 +1,20 @@
+.. activecode::  ch5Ex3q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Conditionals/CondPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           boolean doneHomework = True;
+           boolean cleanedRoom = true;
+           if (doneHomework && cleanedRoom)
+                System.out.println("You can not go out");
+           else
+               System.out.println("You can go out");
+       }
+   }

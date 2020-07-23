@@ -1,6 +1,6 @@
 .. mchoice:: e25_3_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
@@ -24,6 +24,3 @@
        {       y ← x*2
        myLst.APPEND(y)   }
      DISPLAY(myLst[4:])
-
-
-

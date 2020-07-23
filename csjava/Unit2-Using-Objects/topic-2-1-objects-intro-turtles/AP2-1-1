@@ -1,0 +1,26 @@
+.. mchoice:: AP2-1-1
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: An attribute of the name object is String.
+   :answer_b: An attribute of the pet object is name.
+   :answer_c: An instance of the pet class is Dog.
+   :answer_d: An attribute of the Dog instance is pet.
+   :answer_e: An instance of the Dog object is pet.
+   :correct: b
+   :feedback_a: name is an attribute of the pet object or Dog class.
+   :feedback_b: name is an attribute of the pet object or Dog class.
+   :feedback_c: An instance of the Dog class is pet.
+   :feedback_d: An attribute of the Dog class is name.
+   :feedback_e: An instance of the Dog class is pet.
+
+   A student has created a ``Dog`` class. The class contains variables to represent the following.
+    - A String variable called ``breed`` to represent the breed of the dog
+    - An int variable called ``age`` to represent the age of the dog
+    - A String variable called ``name`` to represent the name of the dog
+
+    The object ``pet`` is declared as type Dog.
+    Which of the following descriptions is accurate?

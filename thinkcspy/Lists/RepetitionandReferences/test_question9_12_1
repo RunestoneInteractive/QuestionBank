@@ -1,6 +1,6 @@
 .. mchoice:: test_question9_12_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: Lists/RepetitionandReferences
    :from_source: T
@@ -21,4 +21,3 @@
      blist = alist * 2
      blist[3] = 999
      print(alist)
-

@@ -1,6 +1,6 @@
 .. codelens:: clens8_7_2a
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: TransformingSequences/AppendversusConcatenate
     :from_source: T
@@ -10,4 +10,3 @@
     aliaslist = origlist
     origlist += ["cat"]
     origlist = origlist + ["cow"]
-

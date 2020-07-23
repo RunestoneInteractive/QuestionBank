@@ -1,6 +1,6 @@
 .. mchoice:: 3_1_2_varNames_Q2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPNameNumbers/assignName
    :from_source: T
@@ -17,4 +17,3 @@
    :feedback_e: Since you can't have spaces in names, one way to make variable names easier to read is to use an underscore between two words.
 
    Which of the following is *not* a legal variable name?
-

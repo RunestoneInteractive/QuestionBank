@@ -1,0 +1,19 @@
+.. activecode::  ch6ex5q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: LoopBasics/LoopPractice
+   :from_source: None
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int x = 1;
+           while (x < 10)
+           {
+               System.out.println(x);
+           }
+       }
+   }

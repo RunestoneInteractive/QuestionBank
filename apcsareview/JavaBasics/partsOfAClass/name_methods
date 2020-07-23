@@ -1,6 +1,6 @@
 .. clickablearea:: name_methods
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: apcsareview
     :topic: JavaBasics/partsOfAClass
     :from_source: T
@@ -27,4 +27,3 @@
          :click-correct:}:endclick:
 
     :click-incorrect:}:endclick:
-

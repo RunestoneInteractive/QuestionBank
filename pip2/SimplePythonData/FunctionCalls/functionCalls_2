@@ -1,0 +1,14 @@
+.. activecode:: functionCalls_2
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: SimplePythonData/FunctionCalls
+   :from_source: None
+   :include: functionCalls_1
+   :nocanvas:
+
+
+   print square(3)
+   square(5)
+   print sub(6, 4)
+   print sub(5, 9)

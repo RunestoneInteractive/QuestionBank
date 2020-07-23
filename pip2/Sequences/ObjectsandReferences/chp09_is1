@@ -1,0 +1,11 @@
+.. activecode:: chp09_is1
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Sequences/ObjectsandReferences
+    :from_source: None
+
+    a = "banana"
+    b = "banana"
+
+    print a is b

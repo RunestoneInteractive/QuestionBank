@@ -1,0 +1,15 @@
+.. activecode::  arr2DEx11q
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: apcsareview
+   :topic: Array2dBasics/Exercises
+   :from_source: T
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           // ADD CODE HERE //
+       }
+   }

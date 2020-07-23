@@ -1,6 +1,6 @@
 .. actex:: TL_365_r5_ex3
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
@@ -36,4 +36,3 @@
 	   self.assertEqual(output[3], str(type(ls2[6])), 'Checking fourth line')
 	   #self.assertFalse(re.search(r'(int|str)', '\n'.join(editor)), 'Checking for hardcoding')
    myTests().main()
-

@@ -1,6 +1,6 @@
 .. activecode:: bikeshare_mean_duration_by_station_name
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: sql/joining
    :from_source: T
@@ -15,4 +15,3 @@
    ====
    assert 0,0 == 15th St & Massachusetts Ave SE
    assert 0,1 == 446.11764705882354
-

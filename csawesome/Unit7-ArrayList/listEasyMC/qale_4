@@ -1,6 +1,6 @@
 .. mchoice:: qale_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit7-ArrayList/listEasyMC
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: This would return the second element in a list.  Remember that the first element in a list or array is at index 0.
 
    Which of the following is the correct way to get the first value in a list called ``nums``?
-

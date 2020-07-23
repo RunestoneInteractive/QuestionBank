@@ -1,6 +1,6 @@
 .. activecode:: Unordered_set_example
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cpp4python
     :topic: CollectionData/UnorderedSet
     :from_source: T

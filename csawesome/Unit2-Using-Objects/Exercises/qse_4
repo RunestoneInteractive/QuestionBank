@@ -1,6 +1,6 @@
 .. mchoice:: qse_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/Exercises
    :from_source: T
@@ -22,6 +22,3 @@
      String s1 = "Hey";
      String s2 = s1.substring(0,1);
      String s3 = s2.toLowerCase();
-
-
-

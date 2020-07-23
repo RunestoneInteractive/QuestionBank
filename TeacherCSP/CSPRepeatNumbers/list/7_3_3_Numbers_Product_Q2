@@ -1,0 +1,17 @@
+.. mchoice:: 7_3_3_Numbers_Product_Q2
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: TeacherCSP
+   :topic: CSPRepeatNumbers/list
+   :from_source: T
+   :answer_a: 6
+   :answer_b: 10
+   :answer_c: 24
+   :answer_d: 120
+   :correct: c
+   :feedback_a: That's the value after the 3rd time through the loop.
+   :feedback_b: That's the value if we were adding up the values rather than multiplying them.
+   :feedback_c: That's the value after the 4th time through the loop.
+   :feedback_d: That's the value after the 5th time through the loop.
+
+   What is the value of product after the 4th time through the loop?

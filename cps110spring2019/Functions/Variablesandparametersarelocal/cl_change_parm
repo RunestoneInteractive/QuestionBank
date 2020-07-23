@@ -1,6 +1,6 @@
 .. codelens:: cl_change_parm
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: Functions/Variablesandparametersarelocal
     :from_source: None
@@ -13,6 +13,3 @@
     x = 2
     z = square(x)
     print(z)
-
-
-

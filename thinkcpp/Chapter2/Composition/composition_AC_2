@@ -1,6 +1,6 @@
 .. activecode:: composition_AC_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Composition
    :from_source: T
@@ -18,4 +18,3 @@
        int minute = 1;
        cout << hour * 60 + minute << endl;
    }
-

@@ -1,6 +1,6 @@
 .. activecode:: mergeSort
   :author: bmiller
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: apcsareview
   :topic: SearchSort/mergeSort
   :from_source: T

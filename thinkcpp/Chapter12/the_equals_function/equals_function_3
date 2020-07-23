@@ -1,6 +1,6 @@
 .. parsonsprob:: equals_function_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter12/the_equals_function
    :from_source: T
@@ -38,4 +38,3 @@
    }
    =====
    };                         #paired
-

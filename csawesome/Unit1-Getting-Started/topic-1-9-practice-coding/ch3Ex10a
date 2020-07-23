@@ -1,6 +1,6 @@
 .. activecode::  ch3Ex10a
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit1-Getting-Started/topic-1-9-practice-coding
    :from_source: T
@@ -15,7 +15,7 @@
        {
            double money = 4.5;
            double pricePerWing = 0.75;
-           int num = (int) (money / pricePerWing);
-           System.out.println(num);
+           int numWings = (int) (money / pricePerWing);
+           System.out.println(numWings);
        }
    }

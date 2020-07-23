@@ -1,6 +1,6 @@
 .. fillintheblank:: fitb-ex4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: authorguide
    :topic: directives/fitb
    :from_source: T
@@ -11,4 +11,3 @@
    -   :C\:\\Windows\\system: Correct.
        :program files: Third party applications are stored here, not system files.
        :x: Try again.
-

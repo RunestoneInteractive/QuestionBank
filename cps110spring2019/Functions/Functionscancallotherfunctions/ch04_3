@@ -1,6 +1,6 @@
 .. activecode:: ch04_3
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: Functions/Functionscancallotherfunctions
     :from_source: None
@@ -27,5 +27,3 @@
     drawSquare(tess, 50)
 
     wn.exitonclick()
-
-

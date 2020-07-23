@@ -1,6 +1,6 @@
 .. mchoice:: test_question2_8_2
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: SimplePythonData/OrderofOperations
    :from_source: None

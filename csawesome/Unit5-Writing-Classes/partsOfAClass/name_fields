@@ -1,6 +1,6 @@
 .. clickablearea:: name_fields
     :author: Brad Miller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: csawesome
     :topic: Unit5-Writing-Classes/partsOfAClass
     :from_source: F
@@ -27,4 +27,3 @@
          :click-incorrect:}:endclick:
 
     :click-incorrect:}:endclick:
-

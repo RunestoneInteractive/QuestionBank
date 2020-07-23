@@ -1,6 +1,6 @@
 .. mchoice:: enum_type_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter13/enumerated_types
    :from_source: T
@@ -18,4 +18,3 @@
    :feedback_e: Since the values in enumerated types are represented as integers, we can use them as vector indices.
 
    Multiple Response: What can we do with enumerated types?
-

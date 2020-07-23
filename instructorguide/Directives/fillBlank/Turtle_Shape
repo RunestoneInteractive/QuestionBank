@@ -1,6 +1,6 @@
 .. activecode:: Turtle_Shape
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: instructorguide
     :topic: Directives/fillBlank
     :from_source: T
@@ -18,4 +18,3 @@
     zari.right(90)              # turn by 90 degrees
     zari.forward(100)           # tell zari to move forward by 100 units
     zari.right(90)              # turn by 90 degrees
-

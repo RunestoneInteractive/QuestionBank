@@ -1,6 +1,6 @@
 .. mchoice:: 14_1_2_goto
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPTurtleDecisions/turtleFP
    :from_source: T

@@ -1,10 +1,9 @@
-
+.. activecode:: L6.1_Troy2018
     :author: Shawn Haarer
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: Functions/Exercises
     :from_source: F
-.. activecode:: L6.1_Troy2018
 
     In this lesson we will create two FUNCTIONS in Python.  One function will
     draw a square, the next will draw a triangle
@@ -32,6 +31,3 @@
     tim.goto(-150, -150)
 
     # CALL the function that will draw a square
-    
-    
-    

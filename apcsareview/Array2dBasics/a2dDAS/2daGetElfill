@@ -1,6 +1,6 @@
 .. fillintheblank:: 2daGetElfill
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Array2dBasics/a2dDAS
    :from_source: T
@@ -9,5 +9,3 @@
 
    -    :Luke$: Correct.  The string at row index 2 and column index 1 is Luke.
         :.*: Indicies start at 0 and the row is first then the column
-
-

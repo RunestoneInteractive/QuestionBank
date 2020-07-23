@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_inheritance_override
     :author: Brian Powell
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: Inheritance/Exercises
     :from_source: F
-.. activecode:: wvu_inheritance_override
 
     Copy and paste all the code from the `wvu_inheritance_car` question.
 

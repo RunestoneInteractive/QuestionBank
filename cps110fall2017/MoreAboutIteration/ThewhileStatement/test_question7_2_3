@@ -1,6 +1,6 @@
 .. mchoice:: test_question7_2_3
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: MoreAboutIteration/ThewhileStatement
    :from_source: None
@@ -25,5 +25,3 @@
          n = n + 2
          x = x + n
      print(n, x)
-
-

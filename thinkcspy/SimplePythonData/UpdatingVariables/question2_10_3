@@ -1,6 +1,6 @@
 .. parsonsprob:: question2_10_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcspy
    :topic: SimplePythonData/UpdatingVariables
    :from_source: T
@@ -10,4 +10,3 @@
    mybankbalance = 100
    mybankbalance = mybankbalance + 34
    print(mybankbalance)
-

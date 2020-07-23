@@ -1,10 +1,9 @@
-
+.. dragndrop:: KD_01_01
     :author: Kuri DiFede
-    :difficulty: 1.0
+    :difficulty: 1
     :basecourse: csawesome
     :topic: Unit1-Getting-Started/Exercises
     :from_source: F
-.. dragndrop:: KD_01_01
     :feedback: Review chapter 1 variable types.
     :match_1: integer|||whole number
     :match_2: boolean|||true/false value
@@ -16,4 +15,3 @@
 config values (conf.py): 
 
 - dragndrop_div_class - custom CSS class of the component's outermost div
-    

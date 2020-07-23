@@ -1,10 +1,9 @@
-
+.. activecode:: oo
    :author: Rau Jill
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: pythonds
    :topic: Introduction/Exercises
    :from_source: F
-.. activecode:: oo
    :nocanvas:  -- do not create a canvas
    :autograde: unittest
    :nopre: -- do not create an output component
@@ -40,4 +39,3 @@ config values (conf.py):
 
 - activecode_div_class - custom CSS class of the component's outermost div
 - activecode_hide_load_history - if True, hide the load history button
-    

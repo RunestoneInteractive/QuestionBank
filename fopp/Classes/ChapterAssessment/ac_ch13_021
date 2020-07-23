@@ -1,6 +1,6 @@
 .. activecode:: ac_ch13_021
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Classes/ChapterAssessment
    :from_source: T
@@ -30,4 +30,3 @@
 
 
    myTests().main()
-

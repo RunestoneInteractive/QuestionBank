@@ -1,10 +1,9 @@
-
+.. activecode:: lhs_10_3
     :author: LHS CS Team
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Lists/Exercises
     :from_source: F
-.. activecode:: lhs_10_3
     :language: python
     :autograde: unittest
 
@@ -57,4 +56,4 @@
                 self.assertEqual(Found, True, "list comprehension used")
             else:
                 self.assertEqual(Found, True, "list comprehension not found")
-    myTests().main() 
+    myTests().main()

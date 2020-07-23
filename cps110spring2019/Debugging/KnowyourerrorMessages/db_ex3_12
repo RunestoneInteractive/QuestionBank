@@ -1,6 +1,6 @@
 .. activecode:: db_ex3_12
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110spring2019
    :topic: Debugging/KnowyourerrorMessages
    :from_source: None
@@ -13,4 +13,3 @@
 
    final_time_int = current_time_int + wait_time_int
    print(final_time_int)
-

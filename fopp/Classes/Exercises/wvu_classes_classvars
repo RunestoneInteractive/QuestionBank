@@ -1,10 +1,9 @@
-
+.. activecode:: wvu_classes_classvars
     :author: Brian Powell
-    :difficulty: 2.0
+    :difficulty: 2
     :basecourse: fopp
     :topic: Classes/Exercises
     :from_source: F
-.. activecode:: wvu_classes_classvars
 
     Add class variables to the **Vehicle** class to store the year, make, and model. Make the default value for each be ``None``.
 

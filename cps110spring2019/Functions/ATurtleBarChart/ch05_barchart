@@ -1,6 +1,6 @@
 .. activecode:: ch05_barchart
   :author: jenkins
-  :difficulty: 3.0
+  :difficulty: 3
   :basecourse: cps110spring2019
   :topic: Functions/ATurtleBarChart
   :from_source: None
@@ -43,4 +43,3 @@
       drawBar(tess, a)
 
   wn.exitonclick()
-

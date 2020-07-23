@@ -1,6 +1,6 @@
 .. activecode:: ac18_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: Sorting/ChapterAssessment
    :from_source: T
@@ -22,4 +22,3 @@
          self.assertEqual(sorted_letters, sorted(letters, reverse = True), "Testing that sorted_letters has the correct value.")
 
    myTests().main()
-

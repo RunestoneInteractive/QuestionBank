@@ -1,6 +1,6 @@
 .. activecode:: 1306_cw3_f19_q1
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
@@ -39,4 +39,3 @@
    N = input("Enter N: ")
    S = input("Enter S: ")
    printsquare(N,S)
-

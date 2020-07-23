@@ -1,0 +1,38 @@
+.. mchoice:: qtnt2_7
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: javareview
+   :topic: Tests/test2nt
+   :from_source: None
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and II only
+   :answer_e: I, II, and III
+   :correct: c
+   :feedback_a: Notice the incrementing in the for loop. The value i increments by 1, not by 2, so "012345678" is printed.
+   :feedback_b: Notice the order of the incrementing and the print statement in the while loop. The value i increments before it is printed. The code never prints out 0, so "2468" is printed.
+   :feedback_c: The value i starts at 0 and increments by 2, correctly printing out every value.
+   :feedback_d: Notice the incrementing in the loops for I and II. In I, the value i increments by 1 and prints out too many values. In II, the first value is not printed.
+   :feedback_e: III is correct, but I prints out every value between 0 and 8 and II does not print the first value.
+
+   Which of these loops will output ``02468``?
+
+   .. code-block:: java
+
+      I. for (int i = 0; i <= 8; i++)
+         {
+            System.out.print(i);
+         }
+
+      II. int i = 0;
+          while (i < 8)
+          {
+             i +=2;
+             System.out.print(i);
+          }
+
+      III. for (int i = 0; i <= 8; i +=2)
+           {
+              System.out.print(i);
+           }

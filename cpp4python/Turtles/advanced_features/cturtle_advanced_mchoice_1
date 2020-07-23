@@ -1,6 +1,6 @@
 .. mchoice:: cturtle_advanced_mchoice_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cpp4python
    :topic: Turtles/advanced_features
    :from_source: T

@@ -1,6 +1,6 @@
 .. mchoice:: difede_01_007
    :author: Kuri DiFede
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: apcsareview
    :topic: GettingStarted/Exercises
    :from_source: F
@@ -15,4 +15,3 @@
    :feedback_d: We have not covered Arithmetic Exceptions, but they are usually reserved for inappropriate operations (divide by zero)
 
    Suppose you are using one byte to store an integer, with one bit for sign (like the question above). What do you think will happen if you try to add 120 and 89?
-

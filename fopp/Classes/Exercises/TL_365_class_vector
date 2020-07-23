@@ -1,6 +1,6 @@
 .. actex:: TL_365_class_vector
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: fopp
    :topic: Classes/Exercises
    :from_source: F
@@ -103,4 +103,4 @@
 	     test_vector([3, 0 , -4], [1, 2, 3])
 	     test_vector( (5.89, -1.00, 6.92, 8.32, 8.38, -5.56, 8.36), (-3.42, -3.7, 4.46, -7.33, 3.72, -8.30, -4.43))
 	     test_vector( (3.47, 3.23, 6.68), (-2.98, -9.27, 7.59))
-   myTests().main()	        
+   myTests().main()

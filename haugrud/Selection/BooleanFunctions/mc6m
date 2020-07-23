@@ -1,6 +1,6 @@
 .. mchoice:: mc6m
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: haugrud
    :topic: Selection/BooleanFunctions
    :from_source: None
@@ -15,5 +15,3 @@
    .. code-block:: python
 
      return x + y < z
-
-

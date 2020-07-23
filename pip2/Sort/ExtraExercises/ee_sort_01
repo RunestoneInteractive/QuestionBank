@@ -1,0 +1,20 @@
+.. activecode:: ee_sort_01
+   :author: Brad Miller
+   :difficulty: 3
+   :basecourse: pip2
+   :topic: Sort/ExtraExercises
+   :from_source: None
+   :tags: Sort/Optionalkeyparameter.rst, Sort/Optionalreverseparameter.rst, Sort/intro-SortingwithSortandSorted.rst
+
+   letters = "alwnfiwaksuezlaeiajsdl"
+
+   =====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+      def testOne(self):
+         self.assertEqual(sorted_letters, sorted(letters, reverse = True), "Testing that sorted_letters has the correct value.")
+
+   myTests().main()

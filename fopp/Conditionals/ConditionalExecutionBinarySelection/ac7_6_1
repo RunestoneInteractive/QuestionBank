@@ -1,6 +1,6 @@
 .. activecode:: ac7_6_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Conditionals/ConditionalExecutionBinarySelection
     :from_source: T
@@ -11,4 +11,3 @@
         print(x, "is even")
     else:
         print(x, "is odd")
-

@@ -1,6 +1,6 @@
 .. activecode:: act_0_experiment
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Projects/scaffolded_code
     :from_source: T
@@ -13,4 +13,3 @@
     final = process4(step1)
     newwin=image.ImageWin(final.getWidth(),final.getHeight())
     final.draw(newwin)
-

@@ -1,6 +1,6 @@
 .. parsonsprob:: ch4ex4muc
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: Strings/StringPracticeParsons
    :from_source: T
@@ -28,4 +28,3 @@
    } // end class
    =====
            System.out.println(part1 * part2); #distractor
-

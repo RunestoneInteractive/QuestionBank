@@ -1,6 +1,6 @@
 .. activecode:: sd_fortune
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: studentcsp
     :topic: CSPStringDecisions/fortuneTeller
     :from_source: T

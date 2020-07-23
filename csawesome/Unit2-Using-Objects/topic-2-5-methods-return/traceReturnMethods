@@ -1,6 +1,6 @@
 .. mchoice:: traceReturnMethods
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit2-Using-Objects/topic-2-5-methods-return
    :from_source: T
@@ -36,4 +36,3 @@
             System.out.println( traceObj.square(2) + traceObj.divide(6,2) );
         }
        }
-

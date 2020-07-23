@@ -1,0 +1,12 @@
+.. activecode:: jw1
+   :author: Lily Liang
+   :difficulty: 0
+   :basecourse: sigcse2019
+   :topic: WritingExercises/Exercises
+   :from_source: None
+ 
+   Create a program which prints out, “Hello, -” with - being your name.
+    ~~~~
+    print("hello world")
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")

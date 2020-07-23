@@ -1,6 +1,6 @@
 .. dragndrop:: chapter_two_glossary_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: thinkcpp
    :topic: Chapter2/Glossary
    :from_source: T
@@ -9,4 +9,3 @@
    :match_2: declaration|||A statement that creates a new variable and determines its type.
    :match_3: assignment|||A statement that assigns a value to a variable.
    :match_4: expression|||A combination of variables, operators and values that represents a single result value.
-

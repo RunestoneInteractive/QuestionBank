@@ -1,10 +1,9 @@
-
+.. parsonsprob:: pPersonClass1
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameNames/Exercises
    :from_source: F
-.. parsonsprob:: pPersonClass1
    :numbered: left
    :adaptive:
 
@@ -36,5 +35,3 @@
            return(self.first[0] + self.last[0])
    =====
            return(self.first[1] + self.last[1]) #paired
-
-   

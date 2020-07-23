@@ -1,6 +1,6 @@
 .. mchoice:: date_variable
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: ac1
    :topic: scatter_plots_and_correlation/correlation_and_filtering
    :from_source: T
@@ -15,4 +15,3 @@
    - Quantitative
 
      + Correct
-

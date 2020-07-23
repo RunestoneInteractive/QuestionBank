@@ -1,6 +1,6 @@
 .. activecode:: chmod_01
     :author: jenkins
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: cps110spring2019
     :topic: PythonModules/modules
     :from_source: None
@@ -15,4 +15,3 @@
     alex.left(90)            # turn by 90 degrees
     alex.forward(75)         # complete the second side of a rectangle
     wn.exitonclick()
-

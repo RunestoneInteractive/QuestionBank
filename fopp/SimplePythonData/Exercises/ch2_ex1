@@ -1,6 +1,6 @@
 .. activecode:: ch2_ex1
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
@@ -9,6 +9,3 @@
   
    Write a short program that will assign 71 to a variable that represents current temperature, and then increment its value first by one, and then by two. Display the value of the temperature variable (should be 74), and its type. 
    ~~~~
-
-
-

@@ -1,12 +1,10 @@
-
+.. activecode:: select_12
     :author: DANIEL LEE
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Selection/Exercises
     :from_source: F
-.. activecode:: select_12
   
     How many 'else' statements can be contained in a chained conditional?
 
     ~~~~
-    

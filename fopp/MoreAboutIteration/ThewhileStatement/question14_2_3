@@ -1,6 +1,6 @@
 .. mchoice:: question14_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: fopp
    :topic: MoreAboutIteration/ThewhileStatement
    :from_source: T
@@ -14,4 +14,3 @@
    :practice: T
 
    Which type of loop can be used to perform the following iteration: You choose a positive integer at random and then print the numbers from 1 up to and including the selected integer.
-

@@ -1,6 +1,6 @@
 .. mchoice:: test_question11_3_1
    :author: jenkins
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: cps110fall2017
    :topic: Dictionaries/Dictionarymethods
    :from_source: None
@@ -23,5 +23,3 @@
      keylist = list(mydict.keys())
      keylist.sort()
      print(keylist[3])
-
-

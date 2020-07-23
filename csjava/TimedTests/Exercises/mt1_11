@@ -1,0 +1,37 @@
+.. mchoice:: mt1_11
+   :author: bmiller
+   :difficulty: 3
+   :basecourse: csjava
+   :topic: TimedTests/Exercises
+   :from_source: T
+   :answer_a: "Hello World!"
+   :answer_b: "Hello "
+   :answer_c: "He"
+   :answer_d: "HloWrd"
+   :answer_e: "el ol!"
+   :correct: d
+   :feedback_a: The variable holds all characters that were stored at even indices for the original phrase.
+   :feedback_b: The variable holds all characters that were stored at even indices for the original phrase.
+   :feedback_c: The variable holds all characters that were stored at even indices for the original phrase.
+   :feedback_d: Correct! The variable holds all characters that were stored at even indices for the original phrase.
+   :feedback_e: The variable holds all characters that were stored at even indices for the original phrase.
+
+   After the following code is executed, what does the variable mystery hold?
+
+   .. code-block:: java
+
+      public class mysterious
+      {
+         public static void main (String[] args)
+         {
+            String mystery;
+            String starter = "Hello World!";
+            for(int i = 0; i < starter.length(); i++)
+            {
+              if(i % 2 == 0)
+              {
+                mystery += starter.charAt(i);
+              }
+            }
+         }
+      }

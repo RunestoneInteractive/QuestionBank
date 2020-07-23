@@ -1,6 +1,6 @@
 .. mchoice:: e25_4_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
@@ -15,4 +15,3 @@
    :feedback_d: Incorrect. Since lower-level abstractions are more detailed, they cannot be combined to make higher-level abstractions.
 
    Which of the following is NOT true about abstraction?
-

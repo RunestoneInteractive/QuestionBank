@@ -1,6 +1,6 @@
 .. mchoice:: qlb_2_4
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: apcsareview
    :topic: LoopBasics/lWhile
    :from_source: F

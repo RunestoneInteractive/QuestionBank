@@ -1,6 +1,6 @@
 .. mchoice:: 16_4_4_addLists
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: TeacherCSP
    :topic: CSPIntroData/listIndexes
    :from_source: T
@@ -22,5 +22,3 @@
       values[0] = values[1]
       values[2] = values[2] + 1
       print(values)
-
-

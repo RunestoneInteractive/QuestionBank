@@ -1,6 +1,6 @@
 .. parsonsprob:: midtermBS-Dict
    :author: Barbara  Ericson
-   :difficulty: 0.0
+   :difficulty: 0
    :basecourse: StudentCSP
    :topic: CSPNameTurtles/Exercises
    :from_source: F
@@ -24,4 +24,3 @@
            linkDict[link.text] = link['href'] #distractor
    =====
        return linkDict
-  

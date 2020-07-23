@@ -1,6 +1,6 @@
 .. mchoice:: 22_1_1_MooreQ1
                 :author: bmiller
-                :difficulty: 3.0
+                :difficulty: 3
                 :basecourse: studentcsp
                 :topic: CSPGlobalImpact/intro
                 :from_source: T
@@ -15,4 +15,3 @@
                 :feedback_d: This is false because two of the options are false.
 
                 Which of the following are true about Moore's Law?
-

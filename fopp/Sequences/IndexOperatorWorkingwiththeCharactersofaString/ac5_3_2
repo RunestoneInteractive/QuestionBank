@@ -1,6 +1,6 @@
 .. activecode:: ac5_3_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Sequences/IndexOperatorWorkingwiththeCharactersofaString
     :from_source: T
@@ -9,4 +9,3 @@
     print(numbers[2])
     print(numbers[9-8])
     print(numbers[-2])
-

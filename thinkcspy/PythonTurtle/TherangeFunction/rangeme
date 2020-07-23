@@ -1,11 +1,9 @@
 .. codelens:: rangeme
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: thinkcspy
     :topic: PythonTurtle/TherangeFunction
     :from_source: T
 
     for i in range(10):
        print(i)
-
-

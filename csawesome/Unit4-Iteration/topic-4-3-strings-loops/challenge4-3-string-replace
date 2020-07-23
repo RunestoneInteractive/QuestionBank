@@ -1,6 +1,6 @@
 .. activecode:: challenge4-3-string-replace
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: csawesome
    :topic: Unit4-Iteration/topic-4-3-strings-loops
    :from_source: T
@@ -76,4 +76,3 @@
         }
 
     }
-

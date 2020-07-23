@@ -1,0 +1,13 @@
+.. activecode:: cp_09_tuple6
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Tuples/UnpackingDictionaryItems
+    :from_source: None
+
+    d = {"k1": 3, "k2": 7, "k3": "some other value"}
+
+    for (k, v) in d.items():
+        print k
+        print v
+        print '*** LOOP ***'

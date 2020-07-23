@@ -1,6 +1,6 @@
 .. activecode:: madlib1_split
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3
    :basecourse: studentcsp
    :topic: CSPStringPieces/split
    :from_source: T

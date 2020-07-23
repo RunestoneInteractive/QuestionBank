@@ -1,6 +1,6 @@
 .. mchoice:: more_db_2
    :author: Barbara  Ericson
-   :difficulty: 1.0
+   :difficulty: 1
    :basecourse: StudentCSP
    :topic: CSPNameStrings/Exercises
    :from_source: F
@@ -22,5 +22,3 @@
           (id INTEGER PRIMARY KEY, name TEXT UNIQUE, retrieved INTEGER)''')
        cur.execute('''CREATE TABLE IF NOT EXISTS Follows
           (from_id INTEGER, to_id INTEGER, UNIQUE(from_id, to_id))''')
-
-   

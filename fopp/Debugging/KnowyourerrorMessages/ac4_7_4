@@ -1,6 +1,6 @@
 .. activecode:: ac4_7_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3
     :basecourse: fopp
     :topic: Debugging/KnowyourerrorMessages
     :from_source: T
@@ -14,5 +14,3 @@
     print (h, s)
     a = a + s
     print ('godzina teraz', a)
-
-

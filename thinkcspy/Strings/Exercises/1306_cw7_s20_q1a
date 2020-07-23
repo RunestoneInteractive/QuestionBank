@@ -1,10 +1,9 @@
-
+.. activecode:: 1306_cw7_s20_q1a
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0.0
+    :difficulty: 0
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-.. activecode:: 1306_cw7_s20_q1a
     :autograde: unittest
 
     **Important Note**: For Questions 1, 2 & 3 you can use ``string constants``, ``in`` and ``not in`` operators, and ``len()`` function. Other functions/methods from the python string library are not needed and should not be used.
