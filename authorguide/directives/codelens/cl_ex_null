@@ -1,6 +1,6 @@
 .. codelens:: cl_ex_null
-:author: bmiller
-:difficulty: 3
-:basecourse: authorguide
-:topic: directives/codelens
-:from_source: T
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: authorguide
+    :topic: directives/codelens
+    :from_source: T

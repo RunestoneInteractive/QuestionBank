@@ -1,9 +1,9 @@
 .. actex:: JOC_ex_2_7b
-:author: Joaquin Carbonara
-:difficulty: 0
-:basecourse: fopp
-:topic: SimplePythonData/Exercises
-:from_source: F
+    :author: Joaquin Carbonara
+    :difficulty: 0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
 
 Take the sentence: 
 All work and no play makes Jack a dull boy.

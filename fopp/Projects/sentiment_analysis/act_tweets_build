@@ -1,6 +1,6 @@
 .. activecode:: act_tweets_build
-:author: bmiller
-:difficulty: 3
-:basecourse: fopp
-:topic: Projects/sentiment_analysis
-:from_source: T
+    :author: bmiller
+    :difficulty: 3
+    :basecourse: fopp
+    :topic: Projects/sentiment_analysis
+    :from_source: T

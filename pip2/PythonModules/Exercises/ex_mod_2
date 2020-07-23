@@ -1,6 +1,6 @@
 .. actex:: ex_mod_2
-:author: Brad Miller
-:difficulty: 3
-:basecourse: pip2
-:topic: PythonModules/Exercises
-:from_source: None
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: PythonModules/Exercises
+    :from_source: None

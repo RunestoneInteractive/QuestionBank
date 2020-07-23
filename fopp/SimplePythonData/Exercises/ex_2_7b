@@ -1,9 +1,9 @@
 .. actex:: ex_2_7b
-:author: AnnMarie Jakubielski
-:difficulty: 0
-:basecourse: fopp
-:topic: SimplePythonData/Exercises
-:from_source: F
+    :author: AnnMarie Jakubielski
+    :difficulty: 0
+    :basecourse: fopp
+    :topic: SimplePythonData/Exercises
+    :from_source: F
 
 Take the sentence: 
 All work and no play makes Jck a dull boy.

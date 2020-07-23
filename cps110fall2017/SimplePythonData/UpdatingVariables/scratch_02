@@ -1,6 +1,6 @@
 .. activecode:: scratch_02
-:author: jenkins
-:difficulty: 3
-:basecourse: cps110fall2017
-:topic: SimplePythonData/UpdatingVariables
-:from_source: None
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: cps110fall2017
+    :topic: SimplePythonData/UpdatingVariables
+    :from_source: None

@@ -1,6 +1,6 @@
 .. activecode:: scratch_08_03
-:author: Brad Miller
-:difficulty: 3
-:basecourse: pip2
-:topic: Iteration/TheAccumulatorPatternwithStrings
-:from_source: None
+    :author: Brad Miller
+    :difficulty: 3
+    :basecourse: pip2
+    :topic: Iteration/TheAccumulatorPatternwithStrings
+    :from_source: None

@@ -1,6 +1,6 @@
 .. activecode:: sd0
-:author: jenkins
-:difficulty: 3
-:basecourse: msumoorhead
-:topic: SimplePythonData/UpdatingVariables
-:from_source: None
+    :author: jenkins
+    :difficulty: 3
+    :basecourse: msumoorhead
+    :topic: SimplePythonData/UpdatingVariables
+    :from_source: None
