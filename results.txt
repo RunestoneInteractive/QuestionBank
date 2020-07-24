@@ -1,5 +1,0 @@
-# Automatically generated
-# duptype id depth size device inode priority name
-DUPTYPE_FIRST_OCCURRENCE 244 2 0 64513 6457188 1 fopp/Conditionals/PrecedenceofOperators/ac7_5_1
-DUPTYPE_OUTSIDE_TREE -244 1 0 64513 6202214 2 thinkcspy/not set/ssum_first_n_2
-# end of file
