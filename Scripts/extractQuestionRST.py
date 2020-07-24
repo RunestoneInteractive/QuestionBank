@@ -105,7 +105,7 @@ for ix, row in df.iterrows():
     except:
         topic = "not set"
     p = Path(topic)
-    p = row["base_course"] / p
+    p = Path("../QuestionBank") / row["base_course"] / p
     p.mkdir(parents=True, exist_ok=True)
     p = p / row["name"].replace("/", "_-_")
     try:
