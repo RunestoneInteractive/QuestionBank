@@ -1,9 +1,0 @@
-.. activecode:: ch01_1
-   :author: Brad Miller
-   :difficulty: 3
-   :basecourse: pip2
-   :topic: GeneralIntro/SpecialWaystoExecutePythoninthisBook
-   :from_source: None
-
-   print "My first program adds two numbers, 2 and 3:"
-   print 2 + 3

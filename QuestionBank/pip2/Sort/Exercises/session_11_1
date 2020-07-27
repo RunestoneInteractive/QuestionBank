@@ -1,8 +1,0 @@
-.. actex:: session_11_1
-    :author: Brad Miller
-    :difficulty: 3
-    :basecourse: pip2
-    :topic: Sort/Exercises
-    :from_source: None
-
-    L = [8, 7, 6, 6, 4, 4, 3, 1, 0]

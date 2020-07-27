@@ -1,9 +1,0 @@
-.. activecode:: ch02_14a
-    :author: Brad Miller
-    :difficulty: 3
-    :basecourse: pip2
-    :topic: SimplePythonData/StatementsandExpressions
-    :from_source: None
-    :nocanvas:
-
-    print 2 * len("hello") + len("goodbye")

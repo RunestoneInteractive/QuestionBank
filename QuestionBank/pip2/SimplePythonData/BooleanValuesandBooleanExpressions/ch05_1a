@@ -1,9 +1,0 @@
-.. activecode:: ch05_1a
-    :author: Brad Miller
-    :difficulty: 3
-    :basecourse: pip2
-    :topic: SimplePythonData/BooleanValuesandBooleanExpressions
-    :from_source: None
-
-    print type(True)
-    print type("True")

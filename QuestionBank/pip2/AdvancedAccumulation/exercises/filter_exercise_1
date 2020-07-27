@@ -1,9 +1,0 @@
-.. activecode:: filter_exercise_1
-   :author: Brad Miller
-   :difficulty: 3
-   :basecourse: pip2
-   :topic: AdvancedAccumulation/exercises
-   :from_source: None
-
-   things = [3, 5, -4, 7]
-   # write code to produce a list of only the positive things, [3, 5, 7], via manual accumulation

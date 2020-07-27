@@ -1,9 +1,0 @@
-.. activecode:: sort_3
-    :author: Brad Miller
-    :difficulty: 3
-    :basecourse: pip2
-    :topic: Sort/Optionalreverseparameter
-    :from_source: None
-
-    L2 = ["Cherry", "Apple", "Blueberry"]
-    print sorted(L2, reverse = True)

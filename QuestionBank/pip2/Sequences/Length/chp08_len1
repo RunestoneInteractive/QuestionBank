@@ -1,9 +1,0 @@
-.. activecode:: chp08_len1
-    :author: Brad Miller
-    :difficulty: 3
-    :basecourse: pip2
-    :topic: Sequences/Length
-    :from_source: None
-
-    fruit = "Banana"
-    print len(fruit)

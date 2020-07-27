@@ -1,8 +1,0 @@
-.. actex:: ex_dict_accum_4
-      :author: Brad Miller
-      :difficulty: 3
-      :basecourse: pip2
-      :topic: DictionaryAccumulation/Exercises
-      :from_source: None
-
-      f = open('scarlet.txt', 'r')
