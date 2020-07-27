@@ -14,10 +14,14 @@
    :feedback_c: Yes, start with the character at index 3 and go up to but not include the character at index 8.
    :feedback_d: This is called slicing, not indexing. It requires a start and an end.
    :practice: T
+   :pct_on_first: 0.8866790009
+   :total_students_attempting: 2162
+   :num_students_correct: 2158.0
+   :mean_clicks_to_correct: 1.1770157553
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s[3:8])

@@ -4,9 +4,13 @@
    :basecourse: fopp
    :topic: Functions/Afunctionthataccumulates
    :from_source: T
+   :pct_on_first: 0.4421221865
+   :total_students_attempting: 1244
+   :num_students_correct: 1148.0
+   :mean_clicks_to_correct: 4.7299651568
 
    Rearrange the code statements to match the activecode window above. (This is an exercise in noticing where the indenting and outdenting happens, and where the return statement goes.)
-
+   
    -----
    def mylen(x):
    =====

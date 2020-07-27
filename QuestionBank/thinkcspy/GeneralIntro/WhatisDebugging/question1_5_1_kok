@@ -12,5 +12,9 @@
    :feedback_a: Programming errors are called bugs and the process of finding and removing them from a program is called debugging.
    :feedback_b: Maybe, but that is not what we are talking about in this context.
    :feedback_c: This is partially correct.  But, debugging is more than just finding the bugs.  What do you need to do once you find them?
+   :pct_on_first: 0.9285714286
+   :total_students_attempting: 56
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 1.1071428571
 
    Debugging is:

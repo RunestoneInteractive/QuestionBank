@@ -9,10 +9,14 @@
    :answer_c: The list is neither long nor short
    :answer_d: Long list
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.880952381
+   :total_students_attempting: 42
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 1.1666666667
 
    What does the following code print?::
-
+   
       def evaluate_list(values):
           '''Returns an evaluation of the length of the list of values'''
           if len(values) > 10:
@@ -24,7 +28,7 @@
           else:
               evaluation = 'N'
           return evaluation
-
+   
       def main():
           num_list = [1, 2, 3, 4, 5, 6, 7]
           ev = evaluate_list(num_list)

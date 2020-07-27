@@ -8,5 +8,9 @@
     :match_1: New York Times|||New York
     :match_2: Boston Globe|||Boston
     :match_3: Star Tribune|||Minneapolis
+    :pct_on_first: 0.9264705882
+    :total_students_attempting: 68
+    :num_students_correct: 66.0
+    :mean_clicks_to_correct: 1.0454545455
 
     Match the newspapers to their city

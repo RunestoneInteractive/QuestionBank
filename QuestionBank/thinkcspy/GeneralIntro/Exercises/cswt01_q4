@@ -9,6 +9,10 @@
    :answer_c: 0001000
    :answer_d: 1110111
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8536585366
+   :total_students_attempting: 41
+   :num_students_correct: 41.0
+   :mean_clicks_to_correct: 1.2682926829
 
    Convert the following decimal number to binary: 111

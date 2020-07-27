@@ -14,5 +14,9 @@
    :feedback_c: Yes, two if statements will keep track of - and properly update - the two different accumulator variables.
    :feedback_d: Using if/elif/else here will provide an unnecessary else statement and improperly update one of the accumulator variables in the case where a word has both a "t" and a "z".
    :practice: T
+   :pct_on_first: 0.2383241758
+   :total_students_attempting: 1456
+   :num_students_correct: 1444.0
+   :mean_clicks_to_correct: 2.5034626039
 
    What is the best set of conditonal statements provided based on the following prompt? You want to keep track of all the words that have the letter 't' and in a separate variable you want to keep track of all the words that have the letter 'z' in them.

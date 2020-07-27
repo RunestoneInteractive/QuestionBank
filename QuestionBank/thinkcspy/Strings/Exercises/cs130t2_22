@@ -9,9 +9,13 @@
    :answer_c: How Now Brown Cow?
    :answer_d: Can't be determined without running the code
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.935483871
+   :total_students_attempting: 62
+   :num_students_correct: 62.0
+   :mean_clicks_to_correct: 1.0967741935
 
    22. What does the following code print? ::
-
+   
       s = "How now brown cow?"
       print(s.upper())

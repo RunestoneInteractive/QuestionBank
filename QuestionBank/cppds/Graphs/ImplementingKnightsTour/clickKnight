@@ -5,8 +5,12 @@
     :topic: Graphs/ImplementingKnightsTour
     :from_source: T
     :question: What line denotes the base case of the Knight's Tour function?
-    :iscode:
+    :iscode: 
     :feedback: Remember, the base case is usually the first comparison in the function!
+    :pct_on_first: 0.2352941176
+    :total_students_attempting: 17
+    :num_students_correct: 14.0
+    :mean_clicks_to_correct: 2.0714285714
 
     :click-incorrect:def knightTour(n,path,u,limit)::endclick:
     :click-incorrect:u.setColor('gray'):endclick:

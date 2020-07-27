@@ -9,6 +9,10 @@
    :answer_c: 4192
    :answer_d: 256
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8947368421
+   :total_students_attempting: 38
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.2894736842
 
    13. It has been estimated that the complete Chinese language, including ancient and seldom-used symbols, contains approximately 100,000 symbols. How many bits per character would you need in order to develop a code to represent the entire set of Chinese symbols?

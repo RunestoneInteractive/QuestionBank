@@ -4,8 +4,12 @@
     :basecourse: thinkcspy
     :topic: GeneralIntro/Exercises
     :from_source: F
-    :noindent:         
-    :adaptive:
+    :noindent: 
+    :adaptive: 
+    :pct_on_first: 0.0
+    :total_students_attempting: 7
+    :num_students_correct: 5.0
+    :mean_clicks_to_correct: 6.6
 
     Adaptive example.
     -----

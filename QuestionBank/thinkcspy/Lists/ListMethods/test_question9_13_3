@@ -12,11 +12,15 @@
    :feedback_a: pop(2) removes the item at index 2, not the 2 itself.
    :feedback_b: pop() removes the last item, not the first.
    :feedback_c: Yes, first the 8 was removed, then the last item, which was 5.
+   :pct_on_first: 0.4707027249
+   :total_students_attempting: 9762
+   :num_students_correct: 9702.0
+   :mean_clicks_to_correct: 1.7157287157
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      temp = alist.pop(2)
      temp = alist.pop()

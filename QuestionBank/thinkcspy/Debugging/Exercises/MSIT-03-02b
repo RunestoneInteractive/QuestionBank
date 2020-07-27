@@ -4,8 +4,8 @@
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-   :multiple_answers:
-   :random:
+   :multiple_answers: 
+   :random: 
    :answer_a: Write all code first then tackle each error message as it happens
    :feedback_a: No.  This is a good way to get stuck.
    :answer_b: Go back and change code that you tested previously
@@ -17,5 +17,9 @@
    :answer_e: Get code from the internet.  Why reinvent the wheel?
    :feedback_e: No.  Reading is good.  Copying without understanding will not be helpful.
    :correct: d
+   :pct_on_first: 0.5357142857
+   :total_students_attempting: 84
+   :num_students_correct: 82.0
+   :mean_clicks_to_correct: 1.8902439024
 
    Which of the following activities will help you avoid debugging while solving programming problems …

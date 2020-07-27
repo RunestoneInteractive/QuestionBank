@@ -4,7 +4,7 @@
    :basecourse: fopp
    :topic: TransformingSequences/week4a1
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: sum
    :answer_b: x
    :answer_c: total
@@ -18,5 +18,9 @@
    :feedback_e: At least one of the answers above is a good name for an accumulator variable.
    :practice: T
    :topics: TransformingSequences/WPAccumulatorPatternStrategies
+   :pct_on_first: 0.0734072022
+   :total_students_attempting: 722
+   :num_students_correct: 706.0
+   :mean_clicks_to_correct: 2.9943342776
 
    Which of these are good names for an accumulator variable? Select as many as apply.

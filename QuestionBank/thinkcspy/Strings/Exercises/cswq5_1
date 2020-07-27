@@ -9,10 +9,14 @@
    :answer_c: 'h'
    :answer_d: ""
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Right - strings are immutable; they can't be changed
    :feedback_b: No - strings are immutable; they can't be changed
    :feedback_c: No - strings are immutable; they can't be changed
    :feedback_d: No - strings are immutable; they can't be changed
+   :pct_on_first: 0.4024390244
+   :total_students_attempting: 164
+   :num_students_correct: 153.0
+   :mean_clicks_to_correct: 1.862745098
 
    1. If s = "How now, brown cow?", what is the result of s[0] = 'h'?

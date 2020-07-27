@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.0769230769
+   :total_students_attempting: 13
+   :num_students_correct: 12.0
+   :mean_clicks_to_correct: 24.0
 
    A string is a data type consisting of any number of |blank| surrounded by |blank| or |blank|
-
+   
    - :characters?: Yes.  Nicely done.
      :letters?: More than just letters.  Starts with a C.
      :x: No.

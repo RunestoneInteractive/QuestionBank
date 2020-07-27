@@ -12,11 +12,15 @@
    :feedback_b: Yes! Two printed lines, and then the function body execution reaches a return statement.
    :feedback_c: The function returns an integer value! However, this code does not print out the result of the function invocation, so you can't see it (print is for people). The only lines you see printed are the ones that occur in the print statements before the return statement.
    :practice: T
+   :pct_on_first: 0.3861731844
+   :total_students_attempting: 1432
+   :num_students_correct: 1424.0
+   :mean_clicks_to_correct: 1.7773876404
 
    How many lines will the following code print?
-
+   
    .. code-block:: python
-
+   
        def show_me_numbers(list_of_ints):
            print(10)
            print("Next we'll accumulate the sum")
@@ -25,5 +29,5 @@
                accum = accum + num
            return accum
            print("All done with accumulation!")
-
+   
        show_me_numbers([4,2,3])

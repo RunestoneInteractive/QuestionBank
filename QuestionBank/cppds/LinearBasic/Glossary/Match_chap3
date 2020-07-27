@@ -20,5 +20,9 @@
     :match_13: stack|||Ordered collection of items where the addition of new items and the removal of existing items always takes place at the same end
     :match_14: fully parenthesized|||Usage of one pair of parentheses for each operator
     :match_15: infix|||Expression notation in which the operator is in between the two operands that it is working on
+    :pct_on_first: 0.4634146341
+    :total_students_attempting: 82
+    :num_students_correct: 65.0
+    :mean_clicks_to_correct: 2.2461538462
 
     Match the term with their corresponding definition

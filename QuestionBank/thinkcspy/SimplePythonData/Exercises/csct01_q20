@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
+   :pct_on_first: 0.9523809524
+   :total_students_attempting: 42
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 1.0476190476
 
    Drag the following instructions in the right order to assign a value to a variable named x, then add 10 to x, then print the result.
    -----

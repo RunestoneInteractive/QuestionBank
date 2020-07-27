@@ -10,5 +10,9 @@
    :correct: b
    :feedback_a: Only turtle, math, and random have been ported to work in activecode at this time.
    :feedback_b: Only turtle, math, and random have been ported to work in activecode at this time.
+   :pct_on_first: 0.7619047619
+   :total_students_attempting: 21
+   :num_students_correct: 21.0
+   :mean_clicks_to_correct: 1.2380952381
 
    True / False:  All standard Python modules will work in dumb activecode.

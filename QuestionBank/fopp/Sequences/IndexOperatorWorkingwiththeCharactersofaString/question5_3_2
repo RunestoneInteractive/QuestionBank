@@ -16,10 +16,14 @@
    :feedback_d: n is at location 5, not 2.
    :feedback_e: [ ] operator returns a string that can be concatenated with another string.
    :practice: T
+   :pct_on_first: 0.7192139738
+   :total_students_attempting: 2290
+   :num_students_correct: 2278.0
+   :mean_clicks_to_correct: 1.4530289728
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s[2] + s[-4])

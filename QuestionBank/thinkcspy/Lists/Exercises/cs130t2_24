@@ -9,10 +9,14 @@
    :answer_c: None
    :answer_d: ["woH", "won", "nworb", "?woc"]
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8387096774
+   :total_students_attempting: 62
+   :num_students_correct: 61.0
+   :mean_clicks_to_correct: 1.1803278689
 
    24. What is the value of list a after executing the following code? ::
-
+   
       s = "How now brown cow?"
       a = s.split()
       a.reverse()

@@ -8,9 +8,13 @@
     :match_1: Jacob|||First name
     :match_2: Gracias|||Answer B
     :match_3: 14|||Age
-    
+    :pct_on_first: 0.5
+    :total_students_attempting: 2
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 1.5
+
     Match items from the left to the right.
-
-config values (conf.py): 
-
-- dragndrop_div_class - custom CSS class of the component's outermost div
+    
+    ig values (conf.py): 
+    
+    agndrop_div_class - custom CSS class of the component's outermost div

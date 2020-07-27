@@ -11,5 +11,9 @@
    :feedback_b: The only difference is the structure that is used to refer to it.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
+   :pct_on_first: 0.5644820296
+   :total_students_attempting: 473
+   :num_students_correct: 471.0
+   :mean_clicks_to_correct: 1.4479830149
 
    True or False, attributes/instance variables are just like other variables in Python.

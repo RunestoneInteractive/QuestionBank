@@ -13,11 +13,15 @@
    :feedback_b: There is an odd number of things on the stack but each time through the loop 2 things are popped.
    :feedback_c: Good Job.
    :feedback_d: You may want to check out the docs for isEmpty
+   :pct_on_first: 0.4676214197
+   :total_students_attempting: 3212
+   :num_students_correct: 3178.0
+   :mean_clicks_to_correct: 1.8794839522
 
    Given the following sequence of stack operations, what is the top item on the stack when the sequence is complete?
-
+   
    .. code-block:: python
-
+   
      m = Stack()
      m.push('x')
      m.push('y')

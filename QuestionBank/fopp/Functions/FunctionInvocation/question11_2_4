@@ -16,15 +16,19 @@
    :feedback_d: Each time the function is invoked, it will print two lines, not one.
    :feedback_e: Three invocations generate two lines each, plus the line "It works".
    :practice: T
+   :pct_on_first: 0.6574132492
+   :total_students_attempting: 1585
+   :num_students_correct: 1576.0
+   :mean_clicks_to_correct: 1.8508883249
 
    How many lines will be output by executing this code?
-
+   
    .. code-block:: python
-
+   
       def hello():
          print("Hello")
          print("Glad to meet you")
-
+   
       hello()
       print("It works")
       hello()

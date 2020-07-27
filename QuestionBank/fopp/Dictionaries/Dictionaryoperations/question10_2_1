@@ -14,11 +14,15 @@
    :feedback_c: Yes, add the value for cat and the value for dog (12 + 6) and create a new entry for mouse.
    :feedback_d: Since the new key is introduced on the left hand side of the assignment statement, a new key-value pair is added to the dictionary.
    :practice: T
+   :pct_on_first: 0.7856625634
+   :total_students_attempting: 1381
+   :num_students_correct: 1368.0
+   :mean_clicks_to_correct: 1.2850877193
 
    What is printed by the following statements?
-
+   
    .. sourcecode:: python
-
+   
      mydict = {"cat":12, "dog":6, "elephant":23}
      mydict["mouse"] = mydict["cat"] + mydict["dog"]
      print(mydict["mouse"])

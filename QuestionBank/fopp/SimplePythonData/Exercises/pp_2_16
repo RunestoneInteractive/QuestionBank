@@ -4,7 +4,11 @@
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: T
-   :noindent:
+   :noindent: 
+   :pct_on_first: 0.7758186398
+   :total_students_attempting: 1588
+   :num_students_correct: 1563.0
+   :mean_clicks_to_correct: 1.4536148433
 
    Write a program that will convert gallons to liters. This program will also need to get input from a user to see how many gallons should be converted and the result should be printed to the user.
    -----

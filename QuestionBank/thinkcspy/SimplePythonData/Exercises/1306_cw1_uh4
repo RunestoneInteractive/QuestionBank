@@ -4,8 +4,12 @@
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
+    :pct_on_first: 0.8235294118
+    :total_students_attempting: 119
+    :num_students_correct: 119.0
+    :mean_clicks_to_correct: 1.3781512605
 
     What is the Python value of 5 ** 2?
     
-  - :25: Correct!
+    :25: Correct!
     :.*: Try again.

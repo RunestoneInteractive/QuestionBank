@@ -4,8 +4,12 @@
    :basecourse: httlads
    :topic: MovieData/indexing
    :from_source: T
+   :pct_on_first: 0.6304347826
+   :total_students_attempting: 276
+   :num_students_correct: 264
+   :mean_clicks_to_correct: 1.8106060606
 
    How many movies lasting 154 minutes are there? |blank|
-
+   
    - :31: Is the correct answer
      :x: catchall feedback

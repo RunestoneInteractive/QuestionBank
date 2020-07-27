@@ -9,6 +9,10 @@
    :answer_c: 400 ms
    :answer_d: 600 ms
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.28
+   :total_students_attempting: 100
+   :num_students_correct: 97.0
+   :mean_clicks_to_correct: 2.3092783505
 
    5. If it takes 20 ms, on average, to sort a list of 150 items, using bubblesort, how long will it take, on average, to sort a list of 600 items?

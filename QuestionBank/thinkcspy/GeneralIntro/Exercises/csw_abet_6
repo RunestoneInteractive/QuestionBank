@@ -9,6 +9,10 @@
    :answer_c: computing professionals who work in local industry
    :answer_d: seasoned entertainers who judge halftime shows at home football games
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.25
+   :total_students_attempting: 32
+   :num_students_correct: 32.0
+   :mean_clicks_to_correct: 2.28125
 
    6. ABET Program Evaluators are

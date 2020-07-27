@@ -9,10 +9,14 @@
    :answer_c: Returns an image with a horizontal green line drawn across the midpoint
    :answer_d: Returns an image with pixels randomly chosen from img1 and img2
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.775
+   :total_students_attempting: 40
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.358974359
 
    31. What does the following code do? Assume img1 and img2 are two images that are the same size. You may run the function.::
-
+   
       def do_something(img1, img2):
           w = img1.getWidth()
           h = img1.getHeight()

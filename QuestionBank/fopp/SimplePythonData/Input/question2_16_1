@@ -14,11 +14,15 @@
    :feedback_c: 18 is the value of what the user typed, not the type of the data.
    :feedback_d: 18 is the value of what the user typed, not the type of the data.
    :practice: T
+   :pct_on_first: 0.523922499
+   :total_students_attempting: 2529
+   :num_students_correct: 2508.0
+   :mean_clicks_to_correct: 1.9696969697
 
    What is printed when the following statements execute?
-
+   
    .. code-block:: python
-
+   
      n = input("Please enter your age: ")
      # user types in 18
      print(type(n))

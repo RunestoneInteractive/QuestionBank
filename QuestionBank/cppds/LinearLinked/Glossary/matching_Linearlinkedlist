@@ -15,6 +15,10 @@
     :match_8: ordered linked list|||Linked list whose elements are in an structure.
     :match_9: ordered list|||List whose elements are organized.
     :match_10: unordered linked list|||Linked list whose elements are not in a structure.
+    :pct_on_first: 0.2452830189
+    :total_students_attempting: 53
+    :num_students_correct: 44.0
+    :mean_clicks_to_correct: 2.4772727273
 
-
+    
     Drag the word on the left to its corresponding definition

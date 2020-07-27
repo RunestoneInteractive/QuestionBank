@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.3333333333
+   :total_students_attempting: 12
+   :num_students_correct: 12.0
+   :mean_clicks_to_correct: 3.0833333333
 
    Another word for the character that represents an operator is a |blank|.
-
+   
    - :token: Yes.  Nicely done.
      :operator: Incorrect.  The answer starts with the letter T.
      :x: No.  The answer starts with the letter T.

@@ -15,11 +15,15 @@
    :feedback_d: Not quite, think about what .split() and .join() return.
    :practice: T
    :topics: Sequences/SplitandJoin
+   :pct_on_first: 0.5847107438
+   :total_students_attempting: 1452
+   :num_students_correct: 1446.0
+   :mean_clicks_to_correct: 1.6265560166
 
    What is the type of ``a``?
-
+   
    .. sourcecode:: python
-
+   
     b = "My, what a lovely day"
     x = b.split(',')
     z = "".join(x)

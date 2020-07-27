@@ -14,5 +14,9 @@
    :feedback_c: This grouping assumes Python simply evaluates from left to right, which is incorrect.  It follows the precedence listed in the table in this section.
    :feedback_d: This grouping assumes that &quot;and&quot; has a higher precedence than ==, which is not true.
    :practice: T
+   :pct_on_first: 0.7881944444
+   :total_students_attempting: 1728
+   :num_students_correct: 1718.0
+   :mean_clicks_to_correct: 1.4627473807
 
    Which of the following properly expresses the  precedence of operators (using parentheses) in the following expression: 5*3 > 10 and 4+6==11

@@ -9,6 +9,10 @@
    :answer_c: 400 bits
    :answer_d: 1,024,000 bits
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6578947368
+   :total_students_attempting: 38
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.5675675676
 
    12. If your satellite uses 9 bits per channel in an RGB system, how much memory will it need to store one 200 x 200 pixel image?

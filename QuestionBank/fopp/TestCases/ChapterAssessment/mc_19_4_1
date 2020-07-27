@@ -4,7 +4,7 @@
    :basecourse: fopp
    :topic: TestCases/ChapterAssessment
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: an empty list
    :answer_b: a list with one item
    :answer_c: a list with more than one item
@@ -12,5 +12,9 @@
    :feedback_b: Incorrect, a list with one item returns the correct value.
    :feedback_c: Correct, a list with more than one item does not provide the correct response.
    :correct: a, c
+   :pct_on_first: 0.1818181818
+   :total_students_attempting: 132
+   :num_students_correct: 129.0
+   :mean_clicks_to_correct: 2.7829457364
 
    Which of the following cases fail for the mySum function?

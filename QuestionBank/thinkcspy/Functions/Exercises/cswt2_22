@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
+   :pct_on_first: 0.55
+   :total_students_attempting: 40
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.9230769231
 
    22. Imagine that you have a csv file that holds information about cities. The variable city_file holds the name of the file. Field 3 holds the population. Drag the following instructions to put them in the right order so they define a function that returns the total population for the cities in the file.
    -----

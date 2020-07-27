@@ -11,5 +11,9 @@
    :feedback_b: Run-time errors like index out of bounds can be caught and handled gracefully with try/except.
    :feedback_c: If your program runs to completion but does the wrong thing, try/except won't help you.
    :correct: b
+   :pct_on_first: 0.5954692557
+   :total_students_attempting: 309
+   :num_students_correct: 306.0
+   :mean_clicks_to_correct: 1.5653594771
 
    Which type of error can be noticed and handled using try/except?

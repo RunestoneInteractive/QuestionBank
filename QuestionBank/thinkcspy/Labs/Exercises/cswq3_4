@@ -9,6 +9,10 @@
    :answer_c: 56
    :answer_d: 1101
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7894736842
+   :total_students_attempting: 38
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.3157894737
 
    Convert the following (unsigned) binary number to decimal: 11100

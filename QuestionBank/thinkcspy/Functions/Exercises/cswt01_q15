@@ -9,10 +9,14 @@
    :answer_c: 12
    :answer_d: Impossible to tell without running the code
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6888888889
+   :total_students_attempting: 45
+   :num_students_correct: 43.0
+   :mean_clicks_to_correct: 1.4418604651
 
    What does the following function print?::
-
+   
       def add_something() :
           x = '54'
           y = '42'

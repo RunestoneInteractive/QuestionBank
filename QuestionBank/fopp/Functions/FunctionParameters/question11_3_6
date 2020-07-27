@@ -14,15 +14,19 @@
    :feedback_c: s1 is a variable name; its value would print out, not the variable name.
    :feedback_d: s2 is a variable name; its value would print out, not the variable name.
    :practice: T
+   :pct_on_first: 0.763496144
+   :total_students_attempting: 1556
+   :num_students_correct: 1550.0
+   :mean_clicks_to_correct: 1.3206451613
 
    What output will the following code produce?
-
+   
    .. code-block:: python
-
+   
       def cyu(s1, s2):
          if len(s1) > len(s2):
             print(s1)
          else:
             print(s2)
-
+   
       cyu("Hello", "Goodbye")

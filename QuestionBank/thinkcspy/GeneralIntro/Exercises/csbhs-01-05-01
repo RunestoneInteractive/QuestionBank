@@ -10,5 +10,9 @@
    :match_3: math and logic|||Perform basic mathematical operations like addition and multiplication and logical operations like and, or, and not.
    :match_4: conditional execution|||Check for certain conditions and execute the appropriate sequence of statements.
    :match_5: repetition|||Perform some action repeatedly, usually with some variation.
+   :pct_on_first: 0.5
+   :total_students_attempting: 2
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 1.5
 
    Match the basic programming instructions that appear in most languages with the correct description.

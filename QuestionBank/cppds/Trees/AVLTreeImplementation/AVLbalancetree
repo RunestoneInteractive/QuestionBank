@@ -15,5 +15,9 @@
    :feedback_c: Carefully think about what you read in AVL performance
    :feedback_d: Correct!
    :feedback_e: Carefully think about what you read in AVL performance
+   :pct_on_first: 0.2619047619
+   :total_students_attempting: 42
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 2.3095238095
 
    How does adding a new leaf in an AVL Tree affect the parent's balance factor?

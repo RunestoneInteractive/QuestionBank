@@ -9,13 +9,17 @@
    :answer_c: 1 3 5 7 9 2
    :answer_d: 2 2 2 2 2
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Yes, range(1, 10, 2) starts at 1 and steps by 2
    :feedback_b: No, range(1, 10, 2) starts at 1
    :feedback_c: No, range(1, 10, 2) stops at 9 and does not print 2
    :feedback_d: No, range(1, 10, 2) gives the odd numbers starting at 1 and stopping at 9
+   :pct_on_first: 0.8155339806
+   :total_students_attempting: 103
+   :num_students_correct: 102.0
+   :mean_clicks_to_correct: 1.2156862745
 
    5. What does the following code print?::
-
+   
       for i in range(1, 10, 2):
           print(i, end = ' ')

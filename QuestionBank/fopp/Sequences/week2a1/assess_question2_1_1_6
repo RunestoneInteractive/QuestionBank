@@ -15,10 +15,14 @@
    :feedback_d: Not quite, is it slicing or accessing an element?
    :practice: T
    :topics: Sequences/IndexOperatorWorkingwiththeCharactersofaString
+   :pct_on_first: 0.446923597
+   :total_students_attempting: 1479
+   :num_students_correct: 1473.0
+   :mean_clicks_to_correct: 1.916496945
 
    What is the type of ``m``?
-
+   
    .. sourcecode:: python
-
+   
     l = ['w', '7', 0, 9]
     m = l[1]

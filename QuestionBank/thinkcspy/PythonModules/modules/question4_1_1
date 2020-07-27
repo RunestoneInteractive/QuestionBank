@@ -14,5 +14,9 @@
    :feedback_b: While a module is separate block of code, it is separate from a program.
    :feedback_c: The call to a feature within a module may be one line of code, but modules are usually multiple lines of code separate from the program
    :feedback_d: Each module has its own documentation, but the module itself is more than just documentation.
+   :pct_on_first: 0.793409379
+   :total_students_attempting: 13413
+   :num_students_correct: 13384.0
+   :mean_clicks_to_correct: 1.3322624029
 
    In Python a module is:

@@ -12,11 +12,15 @@
    :feedback_b: Once you assign x's value to y, y's original value is gone.
    :feedback_c: Once you assign x's value to y, y's original value is gone.
    :correct: b
+   :pct_on_first: 0.6983758701
+   :total_students_attempting: 431
+   :num_students_correct: 424.0
+   :mean_clicks_to_correct: 1.3514150943
 
    Consider the following alternative way to swap the values of variables x and y. What's wrong with it?
-
+   
    .. code-block:: python
-
+   
         # assume x and y already have values assigned to them
         y = x
         x = y

@@ -4,10 +4,14 @@
   :basecourse: cppds
   :topic: Introduction/GettingStartedwithData
   :from_source: T
+  :pct_on_first: 0.5238095238
+  :total_students_attempting: 189
+  :num_students_correct: 176.0
+  :mean_clicks_to_correct: 2.8181818182
 
   A/an ``___`` is used to store a memory address in C++?
-
- - :pointer: Right!
+  
+   :pointer: Right!
    :variable: Be more specific!
    :reference: That's a general description of what it is, not a C++ term!
    :default: Incorrect. Please try again

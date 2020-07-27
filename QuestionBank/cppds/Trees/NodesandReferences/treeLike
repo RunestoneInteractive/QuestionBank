@@ -13,5 +13,9 @@
    :feedback_b: Correct, this tree is essentially a linked list connecting other linked lists
    :feedback_c: Incorrect, a queue is good for putting data in to fit a FIFO sequence
    :feedback_d: Incorrect, a stack is good for putting data in to fit a LIFO sequence
+   :pct_on_first: 0.65625
+   :total_students_attempting: 96
+   :num_students_correct: 96.0
+   :mean_clicks_to_correct: 1.5625
 
    Which data structure resembles the above implementation of a tree?

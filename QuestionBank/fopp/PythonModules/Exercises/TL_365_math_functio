@@ -4,13 +4,17 @@
    :basecourse: fopp
    :topic: PythonModules/Exercises
    :from_source: F
-   :random:
-		
+   :random: 
+   :pct_on_first: 0.0231839258
+   :total_students_attempting: 647
+   :num_students_correct: 589.0
+   :mean_clicks_to_correct: 6.1935483871
 
+   
    Which of the following functions are part of the ``math`` module?
-
+   
    - ``exp()``
-
+   
      + 
        
    - ``abs()``

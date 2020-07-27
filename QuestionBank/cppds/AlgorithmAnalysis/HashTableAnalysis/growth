@@ -9,5 +9,9 @@
     :match_2: n<sup>2</sup>|||2nd
     :match_3: nlogn|||3rd
     :match_4: logn|||4th
+    :pct_on_first: 0.3888888889
+    :total_students_attempting: 72
+    :num_students_correct: 65.0
+    :mean_clicks_to_correct: 2.0769230769
 
     Drag the order of growth rates to their rankings from lowest to highest (the slowest i.e. the highest growth rate should be #1)

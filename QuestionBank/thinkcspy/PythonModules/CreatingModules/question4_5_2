@@ -14,5 +14,9 @@
    :feedback_b: Import statements permit you to use other modules, but they do not create one.
    :feedback_c: Modules are Python source code files.
    :feedback_d: Modules should include comment blocks at the top, but writing a comment block at the top of a file does not create a new module.
+   :pct_on_first: 0.6267605634
+   :total_students_attempting: 710
+   :num_students_correct: 708.0
+   :mean_clicks_to_correct: 1.5240112994
 
    Create a module by:

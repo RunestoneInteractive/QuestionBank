@@ -12,9 +12,13 @@
    :feedback_a: d is greater than D according to the ord function (68 versus 100).
    :feedback_b: Yes, upper case is less than lower case according to the ordinal values of the characters.
    :feedback_c: Python is case sensitive meaning that upper case and lower case characters are different.
+   :pct_on_first: 0.6696786213
+   :total_students_attempting: 10735
+   :num_students_correct: 10639.0
+   :mean_clicks_to_correct: 1.4019174734
 
    Evaluate the following comparison:
-
+   
    .. code-block:: python
-
+   
       "dog" < "Dog"

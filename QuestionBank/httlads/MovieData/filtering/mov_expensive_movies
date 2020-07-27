@@ -4,9 +4,13 @@
    :basecourse: httlads
    :topic: MovieData/filtering
    :from_source: T
+   :pct_on_first: 0.5339805825
+   :total_students_attempting: 309
+   :num_students_correct: 282
+   :mean_clicks_to_correct: 3.2943262411
 
    How many movies have a budget over 1 million dollars? |blank|
-
+   
    - :7208: Is the correct answer
      :7405: Budget should be over (not including) 1 million dollars
      :x: catchall feedback

@@ -9,10 +9,14 @@
    :answer_c: w
    :answer_d: t h e&nbsp;&nbsp;&nbsp;q u i c k&nbsp;&nbsp;&nbsp;b r o w n&nbsp;&nbsp;&nbsp;f o x
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6804733728
+   :total_students_attempting: 169
+   :num_students_correct: 165.0
+   :mean_clicks_to_correct: 1.4909090909
 
    5. What does the following code print?::
-
+   
       s = "the quick brown fox"
       i = 0
       while s[i] != 'w':

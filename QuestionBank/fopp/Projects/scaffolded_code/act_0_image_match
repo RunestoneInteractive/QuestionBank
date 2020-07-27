@@ -14,4 +14,7 @@
    :match_7: process7(img)|||Converts image to high contrast - black and white only
    :match_8: process8(img)|||Lightens image
    :match_9: process9(img)|||Darkens image
-   :match_10: process10(img)|||Converts to only black, white, red, blue and green
+   :pct_on_first: 0.2044444444
+   :total_students_attempting: 1350
+   :num_students_correct: 910.0
+   :mean_clicks_to_correct: 8.3373626374

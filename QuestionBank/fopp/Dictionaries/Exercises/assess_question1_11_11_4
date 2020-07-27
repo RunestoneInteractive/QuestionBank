@@ -6,11 +6,15 @@
     :from_source: T
     :practice: T
     :topics: Dictionaries/KeyValueLookupAssignment
+    :pct_on_first: 0.1246612466
+    :total_students_attempting: 369
+    :num_students_correct: 257.0
+    :mean_clicks_to_correct: 4.1517509728
 
     Consider the following function:
-
+    
     .. sourcecode:: python
-
+    
         alphabet = 'abcdefghijklmnopqrstuvwxyz'
         values = {}
         for i in range(len(alphabet)):
@@ -19,9 +23,9 @@
         for c in s:
             answer += values[c]
         return answer
-
+    
     When the ``foo()`` is called with the input "baa", what value does it return? (Write "error" if you think it would raise an error instead.)
-
+    
     -   :4: Good Work!
         :error: The code is valid.
         :.*: Incorrect, try again. (*Hint:* Lookup value of each character of "baa" in ``values``.)

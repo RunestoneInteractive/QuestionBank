@@ -16,5 +16,9 @@
    :feedback_d: The expression ``x==y`` evaluates to ``True``
    :feedback_e: When an assertion test passes, no message is printed.
    :practice: T
+   :pct_on_first: 0.7208333333
+   :total_students_attempting: 240
+   :num_students_correct: 238.0
+   :mean_clicks_to_correct: 1.4495798319
 
    When ``assert x==y`` is executed and x and y have the same values, what will happen?

@@ -9,6 +9,10 @@
    :answer_c: 2000
    :answer_d: 2017
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7714285714
+   :total_students_attempting: 35
+   :num_students_correct: 35.0
+   :mean_clicks_to_correct: 1.4
 
    3. The MSU Computer Science program has been accredited since

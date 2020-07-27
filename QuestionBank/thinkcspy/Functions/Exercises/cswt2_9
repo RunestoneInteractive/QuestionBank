@@ -9,10 +9,14 @@
    :answer_c: [10, 15, 20, 30]
    :answer_d: None
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6967213115
+   :total_students_attempting: 122
+   :num_students_correct: 120.0
+   :mean_clicks_to_correct: 1.425
 
    9. What will the following code print?::
-
+   
       def fun(a, b):
           a = a + 10
           b.append(42)

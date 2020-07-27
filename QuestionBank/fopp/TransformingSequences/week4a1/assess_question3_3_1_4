@@ -11,11 +11,15 @@
    :correct: b
    :practice: T
    :topics: TransformingSequences/Aliasing
+   :pct_on_first: 0.6934604905
+   :total_students_attempting: 734
+   :num_students_correct: 725.0
+   :mean_clicks_to_correct: 1.3034482759
 
    Could aliasing cause potential confusion in this problem?
-
+   
    .. sourcecode:: python
-
+   
     sent = "Holidays can be a fun time when you have good company!"
     phrase = sent
     phrase = phrase + " Holidays can also be fun on your own!"

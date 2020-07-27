@@ -4,7 +4,11 @@
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: T
-   :noindent:
+   :noindent: 
+   :pct_on_first: 0.8612945839
+   :total_students_attempting: 1514
+   :num_students_correct: 1489.0
+   :mean_clicks_to_correct: 1.2619207522
 
    Piece together the code so that a user is asked for two numbers, and then the sum of those two numbers is printed out.
    -----

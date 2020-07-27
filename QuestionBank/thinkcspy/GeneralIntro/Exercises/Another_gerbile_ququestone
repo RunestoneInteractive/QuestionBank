@@ -8,9 +8,13 @@
     :match_1: Marshmallow|||Brownie
     :match_2: Weezy|||Blackie
     :match_3: Hazel|||Mehitabel
+    :pct_on_first: 0.75
+    :total_students_attempting: 4
+    :num_students_correct: 4.0
+    :mean_clicks_to_correct: 2.0
 
     Gerbil question.
-
-config values (conf.py): 
-
-- dragndrop_div_class - custom CSS class of the component's outermost div
+    
+    ig values (conf.py): 
+    
+    agndrop_div_class - custom CSS class of the component's outermost div

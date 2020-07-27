@@ -14,11 +14,15 @@
    :feedback_c: Iteration by item will process once for each item in the sequence. Each string is viewed as a single item, even if you are able to iterate over a string itself.
    :feedback_d: The for statement can iterate over a sequence item by item.
    :practice: T
+   :pct_on_first: 0.7522255193
+   :total_students_attempting: 2022
+   :num_students_correct: 2012.0
+   :mean_clicks_to_correct: 1.337972167
 
    How many times will the for loop iterate in the following statements?
-
+   
    .. code-block:: python
-
+   
       p = [3, 4, "Me", 3, [], "Why", 0, "Tell", 9.3]
       for ch in p:
          print(ch)

@@ -9,12 +9,16 @@
    :answer_c: 1318
    :answer_d: Nothing = strings can't be added
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Yes, the value is "1813"
    :feedback_b: No, the value is not 31
    :feedback_c: No, the value is not 1318
    :feedback_d: No, the value is not nothing - strings can be concatenated
+   :pct_on_first: 0.5862068966
+   :total_students_attempting: 58
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 1.75
 
    What is the value of x after executing the following code?::
-
+   
       x = "18" + "13"

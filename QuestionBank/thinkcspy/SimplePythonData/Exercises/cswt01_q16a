@@ -9,8 +9,12 @@
    :answer_c: float
    :answer_d: boolean
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.9275362319
+   :total_students_attempting: 69
+   :num_students_correct: 69.0
+   :mean_clicks_to_correct: 1.0869565217
 
    16. What is the type of x after executing the following code?::
-
+   
       x = input("Please enter something: ")

@@ -12,11 +12,15 @@
    :feedback_a: There are definitely o and p characters.
    :feedback_b: There are 2 o characters but what about p?
    :feedback_c: Yes, add the number of o characters and the number of p characters.
+   :pct_on_first: 0.7219213974
+   :total_students_attempting: 11450
+   :num_students_correct: 11403.0
+   :mean_clicks_to_correct: 1.3764798737
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s.count("o") + s.count("p"))

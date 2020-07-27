@@ -9,10 +9,14 @@
    :answer_c: 9
    :answer_d: 5
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.610619469
+   :total_students_attempting: 113
+   :num_students_correct: 108.0
+   :mean_clicks_to_correct: 1.5833333333
 
    8. How many numbers will the following code segment print?::
-
+   
       x = [20, 40, 30, 10, 20, 40, 60, 80, 10]
       for i in x[2 : 6]:
           print(i, end = " ")

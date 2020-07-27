@@ -12,9 +12,13 @@
    :feedback_b: The literal in the program includes the quote marks, but the printed representation omits them.
    :feedback_c: The printed representation omits the quote marks that are included in the string literal.
    :practice: T
+   :pct_on_first: 0.9020522388
+   :total_students_attempting: 3216
+   :num_students_correct: 3208.0
+   :mean_clicks_to_correct: 1.1221945137
 
    What appears in the output window when the following statement executes?
-
+   
    .. code-block:: python
-
+   
       print("Hello World!")

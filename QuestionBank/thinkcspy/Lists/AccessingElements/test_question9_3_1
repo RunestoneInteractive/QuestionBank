@@ -12,10 +12,14 @@
    :feedback_a: The empty list is at index 4.
    :feedback_b: Yes, 3.14 is at index 5 since we start counting at 0 and sublists count as one item.
    :feedback_c: False is at index 6.
+   :pct_on_first: 0.6541136026
+   :total_students_attempting: 12799
+   :num_students_correct: 12740.0
+   :mean_clicks_to_correct: 1.4055729984
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
      print(alist[5])

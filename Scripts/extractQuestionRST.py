@@ -1,6 +1,5 @@
 #%%
 import pandas as pd
-import numpy as np
 from sqlalchemy import create_engine
 from pathlib import Path
 import re
@@ -54,7 +53,7 @@ def update_question(q, author, difficulty, from_source, topic, basecourse):
     q = q.strip()
     try:
         indent = compute_indent(q)
-    except:
+    except IndexError:
         indent = 4
     author = " " * indent + ":author: " + str(author)
     difficulty = " " * indent + ":difficulty: " + str(difficulty)
@@ -102,7 +101,7 @@ q = """
 for ix, row in df.iterrows():
     try:
         topic = row["chapter"] + "/" + row["subchapter"]
-    except:
+    except KeyError:
         topic = "not set"
     p = Path(topic)
     p = Path("../QuestionBank") / row["base_course"] / p

@@ -10,16 +10,20 @@
    :answer_d: 9
    :answer_e: Undefined/Error
    :correct: f
-   :random:
+   :random: 
    :feedback_a: Thank you.  Your answer has been noted.
    :feedback_b: Thank you.  Your answer has been noted.
    :feedback_c: Thank you.  Your answer has been noted.
    :feedback_d: Thank you.  Your answer has been noted.
    :feedback_e: Thank you.  Your answer has been noted.
+   :pct_on_first: 0.8918918919
+   :total_students_attempting: 111
+   :num_students_correct: 103.0
+   :mean_clicks_to_correct: 1.0970873786
 
-
+   
    [2 pts]. What is the value of x after executing the following code?::
-
+   
       x = 7
       x = x + 3
       x = x + 1

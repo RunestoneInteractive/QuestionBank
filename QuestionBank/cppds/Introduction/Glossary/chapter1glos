@@ -25,5 +25,9 @@
     :match_18: friend|||an operator or function that can access the private data members of a class
     :match_19: friend function|||a function defined outside that class' scope but has access to private and protected members of the class
     :match_20: function|||A section of code that performs a procedure and is usually named
+    :pct_on_first: 0.3243243243
+    :total_students_attempting: 37
+    :num_students_correct: 25.0
+    :mean_clicks_to_correct: 2.52
 
     Drag the word on the left to its corresponding definition (not all the words from the glossary appear below.)

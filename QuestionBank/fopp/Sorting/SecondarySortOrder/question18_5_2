@@ -16,15 +16,19 @@
       :feedback_e: Not quite, remember that by default, the sorted function will sort by alphabetical order, or lowest to highest. Is the reverse parameter set to True? Has a negative sign been used in the key parameter?
       :correct: a
       :practice: T
+      :pct_on_first: 0.4430769231
+      :total_students_attempting: 325
+      :num_students_correct: 318.0
+      :mean_clicks_to_correct: 2.1289308176
 
       What how will the following data be sorted?
-
+      
       .. code-block:: python
-
+      
          weather = {'Reykjavik': {'temp':60, 'condition': 'rainy'},
                     'Buenos Aires': {'temp': 55, 'condition': 'cloudy'},
                     'Cairo': {'temp': 96, 'condition': 'sunny'},
                     'Berlin': {'temp': 89, 'condition': 'sunny'},
                     'Caloocan': {'temp': 78, 'condition': 'sunny'}}
-
+      
          sorted_weather = sorted(weather, key=lambda w: (w, -weather[w]['temp']), reverse=True)

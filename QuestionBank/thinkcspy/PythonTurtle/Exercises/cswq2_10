@@ -9,14 +9,18 @@
    :answer_c: 1 a 2 b 3 c
    :answer_d: a 1 b 2 c 3
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Yes - the inner loop prints its 3 values every time the outer loop prints one of its values
    :feedback_b: No - the inner loop prints its 3 values every time the outer loop prints one of its values
    :feedback_c: No - the inner loop prints its 3 values every time the outer loop prints one of its values
    :feedback_d: No - the inner loop prints its 3 values after the outer loop prints one of its values
+   :pct_on_first: 0.56
+   :total_students_attempting: 100
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 1.91
 
    10. What does the following code print?::
-
+   
       for i in range(3):
           print(i, end = ' ')
           for character in ['a', 'b', 'c']:

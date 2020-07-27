@@ -17,11 +17,15 @@
    :feedback_e: This is correct syntax and no errors will occur.
    :practice: T
    :topics: Sequences/ConcatenationandRepetition
+   :pct_on_first: 0.6096189881
+   :total_students_attempting: 1601
+   :num_students_correct: 1590.0
+   :mean_clicks_to_correct: 1.586163522
 
    What will the output be for the following code?
-
+   
    .. sourcecode:: python
-
+   
     let = "z"
     let_two = "p"
     c = let_two + let

@@ -12,5 +12,9 @@
    :feedback_c: In this case, an accumulation pattern would be good to use!
    :correct: a
    :practice: T
+   :pct_on_first: 0.570358035
+   :total_students_attempting: 1201
+   :num_students_correct: 1193.0
+   :mean_clicks_to_correct: 1.5875943001
 
    Does the following prompt require an accumulation pattern? If so, what words indicate that? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

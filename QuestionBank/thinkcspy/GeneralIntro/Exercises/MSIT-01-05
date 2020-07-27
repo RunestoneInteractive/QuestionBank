@@ -4,9 +4,13 @@
    :basecourse: thinkcspy
    :topic: GeneralIntro/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.9285714286
+   :total_students_attempting: 14
+   :num_students_correct: 14.0
+   :mean_clicks_to_correct: 1.0714285714
 
    In a Python program, single line comments are indicated using the |blank| character.
-
+   
    - :#: Correct!  (pound sign, octothorpe, hashtag, number sign)
      :.*: incorrect.  Try again. (Hint: enter only one character)

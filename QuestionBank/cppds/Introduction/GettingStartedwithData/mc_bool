@@ -13,5 +13,9 @@
    :feedback_b: No. Try changing the code and setting theBool to -4.
    :feedback_c: Correct!
    :feedback_d: Try again. One of the above is correct. You might try changing the code and rerunning.
+   :pct_on_first: 0.3115577889
+   :total_students_attempting: 199
+   :num_students_correct: 197.0
+   :mean_clicks_to_correct: 2.2994923858
 
    Why did theBool output a value of 1 after being set to 4?

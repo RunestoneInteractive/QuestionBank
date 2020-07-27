@@ -8,5 +8,9 @@
    :match_1: Stack|||last-in first-out
    :match_2: Deque|||mixed depending upon input order
    :match_3: Queue|||first-in first-out
+   :pct_on_first: 0.7966101695
+   :total_students_attempting: 118
+   :num_students_correct: 117.0
+   :mean_clicks_to_correct: 1.264957265
 
    Drag each data structure to its corresponding ordering principle

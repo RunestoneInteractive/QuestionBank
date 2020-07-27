@@ -14,12 +14,16 @@
    :feedback_b: The expression s+t is evaluated first, then the resulting string is printed.
    :feedback_c: Yes, the two strings are glued end to end.
    :feedback_d: The + operator has different meanings depending on the operands, in this case, two strings.
+   :pct_on_first: 0.6462783172
+   :total_students_attempting: 12360
+   :num_students_correct: 12323.0
+   :mean_clicks_to_correct: 1.4210013795
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python"
       t = "rocks"
       print(s + t)

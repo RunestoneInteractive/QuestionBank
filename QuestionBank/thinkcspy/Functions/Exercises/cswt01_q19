@@ -9,10 +9,14 @@
    :answer_c: The letter H
    :answer_d: A right triangle
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 6
+   :num_students_correct: 6.0
+   :mean_clicks_to_correct: 1.0
 
    What shape does the following function draw? Assume t is a turtle; n and length are integers::
-
+   
       def mystery(t, n, length) :
           angle = 360/n
           for i in range(n) :

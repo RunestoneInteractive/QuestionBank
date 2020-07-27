@@ -14,12 +14,16 @@
    :feedback_b: o is at positions 4 and 8
    :feedback_c: Yes, it will print all the characters in even index positions and the o character appears both times in an even location.
    :feedback_d: The for statement can have any statements inside, including if as well as for.
+   :pct_on_first: 0.5925888428
+   :total_students_attempting: 9877
+   :num_students_correct: 9803.0
+   :mean_clicks_to_correct: 1.61042538
 
-
+   
    How many times is the letter o printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       for idx in range(len(s)):
           if idx % 2 == 0:

@@ -9,10 +9,14 @@
    :answer_c: 10
    :answer_d: 0 1 2 3 5 6 8 9
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.5
+   :total_students_attempting: 62
+   :num_students_correct: 59.0
+   :mean_clicks_to_correct: 1.7966101695
 
    21. What does the following code print? ::
-
+   
       for i in range(10):
           if i > 4 and i < 7:
               continue

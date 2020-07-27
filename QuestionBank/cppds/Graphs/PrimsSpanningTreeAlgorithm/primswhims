@@ -13,5 +13,9 @@
     :feedback_b: Correct!
     :feedback_c: Not quite, try again!
     :feedback_d: No, there is only one correct answer!
+    :pct_on_first: 0.5882352941
+    :total_students_attempting: 17
+    :num_students_correct: 17.0
+    :mean_clicks_to_correct: 1.5882352941
 
     Beginning at node E, how will Prim's algorithm span across the graph?

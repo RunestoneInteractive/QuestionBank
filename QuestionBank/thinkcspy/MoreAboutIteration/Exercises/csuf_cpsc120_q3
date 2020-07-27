@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    In computer science, the <b>Fibonacci Sequence</b> is an important problem for the concepts of recursion and memoization. These are introduced to you in later courses. <br> <br>
    The Fibonacci Sequence is also called the <b>Golden Ratio.</b> It is a mathematical principle thought to be harmonious. It is found in nature and art. Have you seen the Roman <i>Pantheon</i>? That was constructed with the Golden Ratio. How about the <i>Mona Lisa</i>? That too uses the Golden Ratio.<br> <br>
@@ -15,7 +19,7 @@
    <b>F(3) = F(3-1) + F(3-2) = F(2) + F(1) <br>
    = 1 + 1 <br>
    = 2 </b> <br><br>
-
+   
    <b>Now that you have an understanding of the Fibonacci Sequence, use the code blocks to construct the solution to the Fibonacci Sequence where n=3.</b><br>
    -----
    =====

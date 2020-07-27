@@ -9,9 +9,13 @@
    :answer_c: Descending order (Z-A), by key
    :answer_d: Descending order (Z-A), by value
    :correct: c
+   :pct_on_first: 0.5275590551
+   :total_students_attempting: 127
+   :num_students_correct: 121.0
+   :mean_clicks_to_correct: 1.694214876
 
    (4 points)
-
+   
    Running the code ``sorted(my_dictionary, reverse=True)`` on a dictionary named ``my_dictionary`` will return results sorted in what order?
-
+   
    Be careful you select the correct answer. Once you click Submit, your choice cannot be changed.

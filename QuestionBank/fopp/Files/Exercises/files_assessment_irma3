@@ -15,5 +15,9 @@
    :correct: b
    :practice: T
    :topics: Files
+   :pct_on_first: 0.5570776256
+   :total_students_attempting: 219
+   :num_students_correct: 214.0
+   :mean_clicks_to_correct: 1.7242990654
 
    Which command below closes an already open file ``myText.txt`` with ``ref_file = open("myText.txt", "r")``??

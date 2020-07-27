@@ -9,10 +9,14 @@
    :answer_c: []
    :answer_d: Can't be determined without running the code
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7903225806
+   :total_students_attempting: 62
+   :num_students_correct: 61.0
+   :mean_clicks_to_correct: 1.3278688525
 
    23. What is the value of list a after executing the following code? ::
-
+   
       s = "How now brown cow?"
       a = s.split()
       b = a

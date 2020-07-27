@@ -9,6 +9,10 @@
    :answer_c: delete the new data.
    :answer_d: fire the IT manager.
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.92
+   :total_students_attempting: 100
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 1.14
 
    13. One way to handle a hashing collision is to

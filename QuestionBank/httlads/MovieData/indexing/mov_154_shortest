@@ -4,10 +4,14 @@
    :basecourse: httlads
    :topic: MovieData/indexing
    :from_source: T
+   :pct_on_first: 0.1090225564
+   :total_students_attempting: 266
+   :num_students_correct: 196
+   :mean_clicks_to_correct: 9.4846938776
 
    Copy and paste the name of the 155th shortest movie in this collection,
    without quotes. |blank|
-
+   
    - :(Tears of Steel|Presentation, or Charlotte and Her Steak|The Fox and the Hare): Correct
      :Casper: Close, but make sure you have your DataFrame sorted properly
      :x: Make sure you are using `iloc` and not `loc`

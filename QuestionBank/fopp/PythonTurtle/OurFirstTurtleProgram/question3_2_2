@@ -13,16 +13,20 @@
    :feedback_b: This line imports the module called turtle, which has all the built in functions for drawing on the screen with the Turtle object.
    :feedback_c: This functionality is performed with the lines: &quotalex.forward(150)&quot, &quotlex.left(90)&quot, and &quotalex.forward(75)&quot
    :feedback_d: If we leave it out, Python will give an error saying that it does not know about the name &quotturtle&quot when it reaches the line &quotwn = turtle.Screen()&quot
+   :pct_on_first: 0.6990654206
+   :total_students_attempting: 2140
+   :num_students_correct: 2122.0
+   :mean_clicks_to_correct: 1.3524976437
 
    Consider the following code:
-
+   
    .. code-block:: python
-
+   
      import turtle
      wn = turtle.Screen()
      alex = turtle.Turtle()
      alex.forward(150)
      alex.left(90)
      alex.forward(75)
-
+   
    What does the line "import turtle" do?

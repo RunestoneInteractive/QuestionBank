@@ -12,10 +12,14 @@
    :feedback_b: Careful!  This is a very common mistake.  Here we have printed the value x+y+z but we have not returned it.  To return a value we MUST use the return keyword.
    :feedback_c: x+y+z calculates a number (assuming x+y+z are numbers) which represents the sum of the values x, y and z.
    :practice: T
+   :pct_on_first: 0.5026809651
+   :total_students_attempting: 1492
+   :num_students_correct: 1484.0
+   :mean_clicks_to_correct: 1.8180592992
 
    What will the following function return?
-
+   
    .. code-block:: python
-
+   
     def addEm(x, y, z):
         print(x+y+z)

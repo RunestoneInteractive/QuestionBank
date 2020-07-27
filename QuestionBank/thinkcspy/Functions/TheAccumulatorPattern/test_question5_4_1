@@ -14,17 +14,21 @@
    :feedback_b: Assignment statements are perfectly legal inside loops and will not cause an error.
    :feedback_c: By putting the statement that sets runningtotal to 0 inside the loop, that statement gets executed every time through the loop, instead of once before the loop begins.  The result is that runningtotal is 'cleared' (reset to 0) each time through the loop.
    :feedback_d: The line runningtotal = 0 is the first line in the for loop, but immediately after this line, the line runningtotal = runningtotal + x will execute, giving runningtotal a non-zero value  (assuming x is non-zero).
+   :pct_on_first: 0.3964166602
+   :total_students_attempting: 12893
+   :num_students_correct: 12800.0
+   :mean_clicks_to_correct: 2.24203125
 
    Consider the following code:
-
+   
    .. code-block:: python
-
+   
      def square(x):
          for counter in range(x):
              runningtotal = 0
              runningtotal = runningtotal + x
          return runningtotal
-
+   
    What happens if you put the initialization of runningtotal (the
    line runningtotal = 0) inside the for loop as the first
    instruction in the loop?

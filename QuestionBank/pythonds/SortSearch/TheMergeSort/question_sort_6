@@ -13,5 +13,9 @@
    :feedback_b: These will be the last two lists merged
    :feedback_c: The lists [21] and [1] are the first two base cases encountered by mergesort and will therefore be the first two lists merged.
    :feedback_d: Although 9 and 16 are next to each other they are in different halves of the list starting with the first split.
+   :pct_on_first: 0.5741367637
+   :total_students_attempting: 1477
+   :num_students_correct: 1466.0
+   :mean_clicks_to_correct: 1.653478854
 
    Given the following list of numbers: <br> [21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40] <br> which answer illustrates the first two lists to be merged?

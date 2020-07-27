@@ -9,5 +9,9 @@
     :match_5: constructor|||an special function to initialize
     :match_6: access keywords||| private and public
     :match_7: class|||a template for creating objects
+    :pct_on_first: 0.503649635
+    :total_students_attempting: 137
+    :num_students_correct: 132.0
+    :mean_clicks_to_correct: 2.0984848485
 
     Drag the word on the left to its corresponding definition

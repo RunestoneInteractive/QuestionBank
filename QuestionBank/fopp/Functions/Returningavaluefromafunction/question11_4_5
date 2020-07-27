@@ -16,16 +16,20 @@
    :feedback_d: cyu2 returns the value 1, which is assigned to z.
    :feedback_e: what do you think will cause an error.
    :practice: T
+   :pct_on_first: 0.6951469583
+   :total_students_attempting: 1463
+   :num_students_correct: 1455.0
+   :mean_clicks_to_correct: 1.5209621993
 
    What will the following code output?
-
+   
    .. code-block:: python
-
+   
        def cyu2(s1, s2):
            x = len(s1)
            y = len(s2)
            return x-y
-
+   
        z = cyu2("Yes", "no")
        if z > 0:
            print("First one was longer")

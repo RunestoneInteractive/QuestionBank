@@ -14,10 +14,14 @@
    :feedback_c: Yes, the keyword parameters will determine the order of the strings.
    :feedback_d: This is not an error, you can do that in Python!
    :practice: T
+   :pct_on_first: 0.6744791667
+   :total_students_attempting: 384
+   :num_students_correct: 380.0
+   :mean_clicks_to_correct: 1.4789473684
 
    What value will be printed below?
-
+   
    .. code-block:: python
-
+   
       names = ["Alexey", "Catalina", "Misuki", "Pablo"]
       print("'{first}!' she yelled. 'Come here, {first}! {f_one}, {f_two}, and {f_three} are here!'".format(first = names[1], f_one = names[0], f_two = names[2], f_three = names[3]))

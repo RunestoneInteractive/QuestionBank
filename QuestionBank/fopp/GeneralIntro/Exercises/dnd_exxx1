@@ -8,6 +8,10 @@
     :match_1: Draggable element text|||Dropzone to be matched with text
     :match_2: Drag to Answer B|||Answer B
     :match_3: Draggable text|||Text of dropzone
+    :pct_on_first: 0.4770642202
+    :total_students_attempting: 109
+    :num_students_correct: 93.0
+    :mean_clicks_to_correct: 1.6666666667
 
-
+    
     Junte os pares corretamente.

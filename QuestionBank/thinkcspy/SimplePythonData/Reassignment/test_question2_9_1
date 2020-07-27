@@ -14,12 +14,16 @@
    :feedback_b: No, x and y are two separate variables.  Just because x changes in the last assignment statement, it does not change the value that was copied into y in the second statement.
    :feedback_c: Look at the last assignment statement, which reassigns x, and not y.
    :feedback_d: Yes, x has the value 22 and y the value 15.
+   :pct_on_first: 0.7164330594
+   :total_students_attempting: 20690
+   :num_students_correct: 20604.0
+   :mean_clicks_to_correct: 1.6035721219
 
-
+   
    After the following statements, what are the values of x and y?
-
+   
    .. code-block:: python
-
+   
      x = 15
      y = x
      x = 22

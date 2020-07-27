@@ -9,6 +9,10 @@
    :answer_c: an environmentally friendly way of making movies
    :answer_d: a way of determining which colors appear in an image
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 6
+   :num_students_correct: 6.0
+   :mean_clicks_to_correct: 1.0
 
    9. Chroma key, or greenscreen, technology is a method for

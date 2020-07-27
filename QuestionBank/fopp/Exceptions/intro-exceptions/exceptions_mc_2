@@ -9,5 +9,9 @@
    :feedback_a: If your code is only catching IndexError errors, then the exception will not be handled, and execution will terminate.
    :feedback_b: If your code is only catching IndexError errors, then the exception will not be handled, and execution will terminate.
    :correct: a
+   :pct_on_first: 0.6402640264
+   :total_students_attempting: 303
+   :num_students_correct: 300.0
+   :mean_clicks_to_correct: 1.36
 
    When a run-time exception of type ZeroDivisionError occurs, and you have a statement ``except IndexError``, the program will stop executing completely.

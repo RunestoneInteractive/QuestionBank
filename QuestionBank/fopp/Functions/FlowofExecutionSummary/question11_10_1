@@ -14,22 +14,26 @@
    :feedback_c: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :feedback_d: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :practice: T
+   :pct_on_first: 0.7817561807
+   :total_students_attempting: 1173
+   :num_students_correct: 1159.0
+   :mean_clicks_to_correct: 1.430543572
 
    Consider the following Python code. Note that line numbers are included on the left.
-
+   
    .. code-block:: python
       :linenos:
-
+   
       def pow(b, p):
           y = b ** p
           return y
-
+   
       def square(x):
           a = pow(x, 2)
           return a
-
+   
       n = 5
       result = square(n)
       print(result)
-
+   
    What does this function print?

@@ -5,7 +5,7 @@
    :topic: Tuples/TuplesasReturnValues
    :from_source: T
    :practice: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: Make the last two lines of the function be "return x" and "return y"
    :answer_b: Include the statement "return [x, y]"
    :answer_c: Include the statement "return (x, y)"
@@ -17,5 +17,9 @@
    :feedback_d: return x, y causes the two values to be packed into a tuple.
    :feedback_e: It is possible, and frequently useful, to have one function compute multiple values.
    :correct: b,c,d
+   :pct_on_first: 0.0780487805
+   :total_students_attempting: 410
+   :num_students_correct: 394.0
+   :mean_clicks_to_correct: 2.9162436548
 
    If you want a function to return two values, contained in variables x and y, which of the following methods will work?

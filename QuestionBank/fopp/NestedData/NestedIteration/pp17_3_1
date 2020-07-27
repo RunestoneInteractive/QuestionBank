@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: NestedData/NestedIteration
    :from_source: F
+   :pct_on_first: 0.0
+   :total_students_attempting: 3
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 7.6666666667
 
    Now try rearranging these code fragments to make a function that counts all the *leaf* items in a nested list like nested1 above, the items at the lowest level of nesting (8 of them in nested1).
    -----

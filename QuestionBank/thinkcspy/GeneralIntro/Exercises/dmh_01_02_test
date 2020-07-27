@@ -10,9 +10,13 @@
    :answer_c: ** (double asterisk)
    :answer_d: # (pound sign)
    :correct: d
-   :feedback_a: Nope. Review Section 1.13, then try again. 
+   :feedback_a: Nope. Review Section 1.13, then try again.
    :feedback_b: Nope. Review Section 1.13, then try again.
    :feedback_c: Nope. Review Section 1.13, then try again.
    :feedback_d: Correct!
+   :pct_on_first: 0.8095238095
+   :total_students_attempting: 21
+   :num_students_correct: 21.0
+   :mean_clicks_to_correct: 1.3333333333
 
    This symbol marks the beginning of a comment in Python.

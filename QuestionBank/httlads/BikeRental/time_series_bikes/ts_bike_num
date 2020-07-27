@@ -4,9 +4,13 @@
    :basecourse: httlads
    :topic: BikeRental/time_series_bikes
    :from_source: T
+   :pct_on_first: 0.6483516484
+   :total_students_attempting: 91
+   :num_students_correct: 80
+   :mean_clicks_to_correct: 1.3875
 
    Using the data in the ``bikeshare.db``, create a dataframe and resample it to
    see how many rides occurred on June 9 2011. |blank|
-
+   
    - :3889: Is the correct answer
      :x: Hint: The index is a date, you can use ``.loc`` with a date in most reasonable date formats ('2011-06-09' will definitely work)

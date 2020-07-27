@@ -9,9 +9,13 @@
    :answer_c: Prints the local time in Greenwich, England
    :answer_d: Prints the local elapsed time since the computer was last booted
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.9038461538
+   :total_students_attempting: 52
+   :num_students_correct: 51.0
+   :mean_clicks_to_correct: 1.0980392157
 
    33. What does the following code print? (You should run it.)::
-
+   
       import time
       print(time.asctime(time.localtime()))

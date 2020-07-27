@@ -12,5 +12,9 @@
    :feedback_b: Yes.  Variables must already have values in order to be used on the right hand side.
    :feedback_c: No, No, No!
    :practice: T
+   :pct_on_first: 0.7104700855
+   :total_students_attempting: 1872
+   :num_students_correct: 1868.0
+   :mean_clicks_to_correct: 1.3051391863
 
    Which of the following explains why ``wait_time_int = int(wait_time_int)`` is an error?

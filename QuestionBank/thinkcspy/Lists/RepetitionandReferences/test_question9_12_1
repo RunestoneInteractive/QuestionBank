@@ -12,11 +12,15 @@
    :feedback_a: print(alist) not print(blist)
    :feedback_b: blist is changed, not alist.
    :feedback_c: Yes, alist was unchanged by the assignment statement. blist was a copy of the references in alist.
+   :pct_on_first: 0.282698301
+   :total_students_attempting: 9947
+   :num_students_correct: 9894.0
+   :mean_clicks_to_correct: 2.0782292298
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      blist = alist * 2
      blist[3] = 999

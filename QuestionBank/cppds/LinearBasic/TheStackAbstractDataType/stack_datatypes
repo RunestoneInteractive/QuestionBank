@@ -13,5 +13,9 @@
    :feedback_b: No, a stack can have only one item.
    :feedback_c: No, this is valid for a stack similar to A. Check the reading.
    :feedback_d: Yes, stacks should have data of the same type.
+   :pct_on_first: 0.5324675325
+   :total_students_attempting: 154
+   :num_students_correct: 153.0
+   :mean_clicks_to_correct: 1.7843137255
 
    Which group of data would not make a valid Stack?

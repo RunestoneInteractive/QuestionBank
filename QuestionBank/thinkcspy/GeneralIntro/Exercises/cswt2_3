@@ -9,6 +9,10 @@
    :answer_c: 550
    :answer_d: 12
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6534653465
+   :total_students_attempting: 101
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 1.56
 
    3. What is the maximum number of comparisons will it take to search a list of 1400 items, using binary search?

@@ -14,12 +14,16 @@
    :feedback_b: Repetition is done first.
    :feedback_c: The repetition operator is working on the excl variable.
    :feedback_d: The + and * operator are defined for strings as well as numbers.
+   :pct_on_first: 0.7165538362
+   :total_students_attempting: 12408
+   :num_students_correct: 12353.0
+   :mean_clicks_to_correct: 1.481664373
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python"
       excl = "!"
       print(s+excl*3)

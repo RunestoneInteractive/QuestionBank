@@ -15,10 +15,14 @@
    :feedback_d: Yes, a slice returns a list no matter how large the slice.
    :practice: T
    :topics: Sequences/TheSliceOperator
+   :pct_on_first: 0.4410596026
+   :total_students_attempting: 1510
+   :num_students_correct: 1503.0
+   :mean_clicks_to_correct: 1.9101796407
 
    What is the type of ``m``?
-
+   
    .. sourcecode:: python
-
+   
     l = ['w', '7', 0, 9]
     m = l[1:2]

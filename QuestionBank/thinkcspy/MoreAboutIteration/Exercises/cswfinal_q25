@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 0.7179487179
+   :total_students_attempting: 39
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.3333333333
 
    25. Put the following lines of code in order to create a function that returns the number of bits needed to store an image. Assume that each pixel is represented by 24 bits.
    -----

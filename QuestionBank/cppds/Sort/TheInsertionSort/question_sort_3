@@ -13,6 +13,10 @@
    :feedback_b: This is the result of selection sort.
    :feedback_c: Insertion sort works at the start of the list.  Each pass produces a longer sorted list.
    :feedback_d: Insertion sort works on the front of the list not the end.
+   :pct_on_first: 0.6769230769
+   :total_students_attempting: 65
+   :num_students_correct: 65.0
+   :mean_clicks_to_correct: 1.4923076923
 
     Suppose you have the following list of numbers to sort:
     [15, 5, 4, 18, 12, 19, 14, 10, 8, 20] which list represents the partially sorted list after three complete passes of insertion sort?

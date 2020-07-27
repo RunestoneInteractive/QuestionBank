@@ -9,6 +9,10 @@
    :answer_c: 500,000
    :answer_d: 120
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8205128205
+   :total_students_attempting: 39
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.3157894737
 
    8. Your boss has asked you to design Big Data Bertha, a doll that will search a large data collection using binary search. What is the maximum number of comparisons will it take for Bertha to search a list of two million items?

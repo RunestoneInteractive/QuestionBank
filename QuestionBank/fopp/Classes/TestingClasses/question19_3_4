@@ -10,5 +10,9 @@
    :correct: b
    :feedback_a: The sort method always returns None, so there's nothing to check about whether it is returning the right value.
    :feedback_b: You want to check whether it has the correct side effect, whether it correctly mutates the list.
+   :pct_on_first: 0.6943005181
+   :total_students_attempting: 386
+   :num_students_correct: 383.0
+   :mean_clicks_to_correct: 1.3133159269
 
    We have usually used the ``sorted`` function, which takes a list as input and returns a new list containing the same items, possibly in a different order. There is also a method called ``sort`` for lists (e.g. ``[1,6,2,4].sort()``). It changes the order of the items in the list itself, and it returns the value ``None``. Which kind of test case would you use on the sort method?

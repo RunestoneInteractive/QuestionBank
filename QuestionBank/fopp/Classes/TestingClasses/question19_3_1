@@ -10,5 +10,9 @@
    :correct: b
    :feedback_a: Each test case checks whether the function works correctly on one input. It's a good idea to check several different inputs, including some extreme cases.
    :feedback_b: It's a good idea to check some extreme cases, as well as the typical cases.
+   :pct_on_first: 0.6692307692
+   :total_students_attempting: 390
+   :num_students_correct: 385.0
+   :mean_clicks_to_correct: 1.3324675325
 
    For each function, you should create exactly one test case.

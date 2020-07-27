@@ -13,21 +13,25 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/MutatingMethods
+   :pct_on_first: 0.546803653
+   :total_students_attempting: 876
+   :num_students_correct: 869.0
+   :mean_clicks_to_correct: 1.6168009206
 
    Which of these is a correct reference diagram following the execution of the following code?
-
+   
    .. sourcecode:: python
-
+   
     lst = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
     lst.remove('pluto')
     first_three = lst[:3]
-
+   
    I.
-
+   
    .. image:: Figures/week3a1_1.png
       :alt: First Potential Solution
-
+   
    II.
-
+   
    .. image:: Figures/week3a1_2.png
       :alt: Second Potential Solution

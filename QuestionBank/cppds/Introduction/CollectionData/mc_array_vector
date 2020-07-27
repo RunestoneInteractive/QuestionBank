@@ -13,7 +13,11 @@
   :feedback_a: Yes, however, there are more benefits to using vectors.
   :feedback_b: Not all of the protections of arrays are offered by vectors; one can still iterate off of either end.
   :feedback_c: No. Although elements can be inserted in vectors, they do require contiguous memory.
-  :feedback_d:  Right! Good job!
+  :feedback_d: Right! Good job!
   :feedback_e: One of the above is indeed correct.
+  :pct_on_first: 0.2201257862
+  :total_students_attempting: 159
+  :num_students_correct: 147.0
+  :mean_clicks_to_correct: 2.6802721088
 
   Which of the following is the biggest difference between a C++ array and a C++ vector?

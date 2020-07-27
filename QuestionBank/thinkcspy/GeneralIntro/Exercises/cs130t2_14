@@ -9,10 +9,14 @@
    :answer_c: Error
    :answer_d: 4
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8548387097
+   :total_students_attempting: 62
+   :num_students_correct: 62.0
+   :mean_clicks_to_correct: 1.1935483871
 
    14. What does the following code print? ::
-
+   
       s = "Pease porridge hot, Pease porridge cold, Pease porridge in the pot nine days old."
       word_list = s.split()
       print(word_list.count("porridge"))

@@ -16,9 +16,13 @@
    :feedback_d: - Yes, even though it truncates, it produces a floating point result because 18.0 is a float
    :feedback_e: - / does division. Perhaps you were thinking of %, which computes the remainder?
    :practice: T
+   :pct_on_first: 0.3372206025
+   :total_students_attempting: 3087
+   :num_students_correct: 3058.0
+   :mean_clicks_to_correct: 2.0219097449
 
    What value is printed when the following statement executes?
-
+   
    .. code-block:: python
-
+   
       print(18.0 // 4)

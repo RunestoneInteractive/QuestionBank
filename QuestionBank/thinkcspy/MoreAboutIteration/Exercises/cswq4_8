@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 0.0
+   :total_students_attempting: 6
+   :num_students_correct: 4.0
+   :mean_clicks_to_correct: 10.25
 
    Drag the following instructions into the right order to create a function that returns a darkened copy of an image.
    -----

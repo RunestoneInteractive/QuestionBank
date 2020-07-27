@@ -12,11 +12,15 @@
    :feedback_a: Each item is converted to upper case before concatenation.
    :feedback_b: Each character is converted to upper case but the order is wrong.
    :feedback_c: Yes, the order is reversed due to the order of the concatenation.
+   :pct_on_first: 0.1549467613
+   :total_students_attempting: 9016
+   :num_students_correct: 8930.0
+   :mean_clicks_to_correct: 2.0612541993
 
    What is printed by the following statements:
-
+   
    .. code-block:: python
-
+   
       s = "ball"
       r = ""
       for item in s:

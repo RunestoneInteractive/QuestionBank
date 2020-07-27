@@ -15,5 +15,9 @@
   :feedback_c: Assignment to a dictionary key is constant but there is a better answer.
   :feedback_d: Re-assignment to a dictionary key is constant but there is a better answer.
   :feedback_e: The only dictionary operations that are not O(1) are those that require iteration.
+  :pct_on_first: 0.635009311
+  :total_students_attempting: 2685
+  :num_students_correct: 2663.0
+  :mean_clicks_to_correct: 1.8167480285
 
   Which of the dictionary operations shown below is O(1)?

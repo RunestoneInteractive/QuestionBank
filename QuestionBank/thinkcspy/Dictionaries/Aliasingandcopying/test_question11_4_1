@@ -14,11 +14,15 @@
    :feedback_b: The dictionary is mutable so changes can be made to the keys and values.
    :feedback_c: Yes, since yourdict is an alias for mydict, the value for the key elephant has been changed.
    :feedback_d: There is only one dictionary with only one key named elephant.  The dictionary has two different names, mydict and yourdict.
+   :pct_on_first: 0.7323384664
+   :total_students_attempting: 6299
+   :num_students_correct: 6264.0
+   :mean_clicks_to_correct: 1.3537675607
 
    What is printed by the following statements?
-
+   
    .. sourcecode:: python
-
+   
      mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
      yourdict = mydict
      yourdict["elephant"] = 999

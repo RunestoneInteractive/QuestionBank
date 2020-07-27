@@ -14,11 +14,15 @@
    :feedback_c: It is perfectly valid to compare n to 0.  Though indirectly, this is what causes the infinite loop.
    :feedback_d: The loop condition must become False for the loop to terminate, but n by itself is not the condition in this case.
    :practice: T
+   :pct_on_first: 0.6788553259
+   :total_students_attempting: 629
+   :num_students_correct: 619.0
+   :mean_clicks_to_correct: 1.6138933764
 
    The following code contains an infinite loop. Which is the best explanation for why the loop does not terminate?
-
+   
    .. code-block:: python
-
+   
      n = 10
      answer = 1
      while ( n > 0 ):

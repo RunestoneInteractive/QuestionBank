@@ -7,16 +7,20 @@
    :answer_a: 7, 10
    :answer_b: 17, 15
    :answer_c: 27, 25
-   :answer_d: 37, 
+   :answer_d: 37,
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 3
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 1.0
 
    21. What does the following code print?::
-
+   
       def fun1(a, b):
           a = a + 10
           b = b + 5
-
+   
       def fun2(a, b):
           a = a + 20
           b = b + 15
@@ -27,5 +31,5 @@
           fun1(a, b)
           fun2(a, b)
           print(a, b)
-
+   
       main()

@@ -14,9 +14,13 @@
    :feedback_c: Remember that // has precedence over -.
    :feedback_d: Remember that // does integer division.
    :practice: T
+   :pct_on_first: 0.6526832955
+   :total_students_attempting: 2646
+   :num_students_correct: 2622.0
+   :mean_clicks_to_correct: 1.6125095347
 
    What is the value of the following expression:
-
+   
    .. code-block:: python
-
+   
       16 - 2 * 5 // 3 + 1

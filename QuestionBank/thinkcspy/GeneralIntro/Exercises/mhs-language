@@ -13,5 +13,9 @@
    :feedback_b: No, Java is a popular object oriented language but it has some details that make it harder to learn.  If you're interested, you can learn it in AP CS next year.
    :feedback_c: C is an imperative programming language that has been around for a long time, but it is not the one that we use.
    :feedback_d: No, but JavaScript (different from Java, by the way) is an event driven interpreted language that is very popular for making websites.
+   :pct_on_first: 0.8878205128
+   :total_students_attempting: 312
+   :num_students_correct: 312.0
+   :mean_clicks_to_correct: 1.1570512821
 
    What programming language does this site help you to learn?

@@ -15,5 +15,9 @@
    :match_8: +|||connects strings.
    :match_9: append|||Adjoins a string to the end of the string.
    :match_10: find||| Returns the index of the first occurrence of item.
+   :pct_on_first: 0.525
+   :total_students_attempting: 120
+   :num_students_correct: 114.0
+   :mean_clicks_to_correct: 4.2280701754
 
     Match the String operations with their corresponding explination.

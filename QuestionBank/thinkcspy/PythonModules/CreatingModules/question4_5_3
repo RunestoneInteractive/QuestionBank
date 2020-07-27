@@ -14,5 +14,9 @@
    :feedback_b: This does not determine module name, and comments are not mandatory components of modules.
    :feedback_c: The import statement uses the module name to lookup the correct module, and an import statement is not used to create the module.
    :feedback_d: The filename of the module determines the name of the import.
+   :pct_on_first: 0.6532951289
+   :total_students_attempting: 698
+   :num_students_correct: 697.0
+   :mean_clicks_to_correct: 1.593974175
 
    What determines the name of our import?

@@ -13,6 +13,10 @@
    :feedback_b: This looks like an insertion sort.
    :feedback_c: This one looks similar to the correct answer but instead of swapping the numbers have been shifted to the left to make room for the correct numbers.
    :feedback_d: Selection sort improves upon bubble sort by making fewer swaps.
+   :pct_on_first: 0.4747174301
+   :total_students_attempting: 1681
+   :num_students_correct: 1663.0
+   :mean_clicks_to_correct: 1.8905592303
 
    Suppose you have the following list of numbers to sort:
    [11, 7, 12, 14, 19, 1, 6, 18, 8, 20] which list represents the partially sorted list after three complete passes of selection sort?

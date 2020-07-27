@@ -4,8 +4,8 @@
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-   :multiple_answers:
-   :random:
+   :multiple_answers: 
+   :random: 
    :answer_a: Take time to understand the error message.
    :feedback_a: Yes.  Understanding the error message is essential.
    :answer_b: Print the values of the variables before the line with the error.
@@ -17,5 +17,9 @@
    :answer_e: Take vitamins.
    :feedback_e: Sorry.  Although nutrition is important, it's not going you help you here.
    :correct: a,b,c
+   :pct_on_first: 0.4508928571
+   :total_students_attempting: 224
+   :num_students_correct: 222.0
+   :mean_clicks_to_correct: 1.8243243243
 
    Choose all of of the activities that will help you find the cause of an error and fix it …

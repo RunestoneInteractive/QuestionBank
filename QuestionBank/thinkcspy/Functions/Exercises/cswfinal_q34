@@ -9,10 +9,14 @@
    :answer_c: 25 2
    :answer_d: None None
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6904761905
+   :total_students_attempting: 42
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 1.275
 
    34. What does the following code print?::
-
+   
       def fun1(x, y):
           x = x + 25
           y = y * 2

@@ -1,5 +1,5 @@
 .. mchoice:: questionTry1
-   :author: Caston Boyd 
+   :author: Caston Boyd
    :difficulty: 1
    :basecourse: fopp
    :topic: Sequences/Exercises
@@ -12,10 +12,14 @@
    :feedback_b: Yes, "cat is at index 2 and [56, 57, "dog"] is what you get when index 4 is exclusive.
    :feedback_c: Index values start at 0.
    :practice: T
+   :pct_on_first: 0.9230769231
+   :total_students_attempting: 13
+   :num_students_correct: 13.0
+   :mean_clicks_to_correct: 1.0769230769
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
      print(alist[2:4])

@@ -14,10 +14,14 @@
    :feedback_c: The list begins with the second item of L and includes everything up to but not including the last item.
    :feedback_d: The list begins with the second item of L and includes everything up to but not including the last item.
    :practice: T
+   :pct_on_first: 0.3262764633
+   :total_students_attempting: 803
+   :num_students_correct: 796.0
+   :mean_clicks_to_correct: 2.0502512563
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      L = [0.34, '6', 'SI106', 'Python', -2]
      print(len(L[1:-1]))

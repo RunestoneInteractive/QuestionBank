@@ -12,5 +12,9 @@
    :feedback_a: The loop body can have any number of lines, all indented from the loop header.
    :feedback_b: The loop body may have more than one line.
    :feedback_c: Python does not need semi-colons in its syntax, but relies mainly on indentation.
+   :pct_on_first: 0.7861800012
+   :total_students_attempting: 16411
+   :num_students_correct: 16360.0
+   :mean_clicks_to_correct: 1.3190709046
 
    How does python know what statements are contained in the loop body?

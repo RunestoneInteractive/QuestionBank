@@ -4,9 +4,13 @@
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
+    :pct_on_first: 0.2966101695
+    :total_students_attempting: 118
+    :num_students_correct: 117.0
+    :mean_clicks_to_correct: 3.9316239316
 
     What is the Python value of 12 % 15?
-
-
-  - :12: Correct!
+    
+    
+    :12: Correct!
     :.*: Try again.

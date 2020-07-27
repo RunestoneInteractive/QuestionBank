@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: GeneralIntro/Exercises
    :from_source: F
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 3.0
 
    Assume you need to write a program to compute the total sale amount of a purchase including sales tax.  
    The formula in Idaho is the following: total = purchase + purchase * 0.06. That is, the total sale amount

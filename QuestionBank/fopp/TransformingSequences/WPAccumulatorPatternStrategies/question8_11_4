@@ -12,5 +12,9 @@
    :feedback_c: In this case, an accumulation pattern would be good to use!
    :correct: b
    :practice: T
+   :pct_on_first: 0.5766299746
+   :total_students_attempting: 1181
+   :num_students_correct: 1174.0
+   :mean_clicks_to_correct: 1.5306643952
 
    Does the following prompt require an accumulation pattern? If so, what words indicate that? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

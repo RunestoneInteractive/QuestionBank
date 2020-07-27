@@ -13,5 +13,9 @@
    :feedback_b: Java is a good object oriented language but it has some details that make it hard for the beginner.
    :feedback_c: C is an imperative programming language that has been around for a long time, but it is not the one that we use.
    :feedback_d: No, ML is a functional programming language.  (You can use Python to write functional programs as well!)
+   :pct_on_first: 0.1948051948
+   :total_students_attempting: 308
+   :num_students_correct: 304.0
+   :mean_clicks_to_correct: 2.5657894737
 
    What programming language does this site help you to learn?

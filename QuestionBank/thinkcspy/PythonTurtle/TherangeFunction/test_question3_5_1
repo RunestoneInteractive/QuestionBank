@@ -14,5 +14,9 @@
   :feedback_b: The first argument (3) tells range what number to start at.
   :feedback_c: Range will always stop at the number in the sequence before (not including) the specified limit for the sequence.
   :feedback_d: The third argument (2) tells range how many numbers to skip between each element in the sequence.
+  :pct_on_first: 0.7596748757
+  :total_students_attempting: 16486
+  :num_students_correct: 16398.0
+  :mean_clicks_to_correct: 1.4854860349
 
   In the command range(3, 10, 2), what does the second argument (10) specify?

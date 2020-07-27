@@ -4,11 +4,15 @@
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
+   :pct_on_first: 0.7236533958
+   :total_students_attempting: 427
+   :num_students_correct: 424
+   :mean_clicks_to_correct: 1.5778301887
 
    What is the standard deviation of the happiness score? |blank| Again,
    you only need to include three digits to the right of the decimal
    point.
-
+   
    - :1.110: Is the correct answer
      :1.109: 1.1098 should be rounded up to 1.110
      :1.094: Check your range carefully

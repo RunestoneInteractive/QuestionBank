@@ -15,32 +15,36 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/MutatingMethods
+   :pct_on_first: 0.4867021277
+   :total_students_attempting: 752
+   :num_students_correct: 748.0
+   :mean_clicks_to_correct: 2.0360962567
 
    Which of these is a correct reference diagram following the execution of the following code?
-
+   
    .. sourcecode:: python
-
+   
     sent = "The mall has excellent sales right now."
     wrds = sent.split()
     wrds[1] = 'store'
     new_sent = " ".join(wrds)
-
+   
    I.
-
+   
    .. image:: Figures/week3a2_1.png
       :alt: First Potential Solution
-
+   
    II.
-
+   
    .. image:: Figures/week3a2_2.png
       :alt: Second Potential Solution
-
+   
    III.
-
+   
    .. image:: Figures/week3a2_3.png
       :alt: Third Potential Solution
-
+   
    IV.
-
+   
    .. image:: Figures/week3a2_4.png
       :alt: Fourth Potential Solution

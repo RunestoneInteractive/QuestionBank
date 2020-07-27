@@ -11,5 +11,9 @@
    :match_4: add|||Adds item to the set.
    :match_5: remove|||erases item from the set.
    :match_6: clear|||Removes all elements from the set.
+   :pct_on_first: 0.55
+   :total_students_attempting: 120
+   :num_students_correct: 115.0
+   :mean_clicks_to_correct: 2.4695652174
 
     Match the Unordered Sets operations with their corresponding explination.

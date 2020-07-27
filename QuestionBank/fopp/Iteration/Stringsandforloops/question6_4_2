@@ -14,11 +14,15 @@
    :feedback_c: Check the result of s[3:8]. It does not include the item at index 8.
    :feedback_d: Slice returns a sequence.
    :practice: T
+   :pct_on_first: 0.5985849057
+   :total_students_attempting: 2120
+   :num_students_correct: 2107.0
+   :mean_clicks_to_correct: 1.5372567632
 
    How many times is the word HELLO printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       for ch in s[3:8]:
          print("HELLO")

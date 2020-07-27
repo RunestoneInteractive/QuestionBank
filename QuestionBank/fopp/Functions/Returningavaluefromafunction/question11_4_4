@@ -11,13 +11,17 @@
    :feedback_a: It squares 2, yielding the value 4. But that doesn't mean the next value multiplies 2 and 4.
    :feedback_b: It squares 2, yielding the value 4. 4 is then passed as a value to square again, yeilding 16.
    :feedback_c: This is a more complicated expression, but still valid. The expression square(2) is evaluated, and the return value 4 substitutes for square(2) in the expression.
+   :pct_on_first: 0.75
+   :total_students_attempting: 1480
+   :num_students_correct: 1472.0
+   :mean_clicks_to_correct: 1.324048913
 
    What will the following code output?
-
+   
    .. code-block:: python
-
+   
        def square(x):
            y = x * x
            return y
-
+   
        print(square(square(2)))

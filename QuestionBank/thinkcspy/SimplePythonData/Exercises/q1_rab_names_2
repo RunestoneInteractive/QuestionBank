@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :answer_a: number-of-days 
+   :answer_a: number-of-days
    :answer_b: _number_of_days
    :answer_c: *number_of_days
    :answer_d: Number of Days
    :correct: b
+   :pct_on_first: 0.7454545455
+   :total_students_attempting: 55
+   :num_students_correct: 54.0
+   :mean_clicks_to_correct: 1.462962963
 
    Which of the following IS a valid Python variable name?

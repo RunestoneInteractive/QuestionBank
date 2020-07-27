@@ -13,5 +13,9 @@
   :feedback_b: This can be dependent on the machine, programming language, and other factors
   :feedback_c: Yes, when quantifying the time it takes to execute an algorithm we base it on the number of steps it takes to solve the problem, not the time it takes
   :feedback_d: No, a very efficient algorithm can be programmed efficiently in C++ without any extra spaces making it unreadable, however the solution would still be efficient.
+  :pct_on_first: 0.3684210526
+  :total_students_attempting: 76
+  :num_students_correct: 74.0
+  :mean_clicks_to_correct: 1.8378378378
 
   When considering the Big O of an algorithm, what do we use to quantify our description of an algorithm.

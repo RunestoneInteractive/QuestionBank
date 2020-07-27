@@ -13,5 +13,9 @@
    :feedback_b: The closer the values are to 0, the darker the color will appear.
    :feedback_c: The first value in RGB is the red value.  The second is the green.  This color has no green in it.
    :feedback_d: The first value in RGB is the red value.  The second is the green.  This color has no green in it.
+   :pct_on_first: 0.3879361325
+   :total_students_attempting: 1691
+   :num_students_correct: 1678.0
+   :mean_clicks_to_correct: 1.815852205
 
    If you have a pixel whose RGB value is (50, 0, 0), what color will this pixel appear to be?

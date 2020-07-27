@@ -5,6 +5,10 @@
    :topic: Debugging/Exercises
    :from_source: F
    :language: natural
+   :pct_on_first: 0.0769230769
+   :total_students_attempting: 26
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 12.5
 
    When the activities shown are placed in the correct order, they describe a procedure that can be used to assure a program exhibits the correct behavior under a variety of circumstances.  Drag each block to put them in the correct order. 
    ----- 

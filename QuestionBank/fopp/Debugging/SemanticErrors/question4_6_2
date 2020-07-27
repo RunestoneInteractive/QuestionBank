@@ -14,5 +14,9 @@
    :feedback_c: The computer does not understand your problem. It just executes the instructions that it is given.
    :feedback_d: Your teacher and instructor may be able to find most of your semantic errors, but only because they have experience solving problems.  However it is your responsibility to understand the problem so you can develop a correct solution.
    :practice: T
+   :pct_on_first: 0.7027734171
+   :total_students_attempting: 1911
+   :num_students_correct: 1904.0
+   :mean_clicks_to_correct: 1.4779411765
 
    Who or what typically finds semantic errors?

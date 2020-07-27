@@ -9,7 +9,11 @@
    :answer_c: 'Kingman', 'Fremont', 'Fredericton'
    :answer_d: 'Los Angeles', 'Calhoun Falls', 'Fredericton'
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.5897435897
+   :total_students_attempting: 39
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.6842105263
 
    36. What is the order of items checked during a binary search (looking for Fredericton) in the following list?
-['Burbank', 'Calhoun Falls', 'Cleveland', 'Fredericton', 'Fremont', 'Kingman', 'Los Angeles', 'Ottumwa', 'Sacramento', 'Spring']
+   urbank', 'Calhoun Falls', 'Cleveland', 'Fredericton', 'Fremont', 'Kingman', 'Los Angeles', 'Ottumwa', 'Sacramento', 'Spring']

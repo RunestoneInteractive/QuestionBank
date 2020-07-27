@@ -9,5 +9,9 @@
   :match_2: Set|||{“What”, “am”, “I”}
   :match_3: String|||“What am I”
   :match_4: Hash Table|||{ {“What”, “am I”} }
+  :pct_on_first: 0.3785714286
+  :total_students_attempting: 140
+  :num_students_correct: 136.0
+  :mean_clicks_to_correct: 2.3823529412
 
   Drag each data type to its' corresponding C++ initialization syntax.

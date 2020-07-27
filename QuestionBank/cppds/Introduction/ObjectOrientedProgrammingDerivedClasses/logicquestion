@@ -4,8 +4,12 @@
   :basecourse: cppds
   :topic: Introduction/ObjectOrientedProgrammingDerivedClasses
   :from_source: T
+  :pct_on_first: 0.6907216495
+  :total_students_attempting: 97
+  :num_students_correct: 92.0
+  :mean_clicks_to_correct: 1.5760869565
 
   What will the logic gate yield (1 / 0)?
-
- - :0: Correct!
+  
+   :0: Correct!
    :1: Take a closer look at the logic gates.

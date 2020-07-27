@@ -10,9 +10,13 @@
    :answer_d: 25 times
    :answer_e: zero or more times
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    How many times will the following loop execute? (Choose the most accurate statement.)::
-
+   
       for i in range(10, 25):
           print(i)

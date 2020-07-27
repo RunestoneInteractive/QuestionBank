@@ -14,5 +14,9 @@
    :feedback_c: Only numeric values can be used in equations.
    :feedback_d: In Python variables are not declared. Values, not variables, have types in Python. A variable can even take on values with different types during a program's execution.
    :practice: T
+   :pct_on_first: 0.8183379121
+   :total_students_attempting: 2912
+   :num_students_correct: 2903.0
+   :mean_clicks_to_correct: 1.3155356528
 
    How can you determine the type of a variable?

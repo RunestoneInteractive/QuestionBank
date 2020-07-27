@@ -12,16 +12,20 @@
    :feedback_b: Assignment statements are perfectly legal inside loops and will not cause an error.
    :feedback_c: Good thought: the variable accum will be reset to 0 each time through the loop. But then it adds the current item.
    :practice: T
+   :pct_on_first: 0.5901116427
+   :total_students_attempting: 1881
+   :num_students_correct: 1867.0
+   :mean_clicks_to_correct: 1.6052490627
 
    Consider the following code:
-
+   
    .. code-block:: python
-
+   
       nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
       for w in nums:
          accum = 0
          accum = accum + w
       print(accum)
-
+   
    What happens if you put the initialization of accum inside the for loop as the first
    instruction in the loop?

@@ -16,18 +16,22 @@
    :feedback_d: h(2) returns 7, so y is bound to 7 when g is invoked.
    :feedback_e: Ah, but you can nest function calls.
    :practice: T
+   :pct_on_first: 0.7222672065
+   :total_students_attempting: 1235
+   :num_students_correct: 1218.0
+   :mean_clicks_to_correct: 1.4958949097
 
    What will the following code output?
-
+   
    .. code-block:: python
-
+   
        def square(x):
            return x*x
-
+   
        def g(y):
            return y + 3
-
+   
        def h(y):
            return square(y) + 3
-
+   
        print(g(h(2))

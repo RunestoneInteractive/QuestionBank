@@ -12,13 +12,17 @@
    :feedback_b: The two return values are added together.
    :feedback_c: The two results are substituted into the expression and then it is evaluated. The returned values are integers in this case, not strings.
    :practice: T
+   :pct_on_first: 0.6935483871
+   :total_students_attempting: 1488
+   :num_students_correct: 1481.0
+   :mean_clicks_to_correct: 1.4017555706
 
    What will the following code output?
-
+   
    .. code-block:: python
-
+   
        def square(x):
            y = x * x
            return y
-
+   
        print(square(5) + square(5))

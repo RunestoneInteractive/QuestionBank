@@ -16,11 +16,15 @@
    :feedback_e: Incorrect, Python can iterate over this type.
    :correct: a
    :practice: T
+   :pct_on_first: 0.799382716
+   :total_students_attempting: 1620
+   :num_students_correct: 1609.0
+   :mean_clicks_to_correct: 1.4257302672
 
    What is the type of your iterable?
-
+   
    .. sourcecode:: python
-
+   
        t = "couch"
        for z in t:
            print(z)

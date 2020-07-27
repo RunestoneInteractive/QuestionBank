@@ -14,9 +14,13 @@
    :feedback_b: Exponentiation (**) is processed right to left, so take 2 ** 3 first.
    :feedback_c: There are two exponentiations.
    :feedback_d: Remember to multiply by 3.
+   :pct_on_first: 0.6649951784
+   :total_students_attempting: 20740
+   :num_students_correct: 20648.0
+   :mean_clicks_to_correct: 1.6095989926
 
    What is the value of the following expression:
-
+   
    .. code-block:: python
-
+   
       2 ** 2 ** 3 * 3

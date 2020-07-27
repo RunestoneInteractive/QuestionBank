@@ -13,5 +13,9 @@
     :feedback_b: No, the Knight's Tour is not linear.
     :feedback_c: No, the Knight's Tour does not have a nested loop that iterates through all values twice.
     :feedback_d: No, the input is not processed in a fashion indicative of a factorial.
+    :pct_on_first: 0.5909090909
+    :total_students_attempting: 22
+    :num_students_correct: 22.0
+    :mean_clicks_to_correct: 1.9090909091
 
     What is the big O of the Knight's Tour function?

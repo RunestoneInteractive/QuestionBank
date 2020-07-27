@@ -4,10 +4,14 @@
    :basecourse: pythonds
    :topic: BasicDS/ConvertingDecimalNumberstoBinaryNumbers
    :from_source: T
+   :pct_on_first: 0.7153453871
+   :total_students_attempting: 2157
+   :num_students_correct: 2059.0
+   :mean_clicks_to_correct: 1.6493443419
 
    What is value of 25 expressed as an octal number?
-
+   
    |blank|
-
+   
    -  :31: Correct.
       :x: Incorrect

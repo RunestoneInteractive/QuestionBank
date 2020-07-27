@@ -14,11 +14,15 @@
    :feedback_c: This is the accumulator pattern. Total starts at 0 but then changes as the iteration proceeds.
    :feedback_d: Not all the values are added together. The if statement only chooses some of them.
    :practice: T
+   :pct_on_first: 0.6137770898
+   :total_students_attempting: 1292
+   :num_students_correct: 1275.0
+   :mean_clicks_to_correct: 1.5458823529
 
    What is printed by the following statements?
-
+   
    .. sourcecode:: python
-
+   
       total = 0
       mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
       for akey in mydict:

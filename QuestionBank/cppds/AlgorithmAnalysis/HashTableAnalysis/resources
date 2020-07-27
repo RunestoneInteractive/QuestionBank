@@ -4,7 +4,7 @@
    :basecourse: cppds
    :topic: AlgorithmAnalysis/HashTableAnalysis
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: language constraints
    :answer_b: Space
    :answer_c: Time
@@ -14,5 +14,9 @@
    :feedback_b: Yes, we consider how much space we need to solve a problem.
    :feedback_c: Yes, we consider how much time it takes to solve a problem
    :feedback_d: No, we do not consider how much energy it takes at this point.
+   :pct_on_first: 0.6233766234
+   :total_students_attempting: 77
+   :num_students_correct: 75.0
+   :mean_clicks_to_correct: 1.56
 
    When considering computer resources, what factors do we have in mind? Select all that apply.

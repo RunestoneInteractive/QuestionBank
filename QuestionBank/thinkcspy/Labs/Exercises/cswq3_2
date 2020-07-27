@@ -9,11 +9,15 @@
    :answer_c: 2
    :answer_d: 5
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Yes, three bits will enable you to represent eight different values
    :feedback_b: No, four bits is more than you need
    :feedback_c: No, two bits can only represent four different values
    :feedback_d: No, five bits is more than you need
+   :pct_on_first: 0.8421052632
+   :total_students_attempting: 38
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.2631578947
 
    Imagine that you want to create a code to represent ethnicity; the choices are African-American,
    Caucasian, Hispanic, Other, Prefer not to say. How many bits will you need?

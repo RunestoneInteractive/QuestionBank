@@ -9,10 +9,14 @@
    :answer_c: "3.62"
    :answer_d: "Feb"
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.4141414141
+   :total_students_attempting: 99
+   :num_students_correct: 96.0
+   :mean_clicks_to_correct: 2.125
 
    11. Assume the first two lines below represent data stored in a file named "avg_precipitation.csv". What is the value of x after executing the following code?::
-
+   
       City,State,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
       Springfield,MO,2.48,2.52,3.62,4.33,5.12,4.84,3.66,3.54,4.61,3.58,4.21,3.03
       

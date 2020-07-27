@@ -14,11 +14,15 @@
    :feedback_b: Count backward 3 characters.
    :feedback_c: When expressed with a negative index the last character s is at index -1.
    :feedback_d: Python does use negative indices to count backward from the end.
+   :pct_on_first: 0.858040201
+   :total_students_attempting: 11144
+   :num_students_correct: 11081.0
+   :mean_clicks_to_correct: 1.2456456998
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s[-3])

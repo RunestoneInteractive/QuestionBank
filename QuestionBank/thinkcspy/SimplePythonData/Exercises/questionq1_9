@@ -9,10 +9,14 @@
    :answer_c: x1y2z3
    :answer_d: xyz_123
    :correct: a
-   :random:
+   :random: 
    :feedback_a: That's right - x-y-z is not a valid variable name
    :feedback_b: No, _x_y_z is a valid variable name
    :feedback_c: No, x1y2z3 is a valid variable name
    :feedback_d: No, xyz_223 is a valid variable name
+   :pct_on_first: 0.5862068966
+   :total_students_attempting: 29
+   :num_students_correct: 28.0
+   :mean_clicks_to_correct: 1.4642857143
 
    Which of the following is not a valid variable name?

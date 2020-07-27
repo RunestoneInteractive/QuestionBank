@@ -9,5 +9,9 @@
    :correct: a
    :feedback_a: Correct! a recursive function will complete the final function call first, because the rest of the calls are waiting for the results of the calls they made.
    :feedback_b: Incorrect. Think of it this way, when a function is called and it calls itself, the original function call cannot be completed until the new function call is completed.
+   :pct_on_first: 0.7551020408
+   :total_students_attempting: 49
+   :num_students_correct: 48.0
+   :mean_clicks_to_correct: 1.25
 
    Is the process of stepping through a recursive function similar to the construct of a stack or a queue?

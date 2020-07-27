@@ -9,10 +9,14 @@
    :answer_c: Divides each number by a given factor
    :answer_d: Prints the average of a list of numbers
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 3
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 2.0
 
    23. What is the purpose of the following function?::
-
+   
       def do_something(numlist):
       '''numlist is a list of numbers'''
           val = 0

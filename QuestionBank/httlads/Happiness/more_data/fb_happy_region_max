@@ -4,8 +4,12 @@
    :basecourse: httlads
    :topic: Happiness/more_data
    :from_source: T
+   :pct_on_first: 0.598820059
+   :total_students_attempting: 339
+   :num_students_correct: 329
+   :mean_clicks_to_correct: 3.6747720365
 
    What is the happiest country in East Asia? |blank|
-
+   
    - :Taiwan.*: Is the correct answer
      :x: Keep checking

@@ -14,11 +14,15 @@
    :feedback_c: Check again what the conditional is evaluating. The value of i will be a character in the string s, so what will happen in the if statement?
    :feedback_d: There are no errors in this code.
    :practice: T
+   :pct_on_first: 0.7296395194
+   :total_students_attempting: 1498
+   :num_students_correct: 1484.0
+   :mean_clicks_to_correct: 1.4285714286
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      s = "We are learning!"
      x = 0
      for i in s:

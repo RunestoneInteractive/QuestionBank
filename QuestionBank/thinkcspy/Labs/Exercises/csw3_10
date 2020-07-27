@@ -9,6 +9,10 @@
    :answer_c: 10000001
    :answer_d: 10101011
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7631578947
+   :total_students_attempting: 38
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.5135135135
 
    Convert the following decimal number to binary: 255

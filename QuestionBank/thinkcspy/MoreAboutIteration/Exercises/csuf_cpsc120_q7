@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 2.0
 
    You are writing a program for an ATM that will validate the user's PIN. Here are some specifications:<br>
    <br>
@@ -14,7 +18,7 @@
    3. If you enter the correct PIN, the program grants access and exits.
    <br>
    4. Assume the PIN is initialized at the start.
-
+   
    -----
    int input = 0;
    int attempts = 0;

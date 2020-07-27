@@ -4,9 +4,13 @@
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
+    :pct_on_first: 0.5689655172
+    :total_students_attempting: 116
+    :num_students_correct: 116.0
+    :mean_clicks_to_correct: 1.8189655172
 
     What is the Python value of 2 ** 0 ** 3?
-
-
-  - :1: Correct!
+    
+    
+    :1: Correct!
     :.*: Try again.

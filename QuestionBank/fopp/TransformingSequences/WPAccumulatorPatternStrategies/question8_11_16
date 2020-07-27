@@ -12,5 +12,9 @@
    :feedback_c: Yes, there is no accumulator variable needed and the iterator variable is clear (char is a common short form of character)
    :correct: c
    :practice: T
+   :pct_on_first: 0.5402504472
+   :total_students_attempting: 1118
+   :num_students_correct: 1106.0
+   :mean_clicks_to_correct: 1.6202531646
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? Write code to print out each character of the string ``my_str`` on a separate line.

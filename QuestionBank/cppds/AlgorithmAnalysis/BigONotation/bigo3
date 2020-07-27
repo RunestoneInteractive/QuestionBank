@@ -15,6 +15,10 @@
     :feedback_c: No, the 3 should be omitted because n<sup>2</sup> dominates.
     :feedback_d: Right!
     :feedback_e: No, only one of them is correct. Try again.
+    :pct_on_first: 0.7307692308
+    :total_students_attempting: 104
+    :num_students_correct: 104.0
+    :mean_clicks_to_correct: 1.2884615385
 
-
+    
     If the exact number of steps is :math:`T(n)=2n+3n^{2}-1` what is the Big O?

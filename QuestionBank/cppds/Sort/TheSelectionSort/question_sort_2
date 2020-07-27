@@ -13,6 +13,10 @@
    :feedback_b: This looks like an insertion sort.
    :feedback_c: This one looks similar to the correct answer, however, it is not how selection sort works. With this answer, instead of swapping values through each sweep, the values have been shifted to the left to make room for the correct numbers.
    :feedback_d: Selection sort improves upon bubble sort by making fewer swaps.
+   :pct_on_first: 0.4328358209
+   :total_students_attempting: 67
+   :num_students_correct: 65.0
+   :mean_clicks_to_correct: 2.0615384615
 
    Suppose you have the following vector of numbers to sort:
    [11, 7, 12, 14, 19, 1, 6, 18, 8, 20] which vector represents the partially sorted (ascending) vector after three steps of selection sort?

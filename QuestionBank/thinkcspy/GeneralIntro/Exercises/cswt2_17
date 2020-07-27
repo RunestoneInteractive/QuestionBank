@@ -9,6 +9,10 @@
    :answer_c: 15 ms
    :answer_d: 25 ms
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.4848484848
+   :total_students_attempting: 99
+   :num_students_correct: 98.0
+   :mean_clicks_to_correct: 1.9081632653
 
    17. If it takes 5 ms to brighten an image, how long will it take to brighten an image that's twice as big? (Hint: consider how many pixels each image has - for example, a 10 x 10 pixel image vs a 20 x 20 pixel image.)

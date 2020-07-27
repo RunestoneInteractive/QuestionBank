@@ -17,5 +17,9 @@
    :feedback_e: Yes, this is the correct syntax to use.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
+   :pct_on_first: 0.1180836707
+   :total_students_attempting: 1482
+   :num_students_correct: 1470.0
+   :mean_clicks_to_correct: 3.168707483
 
    For an instance of a class that is assigned to the variable ``student``, what is the proper way to refer to the ``title`` attribute/instance variable?

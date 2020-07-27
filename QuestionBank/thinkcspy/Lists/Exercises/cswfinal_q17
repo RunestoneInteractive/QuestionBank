@@ -9,6 +9,10 @@
    :answer_c: 2
    :answer_d: The result is a syntax error
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6730769231
+   :total_students_attempting: 52
+   :num_students_correct: 49.0
+   :mean_clicks_to_correct: 1.5714285714
 
    17. Given a list x = [1, 2, 3, 4, 5], print(x[-2]) prints which value?

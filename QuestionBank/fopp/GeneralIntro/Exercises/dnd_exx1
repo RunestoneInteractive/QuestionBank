@@ -8,10 +8,14 @@
     :match_1: arraste para opção a||| A
     :match_2: arraste para opção b||| B
     :match_3: arraste para opção c||| C
+    :pct_on_first: 0.4649446494
+    :total_students_attempting: 542
+    :num_students_correct: 477.0
+    :mean_clicks_to_correct: 1.9119496855
 
-
+    
     Junte os pares corretamente.
-
-config values (conf.py): 
-
-- dragndrop_div_class - custom CSS class of the component's outermost div
+    
+    ig values (conf.py): 
+    
+    agndrop_div_class - custom CSS class of the component's outermost div

@@ -9,8 +9,12 @@
    :answer_c: 25, 15, 19
    :answer_d: Can't be determined
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.67
+   :total_students_attempting: 100
+   :num_students_correct: 99.0
+   :mean_clicks_to_correct: 1.6262626263
 
    4. What are the first 3 numbers checked when using a binary search to search for the number 17 in the following list::
-
+   
       [12, 15, 19, 25, 31, 33, 37, 42, 45, 47, 50, 53, 55, 61, 65, 71, 75]

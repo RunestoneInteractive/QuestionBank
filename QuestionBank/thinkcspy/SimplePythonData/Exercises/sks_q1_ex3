@@ -9,15 +9,19 @@
    :answer_c: Logic Error
    :answer_d: No Error
    :correct: e
-   :random:
+   :random: 
    :feedback_a: Thank you.  Your answer has been noted.
    :feedback_b: Thank you.  Your answer has been noted.
    :feedback_c: Thank you.  Your answer has been noted.
    :feedback_d: Thank you.  Your answer has been noted.
+   :pct_on_first: 0.1818181818
+   :total_students_attempting: 132
+   :num_students_correct: 88.0
+   :mean_clicks_to_correct: 2.3295454545
 
-
+   
    [2 pts]. Please see the following program written to compute tax on an entered amount.  Which of the following is true?  The program has a::
-
+   
       value = float(input ("How many dollars? "))
       tax = input ("what percent?")
       print ("You Pay", value*(tax/100))

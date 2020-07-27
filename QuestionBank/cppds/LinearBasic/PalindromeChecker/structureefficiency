@@ -15,5 +15,9 @@
    :feedback_c: Yes, but it is not the only option.
    :feedback_d: One of these two would be correct, but the other would not.
    :feedback_e: Correct!
+   :pct_on_first: 0.5172413793
+   :total_students_attempting: 116
+   :num_students_correct: 116.0
+   :mean_clicks_to_correct: 1.8448275862
 
    If you add five items to your code in this order “potato”, “rutabaga”, “avocado”, “squash”, “eggplant” which structure would take the least steps to retrieve “rutabaga”?

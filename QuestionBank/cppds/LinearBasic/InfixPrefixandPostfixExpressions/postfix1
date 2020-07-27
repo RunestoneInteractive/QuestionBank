@@ -4,11 +4,15 @@
    :basecourse: cppds
    :topic: LinearBasic/InfixPrefixandPostfixExpressions
    :from_source: T
+   :pct_on_first: 0.1176470588
+   :total_students_attempting: 68
+   :num_students_correct: 46.0
+   :mean_clicks_to_correct: 4.8695652174
 
    Without using the activecode infixToPostfix function, convert the following expression to postfix  ``10 + 3 * 5 / (16 - 4)`` .
-
+   
    |blank|
-
+   
    -  :10\s+3\s+5\s*\*\s*16\s+4\s*-\s*/\s*\+: Correct.
       :10.*3.*5.*16.*4\s+[ /+*-]*: The numbers appear to be in the correct order check your operators
       :x: Remember the numbers will be in the same order as the original equation

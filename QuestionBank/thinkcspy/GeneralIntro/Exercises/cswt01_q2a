@@ -9,6 +9,10 @@
    :answer_c: 256
    :answer_d: 129
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.880952381
+   :total_students_attempting: 42
+   :num_students_correct: 41.0
+   :mean_clicks_to_correct: 1.2195121951
 
    2. Convert the following binary number to decimal: 01111111

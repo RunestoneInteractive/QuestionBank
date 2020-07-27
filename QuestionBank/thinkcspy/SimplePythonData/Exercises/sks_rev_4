@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :answer_a: if we opened the file for writing 
+   :answer_a: if we opened the file for writing
    :answer_b: if we opened the file for reading
    :answer_c: if we opened the file for appending
    :answer_d: It is not important to close the file
    :correct: a, c
+   :pct_on_first: 0.34375
+   :total_students_attempting: 96
+   :num_students_correct: 96.0
+   :mean_clicks_to_correct: 2.4791666667
 
    When we open a file in Python it is important to remember to close it

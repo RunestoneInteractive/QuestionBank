@@ -9,8 +9,12 @@
    :answer_c: 2869
    :answer_d: 5ECC
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 39
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.0
 
    4. Convert the following binary number to hexadecimal::
-
+   
       1110001011000110

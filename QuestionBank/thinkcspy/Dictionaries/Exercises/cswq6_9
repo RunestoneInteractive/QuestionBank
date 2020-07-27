@@ -9,10 +9,14 @@
    :answer_c: 15
    :answer_d: 12
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.4642857143
+   :total_students_attempting: 112
+   :num_students_correct: 107.0
+   :mean_clicks_to_correct: 1.9906542056
 
    9. What is the value of x after executing the following code?::
-
+   
       char_dict = {}
       s = "Now is the time."
       for char in s : 

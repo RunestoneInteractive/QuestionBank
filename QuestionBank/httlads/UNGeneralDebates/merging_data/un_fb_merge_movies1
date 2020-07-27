@@ -4,9 +4,13 @@
    :basecourse: httlads
    :topic: UNGeneralDebates/merging_data
    :from_source: T
+   :pct_on_first: 0.4880952381
+   :total_students_attempting: 84
+   :num_students_correct: 69
+   :mean_clicks_to_correct: 1.9420289855
 
    How many movies are in the Family genre? |blank|
-
+   
    - :2767: Is Correct
      :2770: Includes some duplicate movies.  Remove duplicates or clean your data.
      :x: Use the len function on the results from querying the genres data frame

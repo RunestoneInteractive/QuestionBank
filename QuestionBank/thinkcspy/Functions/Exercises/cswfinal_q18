@@ -9,6 +9,10 @@
    :answer_c: Float z = 3.14159
    :answer_d: Nothing can be changed in another function
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7619047619
+   :total_students_attempting: 42
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 1.3333333333
 
    18. Which of the following can be changed in another function?

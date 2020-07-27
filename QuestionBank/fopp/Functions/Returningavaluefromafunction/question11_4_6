@@ -12,17 +12,21 @@
    :feedback_b: g has to be executed and return a value in order to know what paramater value to provide to x.
    :feedback_c: square and g both have to execute before the number is printed.
    :practice: T
+   :pct_on_first: 0.4944979367
+   :total_students_attempting: 1454
+   :num_students_correct: 1443.0
+   :mean_clicks_to_correct: 1.7262647263
 
    Which will print out first, square, g, or a number?
-
+   
    .. code-block:: python
-
+   
        def square(x):
            print("square")
            return x*x
-
+   
        def g(y):
            print("g")
            return y + 3
-
+   
        print(square(g(2)))

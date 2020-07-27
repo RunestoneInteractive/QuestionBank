@@ -8,6 +8,10 @@
     :match_1: Wolverine|||Marvel
     :match_2: Donald Duck|||Disney
     :match_3: Bat,am|||D.C. Comics
+    :pct_on_first: 0.8196721311
+    :total_students_attempting: 61
+    :num_students_correct: 59.0
+    :mean_clicks_to_correct: 1.2881355932
 
-
+    
     Match the character to the Publisher

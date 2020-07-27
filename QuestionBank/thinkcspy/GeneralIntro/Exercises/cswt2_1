@@ -9,8 +9,12 @@
    :answer_c: 100010
    :answer_d: 111100
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.9
+   :total_students_attempting: 40
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 1.15
 
    1. Add the following unsigned binary numbers::
-
+   
       011111 + 011111

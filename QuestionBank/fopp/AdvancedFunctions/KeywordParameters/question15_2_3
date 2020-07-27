@@ -11,18 +11,22 @@
    :answer_e: Runtime error since two different values are provided for x
    :correct: e
    :feedback_a: 2 is bound to x since it's the first value, but so is 5, based on keyword.
-   :feedback_b:
+   :feedback_b: 
    :feedback_c: 5 is bound to x by keyword, but 2 is also bound to it by virtue of being the value and not having a keyword. In the online environment, it actually allows this, but not in a proper python interpreter.
-   :feedback_d:
+   :feedback_d: 
    :feedback_e: 2 is bound to x since it's the first value, but so is 5, based on keyword.
    :practice: T
+   :pct_on_first: 0.3727959698
+   :total_students_attempting: 397
+   :num_students_correct: 385.0
+   :mean_clicks_to_correct: 2.374025974
 
    What value will be printed for x?
-
+   
    .. code-block:: python
-
+   
       initial = 7
       def f(x, y = 3, z = initial):
           print("x, y, z are:", x, y, z)
-
+   
       f(2, x=5)

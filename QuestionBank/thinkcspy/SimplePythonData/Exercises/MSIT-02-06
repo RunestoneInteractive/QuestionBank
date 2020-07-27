@@ -4,9 +4,13 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.3727272727
+   :total_students_attempting: 110
+   :num_students_correct: 106.0
+   :mean_clicks_to_correct: 2.5943396226
 
    Evaluate the expression: 4 * (12 + 12) % 5 |blank|.
-
+   
    - :1: Yes.  Nicely done.
      :x: No.  Think.  What gets computed first?  Check operator precedence.  What does the % operator do?

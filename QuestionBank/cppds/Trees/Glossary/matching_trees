@@ -24,6 +24,10 @@
     :match_17: path|||Ordered list of nodes connected by edges
     :match_18: level|||Number of edges on the path from the root to the current node
     :match_19: height|||Maximum level of any node in the tree
+    :pct_on_first: 0.1904761905
+    :total_students_attempting: 21
+    :num_students_correct: 14.0
+    :mean_clicks_to_correct: 5.3571428571
 
-
+    
     Drag the word on the left to its corresponding definition (Note not all words in the glossary are here)

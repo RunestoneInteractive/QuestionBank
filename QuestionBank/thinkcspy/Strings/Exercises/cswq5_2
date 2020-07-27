@@ -9,10 +9,14 @@
    :answer_c: Error
    :answer_d: None
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Right; string methods don't change the string - they return a new one
    :feedback_b: No; string methods don't change the string - they return a new one
    :feedback_c: No; string methods don't change the string - they return a new one
    :feedback_d: No; string methods don't change the string - they return a new one
+   :pct_on_first: 0.1402439024
+   :total_students_attempting: 164
+   :num_students_correct: 149.0
+   :mean_clicks_to_correct: 2.5503355705
 
    2. If s = "How now, brown cow?", what is the value of s after executing s.upper()?

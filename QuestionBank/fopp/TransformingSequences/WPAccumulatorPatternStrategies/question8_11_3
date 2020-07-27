@@ -12,5 +12,9 @@
    :feedback_c: Correct!
    :correct: c
    :practice: T
+   :pct_on_first: 0.4388185654
+   :total_students_attempting: 1185
+   :num_students_correct: 1174.0
+   :mean_clicks_to_correct: 1.9327086882
 
    Does the following prompt require an accumulation pattern? If so, what words indicate that? Write code to print out each character of the string ``my_str`` on a separate line.

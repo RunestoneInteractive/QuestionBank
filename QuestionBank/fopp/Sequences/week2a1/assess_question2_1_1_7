@@ -15,10 +15,14 @@
    :feedback_d: Yes, the .split() method returns a list.
    :practice: T
    :topics: Sequences/SplitandJoin
+   :pct_on_first: 0.4745417515
+   :total_students_attempting: 1473
+   :num_students_correct: 1466.0
+   :mean_clicks_to_correct: 1.8035470668
 
    What is the type of ``x``?
-
+   
    .. sourcecode:: python
-
+   
     b = "My, what a lovely day"
     x = b.split(',')

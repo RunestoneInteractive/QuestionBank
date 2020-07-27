@@ -13,5 +13,9 @@
     :feedback_b: Wrong! A Node in a linked list can be in various locations in memory. This is very important to understand how linked lists operate.
     :feedback_c: Wrong! While every Node can and will likely be in various locations in memory, all those locations will not be contained in the UnorderedList class object.
     :feedback_d: Correct! An unordered linked list class object will have a pointer to the first Node of the list. That Node will contain a pointer to the second Node of the list, and so on.
+    :pct_on_first: 0.5575221239
+    :total_students_attempting: 113
+    :num_students_correct: 112.0
+    :mean_clicks_to_correct: 1.8035714286
 
     Select the correct statement below.

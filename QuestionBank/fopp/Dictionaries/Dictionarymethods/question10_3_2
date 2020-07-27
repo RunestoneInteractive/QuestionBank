@@ -10,10 +10,14 @@
    :feedback_a: Yes, dog is a key in the dictionary.
    :feedback_b: The in operator returns True if a key is in the dictionary, False otherwise.
    :practice: T
+   :pct_on_first: 0.8976135489
+   :total_students_attempting: 1299
+   :num_students_correct: 1285.0
+   :mean_clicks_to_correct: 1.0949416342
 
    What is printed by the following statements?
-
+   
    .. sourcecode:: python
-
+   
      mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
      print("dog" in mydict)

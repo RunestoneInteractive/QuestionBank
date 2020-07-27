@@ -4,9 +4,13 @@
         :basecourse: thinkcspy
         :topic: GeneralIntro/Exercises
         :from_source: F
+        :pct_on_first: 0.1304347826
+        :total_students_attempting: 230
+        :num_students_correct: 155.0
+        :mean_clicks_to_correct: 6.2967741935
 
         Complete the sentence: |blank| had a |blank| lamb. One plus one is: (note that if there aren't enough blanks for the feedback given, they're added to the end of the problem. So, we don't **need** to specify a blank here.)
-
+        
         -   :Mary: Is the correct answer.
             :Sue: Is wrong.
             :x: Try again. (Note: the last item of feedback matches anything, regardless of the string it's given.)

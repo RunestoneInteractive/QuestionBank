@@ -4,17 +4,21 @@
         :basecourse: fopp
         :topic: GeneralIntro/Exercises
         :from_source: F
-        :random
+        :random: 
         :correct: a
         :answer_a: Harry
         :answer_b: Hermione
         :feedback_a: Correct! It will print whatever value the variable `my_name` holds, and that is `Harry`.
         :feedback_b: Look a bit more careful. Python prints the value of the variable called `my_name`. What is the value of `my_name` in the program?
+        :pct_on_first: 1.0
+        :total_students_attempting: 16
+        :num_students_correct: 16.0
+        :mean_clicks_to_correct: 1.0
 
         Consider the following program you read line by line, top to bottom:
         
         .. code-block:: python
-
+        
          line 1: my_name = "Harry"
          line 2: your_name = "Hermione"
          line 3: print(my_name)

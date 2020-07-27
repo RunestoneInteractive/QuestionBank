@@ -14,11 +14,15 @@
    :feedback_c: Yes, since yourdict is an alias for mydict, the value for the key elephant has been changed.
    :feedback_d: There is only one dictionary with only one key named elephant.  The dictionary has two different names, mydict and yourdict.
    :practice: T
+   :pct_on_first: 0.7202910267
+   :total_students_attempting: 1237
+   :num_students_correct: 1217.0
+   :mean_clicks_to_correct: 1.4001643385
 
    What is printed by the following statements?
-
+   
    .. sourcecode:: python
-
+   
      mydict = {"cat":12, "dog":6, "elephant":23, "bear":20}
      yourdict = mydict
      yourdict["elephant"] = 999

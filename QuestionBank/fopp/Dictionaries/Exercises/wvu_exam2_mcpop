@@ -9,9 +9,13 @@
    :answer_c: my_dictionary.delete(key)
    :answer_d: del my_dictionary[key]
    :correct: b, d
+   :pct_on_first: 0.2105263158
+   :total_students_attempting: 19
+   :num_students_correct: 16.0
+   :mean_clicks_to_correct: 2.6875
 
    (4 points)
-
+   
    Which method(s) can be used to remove an element from a dictionary ``my_dictionary`` by the key ``key``?
-
+   
    Be careful you select the correct answer(s). Once you click Submit, your choice cannot be changed.

@@ -14,11 +14,15 @@
    :feedback_c: Look at the last assignment statement, which reassigns x, and not y.
    :feedback_d: Yes, x has the value 22 and y the value 15.
    :practice: T
+   :pct_on_first: 0.7308440296
+   :total_students_attempting: 2571
+   :num_students_correct: 2559.0
+   :mean_clicks_to_correct: 1.4232121923
 
    After the following statements, what are the values of x and y?
-
+   
    .. code-block:: python
-
+   
      x = 15
      y = x
      x = 22

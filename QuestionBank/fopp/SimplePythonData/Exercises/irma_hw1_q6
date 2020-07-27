@@ -9,5 +9,9 @@
    :correct: b
    :feedback_a: No, variable name cannot use special character unless it's an ``_``.
    :feedback_b: Correct.
+   :pct_on_first: 0.8533333333
+   :total_students_attempting: 375
+   :num_students_correct: 373.0
+   :mean_clicks_to_correct: 1.1420911528
 
    Is ``me+you`` a valid variable name?

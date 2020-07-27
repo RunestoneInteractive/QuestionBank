@@ -4,10 +4,14 @@
    :basecourse: cppds
    :topic: LinearBasic/ConvertingDecimalNumberstoBinaryNumbers
    :from_source: T
+   :pct_on_first: 0.4222222222
+   :total_students_attempting: 90
+   :num_students_correct: 81.0
+   :mean_clicks_to_correct: 1.7407407407
 
    What is value of 26 expressed in base 26?
-
+   
    |blank|
-
+   
    -  :10: Correct because 26 = 1x26^1.
       :x: No. You might want to modify the baseConverter function, or simply find a pattern in the conversion of bases.

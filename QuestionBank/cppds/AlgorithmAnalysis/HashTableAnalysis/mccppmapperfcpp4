@@ -15,5 +15,9 @@
     :feedback_c: Assignment to a hash table key is constant but there is a better answer.
     :feedback_d: Re-assignment to a hash table key is constant but there is a better answer.
     :feedback_e: The only hash table operations that are not O(1) are those that require iteration.
+    :pct_on_first: 0.5408163265
+    :total_students_attempting: 98
+    :num_students_correct: 98.0
+    :mean_clicks_to_correct: 1.9795918367
 
     Which of the hash table operations shown below is O(1)?

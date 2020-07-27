@@ -11,5 +11,9 @@
    :feedback_a: We must specify the name of the module where Python can find the Turtle object.
    :feedback_b: The period separates the module name from the object name.  The parentheses at the end are what tell Python to invoke a new object.
    :feedback_c: Yes, the Turtle type is defined in the module turtle.  Remember that Python is case sensitive and Turtle is different from turtle.
+   :pct_on_first: 0.7515265383
+   :total_students_attempting: 2129
+   :num_students_correct: 2118.0
+   :mean_clicks_to_correct: 1.2955618508
 
    Why do we type ``turtle.Turtle()`` to get a new Turtle object?

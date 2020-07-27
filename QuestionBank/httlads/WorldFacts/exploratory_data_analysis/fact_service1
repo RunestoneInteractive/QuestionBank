@@ -4,13 +4,17 @@
    :basecourse: httlads
    :topic: WorldFacts/exploratory_data_analysis
    :from_source: T
+   :pct_on_first: 0.5208333333
+   :total_students_attempting: 240
+   :num_students_correct: 223
+   :mean_clicks_to_correct: 2.0986547085
 
    What is the range of values for the tallest bar when creating a histogram of
    the fraction of the economy due to service? Lower: |blank| Upper: |blank|
-
+   
    - :(.5|.50|0.50): Is the correct answer
      :.49: Just a little too low
      :x: Try again, the number will be between 0 and 1.0
-
+   
    - :(.60|.6|0.60): Is correct
      :x: Try again, the number will be between 0.0 and 1.0

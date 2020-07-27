@@ -9,5 +9,9 @@
     :correct: a
     :feedback_a: You are correct!
     :feedback_b: No; remember the implementation of Matrix graphs.
+    :pct_on_first: 0.7894736842
+    :total_students_attempting: 19
+    :num_students_correct: 18.0
+    :mean_clicks_to_correct: 1.1666666667
 
     True/False: The Knight's Tour Graph contains as many vertices as there are tiles on a chessboard.

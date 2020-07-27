@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: navhelp/
    :from_source: T
+   :pct_on_first: 0.3125
+   :total_students_attempting: 16
+   :num_students_correct: 15.0
+   :mean_clicks_to_correct: 3.6
 
    Construct a block of code that correctly implements the accumulator pattern.
    -----

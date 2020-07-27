@@ -4,7 +4,7 @@
    :basecourse: cppds
    :topic: Trees/ExamplesofTrees
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: each node is unique
    :answer_b: children of one node are independent from children of another
    :answer_c: each node has children
@@ -14,5 +14,9 @@
    :feedback_b: correct
    :feedback_c: nodes can have no children
    :feedback_d: correct
+   :pct_on_first: 0.4639175258
+   :total_students_attempting: 97
+   :num_students_correct: 97.0
+   :mean_clicks_to_correct: 2.1030927835
 
    Which of the following are properties of a tree?

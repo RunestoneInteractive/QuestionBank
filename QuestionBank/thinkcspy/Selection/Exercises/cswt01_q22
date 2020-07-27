@@ -9,10 +9,14 @@
    :answer_c: Mid south
    :answer_d: Far south
    :correct: b
-   :random:
+   :random: 
+   :pct_on_first: 0.1923076923
+   :total_students_attempting: 52
+   :num_students_correct: 32.0
+   :mean_clicks_to_correct: 2.40625
 
    What does the following code print?::
-
+   
       latitude = 35
       if latitude > 40:
           print("Far north")

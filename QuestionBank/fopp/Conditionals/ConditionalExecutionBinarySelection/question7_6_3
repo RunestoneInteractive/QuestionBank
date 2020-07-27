@@ -14,25 +14,29 @@
    :feedback_c: Python will print FALSE from within the else-block (because 5+4 does not equal 10), and then print TRUE after the if-else statement completes.
    :feedback_d: To print these three lines, Python would have to execute both blocks in the if-else statement, which it can never do.
    :practice: T
+   :pct_on_first: 0.8710743802
+   :total_students_attempting: 1815
+   :num_students_correct: 1807.0
+   :mean_clicks_to_correct: 1.1914775872
 
    What does the following code print?
-
+   
    .. code-block:: python
-
+   
      if (4 + 5 == 10):
          print("TRUE")
      else:
          print("FALSE")
      print("TRUE")
-
+   
    ::
-
+   
       a. TRUE
-
+   
       b.
          TRUE
          FALSE
-
+   
       c.
          FALSE
          TRUE

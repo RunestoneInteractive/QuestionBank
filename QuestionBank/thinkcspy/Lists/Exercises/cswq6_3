@@ -9,10 +9,14 @@
    :answer_c: The last number in a list of numbers
    :answer_d: The first negative number in a list of numbers
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7410714286
+   :total_students_attempting: 112
+   :num_students_correct: 108.0
+   :mean_clicks_to_correct: 1.4259259259
 
    3. What does the following function return?::
-
+   
       def fun(alist):
           m = 0
           for n in alist:

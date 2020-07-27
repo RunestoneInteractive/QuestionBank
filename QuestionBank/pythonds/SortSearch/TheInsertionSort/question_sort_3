@@ -10,9 +10,13 @@
    :answer_c: [4, 5, 15, 18, 12, 19, 14, 10, 8, 20]
    :answer_d: [15, 5, 4, 18, 12, 19, 14, 8, 10, 20]
    :feedback_a: This is a bubble sort.
-   :feedback_b:  This is the result of selection sort.
+   :feedback_b: This is the result of selection sort.
    :feedback_c: Insertion sort works at the start of the list.  Each pass produces a longer sorted list.
    :feedback_d: Insertion sort works on the front of the list not the end.
+   :pct_on_first: 0.7264851485
+   :total_students_attempting: 1616
+   :num_students_correct: 1604.0
+   :mean_clicks_to_correct: 1.4145885287
 
     Suppose you have the following list of numbers to sort: <br>
     [15, 5, 4, 18, 12, 19, 14, 10, 8, 20] which list represents the partially sorted list after three complete passes of insertion sort?

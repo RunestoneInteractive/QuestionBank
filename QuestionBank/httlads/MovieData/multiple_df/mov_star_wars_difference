@@ -4,10 +4,14 @@
    :basecourse: httlads
    :topic: MovieData/multiple_df
    :from_source: T
+   :pct_on_first: 0.2452830189
+   :total_students_attempting: 212
+   :num_students_correct: 176
+   :mean_clicks_to_correct: 3.4659090909
 
    What's the percentage difference between the popular rating for Star Wars and my vote
    for it? |blank|
-
+   
    - :-10: Is the correct answer
      :10: Make sure you use the popular rating minus my rating
      :-0.10: Make sure you convert your answer to a percentage

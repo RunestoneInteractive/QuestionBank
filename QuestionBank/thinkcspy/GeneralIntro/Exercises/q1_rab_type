@@ -8,5 +8,9 @@
     :match_1: str|||"Ricardo Bernatelli"
     :match_2: int|||33
     :match_3: float|||2.71828
+    :pct_on_first: 0.5984251969
+    :total_students_attempting: 127
+    :num_students_correct: 125.0
+    :mean_clicks_to_correct: 2.136
 
     Match the correct type with the object.

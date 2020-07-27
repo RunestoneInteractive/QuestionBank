@@ -16,11 +16,15 @@
    :feedback_e: Incorrect, the for loop is iterating over an iterable object.
    :correct: a
    :practice: T
+   :pct_on_first: 0.7631578947
+   :total_students_attempting: 1596
+   :num_students_correct: 1583.0
+   :mean_clicks_to_correct: 1.5571699305
 
    What’s the type of your iterator variable in the second iteration?
-
+   
    .. sourcecode:: python
-
+   
        t = [9, "setter", 3, "wing spiker", 10, "middle blocker"]
        for z in t:
            print(z)

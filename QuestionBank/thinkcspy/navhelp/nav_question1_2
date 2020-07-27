@@ -4,7 +4,7 @@
    :basecourse: thinkcspy
    :topic: navhelp/
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: red
    :answer_b: yellow
    :answer_c: black
@@ -14,5 +14,9 @@
    :feedback_b: Yes, yellow is correct.
    :feedback_c: Remember the acronym...ROY G BIV.  B stands for blue.
    :feedback_d: Yes, green is one of the colors.
+   :pct_on_first: 0.8333333333
+   :total_students_attempting: 12
+   :num_students_correct: 11.0
+   :mean_clicks_to_correct: 1.0909090909
 
    Which colors might be found in a rainbow? (choose all that are correct)

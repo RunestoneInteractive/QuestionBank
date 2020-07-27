@@ -15,5 +15,9 @@
    :feedback_d: When making a new instace of the turtle class, you need to use dot notation.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
+   :pct_on_first: 0.8752424047
+   :total_students_attempting: 1547
+   :num_students_correct: 1540.0
+   :mean_clicks_to_correct: 1.1675324675
 
    Which is the correct way to make a new instance of the Turtle class?

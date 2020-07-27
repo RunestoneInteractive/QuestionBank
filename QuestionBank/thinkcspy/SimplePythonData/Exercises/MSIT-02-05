@@ -4,9 +4,13 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.8245614035
+   :total_students_attempting: 114
+   :num_students_correct: 113.0
+   :mean_clicks_to_correct: 1.3451327434
 
    Evaluate the expression: 4 * (2 + 3)**2 |blank|.
-
+   
    - :100: Yes.  Nicely done.
      :x: No.  Think.  What gets computed first?  Check operator precedence.  The answer is a number.

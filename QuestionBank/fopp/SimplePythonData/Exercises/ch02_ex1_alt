@@ -4,10 +4,14 @@
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
+   :pct_on_first: 0.5210084034
+   :total_students_attempting: 357
+   :num_students_correct: 340.0
+   :mean_clicks_to_correct: 2.5294117647
 
    Evaluate the following numerical expressions in your head, then use
    the active code window to check your results:
-
+   
    #. ``5 ** 2`` |blank|
    #. ``9 * 5`` |blank|
    #. ``15 / 12`` |blank|
@@ -20,7 +24,7 @@
    #. ``12 % 15`` |blank|
    #. ``6 % 6`` |blank|
    #. ``0 % 7`` |blank|
-
+   
    -   :25: 1. Right!
        :10: 1. ** means exponentiation.
        :x: 1. Try again.
@@ -65,14 +69,14 @@
       :z: 11. Try again.
    -  :0: 12. Right!
       :z: 12. Try again.
-
-
-
-
-
-
-
-
-config values (conf.py):
-
+   
+   
+   
+   
+   
+   
+   
+   
+   fig values (conf.py):
+   
     - fitb_div_class - custom CSS class of the component's outermost div

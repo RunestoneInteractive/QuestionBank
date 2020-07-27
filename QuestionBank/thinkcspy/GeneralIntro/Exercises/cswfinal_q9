@@ -9,6 +9,10 @@
    :answer_c: Half as many
    :answer_d: One less
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8717948718
+   :total_students_attempting: 39
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.2307692308
 
    9. Your boss has gotten a good deal on memory chips and has decided to double the amount of data stored in Bertha. How many additional comparisons will it take your algorithm, in the worst case, to carry out a binary search on the doubled amount of data?

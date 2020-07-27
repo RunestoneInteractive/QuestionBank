@@ -4,10 +4,14 @@
    :basecourse: pythonds
    :topic: BasicDS/InfixPrefixandPostfixExpressions
    :from_source: T
+   :pct_on_first: 0.6158536585
+   :total_students_attempting: 1476
+   :num_students_correct: 1344.0
+   :mean_clicks_to_correct: 1.709077381
 
    What is the result of evaluating the following: ``17 10 + 3 * 9 / ==`` ?
-
+   
    |blank|
-
+   
    -  :9: Correct.
       :x: Remember to push each intermediate result back on the stack

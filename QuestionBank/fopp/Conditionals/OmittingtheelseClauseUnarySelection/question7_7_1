@@ -14,24 +14,28 @@
    :feedback_c: Python will also execute the statement that follows the if-block (because it is not enclosed in an else-block, but rather just a normal statement).
    :feedback_d: It is valid to have an if-block without a corresponding else-block (though you cannot have an else-block without a corresponding if-block).
    :practice: T
+   :pct_on_first: 0.8113636364
+   :total_students_attempting: 1760
+   :num_students_correct: 1749.0
+   :mean_clicks_to_correct: 1.2795883362
 
    What does the following code print?
-
+   
    .. code-block:: python
-
+   
      x = -10
      if x < 0:
          print("The negative number ",  x, " is not valid here.")
      print("This is always printed")
-
+   
    ::
-
+   
      a.
      This is always printed
-
+   
      b.
      The negative number -10 is not valid here
      This is always printed
-
+   
      c.
      The negative number -10 is not valid here

@@ -13,5 +13,9 @@
    :feedback_b: The initial call to vectsum is not a recursive call.
    :feedback_c: the first recursive call passes the vector {4,6,8,10}, the second {6,8,10} and so on until [10].
    :feedback_d: This would not be enough calls to cover all the numbers on the vector
+   :pct_on_first: 0.4675324675
+   :total_students_attempting: 77
+   :num_students_correct: 77.0
+   :mean_clicks_to_correct: 1.961038961
 
    How many recursive calls are made when computing the sum of the vector {2,4,6,8,10}?

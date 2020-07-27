@@ -13,5 +13,9 @@
    :feedback_b: True, but not in this context.  We mean a program as related to a computer.
    :feedback_c: A program can perform a computation, but by itself it is not one.
    :feedback_d: Programs often implement algorithms, but they are not the same thing.  An algorithm is a step by step list of instructions, but those instructions are not necessarily precise enough for a computer to follow.  A program must be written in a programming language that the computer knows how to interpret.
+   :pct_on_first: 0.8923173804
+   :total_students_attempting: 3176
+   :num_students_correct: 3166.0
+   :mean_clicks_to_correct: 1.1699305117
 
    A program is:

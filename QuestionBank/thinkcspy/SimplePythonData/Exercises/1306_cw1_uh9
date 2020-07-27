@@ -4,9 +4,13 @@
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
+    :pct_on_first: 0.7480916031
+    :total_students_attempting: 131
+    :num_students_correct: 130.0
+    :mean_clicks_to_correct: 1.4230769231
 
     What is the Python value of 10.0 / 4.0?
-
-
-  - :2.5: Correct!
+    
+    
+    :2.5: Correct!
     :.*: Try again.

@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: Conditionals/Exercises
    :from_source: T
+   :pct_on_first: 0.2579564489
+   :total_students_attempting: 597
+   :num_students_correct: 576.0
+   :mean_clicks_to_correct: 3.0381944444
 
    Piece together a program so that it can successfully print out one print statement, given the value of x.
    -----

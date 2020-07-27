@@ -21,6 +21,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 import altair as alt
 from os import environ
+import redis
+import json
 
 
 # %%
@@ -157,9 +159,44 @@ def get_combined_qtypes(basecourse):
             res = get_combined_stats(basecourse, qtype)
             res["question_type"] = qtype
             flist.append(res)
-        except:
+        except Exception:
             print(f"No stats for {qtype}")
     return pd.concat(flist)
 
 
 # %%
+
+
+def save_results_to_redis(basecourse, rframe, rconn):
+    """Save the following values for each question to redis
+    * pct_on_first
+    * num_students_attempting
+    * num_students_correct
+    * mean_clicks_to_correct
+
+    Args:
+        basecourse (string): Which course are these questions from
+        rframe (DataFrame): a Pandas dataframe with results
+        rconn (Redis) a Redis connection
+    """
+    for ix, row in rframe.iterrows():
+        key = f"{basecourse}/{row.chapter}/{row.subchapter}/{row['name']}"
+        rconn.set(key, json.dumps(row.to_json()))
+
+
+# %%
+for c in [
+    # "pythonds",
+    # "cppds",
+    # "haugrud",
+    # "cps110fall2018",
+    # "cps110spring2019",
+    "csawesome",
+    "httlads",
+]:
+    x = get_combined_qtypes(c)
+    save_results_to_redis(c, x, r)
+
+
+# %%
+

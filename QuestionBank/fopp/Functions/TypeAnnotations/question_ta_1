@@ -14,13 +14,17 @@
    :feedback_c: Incorrect. Python ignores the ': str' annotation and allows the float value 2.5 to be passed to msg.
    :feedback_d: Incorrect. In this call, msg contains the float value 2.5, not a str, so the + operation is legal.
    :practice: T
+   :pct_on_first: 0.3805309735
+   :total_students_attempting: 113
+   :num_students_correct: 111.0
+   :mean_clicks_to_correct: 2.3153153153
 
    What happens when the following is executed?
-
+   
    .. sourcecode:: python
-
+   
         def display(msg: str):
             """Displays `msg` on the screen"""
             print(msg + 2)
-
+   
         display(2.5)

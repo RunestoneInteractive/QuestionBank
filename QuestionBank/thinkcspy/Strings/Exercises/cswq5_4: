@@ -9,9 +9,13 @@
    :answer_c: Error
    :answer_d: b r o w n&nbsp;&nbsp;&nbsp;c o w
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.5416666667
+   :total_students_attempting: 168
+   :num_students_correct: 164.0
+   :mean_clicks_to_correct: 1.8963414634
 
    4. If s = "How now, brown cow?", what does the following code print?::
-
+   
       for i in range(1, 9, 2):
           print(s[i], end = ' ')

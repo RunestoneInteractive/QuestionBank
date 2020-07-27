@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: F
+   :pct_on_first: 0.0845070423
+   :total_students_attempting: 284
+   :num_students_correct: 253.0
+   :mean_clicks_to_correct: 5.0711462451
 
    Construct a block of code that accumulates the array of five (5) integers, arr.
    -----

@@ -14,11 +14,15 @@
    :feedback_b: Repetition does not add a space.
    :feedback_c: Slicing will not include the character at index 11.  Just up to it (10 in this case).
    :feedback_d: The slice will happen first, then the repetition.  So it is ok.
+   :pct_on_first: 0.5809052593
+   :total_students_attempting: 10914
+   :num_students_correct: 10858.0
+   :mean_clicks_to_correct: 1.6201878799
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s[7:11] * 3)

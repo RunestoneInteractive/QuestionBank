@@ -5,15 +5,19 @@
     :topic: LinearBasic/BalancedSymbolsGeneralCase
     :from_source: T
     :question: Using the program above, click on the line of code that adds an open parentheses to the stack.
-    :iscode:
+    :iscode: 
     :feedback: Remember that the function to do this would be the push function.
+    :pct_on_first: 0.5531914894
+    :total_students_attempting: 94
+    :num_students_correct: 82.0
+    :mean_clicks_to_correct: 2.256097561
 
     :click-incorrect:bool parChecker(string symbolString){:endclick:
           :click-incorrect:stack<string> s;:endclick:
           :click-incorrect:bool balanced = true;:endclick:
           :click-incorrect:int index = 0;:endclick:
           :click-incorrect:int symbolLength = symbolString.length();:endclick:
-
+    
           while(index < symbolLength && balanced){
               :click-incorrect:string symbol;:endclick:
               :click-incorrect:symbol = symbolString[index];:endclick:

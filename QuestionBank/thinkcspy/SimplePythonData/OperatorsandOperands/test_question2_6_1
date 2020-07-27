@@ -14,9 +14,13 @@
    :feedback_b: The / operator does exact division and returns a floating point result.
    :feedback_c: The / operator does exact division and returns a floating point result.
    :feedback_d: The / operator does exact division and returns a floating point result.
+   :pct_on_first: 0.8419771661
+   :total_students_attempting: 22598
+   :num_students_correct: 22545.0
+   :mean_clicks_to_correct: 1.2222222222
 
    What value is printed when the following statement executes?
-
+   
    .. code-block:: python
-
+   
       print(18 / 4)

@@ -9,9 +9,13 @@
    :answer_c: ['e', 'e', 'e']
    :answer_d: ["Sally", "sells", "seashells"]
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7070707071
+   :total_students_attempting: 99
+   :num_students_correct: 98.0
+   :mean_clicks_to_correct: 1.4183673469
 
    7. What is the value of x after executing the following code?::
-
+   
       s = "Sally sells seashells"
       x = s.split('e')

@@ -13,11 +13,15 @@
    :feedback_c: This is the accumulator variable. By the end of the program, it will have a full count of how many items are in cawdra.
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithLists
+   :pct_on_first: 0.6548089592
+   :total_students_attempting: 759
+   :num_students_correct: 756.0
+   :mean_clicks_to_correct: 1.5145502646
 
    Which of these is the sequence?
-
+   
    .. sourcecode:: python
-
+   
     cawdra = ['candy', 'daisy', 'pear', 'peach', 'gem', 'crown']
     t = 0
     for elem in cawdra:

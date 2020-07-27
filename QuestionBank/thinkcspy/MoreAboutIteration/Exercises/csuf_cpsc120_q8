@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    As with the <b>Fibonacci Sequence</b>, the <b>factorial problem</b> is another important problem in computer science. It can be done using recursion which again, will be taught in later courses.</b><br>
    <br>
-
+   
    A factorial, <b>n!</b> is the product of all positive integers less than or equal to n. <br>
    <br>
    For example: 4! = 4 * 3 * 2 * 1 = 24

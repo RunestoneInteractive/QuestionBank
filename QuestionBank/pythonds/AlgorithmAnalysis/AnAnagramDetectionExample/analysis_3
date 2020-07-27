@@ -13,11 +13,15 @@
     :feedback_b: Check again, is this a nested loop?
     :feedback_d: Check again, is this a nested loop?
     :feedback_c: The value of i is cut in half each time through the loop so it will only take log n iterations.
+    :pct_on_first: 0.5204448806
+    :total_students_attempting: 3057
+    :num_students_correct: 3028.0
+    :mean_clicks_to_correct: 1.6126155878
 
     Given the following code fragment what is its Big-O running time?
-
+    
     .. code-block:: python
-
+    
       i = n
       while i > 0:
          k = 2 + 2

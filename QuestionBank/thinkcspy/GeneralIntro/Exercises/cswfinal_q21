@@ -9,6 +9,10 @@
    :answer_c: 220 ms
    :answer_d: 16 ms
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6315789474
+   :total_students_attempting: 38
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.7567567568
 
    21. If it takes 4 ms (milliseconds) to calculate the hash location for Sally when using 110 locations, how long does it take to calculate the hash location for Sally when using 220 memory locations?

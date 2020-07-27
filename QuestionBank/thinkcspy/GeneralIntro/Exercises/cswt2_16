@@ -9,6 +9,10 @@
    :answer_c: 400 ms
    :answer_d: 600 ms
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6363636364
+   :total_students_attempting: 99
+   :num_students_correct: 99.0
+   :mean_clicks_to_correct: 1.696969697
 
    16. If it takes 20 ms (milliseconds), on average, to search a list of 150 items, using linear search, how long will it take, on average, to search a list of 600 items?

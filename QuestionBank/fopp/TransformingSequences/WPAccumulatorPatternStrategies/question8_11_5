@@ -14,5 +14,9 @@
    :feedback_d: Incorrect, we will need an accumulator variable.
    :correct: c
    :practice: T
+   :pct_on_first: 0.5300171527
+   :total_students_attempting: 1166
+   :num_students_correct: 1156.0
+   :mean_clicks_to_correct: 1.9091695502
 
    What type should be used for the accumulator variable in the following prompt? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

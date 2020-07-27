@@ -9,6 +9,10 @@
    :answer_c: there are too many variables for a for loop to handle
    :answer_d: never - you will always use a for loop
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8909090909
+   :total_students_attempting: 55
+   :num_students_correct: 55.0
+   :mean_clicks_to_correct: 1.1272727273
 
    16. You will prefer a while loop, rather than a for loop, when

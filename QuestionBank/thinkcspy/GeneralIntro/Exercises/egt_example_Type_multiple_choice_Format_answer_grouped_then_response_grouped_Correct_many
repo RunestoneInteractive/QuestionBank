@@ -13,5 +13,9 @@
    :feedback_b: Yes, Java is an object oriented language.
    :feedback_c: No, C is an imperative programming language.
    :feedback_d: No, ML is a functional programming language.
+   :pct_on_first: 0.1764705882
+   :total_students_attempting: 34
+   :num_students_correct: 34.0
+   :mean_clicks_to_correct: 2.3235294118
 
    What programming language(s) are Object-Oriented?

@@ -4,9 +4,13 @@
     :basecourse: thinkcspy
     :topic: SimplePythonData/Exercises
     :from_source: F
+    :pct_on_first: 0.6260869565
+    :total_students_attempting: 115
+    :num_students_correct: 115.0
+    :mean_clicks_to_correct: 2.2086956522
 
     What is the Python value of 4 + 2 ** 8 / 4?
-
-
-  - :68.0: Correct!
+    
+    
+    :68.0: Correct!
     :.*: Try again.

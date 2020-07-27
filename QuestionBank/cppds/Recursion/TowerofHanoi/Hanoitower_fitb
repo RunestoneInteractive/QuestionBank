@@ -4,9 +4,13 @@
     :basecourse: cppds
     :topic: Recursion/TowerofHanoi
     :from_source: T
+    :pct_on_first: 0.2777777778
+    :total_students_attempting: 36
+    :num_students_correct: 24.0
+    :mean_clicks_to_correct: 1.8333333333
 
     If you change the tower height in Line 17 from 3 to 6, how many moves must you make to complete the Hanoi tower? (hint, try implementing a counter to return the correct number)
-
+    
     - :63: Correct, you can make a global counter at line 3, and then cout the increasing total under line 11.
       :62: Technically you are correct but, you are off by one.
       :.*: Please try again you need to add a statement at line 3, and under line 11.

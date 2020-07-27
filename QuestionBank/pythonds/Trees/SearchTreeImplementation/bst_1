@@ -11,6 +11,10 @@
    :feedback_b: good job.
    :answer_c: <img src="../_static/bintree_c.png">
    :feedback_c: This looks like a binary tree that satisfies the full tree property needed for a heap.
+   :pct_on_first: 0.7864923747
+   :total_students_attempting: 1377
+   :num_students_correct: 1360.0
+   :mean_clicks_to_correct: 1.3007352941
 
    Which of the trees shows a correct binary search tree given that the keys were
    inserted in the following order 5, 30, 2, 40, 25, 4.

@@ -4,8 +4,12 @@
    :basecourse: httlads
    :topic: WorldFacts/screenscrape_cids
    :from_source: T
+   :pct_on_first: 0.5935828877
+   :total_students_attempting: 187
+   :num_students_correct: 177
+   :mean_clicks_to_correct: 2.197740113
 
    How many keys are in the dictionary returned for the country of Peru? |blank|
-
+   
    - :24: Is the correct answer
      :x: Use the keys method after .json() to see the list of keys

@@ -9,5 +9,9 @@
    :answer_c: compiled assembly language
    :answer_d: high-level formal language
    :correct: d
+   :pct_on_first: 0.675
+   :total_students_attempting: 320
+   :num_students_correct: 315.0
+   :mean_clicks_to_correct: 1.6444444444
 
    The Python language is a

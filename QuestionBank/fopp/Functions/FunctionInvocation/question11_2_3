@@ -12,11 +12,15 @@
    :feedback_b: Check again.
    :feedback_c: When the function is invoked, it will print two lines, but it has only been defined, not invoked.
    :practice: T
+   :pct_on_first: 0.3495575221
+   :total_students_attempting: 1582
+   :num_students_correct: 1571.0
+   :mean_clicks_to_correct: 1.9605346913
 
    How many lines will be output by executing this code?
-
+   
    .. code-block:: python
-
+   
       def hello():
          print("Hello")
          print("Glad to meet you")

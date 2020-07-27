@@ -5,8 +5,12 @@
     :topic: GeneralIntro/Exercises
     :from_source: F
     :question: Click anywhere you see a comment
-    :iscode:
+    :iscode: 
     :feedback: Comments start with a # symbol
+    :pct_on_first: 0.5842696629
+    :total_students_attempting: 178
+    :num_students_correct: 174.0
+    :mean_clicks_to_correct: 1.7701149425
 
     :click-correct: # my first program!!:endclick:
     :click-incorrect: :endclick:

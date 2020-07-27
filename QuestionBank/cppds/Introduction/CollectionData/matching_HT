@@ -10,5 +10,9 @@
    :match_3: count|||Returns true if key is in the hash table, and false otherwise.
    :match_4: begin|||An iterator to the first element in the hash table.
    :match_5: end|||An iterator pointing to past-the-end element of the hash table.
+   :pct_on_first: 0.7096774194
+   :total_students_attempting: 124
+   :num_students_correct: 117.0
+   :mean_clicks_to_correct: 1.7606837607
 
     Match the Hash Table operations with their corresponding explination.

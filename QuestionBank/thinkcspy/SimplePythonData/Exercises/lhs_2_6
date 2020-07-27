@@ -5,8 +5,12 @@
     :topic: SimplePythonData/Exercises
     :from_source: F
     :question: Click on any variable that is an integer
-    :iscode:
+    :iscode: 
     :feedback: Remember input() returns a string...
+    :pct_on_first: 0.1376975169
+    :total_students_attempting: 443
+    :num_students_correct: 437.0
+    :mean_clicks_to_correct: 3.9656750572
 
     :click-incorrect:var1:endclick: = 14.0
     :click-correct:var2:endclick: = 24

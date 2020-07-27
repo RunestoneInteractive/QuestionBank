@@ -4,7 +4,11 @@
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :noindent:
+   :noindent: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 6
+   :num_students_correct: 6.0
+   :mean_clicks_to_correct: 1.0
 
    Write a program that will convert tablespoons to teaspoons. This program will also need to get input from a user to see how many tablespoons should be converted and the result should be printed to the user.
    -----

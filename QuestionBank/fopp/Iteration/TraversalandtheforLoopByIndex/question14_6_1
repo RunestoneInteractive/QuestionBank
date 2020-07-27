@@ -16,11 +16,15 @@
    :feedback_d: idx % 2 is 0 whenever idx is even
    :feedback_e: idx % 2 is 0 whenever idx is even
    :practice: T
+   :pct_on_first: 0.3390216155
+   :total_students_attempting: 1758
+   :num_students_correct: 1737.0
+   :mean_clicks_to_correct: 2.7495682211
 
    How many times is the letter p printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python"
       for idx in range(len(s)):
          print(s[idx % 2])

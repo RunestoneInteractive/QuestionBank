@@ -12,5 +12,9 @@
    :feedback_c: .json() tries to invoke the json method, but that method is not defined for dictionaries
    :correct: b
    :practice: T
+   :pct_on_first: 0.6656716418
+   :total_students_attempting: 335
+   :num_students_correct: 333.0
+   :mean_clicks_to_correct: 1.4264264264
 
    Because we can only write strings into a file, if we wanted to convert a dictionary `d` into a json-formatted string so that we could store it in a file, what would we use?

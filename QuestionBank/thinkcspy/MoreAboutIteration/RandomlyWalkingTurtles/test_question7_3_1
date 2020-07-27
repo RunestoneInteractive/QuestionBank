@@ -12,5 +12,9 @@
    :feedback_a: Although you do not know how many iterations you loop will run before the program starts running, once you have chosen your random integer, Python knows exactly how many iterations the loop will run, so either a for-loop or a while-loop will work.
    :feedback_b: As you learned in section 7.2, a while-loop can always be used for anything a for-loop can be used for.
    :feedback_c: Although you do not know how many iterations you loop will run before the program starts running, once you have chosen your random integer, Python knows exactly how many iterations the loop will run, so this is an example of definite iteration.
+   :pct_on_first: 0.680614946
+   :total_students_attempting: 9822
+   :num_students_correct: 9774.0
+   :mean_clicks_to_correct: 1.4244935543
 
    Which type of loop can be used to perform the following iteration: You choose a positive integer at random and then print the numbers from 1 up to and including the selected integer.

@@ -9,14 +9,18 @@
    :answer_c: 10
    :answer_d: Nothing - total is an invalid variable name
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Yes, the value is 20.0
    :feedback_b: No, the value is not 25
    :feedback_c: No, the value is not 10
    :feedback_d: No, the value is not nothing - total is a legal variable name
+   :pct_on_first: 0.7272727273
+   :total_students_attempting: 22
+   :num_students_correct: 22.0
+   :mean_clicks_to_correct: 1.4545454545
 
    What is the value of average after executing the following statements?::
-
+   
       total = 0
       total = total + 10<br>
       total = total + 25<br>

@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    There is a famous coding interview question called "Fizz Buzz". Fizz Buzz can be implemented using a simple for loop with many different if checks. <br> <br>
    The <b>pseudocode</b> of Fizz Buzz looks like this:<br><br>
@@ -16,7 +20,7 @@
    &emsp;print "Buzz"<br>
    else print n<br>
    end if <br><br>
-
+   
    Construct a solution to the Fizz Buzz problem using the code blocks.
    
    -----

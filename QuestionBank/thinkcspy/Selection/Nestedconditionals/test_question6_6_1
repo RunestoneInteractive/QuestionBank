@@ -10,11 +10,15 @@
    :correct: a
    :feedback_a: This is a legal nested if-else statement.  The inner if-else statement is contained completely within the body of the outer else-block.
    :feedback_b: This is a legal nested if-else statement.  The inner if-else statement is contained completely within the body of the outer else-block.
+   :pct_on_first: 0.8335819305
+   :total_students_attempting: 14079
+   :num_students_correct: 14014.0
+   :mean_clicks_to_correct: 1.1731839589
 
    Will the following code cause an error?
-
+   
    .. code-block:: python
-
+   
      x = -10
      if x < 0:
          print("The negative number ",  x, " is not valid here.")

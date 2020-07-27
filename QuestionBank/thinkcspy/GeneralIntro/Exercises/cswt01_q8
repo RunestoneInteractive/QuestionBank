@@ -9,6 +9,10 @@
    :answer_c: 3502
    :answer_d: ED06
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.875
+   :total_students_attempting: 40
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 1.15
 
    Show the hexadecimal number corresponding to the following bit pattern: 111 1101 0000 0110

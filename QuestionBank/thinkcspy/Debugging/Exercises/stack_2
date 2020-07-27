@@ -13,8 +13,12 @@
     :feedback_b: Not a name error.
     :feedback_c: Not a type error
     :feedback_d: There's definitely an error
+    :pct_on_first: 0.6730769231
+    :total_students_attempting: 52
+    :num_students_correct: 52.0
+    :mean_clicks_to_correct: 1.5384615385
 
     This code looks correct, but something is up. What type of error is it? 
-
+    
     for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]
             print("Hi", name, "Please come to my party on Saturday!")

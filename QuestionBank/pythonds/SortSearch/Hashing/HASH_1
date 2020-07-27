@@ -9,9 +9,13 @@
    :answer_b: 13, 0
    :answer_c: 1, 0
    :answer_d: 2, 3
-   :feedback_a:  Be careful to use modulo not integer division
-   :feedback_b:  Don't divide by two, use the modulo operator.
+   :feedback_a: Be careful to use modulo not integer division
+   :feedback_b: Don't divide by two, use the modulo operator.
    :feedback_c: 27 % 13 == 1 and 130 % 13 == 0
    :feedback_d: Use the modulo operator
+   :pct_on_first: 0.6454646018
+   :total_students_attempting: 1808
+   :num_students_correct: 1795.0
+   :mean_clicks_to_correct: 1.5487465181
 
    In a hash table of size 13 which index positions would the following two keys map to?  27,  130

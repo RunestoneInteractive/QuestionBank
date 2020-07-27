@@ -10,10 +10,14 @@
    :correct: a
    :feedback_a: Yes, 3.14 is an item in the list alist.
    :feedback_b: There are 7 items in the list, 3.14 is one of them.
+   :pct_on_first: 0.9136382032
+   :total_students_attempting: 12355
+   :num_students_correct: 12311.0
+   :mean_clicks_to_correct: 1.0876451954
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
      print(3.14 in alist)

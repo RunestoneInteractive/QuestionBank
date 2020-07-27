@@ -16,11 +16,15 @@
    :feedback_e: Yes, Python is unable to iterate over integers and floats.
    :correct: e
    :practice: T
+   :pct_on_first: 0.3997569866
+   :total_students_attempting: 1646
+   :num_students_correct: 1640.0
+   :mean_clicks_to_correct: 2.5670731707
 
    What is the type of your iterable?
-
+   
    .. sourcecode:: python
-
+   
        y = 18
        for z in y:
            print(z)

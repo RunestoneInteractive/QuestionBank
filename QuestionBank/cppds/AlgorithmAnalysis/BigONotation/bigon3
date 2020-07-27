@@ -4,15 +4,19 @@
     :basecourse: cppds
     :topic: AlgorithmAnalysis/BigONotation
     :from_source: F
-    :casei:
+    :casei: 
+    :pct_on_first: 0.3275862069
+    :total_students_attempting: 58
+    :num_students_correct: 47.0
+    :mean_clicks_to_correct: 3.5531914894
 
     The Big O of a particular algorithm is :math:`O(n^{3})`. Given that it takes 2 seconds to complete the algorithm with 1000 inputs;
     how long would it take with 2000 inputs?
     ``|blank|`` seconds.
-
+    
     10,000?
     ``|blank|`` seconds.
-
+    
     -   :16: Correct!
         :6 9: Incorrect. Try higher. Think about what happens to the time as more operations occur.
         :23 6: Incorrect. Try lower. Think about what happens to the time as more operations occur.

@@ -12,11 +12,15 @@
    :feedback_a: Assignment is not allowed with strings.
    :feedback_b: Assignment is not allowed with strings.
    :feedback_c: Yes, strings are immutable.
+   :pct_on_first: 0.6027947933
+   :total_students_attempting: 10448
+   :num_students_correct: 10367.0
+   :mean_clicks_to_correct: 1.5844506608
 
    What is printed by the following statements:
-
+   
    .. code-block:: python
-
+   
       s = "Ball"
       s[0] = "C"
       print(s)

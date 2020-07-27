@@ -9,8 +9,12 @@
    :answer_c: 11100001
    :answer_d: 10011000
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.5967741935
+   :total_students_attempting: 62
+   :num_students_correct: 61.0
+   :mean_clicks_to_correct: 1.868852459
 
    1. Convert the following positive binary number to negative::
-
+   
       00100000

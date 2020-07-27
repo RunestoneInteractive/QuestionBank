@@ -9,10 +9,14 @@
    :answer_c: a parallelagram
    :answer_d: a star with three points
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8444444444
+   :total_students_attempting: 45
+   :num_students_correct: 45.0
+   :mean_clicks_to_correct: 1.2
 
    What shape does the following code draw?::
-
+   
       import turtle
       wn = turtle.Screen()
       janet = turtle.Turtle()

@@ -14,5 +14,9 @@
    :feedback_b: A function needs to specify its parameters in its header.
    :feedback_c: A function definition needs to include the keyword def.
    :feedback_d: A function definition header must end in a colon (:).
+   :pct_on_first: 0.4945806134
+   :total_students_attempting: 16238
+   :num_students_correct: 16176.0
+   :mean_clicks_to_correct: 1.8341988131
 
    Which of the following is a valid function header (first line of a function definition)?

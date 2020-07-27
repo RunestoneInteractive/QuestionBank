@@ -7,4 +7,7 @@
     :match_1: b|||o
     :match_2: c|||p
     :match_3: l|||y
-    :match_4: g|||t
+    :pct_on_first: 0.4117647059
+    :total_students_attempting: 561
+    :num_students_correct: 500.0
+    :mean_clicks_to_correct: 2.78

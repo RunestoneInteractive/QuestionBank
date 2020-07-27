@@ -14,11 +14,15 @@
    :feedback_c: 5 is added to each item before the append operation is performed.
    :feedback_d: It is OK to have a complex expression inside the call to the append method. The expression `lst[i]+5` is fully evaluated before the append operation is performed.
    :practice: T
+   :pct_on_first: 0.6734848485
+   :total_students_attempting: 1320
+   :num_students_correct: 1314.0
+   :mean_clicks_to_correct: 1.4467275495
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      lst= [3,0,9,4,1,7]
      new_list=[]
      for i in range(len(lst)):

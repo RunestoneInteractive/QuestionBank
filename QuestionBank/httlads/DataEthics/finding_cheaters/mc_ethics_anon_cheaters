@@ -4,42 +4,46 @@
    :basecourse: httlads
    :topic: DataEthics/finding_cheaters
    :from_source: T
-   :random:
+   :random: 
+   :pct_on_first: 0.3101265823
+   :total_students_attempting: 158
+   :num_students_correct: 149
+   :mean_clicks_to_correct: 2.9127516779
 
    Check the ids of all of the cheaters here.
-
+   
    - 7002589994262270000
-
+   
      + Cheater number 1
-
+   
    - 2416068425895370000
-
+   
      + Cheater number 2
-
+   
    - 1547483661413490000
-
+   
      + Cheater number 3
-
+   
    - 6228119144908420000
-
+   
      + Cheater number 4
-
+   
    - 1718561694846000000
-
+   
      + Cheater number 5
-
+   
    - 4643766977283540000
-
+   
      - You accuse an innocent person
-
+   
    - 1693568023468290000
-
+   
      - You accuse an innocent person
-
+   
    - All are cheaters
-
+   
      - No, not everyone is a cheater
-
+   
    - All are honest
-
+   
      - No, not everyone is honest

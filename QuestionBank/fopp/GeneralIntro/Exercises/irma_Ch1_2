@@ -4,19 +4,23 @@
         :basecourse: fopp
         :topic: GeneralIntro/Exercises
         :from_source: F
-        :random
+        :random: 
         :correct: b
         :answer_a: 5
         :answer_b: 10
         :answer_c: 3
-        :feedback_a: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to? 
+        :feedback_a: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to?
         :feedback_b: Correct. c = a + b = 7 + 3  = 10
-        :feedback_c: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to? 
+        :feedback_c: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to?
+        :pct_on_first: 0.8
+        :total_students_attempting: 15
+        :num_students_correct: 14.0
+        :mean_clicks_to_correct: 1.2142857143
 
         Consider the following program you read top to bottom:
         
         .. code-block:: python
-
+        
          line 1: a = 2 
          line 2: b = 3 
          line 3: c = a + b 

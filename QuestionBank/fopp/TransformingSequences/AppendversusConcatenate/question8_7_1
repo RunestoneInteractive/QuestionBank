@@ -10,11 +10,15 @@
    :feedback_a: You cannot concatenate a list with an integer.
    :feedback_b: Yes, in order to perform concatenation you would need to write alist+[999].  You must have two lists.
    :practice: T
+   :pct_on_first: 0.472361809
+   :total_students_attempting: 1393
+   :num_students_correct: 1373.0
+   :mean_clicks_to_correct: 1.542607429
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4,2,8,6,5]
      alist = alist + 999
      print(alist)

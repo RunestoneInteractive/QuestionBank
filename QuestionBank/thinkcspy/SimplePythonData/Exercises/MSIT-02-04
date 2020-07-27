@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 14
+   :num_students_correct: 13.0
+   :mean_clicks_to_correct: 8.8461538462
 
    In the expression 4 * (2 + 3)**2, which operation happens first?
-
+   
    - :addition: Yes  Nicely done.
      :add: Very close.  Name the operation Try again.
      :plus: Almost.  Name the operation  Try again.

@@ -13,5 +13,9 @@
    :feedback_b: Incorrect. In fact, the program wouldn't return anything.
    :feedback_a: Incorrect. The complete opposite would happen instead.
    :feedback_d: Incorrect. Recursive calls will continue to be called even without a base case.
+   :pct_on_first: 0.6463414634
+   :total_students_attempting: 82
+   :num_students_correct: 82.0
+   :mean_clicks_to_correct: 1.5
 
    Why is a base case needed in a recursive function?

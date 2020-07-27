@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: Functions/TheAccumulatorPattern
    :from_source: T
+   :pct_on_first: 0.422506684
+   :total_students_attempting: 12343
+   :num_students_correct: 11912.0
+   :mean_clicks_to_correct: 2.7524345198
 
    Rearrange the code statements so that the program will add up the first n odd numbers where n is provided by the user.
    -----

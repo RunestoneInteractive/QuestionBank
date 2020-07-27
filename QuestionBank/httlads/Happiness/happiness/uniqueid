@@ -4,13 +4,17 @@
    :basecourse: httlads
    :topic: Happiness/happiness
    :from_source: F
+   :pct_on_first: 0.3142857143
+   :total_students_attempting: 70
+   :num_students_correct: 52
+   :mean_clicks_to_correct: 3.5384615385
 
    What does your spreadsheet show for the population of the United States? |blank| what does the countries of the world sheet show for the united states? |blank|
-
+   
    - :#N/A: Is the correct answer
      :298444215: Really?  check again on the happiness_2017 spreadsheet
      :x: The happiness_2017 spreadsheet will not have a value for the United States
-
+   
    - :298444215: Is the correct answer
      :#N/A: Make sure you are looking at the right spreadsheet
      :x: Check a little more carefully

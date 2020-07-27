@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 2.0
 
    Sometimes, we unintentionally create <b>infinite loops.</b> An infinite loop occurs when a loop never reaches an exit condition. An <b>Alderson loop</b> (like Elliot Alderson from the hit TV series, Mr. Robot!) is when an exit condition is programmed but can never be reached.
    <br><br>
@@ -12,7 +16,7 @@
    Construct a program that will fix this infinite loop. 
    <br> <br>
    The code is provided below. Assume all headers and namespace std is already at the top of the file.<br> <br>
-
+   
    <code>bool sentinel = true;<br>
    int n = 0;<br>
    int sum = 0;<br>

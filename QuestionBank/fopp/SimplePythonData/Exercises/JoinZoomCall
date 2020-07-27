@@ -4,21 +4,25 @@
     :basecourse: fopp
     :topic: SimplePythonData/Exercises
     :from_source: F
+    :pct_on_first: 1.0
+    :total_students_attempting: 56
+    :num_students_correct: 56.0
+    :mean_clicks_to_correct: 1.0
 
     Thank you for signing up for the **Using Runestone Workshop!**  The response has been a bit overwhelming to say the least.  Barb and I had 17 people signed up for the workshop at SIGCSE and there are more than 225 people signed up for this week!  Things have certainly changed since March.
-
+    
     A few logistics for getting started.
-
+    
     We will convene online Monday afternoon at 3pm EDT  in a zoom meeting.  Here is the information.  We will use the same zoom meeting each afternoon.
-
+    
     Join Zoom Meeting at:
     
     * https://zoom.us/j/96395782236?pwd=ZFd2T3dCVUVlNnYvdFZxQlhHc2hVdz09
     * Meeting ID: 963 9578 2236
     * Password: 3i7MNV
-
+    
     Thanks everyone, that's all for now.  Barb and I look forward to our first meeting on Monday!
-
+    
     -   :.*: Is the correct answer.
         :Sue: Is wrong.
         :x: Try again. (Note: the last item of feedback matches anything, regardless of the string it's given.)

@@ -4,12 +4,16 @@
    :basecourse: httlads
    :topic: Happiness/exploring_data
    :from_source: T
+   :pct_on_first: 0.6014319809
+   :total_students_attempting: 419
+   :num_students_correct: 413
+   :mean_clicks_to_correct: 2.8280871671
 
    The mean value for healthy life expectancy is |blank| and the standard
    deviation is |blank|.
-
+   
    - :63.441: Is the correct answer
      :x: Make sure you are using the correct range
-
+   
    - :7.596: Is the correct answer
      :x: Make sure you are using the correct range

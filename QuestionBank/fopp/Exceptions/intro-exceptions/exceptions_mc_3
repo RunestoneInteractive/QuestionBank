@@ -9,5 +9,9 @@
    :feedback_a: The rest of the code after the whole try/except statement will execute, but not the rest of the code in the try block.
    :feedback_b: The rest of the code after the whole try/except statement will execute, but not the rest of the code in the try block.
    :correct: b
+   :pct_on_first: 0.6026490066
+   :total_students_attempting: 302
+   :num_students_correct: 299.0
+   :mean_clicks_to_correct: 1.397993311
 
    After a run-time exception is handled by an except clause, the rest of the code in the try clause will be executed.

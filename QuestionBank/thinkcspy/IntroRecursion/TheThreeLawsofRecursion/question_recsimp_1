@@ -14,5 +14,9 @@
    :feedback_b: The initial call to listsum is not a recursive call.
    :feedback_c: the first recursive call passes the list [4,6,8,10], the second [6,8,10] and so on until [10].
    :feedback_d: This would not be enough calls to cover all the numbers on the list
+   :pct_on_first: 0.4932668329
+   :total_students_attempting: 4010
+   :num_students_correct: 3990.0
+   :mean_clicks_to_correct: 1.7015037594
 
    How many recursive calls are made when computing the sum of the list [2,4,6,8,10]?

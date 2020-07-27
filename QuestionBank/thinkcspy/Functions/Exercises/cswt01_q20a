@@ -9,18 +9,22 @@
    :answer_c: Can't be determined without running it
    :answer_d: An error message
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.5
+   :total_students_attempting: 2
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 1.5
 
    20. What does the following code print?::
-
+   
       def fun1(a, b):
           x = a + 10
           y = b + 5
-
+   
       def main():
           x = 7
           y = 10
           fun1(x, y)
           print(x, y)
-
+   
       main()

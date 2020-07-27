@@ -9,6 +9,10 @@
    :answer_c: Error
    :answer_d: None
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.5087719298
+   :total_students_attempting: 114
+   :num_students_correct: 109.0
+   :mean_clicks_to_correct: 1.9266055046
 
    3. If s = "How now, brown cow?" what is the result of executing the statement: "ow, b" in s

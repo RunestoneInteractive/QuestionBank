@@ -9,9 +9,13 @@
    :answer_c: None
    :answer_d: All characters from the file except the 'r' characters
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.6802325581
+   :total_students_attempting: 172
+   :num_students_correct: 171.0
+   :mean_clicks_to_correct: 1.6315789474
 
    19. Assume that "pease.txt" is the name of a text file holding the text to the poem "Pease Porridge Hot." What is the content of the variable t after executing the following code segment?::
-
+   
       f = open("pease.txt", "r")
       t = f.read()

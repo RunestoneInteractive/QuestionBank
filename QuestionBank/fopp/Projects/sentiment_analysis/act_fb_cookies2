@@ -4,11 +4,15 @@
     :basecourse: fopp
     :topic: Projects/sentiment_analysis
     :from_source: T
+    :pct_on_first: 0.0222222222
+    :total_students_attempting: 45
+    :num_students_correct: 3.0
+    :mean_clicks_to_correct: 5.0
 
     Now lets add a third kind of cookie to both bowls.  Suppose we had a bunch of Fig Newtons. 20 of them in Bow1 and 30 of them in Bowl2 and we have the following series of draws:  Oreo, Fig Newton, Fig Newton, Chips Ahoy, Oreo.  What are the new scores for Bowl1 |blank| and Bowl2 |Blank| ?
-
+    
     - :1: Is Correct
       :x: Incorrect
-
+    
     - :1: Is Correct
       :x: Is incorrect

@@ -16,10 +16,14 @@
    :feedback_d: Remember that index returns the left most occurance of the argument.
    :feedback_e: There is at least one 'we' in the string assigned to qu.
    :practice: T
+   :pct_on_first: 0.5120307988
+   :total_students_attempting: 2078
+   :num_students_correct: 2067.0
+   :mean_clicks_to_correct: 1.9879051766
 
    What will be stored in the variable ty below?
-
+   
    .. sourcecode:: python
-
+   
       qu = "wow, welcome week!"
       ty = qu.index("we")

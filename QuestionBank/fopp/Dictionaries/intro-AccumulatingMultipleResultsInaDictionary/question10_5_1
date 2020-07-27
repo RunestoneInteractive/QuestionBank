@@ -15,6 +15,10 @@
    :feedback_d: It seems like maybe you're guessing. Please review the material above and then try again.
    :feedback_e: It seems like you've reversed things. The variable that refers to the dictionary goes outside the square brackets; the key you're looking up goes inside.
    :correct: b
+   :pct_on_first: 0.5394045534
+   :total_students_attempting: 1142
+   :num_students_correct: 1120.0
+   :mean_clicks_to_correct: 1.8392857143
 
    Consider example ac10_5_5 above. After the program runs, which of the following will print out True if there are more
    occurrences of *e* than *t* in the text of "A Study in Scarlet," and False if *t* occurred more frequently?

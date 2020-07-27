@@ -13,5 +13,9 @@
     :feedback_b: Not quite, check the value preceding the name of the function!
     :feedback_c: Not quite, dog is not even a data type!
     :feedback_d: Not quite, that is the name of the function itself!
+    :pct_on_first: 0.4341085271
+    :total_students_attempting: 129
+    :num_students_correct: 127.0
+    :mean_clicks_to_correct: 2.0393700787
 
     What is the correct return type of the function above **int main()**?

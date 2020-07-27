@@ -5,8 +5,12 @@
     :topic: Introduction/ObjectOrientedProgrammingDefiningClasses
     :from_source: T
     :question: Click on the line where there is a syntax error when defining the following class
-    :iscode:
+    :iscode: 
     :feedback: C++ class definitions end with a certain symbol
+    :pct_on_first: 0.2765957447
+    :total_students_attempting: 141
+    :num_students_correct: 113.0
+    :mean_clicks_to_correct: 7.0442477876
 
     :click-incorrect:class Fraction {:endclick:
       :click-incorrect:public::endclick:

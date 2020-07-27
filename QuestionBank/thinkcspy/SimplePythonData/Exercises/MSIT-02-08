@@ -4,8 +4,8 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: F
-   :multiple_answers:
-   :random:
+   :multiple_answers: 
+   :random: 
    :answer_a: Ingot
    :feedback_a: Alphabetic characters are fine.
    :answer_b: Ing0t
@@ -17,5 +17,9 @@
    :answer_e: In_got
    :feedback_e: Underscore is fine in a variable name.
    :correct: a, b, e
+   :pct_on_first: 0.2083333333
+   :total_students_attempting: 24
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 2.5
 
    Which of these are valid variable names in Python? (Choose all that are correct)

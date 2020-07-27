@@ -4,7 +4,7 @@
    :basecourse: fopp
    :topic: Files/FindingaFileonyourDisk
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: "Stacy/Applications/README.txt"
    :answer_b: "/Users/Raquel/Documents/graduation_plans.doc"
    :answer_c: "/private/tmp/swtag.txt"
@@ -15,5 +15,9 @@
    :feedback_c: This is an absolute file path. Not all absolute file paths contain "User"! Instead, check to see if the path starts with "/".
    :feedback_d: Yes, this is a relative file path. You can tell by the lack of "/" at the beginning of the path.
    :practice: T
+   :pct_on_first: 0.2696793003
+   :total_students_attempting: 1372
+   :num_students_correct: 1340.0
+   :mean_clicks_to_correct: 2.7529850746
 
    Which of the following paths are relative file paths?

@@ -9,10 +9,14 @@
    :answer_c: 'goodbye'
    :answer_d: 'hello'
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.4745762712
+   :total_students_attempting: 59
+   :num_students_correct: 52.0
+   :mean_clicks_to_correct: 1.6730769231
 
    23. What does the following code print?::
-
+   
       list_a = ['hello', 'goodbye', 'you say hello', 'I say goodbye']
       list_b = a
       list_b.append("I don't know why you say hello")

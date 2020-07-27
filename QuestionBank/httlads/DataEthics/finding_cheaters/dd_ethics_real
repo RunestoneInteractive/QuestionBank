@@ -12,6 +12,10 @@
    :match_5: sue|||1718561694846000000
    :match_6: don|||4643766977283540000
    :match_7: hill|||1693568023468290000
+   :pct_on_first: 0.465648855
+   :total_students_attempting: 131
+   :num_students_correct: 119
+   :mean_clicks_to_correct: 4.0084033613
 
    Match the numeric identifiers from the first part of the project with the
    real names.

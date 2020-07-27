@@ -15,5 +15,9 @@
   :feedback_c: No. This is used in other languages such as Python.
   :feedback_d: No. The implementation remains consistent.
   :feedback_e: One of the above is indeed correct.
+  :pct_on_first: 0.577540107
+  :total_students_attempting: 187
+  :num_students_correct: 186.0
+  :mean_clicks_to_correct: 1.6451612903
 
   How may one reference a variable's memory address in C++?

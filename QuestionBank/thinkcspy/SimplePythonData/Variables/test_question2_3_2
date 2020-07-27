@@ -14,11 +14,15 @@
    :feedback_b: This is the first value assigned to the variable day, but the next statements reassign that variable to new values.
    :feedback_c: This is the second value assigned to the variable day, but the next statement reassigns that variable to a new value.
    :feedback_d: The variable day will contain the last value assigned to it when it is printed.
+   :pct_on_first: 0.7125781616
+   :total_students_attempting: 23509
+   :num_students_correct: 23423.0
+   :mean_clicks_to_correct: 1.5245271741
 
    What is printed when the following statements execute?
-
+   
    .. code-block:: python
-
+   
      day = "Thursday"
      day = 32.5
      day = 19

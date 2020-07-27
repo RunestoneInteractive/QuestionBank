@@ -6,6 +6,10 @@
    :from_source: F
    :language: python3
    :sourcefile: : python3
+   :pct_on_first: 1.0
+   :total_students_attempting: 6
+   :num_students_correct: 6.0
+   :mean_clicks_to_correct: 1.0
 
     Initialize two variables to values 9 and 2 respectively. 
     1. increment each variable first by value 2 (means you update those variables)

@@ -9,6 +9,10 @@
    :answer_c: 01111001
    :answer_d: 11110010
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.8571428571
+   :total_students_attempting: 7
+   :num_students_correct: 7.0
+   :mean_clicks_to_correct: 1.4285714286
 
    1. Add the following binary numbers: 01101001 + 01111001

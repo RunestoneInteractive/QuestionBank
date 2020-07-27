@@ -9,6 +9,10 @@
     :match_3: a -= 2||| 1
     :match_4: a = len("Hey there!")|||10
     :match_5: a = square(a) - 1|||8
-    
+    :pct_on_first: 0.5309278351
+    :total_students_attempting: 388
+    :num_students_correct: 348.0
+    :mean_clicks_to_correct: 2.6666666667
 
+    
     Assume that variable a is initialized to 3 with this line of code: a = 3. Match each piece of code on the left, to the right final value of 'a' on the right if you execute each of the expressions on the left independently.

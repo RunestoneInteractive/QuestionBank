@@ -9,5 +9,9 @@
    :match_2: Median|||The middle value in all your data
    :match_3: Mode|||The value that occurs most often
    :match_4: Standard Deviation|||A measure of how spread out your data is
+   :pct_on_first: 0.897826087
+   :total_students_attempting: 460
+   :num_students_correct: 458
+   :mean_clicks_to_correct: 1.1419213974
 
    Match the Term on the left with the description on the right.

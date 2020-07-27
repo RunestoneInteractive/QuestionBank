@@ -14,11 +14,15 @@
    :feedback_c: Yes, starting with 12, subtract 3, than add 5, and finally add 1.
    :feedback_d: Remember that variables in Python are different from variables in math in that they (temporarily) hold values, but can be reassigned.
    :practice: T
+   :pct_on_first: 0.8983244478
+   :total_students_attempting: 2626
+   :num_students_correct: 2618.0
+   :mean_clicks_to_correct: 1.1646294882
 
    What is printed when the following statements execute?
-
+   
    .. code-block:: python
-
+   
      x = 12
      x = x - 3
      x = x + 5

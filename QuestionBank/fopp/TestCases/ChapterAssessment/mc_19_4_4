@@ -9,5 +9,9 @@
    :feedback_a: Correct! There is an issue with the getKnowledge method because it returns None when self.knowledge is 0, even though it returns the correct value when self.knowledge is non-zero.
    :feedback_b: Incorrect, there are more cases that fail. Try finding those other cases!
    :correct: a
+   :pct_on_first: 0.5333333333
+   :total_students_attempting: 105
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 1.49
 
    Are there any other cases, that we can determine based on the current structure of the class, that also fail for the Student class?

@@ -4,10 +4,14 @@
    :basecourse: thinkcspy
    :topic: Debugging/Exercises
    :from_source: F
-   :casei:
+   :casei: 
+   :pct_on_first: 0.2857142857
+   :total_students_attempting: 28
+   :num_students_correct: 28.0
+   :mean_clicks_to_correct: 2.7142857143
 
    As generally stated in the text, one way to avoid debugging and enjoy programming more is to organize your programming activities so you have lots of |blank| successes.
-
+   
    -  :small: Good.  "Little-by-little" is generally better than "all at once".
       :little: OK.  But try a similar 5-letter word starting with S .
       :x: Try again.

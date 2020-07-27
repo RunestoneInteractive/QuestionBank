@@ -14,11 +14,15 @@
    :feedback_c: Yes, there are 12 characters, including the blank.
    :feedback_d: The for statement can iterate over a sequence item by item.
    :practice: T
+   :pct_on_first: 0.5435801312
+   :total_students_attempting: 2134
+   :num_students_correct: 2124.0
+   :mean_clicks_to_correct: 1.7537664783
 
    How many times is the word HELLO printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       for ch in s:
          print("HELLO")

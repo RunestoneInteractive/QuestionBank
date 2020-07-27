@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: T
+   :pct_on_first: 0.2774390244
+   :total_students_attempting: 984
+   :num_students_correct: 953.0
+   :mean_clicks_to_correct: 3.685204617
 
    Write a program that will print out a greeting to each student in the list. This list should also keep track of how many students have been greeted and note that each time a new student has been greeted.
    -----

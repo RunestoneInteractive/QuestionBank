@@ -10,5 +10,9 @@
    :correct: b
    :feedback_a: The method may return the correct value but not properly change the values of instance variables. See the move method of the Point class above.
    :feedback_b: The move method of the Point class above is a good example.
+   :pct_on_first: 0.4230769231
+   :total_students_attempting: 390
+   :num_students_correct: 386.0
+   :mean_clicks_to_correct: 1.5751295337
 
    To test a method that changes the value of an instance variable, which kind of test case should you write?

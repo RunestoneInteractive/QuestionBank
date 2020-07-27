@@ -9,6 +9,10 @@
    :answer_c: 1111 1110 1110 0011
    :answer_d: 1111 0011 1001 0001
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.925
+   :total_students_attempting: 40
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 1.125
 
    Show the bit pattern corresponding to the following hexadecimal number: FC71

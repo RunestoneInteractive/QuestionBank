@@ -9,7 +9,11 @@
    :answer_c: 600 bits
    :answer_d: 600,000 bits
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.7171717172
+   :total_students_attempting: 99
+   :num_students_correct: 98.0
+   :mean_clicks_to_correct: 1.6428571429
 
    25. You have been hired to design the memory system for Big Eyes Bertha, 
    a doll that takes pictures throught its eyes. If Big Eyes Bertha uses 18 

@@ -9,6 +9,10 @@
    :answer_c: s * 3
    :answer_d: s(4 - 7)
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 39
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.0
 
    15. If s is a string, which of the following is an example of slicing?

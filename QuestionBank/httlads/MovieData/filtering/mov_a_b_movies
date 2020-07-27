@@ -4,9 +4,13 @@
    :basecourse: httlads
    :topic: MovieData/filtering
    :from_source: T
+   :pct_on_first: 0.3592592593
+   :total_students_attempting: 270
+   :num_students_correct: 249
+   :mean_clicks_to_correct: 3.6787148594
 
    How many movies with a budget of over a million dollars and whose title
    starts with an "A" or a "B" are there?
-
+   
    - :933: Is the correct answer
      :x: catchall feedback

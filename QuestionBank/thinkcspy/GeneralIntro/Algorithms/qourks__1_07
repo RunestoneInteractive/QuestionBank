@@ -14,5 +14,9 @@
    :feedback_b: While it is necessary for most computer scientists to know how to write code, it is not the most important skill.
    :feedback_c: Computer scientists are all about solving problems.  We use computers to automate solutions to problems and to do things faster and more accurately than we can do by hand or manually.
    :feedback_d: Computer science and math are similar in many ways and it helps to have a strong mathematical foundation, but you do not have to be good at math to be a good computer scientist.
+   :pct_on_first: 0.7931034483
+   :total_students_attempting: 29
+   :num_students_correct: 28.0
+   :mean_clicks_to_correct: 1.1785714286
 
    As Karioki has stated, the main goal of the computer scientist is:

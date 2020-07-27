@@ -8,5 +8,9 @@
     :match_1: Linear Search|||O(n)
     :match_2: Binary Search|||O(log n)
     :match_3: Hashing|||nO(1)
+    :pct_on_first: 0.580952381
+    :total_students_attempting: 105
+    :num_students_correct: 103.0
+    :mean_clicks_to_correct: 1.7475728155
 
     Match the method of finding data to its corresponding Big O.

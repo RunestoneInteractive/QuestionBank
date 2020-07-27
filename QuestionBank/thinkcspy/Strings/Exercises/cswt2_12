@@ -9,6 +9,10 @@
    :answer_c: two or more people use the same tag for different subjects
    :answer_d: two bits meet each other going opposite directions on the data bus
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.87
+   :total_students_attempting: 100
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 1.18
 
    12. In hashing, a collision is when

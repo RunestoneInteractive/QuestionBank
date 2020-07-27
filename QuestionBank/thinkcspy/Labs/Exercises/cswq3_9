@@ -9,6 +9,10 @@
    :answer_c: 101101011
    :answer_d: 110100001
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 38
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.0
 
    Convert the following decimal number to binary: 297

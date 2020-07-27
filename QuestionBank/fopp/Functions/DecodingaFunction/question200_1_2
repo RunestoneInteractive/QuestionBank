@@ -4,7 +4,7 @@
    :basecourse: fopp
    :topic: Functions/DecodingaFunction
    :from_source: T
-   :multiple_answers:
+   :multiple_answers: 
    :answer_a: integer
    :answer_b: float
    :answer_c: list
@@ -17,11 +17,15 @@
    :feedback_d: x - y and y-2 can't be performed on strings.
    :feedback_e: You can tell from some of the operations that are performed on them.
    :practice: T
+   :pct_on_first: 0.4870081663
+   :total_students_attempting: 1347
+   :num_students_correct: 1329.0
+   :mean_clicks_to_correct: 2.2355154251
 
    What are the possible types of variables x and y?
-
+   
    .. code-block:: python
-
+   
       def cyu3(x, y, z):
          if x - y > 0:
             return y -2

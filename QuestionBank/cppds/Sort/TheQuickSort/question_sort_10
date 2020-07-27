@@ -9,5 +9,9 @@
    :match_2: Insertion/Bubble/Merge|||O(n^2)
    :match_3: Merge Sort|||O(n log n)
    :match_4: Shell Sort|||between O(n) and O(n^2)
+   :pct_on_first: 0.5111111111
+   :total_students_attempting: 45
+   :num_students_correct: 43.0
+   :mean_clicks_to_correct: 1.9069767442
 
    Match each sorting method with its appropriate estimated comparisons.

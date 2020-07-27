@@ -15,5 +15,9 @@
    :feedback_c: No. Only one set of symbols may be used.
    :feedback_d: No. No matter what, the implementation is consistent.
    :feedback_e: One of the above is indeed correct.
+   :pct_on_first: 0.6237623762
+   :total_students_attempting: 202
+   :num_students_correct: 200.0
+   :mean_clicks_to_correct: 1.635
 
    If I want to create a string in C++, what set of symbols may be used?

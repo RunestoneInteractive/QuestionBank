@@ -14,10 +14,14 @@
    :feedback_c: s[-3] would return c, counting from right to left.
    :feedback_d: [ ] is the index operator.
    :practice: T
+   :pct_on_first: 0.7332757877
+   :total_students_attempting: 2317
+   :num_students_correct: 2310.0
+   :mean_clicks_to_correct: 1.3939393939
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s[3])

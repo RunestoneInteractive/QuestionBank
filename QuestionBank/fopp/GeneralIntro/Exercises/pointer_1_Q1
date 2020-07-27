@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: GeneralIntro/Exercises
    :from_source: F
+   :pct_on_first: 0.9150943396
+   :total_students_attempting: 636
+   :num_students_correct: 620.0
+   :mean_clicks_to_correct: 1.0661290323
 
    Construct a program that creates a pointer called foobar and compares its values with the int foo.  Print "Hello World" if they are equal.
    

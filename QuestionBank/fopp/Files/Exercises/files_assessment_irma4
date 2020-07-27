@@ -15,5 +15,9 @@
    :correct: c
    :practice: T
    :topics: Files
+   :pct_on_first: 0.3225806452
+   :total_students_attempting: 217
+   :num_students_correct: 212.0
+   :mean_clicks_to_correct: 2.1132075472
 
    Which of the commands below is used to add a string ``somestring = "my Sentence"`` to the end of the file referenced by ``filevar`` variable.

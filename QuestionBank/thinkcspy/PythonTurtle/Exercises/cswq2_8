@@ -9,13 +9,17 @@
    :answer_c: 5 -1 -1
    :answer_d: 4 3 2 1 0
    :correct: a
-   :random:
+   :random: 
    :feedback_a: Yes, range(5, -1, -1) counts down from 5 to 0
    :feedback_b: No, range(5, -1, -1) includes 0
    :feedback_c: No, range(5, -1, -1) counts down from 5 to 0
    :feedback_d: No, range(5, -1, -1) starts at 5
+   :pct_on_first: 0.8941176471
+   :total_students_attempting: 85
+   :num_students_correct: 85.0
+   :mean_clicks_to_correct: 1.1529411765
 
    8. What does the following code print?::
-
+   
       for i in range(5, -1, -1):
           print(i, end = ' ')

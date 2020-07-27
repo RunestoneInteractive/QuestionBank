@@ -9,6 +9,10 @@
    :answer_c: 42
    :answer_d: 11,001,001
    :correct: a
-   :random:
+   :random: 
+   :pct_on_first: 0.9310344828
+   :total_students_attempting: 58
+   :num_students_correct: 58.0
+   :mean_clicks_to_correct: 1.1034482759
 
    11001001 is the title of a Star Trek: The Next Generation episode featuring the Binars, an alien race that thinks in binary numbers. What is the title of the episode in decimal (assume it is a positive number)?

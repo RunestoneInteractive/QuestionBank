@@ -13,5 +13,9 @@
    :feedback_c: Since we are no longer calling the parent Pet class's method in the Dog subclass's method definition, the class definition will override the parent method.
    :feedback_d: Remember that the Python interpreter checks for the existence of feed in the Dog class and looks for feed in Pet only if it isn't found in Dog.
    :correct: c
+   :pct_on_first: 0.4630541872
+   :total_students_attempting: 203
+   :num_students_correct: 201.0
+   :mean_clicks_to_correct: 1.8805970149
 
    For the Dog class defined in the earlier activecode window, what would happen when d1.feed() is run if the Pet.feed(self) line was deleted?

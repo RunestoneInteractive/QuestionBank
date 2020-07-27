@@ -14,12 +14,16 @@
    :feedback_b: Put the data into the format string; not after it.
    :feedback_c: Yes, correct substitutions!
    :feedback_d: Close:  REPLACE the braces.
+   :pct_on_first: 0.6967356322
+   :total_students_attempting: 10875
+   :num_students_correct: 10818.0
+   :mean_clicks_to_correct: 1.4408393418
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
        x = 2
        y = 6
        print('sum of {} and {} is {}; product: {}.'.format( x, y, x+y, x*y))

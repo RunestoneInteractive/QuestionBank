@@ -9,5 +9,9 @@
    :correct: b
    :feedback_a: Only a few modules have been ported to work in activecode at this time.
    :feedback_b: Only a few modules have been ported to work in activecode at this time.
+   :pct_on_first: 0.6566390041
+   :total_students_attempting: 1928
+   :num_students_correct: 1910.0
+   :mean_clicks_to_correct: 1.3507853403
 
    True / False:  All standard Python modules will work in activecode.

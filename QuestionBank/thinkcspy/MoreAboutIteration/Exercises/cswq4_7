@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
+   :pct_on_first: 0.2
+   :total_students_attempting: 5
+   :num_students_correct: 5.0
+   :mean_clicks_to_correct: 4.8
 
    8. Drag the following instructions into the right order to create a function that returns an image that is completely blue.
    -----

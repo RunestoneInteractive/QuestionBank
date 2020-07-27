@@ -12,11 +12,15 @@
    :feedback_a: Yes, first True was added at index 2, then False was added at index 0.
    :feedback_b: insert will place items at the index position specified and move everything down to the right.
    :feedback_c: insert does not remove anything or replace anything.
+   :pct_on_first: 0.5737837564
+   :total_students_attempting: 9887
+   :num_students_correct: 9834.0
+   :mean_clicks_to_correct: 1.5679275981
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      alist.insert(2, True)
      alist.insert(0, False)

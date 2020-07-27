@@ -13,15 +13,19 @@
    :feedback_b: This is close, but if you carefully you will see that the left and right children of the root are swapped.
    :feedback_c: Very good
    :feedback_d: This is close, but the left and right child names have been swapped along with the underlying structures.
+   :pct_on_first: 0.6666666667
+   :total_students_attempting: 18
+   :num_students_correct: 18.0
+   :mean_clicks_to_correct: 1.4444444444
 
    Given the following statements:
-
+   
    .. sourcecode:: python
-
+   
        x = BinaryTree('a')
        insertLeft(x,'b')
        insertRight(x,'c')
        insertRight(getRightChild(x),'d')
        insertLeft(getRightChild(getRightChild(x)),'e')
-
+   
    Which of the answers is the correct representation of the tree?

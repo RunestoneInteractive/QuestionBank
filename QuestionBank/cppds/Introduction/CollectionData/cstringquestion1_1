@@ -13,5 +13,9 @@
     :feedback_b: Close, but that is the definition of a string, not a c-string
     :feedback_c: Sorry, thats not a string or a c-string
     :feedback_d: No, that's a vector
+    :pct_on_first: 0.4366197183
+    :total_students_attempting: 142
+    :num_students_correct: 141.0
+    :mean_clicks_to_correct: 2.6170212766
 
     What is the correct definition of c-strings?

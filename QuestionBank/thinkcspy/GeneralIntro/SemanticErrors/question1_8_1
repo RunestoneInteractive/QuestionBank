@@ -12,5 +12,9 @@
    :feedback_a: A semantic error is an error in logic. In this case the program does not produce the correct output because the problem is not solved correctly. This would be considered a run-time error.
    :feedback_b: A semantic error is an error in logic. In this case the program does not produce the correct output because the code can not be processed by the compiler or interpreter. This would be considered a syntax error.
    :feedback_c: This will produce the wrong answer because the programmer implemented the solution incorrectly.  This is a semantic error.
+   :pct_on_first: 0.8763469496
+   :total_students_attempting: 24407
+   :num_students_correct: 24325.0
+   :mean_clicks_to_correct: 1.1630010277
 
    Which of the following is a semantic error?
