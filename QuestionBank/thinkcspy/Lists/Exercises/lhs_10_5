@@ -6,19 +6,23 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0839694656
+    :total_students_attempting: 393
+    :num_students_correct: 385.0
+    :mean_clicks_to_correct: 11.3714285714
 
     Write a function ``countUpToWord(lstOfWords, word)`` that counts how many words occur
     in a list of words up to and including the first occurrence of the word ``word``. If the ``word``
     is not found, then return a -1.
-
+    
     ~~~~
     # My Name:
-
+    
     def countUpToWord(lst, word):
         # write your code here
     
     # any test cases you'd like to have
-
+    
     ====
     from unittest.gui import TestCaseGui
     
@@ -40,7 +44,7 @@
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             lst = [ 'a', 'bb', 'cde', 'dog', 'elephant', 'seal' ]
             

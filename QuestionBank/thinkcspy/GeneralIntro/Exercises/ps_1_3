@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.6797153025
+    :total_students_attempting: 281
+    :num_students_correct: 269.0
+    :mean_clicks_to_correct: 1.6356877323
 
     **1.** Write code to print out the face shown in the python comments below. (Use the print command!):
     ~~~~
@@ -15,19 +19,19 @@
     #  |  V  |
     #  | === |
     #   -----
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertIn( 'o o', self.getOutput(), "Testing output. (Checking for eyes.)") 
-
+    
         def testTwo(self):
             self.assertIn( 'V', self.getOutput(), "Testing output. (Checking for nose.)") 
-
+    
         def testThree(self):
             self.assertIn( '===', self.getOutput(), "Testing output. (Checking for mouth.)")           
-
+    
     myTests().main()

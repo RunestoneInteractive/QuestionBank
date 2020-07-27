@@ -6,13 +6,17 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.5789473684
+    :total_students_attempting: 133
+    :num_students_correct: 130.0
+    :mean_clicks_to_correct: 3.5923076923
 
     Write a function which is given an exam mark, and it returns a string --- the grade for that mark --- according to this
     scheme:
-
+    
     .. table::
-
+    
       =======   =====
       Mark      Grade
       =======   =====
@@ -22,26 +26,26 @@
       [60-70)   D
       < 60      F
       =======   =====
-
+    
     The square and round brackets denote closed and open intervals.
     A closed interval includes the number, and open interval excludes it.   So 79.99999 gets grade C , but 80 gets grade B.
-
+    
     Test your function by printing the mark and the grade for a number of different marks.
     ~~~~
     def getGrade(mark):
           #your code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(getGrade(95),'A','Tested getGrade on input of 95')
             self.assertEqual(getGrade(85),'B','Tested getGrade on input of 85')
             self.assertEqual(getGrade(65),'D','Tested getGrade on input of 65')
             self.assertEqual(getGrade(79.99999),'C','Tested getGrade on input of 79.9999')
             self.assertEqual(getGrade(80),'B','Tested getGrade on input of 80')
-
+    
     myTests().main()

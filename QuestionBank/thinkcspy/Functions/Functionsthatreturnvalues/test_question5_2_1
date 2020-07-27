@@ -14,10 +14,10 @@
    :feedback_b: This is a very common mistake so be sure to watch out for it when you write your code!
    :feedback_c: Python will automatically calculate the value x+y+z and then return it in the statement as it is written
    :feedback_d: Functions can return any legal data, including (but not limited to) numbers, strings, turtles, etc.
-   :pct_on_first: 0.5085876062
-   :total_students_attempting: 15895
-   :num_students_correct: 15817.0
-   :mean_clicks_to_correct: 1.7447682873
+   :pct_on_first: 0.5086494307
+   :total_students_attempting: 15897
+   :num_students_correct: 15819.0
+   :mean_clicks_to_correct: 1.7446741261
 
    What is wrong with the following function definition:
    

@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3007518797
+    :total_students_attempting: 399
+    :num_students_correct: 393.0
+    :mean_clicks_to_correct: 6.31043257
 
     Create a class called ``math_op`` with one instance variable and a method. The
     instance variable should be ``numb``. The method should be called ``squared`` and
@@ -14,20 +18,20 @@
     hardcoding. Call the method so that the value which is returned is 64.
     ~~~~
     #Define the class here
-
+    
     
     #Your test code here
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
         def testOne(self):
             self.assertEqual(output, 64, "Testing that output has correct value assigned.")
          

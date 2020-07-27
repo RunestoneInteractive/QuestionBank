@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: Lists/Exercises
    :from_source: T
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Create a list containing 100 random integers between 0 and 1000 (use iteration, append, and the random module).  Write a function called ``average`` that will take the list as a parameter and return the average.
    ~~~~

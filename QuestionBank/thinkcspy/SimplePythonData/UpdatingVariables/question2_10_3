@@ -4,10 +4,10 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/UpdatingVariables
    :from_source: T
-   :pct_on_first: 0.692826266
-   :total_students_attempting: 19432
-   :num_students_correct: 19040.0
-   :mean_clicks_to_correct: 1.5973739496
+   :pct_on_first: 0.6928736815
+   :total_students_attempting: 19435
+   :num_students_correct: 19043.0
+   :mean_clicks_to_correct: 1.5972798404
 
    Construct the code that will result in the value 134 being printed.
    -----

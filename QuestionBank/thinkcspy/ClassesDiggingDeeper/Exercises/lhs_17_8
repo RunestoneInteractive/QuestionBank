@@ -6,18 +6,22 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0535714286
+    :total_students_attempting: 392
+    :num_students_correct: 383.0
+    :mean_clicks_to_correct: 12.3942558747
 
     Write a new method for the Fraction class called ``mixed()`` which **returns**
     a string that writes out the Fraction in mixed number form.
-
+    
     Here are some examples
-
+    
     ``print(Fraction(1, 2).mixed())`` should return "1/2"
-
+    
     ``print(Fraction(3, 2).mixed())`` should return "1 and 1/2"
-
+    
     ``print(Fraction(5, 1).mixed())`` should return "5"
-
+    
     ~~~~
     import test
     
@@ -60,9 +64,9 @@
         def ....
     
     # Make test cases here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):
@@ -84,5 +88,5 @@
                 print(t)
                 self.assertEqual((Fraction(t[0][0], t[0][1]).mixed()), t[1], 'test case ' + str(num))
                 num += 1
-
+    
     myTests().main()

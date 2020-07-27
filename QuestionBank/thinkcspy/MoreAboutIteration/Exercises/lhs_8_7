@@ -6,50 +6,54 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    
+    :pct_on_first: 0.0686015831
+    :total_students_attempting: 379
+    :num_students_correct: 343.0
+    :mean_clicks_to_correct: 15.6909620991
+
     One of the more amazing facts from calculus is that the following sum gets closer and 
     closer to the value ``e^x`` the more terms you add in: ::
-
+    
         e^x = 1 + x + x^2/2! +  x^3/3! +  x^4/4! + x^5/5! +  x^6/6! + . . . .
         
     Remember that ``n!`` means n factorial, ``n*(n-1)*(n-2)* ... *1``. For example,
     if ``x`` is ``2`` then ::
-
+    
         e^2 = 1 + 2 + 2^2/2! + 2^3/3! + 2^4/4! + 2^5/5!  . . . .
         e^2 = 1 + 2 + 4/2 + 8/6 + 16/24 + 32/120 + . . . .
-
+    
         e^2 = 1 + 2 +  2  + 1.3333 + 0.6666 + 0.2666 + . . . .
-
+    
         e^2 ~ 7.266
-
-
+    
+    
     More exactly, ``e^2 = 7.38907...``
-
+    
     Write a function that takes the power ``x`` as a parameter, then calculates ``e^x`` using
     a ``while`` loop to add up successive terms until the current term is less than
     ``1.0E-12``. The function should then return the calculated value of ``e^x``.
     
     Lastly, you should write out your value and the value of ``math.exp(x)`` to see how your value compares.
-
+    
     To do this program sensibly, the loop will add in a ``term`` each iteration. ::
-
+    
         sum = sum + term;
-
+    
     Look carefully at the first equation for ``e^x``. Notice that each ``term`` is: ::
-
+    
         x^N/N! 
     
     for some N. This is the same as: ::
-
+    
         x^(N-1)/(N-1)! *  x/N
-
+    
     This is the same as the previous ``term`` times ``x/N``. So each iteration of the loop merely
     has to multiply the previous ``term`` by ``x/N`` and add it to the accumulating sum. Note
     that you DO NOT USE ``math.factorial()``.
-
+    
     Don't let the math scare you away! This is actually a fairly easy program, and is
     typical of a type of calculation that computers are often used for. ::
-
+    
         n: 1    term: 2.0   sum: 3.0
         n: 2    term: 2.0   sum: 5.0
         n: 3    term: 1.33333333333     sum: 6.33333333333
@@ -72,28 +76,28 @@
         n: 20   term: 4.30998041218e-13     sum: 7.38905609893
         my e^x: 7.38905609893
         real e^x: 7.38905609893
-
+    
     **HINT**: You will need two tabs on each line to format it cleaner and match accurately.
-
+    
     ~~~~
-
+    
     # My Name:
     
     # don't forget to import the math library...
-
+    
     def eToX(x):
         # Write your code here
     
     def main():
         # write your code here
-
+    
     if __name__ == "__main__":
         main()
         
     ==== 
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
     
         def _eToX(self, x):
@@ -101,7 +105,7 @@
             sum = 1.0
             n = 1;
             outStr = ""
-
+    
             while term > 1.0E-12:
                 term = term * x / n
                 sum = sum + term
@@ -123,10 +127,10 @@
             eToXactual = eToX(x)
             oLenTest = len(self.getOutput())
             actual = self.getOutput()[oLen:oLenTest]  #extract new output
-
+    
             actual = " ".join(actual.split())
             expected = " ".join(expected.split())
-
+    
             self.assertEqual(actual, expected, "checking output for eToX(" + str(x) + ")")
             
     myTests().main()

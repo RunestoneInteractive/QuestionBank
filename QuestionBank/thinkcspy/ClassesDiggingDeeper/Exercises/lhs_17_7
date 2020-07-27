@@ -6,15 +6,19 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.8221649485
+    :total_students_attempting: 388
+    :num_students_correct: 387.0
+    :mean_clicks_to_correct: 1.4005167959
 
     The built-in Python ``float()`` function calls the ``__float__`` method within
     a class definition to return the floating point value of the object.
-
+    
     Define the ``__float__`` method for the Fraction class so that it **returns**
     a **floating point** value for the fraction.
-
+    
     ``print(float(Fraction(1, 2)))`` should print out ``0.5``
-
+    
     ~~~~
     import test
     
@@ -59,9 +63,9 @@
             '''
     
     # Make test cases here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):
@@ -80,5 +84,5 @@
             for (t) in tests:
                 self.assertEqual(float(Fraction(t[0], t[1])), t[0]/t[1], 'test case ' + str(num))
                 num += 1
-
+    
     myTests().main()

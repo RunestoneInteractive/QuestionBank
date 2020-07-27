@@ -6,18 +6,22 @@
     :from_source: T
     :practice: T
     :autograde: unittest
+    :pct_on_first: 0.0273822563
+    :total_students_attempting: 913
+    :num_students_correct: 516.0
+    :mean_clicks_to_correct: 8.9069767442
 
     Write a recursive function to compute the factorial of a number.
     ~~~~
     def computeFactorial(number):
         #your code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(computeFactorial(0),1,"Tested computeFactorial on input 0")
             self.assertEqual(computeFactorial(1),1,"Tested computeFactorail on input 1")
@@ -26,5 +30,5 @@
             self.assertEqual(computeFactorial(4),24,"Tested computeFactorial on input 4")
             self.assertEqual(computeFactorial(8),40320,"Tested computeFactorial on input 8")
             self.assertEqual(computeFactorial(-5),None,"Tested computeFactorial on a negative number - make sure to handle this case")
-
+    
     myTests().main()

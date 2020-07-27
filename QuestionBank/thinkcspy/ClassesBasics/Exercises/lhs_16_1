@@ -6,33 +6,37 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.280623608
+    :total_students_attempting: 449
+    :num_students_correct: 433.0
+    :mean_clicks_to_correct: 6.1755196305
 
     Add a method ``reflect_x`` to ``Point`` which returns a new ``Point``, one which is the
     reflection of the point about the x-axis.  For example,
     ``Point(3, 5).reflect_x()`` is (3, -5)
-
+    
     **NOTE:** DO NOT remove the getX() and getY() methods. They are needed for the self-testing.
     ~~~~
-
+    
     class Point:
-
+    
         def __init__(self, initX, initY):
             """ Create a new point at the given coordinates. """
             self.x = initX
             self.y = initY
-
+    
         def getX(self):
             return self.x
-
+    
         def getY(self):
             return self.y
-
+    
         def distanceFromOrigin(self):
             return ((self.x ** 2) + (self.y ** 2)) ** 0.5
-
+    
         def __str__(self):
             return "x=" + str(self.x) + ", y=" + str(self.y)
-
+    
     def main():
         #Your test code here
         
@@ -40,25 +44,25 @@
         main()
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
-
+    
             p1 = Point(3, 5).reflect_x()
             self.assertTrue(isinstance(p1, Point), "Checking if return value is a Point")
             self.assertEqual(3, p1.getX(), "Checking point's x value")
             self.assertEqual(-5, p1.getY(), "Checking point's y value")
-
+    
             p1 = Point(-3, 67).reflect_x()
             self.assertTrue(isinstance(p1, Point), "Checking if return value is a Point")
             self.assertEqual(-3, p1.getX(), "Checking point's x value")
             self.assertEqual(-67, p1.getY(), "Checking point's y value")
-
+    
     myTests().main()

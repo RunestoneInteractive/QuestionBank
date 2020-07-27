@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1528822055
+    :total_students_attempting: 399
+    :num_students_correct: 374.0
+    :mean_clicks_to_correct: 10.8877005348
 
     Write a new method in the Rectangle class to test if a Point falls within
     the rectangle.  For this exercise, assume that a rectangle at (0,0) with
@@ -13,7 +17,7 @@
     i.e. it stretches in the x direction from [0 to 10), where 0 is included
     but 10 is excluded, and from [0 to 5) in the y direction.  So
     it does not contain the point (10, 2).  These tests should pass ::
-
+    
         r = Rectangle(Point(0, 0), 10, 5)
         test.testEqual(r.contains(Point(0, 0)), True)
         test.testEqual(r.contains(Point(3, 3)), True)
@@ -21,35 +25,35 @@
         test.testEqual(r.contains(Point(3, 5)), False)
         test.testEqual(r.contains(Point(3, 4.99999)), True)
         test.testEqual(r.contains(Point(-3, -3)), False)
-
+    
     **Note**: This example is just an example if the rectangle were cornered at (0,0). The rectangle
     does not need to be at (0,0).
     ~~~~
     import math, test
-
+    
     class Point:
     """ Point class for representing and manipulating x,y coordinates. """
-
+    
         #Define the class here
-
+    
     class Rectangle:
     """Rectangle class using Point, width and height"""
-
+    
         #Define the class here
     
         
     # define any test code here
-
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
         def testOne(self):
             tests = [( Rectangle(Point(0, 0), 10, 5), [(Point(0, 0), True), (Point(3, 3), True), (Point(3, 7), False), (Point(3, 5), False), (Point(3, 4.99999), True), (Point(-3, -3), False)]),
                     ( Rectangle(Point(-5, -5), 10, 10), [(Point(0, 0), True), (Point(-4, -3), True), (Point(3, 7), False), (Point(-6, 4), False), (Point(3, 4.99999), True), (Point(-6, -6), False)])

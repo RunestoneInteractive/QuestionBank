@@ -4,24 +4,28 @@
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
-   :nocanvas:  
+   :nocanvas: 
    :autograde: unittest
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 7.0
 
    Create a function called ``addToPlatoon``. The function has two 
    parameters. The first is the current list of platoon members with PT data 
    and the second is a new entry in the format of ["Jones", "Bob", 67, 87, 
    99]. 
-
+   
    The function returns the updated platoon list.
    ~~~~
    #Create your function here
-
+   
    ====
    #print("Hidden code, such as unit tests come after the four = signs")
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          pltList= []
          cadet = ['Babbitt', 'Thomas', 90, 100, 95]

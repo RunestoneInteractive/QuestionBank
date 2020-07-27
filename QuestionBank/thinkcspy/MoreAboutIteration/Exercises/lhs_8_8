@@ -6,23 +6,27 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.106870229
+    :total_students_attempting: 393
+    :num_students_correct: 377.0
+    :mean_clicks_to_correct: 13.8832891247
 
     Write a function ``grayScale(img, w, h)`` that converts an image to grayscale. The function should
     create a new image of size w x h, convert the ``img`` to grayscale and write out the pixels into
     the new image.
-
+    
     The function should **return** the new grayscale image.
-
+    
     **NOTE:** When doing the average of the RGB values, do an integer divide ``//`` rather than a floating point divde.
-
+    
     ~~~~
     # Name:
-
+    
     import image
     
     def grayScale(img, w, h):
         # Write your code here
-
+    
     def makeImage(w, h):
         newImg = image.EmptyImage(w, h)
         rinit = 255
@@ -42,15 +46,15 @@
             ginit = ginit - 2
             binit = binit + 2
         return newImg
-
+    
     # make a window and image for testing purposes
     win = image.ImageWin()
     img = makeImage(30,50)
     img.draw(win)
-
+    
     # change the image to gray scale by calling your routine
     # draw the image onto the window
-
+    
     ====
     import random
     from unittest.gui import TestCaseGui
@@ -106,7 +110,7 @@
                         if count == 1:
                             print("First pixel miscompare at col:", c, "row:", r)
                             print("Expected RGB:", r2, g2, b2, "Your RGB:", r1, g1, b1)
-
+    
             return(count)
     
         def testOne(self):

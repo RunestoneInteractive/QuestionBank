@@ -5,29 +5,33 @@
    :topic: IT105Resources/Exercises
    :from_source: F
    :language: python
-   :nocodelens:
-   
+   :nocodelens: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 33
+   :num_students_correct: 8.0
+   :mean_clicks_to_correct: 39.75
+
    In Craps, the "point" is established when the first toss of two dice is 4, 5, 6, 8, 9, or 10. Once the second phase of the game begins, 
    the player continues to role the two dice until he or she wins by rolling the same number again or loses by rolling a 7.
-
+   
    For the second phase, you are tasked to create a function called ``craps(point)`` that has an integer as a parameter. This integer is the established "point". 
    The function will simulate rolling two dice d1 and d2 one time. The function will **return** the following string based on the value of d1 and d2. 
-
+   
    #. If the sum of the dice is equal to the "point". The **return** string is "You rolled a d1 and d2. You win!"
-
+   
    #. If the sum of the dice is equal to 7. The **return** string is "You rolled a d1 and d2. You lose!"
-
+   
    #. All other values. The **return** string is "You rolled a d1 and d2. Reroll!"
-
+   
    Example:
-
+   
    ::
-
+   
       print(craps(5))
        
       
    Results:
-
+   
    ::
    
       ###This will be different each time the program is run.
@@ -36,16 +40,16 @@
       
       ###Example for case 2 above
       You rolled a 6 and a 1. You lose!
-
+   
       ###Example for case 3 above
       You rolled a 2 and a 1. Reroll!
-
+   
    **Notes:** 
-
+   
    #. ``point`` must be 4, 5, 6, 8, 9, or 10.
-
+   
    #. If you cannot get the Python to work, please describe in comments the steps to solve the problem.
- 
+   
    #. You can delete the ``pass`` lines below or leave it in the code. It does not do anything other serve as a line in a function body to avoid a syntax error.
    ~~~~
    import random
@@ -59,9 +63,9 @@
    import random
    import re
    from unittest.gui import TestCaseGui
-  
+   
    class myTests(TestCaseGui):
-
+   
    # counts how many instances of 'keyword'
       def count_code(self, code, keyword):
          cnt = 0
@@ -77,13 +81,13 @@
          d2 = random.randint(1,6)
          sumOfDice = d1 + d2
          if sumOfDice == 7:
-	    value = "You lose!"
+     value = "You lose!"
          elif sumOfDice == p:
-	    value = "You win!"
+     value = "You win!"
          else:
-	    value = "Reroll!"
+     value = "Reroll!"
          return "You rolled a " + str(d1) + " and a " + str(d2) + ". " + value
-
+   
       def testOne(self):
          count = 0
          editText = self.getEditorText()
@@ -98,5 +102,5 @@
          self.assertGreaterEqual(self.count_code(editText, 'return'), 1, "Checking for a return statement")
          self.assertGreaterEqual(len(re.findall("randrange\s*\(\s*1\s*,\s*7\s*\)", editText)) + len(re.findall("randint\s*\(\s*1\s*,\s*6\s*\)", editText)), 2, "Checking for randint or rangerange and proper parameters")
          #self.assertGreaterEqual(self.count_code(editText, 'randint') + self.count_code(editText, 'randrange') , 2, "Checking for a return statement")
-
+   
    myTests().main()

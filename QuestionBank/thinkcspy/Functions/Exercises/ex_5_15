@@ -4,12 +4,16 @@
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: T
+   :pct_on_first: 0.5
+   :total_students_attempting: 2
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Write a function called ``myPi`` that will return an approximation of PI (3.14159...).  Use the `Leibniz <http://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80>`_ approximation.
    ~~~~
-
+   
     def myPi(iters):
         # Calculate an approximation of PI using the Leibniz
         # approximation with iters number of iterations
-
+   
         # your code here

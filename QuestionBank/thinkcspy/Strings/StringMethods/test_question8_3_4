@@ -12,10 +12,10 @@
    :feedback_a: The numbers before the f in the braces give the number of digits to display after the decimal point.
    :feedback_b: Close, but round to the number of digits and display the full number of digits specified.
    :feedback_c: Yes, correct number of digits with rounding!
-   :pct_on_first: 0.4847258005
-   :total_students_attempting: 10868
-   :num_students_correct: 10811.0
-   :mean_clicks_to_correct: 1.6687632966
+   :pct_on_first: 0.4847732082
+   :total_students_attempting: 10869
+   :num_students_correct: 10812.0
+   :mean_clicks_to_correct: 1.6687014428
 
    
    What is printed by the following statements?

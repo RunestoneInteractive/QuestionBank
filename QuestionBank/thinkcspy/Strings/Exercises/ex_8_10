@@ -6,26 +6,30 @@
    :from_source: T
    :practice: T
    :autograde: unittest
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.4140969163
+   :total_students_attempting: 1362
+   :num_students_correct: 1243.0
+   :mean_clicks_to_correct: 4.2622687047
 
    Write a function that removes the first occurrence of a string from another string.
    ~~~~
    def remove(substr,theStr):
        # your code here
-
+   
    ====
-
-
+   
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
            def testOne(self):
                self.assertEqual(remove("an","banana"),"bana","Tested remove on inputs of 'an' and 'banana'")
                self.assertEqual(remove("cyc","bicycle"),"bile","Tested remove on inputs of 'cyc' and 'bicycle'")
                self.assertEqual(remove("iss","Mississippi"),"Missippi","Tested remove on inputs of 'iss' and 'Mississippi'")
                self.assertEqual(remove("egg","bicycle"),"bicycle","Tested remove on inputs of 'egg' and 'bicycle'")
-
-
-
+   
+   
+   
    myTests().main()

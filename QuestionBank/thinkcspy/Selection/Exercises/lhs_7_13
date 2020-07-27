@@ -6,11 +6,15 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1105263158
+    :total_students_attempting: 380
+    :num_students_correct: 356.0
+    :mean_clicks_to_correct: 14.1292134831
 
     ``size1`` and ``size2`` are the sizes of two files, and ``space`` is the amount of available space on a flash drive. Write a function that takes these integer numbers as arguments and figures out the largest combination of files that fits on a flash drive. The method should return 3 if both files fit together, the file number (1 or 2) corresponding to the longest file that fits by itself (1 if the files are the same size), or 0 if neither file fits on the flash drive. 
-
+    
     Your function must have only **one** return statement.
-
+    
     ~~~~
     # Your Name:
     
@@ -31,7 +35,7 @@
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
     
         def _findBestFit(self, size1, size2, space):

@@ -6,34 +6,38 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.2171717172
+    :total_students_attempting: 396
+    :num_students_correct: 389.0
+    :mean_clicks_to_correct: 9.3984575835
 
     Write a function ``isRightAngled`` which, given the length of three sides of a triangle,
     will determine whether the triangle is right-angled.  Assume that the third argument to the
     function is always the longest side.  It will return ``True`` if the triangle
     is right-angled, or ``False`` otherwise.
-
+    
     **Hint**: floating point arithmetic is not always exactly accurate,
     so it is not safe to test floating point numbers for equality.
     If a good programmer wants to know whether
     ``x`` is equal or close enough to ``y``, they would probably code it up as
-
+    
     .. sourcecode:: python
-
+    
        if  abs(x - y) < 0.001:      # instead of 'if x == y:' to see if x is 'close to' y
            ...
     ~~~~
     def isRightAngled(a, b, c):
         # your code here
-
+    
     # write your own test cases here - it has been started for you...
     print( isRightAngled(3, 4, test_number1) )
     print( isRightAngled(3, 4, test_number2) )
     print( isRightAngled(5, 12, test_number3) )
     print( isRightAngled(5, 12, test_number4) )
-
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             print("Auto-testing...")
@@ -46,5 +50,5 @@
             self.assertEqual(isRightAngled(4.6,8.2,9.40209),True,"Tested is_rightangled on inputs of 4.6, 8.2 and 9.40209")
             self.assertEqual(isRightAngled(4.6,8.2,9.40216),True,"Tested is_rightangled on inputs of 4.6, 8.2 and 9.40216")
             self.assertEqual(isRightAngled(0.5,0.4,0.64031),True,"Tested is_rightangled on inputs of 0.5, 0.4 and 0.64031")
-
+    
     myTests().main()

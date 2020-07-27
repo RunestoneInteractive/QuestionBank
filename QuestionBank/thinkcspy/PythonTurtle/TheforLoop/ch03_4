@@ -4,8 +4,12 @@
     :basecourse: thinkcspy
     :topic: PythonTurtle/TheforLoop
     :from_source: T
-    :nocanvas:
+    :nocanvas: 
     :tour_1: "Overall Tour"; 1-2: Example04_Tour01_Line01; 2: Example04_Tour01_Line02; 1: Example04_Tour01_Line03;
+    :pct_on_first: 1.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 1.0
 
     for name in ["Joe", "Amy", "Brad", "Angelina", "Zuki", "Thandi", "Paris"]:
         print("Hi", name, "Please come to my party on Saturday!")

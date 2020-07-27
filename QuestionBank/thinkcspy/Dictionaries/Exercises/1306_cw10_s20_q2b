@@ -5,31 +5,35 @@
     :topic: Dictionaries/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.3214285714
+    :total_students_attempting: 56
+    :num_students_correct: 45.0
+    :mean_clicks_to_correct: 6.7111111111
 
-
+    
     **Question 2B [30 points]** 
      
     Write a function ``CI2(inventory, low)`` that returns the same list as ``check_inventory``, but it is sorted – with the lowest inventory item appearing first.
-
+    
     *Note:* For the ``CI2`` function, **try not to use an external sort method**. Your goal should be to identify the low inventory items in order and add them to the list to get the right result. If you follow this, you will not need to call ``check_inventory``. 
-
-
+    
+    
     ~~~~
     # Write your code here
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     def compareStringList(list1, list2):
         if len(list1)!=len(list2):
             return False
-		
+    
         for item1 in list1:
             if item1 not in list2:
                 return False
         return True
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
             inp1 = {'mango':22 ,'apple':10,'banana':3}
@@ -38,12 +42,12 @@
            
             self.assertEqual( CI2(inp1 ,5),out1, "CI2("+str(inp1)+",5) should return ['banana']")
             self.assertEqual( CI2(inp1 ,15),out2,"CI2("+str(inp1)+",15) should return ['banana','apple']")
-
+    
             #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
             #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
             #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
-
-
-
-
+    
+    
+    
+    
     myTests().main()

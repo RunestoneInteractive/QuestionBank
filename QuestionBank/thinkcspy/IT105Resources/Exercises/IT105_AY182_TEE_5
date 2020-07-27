@@ -6,8 +6,12 @@
   :from_source: F
   :language: python
   :autograde: unittest
-  :nocodelens:
-  
+  :nocodelens: 
+  :pct_on_first: 0.1315789474
+  :total_students_attempting: 38
+  :num_students_correct: 24.0
+  :mean_clicks_to_correct: 8.4166666667
+
   You woke up this morning thinking,"I need to write a function that checks for one of three inputs and gives an error if the user does not follow the directions".  
   
   Write a function called ``goodBadUgly`` that takes one string input parameter and does the following:
@@ -21,28 +25,28 @@
   ::
       
       print(goodBadUgly("Good")) # prints "IT105 Rocks!"
-
+  
       
   **Note:** You must use ``elif`` to receive full credit for this problem. Runestone will test all three inputs for you. 
     
   **Note:** You can delete the ``pass`` line below. Or you can leave it. It doesn't do anything. ``pass`` is just there so that the function bodies aren't empty as that would cause a syntax error.
-
+  
   ~~~~
   def goodBadUgly(string):
     pass
     # your code goes here 
   ====
   from unittest.gui import TestCaseGui
-
+  
   class Tests(TestCaseGui): 
     def tests(self):
       outText = self.getOutput()
- 
+  
       
       self.assertEqual(goodBadUgly("Good"),"IT105 Rocks!","Argument value Good worked")
       self.assertEqual(goodBadUgly("Bad"),"Only one more week of classes","Argument value Bad worked")
       self.assertEqual(goodBadUgly("Ugly"),"Did not study for the TEE, 5 Hours","Argument value Ugly worked")
       self.assertIn('elif', self.getEditorText(), "Must use elif construct.")
-
+  
       
   Tests().main()

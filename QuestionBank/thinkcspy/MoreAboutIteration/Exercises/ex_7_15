@@ -4,12 +4,16 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: T
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 4.0
 
    Write a function to remove all the red from an image.
-
+   
    .. raw:: html
-
+   
        <img src="../_static/LutherBellPic.jpg" id="luther.jpg">
        <h4 style="text-align: left;">For this and the following exercises, use the
        luther.jpg photo.</h4>

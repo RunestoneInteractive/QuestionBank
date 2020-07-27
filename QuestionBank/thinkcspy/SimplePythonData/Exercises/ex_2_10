@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: SimplePythonData/Exercises
    :from_source: T
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 5.0
 
    Write a program that will compute MPG for a car.  Prompt the user to enter the number of miles driven and the number of
    gallons used.  Print a nice message with the answer.

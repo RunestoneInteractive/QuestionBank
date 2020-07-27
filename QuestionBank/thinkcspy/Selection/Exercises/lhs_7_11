@@ -6,25 +6,29 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.2798982188
+    :total_students_attempting: 393
+    :num_students_correct: 382.0
+    :mean_clicks_to_correct: 8.164921466
 
     Write a function called ``recommend(temp, forecast)`` that **prints** out a recommendation
     about what to wear and bring based on the weather. ``temp`` is an integer number that
     represents the temperature in degrees. ``forecast`` is a string which describes the
     weather forecast for the day.
-
+    
     When the temperature is under 72 degrees, a jacket should be worn.
     
     If the forecast is "showers", "rain", or "snow", an umbrella should be brought.
-
+    
     Your output should be one of these sentences based on the forecast & temperature.
-
+    
     ::
-
+    
       Based on the weather forecast, you should bring a jacket and an umbrella
       Based on the weather forecast, you should bring an umbrella
       Based on the weather forecast, you should bring a jacket
       Weather is great! Have a nice day!
-
+    
     ~~~~
     # Your Name:
     
@@ -71,12 +75,12 @@
             oLenTest = len(self.getOutput())
             outText = self.getOutput()[oLen:oLenTest]  #extract new output           
             outText = " ".join(outText.split())        # remove any extra white space with a single space
-
+    
             errMsg = str(temp) + " degrees and " + forecast
-
+    
             goodMsg = self.golden_recommend(temp, forecast)
             goodMsg = " ".join(goodMsg.split())
-
+    
             self.assertEqual(outText, goodMsg, errMsg)
                     
         def testOne(self):

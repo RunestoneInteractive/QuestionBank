@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: Lists/Exercises
    :from_source: F
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0681818182
+   :total_students_attempting: 44
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 8.75
 
    Use this active code window for coding problem 2. Include the required function only!
     
@@ -16,7 +20,7 @@
     
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            fn = ['Mary', 'Roberto', 'Ed', 'Al']

@@ -6,19 +6,23 @@
    :from_source: F
    :practice: T
    :autograde: unittest
+   :pct_on_first: 0.0
+   :total_students_attempting: 15
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 26.0
 
    Write a function, ``is_prime``, that takes a single integer argument
    and returns ``True`` when the argument is a *prime number* and ``False``
    otherwise.
    ~~~~
-
+   
    def is_prime(n):
        # your code here
-
+   
    ====
    import re
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            editText = self.getEditorText()

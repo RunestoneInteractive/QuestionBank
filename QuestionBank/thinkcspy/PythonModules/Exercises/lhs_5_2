@@ -6,14 +6,18 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1617021277
+    :total_students_attempting: 705
+    :num_students_correct: 581.0
+    :mean_clicks_to_correct: 10.1600688468
 
     Write a program using a ``for`` loop and the ``random`` module to display the results of rolling a pair of dice 10 times and adding up the results. Note: Your values may be different due to randomness.
     
     (You must use exactly 1 ``for`` statement,  and 2 ``randrange`` statements. The ``randrange`` should have parameters
     to generate a single die roll of 1 to 6 w/o any additional arithmetic.)
-
+    
     ::
-
+    
       Results from rolling a pair of dice 10 times:
       7
       8
@@ -24,18 +28,18 @@
       5
       4
       2
-
+    
     ~~~~
     # My Name:
-
+    
     # write your code here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         # counts how many instances of 'keyword'
         def count_code(self, code, keyword):
             cnt = 0
@@ -45,7 +49,7 @@
                     if val.find(keyword) >= 0:
                         cnt = cnt + 1
             return(cnt)
-
+    
         def check_output(self, num):
             if len(num) != 10:
                 return(False)
@@ -53,7 +57,7 @@
                 if (int(i) > 12) or (int(i) < 2):
                     return(False)
             return(True)
-
+    
          # regExString - is checked inside inString
          # howMany - how many matches are expected
          # matchString - summary of what is being matched (readable version of regExString)
@@ -63,16 +67,16 @@
             checkOK = (len(res) == howMany)
             if not checkOK:
                 print("Found [", matchString, "]", len(res), "time(s), not", howMany)
-
+    
             self.assertEqual(checkOK, True, errorString)
-
+    
             return(checkOK)
-
+    
         # returns the lines of code within the for loop
         def getFor(self, inString):
             res = re.findall("(?:^for.*\n)(?:(?:^[ ]+.*)|(?:\n)|(?:^#.*\n))*", inString, re.M)
             return(res)
-
+    
         def testOne(self):
             print("Auto-testing...")
             outText = self.getOutput()
@@ -82,12 +86,12 @@
             pos = code.find("class myTests")
             if (pos != -1):
                 code = code[:pos]
-
+    
             self.regExCheck("^for ", code, 1, "for loop", "Checking that 'for' loop was used")
             self.regExCheck("randrange\s*\(\s*1\s*,\s*7", self.getFor(code)[0], 2, "randrange(a,b)", "Checking for randrange w/ proper parameters")
-
+    
             # get list of all numbers printed
             numList = re.findall(r'^\d+$', outText, re.M)
             self.assertTrue(self.check_output(numList), "Ten die pair sums should be between 2 and 12")
-
+    
     myTests().main()

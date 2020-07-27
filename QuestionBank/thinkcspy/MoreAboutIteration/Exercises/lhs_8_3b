@@ -6,23 +6,27 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1139240506
+    :total_students_attempting: 395
+    :num_students_correct: 389.0
+    :mean_clicks_to_correct: 16.4190231362
 
     Each time Kevin re-reads his Python book (which happens every month), he learns some percentage
     of whatever material he didn’t know before. He has a target score (example: 95%) on the 
     final exam to get an A in the class. When Kevin starts, he knows nothing about Python.
-
+    
     For example: When Kevin knows 20% and his monthly learning rate is 10%, then after one month
     Kevin will know 20% + 10% * 80% = 28%.  In the next month, he will know 28% + 10% * 72% = 35.2%.
-
+    
     Write a generic function ``getLearningTime(rate, target)`` that simulates this learning progress 
     and returns the number of months it will take to get ready for the exam. The ``rate``
     is the learning rate (in the example above 20%), and the ``target`` is the score that is
     to be achieved (in the example above 95%). Assume 0% knowledge when you start learning.
-
+    
     ~~~~
     def getLearningTime(rate, target):
         # your code here
-
+    
     ====
     import random
     from unittest.gui import TestCaseGui
@@ -45,7 +49,7 @@
     
         def testOne(self):
             print("\nAuto-testing...")
-
+    
             self.doTest(0.10, 0.95)
             self.doTest(0.20, 0.90)
             for i in range(3):

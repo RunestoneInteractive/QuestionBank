@@ -6,11 +6,15 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.9050632911
+    :total_students_attempting: 158
+    :num_students_correct: 157.0
+    :mean_clicks_to_correct: 1.3503184713
 
     Every four years, the summer Olympics are held in a different country. Add a
     key-value pair to the dictionary ``places`` that reflects that the 2016 Olympics
     were held in Brazil. Do not rewrite the entire dictionary to do this!
- 
+    
     ~~~~   
     places = {"Australia":2000, "Greece":2004, "China":2008, "England":2012}
     
@@ -19,10 +23,10 @@
     ====
     
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(sorted(places.items()), sorted([("Australia", 2000), ("Greece", 2004), ("China", 2008), ("England", 2012), ("Brazil", 2016)]), "Testing that places has been updated correctly.")
-
+    
     myTests().main()

@@ -6,18 +6,22 @@
     :from_source: F
     :practice: T
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 1.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 1.0
 
     Extend the above program so that the sides can be given to the function in any order.
     ~~~~
-
+    
     def is_rightangled(a, b, c):
         # your code here
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertEqual(is_rightangled(1.5,2.5,2.0),True,"Tested is_rightangled on inputs of 1.5, 2.5 and 2.0")
@@ -29,5 +33,5 @@
             self.assertEqual(is_rightangled(3,4,5),True,"Tested is_rightangled on inputs of 3, 4 and 5")
             self.assertEqual(is_rightangled(3.5,4.5,5),False,"Tested is_rightangled on inputs of 3.5, 4.5 and 5")
             self.assertEqual(is_rightangled(-6,8,10),True,"Tested is_rightangled on inputs of -6, 8 and 10")
-
+    
     myTests().main()

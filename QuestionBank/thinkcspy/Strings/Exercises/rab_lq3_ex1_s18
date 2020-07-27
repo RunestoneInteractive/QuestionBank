@@ -4,7 +4,11 @@
     :basecourse: thinkcspy
     :topic: Strings/Exercises
     :from_source: F
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.0416666667
+    :total_students_attempting: 24
+    :num_students_correct: 8.0
+    :mean_clicks_to_correct: 10.25
 
     Use this active code window for coding problem 1. Include the required function only!
     
@@ -16,7 +20,7 @@
     
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertEqual(cipher('seat'), 'ties',  "Tested 'seat' ")

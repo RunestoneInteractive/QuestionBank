@@ -6,22 +6,26 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1601941748
+    :total_students_attempting: 412
+    :num_students_correct: 404.0
+    :mean_clicks_to_correct: 8.7376237624
 
     Write a function ``replace(lst, old, new)`` that replaces all occurences of the
     elements ``old`` with ``new`` in the list ``lst`` and returns a **new** list. the
     original list ``lst`` must remain unchanged.
-
+    
     ~~~~
     # My Name:
-
+    
     def replace(lst, old, new):
         # write your code here
     
     # any test cases you'd like to have
-
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def _replace(self, lst, old, new):
             cloneLst = lst[:]
@@ -29,13 +33,13 @@
                 if cloneLst[i] == old:
                     cloneLst[i] = new
             return cloneLst
-
+    
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             lst = [
                 ('s', 'S', ['M', 'i', 's', 's', 'i', 's', 's', 'i', 'p', 'p', 'i']),

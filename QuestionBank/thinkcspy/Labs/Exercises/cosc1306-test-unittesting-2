@@ -6,19 +6,23 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    #If this is a homework problem instead of an example in the text
    #then the assignment text should go here.  The assignment text ends with
    #the line containing four tilde 
     
    # ~~~~~
-
-
-
-.. activecode:: cosc1306-test-unittesting-2
+   
+   
+   
+   activecode:: cosc1306-test-unittesting-2
    :autograde: unittest
    :language: python
-
+   
    #If this is a homework problem instead of an example in the text
    #then the assignment text should go here.  The assignment text ends with
    #the line containing four tilde 
@@ -30,15 +34,15 @@
        for n in range(N):
             sum = sum + n
    return sum    
-
-====
-
-from unittest.gui import TestCaseGui
-
-class myTests(TestCaseGui):
-
+   
+   =
+   
+   m unittest.gui import TestCaseGui
+   
+   ss myTests(TestCaseGui):
+   
     def testOne(self):
         self.assertEqual(sum_first_n(4),6,feedback="0 + 1 + 2 + 3 == 6")
         self.assertEqual(sum_first_n(0),0,feedback="summing 0 numbers should be 0")
-
-myTests().main()
+   
+   ests().main()

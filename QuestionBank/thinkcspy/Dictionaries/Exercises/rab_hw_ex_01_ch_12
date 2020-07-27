@@ -4,11 +4,15 @@
    :basecourse: thinkcspy
    :topic: Dictionaries/Exercises
    :from_source: F
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0666666667
+   :total_students_attempting: 105
+   :num_students_correct: 99.0
+   :mean_clicks_to_correct: 14.6767676768
 
    Two functions will be written in this exercise. The first is called ```make_dictionary(l1, l2)``` that takes two equal-length lists of single-character strings. It creates and returns a dictionary using the elements of l1 as keys and the elements of l2 as values. The dictionary is then used by a function called ```cipher(s, d)```. The parameter ```s``` is a string and ```d``` is the dictionary created by ```make_dictionary```. Function ```cipher(s, d)``` uses dictionary ```d``` to replace characters in ```s``` that are keys in ```d``` with the corresponding key value. Characters in ```s``` that are not dictionary keys are left unchanged in the ciphered version of the string ```s```. The ciphered word is returned. 
    
-
+   
    ~~~~
    def make_dictionary(l1, l2):
        # your code here
@@ -16,10 +20,10 @@
        
    def cipher(s, d):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            l1 = ['b', 'f', 'j', 'o', 'z']
@@ -29,5 +33,5 @@
            self.assertEqual(nw, '!&y%', "Tested boyz == !&y%")
            nw = cipher('jack in the box', d)
            self.assertEqual(nw, '#ack in the !&x' ,"Tested jack in the box == #ack in the !&x")          
-
+   
    myTests().main()

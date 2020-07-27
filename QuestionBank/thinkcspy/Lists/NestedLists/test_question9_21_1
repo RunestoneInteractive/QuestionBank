@@ -14,10 +14,10 @@
    :feedback_b: 8 is in the wrong list.  alist[1] refers to the second item in alist, namely [888,999].
    :feedback_c: Yes, alist[0][1][0] is True and alist[1] is the second list, the first item is 888.
    :feedback_d: alist[0][1][0] is True.  Take another look at the if statement.
-   :pct_on_first: 0.6615794574
-   :total_students_attempting: 8256
-   :num_students_correct: 8196.0
-   :mean_clicks_to_correct: 1.5242801367
+   :pct_on_first: 0.661622276
+   :total_students_attempting: 8260
+   :num_students_correct: 8200.0
+   :mean_clicks_to_correct: 1.5241463415
 
    What is printed by the following statements?
    

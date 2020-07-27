@@ -6,36 +6,40 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.2535787321
+    :total_students_attempting: 489
+    :num_students_correct: 474.0
+    :mean_clicks_to_correct: 4.2341772152
 
     Assume you have a list of numbers ``12, 10, 32, 3, 66, 17, 42, 99, 20``
         a. Write a loop that prints each of the numbers on a new line.
         b. Write a loop that prints each number and its square on a new line.
-
+    
     For example, if the list of numbers were ``1, 2, 3``. Then the output would be
-
+    
     ::
-
+    
       1
       2
       3
       1 1
       2 4
       3 9
-
-
+    
+    
     ~~~~
     # Your code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertIn('for', self.getEditorText(), "Testing your code. (Don't worry about Actual and Expected Values.)")
             self.assertIn('12\n10\n32\n3\n66\n17\n42\n99\n20\n', self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
             self.assertIn('12 144\n10 100\n32 1024\n3 9\n66 4356\n17 289\n42 1764\n99 9801\n20 400\n', self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
-
+    
     myTests().main()

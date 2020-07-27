@@ -6,19 +6,23 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.4594594595
+    :total_students_attempting: 37
+    :num_students_correct: 35.0
+    :mean_clicks_to_correct: 2.3714285714
 
     Write a statement to create a float variable named nine that is equal to 9
     ~~~~
     # add your code after this line (requires no more than one statement)
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
            self.assertIsInstance(nine, float, "Testing that nine is a float variable.")           
            self.assertEqual(nine, 9, "Testing that nine is equal to 9.0.")
-
+    
     myTests().main()

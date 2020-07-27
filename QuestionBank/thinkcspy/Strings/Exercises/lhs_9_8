@@ -6,44 +6,48 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0665024631
+    :total_students_attempting: 406
+    :num_students_correct: 380.0
+    :mean_clicks_to_correct: 16.7052631579
 
     Write a function ``wheelOfFortune(letter, phrase)`` that plays one guess of the a ``letter``
     within a ``phrase``. The ``letter`` is a single character (that may be upper or lower case).
     The ``phrase`` is a string that is of any length with upper and lower case letters.
-
+    
     The function should ignore the case of either the letter or the characters in the phrase.
-
+    
     The function prints out the following messages:
-
+    
     Example: wheelOfFortune('a', 'Hello World')
-
+    
     ::
-
+    
       Sorry, there is no "a"
-
+    
     Example: wheelOfFortune('w', 'Hello World')
-
+    
     ::
-
+    
       There was 1 w found
       Found at position 6
-
+    
     Example: wheelOfFortune('L', 'Hello World')
-
+    
     ::
-
+    
       There were 3 l's found
       Found at position 2
       Found at position 3
       Found at position 9
-
+    
     **NOTE:** When you print out the first line of how many letters are found, you should
     print out the letter in lower case always.
     ~~~~
     # My Name:
-
+    
     # define the wheelOfFortune(letter, phrase) function here
-
+    
     # write any test case to test your function
     wheelOfFortune('e', 'test')
     

@@ -6,11 +6,15 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.8586387435
+    :total_students_attempting: 191
+    :num_students_correct: 189.0
+    :mean_clicks_to_correct: 1.3015873016
 
     Update the value for "Phelps" in the dictionary ``swimmers`` to include his medals
     from the Rio Olympics by adding 5 to the current value (Phelps will now have 28
     total medals). Do not rewrite the dictionary.
-
+    
     ~~~~   
     swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4, 'Phelps':23}
     
@@ -19,10 +23,10 @@
     ====
     
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testThree(self):
             self.assertEqual(sorted(swimmers.items()), sorted([('Adrian', 7), ('Dirado', 4), ('Ledecky', 5), ('Lochte', 12), ('Phelps', 28), ('Manuel',4)]), "Testing that swimmers is assigned to correct values.")
-
+    
     myTests().main()

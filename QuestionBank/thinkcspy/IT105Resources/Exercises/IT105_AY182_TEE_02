@@ -6,23 +6,27 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
-    
+    :nocodelens: 
+    :pct_on_first: 1.0
+    :total_students_attempting: 2
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 1.0
+
     During the course of the term we have discussed values like a word or a number.  We have also called these values objects and have used the terms interchangeable.  You have also learned that objects can be classified by data types.
     
     For each of the following variables (which have value assigned), write a python statement that displays the variable's data type. 
     
-   
+    
     ~~~~
     input1 = 3
     input2 = 4.5
     input3 = True
     input4 = "IT105 Rocks!"
-
+    
     # your code goes here
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
        
        def testOne(self):

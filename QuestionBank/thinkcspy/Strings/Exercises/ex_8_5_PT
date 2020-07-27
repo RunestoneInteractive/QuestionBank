@@ -6,17 +6,21 @@
    :from_source: F
    :practice: T
    :autograde: unittest
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Write a function that reverses its string argument.
    ~~~~
    def reverse(astring):
        # your code here
-
+   
    ====
    import re
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            editText = self.getEditorText()
@@ -27,8 +31,8 @@
            self.assertEqual(reverse("12345"),"54321","Tested reverse on input of ''12345")
            self.assertEqual(reverse("Step on no pets"),"step on no petS","Tested reverse on input of ''Step on no pets")
            
-
-
-
-
+   
+   
+   
+   
    myTests().main()

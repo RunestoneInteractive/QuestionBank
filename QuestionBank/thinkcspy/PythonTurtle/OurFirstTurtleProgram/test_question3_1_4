@@ -16,10 +16,10 @@
    :feedback_c: This code would turn the turtle to the south before drawing
    :feedback_d: This code is almost correct, but the short end would be facing east instead of west.
    :feedback_e: Yes, the turtle starts facing east, so to turn it north you can turn left 90 or right 270 degrees.
-   :pct_on_first: 0.7003449427
-   :total_students_attempting: 17974
-   :num_students_correct: 17878.0
-   :mean_clicks_to_correct: 1.5152142298
+   :pct_on_first: 0.7003782822
+   :total_students_attempting: 17976
+   :num_students_correct: 17880.0
+   :mean_clicks_to_correct: 1.5151565996
 
    Which of the following code would produce the following image?
    

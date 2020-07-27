@@ -6,23 +6,27 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.219858156
+    :total_students_attempting: 141
+    :num_students_correct: 87.0
+    :mean_clicks_to_correct: 5.7126436782
 
     Write a function ``classifyTriangle(s1, s2, s3)`` that takes three parameters 
     (all positive real numbers greater than 0) which represent the length of each
     side of a triangle.
-
+    
     The function returns 0, 1, 2 or 3 depending on the type of triangle.
-
+    
     ::
-
+    
        0 - not a triangle (where a + b <= c)
        1 - scalene triangle
        2 - isosceles triangle (2 matching side lengths)
        3 - equilateral triangle (3 matching side lengths)
-
+    
     
     ~~~~
-
+    
     def classifyTriangle...
     
     

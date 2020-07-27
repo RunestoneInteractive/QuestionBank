@@ -6,8 +6,12 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
-    
+    :nocodelens: 
+    :pct_on_first: 0.1428571429
+    :total_students_attempting: 7
+    :num_students_correct: 6.0
+    :mean_clicks_to_correct: 5.6666666667
+
     The ``tee`` module provides the ``tee.minutes()`` function described below:
     
     ::
@@ -48,7 +52,7 @@
         import sys
         from StringIO import StringIO
         oldout = sys.stdout
-
+    
         try:
             out = StringIO()
             sys.stdout = out
@@ -56,7 +60,7 @@
             return [ret, out.getvalue()]
         finally:
             sys.stdout = oldout
-
+    
       def tests(self):
         import random
         
@@ -82,15 +86,15 @@
     
         import time
         from datetime import date, datetime, timedelta
-
+    
         now = datetime.today()
-
+    
         # figure out if we're in a morning or evening test
         if now.strftime("%p") == "AM":
             hour, minute = 11, 0
         else:
             hour, minute = 21, 30
-
+    
         end = datetime(now.year,now.month,now.day,hour,minute)
         delta = end - now
         minutes = delta.total_seconds() // 60
@@ -98,13 +102,13 @@
         #days = delta.days
         #hours, remainder = divmod(delta.seconds, 3600)
         #minutes, seconds = divmod(remainder, 60)
-
+    
         def minutesLeft():
             global minutes
             return minutes
-
+    
         # end tee.py
-
+    
       */}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1].replace(/^ {4}/gm,'');
       Sk.externalLibraryCache['tee'] = Sk.compile(tee,'tee.py','exec',true);
     </script><textarea style="display:none">

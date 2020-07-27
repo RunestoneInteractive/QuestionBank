@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: T
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    After you have scaled an image too much it looks blocky.  One way of
    reducing the blockiness of the image is to replace each pixel with the

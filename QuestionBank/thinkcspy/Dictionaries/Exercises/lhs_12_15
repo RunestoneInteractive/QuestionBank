@@ -6,11 +6,15 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0324675325
+    :total_students_attempting: 154
+    :num_students_correct: 55.0
+    :mean_clicks_to_correct: 19.6909090909
 
     Write a function ``add_sparse_matrix(m1, m2)`` that takes as input two sparse matrices and adds them.
     To add matrices, you add the corresponding row/col elements in the matrix.  You may assume that both 
     matrices are the same size. 
-
+    
     Both ``m1`` and ``m2`` are sparse matrices that are defined within using a Python dictionary. 
     A (row, col) tuple is the key for any non-zero value in the
     matrix. The associated key-value will be an integer representing the value of the matrix at (row, col).
@@ -19,14 +23,14 @@
     
     The function should **return** a matrix (as a dictionary as described below). **Remember** to set up the
     new matrix dictionary with the 'size' key-value as well as any other non-zero value.
-
+    
     Here is an example sparse matrix: ``m = {'size':(3,2), (0,0):1, (2,1):4 }``. The size is 3 x 2. Element (0,0) is 1 and element (2,1) is 4.
     
     ~~~~
         
     def add_sparse_matrix(m1, m2):
         # your code here
-
+    
     def main():
         # your test code here
     

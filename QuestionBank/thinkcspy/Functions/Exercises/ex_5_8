@@ -6,23 +6,27 @@
    :from_source: T
    :practice: T
    :autograde: unittest
+   :pct_on_first: 0.4866735895
+   :total_students_attempting: 2889
+   :num_students_correct: 2513.0
+   :mean_clicks_to_correct: 2.7401512137
 
    Write a function `areaOfCircle(r)` which returns the area of a circle of radius `r`.  Make sure you use the math module in your solution.
    ~~~~
-
+   
    def areaOfCircle(r):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertAlmostEqual(areaOfCircle(5.0),78.53981633974483,5,"Tested input: areaOfCircle(5.0)")
            self.assertEqual(areaOfCircle(5.0),78.53981633974483,"Tested input: areaOfCirlce(5.0)")
            self.assertEqual(areaOfCircle(0),0.0,"Tested input: areaOfCirlce(0)")
            self.assertAlmostEqual(areaOfCircle(31415.926535897932),3100627668.0299816,5,"Tested input: areaOfCirlce(31415.926535897932)")
-
-
+   
+   
    myTests().main()

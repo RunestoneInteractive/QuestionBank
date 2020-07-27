@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.5581395349
+   :total_students_attempting: 43
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 3.119047619
 
     Use this active code window for lab activity 3.5 in Chapter 6. Refer to the course web page for instructions.
    ~~~~
@@ -14,7 +18,7 @@
     
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(row_seat(1), (1, 1), "Tested ticket_number = 1, giving row 1 and seat 1")

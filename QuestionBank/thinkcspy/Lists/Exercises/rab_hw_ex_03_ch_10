@@ -4,18 +4,22 @@
    :basecourse: thinkcspy
    :topic: Lists/Exercises
    :from_source: F
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.14
+   :total_students_attempting: 100
+   :num_students_correct: 90.0
+   :mean_clicks_to_correct: 11.9444444444
 
    Write a function called ```change_tuple(t_in, kind, item, spot)``` that makes a change to tuple and returns the new tuple. The parameter ```t_in``` is the tuple, parameter ```kind``` is a string with value either 'add' or 'replace', parameter ```item``` is the value of the item that will either be added to the tuple at the end, or replace the current value of the tuple in the location specified by the optional parameter ```spot```. NOTE: The optional parameter ```spot``` is defaulted to 0 if no value is included in the call to the function. If the value of ```kind``` is not one of 'add' or 'replace,' then ```t_in``` is returned unchanged.
    
-
+   
    ~~~~
    def change_tuple(t_in, kind, item, spot=0):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            t_in = ('James', 'Smith', 42, 'Decorah', 'Iowa')

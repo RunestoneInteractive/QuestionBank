@@ -10,10 +10,10 @@
    :correct: b
    :feedback_a: d is greater than D.
    :feedback_b: The length does not matter.  Lower case d is greater than upper case D.
-   :pct_on_first: 0.6213248977
-   :total_students_attempting: 10748
-   :num_students_correct: 10627.0
-   :mean_clicks_to_correct: 1.3911734262
+   :pct_on_first: 0.6213601265
+   :total_students_attempting: 10749
+   :num_students_correct: 10628.0
+   :mean_clicks_to_correct: 1.3911366202
 
    Evaluate the following comparison:
    

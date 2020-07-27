@@ -6,17 +6,21 @@
    :from_source: F
    :practice: T
    :autograde: unittest
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Write a function that removes all occurrences of a given letter from a string.
    ~~~~
    def remove_letter(theLetter, theString):
        # your code here
-
+   
    ====
    import re
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            editText = self.getEditorText()
@@ -26,8 +30,8 @@
            self.assertEqual(remove_letter("z","banana"),"banana","Tested remove_letter on inputs of 'z' and 'banana'")
            self.assertEqual(remove_letter("o","1oo100oo1"),"11001","Tested remove_letter on inputs of 'o' and '1oo100oo1'")
            
-
-
-
-
+   
+   
+   
+   
    myTests().main()

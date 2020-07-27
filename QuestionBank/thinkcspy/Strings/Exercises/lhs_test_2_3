@@ -6,27 +6,31 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3333333333
+    :total_students_attempting: 255
+    :num_students_correct: 181.0
+    :mean_clicks_to_correct: 3.364640884
 
     **(10 pts)** Create a function ``printMsg(message, howMany)`` that prints out 
     the string ``message`` as many times as the input ``howMany`` specifies. 
-
+    
     **NOTE:** You must use 
     a ``while`` loop and **not** a ``for`` loop.
-
+    
     So, for example, ``printMsg("This is easy!", 3)`` will print:
-
-
+    
+    
     ::
-
+    
       This is easy!
       This is easy!
       This is easy!
-
+    
     ~~~~
     # Your Name:
     
     # Write your code below
-
+    
     ====
     import re
     import sys
@@ -41,7 +45,7 @@
             return golden_out
     
         def check(self, message, n):
-
+    
             # run test and steer print() to output file
             fname = "test.out"
             sys.stdout = open(fname, "w")
@@ -54,27 +58,27 @@
             f.close()
     
             self.assertEqual(outText, self.golden_printMsg(message, n), "Test")
-
+    
             self.deleteFile(fname)
-
+    
         def testOne(self):
-
+    
             # strips the test code - when testing code with the test code 
             editText = self.getEditorText()
             pos = editText.find("class myTests")
             if (pos != -1):
                 editText = editText[:pos]
-
+    
             self.assertEqual(0, len(re.findall("\s*for ", editText)), "Should have no for loops")
             self.check("HELLO!!", 5)
             self.check("This is a test", 1)
             self.check("This is another test", 3)
             self.check("This is yet another test", 0)
-
+    
         def deleteFile(self, fname):
             # empty out the file so nothing shows
             sys.stdout = open(fname, "w")
             print("", end="")
             sys.stdout.close()
-
+    
     myTests().main()

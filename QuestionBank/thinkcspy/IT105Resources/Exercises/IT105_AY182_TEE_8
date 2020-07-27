@@ -6,8 +6,12 @@
   :from_source: F
   :language: python
   :autograde: unittest
-  :nocodelens:
-  
+  :nocodelens: 
+  :pct_on_first: 0.0
+  :total_students_attempting: 1
+  :num_students_correct: 1.0
+  :mean_clicks_to_correct: 6.0
+
   Time to manipulate and decompose a list.  From the list declared below as ``theList``, write a function called swapItems that takes ``theList`` as input and returns a 2 item list comprised of the second item of the first item and the first item of the second item. 
   
   An example
@@ -17,10 +21,10 @@
     theList = [1,2],[3,4]
     swapItems(theList) # this returns [2,3]
    
-
+  
   ~~~~
   
- 
+  
   theList = [["192.168.10.10","127.56.12.100"],["134.240.241.71","134.240.241.73"]]
   
   def swapItems(theList):
@@ -28,7 +32,7 @@
     # your code here
   ====
   from unittest.gui import TestCaseGui
-
+  
   class Tests(TestCaseGui): 
     def tests(self):
        

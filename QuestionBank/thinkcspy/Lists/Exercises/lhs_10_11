@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0871794872
+    :total_students_attempting: 390
+    :num_students_correct: 361.0
+    :mean_clicks_to_correct: 26.6814404432
 
     Let us say that a list (or string) matches an input pattern (another list or string)
     if the pattern is at least as long as the list (or string) and for every
@@ -14,42 +18,42 @@
     For example, "New York" matches "New ??????" where "?" is the wildcard.
     Also, "New Jersey" matches "New ??????" where "?" is the wildcard.
     But, "New York" does not match "New Hamp????"
-
+    
     Write the **boolean** function ``match( lst, pattern, wildcard )`` that implements
     this functionality.
-
+    
     **NOTE:** Because iteration through a string or a list is the same, the input parameters
     ``lst`` and ``pattern`` can be both strings, or can be both lists.
-
+    
     ~~~~
     # My Name:
-
+    
     def match( lst, pattern, wildcard ):
         # write your code here
     
     # any test cases you'd like to have
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def _match( self, lst, pattern, wildcard ):
             if len(lst) > len(pattern) or len(lst) == 0:
                 return False
-
+    
             for i in range(len(pattern)):
                 if pattern[i] != wildcard and (i >= len(lst) or lst[i] != pattern[i]):
                     return False
-
+    
             return True
-
+    
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             lst = [
                 ("New ????????", '?', "New Orleans"),
@@ -67,5 +71,5 @@
                 else:
                     self.assertEqual(match( lst, pat, wc ), self._match( lst, pat, wc ), "match('"+str(lst)+"', '"+str(pat)+"', '"+str(wc)+"')")
             self.assertEqual(match( [], ['!'], '#' ), self._match( [], ['!'], '#' ), "match([], ['!'], '#')")
-
+    
     myTests().main()

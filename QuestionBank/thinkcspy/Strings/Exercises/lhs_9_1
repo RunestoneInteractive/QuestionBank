@@ -6,22 +6,26 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1057471264
+    :total_students_attempting: 435
+    :num_students_correct: 414.0
+    :mean_clicks_to_correct: 17.7053140097
 
     Write a function ``removeLeftSpaces(theString)`` which removes all leading spaces in a string
     and returns the stripped out string.  The string may have multiple words.
-
+    
     You may **not** use the built-in string method ``.lstrip`` 
-
+    
     Ex. ``removeLeftSpaces("     Hello Joe  ")`` would return the string ``"Hello Joe  "``
-
+    
     ~~~~
     # My Name:
-
+    
     def removeLeftSpaces(theString):
         # write your code here
     
     # any test cases you'd like to have
-
+    
     ====    
     import re
     from unittest.gui import TestCaseGui

@@ -5,10 +5,14 @@
    :topic: IT105Resources/Exercises
    :from_source: F
    :language: python
-   :nocodelens:
-   
-   Your computer, along with a number of other computers, are trying to send packets through a router. Only one computer can talk at a time. The router randomly selects the ID of the next computer to talk to. Write a function that takes the number of computers on the network and the ID for your computer **(see note 1 below about selecting IDs)**. The function should return the number of tries it takes until **Your ID** matches the ID the router selected.
+   :nocodelens: 
+   :pct_on_first: 0.0512820513
+   :total_students_attempting: 39
+   :num_students_correct: 20.0
+   :mean_clicks_to_correct: 14.6
 
+   Your computer, along with a number of other computers, are trying to send packets through a router. Only one computer can talk at a time. The router randomly selects the ID of the next computer to talk to. Write a function that takes the number of computers on the network and the ID for your computer **(see note 1 below about selecting IDs)**. The function should return the number of tries it takes until **Your ID** matches the ID the router selected.
+   
    Write a function ``findNumTries(numConnections, myID)``
    that will take the number of connections to a router and the ID for the requesting computer. The function will ``return`` the number of tries. 
    
@@ -17,7 +21,7 @@
    **Note 2:** Assume that all connections are continually attempting to broadcast at the same time and each has equal probability of being selected for each try.
     
    Example: 
-
+   
    ::     
       
       ### There are 5 connections to the wireless access point
@@ -26,15 +30,15 @@
       
    
    Results:
-
+   
    ::
    
       ### This will be a random integer; equating to the number of tries.
    
-
+   
    ~~~~
    ### Name:
-
+   
    import random
    ###write your code here.
    
@@ -42,7 +46,7 @@
    
    ====
    from unittest.gui import TestCaseGui
-  
+   
    class myTests(TestCaseGui):
       
       def golden_func(self,connections, myID):
@@ -52,7 +56,7 @@
             count = count + 1
             num = random.randint(1,connections)
          return(count)
-
+   
       def testOne(self):
          print('Auto-testing...')
          count = 0
@@ -64,5 +68,5 @@
             random.seed(i)
             count+=1
             self.assertEqual(findNumTries(a,b), answer, "Random try # " + str(count) + "; numConnections = " + str(a) + "; myID = " + str(b))
-
+   
    myTests().main()

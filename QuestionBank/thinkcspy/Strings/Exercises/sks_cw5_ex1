@@ -5,24 +5,28 @@
     :topic: Strings/Exercises
     :from_source: F
     :language: python
+    :pct_on_first: 0.0107526882
+    :total_students_attempting: 93
+    :num_students_correct: 10.0
+    :mean_clicks_to_correct: 12.8
 
     Write a function ``capTitle(line)`` that capitalizes the first letter of each word in the line
     as in a title header of a newspaper. The first word is always capitalized. Special words are
     not capitalized - such as 'a', 'the', etc.
-
+    
     A list ``specialWords`` is in the code below which contains all the special words that are **not**
     to be capitalized (unless it is the first word of the title).
-
+    
     The function should **return** a string of the capitalized line.
-
+    
     Example titles:
-
+    
     ::
-
+    
       The Story of the Amazing Rat
       A Battle That Will Never Be Forgotten
       In the Beginning of Time
-
+    
     ~~~~
     import string
     

@@ -10,9 +10,9 @@
    :correct: b
    :feedback_a: -  The + character is not allowed in variable names.
    :feedback_b: -  The + character is not allowed in variable names (everything else in this name is fine).
-   :pct_on_first: 0.6270356932
-   :total_students_attempting: 23702
-   :num_students_correct: 23336.0
-   :mean_clicks_to_correct: 1.3764141241
+   :pct_on_first: 0.6270407087
+   :total_students_attempting: 23705
+   :num_students_correct: 23339.0
+   :mean_clicks_to_correct: 1.3764085865
 
    True or False:  the following is a legal variable name in Python:   A_good_grade_is_A+

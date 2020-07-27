@@ -6,21 +6,25 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.2
+    :total_students_attempting: 10
+    :num_students_correct: 9.0
+    :mean_clicks_to_correct: 5.4444444444
 
     Write a function ``replace(s, old, new)`` that replaces all occurences of ``old`` with ``new`` in a string ``s``:
     ~~~~
-
-
+    
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
            self.assertEqual(replace('Mississippi', 'i', 'I'), 'MIssIssIppI', 'Mississippi: i -> I')
            self.assertEqual(replace('I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!', 'om', 'am'), 'I love spam!  Spam is my favorite food.  Spam, spam, spam, yum!', 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!: om -> am')
            self.assertEqual(replace('I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!', 'o', 'a'), 'I lave spam!  Spam is my favarite faad.  Spam, spam, spam, yum!', 'I love spom!  Spom is my favorite food.  Spom, spom, spom, yum!: o -> a')
-
+    
     myTests().main()

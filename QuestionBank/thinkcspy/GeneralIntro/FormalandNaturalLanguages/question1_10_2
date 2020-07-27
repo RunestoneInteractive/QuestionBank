@@ -10,9 +10,9 @@
    :correct: b
    :feedback_a: It usually takes longer to read a program because the structure is as important as the content and must be interpreted in smaller pieces for understanding.
    :feedback_b: It usually takes longer to read a program because the structure is as important as the content and must be interpreted in smaller pieces for understanding.
-   :pct_on_first: 0.662957853
-   :total_students_attempting: 22469
-   :num_students_correct: 22272.0
-   :mean_clicks_to_correct: 1.3449173851
+   :pct_on_first: 0.663002848
+   :total_students_attempting: 22472
+   :num_students_correct: 22275.0
+   :mean_clicks_to_correct: 1.3448709315
 
    True or False:  Reading a program is like reading other kinds of text.

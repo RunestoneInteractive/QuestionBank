@@ -14,10 +14,10 @@
    :feedback_b: Yes, len(s) is 12 and 12-5 is 7.  Use 7 as index and remember to start counting with 0.
    :feedback_c: s is at index 11
    :feedback_d: You subtract 5 before using the index operator so it will work.
-   :pct_on_first: 0.7191283293
-   :total_students_attempting: 11151
-   :num_students_correct: 11079.0
-   :mean_clicks_to_correct: 1.420615579
+   :pct_on_first: 0.7191535151
+   :total_students_attempting: 11152
+   :num_students_correct: 11080.0
+   :mean_clicks_to_correct: 1.4205776173
 
    
    What is printed by the following statements?

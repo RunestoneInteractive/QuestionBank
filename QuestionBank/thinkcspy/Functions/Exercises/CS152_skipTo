@@ -6,23 +6,27 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.7391304348
+    :total_students_attempting: 23
+    :num_students_correct: 23.0
+    :mean_clicks_to_correct: 2.4782608696
 
     Write a non-fruitful function ``skipTo(t, x, y)`` that moves turtle t to coordinates (x,y) without drawing anything
-  
-
+    
+    
     ~~~~
-
+    
     def skipTo(t, x, y):
         """ Moves the turtle t to position (x,y) without drawing anything. """
         # Put your code here
-
+    
     ====
     import turtle
     import math
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             # Really should use an re to check for penup/up/pu in function
             wn = turtle.Screen() 
@@ -37,6 +41,6 @@
             skipTo(t, -30,50)
             self.assertAlmostEqual(t.xcor(),-30.0,0,"Tested skipTo(-30,50)")
             self.assertAlmostEqual(t.ycor(),50.0,0,"Tested skipTo(-30,50)")
-
-
+    
+    
     myTests().main()

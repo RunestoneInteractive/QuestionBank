@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1420612813
+    :total_students_attempting: 359
+    :num_students_correct: 296.0
+    :mean_clicks_to_correct: 18.9324324324
 
     Write a new method in the Rectangle class to test if another Rectangle
     overlaps with the rectangle.  For this exercise, assume that a rectangle 
@@ -13,14 +17,14 @@
     i.e. it stretches in the x direction from [0 to 10), where 0 is included
     but 10 is excluded, and from [0 to 5) in the y direction.  So, another rectangle
     at ``Rectangle(10, 0), 2, 4)`` would not overlap the ``Rectangle((0, 0), 10, 5)``. 
-
+    
     As a small sample, your tests should pass ::
-
+    
         r = Rectangle(Point(0, 0), 10, 5)
         test.testEqual(rect.overlap(Rectangle(Point(1,1), 20, 20)), True)
         test.testEqual(rect.overlap(Rectangle(Point(-1,-1), 4, 4)), True)
         test.testEqual(rect.overlap(Rectangle(Point(10, 0), 2, 2)), False)
-
+    
     ~~~~
     import test, math
     
@@ -32,9 +36,9 @@
     
     class Rectangle:
         """Rectangle class using Point, width and height"""
- 
+    
         # Use your rectangle class from previous exercises
-
+    
         def overlap(...): 
             # define overlap method for the rectangle
     
@@ -44,7 +48,7 @@
     test.testEqual(rect.overlap(Rectangle(Point(1,1), 20, 20)), True)
     
     ====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):

@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: F
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.6851851852
+   :total_students_attempting: 54
+   :num_students_correct: 54.0
+   :mean_clicks_to_correct: 1.7962962963
 
     Use this active code window for lab activity 3 in Chapter 6. Refer to the course web page for instructions.
    ~~~~
@@ -14,7 +18,7 @@
     
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(roll_average([4,3,5,2,6,4]), 4.0, "Tested [4,3,5,2,6,4] with average = 4.0")

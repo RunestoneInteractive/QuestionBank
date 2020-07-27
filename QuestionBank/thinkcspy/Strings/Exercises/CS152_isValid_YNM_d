@@ -6,20 +6,24 @@
     :from_source: F
     :practice: T
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.0
+    :total_students_attempting: 15
+    :num_students_correct: 6.0
+    :mean_clicks_to_correct: 12.5
 
     Write a function called ``is_validYNM(aString)`` that takes a string as an argument
     and returns ``True`` if the argument is one of **"yes"**, **"no"** or **"maybe"** and ``False`` if
     it is anything else. Case shouldn't matter. Extra spaces at the beginning or end shouldn't matter. Allow any valid prefix of a valid word, like 'ye', 'n', or 'mayb'.
     ~~~~
-
+    
     def is_validYNM(aString):
         # your code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
              self.assertEqual(is_validYNM("yes"),True,"yes")
@@ -35,5 +39,5 @@
              self.assertEqual(is_validYNM("MaY"),True,"MaY")
              self.assertEqual(is_validYNM("N"),True,"N")
              self.assertEqual(is_validYNM("e"),False,"e")
-
+    
     myTests().main()

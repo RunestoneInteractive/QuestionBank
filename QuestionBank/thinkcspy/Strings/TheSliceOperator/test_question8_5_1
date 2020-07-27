@@ -14,10 +14,10 @@
    :feedback_b: That would be s[7:].
    :feedback_c: Yes, start with the character at index 3 and go up to but not include the character at index 8.
    :feedback_d: This is called slicing, not indexing.  It requires a start and an end.
-   :pct_on_first: 0.8724062614
-   :total_students_attempting: 10988
-   :num_students_correct: 10944.0
-   :mean_clicks_to_correct: 1.1956323099
+   :pct_on_first: 0.8724178724
+   :total_students_attempting: 10989
+   :num_students_correct: 10945.0
+   :mean_clicks_to_correct: 1.1956144358
 
    
    What is printed by the following statements?

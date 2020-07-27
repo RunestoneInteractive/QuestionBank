@@ -6,24 +6,28 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.4820717131
+    :total_students_attempting: 251
+    :num_students_correct: 181.0
+    :mean_clicks_to_correct: 3.1933701657
 
     **(10 pts)** Write a function called ``printMsg(message, howMany)`` that prints out the string ``message``
     as many times as the input ``howMany`` specifies.
-
+    
     So, for example, ``printMsg("This is easy!", 3)`` will print:
-
+    
     ::
-
+    
       This is easy!
       This is easy!
       This is easy!
-
-
+    
+    
     ~~~~
     # Your Name:
     
     # Write your code below
-
+    
     ====
     '''
     def printMsg(message, n):
@@ -42,7 +46,7 @@
             return golden_out
                  
         def check(self, message, n):
-
+    
             # run test and steer print() to output file
             fname = "test.out"
             sys.stdout = open(fname, "w")
@@ -55,11 +59,11 @@
             f.close()
     
             self.assertEqual(outText, self.golden_printMsg(message, n), "Test")
-
+    
             self.deleteFile(fname)
-
+    
         def testOne(self):
-
+    
             self.check("Hello", 5)
             self.check("This is a test", 1)
             self.check("This is another test", 10)

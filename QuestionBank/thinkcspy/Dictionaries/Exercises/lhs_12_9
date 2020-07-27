@@ -6,10 +6,14 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.6329113924
+    :total_students_attempting: 158
+    :num_students_correct: 157.0
+    :mean_clicks_to_correct: 1.7070063694
 
     Create a list of the countries that are in the dictionary ``golds``, and assign
     that list to the variable name ``countries``. Do not hard code this. 
-
+    
     ~~~~   
     golds = {"Italy": 12, "USA": 33, "Brazil": 15, "China": 27, "Spain": 19, "Canada": 22, "Argentina": 8, "England": 29}
     
@@ -18,10 +22,10 @@
     ====
     
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(sorted(countries), sorted(["Italy", "USA", "Brazil", "China", "Spain", "Canada", "Argentina", "England"]), "Testing that countries has been created correctly.")
-
+    
     myTests().main()

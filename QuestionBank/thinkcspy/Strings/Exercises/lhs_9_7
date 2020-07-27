@@ -6,26 +6,30 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3761682243
+    :total_students_attempting: 428
+    :num_students_correct: 419.0
+    :mean_clicks_to_correct: 4.3126491647
 
-
+    
     Write a function called ``cmpString(string1, string2, caseSensitive)`` which compares two strings.
     The input parameter ``caseSensitive`` is a boolean. When it is true, the compare will be case
     sensitive. Otherwise, the upper/lower case of each letter does not matter.
- 
+    
     ``cmpString('hi', 'Hi', True)`` is False since the two strings are different
-
+    
     ``cmpString('hi, 'Hi', False)`` is True since we do not care about the letter case
-
+    
     The function returns a boolean value of True or False depending on the string compare.
-
+    
     ~~~~
     # My Name:
-
+    
     # cmpString(string1, string2, caseSensitive) function
-
+    
     # write up any test cases
     print(cmpString('a', 'A', True))  # should print False
-
+    
     
     ====
     import re

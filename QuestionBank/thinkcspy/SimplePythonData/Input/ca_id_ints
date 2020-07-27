@@ -7,10 +7,10 @@
     :question: Click on all of the variables of type `int` in the code below
     :iscode: 
     :feedback: Remember input returns a `str`
-    :pct_on_first: 0.0407302698
-    :total_students_attempting: 20869
-    :num_students_correct: 18763.0
-    :mean_clicks_to_correct: 4.5181474178
+    :pct_on_first: 0.0407244155
+    :total_students_attempting: 20872
+    :num_students_correct: 18766.0
+    :mean_clicks_to_correct: 4.5177981456
 
     :click-incorrect:seconds:endclick: = input("Please enter the number of seconds you wish to convert")
     

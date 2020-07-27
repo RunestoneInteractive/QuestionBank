@@ -6,23 +6,27 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.375
+    :total_students_attempting: 24
+    :num_students_correct: 23.0
+    :mean_clicks_to_correct: 4.8695652174
 
     Write a non-fruitful function ``skipForward(t, len)`` that moves turtle t forward len units without drawing anything
-  
-
+    
+    
     ~~~~
-
+    
     def skipForward(t,len):
         """ Moves the turtle t forward len units without drawing anything. """
         # Put your code here
-
+    
     ====
     import turtle
     import math
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             wn = turtle.Screen() 
             t = turtle.Turtle()
@@ -42,6 +46,6 @@
             t.left(45)
             skipForward(t, 5)
             self.assertAlmostEqual(t.xcor(),math.sqrt(25/2),0,"Tested skipForward(5) starting at 0, 45 degree angle")
-
-
+    
+    
     myTests().main()

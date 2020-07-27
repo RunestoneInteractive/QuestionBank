@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1571428571
+    :total_students_attempting: 140
+    :num_students_correct: 137.0
+    :mean_clicks_to_correct: 13.8175182482
 
     Write a function called ```change_tuple(t_in, kind, item, spot)``` that makes a
     change to tuple and returns the new tuple. The parameter ```t_in``` is the tuple,
@@ -16,23 +20,23 @@
     parameter ```spot``` is defaulted to 0 if no value is included in the call
     to the function. If the value of ```kind``` is not one of 'add' or 'replace,'
     then ```t_in``` is returned unchanged.
-
-
+    
+    
     ~~~~
     
     def change_tuple(t_in, kind, item, spot=0):
         # your code here
-
+    
     def main():
         #write any test cases here
-
+    
     if __name__ == "__main__":
         main()
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
            t_in = ('James', 'Smith', 42, 'Decorah', 'Iowa')

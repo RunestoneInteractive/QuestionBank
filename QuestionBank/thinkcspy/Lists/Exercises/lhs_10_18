@@ -6,19 +6,23 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0613810742
+    :total_students_attempting: 391
+    :num_students_correct: 379.0
+    :mean_clicks_to_correct: 20.9155672823
 
     Write a function ``insertList(lst, num)`` which inserts the number ``num``
     into the sorted list ``lst``. Do not create a new list, but insert the number
     into the provided list. 
-
+    
     ``insertList`` is a modifier function.
-
+    
     You may **not** use the .sort method though.
-
+    
     ~~~~
         
     def insertList(lst, num):
-
+    
     def main():
         # add any test cases here
     
@@ -40,7 +44,7 @@
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             editText = self.getEditorText()
             if len(re.findall("\.sort", editText)) != 0:

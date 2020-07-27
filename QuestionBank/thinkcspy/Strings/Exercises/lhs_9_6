@@ -6,33 +6,37 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0618811881
+    :total_students_attempting: 404
+    :num_students_correct: 378.0
+    :mean_clicks_to_correct: 19.2037037037
 
-
+    
     Write a function called ``genAvg(numList, precision)`` that takes in a list numbers and finds the
     average of the numbers. It will then return a string that says something like:
-
+    
     ::
-
+    
       The average is 1.234
-
+    
     The output format of the average is specified by the ``precision`` parameter that is given to the function.
     The parameter defines how many digits to the right of the decimal place to round to. So, if
     the precision is 2, then the output format will round to the hundredths.
     This parameter will be an integer greater or equal to 0.
-
+    
     Use the .format method of strings to make this output string. You may need to create an initial string
     with some string concatenation operations before using the .format method since the precision 
     is not a fixed value.
-
+    
     Example: ``genAvg([1,2,5], 4)`` will return the string ``The average is 2.6667``
-
+    
     ~~~~
     # My Name:
-
+    
     # define genAvg() function here
-
+    
     # print out some test cases here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui

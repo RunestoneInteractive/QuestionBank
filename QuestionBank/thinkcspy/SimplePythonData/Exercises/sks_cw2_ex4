@@ -5,13 +5,17 @@
    :topic: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 0.0622009569
+   :total_students_attempting: 209
+   :num_students_correct: 149.0
+   :mean_clicks_to_correct: 14.1476510067
 
    [30 pts] Print out the following output.
     
    You must use exactly 2 ``for`` statements, 2 ``range`` statements, and 3 ``print`` statements.
-
+   
    ::
-
+   
      Calculating x ** 1
      1
      3
@@ -27,15 +31,15 @@
      27
      125
      ====
-
+   
    ~~~~
    # Write your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        # counts how many lines have 'keyword' in word position 'where'
        def count_code(self, code, keyword, where):
            cnt = 0

@@ -14,10 +14,10 @@
    :feedback_b: Python executes the body of the if-block as well as the statement that follows the if-block.
    :feedback_c: Python will also execute the statement that follows the if-block (because it is not enclosed in an else-block, but rather just a normal statement).
    :feedback_d: It is valid to have an if-block without a corresponding else-block (though you cannot have an else-block without a corresponding if-block).
-   :pct_on_first: 0.8227048782
-   :total_students_attempting: 14411
-   :num_students_correct: 14362.0
-   :mean_clicks_to_correct: 1.2641693357
+   :pct_on_first: 0.8226600985
+   :total_students_attempting: 14413
+   :num_students_correct: 14364.0
+   :mean_clicks_to_correct: 1.2642717906
 
    What does the following code print?
    

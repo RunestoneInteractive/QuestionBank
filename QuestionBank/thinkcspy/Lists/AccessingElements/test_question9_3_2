@@ -12,10 +12,10 @@
    :feedback_a: alist[2] is the string cat so the upper method is legal
    :feedback_b: 2 is the index.  We want the item at that index.
    :feedback_c: Yes, the string cat is upper cased to become CAT.
-   :pct_on_first: 0.7584243
-   :total_students_attempting: 12642
-   :num_students_correct: 12600.0
-   :mean_clicks_to_correct: 1.2975396825
+   :pct_on_first: 0.7584434074
+   :total_students_attempting: 12643
+   :num_students_correct: 12601.0
+   :mean_clicks_to_correct: 1.2975160702
 
    What is printed by the following statements?
    

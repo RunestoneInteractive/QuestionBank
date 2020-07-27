@@ -6,29 +6,33 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0958230958
+    :total_students_attempting: 407
+    :num_students_correct: 388.0
+    :mean_clicks_to_correct: 11.5592783505
 
     Write a function called ``makeRandRange(numVals, start, end, seed=None)`` that
     creates and returns a list containing a specified number of random integers in a range between
     ``start`` (inclusive) and ``end`` (exclusive) (use iteration, append, and the random module).
-
+    
     **NOTE**: The parameter ``seed`` is an optional parameter. In your own code, you do not need to
     provide the 4th parameter ``seed`` when you call the function. It is OK to just call the function 
     as ``makeRandRange(numVals, start, end)``.
     
     Write another function called ``average`` that will take the list created by
     ``makeRandRange`` (or any list of numbers in fact...) as a parameter and return its average.
-
+    
     ~~~~
     import random
     
     # My Name:
-
+    
     def average(numList):
     
         # Your code here
         
         return 0  # fix this!!
-
+    
     def makeRandRange(numVals, start, end, seed=None):
         random.seed(seed) # DO NOT REMOVE - required for testing
         
@@ -37,18 +41,18 @@
         return None # fix this!!!
     
     # any test cases you'd like to have
-
+    
     ====
     
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def _average(self, numList):
             sum = 0.0
             for item in numList:
                 sum += item
             return sum/len(numList)
-
+    
         def _makeRandRange(self, numVals, start, end, seed=None):
             random.seed(seed)
             myList = []
@@ -61,7 +65,7 @@
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             expected = self._makeRandRange(5, 1, 10, 1)
             actual = makeRandRange(5, 1, 10, 1)
@@ -69,5 +73,5 @@
             self.assertEqual(actual, expected, "testing makeRandRange")
             lst = [4, 7, 1, 3, 2]
             self.assertEqual(average(lst), self._average(lst), "testing average")
-
+    
     myTests().main()

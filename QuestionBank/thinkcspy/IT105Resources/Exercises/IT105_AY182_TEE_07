@@ -6,37 +6,41 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.0
+    :total_students_attempting: 2
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 55.0
 
     Write code that prints the following
-
+    
     1. ``testString``
-   
+    
     2. The number of characters in the string.
-
+    
     3. The number of time the substring ``"Beat"`` appears.
     
     **Note:** To receive full credit you must use python built in functions and the string function ``count()``.
-
-   
+    
+    
     The exact output is below:
-
+    
     ::
       
       Beat Navy; Beat Air Force; Beat Coast Guard; Beat the Dean!
       59
       4
-
+    
     ~~~~
     testString = "Beat Navy; Beat Air Force; Beat Coast Guard; Beat the Dean!"
     # write your code here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         # counts how many instances of 'keyword'
         def count_code(self, code, keyword):
             cnt = 0
@@ -46,7 +50,7 @@
                     if val.find(keyword) >= 0:
                         cnt = cnt + 1
             return(cnt)
-
+    
         def check_output(self, num):
             if len(num) != 10:
                 return(False)
@@ -54,7 +58,7 @@
                 if (int(i) > 12) or (int(i) < 2):
                     return(False)
             return(True)
-
+    
         def testOne(self):
             tString = "Beat Navy; Beat Air Force; Beat Coast Guard; Beat the Dean!"
             outText = self.getOutput()
@@ -67,11 +71,11 @@
                lines[len(lines)-1] = "No output"
                for i in range(len(lines),4):
                   lines.append("No output")
-
+    
             self.assertTrue(lines[0] == tString, "Your line 1 output : " + lines[0])
             self.assertTrue(lines[1] == str(len(tString)), "Your line 2 output : " + lines[1])
             self.assertTrue(lines[2] == str(tString.count("Beat")), "Your line 3 output : " + lines[2])
             self.assertEqual(self.count_code(editText, 'len'), 1, "Code must use the function that returns the length of a string.")
             self.assertEqual(len(re.findall("count", editText)), 1, "Code must use the count function from the string library.")
-
+    
     myTests().main()

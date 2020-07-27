@@ -6,46 +6,50 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0753768844
+    :total_students_attempting: 398
+    :num_students_correct: 391.0
+    :mean_clicks_to_correct: 10.8849104859
 
     Add the following accessor methods to the Rectangle class: ``getWidth``, ``getHeight``, ``__str__``.
     The ``__str__`` methods output should be as follows:   ::
-
+    
        >>> print(Rectangle(Point(2, 3), 6, 5))
        >>> ((2, 3), 6, 5)
     ~~~~
     import math
-
+    
     class Point:
         """ Point class for representing and manipulating x,y coordinates. """
-
+    
         def __init__(self, initX, initY):
-
+    
             self.x = initX
             self.y = initY
-
+    
         def getX(self):
             return self.x
-
+    
         def getY(self):
             return self.y
-
+    
         def __str__(self):
             return "x=" + str(self.x) + ", y=" + str(self.y)
-
-
+    
+    
     class Rectangle:
         """Rectangle class using Point, width and height"""
-
+    
         def __init__(self, initP, initW, initH):
-
+    
             self.location = initP
             self.width = initW
             self.height = initH
-
+    
     # define any test code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):

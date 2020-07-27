@@ -4,24 +4,28 @@
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
-   :nocanvas:  
+   :nocanvas: 
    :autograde: unittest
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 7.0
 
    Create a function called ``getPltAverage``. The function has one 
    parameter the current list of platoon members with PT data 
    [["Jones", "Bob", 67, 87, 99],["Smith", "Alice", 90, 91, 87]]. 
-
+   
    The function returns the platoon PT average. The function must be able 
    to handle the empty list.
    ~~~~
    #Create your function here
-
+   
    ====
    #print("Hidden code, such as unit tests come after the four = signs")
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          pltList1 = []
          pltList2 = [['Babbitt', 'Thomas', 90, 100, 95]]

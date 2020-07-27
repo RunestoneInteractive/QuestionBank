@@ -5,7 +5,11 @@
    :topic: IT105Resources/Exercises
    :from_source: F
    :language: python
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.3333333333
+   :total_students_attempting: 3
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    The 32 bit (4 octet) IPv4 address is divided into two parts: network prefix and host number.  
    Network routers route packets off of a LAN and into a larger network based on the network prefix.  
@@ -15,19 +19,19 @@
    IP address. Both parameters are strings containing IP addresses in dotted decimal format (see note).  If the networks prefix 
    (which in this network is the first three octets) do not match, then the function should ``return`` the 
    Boolean value for true.  If the first three octets do match, then the function should ``return`` the Boolean value for false.
-
-
+   
+   
    **Note:** The source and destination IP address will be a string in the form ``xxx.xxx.xxx.xxx``. For example, 
    ``123.456.789.123`` or ``1.2.3.4``.
     
    Example: 
-
+   
    ::     
-
+   
       print(determineIfRoute("123.456.789.101","123.456.789.202"))
       print(determineIfRoute("123.456.780.105","123.456.789.245"))
       print(determineIfRoute("123.456.78.105","123.456.789.245"))
-
+   
    Results:
    
    ::
@@ -35,24 +39,24 @@
       False
       True
       True
-	  
-
    
    
-
-
+   
+   
+   
+   
    ~~~~
    ### Name:
-
+   
    ###write your code here.
    
    
    ====
    from unittest.gui import TestCaseGui
    import random
-  
+   
    class myTests(TestCaseGui):
-
+   
       def golden_func(self, source, destination):
          network=source.split(".")
          host = destination.split(".")
@@ -60,7 +64,7 @@
             return False
          else:
             return True
-
+   
       def testOne(self):
          print('Auto-testing...Examples') 
          self.assertEqual(determineIfRoute("123.456.789.101","123.456.789.202"), False, "Example 1")

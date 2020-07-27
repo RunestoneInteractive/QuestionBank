@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.5
+    :total_students_attempting: 4
+    :num_students_correct: 4.0
+    :mean_clicks_to_correct: 3.0
 
     The goal of this exercise is to exchange the values stored in two variables.  
     The code given below assigns the number 27 to var1 and the string "yes" to var2.  
@@ -16,15 +20,15 @@
     var1 = 27
     var2 = "yes"
     # add your code after this line (requires no less than three statements)
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
            self.assertEqual(var1, "yes", "Testing that var1 has the original value held by var2")
            self.assertEqual(var2, 27, "Testing that var2 has the original value held by var1")           
-
+    
     myTests().main()

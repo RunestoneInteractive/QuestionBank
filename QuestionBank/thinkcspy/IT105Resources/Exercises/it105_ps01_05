@@ -4,13 +4,17 @@
    :basecourse: thinkcspy
    :topic: IT105Resources/Exercises
    :from_source: F
-   :nocanvas:  
+   :nocanvas: 
    :autograde: unittest
+   :pct_on_first: 0.1020408163
+   :total_students_attempting: 49
+   :num_students_correct: 43.0
+   :mean_clicks_to_correct: 14.1162790698
 
    Create a function called ``earnedBadge``. The function has one 
    parameter the current list of platoon members with PT data 
    [["Jones", "Bob", 91, 90, 99],["Adams", "Alice", 90, 91, 92]]. 
-
+   
    The function returns a list with the first and last names of each person 
    who earned the APFT badge. To earn the APFT badge you must score 
    90 or above in each event.  The list above would return 
@@ -18,13 +22,13 @@
    The function must be able to handle the empty list.
    ~~~~
    #Create your function here
-
+   
    ====
    #print("Hidden code, such as unit tests come after the four = signs")
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          pltList1 = []
          pltList2 = [['Babbitt', 'Thomas', 90, 100, 95]]

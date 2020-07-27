@@ -6,32 +6,36 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0550847458
+    :total_students_attempting: 236
+    :num_students_correct: 86.0
+    :mean_clicks_to_correct: 8.9651162791
 
     **(6 pts)** Create a function ``idNumber2(idString)`` which returns 
     an interger of the id number in the ID string.
-
+    
     The ID string has the format ``??...???-###...###-???...???`` where ? 
     can be any alphabetic-numeric character and # can be any number from 0 to 9. 
-
+    
     The ID string will always be “legal” according to these rules:
-
+    
     * There is at least one alpha-numeric character at the beginning. 
-
+    
     * There is a always a ``-`` before and after the ID number
-
+    
     * There is at least 1 # in the id number sequence. 
-
+    
     * There is at least one alpha-mumeric character at the end of the ID string. 
-
+    
     Examples:
-
+    
     ``idNumber2('LHS-123-F4')`` returns ``123``
-
+    
     ~~~~
     # Your Name:
     
     # Write your code below
-
+    
     ====
     import re
     import sys
@@ -54,23 +58,23 @@
            
         def check(self, a):
             self.assertEqual(idNumber2(a), self.golden_id2(a), a)
-
+    
         def testOne(self):
             # hide print()
             fname = "test.out"
             sys.stdout = open(fname, "w")
-
+    
             self.check("LHS95-123-F62")
             self.check("L-9375-6")
             self.check("MVSTA00-49857-FUHSD")
-
+    
             self.deleteFile(fname)
-
+    
         def deleteFile(self, fname):
             # empty out the file so nothing shows
             sys.stdout = open(fname, "w")
             print("", end="")
             sys.stdout.close()
     
-
+    
     myTests().main()

@@ -6,23 +6,27 @@
     :from_source: T
     :practice: T
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.6477782307
+    :total_students_attempting: 2453
+    :num_students_correct: 2334.0
+    :mean_clicks_to_correct: 1.8778920308
 
     Modify ``is_odd`` so that it uses a call to ``is_even`` to determine if its
     argument is an odd integer.
     ~~~~
-
+    
     def is_odd(n):
         # your code here
-
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
              self.assertEqual(is_odd(10),False,"Tested is_odd on input of 10")
              self.assertEqual(is_odd(5),True,"Tested is_odd on input of 5")
              self.assertEqual(is_odd(1),True,"Tested is_odd on input of 1")
              self.assertEqual(is_odd(0),False,"Tested is_odd on input of 0")
-
+    
     myTests().main()

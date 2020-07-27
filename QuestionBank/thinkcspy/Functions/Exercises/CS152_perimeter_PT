@@ -6,21 +6,25 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1428571429
+    :total_students_attempting: 14
+    :num_students_correct: 12.0
+    :mean_clicks_to_correct: 8.0833333333
 
     Write a fruitful function ``perimeter(len, wid)`` that returns the perimeter of a rectangle with dimensions len and wid
-
+    
     ~~~~
-
+    
     def perimeter(len, wid):
         """ Returns the perimeter of rectangle with dimensions len and wid. """
         # Put your code here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             editText = self.getEditorText()
             self.assertEqual(1, len(re.findall("\s*return", editText)), "Need exactly one return statement")
@@ -31,7 +35,7 @@
             self.assertAlmostEqual(perimeter(0, 2), 4,0,"Tested perimeter(0, 2)")
             self.assertAlmostEqual(perimeter(-1, 1), 0,0,"Tested perimeter(-1,1)")
             self.assertAlmostEqual(perimeter(4.9999, 1), 11.9998,0,"Tested perimeter(4.9999, 1)")
-
-
-
+    
+    
+    
     myTests().main()

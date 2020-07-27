@@ -6,35 +6,39 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0709046455
+    :total_students_attempting: 409
+    :num_students_correct: 367.0
+    :mean_clicks_to_correct: 18.3514986376
 
     Write a function ``printNice(a, b)`` that takes two integer inputs. 
-
+    
     ``a`` and ``b`` are the coefficients of
     the equation ``ax + b``. The function will print out a "nice" simplified expression.
-
+    
     Example: a = 5 and b = 2  ==> ``5x + 2``
-
+    
     Example: a = 2 and b = 0  ==> ``2x``
-
+    
     Example: a = 1 and b = -6  ==> ``x - 6``
-
+    
     Other example outputs are below:
-
+    
     ::
-
+    
       2x - 7
       -14x
       17
       -x + 9
       -8
       0
-
+    
     **REMEMBER:** You can use ``print('x', end='')`` so that just an ``x`` is printed with no space or newline
     at the end.
-
+    
     ~~~~
     # Name: 
-
+    
     def printNice(a, b):
         # write your code here
     
@@ -44,7 +48,7 @@
         printNice(-14, 0)
         
     main()
-
+    
     ====
     import random
     from unittest.gui import TestCaseGui

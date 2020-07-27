@@ -6,16 +6,20 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1038961039
+    :total_students_attempting: 77
+    :num_students_correct: 37.0
+    :mean_clicks_to_correct: 11.0540540541
 
     Write a function ``removeDouble(s)`` which takes the string ``s`` and 
     returns a string where all consecutive double letters are just repeated once.
-
+    
     ``removeDouble('thiis iss a test')`` returns ``this is a test``
-
+    
     ``removeDouble('thiis isss a test')`` returns ``this iss a test``
-
+    
     ``removeDouble('thiis issss a test')`` returns ``this iss a test``
-
+    
     ~~~~
     def removeDouble(s):
         # write your code here
@@ -24,7 +28,7 @@
     removeDouble('thiis iss a test')   # this is a test
     removeDouble('thiis isss a test')  # this iss a test
     removeDouble('thiis issss a test') # this iss a test
-
+    
     ====
     import sys
     import re
@@ -47,9 +51,9 @@
                     out = out + ch
                     prevCh = ch
                     checkDup = True
-
+    
             return out
-
+    
         # just opening and closing file does not work, so need a print statement to "empty" the file
         def deleteFile(self, fname):
             # empty out the file so nothing shows
@@ -70,14 +74,14 @@
             fname = "test.out"
             # create output file
             sys.stdout = open(fname, "w")
-
+    
             tests = [ 'thiis iss a test', 
                       'thiis isss a test', 
                       'thiis issss a test',
                       'thiiiiiis isssss a test' ]
             for t in tests:
                 self.assertEqual(removeDouble(t), self._removeDouble(t), t)
-
+    
             sys.stdout.close()
             self.deleteFile(fname)
             

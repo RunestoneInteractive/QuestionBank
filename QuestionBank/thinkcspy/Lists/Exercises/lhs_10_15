@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0896551724
+    :total_students_attempting: 145
+    :num_students_correct: 133.0
+    :mean_clicks_to_correct: 14.6240601504
 
     Write a function called ``find_mode( statsData )`` That takes a list of integers 
     named ``statsData`` and finds the mode or modes and returns them in a new list.
@@ -15,26 +19,26 @@
     ``n`` in the list ``data``,  ``smallList[n]`` is incremented +1. ``find_max_index(l_in)``
     is then called to find the indices of the largest value(s) in ``smallList``. The mode(s)
     is/are returned in a list.
-
-
+    
+    
     ~~~~
     
     def find_max_index(l_in):
         # your code from previous problem here
-
+    
     def find_mode( statsData ):
         # your code here
-
+    
     def main():
         #write any test cases here
     
     if __name__ == "__main__":
         main()
-
+    
     ====
     
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             l_in = []
@@ -49,5 +53,5 @@
             l_in = [1, 2, 3, 4, 5, 6, 7, 8]
             l_out = find_mode(l_in)
             self.assertEqual(l_out, [1, 2, 3, 4, 5, 6, 7, 8], "Tested [1, 2, 3, 4, 5, 6, 7, 8]" )
-
+    
     myTests().main()

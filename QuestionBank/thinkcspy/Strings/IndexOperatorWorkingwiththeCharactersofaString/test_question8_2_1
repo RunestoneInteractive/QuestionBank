@@ -14,10 +14,10 @@
    :feedback_b: Yes, index locations start with 0.
    :feedback_c: s[-3] would return c, counting from right to left.
    :feedback_d: [ ] is the index operator
-   :pct_on_first: 0.7264266471
-   :total_students_attempting: 12249
-   :num_students_correct: 12209.0
-   :mean_clicks_to_correct: 1.3708739455
+   :pct_on_first: 0.7264489796
+   :total_students_attempting: 12250
+   :num_students_correct: 12210.0
+   :mean_clicks_to_correct: 1.3708435708
 
    
    What is printed by the following statements?

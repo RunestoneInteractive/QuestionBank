@@ -14,10 +14,10 @@
    :feedback_b: Because the red value varies from pixel to pixel, this will not look like a solid red rectangle.  For it to look like a solid red rectangle each pixel would have to have exactly the same red value.
    :feedback_c: If you remove the blue and green values from the pixels, the image will look different, even though there does not appear to be any blue or green in the original image (remember that other colors are made of combinations of red, green and blue).
    :feedback_d: Because we have changed the value of the pixels from what they were in the original ActiveCode box code, the image will not be the same.
-   :pct_on_first: 0.5906417796
-   :total_students_attempting: 7822
-   :num_students_correct: 7780.0
-   :mean_clicks_to_correct: 1.7528277635
+   :pct_on_first: 0.5906941071
+   :total_students_attempting: 7823
+   :num_students_correct: 7781.0
+   :mean_clicks_to_correct: 1.7527310114
 
    What would the image produced from ActiveCode box 16 look like if you replaced the lines:
    

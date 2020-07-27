@@ -14,10 +14,10 @@
    :feedback_b: Even though the user typed in an integer, it does not come into the program as an integer.
    :feedback_c: 18 is the value of what the user typed, not the type of the data.
    :feedback_d: 18 is the value of what the user typed, not the type of the data.
-   :pct_on_first: 0.5500389676
-   :total_students_attempting: 21813
-   :num_students_correct: 21688.0
-   :mean_clicks_to_correct: 1.8847288823
+   :pct_on_first: 0.55008022
+   :total_students_attempting: 21815
+   :num_students_correct: 21690.0
+   :mean_clicks_to_correct: 1.8846473029
 
    What is printed when the following statements execute?
    

@@ -6,22 +6,26 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.2391304348
+    :total_students_attempting: 138
+    :num_students_correct: 94.0
+    :mean_clicks_to_correct: 4.5319148936
 
     Write the function ``separateDups(s)`` which takes a string ``s`` and separates all duplicate
     letters with an underscore ``_`` character.
-
+    
     So, 'abbcc' --> 'ab_bc_c'.
-
+    
     Write the function described recursively. You should have not for or while loops
     in your code.
-
+    
     ~~~~
-
+    
     def separateDups(s)
         0 # write your code here
     
     # Make your own test cases here
-
+    
     ====
     import sys
     import re
@@ -29,11 +33,11 @@
     
     class myTests(TestCaseGui):
         def testOne(self):
-
+    
             # hide print()
             fname = "test.out"
             sys.stdout = open(fname, "w")
-
+    
             editText = self.getEditorText()
             numForWhile = len(re.findall("\s*while[( ]", editText)) + len(re.findall("\s*for ", editText))
             if numForWhile > 0:

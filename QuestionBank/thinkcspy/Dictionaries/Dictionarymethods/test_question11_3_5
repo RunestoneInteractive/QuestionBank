@@ -14,10 +14,10 @@
    :feedback_b: Yes, the for statement iterates over the keys.  It adds the values of the keys that have length greater than 3.
    :feedback_c: This is the accumulator pattern.  total starts at 0 but then changes as the iteration proceeds.
    :feedback_d: Not all the values are added together.  The if statement only chooses some of them.
-   :pct_on_first: 0.6404787479
-   :total_students_attempting: 6517
-   :num_students_correct: 6480.0
-   :mean_clicks_to_correct: 1.5285493827
+   :pct_on_first: 0.6396341463
+   :total_students_attempting: 6560
+   :num_students_correct: 6521.0
+   :mean_clicks_to_correct: 1.5295200123
 
    
    What is printed by the following statements?

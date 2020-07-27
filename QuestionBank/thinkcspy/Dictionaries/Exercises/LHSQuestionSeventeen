@@ -6,21 +6,25 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 30.0
 
     Dice Odds
-
+    
     There are 36 possible combinations of two dice. A simple pair of loops over
     range(6)+1 will enumerate all combinations. The sum of the two dice is more interesting
     than the actual combination. First, create a function ``diceCombo`` that returns a
     dictionary of all combinations, using the sum of the two dice as the key. Each value in
     the dictionary should be a list of tuples; each tuple has the value of the two dice.
-
+    
     Next, create a function ``diceOdds(diceCombo)`` that takes a dictionary of all combinations
     as a parameter and returns a dictionary of the odds of a particular roll of a pair of dice with
     the sum of the two dice as the key.
-
+    
     The general outline is something like the following:
-
+    
     ::
     
         diceCombo:
@@ -31,29 +35,29 @@
                 oldList <- dictionary entry for sum d1+d2
                 newList <- oldList + newTuple
                 replace entry in dictionary with newList
-
+    
         diceOdds:
         odds = {}
         Loop over all values in the diceCombo dictionary
             set the key to the diceCombo dictionary key and the value to (length of the list)/36
-
+    
     ~~~~
         
     def diceCombo():
         # your code here
-
+    
     def diceOdds(diceComboDict):
         # your code here
-
+    
     def main():
         # your test code here
-
+    
     if __name__ == "__main__":
         main()
         
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def _diceCombo(self):
             dict = {}
@@ -65,21 +69,21 @@
                     newList.append(d1d2Tuple)
                     dict[sum] = newList
             return dict
-
+    
         def _diceOdds(self, diceComboDict):
             odds = {}
             for aKey in diceComboDict.keys():
                 odds[aKey] = len(diceComboDict[aKey])/36
             return odds
-
+    
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
-
+    
             d = self._diceCombo()
             expected = d
             actual = diceCombo()
@@ -88,5 +92,5 @@
             expected = self._diceOdds(d)
             actual = diceOdds(d)
             self.assertEqual(actual, expected, "Testing that diceOdds returns the correct dictionary.")
-
+    
     myTests().main()

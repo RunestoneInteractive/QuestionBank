@@ -6,15 +6,19 @@
    :from_source: F
    :practice: T
    :autograde: unittest
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 3.0
 
    def mirror(mystr):
        # your code here
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(mirror("good"),"gooddoog","Tested mirror on input of 'good'")
@@ -23,6 +27,6 @@
            self.assertEqual(mirror("a"),"aa","Tested mirror on input of 'a'")
            self.assertEqual(mirror("123"),"123321","Tested mirror on input of '123'")
            self.assertEqual(mirror("StresseD"),"StresseDDessertS","Tested mirror on input of 'StresseD'")
-
-
+   
+   
    myTests().main()

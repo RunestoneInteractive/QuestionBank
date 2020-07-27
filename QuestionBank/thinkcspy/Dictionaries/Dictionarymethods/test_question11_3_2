@@ -14,10 +14,10 @@
    :feedback_b: 12 is divided by 6, not the other way around.
    :feedback_c: Take another look at the example for get above.  get returns the value associated with a given key.
    :feedback_d: The integer division operator is being used on the values returned from the get method, not on the dictionary.
-   :pct_on_first: 0.8533800244
-   :total_students_attempting: 6568
-   :num_students_correct: 6546.0
-   :mean_clicks_to_correct: 1.2502291476
+   :pct_on_first: 0.8520647406
+   :total_students_attempting: 6611
+   :num_students_correct: 6588.0
+   :mean_clicks_to_correct: 1.2527322404
 
    
    What is printed by the following statements?

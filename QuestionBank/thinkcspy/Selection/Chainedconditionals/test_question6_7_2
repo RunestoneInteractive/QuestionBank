@@ -12,10 +12,10 @@
    :feedback_a: While the value in x is less than the value in y (3 is less than 5) it is not less than the value in z (3 is not less than 2).
    :feedback_b: The value in y is not less than the value in x (5 is not less than 3).
    :feedback_c: Since the first two Boolean expressions are false the else will be executed.
-   :pct_on_first: 0.7768460111
-   :total_students_attempting: 13475
-   :num_students_correct: 13422.0
-   :mean_clicks_to_correct: 1.3077037699
+   :pct_on_first: 0.7768791274
+   :total_students_attempting: 13477
+   :num_students_correct: 13424.0
+   :mean_clicks_to_correct: 1.3076579261
 
    What will the following code print if x = 3, y = 5, and z = 2?
    

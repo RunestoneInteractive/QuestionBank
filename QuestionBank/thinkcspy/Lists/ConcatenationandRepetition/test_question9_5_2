@@ -14,10 +14,10 @@
    :feedback_b: Repetition does not repeat each item individually.
    :feedback_c: Yes, the items of the list are repeated 3 times, one after another.
    :feedback_d: Repetition does not multiply the individual items.
-   :pct_on_first: 0.841805612
-   :total_students_attempting: 12295
-   :num_students_correct: 12245.0
-   :mean_clicks_to_correct: 1.2503879134
+   :pct_on_first: 0.8418184776
+   :total_students_attempting: 12296
+   :num_students_correct: 12246.0
+   :mean_clicks_to_correct: 1.2503674669
 
    What is printed by the following statements?
    

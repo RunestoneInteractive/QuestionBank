@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.5
+    :total_students_attempting: 2
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 2.0
 
     Write a function that takes a list of numbers and computes the average value
     ~~~~
@@ -13,14 +17,14 @@
         # your code here
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(avg_list([10, 10]),10,"failed test 1")
             self.assertEqual(avg_list([10, 5]),7.5,"failed test 2")
             self.assertEqual(avg_list([10, -10]),0,"failed test 3")
-
+    
         
-
+    
     myTests().main()

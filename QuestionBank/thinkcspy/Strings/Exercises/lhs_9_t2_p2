@@ -6,26 +6,30 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.5
+    :total_students_attempting: 2
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 3.0
 
     Write a function ``count_hi(str, caseSensitive)`` which **returns** a count of the number of times
     ``hi`` appears anywhere in the given string. ``caseSensitive`` is a Boolean where when
     True does a case sensitive comparison, but if False, will be case insensitive.
-
+    
     ::
-
+    
       count_hi('abc hi ho', True)  returns a 1
       count_hi('ABCHi hi', False)  returns a 2
-
+    
     ~~~~
     # My Name: 
     def count_hi(str, caseSensitive):
         # Write your code here
-
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _count(self, str, caseSensitive):
             word = 'hi'
             count = 0
@@ -39,19 +43,19 @@
                     if str[i:i+len(word)].lower() == word:
                         count += 1    
             return count
-
+    
         def testOne(self):
             print('Auto-testing...')
-
+    
             tests = [ ('hi hi hi ', False),
                       (' Hi iH hI', True),
                       ('HiiHIHIhi', False),
                       ('hiHihIHI', True),
                       ('H', False),
                       ('',  True) ]
-
+    
             for t in tests:
                 self.assertEqual(count_hi(t[0], t[1]), self._count(t[0], t[1]), 'testing |' + t[0] + '| ' + str(t[1]) )
-
-
+    
+    
     myTests().main()

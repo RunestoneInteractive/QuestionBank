@@ -5,21 +5,25 @@
     :topic: Dictionaries/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.1315789474
+    :total_students_attempting: 76
+    :num_students_correct: 68.0
+    :mean_clicks_to_correct: 9.9852941176
 
-
+    
     **Question 1 [40 points]** 
      
     Write a function called ``countALL(text)`` that passes ``text`` as a string of letters and returns a dictionary with the key as the letter and the value as the number of times each letter appears in a given string. 
-
+    
     Example: If the input string is ``'BaNaNa'``, then the dictionary returned should be ``{'b':1, 'a':3, 'n':2}``
-
+    
     ~~~~
     # Write your code here
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
             inp1 = 'BaNaNa'
@@ -30,7 +34,7 @@
             out2 = {'n': 1, 'o': 2, 't': 1, 'h': 1, 's': 1, 'u': 1}
             out3 = {'o': 2, 'r': 1, 'h': 1, 'l': 3, 'e': 1, 'w': 1, 'd': 1}
             out4 = {'a': 1, 'o': 1, 'r': 1, 'i': 2, 'g': 1, 'c': 2, 'p': 1, 's': 1, 'e': 2, 'u': 1, 'm': 1, 'v': 1}
-
+    
             self.assertEqual(countALL(inp1),out1,"countALL('"+inp1+"') should return "+str(out1))
             self.assertEqual(countALL(inp2),out2,"countALL('"+inp2+"') should return "+str(out2))
             self.assertEqual(countALL(inp3),out3,"countALL('"+inp3+"') should return "+str(out3))
@@ -38,8 +42,8 @@
             #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
             #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
             #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
-
-
-
-
+    
+    
+    
+    
     myTests().main()

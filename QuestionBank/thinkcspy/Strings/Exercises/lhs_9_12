@@ -6,36 +6,40 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1807909605
+    :total_students_attempting: 354
+    :num_students_correct: 322.0
+    :mean_clicks_to_correct: 8.1956521739
 
     A string contains only '0' and '1' characters and spaces. Write a function
     that takes such a string and makes and returns a "negative" string in which all
     the 0's are replaced with 1's and all the 1's with 0's. Your function must rely only
     on string operations and not use any explicit iterations or recursion. 
-
+    
     ~~~~
-
+    
     def negate( str ):
         # Your code here
-
+    
     def main():
         print(negate("1001110001010101110"))
     
     if __name__ == "__main__":
         main()
-
+    
     ====
-
+    
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _negate(self, str):
             return str.replace( '0', '*' ).replace( '1', '0' ).replace( '*', '1' )        
-
+    
         def testOne(self):
             print('\nAuto-testing...')
-
+    
             editText = self.getEditorText()
             
             noWhile = len(re.findall("\s*while[( ]", editText)) == 0
@@ -43,7 +47,7 @@
             
             #self.assertEqual(0, len(re.findall("\s*while[( ]", editText)), "Should use no 'while' loops")
             #self.assertEqual(0, len(re.findall("\s*for ", editText)), "Should use no 'for' loops")      
-
+    
             tests = [ "1111",
                       "0000",
                       "1001110001010101110",]
@@ -52,7 +56,7 @@
             for binStr in tests:
                 testsPass = testsPass and negate(binStr) == self._negate(binStr)
                 #self.assertEqual(negate(binStr), self._negate(binStr), binStr)
-
+    
             self.assertTrue(noWhile and noFor and testsPass, "Ovarall testing")
             
     myTests().main()

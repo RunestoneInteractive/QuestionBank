@@ -5,23 +5,27 @@
     :topic: MoreAboutIteration/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.2388059701
+    :total_students_attempting: 67
+    :num_students_correct: 59.0
+    :mean_clicks_to_correct: 9.1016949153
 
     **Question 1 [20 points]** 
-
+    
     A drug loses ``decayrate`` percent of its potency every month. Also, a drug is considered ``expired`` if it loses more than 50% potency. Your goal is to write a function ``WhenExpired(decayrate)`` that returns the number of months after which the drug is considered expired.
     
        
     ~~~~
     # Write your code here
-
     
-
-
-  
-
+    
+    
+    
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         import random
         def testOne(self):
@@ -35,8 +39,8 @@
             #self.assertEqual(WhenExpired(-1.0),0,"WhenExpired(-1.0) should return 0")
             #self.assertEqual(WhenExpired(100),0,"WhenExpired(100) should return 0")
             #self.assertEqual(WhenExpired(120),0,"WhenExpired(120) should return 0")
-
-
-
-
+    
+    
+    
+    
     myTests().main()

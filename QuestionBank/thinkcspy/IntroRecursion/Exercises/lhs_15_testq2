@@ -6,43 +6,47 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0
+    :total_students_attempting: 32
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 7.0
 
     Write the three functions described recursively. You should have not for or while loops
     in your code.
-
-
+    
+    
     **Problem 1:** ``count(num, n)`` where ``num`` is a positive integer and ``n`` is a integer from 0 to 9. 
     ``count`` returns the number of times the digit ``n`` is found in ``num``.
     **Hint:** The mod and the integer divide are your friends...
-
+    
     .. sourcecode:: python
-
+    
         count(9983, 9)  # returns 2
         count(9983, 0)  # returns 0
-
+    
     **Problem 2** ``swizzle(str)`` takes a string ``str`` and reverses all the letters. Also, while reversing
     it changes the case of the letter from upper to lower or lower to upper. 
     **Hint:** Remember the ``.upper()`` and the ``.lower()`` to switch the case and the ``.islower()`` or
     the ``.isupper()`` to check case.
-
+    
     .. sourcecode:: python
-
+    
         swizzle('aBC') # returns 'cbA'
-
+    
     **Extra Credit**: ``findNthLargest(lst, n)`` where ``lst`` is a list of integers and ``n`` is a positive integer
     greater or equal to 1.  ``findNthLargest`` returns the number in the ``lst`` which is the ``n_th`` 
     largest.  You may assume that the list is at least as big as n.
     **Hint**: You may find a helper function to find the maximum helpful. You may use ``.remove(num)`` to 
     remove ``num`` from the list. The ``.remove(num)`` mutates the list and removes that value from the list.
-
+    
     .. sourcecode:: python
-
+    
         findNthLargest([1, 5, 3, 8, 2, 9], 1) # returns 9
         findNthLargest([1, 5, 3, 8, 2, 9], 3) # returns 5
-
-
+    
+    
     ~~~~
-
+    
     def count(num, n)
         return 0 # write your code here
     
@@ -53,7 +57,7 @@
         return 0 # write your code here
     
     # Make your own test cases here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui
@@ -79,9 +83,9 @@
     
             self.assertEqual(swizzle("aBcD"), "dCbA", "Testing swizzle(aBcD)")
             self.assertEqual(swizzle("eFg"), "GfE",   "Testing swizzle(eFg)")
-
+    
             XCgood = (findNthLargest([1,3,2,5,4,7,6,9], 1) == 9) and  (findNthLargest([1,3,2,5,4,7,6,9], 3) == 6) 
     
             self.assertEqual(XCgood, True, "Testing findNthLargest") 
-
+    
     myTests().main()

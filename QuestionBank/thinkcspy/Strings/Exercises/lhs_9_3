@@ -6,21 +6,25 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1425061425
+    :total_students_attempting: 407
+    :num_students_correct: 377.0
+    :mean_clicks_to_correct: 16.3846153846
 
     Write a function ``removeExtraSpaces(theString)`` which removes all leading and trailing spaces in a string
     and removes all repeated spaces in between words in the string. The function returns
     the string without the extra spaces.
-
+    
     You may not use the built-in string method ``.strip`` 
-
+    
     Ex. ``removeExtraSpaces("     Hello    Joe  ")`` would return the string ``"Hello Joe"``
-
+    
     **Hint**: You might use the function written earlier to remove the leading and trailing spaces
     before removing the repeated spaces between the words.
-
+    
     ~~~~
     # My Name:
-
+    
     def removeExtraSpaces(theString):
         # Write your code here
     
@@ -57,10 +61,10 @@
             self.assertEqual(checkOK, True, errorString)
     
             return(checkOK)
-
+    
         def testOne(self):
             print('Auto-testing...')
-
+    
             # strips the test code - when testing code with the test code 
             code = self.getEditorText()
             pos = code.find("class myTests")

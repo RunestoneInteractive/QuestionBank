@@ -6,8 +6,12 @@
   :from_source: F
   :language: python
   :autograde: unittest
-  :nocodelens:
-  
+  :nocodelens: 
+  :pct_on_first: 0.1666666667
+  :total_students_attempting: 6
+  :num_students_correct: 5.0
+  :mean_clicks_to_correct: 15.6
+
   You are writing a function to decide the winner of the dice game *Gutsy* which is played with three 10-sided dice. Two players and the dealer are each given a 10-sided die. Everyone rolls their die and the winner is decided as follows:
   
   * If both players roll the same number, they tie. 
@@ -19,7 +23,7 @@
   For example:
   
   ::
-
+  
     # assume in all cases below, the dealer rolled a 2
     # in your gutsy function the dealer roll should be random
     gutsy(10,3)      # returns "Player One"
@@ -35,13 +39,13 @@
       pass # your code goes here
   ====
   from unittest.gui import TestCaseGui
-
+  
   class Tests(TestCaseGui): 
     def result(self, func,*args,**kwargs):
       import sys
       from StringIO import StringIO
       oldout = sys.stdout
-
+  
       try:
           out = StringIO()
           sys.stdout = out
@@ -49,7 +53,7 @@
           return ret
       finally:
           sys.stdout = oldout
-
+  
     def tests(self):
       import random
       

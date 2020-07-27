@@ -6,27 +6,31 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.3135435993
+    :total_students_attempting: 539
+    :num_students_correct: 520.0
+    :mean_clicks_to_correct: 3.5557692308
 
     Write code that uses a ``for`` loop to print out each element and its ``type`` from the following list: ``["hello", 2, 4, 6.0, 7.5, 234352354, "the end", "", 99]``.
-
+    
     The output should be formatted as the example below.
-
+    
     ::
-
+    
       hello <class 'str'>
       ...
       ...
-
+    
     ~~~~
     # Your code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertIn('for', self.getEditorText(), "Testing your code. (Don't worry about Actual and Expected Values.)")
             self.assertIn("hello " + chr(60) + "class 'str'>", self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
@@ -37,5 +41,5 @@
             self.assertIn("the end " + chr(60) + "class 'str'>", self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
             self.assertIn(" " + chr(60) + "class 'str'>", self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
             self.assertIn("99 " + chr(60) + "class 'int'>", self.getOutput(), "Testing output. (Don't worry about Actual and Expected Values.)")
-
+    
     myTests().main()

@@ -10,10 +10,10 @@
    :correct: a
    :feedback_a: Yes, there are 7 items in this list even though two of them happen to also be lists.
    :feedback_b: len returns the number of top level items in the list.  It does not count items in sublists.
-   :pct_on_first: 0.8660087888
-   :total_students_attempting: 12971
-   :num_students_correct: 12910.0
-   :mean_clicks_to_correct: 1.1391169636
+   :pct_on_first: 0.8660191181
+   :total_students_attempting: 12972
+   :num_students_correct: 12911.0
+   :mean_clicks_to_correct: 1.1391061885
 
    What is printed by the following statements?
    

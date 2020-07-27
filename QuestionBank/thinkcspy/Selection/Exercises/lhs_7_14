@@ -6,12 +6,16 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3002610966
+    :total_students_attempting: 383
+    :num_students_correct: 378.0
+    :mean_clicks_to_correct: 5.164021164
 
     Write a method ``bestMatch(r, g, b)``. The method's arguments represent the red, green, and blue components of a color.
     If one of the components is greater than the other two, ``bestMatch`` returns that component's color (``"red"``, ``"green"``, or ``"blue"``).
     If two components are equal and greater than the third, then ``bestMatch`` returns their "composite" color, ``"yellow"``, ``"magenta"``, or ``"cyan"`` (for red-green, red-blue, and green-blue, respectively).
     If all three components are equal, ``bestMatch`` returns ``"gray"``.
-
+    
     ~~~~
     # Your Name:
     
@@ -25,9 +29,9 @@
         main()
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _bestMatch(self, r, g, b):
             if r == g and r == b:
                 color = "gray"
@@ -43,14 +47,14 @@
                 color = "magenta"
             else:  #if g == b
                 color = "cyan"
-
+    
             return color 
-
+    
         def testOne(self):
             print("Auto-testing...")
             for p in [[128, 64, 64], [64, 128, 64], [64, 64, 128], [192, 192, 64], [192, 64, 192], [64, 192, 192], [248, 248, 248]]:
                 expected = self._bestMatch(p[0], p[1], p[2])
                 actual = bestMatch(p[0], p[1], p[2])
                 self.assertEqual(actual, expected, "testing bestMatch(" + str(p[0]) + ", " + str(p[1]) + ", " + str(p[2]) + ")")
-
+    
     myTests().main()

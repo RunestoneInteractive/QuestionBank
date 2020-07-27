@@ -6,28 +6,32 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1384615385
+    :total_students_attempting: 130
+    :num_students_correct: 82.0
+    :mean_clicks_to_correct: 6.0
 
     Write the function described recursively. You should have not for or while loops
     in your code.
-
-
+    
+    
     **Problem 1:** ``count(num, n)`` where ``num`` is a positive integer and ``n`` is a integer from 0 to 9. 
     ``count`` returns the number of times the digit ``n`` is found in ``num``.
     **Hint:** The mod and the integer divide are your friends...
-
+    
     .. sourcecode:: python
-
+    
         count(9983, 9)  # returns 2
         count(9983, 0)  # returns 0
-
-
+    
+    
     ~~~~
-
+    
     def count(num, n)
         return 0 # write your code here
     
     # Make your own test cases here
-
+    
     ====
     import re
     import sys
@@ -35,11 +39,11 @@
     
     class myTests(TestCaseGui):
         def testOne(self):
-
+    
             # hide print()
             fname = "test.out"
             sys.stdout = open(fname, "w")
-
+    
             editText = self.getEditorText()
             numForWhile = len(re.findall("\s*while[( ]", editText)) + len(re.findall("\s*for ", editText))
             if numForWhile > 0:

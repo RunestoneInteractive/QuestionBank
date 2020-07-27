@@ -15,9 +15,9 @@
    :feedback_b: You are not limited to running the examples that are already there.  Try   adding to them and creating your own.
    :feedback_c: The activecode interpreter will allow you type Python code into the textbox and then you can see it execute as the interpreter interprets and executes the source code.
    :feedback_d: Although you can (and should) verify that your code is correct by examining its output, activecode will not directly tell you whether you have correctly implemented your program.
-   :pct_on_first: 0.3108723578
-   :total_students_attempting: 25689
-   :num_students_correct: 24961.0
-   :mean_clicks_to_correct: 2.592203838
+   :pct_on_first: 0.3108628809
+   :total_students_attempting: 25693
+   :num_students_correct: 24964.0
+   :mean_clicks_to_correct: 2.5924531325
 
    The activecode interpreter allows you to (select all that apply):

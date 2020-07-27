@@ -5,7 +5,11 @@
    :topic: Lists/Exercises
    :from_source: F
    :language: python
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.023255814
+   :total_students_attempting: 43
+   :num_students_correct: 8.0
+   :mean_clicks_to_correct: 9.25
 
    Write a function ``DNSLookup(domainName)`` that will take a domain name and ``return``
    the ip address as a string. Assume the domain name is formatted as ``xxxxxx.com``. For
@@ -13,9 +17,9 @@
    
    For a given domain name, if there is not an entry in the local DNS 
    server cache, the function will return ``Not in local DNS cache``.
-
+   
    Example: 
-
+   
    ::     
       
       ### Internet Explorer is looking for the IP address of usma.edu followed by cnn.com.
@@ -25,16 +29,16 @@
       
    
    Results:
-
+   
    ::
    
       143.69.2.10
       Not in local DNS cache
    
-
+   
    ~~~~
    ### Name:
-
+   
    ### Use the shell provided. Do not modify the code given.
    
    def DNSLookup(domainName):
@@ -47,9 +51,9 @@
    ====
    import re
    from unittest.gui import TestCaseGui
-  
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
       	 print('Auto-testing...')
          self.assertEqual(DNSLookup("usma.edu"),'143.69.2.10',"Ensure all entries are checked")
@@ -64,5 +68,5 @@
          	self.assertEqual(Found, True, "for loop used to check DNS entries.")
          else:
          	self.assertEqual(Found, True, "for loop not used; You must search DNS entries and not hard code all possibilities.")
-
+   
    myTests().main()

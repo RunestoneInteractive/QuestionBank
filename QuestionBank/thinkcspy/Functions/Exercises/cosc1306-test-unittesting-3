@@ -5,40 +5,44 @@
     :topic: Functions/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 2.0
 
     Develop a function addseries(N,K)  that computes the sum of the series: N + (N+1) + (N+2) +… (N+K)
     
     ~~~~
-
+    
     def addseries(N,K):
         sum = 0
         for i in range(K+1):
             sum = sum + N + i
-
+    
         return sum
-
-
+    
+    
     import random
-
+    
     def addrandseries(N,K):
         sum = 0
         for i in range(K+1):
             num = random.randrange(N,K+1)
             #print(num)
             sum = sum + num
-
+    
         return sum
-
-
+    
+    
     def compareseries(N,K):
         return (addseries(N,K) - addrandseries(N,K))
-
-
-  
-
+    
+    
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         import random
         def testOne(self):
@@ -52,6 +56,6 @@
             self.assertEqual(compareseries(1,10),-1,"compareseries(1,10) should return -1")
             self.assertEqual(compareseries(10,100),354,"compareseries(10,100) should return 354")
             #self.assertAlmostEqual(add(10), 55, 1, "Try adding your parmeters")
-
-
+    
+    
     myTests().main()

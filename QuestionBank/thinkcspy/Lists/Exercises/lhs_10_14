@@ -6,30 +6,34 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0384615385
+    :total_students_attempting: 156
+    :num_students_correct: 152.0
+    :mean_clicks_to_correct: 17.3815789474
 
     Write a function called ``find_max_index`` that takes a list of floating point
     numbers and determines the index, or indicies, of the maximum value in the list.
     Write just the function, and have it return an integer list of a single index,
     or a list of indices in the event the maximum occurs more than once in the
     input list. The return list must be ordered least to greatest.
-
+    
     You may **not** use the List ``max()`` method.
     
     ~~~~
-
+    
     def find_max_index(l_in):
         # your code here
-
+    
     def main():
         #write any test cases here
     
     if __name__ == "__main__":
         main()
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             l_in = []
@@ -44,5 +48,5 @@
             l_in = [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
             l_out = find_max_index(l_in)
             self.assertEqual(l_out, [0, 1, 2, 3, 4, 5, 6, 7], "Tested  [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]" )
-
+    
     myTests().main()

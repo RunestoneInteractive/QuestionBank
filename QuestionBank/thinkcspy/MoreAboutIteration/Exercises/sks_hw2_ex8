@@ -5,6 +5,10 @@
     :topic: MoreAboutIteration/Exercises
     :from_source: F
     :language: python
+    :pct_on_first: 0.0
+    :total_students_attempting: 10
+    :num_students_correct: 5.0
+    :mean_clicks_to_correct: 16.2
 
     Write a function ``drugPotency(loss, expire)`` that determines how many months a drug
     can remain in storage given a potency loss percentage (``loss``) and an expiration
@@ -13,7 +17,7 @@
     expired and must be discarded, then the function should compute the number of months 
     it would be when the drug expires and should be discarded. The function should print the 
     effectiveness for each month that the drug is in storage. 
-
+    
     As an example, the output from ``drugPotency(4.0, 50.0)`` would be::
     
         Month: 0    effectiveness: 100.0
@@ -34,8 +38,8 @@
         Month: 15   effectiveness: 54.2086379861
         Month: 16   effectiveness: 52.0402924666
         Month: 17   effectiveness: 49.958680768 DISCARDED
-
-
+    
+    
     ~~~~
     def drugPotency(loss, expire):
         # your code here

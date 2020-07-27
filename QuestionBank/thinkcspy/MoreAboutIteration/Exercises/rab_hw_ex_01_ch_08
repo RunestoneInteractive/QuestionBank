@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: MoreAboutIteration/Exercises
    :from_source: F
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0454545455
+   :total_students_attempting: 110
+   :num_students_correct: 87.0
+   :mean_clicks_to_correct: 22.6781609195
 
    Write a function called ``list_ordering`` that takes a list of 10 integers and returns a list with the numbers ordered from greatest to least. Use a while loop to continue the process until the ordering is complete. Initialize a Boolean variable ``switched`` to ``True`` and execute the loop while switched is True.
    
@@ -14,14 +18,14 @@
           switched = True
           while switched:
               switched = False
-
+   
    ~~~~
    def list_ordering(list_in):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            l_in = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -33,5 +37,5 @@
            l_in = [10, 9 ,8 ,7, 6, 5, 4, 3, 2, 1]
            l_out = list_ordering(l_in)
            self.assertTrue(l_out == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], "Tested list_in= [10, 9 ,8 ,7, 6, 5, 4, 3, 2, 1]")
-
+   
    myTests().main()

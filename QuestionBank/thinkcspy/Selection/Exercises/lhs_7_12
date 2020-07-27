@@ -6,16 +6,20 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3357314149
+    :total_students_attempting: 417
+    :num_students_correct: 409.0
+    :mean_clicks_to_correct: 6.3447432763
 
     A fruit company sells oranges for 32 cents a pound. They charge $7.50 for shipping
     on any order.  But, if the order is above 50 pounds, they only charge $5 for shipping.
     Even better, if the order is over 100 pounds, the shipping chage is only $3.
-
+    
     Write a function ``costOrder`` that takes the number of pounds of oranges that is
     being purchased and **returns** the cost of the order.
-
+    
     Example: a 60 pound order would be $24.20 
-
+    
     ~~~~
     # Your Name:
     
@@ -50,6 +54,6 @@
             self.assertAlmostEqual(costOrder(1), self.golden_costOrder(1), 4,"Check 1")
             p = random.randrange(1,125, 5)
             self.assertAlmostEqual(costOrder(p), self.golden_costOrder(p), 4, "Check random")
-
+    
     
     myTests().main()

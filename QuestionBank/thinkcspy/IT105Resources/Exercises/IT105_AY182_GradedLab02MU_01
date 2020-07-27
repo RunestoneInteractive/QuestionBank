@@ -5,7 +5,11 @@
    :topic: IT105Resources/Exercises
    :from_source: F
    :language: python
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 4
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 3.0
 
    Write a function ``DNSLookup(value)`` that will take a domain name or an ip address and ``return``
    the opposite as a string. The domain name is formatted as ``xxxxxx.com``. For
@@ -13,9 +17,9 @@
    
    For a given value, if there is not an entry in the local DNS 
    server cache, the function will return ``Not in local DNS cache``.
-
+   
    Example: 
-
+   
    ::     
       
       ### Internet Explorer is looking for the IP address of usma.edu followed by cnn.com.
@@ -26,17 +30,17 @@
       
    
    Results:
-
+   
    ::
    
       143.69.2.10
       usma.edu
       Not in local DNS cache
    
-
+   
    ~~~~
    ### Name:
-
+   
    ### Use the shell provided. Do not modify the code given.
    
    def DNSLookup(value):
@@ -49,15 +53,15 @@
    ====
    import re
    from unittest.gui import TestCaseGui
-  
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
       	 print('Auto-testing...')
          self.assertEqual(DNSLookup("usma.edu"),'143.69.2.10',"Ensure all entries are checked")
          self.assertEqual(DNSLookup('143.69.2.10'),'usma.edu',"Ensure all entries are checked")
-	 self.assertEqual(DNSLookup("google.com"),'172.217.7.14',"Ensure all entries are checked")
-	 self.assertEqual(DNSLookup('172.217.7.14'),'google.com',"Ensure all entries are checked")
+   elf.assertEqual(DNSLookup("google.com"),'172.217.7.14',"Ensure all entries are checked")
+   elf.assertEqual(DNSLookup('172.217.7.14'),'google.com',"Ensure all entries are checked")
          self.assertEqual(DNSLookup("delta.com"),'216.87.148.114',"Ensure all entries are checked")
          self.assertEqual(DNSLookup('216.87.148.114'),'delta.com',"Ensure all entries are checked")
          self.assertEqual(DNSLookup("travelalaska.com"),'38.119.165.230',"Ensure all entries are checked")
@@ -71,5 +75,5 @@
          	self.assertEqual(Found, True, "for loop used to check DNS entries.")
          else:
          	self.assertEqual(Found, True, "for loop not used; You must search DNS entries and not hard code all possibilities.")
-
+   
    myTests().main()

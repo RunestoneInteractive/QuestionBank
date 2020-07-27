@@ -14,10 +14,10 @@
    :feedback_b: - The // operator does integer division and returns an integer result, but it truncates the result of the division.  It does not round.
    :feedback_c: - The // operator does integer division and returns the truncated integer result.
    :feedback_d: - The // operator does integer division and returns the result of the division on an integer (not the remainder).
-   :pct_on_first: 0.8323748009
-   :total_students_attempting: 22604
-   :num_students_correct: 22562.0
-   :mean_clicks_to_correct: 1.2382767485
+   :pct_on_first: 0.8323822163
+   :total_students_attempting: 22605
+   :num_students_correct: 22563.0
+   :mean_clicks_to_correct: 1.238266188
 
    What value is printed when the following statement executes?
    

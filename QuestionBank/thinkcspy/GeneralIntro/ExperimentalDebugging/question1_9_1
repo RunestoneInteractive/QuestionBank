@@ -14,9 +14,9 @@
    :feedback_b: Programming can be creative, but it also follows a process and debugging can involve creativity in how you find the errors.
    :feedback_c: Some people think that debugging is actually more fun than programming (they usually become good software testers).  Debugging is much like solving puzzles, which some people think is fun!
    :feedback_d: You cannot debug without first having a program, meaning that someone had to do the programming first.
-   :pct_on_first: 0.7598288088
-   :total_students_attempting: 23833
-   :num_students_correct: 23728.0
-   :mean_clicks_to_correct: 1.3317178018
+   :pct_on_first: 0.7597751301
+   :total_students_attempting: 23836
+   :num_students_correct: 23731.0
+   :mean_clicks_to_correct: 1.331760145
 
    The difference between programming and debugging is:

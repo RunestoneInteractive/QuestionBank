@@ -6,14 +6,18 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.496124031
+    :total_students_attempting: 387
+    :num_students_correct: 383.0
+    :mean_clicks_to_correct: 3.4020887728
 
     Add a division method (__div__) to the Fraction class so that it
     will be able to use the ``/`` operator to divide two Fractions. This
     method should return a simplified Fraction that is the division of the
     two fractions.
-
+    
     Use the Fraction class that you have already created.
-
+    
     ~~~~
     import test
     
@@ -58,9 +62,9 @@
             '''
     
     # Make test cases here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):

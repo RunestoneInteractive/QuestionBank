@@ -6,31 +6,35 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1939546599
+    :total_students_attempting: 397
+    :num_students_correct: 374.0
+    :mean_clicks_to_correct: 8.0935828877
 
     Write a function called ``listStdDev`` that returns the standard deviation of a list of numbers.
     Create a ``listAvg`` function that returns the average of a list of numbers. Create a ``listCount`` function
     that returns the number of elements in the list. The ``listStdDev`` function should use both the ``listAvg``
     and the ``listCount`` functions.
-
+    
     The equation for standard deviation is:  StdDev = square root of average of (x_i - mean)^2 
-
+    
       1.  Find the mean of the numbers using the ``listAvg`` function
       2.  For each number, find the "squared difference" which is the (number - mean)^2
       3.  Find the average of these "squared differences" - you do not need to use the ``listAvg`` function for this
       4.  Take the square root of the average (use x^(0.5))
-
+    
     See http://www.mathsisfun.com/data/standard-deviation-formulas.html
-
+    
     Example: ``listStdDev([1, 2, 3, 6, 7, 8])`` is 2.62995563968
-
+    
     ~~~~
     # My Name:
-
+    
     # write your code here
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     import re
     from unittest.gui import TestCaseGui
         
@@ -54,5 +58,5 @@
             code = re.findall("\s*def \s*listStdDev[\s\S]*?return[\s\S]*?$", editText)
             self.assertIn("listAvg", code[0], "listAvg used in listStdDev function")
             self.assertIn("listCount", code[0], "listCount used in listStdDev function")
-
+    
     myTests().main()

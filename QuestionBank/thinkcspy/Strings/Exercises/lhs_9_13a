@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1149825784
+    :total_students_attempting: 287
+    :num_students_correct: 255.0
+    :mean_clicks_to_correct: 14.8117647059
 
     An International Standard Book Number (ISBN) is a code that uniquely identifies an
     edition of a book. The ISBN consists of ten digits separated by dashes into groups.
@@ -23,9 +27,9 @@
             1-4000-3136-2
             0-19-856453-8
             1-85671-104-8
-
+    
     The last character is calculated from the other 9 digits:
-
+    
     1. Multiply the first digit by 10.
     2. Multiply the second digit by 9.
     3. Multiply the third digit by 8.
@@ -42,7 +46,7 @@
         ::
     
             0-201-48558-3
-
+    
             0 * 10 =  0
             2 *  9 = 18
             0 *  8 =  0
@@ -54,73 +58,73 @@
             8 *  2 = 16
                     -----
             sum =   140
-
+    
             140 / 11 = 12 rem 8
-
+    
             11 - 8 = 3 <-- the check digit
-
+    
     Write a function
-
+    
         .. sourcecode:: python
-
+    
                 verifyISBN( isbn )
-
+    
     that takes a string parameter representing an ISBN number and then checks if the ISBN is correct.
     Calculate a check character from the first nine digits and compare it to the last
     character of the ISBN. If the two do not agree, the ISBN is incorrect and the function
     returns ``False`` otherwise, the function returns ``True``.
-
+    
     ~~~~
-
+    
     import string
-
+    
     def verifyISBN( isbn ):
         
         # Your code here
         
         return False # FIX THIS!!!
-
+    
     def main():
         print(verifyISBN("0-965-48534-X"))
         print(verifyISBN("1-23456-789-0"))
     
     if __name__ == "__main__":
         main()
-
+    
     ====
     
     import string
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _verifyISBN( self, isbn ):
             isbnBuf = ''
-
+    
             for ch in isbn:
                if ch in '0123456789X':
                  isbnBuf += ch
-
+    
             #print(isbnBuf)
             sum = 0
-
+    
             digit = 0
             while digit < len(isbnBuf) - 1:
                 sum += (ord(isbnBuf[digit]) - ord('0')) * (10 - digit)
                 digit += 1
-
+    
             #print("sum=", sum)
-
+    
             checkDigit = 11 - (sum % 11)
-
+    
             checkVal = isbn[len(isbn)-1]
-
+    
             if (checkDigit == 10 and checkVal == 'X') or (checkDigit == (ord(checkVal) - ord('0'))):
                 return True
-
+    
             return False       
-
+    
         def testOne(self):
             print('\nAuto-testing...')
     
@@ -135,5 +139,5 @@
                 #self.assertEqual(verifyISBN(isbnStr), self._verifyISBN(isbnStr), "Testing verifyISBN(" + isbnStr + ")")
             
             self.assertTrue(testsPass, "Overall testing")
-
+    
     myTests().main()

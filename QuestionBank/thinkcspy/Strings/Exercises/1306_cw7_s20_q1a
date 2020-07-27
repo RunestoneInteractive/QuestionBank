@@ -5,24 +5,28 @@
     :topic: Strings/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.2985074627
+    :total_students_attempting: 67
+    :num_students_correct: 63.0
+    :mean_clicks_to_correct: 5.3333333333
 
     **Important Note**: For Questions 1, 2 & 3 you can use ``string constants``, ``in`` and ``not in`` operators, and ``len()`` function. Other functions/methods from the python string library are not needed and should not be used.
-
+    
     **Question 1 [20 points]** This problem is split into two parts
-
+    
     **PART A:** Write a Python function ``CommonLetters(refstring,mystring)``  that returns  a string containing letters in ``mystring`` that also occur in ``refstring``. e.g. if the value of ``refstring`` is 'aeiou'   and the value of ``mystring`` is 'organization' then the function should return the string '**oaiaio**' as illustrated with boldfaced letters as matches:  '**o** r g **a** n **i** z **a** t **i** **o** n'
        
     ~~~~
     # Write your code here
-
     
-
-
-  
-
+    
+    
+    
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         import random
         def testOne(self):
@@ -35,8 +39,8 @@
             #self.assertEqual(WhenExpired(-1.0),0,"WhenExpired(-1.0) should return 0")
             #self.assertEqual(WhenExpired(100),0,"WhenExpired(100) should return 0")
             #self.assertEqual(WhenExpired(120),0,"WhenExpired(120) should return 0")
-
-
-
-
+    
+    
+    
+    
     myTests().main()

@@ -6,29 +6,33 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.7875536481
+    :total_students_attempting: 466
+    :num_students_correct: 458.0
+    :mean_clicks_to_correct: 1.53930131
 
     Write code to assign the variable ``yb`` to have the same value that variable ``cw`` has. Do not change the first line of code (``cw = "Hello"``). Also, do not "hard code" the result by setting ``yb = "Hello"``. Instead, write code that would work no matter what the current value of ``cw`` is.
     ~~~~
     cw = "Hello"
     yb = 0
-
+    
     =====
-
+    
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def inCode(self, regExString, checkString):
             code = self.getEditorText()
             res = re.findall(regExString, code)
             self.assertEqual(len(res) == 1, True, checkString)
-
+    
         def testOne(self):
             print("Auto-testing...")
             self.inCode("\s*yb\s*=\s*cw", "Checking proper cw assignment")
             self.assertEqual(cw, yb, "Testing that yb has the same value as cw")
-
-
+    
+    
     myTests().main()

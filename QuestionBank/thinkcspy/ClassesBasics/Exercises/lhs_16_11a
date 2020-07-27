@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3308270677
+    :total_students_attempting: 399
+    :num_students_correct: 395.0
+    :mean_clicks_to_correct: 3.564556962
 
     Create a class called ``Cereal`` that has three instance variables: ``name``, ``brand``, and ``fiber``.
     When an instance of ``Cereal`` is printed, the user should see the following:
@@ -14,22 +18,22 @@
     brand is **Kellogg's**, and fiber is 2. To the variable name ``c2``, assign an instance of
     ``Cereal`` whose name is **Honey Nut Cheerios**, brand is **General Mills**, and fiber is 3.
     Practice printing both! 
-
+    
     ~~~~
     #Define the class here
-
+    
     #Your test code here
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
         def testOne(self):
             self.assertEqual(c1.__str__(), "Corn Flakes cereal is produced by Kellogg's and has 2 grams of fiber in every serving!", "Testing that c1 prints correctly.")
         def testTwo(self): 

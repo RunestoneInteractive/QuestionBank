@@ -6,19 +6,23 @@
     :from_source: F
     :practice: T
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.0
+    :total_students_attempting: 24
+    :num_students_correct: 16.0
+    :mean_clicks_to_correct: 16.375
 
     Write a function called ``format_num(aString)`` that takes a string representing a number as an argument
     and returns a string with commas inserted between every 3 digit, like format_num("2143") returns "2,143".
     ~~~~
-
+    
     def format_num(aString):
         # your code here
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
              self.assertEqual(format_num("2143"),"2,143","2143")
@@ -29,6 +33,6 @@
              self.assertEqual(format_num("143"),"143","143")
              self.assertEqual(format_num("43"),"43","43")
              self.assertEqual(format_num("3"),"3","3")
-
-
+    
+    
     myTests().main()

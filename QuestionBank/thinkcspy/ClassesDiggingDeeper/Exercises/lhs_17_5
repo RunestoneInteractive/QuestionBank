@@ -6,17 +6,21 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.4175257732
+    :total_students_attempting: 388
+    :num_students_correct: 384.0
+    :mean_clicks_to_correct: 3.5703125
 
     Add a multiplication method (__mul__) to the Fraction class so that it
     will be able to use the ``*`` operator to multiply two Fractions. This
     method should return a simplified Fraction the is the product of the
     two fractions.
-
+    
     The Fraction class has already been supplied - based on the one that was
     in the reading. You just need to add the new ``__mul__`` method and test it out.
-
+    
     **Hint**: See the ``__add__`` method as an example.
-
+    
     ~~~~
     import test
     
@@ -64,9 +68,9 @@
     f3 = f1 * f2
     print(f3)
     test.testEqual(f3.__str__(), Fraction(3, 7).__str__())
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):

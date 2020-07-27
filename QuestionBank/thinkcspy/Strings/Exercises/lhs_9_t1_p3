@@ -6,43 +6,47 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.2941176471
+    :total_students_attempting: 17
+    :num_students_correct: 10.0
+    :mean_clicks_to_correct: 2.6
 
     Write a function ``doubleChar(str)`` which **returns** a string where for every
     character in the original string, there are two characters.
-
+    
     Example:
-
+    
     ::
     
         doubleChar('The') returns 'TThhee'
         doubleChar('AAbb') returns 'AAAAbbbb'
-
+    
     ~~~~
     # My Name:
     def doubleChar(str):
-	# Write your code here
-
-
+    rite your code here
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _d(self, str):
             dblStr = ''
             for ch in str:
                 dblStr = dblStr + ch + ch
             return dblStr
-
+    
         def testOne(self):
             print('Auto-testing...')
-
+    
             tests = [ 'abc',
                       'a BB  cccc\n !.',
                       '' ]
-
+    
             for t in tests:
                 self.assertEqual(doubleChar(t), self._d(t), 'testing |' + t +'|')
-
-
+    
+    
     myTests().main()

@@ -14,9 +14,9 @@
    :feedback_b: Algorithms are like recipes:  they must be followed exactly, they must be clear and unambiguous, and they must end.
    :feedback_c: Programming languages are used to express algorithms, but an algorithm does not have to be expressed in terms of a programming language.
    :feedback_d: Computer scientists sometimes use a special notation to illustrate or document an algorithm, but this is not the definition of an algorithm.
-   :pct_on_first: 0.8211794547
-   :total_students_attempting: 29963
-   :num_students_correct: 29713.0
-   :mean_clicks_to_correct: 1.2401305826
+   :pct_on_first: 0.8212033237
+   :total_students_attempting: 29967
+   :num_students_correct: 29718.0
+   :mean_clicks_to_correct: 1.2401238307
 
    An algorithm is:

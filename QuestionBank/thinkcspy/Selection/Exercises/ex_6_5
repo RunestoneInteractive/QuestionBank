@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: T
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 2
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 1.0
 
    In the turtle bar chart program, what do you expect to happen if one or more
    of the data values in the list is negative?   Go back and try it out.  Change the

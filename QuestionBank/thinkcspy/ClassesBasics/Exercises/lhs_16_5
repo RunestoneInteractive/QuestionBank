@@ -6,35 +6,39 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.6666666667
+    :total_students_attempting: 399
+    :num_students_correct: 398.0
+    :mean_clicks_to_correct: 1.635678392
 
     Create a class called ``House`` that has three instance variables: ``color``, ``rooms``,
     and ``price``. To the variable name ``houseOne``, assign an instance of ``House`` whose
     color is white, has 3 rooms, and costs 50000. To the variable name ``houseTwo``,
     assign an instance of ``House`` whose color is red, has 9 rooms, and costs 1000000. 
- 
+    
     ~~~~
     #Define the class here
-
+    
     #Your test code here
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
         def testOne(self):
             self.assertEqual(houseOne.color, "white", "Testing that houseOne has the correct color assigned.")
             self.assertEqual(houseOne.rooms, 3, "Testing that houseOne was assigned the correct number of rooms.")
             self.assertEqual(houseOne.price, 50000, "Testing that houseOne was assigned the correct price.")
-
+    
         def testTwo(self):
             self.assertEqual(houseTwo.color, "red", "Testing that houseTwo has the correct color assigned.")
             self.assertEqual(houseTwo.rooms, 9, "Testing that houseTwo was assigned the correct number of rooms.")
             self.assertEqual(houseTwo.price, 1000000, "Testing that houseTwo was assigned the correct price.")
-
+    
     myTests().main()

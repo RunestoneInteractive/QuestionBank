@@ -10,10 +10,10 @@
    :correct: a
    :feedback_a: Both match up to the g but Dog is shorter than Doghouse so it comes first in the dictionary.
    :feedback_b: Strings are compared character by character.
-   :pct_on_first: 0.7280930233
-   :total_students_attempting: 10750
-   :num_students_correct: 10720.0
-   :mean_clicks_to_correct: 1.2829291045
+   :pct_on_first: 0.7281183146
+   :total_students_attempting: 10751
+   :num_students_correct: 10721.0
+   :mean_clicks_to_correct: 1.2829027143
 
    Evaluate the following comparison:
    

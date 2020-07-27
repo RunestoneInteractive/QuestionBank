@@ -4,7 +4,11 @@
    :basecourse: thinkcspy
    :topic: Selection/Exercises
    :from_source: T
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.5
+   :total_students_attempting: 2
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 1.5
 
    Modify the turtle bar chart program from the previous chapter so that the bar for any value
    of 200 or more is filled with red, values between [100 and 200) are filled yellow,

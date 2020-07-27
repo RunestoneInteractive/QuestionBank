@@ -6,18 +6,22 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0689655172
+    :total_students_attempting: 29
+    :num_students_correct: 13.0
+    :mean_clicks_to_correct: 9.8461538462
 
     Write a function ``sumOfCubes(xs)`` that computes the sum of the cubes of the numbers
     in the list xs. For example, ``sumOfCubes([2, 3, 4])`` should return 8+27+64 which is 99
-
+    
     ~~~~
     # My Name:
-
+    
     def sumOfCubes(xs):
         # write your code here
     
     # write main program that calls the function using any test case you like
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui

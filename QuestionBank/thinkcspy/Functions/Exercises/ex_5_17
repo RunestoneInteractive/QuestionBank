@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: Functions/Exercises
    :from_source: T
+   :pct_on_first: 0.0
+   :total_students_attempting: 8
+   :num_students_correct: 6.0
+   :mean_clicks_to_correct: 14.6666666667
 
    Write a function called `fancySquare` that will draw a square with fancy corners (sprites on the corners).  You should
    implement and use the `drawSprite` function from above.  For an even more interesting look, how about adding small

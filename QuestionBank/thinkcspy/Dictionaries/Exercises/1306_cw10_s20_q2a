@@ -5,31 +5,35 @@
     :topic: Dictionaries/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.3387096774
+    :total_students_attempting: 62
+    :num_students_correct: 54.0
+    :mean_clicks_to_correct: 6.0555555556
 
-
+    
     **Question 2A [30 points]** 
      
     Write a function called ``check_inventory(inventory, low)`` that has as arguments a dictionary ``inventory`` containing the inventory of a fruit store, and ``low``, an integer. The function returns a list of items that are below an inventory level that is given by the ``low`` integer parameter. 
-
+    
     Example: If the ``inventory`` is ``{'mango:22','banana':3,'apple':10}``, ``check_inventory(inventory, 5)`` will return the list ``['banana']``. For the same ``inventory``, ``check_inventory(inventory, 15)`` will return the list ``['apple','banana']``. 
-
-
+    
+    
     ~~~~
     # Write your code here
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     def compareStringList(list1, list2):
         if len(list1)!=len(list2):
             return False
-		
+    
         for item1 in list1:
             if item1 not in list2:
                 return False
         return True
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
             inp1 = {'mango':22 ,'banana':3,'apple':10}
@@ -38,12 +42,12 @@
            
             self.assertEqual( compareStringList(check_inventory(inp1 ,5),out1), True , "check_inventory("+str(inp1)+",5) should return ['banana']")
             self.assertEqual( compareStringList(check_inventory(inp1 ,15),out2), True ,"check_inventory("+str(inp1)+",15) should return ['apple','banana'] or ['banana','apple']")
-
+    
             #self.assertEqual(ispalindrome('123321'),False,"ispalindrome('123321') should return False")
             #self.assertEqual(ispalindrome('123ABA321'),True,"ispalindrome('123ABA321') should return True")
             #self.assertEqual(ispalindrome('palindrome'),False,"ispalindrome('palindrome') should return False")	
-
-
-
-
+    
+    
+    
+    
     myTests().main()

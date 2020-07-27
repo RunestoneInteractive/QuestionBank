@@ -6,8 +6,12 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
-    
+    :nocodelens: 
+    :pct_on_first: 0.0
+    :total_students_attempting: 8
+    :num_students_correct: 5.0
+    :mean_clicks_to_correct: 6.2
+
     Below are three functions that take and return **Boolean** values. Fill in the body of each function below. Here are some examples of how the functions should behave when you're done:
     
     ::
@@ -26,29 +30,29 @@
     def bothTrue(a, b):
          pass
          # your code here
-
+    
     # returns True if a OR b are True
     def eitherTrue(a, b):
          pass
          # your code here
-
+    
     # returns True if NEITHER a NOR b are True
     def neitherTrue(a, b):
          pass
          # your code here
-
-
+    
+    
     
     ====
     from unittest.gui import TestCaseGui
-
+    
     # https://docs.python.org/2/library/unittest.html#assert-methods
     class Tests(TestCaseGui):
       def result(self, func,*args,**kwargs):
         import sys
         from StringIO import StringIO
         oldout = sys.stdout
-
+    
         try:
             out = StringIO()
             sys.stdout = out
@@ -73,5 +77,5 @@
         self.assertEqual(self.result(neitherTrue,True,False), False, "neitherTrue(True,False) returns False")
         self.assertEqual(self.result(neitherTrue,False,True), False, "neitherTrue(False,True) returns False")
         self.assertEqual(self.result(neitherTrue,False,False), True, "neitherTrue(False,False) returns True")
-
+    
     Tests().main()

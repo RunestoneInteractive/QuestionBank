@@ -4,6 +4,10 @@
    :basecourse: thinkcspy
    :topic: GeneralIntro/SpecialWaystoExecutePythoninthisBook
    :from_source: T
+   :pct_on_first: 0.0
+   :total_students_attempting: 2
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 2.0
 
    print("My first program adds two numbers, 2 and 3:")
    print(2 + 3)

@@ -6,20 +6,24 @@
     :from_source: F
     :practice: T
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 1.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 1.0
 
     Write a function called ``is_even(n)`` that takes an integer as an argument
     and returns ``True`` if the argument is an **even number** and ``False`` if
     it is **odd**.
     ~~~~
-
+    
     def is_even(n):
         # your code here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
          def testOne(self):
              editText = self.getEditorText()
@@ -30,5 +34,5 @@
              self.assertEqual(is_even(0),True,"Tested is_even on input of 0")
              self.assertEqual(is_even(-10),True,"Tested is_even on input of -10")
              self.assertEqual(is_even(-11),False,"Tested is_even on input of -11")
-
+    
     myTests().main()

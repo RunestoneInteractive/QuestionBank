@@ -6,32 +6,36 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.4812967581
+    :total_students_attempting: 401
+    :num_students_correct: 398.0
+    :mean_clicks_to_correct: 2.7336683417
 
     Create a class called ``Bike`` that contains two instance variables, ``color`` and ``price``.
     Assign to the variable ``testOne``, an instance of ``Bike`` whose color is blue and price is 89.99.
     Assign to the variable ``testTwo``, an instance of ``Bike`` whose color is purple and price is 25. 
     ~~~~
     #Define the class here
-
+    
     
     #Your test code here
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
         def testOne(self):
             self.assertEqual(testOne.color, "blue", "Testing that testOne has the correct color assigned.")
             self.assertEqual(testOne.price, 89.99, "Testing that testOne has the correct price assigned.")
-
+    
         def testTwo(self):
             self.assertEqual(testTwo.color, "purple", "Testing that testTwo has the correct color assigned.")
             self.assertEqual(testTwo.price, 25, "Testing that testTwo has the correct color assigned.")
-
+    
     myTests().main()

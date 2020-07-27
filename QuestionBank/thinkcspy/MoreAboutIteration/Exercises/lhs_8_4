@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0265306122
+    :total_students_attempting: 490
+    :num_students_correct: 443.0
+    :mean_clicks_to_correct: 17.6546275395
 
     Write a function ``drugPotency(loss, expire)`` that determines how many months a drug
     can remain in storage given a potency loss percentage (``loss``) and an expiration
@@ -31,13 +35,13 @@
         Month: 15   effectiveness: 54.2086379861
         Month: 16   effectiveness: 52.0402924666
         Month: 17   effectiveness: 49.958680768 DISCARDED
-
+    
     **HINT:** There is a tab used **right before** (without a space) the word "effectiveness" to print nicely. See 8.10 on how to make the tab character.
     So, you would have ``"\teffectiveness:"`` in your print statement.
-
+    
     **HINT:** Also, make sure that you have 100.0, not 100 in the first output line... Make sure you have spelled the words correctly too.
-
-
+    
+    
     ~~~~
     def drugPotency(loss, expire):
         # your code here
@@ -52,9 +56,9 @@
     ====
     import random
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _drugPotency(self, loss, expire):
             month = 0
             effectiveness = 100.0
@@ -66,10 +70,10 @@
                 outStr += "Month: " + str(month) + "\teffectiveness: " + str(effectiveness)
             outStr += " DISCARDED\n"
             return outStr
-
+    
         def testOne(self):
             print("\nAuto-testing...")
-
+    
             loss = 9.0
             exp = 60.0
             expected = self._drugPotency(loss, exp)
@@ -78,12 +82,12 @@
             drugPotency(loss, exp)
             oLenTest = len(self.getOutput())
             actual = self.getOutput()[oLen:oLenTest]  #extract new output
-
+    
             expected = " ".join(expected.split()) 
             actual = " ".join(actual.split()) # remove extra spaces in the output
-
+    
             self.assertEqual(actual, expected, "checking output for drugPotency(" + str(loss) + ", " + str(exp) + ")")
-
+    
             loss = float(random.randrange(4,12))
             exp = float(random.randrange(50,65))
             expected = self._drugPotency(loss, exp)
@@ -92,12 +96,12 @@
             drugPotency(loss, exp)
             oLenTest = len(self.getOutput())
             actual = self.getOutput()[oLen:oLenTest]  #extract new output
-
+    
             expected = " ".join(expected.split()) 
             self.assertIn("\teffectiveness", actual, "Checking tab usage to make table")
-
+    
             actual = " ".join(actual.split()) # remove extra spaces in the output
-
+    
             self.assertEqual(actual, expected, "checking output for drugPotency(" + str(loss) + ", " + str(exp) + ")")
     
     myTests().main()

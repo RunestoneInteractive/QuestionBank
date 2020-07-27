@@ -6,28 +6,32 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.4892601432
+    :total_students_attempting: 419
+    :num_students_correct: 408.0
+    :mean_clicks_to_correct: 2.4705882353
 
     Create a class called ``Animal`` that has two instance variables: ``arms`` and ``legs``.
     Create a class method called ``limbs`` that, when called, returns the total number of
     limbs the animal has. To the variable name ``spider``, assign an instance of ``Animal``
     that has 4 arms and 4 legs. Call the ``limbs`` method on ``spider`` and save the
     result to the variable name ``spidlimbs``. 
-
+    
     ~~~~
     #Define the class here
-
+    
     #Your test code here
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
         def testOne(self):
             self.assertEqual(spider.arms, 4, "Testing that spider was assigned the correct number of arms.")
             self.assertEqual(spider.legs, 4, "Testing that spider was assigned the correct number of legs.")

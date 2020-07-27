@@ -10,9 +10,9 @@
    :correct: a
    :feedback_a: In this chapter you saw one named alex and one named tess, but any legal variable name is allowed.
    :feedback_b: A variable, including one referring to a Turtle object, can have whatever name you choose as long as it follows the naming conventions from Chapter 2.
-   :pct_on_first: 0.8941760571
-   :total_students_attempting: 17926
-   :num_students_correct: 17871.0
-   :mean_clicks_to_correct: 1.1088355436
+   :pct_on_first: 0.8941878626
+   :total_students_attempting: 17928
+   :num_students_correct: 17873.0
+   :mean_clicks_to_correct: 1.1088233649
 
    True or False: A Turtle object can have any name that follows the naming rules from Chapter 2.

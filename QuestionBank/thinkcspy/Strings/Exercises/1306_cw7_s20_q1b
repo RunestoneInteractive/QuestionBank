@@ -5,22 +5,26 @@
     :topic: Strings/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.2272727273
+    :total_students_attempting: 66
+    :num_students_correct: 55.0
+    :mean_clicks_to_correct: 4.8909090909
 
     **Question 1 [20 points]** This problem is split into two parts
-
+    
     **PART B:** Develop another version of the function ``CL2(refstring,mystring)``  that does the same task, only reports unique letters. For the above example. ``CL2`` will return the string '**oai**'
        
     ~~~~
     # Write your code here
-
     
-
-
-  
-
+    
+    
+    
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         import random
         def testOne(self):
@@ -33,8 +37,8 @@
             #self.assertEqual(WhenExpired(-1.0),0,"WhenExpired(-1.0) should return 0")
             #self.assertEqual(WhenExpired(100),0,"WhenExpired(100) should return 0")
             #self.assertEqual(WhenExpired(120),0,"WhenExpired(120) should return 0")
-
-
-
-
+    
+    
+    
+    
     myTests().main()

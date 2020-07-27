@@ -6,29 +6,33 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3988095238
+    :total_students_attempting: 168
+    :num_students_correct: 149.0
+    :mean_clicks_to_correct: 3.255033557
 
     **PRACTICE**
-
+    
     Translate the following for loop to a while loop so that the program does
     exactly the same thing.
-
- 
+    
+    
     ::
-
+    
       for num in range(2, 20, 3):
           if num % 2 == 0:
               print(num)
-
-
+    
+    
     ~~~~
-
+    
     # My Name:
-
+    
         
     ==== 
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
     
          # regExString - is checked inside inString
@@ -40,19 +44,19 @@
             checkOK = (len(res) == howMany)
             if not checkOK:
                 print("Found [", matchString, "]", len(res), "time(s), not", howMany)
-
+    
             self.assertEqual(checkOK, True, errorString)
-
+    
             return(checkOK)
-
+    
         def testOne(self):
             outText = self.getOutput()
             code = self.getEditorText()
             print("Begin Auto-test... ")
-
+    
             self.regExCheck("^for ", code, 0, "for loop", "Checking that 'for' loop was not used")
             self.regExCheck("^while[( ]", code, 1, "for loop", "Checking that 'while' loop was not used")
             self.assertEqual(outText, "2\n8\n14\n", "Checking output")
-
+    
             
     myTests().main()

@@ -6,18 +6,22 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0915841584
+    :total_students_attempting: 404
+    :num_students_correct: 378.0
+    :mean_clicks_to_correct: 18.0978835979
 
     Write a function ``mergeList(list1, list2)`` that takes two pre-sorted lists of numbers
     and combines them into a single new list that is also sorted. 
-
+    
     ``mergeList`` should be a pure function.
-
+    
     You may **not** use the .sort method though.
-
+    
     ~~~~
         
     def mergeList(list1, list2):
-
+    
     def main():
         # add any test cases here
     
@@ -39,7 +43,7 @@
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             editText = self.getEditorText()
             if len(re.findall("\.sort", editText)) != 0:
@@ -60,7 +64,7 @@
                 mergeList(copy0, copy1)
                 self.assertEqual(copy0, test0, "checking that test[0][0] did not change")
                 self.assertEqual(copy1, test1, "checking that test[0][1] did not change")
-
+    
                 i = 0
                 for t in tests:
                     self.assertEqual(mergeList(t[0], t[1]), self._golden(t[0], t[1]), "Testing  "+str(i))

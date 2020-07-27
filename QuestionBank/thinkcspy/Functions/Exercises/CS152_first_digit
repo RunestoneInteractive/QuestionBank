@@ -6,21 +6,25 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.0
+    :total_students_attempting: 6
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 4.0
 
     Write a fruitful function ``first_digit(num)`` that returns the first (leftmost) digit of the integer num. Do not convert num to a string.
-
+    
     ~~~~
-
+    
     def first_digit(num):
         """ Returns the first (leftmost) digit of the integer num """
         # Put your code here
-
+    
     ====
     import re
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             editText = self.getEditorText()
             self.assertEqual(1, len(re.findall("\s*return", editText)), "Need exactly one return statement")
@@ -31,8 +35,8 @@
             self.assertAlmostEqual(first_digit(120),1,0,"Tested first_digit(120)")
             self.assertAlmostEqual(first_digit(67589),6,0,"Tested first_digit(67589)")
             self.assertAlmostEqual(first_digit(-36),3,0,"Tested first_digit(-36)")
-
-
-
-
+    
+    
+    
+    
     myTests().main()

@@ -6,21 +6,25 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.3357487923
+    :total_students_attempting: 414
+    :num_students_correct: 410.0
+    :mean_clicks_to_correct: 5.2951219512
 
     Write a function ``scalar_mult(s, v)`` that takes a number, s, and a list of numbers,
     v,  and returns a **new** list with the scalar multiple of v by s. The original list v
     should not be changed.
-
+    
     So, for example ``[1, 2, 3] * 6`` is ``[6, 12, 18]``
-
+    
     ~~~~
     # My Name:
-
+    
     def scalar_mult(s, v):
         # write your code here
     
     # any test cases you'd like to have
-
+    
     ====
     from unittest.gui import TestCaseGui
     
@@ -37,7 +41,7 @@
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             v = [0, -2, -4.5, 6, 9]
             test = [0, 3]

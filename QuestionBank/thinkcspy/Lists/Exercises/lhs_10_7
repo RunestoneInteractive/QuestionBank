@@ -6,16 +6,20 @@
     :from_source: F
     :language: python
     :autograde: unittest
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.3259668508
+    :total_students_attempting: 181
+    :num_students_correct: 179.0
+    :mean_clicks_to_correct: 5.2402234637
 
     Write a function ``add_vectors(u, v)`` that takes two lists of numbers of the same length, and returns a new list containing the sums of the corresponding elements of each:
     ~~~~
-
+    
     def add_vectors(u, v):
         # your code here!
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
     
     class myTests(TestCaseGui):

@@ -6,6 +6,10 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.5
+    :total_students_attempting: 2
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 3.5
 
     An ISBN (International Standard Book Number) has ten digits. The first nine digits
     may have values from '0' to '9'; they identify the country in which the book was
@@ -17,44 +21,44 @@
     "mod" stands for modulo division (same as % in Python). If d\ :sub:`10` needs the
     value 10 to balance the check digit equation, then the character 'X' is used.
     For example, 096548534X is a valid ISBN.
-
+    
     Note that if we simply took the sum of all the digits, the check digit would remain
     valid for any permutation of the digits. Different coefficients make the number
     invalid when any two digits are swapped, catching a common typo.
-
+    
     Write a function
-
+    
     .. sourcecode:: python
-
+    
             isValidISBN( isbn )
-
+    
     that returns ``True`` if ``isbn`` represents a valid ISBN, ``False`` otherwise.
-
+    
     ~~~~
-
+    
     import string
-
+    
     def isValidISBN( isbn ):
         
         # Your code here
         
         return False # FIX THIS!!!
-
+    
     def main():
         print(isValidISBN("096548534X"))
         print(isValidISBN("1234567890"))
     
     if __name__ == "__main__":
         main()
-
+    
     ====
     
     import string
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def _isValidISBN( self, isbn ):
             sum = 0
             if len(isbn) != 10:
@@ -73,9 +77,9 @@
                     sum += ( 10 - i ) * int(d)
                 else:
                     return False
-
+    
             return sum % 11 == 0       
-
+    
         def testOne(self):
             print('\nAuto-testing...')
         

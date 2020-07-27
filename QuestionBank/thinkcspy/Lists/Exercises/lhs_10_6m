@@ -6,34 +6,38 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.1382113821
+    :total_students_attempting: 246
+    :num_students_correct: 243.0
+    :mean_clicks_to_correct: 6.6872427984
 
     Write a function ``replaceMutator(lst, old, new)`` that replaces all occurrences of the
     element ``old`` with ``new`` in the list ``lst``. For this **mutating** function, it will not return any list, but
     instead it will change the ``lst`` itself.
-
+    
     ~~~~
     # My Name:
-
+    
     def replaceMutator(lst, old, new):
         # write your code here
     
     # any test cases you'd like to have
-
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def _replace(self, lst, old, new):
             for i in range(len(lst)):
                 if lst[i] == old:
                     lst[i] = new
-
+    
         def testOne(self):
             SelfTest = False
             if (SelfTest):
                 self.assertEqual(0,1,"Auto-testing if OFF - you must check the program yourself for now")
                 return
-
+    
             print('Auto-testing...')
             lst = [
                 ('s', 'S', ['M', 'i', 's', 's', 'i', 's', 's', 'i', 'p', 'p', 'i']),

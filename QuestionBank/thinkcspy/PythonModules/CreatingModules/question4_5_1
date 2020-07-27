@@ -14,9 +14,9 @@
    :feedback_b: Python modules are just Python source code files.
    :feedback_c: The comments just before a function are the function documentation.
    :feedback_d: Modules may be small, but there is a more accurate answer.
-   :pct_on_first: 0.7875862069
-   :total_students_attempting: 725
-   :num_students_correct: 723.0
-   :mean_clicks_to_correct: 1.305670816
+   :pct_on_first: 0.7878787879
+   :total_students_attempting: 726
+   :num_students_correct: 724.0
+   :mean_clicks_to_correct: 1.3052486188
 
    A module is another name for:

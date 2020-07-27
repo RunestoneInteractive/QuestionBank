@@ -10,10 +10,10 @@
    :correct: b
    :feedback_a: The blank counts as a character.
    :feedback_b: Yes, there are 12 characters in the string.
-   :pct_on_first: 0.6475519486
-   :total_students_attempting: 11213
-   :num_students_correct: 11158.0
-   :mean_clicks_to_correct: 1.3780247356
+   :pct_on_first: 0.6475833779
+   :total_students_attempting: 11214
+   :num_students_correct: 11159.0
+   :mean_clicks_to_correct: 1.3779908594
 
    
    What is printed by the following statements?

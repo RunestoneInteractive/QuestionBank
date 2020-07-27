@@ -14,10 +14,10 @@
    :feedback_b: Not all the items in alist are to be included in blist.  Look at the if clause.
    :feedback_c: The result needs to be a list.
    :feedback_d: Yes, 5 is the only odd number in alist.  It is doubled before being placed in blist.
-   :pct_on_first: 0.4893671865
-   :total_students_attempting: 7759
-   :num_students_correct: 7698.0
-   :mean_clicks_to_correct: 1.9605092232
+   :pct_on_first: 0.4894357124
+   :total_students_attempting: 7762
+   :num_students_correct: 7701.0
+   :mean_clicks_to_correct: 1.9603947539
 
    What is printed by the following statements?
    

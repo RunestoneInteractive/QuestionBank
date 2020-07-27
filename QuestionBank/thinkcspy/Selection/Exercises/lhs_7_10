@@ -6,9 +6,13 @@
     :from_source: F
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.2348668281
+    :total_students_attempting: 413
+    :num_students_correct: 404.0
+    :mean_clicks_to_correct: 4.5247524752
 
     Rewrite the following code using ``<`` and no other relational operators.
-
+    
     .. sourcecode:: python
     
         def getGrade(avg):
@@ -23,7 +27,7 @@
             else:
                 grade = 'F'
             return grade
-
+    
     ~~~~
     # Name:
     
@@ -59,18 +63,18 @@
         def testOne(self):
             print("Auto-testing...")
             code = self.getEditorText()
-
+    
             # strips this test code - when testing code with this test code 
             pos = code.find("class myTests")
             if (pos != -1):
                 code = code[:pos]
-
+    
             if len(re.findall(">=", code)) != 0:
                 self.assertEqual(len(re.findall(">=", code)), 0, "relational operator other than 'less than' found")
             else:
                 grades = [[33, 'F'], [60, 'D'], [67, 'D'], [90, 'A'], [70, 'C'], [59, 'F'], [79, 'C'], [80, 'B'], [89, 'B'], [100, 'A']]
                 for g in grades:
                     self.assertEqual(getGrade(g[0]), g[1], "testing getGrade returns correct grade for avg = " + str(g[0]) )
-
+    
             
     myTests().main()

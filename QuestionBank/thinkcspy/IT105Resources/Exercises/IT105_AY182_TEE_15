@@ -6,8 +6,12 @@
   :from_source: F
   :language: python
   :autograde: unittest
-  :nocodelens:
-  
+  :nocodelens: 
+  :pct_on_first: 0.0888888889
+  :total_students_attempting: 45
+  :num_students_correct: 21.0
+  :mean_clicks_to_correct: 11.2857142857
+
   Complete the function below that flips a coin. The function should **return** a ``1`` for heads and a ``2`` for tails. The result of each call **must** be a **random** ``1`` or ``2``. 
   
   For example:
@@ -25,7 +29,7 @@
       pass # your code goes here
   ====
   from unittest.gui import TestCaseGui
-
+  
   class Tests(TestCaseGui): 
     def tests(self):
       import random
