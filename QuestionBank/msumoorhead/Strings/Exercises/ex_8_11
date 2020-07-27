@@ -4,18 +4,22 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
+   :pct_on_first: 0.037037037
+   :total_students_attempting: 54
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 15.4523809524
 
    def remove_punct(theStr):
        # your code here
-
-
-
+   
+   
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
      def testOne(self):
          s = "Cough, cough, cough. Cough, cough, cough."
          self.assertEqual(remove_punct(s),"Cough  cough  cough  Cough  cough  cough ","Tested on "+s)
@@ -25,7 +29,7 @@
          self.assertEqual(remove_punct(s),"Doesn't sound too bad  I'll try to stay awake   Turns off TV  ","Tested on "+s)
          s = '!"#$%&()*+,-./:;<=>?@[\]^_`{|}~'
          self.assertEqual(remove_punct(s),"                               ","Tested on "+s)
-
-
-
+   
+   
+   
    myTests().main()

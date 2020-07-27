@@ -1,9 +1,0 @@
-.. actex:: ex_8_4
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: cps110spring2019
-   :topic: Strings/Exercises
-   :from_source: None
-
-   Print out a neatly formatted multiplication table, up to 12 x 12.
-   ~~~~

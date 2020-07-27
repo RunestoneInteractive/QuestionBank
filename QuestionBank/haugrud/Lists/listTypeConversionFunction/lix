@@ -1,9 +1,0 @@
-.. activecode:: lix
-    :author: jenkins
-    :difficulty: 3
-    :basecourse: haugrud
-    :topic: Lists/listTypeConversionFunction
-    :from_source: None
-
-    xs = list("Crunchy Frog")
-    print(xs)

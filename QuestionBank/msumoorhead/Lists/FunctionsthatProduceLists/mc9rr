@@ -13,11 +13,15 @@
    :feedback_b: There are too many items in this list.  Only 5 append operations are performed.
    :feedback_c: Yes, the for loop processes each item of the list.  5 is added before it is appended to blist.
    :feedback_d: 5 is added to each item before the append is performed.
+   :pct_on_first: 0.679245283
+   :total_students_attempting: 53
+   :num_students_correct: 53.0
+   :mean_clicks_to_correct: 1.5471698113
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      blist = [ ]
      for item in alist:

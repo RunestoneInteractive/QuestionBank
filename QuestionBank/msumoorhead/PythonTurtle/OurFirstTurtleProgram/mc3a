@@ -13,5 +13,9 @@
    :feedback_b: No, look at the first example with a turtle.  Which direction does the turtle move?
    :feedback_c: Yes, the turtle starts out facing east.
    :feedback_d: No, look at the first example with a turtle.  Which direction does the turtle move?
+   :pct_on_first: 0.724137931
+   :total_students_attempting: 116
+   :num_students_correct: 116.0
+   :mean_clicks_to_correct: 1.4137931034
 
    Which direction does the Turtle face when it is created?

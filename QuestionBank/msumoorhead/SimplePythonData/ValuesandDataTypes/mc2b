@@ -13,5 +13,9 @@
    :feedback_b: The data is not numeric.
    :feedback_c: The value is not numeric with a decimal point.
    :feedback_d: Strings can be enclosed in single quotes.
+   :pct_on_first: 0.9197080292
+   :total_students_attempting: 137
+   :num_students_correct: 137.0
+   :mean_clicks_to_correct: 1.1240875912
 
    What is the data type of 'this is what kind of data'?

@@ -1,8 +1,0 @@
-.. activecode:: ex_2_1
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: haugrud
-   :topic: SimplePythonData/Exercises
-   :from_source: None
-
-   print(' 1:', 5 ** 2)

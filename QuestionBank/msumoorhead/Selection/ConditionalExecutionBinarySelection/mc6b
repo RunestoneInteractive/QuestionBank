@@ -13,5 +13,9 @@
    :feedback_b: Each block must contain at least one statement.
    :feedback_c: Yes, a block must contain at least one statement and can have many statements.
    :feedback_d: The blocks may contain different numbers of statements.
+   :pct_on_first: 0.6434782609
+   :total_students_attempting: 115
+   :num_students_correct: 115.0
+   :mean_clicks_to_correct: 1.4695652174
 
    How many statements can appear in each block (the if and the else) in a conditional statement?

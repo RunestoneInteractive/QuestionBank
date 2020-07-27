@@ -4,22 +4,26 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
+   :pct_on_first: 0.5454545455
+   :total_students_attempting: 11
+   :num_students_correct: 7.0
+   :mean_clicks_to_correct: 2.2857142857
 
    def numDigits(n):
        # your code here
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(numDigits(2),1,"Tested numDigits on input of 2")
            self.assertEqual(numDigits(55),2,"Tested numDigits on input of 55")
            self.assertEqual(numDigits(1352),4,"Tested numDigits on input of 1352")
            self.assertEqual(numDigits(444),3,"Tested numDigits on input of 444")
-
-
-
+   
+   
+   
    myTests().main()

@@ -11,11 +11,15 @@
    :feedback_a: True was added first, then False was added last.
    :feedback_b: Yes, each item is added to the end of the list.
    :feedback_c: append adds at the end, not the beginning.
+   :pct_on_first: 0.9495798319
+   :total_students_attempting: 119
+   :num_students_correct: 119.0
+   :mean_clicks_to_correct: 1.0588235294
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      alist.append(True)
      alist.append(False)

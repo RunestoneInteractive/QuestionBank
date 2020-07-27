@@ -13,10 +13,14 @@
    :feedback_b: Repetition does not repeat each item individually.
    :feedback_c: Yes, the items of the list are repeated 3 times, one after another.
    :feedback_d: Repetition does not multiply the individual items.
+   :pct_on_first: 0.9082568807
+   :total_students_attempting: 109
+   :num_students_correct: 109.0
+   :mean_clicks_to_correct: 1.128440367
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [1, 3, 5]
      print(alist * 3)

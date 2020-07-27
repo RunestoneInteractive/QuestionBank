@@ -13,11 +13,15 @@
    :feedback_b: pop(0) changes the list by removing the first item.
    :feedback_c: Yes, first the 4 was removed from the list, then returned and assigned to alist.  The list is lost.
    :feedback_d: pop(0) returns the first item in the list so alist has now been changed.
+   :pct_on_first: 0.3130434783
+   :total_students_attempting: 115
+   :num_students_correct: 115.0
+   :mean_clicks_to_correct: 2.0695652174
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      alist = alist.pop(0)
      print(alist)

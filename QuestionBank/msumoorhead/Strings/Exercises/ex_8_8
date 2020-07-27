@@ -4,25 +4,29 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.2075471698
+   :total_students_attempting: 53
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 4.86
 
    def is_pal(myStr):
        # your code here
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
    def testOne(self):
        self.assertEqual(is_pal("robert"),False,"Tested is_palindrome on input of 'robert'")
        self.assertEqual(is_pal("bob"),True,"Tested is_palindrome on input of 'bob'")
        self.assertEqual(is_pal("racecar"),True,"Tested is_palindrome on input of 'racecar'")
        self.assertEqual(is_pal("starrats"),True,"Tested is_palindrome on input of 'starrats'")
        self.assertEqual(is_pal(""),True,"Tested is_palindrome on input of ''")
-
-
-
-
+   
+   
+   
+   
    myTests().main()

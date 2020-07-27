@@ -13,5 +13,9 @@
    :feedback_b: The import statements only tell you what modules are currently being used in the program, not how to use them or what they contain.
    :feedback_c: While the professor knows a subset of the modules available in Python, chances are the professor will have to look up the available modules just like you would.
    :feedback_d: This book only explains a portion of the modules available.  For a full listing you should look elsewhere.
+   :pct_on_first: 0.9326923077
+   :total_students_attempting: 104
+   :num_students_correct: 104.0
+   :mean_clicks_to_correct: 1.0769230769
 
    To find out information on the standard modules available with Python you should:

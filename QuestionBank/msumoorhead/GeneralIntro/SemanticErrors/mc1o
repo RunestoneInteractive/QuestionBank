@@ -13,6 +13,10 @@
    :feedback_b: The compiler and / or interpreter will only do what you instruct it to do. It does not understand what the problem is that you want to solve.
    :feedback_c: The computer does not understand your problem. It just executes the instructions that it is given.
    :feedback_d: Your teacher and instructor may be able to find most of your semantic errors, but only because they have experience solving problems.  However it is your responsibility to understand the problem so you can develop a correct solution.
+   :pct_on_first: 0.6785714286
+   :total_students_attempting: 140
+   :num_students_correct: 140.0
+   :mean_clicks_to_correct: 1.4285714286
 
-
+   
    Who or what typically finds semantic errors?

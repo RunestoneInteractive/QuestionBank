@@ -13,10 +13,10 @@
    :feedback_b: Remember that a stack is built from the bottom up.
    :feedback_c: Good job.
    :feedback_d: Remember that a stack is built from the bottom up.
-   :pct_on_first: 0.9008341057
-   :total_students_attempting: 3237
-   :num_students_correct: 3220.0
-   :mean_clicks_to_correct: 1.1428571429
+   :pct_on_first: 0.9008647313
+   :total_students_attempting: 3238
+   :num_students_correct: 3221.0
+   :mean_clicks_to_correct: 1.1428127911
 
    Given the following sequence of stack operations, what is the top item on the stack when the sequence is complete?
    

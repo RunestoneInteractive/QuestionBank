@@ -1,9 +1,0 @@
-.. activecode:: tda
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: haugrud
-   :topic: Dictionaries/TuplesandMutability
-   :from_source: None
-
-   julia = ("Julia", "Roberts", 1967, "Pretty Woman", 1990, "Actress", "Atlanta, Georgia")
-   print(type(julia))

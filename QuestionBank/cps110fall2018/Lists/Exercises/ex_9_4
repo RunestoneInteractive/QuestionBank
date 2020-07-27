@@ -1,9 +1,0 @@
-.. actex:: ex_9_4
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: cps110fall2018
-   :topic: Lists/Exercises
-   :from_source: None
-
-   Create a list containing 100 random integers between 0 and 1000 (use iteration, append, and the random module).  Write a function called ``average`` that will take the list as a parameter and return the average.
-   ~~~~

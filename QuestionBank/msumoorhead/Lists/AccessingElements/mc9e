@@ -11,10 +11,14 @@
    :feedback_a: alist[2] is the string cat so the upper method is legal
    :feedback_b: 2 is the index.  We want the item at that index.
    :feedback_c: Yes, the string cat is upper cased to become CAT.
+   :pct_on_first: 0.8333333333
+   :total_students_attempting: 120
+   :num_students_correct: 120.0
+   :mean_clicks_to_correct: 1.1916666667
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [3, 67, "cat", [56, 57, "dog"], [ ], 3.14, False]
      print(alist[2].upper())

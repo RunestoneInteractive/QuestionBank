@@ -1,9 +1,0 @@
-.. activecode:: ch05_2
-    :author: jenkins
-    :difficulty: 3
-    :basecourse: cps110spring2019
-    :topic: Selection/BooleanValuesandBooleanExpressions
-    :from_source: None
-
-    print(5 == 5)
-    print(5 == 6)

@@ -1,8 +1,0 @@
-.. activecode:: helloworld
-   :author: bmiller
-   :difficulty: 3
-   :basecourse: authorguide
-   :topic: directives/tab
-   :from_source: T
-
-   print("Hello, world")

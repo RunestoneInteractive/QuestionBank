@@ -13,5 +13,9 @@
    :feedback_b: This is the syntax for calling a function, not referencing an item in a module.
    :feedback_c: The module name must come first when accessing values and functions with a module.
    :feedback_d: The -> notation is not used in Python.
+   :pct_on_first: 0.9150943396
+   :total_students_attempting: 106
+   :num_students_correct: 106.0
+   :mean_clicks_to_correct: 1.0849056604
 
    Which of the following is the correct way to reference the value pi within the math module.   Assume you have already imported the math module.

@@ -4,11 +4,15 @@
     :basecourse: msumoorhead
     :topic: Selection/Exercises
     :from_source: None
+    :pct_on_first: 0.0357142857
+    :total_students_attempting: 56
+    :num_students_correct: 27.0
+    :mean_clicks_to_correct: 14.8888888889
 
     def addup(n):
         # your code here
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
     import random
@@ -18,7 +22,7 @@
             if x%2 != 0 and x%3 != 0:
                 tot += x
         return tot
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertEqual(addup(4),1,"Tested 4")
@@ -32,5 +36,5 @@
             while c == a or c == b:
                 c = random.randint(5,99)
             self.assertEqual(addup(c),myad(c),"Tested "+str(c))
-
+    
     myTests().main()

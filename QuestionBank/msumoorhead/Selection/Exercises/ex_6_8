@@ -4,14 +4,18 @@
    :basecourse: msumoorhead
    :topic: Selection/Exercises
    :from_source: None
+   :pct_on_first: 0.1323529412
+   :total_students_attempting: 68
+   :num_students_correct: 58.0
+   :mean_clicks_to_correct: 24.1724137931
 
    def isLeap(year):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
    import random
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(isLeap(1800),False,"Tested isLeap on an input of 1800")
@@ -28,6 +32,6 @@
            y = random.randint(490,510) * 4 + 3
            self.assertEqual(isLeap(y),False,"Tested isLeap on an input of "+str(y))
            self.assertEqual(isLeap(2100),False,"Tested isLeap on an input of 2100")
-
-
+   
+   
    myTests().main()

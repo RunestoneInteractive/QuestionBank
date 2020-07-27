@@ -7,10 +7,14 @@
     :language: sql
     :autograde: unittest
     :dburl: /runestone/books/published/httlads/_static/bikeshare.db
+    :pct_on_first: 0.3095238095
+    :total_students_attempting: 84
+    :num_students_correct: 74
+    :mean_clicks_to_correct: 3.3378378378
 
     How many total rides by Members and Casual users?
     ~~~~
-
+    
     ====
     assert 0,0 == Casual
     assert 0,1 == 246949

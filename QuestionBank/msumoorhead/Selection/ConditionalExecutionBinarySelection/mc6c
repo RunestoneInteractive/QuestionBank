@@ -13,11 +13,15 @@
    :feedback_b: Since 4+5==10 evaluates to False, Python will skip over the if block and execute the statement in the else block.
    :feedback_c: Python would never print both TRUE and FALSE because it will only execute one of the if-block or the else-block, but not both.
    :feedback_d: Python will always execute either the if-block (if the condition is true) or the else-block (if the condition is false).  It would never skip over both blocks.
+   :pct_on_first: 0.9217391304
+   :total_students_attempting: 115
+   :num_students_correct: 115.0
+   :mean_clicks_to_correct: 1.1739130435
 
    What does the following code print (choose from output a, b, c or nothing)?
-
+   
    .. code-block:: python
-
+   
      if 4 + 5 == 10:
          print("TRUE")
      else:

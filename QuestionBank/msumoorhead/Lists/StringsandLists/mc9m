@@ -13,11 +13,15 @@
    :feedback_b: Too many characters in this case.  There should be a single letter from each name.
    :feedback_c: Yes, split creates a list of the three names.  The for loop iterates through the names and creates a string from the first characters.
    :feedback_d: That does not make any sense.
+   :pct_on_first: 0.5
+   :total_students_attempting: 118
+   :num_students_correct: 118.0
+   :mean_clicks_to_correct: 1.6610169492
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      myname = "Edgar Allan Poe"
      namelist = myname.split()
      init = ""

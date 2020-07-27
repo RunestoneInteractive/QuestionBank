@@ -13,11 +13,15 @@
    :feedback_b: Yes, blist contains two references, both to alist.
    :feedback_c: print(blist)
    :feedback_d: blist contains two references, both to alist so changes to alist appear both times.
+   :pct_on_first: 0.6483516484
+   :total_students_attempting: 91
+   :num_students_correct: 91.0
+   :mean_clicks_to_correct: 1.5164835165
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [4, 2, 8, 6, 5]
      blist = [alist] * 2
      alist[3] = 999

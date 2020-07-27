@@ -11,5 +11,9 @@
    :feedback_a: Yes, a local variable is a temporary variable that is only known (only exists) in the function it is defined in.
    :feedback_b: While parameters may be considered local variables, functions may also define and use additional local variables.
    :feedback_c: Variables that are used outside a function are not local, but rather global variables.
+   :pct_on_first: 0.9090909091
+   :total_students_attempting: 99
+   :num_students_correct: 99.0
+   :mean_clicks_to_correct: 1.1212121212
 
    What is a local variable?

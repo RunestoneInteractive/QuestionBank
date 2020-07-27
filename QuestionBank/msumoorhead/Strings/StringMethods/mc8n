@@ -13,11 +13,15 @@
    :feedback_b: Close.  5 is not repeated, it is the number of times to repeat.
    :feedback_c: This expression uses the index of n
    :feedback_d: This is fine, the repetition operator used the result of indexing and the index method.
+   :pct_on_first: 0.6386554622
+   :total_students_attempting: 119
+   :num_students_correct: 119.0
+   :mean_clicks_to_correct: 1.6386554622
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
       s = "python rocks"
       print(s[1] * s.index("n"))

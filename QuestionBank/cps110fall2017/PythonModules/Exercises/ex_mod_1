@@ -1,9 +1,0 @@
-.. actex:: ex_mod_1
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: cps110fall2017
-   :topic: PythonModules/Exercises
-   :from_source: None
-
-   Use a ``for`` statement to print 10 random numbers.
-   ~~~~

@@ -13,9 +13,9 @@
    :feedback_b: Don't divide by two, use the modulo operator.
    :feedback_c: 27 % 13 == 1 and 130 % 13 == 0
    :feedback_d: Use the modulo operator
-   :pct_on_first: 0.6454646018
-   :total_students_attempting: 1808
-   :num_students_correct: 1795.0
-   :mean_clicks_to_correct: 1.5487465181
+   :pct_on_first: 0.645660586
+   :total_students_attempting: 1809
+   :num_students_correct: 1796.0
+   :mean_clicks_to_correct: 1.54844098
 
    In a hash table of size 13 which index positions would the following two keys map to?  27,  130

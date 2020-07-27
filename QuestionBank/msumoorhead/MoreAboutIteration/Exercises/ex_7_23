@@ -4,17 +4,21 @@
    :basecourse: msumoorhead
    :topic: MoreAboutIteration/Exercises
    :from_source: None
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 3.0
 
    def pow2(n):
        # type your code here
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
    import random
    import math
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            p = random.randint(9,150)
            self.assertEqual(pow2(p),2**int(math.ceil(math.log(p,2))),"Tested on "+str(p))
@@ -28,5 +32,5 @@
            self.assertEqual(pow2(r),2**int(math.ceil(math.log(r,2))),"Tested on "+str(r))
            s = 2 ** random.randint(3,10)
            self.assertEqual(pow2(s),s*2,"Tested on "+str(s))
-
+   
    myTests().main()

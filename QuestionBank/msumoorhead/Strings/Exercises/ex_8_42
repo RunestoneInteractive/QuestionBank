@@ -4,16 +4,20 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
+   :pct_on_first: 0.0833333333
+   :total_students_attempting: 48
+   :num_students_correct: 46.0
+   :mean_clicks_to_correct: 12.347826087
 
    def dec2bin(n):
        # your code here
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
    import random
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            a = random.randrange(1,256)
            self.assertEqual(dec2bin(a),bin(a)[2:],"Tested on "+str(a))
@@ -29,5 +33,5 @@
            while d == a or d == b or d == c:
                d = random.randrange(1,256)
            self.assertEqual(dec2bin(d),bin(d)[2:],"Tested on "+str(d))
-
+   
    myTests().main()

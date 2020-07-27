@@ -13,5 +13,9 @@
    :feedback_b: While functions are not required, they help the programmer better think about the solution by organizing pieces of the solution into logical chunks that can be reused.
    :feedback_c: In the first several chapters, you have seen many examples of Python programs written without the use of functions.  While writing and using functions is desirable and essential for good programming style as your programs get longer, it is not required.
    :feedback_d: Not all functions calculate values.
+   :pct_on_first: 0.8818181818
+   :total_students_attempting: 110
+   :num_students_correct: 110.0
+   :mean_clicks_to_correct: 1.1727272727
 
    What is one main purpose of a function?

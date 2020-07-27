@@ -4,15 +4,19 @@
    :basecourse: msumoorhead
    :topic: Functions/Exercises
    :from_source: None
+   :pct_on_first: 0.578125
+   :total_students_attempting: 64
+   :num_students_correct: 62.0
+   :mean_clicks_to_correct: 8.7580645161
 
    def sumTo(n):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
    import random
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
           self.assertEqual(sumTo(0),0,"Tested on input 0")
           self.assertEqual(sumTo(1),1,"Tested on input 1")
@@ -22,5 +26,5 @@
           while n == m:
               n = random.randint(3,30)
           self.assertAlmostEqual(sumTo(n),n*(n+1)/2,0,"Tested input "+str(n))
-
+   
    myTests().main()

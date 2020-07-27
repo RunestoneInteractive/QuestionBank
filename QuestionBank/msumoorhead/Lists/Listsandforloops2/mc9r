@@ -11,11 +11,15 @@
    :feedback_a: i is used as an index into the list.
    :feedback_b: upper is used on a list element, not on the list.
    :feedback_c: Yes, the for loop processes each item of the list making an upper case string and reassigning it to the same location in the list.
+   :pct_on_first: 0.8461538462
+   :total_students_attempting: 104
+   :num_students_correct: 104.0
+   :mean_clicks_to_correct: 1.2596153846
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      fruits = ["apple", "orange", "banana", "cherry"]
      for i in range(len(fruits)):
          fruits[i] = fruits[i].upper()

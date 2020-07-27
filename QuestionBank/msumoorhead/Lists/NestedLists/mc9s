@@ -13,11 +13,15 @@
    :feedback_b: 8 is in the wrong list.  alist[1] refers to the second item in alist, namely [888,999].
    :feedback_c: Yes, alist[0][1][0] is True and alist[1] is the second list, the first item is 888.
    :feedback_d: alist[0][1][0] is True.  Take another look at the if statement.
+   :pct_on_first: 0.6633663366
+   :total_students_attempting: 101
+   :num_students_correct: 101.0
+   :mean_clicks_to_correct: 1.504950495
 
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
      alist = [ [4, [True, False], 6, 8], [888, 999] ]
      if alist[0][1][0]:
         print(alist[1][0])

@@ -13,5 +13,9 @@
    :feedback_b: Yes, the print function is used to display the value of the thing being printed.
    :feedback_c: The format of the information is called its font and has nothing to do with the print function.
    :feedback_d: That would be a different function.
+   :pct_on_first: 0.780141844
+   :total_students_attempting: 141
+   :num_students_correct: 141.0
+   :mean_clicks_to_correct: 1.2624113475
 
    The print function:

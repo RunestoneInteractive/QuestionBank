@@ -13,9 +13,13 @@
    :feedback_b: Remember to multiply by 3.
    :feedback_c: There are two exponentiations.
    :feedback_d: Exponentiation has precedence over multiplication, but its precedence goes from right to left!  So 2 ** 3 is 8, 2 ** 8 is 256 and 256 * 3 is 768.
+   :pct_on_first: 0.631147541
+   :total_students_attempting: 122
+   :num_students_correct: 122.0
+   :mean_clicks_to_correct: 1.6639344262
 
    What is the value of the following expression:
-
+   
    .. code-block:: python
-
+   
       2 ** 2 ** 3 * 3

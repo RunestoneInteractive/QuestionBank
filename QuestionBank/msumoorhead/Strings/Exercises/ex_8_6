@@ -4,22 +4,26 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.1428571429
+   :total_students_attempting: 14
+   :num_students_correct: 11.0
+   :mean_clicks_to_correct: 8.3636363636
 
    def mirror(mystr):
        # your code here
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(mirror("good"),"gooddoog","Tested mirror on input of 'good'")
            self.assertEqual(mirror("Python"),"PythonnohtyP","Tested mirror on input of 'Python'")
            self.assertEqual(mirror(""),"","Tested mirror on input of ''")
            self.assertEqual(mirror("a"),"aa","Tested mirror on input of 'a'")
-
-
+   
+   
    myTests().main()

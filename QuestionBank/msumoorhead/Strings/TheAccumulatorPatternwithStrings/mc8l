@@ -11,11 +11,15 @@
    :feedback_a: item is a single character.
    :feedback_b: The order is wrong.
    :feedback_c: Yes, the order is reversed due to the order of the concatenation.
+   :pct_on_first: 0.216
+   :total_students_attempting: 125
+   :num_students_correct: 124.0
+   :mean_clicks_to_correct: 2.2338709677
 
    What is printed by the following statements:
-
+   
    .. code-block:: python
-
+   
       s = "BALL"
       r = ""
       for item in s:

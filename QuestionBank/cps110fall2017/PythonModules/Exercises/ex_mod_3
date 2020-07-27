@@ -1,9 +1,0 @@
-.. actex:: ex_mod_3
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: cps110fall2017
-   :topic: PythonModules/Exercises
-   :from_source: None
-
-   The **Pythagorean Theorem** tells us that the length of the hypotenuse of a right triangle is related to the lengths of the other two sides.  Look through the ``math`` module and see if you can find a function that will compute this relationship for you.  Once you find it, write a short program to try it out.
-   ~~~~

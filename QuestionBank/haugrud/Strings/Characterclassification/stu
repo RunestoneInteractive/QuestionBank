@@ -1,8 +1,0 @@
-.. activecode:: stu
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: haugrud
-   :topic: Strings/Characterclassification
-   :from_source: None
-
-   import string

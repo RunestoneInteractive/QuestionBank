@@ -13,5 +13,9 @@
   :feedback_b: This command generates the sequence 2, 5 because 8 is not less than 8 (the beyondLast parameter).
   :feedback_c: The first parameter is the starting point, the second is the beyondLast parameter, and the third is the amount to increment by.
   :feedback_d: This command generates the sequence 8, 5, 2 because it starts at 8, ends before 1, and steps by 3 going down.
+  :pct_on_first: 0.6831683168
+  :total_students_attempting: 101
+  :num_students_correct: 101.0
+  :mean_clicks_to_correct: 1.396039604
 
   What command correctly generates the sequence 2, 5, 8?

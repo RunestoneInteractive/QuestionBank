@@ -4,19 +4,23 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 5
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 17.5
 
    def count(substr,theStr):
        # your code here
-
-
+   
+   
    ====
-
-
+   
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
          def testOne(self):
              self.assertEqual(count("is","Mississippi"),2,"Tested count on inputs of 'is' and 'Mississippi'")
              self.assertEqual(count("an","banana"),2,"Tested count on inputs of 'an' and 'banana'")
@@ -24,8 +28,8 @@
              self.assertEqual(count("nana","banana"),1,"Tested count on inputs of 'nana' and 'banana'")
              self.assertEqual(count("nanan","banana"),0,"Tested count on inputs of 'nanan' and 'banana'")
              self.assertEqual(count("aaa","aaaaaa"),4,"Tested count on input of 'aaa' and 'aaaaaa'")
-
-
-
-
+   
+   
+   
+   
    myTests().main()

@@ -13,10 +13,10 @@
    :feedback_b: Yes, first in first out means that hello is gone
    :feedback_c: Queues, and Stacks are both data structures where you can only access the first and the last thing.
    :feedback_d: Ooops, maybe you missed the dequeue call at the end?
-   :pct_on_first: 0.7320031299
-   :total_students_attempting: 2556
-   :num_students_correct: 2543.0
-   :mean_clicks_to_correct: 1.3747542273
+   :pct_on_first: 0.732107939
+   :total_students_attempting: 2557
+   :num_students_correct: 2544.0
+   :mean_clicks_to_correct: 1.3746069182
 
    Suppose you have the following series of queue operations.
    

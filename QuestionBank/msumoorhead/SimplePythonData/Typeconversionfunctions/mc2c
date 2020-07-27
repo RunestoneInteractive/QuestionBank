@@ -13,9 +13,13 @@
    :feedback_b: The int function truncates all values after the decimal and prints the integer value.
    :feedback_c: When converting to an integer, the int function does not round.
    :feedback_d: The int function removes the fractional part of 53.785 and returns an integer, which is then printed.
+   :pct_on_first: 0.6466165414
+   :total_students_attempting: 133
+   :num_students_correct: 133.0
+   :mean_clicks_to_correct: 1.7218045113
 
    What value is printed when the following statement executes?
-
+   
    .. code-block:: python
-
+   
       print( int(53.785) )

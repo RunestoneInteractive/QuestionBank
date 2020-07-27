@@ -1,8 +1,0 @@
-.. activecode:: ac-reveal-ex
-    :author: bmiller
-    :difficulty: 3
-    :basecourse: authorguide
-    :topic: directives/reveal
-    :from_source: T
-
-    print ("Hello, world")

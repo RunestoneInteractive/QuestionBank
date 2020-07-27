@@ -4,10 +4,10 @@
    :basecourse: pythonds
    :topic: BasicDS/InfixPrefixandPostfixExpressions
    :from_source: T
-   :pct_on_first: 0.3283346488
-   :total_students_attempting: 1267
-   :num_students_correct: 981.0
-   :mean_clicks_to_correct: 2.9418960245
+   :pct_on_first: 0.3280757098
+   :total_students_attempting: 1268
+   :num_students_correct: 982.0
+   :mean_clicks_to_correct: 2.9490835031
 
    Modify the infixToPostfix function so that it can convert the following expression:  ``5 * 3 ** (4 - 2)``. Run the function on the expression and paste the answer here:
    

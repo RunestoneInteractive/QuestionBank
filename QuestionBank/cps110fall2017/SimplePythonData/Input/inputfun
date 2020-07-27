@@ -1,9 +1,0 @@
-.. activecode:: inputfun
-    :author: jenkins
-    :difficulty: 3
-    :basecourse: cps110fall2017
-    :topic: SimplePythonData/Input
-    :from_source: None
-
-    n = input("Please enter your name: ")
-    print("Hello", n)

@@ -11,5 +11,9 @@
    :feedback_a: No, Python is probabaly not broken.
    :feedback_b: No, try adding the two numbers together yourself, you will definitely get a different result.
    :feedback_c: Yes!  Remember that input returns a string.  Now we will need to convert the string to an integer
+   :pct_on_first: 0.9266055046
+   :total_students_attempting: 109
+   :num_students_correct: 109.0
+   :mean_clicks_to_correct: 1.0917431193
 
    Which of the following best describes what is wrong with the  previous example?

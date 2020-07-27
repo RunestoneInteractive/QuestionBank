@@ -4,18 +4,22 @@
    :basecourse: msumoorhead
    :topic: Selection/Exercises
    :from_source: None
+   :pct_on_first: 0.03125
+   :total_students_attempting: 32
+   :num_students_correct: 19.0
+   :mean_clicks_to_correct: 8.4736842105
 
    def isLeap(y):
        # type your code from exercise 8 here
-
-
+   
+   
    def daysInMonth(month, year):
        # your code goes here
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(daysInMonth(1,2001),31,"January")
@@ -33,5 +37,5 @@
            self.assertEqual(daysInMonth(2,2012),29,"February - leap year")
            self.assertEqual(daysInMonth(2,2013),28,"February - not leap year")
            self.assertEqual(daysInMonth(2,2100),28,"February - not leap year")
-
+   
    myTests().main()

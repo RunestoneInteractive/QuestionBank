@@ -1,9 +1,0 @@
-.. activecode:: ex_7_8
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: haugrud
-   :topic: MoreAboutIteration/Exercises
-   :from_source: None
-
-   def print_triangular_numbers(n):
-       # your code here

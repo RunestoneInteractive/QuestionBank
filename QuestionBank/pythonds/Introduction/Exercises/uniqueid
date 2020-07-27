@@ -12,6 +12,10 @@
    :feedback: feedback for incorrect answers
    :breakline: Line to stop on and pop up a question dialog
    :python: either py2 or py3
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 5.0
 
     x = 0
     for i in range(10):

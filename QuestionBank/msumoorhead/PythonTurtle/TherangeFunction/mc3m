@@ -13,5 +13,9 @@
   :feedback_b: Range with one parameter starts at 0.
   :feedback_c: Range with one parameter starts at 0, and never includes its ending element (which is the argument it was passed).
   :feedback_d: If range is passed only one argument, it interprets that argument as the end of the list (not inclusive).
+  :pct_on_first: 0.8514851485
+  :total_students_attempting: 101
+  :num_students_correct: 101.0
+  :mean_clicks_to_correct: 1.2673267327
 
   What happens if you give range only one argument?  For example: range(4)

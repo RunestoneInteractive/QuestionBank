@@ -11,5 +11,9 @@
    :feedback_a: No, You can, as long as all the variables on the right hand side already have values.
    :feedback_b: Yes.  Variables must already have values in order to be used on the right hand side.
    :feedback_c: No, No, No!
+   :pct_on_first: 0.6944444444
+   :total_students_attempting: 108
+   :num_students_correct: 108.0
+   :mean_clicks_to_correct: 1.3333333333
 
    Which of the following explains why ``wait_time_int = int(wait_time_int)`` is an error?

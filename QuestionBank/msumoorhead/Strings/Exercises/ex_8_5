@@ -4,23 +4,27 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.1803278689
+   :total_students_attempting: 61
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 15.1607142857
 
    def reverse(astring):
        # your code here
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
      def testOne(self):
          self.assertEqual(reverse("happy"),"yppah","Tested reverse on input of 'happy'")
          self.assertEqual(reverse("Python"),"nohtyP","Tested reverse on input of 'Python'")
          self.assertEqual(reverse(""),"","Tested reverse on input of ''")
-
-
-
-
+   
+   
+   
+   
    myTests().main()

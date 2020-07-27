@@ -15,11 +15,15 @@
    :feedback_c: No, III will not give the same result.  The first if statement will be true, but the second will be false, so the else part will execute.
    :feedback_d: No, Although II is correct III will not give the same result.  Try it.
    :feedback_e: No, in I you can not have a Boolean expression after an else.
+   :pct_on_first: 0.6
+   :total_students_attempting: 110
+   :num_students_correct: 110.0
+   :mean_clicks_to_correct: 1.6909090909
 
    Which of I, II, and III below gives the same result as the following nested if?
-
+   
    .. code-block:: python
-
+   
      # nested if-else statement
      x = -10
      if x < 0:
@@ -29,35 +33,35 @@
              print(x, " is a positive number")
          else:
              print(x, " is 0")
-
-
+   
+   
    .. code-block:: python
-
+   
      I.
-
+   
      if x < 0:
          print("The negative number ",  x, " is not valid here.")
      else x > 0:
          print(x, " is a positive number")
      else:
          print(x, " is 0")
-
-
+   
+   
    .. code-block:: python
-
+   
      II.
-
+   
      if x < 0:
          print("The negative number ",  x, " is not valid here.")
      elif x > 0:
          print(x, " is a positive number")
      else:
          print(x, " is 0")
-
+   
    .. code-block:: python
-
+   
      III.
-
+   
      if x < 0:
          print("The negative number ",  x, " is not valid here.")
      if x > 0:

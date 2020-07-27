@@ -11,11 +11,15 @@
    :feedback_a: The numbers before the f in the braces give the number of digits to display after the decimal point.
    :feedback_b: Close, but round to the number of digits and display the full number of digits specified.
    :feedback_c: Yes, correct number of digits with rounding!
+   :pct_on_first: 0.5677966102
+   :total_students_attempting: 118
+   :num_students_correct: 118.0
+   :mean_clicks_to_correct: 1.5762711864
 
-
+   
    What is printed by the following statements?
-
+   
    .. code-block:: python
-
+   
        v = 2.34567
        print('{:.1f} {:.2f} {:.7f}'.format(v, v, v))

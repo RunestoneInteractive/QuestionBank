@@ -1,8 +1,0 @@
-.. shortanswer:: turtle_reflect
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: cps110spring2019
-   :topic: PythonTurtle/Exercises
-   :from_source: None
-
-   Turtle objects have methods and attributes. For example, a turtle has a position and when you move the turtle forward, the position changes.  Think about the other methods shown in the summary above.  Which attibutes, if any, does each method relate to?  Does the method change the attribute?

@@ -4,18 +4,22 @@
    :basecourse: msumoorhead
    :topic: Lists/Exercises
    :from_source: None
+   :pct_on_first: 0.0
+   :total_students_attempting: 42
+   :num_students_correct: 30.0
+   :mean_clicks_to_correct: 18.4
 
    def isPal(alist):
        # your code goes here
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
    import random
    import string
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            a = random.sample(string.ascii_uppercase,3)
            b = a[::-1]
@@ -30,5 +34,5 @@
            self.assertEqual(isPal(c),True,"Tested on "+repr(c))
            a = random.sample(string.ascii_uppercase,8)
            self.assertEqual(isPal(a),False,"Tested on "+repr(a))
-
+   
    myTests().main()

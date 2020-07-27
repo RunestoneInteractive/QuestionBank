@@ -4,23 +4,27 @@
    :basecourse: msumoorhead
    :topic: Strings/Exercises
    :from_source: None
+   :pct_on_first: 0.5
+   :total_students_attempting: 2
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    def remove_dups(astring):
        # your code here
-
-
+   
+   
    print(remove_dups("mississippi"))   #should print misp
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
      def testOne(self):
          self.assertEqual(remove_dups("pooh"),"poh","Tested remove_dups on string 'pooh'")
          self.assertEqual(remove_dups("mississippi"),"misp","Tested remove_dups on string 'mississippi'")
          self.assertEqual(remove_dups("potato"),"pota","Tested remove_dups on string 'potato'")
          self.assertEqual(remove_dups("bookkeeper"),"bokepr","Tested remove_dups on string 'bookkeeper'")
          self.assertEqual(remove_dups("oo"),"o","Tested remove_dups on string 'oo'")
-
+   
    myTests().main()

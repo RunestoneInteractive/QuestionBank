@@ -13,5 +13,9 @@
    :feedback_b: The computer ignores comments.  It's for humans that want to understand your program.
    :feedback_c: Comments can provide much needed information for anyone reading the program.
    :feedback_d: Even small programs benefit from comments.
+   :pct_on_first: 0.9432624113
+   :total_students_attempting: 141
+   :num_students_correct: 141.0
+   :mean_clicks_to_correct: 1.085106383
 
    What are comments for?

@@ -4,11 +4,15 @@
     :basecourse: msumoorhead
     :topic: Selection/Exercises
     :from_source: None
+    :pct_on_first: 0.7142857143
+    :total_students_attempting: 63
+    :num_students_correct: 60.0
+    :mean_clicks_to_correct: 1.5833333333
 
     def is_odd(n):
         # your code here
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
     import random
@@ -20,5 +24,5 @@
              self.assertEqual(is_odd(r),False,"Tested on input of "+str(r))
              self.assertEqual(is_odd(1),True,"Tested on input of 1")
              self.assertEqual(is_odd(0),False,"Tested on input of 0")
-
+    
     myTests().main()
