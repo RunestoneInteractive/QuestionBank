@@ -10,10 +10,10 @@
    :feedback_a: The blank space counts as a character.
    :feedback_b: Yes, there are 12 characters in the string.
    :practice: T
-   :pct_on_first: 0.6576618537
-   :total_students_attempting: 2147
-   :num_students_correct: 2142.0
-   :mean_clicks_to_correct: 1.3594771242
+   :pct_on_first: 0.6575151233
+   :total_students_attempting: 2149
+   :num_students_correct: 2144.0
+   :mean_clicks_to_correct: 1.3600746269
 
    What is printed by the following statements?
    

@@ -12,9 +12,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.7685512367
-   :total_students_attempting: 1132
-   :num_students_correct: 1121.0
-   :mean_clicks_to_correct: 1.3211418376
+   :pct_on_first: 0.7687555163
+   :total_students_attempting: 1133
+   :num_students_correct: 1122.0
+   :mean_clicks_to_correct: 1.320855615
 
     What sequence will you iterate through as you accumulate a result in the following prompt? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

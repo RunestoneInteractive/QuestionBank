@@ -8,21 +8,25 @@
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/AccumulatingtheBestKey
+   :pct_on_first: 0.2874251497
+   :total_students_attempting: 501
+   :num_students_correct: 346.0
+   :mean_clicks_to_correct: 2.9942196532
 
    Create the dictionary ``characters`` that shows each character from the string ``sally`` and its frequency. Then, find the most frequent letter based on the dictionary. Assign this letter to the variable ``best_char``.
    ~~~~
    sally = "sally sells sea shells by the sea shore"
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFourA(self):
          self.assertEqual(sorted(characters.items()), sorted([('s', 8), ('o', 1), ('e', 6), ('t', 1), ('h', 3), ('a', 3), ('r', 1), ('l', 6), ('y', 2), (' ', 7), ('b', 1)]), "Testing that characters has correct values." )
-
+   
       def testFourB(self):
          self.assertEqual(best_char, "s", "Testing that best_char is assigned to correct value.")
-
+   
    myTests().main()

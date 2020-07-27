@@ -6,27 +6,31 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
    :topics: AdvancedAccumulation/filter
+   :pct_on_first: 0.7303370787
+   :total_students_attempting: 89
+   :num_students_correct: 78.0
+   :mean_clicks_to_correct: 1.4230769231
 
    Below, we have provided a list of strings called ``countries``. Use filter to produce a list called ``b_countries`` that only contains the strings from ``countries`` that begin with B.
    ~~~~
-
+   
    countries = ['Canada', 'Mexico', 'Brazil', 'Chile', 'Denmark', 'Botswana', 'Spain', 'Britain', 'Portugal', 'Russia', 'Thailand', 'Bangladesh', 'Nigeria', 'Argentina', 'Belarus', 'Laos', 'Australia', 'Panama', 'Egypt', 'Morocco', 'Switzerland', 'Belgium']
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(b_countries, ['Brazil', 'Botswana', 'Britain', 'Bangladesh', 'Belarus', 'Belgium'], "Testing that b_countries is correct.")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
-
+   
+   
    myTests().main()

@@ -6,13 +6,17 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.0285714286
+   :total_students_attempting: 35
+   :num_students_correct: 20.0
+   :mean_clicks_to_correct: 6.55
 
    The normalized `Gaussian function 
    <https://en.wikipedia.org/wiki/Gaussian_function>`_ has the form
    
    .. math::
       g\left(x\right)=\frac{1}{\sigma\sqrt{2\pi}}\exp\left(-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}\right)
-
+   
    where :math:`\sigma` is the standard deviation and :math:`\mu` is the mean.
    
    Write a function call ``gaussian`` that takes ``x``, ``mean``, and
@@ -23,7 +27,7 @@
    Print the results of your function for 
    
    .. code:: python
-
+   
       x=0.5,  mean=0,   stdev=1
       x=-0.5, mean=0,   stdev=1
       x=0.5,  mean=0.5, stdev=1
@@ -31,23 +35,23 @@
       x=-0.5, mean=0.5, stdev=2
    
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    import math
    class myTests(TestCaseGui):
        def testOne(self):
-
-	   def _gaussian(x, mean=1, stdev=1):
-	       result = 1/(stdev * math.sqrt(2*math.pi))* math.exp(-0.5*((x - mean)/stdev)**2)
-	       return result
-	       
-	   xs = [0.5, -0.5, 0.5, 0.5, -0.5, 1]
-	   means = [0, 0, 0.5, 0, 0.5, 2]
-	   stdevs = [1, 1, 1, 2, 2, 2]
-
-	   output_lines = self.getOutput().split()
-	   
+   
+    def _gaussian(x, mean=1, stdev=1):
+        result = 1/(stdev * math.sqrt(2*math.pi))* math.exp(-0.5*((x - mean)/stdev)**2)
+        return result
+        
+    xs = [0.5, -0.5, 0.5, 0.5, -0.5, 1]
+    means = [0, 0, 0.5, 0, 0.5, 2]
+    stdevs = [1, 1, 1, 2, 2, 2]
+   
+    output_lines = self.getOutput().split()
+    
            for x, mean, stdev in zip(xs, means, stdevs):
                self.assertAlmostEqual(gaussian(x, mean, stdev),
                    _gaussian(x, mean, stdev), 7,
@@ -56,12 +60,12 @@
                self.assertAlmostEqual(float(output_lines[i]),
                    _gaussian(xs[i], means[i], stdevs[i]), 7,
                    "Checking output for gaussian({}, {}, {})".format(xs[i], means[i], stdevs[i]))
-
+   
            self.assertAlmostEqual(gaussian(x=1, mean=1, stdev=1),
                 _gaussian(1, 1, 1), 7,
                "Checking parameter names")
            self.assertAlmostEqual(gaussian(x=1),
                 _gaussian(1), 7,
                "Checking default parameter values")
-
+   
    myTests().main()

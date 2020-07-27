@@ -6,26 +6,30 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.6808510638
+   :total_students_attempting: 141
+   :num_students_correct: 109.0
+   :mean_clicks_to_correct: 1.1651376147
 
    **2.** Using filter, filter ``lst`` so that it only contains words containing the letter "o". Assign to variable ``lst2``. Do not hardcode this.
    ~~~~
-
+   
    lst = ["witch", "halloween", "pumpkin", "cat", "candy", "wagon", "moon"]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testTwo(self):
          self.assertEqual(lst2, ['halloween', 'wagon', 'moon'], "Testing that lst is assigned to correct values.")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
-
+   
+   
    myTests().main()

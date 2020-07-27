@@ -6,12 +6,16 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.3027522936
+   :total_students_attempting: 109
+   :num_students_correct: 96.0
+   :mean_clicks_to_correct: 3.5208333333
 
    This code is supposed to multiply all the elements in the list
    ``lst``. However, the code is wrong and doesn't produce the right
    result. Fix all the errors to get the desired result. Your code
    HAS to produce a single output: 24.
-
+   
    ~~~~
    lst = ['1', '2', '3', '4']
    mult = 0
@@ -25,16 +29,16 @@
    class myTests(TestCaseGui):
        def testOne(self):
            output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
-	   # check the answer
-	   self.assertEqual(self.getOutput().rstrip(), '24', 'Checking answer.')
-	   
-	   # hardcode check
-	   float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
-	   print_float_re = r'print\( *'+float_re+' *\)'
-	   self.assertFalse(re.search(print_float_re, self.getEditorText()), 'Checking for hardcoding')
-
-	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
-	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
-	   self.assertTrue(len(outer_loops)==1 and len(inner_loops)>=0, 'Checking for-statements')
+    editor = self.getEditorText().split('\n')
+    # check the answer
+    self.assertEqual(self.getOutput().rstrip(), '24', 'Checking answer.')
+    
+    # hardcode check
+    float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
+    print_float_re = r'print\( *'+float_re+' *\)'
+    self.assertFalse(re.search(print_float_re, self.getEditorText()), 'Checking for hardcoding')
+   
+    outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
+    inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
+    self.assertTrue(len(outer_loops)==1 and len(inner_loops)>=0, 'Checking for-statements')
    myTests().main()

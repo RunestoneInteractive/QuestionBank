@@ -6,28 +6,32 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
    :topics: AdvancedAccumulation/zip
+   :pct_on_first: 0.1917808219
+   :total_students_attempting: 73
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 4.0892857143
 
    Write code using zip and filter so that these lists (l1 and l2) are combined into one big list and assigned to the variable ``opposites`` if they are both longer than 3 characters each.
    ~~~~
-
+   
    l1 = ['left', 'up', 'front']
    l2 = ['right', 'down', 'back']
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(opposites, [('left','right'), ('front','back')], "Testing that opposites has the correct list of tuples.")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
-
+   
+   
    myTests().main()

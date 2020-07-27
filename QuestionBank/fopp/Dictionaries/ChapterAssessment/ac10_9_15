@@ -8,21 +8,25 @@
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/AccumulatingtheBestKey
+   :pct_on_first: 0.3621052632
+   :total_students_attempting: 475
+   :num_students_correct: 326.0
+   :mean_clicks_to_correct: 2.5490797546
 
    Find the least frequent letter. Create the dictionary ``characters`` that shows each character from string ``sally`` and its frequency. Then, find the least frequent letter in the string and assign the letter to the variable ``worst_char``.
    ~~~~
    sally = "sally sells sea shells by the sea shore and by the road"
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFiveA(self):
          self.assertEqual(sorted(characters.items()), sorted([('s', 8), ('a', 5), ('l', 6), ('y', 3), (' ', 11), ('e', 7), ('h', 4), ('b', 2), ('t', 2), ('o', 2), ('r', 2), ('n', 1), ('d', 2)]), "Testing that characters has been updated correctly.")
-
+   
       def testFourB(self):
          self.assertEqual(worst_char, "n", "Testing that worst_char is assigned to correct value.")
-
+   
    myTests().main()

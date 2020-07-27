@@ -5,11 +5,15 @@
    :topic: SimplePythonData/Exercises
    :from_source: T
    :autograde: unittest
+   :pct_on_first: 0.3548830812
+   :total_students_attempting: 727
+   :num_students_correct: 410.0
+   :mean_clicks_to_correct: 1.9634146341
 
    Challenge: Write a program that will compute the area of a rectangle.  Prompt the user to enter the width and height of the rectangle  and store the values in variables called ``width`` and
    ``height``. Print a nice message with the answer..
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

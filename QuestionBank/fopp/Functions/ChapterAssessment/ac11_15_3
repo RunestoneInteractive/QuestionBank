@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :topics: Functions/Returningavaluefromafunction
+   :pct_on_first: 0.567322239
+   :total_students_attempting: 661
+   :num_students_correct: 541.0
+   :mean_clicks_to_correct: 1.73012939
 
    Write a function called ``change`` that takes any string, adds "Nice to meet you!" to the end of the argument given, and returns that new string.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testThree(self):
          self.assertEqual(change("I'm Bob. "), "I'm Bob. Nice to meet you!", "Tests that change('I'm Bob. '') returns 'I'm Bob. Nice to meet you!'")
          self.assertEqual(change(""), "Nice to meet you!", "Tests that change() returns 'Nice to meet you!'")
-
+   
    myTests().main()

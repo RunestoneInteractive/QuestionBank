@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1627906977
+   :total_students_attempting: 43
+   :num_students_correct: 26.0
+   :mean_clicks_to_correct: 5.7307692308
 
    Write a Python function called ``largest`` that will take a the list of 
    integers between 0 and 1000 and return the maximum value.  (Note:
@@ -18,17 +22,17 @@
    import re
    class myTests(TestCaseGui):
        def testOne(self):
-	   output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
-	   float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
-	   
-	   lsts = [[509, 455,  71],
-	           [371, 377, 765, 774, 777, 541, 464, 215, 450, 747],
-	           [751, 994, 837, 693, 137, 223, 393, 501, 781, 752, 215, 956, 284,
-		   684,  31, 250, 753, 626, 636, 295, 217, 502, 463,  42, 546]]
-	   for lst in lsts:
-	       self.assertEqual(largest(lst), max(lst), 'Checking for the list'+str(lst))
-	       
-	   # hardcode check
-	   self.assertFalse(re.search(r'max', self.getEditorText()), 'Checking for max')
+    output = self.getOutput().split('\n')
+    editor = self.getEditorText().split('\n')
+    float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
+    
+    lsts = [[509, 455,  71],
+            [371, 377, 765, 774, 777, 541, 464, 215, 450, 747],
+            [751, 994, 837, 693, 137, 223, 393, 501, 781, 752, 215, 956, 284,
+     684,  31, 250, 753, 626, 636, 295, 217, 502, 463,  42, 546]]
+    for lst in lsts:
+        self.assertEqual(largest(lst), max(lst), 'Checking for the list'+str(lst))
+        
+    # hardcode check
+    self.assertFalse(re.search(r'max', self.getEditorText()), 'Checking for max')
    myTests().main()

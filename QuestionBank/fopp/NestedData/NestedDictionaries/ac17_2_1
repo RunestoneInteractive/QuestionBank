@@ -7,11 +7,15 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3149847095
+   :total_students_attempting: 327
+   :num_students_correct: 201.0
+   :mean_clicks_to_correct: 2.552238806
 
    **1.** Extract the value associated with the key color and assign it to the variable ``color``. Do not hard code this.
-
+   
    ~~~~
-
+   
    info = {'personal_data':
             {'name': 'Lauren',
              'age': 20,
@@ -26,14 +30,14 @@
              'interested_in': ['social media', 'intellectual property', 'copyright', 'music', 'books']
             }
          }
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(color, {'eye': 'blue', 'hair': 'brown'}, "Testing that color has the correct value.")
-
+   
    myTests().main()

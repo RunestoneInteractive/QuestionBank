@@ -7,23 +7,27 @@
     :language: python
     :autograde: unittest
     :practice: T
+    :pct_on_first: 0.5085324232
+    :total_students_attempting: 1172
+    :num_students_correct: 861.0
+    :mean_clicks_to_correct: 1.6933797909
 
     **5.** We have a dictionary of the specific events that Italy has won medals in and the number of medals they have won for each event. Assign to the variable ``events`` a list of the keys from the dictionary ``medal_events``. Do not hard code this.
-
+    
     ~~~~
-
-
+    
+    
     medal_events = {'Shooting': 7, 'Fencing': 4, 'Judo': 2, 'Swimming': 3, 'Diving': 2}
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(type(events), list, "Testing that events is a list")
             self.assertEqual(sorted(events), sorted(medal_events), "Testing that events was created correctly")
             self.assertNotIn('[', self.getEditorText(), "No hard coding")
-
+    
     myTests().main()

@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.4089456869
+   :total_students_attempting: 1252
+   :num_students_correct: 950.0
+   :mean_clicks_to_correct: 2.2694736842
 
    2. For each word in the list ``verbs``, add an -ing ending. Save this new list in a new list, ``ing``.
    ~~~~
    verbs = ["kayak", "cry", "walk", "eat", "drink", "fly"]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testSix(self):
          self.assertEqual(ing, ['kayaking', 'crying', 'walking', 'eating', 'drinking', 'flying'], "Testing that the variable ing has the correct value.")
-
+   
    myTests().main()

@@ -4,25 +4,29 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.5090909091
+   :total_students_attempting: 55
+   :num_students_correct: 48.0
+   :mean_clicks_to_correct: 1.8333333333
 
    Write equivalent code using map instead of the manual accumulation below and assign it to the variable ``test``.
    ~~~~
-
+   
    things = [3, 5, -4, 7]
-
+   
    accum = []
    for thing in things:
        accum.append(thing+1)
    print(accum)
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(test, [4, 6, -3, 8], "Testing whether test has been correctly defined.")
            self.assertIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

@@ -16,10 +16,10 @@
    :feedback_e: Incorrect, the for loop is iterating over an iterable object.
    :correct: a
    :practice: T
-   :pct_on_first: 0.7631578947
-   :total_students_attempting: 1596
-   :num_students_correct: 1583.0
-   :mean_clicks_to_correct: 1.5571699305
+   :pct_on_first: 0.7633061991
+   :total_students_attempting: 1597
+   :num_students_correct: 1584.0
+   :mean_clicks_to_correct: 1.5568181818
 
    What’s the type of your iterator variable in the second iteration?
    

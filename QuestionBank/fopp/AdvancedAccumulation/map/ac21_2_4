@@ -6,26 +6,30 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.5527950311
+   :total_students_attempting: 161
+   :num_students_correct: 123.0
+   :mean_clicks_to_correct: 1.4471544715
 
    **1.** Using map, create a list assigned to the variable ``greeting_doubled`` that doubles each element in the list ``lst``.
    ~~~~
-
+   
    lst = [["hi", "bye"], "hello", "goodbye", [9, 2], 4]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOneA(self):
          self.assertEqual(greeting_doubled, [['hi', 'bye', 'hi', 'bye'], 'hellohello', 'goodbyegoodbye', [9, 2, 9, 2], 8], "Testing that greeting_doubled is assigned to correct values")
          self.assertIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
-
+   
+   
    myTests().main()

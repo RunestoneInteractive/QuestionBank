@@ -6,26 +6,30 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.1755725191
+   :total_students_attempting: 131
+   :num_students_correct: 84.0
+   :mean_clicks_to_correct: 5.2619047619
 
    **3.** Write code to assign to the variable ``compri`` all the values of the key ``name`` in any of the sub-dictionaries in the dictionary ``tester``. Do this using a list comprehension.
    ~~~~
-
+   
    tester = {'info': [{"name": "Lauren", 'class standing': 'Junior', 'major': "Information Science"},{'name': 'Ayo', 'class standing': "Bachelor's", 'major': 'Information Science'}, {'name': 'Kathryn', 'class standing': 'Senior', 'major': 'Sociology'}, {'name': 'Nick', 'class standing': 'Junior', 'major': 'Computer Science'}, {'name': 'Gladys', 'class standing': 'Sophomore', 'major': 'History'}, {'name': 'Adam', 'major': 'Violin Performance', 'class standing': 'Senior'}]}
-
-
+   
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sorted(compri), sorted(['Lauren', 'Ayo', 'Kathryn', 'Nick', 'Gladys', 'Adam']), "Testing that compri has the correct values.")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

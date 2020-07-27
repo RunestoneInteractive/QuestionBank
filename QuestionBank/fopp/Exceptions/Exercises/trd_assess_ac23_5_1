@@ -6,24 +6,28 @@
    :from_source: F
    :practice: T
    :topics: Exceptions/intro-exceptions
+   :pct_on_first: 0.4473684211
+   :total_students_attempting: 38
+   :num_students_correct: 33.0
+   :mean_clicks_to_correct: 1.6060606061
 
    Below, we have provided buggy code. Add a try/except clause so the code runs without errors. 
-
+   
    ~~~~
-
+   
    blog_posts = [{'Photos': 3, 'Likes': 21, 'Comments': 2}, {'Likes': 13, 'Comments': 2, 'Shares': 1}, {'Photos': 5, 'Likes': 33, 'Comments': 8, 'Shares': 3}, {'Comments': 4, 'Shares': 2}, {'Photos': 8, 'Comments': 1, 'Shares': 1}, {'Photos': 3, 'Likes': 19, 'Comments': 3}]
-
+   
    total_likes = 0
-
+   
    for post in blog_posts:
        total_likes = total_likes + post['Likes']
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testA(self):
            self.assertEqual(total_likes, 86, "Testing that total_likes has the correct value.")
        def testB(self):
@@ -32,5 +36,5 @@
                 if 'Likes' in d:
                     accum +=1
             self.assertEqual(accum, 6, "Testing that blog_post dictionaries all have a 'Likes' key.")
-
+   
    myTests().main()

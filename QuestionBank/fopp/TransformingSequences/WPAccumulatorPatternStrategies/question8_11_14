@@ -12,9 +12,9 @@
    :feedback_c: Though the iterator variable is good, the accumulator variable is not very clear.
    :correct: b
    :practice: T
-   :pct_on_first: 0.5946188341
-   :total_students_attempting: 1115
-   :num_students_correct: 1105.0
-   :mean_clicks_to_correct: 1.5058823529
+   :pct_on_first: 0.5949820789
+   :total_students_attempting: 1116
+   :num_students_correct: 1106.0
+   :mean_clicks_to_correct: 1.5054249548
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

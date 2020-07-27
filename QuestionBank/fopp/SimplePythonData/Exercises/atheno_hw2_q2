@@ -5,16 +5,20 @@
    :topic: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 0.2
+   :total_students_attempting: 5
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 2.0
 
    Let's follow up on the previous question. Suppose the same virus spread model applies, as stated in the previous question (i.e., one infected person can pass the virus to a healthy person in 24 hours). If the virus can spread to the whole population in n days, how many days does it need to spread to half of the population? Do it mentally first. Then write a program to verify your answer. Your program should accept an input of the population (store it to a variable named ``population``) and output the days for the half population to get infected.
    ~~~~
    # Python math module link: https://docs.python.org/3.7/library/math.html
-
+   
    # The Python interpreter used here is a bit outdated. 
    # If you encounter any function from the above link that doesn't work here, 
    # please google/baidu it to find an alternative solution. If you could not resolve it in 10 minutes,
    # seek the help from your tutor.
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

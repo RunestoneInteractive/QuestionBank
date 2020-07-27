@@ -6,20 +6,24 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.6428571429
+   :total_students_attempting: 14
+   :num_students_correct: 14.0
+   :mean_clicks_to_correct: 2.6428571429
 
    Create a while loop that randomly chooses an integer ``eye`` between 1 and 10 until ``eye`` is 5. 
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            
            self.assertTrue('while' in self.getEditorText(), 'while is in the text')
            self.assertTrue(eye==5, 'check stopped')
            self.assertTrue( 'import random' in self.getEditorText(), 'random module!')
-
+   
    myTests().main()

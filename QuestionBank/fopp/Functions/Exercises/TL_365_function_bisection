@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.0555555556
+   :total_students_attempting: 18
+   :num_students_correct: 14.0
+   :mean_clicks_to_correct: 20.0714285714
 
    A root of a mathematical function is input value (or values) for
    which the function evaluates to zero.  For example,
@@ -15,7 +19,7 @@
       f(x) = x^2 -1
       
    has roots at :math:`x=1` and :math:`-1`.  
-	       
+        
    Often, we don't know the exact values of the root but we might know
    that it lies is some range of :math:`x` values.  In this case, we
    can find an approximation of the root using the bisection method.
@@ -34,76 +38,76 @@
       exact.
       
    #. Check that :math:`f(\mathtt{low})<f(\mathtt{high})`. If not, swap ``low`` and ``high``.
-
+   
       
    #. For ``maxsteps`` iterations:
       
       (I) Set ``mid`` to ``(high+low)/2``.
-
-
+   
+   
       (#) If :math:`|f(\mathtt{mid})|>err`
-
-	  (a) If :math:`f(\mathtt{mid})>0`, then replace ``high`` with ``mid``.
-	 
-
-	  (#) else replace ``low`` with ``mid``.
-
-	  (#) Set ``mid`` to ``(high+low)/2``.
-
-	  (#) Continue iterating.
-	  
+   
+   (a) If :math:`f(\mathtt{mid})>0`, then replace ``high`` with ``mid``.
+   
+   
+   (#) else replace ``low`` with ``mid``.
+   
+   (#) Set ``mid`` to ``(high+low)/2``.
+   
+   (#) Continue iterating.
+   
       (#) else return ``mid`` as the approximate root.
-	   
+    
    #. If you get to this step, your function did not find a good
       enough approximation of the root.  It should return ``None``,
       which is the same a not having a return statement at all in
       Python.
-	  
+   
    Implement the bisection method by completing the function below.
    Test it by finding both roots of :math:`f(x)` above.
    
    ~~~~
-
+   
    def bisection(func, low, high, err, maxsteps=1000):
-
+   
    ====
    from unittest.gui import TestCaseGui
    import math
    class myTests(TestCaseGui):
        def testOne(self):
-	     def _bisection(func, low, high, err, maxsteps=1000):
-	         if func(low) > func(high):
-		     swap = high
-		     high = low
-		     low = swap
-		 for _ in range(maxsteps):
-		     mid = (high+low)/2
-		     val = func(mid)
-		     if abs(val) > err:
-		         if val > 0:
-			     high = mid
-			 else:
-			     low = mid
-	             else:
-		         return mid
-		 
-	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, 0.9, 1.7, 1e-5), 
-	         _bisection(lambda x: x**2 - 1, 0.9, 1.7, 1e-5), 5, 
-	         'Checking answer for x**2-1, low=0.9, high=1.7')
-	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, -1.7, -0.9, 1e-5), 
-	         _bisection(lambda x: x**2 - 1, -1.7, -0.9, 1e-5), 5, 
-	         'Checking answer for x**2-1, low=-1.7, high=0.9')
-	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, 0.25, 1.25, 1e-5), 
-	         _bisection(lambda x: x**2 - 1, 0.25, 1.25, 1e-5), 5, 
-	         'Checking answer for x**2-1, low=0.25, high=1.25')
-	     self.assertAlmostEqual(bisection(lambda x: x**2 - 1, -2.25, 0.25, 1e-5), 
-	         _bisection(lambda x: x**2 - 1, -2.25, 0.25, 1e-5), 5,
-	         'Checking answer for x**2-1, low=2.25, high=0.25')
-	     self.assertAlmostEqual(bisection(math.sin, 3, 4, 1e-7), 
-	         _bisection(math.sin, 3, 4, 1e-7), 7,
-	         'Checking answer for sin(x), low=3, high=4')
-	     self.assertAlmostEqual(bisection(math.sin, 4, 3, 1e-7), 
-	         _bisection(math.sin, 4, 3, 1e-7), 7, 
-	         'Checking answer for sin(x), low=4, high=3')
-
+      def _bisection(func, low, high, err, maxsteps=1000):
+          if func(low) > func(high):
+       swap = high
+       high = low
+       low = swap
+   for _ in range(maxsteps):
+       mid = (high+low)/2
+       val = func(mid)
+       if abs(val) > err:
+           if val > 0:
+        high = mid
+    else:
+        low = mid
+              else:
+           return mid
+   
+      self.assertAlmostEqual(bisection(lambda x: x**2 - 1, 0.9, 1.7, 1e-5), 
+          _bisection(lambda x: x**2 - 1, 0.9, 1.7, 1e-5), 5, 
+          'Checking answer for x**2-1, low=0.9, high=1.7')
+      self.assertAlmostEqual(bisection(lambda x: x**2 - 1, -1.7, -0.9, 1e-5), 
+          _bisection(lambda x: x**2 - 1, -1.7, -0.9, 1e-5), 5, 
+          'Checking answer for x**2-1, low=-1.7, high=0.9')
+      self.assertAlmostEqual(bisection(lambda x: x**2 - 1, 0.25, 1.25, 1e-5), 
+          _bisection(lambda x: x**2 - 1, 0.25, 1.25, 1e-5), 5, 
+          'Checking answer for x**2-1, low=0.25, high=1.25')
+      self.assertAlmostEqual(bisection(lambda x: x**2 - 1, -2.25, 0.25, 1e-5), 
+          _bisection(lambda x: x**2 - 1, -2.25, 0.25, 1e-5), 5,
+          'Checking answer for x**2-1, low=2.25, high=0.25')
+      self.assertAlmostEqual(bisection(math.sin, 3, 4, 1e-7), 
+          _bisection(math.sin, 3, 4, 1e-7), 7,
+          'Checking answer for sin(x), low=3, high=4')
+      self.assertAlmostEqual(bisection(math.sin, 4, 3, 1e-7), 
+          _bisection(math.sin, 4, 3, 1e-7), 7, 
+          'Checking answer for sin(x), low=4, high=3')
+   
    myTests().main()

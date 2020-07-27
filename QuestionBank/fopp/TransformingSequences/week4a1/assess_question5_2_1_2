@@ -17,10 +17,10 @@
    :feedback_e: One of the patterns above is a correct way to solve the problem.
    :practice: T
    :topics: TransformingSequences/WPAccumulatorPatternStrategies
-   :pct_on_first: 0.5177595628
-   :total_students_attempting: 732
-   :num_students_correct: 728.0
-   :mean_clicks_to_correct: 1.8585164835
+   :pct_on_first: 0.5184174625
+   :total_students_attempting: 733
+   :num_students_correct: 729.0
+   :mean_clicks_to_correct: 1.8573388203
 
    Given that we want to accumulate the total number of strings in the list, which of the following accumulator patterns would be appropriate?
    

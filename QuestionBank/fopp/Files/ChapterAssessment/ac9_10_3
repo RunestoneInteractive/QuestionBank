@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :available_files: school_prompt.txt
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.6133828996
+   :total_students_attempting: 807
+   :num_students_correct: 675.0
+   :mean_clicks_to_correct: 1.6207407407
 
    Assign to the variable ``num_lines`` the number of lines in the file ``school_prompt.txt``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(num_lines, 10, "Testing that num_lines has the correct value.")
-
+   
    myTests().main()

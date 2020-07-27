@@ -5,6 +5,10 @@
     :topic: Classes/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.0
+    :total_students_attempting: 14
+    :num_students_correct: 5.0
+    :mean_clicks_to_correct: 23.2
 
     Hey there! Write code that makes a class called ``Pet``. This class should have the following attributes: ``name``, ``age`` and ``sound``.
     This means that each pet you create should have a name, age and sound it makes. Then do the following in the order given. Make sure each question works until proceeding to the next one:
@@ -12,10 +16,10 @@
     1. Define the initializer method ``__init__`` that will set the properties of your pets. 
        ``sound`` property should be "argh" by default. It should also set a new class variable
        called ``amount_of_energy`` to `0`.
-
+    
     2. In the main program create an instance of ``Pet`` and assign it to a variable
        called ``my_pet`` with the following attributes: ``name`` is "Spock", ``age`` is 10.
-
+    
     3. To your ``Pet`` class add a method called ``feed_me`` that takes one input called ``amount``, an integer representing the amount of food for feeding. ``feed_me`` should increment the ``amount_of_energy`` property of the class by the amount 
        ``amount`` **only if that amount is smaller or equal than 10**. Otherwise it prints: "Too much food" and doesn't change the amount of energy.
     
@@ -32,7 +36,7 @@
     ====
     from unittest.gui import TestCaseGui
     import re    
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             pattern1 = r'(sound\s*=\s*[\"|\']\w+[\"|\'])'

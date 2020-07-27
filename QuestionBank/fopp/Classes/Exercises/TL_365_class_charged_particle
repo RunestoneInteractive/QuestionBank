@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1489361702
+   :total_students_attempting: 47
+   :num_students_correct: 23.0
+   :mean_clicks_to_correct: 7.4347826087
 
    Create a class called ``Charge`` that describes a charged particle,
    and define ``__init__()`` and ``potential_at()``
@@ -29,19 +33,19 @@
    import math
    class myTests(TestCaseGui):
        def testOne(self):
-	     class _Charge:
-	         def __init__(self, x, y, z, q):
-		     self.x = x
-		     self.y = y
-		     self.z = z
-		     self.q = q
-		 def potential_at(self, x, y, z):
-		     return 8.99e9*self.q/( (self.x-x)**2 + (self.y-y)**2 + (self.z-z)**2 )**0.5
-		     
-	     self.assertEqual(Charge(1,2,3,4).potential_at(2,3,4),
-	         _Charge(1,2,3,4).potential_at(2,3,4),
-	         'Checking potential(2,3,4) for Charge(1, 2, 3, 4)')
-	     self.assertEqual(Charge(-6.54,-8.99,8.03,6.27).potential_at(1.52,-6.61,3.92),
-	         _Charge(-6.54,-8.99,8.03,6.27).potential_at(1.52,-6.61,3.92),
-	         'Checking potential(2,3,4) for Charge(1, 2, 3, 4)')
+      class _Charge:
+          def __init__(self, x, y, z, q):
+       self.x = x
+       self.y = y
+       self.z = z
+       self.q = q
+   def potential_at(self, x, y, z):
+       return 8.99e9*self.q/( (self.x-x)**2 + (self.y-y)**2 + (self.z-z)**2 )**0.5
+       
+      self.assertEqual(Charge(1,2,3,4).potential_at(2,3,4),
+          _Charge(1,2,3,4).potential_at(2,3,4),
+          'Checking potential(2,3,4) for Charge(1, 2, 3, 4)')
+      self.assertEqual(Charge(-6.54,-8.99,8.03,6.27).potential_at(1.52,-6.61,3.92),
+          _Charge(-6.54,-8.99,8.03,6.27).potential_at(1.52,-6.61,3.92),
+          'Checking potential(2,3,4) for Charge(1, 2, 3, 4)')
    myTests().main()

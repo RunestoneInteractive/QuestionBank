@@ -15,10 +15,10 @@
    :feedback_d: Not quite, think about what .split() and .join() return.
    :practice: T
    :topics: Sequences/SplitandJoin
-   :pct_on_first: 0.5847107438
-   :total_students_attempting: 1452
-   :num_students_correct: 1446.0
-   :mean_clicks_to_correct: 1.6265560166
+   :pct_on_first: 0.5843083276
+   :total_students_attempting: 1453
+   :num_students_correct: 1447.0
+   :mean_clicks_to_correct: 1.6275051831
 
    What is the type of ``a``?
    

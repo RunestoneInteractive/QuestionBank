@@ -7,6 +7,10 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.0909090909
+   :total_students_attempting: 11
+   :num_students_correct: 7.0
+   :mean_clicks_to_correct: 3.0
 
    f = open('scarlet.txt', 'r')
    txt = f.read()
@@ -14,20 +18,20 @@
    for c in txt:
       if c not in letter_counts:
          letter_counts[c] = 0
-
+   
       letter_counts[c] = letter_counts[c] + 1
-
+   
    # Write a loop that prints the letters and their counts
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertIn("w:4745", self.getOutput().replace(' ',''), "Testing that correct number of w's is output.")
          self.assertIn("h:12892", self.getOutput().replace(' ',''), "Testing that correct number of h's is output.")
          self.assertIn("G:235", self.getOutput().replace(' ',''), "Testing that correct number of G's is output.")
          self.assertEqual(len(self.getOutput().split('\n')), 90, "Testing that correct number of lines are output.")
-
+   
    myTests().main()

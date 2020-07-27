@@ -6,16 +6,20 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.085106383
+   :total_students_attempting: 47
+   :num_students_correct: 17.0
+   :mean_clicks_to_correct: 3.7647058824
 
    Create a function ``OddEvenCount`` that accepts a list of integers and returns a dictionary. The function should use a if statement to determine if each of the integers is odd or even and keep a count of each. The keys of the dictionary should be `odd` and `even` and the values should be the number of odd values and the number of even values. If there are no odds or evens the function should return {'odd':0,'even':0} 
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            
            self.assertTrue('def' in self.getEditorText(), 'a function is created')

@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/AccumulatingResultsFromaDictionary
+   :pct_on_first: 0.5708661417
+   :total_students_attempting: 508
+   :num_students_correct: 384.0
+   :mean_clicks_to_correct: 1.5260416667
 
    Create a dictionary called ``wrd_d`` from the string ``sent``, so that the key is a word and the value is how many times you have seen that word.
    ~~~~
    sent = "Singing in the rain and playing in the rain are two entirely different situations but both can be good"
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sorted(wrd_d.items()), sorted([('Singing', 1), ('in', 2), ('the', 2), ('rain', 2), ('and', 1), ('playing', 1), ('are', 1), ('two', 1), ('entirely', 1), ('different', 1), ('situations', 1), ('but', 1), ('both', 1), ('can', 1), ('be', 1), ('good', 1)]), "Testing that wrd_d has been created correctly.")
-
+   
    myTests().main()

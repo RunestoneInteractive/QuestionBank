@@ -12,9 +12,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.7063978966
-   :total_students_attempting: 1141
-   :num_students_correct: 1129.0
-   :mean_clicks_to_correct: 1.4092116918
+   :pct_on_first: 0.7066549912
+   :total_students_attempting: 1142
+   :num_students_correct: 1130.0
+   :mean_clicks_to_correct: 1.4088495575
 
    What sequence will you iterate through as you accumulate a result in the following prompt? For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.

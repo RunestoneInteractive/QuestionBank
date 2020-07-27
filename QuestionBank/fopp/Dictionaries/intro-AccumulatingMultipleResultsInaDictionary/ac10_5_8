@@ -7,16 +7,20 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2172318973
+   :total_students_attempting: 1091
+   :num_students_correct: 683.0
+   :mean_clicks_to_correct: 3.140556369
 
    sentence = "The dog chased the rabbit into the forest but the rabbit was too quick."
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sorted(word_counts.items()), sorted([('The', 1), ('dog', 1), ('chased', 1), ('the', 3), ('rabbit', 2), ('into', 1), ('forest', 1), ('but', 1), ('was', 1), ('too', 1), ('quick.', 1)]), "Testing that word_counts was created correctly.")
-
+   
    myTests().main()

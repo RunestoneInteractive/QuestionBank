@@ -13,10 +13,10 @@
    :feedback_c: This is the accumulator variable. By the end of the program, it will have the total value of the integers that are in lst.
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithLists
-   :pct_on_first: 0.7632978723
-   :total_students_attempting: 752
-   :num_students_correct: 750.0
-   :mean_clicks_to_correct: 1.3626666667
+   :pct_on_first: 0.7636122178
+   :total_students_attempting: 753
+   :num_students_correct: 751.0
+   :mean_clicks_to_correct: 1.362183755
 
    Which of these is the iterator (loop) variable?
    

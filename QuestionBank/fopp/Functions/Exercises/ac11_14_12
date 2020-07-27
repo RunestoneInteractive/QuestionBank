@@ -4,21 +4,25 @@
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: T
+   :pct_on_first: 0.567251462
+   :total_students_attempting: 171
+   :num_students_correct: 152.0
+   :mean_clicks_to_correct: 1.6578947368
 
    Sum up all the negative numbers in a list.
    ~~~~
    def sumNegatives(lst):
        # your code here
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(sumNegatives([-1,-2,-3,-4,-5]),-15,"Tested sumNegatives on input [-1,-2,-3,-4,-5]")
            self.assertEqual(sumNegatives([1,-3,5,-7,9]),-10,"Tested sumNegatives on input [1,-3,5,-7,9]")
            self.assertEqual(sumNegatives([-2,-4,6,-7,9]),-13,"Tested sumNegatives on input [-2,-4,6,-7,9]")
            self.assertEqual(sumNegatives([0,1,2,3,4]),0,"Tested sumNegatives on input [0,1,2,3,4]")
-
+   
    myTests().main()

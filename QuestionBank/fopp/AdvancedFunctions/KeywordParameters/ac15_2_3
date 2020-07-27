@@ -7,20 +7,24 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.7298245614
+   :total_students_attempting: 285
+   :num_students_correct: 260.0
+   :mean_clicks_to_correct: 1.7576923077
 
    **5.** Define a function called ``multiply``. It should have one required parameter, a string. It should also have one optional parameter, an integer, named ``mult_int``, with a default value of 10. The function should return the string multiplied by the integer. (i.e.: Given inputs "Hello", mult_int=3, the function should return "HelloHelloHello")
    ~~~~
-
+   
    def multiply():
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(multiply("Hello", mult_int = 3), "HelloHelloHello", "Testing the function multiply on inputs 'Hello', 3.")
          self.assertEqual(multiply("Goodbye"), "GoodbyeGoodbyeGoodbyeGoodbyeGoodbyeGoodbyeGoodbyeGoodbyeGoodbyeGoodbye", "Testing the function mulitply on input 'Goodbye'.")
-
+   
    myTests().main()

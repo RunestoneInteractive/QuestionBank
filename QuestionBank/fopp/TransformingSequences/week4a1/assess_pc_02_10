@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithStrings
+   :pct_on_first: 0.5047770701
+   :total_students_attempting: 628
+   :num_students_correct: 487.0
+   :mean_clicks_to_correct: 2.1519507187
 
    Create an empty string and assign it to the variable ``lett``. Then using range, write code such that when your code is run, ``lett`` has 7 b's (``"bbbbbbb"``).
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(lett, "bbbbbbb", "Testing that lett has the correct value." )
          self.assertNotIn("bbbbbbb", self.getEditorText(), "Testing that you didn't hardcode the answer.")
-
+   
    myTests().main()

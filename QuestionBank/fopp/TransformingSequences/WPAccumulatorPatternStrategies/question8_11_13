@@ -12,9 +12,9 @@
    :feedback_c: The iterator variable is not the clearest here
    :correct: a
    :practice: T
-   :pct_on_first: 0.5444839858
-   :total_students_attempting: 1124
-   :num_students_correct: 1112.0
-   :mean_clicks_to_correct: 1.6663669065
+   :pct_on_first: 0.5448888889
+   :total_students_attempting: 1125
+   :num_students_correct: 1113.0
+   :mean_clicks_to_correct: 1.6657681941
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.

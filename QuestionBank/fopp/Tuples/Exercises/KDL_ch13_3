@@ -6,22 +6,26 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.1428571429
+   :total_students_attempting: 28
+   :num_students_correct: 16.0
+   :mean_clicks_to_correct: 3.75
 
    I've created a function ``Tuples_for_Tupelo`` that returns a string use unpacking to input a tuple of strings. 
-
+   
    ~~~~
    def Tuples_for_tupelo(s1,s2):
        return "Tupelo ate " + s1 +" and " +s2
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            
            self.assertIn('(*', self.getEditorText(), 'contains unpacking')
-
-
+   
+   
            
    myTests().main()

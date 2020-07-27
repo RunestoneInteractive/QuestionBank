@@ -4,17 +4,21 @@
     :basecourse: fopp
     :topic: Projects/encryption
     :from_source: T
+    :pct_on_first: 0.1994002999
+    :total_students_attempting: 667
+    :num_students_correct: 566.0
+    :mean_clicks_to_correct: 6.816254417
 
     Write a program that will encrypt the string referenced by the variable plaintext using the caesar cipher with a shift of 13.  Store the result in ciphertext.
     ~~~~
     plaintext = 'thequickbrownfoxjumpsoverthelazydog'
     ====
     from unittest.gui import TestCaseGui
-
+    
     class MyTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertTrue('ciphertext' in self.getEditorText(), "you need a ciphertext variable")
             self.assertEqual(ciphertext, 'gurdhvpxoebjasbkwhzcfbiregurynmlqbt')
-
+    
     MyTests().main()

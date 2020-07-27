@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.4736842105
+   :total_students_attempting: 57
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.9743589744
 
    Write a program that will compute MPG for a car. Prompt the user to
    enter the number of miles driven and the number of gallons

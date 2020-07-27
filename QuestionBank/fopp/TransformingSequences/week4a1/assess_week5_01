@@ -8,19 +8,23 @@
    :autograde: unittest
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithStrings
+   :pct_on_first: 0.5506419401
+   :total_students_attempting: 701
+   :num_students_correct: 579.0
+   :mean_clicks_to_correct: 1.9671848014
 
    Currently there is a string called ``str1``. Write code to create a list called ``chars`` which should contain the characters from ``str1``. Each character in ``str1`` should be its own element in the list ``chars``.
    ~~~~
    str1 = "I love python"
    # HINT: what's the accumulator? That should go here.
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(chars, ['I', ' ', 'l', 'o', 'v', 'e', ' ', 'p', 'y', 't', 'h', 'o', 'n'], "Testing that chars is assigned the correct value.")
-
+   
    myTests().main()

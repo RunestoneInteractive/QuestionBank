@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :available_files: emotion_words.txt
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.2693208431
+   :total_students_attempting: 854
+   :num_students_correct: 673.0
+   :mean_clicks_to_correct: 5.5542347697
 
    We have provided a file called ``emotion_words.txt`` that contains lines of words that describe emotions. Find the total number of words in the file and assign this value to the variable ``num_words``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(num_words, 48, "Testing that num_words was assigned to the correct value.")
-
+   
    myTests().main()

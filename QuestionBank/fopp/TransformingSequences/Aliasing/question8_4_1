@@ -10,10 +10,10 @@
    :feedback_a: blist is not a copy of alist, it is a reference to the list alist refers to.
    :feedback_b: Yes, since alist and blist both reference the same list, changes to one also change the other.
    :practice: T
-   :pct_on_first: 0.7733241189
-   :total_students_attempting: 1447
-   :num_students_correct: 1437.0
-   :mean_clicks_to_correct: 1.2331245651
+   :pct_on_first: 0.773636991
+   :total_students_attempting: 1449
+   :num_students_correct: 1439.0
+   :mean_clicks_to_correct: 1.2328005559
 
    What is printed by the following statements?
    

@@ -14,10 +14,10 @@
    :feedback_c: This is the second value assigned to the variable day, but the next statement reassigns that variable to a new value.
    :feedback_d: The variable day will contain the last value assigned to it when it is printed.
    :practice: T
-   :pct_on_first: 0.7252440725
-   :total_students_attempting: 2868
-   :num_students_correct: 2859.0
-   :mean_clicks_to_correct: 1.5047219307
+   :pct_on_first: 0.7253398397
+   :total_students_attempting: 2869
+   :num_students_correct: 2860.0
+   :mean_clicks_to_correct: 1.5045454545
 
    What is printed when the following statements execute?
    

@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 1.0
+   :total_students_attempting: 82
+   :num_students_correct: 82.0
+   :mean_clicks_to_correct: 1.0
 
    
    While ``i`` and ``j`` are standard iterator variables in this situation,
@@ -16,12 +20,12 @@
    to simply a space.  We then need a print statement within only the
    outer for loop in order to get each row to be on a new line.
    Check out the new code and run it.
-	       
+        
    ~~~~
    table = [[1, 2, 3, 4],
             [5, 6, 7, 8],
             [9, 10, 11, 12]]
-
+   
    for row in range(3):
        for col in range(4):
            print(table[row][col], end=" ")

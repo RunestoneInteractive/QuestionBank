@@ -6,17 +6,21 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.0833333333
+   :total_students_attempting: 12
+   :num_students_correct: 12.0
+   :mean_clicks_to_correct: 5.25
 
    Ordinal numbers indicate their position in a list, such as 1st or 2nd. Most ordinal numbers in th, except those ending in 1, 2 or 3. Ask the user for a ``number`` and add the correct ending. You'll need to check the final number in the string and use an if statement to determine which ending you need. Print the ordinal number. 
- 
+   
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            if number[-1]=='1':
                endingval='st'
@@ -26,9 +30,9 @@
                endingval='rd'    
            else:
                endingval='th'
-
+   
            self.assertIn('if ', self.getEditorText(), 'Contains if statement')
            self.assertIn('print(', self.getEditorText(), 'Contains print')
            self.assertIn(number+endingval, self.getOutput(), 'Correct ordinal printed')
-
+   
    myTests().main()

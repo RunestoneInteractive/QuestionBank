@@ -15,10 +15,10 @@
    :feedback_d: Python is a zero-index based language.
    :practice: T
    :topics: Sequences/TheSliceOperator
-   :pct_on_first: 0.5964095745
-   :total_students_attempting: 1504
-   :num_students_correct: 1496.0
-   :mean_clicks_to_correct: 1.5835561497
+   :pct_on_first: 0.596013289
+   :total_students_attempting: 1505
+   :num_students_correct: 1497.0
+   :mean_clicks_to_correct: 1.5838343353
 
    What will the output be for the following code?
    

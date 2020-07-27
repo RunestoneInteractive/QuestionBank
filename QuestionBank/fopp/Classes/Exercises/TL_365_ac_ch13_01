@@ -9,6 +9,10 @@
    :practice: T
    :topics: Classes/ImprovingourConstructor.rst
    :tags: Classes/ImprovingourConstructor.rst
+   :pct_on_first: 0.5803571429
+   :total_students_attempting: 112
+   :num_students_correct: 93.0
+   :mean_clicks_to_correct: 1.6774193548
 
    Define a class called ``Bike`` that accepts a string and a float as
    input, and assigns those inputs respectively to two instance
@@ -19,17 +23,17 @@
    **25.0**.
    ~~~~
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(testOne.color, "blue", "Testing that testOne has the correct color assigned.")
          self.assertEqual(testOne.price, 89.99, "Testing that testOne has the correct price assigned.")
-
+   
       def testTwo(self):
          self.assertEqual(testTwo.color, "purple", "Testing that testTwo has the correct color assigned.")
          self.assertEqual(testTwo.price, 25.0, "Testing that testTwo has the correct color assigned.")
-
+   
    myTests().main()

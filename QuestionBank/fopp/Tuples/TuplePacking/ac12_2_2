@@ -6,19 +6,23 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.7817745803
+   :total_students_attempting: 417
+   :num_students_correct: 358.0
+   :mean_clicks_to_correct: 1.1089385475
 
    **3.** Create a tuple named ``tup1`` that has three elements: 'a', 'b', and 'c'.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(tup1, ('a', 'b', 'c'), "Testing that tup1 was created correctly.")
-
+   
    myTests().main()

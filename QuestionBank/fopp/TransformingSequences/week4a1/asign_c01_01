@@ -8,20 +8,24 @@
    :autograde: unittest
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithStrings
+   :pct_on_first: 0.2015503876
+   :total_students_attempting: 645
+   :num_students_correct: 474.0
+   :mean_clicks_to_correct: 4.7953586498
 
    Below are a set of scores that students have received in the past semester. Write code to determine how many are 90 or above and assign that result to the value ``a_scores``.
    ~~~~
    scores = "67 80 90 78 93 20 79 89 96 97 92 88 79 68 58 90 98 100 79 74 83 88 80 86 85 70 90 100"
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(a_scores, 10, "Testing that you got the right count.")
          self.assertIn('for', self.getEditorText(), "Testing that you used a for loop.")
          self.assertIn('if', self.getEditorText(), "Testing that you used a conditional.")
-
+   
    myTests().main()

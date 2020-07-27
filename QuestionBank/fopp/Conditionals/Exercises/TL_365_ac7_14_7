@@ -8,33 +8,37 @@
    :autograde: unittest
    :practice: T
    :topics: Conditionals/TheAccumulatorPatternwithConditionals
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.48
+   :total_students_attempting: 75
+   :num_students_correct: 45.0
+   :mean_clicks_to_correct: 1.5555555556
 
    Provided is a list of numbers. For each of the numbers in the list, determine whether they are odd. If the number is odd, add ``True`` to a new list called ``is_odd``. If the number is even, then add ``False``.
    ~~~~
    num_lst = [3, 20, -1, 9, 10]
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
    import re
-
+   
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(is_odd, [True, False, True, True, False],"Testing that is_odd is set correctly.")
-
+   
    	   # LOOK FOR IF STATEMENTS
-	   outer_ifs = re.findall(r'^(if[ (].*: *)$', self.getEditorText(), re.M)
-	   outer_elifs = re.findall(r'^(elif[ (].*: *)$', self.getEditorText(), re.M)
-	   outer_elses = re.findall(r'^(else[ (]*: *)$', self.getEditorText(), re.M)
-	   inner_ifs = re.findall(r'^( +if[ (].*: *)$', self.getEditorText(), re.M)
-	   inner_elifs = re.findall(r'^( +elif[ (].*: *)$', self.getEditorText(), re.M)
-	   inner_elses = re.findall(r'^( +else[ (]*: *)$', self.getEditorText(), re.M)
-	   self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
-	                   len(inner_ifs)>=0 and len(inner_elifs)==0 and len(inner_elses)>=0, 
-			   'Checking if-statements')
-	   # LOOK FOR for STATEMENTS
-	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
-	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
-	   self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements (there shouldn\'t be any)')
+    outer_ifs = re.findall(r'^(if[ (].*: *)$', self.getEditorText(), re.M)
+    outer_elifs = re.findall(r'^(elif[ (].*: *)$', self.getEditorText(), re.M)
+    outer_elses = re.findall(r'^(else[ (]*: *)$', self.getEditorText(), re.M)
+    inner_ifs = re.findall(r'^( +if[ (].*: *)$', self.getEditorText(), re.M)
+    inner_elifs = re.findall(r'^( +elif[ (].*: *)$', self.getEditorText(), re.M)
+    inner_elses = re.findall(r'^( +else[ (]*: *)$', self.getEditorText(), re.M)
+    self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
+                    len(inner_ifs)>=0 and len(inner_elifs)==0 and len(inner_elses)>=0, 
+      'Checking if-statements')
+    # LOOK FOR for STATEMENTS
+    outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
+    inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
+    self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements (there shouldn\'t be any)')
    myTests().main()

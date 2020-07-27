@@ -5,11 +5,15 @@
    :topic: SimplePythonData/Exercises
    :from_source: T
    :autograde: unittest
+   :pct_on_first: 0.3479415671
+   :total_students_attempting: 753
+   :num_students_correct: 558.0
+   :mean_clicks_to_correct: 2.9659498208
 
    Write a program that will compute the area of a circle. Prompt the user to enter the radius and save it to avariable called ``radius``. Print a nice message back to the user with the answer.
    ~~~~
    pi = 3.14
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

@@ -14,10 +14,10 @@
    :feedback_b: Correct! Use the and operator to join nested if statements into a single statement, with the first if condition on the left-hand side.
    :feedback_c: Incorrect. The comparison yesno[0] == 'Y' will crash if yesno is an empty string.
    :feedback_d: Incorrect. The comparison yesno[0] == 'Y' will crash if yesno is an empty string.
-   :pct_on_first: 0.5684210526
-   :total_students_attempting: 95
-   :num_students_correct: 94.0
-   :mean_clicks_to_correct: 1.8085106383
+   :pct_on_first: 0.5670103093
+   :total_students_attempting: 97
+   :num_students_correct: 96.0
+   :mean_clicks_to_correct: 1.8229166667
 
    Consider the following fragment containing a nested ``if`` statement to prevent a crash in the event
    the user enters an empty response for ``yesno``::

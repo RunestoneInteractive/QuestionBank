@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :available_files: school_prompt.txt
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.3209366391
+   :total_students_attempting: 726
+   :num_students_correct: 524.0
+   :mean_clicks_to_correct: 4.9980916031
 
    **Challenge:** Using the file ``school_prompt.txt``, if the character 'p' is in a word, then add the word to a list called ``p_words``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(p_words, ['topic', 'point', 'papers,', 'ups,', 'scripts.'], "Testing that p_words has the correct list.")
-
+   
    myTests().main()

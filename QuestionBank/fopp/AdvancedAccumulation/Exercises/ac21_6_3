@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.5111111111
+   :total_students_attempting: 45
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.9230769231
 
    Now define lengths using map instead.
    ~~~~
@@ -11,16 +15,16 @@
        """lengths takes a list of strings as input and returns a list of numbers that are the lengths
         of strings in the input list. Use map!"""
         # fill in this function's definition to make the test pass.
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(lengths(["Hello", "hi", "bye"]), [5, 2, 3], "Testing whether lengths has been correctly defined.")
            self.assertIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

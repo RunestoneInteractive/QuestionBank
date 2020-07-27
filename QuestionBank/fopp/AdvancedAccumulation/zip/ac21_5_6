@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/zip
    :from_source: T
+   :pct_on_first: 1.0
+   :total_students_attempting: 132
+   :num_students_correct: 132.0
+   :mean_clicks_to_correct: 1.0
 
    def possible(word, blanked, guesses_made):
        if len(word) != len(blanked):
@@ -16,19 +20,19 @@
            elif bc != '_' and bc != wc:
                return False
        return True
-
+   
    print(possible("wonderwall", "_on__r__ll", "otnqurl"))
    print(possible("wonderwall", "_on__r__ll", "wotnqurl"))
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(possible("HELLO", "_ELL_", "ELJ"), True, "Testing whether possible has been correctly defined.")
          self.assertEqual(possible("HELLO", "_ELL_", "ELJH"), False, "Testing whether possible has been correctly defined.")
          self.assertEqual(possible("HELLO", "_E___", "ELJ"), False, "Testing whether possible has been correctly defined.")
-
+   
    myTests().main()

@@ -6,12 +6,16 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.5363128492
+   :total_students_attempting: 179
+   :num_students_correct: 133.0
+   :mean_clicks_to_correct: 1.5789473684
 
    Add parentheses to the expression ``6 * 1 - 2`` to change its value from 4 to -6.
    ~~~~
-
+   
    print(6 * 1 -2)
-
+   
    ====
    
    from unittest.gui import TestCaseGui
@@ -19,7 +23,7 @@
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual('-6\n', self.getOutput(), 'Checking output.')
-	   self.assertTrue(re.search(r'.*\(.*\(.*\).*\).*', self.getEditorText()), 'Checking parentheses.')
-	   self.assertFalse(re.search(r'-6', self.getEditorText()),'Checking for "-6"')
-	   
+    self.assertTrue(re.search(r'.*\(.*\(.*\).*\).*', self.getEditorText()), 'Checking parentheses.')
+    self.assertFalse(re.search(r'-6', self.getEditorText()),'Checking for "-6"')
+    
    myTests().main()

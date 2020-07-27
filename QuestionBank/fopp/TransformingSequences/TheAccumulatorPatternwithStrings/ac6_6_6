@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3871252205
+   :total_students_attempting: 1134
+   :num_students_correct: 754.0
+   :mean_clicks_to_correct: 2.525198939
 
    Assign an empty string to the variable ``output``. Using the ``range`` function, write code to make it so that the variable ``output`` has 35 ``a`` s inside it (like ``"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"``). Hint: use the accumulation pattern!
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testThree(self):
          self.assertEqual(output, "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "Testing that output has the correct value.")
          self.assertNotIn("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

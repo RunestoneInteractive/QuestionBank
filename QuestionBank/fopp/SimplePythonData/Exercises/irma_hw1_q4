@@ -9,10 +9,10 @@
    :correct: a
    :feedback_a: Yes, this represents function call. ``print`` function takes an argument that it prints on your screen.
    :feedback_b: Value is something you cannot call like: "Hello, World", 3, 1.5, and so on.
-   :pct_on_first: 0.7862796834
-   :total_students_attempting: 379
-   :num_students_correct: 376.0
-   :mean_clicks_to_correct: 1.2234042553
+   :pct_on_first: 0.7868421053
+   :total_students_attempting: 380
+   :num_students_correct: 377.0
+   :mean_clicks_to_correct: 1.2228116711
 
    
    Consider the following Python command: ``print("Hello, World")``. What does print represent here?

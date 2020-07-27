@@ -8,18 +8,22 @@
     :autograde: unittest
     :practice: T
     :topics: Iteration/Listsandforloops
+    :pct_on_first: 0.6730964467
+    :total_students_attempting: 985
+    :num_students_correct: 838.0
+    :mean_clicks_to_correct: 1.6706443914
 
     Write code that uses iteration to print out **the length** of each element of the list stored in ``str_list``.
     ~~~~
     str_list = ["hello", "", "goodbye", "wonderful", "I love Python"]
-
+    
     # Write your code here.
     =====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def test_output(self):
             self.assertIn("for", self.getEditorText(), "Testing whether you used a for loop (Don't worry about actual and expected values).")
             self.assertIn("5\n0\n7\n9\n13", self.getOutput(), "Testing output (Don't worry about actual and expected values).")
-
+    
     myTests().main()

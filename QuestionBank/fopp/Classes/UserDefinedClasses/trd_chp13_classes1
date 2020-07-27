@@ -6,31 +6,35 @@
    :from_source: F
    :practice: T
    :topics: Simple class
+   :pct_on_first: 0.6666666667
+   :total_students_attempting: 3
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 3.0
 
    Below, we have provided a simple class code for a point (Click show code to see the code for class). Set x to 10 and y to 5 for the the point p and x=15 and y = 20 for the point q.
-
-
+   
+   
    ~~~~
-
+   
    class Point:
    """ Point class for representing and manipulating x,y coordinates. """
-
+   
        def __init__(self):
-
+   
        self.x = 0
        self.y = 0
-
+   
     p = Point()         # Instantiate an object of type Point
     q = Point()         # and make a second point
-
+   
     print("Nothing seems to have happened with the points")
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testA(self):
            self.assertEqual(p.x, 10, "Testing that p.x has the correct value.")
        def testB(self):
@@ -39,5 +43,5 @@
            self.assertEqual(q.x, 15, "Testing that q.y has the correct value.")
        def testD(self):
            self.assertEqual(q.y, 20, "Testing that q.y has the correct value.")
-
+   
    myTests().main()

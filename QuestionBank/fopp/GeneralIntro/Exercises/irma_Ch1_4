@@ -11,8 +11,8 @@
         :feedback_a: Correct! It will print whatever value the variable `my_name` holds, and that is `Harry`.
         :feedback_b: Look a bit more careful. Python prints the value of the variable called `my_name`. What is the value of `my_name` in the program?
         :pct_on_first: 1.0
-        :total_students_attempting: 16
-        :num_students_correct: 16.0
+        :total_students_attempting: 17
+        :num_students_correct: 17.0
         :mean_clicks_to_correct: 1.0
 
         Consider the following program you read line by line, top to bottom:

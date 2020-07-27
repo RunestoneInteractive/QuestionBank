@@ -14,10 +14,10 @@
    :feedback_c: False is at index 6.
    :feedback_d: Look again, the element at index 3 is a list. This list only counts as one element.
    :practice: T
-   :pct_on_first: 0.5928038613
-   :total_students_attempting: 2279
-   :num_students_correct: 2271.0
-   :mean_clicks_to_correct: 1.6111845002
+   :pct_on_first: 0.5929824561
+   :total_students_attempting: 2280
+   :num_students_correct: 2272.0
+   :mean_clicks_to_correct: 1.610915493
 
    What is printed by the following statements?
    

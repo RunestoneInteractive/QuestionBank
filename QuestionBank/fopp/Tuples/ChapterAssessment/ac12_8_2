@@ -6,22 +6,26 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
    :topics: Tuples/TuplePacking
+   :pct_on_first: 0.5932835821
+   :total_students_attempting: 268
+   :num_students_correct: 226.0
+   :mean_clicks_to_correct: 1.5132743363
 
    The list below, ``tuples_lst``, is a list of tuples. Create a list of the second elements of each tuple and assign this list to the variable ``country``.
    ~~~~
-
+   
    tuples_lst = [('Beijing', 'China', 2008), ('London', 'England', 2012), ('Rio', 'Brazil', 2016, 'Current'), ('Tokyo', 'Japan', 2020, 'Future')]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testTwo(self):
          self.assertEqual(country, ['China', 'England', 'Brazil', 'Japan'], "Testing that third is assigned to correct values")
-
+   
    myTests().main()

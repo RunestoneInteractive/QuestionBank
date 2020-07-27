@@ -6,7 +6,11 @@
     :from_source: F
     :language: python
     :autograde: unittest
-         
+    :pct_on_first: 0.8
+    :total_students_attempting: 5
+    :num_students_correct: 4.0
+    :mean_clicks_to_correct: 1.0
+
     Many people keep time using a 24 hour clock (11 is 11am and 23 is 11pm, 0 is midnight).
     If it is currently 13 and you set your alarm to go off in 50 hours, it will be 15 (3pm).
     Write a Python program to solve the general version of the above problem. Your program 
@@ -14,9 +18,9 @@
     to wait for the alarm, then store those values as type ``int`` variables ``time_now`` 
     and ``wait_time`` respectively, and finally print the time on the 24 hour clock when 
     the alarm will go off.  
- 
+    
     ~~~~
-
+    
     ====
     from unittest.gui import TestCaseGui
     import re

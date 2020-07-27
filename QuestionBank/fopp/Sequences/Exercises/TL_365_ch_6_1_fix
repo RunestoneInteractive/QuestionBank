@@ -6,9 +6,13 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.2637362637
+   :total_students_attempting: 91
+   :num_students_correct: 51.0
+   :mean_clicks_to_correct: 2.5882352941
 
    Consider the list below in the activecode. Write the expressions to do the following:
-
+   
    1. print letter 'C' from this list,
    2. print letters 'C', 'D', 'E' as a list,
    3. print the length of this list,
@@ -17,25 +21,25 @@
    6. create a variable called grade and assign the third element
       ('C') from list letters list to it (print variable grade to make
       sure you did the right indexing).
-
+   
    Warning: for all printouts use indexing and the name of the
    list (letters).  You cannot do print('C')!
    ~~~~
    letters = ['A', 'B', 'C', 'D', 'E']
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
        def testOne(self):
            output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
+    editor = self.getEditorText().split('\n')
            self.assertEqual(output[0], 'C', 'Checking first line')
-	   self.assertEqual(output[1], str(['C','D','E']), 'Checking second line')
-	   self.assertEqual(output[2], '5', 'Checking third line')
-	   self.assertEqual(output[3], 'A', 'Checking fourth line')
-	   self.assertEqual(output[4], 'E', 'Checking fifth line')
-	   self.assertEqual(grade, "C", "Checking variable 'grade'")
-	   self.assertFalse(re.search(r'[ABCDE]', '\n'.join(editor[1:])), 'Checking for hardcoding')
+    self.assertEqual(output[1], str(['C','D','E']), 'Checking second line')
+    self.assertEqual(output[2], '5', 'Checking third line')
+    self.assertEqual(output[3], 'A', 'Checking fourth line')
+    self.assertEqual(output[4], 'E', 'Checking fifth line')
+    self.assertEqual(grade, "C", "Checking variable 'grade'")
+    self.assertFalse(re.search(r'[ABCDE]', '\n'.join(editor[1:])), 'Checking for hardcoding')
    myTests().main()

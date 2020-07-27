@@ -4,20 +4,24 @@
     :basecourse: fopp
     :topic: Conditionals/Exercises
     :from_source: T
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.5198019802
+    :total_students_attempting: 404
+    :num_students_correct: 332.0
+    :mean_clicks_to_correct: 1.7891566265
 
     Provided are the lengths of two sides of a right-angled triangle. Assign the length of the hypotenuse the the variable ``hypo_len``.  (Hint:  ``x ** 0.5`` will return the square root, or use ``sqrt`` from the math module)
     ~~~~
-
+    
     side1 = 3
     side2 = 4
-
+    
     ====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertEqual(hypo_len,5,"Testing that hypo_len has been set correctly")
-
+    
     myTests().main()

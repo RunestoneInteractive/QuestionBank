@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.527306968
+   :total_students_attempting: 1062
+   :num_students_correct: 770.0
+   :mean_clicks_to_correct: 1.7506493506
 
    **2.** Write a function called ``count`` that takes a list of numbers as input and returns a count of the number of elements in the list.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(count([]), 0, "Testing the function count with input []")
          self.assertEqual(count([1, 5, 9, -2, 9, 23]), 6, "Testing the function count with input [1, 5, 9, -2, 9, 23]")
-
+   
    myTests().main()

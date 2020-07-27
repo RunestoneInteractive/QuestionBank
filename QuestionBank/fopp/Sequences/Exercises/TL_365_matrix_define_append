@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1153846154
+   :total_students_attempting: 130
+   :num_students_correct: 89.0
+   :mean_clicks_to_correct: 2.4831460674
 
    Another way to create a matrix is by combining several already
    define lists using the ``append()`` function.  For example, the matrix 
@@ -24,7 +28,7 @@
       row1 = [1, 2, 3]
       row2 = [4, 5, 6]
       row3 = [7, 8, 9]
-
+   
       a.append(row1)
       a.append(row2)
       a.append(row3)
@@ -52,11 +56,11 @@
        def testOne(self):  
            ref_mat = [ [17, 18, 19, 20],
                      [7, 8, 9, 10],
-		     [1.7e-5, 3.1, 4, 2],
+       [1.7e-5, 3.1, 4, 2],
                      [-7, -8, -9, -7] ]
-	   for i in range(len(ref_mat)):
-	       for j in range(len(ref_mat[i])):
-	           self.assertAlmostEqual(mat[i][j], ref_mat[i][j], 
-		       7, 
-		       'Checking element {:d} {:d}'.format(i, j))
+    for i in range(len(ref_mat)):
+        for j in range(len(ref_mat[i])):
+            self.assertAlmostEqual(mat[i][j], ref_mat[i][j], 
+         7, 
+         'Checking element {:d} {:d}'.format(i, j))
    myTests().main()

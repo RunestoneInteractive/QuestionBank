@@ -14,10 +14,10 @@
    :feedback_c: The % operator returns the remainder after division.
    :feedback_d: The % operator returns the remainder after division.
    :practice: T
-   :pct_on_first: 0.7272727273
-   :total_students_attempting: 3091
-   :num_students_correct: 3064.0
-   :mean_clicks_to_correct: 1.559073107
+   :pct_on_first: 0.7273609314
+   :total_students_attempting: 3092
+   :num_students_correct: 3065.0
+   :mean_clicks_to_correct: 1.5588907015
 
    What value is printed when the following statement executes?
    

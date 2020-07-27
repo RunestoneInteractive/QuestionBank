@@ -6,12 +6,16 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1803278689
+   :total_students_attempting: 61
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 3.3783783784
 
-
+   
    Write a program that will calculate the sum of all lengths of the strings below and store the sum in variable ``sum_of_lengths``. Then find the average length of the strings and store it in ``average_length`` variable.
    ~~~~
    my_list = ["","hello","", "goodbye", "wonderful", "hello", "goodbye", "I love Python"]
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re

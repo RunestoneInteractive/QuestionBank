@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.4
+   :total_students_attempting: 5
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 1.3333333333
 
    Write a program that (1) prompts the user for their age in years, (2) stores their 
    input as type ``int`` in a variable called ``age``, then (3) prints a message saying how old they will be 5 years from now.

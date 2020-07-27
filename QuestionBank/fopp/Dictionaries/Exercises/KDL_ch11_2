@@ -6,16 +6,20 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.0915492958
+   :total_students_attempting: 142
+   :num_students_correct: 71.0
+   :mean_clicks_to_correct: 6.9436619718
 
    Create a function ``word_count`` that accepts a string and returns a dictionary that contains the number of times each word is in the string. Convert all letters to lower case and split at the spaces in order to more easily compare. For example "Sweet Sweet Briar" should get {'sweet': 2, 'briar': 1}. A string with no words should return an empty dictionary.
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            song="Here’s to the Python Class Holla holla holla nothing that you cannot do Here’s to the Python Class Holla holla holla nothing that you cannot do Work for the good and work for the right always doing something and doing it right So here’s to the Python Class Holla holla holla nothing that you cannot do"
            slist={'here’s': 3, 'to': 3, 'the': 5, 'python': 3, 'nothing': 3, 'that': 3, 'you': 3, 'cannot': 3, 'work': 2, 'for': 2, 'good': 1, 'and': 2, 'always': 1, 'doing': 2, 'something': 1, 'it': 1, 'so': 1, 'class': 3, 'holla': 9, 'do': 3, 'right': 2}
@@ -23,6 +27,6 @@
            self.assertEqual(word_count(''),{},"the correct count for ''")
            self.assertEqual(word_count('I am sam i am'),{'i': 2, 'am': 2, 'sam': 1},"the correct count for 'I am sam i am'")
            self.assertEqual(word_count(song),slist,"the correct count for the Holla song!")
-
+   
            
    myTests().main()

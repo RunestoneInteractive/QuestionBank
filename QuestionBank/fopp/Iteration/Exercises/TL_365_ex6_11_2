@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.2880434783
+   :total_students_attempting: 184
+   :num_students_correct: 136.0
+   :mean_clicks_to_correct: 3.7573529412
 
    Get the user to enter some text, save it to a variable called ``user_input``, and print it out in reverse order.
    ~~~~
@@ -15,6 +19,6 @@
    import re
    class myTests(TestCaseGui):
        def testOne(self):
-	   self.assertTrue(re.search(user_input[::-1], self.getOutput()), 'Checking answer.')
-	   
+    self.assertTrue(re.search(user_input[::-1], self.getOutput()), 'Checking answer.')
+    
    myTests().main()

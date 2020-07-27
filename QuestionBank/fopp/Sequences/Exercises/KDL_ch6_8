@@ -6,16 +6,20 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.2444444444
+   :total_students_attempting: 90
+   :num_students_correct: 48.0
+   :mean_clicks_to_correct: 2.5625
 
    Using indexing multiple the 6th number (5) in the list by the 10th number(7) in the list save this value to ``k``. Then use indexing to determine the location of the 8 in the list, save this as ``j``. Do not hardcode!
    ~~~~
    L=[6,3,6,8,3,5,6,3,5,7,3,5,6]
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertTrue('k=7*5' not in self.getEditorText(), 'Not hardcoded')
            self.assertTrue('k=5*7' not in self.getEditorText(), 'Not hardcoded')

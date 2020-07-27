@@ -6,17 +6,21 @@
     :from_source: T
     :language: python
     :autograde: unittest
+    :pct_on_first: 0.7077592458
+    :total_students_attempting: 2758
+    :num_students_correct: 2574.0
+    :mean_clicks_to_correct: 1.4700854701
 
     Write code to print out the phrase "Hello World".
     ~~~~
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertIn("Hello World", self.getOutput(), "Your output should contain a phrase Hello World")
-
+    
     myTests().main()

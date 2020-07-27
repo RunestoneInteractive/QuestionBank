@@ -18,10 +18,10 @@
    :correct: a,b,d
    :practice: T
    :topics: SimplePythonData/StatementsandExpressions
-   :pct_on_first: 0.1547749726
-   :total_students_attempting: 1822
-   :num_students_correct: 1749.0
-   :mean_clicks_to_correct: 3.8519153802
+   :pct_on_first: 0.1546900713
+   :total_students_attempting: 1823
+   :num_students_correct: 1750.0
+   :mean_clicks_to_correct: 3.8508571429
 
    The code below initializes two variables, ``z`` and ``y``. We want to assign the total number of characters in ``z`` and in ``y`` to the variable ``a``. Which of the following solutions, if any, would be considered hard coding?
    

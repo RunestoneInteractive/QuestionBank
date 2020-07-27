@@ -14,10 +14,10 @@
    :feedback_c: No, when we assign a list to another list it does not concatenate the lists together.
    :feedback_d: No, when we assign a list to another list it does not concatenate the lists together.
    :practice: T
-   :pct_on_first: 0.7188365651
-   :total_students_attempting: 1444
-   :num_students_correct: 1436.0
-   :mean_clicks_to_correct: 1.561281337
+   :pct_on_first: 0.7185338866
+   :total_students_attempting: 1446
+   :num_students_correct: 1438.0
+   :mean_clicks_to_correct: 1.561891516
 
    What is the value of y after the following code has been evaluated:
    

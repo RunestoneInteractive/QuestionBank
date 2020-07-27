@@ -6,24 +6,28 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1454545455
+   :total_students_attempting: 165
+   :num_students_correct: 103.0
+   :mean_clicks_to_correct: 4.9611650485
 
    Write code that combines the following variables so that the
    sentence “Now I know how to concatenate strings in Python!” is
    assigned to the variable 'progress'. Do not edit the values
    assigned to by, m1, m2, m3 and m4.
-
+   
    ~~~~
    m1 = "Now I know"
    m2 = "how to concatenate strings"
    m3 = "in Python"
    m4 = '!'
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
        def testOne(self): 
            self.assertEqual(progress, 'Now I know how to concatenate strings in Python!', 'Checking if assigned variable gives correct value')
-	   self.assertFalse(re.search(r'Now I know how to concatenate strings in Python!', self.getEditorText()), 'Checking for hardcoding')
+    self.assertFalse(re.search(r'Now I know how to concatenate strings in Python!', self.getEditorText()), 'Checking for hardcoding')
    myTests().main()

@@ -14,10 +14,10 @@
    :feedback_c: The function does return a value.
    :feedback_d: Because both parameters have default values specified in the definition, they are both optional.
    :practice: T
-   :pct_on_first: 0.7930174564
-   :total_students_attempting: 401
-   :num_students_correct: 398.0
-   :mean_clicks_to_correct: 1.2939698492
+   :pct_on_first: 0.7910447761
+   :total_students_attempting: 402
+   :num_students_correct: 399.0
+   :mean_clicks_to_correct: 1.2957393484
 
    What will the following code print?
    

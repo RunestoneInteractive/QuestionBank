@@ -6,10 +6,10 @@
    :from_source: T
    :practice: T
    :topics: TransformingSequences/ObjectsandReferences
-   :pct_on_first: 0.2807017544
-   :total_students_attempting: 798
-   :num_students_correct: 613.0
-   :mean_clicks_to_correct: 3.4192495922
+   :pct_on_first: 0.280350438
+   :total_students_attempting: 799
+   :num_students_correct: 614.0
+   :mean_clicks_to_correct: 3.4185667752
 
    What will be the value of ``a`` after the following code has executed?
    

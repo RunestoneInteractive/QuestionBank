@@ -16,9 +16,9 @@
    :feedback_d: Yes, this is the most concise way of writing a conditional for that prompt.
    :feedback_e: The else statement is unnecessary.
    :practice: T
-   :pct_on_first: 0.3537508603
-   :total_students_attempting: 1453
-   :num_students_correct: 1437.0
-   :mean_clicks_to_correct: 2.4453723034
+   :pct_on_first: 0.353021978
+   :total_students_attempting: 1456
+   :num_students_correct: 1440.0
+   :mean_clicks_to_correct: 2.4486111111
 
    Select the most appropriate set of conditonal statements for the situation described: You want to keep track of all the words that contain both "t" and "z".

@@ -8,19 +8,23 @@
     :autograde: unittest
     :practice: T
     :topics: Iteration/Stringsandforloops
+    :pct_on_first: 0.6894934334
+    :total_students_attempting: 1066
+    :num_students_correct: 924.0
+    :mean_clicks_to_correct: 1.3971861472
 
     Write one for loop to print out each character of the string ``my_str`` on a separate line.
     ~~~~
     my_str = "MICHIGAN"
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
       def test_output(self):
         self.assertIn('for', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
         self.assertIn("M\nI\nC\nH\nI\nG\nA\nN", self.getOutput(), "Testing output (Don't worry about actual and expected values).")
-
+    
     myTests().main()

@@ -12,9 +12,9 @@
    :feedback_c: Neither the accumulator nor iterator variable are clear enough. The accumulator variable is better, but could be more clear.
    :correct: b
    :practice: T
-   :pct_on_first: 0.5456171735
-   :total_students_attempting: 1118
-   :num_students_correct: 1112.0
-   :mean_clicks_to_correct: 1.5980215827
+   :pct_on_first: 0.546023235
+   :total_students_attempting: 1119
+   :num_students_correct: 1113.0
+   :mean_clicks_to_correct: 1.5974842767
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

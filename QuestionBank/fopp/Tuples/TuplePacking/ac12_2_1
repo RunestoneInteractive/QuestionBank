@@ -6,19 +6,23 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.7635135135
+   :total_students_attempting: 444
+   :num_students_correct: 388.0
+   :mean_clicks_to_correct: 1.1546391753
 
    **2.** Create a tuple called ``practice`` that has four elements: 'y', 'h', 'z', and 'x'.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(practice, ('y','h','z','x'), "Testing that pratice value is assigned to correct value.")
-
+   
    myTests().main()

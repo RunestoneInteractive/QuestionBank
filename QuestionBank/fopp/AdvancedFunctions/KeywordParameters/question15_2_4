@@ -14,10 +14,10 @@
    :feedback_c: the default value for z is determined at the time the function is defined, not when it is invoked.
    :feedback_d: there's nothing wrong with reassigning the value of a variable at a later time.
    :practice: T
-   :pct_on_first: 0.6564885496
-   :total_students_attempting: 393
-   :num_students_correct: 387.0
-   :mean_clicks_to_correct: 1.4599483204
+   :pct_on_first: 0.6573604061
+   :total_students_attempting: 394
+   :num_students_correct: 388.0
+   :mean_clicks_to_correct: 1.4587628866
 
    What value will be printed for z?
    

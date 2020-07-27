@@ -7,19 +7,23 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3563928351
+   :total_students_attempting: 1619
+   :num_students_correct: 1146.0
+   :mean_clicks_to_correct: 2.6352530541
 
    Count the number of characters in string ``str1``. Do not use ``len()``. Save the number in variable ``numbs``.
    ~~~~
    str1 = "I like nonsense, it wakes up the brain cells. Fantasy is a necessary ingredient in living."
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testEight(self):
          self.assertEqual(numbs, 90, "Testing that numbs is assigned to correct values.")
          self.assertNotIn("len(", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

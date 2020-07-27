@@ -11,10 +11,10 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/Aliasing
-   :pct_on_first: 0.7669270833
-   :total_students_attempting: 768
-   :num_students_correct: 761.0
-   :mean_clicks_to_correct: 1.2417871222
+   :pct_on_first: 0.7672301691
+   :total_students_attempting: 769
+   :num_students_correct: 762.0
+   :mean_clicks_to_correct: 1.2414698163
 
    Could aliasing cause potential confusion in this problem?
    

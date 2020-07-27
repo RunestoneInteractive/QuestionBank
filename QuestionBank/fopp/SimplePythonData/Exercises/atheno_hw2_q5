@@ -5,11 +5,15 @@
    :topic: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 0.0277777778
+   :total_students_attempting: 36
+   :num_students_correct: 12.0
+   :mean_clicks_to_correct: 5.9166666667
 
    Write a program to accept an integer ``num`` as the input and output a boolean value to determine whether it is an odd number or not.
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

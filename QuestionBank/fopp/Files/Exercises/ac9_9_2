@@ -4,19 +4,23 @@
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: T
-   :nocodelens:
+   :nocodelens: 
    :available_files: travel_plans.txt
+   :pct_on_first: 0.1855010661
+   :total_students_attempting: 469
+   :num_students_correct: 339.0
+   :mean_clicks_to_correct: 6.1474926254
 
    Create a list called ``destination`` using the data stored in ``travel_plans.txt``. Each element of the list should contain a line from the file that lists a country and cities inside that country. Hint: each line that has this information also has a colon ``:`` in it.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFour(self):
          self.assertEqual(destination, ['Italy: Rome\n', 'Greece: Athens\n', 'England: London, Manchester\n', 'France: Paris, Nice, Lyon\n', 'Spain: Madrid, Barcelona, Granada\n', 'Austria: Vienna\n'], "Testing that destination is assigned to correct values.")
-
+   
    myTests().main()

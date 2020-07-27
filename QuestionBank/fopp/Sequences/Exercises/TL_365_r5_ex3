@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1454545455
+   :total_students_attempting: 110
+   :num_students_correct: 55.0
+   :mean_clicks_to_correct: 2.9636363636
 
    Given the list in activecode below use list indexing to print the
    type of the 4th element ('lights') and 7th element ('1') of
@@ -13,7 +17,7 @@
    you expected? Did you expect '1' to be an integer? Now do the same
    for ls2. You notice that now you get a different result. Compare
    and analyze why.
-
+   
    ~~~~
    ls1 = ['who', 'world', 'run', 'lights', '?', 'girls', '1', 'sea']
    #your code here
@@ -21,18 +25,18 @@
    ls2 = ['who', 'world', 'run', 'lights', '?', 'girls', 1, 'sea']
    #your code here
    #your code here
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
        def testOne(self): 
            output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
-	   self.assertEqual(output[0], str(type(ls1[3])), 'Checking first line')
-	   self.assertEqual(output[1], str(type(ls1[6])), 'Checking second line')
-	   self.assertEqual(output[2], str(type(ls2[3])), 'Checking third line')
-	   self.assertEqual(output[3], str(type(ls2[6])), 'Checking fourth line')
-	   #self.assertFalse(re.search(r'(int|str)', '\n'.join(editor)), 'Checking for hardcoding')
+    editor = self.getEditorText().split('\n')
+    self.assertEqual(output[0], str(type(ls1[3])), 'Checking first line')
+    self.assertEqual(output[1], str(type(ls1[6])), 'Checking second line')
+    self.assertEqual(output[2], str(type(ls2[3])), 'Checking third line')
+    self.assertEqual(output[3], str(type(ls2[6])), 'Checking fourth line')
+    #self.assertFalse(re.search(r'(int|str)', '\n'.join(editor)), 'Checking for hardcoding')
    myTests().main()

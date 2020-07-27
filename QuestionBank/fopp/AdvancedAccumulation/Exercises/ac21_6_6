@@ -4,21 +4,25 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.4893617021
+   :total_students_attempting: 47
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.8461538462
 
    Write a function called positives_Fil that receives list of things as the input and returns a list of only the positive things, [3, 5, 7], using the filter function.
    ~~~~
-
+   
    things = [3, 5, -4, 7]
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            things = [3, 5, -4, 7]
            self.assertEqual(positives_Fil(things), [3, 5, 7], "Testing whether positives_Fil has been correctly defined.")
            self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

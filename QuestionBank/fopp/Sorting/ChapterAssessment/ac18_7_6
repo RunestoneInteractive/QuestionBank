@@ -8,22 +8,26 @@
    :autograde: unittest
    :practice: T
    :topics: Sorting/Optionalkeyparameter
+   :pct_on_first: 0.446969697
+   :total_students_attempting: 132
+   :num_students_correct: 123.0
+   :mean_clicks_to_correct: 4.325203252
 
    Create a function called ``last_four`` that takes in a single ID number and returns the last four digits. For example, the number 17573005 should return 3005. Then, use the resulting function to sort the list of ids stored in the variable, ``ids``, from lowest to highest. Save this sorted list in the variable, ``sorted_ids``. Hint: Remember that only strings can be indexed, so conversions may be needed.
    ~~~~
-
+   
    def last_four(x):
-
-
+   
+   
    ids = [17573005, 17572342, 17579000, 17570002, 17572345, 17579329]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFour(self):
          self.assertEqual(sorted_ids, sorted(ids, key = last_four), "Testing that sorted_ids is assigned to correct values.")
-
+   
    myTests().main()

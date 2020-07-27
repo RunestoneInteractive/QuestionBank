@@ -8,21 +8,25 @@
     :autograde: unittest
     :practice: T
     :topics: TransformingSequences/MutatingMethods
+    :pct_on_first: 0.7469553451
+    :total_students_attempting: 739
+    :num_students_correct: 621.0
+    :mean_clicks_to_correct: 1.230273752
 
     Write code to add 'Guadalajara' to the end of the list ``trav_dest`` using a list method.
     ~~~~
     trav_dest = ['Beirut', 'Milan', 'Pittsburgh', 'Buenos Aires', 'Nairobi', 'Kathmandu', 'Osaka', 'Melbourne']
-
-
+    
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
       def test_output(self):
         self.assertEqual(trav_dest, ['Beirut', 'Milan', 'Pittsburgh', 'Buenos Aires', 'Nairobi', 'Kathmandu', 'Osaka', 'Melbourne', 'Guadalajara'], "Testing that trav_dest is set correctly.")
         self.assertNotIn('+', self.getEditorText(), "Testing that you are not using concatenation (+).")
         self.assertIn('.', self.getEditorText(), "Testing that a method invocation was used in your code.")
-
+    
     myTests().main()

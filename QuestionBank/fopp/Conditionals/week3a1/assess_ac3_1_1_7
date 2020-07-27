@@ -7,6 +7,10 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.77696793
+   :total_students_attempting: 686
+   :num_students_correct: 673.0
+   :mean_clicks_to_correct: 1.3194650817
 
    We have written conditionals for you to use. Create the variable x and assign it some integer so that at the end of the code, ``output`` will be assigned the string ``"Consistently working"``.
    ~~~~
@@ -20,16 +24,16 @@
        output = "Forever working"
    else:
        output = "Consistently working"
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(output, "Consistently working", "Testing the value of output")
       def testTwo(self):
          self.assertIn(x, [7,8,9,10,11,12], "Testing that x was assigned a correct number" )
-
+   
    myTests().main()

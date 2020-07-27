@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.3757961783
+   :total_students_attempting: 157
+   :num_students_correct: 101.0
+   :mean_clicks_to_correct: 2.2673267327
 
    Get the user to enter some text, save it to a variable called
    ``user_input``, and print out True if it's a palindrome, False
@@ -20,6 +24,6 @@
    import re
    class myTests(TestCaseGui):
        def testOne(self):
-	   self.assertTrue(re.search(str(user_input[::-1]==user_input), self.getOutput()), 'Checking answer.')
-	   
+    self.assertTrue(re.search(str(user_input[::-1]==user_input), self.getOutput()), 'Checking answer.')
+    
    myTests().main()

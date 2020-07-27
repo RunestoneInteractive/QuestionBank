@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2815884477
+   :total_students_attempting: 1108
+   :num_students_correct: 800.0
+   :mean_clicks_to_correct: 3.035
 
    **13.** Write a function called ``s_change`` that takes one string as input and returns that string, concatenated with the string " for fun.".
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(s_change("Coding"), "Coding for fun." ,"Testing the function s_change with input coding")
          self.assertEqual(s_change("We go to the beach"), "We go to the beach for fun." , "Testing the function s_change with input We go to the beach")
-
+   
    myTests().main()

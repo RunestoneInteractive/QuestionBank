@@ -12,10 +12,10 @@
    :feedback_b: There are 2 o characters but what about p?
    :feedback_c: Yes, add the number of o characters and the number of p characters.
    :practice: T
-   :pct_on_first: 0.8045222465
-   :total_students_attempting: 1371
-   :num_students_correct: 1364.0
-   :mean_clicks_to_correct: 1.2551319648
+   :pct_on_first: 0.804664723
+   :total_students_attempting: 1372
+   :num_students_correct: 1365.0
+   :mean_clicks_to_correct: 1.2549450549
 
    What is printed by the following statements?
    

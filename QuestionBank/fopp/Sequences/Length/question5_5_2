@@ -10,10 +10,10 @@
    :feedback_a: len returns the actual number of items in the list, not the maximum index value.
    :feedback_b: Yes, there are 5 items in this list.
    :practice: T
-   :pct_on_first: 0.8503717472
-   :total_students_attempting: 2152
-   :num_students_correct: 2149.0
-   :mean_clicks_to_correct: 1.1568171242
+   :pct_on_first: 0.8505106778
+   :total_students_attempting: 2154
+   :num_students_correct: 2151.0
+   :mean_clicks_to_correct: 1.1566713157
 
    What is printed by the following statements?
    

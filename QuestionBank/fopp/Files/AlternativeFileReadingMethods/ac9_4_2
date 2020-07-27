@@ -6,20 +6,24 @@
    :from_source: T
    :available_files: travel_plans2.txt
    :language: python
-   :nocodelens:
+   :nocodelens: 
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3977777778
+   :total_students_attempting: 1350
+   :num_students_correct: 1011.0
+   :mean_clicks_to_correct: 2.1384767557
 
    2. Find the number of lines in the file, ``travel_plans2.txt``, and assign it to the variable ``num_lines``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testTwo(self):
          self.assertEqual(num_lines, 11, "Testing that num_lines is assigned to correct value.")
-
+   
    myTests().main()

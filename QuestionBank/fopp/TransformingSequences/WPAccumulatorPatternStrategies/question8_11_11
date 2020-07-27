@@ -14,9 +14,9 @@
    :feedback_d: Correct, because this prompt does not require an accumulator pattern
    :correct: d
    :practice: T
-   :pct_on_first: 0.2767462423
-   :total_students_attempting: 1131
-   :num_students_correct: 1120.0
-   :mean_clicks_to_correct: 2.4821428571
+   :pct_on_first: 0.277385159
+   :total_students_attempting: 1132
+   :num_students_correct: 1121.0
+   :mean_clicks_to_correct: 2.4808206958
 
    What type should be used for the accumulator variable in the following prompt? Write code to print out each character of the string ``my_str`` on a separate line.

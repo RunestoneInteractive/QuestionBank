@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :available_files: emotion_words.txt
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.4706744868
+   :total_students_attempting: 682
+   :num_students_correct: 519.0
+   :mean_clicks_to_correct: 2.5722543353
 
    **Challenge:** Create a list called ``emotions`` that contains the first word of every line in ``emotion_words.txt``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(emotions, ['Sad', 'Angry', 'Happy', 'Confused', 'Excited', 'Scared', 'Nervous'], "Testing that emotions was created correctly.")
-
+   
    myTests().main()

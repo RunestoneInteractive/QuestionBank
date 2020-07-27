@@ -12,10 +12,10 @@
    :feedback_b: Close, but round to the number of digits and display the full number of digits specified.
    :feedback_c: Yes, correct number of digits with rounding!
    :practice: T
-   :pct_on_first: 0.5011372252
-   :total_students_attempting: 1319
-   :num_students_correct: 1310.0
-   :mean_clicks_to_correct: 1.6503816794
+   :pct_on_first: 0.5015151515
+   :total_students_attempting: 1320
+   :num_students_correct: 1311.0
+   :mean_clicks_to_correct: 1.6498855835
 
    
    What is printed by the following statements?

@@ -7,20 +7,24 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.5503144654
+   :total_students_attempting: 318
+   :num_students_correct: 267.0
+   :mean_clicks_to_correct: 1.7752808989
 
    **1.** Below, we have provided a list of lists. Use indexing to assign the element 'horse' to the variable name ``idx1``.
-
+   
    ~~~~
-
+   
    animals = [['cat', 'dog', 'mouse'], ['horse', 'cow', 'goat'], ['cheetah', 'giraffe', 'rhino']]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(idx1, 'horse', "Testing that idx1 was assigned correctly.")
-
+   
    myTests().main()

@@ -8,19 +8,23 @@
    :autograde: unittest
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithLists
+   :pct_on_first: 0.6246105919
+   :total_students_attempting: 642
+   :num_students_correct: 532.0
+   :mean_clicks_to_correct: 1.6221804511
 
    For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.
    ~~~~
    wrds = ["end", 'work', "play", "start", "walk", "look", "open", "rain", "learn", "clean"]
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(past_wrds, ["ended", 'worked', "played", "started", "walked", "looked", "opened", "rained", "learned", "cleaned"], "Testing that past_wrds has the correct value." )
          self.assertIn('for ', self.getEditorText(), "Testing that your code uses a for loop.")
-
-
+   
+   
    myTests().main()

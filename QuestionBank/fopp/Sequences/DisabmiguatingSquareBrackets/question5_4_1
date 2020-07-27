@@ -15,9 +15,9 @@
    :feedback_d: Yes, this will using indexing to get the value of the first element of a.
    :correct: d
    :practice: T
-   :pct_on_first: 0.3480565371
-   :total_students_attempting: 2264
-   :num_students_correct: 2227.0
-   :mean_clicks_to_correct: 2.4616075438
+   :pct_on_first: 0.3483443709
+   :total_students_attempting: 2265
+   :num_students_correct: 2228.0
+   :mean_clicks_to_correct: 2.460951526
 
    Which of the following correctly uses indexing? Assume that ``a`` is a list or string. Select as many as apply.

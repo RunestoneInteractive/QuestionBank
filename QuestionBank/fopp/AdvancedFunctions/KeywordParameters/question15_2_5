@@ -14,10 +14,10 @@
    :feedback_c: Yes, the keyword parameters will determine the order of the strings.
    :feedback_d: This is not an error, you can do that in Python!
    :practice: T
-   :pct_on_first: 0.6744791667
-   :total_students_attempting: 384
-   :num_students_correct: 380.0
-   :mean_clicks_to_correct: 1.4789473684
+   :pct_on_first: 0.6727272727
+   :total_students_attempting: 385
+   :num_students_correct: 381.0
+   :mean_clicks_to_correct: 1.4803149606
 
    What value will be printed below?
    

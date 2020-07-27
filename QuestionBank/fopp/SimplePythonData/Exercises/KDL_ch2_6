@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.4886363636
+   :total_students_attempting: 88
+   :num_students_correct: 61.0
+   :mean_clicks_to_correct: 1.6393442623
 
    Create a variable named ``carname`` and assign the value 
    ``Honda`` to it. Then print how many characters ``carname`` 

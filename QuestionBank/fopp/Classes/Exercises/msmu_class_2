@@ -5,13 +5,17 @@
     :topic: Classes/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.0392156863
+    :total_students_attempting: 51
+    :num_students_correct: 34.0
+    :mean_clicks_to_correct: 4.1176470588
 
     Consider the class below. Write the main part of the program that asks the users for input and uses those inputs to create a new instance of ``User`` and store it in variable ``new_user``.
-
+    
     1. Ask for the user's username and assign to variable `username`
-
+    
     2. Ask for the user's email and assign it to variable `email`
-
+    
     3. Ask for the user's year of birth and store it in variable `yob`
     
     4. Create a new object with those value the user provided. Assign the new object to variable `new_user`
@@ -21,14 +25,14 @@
           self.username = username
           self.email = email
           self.YOB = YOB
-
+    
     #your code here   
           
     
     ====
     from unittest.gui import TestCaseGui
     import re    
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             pattern1 = r'(input\(.+\))'

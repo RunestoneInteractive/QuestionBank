@@ -4,25 +4,29 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.3658536585
+   :total_students_attempting: 41
+   :num_students_correct: 35.0
+   :mean_clicks_to_correct: 2.6857142857
 
    Write a function that takes a list of numbers and returns the sum of the squares of all the numbers. Try it using map and sum.
    ~~~~
-
+   
    def sumSquares(L):
        return None
-
+   
    nums = [3, 2, 2, -1, 1]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(sumSquares(nums), 19, "Testing whether sumSquares has been correctly defined.")
            self.assertIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

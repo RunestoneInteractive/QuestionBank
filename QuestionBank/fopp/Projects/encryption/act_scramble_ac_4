@@ -4,6 +4,10 @@
     :basecourse: fopp
     :topic: Projects/encryption
     :from_source: T
+    :pct_on_first: 0.4196428571
+    :total_students_attempting: 448
+    :num_students_correct: 365.0
+    :mean_clicks_to_correct: 2.6465753425
 
     Now write a program program that will decrypt the ciphertext.  Store your decrypted message in the variable plaintext.
     ~~~~
@@ -12,10 +16,10 @@
     ciphertext = 'hz qftcqumfqfzxcxcdqscqhz qf mqfzxcxcdquxhzqmllqzxfqaxdzh'
     ====
     from unittest.gui import TestCaseGui
-
+    
     class MyTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(plaintext, 'the sun was shining on the sea shining with all his might')
-
+    
     MyTests().main()

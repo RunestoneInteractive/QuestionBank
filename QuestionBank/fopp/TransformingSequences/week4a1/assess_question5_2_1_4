@@ -18,9 +18,9 @@
    :feedback_e: At least one of the answers above is a good name for an iterator variable.
    :practice: T
    :topics: TransformingSequences/WPAccumulatorPatternStrategies
-   :pct_on_first: 0.4825174825
-   :total_students_attempting: 715
-   :num_students_correct: 703.0
-   :mean_clicks_to_correct: 1.9815078236
+   :pct_on_first: 0.4832402235
+   :total_students_attempting: 716
+   :num_students_correct: 704.0
+   :mean_clicks_to_correct: 1.9801136364
 
    Which of these are good names for an iterator (loop) variable? Select as many as apply.

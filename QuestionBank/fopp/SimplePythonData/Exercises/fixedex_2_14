@@ -5,10 +5,14 @@
    :topic: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 0.2272727273
+   :total_students_attempting: 44
+   :num_students_correct: 19.0
+   :mean_clicks_to_correct: 2.3157894737
 
    Ask the user for the temperature in Fahrenheit and store it in a variable call ``deg_f``. Calculate the equivalent temperature in degrees Celsius and store it in ``deg_c``. Output a message to the user giving the temperature in Celsius.
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

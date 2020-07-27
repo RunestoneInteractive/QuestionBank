@@ -8,17 +8,21 @@
    :autograde: unittest
    :practice: T
    :topics: Iteration/TraversalandtheforLoopByIndex
+   :pct_on_first: 0.4583821805
+   :total_students_attempting: 853
+   :num_students_correct: 705.0
+   :mean_clicks_to_correct: 2.3446808511
 
    Write code to create a list of numbers from 0 to 67 and assign that list to the variable ``nums``. Do not hard code the list.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(nums, range(68), "Testing that nums is a list that contains the correct elements.")
-
+   
    myTests().main()

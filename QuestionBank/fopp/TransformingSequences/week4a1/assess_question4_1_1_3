@@ -15,9 +15,9 @@
    :correct: c
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.8502793296
-   :total_students_attempting: 895
-   :num_students_correct: 890.0
-   :mean_clicks_to_correct: 1.2191011236
+   :pct_on_first: 0.8504464286
+   :total_students_attempting: 896
+   :num_students_correct: 891.0
+   :mean_clicks_to_correct: 1.2188552189
 
    Which method is best to use when adding an item to the end of a list?

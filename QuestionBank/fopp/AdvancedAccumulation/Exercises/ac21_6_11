@@ -4,22 +4,26 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.3720930233
+   :total_students_attempting: 43
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.8918918919
 
    Write a function called ``longlengths`` that returns the lengths of those strings that have at least 4 characters. Try it with a list comprehension.
    ~~~~
-
+   
    def longlengths(strings):
        return None
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(longlengths(["Hello", "hi", "bye", "wonderful"]), [5, 9], "Testing whether longlengths has been correctly defined.")
            self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

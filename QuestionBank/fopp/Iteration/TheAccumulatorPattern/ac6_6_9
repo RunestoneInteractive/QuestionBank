@@ -6,18 +6,22 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.4202898551
+   :total_students_attempting: 138
+   :num_students_correct: 119.0
+   :mean_clicks_to_correct: 2.5294117647
 
    For each number in ``lst_nums``, multiply that number by 2 and append it to a new list called ``larger_nums``.
    ~~~~
    lst_nums = [4, 29, 5.3, 10, 2, 1817, 1967, 9, 31.32]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(larger_nums, [8, 58, 10.6, 20, 4, 3634, 3934, 18, 62.64], "Testing that larger_nums has been created correctly." )
-
+   
    myTests().main()

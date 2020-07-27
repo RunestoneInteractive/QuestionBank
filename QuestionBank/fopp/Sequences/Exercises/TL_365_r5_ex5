@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.0084033613
+   :total_students_attempting: 119
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 15.6578947368
 
    Create a string representing a quote from the first black woman in
    space Mae Jemison. She said: "We look at science as something very
@@ -14,24 +18,24 @@
    or down, to expectations." Now use the split function to split this
    quote into four pieces based on the occurrence of the period
    punctuation and print each piece in order and one at a time.
-
+   
    ~~~~
-
-
+   
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
        def testOne(self): 
            quote = "We look at science as something very elite, which only a few people can learn. That's just not true. You just have to start early and give kids a foundation. Kids live up, or down, to expectations."
-	   sentences = quote.split('.')
+    sentences = quote.split('.')
            output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
-	   # There should be a blank line printed at the end because
-	   # of the period at the end of the quote.  However, it is hard
-	   # to test for this.
+    editor = self.getEditorText().split('\n')
+    # There should be a blank line printed at the end because
+    # of the period at the end of the quote.  However, it is hard
+    # to test for this.
            for i, (sentence, line) in enumerate(zip(sentences, output)):
-	       self.assertEqual(line, sentence, 'Checking line '+str(i))
-	   self.assertFalse(re.search(r'print.*(' + '|'.join(sentences[:-1]) + ')', '\n'.join(editor)), 'Checking for hardcoding')
+        self.assertEqual(line, sentence, 'Checking line '+str(i))
+    self.assertFalse(re.search(r'print.*(' + '|'.join(sentences[:-1]) + ')', '\n'.join(editor)), 'Checking for hardcoding')
    myTests().main()

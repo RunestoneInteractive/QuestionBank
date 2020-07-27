@@ -6,21 +6,25 @@
    :from_source: F
    :language: python
    :autograde: unittest
-	   
+   :pct_on_first: 0.3174603175
+   :total_students_attempting: 63
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 5.2
+
    Write a function called ``add_2x`` than takes a list of numbers and
    adds 2 times the last number to the end.  The function should
    not return anything. Instead, it should modify the list in-place.  
    
    E.g., for input list
-  
+   
    .. code:: python
-	     
+      
       lst = [4, 5, 6]
       
    the list
    
    .. code:: python
-	     
+      
       [4, 5, 6, 12]
       
    ~~~~
@@ -29,17 +33,17 @@
    import math
    class myTests(TestCaseGui):
        def testOne(self):
-	     def _add_2x(lst):
-	         lst+=[lst[-1]*2]
-		 
-	     def test_add_2x(lst):
-		 _lst = lst[:] 
-		 lst_ref = lst[:]
-		 self.assertEqual(add_2x(lst), _add_2x(_lst), 'Checking output')
-		 self.assertEqual(lst[:-1], lst_ref, 'Checking that the original elements haven\'t changed for '+str(lst_ref))
-		 self.assertAlmostEqual(lst[-1], _lst[-1], 7, 'Checking new element for '+str(lst_ref))
-		 
-	     test_add_2x([4, 5, 6])
-	     test_add_2x([-1, -2, -3, -4])
-	     
+      def _add_2x(lst):
+          lst+=[lst[-1]*2]
+   
+      def test_add_2x(lst):
+   _lst = lst[:] 
+   lst_ref = lst[:]
+   self.assertEqual(add_2x(lst), _add_2x(_lst), 'Checking output')
+   self.assertEqual(lst[:-1], lst_ref, 'Checking that the original elements haven\'t changed for '+str(lst_ref))
+   self.assertAlmostEqual(lst[-1], _lst[-1], 7, 'Checking new element for '+str(lst_ref))
+   
+      test_add_2x([4, 5, 6])
+      test_add_2x([-1, -2, -3, -4])
+      
    myTests().main()

@@ -5,9 +5,13 @@
     :topic: Tuples/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.125
+    :total_students_attempting: 88
+    :num_students_correct: 49.0
+    :mean_clicks_to_correct: 5.5918367347
 
     The dictionary **majors** contains major codes as the key and major names as the value.
-
+    
     Write a function named find_major() that takes one parameter, a major code. If the major code exists in **majors**, your function should return a tuple where the first value is the major code and the second is the name of the major. If the major code doesn't exist, return a tuple where the first value is ``None`` and the second is a string containing ``Error``.
     
     Print the name of the major with code 3084.
@@ -19,11 +23,11 @@
                 3068: 'Biometric Systems Engineering'}
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
            self.assertEqual(find_major(3084),(3084, "Computer Science"),"Computer Science is the associated major name")
            self.assertEqual(find_major(0),(None,"Error"), "Major code 0 should return Error")
-
+    
     myTests().main()

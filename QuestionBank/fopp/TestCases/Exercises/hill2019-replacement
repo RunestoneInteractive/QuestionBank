@@ -5,16 +5,20 @@
    :topic: TestCases/Exercises
    :from_source: F
    :autograde: unittest
-   :nocodelens:
+   :nocodelens: 
    :language: python
    :nopair: 
+   :pct_on_first: 0.0
+   :total_students_attempting: 9
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 28.0
 
    The following code is supposed to replace the first names in the list ``first_names`` with the more formal names in the list ``formal_names``
-
+   
    For instance, ``formalizer("Scott talked to Janet about Coelina.")`` should return ``Dr. Hill talked to Dr. Salzwedel about Ms. Byers.``
-
+   
    There are four errors with this code: fix those errors so the code runs properly. Hint: you do not need to delete any of the code that is given; you only need to add to it.
-
+   
    ~~~~
    def formalizer(sent):
        first_names=["Scott","Janet","Coelina","Greg"]
@@ -24,13 +28,13 @@
    print(formalizer("Scott talked to Janet about Coelina."))
    
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):           
         def testOne(self):
             self.assertEqual(formalizer("Scott talked to Janet about Coelina."),"Dr. Hill talked to Dr. Salzwedel about Ms. Byers.","The example given")
             self.assertTrue (formalizer("Greg and Scott")=="Dr. Thompson and Dr. Hill","Another example")
         
-
+   
    myTests().main()

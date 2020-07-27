@@ -10,10 +10,10 @@
    :feedback_a: Every else-block must have exactly one corresponding if-block.  If you want to chain if-else statements together, you must use the else if construct, described in the chained conditionals section.
    :feedback_b: This will cause an error because the second else-block is not attached to a corresponding if-block.
    :practice: T
-   :pct_on_first: 0.6480637813
-   :total_students_attempting: 1756
-   :num_students_correct: 1735.0
-   :mean_clicks_to_correct: 1.357925072
+   :pct_on_first: 0.6476949345
+   :total_students_attempting: 1757
+   :num_students_correct: 1736.0
+   :mean_clicks_to_correct: 1.3582949309
 
    Will the following code cause an error?
    

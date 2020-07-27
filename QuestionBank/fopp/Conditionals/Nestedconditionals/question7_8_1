@@ -10,10 +10,10 @@
    :feedback_a: This is a legal nested if-else statement.  The inner if-else statement is contained completely within the body of the outer else-block.
    :feedback_b: This is a legal nested if-else statement.  The inner if-else statement is contained completely within the body of the outer else-block.
    :practice: T
-   :pct_on_first: 0.8079027356
-   :total_students_attempting: 1645
-   :num_students_correct: 1638.0
-   :mean_clicks_to_correct: 1.1978021978
+   :pct_on_first: 0.8080194411
+   :total_students_attempting: 1646
+   :num_students_correct: 1639.0
+   :mean_clicks_to_correct: 1.1976815131
 
    Will the following code cause an error?
    

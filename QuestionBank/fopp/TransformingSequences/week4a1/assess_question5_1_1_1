@@ -15,10 +15,10 @@
    :feedback_d: Yes, this is the accumulator variable. By the end of the program, it will have a full count of how many items are in byzo.
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithStrings
-   :pct_on_first: 0.5446194226
-   :total_students_attempting: 762
-   :num_students_correct: 758.0
-   :mean_clicks_to_correct: 1.8469656992
+   :pct_on_first: 0.5452162516
+   :total_students_attempting: 763
+   :num_students_correct: 759.0
+   :mean_clicks_to_correct: 1.8458498024
 
    Which of these is the accumulator variable?
    

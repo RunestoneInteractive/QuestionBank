@@ -5,6 +5,10 @@
    :topic: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 0.173553719
+   :total_students_attempting: 121
+   :num_students_correct: 55.0
+   :mean_clicks_to_correct: 3.3636363636
 
    Write code to determine how many times "West Virginia" appears in the lyrics to Country Roads. Store the number in a variable named **country_roads_times**.
    ~~~~
@@ -41,13 +45,13 @@
    Take me home, down country roads
    Take me home, down country roads
    """
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(country_roads_times,5,"West Virginia appears 5 times")
-
+   
    myTests().main()

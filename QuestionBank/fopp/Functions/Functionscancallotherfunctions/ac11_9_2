@@ -8,24 +8,28 @@
    :autograde: unittest
    :practice: T
    :topics: Functions/Functionscancallotherfunctions
+   :pct_on_first: 0.4571428571
+   :total_students_attempting: 35
+   :num_students_correct: 28.0
+   :mean_clicks_to_correct: 1.6428571429
 
    **1.** Write two functions, one called ``addit`` and one called ``mult``. ``addit`` takes one number as an input and adds 5. ``mult`` takes one number as an input, and multiplies that input by whatever is returned by ``addit``, and then returns the result.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(mult(1), 6,"Testing the function mult with input 1 (should be 6)")
          self.assertEqual(mult(-2), -6, "Testing the function mult with input -2 (should be -6)")
          self.assertEqual(mult(0), 0, "Testing the function mult with input 0 (should be 0)")
-
+   
       def testTwo(self):
          self.assertEqual(addit(1), 6, "Testing the function addit with input 1 (should be 6)")
          self.assertEqual(addit(-2), 3, "Testing the function addit with input -2 (should be 3)")
          self.assertEqual(addit(0), 5, "Testing the function addit with input 0 (should be 5)")
-
+   
    myTests().main()

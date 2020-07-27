@@ -14,9 +14,9 @@
    :feedback_d: Incorrect, we will need an accumulator variable.
    :correct: c
    :practice: T
-   :pct_on_first: 0.7071240106
-   :total_students_attempting: 1137
-   :num_students_correct: 1128.0
-   :mean_clicks_to_correct: 1.4689716312
+   :pct_on_first: 0.7073813708
+   :total_students_attempting: 1138
+   :num_students_correct: 1129.0
+   :mean_clicks_to_correct: 1.4685562445
 
    What type should be used for the accumulator variable in the following prompt? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.6666666667
+   :total_students_attempting: 3
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 1.3333333333
 
    Write a program that does the following: (1) prompts the user for a name, 
    (2) stores the name provided by the user in a variable called ``name``, and then 

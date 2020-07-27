@@ -15,9 +15,9 @@
    :correct: d
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.8043243243
-   :total_students_attempting: 925
-   :num_students_correct: 920.0
-   :mean_clicks_to_correct: 1.3413043478
+   :pct_on_first: 0.8045356371
+   :total_students_attempting: 926
+   :num_students_correct: 921.0
+   :mean_clicks_to_correct: 1.3409337676
 
    Which method would you use to figure out the position of an item in a list?

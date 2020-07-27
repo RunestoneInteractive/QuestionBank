@@ -5,10 +5,14 @@
    :topic: SimplePythonData/Exercises
    :from_source: T
    :autograde: unittest
+   :pct_on_first: 0.5682451253
+   :total_students_attempting: 1077
+   :num_students_correct: 951.0
+   :mean_clicks_to_correct: 1.7549947424
 
    Add parentheses to the expression ``6 * 1 - 2`` to change its value from 4 to -6.
    ~~~~
-
+   
    print(6 * 1 -2)
    ====
    from unittest.gui import TestCaseGui

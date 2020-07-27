@@ -6,15 +6,19 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.0
+   :total_students_attempting: 30
+   :num_students_correct: 15.0
+   :mean_clicks_to_correct: 13.3333333333
 
    Write a function ``sortandseperate`` that takes a list with mixed type and divides it into sub lists by type. A list with sorted strings and a list with sorted numbers, and a list of lists (don't need to sort...). For example ['rat',8,'dog',10,11,[5],3,['cat']] would become [['dog','rat'],[3,8,10,11],[[5],['cat']].
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            def _sortandseperate(l):
                 list_list=[]
@@ -37,6 +41,6 @@
            self.assertEqual(sortandseperate(['one','two','three']), _sortandseperate(['one','two','three']), 'sorts strings')
            self.assertEqual(sortandseperate([11,11.5,12]), _sortandseperate([11,11.5,12]), 'sorts numbers (both ints and floats)')
            self.assertEqual(sortandseperate(tlist), _sortandseperate(tlist), 'full function works')
-
+   
          
    myTests().main()

@@ -4,6 +4,10 @@
     :basecourse: fopp
     :topic: Sequences/IndexOperatorWorkingwiththeCharactersofaString
     :from_source: T
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 2.0
 
     prices = (1.99, 2.00, 5.50, 20.95, 100.98)
     print(prices[0])

@@ -14,9 +14,9 @@
    :feedback_c: The value is not numeric with a decimal point.
    :feedback_d: Strings can be enclosed in single quotes.
    :practice: T
-   :pct_on_first: 0.8615015427
-   :total_students_attempting: 2917
-   :num_students_correct: 2908.0
-   :mean_clicks_to_correct: 1.2204264099
+   :pct_on_first: 0.8615490062
+   :total_students_attempting: 2918
+   :num_students_correct: 2909.0
+   :mean_clicks_to_correct: 1.220350636
 
    What is the data type of 'this is what kind of data'?

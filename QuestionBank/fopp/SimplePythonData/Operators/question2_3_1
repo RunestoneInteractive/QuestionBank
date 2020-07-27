@@ -16,10 +16,10 @@
    :feedback_d: / performs exact division, without truncation
    :feedback_e: / does division. Perhaps you were thinking of %, which computes the remainder?
    :practice: T
-   :pct_on_first: 0.8662564767
-   :total_students_attempting: 3088
-   :num_students_correct: 3076.0
-   :mean_clicks_to_correct: 1.2373211964
+   :pct_on_first: 0.865976044
+   :total_students_attempting: 3089
+   :num_students_correct: 3077.0
+   :mean_clicks_to_correct: 1.2375690608
 
    What value is printed when the following statement executes?
    

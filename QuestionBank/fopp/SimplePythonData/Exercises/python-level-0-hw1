@@ -5,10 +5,14 @@
    :topic: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    The degree Fahrenheit (symbol: °F) is widely used in the USA. However, Noah's Dad is more used to the degree Celsius (symbol: °C). Help Noah's Dad to write a program to conver degree Fahrenheit to degree Celsius. You can do your own research for the conversion formula. You program should: 1. Ask the user for the temperature in Fahrenheit and store it in a variable called ``fahrenheit``. 2. Calculate the equivalent temperature in degrees Celsius and store it in a variable called ``celsius``. 3. Output a message to the user giving the temperature in Celsius.
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

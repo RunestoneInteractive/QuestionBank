@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :available_files: travel_plans.txt
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.5519877676
+   :total_students_attempting: 654
+   :num_students_correct: 507.0
+   :mean_clicks_to_correct: 1.7041420118
 
    Assign the first 33 characters from the textfile, ``travel_plans.txt`` to the variable ``first_chars``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFive(self):
          self.assertEqual(first_chars, "This summer I will be travelling.", "Testing that first_chars is assigned to correct value.")
-
+   
    myTests().main()

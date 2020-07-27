@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.4166666667
+   :total_students_attempting: 24
+   :num_students_correct: 21.0
+   :mean_clicks_to_correct: 4.8095238095
 
    Functions are also objects.  This means that we can pass function
    object as a parameter to another function. For example, we will
@@ -13,17 +17,17 @@
    a list. This function looks like:
    
    .. code:: python
-	     
+      
       def apply_to_each(func, lst_in):
           lst_out = []
           for elem in lst_in:
-	      lst_out.append(func(elem))
-	  return lst_out
-	  
+       lst_out.append(func(elem))
+   return lst_out
+   
    We can then specify a list and a function to apply to it:
    
    .. code:: python
-	     
+      
       nums = [1, 2, 3]
       
       def square(x):
@@ -32,7 +36,7 @@
    Finally, we can apply ``square`` to each element of ``nums``.
    
    .. code:: python
-	     
+      
       print( apply_to_each(square, nums) )
       
    Notice that there are no arguments or parentheses for ``square``;
@@ -64,11 +68,11 @@
                return x**2
            def mystery(x):
                return x**2/(1+x)
-
+   
            def _eval_delta(func, x, dx):
-	       return func(x-dx), func(x), func(x+dx)
-	   xs = [-1.5, 1, 4.73]
-	   dxs = [.1, 0.5, 3.14159]
+        return func(x-dx), func(x), func(x+dx)
+    xs = [-1.5, 1, 4.73]
+    dxs = [.1, 0.5, 3.14159]
            for x, dx in zip(xs, dxs):
                result = eval_delta(square, x, dx)
                _result = _eval_delta(square, x, dx)

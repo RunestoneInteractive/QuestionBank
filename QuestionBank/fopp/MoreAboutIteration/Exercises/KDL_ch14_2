@@ -6,20 +6,24 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.4915254237
+   :total_students_attempting: 59
+   :num_students_correct: 43.0
+   :mean_clicks_to_correct: 1.976744186
 
    Request a user input an string ``s``, use a while loop to keep looping until the value entered contains the word "stop" or "end". This should re-ask each loop.
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            
             self.assertTrue('end' in s or 'stop' in s, "Makes sure final s has keyword")
             self.assertIn('while', self.getEditorText(), 'Contains while')
-
+   
            
    myTests().main()

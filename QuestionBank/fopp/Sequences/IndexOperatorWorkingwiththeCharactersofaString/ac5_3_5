@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.5844835792
+   :total_students_attempting: 2101
+   :num_students_correct: 1666.0
+   :mean_clicks_to_correct: 1.5852340936
 
    Assign the value of the 23rd element of ``l`` to the variable ``checking``.
    ~~~~
    l = ("hi", "goodbye", "python", "106", "506", 91, ['all', 'Paul', 'Jackie', "UMSI", 1, "Stephen", 4.5], 109, "chair", "pizza", "wolverine", 2017, 3.92, 1817, "account", "readings", "papers", 12, "facebook", "twitter", 193.2, "snapchat", "leaders and the best", "social", "1986", 9, 29, "holiday", ["women", "olympics", "gold", "rio", 21, "2016", "men"], "26trombones")
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(checking, "leaders and the best", "Testing that checking has the correct element assigned.")
-
+   
    myTests().main()

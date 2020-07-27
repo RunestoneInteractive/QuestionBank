@@ -6,8 +6,12 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.0993377483
+   :total_students_attempting: 151
+   :num_students_correct: 84.0
+   :mean_clicks_to_correct: 1.9761904762
 
-
+   
    Consider the code given to you below. It iterates through a list of 5 integers, and appends them to a list. Run the code first and see the result. 
    Now, by only modifying line 3 change the code to instead of just adding an element to the list, it adds each number multiplied by two.
    ~~~~
@@ -21,5 +25,5 @@
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual('[2, 4, 6, 8, 10]\n', self.getOutput(), 'Checking output.')
-	  
+   
    myTests().main()

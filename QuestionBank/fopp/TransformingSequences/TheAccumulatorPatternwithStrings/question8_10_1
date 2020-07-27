@@ -12,10 +12,10 @@
    :feedback_b: Each character is converted to upper case but the order is wrong.
    :feedback_c: Yes, the order is reversed due to the order of the concatenation.
    :practice: T
-   :pct_on_first: 0.2313030069
-   :total_students_attempting: 1297
-   :num_students_correct: 1287.0
-   :mean_clicks_to_correct: 1.9541569542
+   :pct_on_first: 0.2311248074
+   :total_students_attempting: 1298
+   :num_students_correct: 1288.0
+   :mean_clicks_to_correct: 1.9541925466
 
    What is printed by the following statements:
    

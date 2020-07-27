@@ -6,22 +6,26 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.7472826087
+   :total_students_attempting: 368
+   :num_students_correct: 302.0
+   :mean_clicks_to_correct: 1.0993377483
 
    With only one line of code, assign four variables, ``v1``, ``v2``, ``v3``, and ``v4``, to the following four values: 1, 2, 3, 4.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(v1, 1, "Testing that v1 was assigned correctly.")
          self.assertEqual(v2, 2, "Testing that v2 was assigned correctly.")
          self.assertEqual(v3, 3, "Testing that v3 was assigned correctly.")
          self.assertEqual(v4, 4, "Testing that v4 was assigned correctly.")
-
+   
    myTests().main()

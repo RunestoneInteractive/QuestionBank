@@ -6,26 +6,30 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.4829931973
+   :total_students_attempting: 147
+   :num_students_correct: 110.0
+   :mean_clicks_to_correct: 1.8545454545
 
    **1.** Write code to assign to the variable ``filter_testing`` all the elements in lst_check that have a w in them using filter.
    ~~~~
-
+   
    lst_check = ['plums', 'watermelon', 'kiwi', 'strawberries', 'blueberries', 'peaches', 'apples', 'mangos', 'papaya']
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(filter_testing, ['watermelon', 'kiwi', 'strawberries'], "Testing that filter_testing has the correct values.")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
-
+   
+   
    myTests().main()

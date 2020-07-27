@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3118167621
+   :total_students_attempting: 1921
+   :num_students_correct: 1464.0
+   :mean_clicks_to_correct: 2.493852459
 
    Create a new list of the 6th through 13th elements of ``lst`` (eight items in all) and assign it to the variable ``output``.
    ~~~~
    lst = ["swimming", 2, "water bottle", 44, "lollipop", "shine", "marsh", "winter", "donkey", "rain", ["Rio", "Beijing", "London"], [1,2,3], "gold", "bronze", "silver", "mathematician", "scientist", "actor", "actress", "win", "cell phone", "leg", "running", "horse", "socket", "plug", ["Phelps", "le Clos", "Lochte"], "drink", 22, "happyfeet", "penguins"]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFour(self):
          self.assertEqual(output, lst[5:13], "Testing that output value is assigned to correct value.")
-
+   
    myTests().main()

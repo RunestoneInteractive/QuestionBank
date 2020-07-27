@@ -16,10 +16,10 @@
    :feedback_d: 10 is the second value passed, but it is bound to z, not y.
    :feedback_e: That's the beauty of passing parameters with keywords; you can skip some parameters and they get their default values.
    :practice: T
-   :pct_on_first: 0.7225
-   :total_students_attempting: 400
-   :num_students_correct: 395.0
-   :mean_clicks_to_correct: 1.4202531646
+   :pct_on_first: 0.72319202
+   :total_students_attempting: 401
+   :num_students_correct: 396.0
+   :mean_clicks_to_correct: 1.4191919192
 
    What value will be printed for y?
    

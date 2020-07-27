@@ -6,18 +6,22 @@
     :from_source: T
     :practice: T
     :topics: Conditionals/TheAccumulatorPatternwithConditionals
-    :nocodelens:
+    :nocodelens: 
+    :pct_on_first: 0.6256038647
+    :total_students_attempting: 414
+    :num_students_correct: 344.0
+    :mean_clicks_to_correct: 1.7936046512
 
     Provided is a list of numbers. For each of the numbers in the list, determine whether they are odd. If the number is odd, add ``True`` to a new list called ``is_odd``. If the number is even, then add ``False``.
     ~~~~
     num_lst = [3, 20, -1, 9, 10]
-
-
+    
+    
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertEqual(is_odd, [True, False, True, True, False],"Testing that is_odd is set correctly.")
-
+    
     myTests().main()

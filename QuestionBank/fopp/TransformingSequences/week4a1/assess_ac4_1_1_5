@@ -8,20 +8,24 @@
     :autograde: unittest
     :practice: T
     :topics: TransformingSequences/MutatingMethods
+    :pct_on_first: 0.7302631579
+    :total_students_attempting: 760
+    :num_students_correct: 631.0
+    :mean_clicks_to_correct: 1.2282091918
 
     Write code to take 'London' out of the list ``trav_dest``.
     ~~~~
     trav_dest = ['Beirut', 'Milan', 'Pittsburgh', 'Buenos Aires', 'Nairobi', 'Kathmandu', 'Osaka', 'London', 'Melbourne']
-
-
+    
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
       def test_output(self):
         self.assertEqual(trav_dest, ['Beirut', 'Milan', 'Pittsburgh', 'Buenos Aires', 'Nairobi', 'Kathmandu', 'Osaka', 'Melbourne'], "Testing that trav_dest is set correctly.")
         self.assertTrue('.remove(' in self.getEditorText() or '.pop(' in self.getEditorText(), "Testing that a method invocation was used in your code.")
-
+    
     myTests().main()

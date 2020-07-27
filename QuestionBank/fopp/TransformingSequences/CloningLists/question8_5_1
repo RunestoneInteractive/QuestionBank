@@ -12,10 +12,10 @@
    :feedback_b: blist is changed, not alist.
    :feedback_c: Yes, alist was unchanged by the assignment statement. blist was a copy of the references in alist.
    :practice: T
-   :pct_on_first: 0.3340277778
-   :total_students_attempting: 1440
-   :num_students_correct: 1428.0
-   :mean_clicks_to_correct: 2.0056022409
+   :pct_on_first: 0.334257975
+   :total_students_attempting: 1442
+   :num_students_correct: 1430.0
+   :mean_clicks_to_correct: 2.0055944056
 
    What is printed by the following statements?
    

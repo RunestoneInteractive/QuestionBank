@@ -6,21 +6,25 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.6155844156
+   :total_students_attempting: 385
+   :num_students_correct: 290.0
+   :mean_clicks_to_correct: 1.4172413793
 
    **5.** Below, we have provided a list of tuples. Write a for loop that saves the second element of each tuple into a list called ``seconds``.
    ~~~~
-
+   
    tups = [('a', 'b', 'c'), (8, 7, 6, 5), ('blue', 'green', 'yellow', 'orange', 'red'), (5.6, 9.99, 2.5, 8.2), ('squirrel', 'chipmunk')]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(seconds, ['b', 7, 'green', 9.99, 'chipmunk'], "Testing that seconds was created correctly.")
-
+   
    myTests().main()

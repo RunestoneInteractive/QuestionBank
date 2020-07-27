@@ -4,21 +4,25 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.5
+   :total_students_attempting: 44
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.7567567568
 
    Write a function called positives_Acc that receives list of numbers as the input (like [3, -1, 5, 7]) and returns a list of only the positive numbers, [3, 5, 7], via manual accumulation.
    ~~~~
-
+   
    things = [3, 5, -4, 7]
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            things = [3, 5, -4, 7]
            self.assertEqual(positives_Acc(things), [3, 5, 7], "Testing whether positives_Acc has been correctly defined.")
            self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

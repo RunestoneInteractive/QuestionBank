@@ -7,34 +7,38 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.5555555556
+   :total_students_attempting: 1089
+   :num_students_correct: 1003.0
+   :mean_clicks_to_correct: 1.9232303091
 
    We have created conditionals for you to use. Do not change the provided conditional statements. Find an integer value for ``x`` that will cause ``output`` to hold the values ``True`` and ``None``. (Drawing diagrams or flow charts for yourself may help!)
    ~~~~
    x =
    output = []
-
+   
    if x > 63:
        output.append(True)
    elif x > 55:
        output.append(False)
    else:
        output.append("Neither")
-
+   
    if x > 67:
        output.append(True)
    else:
        output.append(None)
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testSixA(self):
          self.assertEqual(output, [True, None], "Testing that value of output is correct.")
-
+   
       def testSixB(self):
          self.assertEqual(x in [64, 65, 66, 67], True, "Testing that value of x is reasonable for this problem")
-
+   
    myTests().main()

@@ -6,16 +6,20 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.1538461538
+   :total_students_attempting: 13
+   :num_students_correct: 10.0
+   :mean_clicks_to_correct: 3.4
 
    A palindrome is a number, word or text phrase that reads the same backwards or forwards. For example, each of the following five-digit integers is a palindrome: 12321, 55555, 45554 and 11611. Write a script that requests the user for an input, ``in_string`` and determines whether it’s a palindrome. Use a for loop to flip the string, ``out_string`` , and then use an if statement to check if it's a palindrome. Print a statement if it is a palindrome.
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            
            self.assertTrue(out_string==in_string[::-1],feedback="String successfully flipped")

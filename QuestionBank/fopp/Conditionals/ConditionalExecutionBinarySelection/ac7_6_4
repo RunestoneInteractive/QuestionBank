@@ -7,21 +7,25 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.5751231527
+   :total_students_attempting: 1624
+   :num_students_correct: 1278.0
+   :mean_clicks_to_correct: 1.510172144
 
    Create a variable, ``b``, and assign it the value of ``15``. Then, write code to see if the value ``b`` is greater than that of ``a``. If it is, ``a``'s value should be multiplied by 2. If the value of ``b`` is less than or equal to ``a``, nothing should happen. Finally, create variable ``c`` and assign it the value of the sum of ``a`` and ``b``.
    ~~~~
    a = 20
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testTwoA(self):
          self.assertEqual(a, 20, "Testing that a has the correct value.")
-
+   
       def testTwoB(self):
          self.assertEqual(c, 35, "Testing that c has the correct value.")
-
+   
    myTests().main()

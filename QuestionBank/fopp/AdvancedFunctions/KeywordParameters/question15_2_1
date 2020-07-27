@@ -16,10 +16,10 @@
    :feedback_d: 2 is bound x, 5 to y, and z gets its default value, 7
    :feedback_e: z has a default value in the function definition, so it's optional to pass a value for it.
    :practice: T
-   :pct_on_first: 0.7925925926
-   :total_students_attempting: 405
-   :num_students_correct: 399.0
-   :mean_clicks_to_correct: 1.3483709273
+   :pct_on_first: 0.7906403941
+   :total_students_attempting: 406
+   :num_students_correct: 400.0
+   :mean_clicks_to_correct: 1.35
 
    What value will be printed for z?
    

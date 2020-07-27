@@ -7,19 +7,23 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3066666667
+   :total_students_attempting: 300
+   :num_students_correct: 200.0
+   :mean_clicks_to_correct: 3.335
 
    **4.** Sort the following dictionary's keys based on the value from highest to lowest. Assign the resulting value to the variable ``sorted_values``.
    ~~~~
-
+   
    dictionary = {"Flowers": 10, 'Trees': 20, 'Chairs': 6, "Firepit": 1, 'Grill': 2, 'Lights': 14}
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sorted_values, sorted(dictionary, key=lambda x: dictionary[x], reverse = True), "Testing that sorted_values has the correct value.")
-
+   
    myTests().main()

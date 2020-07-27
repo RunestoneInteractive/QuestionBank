@@ -6,30 +6,34 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.6323529412
+   :total_students_attempting: 136
+   :num_students_correct: 133.0
+   :mean_clicks_to_correct: 2.0676691729
 
    The formula for computing the final amount if one is earning
    compound interest is given on Wikipedia as
-
+   
    .. math:: A = P\left(1+\frac{r}{n}\right)^{nt}.
-
+   
    Write a Python program that assigns the principal amount of 10000 to
    variable :math:`P`, assign to :math:`n` the value 12, and assign to :math:`r` the interest
    rate of 8% (0.08).  Then have the program prompt the user for the number of years,
    :math:`t`, that the money will be compounded for.  Calculate and print the final
    amount after :math:`t` years.
    ~~~~
-
+   
    P = 10000
    n = 12
    r = 0.08
-
+   
    t = ??
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
        def testOne(self):
-	   self.assertTrue(re.search(str(P * (1 + (r/n))**(n*t))[:5], self.getOutput()), 'Checking Answer.')
+    self.assertTrue(re.search(str(P * (1 + (r/n))**(n*t))[:5], self.getOutput()), 'Checking Answer.')
    myTests().main()

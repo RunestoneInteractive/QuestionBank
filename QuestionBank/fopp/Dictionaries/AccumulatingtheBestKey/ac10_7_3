@@ -7,20 +7,24 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2609170306
+   :total_students_attempting: 916
+   :num_students_correct: 517.0
+   :mean_clicks_to_correct: 2.8549323017
 
    **5.** Create a dictionary called ``lett_d`` that keeps track of all of the characters in the string ``product`` and notes how many times each character was seen. Then, find the key with the highest value in this dictionary and assign that key to ``max_value``.
    ~~~~
    product = "iphone and android phones"
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sorted(lett_d.items()), sorted([('h', 2), ('a', 2), (' ', 3), ('n', 4), ('d', 3), ('o', 3), ('i', 2), ('p', 2), ('e', 2), ('r', 1), ('s', 1)]), "Testing that lett_d has been created correctly.")
       def testTwo(self):
          self.assertEqual(max_value, "n", "Testing that max_value has been correctly assigned")
-
+   
    myTests().main()

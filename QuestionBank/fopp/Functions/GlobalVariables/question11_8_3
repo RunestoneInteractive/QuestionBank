@@ -11,9 +11,9 @@
    :feedback_a: While there is no problem as far as Python is concerned, it is generally considered bad style because of the potential for the programmer to get confused.
    :feedback_b: it is generally considered bad style because of the potential for the programmer to get confused.  If you must use global variables (also generally bad form) make sure they have unique names.
    :feedback_c: Python manages global and local scope separately and has clear rules for how to handle variables with the same name in different scopes, so this will not cause a Python error.
-   :pct_on_first: 0.6709265176
-   :total_students_attempting: 1252
-   :num_students_correct: 1239.0
-   :mean_clicks_to_correct: 1.392251816
+   :pct_on_first: 0.6703910615
+   :total_students_attempting: 1253
+   :num_students_correct: 1240.0
+   :mean_clicks_to_correct: 1.3927419355
 
    Can you use the same name for a local variable as a global variable?

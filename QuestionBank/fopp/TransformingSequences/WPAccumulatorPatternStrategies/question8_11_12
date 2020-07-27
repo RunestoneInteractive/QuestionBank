@@ -12,9 +12,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.6185840708
-   :total_students_attempting: 1130
-   :num_students_correct: 1121.0
-   :mean_clicks_to_correct: 1.5343443354
+   :pct_on_first: 0.6189213086
+   :total_students_attempting: 1131
+   :num_students_correct: 1122.0
+   :mean_clicks_to_correct: 1.5338680927
 
    What sequence will you iterate through as you accumulate a result in the following prompt? Write code to print out each character of the string ``my_str`` on a separate line.

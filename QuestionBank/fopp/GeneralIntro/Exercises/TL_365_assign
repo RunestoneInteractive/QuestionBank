@@ -6,7 +6,11 @@
    :from_source: F
    :language: python
    :autograde: unittest
-	       
+   :pct_on_first: 0.888372093
+   :total_students_attempting: 215
+   :num_students_correct: 202.0
+   :mean_clicks_to_correct: 1.0544554455
+
    Assign the value ``5`` to a variable called ``a``. 
    ~~~~
    ====

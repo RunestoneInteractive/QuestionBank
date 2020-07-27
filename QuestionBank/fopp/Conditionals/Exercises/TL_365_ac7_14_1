@@ -6,11 +6,15 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.3
+   :total_students_attempting: 100
+   :num_students_correct: 59.0
+   :mean_clicks_to_correct: 3.1355932203
 
    Create a list called ``grades`` that contains for the letter grade for each score in the list ``scores`` according to the table
-
+   
    .. table::
-
+   
       =======   =====
       Score     Grade
       =======   =====
@@ -20,7 +24,7 @@
       [60-70)   D
       < 60      F
       =======   =====
-
+   
    The square and round brackets denote closed and open intervals.  A
    closed interval includes the number, and open interval excludes
    it. So 79.99999 gets grade C , but 80 gets grade B.
@@ -35,37 +39,37 @@
    import math
    class myTests(TestCaseGui):
        def testOne(self):
-	   output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
-	   float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
-	   _grades=[]
+    output = self.getOutput().split('\n')
+    editor = self.getEditorText().split('\n')
+    float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
+    _grades=[]
            for score in scores:
-	       _score = float(score)
-	       if _score >= 90:
-	  	   _grades.append('A')
-	       elif _score >= 80:
-		   _grades.append('B')
-	       elif _score >= 70:
-		   _grades.append('C')
-	       elif _score >= 60:
-		   _grades.append('D')
-	       else:
-		   _grades.append('F')
-
-	   self.assertEqual(grades, _grades)
-	   # hardcode check
-	   # LOOK FOR IF STATEMENTS
-	   outer_ifs = re.findall(r'^(if .*: *)$', self.getEditorText(), re.M)
-	   outer_elifs = re.findall(r'^(elif .*: *)$', self.getEditorText(), re.M)
-	   outer_elses = re.findall(r'^(else *: *)$', self.getEditorText(), re.M)
-	   inner_ifs = re.findall(r'^( +if .*: *)$', self.getEditorText(), re.M)
-	   inner_elifs = re.findall(r'^( +elif .*: *)$', self.getEditorText(), re.M)
-	   inner_elses = re.findall(r'^( +else *: *)$', self.getEditorText(), re.M)
-	   self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
-	                   len(inner_ifs)==1 and len(inner_elifs)==3 and len(inner_elses)==1, 
-			   'Checking if-statements')
-	   # LOOK FOR for STATEMENTS
-	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
-	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
-	   self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements')
+        _score = float(score)
+        if _score >= 90:
+   	   _grades.append('A')
+        elif _score >= 80:
+     _grades.append('B')
+        elif _score >= 70:
+     _grades.append('C')
+        elif _score >= 60:
+     _grades.append('D')
+        else:
+     _grades.append('F')
+   
+    self.assertEqual(grades, _grades)
+    # hardcode check
+    # LOOK FOR IF STATEMENTS
+    outer_ifs = re.findall(r'^(if .*: *)$', self.getEditorText(), re.M)
+    outer_elifs = re.findall(r'^(elif .*: *)$', self.getEditorText(), re.M)
+    outer_elses = re.findall(r'^(else *: *)$', self.getEditorText(), re.M)
+    inner_ifs = re.findall(r'^( +if .*: *)$', self.getEditorText(), re.M)
+    inner_elifs = re.findall(r'^( +elif .*: *)$', self.getEditorText(), re.M)
+    inner_elses = re.findall(r'^( +else *: *)$', self.getEditorText(), re.M)
+    self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
+                    len(inner_ifs)==1 and len(inner_elifs)==3 and len(inner_elses)==1, 
+      'Checking if-statements')
+    # LOOK FOR for STATEMENTS
+    outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
+    inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
+    self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements')
    myTests().main()

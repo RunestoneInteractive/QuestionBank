@@ -8,20 +8,24 @@
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/intro-Dictionaries
+   :pct_on_first: 0.7030411449
+   :total_students_attempting: 559
+   :num_students_correct: 431.0
+   :mean_clicks_to_correct: 1.1577726218
 
    Add the string "hockey" as a key to the dictionary ``sports_periods`` and assign it the value of 3. Do not rewrite the entire dictionary.
    ~~~~
-
+   
    sports_periods = {'baseball': 9, 'basketball': 4, 'soccer': 4, 'cricket': 2}
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sorted(sports_periods.items()), sorted([('baseball', 9), ("basketball", 4), ('soccer', 4), ('cricket', 2), ('hockey', 3)]), "Testing that sports_period was created correctly.")
-
-
+   
+   
    myTests().main()

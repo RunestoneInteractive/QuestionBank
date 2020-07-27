@@ -6,12 +6,16 @@
    :from_source: F
    :language: python
    :autograde: unittest
-	    
-	       
+   :pct_on_first: 0.0618556701
+   :total_students_attempting: 97
+   :num_students_correct: 30.0
+   :mean_clicks_to_correct: 7.0333333333
+
+        
    The average monthly rainfall in inches recorded at the Van Nuys Airport for
    2018 is stored in the ``rainfall`` variable provided below.
    Using a loop, calculate and print out the
-
+   
    1. total,
       
    2. mean, and
@@ -19,14 +23,14 @@
    3. standard deviation,
       
    each on a separate line.
-
+   
    The standard deviation is given by
-
+   
    .. math::
       \sigma = \sqrt{\frac{1}{N-1}\sum_{i=1}^N (x_i - \bar{x})^2 },
-
+   
    where :math:`\bar{x}` is the mean.
-
+   
    Do not use the ``sum()`` function. You should calculate all three values using two loops.
    ~~~~
    
@@ -38,21 +42,21 @@
    class myTests(TestCaseGui):
        def testOne(self):
            output = self.getOutput().split('\n')
-	   total = sum(rainfall)
-	   mean = total/len(rainfall)
-	   sum_sq = 0
-	   for value in rainfall:
-	       sum_sq += (value - mean)**2
-	   stdev = (sum_sq/(len(rainfall)-1))**0.5
-	   self.assertAlmostEqual(float(output[0]), total, 7, 'Checking total')
-	   self.assertAlmostEqual(float(output[1]), mean, 7, 'Checking mean')
-	   self.assertAlmostEqual(float(output[2]), stdev, 7, 'Checking standard deviation')
-	   
-	   # hardcode check
-	   float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
-	   print_float_re = r'print\( *'+float_re+' *\)'
-	   self.assertFalse(re.search(print_float_re, self.getEditorText()), 'Checking for hardcoding')
-	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
-	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
-	   self.assertTrue(len(outer_loops)==2 and len(inner_loops)==0, 'Checking for-statements')
+    total = sum(rainfall)
+    mean = total/len(rainfall)
+    sum_sq = 0
+    for value in rainfall:
+        sum_sq += (value - mean)**2
+    stdev = (sum_sq/(len(rainfall)-1))**0.5
+    self.assertAlmostEqual(float(output[0]), total, 7, 'Checking total')
+    self.assertAlmostEqual(float(output[1]), mean, 7, 'Checking mean')
+    self.assertAlmostEqual(float(output[2]), stdev, 7, 'Checking standard deviation')
+    
+    # hardcode check
+    float_re = r'[-+]?(\d+(\.\d*)?|\.\d+)([eE][-+]?\d+)?'
+    print_float_re = r'print\( *'+float_re+' *\)'
+    self.assertFalse(re.search(print_float_re, self.getEditorText()), 'Checking for hardcoding')
+    outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
+    inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
+    self.assertTrue(len(outer_loops)==2 and len(inner_loops)==0, 'Checking for-statements')
    myTests().main()

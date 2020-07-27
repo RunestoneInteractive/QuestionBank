@@ -14,7 +14,7 @@
    :match_7: process7(img)|||Converts image to high contrast - black and white only
    :match_8: process8(img)|||Lightens image
    :match_9: process9(img)|||Darkens image
-   :pct_on_first: 0.2044444444
-   :total_students_attempting: 1350
+   :pct_on_first: 0.2042931162
+   :total_students_attempting: 1351
    :num_students_correct: 910.0
    :mean_clicks_to_correct: 8.3373626374

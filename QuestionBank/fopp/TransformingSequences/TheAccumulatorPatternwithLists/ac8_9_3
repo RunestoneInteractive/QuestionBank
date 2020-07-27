@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.6336206897
+   :total_students_attempting: 1160
+   :num_students_correct: 908.0
+   :mean_clicks_to_correct: 1.3513215859
 
    Given the list of numbers, ``numbs``, create a new list of those same numbers increased by 5. Save this new list to the variable ``newlist``.
    ~~~~
    numbs = [5, 10, 15, 20, 25]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFour(self):
          self.assertEqual(newlist, [10, 15, 20, 25, 30], "Testing that the newlist value contains the correct elements.")
-
+   
    myTests().main()

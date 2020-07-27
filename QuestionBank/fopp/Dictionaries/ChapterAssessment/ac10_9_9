@@ -8,17 +8,21 @@
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/AccumulatingResultsFromaDictionary
+   :pct_on_first: 0.6429809359
+   :total_students_attempting: 577
+   :num_students_correct: 445.0
+   :mean_clicks_to_correct: 1.2943820225
 
    The dictionary ``Junior`` shows a schedule for a junior year semester. The key is the course name and the value is the number of credits. Find the total number of credits taken this semester and assign it to the variable ``credits``. Do not hardcode this -- use dictionary accumulation!
    ~~~~
    Junior = {'SI 206':4, 'SI 310':4, 'BL 300':3, 'TO 313':3, 'BCOM 350':1, 'MO 300':3}
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(credits, 18, "Testing that credits is assigned to correct values")
-
+   
    myTests().main()

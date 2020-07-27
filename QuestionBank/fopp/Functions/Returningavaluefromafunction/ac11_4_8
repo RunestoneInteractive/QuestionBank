@@ -7,17 +7,21 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.1567425569
+   :total_students_attempting: 1142
+   :num_students_correct: 774.0
+   :mean_clicks_to_correct: 5.2906976744
 
    **12.** Write a function named ``intro`` that takes a string as input. Given the string "Becky" as input, the function should return: "Hello, my name is Becky and I love SI 106."
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(intro("Mike"), "Hello, my name is Mike and I love SI 106.", "Testing the intro function on input 'Mike'.")
-
+   
    myTests().main()

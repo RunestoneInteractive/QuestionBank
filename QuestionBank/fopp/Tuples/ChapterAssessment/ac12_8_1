@@ -6,20 +6,24 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
    :topics: Tuples/TuplePacking
+   :pct_on_first: 0.7422680412
+   :total_students_attempting: 291
+   :num_students_correct: 264.0
+   :mean_clicks_to_correct: 1.2954545455
 
    Create a tuple called ``olympics`` with four elements: "Beijing", "London", "Rio", "Tokyo".
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(olympics, ('Beijing', 'London', 'Rio', 'Tokyo'), "Testing that olympics is assigned to correct values")
-
+   
    myTests().main()

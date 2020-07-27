@@ -4,23 +4,27 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.7555555556
+   :total_students_attempting: 45
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 1.1282051282
 
    Define longwords using a list comprehension.
    ~~~~
-
+   
    def longwords_Li_Comp(strings):
        """Return a shorter list of strings containing only the strings with more than four characters. Use a list comprehension."""
        # write your code here
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
         def testOne(self):
             self.assertEqual(longwords_Li_Comp(["Hello", "hi", "bye", "wonderful"]), ["Hello", "wonderful"], "Testing whether longwords_Li_Comp has been correctly defined.")
             self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
             self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

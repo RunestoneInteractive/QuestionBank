@@ -7,21 +7,25 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.9510869565
+   :total_students_attempting: 184
+   :num_students_correct: 179.0
+   :mean_clicks_to_correct: 1.0223463687
 
    Below is a function, ``sum``, that does not work. Change the function definition so the code works. The function should still have a required parameter, ``intx``, and an optional parameter, ``intz`` with a defualt value of 5.
    ~~~~
-
+   
    def sum(intz=5, intx):
        return intz + intx
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(sum(8, intz = 2), 10, "Testing the function sum on inputs 8, 2.")
          self.assertEqual(sum(12), 17, "Testing the function sum on input 12.")
-
+   
    myTests().main()

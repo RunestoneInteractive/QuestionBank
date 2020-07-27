@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.4384615385
+   :total_students_attempting: 130
+   :num_students_correct: 84.0
+   :mean_clicks_to_correct: 1.4166666667
 
    We can represent a matrix in Python as a ``list`` of ``list`` s.
    We do this by creating a ``list`` in which each element is another
@@ -20,22 +24,22 @@
    can be represented in Python as
    
    .. code:: python
-	     
+      
       a = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]
-
+   
    Because Python will automatically continue lines with an ones
    parenthesis or bracket, we can also write it as
       
    .. code:: python
-	     
+      
       a = [ [1, 2, 3], 
             [4, 5, 6], 
-	    [7, 8, 9] ]
-
+     [7, 8, 9] ]
+   
    We can then access element in row and column format.  For example,
    
    .. code:: python
-	     
+      
       print(a[1][2])
       
    writes out::
@@ -45,14 +49,14 @@
    We can change values using the same approach. For example,
    
    .. code:: python
-	     
+      
       a[1][2] = 15
       print(a)
       
    writes out::
      
      [[1, 2, 3], [4, 5, 15], [7, 8, 9]]
-
+   
    In the code below, define the matrix 
    
    .. math::
@@ -72,11 +76,11 @@
        def testOne(self):  
            ref_mat = [ [17, 18, 19, 20],
                      [7, 8, 9, 10],
-		     [1.7e-5, 3.1, 4, 2],
+       [1.7e-5, 3.1, 4, 2],
                      [-7, -8, -9, -7] ]
-	   for i in range(len(ref_mat)):
-	       for j in range(len(ref_mat[i])):
-	           self.assertAlmostEqual(mat[i][j], ref_mat[i][j], 
-		       7, 
-		       'Checking element {:d} {:d}'.format(i, j))
+    for i in range(len(ref_mat)):
+        for j in range(len(ref_mat[i])):
+            self.assertAlmostEqual(mat[i][j], ref_mat[i][j], 
+         7, 
+         'Checking element {:d} {:d}'.format(i, j))
    myTests().main()

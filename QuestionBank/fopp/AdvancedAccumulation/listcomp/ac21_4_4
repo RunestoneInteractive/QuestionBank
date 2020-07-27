@@ -6,30 +6,34 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.5555555556
+   :total_students_attempting: 144
+   :num_students_correct: 118.0
+   :mean_clicks_to_correct: 1.5
 
    **2.** The for loop below produces a list of numbers greater than 10. Below the given code, use list comprehension to accomplish the same thing. Assign it the the variable ``lst2``. Only one line of code is needed.
    ~~~~
-
+   
    L = [12, 34, 21, 4, 6, 9, 42]
    lst = []
    for x in L:
        if x > 10:
            lst.append(x)
    print(lst)
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFourA(self):
          self.assertEqual(lst2, [12, 34, 21, 42], "Testing that lst2 is assigned to correct values")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

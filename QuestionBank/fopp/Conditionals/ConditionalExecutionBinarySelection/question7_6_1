@@ -14,9 +14,9 @@
    :feedback_c: Yes, a block must contain at least one statement and can have many statements.
    :feedback_d: The blocks may contain different numbers of statements.
    :practice: T
-   :pct_on_first: 0.6521017699
-   :total_students_attempting: 1808
-   :num_students_correct: 1798.0
-   :mean_clicks_to_correct: 1.4716351502
+   :pct_on_first: 0.6522940851
+   :total_students_attempting: 1809
+   :num_students_correct: 1799.0
+   :mean_clicks_to_correct: 1.471372985
 
    How many lines of code can appear in the indented code block below the if and else lines in a conditional?

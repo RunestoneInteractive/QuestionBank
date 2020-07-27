@@ -6,19 +6,23 @@
    :from_source: F
    :language: python
    :autograde: unittest
-	      
-   Use the double angle formula,
+   :pct_on_first: 0.1904761905
+   :total_students_attempting: 126
+   :num_students_correct: 53.0
+   :mean_clicks_to_correct: 3.5283018868
 
+   Use the double angle formula,
+   
    .. math::
       \sin(2\theta) = 2\sin(\theta)\cos(\theta),
-
+   
    to compute and print 
-
+   
    .. math::
       \sin(\pi/4)
-
+   
    ~~~~
-
+   
    ====
    
    from unittest.gui import TestCaseGui
@@ -26,8 +30,8 @@
    class myTests(TestCaseGui):
        def testOne(self):
            output = self.getOutput()
-	   editor = self.getEditorText()
+    editor = self.getEditorText()
            self.assertAlmostEqual(float(output), 2*math.sin(math.pi/8)*math.cos(math.pi/8), 7, 'Checking output')
-	   self.assertFalse(re.search(r'(0.70710|math.sin *\( *math.pi */ *4 *\))', editor), 'Checking for hardcoding')
-	   self.assertFalse(re.search(r'( *import *math *as| *from *math)', editor), 'Checking import statement')
+    self.assertFalse(re.search(r'(0.70710|math.sin *\( *math.pi */ *4 *\))', editor), 'Checking for hardcoding')
+    self.assertFalse(re.search(r'( *import *math *as| *from *math)', editor), 'Checking import statement')
    myTests().main()

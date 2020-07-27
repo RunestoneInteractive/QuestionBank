@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.5862068966
+   :total_students_attempting: 145
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 1.42
 
    Assign the value of the last character of 'lst' to the variable
    'output'. Do this so that the length of 'lst' doesn’t matter.
@@ -13,7 +17,7 @@
    lst = "It might seem crazy what I'm 'bout to say, Sunshine she's here, you can take a break"
    
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):

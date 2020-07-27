@@ -5,9 +5,13 @@
    :topic: Functions/Exercises
    :from_source: F
    :language: python
-   :nopair:
-   :nocodelens:
+   :nopair: 
+   :nocodelens: 
    :autograde: unittest
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Write a function named ``merge_strings`` that takes two
    parameters, both strings, and merges them into one,
@@ -19,8 +23,8 @@
    ``"Strings must be the same length"`` and return the empty
    string.
    ~~~~
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
    import re

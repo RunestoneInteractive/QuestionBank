@@ -16,10 +16,10 @@
    :feedback_e: Incorrect, Python can iterate over this type.
    :correct: c
    :practice: T
-   :pct_on_first: 0.4505494505
-   :total_students_attempting: 1638
-   :num_students_correct: 1633.0
-   :mean_clicks_to_correct: 2.1586037967
+   :pct_on_first: 0.4508846858
+   :total_students_attempting: 1639
+   :num_students_correct: 1634.0
+   :mean_clicks_to_correct: 2.1578947368
 
    What is the type of your iterable?
    

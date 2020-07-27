@@ -13,10 +13,10 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.546803653
-   :total_students_attempting: 876
-   :num_students_correct: 869.0
-   :mean_clicks_to_correct: 1.6168009206
+   :pct_on_first: 0.5473204105
+   :total_students_attempting: 877
+   :num_students_correct: 870.0
+   :mean_clicks_to_correct: 1.616091954
 
    Which of these is a correct reference diagram following the execution of the following code?
    

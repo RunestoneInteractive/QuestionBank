@@ -4,10 +4,10 @@
    :basecourse: fopp
    :topic: Iteration/Exercises
    :from_source: T
-   :pct_on_first: 0.6712765957
-   :total_students_attempting: 940
-   :num_students_correct: 921.0
-   :mean_clicks_to_correct: 1.5982627579
+   :pct_on_first: 0.66985138
+   :total_students_attempting: 942
+   :num_students_correct: 923.0
+   :mean_clicks_to_correct: 1.6013001083
 
    Write a program that will go through a list of temperatures and print them out to the user.
    -----

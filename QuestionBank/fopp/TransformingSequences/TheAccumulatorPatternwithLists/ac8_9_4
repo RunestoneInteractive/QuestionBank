@@ -7,19 +7,23 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.227027027
+   :total_students_attempting: 1110
+   :num_students_correct: 641.0
+   :mean_clicks_to_correct: 4.0655226209
 
    Given the list of numbers, ``numbs``, modifiy the list ``numbs`` so that each of the original numbers are increased by 5.  Note this is not an accumulator pattern problem, but its a good review.
    ~~~~
    numbs = [5, 10, 15, 20, 25]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testFive(self):
          self.assertEqual(numbs, [10, 15, 20, 25, 30], "Testing that numbs is assigned to correct values.")
          self.assertNotIn("append", self.getEditorText(), "Do not use append")
-
+   
    myTests().main()

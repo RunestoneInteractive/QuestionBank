@@ -6,18 +6,22 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.0067567568
+   :total_students_attempting: 148
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 14.4166666667
 
    Create a function ``translate`` that accepts a string and a dictionary and returns a string which is the translation of the original string. I've supplied an example string and dictionary the returned string would be "dia duit python mic leinn ta focloiri is spraiuil". If the word isn't in the dictionary return the original word.
    ~~~~
    string='hello python students dictionaries are fun'
    englishGaelic={'hello':'dia duit','python':'python','students':'mic leinn','dictionaries':'ta focloiri','are':'is','fun':'spraiuil'}
-
-
+   
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            song="one two three four five six"
            slist={'one': 1 , 'two': 2 , 'three': 3 , 'four': 4, 'five': 5, 'six': 6}
@@ -25,7 +29,7 @@
            self.assertEqual(translate('input',{'input':'word'}),"word","'input' should return 'word'")
            self.assertEqual(translate('output',{'input':'word'}),"output","'output' not in list")
            self.assertEqual(translate(song,slist),"1 2 3 4 5 6","Convert word numbers to integer numbers")
-
-
+   
+   
            
    myTests().main()

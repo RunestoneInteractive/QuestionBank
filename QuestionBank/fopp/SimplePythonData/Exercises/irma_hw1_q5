@@ -9,9 +9,9 @@
    :correct: b
    :feedback_a: No, variable name cannot use spaces, use _ instead.
    :feedback_b: Correct.
-   :pct_on_first: 0.8670212766
-   :total_students_attempting: 376
-   :num_students_correct: 375.0
-   :mean_clicks_to_correct: 1.136
+   :pct_on_first: 0.8677248677
+   :total_students_attempting: 378
+   :num_students_correct: 377.0
+   :mean_clicks_to_correct: 1.1352785146
 
    Variable names can contain spaces?

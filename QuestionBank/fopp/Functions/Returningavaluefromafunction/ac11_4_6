@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.6405337781
+   :total_students_attempting: 1199
+   :num_students_correct: 971.0
+   :mean_clicks_to_correct: 1.658084449
 
    **10.** Write a function called ``subtract_three`` that takes an integer or any number as input, and returns that number minus three.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(subtract_three(9), 6, "Testing the subtract_three function on input 9.")
          self.assertEqual(subtract_three(-5), -8, "Testing the subtract_three function on input -5.")
-
+   
    myTests().main()

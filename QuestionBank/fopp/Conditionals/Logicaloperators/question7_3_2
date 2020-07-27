@@ -11,9 +11,9 @@
    :correct: a
    :feedback_a: Correct! The comparison yesno[0] == 'Y' will crash if yesno is an empty string.
    :feedback_b: Incorrect. If len(yesno) > 0 is False, the potentially unsafe comparison yesno[0] == 'Y' will not be evaluated.
-   :pct_on_first: 0.6095238095
-   :total_students_attempting: 105
-   :num_students_correct: 102.0
+   :pct_on_first: 0.6074766355
+   :total_students_attempting: 107
+   :num_students_correct: 104.0
    :mean_clicks_to_correct: 1.5
 
    Which of the following may result in a crash at runtime if the user presses Enter without typing a response?

@@ -6,16 +6,20 @@
    :from_source: F
    :autograde: unittest
    :language: python
+   :pct_on_first: 0.0169491525
+   :total_students_attempting: 59
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Using the code from above, create a csv with the part_o_speech and part_count variables. They data should be comma separated and saved to a file named ``parts.csv`` 
    ~~~~
    
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            infilek = open("parts.csv", "r")
            val1=infilek.readline()

@@ -8,20 +8,24 @@
     :language: python
     :autograde: unittest
     :topics: SimplePythonData/FunctionCalls
+    :pct_on_first: 0.3989784336
+    :total_students_attempting: 1762
+    :num_students_correct: 1329.0
+    :mean_clicks_to_correct: 2.7306245297
 
     There is a function we are providing in for you in this problem called ``square``. It takes one integer and returns the square of that integer value. Write code to assign a variable called ``xyz`` the value ``5*5`` (five squared). Use the square function, rather than just multiplying with ``*``.
     ~~~~
     xyz = ""
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
         def testOne(self):
             self.assertEqual(type(xyz), type(3), "Checking type of xyz")
             self.assertEqual(xyz, 25, "Checking if xyz is 25")
             self.assertIn('square', self.getEditorText(), "Testing that 'square' is in your code. (Don't worry about Actual and Expected Values.)")
-
+    
     myTests().main()

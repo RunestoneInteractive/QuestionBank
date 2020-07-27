@@ -12,9 +12,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: b
    :practice: T
-   :pct_on_first: 0.5789473684
-   :total_students_attempting: 1159
-   :num_students_correct: 1149.0
-   :mean_clicks_to_correct: 1.5761531767
+   :pct_on_first: 0.5793103448
+   :total_students_attempting: 1160
+   :num_students_correct: 1150.0
+   :mean_clicks_to_correct: 1.5756521739
 
    What sequence will you iterate through as you accumulate a result in the following prompt? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

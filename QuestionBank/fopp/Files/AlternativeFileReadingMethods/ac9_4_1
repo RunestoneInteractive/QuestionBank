@@ -5,21 +5,25 @@
    :topic: Files/AlternativeFileReadingMethods
    :from_source: T
    :language: python
-   :nocodelens:
+   :nocodelens: 
    :autograde: unittest
    :practice: T
    :available_files: school_prompt2.txt
+   :pct_on_first: 0.2273351648
+   :total_students_attempting: 1456
+   :num_students_correct: 1039.0
+   :mean_clicks_to_correct: 4.2377285852
 
    1. Using the file ``school_prompt2.txt``, find the number of characters in the file and assign that value to the variable ``num_char``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(num_char, 537, "Testing that num_char has the correct value.")
-
+   
    myTests().main()

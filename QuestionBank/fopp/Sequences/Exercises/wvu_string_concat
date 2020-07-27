@@ -4,6 +4,10 @@
    :basecourse: fopp
    :topic: Sequences/Exercises
    :from_source: F
+   :pct_on_first: 0.2173913043
+   :total_students_attempting: 138
+   :num_students_correct: 64.0
+   :mean_clicks_to_correct: 3.734375
 
    We want to concatenate the elements of parts into a new variable named wv. Include spaces between each part.
    ~~~~
@@ -12,15 +16,15 @@
             "when 50 counties broke away from Virginia. Today there are",
             "55",
             "counties in the state."]
-
+   
    # Create a variable named wv containing the concatenated string
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(wv,"West Virginia was created in 1863 when 50 counties broke away from Virginia. Today there are 55 counties in the state.","Your string isn't concatenated as expected.")
-
+   
    myTests().main()

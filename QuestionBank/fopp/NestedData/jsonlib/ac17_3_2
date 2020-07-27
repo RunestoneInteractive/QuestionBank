@@ -5,13 +5,17 @@
     :topic: NestedData/jsonlib
     :from_source: T
     :language: python
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 2.0
 
     import json
     def pretty(obj):
         return json.dumps(obj, sort_keys=True, indent=2)
-
+    
     d = {'key1': {'c': True, 'a': 90, '5': 50}, 'key2':{'b': 3, 'c': "yes"}}
-
+    
     print(d)
     print('--------')
     print(pretty(d))

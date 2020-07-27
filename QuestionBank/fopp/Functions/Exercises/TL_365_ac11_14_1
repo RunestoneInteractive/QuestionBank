@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.3541666667
+   :total_students_attempting: 48
+   :num_students_correct: 33.0
+   :mean_clicks_to_correct: 2.2424242424
 
    Write a function named ``num_test`` that takes a number as
    input. If the number is greater than 10, the function should return
@@ -16,15 +20,15 @@
    ~~~~
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
      def testOne(self):
          self.assertEqual(num_test(5), "Less than 10.", "Testing the num_test function on input 5.")
          self.assertEqual(num_test(0), "Less than 10.", "Testing the num_test function on input 0.")
          self.assertEqual(num_test(12.99), "Greater than 10.", "Testing the num_test function on input 12.99.")
          self.assertEqual(num_test(10.00), "Equal to 10.", "Testing the num_test function on input 10.00.")
-
-
-
+   
+   
+   
    myTests().main()

@@ -7,20 +7,24 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2962962963
+   :total_students_attempting: 1188
+   :num_students_correct: 736.0
+   :mean_clicks_to_correct: 2.8016304348
 
    1. For each character in the string already saved in the variable ``str1``, add each character to a list called ``chars``.
    ~~~~
    str1 = "I love python"
    # HINT: what's the accumulator? That should go here.
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testTwo(self):
          self.assertEqual(chars, ['I', ' ', 'l', 'o', 'v', 'e', ' ', 'p', 'y', 't', 'h', 'o', 'n'], "Testing that chars is assigned to correct values.")
          self.assertIn('append', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

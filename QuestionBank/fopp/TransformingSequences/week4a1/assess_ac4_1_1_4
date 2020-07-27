@@ -8,20 +8,24 @@
     :practice: T
     :autograde: unittest
     :topics: TransformingSequences/MutatingMethods
+    :pct_on_first: 0.3469656992
+    :total_students_attempting: 758
+    :num_students_correct: 602.0
+    :mean_clicks_to_correct: 2.438538206
 
     Write code to add 'horseback riding' to the third position (i.e., right before volleyball) in the list ``sports``.
     ~~~~
     sports = ['cricket', 'football', 'volleyball', 'baseball', 'softball', 'track and field', 'curling', 'ping pong', 'hockey']
-
-
+    
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
       def test_output(self):
         self.assertEqual(sports, ['cricket', 'football', 'horseback riding', 'volleyball', 'baseball', 'softball', 'track and field', 'curling', 'ping pong', 'hockey'], "Testing that sports is set correctly.")
         self.assertIn('.insert(', self.getEditorText(), "Testing that insert was used in your code.")
-
+    
     myTests().main()

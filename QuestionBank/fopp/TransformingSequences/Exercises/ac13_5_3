@@ -4,20 +4,24 @@
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: T
+   :pct_on_first: 0.2918367347
+   :total_students_attempting: 490
+   :num_students_correct: 373.0
+   :mean_clicks_to_correct: 3.3431635389
 
    The module ``keyword`` determines if a string is a keyword. e.g. ``keyword.iskeyword(s)`` where ``s`` is a string will return either ``True`` or ``False``, depending on whether or not the string is a Python keyword. Import the ``keyword`` module and test to see whether each of the words in list ``test`` are keywords. Save the respective answers in a list, ``keyword_test``.
    ~~~~
-
+   
    test = ["else", "integer", "except", "elif"]
    keyword_test = []
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOneA(self):
          self.assertEqual(keyword_test, [True, False, True, True], "Testing that keyword_test is correct and p1 assigned to correct values")
-
+   
    myTests().main()

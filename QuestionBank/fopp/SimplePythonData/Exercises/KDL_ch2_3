@@ -6,15 +6,19 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.0
+   :total_students_attempting: 3
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 2.5
 
    Write a program that converts ``inches`` to ``miles``, ``yards``, and ``feet``.
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(miles,inches/63360,feedback="The miles are correct!")
            self.assertEqual(yards,inches/36,feedback="The yards are correct!")

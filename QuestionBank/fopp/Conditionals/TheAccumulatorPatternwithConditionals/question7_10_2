@@ -14,10 +14,10 @@
    :feedback_c: Yes, min_value was set to a number that was smaller than any of the numbers in the list, so it was never updated in the for loop.
    :feedback_d: The code does not have an error that would prevent it from running.
    :practice: T
-   :pct_on_first: 0.5312290128
-   :total_students_attempting: 1489
-   :num_students_correct: 1477.0
-   :mean_clicks_to_correct: 1.731211916
+   :pct_on_first: 0.5308310992
+   :total_students_attempting: 1492
+   :num_students_correct: 1480.0
+   :mean_clicks_to_correct: 1.7310810811
 
    What is printed by the following statements?
    

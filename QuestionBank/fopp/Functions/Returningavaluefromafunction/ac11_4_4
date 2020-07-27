@@ -7,17 +7,21 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.500394011
+   :total_students_attempting: 1269
+   :num_students_correct: 994.0
+   :mean_clicks_to_correct: 2.2344064386
 
    **8.** Write a function named ``same`` that takes a string as input, and simply returns that string.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(same('hello'), 'hello', "Testing the same function on input 'hello'.")
-
+   
    myTests().main()

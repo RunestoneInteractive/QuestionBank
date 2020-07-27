@@ -8,21 +8,25 @@
     :language: python
     :practice: T
     :topics: Sequences/CountandIndex
+    :pct_on_first: 0.1829268293
+    :total_students_attempting: 1230
+    :num_students_correct: 801.0
+    :mean_clicks_to_correct: 5.0174781523
 
     Write code that uses slicing to get rid of the the second 8 so that here are only two 8's in the list bound to the variable `nums`.
     ~~~~
     nums = [4, 2, 8, 23.4, 8, 9, 545, 9, 1, 234.001, 5, 49, 8, 9 , 34, 52, 1, -2, 9.1, 4]
-
-
+    
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
     import re
-
+    
     class myTests(TestCaseGui):
-
+    
       def test_output(self):
         self.assertEqual(nums, [4, 2, 8, 23.4, 9, 545, 9, 1, 234.001, 5, 49, 8, 9 , 34, 52, 1, -2, 9.1, 4], "Testing that nums is set correctly.")
         self.assertTrue(re.search(r'\s*:', self.getEditorText()), "Testing that you are using slices to remove the second 8 (Don't worry about actual and expected values)")
-
+    
     myTests().main()

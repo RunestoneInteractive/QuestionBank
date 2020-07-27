@@ -4,18 +4,22 @@
    :basecourse: fopp
    :topic: TransformingSequences/Exercises
    :from_source: T
+   :pct_on_first: 0.3284789644
+   :total_students_attempting: 618
+   :num_students_correct: 478.0
+   :mean_clicks_to_correct: 4.0041841004
 
    For each word in the list ``verbs``, add an -ing ending. Overwrite the old list so that ``verbs`` has the same words with ``ing`` at the end of each one.
    ~~~~
    verbs = ["kayak", "cry", "walk", "eat", "drink", "fly"]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testSeven(self):
            self.assertEqual(verbs, ['kayaking', 'crying', 'walking', 'eating', 'drinking', 'flying'], "Testing that verbs is assigned to correct values.")
-
+   
    myTests().main()

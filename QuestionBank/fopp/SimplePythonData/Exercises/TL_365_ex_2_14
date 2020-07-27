@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.3278688525
+   :total_students_attempting: 61
+   :num_students_correct: 36.0
+   :mean_clicks_to_correct: 2.6944444444
 
    Ask the user for the temperature in Fahrenheit and store it in a
    variable call ``deg_f``. Calculate the equivalent temperature in
@@ -13,15 +17,15 @@
    user giving the temperature in Celsius.
    
    ~~~~
-
+   
    ====
    
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):
        def testOne(self):
-	   self.assertIn('deg_f', self.getEditorText())
-	   self.assertIn('deg_c', self.getEditorText())
-	   ans = (deg_f - 32)*5/9
+    self.assertIn('deg_f', self.getEditorText())
+    self.assertIn('deg_c', self.getEditorText())
+    ans = (deg_f - 32)*5/9
            self.assertAlmostEqual(ans, deg_c)
            self.assertIn(str(ans)[:min(len(str(ans)), 5)], self.getOutput(), 'Checking answer.')
    myTests().main()

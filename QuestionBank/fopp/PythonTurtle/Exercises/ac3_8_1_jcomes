@@ -5,10 +5,14 @@
    :topic: PythonTurtle/Exercises
    :from_source: F
    :autograde: unittest
+   :pct_on_first: 0.5
+   :total_students_attempting: 6
+   :num_students_correct: 6.0
+   :mean_clicks_to_correct: 2.0
 
    Write a program that prints ``We like Python's turtles!`` 100 times.
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    class myTests(TestCaseGui):

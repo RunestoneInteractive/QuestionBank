@@ -8,18 +8,22 @@
    :autograde: unittest
    :practice: T
    :available_files: travel_plans.txt
-   :nocodelens:
+   :nocodelens: 
+   :pct_on_first: 0.4867358708
+   :total_students_attempting: 867
+   :num_students_correct: 714.0
+   :mean_clicks_to_correct: 2.2198879552
 
    The textfile, ``travel_plans.txt``, contains the summer travel plans for someone with some commentary. Find the total number of characters in the file and save to the variable ``num``.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(num, 316, "Testing that num value is assigned to correct value.")
-
+   
    myTests().main()

@@ -14,10 +14,10 @@
    :feedback_c: The list begins with the second item of L and includes everything up to but not including the last item.
    :feedback_d: The list begins with the second item of L and includes everything up to but not including the last item.
    :practice: T
-   :pct_on_first: 0.3262764633
-   :total_students_attempting: 803
-   :num_students_correct: 796.0
-   :mean_clicks_to_correct: 2.0502512563
+   :pct_on_first: 0.3254658385
+   :total_students_attempting: 805
+   :num_students_correct: 798.0
+   :mean_clicks_to_correct: 2.0513784461
 
    What is printed by the following statements?
    

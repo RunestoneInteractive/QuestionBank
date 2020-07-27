@@ -4,23 +4,27 @@
    :basecourse: fopp
    :topic: AdvancedAccumulation/Exercises
    :from_source: T
+   :pct_on_first: 0.5813953488
+   :total_students_attempting: 43
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 1.725
 
    Define longwords using filter.
    ~~~~
-
+   
    def longwords_Fil(strings):
        """Return a shorter list of strings containing only the strings with more than four characters. Use the filter function."""
        # write your code here
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(longwords_Fil(["Hello", "hi", "bye", "wonderful"]), ["Hello", "wonderful"], "Testing whether longwords_Fil has been correctly defined.")
            self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
            self.assertIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
+   
    myTests().main()

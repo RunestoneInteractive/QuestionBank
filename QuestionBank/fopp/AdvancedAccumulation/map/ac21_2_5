@@ -6,26 +6,30 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.642384106
+   :total_students_attempting: 151
+   :num_students_correct: 114.0
+   :mean_clicks_to_correct: 1.2368421053
 
    **2.** Below, we have provided a list of strings called ``abbrevs``. Use map to produce a new list called ``abbrevs_upper`` that contains all the same strings in upper case.
    ~~~~
-
+   
    abbrevs = ["usa", "esp", "chn", "jpn", "mex", "can", "rus", "rsa", "jam"]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(abbrevs_upper, ["USA", "ESP", "CHN", "JPN", "MEX", "CAN", "RUS", "RSA", "JAM"], "Testing that abbrevs_upper is correct.")
          self.assertIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-
-
+   
+   
    myTests().main()

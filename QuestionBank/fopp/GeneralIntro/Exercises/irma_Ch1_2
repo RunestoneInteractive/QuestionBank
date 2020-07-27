@@ -12,10 +12,10 @@
         :feedback_a: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to?
         :feedback_b: Correct. c = a + b = 7 + 3  = 10
         :feedback_c: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to?
-        :pct_on_first: 0.8
-        :total_students_attempting: 15
-        :num_students_correct: 14.0
-        :mean_clicks_to_correct: 1.2142857143
+        :pct_on_first: 0.75
+        :total_students_attempting: 16
+        :num_students_correct: 15.0
+        :mean_clicks_to_correct: 1.2666666667
 
         Consider the following program you read top to bottom:
         

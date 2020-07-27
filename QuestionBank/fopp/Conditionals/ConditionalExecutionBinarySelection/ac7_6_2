@@ -7,19 +7,23 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2780373832
+   :total_students_attempting: 1712
+   :num_students_correct: 1184.0
+   :mean_clicks_to_correct: 3.0515202703
 
    Write code to assign the string ``"You can apply to SI!"`` to ``output`` *if* the string ``"SI 106"`` is in the list ``courses``. If it is not in ``courses``, assign the value ``"Take SI 106!"`` to the variable ``output``.
    ~~~~
    courses = ["ENGR 101", "SI 110", "ENG 125", "SI 106", "CHEM 130"]
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(output, "You can apply to SI!", "Testing that output has the correct value, given the courses list provided")
          self.assertIn("if", self.getEditorText(), "Testing output (Don't worry about actual and expected values).")
-
+   
    myTests().main()

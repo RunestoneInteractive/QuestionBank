@@ -4,12 +4,16 @@
    :basecourse: fopp
    :topic: SimplePythonData/Exercises
    :from_source: T
+   :pct_on_first: 0.4444444444
+   :total_students_attempting: 378
+   :num_students_correct: 284.0
+   :mean_clicks_to_correct: 2.2253521127
 
    Write a program that will compute MPG for a car. Prompt the user to enter the number of
    miles driven and store it in a variable called `miles` and the number of gallons used stored in a variable `gallons`.
    Print a nice message with the answer.
    ~~~~
-
+   
    ====
    from unittest.gui import TestCaseGui
    import re

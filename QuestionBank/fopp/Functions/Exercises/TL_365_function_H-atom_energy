@@ -6,6 +6,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.0588235294
+   :total_students_attempting: 34
+   :num_students_correct: 21.0
+   :mean_clicks_to_correct: 8.380952381
 
    The `energy levels of the hydrogen atom
    <http://hyperphysics.phy-astr.gsu.edu/hbase/hyde.html>`_
@@ -34,17 +38,17 @@
    perm_free_space = 8.854187817e-12
    planck = 6.626068e-34
    joules_per_eV = 1.602176e-19
-
+   
    ====
    from unittest.gui import TestCaseGui
    import math
    class myTests(TestCaseGui):
        def testOne(self):
            def _h_atom_ene(level):
-	      ene_0 = -2 * elem_charge**4 * mass / (4 * perm_free_space * planck)**2
-	      return ene_0 / level**2 /joules_per_eV
-
-	   for level in range(1,10):
-	       self.assertAlmostEqual(h_atom_ene(level), _h_atom_ene(level), 7,
-	           "Check energy level "+str(level))
+       ene_0 = -2 * elem_charge**4 * mass / (4 * perm_free_space * planck)**2
+       return ene_0 / level**2 /joules_per_eV
+   
+    for level in range(1,10):
+        self.assertAlmostEqual(h_atom_ene(level), _h_atom_ene(level), 7,
+            "Check energy level "+str(level))
    myTests().main()

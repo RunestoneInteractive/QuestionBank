@@ -14,10 +14,10 @@
    :feedback_c: This expression uses the index of n
    :feedback_d: This is fine, the repetition operator used the result of indexing and the index method.
    :practice: T
-   :pct_on_first: 0.482024945
-   :total_students_attempting: 1363
-   :num_students_correct: 1354.0
-   :mean_clicks_to_correct: 1.9726735598
+   :pct_on_first: 0.4824046921
+   :total_students_attempting: 1364
+   :num_students_correct: 1355.0
+   :mean_clicks_to_correct: 1.9719557196
 
    What is printed by the following statements?
    

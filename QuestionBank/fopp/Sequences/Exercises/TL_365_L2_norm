@@ -6,35 +6,39 @@
    :from_source: F
    :language: python
    :autograde: unittest
+   :pct_on_first: 0.1466666667
+   :total_students_attempting: 75
+   :num_students_correct: 35.0
+   :mean_clicks_to_correct: 3.4
 
    The :math:`L^{2}\text{-norm}` is the most common method for calculating
    the norm or magnitude of a vector. For a 3-dimensional vector, the
    :math:`L^{2}\text{-norm}` is calculated as
-
+   
    .. math::
       \left|\vec{v}\right|=\sqrt{v_1^{2} + v_2^{2} + v_3^{2}}.
-
+   
    For example, the norm of the vector
    :math:`\vec{v}=\left(3,0,-4\right)` is
-
+   
    .. math::
       \left|\vec{v}\right|=\sqrt{\left(3\right)^{2}+\left(0\right)^{2}+\left(-4\right)^{2}}=5.
-
+   
    Ask the user for three values and store them as a ``list`` with type
    ``float`` with variable name ``vec``.  Then print out the
    :math:`L^2\text{-norm}`.
-
+   
    ~~~~
-
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
    import re
    import math
    class myTests(TestCaseGui):
        def testOne(self): 
            norm = math.sqrt(vec[0]**2 + vec[1]**2 + vec[2]**2)
-	   output = self.getOutput().rstrip()
-	   self.assertEqual(output, str(norm), 'Checking output')
-	   self.assertFalse(re.search(str(norm), self.getEditorText()), 'Checking hardcoding')
+    output = self.getOutput().rstrip()
+    self.assertEqual(output, str(norm), 'Checking output')
+    self.assertFalse(re.search(str(norm), self.getEditorText()), 'Checking hardcoding')
    myTests().main()

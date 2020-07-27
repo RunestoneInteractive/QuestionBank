@@ -6,10 +6,10 @@
    :from_source: T
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithLists
-   :pct_on_first: 0.7496503497
-   :total_students_attempting: 715
-   :num_students_correct: 653.0
-   :mean_clicks_to_correct: 1.6186830015
+   :pct_on_first: 0.75
+   :total_students_attempting: 716
+   :num_students_correct: 654.0
+   :mean_clicks_to_correct: 1.6177370031
 
    What is the iterator (loop) variable in the following?
    

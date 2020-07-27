@@ -16,10 +16,10 @@
    :feedback_d: No, Although II is correct III will not give the same result.  Try it.
    :feedback_e: No, in I you can not have a Boolean expression after an else.
    :practice: T
-   :pct_on_first: 0.4577861163
-   :total_students_attempting: 1599
-   :num_students_correct: 1582.0
-   :mean_clicks_to_correct: 2.0290771176
+   :pct_on_first: 0.4572142411
+   :total_students_attempting: 1601
+   :num_students_correct: 1584.0
+   :mean_clicks_to_correct: 2.029040404
 
    Which of I, II, and III below gives the same result as the following nested if?
    

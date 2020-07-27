@@ -4,23 +4,27 @@
    :basecourse: fopp
    :topic: Functions/Exercises
    :from_source: T
+   :pct_on_first: 0.3126079447
+   :total_students_attempting: 579
+   :num_students_correct: 455.0
+   :mean_clicks_to_correct: 3.4923076923
 
    Write a function named ``num_test`` that takes a number as input. If the number is greater than 10, the function should return "Greater than 10." If the number is less than 10, the function should return "Less than 10." If the number is equal to 10, the function should return "Equal to 10."
    ~~~~
-
-
+   
+   
    ====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
      def testOne(self):
          self.assertEqual(num_test(5), "Less than 10.", "Testing the num_test function on input 5.")
          self.assertEqual(num_test(0), "Less than 10.", "Testing the num_test function on input 0.")
          self.assertEqual(num_test(12.99), "Greater than 10.", "Testing the num_test function on input 12.99.")
          self.assertEqual(num_test(10.00), "Equal to 10.", "Testing the num_test function on input 10.00.")
-
-
-
+   
+   
+   
    myTests().main()

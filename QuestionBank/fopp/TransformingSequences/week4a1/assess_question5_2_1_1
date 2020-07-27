@@ -15,10 +15,10 @@
    :feedback_d: One of the patterns above is a correct way to solve the problem.
    :practice: T
    :topics: TransformingSequences/WPAccumulatorPatternStrategies
-   :pct_on_first: 0.6520547945
-   :total_students_attempting: 730
-   :num_students_correct: 726.0
-   :mean_clicks_to_correct: 1.520661157
+   :pct_on_first: 0.6525307798
+   :total_students_attempting: 731
+   :num_students_correct: 727.0
+   :mean_clicks_to_correct: 1.5199449794
 
    Given that we want to accumulate the total sum of a list of numbers, which of the following accumulator patterns would be appropriate?
    

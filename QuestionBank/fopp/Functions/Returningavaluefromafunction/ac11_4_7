@@ -7,18 +7,22 @@
    :language: python
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.7011101623
+   :total_students_attempting: 1171
+   :num_students_correct: 955.0
+   :mean_clicks_to_correct: 1.2680628272
 
    **11.** Write a function called ``change`` that takes one number as its input and returns that number, plus 7.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(change(5), 12,"Testing the function change with input 5")
          self.assertEqual(change(-10), -3, "Testing the function change with input -10")
-
+   
    myTests().main()

@@ -4,18 +4,22 @@
    :basecourse: fopp
    :topic: Classes/ImprovingourConstructor
    :from_source: T
-   :tags:Classes/ImprovingourConstructor.rst
+   :tags:Classes/ImprovingourConstructor.rst: 
+   :pct_on_first: 0.3175438596
+   :total_students_attempting: 570
+   :num_students_correct: 425.0
+   :mean_clicks_to_correct: 3.56
 
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOneA(self):
          self.assertEqual(t.num1, 6, "Testing that t.num1 has correct number assigned.")
       def testOneB(self):
          self.assertEqual(t.num2, 10, "Testing that t.num2 has correct number assigned.")
-
+   
    myTests().main()

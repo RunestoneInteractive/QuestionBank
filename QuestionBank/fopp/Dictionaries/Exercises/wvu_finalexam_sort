@@ -5,13 +5,17 @@
     :topic: Dictionaries/Exercises
     :from_source: F
     :autograde: unittest
+    :pct_on_first: 0.1
+    :total_students_attempting: 50
+    :num_students_correct: 15.0
+    :mean_clicks_to_correct: 4.4
 
     Create a list named **sorted_presidents** that contains the contents of the **presidents** list, sorted by the presidents' last names.
     ~~~~
     presidents = ['Richard Nixon', 'Jimmy Carter', 'Ronald Reagan', 'George H.W. Bush', 'Bill Clinton', 'George W. Bush', 'Barack Obama', 'Donald Trump']
     ====
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
         def testOne(self):
             self.assertEqual(sorted_presidents, sorted(presidents, key=lambda x: x.split()[-1]), 'Sorted in correct order.')

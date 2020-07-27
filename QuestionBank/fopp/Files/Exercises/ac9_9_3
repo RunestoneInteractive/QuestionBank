@@ -4,19 +4,23 @@
    :basecourse: fopp
    :topic: Files/Exercises
    :from_source: T
-   :nocodelens:
+   :nocodelens: 
    :available_files: emotion_words.txt
+   :pct_on_first: 0.2377777778
+   :total_students_attempting: 450
+   :num_students_correct: 361.0
+   :mean_clicks_to_correct: 6.9667590028
 
    Create a list called ``j_emotions`` that contains every word in ``emotion_words.txt`` that begins with the letter "j".
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(j_emotions, ['joyous', 'jittery', 'jumpy'], "Testing that j_emotions was created correctly.")
-
+   
    myTests().main()

@@ -6,19 +6,23 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
+   :pct_on_first: 0.5899470899
+   :total_students_attempting: 378
+   :num_students_correct: 289.0
+   :mean_clicks_to_correct: 1.8200692042
 
    Define a function called ``information`` that takes as input, the variables ``name``, ``birth_year``, ``fav_color``, and ``hometown``. It should return a tuple of these variables in this order.
    ~~~~
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testOne(self):
          self.assertEqual(information("Sarah", 1996, "purple", "St. Louis"), ("Sarah", 1996, "purple", "St. Louis"), "Testing that information returns the correct tuple on input ('Sarah', 1996, 'purple', 'St. Louis')")
-
+   
    myTests().main()

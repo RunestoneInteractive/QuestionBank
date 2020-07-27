@@ -7,16 +7,20 @@
     :language: python
     :autograde: unittest
     :practice: T
+    :pct_on_first: 0.5766299746
+    :total_students_attempting: 1181
+    :num_students_correct: 895.0
+    :mean_clicks_to_correct: 1.4100558659
 
     places = {"Australia":2000, "Greece":2004, "China":2008, "England":2012}
-
+    
     =====
-
+    
     from unittest.gui import TestCaseGui
-
+    
     class myTests(TestCaseGui):
-
+    
           def testOne(self):
              self.assertEqual(sorted(places.items()), sorted([("Australia", 2000), ("Greece", 2004), ("China", 2008), ("England", 2012), ("Brazil", 2016)]), "Testing that places has been updated correctly.")
-
+    
     myTests().main()

@@ -6,24 +6,28 @@
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes:
+   :chatcodes: 
    :practice: T
    :topics: Tuples/TuplePacking
+   :pct_on_first: 0.7536764706
+   :total_students_attempting: 272
+   :num_students_correct: 235.0
+   :mean_clicks_to_correct: 1.1617021277
 
    With only one line of code, assign the variables ``city``, ``country``, and ``year`` to the values of the tuple ``olymp``.
    ~~~~
-
+   
    olymp = ('Rio', 'Brazil', 2016)
-
+   
    =====
-
+   
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
       def testThree(self):
          self.assertEqual(city, "Rio", "Testing that city is assigned to correct value.")
          self.assertEqual(country, "Brazil", "Testing that country is assigned to correct value.")
          self.assertEqual(year, 2016, "Testing that year is assigned to correct value.")
-
+   
    myTests().main()

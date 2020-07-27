@@ -6,25 +6,29 @@
    :from_source: F
    :language: python
    :autograde: unittest
-	      
-   For a right triangle we have
+   :pct_on_first: 0.1176470588
+   :total_students_attempting: 153
+   :num_students_correct: 70.0
+   :mean_clicks_to_correct: 3.1142857143
 
+   For a right triangle we have
+   
    .. math::
       \tan(\theta) = \frac{\text{opp}}{{adj}}
-
+   
    Compute and print :math:`\theta` for
-
+   
    .. math::
       \begin{align}
       	\left(\text{opp}=1,\text{adj}=1\right),
-	\left(\text{opp}=1,\text{adj}=-1\right),
-	\left(\text{opp}=-1,\text{adj}=1\right),\text{and}
-	\left(\text{opp}=-1,\text{adj}=-1\right).
+   eft(\text{opp}=1,\text{adj}=-1\right),
+   eft(\text{opp}=-1,\text{adj}=1\right),\text{and}
+   eft(\text{opp}=-1,\text{adj}=-1\right).
       \end{align}
-
+   
    Hint: use the function ``atan2()`` instead of ``atan()``.
    ~~~~
-
+   
    ====
    
    from unittest.gui import TestCaseGui
@@ -32,11 +36,11 @@
    class myTests(TestCaseGui):
        def testOne(self):
            output = self.getOutput().split('\n')
-	   editor = self.getEditorText().split('\n')
+    editor = self.getEditorText().split('\n')
            self.assertAlmostEqual(float(output[0]), math.atan2(1,1), 7, 'Checking first line')
            self.assertAlmostEqual(float(output[1]), math.atan2(1,-1), 7, 'Checking second line')
            self.assertAlmostEqual(float(output[2]), math.atan2(-1,1), 7, 'Checking third line')
            self.assertAlmostEqual(float(output[3]), math.atan2(-1,-1), 7, 'Checking fourth line')
-	   self.assertFalse(re.search(r'(0.785398|2.3561)', '\n'.join(editor)), 'Checking for hardcoding')
-	   self.assertFalse(re.search(r'( *import *math *as| *from *math)', '\n'.join(editor)), 'Checking import statement')
+    self.assertFalse(re.search(r'(0.785398|2.3561)', '\n'.join(editor)), 'Checking for hardcoding')
+    self.assertFalse(re.search(r'( *import *math *as| *from *math)', '\n'.join(editor)), 'Checking import statement')
    myTests().main()

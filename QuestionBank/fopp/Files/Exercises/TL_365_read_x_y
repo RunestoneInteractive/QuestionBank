@@ -7,15 +7,19 @@
    :language: python
    :autograde: unittest
    :available_files: xy.dat
-		     
+   :pct_on_first: 0.1
+   :total_students_attempting: 230
+   :num_students_correct: 136.0
+   :mean_clicks_to_correct: 7.3897058824
+
    ``xy.dat`` contains two floating point numbers per line, separated
    by a comma.  Read the contents of ``xy.dat`` and store the first
    number of each line in a list called ``x`` and the second in a list
    called ``y``.  Values should be stored as floats.
-
-
+   
+   
    .. raw:: html
-
+   
       <pre id="xy.dat">
       -2.0,3.97
       -1.75,2.94
@@ -46,23 +50,23 @@
    import math
    class myTests(TestCaseGui):
        def testOne(self):
-
+   
            _read_x = []
            _read_y = []
            with open('xy.dat', 'r') as fh:
-	       for line in fh:
-	           _x, _y = line.split(',')
-	           _read_x.append(float(_x))
-	           _read_y.append(float(_y))
-	   
+        for line in fh:
+            _x, _y = line.split(',')
+            _read_x.append(float(_x))
+            _read_y.append(float(_y))
+    
            self.assertEqual(len(x), len(_read_x), 'Checking x values')
            self.assertEqual(len(y), len(_read_y), 'Checking y values')
-	   for i in range(len(_read_x)):
-	       self.assertAlmostEqual(x[i], _read_x[i], 7, 'Checking x['+str(i)+']')
-	       self.assertAlmostEqual(y[i], _read_y[i], 7, 'Checking y['+str(i)+']')
-	   if re.search(r'[^#]+= *open', self.getEditorText(), re.M):
+    for i in range(len(_read_x)):
+        self.assertAlmostEqual(x[i], _read_x[i], 7, 'Checking x['+str(i)+']')
+        self.assertAlmostEqual(y[i], _read_y[i], 7, 'Checking y['+str(i)+']')
+    if re.search(r'[^#]+= *open', self.getEditorText(), re.M):
        
-	       self.assertTrue(re.search(r'[^#]+\.close\(', self.getEditorText(), re.M), 'Checking for matching open and close statements')
-	   else:
-	       self.assertTrue(re.search(r'with[ (] *open', self.getEditorText(), re.M), 'Checking open statement')
+        self.assertTrue(re.search(r'[^#]+\.close\(', self.getEditorText(), re.M), 'Checking for matching open and close statements')
+    else:
+        self.assertTrue(re.search(r'with[ (] *open', self.getEditorText(), re.M), 'Checking open statement')
    myTests().main()
