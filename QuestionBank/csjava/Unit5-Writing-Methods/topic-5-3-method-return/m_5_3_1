@@ -1,0 +1,24 @@
+.. mchoice:: m_5_3_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit5-Writing-Methods
+   :subchapter: topic-5-3-method-return
+   :topics: Unit5-Writing-Methods/topic-5-3-method-return
+   :from_source: F
+   :practice: T
+   :answer_a: return "hello";
+   :answer_b: return true;
+   :answer_c: return 7.5;
+   :answer_d: return 10;
+   :correct: d
+   :feedback_a: The method return type int does not match the return statement type String.
+   :feedback_b: The method return type int does not match the return statement type boolean.
+   :feedback_c: The method return type int does not match the return statement type double.
+   :feedback_d: The method return type int matches the return statement type int.
+
+   Based on the method header below, which return statement has the correct type?
+
+   .. code-block:: java
+
+     public static int mystery()

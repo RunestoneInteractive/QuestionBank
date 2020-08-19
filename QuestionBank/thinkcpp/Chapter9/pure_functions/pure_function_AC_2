@@ -1,8 +1,10 @@
 .. activecode:: pure_function_AC_2
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter9/pure_functions
+  :chapter: Chapter9
+  :subchapter: pure_functions
+  :topics: Chapter9/pure_functions
   :from_source: T
   :language: cpp
 

@@ -1,8 +1,10 @@
 .. mchoice:: test_question8_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/StringMethods
+   :chapter: Strings
+   :subchapter: StringMethods
+   :topics: Strings/StringMethods
    :from_source: T
    :practice: T
    :answer_a: 0
@@ -12,10 +14,10 @@
    :feedback_a: There are definitely o and p characters.
    :feedback_b: There are 2 o characters but what about p?
    :feedback_c: Yes, add the number of o characters and the number of p characters.
-   :pct_on_first: 0.7219213974
-   :total_students_attempting: 11450
-   :num_students_correct: 11403.0
-   :mean_clicks_to_correct: 1.3764798737
+   :pct_on_first: 0.7226613394
+   :total_students_attempting: 11513
+   :num_students_correct: 11466.0
+   :mean_clicks_to_correct: 1.3754578755
 
    
    What is printed by the following statements?

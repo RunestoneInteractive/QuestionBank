@@ -1,13 +1,15 @@
 .. actex:: TL_365_function_L2_norm
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0909090909
-   :total_students_attempting: 33
+   :pct_on_first: 0.0882352941
+   :total_students_attempting: 34
    :num_students_correct: 17.0
    :mean_clicks_to_correct: 3.5294117647
 

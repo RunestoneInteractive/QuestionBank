@@ -1,8 +1,10 @@
 .. activecode:: ArrayListWordPair1bd
    :author: Brian Dahlem
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/topic-7-3-arraylist-loops
+   :chapter: Unit7-ArrayList
+   :subchapter: topic-7-3-arraylist-loops
+   :topics: Unit7-ArrayList/topic-7-3-arraylist-loops
    :from_source: F
    :language: java
 

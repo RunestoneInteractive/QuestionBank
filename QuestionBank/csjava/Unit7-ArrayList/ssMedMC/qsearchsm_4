@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit7-ArrayList/ssMedMC
+   :topics: Unit7-ArrayList/ssMedMC
    :from_source: T
    :practice: T
    :answer_a: int k = j - 1; k >= 0; k--

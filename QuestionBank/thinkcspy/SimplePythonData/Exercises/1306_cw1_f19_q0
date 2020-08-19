@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_f19_q0
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [0 pts] Evaluate the following numerical expressions in your head, then use

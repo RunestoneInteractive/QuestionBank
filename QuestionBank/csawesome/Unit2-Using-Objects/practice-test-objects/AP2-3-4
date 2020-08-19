@@ -1,28 +1,34 @@
 .. mchoice:: AP2-3-4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/practice-test-objects
+    :chapter: Unit2-Using-Objects
+    :subchapter: practice-test-objects
+    :topics: Unit2-Using-Objects/practice-test-objects
     :from_source: T
     :practice: T
-    :random:
+    :random: 
+    :pct_on_first: 0.7374599787
+    :total_students_attempting: 1874
+    :num_students_correct: 1516.0
+    :mean_clicks_to_correct: 1.2044854881
 
     Consider the following class definition.
-
+    
     .. code-block:: java
-
+    
         public class Dog
         {
             public void bark()
             {
                 System.out.print("Woof ");
             }
-
+    
             public void wag()
             {
                 System.out.print("Wag Tail ");
             }
-
+    
             public void happy()
             {
                 wag();
@@ -30,42 +36,42 @@
             }
             /* Constructors not shown */
         }
-
+    
     Which of the following code segments, if located in a method in a class other than Dog, will cause the message "Wag Tail Wag Tail Woof " to be printed?
-
+    
     - .. code-block:: java
-
+    
         Dog a = new Dog();
         a.bark();
         a.wag();
-
+    
       - This would print "Woof Wag Tail "
-
+    
     - .. code-block:: java
-
+    
         Dog a = new Dog();
         Dog.happy();
-
+    
       - You must use the object a, not the class name Dog, to call its methods.
-
+    
     - .. code-block:: java
-
+    
         Dog a = new Dog();
         a.happy();
-
+    
       - This would print out "Wag Tail Woof ".
-
+    
     - .. code-block:: java
-
+    
         Dog a = new Dog();
         a.wag();
         a.happy();
-
+    
       + This would print out "Wag Tail Wag Tail Woof ";
-
+    
     - .. code-block:: java
-
+    
          Dog a = new Dog();
          a.wag();
-
+    
       - This would just print "Wag Tail ".

@@ -1,8 +1,10 @@
 .. activecode:: bnm_call_test
     :author: Brad Miller
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     If this is a homework problem instead of an example in the text

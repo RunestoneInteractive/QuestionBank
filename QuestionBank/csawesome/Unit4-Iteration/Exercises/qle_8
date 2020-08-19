@@ -1,8 +1,10 @@
 .. mchoice:: qle_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/Exercises
+   :chapter: Unit4-Iteration
+   :subchapter: Exercises
+   :topics: Unit4-Iteration/Exercises
    :from_source: T
    :practice: T
    :answer_a: 6
@@ -12,11 +14,15 @@
    :feedback_a: This loop starts with x = 2 and continues while it is less than 8 so 8 - 2 = 6.
    :feedback_b: This would be true if the loop ended when x was 9 instead of 8 (x <= 8).
    :feedback_c: This would be true if the loop started with x = 0.
+   :pct_on_first: 0.7693208431
+   :total_students_attempting: 2562
+   :num_students_correct: 2530.0
+   :mean_clicks_to_correct: 1.337944664
 
    How many times does the following method print a ``*``?
-
+   
    .. code-block:: java
-
+   
      for (int x = 2; x < 8; x++)
      {
         System.out.print("*");

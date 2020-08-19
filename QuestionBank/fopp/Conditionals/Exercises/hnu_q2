@@ -1,8 +1,10 @@
 .. activecode:: hnu_q2
     :author: Anh Thai Nhan
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
    
     Q1. Write a program to prompt the user to enter a test SCORE. Then, use if conditionals to print out the corresponding GRADE. That is SCORE >= 90; then print "Grade: A", SCORE>=80; then print "Grade: B", SCORE >= 70; then print "Grade: C", SCORE>=60; then print "Grade: D"; otherwise print "Grade: F".

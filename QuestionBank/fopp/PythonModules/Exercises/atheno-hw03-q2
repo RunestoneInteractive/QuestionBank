@@ -1,8 +1,10 @@
 .. actex:: atheno-hw03-q2
    :author: Atheno Chen
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
 
    Write a program to swap two integers. Your program should accept two inputs ``a`` and ``b``.

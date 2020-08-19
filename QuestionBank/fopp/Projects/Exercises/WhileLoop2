@@ -1,8 +1,10 @@
 .. parsonsprob:: WhileLoop2
    :author: Lizzy Scholten
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Projects/Exercises
+   :chapter: Projects
+   :subchapter: Exercises
+   :topics: Projects/Exercises
    :from_source: F
 
    Put the code pieces in the right order so that the following number sequence is printed: 4 6 8

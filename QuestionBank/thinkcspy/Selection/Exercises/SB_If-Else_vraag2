@@ -1,8 +1,10 @@
 .. activecode:: SB_If-Else_vraag2
     :author: Jan Persan
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
     :language: python
 

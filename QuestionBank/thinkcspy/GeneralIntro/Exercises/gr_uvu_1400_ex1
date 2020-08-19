@@ -1,8 +1,10 @@
 .. activecode:: gr_uvu_1400_ex1
     :author: George Rudolph
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :language: python3
     :autograde: unittest

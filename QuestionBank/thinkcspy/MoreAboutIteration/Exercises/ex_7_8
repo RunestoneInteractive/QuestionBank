@@ -1,8 +1,10 @@
 .. actex:: ex_7_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: T
 
    Write a function ``print_triangular_numbers(n)`` that prints out the first

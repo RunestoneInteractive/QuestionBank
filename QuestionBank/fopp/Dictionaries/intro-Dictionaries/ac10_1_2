@@ -1,16 +1,18 @@
 .. activecode:: ac10_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/intro-Dictionaries
+   :chapter: Dictionaries
+   :subchapter: intro-Dictionaries
+   :topics: Dictionaries/intro-Dictionaries
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.7121710526
-   :total_students_attempting: 1216
-   :num_students_correct: 992.0
-   :mean_clicks_to_correct: 1.1622983871
+   :pct_on_first: 0.7126530612
+   :total_students_attempting: 1225
+   :num_students_correct: 999.0
+   :mean_clicks_to_correct: 1.1611611612
 
    **4.** You are keeping track of olympic medals for Italy in the 2016 Rio Summer Olympics! At the moment, Italy has 7 gold medals, 8 silver metals, and 6 bronze medals. Create a dictionary called ``olympics`` where the keys are the types of medals, and the values are the number of that type of medals that Italy has won so far.
    ~~~~

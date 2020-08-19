@@ -1,8 +1,10 @@
 .. actex:: classes_deeper_q1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: ClassesDiggingDeeper/Exercises
+   :chapter: ClassesDiggingDeeper
+   :subchapter: Exercises
+   :topics: ClassesDiggingDeeper/Exercises
    :from_source: T
 
    We can represent a rectangle by knowing three things: the location of its lower left corner, its width, and its height.

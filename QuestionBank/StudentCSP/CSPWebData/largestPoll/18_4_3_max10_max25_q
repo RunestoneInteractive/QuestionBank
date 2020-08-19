@@ -1,8 +1,10 @@
 .. mchoice:: 18_4_3_max10_max25_q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/largestPoll
+   :chapter: CSPWebData
+   :subchapter: largestPoll
+   :topics: CSPWebData/largestPoll
    :from_source: T
    :answer_a: The same city has the maximum value for both PM 2.5 and PM 10.
    :answer_b: Different cities have the maximums, but they are in the same state.
@@ -11,5 +13,9 @@
    :feedback_a: Fresno, CA is the worst for both.
    :feedback_b: Check that are using values[1] to find the worst PM 10.
    :feedback_c: You did not actually run and change the program, did you?
+   :pct_on_first: 0.470437018
+   :total_students_attempting: 389
+   :num_students_correct: 384.0
+   :mean_clicks_to_correct: 1.8854166667
 
    Which of the following is true about the cities with the maximum PM 2.5 and PM 10 values?

@@ -1,8 +1,10 @@
 .. activecode:: conditional_execution_AC_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter4/ConditionalExecution
+   :chapter: Chapter4
+   :subchapter: ConditionalExecution
+   :topics: Chapter4/ConditionalExecution
    :from_source: T
    :language: cpp
    :caption: Testing Values of x

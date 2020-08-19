@@ -1,8 +1,10 @@
 .. mchoice:: qsm_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: Use one class, Car, which has three attributes: int numDoors, double mpg, and boolean hasAir.
@@ -16,5 +18,9 @@
    :feedback_c: In this case, the information only refers to a couple of basic attributes so it is better to store that data as fields within a single class.
    :feedback_d: It doesn't really make sense for AC to be a subclass of MPG, and that being a subclass of Doors.
    :feedback_e: A car doesn't really make sense to be a subclass of AC, and so on. It would also be better to group a couple of pieces of data into a single class.
+   :pct_on_first: 0.6584795322
+   :total_students_attempting: 1710
+   :num_students_correct: 1693.0
+   :mean_clicks_to_correct: 2.0135853514
 
    A car dealership needs a program to store information about the cars for sale.For each car, they want to keep track of the following information: the number of doors (2 or 4),its average number of miles per gallon, and whether the car has air conditioning. Which of the following is the best design?

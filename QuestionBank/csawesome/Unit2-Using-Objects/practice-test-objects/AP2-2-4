@@ -1,8 +1,10 @@
 .. mchoice:: AP2-2-4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/practice-test-objects
+   :chapter: Unit2-Using-Objects
+   :subchapter: practice-test-objects
+   :topics: Unit2-Using-Objects/practice-test-objects
    :from_source: T
    :practice: T
    :answer_a: Liquid l = new Liquid(98.6);
@@ -16,21 +18,25 @@
    :feedback_c: This creates an object but it does not set its boiling point to 98.6.
    :feedback_d: The call to the constructor is missing.
    :feedback_e: The keyword new is missing.
+   :pct_on_first: 0.7347480106
+   :total_students_attempting: 1885
+   :num_students_correct: 1505.0
+   :mean_clicks_to_correct: 1.1973421927
 
     Consider the following class. Which of the following code segments, when placed in a method in a class other than Liquid, will construct a Liquid object l with a boilingPoint of 98.6 ?
-
+   
     .. code-block:: java
-
+   
         public class Liquid
         {
             private double boilingPoint;
             private double freezingPoint;
-
+   
             public Liquid()
             {
                 boilingPoint = 0.0;
             }
-
+   
             public Liquid(double b)
             {
                 boilingPoint = b;

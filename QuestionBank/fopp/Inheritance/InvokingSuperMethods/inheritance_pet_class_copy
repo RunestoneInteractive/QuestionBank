@@ -1,8 +1,10 @@
 .. activecode:: inheritance_pet_class_copy
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Inheritance/InvokingSuperMethods
+    :chapter: Inheritance
+    :subchapter: InvokingSuperMethods
+    :topics: Inheritance/InvokingSuperMethods
     :from_source: T
     :nocanvas:
 

@@ -1,14 +1,16 @@
 .. activecode:: ee_inheritance_05
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Inheritance/ChapterAssessment
+   :chapter: Inheritance
+   :subchapter: ChapterAssessment
+   :topics: Inheritance/ChapterAssessment
    :from_source: T
    :tags: Inheritance/inheritVarsAndMethods.rst
-   :pct_on_first: 0.2093023256
-   :total_students_attempting: 129
-   :num_students_correct: 85.0
-   :mean_clicks_to_correct: 3.5411764706
+   :pct_on_first: 0.2105263158
+   :total_students_attempting: 133
+   :num_students_correct: 88.0
+   :mean_clicks_to_correct: 3.4772727273
 
    Along with the ``Pokemon`` parent class, we have also provided several subclasses. Write another method in the parent class that will be inherited by the subclasses. Call it ``opponent``. It should return which type of pokemon the current type is weak and strong against, as a tuple.
    

@@ -1,14 +1,19 @@
 .. activecode:: dkit_red_square
     :author: Jean Griffin
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
     :nocodelens:
     :hidecode:
     :autorun:
     :caption: SHOW CODE -- FIX 2 BUGS -- SAVE & RUN --
 
+    This program is supposed to draw a red square but it has 2 bugs.
+    To fix them, 1) Show Code. 2) FIX THE BUG(s). 3) Save & Run
+    ~~~~
     # START SETUP
     import turtle             # Bring in the turtle code 
     screen = turtle.Screen()  # Create a screen for drawing

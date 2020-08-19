@@ -1,8 +1,10 @@
 .. mchoice:: e7a8_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/exam7a8
+   :chapter: CSPWhileAndForLoops
+   :subchapter: exam7a8
+   :topics: CSPWhileAndForLoops/exam7a8
    :from_source: T
    :practice: T
    :answer_a: The program will loop indefinitely
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if it was if number <= 5.
    :feedback_c: This would be true if number was set to a number larger than 5 to start.
    :feedback_d: This would be true if number was set to 1 to start.
+   :pct_on_first: 0.553030303
+   :total_students_attempting: 924
+   :num_students_correct: 573.0
+   :mean_clicks_to_correct: 1.1797556719
 
    What is the result of executing the following code?
-
+   
    ::
-
+   
       number = 5
       while number <= 5:
           if number < 5:

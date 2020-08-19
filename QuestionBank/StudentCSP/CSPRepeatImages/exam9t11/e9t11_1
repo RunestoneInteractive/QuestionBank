@@ -1,8 +1,10 @@
 .. mchoice:: e9t11_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatImages/exam9t11
+   :chapter: CSPRepeatImages
+   :subchapter: exam9t11
+   :topics: CSPRepeatImages/exam9t11
    :from_source: T
    :practice: T
    :answer_a: !We're off to see the Wizard!
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if it was newString = letter + newString
    :feedback_c: This would be true if it was newString = letter + newString in the loop and you printed phrase + newString
    :feedback_d: This code adds each letter to the front and back of the string which will print the reverse of the string ! and the string.
+   :pct_on_first: 0.7543859649
+   :total_students_attempting: 627
+   :num_students_correct: 496.0
+   :mean_clicks_to_correct: 1.0564516129
 
    Given the following code, what will be printed?
-
+   
    ::
-
+   
       newString = "!"
       phrase = "We're off to see the Wizard!"
       for letter in phrase:

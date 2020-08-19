@@ -1,8 +1,10 @@
 .. parsonsprob:: max-poll-Parsons
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
    :adaptive:

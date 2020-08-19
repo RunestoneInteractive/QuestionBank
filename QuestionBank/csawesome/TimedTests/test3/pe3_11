@@ -1,8 +1,10 @@
 .. mchoice:: pe3_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test3
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
    :from_source: T
    :answer_a: pm1pm2cm2cm1
    :answer_b: pm1pm2
@@ -15,22 +17,26 @@
    :feedback_c: Remember that each method call is added to the call stack and after the method returns execution continues with the next statement after the method call.
    :feedback_d: This would be true if the m1 method in Parent didn't call m2().
    :feedback_e: This would be true if the m1 method in Parent didn't call m2() and the p was actually an object of the Parent class.
+   :pct_on_first: 0.4042553191
+   :total_students_attempting: 47
+   :num_students_correct: 23.0
+   :mean_clicks_to_correct: 1.1739130435
 
    Assume that Parent p = new Child(); appears in a client program.  What is the result of the call p.m1()?
-
+   
    .. code-block:: java
-
+   
       public class Parent {
          public void m1() {
            System.out.print("pm1");
            m2();
          }
-
+   
          public void m2() {
             System.out.print("pm2");
          }
       }
-
+   
       public class Child extends Parent {
          public void m1()
          {

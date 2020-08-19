@@ -1,9 +1,12 @@
 .. mchoice:: mce_6_7
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter6/Exercises
+    :chapter: Chapter6
+    :subchapter: Exercises
+    :topics: Chapter6/Exercises
     :from_source: T
+    :practice: T
 
     Why are we allowed to use the variable ``x`` in both ``main`` and in the function definition of ``superSecretFunction``?
 

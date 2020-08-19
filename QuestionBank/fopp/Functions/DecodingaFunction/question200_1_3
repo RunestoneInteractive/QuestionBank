@@ -1,8 +1,10 @@
 .. mchoice:: question200_1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/DecodingaFunction
+   :chapter: Functions
+   :subchapter: DecodingaFunction
+   :topics: Functions/DecodingaFunction
    :from_source: T
    :multiple_answers: 
    :answer_a: integer
@@ -17,10 +19,10 @@
    :feedback_d: append can't be performed on strings.
    :feedback_e: You can tell from some of the operations that are performed on it.
    :practice: T
-   :pct_on_first: 0.38005997
-   :total_students_attempting: 1334
-   :num_students_correct: 1316.0
-   :mean_clicks_to_correct: 2.5281155015
+   :pct_on_first: 0.3814126394
+   :total_students_attempting: 1345
+   :num_students_correct: 1327.0
+   :mean_clicks_to_correct: 2.5237377543
 
    What are the possible types of variable z?
    

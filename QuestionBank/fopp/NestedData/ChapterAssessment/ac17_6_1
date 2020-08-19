@@ -1,31 +1,29 @@
 .. activecode:: ac17_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ChapterAssessment
+   :chapter: NestedData
+   :subchapter: ChapterAssessment
+   :topics: NestedData/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: NestedData/ListswithComplexItems
-   :pct_on_first: 0.6798029557
-   :total_students_attempting: 203
-   :num_students_correct: 167.0
-   :mean_clicks_to_correct: 1.2395209581
 
    The variable ``nested`` contains a nested list. Assign 'snake' to the variable ``output`` using indexing.
-   
+
    ~~~~
-   
+
    nested = [['dog', 'cat', 'horse'], ['frog', 'turtle', 'snake', 'gecko'], ['hamster', 'gerbil', 'rat', 'ferret']]
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(output, "snake", "Testing that output is assigned to correct value")
-   
+
    myTests().main()

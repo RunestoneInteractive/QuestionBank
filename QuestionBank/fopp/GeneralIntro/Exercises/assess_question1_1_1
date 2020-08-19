@@ -1,8 +1,10 @@
 .. mchoice:: assess_question1_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: T
    :answer_a: Because computers are better at solving problems.
    :answer_b: So that you don't have to solve the problem yourself.
@@ -15,9 +17,5 @@
    :correct: c
    :practice: T
    :topics: GeneralIntro/Algorithms
-   :pct_on_first: 0.4088476632
-   :total_students_attempting: 2803
-   :num_students_correct: 2787.0
-   :mean_clicks_to_correct: 2.0064585576
 
    Why create an algorithm?

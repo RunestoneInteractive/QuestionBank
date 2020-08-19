@@ -1,8 +1,10 @@
 .. activecode:: 11_5_2_Image_Flip_Both
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatImages/changeColorLoc
+    :chapter: CSPRepeatImages
+    :subchapter: changeColorLoc
+    :topics: CSPRepeatImages/changeColorLoc
     :from_source: T
     :tour_1: "Important Lines Tour"; 8-9: nli3-line8-9; 12: nli3-line12; 15: nli3-line15;
     :nocodelens:

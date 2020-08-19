@@ -1,8 +1,10 @@
 .. mchoice:: assess_question3_3_1_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: I.
    :answer_b: II.
@@ -15,36 +17,32 @@
    :correct: d
    :practice: T
    :topics: TransformingSequences/ObjectsandReferences
-   :pct_on_first: 0.2816901408
-   :total_students_attempting: 781
-   :num_students_correct: 775.0
-   :mean_clicks_to_correct: 2.5187096774
 
    Which of these is a correct reference diagram following the execution of the following code?
-   
+
    .. sourcecode:: python
-   
+
     x = ["dogs", "cats", "birds", "reptiles"]
     y = x
     x += ['fish', 'horses']
     y = y + ['sheep']
-   
+
    I.
-   
+
    .. image:: Figures/week3a3_1.png
       :alt: First Potential Solution
-   
+
    II.
-   
+
    .. image:: Figures/week3a3_2.png
       :alt: Second Potential Solution
-   
+
    III.
-   
+
    .. image:: Figures/week3a3_3.png
       :alt: Third Potential Solution
-   
+
    IV.
-   
+
    .. image:: Figures/week3a3_4.png
       :alt: Fourth Potential Solution

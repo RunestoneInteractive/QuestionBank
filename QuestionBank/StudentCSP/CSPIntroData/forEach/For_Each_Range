@@ -1,8 +1,10 @@
 .. activecode:: For_Each_Range
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPIntroData/forEach
+  :chapter: CSPIntroData
+  :subchapter: forEach
+  :topics: CSPIntroData/forEach
   :from_source: T
   :tour_1: "Line by Line Tour"; 2: lst4-line1; 3: lst4-line2; 6: lst4-line3; 7: lst4-line4;
 

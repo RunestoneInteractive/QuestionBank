@@ -1,14 +1,16 @@
 .. activecode:: wvu_finalexam_gradedecision
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Files/Exercises
+    :chapter: Files
+    :subchapter: Exercises
+    :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.1627906977
-    :total_students_attempting: 43
-    :num_students_correct: 15.0
-    :mean_clicks_to_correct: 1.9333333333
+    :pct_on_first: 0.1590909091
+    :total_students_attempting: 44
+    :num_students_correct: 16.0
+    :mean_clicks_to_correct: 2.25
 
     Assume that the final grade for a course is determined based on this scale - A: 900+ points, B: 800-899 points, C: 700-799 points, D: 600-699 points, F: 599 or fewer points.
     

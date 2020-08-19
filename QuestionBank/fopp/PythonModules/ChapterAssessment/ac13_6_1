@@ -1,8 +1,10 @@
 .. activecode:: ac13_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonModules/ChapterAssessment
+   :chapter: PythonModules
+   :subchapter: ChapterAssessment
+   :topics: PythonModules/ChapterAssessment
    :from_source: F
 
    # assign to the variable check_one, the value returned by checking the string "and"

@@ -1,8 +1,10 @@
 .. activecode:: Exam1_Question1
     :author: Jane Weyant
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :language: python
     

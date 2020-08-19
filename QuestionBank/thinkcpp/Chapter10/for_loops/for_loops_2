@@ -1,8 +1,10 @@
 .. mchoice:: for_loops_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter10/for_loops
+   :chapter: Chapter10
+   :subchapter: for_loops
+   :topics: Chapter10/for_loops
    :from_source: T
    :answer_a: in the BODIES of both loops
    :answer_b: in the BODY of a for loop, and in the statement of a while loop

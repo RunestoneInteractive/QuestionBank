@@ -1,8 +1,10 @@
 .. fillintheblank:: question15_8_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter15/apmatrix
+    :chapter: Chapter15
+    :subchapter: apmatrix
+    :topics: Chapter15/apmatrix
     :from_source: T
 
     Suppose we have matrix ``mat``.  Then ``mat[9][17]`` would be accessing

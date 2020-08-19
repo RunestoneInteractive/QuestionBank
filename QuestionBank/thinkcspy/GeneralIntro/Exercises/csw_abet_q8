@@ -1,8 +1,10 @@
 .. mchoice:: csw_abet_q8
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :answer_a: developed your skills and knowledge through continued learning
    :answer_b: demonstrated the use of Computer Science skills and techniques

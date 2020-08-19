@@ -1,8 +1,10 @@
 .. mchoice:: test_question7_7_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcspy
-  :topic: MoreAboutIteration/SimpleTables
+  :chapter: MoreAboutIteration
+  :subchapter: SimpleTables
+  :topics: MoreAboutIteration/SimpleTables
   :from_source: T
   :practice: T
   :answer_a: A tab will line up items in a second column, regardless of how many characters were in the first column, while spaces will not.
@@ -14,9 +16,9 @@
   :feedback_b: Tabs and spaces will sometimes make output appear visually different.
   :feedback_c: A tab has a pre-defined width that is equal to a given number of spaces.
   :feedback_d: You may use spaces to create tables.  The columns might look jagged, or they might not, depending on the width of the items in each column.
-  :pct_on_first: 0.7144434629
-  :total_students_attempting: 9056
-  :num_students_correct: 8992.0
-  :mean_clicks_to_correct: 1.5421485765
+  :pct_on_first: 0.7152572118
+  :total_students_attempting: 9117
+  :num_students_correct: 9053.0
+  :mean_clicks_to_correct: 1.5399315144
 
   What is the difference between a tab (``'\t'``) and a sequence of spaces?

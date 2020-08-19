@@ -1,8 +1,10 @@
 .. mchoice:: e3a4_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/exam3a4
+   :chapter: CSPNameStrings
+   :subchapter: exam3a4
+   :topics: CSPNameStrings/exam3a4
    :from_source: T
    :practice: T
    :answer_a: THIS IS A TEST
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if the question asked for the value of better.
    :feedback_c: This would be true if the question asked for the value of betterStill
    :feedback_d: This would be true if the question asked for the value of more.
+   :pct_on_first: 0.5211356467
+   :total_students_attempting: 1585
+   :num_students_correct: 935.0
+   :mean_clicks_to_correct: 1.1689839572
 
    What is the value of sentence after the following code executes?
-
+   
    ::
-
+   
       sentence = "THIS IS A TEST"
       better = sentence.lower()
       betterStill = better.capitalize() + "."

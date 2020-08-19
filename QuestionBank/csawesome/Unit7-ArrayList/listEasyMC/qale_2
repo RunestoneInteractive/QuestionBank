@@ -1,8 +1,10 @@
 .. mchoice:: qale_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/listEasyMC
+   :chapter: Unit7-ArrayList
+   :subchapter: listEasyMC
+   :topics: Unit7-ArrayList/listEasyMC
    :from_source: T
    :practice: T
    :answer_a: An array has faster access to its elements than a list does.
@@ -12,5 +14,9 @@
    :feedback_a: Since an ArrayList is implemented by an array, it has the same access time.
    :feedback_b: Lists do know their length, but they don't make it public.
    :feedback_c: Every time an ArrayList fills up a new array is created that is twice as big.  This can lead to extra space that is wasted.
+   :pct_on_first: 0.3067831449
+   :total_students_attempting: 1946
+   :num_students_correct: 1908.0
+   :mean_clicks_to_correct: 2.071278826
 
    Which of the following is a reason to use an array instead of an ArrayList?

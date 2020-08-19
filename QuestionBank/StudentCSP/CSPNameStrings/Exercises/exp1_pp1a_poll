@@ -1,8 +1,10 @@
 .. poll:: exp1_pp1a_poll
     :author: Barbara  Ericson
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: StudentCSP
-    :topic: CSPNameStrings/Exercises
+    :chapter: CSPNameStrings
+    :subchapter: Exercises
+    :topics: CSPNameStrings/Exercises
     :from_source: F
     :allowcomment: 
     :option_1: Very, very low mental effort

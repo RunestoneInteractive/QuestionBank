@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: All digital data is an abstraction.
    :answer_b: All data eventually becomes binary digits (bits) that the computer interprets.
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. Computers read binary digits to interpret data.
    :feedback_c: Incorrect. Commands are data which can be broken down into bits.
    :feedback_d: Correct. Abstractions occur in software applications.
+   :pct_on_first: 0.3018867925
+   :total_students_attempting: 53
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 2.3
 
    Which of the following is NOT true?

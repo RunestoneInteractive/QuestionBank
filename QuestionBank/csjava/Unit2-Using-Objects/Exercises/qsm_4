@@ -1,9 +1,11 @@
 .. mchoice:: qsm_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/Exercises
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
+   :from_source: F
    :practice: T
    :answer_a: Data Set 2 contains one string which should return true and one that should return false.
    :answer_b: All strings in Data Set 2 have the same number of characters.

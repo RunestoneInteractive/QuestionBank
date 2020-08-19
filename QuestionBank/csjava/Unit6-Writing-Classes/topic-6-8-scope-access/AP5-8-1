@@ -1,0 +1,47 @@
+.. mchoice:: AP5-8-1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit6-Writing-Classes
+   :subchapter: topic-6-8-scope-access
+   :topics: Unit6-Writing-Classes/topic-6-8-scope-access
+   :from_source: F
+   :practice: T
+   :answer_a: The class is missing an accessor method.
+   :answer_b: The instance variables boxesOfFood and numOfPeople should be designated public instead of private.
+   :answer_c: The return type for the Party constructor is missing.
+   :answer_d: The variable updatedAmountOfFood is not defined in eatFoodBoxes method.
+   :answer_e: The Party class is missing a constructor
+   :feedback_a: There is a scope violation.
+   :feedback_b: There is a scope violation. Instance variables are usually private.
+   :feedback_c: There is a scope violation. Constructors do not have return types.
+   :feedback_d: There is a scope violation. The updatedAmountOfFood variable is a local variable in another method.
+   :feedback_e: There is a scope violation.
+   :correct: d
+
+   Consider the following class definitions. Which of the following best explains why the class will not compile?
+
+   .. code-block:: java
+
+        public class Party
+        {
+            private int boxesOfFood;
+            private int numOfPeople;
+
+            public Party(int people, int foodBoxes)
+            {
+                numOfPeople = people;
+                boxesOfFood = foodBoxes;
+            }
+
+            public void orderMoreFood(int additionalFoodBoxes)
+            {
+                int updatedAmountOfFood = boxesOfFood + additionalFoodBoxes;
+                boxesOfFood = updatedAmountOfFood;
+            }
+
+            public void eatFoodBoxes(int eatenBoxes)
+            {
+                boxesOfFood = updatedAmountOfFood - eatenBoxes;
+            }
+        }

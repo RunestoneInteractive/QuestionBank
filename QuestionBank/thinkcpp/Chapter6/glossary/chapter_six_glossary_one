@@ -1,8 +1,10 @@
 .. dragndrop:: chapter_six_glossary_one
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter6/glossary
+    :chapter: Chapter6
+    :subchapter: glossary
+    :topics: Chapter6/glossary
     :from_source: T
     :feedback: Try again!
     :match_1:  loop|||A statement that executes repeatedly while a condition is true or some condition is satisfied.

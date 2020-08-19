@@ -1,8 +1,10 @@
 .. activecode:: chp12_dict9
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Dictionaries/Dictionarymethods
+    :chapter: Dictionaries
+    :subchapter: Dictionarymethods
+    :topics: Dictionaries/Dictionarymethods
     :from_source: T
 
     inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}

@@ -1,8 +1,10 @@
 .. activecode:: sks_rev_8
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Below is a sample from a file called ‘studentdata.txt’. It contains one line for each student in an imaginary class. 

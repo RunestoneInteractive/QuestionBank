@@ -1,21 +1,19 @@
 .. mchoice:: files_assessment_irma1
    :author: Irma Ravkic
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :answer_a: infile = open(myText.txt, “r”)
    :answer_b: infile = open("myText.txt", “r”)
    :answer_c: infile = open("myText.txt", “w”)
-   :feedback_a: Beware of variable name versus string value. Python will think myText.txt is a variable name here (which by the way is not a valid variable name). Check Note in 10.2
+   :feedback_a: Beware of variable name versus string value. Python will think myText.txt is a variable name here (which by the way is not a valid variable name). Check Note in 10.2 
    :feedback_b: This is correct. We provide a string with file name + "r" which means read only.
    :feedback_c: Incorrect since "w" denotes writing, not readig.
    :correct: b
    :practice: T
    :topics: Files
-   :pct_on_first: 0.7933333333
-   :total_students_attempting: 150
-   :num_students_correct: 149.0
-   :mean_clicks_to_correct: 1.2348993289
 
    Which of the following commands is used to open a file called ``myText.txt`` in Read-Only mode?

@@ -1,16 +1,18 @@
 .. clickablearea:: ca_id_ints
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Input
+    :chapter: SimplePythonData
+    :subchapter: Input
+    :topics: SimplePythonData/Input
     :from_source: T
     :question: Click on all of the variables of type `int` in the code below
     :iscode: 
     :feedback: Remember input returns a `str`
-    :pct_on_first: 0.0407244155
-    :total_students_attempting: 20872
-    :num_students_correct: 18766.0
-    :mean_clicks_to_correct: 4.5177981456
+    :pct_on_first: 0.0412147505
+    :total_students_attempting: 21206
+    :num_students_correct: 19070.0
+    :mean_clicks_to_correct: 4.5171997902
 
     :click-incorrect:seconds:endclick: = input("Please enter the number of seconds you wish to convert")
     

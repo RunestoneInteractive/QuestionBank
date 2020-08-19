@@ -1,8 +1,10 @@
 .. mchoice:: e24_3_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_3
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_3
+   :topics: CSPPracticeQuestions/exam24_3
    :from_source: T
    :answer_a: How does wind speed fluctuate from day to night?
    :answer_b: During which hour of the day does it rain the most on average?
@@ -13,7 +15,11 @@
    :feedback_b: Correct. The meteorologists have precipitation data for a year, so they can calculate this.
    :feedback_c: Incorrect. The meteorologists do not have air pressure data.
    :feedback_d: Incorrect. The meteorologists do not have data for Chicago's temperature.
+   :pct_on_first: 0.6099706745
+   :total_students_attempting: 341
+   :num_students_correct: 266.0
+   :mean_clicks_to_correct: 1.3157894737
 
    Meteorologists record atmospheric data to predict future weather conditions. Suppose that a meteorological lab in Atlanta takes hourly measurements of air temperature and precipitation in the city for a total period of 12 months. Note that the lab also records the exact time and date for each measurement.
-
+   
    Which of the following questions about Atlanta’s weather can be accurately answered using only the data collected by the lab?

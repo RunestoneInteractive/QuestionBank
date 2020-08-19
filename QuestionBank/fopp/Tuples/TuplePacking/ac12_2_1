@@ -1,17 +1,19 @@
 .. activecode:: ac12_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TuplePacking
+   :chapter: Tuples
+   :subchapter: TuplePacking
+   :topics: Tuples/TuplePacking
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.7635135135
-   :total_students_attempting: 444
-   :num_students_correct: 388.0
-   :mean_clicks_to_correct: 1.1546391753
+   :pct_on_first: 0.7632743363
+   :total_students_attempting: 452
+   :num_students_correct: 394.0
+   :mean_clicks_to_correct: 1.152284264
 
    **2.** Create a tuple called ``practice`` that has four elements: 'y', 'h', 'z', and 'x'.
    ~~~~

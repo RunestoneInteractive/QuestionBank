@@ -1,8 +1,10 @@
 .. youtube:: mrwSbE5MDn0
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Sequences/StringsandLists
+    :chapter: Sequences
+    :subchapter: StringsandLists
+    :topics: Sequences/StringsandLists
     :from_source: T
     :divid: listintro
     :height: 315

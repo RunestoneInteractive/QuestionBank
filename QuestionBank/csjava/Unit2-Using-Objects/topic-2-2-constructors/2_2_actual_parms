@@ -1,9 +1,11 @@
 .. mchoice:: 2_2_actual_parms
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/topic-2-2-constructors
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-2-constructors
+   :topics: Unit2-Using-Objects/topic-2-2-constructors
+   :from_source: F
    :practice: T
    :answer_a: objects
    :answer_b: classes
@@ -15,4 +17,4 @@
    :feedback_c: A formal parameter is in the constructor's signature.
    :feedback_d: A actual parameter (argument) is the value that is passed into the constructor.
 
-   In ``new World(150, 200)`` what are ``150`` and ``200``?
+   Given the constructor call ``new World(150, 200)``, what are ``150`` and ``200``?

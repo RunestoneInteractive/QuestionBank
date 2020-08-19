@@ -1,8 +1,10 @@
 .. activecode:: modules_2
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
 
     If you need to find more information about a particular module, where can 

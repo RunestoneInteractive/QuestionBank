@@ -1,8 +1,10 @@
 .. mchoice:: pe3_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test3
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
    :from_source: T
    :answer_a: [a, c, e, d, g]
    :answer_b: [c, e, d, b, g]
@@ -15,11 +17,15 @@
    :feedback_c: This code adds "a" to the end of the list: ["a"] and then "b" to the end of the list: ["a", "b"].  Then it changes the value at index 1 to "c": ["a", "c"]. Then it adds "d" at position 2 which first moves to the right any existing values ["a", "c", "d"].   Then it sets the value at index 2 to "e": ["a", "c", "e"].  Then it adds "g" to the end: ["a", "c", "e", "g"].
    :feedback_d: For this to be true the 3rd line would have to be list.add("c").  Is it?
    :feedback_e: This would be true if all of the sets were adds.
+   :pct_on_first: 0.5333333333
+   :total_students_attempting: 45
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 1.0
 
    What is printed when the following code executes (runs)?
-
+   
    .. code-block:: java
-
+   
       List<String> list = new ArrayList<String>();
       list.add("a");
       list.add("b");

@@ -1,8 +1,10 @@
 .. activecode:: myAssignment
    :author: Irma Ravkic
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Evaluate the following numerical expressions in your head, then use

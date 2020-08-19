@@ -1,8 +1,10 @@
 .. activecode:: extracting_characters_AC_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter7/extracting_characters
+  :chapter: Chapter7
+  :subchapter: extracting_characters
+  :topics: Chapter7/extracting_characters
   :from_source: T
   :language: cpp
   :caption: Accessing a string character

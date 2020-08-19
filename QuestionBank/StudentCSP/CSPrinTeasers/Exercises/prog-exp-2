@@ -1,8 +1,10 @@
 .. poll:: prog-exp-2
     :author: Barbara  Ericson
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: StudentCSP
-    :topic: CSPrinTeasers/Exercises
+    :chapter: CSPrinTeasers
+    :subchapter: Exercises
+    :topics: CSPrinTeasers/Exercises
     :from_source: F
     :scale: 10
 

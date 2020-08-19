@@ -1,8 +1,10 @@
 .. activecode:: pelatt_midterm2_4
    :author: Kristine Pelatt
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :language: python
    

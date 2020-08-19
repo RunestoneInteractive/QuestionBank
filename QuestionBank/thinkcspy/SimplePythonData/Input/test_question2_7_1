@@ -1,8 +1,10 @@
 .. mchoice:: test_question2_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Input
+   :chapter: SimplePythonData
+   :subchapter: Input
+   :topics: SimplePythonData/Input
    :from_source: T
    :practice: T
    :answer_a: &lt;class 'str'&gt;
@@ -14,10 +16,10 @@
    :feedback_b: Even though the user typed in an integer, it does not come into the program as an integer.
    :feedback_c: 18 is the value of what the user typed, not the type of the data.
    :feedback_d: 18 is the value of what the user typed, not the type of the data.
-   :pct_on_first: 0.55008022
-   :total_students_attempting: 21815
-   :num_students_correct: 21690.0
-   :mean_clicks_to_correct: 1.8846473029
+   :pct_on_first: 0.5519342753
+   :total_students_attempting: 22153
+   :num_students_correct: 22026.0
+   :mean_clicks_to_correct: 1.8795060383
 
    What is printed when the following statements execute?
    

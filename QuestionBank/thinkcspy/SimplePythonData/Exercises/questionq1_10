@@ -1,8 +1,10 @@
 .. mchoice:: questionq1_10
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :answer_a: 9
    :answer_b: "y"

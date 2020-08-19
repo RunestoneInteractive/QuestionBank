@@ -1,8 +1,10 @@
 .. mchoice:: pre_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPrinTeasers/pretest
+   :chapter: CSPrinTeasers
+   :subchapter: pretest
+   :topics: CSPrinTeasers/pretest
    :from_source: T
    :answer_a: Normal
    :answer_b: Hypertensive Crisis
@@ -15,11 +17,15 @@
    :feedback_c: This will print when check_systolic was 1 and check_diastolic was greater than 1 (but not 3).
    :feedback_d: This will print when check_systolic was 1 and check_diastolic was less than or equal to 1.
    :feedback_e: That is okay.  We do not expect you to know this.
+   :pct_on_first: 0.4162038549
+   :total_students_attempting: 3061
+   :num_students_correct: 1436.0
+   :mean_clicks_to_correct: 1.1928969359
 
    What is the output from the program below?
-
+   
    ::
-
+   
       def check_systolic(num1):
           if num1 < 120:
               return 0
@@ -29,7 +35,7 @@
               return 2
           else:
               return 3
-
+   
       def check_diastolic(num2):
           if num2 < 80:
               return 0
@@ -39,7 +45,7 @@
               return 2
           else:
               return 3
-
+   
       syst = 135
       dias = 100
       if check_systolic(syst) == 0 and check_diastolic(dias) == 0:

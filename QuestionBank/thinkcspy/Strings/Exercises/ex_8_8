@@ -1,16 +1,18 @@
 .. actex:: ex_8_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.5138055222
-   :total_students_attempting: 1666
-   :num_students_correct: 1565.0
-   :mean_clicks_to_correct: 2.738658147
+   :pct_on_first: 0.513963161
+   :total_students_attempting: 1683
+   :num_students_correct: 1581.0
+   :mean_clicks_to_correct: 2.7311827957
 
    Write a function that recognizes palindromes. (Hint: use your ``reverse`` function to make this easy!).
    ~~~~

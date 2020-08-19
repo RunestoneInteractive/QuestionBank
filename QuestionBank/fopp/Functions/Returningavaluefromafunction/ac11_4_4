@@ -1,16 +1,18 @@
 .. activecode:: ac11_4_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Returningavaluefromafunction
+   :chapter: Functions
+   :subchapter: Returningavaluefromafunction
+   :topics: Functions/Returningavaluefromafunction
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.500394011
-   :total_students_attempting: 1269
-   :num_students_correct: 994.0
-   :mean_clicks_to_correct: 2.2344064386
+   :pct_on_first: 0.5003915427
+   :total_students_attempting: 1277
+   :num_students_correct: 1001.0
+   :mean_clicks_to_correct: 2.2297702298
 
    **8.** Write a function named ``same`` that takes a string as input, and simply returns that string.
    ~~~~

@@ -1,8 +1,10 @@
 .. activecode:: For-lus-Voorbeeld4
     :author: Jan Persan
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: MoreAboutIteration/Exercises
+    :chapter: MoreAboutIteration
+    :subchapter: Exercises
+    :topics: MoreAboutIteration/Exercises
     :from_source: F
     :language: python
 

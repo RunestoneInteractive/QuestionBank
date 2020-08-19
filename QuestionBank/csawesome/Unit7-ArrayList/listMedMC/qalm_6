@@ -1,8 +1,10 @@
 .. mchoice:: qalm_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/listMedMC
+   :chapter: Unit7-ArrayList
+   :subchapter: listMedMC
+   :topics: Unit7-ArrayList/listMedMC
    :from_source: T
    :practice: T
    :answer_a: [c, d, e, b]
@@ -16,11 +18,15 @@
    :feedback_c: The a is pushed to position 2 and then replaced with the e.
    :feedback_d: This would be true if it was <code>list1.add(2,"e")</code>
    :feedback_e: Remember that the set will replace the value at index 2.
+   :pct_on_first: 0.5240520656
+   :total_students_attempting: 1767
+   :num_students_correct: 1697.0
+   :mean_clicks_to_correct: 2.0612846199
 
    What is printed as a result of executing the following code segment?
-
+   
    .. code-block:: java
-
+   
      List<String> list1 = new ArrayList<String>();
      list1.add("a");
      list1.add("b");
@@ -29,5 +35,5 @@
      list1.set(2, "e");
      list1.add("f");
      System.out.println(list1);
-
+   
      What is printed as a result of executing the following code segment?

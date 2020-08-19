@@ -1,20 +1,26 @@
 .. mchoice:: 1-9-8-BR
    :author: Gheorghe Ceara
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :answer_a: It will give a compile-time error.
    :answer_b: A random number from -10.0 to -7.0
    :answer_c: A random number from -10 to -8
    :answer_d: A random number from -10.0 to -8.0
    :correct: d
+   :pct_on_first: 0.3962264151
+   :total_students_attempting: 159
+   :num_students_correct: 154.0
+   :mean_clicks_to_correct: 2.0974025974
 
    Given the following code segment, what is the value of ``number`` when it finishes executing?
-
+   
    Math.random() returns a decimal number between 0 (inclusive) and 1 (exclusive).
-
+   
    .. code-block:: java
-
+   
     int x = Math.random() *3;
     double number = (double) (x - 10);

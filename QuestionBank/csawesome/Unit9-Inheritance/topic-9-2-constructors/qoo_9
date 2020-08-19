@@ -1,8 +1,10 @@
 .. mchoice:: qoo_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/topic-9-2-constructors
+   :chapter: Unit9-Inheritance
+   :subchapter: topic-9-2-constructors
+   :topics: Unit9-Inheritance/topic-9-2-constructors
    :from_source: T
    :practice: T
    :answer_a: I only
@@ -14,40 +16,44 @@
    :feedback_b: NamedPoint will inherit from MPoint all fields but the fields are private and they can not be directly accessed in NamedPoint. You can use super as the first line in a constructor to initialize inherited fields. You can also set your own fields in a constructor. If you don't use super as the first line in a constructor one will be put there by the compiler that will call the parent's no argument constructor.
    :feedback_c: II is invalid. Children inherit all of the fields from a parent but do not have direct access to private fields. You can use super in a constructor to initialize inherited fields by calling the parent's constructor with the same parameter list.
    :feedback_d: I is also okay
+   :pct_on_first: 0.4628759398
+   :total_students_attempting: 2128
+   :num_students_correct: 2108.0
+   :mean_clicks_to_correct: 1.734345351
 
    Given the class definitions of MPoint and NamedPoint below, which of the constructors that follow (labeled I, II, and III) would be valid in the NamedPoint class?
-
+   
    .. code-block:: java
-
-
+   
+   
       class MPoint
       {
          private int myX; // coordinates
          private int myY;
-
+   
          public MPoint( )
          {
             myX = 0;
             myY = 0;
          }
-
+   
          public MPoint(int a, int b)
          {
             myX = a;
             myY = b;
          }
-
+   
          // ... other methods not shown
-
+   
       }
-
+   
       public class NamedPoint extends MPoint
       {
          private String myName;
          // constructors go here
          // ... other methods not shown
       }
-
+   
       //  Proposed constructors for this class:
       I.   public NamedPoint()
            {

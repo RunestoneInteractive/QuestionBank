@@ -1,8 +1,10 @@
 .. mchoice:: e5a6_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/exam5a6
+   :chapter: CSPNameNames
+   :subchapter: exam5a6
+   :topics: CSPNameNames/exam5a6
    :from_source: T
    :practice: T
    :answer_a: <img src="../_static/checka.png" alt="Shorter line to south and then longer line to east" width="300">
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if it was right first and then left and if the first forward was 150 and the last was 75.
    :feedback_c: This would be true if it was the shorter line to the north and the longer to the east.
    :feedback_d: This will draw the shorter line to the north and then the longer one to the east.
+   :pct_on_first: 0.8694362018
+   :total_students_attempting: 1011
+   :num_students_correct: 911.0
+   :mean_clicks_to_correct: 1.0384193194
 
    Which picture would the following code produce?
-
+   
    ::
-
+   
       from turtle import *
       space = Screen()
       sue = Turtle()

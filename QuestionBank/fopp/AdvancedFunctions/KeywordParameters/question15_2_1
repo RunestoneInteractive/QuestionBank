@@ -1,8 +1,10 @@
 .. mchoice:: question15_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/KeywordParameters
+   :chapter: AdvancedFunctions
+   :subchapter: KeywordParameters
+   :topics: AdvancedFunctions/KeywordParameters
    :from_source: T
    :answer_a: 2
    :answer_b: 3
@@ -16,10 +18,10 @@
    :feedback_d: 2 is bound x, 5 to y, and z gets its default value, 7
    :feedback_e: z has a default value in the function definition, so it's optional to pass a value for it.
    :practice: T
-   :pct_on_first: 0.7906403941
-   :total_students_attempting: 406
-   :num_students_correct: 400.0
-   :mean_clicks_to_correct: 1.35
+   :pct_on_first: 0.7918660287
+   :total_students_attempting: 418
+   :num_students_correct: 412.0
+   :mean_clicks_to_correct: 1.354368932
 
    What value will be printed for z?
    

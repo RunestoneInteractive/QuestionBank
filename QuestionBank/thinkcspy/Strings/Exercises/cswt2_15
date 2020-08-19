@@ -1,8 +1,10 @@
 .. mchoice:: cswt2_15
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :answer_a: a code that can represent text in languages other than English
    :answer_b: a code that uses fewer bits per character than ASCII

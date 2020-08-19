@@ -1,8 +1,10 @@
 .. actex:: minerva_ex_2_5
    :author: Svitlana Midianko
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Take the sentence: *everything is intentional.*

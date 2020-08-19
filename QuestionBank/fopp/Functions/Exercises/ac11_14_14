@@ -1,14 +1,16 @@
 .. actex:: ac11_14_14
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: T
     :nocodelens: 
-    :pct_on_first: 0.744
-    :total_students_attempting: 250
-    :num_students_correct: 247.0
-    :mean_clicks_to_correct: 2.032388664
+    :pct_on_first: 0.746031746
+    :total_students_attempting: 252
+    :num_students_correct: 249.0
+    :mean_clicks_to_correct: 2.0240963855
 
     Write a function called ``is_even(n)`` that takes an integer as an argument and returns ``True`` if the argument is an **even number** and ``False`` if it is **odd**.
     ~~~~

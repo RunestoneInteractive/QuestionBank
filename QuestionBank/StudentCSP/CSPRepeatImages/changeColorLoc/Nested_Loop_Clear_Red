@@ -1,8 +1,10 @@
 .. activecode:: Nested_Loop_Clear_Red
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatImages/changeColorLoc
+    :chapter: CSPRepeatImages
+    :subchapter: changeColorLoc
+    :topics: CSPRepeatImages/changeColorLoc
     :from_source: T
     :tour_1: "Important Lines Tour"; 2: nli1-line2; 5: nli1-line5; 8: nli1-line8; 9: nli1-line9; 12: nli1-line12; 15: nli1-line15; 18: nli1-line18; 21-22: nli1-line21-22;
     :nocodelens:

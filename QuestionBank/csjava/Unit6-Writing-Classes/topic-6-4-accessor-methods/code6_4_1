@@ -1,0 +1,84 @@
+.. activecode:: code6_4_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: csjava
+  :chapter: Unit6-Writing-Classes
+  :subchapter: topic-6-4-accessor-methods
+  :topics: Unit6-Writing-Classes/topic-6-4-accessor-methods
+  :from_source: T
+  :language: java
+  :autograde: unittest
+  :practice: T
+
+  Try the following code. Note that it has a bug! It tries to access the private instance variable email from outside the class Student.  Change the main method in Tester class so that it uses the appropriate public accessor method (get method) to access the email value instead.
+
+  ~~~~
+  public class TesterClass
+  {
+     // main method for testing
+     public static void main(String[] args)
+     {
+        Student s1 = new Student("Skyler", "skyler@sky.com", 123456);
+        System.out.println("Name:" +  s1.getName() );
+        // Fix the bug here!
+        System.out.println("Email:" +  s1.email );
+        System.out.println("ID: " + s1.getId() );
+     }
+   }
+  /** Class Student keeps track of name, email, and id of a Student. */
+  class Student
+  {
+     private String name;
+     private String email;
+     private int id;
+
+     public Student(String initName, String initEmail, int initId)
+     {
+        name = initName;
+        email = initEmail;
+        id = initId;
+     }
+
+     // accessor methods - getters
+     /** getName()  @return name */
+     public String getName()
+     {
+        return name;
+     }
+     /** getEmail()  @return email */
+     public String getEmail()
+     {
+        return email;
+     }
+     /** getName()  @return id */
+     public int getId()
+     {
+        return id;
+     }
+  }
+
+  ====
+
+  import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "Name:Skyler\nEmail:skyler@sky.com\nID: 123456";
+            boolean passed = getResults(expect, output, "Checking for expected output");
+            assertTrue(passed);
+        }
+
+        @Test
+        public void testMethodCall() throws IOException
+        {
+            String target = "s1.getEmail()";
+            boolean passed = checkCodeContains("call to accessor method for email", target);
+            assertTrue(passed);
+        }
+    }

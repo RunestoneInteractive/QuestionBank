@@ -1,8 +1,10 @@
 .. activecode:: rab_ex01_fall_2019_aw_02
    :author: Richard Bernatz
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    
 

@@ -1,8 +1,10 @@
 .. activecode:: primeNumbers
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/topic-3-1-booleans
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-1-booleans
+   :topics: Unit3-If-Statements/topic-3-1-booleans
    :from_source: F
    :language: java
 

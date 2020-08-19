@@ -1,8 +1,10 @@
 .. mchoice:: mt1_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/Exercises
+   :chapter: TimedTests
+   :subchapter: Exercises
+   :topics: TimedTests/Exercises
    :from_source: T
    :answer_a: The value is the first one in the array
    :answer_b: The value is in the middle of the array
@@ -15,5 +17,9 @@
    :feedback_c: This would take 3 executions of the loop.
    :feedback_d: A sequential search loops through the elements of an array starting with the first and ending with the last and returns from the loop as soon as it finds the passed value.  It has to check every value in the array when the value it is looking for is not in the array.  This would take 10 executions of the loop.
    :feedback_e: This would take 6 executions of the loop.
+   :pct_on_first: 0.5
+   :total_students_attempting: 14
+   :num_students_correct: 7.0
+   :mean_clicks_to_correct: 1.0
 
    Which will cause the longest execution of a sequential search looking for a value in an array of 10 integers?

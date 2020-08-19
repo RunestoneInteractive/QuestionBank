@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-10-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: s1 == (s2 - 10) && (s1 + 5 * 2) == (s2 + 2)
    :answer_b: (s1 == s2 - 10) && (s1 + 5 == 5 * (s2 - 2))
@@ -10,14 +12,18 @@
    :answer_d: s1 == s2 + 10 && s1 - 5 * 2 == 2 * s2 + 5
    :answer_e: None of the above
    :correct: e
+   :pct_on_first: 0.0943396226
+   :total_students_attempting: 53
+   :num_students_correct: 53.0
+   :mean_clicks_to_correct: 3.7547169811
 
    Angeline is 10 years older than Julie. Five years from now Angeline’s age will be twice Julie’s age. What should be in place of the following condition to solve this problem?
-
+   
    .. code-block:: java
-
+   
     for (int s1 = 1, s1 <= 50; s1++) {
-	for (int s2 = 1; s2 <= 50; s2++) {
-		if (condition)
-		System.out.println(“Shawn is ” + s1 + “ and Sam is ” + s2);
-	}
+   r (int s2 = 1; s2 <= 50; s2++) {
+   f (condition)
+   ystem.out.println(“Shawn is ” + s1 + “ and Sam is ” + s2);
+   
     }

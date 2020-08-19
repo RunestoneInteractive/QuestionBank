@@ -1,8 +1,10 @@
 .. mchoice:: 5_6_1_Turtle_Names4_Q1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/changeProg
+   :chapter: CSPNameTurtles
+   :subchapter: changeProg
+   :topics: CSPNameTurtles/changeProg
    :from_source: T
    :answer_a: Change the 150 to 90
    :answer_b: Change the 75 to 90
@@ -11,5 +13,9 @@
    :feedback_a: The turtle moves forward 150 units and turns 90 degrees.
    :feedback_b: The turtle moves forward 75 units and turns 90 degrees.
    :feedback_c: Then both sides would be 150 units long.
+   :pct_on_first: 0.805984556
+   :total_students_attempting: 1036
+   :num_students_correct: 1033.0
+   :mean_clicks_to_correct: 1.2971926428
 
    If you wanted to make both of the turtle lines in that last program the same length, what change would you make to the program?  (Feel free to actually make the change in the program and click *Run* to try it!)

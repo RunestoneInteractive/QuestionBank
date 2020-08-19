@@ -1,15 +1,17 @@
 .. activecode:: lhs_10_9
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.2429245283
-    :total_students_attempting: 424
-    :num_students_correct: 420.0
-    :mean_clicks_to_correct: 4.7928571429
+    :pct_on_first: 0.2429906542
+    :total_students_attempting: 428
+    :num_students_correct: 424.0
+    :mean_clicks_to_correct: 4.7853773585
 
     Write a function ``dot_product(u, v)`` that takes two lists of numbers of the same length,
     and returns the sum of the products of the corresponding elements of each list. 

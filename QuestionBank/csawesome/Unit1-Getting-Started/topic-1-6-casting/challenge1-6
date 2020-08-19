@@ -1,8 +1,10 @@
 .. activecode:: challenge1-6
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-6-casting
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-6-casting
+   :topics: Unit1-Getting-Started/topic-1-6-casting
    :from_source: F
    :language: java
 

@@ -1,8 +1,10 @@
 .. mchoice:: 14_1_2_goto
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPTurtleDecisions/turtleFP
+   :chapter: CSPTurtleDecisions
+   :subchapter: turtleFP
+   :topics: CSPTurtleDecisions/turtleFP
    :from_source: T
    :practice: T
    :answer_a: stamp
@@ -14,5 +16,9 @@
    :feedback_b: Use xcor to get the x value of the turtle's position.
    :feedback_c: Use penup to pick up the pen (stop drawing as you move).
    :feedback_d: Use goto to move to the given x and y position.
+   :pct_on_first: 0.7714884696
+   :total_students_attempting: 477
+   :num_students_correct: 473.0
+   :mean_clicks_to_correct: 1.310782241
 
    What procedure would you use move the turtle to a given x and y position?

@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: csjava
-    :topic: Unit5-Writing-Classes/topic-5-8-scope-access
+    :topics: Unit5-Writing-Classes/topic-5-8-scope-access
     :from_source: T
     :question: Click on all the variable declarations that are at Method Level Scope.
     :iscode:

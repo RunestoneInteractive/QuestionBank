@@ -1,8 +1,10 @@
 .. mchoice:: test_question0_1
    :author: Euripides Vrachnos
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/ValuesandDataTypes
+   :chapter: SimplePythonData
+   :subchapter: ValuesandDataTypes
+   :topics: SimplePythonData/ValuesandDataTypes
    :from_source: F
    :answer_a: Εκτυπώνουμε την τιμή της και από εκεί καταλαβαίνουμε τον τύπο της.
    :answer_b: Χρησιμοποιούμε την συνάρτηση type.

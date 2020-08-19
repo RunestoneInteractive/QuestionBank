@@ -1,15 +1,17 @@
 .. activecode:: lhs_7_10
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.2348668281
-    :total_students_attempting: 413
-    :num_students_correct: 404.0
-    :mean_clicks_to_correct: 4.5247524752
+    :pct_on_first: 0.2361445783
+    :total_students_attempting: 415
+    :num_students_correct: 407.0
+    :mean_clicks_to_correct: 4.656019656
 
     Rewrite the following code using ``<`` and no other relational operators.
     

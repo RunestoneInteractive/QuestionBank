@@ -1,8 +1,10 @@
 .. mchoice:: while1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/topic-4-1-while-loops
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-1-while-loops
+   :topics: Unit4-Iteration/topic-4-1-while-loops
    :from_source: T
    :practice: T
    :answer_a: while (count == 10)
@@ -14,11 +16,15 @@
    :feedback_b: This would print out 0 2 4 6 8. Try it in the Active Code window above.
    :feedback_c: Yes, try it in the Active Code window above.
    :feedback_d: This would not print out anything because count = 0 at the start of the loop, so it is not greater than 10.
+   :pct_on_first: 0.7468560782
+   :total_students_attempting: 4294
+   :num_students_correct: 4275.0
+   :mean_clicks_to_correct: 1.3534502924
 
    Consider the following code segment. Which of the following can be used as a replacement for the missing loop header so that the loop prints out "0 2 4 6 8 10"?
-
+   
    .. code-block:: java
-
+   
         int count = 0;
         /* missing loop header */
         {

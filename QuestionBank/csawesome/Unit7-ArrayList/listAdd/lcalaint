@@ -1,8 +1,10 @@
 .. activecode:: lcalaint
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/listAdd
+   :chapter: Unit7-ArrayList
+   :subchapter: listAdd
+   :topics: Unit7-ArrayList/listAdd
    :from_source: F
    :language: java
 

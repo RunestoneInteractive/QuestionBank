@@ -1,8 +1,10 @@
 .. mchoice:: qooe_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooEasyMC
+   :chapter: Unit9-Inheritance
+   :subchapter: ooEasyMC
+   :topics: Unit9-Inheritance/ooEasyMC
    :from_source: T
    :practice: T
    :answer_a: The methods do different things.
@@ -16,5 +18,9 @@
    :feedback_c: If the methods have different post-conditions, they are performing different functions, and should be named differently.
    :feedback_d: If two methods perform the same function, they can be named the same.  However, the number of parameters, type of parameters, or order of parameter types must be different.
    :feedback_e: Overloading occurs when two methods perform the same essential operation, but take a different number and/or type of parameters.
+   :pct_on_first: 0.4417670683
+   :total_students_attempting: 747
+   :num_students_correct: 740.0
+   :mean_clicks_to_correct: 2.2689189189
 
    Under which of these conditions is it appropriate to overload a method (ie: the class will contain two methods with the same name)?

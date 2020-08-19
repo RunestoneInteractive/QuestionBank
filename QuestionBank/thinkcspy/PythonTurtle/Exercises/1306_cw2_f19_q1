@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw2_f19_q1
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    [30 pts] Consider the following program::

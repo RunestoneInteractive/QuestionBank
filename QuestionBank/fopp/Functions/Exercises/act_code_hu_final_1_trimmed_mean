@@ -1,8 +1,10 @@
 .. activecode:: act_code_hu_final_1_trimmed_mean
     :author: Sean Joyce
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     *(5 points)* Define a Python *function* named ``trimmedMean(numList)`` that takes a list of floating-point numbers as a parameter *(numList)* and  then calculates and returns the *trimmed mean* of that list.  The trimmed mean excludes the outliers from the list, *i.e.* it does not include the smallest and largest numbers from the list when computing the mean (average). In that way, a trimmed mean is more representative of a dataset, with less interference from the outliers.  Your function need not behave well with lists of fewer than 3 elements, or if the list has duplicates. Your function definition should **not** include any ``print`` statements.  I have provided a main program that will test your function--do *not* make any changes to my code.  (You may define additional functions if you wish; but that is not required.)

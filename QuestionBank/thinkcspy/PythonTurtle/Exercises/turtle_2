@@ -1,8 +1,10 @@
 .. activecode:: turtle_2
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
 
     Place a background color and pen color. Write your initials. Make sure the 

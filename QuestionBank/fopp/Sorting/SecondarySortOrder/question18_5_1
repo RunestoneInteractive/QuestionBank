@@ -1,8 +1,10 @@
 .. mchoice:: question18_5_1
       :author: bmiller
-      :difficulty: 3
+      :difficulty: 3.0
       :basecourse: fopp
-      :topic: Sorting/SecondarySortOrder
+      :chapter: Sorting
+      :subchapter: SecondarySortOrder
+      :topics: Sorting/SecondarySortOrder
       :from_source: T
       :answer_a: first city name (alphabetically), then temperature (lowest to highest)
       :answer_b: first temperature (highest to lowest), then city name (alphabetically)
@@ -14,10 +16,10 @@
       :feedback_d: The order of the tuple matters. The first item in the tuple is the first condition used to sort.
       :correct: a
       :practice: T
-      :pct_on_first: 0.6515151515
-      :total_students_attempting: 330
-      :num_students_correct: 323.0
-      :mean_clicks_to_correct: 1.6594427245
+      :pct_on_first: 0.6538461538
+      :total_students_attempting: 338
+      :num_students_correct: 331.0
+      :mean_clicks_to_correct: 1.6555891239
 
       What will the sorted function sort by?
       

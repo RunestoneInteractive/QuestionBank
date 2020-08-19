@@ -1,8 +1,10 @@
 .. mchoice:: question4_1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: PythonModules/modules
+   :chapter: PythonModules
+   :subchapter: modules
+   :topics: PythonModules/modules
    :from_source: T
    :practice: T
    :answer_a: True
@@ -10,9 +12,9 @@
    :correct: b
    :feedback_a: Only turtle, math, and random have been ported to work in activecode at this time.
    :feedback_b: Only turtle, math, and random have been ported to work in activecode at this time.
-   :pct_on_first: 0.6172627492
-   :total_students_attempting: 13393
-   :num_students_correct: 13212.0
-   :mean_clicks_to_correct: 1.3904026642
+   :pct_on_first: 0.6180555556
+   :total_students_attempting: 13536
+   :num_students_correct: 13353.0
+   :mean_clicks_to_correct: 1.4381037969
 
    True / False:  All standard Python modules will work in activecode.

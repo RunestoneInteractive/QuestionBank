@@ -1,13 +1,15 @@
 .. actex:: ac21_6_17
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.275
-   :total_students_attempting: 40
-   :num_students_correct: 32.0
-   :mean_clicks_to_correct: 3.8125
+   :pct_on_first: 0.2619047619
+   :total_students_attempting: 42
+   :num_students_correct: 34.0
+   :mean_clicks_to_correct: 3.8823529412
 
    Write code to assign to the variable ``compri_sample`` all the values of the key name in the dictionary ``tester`` if they are Juniors. Do this using list comprehension.
    ~~~~

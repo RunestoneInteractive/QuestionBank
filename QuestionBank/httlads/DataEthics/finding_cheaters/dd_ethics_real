@@ -1,8 +1,10 @@
 .. dragndrop:: dd_ethics_real
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: httlads
-   :topic: DataEthics/finding_cheaters
+   :chapter: DataEthics
+   :subchapter: finding_cheaters
+   :topics: DataEthics/finding_cheaters
    :from_source: T
    :feedback: Please keep going with your analysis.
    :match_1: bob|||7002589994262270000
@@ -14,7 +16,7 @@
    :match_7: hill|||1693568023468290000
    :pct_on_first: 0.465648855
    :total_students_attempting: 131
-   :num_students_correct: 119
+   :num_students_correct: 119.0
    :mean_clicks_to_correct: 4.0084033613
 
    Match the numeric identifiers from the first part of the project with the

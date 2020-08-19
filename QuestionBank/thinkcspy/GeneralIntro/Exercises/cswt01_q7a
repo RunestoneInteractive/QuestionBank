@@ -1,8 +1,10 @@
 .. mchoice:: cswt01_q7a
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :answer_a: F3CB
    :answer_b: F593

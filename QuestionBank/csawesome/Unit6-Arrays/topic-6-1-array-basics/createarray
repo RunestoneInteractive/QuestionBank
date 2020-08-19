@@ -1,8 +1,10 @@
 .. mchoice:: createarray
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/topic-6-1-array-basics
+   :chapter: Unit6-Arrays
+   :subchapter: topic-6-1-array-basics
+   :topics: Unit6-Arrays/topic-6-1-array-basics
    :from_source: T
    :practice: T
    :answer_a: int[] prices = new int[10];
@@ -14,5 +16,9 @@
    :feedback_b: Yes correct!
    :feedback_c: This declares the array but does not create it with new.
    :feedback_d: This is not the correct syntax.
+   :pct_on_first: 0.7702154897
+   :total_students_attempting: 4687
+   :num_students_correct: 4677.0
+   :mean_clicks_to_correct: 1.3170836006
 
    Which of the following creates an array of 10 doubles called prices?

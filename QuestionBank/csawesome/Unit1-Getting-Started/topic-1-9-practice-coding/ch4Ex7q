@@ -1,14 +1,20 @@
 .. activecode::  ch4Ex7q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-9-practice-coding
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-9-practice-coding
+   :topics: Unit1-Getting-Started/topic-1-9-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.7523809524
+   :total_students_attempting: 315
+   :num_students_correct: 304.0
+   :mean_clicks_to_correct: 1.3157894737
 
-   Write the code to print "Julian's favorite color is green.  His favorite food is pizza." using the variables provided.
+   Write the code to print ``Julian's favorite color is green.  His favorite food is pizza.`` using the variables provided.
    ~~~~
    public class Test1
    {
@@ -24,14 +30,14 @@
    import static org.junit.Assert.*;
      import org.junit.*;;
      import java.io.*;
-
+   
      public class RunestoneTests extends CodeTestHelper
      {
          @Test
          public void testMain() throws IOException
          {
              String output = getMethodOutput("main");
-             String expect = "Julian’s favorite color is green. His favorite food is pizza.";
+             String expect = "Julian's favorite color is green. His favorite food is pizza.";
              boolean passed = getResults(expect, output, "Expected output from main");
              assertTrue(passed);
          }

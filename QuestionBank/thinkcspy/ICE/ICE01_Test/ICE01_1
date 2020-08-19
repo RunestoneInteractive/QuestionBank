@@ -1,8 +1,10 @@
 .. activecode:: ICE01_1
     :author: jenkins
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: ICE/ICE01_Test
+    :chapter: ICE
+    :subchapter: ICE01_Test
+    :topics: ICE/ICE01_Test
     :from_source: F
     :nocanvas:
 

@@ -1,6 +1,8 @@
 .. activecode:: scratch_cl_02
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: ClassesDiggingDeeper/ArithmeticMethods
+    :chapter: ClassesDiggingDeeper
+    :subchapter: ArithmeticMethods
+    :topics: ClassesDiggingDeeper/ArithmeticMethods
     :from_source: T

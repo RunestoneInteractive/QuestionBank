@@ -1,8 +1,10 @@
 .. activecode:: debug_5
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Debugging/Exercises
+    :chapter: Debugging
+    :subchapter: Exercises
+    :topics: Debugging/Exercises
     :from_source: F
 
     Describe what NameErrors are.

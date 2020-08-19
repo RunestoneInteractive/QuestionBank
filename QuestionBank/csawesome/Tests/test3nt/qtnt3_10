@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: "My name is Piglet!"
    :answer_b: "Piglet"
@@ -15,50 +17,54 @@
    :feedback_c: Check the constructor method in the Pig class. The Pig class constructor uses the Animal class constructor that has one String parameter, not the default Animal constructor.
    :feedback_d: The constructor in the Pig class uses the Animal class constructor that takes in a string parameter, not the default constructor. The getName method has been overwritten in the Pig class, so "My name is " is printed before the name of the object.
    :feedback_e: Check the problem and note which method has been used. This is what is returned by the makeNoise method.
+   :pct_on_first: 0.6216216216
+   :total_students_attempting: 111
+   :num_students_correct: 109.0
+   :mean_clicks_to_correct: 1.8073394495
 
    Consider the classes ``Animal`` and ``Pig`` shown below. What is printed as a result of executing the code below?
-
+   
    .. code-block:: java
-
+   
       public class Animal
       {
           private String name;
-
+   
           public Animal(String theName)
           {
               name = theName;
           }
-
+   
           public Animal()
           {
               name = "Animal";
           }
-
+   
           public String makeNoise() { return ""; };
-
+   
           public String getName()
           {
               return name;
           }
       }
-
+   
       public class Pig extends Animal
       {
            public Pig(String theName)
            {
                super(theName);
            }
-
+   
            public String makeNoise()
            {
                return "Oink!";
            }
-
+   
            public String getName()
            {
                return "My name is " + super.getName() + "!";
            }
-
+   
            public static void main(String[] args)
            {
               Animal piglet = new Pig("Piglet");

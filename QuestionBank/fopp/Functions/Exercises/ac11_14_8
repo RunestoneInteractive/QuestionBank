@@ -1,8 +1,10 @@
 .. actex:: ac11_14_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
 
    Write a Python function that will take a the list of 100 random integers between 0 and 1000 and return the maximum value.  (Note: there is a builtin function named ``max`` but pretend you cannot use it.)

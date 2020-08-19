@@ -1,8 +1,10 @@
 .. activecode:: hill2019-turtle
    :author: Scott Hill
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TestCases/Exercises
+   :chapter: TestCases
+   :subchapter: Exercises
+   :topics: TestCases/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens:

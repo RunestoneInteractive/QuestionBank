@@ -1,8 +1,10 @@
 .. mchoice:: qale_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/listEasyMC
+   :chapter: Unit7-ArrayList
+   :subchapter: listEasyMC
+   :topics: Unit7-ArrayList/listEasyMC
    :from_source: T
    :practice: T
    :answer_a: nums.length
@@ -14,5 +16,9 @@
    :feedback_b: You can't use length on lists, use size instead.
    :feedback_c: Since the first element in a list is at index 0 the last element is at the size minus 1.
    :feedback_d: The last element is at the size of the list minus 1.
+   :pct_on_first: 0.6077630235
+   :total_students_attempting: 1958
+   :num_students_correct: 1921.0
+   :mean_clicks_to_correct: 1.5481520042
 
    Which index is the last element in a list called ``nums`` at?

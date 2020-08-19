@@ -1,8 +1,10 @@
 .. activecode:: act_code_hu_final_mkup_1_tm
     :author: Sean Joyce
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     *(5 points)* Complete your solution to Problem 1 in the ActiveCode box below.  I have provided a main program that will test your function--do *not* make any changes to my code.  (You may define additional functions if you wish; but that is not required.)

@@ -1,8 +1,10 @@
 .. mchoice:: question1_3_1_hill
    :author: Scott Hill
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: GeneralIntro/ThePythonProgrammingLanguage
+   :chapter: GeneralIntro
+   :subchapter: ThePythonProgrammingLanguage
+   :topics: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: F
    :answer_a: the instructions in a program, written in a high-level language.
    :answer_b: the language that you are programming in (Python, for example).

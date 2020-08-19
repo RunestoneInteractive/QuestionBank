@@ -1,8 +1,10 @@
 .. mchoice:: question11_3_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/FunctionParameters
+   :chapter: Functions
+   :subchapter: FunctionParameters
+   :topics: Functions/FunctionParameters
    :from_source: T
    :answer_a: print_many(x, y)
    :answer_b: print_many
@@ -15,10 +17,10 @@
    :feedback_c: This function takes two parameters (arguments)
    :feedback_d: A colon is only required in a function definition.  It will cause an error with a function call.
    :feedback_e: Since z has the value 3, we have passed in two correct values for this function. "Greetings" will be printed 3 times.
-   :pct_on_first: 0.2682291667
-   :total_students_attempting: 1536
-   :num_students_correct: 1529.0
-   :mean_clicks_to_correct: 2.3655984303
+   :pct_on_first: 0.2698515171
+   :total_students_attempting: 1549
+   :num_students_correct: 1542.0
+   :mean_clicks_to_correct: 2.3612191958
 
    Considering the function below, which of the following statements correctly invokes, or calls, this function (i.e., causes it to run)?
    

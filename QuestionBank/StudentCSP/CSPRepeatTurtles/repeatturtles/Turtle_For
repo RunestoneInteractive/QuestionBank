@@ -1,8 +1,10 @@
 .. activecode:: Turtle_For
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatTurtles/repeatturtles
+    :chapter: CSPRepeatTurtles
+    :subchapter: repeatturtles
+    :topics: CSPRepeatTurtles/repeatturtles
     :from_source: T
     :tour_1: "Lines of code"; 1: tR1-line1; 2: tR1-line2; 3: tR1-line3; 4: tR1-line4; 5: tR1-line5; 6: tR1-line6; 7: tR1-line7;
     :nocodelens:

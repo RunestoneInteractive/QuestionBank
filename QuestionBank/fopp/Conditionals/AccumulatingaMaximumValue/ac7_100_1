@@ -1,8 +1,10 @@
 .. codelens:: ac7_100_1
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/AccumulatingaMaximumValue
+   :chapter: Conditionals
+   :subchapter: AccumulatingaMaximumValue
+   :topics: Conditionals/AccumulatingaMaximumValue
    :from_source: F
    :python: py3
 

@@ -1,8 +1,10 @@
 .. activecode:: typeConversion
     :author: Sara Saatchi
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
 
 

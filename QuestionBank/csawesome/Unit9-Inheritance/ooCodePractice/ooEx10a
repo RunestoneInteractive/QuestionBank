@@ -1,10 +1,13 @@
 .. activecode::  ooEx10a
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooCodePractice
+   :chapter: Unit9-Inheritance
+   :subchapter: ooCodePractice
+   :topics: Unit9-Inheritance/ooCodePractice
    :from_source: T
    :language: java
+   :optional:
 
    class Animal
    {
@@ -23,7 +26,7 @@
 
        public void eat()
        {
-           System.out.println("nom nom");
+           System.out.println("num num");
        }
 
        public static void main(String[] args)

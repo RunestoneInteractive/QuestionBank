@@ -1,8 +1,10 @@
 .. activecode:: ids17_03005
     :author:  KUO TZU-CHI
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
    
     5.8(劉邦鋒，由片語學習C程式設計)寫一個程式在二進制、八進制、十進制之間做數字轉換。輸入第一個數字是輸入格式：2代表二進制，10代表十進制、8代表八進制。輸入的第二個數字n代表數字有幾位數。以下的n個數字為輸入數字由左到右的數字。最後一個數字是輸出格式。格式同第一個數字。以下的輸出入範例即為十進位的12345轉換為八進制變成30071。注意輸出必須一行代表一位數。

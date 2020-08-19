@@ -1,16 +1,18 @@
 .. activecode:: ac10_3_7
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Dictionaries/Dictionarymethods
+    :chapter: Dictionaries
+    :subchapter: Dictionarymethods
+    :topics: Dictionaries/Dictionarymethods
     :from_source: T
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.5085324232
-    :total_students_attempting: 1172
-    :num_students_correct: 861.0
-    :mean_clicks_to_correct: 1.6933797909
+    :pct_on_first: 0.5105663567
+    :total_students_attempting: 1183
+    :num_students_correct: 871.0
+    :mean_clicks_to_correct: 1.6877152698
 
     **5.** We have a dictionary of the specific events that Italy has won medals in and the number of medals they have won for each event. Assign to the variable ``events`` a list of the keys from the dictionary ``medal_events``. Do not hard code this.
     

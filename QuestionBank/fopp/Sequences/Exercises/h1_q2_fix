@@ -1,8 +1,10 @@
 .. dragndrop:: h1_q2_fix
     :author: Irma Ravkic
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
     :match_1: a = a + 1 ||| 4
     :match_2: print("a = a + 1") ||| 3

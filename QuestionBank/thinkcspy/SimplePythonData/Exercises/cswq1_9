@@ -1,8 +1,10 @@
 .. mchoice:: cswq1_9
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :answer_a: x-y-z
    :answer_b: _x_y_z

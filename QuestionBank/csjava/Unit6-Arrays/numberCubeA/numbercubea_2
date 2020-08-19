@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit6-Arrays/numberCubeA
+   :topics: Unit6-Arrays/numberCubeA
    :from_source: T
    :answer_a: int[] tossArray = new int[];
    :answer_b: int[] tossArray = new int(numTosses);

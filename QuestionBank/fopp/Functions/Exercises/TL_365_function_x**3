@@ -1,15 +1,17 @@
 .. actex:: TL_365_function_x**3
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.66
-   :total_students_attempting: 50
-   :num_students_correct: 36.0
-   :mean_clicks_to_correct: 2.0
+   :pct_on_first: 0.6666666667
+   :total_students_attempting: 51
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.972972973
 
    Write a function call ``pow3`` that takes a parameter ``x`` and returns ``float`` according to
    

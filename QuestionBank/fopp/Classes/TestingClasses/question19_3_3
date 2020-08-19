@@ -1,8 +1,10 @@
 .. mchoice:: question19_3_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Classes/TestingClasses
+   :chapter: Classes
+   :subchapter: TestingClasses
+   :topics: Classes/TestingClasses
    :from_source: T
    :practice: T
    :answer_a: return value test
@@ -10,10 +12,10 @@
    :correct: a
    :feedback_a: You want to check if maxabs returns the correct value for some input.
    :feedback_b: The function has no side effects; even though it takes a list L as a parameter, it doesn't alter its contents.
-   :pct_on_first: 0.7906976744
-   :total_students_attempting: 387
-   :num_students_correct: 384.0
-   :mean_clicks_to_correct: 1.2161458333
+   :pct_on_first: 0.7959697733
+   :total_students_attempting: 397
+   :num_students_correct: 394.0
+   :mean_clicks_to_correct: 1.2106598985
 
    To test the function maxabs, which kind of test case should you write?
    

@@ -1,8 +1,10 @@
 .. mchoice:: qch_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: T
    :practice: T
    :answer_a: first
@@ -16,11 +18,15 @@
    :feedback_c: Are you sure about the "second"?  This only prints if y is less than 3, and while it was originally, it changes.
    :feedback_d: The first will print since x will be greater than 2 and the second won't print since y is equal to 3 and not less than it.  The third will always print.
    :feedback_e: This will print, but so will something else.
+   :pct_on_first: 0.517571885
+   :total_students_attempting: 2817
+   :num_students_correct: 2783.0
+   :mean_clicks_to_correct: 1.8968738771
 
    What would the following print?
-
+   
    .. code-block:: java
-
+   
       int x = 3;
       int y = 2;
       if (x > 2)

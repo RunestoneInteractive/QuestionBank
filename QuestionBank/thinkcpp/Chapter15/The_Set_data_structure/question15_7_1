@@ -1,8 +1,10 @@
 .. mchoice:: question15_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter15/The_Set_data_structure
+   :chapter: Chapter15
+   :subchapter: The_Set_data_structure
+   :topics: Chapter15/The_Set_data_structure
    :from_source: T
    :multiple_answers:
    :answer_a: the set grows to accomodate any new elements we add

@@ -1,8 +1,10 @@
 .. activecode:: multiple_functions_AC_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter3/ProgramsWithMultipleFunctions
+   :chapter: Chapter3
+   :subchapter: ProgramsWithMultipleFunctions
+   :topics: Chapter3/ProgramsWithMultipleFunctions
    :from_source: T
    :language: cpp
    :caption: Multiply / Add Two
@@ -30,7 +32,7 @@
 
    int main () {
        int num = 2;
-       int new = multiplyTwo(num);
-       int newer = addTwo(new);
+       int newNum = multiplyTwo(num);
+       int newerNum = addTwo(newNum);
        return 0;
    }

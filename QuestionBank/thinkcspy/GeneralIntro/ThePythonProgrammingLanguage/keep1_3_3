@@ -1,8 +1,10 @@
 .. mchoice:: keep1_3_3
    :author: Karioki Crosby
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/ThePythonProgrammingLanguage
+   :chapter: GeneralIntro
+   :subchapter: ThePythonProgrammingLanguage
+   :topics: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: F
    :practice: T
    :answer_a: It is high-level if you are standing and low-level if you are sitting.
@@ -14,10 +16,10 @@
    :feedback_b: High and low have nothing to do with the type of device you are programming for.  Instead, look at what it takes to run the program written in the language.
    :feedback_c: Python is a high level language but must be interpreted into machine code (binary) before it can be executed.
    :feedback_d: While it is true that it is generally easier to program in a high-level language and programs written in a high-level language are usually shorter, this is not always the case.
-   :pct_on_first: 0.7333333333
-   :total_students_attempting: 30
-   :num_students_correct: 29.0
-   :mean_clicks_to_correct: 1.3103448276
+   :pct_on_first: 0.71875
+   :total_students_attempting: 32
+   :num_students_correct: 31.0
+   :mean_clicks_to_correct: 1.3225806452
 
    
     Why are you high at this level?

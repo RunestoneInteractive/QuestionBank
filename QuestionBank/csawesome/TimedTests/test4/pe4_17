@@ -1,8 +1,10 @@
 .. mchoice:: pe4_17
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: 4 in base 8
    :answer_b: 4 in base 16
@@ -15,5 +17,9 @@
    :feedback_c: 17 in base 16 is 23 in base 10.  13 in base 8 is 11 in base 10.  The answer is 12 in base 10 which is 00001100 in base 2.
    :feedback_d: This is 2 in base 10.  Convert both numbers to decimal and then convert the answer to binary.
    :feedback_e: You can't just subtract the two numbers since they are in different bases.  Convert both to decimal first.
+   :pct_on_first: 0.2903225806
+   :total_students_attempting: 31
+   :num_students_correct: 14.0
+   :mean_clicks_to_correct: 1.3571428571
 
    What is the result of 17 (in base 16) - 13 (in base 8)?

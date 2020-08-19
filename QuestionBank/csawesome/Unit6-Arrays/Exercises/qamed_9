@@ -1,8 +1,10 @@
 .. mchoice:: qamed_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/Exercises
+   :chapter: Unit6-Arrays
+   :subchapter: Exercises
+   :topics: Unit6-Arrays/Exercises
    :from_source: T
    :practice: T
    :answer_a: [-2, -1, -5, 3, -4]
@@ -16,11 +18,15 @@
    :feedback_c: This loop starts at <code>arr2.length / 2</code> which is 2 and loops to the end of the array copying from <code>arr2</code> to <code>arr1</code>.
    :feedback_d: This would be correct if this loop didn't change <code>arr1</code>, but it does.
    :feedback_e: This would be correct if it set <code>arr1[i]</code> equal to <code>arr[i] + arr[2]</code> instead.
+   :pct_on_first: 0.4811069718
+   :total_students_attempting: 1879
+   :num_students_correct: 1832.0
+   :mean_clicks_to_correct: 2.1550218341
 
    Assume that ``arr1={1, 5, 3, -8, 6}`` and ``arr2={-2, -1, -5, 3, -4}`` what will the contents of ``arr1`` be after ``copyArray`` finishes executing?
-
+   
    .. code-block:: java
-
+   
       public static void copyArray(int[] arr1, int[] arr2)
       {
          for (int i = arr1.length / 2; i < arr1.length; i++)

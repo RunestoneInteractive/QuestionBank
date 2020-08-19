@@ -1,11 +1,17 @@
 .. activecode:: rotate
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/topic-6-4-array-algorithms
+   :chapter: Unit6-Arrays
+   :subchapter: topic-6-4-array-algorithms
+   :topics: Unit6-Arrays/topic-6-4-array-algorithms
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.09375
+   :total_students_attempting: 96
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 4.0178571429
 
    The code below rotates array elements to the left. Note that you need to use an indexed loop for this because you need to change the array and access two elements at different indices. Try it in the |visualizer| with the CodeLens button. Can you change it to rotate the elements to the right instead? Hint: use a backwards loop.
    ~~~~
@@ -39,25 +45,25 @@
     import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("Rotate");
         }
-
+   
         @Test
         public void test1()
         {
             String output = getMethodOutput("main");
             String expect = "5 6 2 1 7 12";
-
+   
             boolean passed = output.contains(expect);
-
+   
             passed = getResults(expect, output, "Rotate numbers to the right", passed);
             assertTrue(passed);
         }
-
+   
         @Test
         public void test3()
         {

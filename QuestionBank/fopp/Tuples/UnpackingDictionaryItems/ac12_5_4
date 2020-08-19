@@ -1,8 +1,10 @@
 .. activecode:: ac12_5_4
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/UnpackingDictionaryItems
+   :chapter: Tuples
+   :subchapter: UnpackingDictionaryItems
+   :topics: Tuples/UnpackingDictionaryItems
    :from_source: F
    :language: python
    :autograde: unittest

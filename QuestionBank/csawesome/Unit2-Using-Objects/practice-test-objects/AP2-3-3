@@ -1,11 +1,13 @@
 .. mchoice:: AP2-3-3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/practice-test-objects
+   :chapter: Unit2-Using-Objects
+   :subchapter: practice-test-objects
+   :topics: Unit2-Using-Objects/practice-test-objects
    :from_source: T
    :practice: T
-   :random:
+   :random: 
    :answer_a: liquid.freeze(80);
    :answer_b: liquid.freeze();
    :answer_c: liquid.increaseTemp();
@@ -17,32 +19,36 @@
    :feedback_c: There is no method increaseTemp() in the Liquid class definition.
    :feedback_d: The dot operator is required between the object name and the method name.
    :feedback_e: Parentheses are required after a method name.
+   :pct_on_first: 0.6925965665
+   :total_students_attempting: 1864
+   :num_students_correct: 1445.0
+   :mean_clicks_to_correct: 1.2525951557
 
     Consider the following class. Assume that the Liquid object liquid has been properly declared and initialized in a method in a class other than Liquid.  Which of the following statements are valid?
-
+   
     .. code-block:: java
-
+   
         public class Liquid
         {
           private double boilingPoint;
           private double freezingPoint;
           private double currentTemp;
-
+   
           public Liquid(double b)
           {
             boilingPoint = b;
           }
-
+   
           void lowerTemp()
           {
             currentTemp -= 10;
           }
-
+   
           void raiseTemp()
           {
             currentTemp += 10;
           }
-
+   
           void freeze()
           {
             currentTemp = freezingPoint;

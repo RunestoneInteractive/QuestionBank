@@ -1,8 +1,10 @@
 .. mchoice:: songMethods
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-3-methods-no-params
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-3-methods-no-params
+   :topics: Unit2-Using-Objects/topic-2-3-methods-no-params
    :from_source: T
    :practice: T
    :answer_a: I like to eat eat eat.
@@ -16,11 +18,15 @@
    :feedback_c: The order things are printed out depends on the order in which they are called from the print method.
    :feedback_d: Yes, the print method calls the eat method 3 times and then the fruit method to print this.
    :feedback_e: Try the code in an active code window to see that it does work.
+   :pct_on_first: 0.6832107843
+   :total_students_attempting: 3264
+   :num_students_correct: 3245.0
+   :mean_clicks_to_correct: 1.5469953775
 
    What does the following code print out?
-
+   
    .. code-block:: java
-
+   
       public class Song
       {
         public void print()
@@ -31,17 +37,17 @@
             eat();
             fruit();
         }
-
+   
         public void fruit()
         {
             System.out.println("apples and bananas!");
         }
-
+   
         public void eat()
         {
            System.out.print("eat ");
         }
-
+   
         public static void main(String[] args)
         {
            Song s = new Song();

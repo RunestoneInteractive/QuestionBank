@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: A variable.
   :answer_b: A Function.
@@ -13,7 +15,11 @@
   :feedback_b: Incorrect. Functions perform some action, like a procedure, and return a value. For example, x.lower() would return a new string in all lowercase.
   :feedback_c: Incorrect. Code is what you are using to tell the computer how to function! You are learning how to code!
   :feedback_d: Correct. A string is characters typed between one, two, or three quotes.
+  :pct_on_first: 0.7142857143
+  :total_students_attempting: 98
+  :num_students_correct: 95.0
+  :mean_clicks_to_correct: 1.4210526316
 
   Which term does the following statement describe?
-
+  
   *Any sequence of characters we can type between a pair of single, double, or triple quotes*

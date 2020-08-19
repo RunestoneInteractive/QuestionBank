@@ -1,8 +1,10 @@
 .. mchoice:: qtnt4_20
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test4nt
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
    :from_source: T
    :answer_a: 12
    :answer_b: 27
@@ -15,17 +17,21 @@
    :feedback_c: This method calculates 3 ^ num. It goes through the recursive calls until num reaches 1, then 3 is multiplied by itself (num) times. The method has been called four times, and 3 ^ 4 is 81.
    :feedback_d: This method calculates 3 ^ num. 3 ^ 4 is not equal to 243. Check your tracing and try again.
    :feedback_e: This method will end properly. If num is less than or equal to 1, a value of 3 will be returned.
+   :pct_on_first: 0.6129032258
+   :total_students_attempting: 93
+   :num_students_correct: 90.0
+   :mean_clicks_to_correct: 1.6444444444
 
-
+   
    Consider the method ``threes``. What is returned as a result of ``threes(4)``?
-
+   
    .. code-block:: java
-
+   
      public int threes (int n)
      {
          if (n <= 1)
              return 3;
-
+   
          else
              return 3 * threes(n - 1);
      }

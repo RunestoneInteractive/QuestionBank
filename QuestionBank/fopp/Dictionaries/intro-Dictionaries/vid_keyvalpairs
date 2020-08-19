@@ -1,8 +1,10 @@
 .. youtube:: OlW_7XL9muI
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Dictionaries/intro-Dictionaries
+    :chapter: Dictionaries
+    :subchapter: intro-Dictionaries
+    :topics: Dictionaries/intro-Dictionaries
     :from_source: F
     :divid: vid_keyvalpairs
     :height: 315

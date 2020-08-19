@@ -1,16 +1,18 @@
 .. actex:: ex_6_11
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: T
     :practice: T
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.6244292237
-    :total_students_attempting: 1752
-    :num_students_correct: 1566.0
-    :mean_clicks_to_correct: 2.8275862069
+    :pct_on_first: 0.6228119706
+    :total_students_attempting: 1771
+    :num_students_correct: 1582.0
+    :mean_clicks_to_correct: 2.8293299621
 
     Extend the above program so that the sides can be given to the function in any order.
     ~~~~

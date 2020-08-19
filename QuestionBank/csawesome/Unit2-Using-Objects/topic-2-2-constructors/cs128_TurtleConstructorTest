@@ -1,36 +1,42 @@
 .. activecode:: cs128_TurtleConstructorTest
     :author: Linda Seiter
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-2-constructors
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-2-constructors
+    :topics: Unit2-Using-Objects/topic-2-2-constructors
     :from_source: F
     :language: java
     :autograde: unittest
     :datafile: turtleClasses.jar
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 2.0
 
     Try changing the code below to create a ``World`` object with 300x400 pixels. Where is the turtle placed by default? What parameters do you need to pass to the ``Turtle`` constructor to put the turtle at the top right corner? Experiment and find out. What happens if you mix up the order of the parameters?
-
+    
     (If the code below does not work for you, you can also use the ``Turtle`` code at this |repl link| (refresh page after forking and if it gets stuck) or download the files |github| to use in your own IDE.)
     ~~~~
     import java.util.*;
     import java.awt.*;
-
+    
     public class TurtleConstructorTest
     {
       public static void main(String[] args)
       {
           // Change the World constructor to 300x400
           World world = new World(300,300);
-
+    
           // Change the Turtle constructor to put the turtle in the top right corner
           Turtle t1 = new Turtle(world);
-
+    
           t1.turnLeft();
           world.show(true);
       }
     }
-
-
+    
+    
     ====
     import static org.junit.Assert.*;
     import org.junit.*;;

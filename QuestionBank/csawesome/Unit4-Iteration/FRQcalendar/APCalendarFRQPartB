@@ -1,20 +1,26 @@
 .. activecode:: APCalendarFRQPartB
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/FRQcalendar
+   :chapter: Unit4-Iteration
+   :subchapter: FRQcalendar
+   :topics: Unit4-Iteration/FRQcalendar
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.5757575758
+   :total_students_attempting: 33
+   :num_students_correct: 29.0
+   :mean_clicks_to_correct: 1.6551724138
 
    Write the code for the method dayOfWeek below and run to test it. Then, try it with today's date and see if it returns the right value.
    ~~~~
    import java.util.Calendar;
    import java.util.GregorianCalendar;
-
+   
    public class APCalendar
    {
-
+   
      /** Returns the value representing the day of the week for the given date
      * (month, day, year), where 0 denotes Sunday, 1 denotes Monday, ...,
      * and 6 denotes Saturday.
@@ -23,15 +29,15 @@
     public static int dayOfWeek(int month, int day, int year)
     {
         // WRITE YOUR CODE HERE using methods firstDayOfYear and dayOfYear
-
+   
     }
-
+   
     public static void main(String[] args)
     {
         int answer = APCalendar.dayOfWeek(1, 8, 2019);
         System.out.println("Your answer should be 2: " + answer);
     }
-
+   
     /** Returns the value representing the day of the week for the first day of year,
     * where 0 denotes Sunday, 1 denotes Monday, ..., and 6 denotes Saturday.
     */
@@ -40,7 +46,7 @@
         GregorianCalendar gc = new GregorianCalendar(year, Calendar.JANUARY, 1);
         return gc.get(Calendar.DAY_OF_WEEK) - 1;
     }
-
+   
     /** Returns n, where month, day, and year specify the nth day of the year.
     * Returns 1 for January 1 (month = 1, day = 1) of any year.
     * Precondition: The date represented by month, day, year is a valid date.
@@ -55,39 +61,39 @@
    import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("APCalendar");
         }
-
+   
         @Test
         public void test1()
         {
             String output = getMethodOutput("main");
             String expect = "Your answer should be 2: 2";
-
+   
             boolean passed = getResults(expect, output, "Running main");
             assertTrue(passed);
         }
-
+   
         @Test
         public void test2()
         {
             int answer = APCalendar.dayOfWeek(7, 2, 2020);
             int expect = 4;
-
+   
             boolean passed = getResults("" + expect, "" + answer, "dayOfWeek(7, 2, 2020)");
             assertTrue(passed);
         }
-
+   
         @Test
         public void test3()
         {
             int answer = APCalendar.dayOfWeek(2, 29, 2022);
             int expect = 2;
-
+   
             boolean passed = getResults("" + expect, "" + answer, "dayOfWeek(2, 29, 2022)");
             assertTrue(passed);
         }

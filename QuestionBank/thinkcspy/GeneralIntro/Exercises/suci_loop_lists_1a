@@ -1,8 +1,10 @@
 .. actex:: suci_loop_lists_1a
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Run the program, Modify it so that it prints the colors: red, yellow and blue.

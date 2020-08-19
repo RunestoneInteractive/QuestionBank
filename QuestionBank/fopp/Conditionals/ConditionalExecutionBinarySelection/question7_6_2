@@ -1,8 +1,10 @@
 .. mchoice:: question7_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/ConditionalExecutionBinarySelection
+   :chapter: Conditionals
+   :subchapter: ConditionalExecutionBinarySelection
+   :topics: Conditionals/ConditionalExecutionBinarySelection
    :from_source: T
    :answer_a: TRUE
    :answer_b: FALSE
@@ -14,10 +16,10 @@
    :feedback_c: Python would never print both TRUE and FALSE because it will only execute one of the if-block or the else-block, but not both.
    :feedback_d: Python will always execute either the if-block (if the condition is true) or the else-block (if the condition is false).  It would never skip over both blocks.
    :practice: T
-   :pct_on_first: 0.8769906645
-   :total_students_attempting: 1821
-   :num_students_correct: 1813.0
-   :mean_clicks_to_correct: 1.195808053
+   :pct_on_first: 0.8773841962
+   :total_students_attempting: 1835
+   :num_students_correct: 1826.0
+   :mean_clicks_to_correct: 1.1944140197
 
    What does the following code print? (choose from output a, b, c or nothing)
    

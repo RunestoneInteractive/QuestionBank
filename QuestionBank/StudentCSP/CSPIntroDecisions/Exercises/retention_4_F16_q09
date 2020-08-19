@@ -1,8 +1,10 @@
 .. mchoice:: retention_4_F16_q09
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPIntroDecisions/Exercises
+   :chapter: CSPIntroDecisions
+   :subchapter: Exercises
+   :topics: CSPIntroDecisions/Exercises
    :from_source: F
    :practice: T
    :topics: Final_Exam_F16/q_09

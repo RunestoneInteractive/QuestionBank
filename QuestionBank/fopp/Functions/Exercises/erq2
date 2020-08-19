@@ -1,8 +1,10 @@
 .. activecode:: erq2
     :author: Eric Reed
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
  
     Write a function called add that takes two parameters,

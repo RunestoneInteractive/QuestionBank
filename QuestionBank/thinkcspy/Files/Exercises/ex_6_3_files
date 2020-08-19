@@ -1,8 +1,10 @@
 .. actex:: ex_6_3_files
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: T
    :nocodelens:
    :available_files: studentdata.txt

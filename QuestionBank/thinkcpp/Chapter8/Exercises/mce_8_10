@@ -1,0 +1,39 @@
+.. mchoice:: mce_8_10
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :chapter: Chapter8
+    :subchapter: Exercises
+    :topics: Chapter8/Exercises
+    :from_source: T
+    :practice: T
+    :pct_on_first: 1.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 1.0
+
+    If the user inputted the string "C-3PO", what is the output of the code below?
+    
+    .. code-block:: cpp
+    
+      int main() {
+        char name;
+        cin >> name;
+        cout << "Hello, " << name << "!";
+      }
+    
+    - Hello, CPO!
+    
+      - ``cin`` reads the first ``char`` in from user input.
+    
+    - Hello, C!
+    
+      + Since 'C' is the first ``char`` in the input, this is the correct output.
+    
+    - Hello, C-3PO!
+    
+      - Check the data type of ``name``.
+    
+    - Error, we cannot read a character from user input.
+    
+      - We can read characters from user input.

@@ -1,8 +1,10 @@
 .. actex:: CS152_sumBetween_loop
    :author: John Cigas
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :pct_on_first: 0.1818181818
    :total_students_attempting: 22

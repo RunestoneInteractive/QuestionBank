@@ -1,8 +1,10 @@
 .. mchoice:: question12_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TuplePacking
+   :chapter: Tuples
+   :subchapter: TuplePacking
+   :topics: Tuples/TuplePacking
    :from_source: T
    :multiple_answers: 
    :answer_a: print(julia['city'])
@@ -17,9 +19,9 @@
    :feedback_d: Index into tuples using square brackets. julia(-1) will try to treat julia as a function call, with -1 as the parameter value.
    :feedback_e: Indexing starts at 0. You want the seventh item, which is julia[6]
    :practice: T
-   :pct_on_first: 0.3026584867
-   :total_students_attempting: 489
-   :num_students_correct: 475.0
-   :mean_clicks_to_correct: 2.7094736842
+   :pct_on_first: 0.3046092184
+   :total_students_attempting: 499
+   :num_students_correct: 485.0
+   :mean_clicks_to_correct: 2.6989690722
 
    Which of the following statements will output Atlanta, Georgia

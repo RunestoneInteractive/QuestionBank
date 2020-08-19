@@ -1,37 +1,44 @@
 .. parsonsprob:: mucp_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter7/mixed_up_code
+   :chapter: Chapter7
+   :subchapter: mixed_up_code
+   :topics: Chapter7/mixed_up_code
    :from_source: T
    :numbered: left
    :adaptive:
    :noindent:
+   :practice: T
 
-   Let's write the code for the ``cipherText`` function. ``cipherText``
-   should be a void function that takes a string input as a parameter,
-   increases the value of each character by 1 (i.e. "bad" turns into "cbe"),
-   and outputs the encrypted string.
+   Write a program that prints the 4th character of ``string``,
+   and finds and replaces all instances of 'i' with 'e'.
+   Finally, print out the string. Put the necessary blocks in the correct order.
    -----
-   void cipherText (string input) {
+   int main() {
    =====
-   string cipherText (string input) {  #paired
+      string word = "irritating";
    =====
-      int i = 0;
+      cout << word[3] << endl;
    =====
-      while (i < input.length()) {
+      cout << irritating[3] << endl;  #distractor
    =====
-      while (i < input.length() - 1) {  #paired
+      cout << word.at(4) << endl;  #distractor
    =====
-         input[i] = input[i] + 1;
+      cout << word[4] << endl;  #distractor
    =====
-         input[i] = input[i] - 1;  #paired
+      while ((int)word.find('i') != -1) {
    =====
-         i++;
+      while ((int)word.find('e') != -1) {  #distractor
+   =====
+      while ((int)word.find('i')) {  #distractor
+   =====
+         word[word.find('i')] = 'e';
       }
    =====
-      cout << input;
-   }
+         word[word.find('e')] = 'i';  #distractor
+      }
    =====
-      return input;  #paired
+      cout << word << endl;
+   =====
    }

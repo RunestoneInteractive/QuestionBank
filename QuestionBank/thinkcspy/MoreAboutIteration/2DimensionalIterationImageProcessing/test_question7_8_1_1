@@ -1,8 +1,10 @@
 .. mchoice:: test_question7_8_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/2DimensionalIterationImageProcessing
+   :chapter: MoreAboutIteration
+   :subchapter: 2DimensionalIterationImageProcessing
+   :topics: MoreAboutIteration/2DimensionalIterationImageProcessing
    :from_source: T
    :practice: T
    :answer_a: Dark red
@@ -14,9 +16,9 @@
    :feedback_b: The closer the values are to 0, the darker the color will appear.
    :feedback_c: The first value in RGB is the red value.  The second is the green.  This color has no green in it.
    :feedback_d: The first value in RGB is the red value.  The second is the green.  This color has no green in it.
-   :pct_on_first: 0.391642484
-   :total_students_attempting: 8615
-   :num_students_correct: 8566.0
-   :mean_clicks_to_correct: 1.7847303292
+   :pct_on_first: 0.3918513389
+   :total_students_attempting: 8664
+   :num_students_correct: 8615.0
+   :mean_clicks_to_correct: 1.7843296576
 
    If you have a pixel whose RGB value is (50, 0, 0), what color will this pixel appear to be?

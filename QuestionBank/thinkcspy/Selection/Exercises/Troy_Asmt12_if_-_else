@@ -1,8 +1,10 @@
 .. activecode:: Troy_Asmt12_if/else
     :author: Shawn Haarer
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
 
     Asmt 12.  GUESS THE DIE ROLL 

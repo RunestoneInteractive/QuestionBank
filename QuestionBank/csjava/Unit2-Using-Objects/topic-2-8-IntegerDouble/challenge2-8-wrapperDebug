@@ -1,9 +1,11 @@
 .. activecode:: challenge2-8-wrapperDebug
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/topic-2-8-IntegerDouble
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-8-IntegerDouble
+   :topics: Unit2-Using-Objects/topic-2-8-IntegerDouble
+   :from_source: F
    :language: java
    :autograde: unittest
 

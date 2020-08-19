@@ -1,8 +1,10 @@
 .. mchoice:: qlm_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/Exercises
+   :chapter: Unit4-Iteration
+   :subchapter: Exercises
+   :topics: Unit4-Iteration/Exercises
    :from_source: T
    :practice: T
    :answer_a: I
@@ -16,48 +18,52 @@
    :feedback_c: This will loop with j from 1 to 5 and k from 1 times.
    :feedback_d: This will loop j from 1 to 5 and k from 1 to 5, printing each number 5 times.
    :feedback_e: This loops with j from 1 to 5 and k from j to 5 and prints out the value of k, printing 1 through 5 on the first line, 2 through 5 on the next, and so on.
+   :pct_on_first: 0.4011652102
+   :total_students_attempting: 2403
+   :num_students_correct: 2358.0
+   :mean_clicks_to_correct: 2.8702290076
 
    Which of the following code segments will produce the displayed output?
-
+   
    .. code-block:: java
-
+   
      11111
      2222
      333
      44
      5
-
-
+   
+   
      I.   for (int j = 1; j <= 5; j++) {
              for (int k = 5; k >= j; k--) {
-                System.out.print(j + " ");
+                System.out.print(j);
              }
              System.out.println();
           }
-
+   
      II.  for (int j = 1; j <= 5; j++) {
              for (int k = 5; k >= 1; k--) {
-                System.out.print(j + " ");
+                System.out.print(j);
              }
              System.out.println();
           }
-
+   
      III. for (int j = 1; j <= 5; j++) {
              for (int k = 1; k <= j; k++) {
-                System.out.print(j + " ");
+                System.out.print(j);
              }
              System.out.println();
           }
-
+   
      IV.  for (int j = 1; j <= 5; j++) {
              for (int k = 1; k <= 5; k++) {
-                System.out.println(j + " ");
+                System.out.println(j);
              }
           }
-
+   
      V.   for (int j = 1; j <= 5; j++) {
              for (int k = j; k <= 5; k++) {
-                System.out.print(k + " ");
+                System.out.print(k);
              }
              System.out.println();
           }

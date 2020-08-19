@@ -1,8 +1,10 @@
 .. codelens:: clens17_3_1
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: NestedData/NestedIteration
+    :chapter: NestedData
+    :subchapter: NestedIteration
+    :topics: NestedData/NestedIteration
     :from_source: F
     :python: py3
 

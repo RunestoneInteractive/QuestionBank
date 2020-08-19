@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: Someone using your social media information to show you specific advertisements.
    :answer_b: Someone requesting your personal information through an online chat room.
@@ -13,6 +15,10 @@
    :feedback_b: Correct. Phishing involves someone else trying to obtain personal information from you through electronic communication.
    :feedback_c: Incorrect. Although your sensitive information is being revealed, this is not phishing because there is not another person disguising themselves as a trustworthy source.
    :feedback_d: Incorrect. This is not phishing because there is no one trying to steal personal information from you.
+   :pct_on_first: 0.6507936508
+   :total_students_attempting: 63
+   :num_students_correct: 59.0
+   :mean_clicks_to_correct: 1.5423728814
 
-
+   
    Which of the following is most likely to be a part of a phishing attack?

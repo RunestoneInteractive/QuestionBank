@@ -1,8 +1,10 @@
 .. codelens:: keyword_params_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/KeywordParameters
+   :chapter: AdvancedFunctions
+   :subchapter: KeywordParameters
+   :topics: AdvancedFunctions/KeywordParameters
    :from_source: T
    :python: py3
 

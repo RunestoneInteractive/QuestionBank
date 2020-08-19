@@ -1,8 +1,10 @@
 .. activecode:: L6.2B_Troy_2019
     :author: Shawn Haarer
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     Classwork:  Write a function that will accept the lenghts of the legs of 

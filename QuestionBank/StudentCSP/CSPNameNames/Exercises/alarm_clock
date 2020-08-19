@@ -1,11 +1,17 @@
 .. activecode:: alarm_clock
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 
+   :pct_on_first: 0.312
+   :total_students_attempting: 125
+   :num_students_correct: 117.0
+   :mean_clicks_to_correct: 3.905982906
 
    
    Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a 
@@ -15,12 +21,12 @@
    then on weekdays it should be "10:00" and weekends it should be "off".  
    ~~~~
    def alarm_clock(day, vacation):
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(alarm_clock(1,False), '7:00', "alarm_clock(1,False)")
            self.assertEqual(alarm_clock(5,False), '7:00', "alarm_clock(5,False)")

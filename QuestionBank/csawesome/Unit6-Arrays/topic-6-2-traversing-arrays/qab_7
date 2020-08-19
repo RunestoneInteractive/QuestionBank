@@ -1,8 +1,10 @@
 .. mchoice:: qab_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/topic-6-2-traversing-arrays
+   :chapter: Unit6-Arrays
+   :subchapter: topic-6-2-traversing-arrays
+   :topics: Unit6-Arrays/topic-6-2-traversing-arrays
    :from_source: T
    :practice: T
    :answer_a: -1
@@ -14,13 +16,17 @@
    :feedback_b: Check the starting index.   Is it correct?
    :feedback_c: Check the starting index.   Is it correct?
    :feedback_d: You can not start the index at the length of the array.  You must start at the length of the array minus one.  This is a common mistake.
+   :pct_on_first: 0.2129653736
+   :total_students_attempting: 3841
+   :num_students_correct: 3796.0
+   :mean_clicks_to_correct: 2.6087987355
 
    Given the following code segment (which is identical to the method above) what will be returned when you execute: getIndexOfLastElementSmallerThanTarget(values, 7);
-
+   
    .. code-block:: java
-
+   
       int[ ] values = {-20, -15, 2, 8, 16, 33};
-
+   
       public static int getIndexOfLastElementSmallerThanTarget(int[] values, int compare)
       {
          for (int i = values.length; i >=0; i--)

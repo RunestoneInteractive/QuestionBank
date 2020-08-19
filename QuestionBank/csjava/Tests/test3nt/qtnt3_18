@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_18
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: System.out.print(arr[x] + " ");
    :answer_b: System.out.print(x + " ");

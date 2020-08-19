@@ -1,8 +1,10 @@
 .. activecode:: wvu_image_rotation
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Iteration/Exercises
+    :chapter: Iteration
+    :subchapter: Exercises
+    :topics: Iteration/Exercises
     :from_source: F
 
     Write a program that will rotate an image by any arbitrary degree. Your code must create an output image that is large enough to contain all of the original image without cropping.

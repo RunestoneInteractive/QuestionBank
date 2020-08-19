@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermCopyNonWhitePixels
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1176470588
+   :total_students_attempting: 85
+   :num_students_correct: 64.0
+   :mean_clicks_to_correct: 5.65625
 
    The code below is supposed to copy the pixels that are not close to the color white from img1 to img2.  Put the code in the correct order.
    -----
@@ -33,8 +39,8 @@
    # SHOW THE CHANGED IMAGE
    win = ImageWin(img2.getWidth(),img2.getHeight())
    img2.draw(win)
- 
-
-config values (conf.py):
-
-- parsons_div_class - custom CSS class of the component's outermost div
+   
+   
+   fig values (conf.py):
+   
+   arsons_div_class - custom CSS class of the component's outermost div

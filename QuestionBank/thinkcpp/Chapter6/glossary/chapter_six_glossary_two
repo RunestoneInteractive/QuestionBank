@@ -1,8 +1,10 @@
 .. dragndrop:: chapter_six_glossary_two
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter6/glossary
+    :chapter: Chapter6
+    :subchapter: glossary
+    :topics: Chapter6/glossary
     :from_source: T
     :feedback: Try again!
     :match_1:  encapsulate|||To divide a large complex program into components (like functions) and isolate the components from each other (for example, by using local variables).

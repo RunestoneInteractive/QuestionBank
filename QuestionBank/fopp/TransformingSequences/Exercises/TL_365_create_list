@@ -1,15 +1,17 @@
 .. actex:: TL_365_create_list
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.5328467153
-   :total_students_attempting: 137
-   :num_students_correct: 89.0
-   :mean_clicks_to_correct: 1.5280898876
+   :pct_on_first: 0.5422535211
+   :total_students_attempting: 142
+   :num_students_correct: 94.0
+   :mean_clicks_to_correct: 1.5106382979
 
    Create a new list called ``sqrts`` that contains the square root of
    each number in the list ``numbers``.  Your solution should work for

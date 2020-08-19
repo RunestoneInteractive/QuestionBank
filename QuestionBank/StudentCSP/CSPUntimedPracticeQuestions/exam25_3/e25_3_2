@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: Executing code once
    :answer_b: Repeating a block of code until a condition is met
@@ -13,5 +15,9 @@
    :feedback_b: Correct. Iteration repeats one or more statements until a condition is met.
    :feedback_c: Incorrect. Iterating with loops is a way of preventing you from having to duplicate a section of code multiple times.
    :feedback_d: Incorrect. Debugging involves a person finding errors or "bugs" in their code. Iteration with loops runs a set of code until a condition is met.
+   :pct_on_first: 0.6346153846
+   :total_students_attempting: 52
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 1.62
 
    What does iteration with computer science loops mean?

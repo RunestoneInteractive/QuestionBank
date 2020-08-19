@@ -1,8 +1,10 @@
 .. activecode:: bnm_ac_training_1
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    Write a function to compute pi to 5000 places

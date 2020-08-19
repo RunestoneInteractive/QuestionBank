@@ -1,8 +1,10 @@
 .. fillintheblank:: question15_4_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter15/File_output
+    :chapter: Chapter15
+    :subchapter: File_output
+    :topics: Chapter15/File_output
     :from_source: T
 
     Finish the statement: |blank| ``outfile ("output-file");``.

@@ -1,15 +1,17 @@
 .. actex:: TL_365_Balmer_list
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0952380952
-   :total_students_attempting: 105
-   :num_students_correct: 44.0
-   :mean_clicks_to_correct: 4.75
+   :pct_on_first: 0.0934579439
+   :total_students_attempting: 107
+   :num_students_correct: 45.0
+   :mean_clicks_to_correct: 4.7555555556
 
    The wavelengths of the spectral lines from hydrogen are given by the Balmer series
    

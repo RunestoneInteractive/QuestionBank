@@ -1,8 +1,10 @@
 .. mchoice:: question8_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/Mutability
+   :chapter: TransformingSequences
+   :subchapter: Mutability
+   :topics: TransformingSequences/Mutability
    :from_source: T
    :answer_a: [4,2,True,8,6,5]
    :answer_b: [4,2,True,6,5]
@@ -12,10 +14,10 @@
    :feedback_b: Yes, the value True is placed in the list at index 2. It replaces 8.
    :feedback_c: Item assignment is allowed with lists. Lists are mutable.
    :practice: T
-   :pct_on_first: 0.645074224
-   :total_students_attempting: 1482
-   :num_students_correct: 1478.0
-   :mean_clicks_to_correct: 1.4587280108
+   :pct_on_first: 0.6450967312
+   :total_students_attempting: 1499
+   :num_students_correct: 1494.0
+   :mean_clicks_to_correct: 1.4585006693
 
    What is printed by the following statements?
    

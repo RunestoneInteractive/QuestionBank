@@ -1,8 +1,10 @@
 .. activecode:: 12_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter12/vector_of_cards
+   :chapter: Chapter12
+   :subchapter: vector_of_cards
+   :topics: Chapter12/vector_of_cards
    :from_source: T
    :language: cpp
 

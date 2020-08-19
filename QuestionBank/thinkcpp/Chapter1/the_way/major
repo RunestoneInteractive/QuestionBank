@@ -1,9 +1,11 @@
 .. poll:: major
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter1/the_way
-   :from_source: T
+   :chapter: Chapter1
+   :subchapter: the_way
+   :topics: Chapter1/the_way
+   :from_source: F
    :option_1: Computer Science / Data Science
    :option_2: Computer Engineering
    :option_3: Other Engineering Degree

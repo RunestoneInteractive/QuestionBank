@@ -1,8 +1,10 @@
 .. mchoice:: e25_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_2
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_2
+   :topics: CSPUntimedPracticeQuestions/exam25_2
    :from_source: T
    :answer_a: Because we started at 0.
    :answer_b: Because the range only extends to 101.
@@ -13,17 +15,21 @@
    :feedback_b: Incorrect. Since the range extends to 101, the last number we use is 100.
    :feedback_c: Correct. Binary code is not relevant to why this code stops at 100.
    :feedback_d: Incorrect. Since we start at 0 and use a step of 2, we are counting by even numbers up to 101.
+   :pct_on_first: 0.2666666667
+   :total_students_attempting: 75
+   :num_students_correct: 72.0
+   :mean_clicks_to_correct: 2.6111111111
 
    Which of the following is NOT why we stop at 100 in the following code?
-
+   
    sum ← 0
-
+   
    numbers ← RANGE(0,101,2)
-
+   
    FOR EACH number IN numbers:
-
+   
     {
     sum ← sum + number
     }
-
+   
    DISPLAY(sum)

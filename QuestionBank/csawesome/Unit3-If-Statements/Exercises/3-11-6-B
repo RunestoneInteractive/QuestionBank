@@ -1,18 +1,24 @@
 .. mchoice:: 3-11-6-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: x = 0;
    :answer_b: if (x > 1) x += 1;
    :answer_c: if (x > 0) x -= 1;
    :answer_d: if (x < 1) x = 100;
    :correct: d
+   :pct_on_first: 0.6268656716
+   :total_students_attempting: 134
+   :num_students_correct: 134.0
+   :mean_clicks_to_correct: 1.723880597
 
    Which of the following is equivalent to the code segment below?
-
+   
    .. code-block:: java
-
+   
     if (x < 1) x = x - 1;
     if (x <= 0 ) x = 100;

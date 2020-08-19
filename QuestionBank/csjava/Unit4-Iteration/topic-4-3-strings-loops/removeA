@@ -1,9 +1,11 @@
 .. parsonsprob:: removeA
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit4-Iteration/topic-4-3-strings-loops
-   :from_source: T
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-3-strings-loops
+   :topics: Unit4-Iteration/topic-4-3-strings-loops
+   :from_source: F
    :numbered: left
    :practice: T
    :adaptive:

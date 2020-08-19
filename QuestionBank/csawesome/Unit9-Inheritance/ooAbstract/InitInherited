@@ -1,8 +1,10 @@
 .. activecode:: InitInherited
   :author: Brad Miller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: csawesome
-  :topic: Unit9-Inheritance/ooAbstract
+  :chapter: Unit9-Inheritance
+  :subchapter: ooAbstract
+  :topics: Unit9-Inheritance/ooAbstract
   :from_source: F
   :language: java
 

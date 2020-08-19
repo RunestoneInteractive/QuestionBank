@@ -1,8 +1,10 @@
 .. activecode::  ch14ex7q
      :author: bmiller
-     :difficulty: 3
+     :difficulty: 3.0
      :basecourse: StudentCSP
-     :topic: CSPTurtleDecisions/Exercises
+     :chapter: CSPTurtleDecisions
+     :subchapter: Exercises
+     :topics: CSPTurtleDecisions/Exercises
      :from_source: T
      :nocodelens:
 

@@ -1,8 +1,10 @@
 .. activecode:: CCS_padding_one
    :author: Michael McCarrin
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
 
    'Padding' is a term for adding characters to  a set of strings so they all have the same width. For example, if my strings are"I", "In", "Ink", "Inkling" and I want them to all have a length of 8, I can accomplish this by padding them on the left with the "*" character. The result would be:

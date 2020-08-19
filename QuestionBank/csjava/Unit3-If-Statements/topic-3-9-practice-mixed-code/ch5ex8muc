@@ -1,15 +1,18 @@
 .. parsonsprob:: ch5ex8muc
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit3-If-Statements/topic-3-9-practice-mixed-code
-   :from_source: T
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-9-practice-mixed-code
+   :topics: Unit3-If-Statements/topic-3-9-practice-mixed-code
+   :from_source: F
    :numbered: left
    :practice: T
    :adaptive:
    :noindent:
 
-   The main method in the following class should print if you can text now.  You can text if you are not driving and not eating. But, the blocks have been mixed up and includes <b>an extra block</b> that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   The main method in the following class should print if you can text now.  You can text if you are not driving and not eating. But, the blocks have been mixed up and includes <b>an extra block</b> that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.
+
    -----
    public class Test1
    {

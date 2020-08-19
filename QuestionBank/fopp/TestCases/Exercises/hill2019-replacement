@@ -1,8 +1,10 @@
 .. activecode:: hill2019-replacement
    :author: Scott Hill
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: TestCases/Exercises
+   :chapter: TestCases
+   :subchapter: Exercises
+   :topics: TestCases/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 

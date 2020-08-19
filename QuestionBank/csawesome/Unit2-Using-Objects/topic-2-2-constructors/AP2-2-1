@@ -1,8 +1,10 @@
 .. mchoice:: AP2-2-1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-2-constructors
+   :topics: Unit2-Using-Objects/topic-2-2-constructors
    :from_source: T
    :practice: T
    :answer_a: I only
@@ -16,24 +18,28 @@
    :feedback_c: I and III call the correct constructors.
    :feedback_d: II is not correct because there is no Cat constructor that takes 2 parameters.
    :feedback_e: II is not correct because there is no Cat constructor that takes 2 parameters.
+   :pct_on_first: 0.4170918367
+   :total_students_attempting: 2352
+   :num_students_correct: 2338.0
+   :mean_clicks_to_correct: 2.2360992301
 
     Consider the following class. Which of the following successfully creates a new Cat object?
-
+   
     .. code-block:: java
-
+   
         public class Cat
         {
             private String color;
             private String breed;
             private boolean isHungry;
-
+   
             public Cat()
             {
                 color = "unknown";
                 breed = "unknown";
                 isHungry = false;
             }
-
+   
             public Cat(String c, String b, boolean h)
             {
                 color = c;
@@ -41,7 +47,7 @@
                 isHungry = h;
             }
         }
-
+   
         I.   Cat a = new Cat();
         II.  Cat b = new Cat("Shorthair", true);
         III. String color = "orange";

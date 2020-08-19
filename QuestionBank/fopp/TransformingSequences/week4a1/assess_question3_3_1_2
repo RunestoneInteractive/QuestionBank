@@ -1,8 +1,10 @@
 .. mchoice:: assess_question3_3_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: yes
    :answer_b: no
@@ -11,15 +13,11 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/Aliasing
-   :pct_on_first: 0.7672301691
-   :total_students_attempting: 769
-   :num_students_correct: 762.0
-   :mean_clicks_to_correct: 1.2414698163
 
    Could aliasing cause potential confusion in this problem?
-   
+
    .. sourcecode:: python
-   
+
     b = ['q', 'u', 'i']
     z = b
     b[1] = 'i'

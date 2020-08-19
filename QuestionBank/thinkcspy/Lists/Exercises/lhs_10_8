@@ -1,15 +1,17 @@
 .. activecode:: lhs_10_8
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.3357487923
-    :total_students_attempting: 414
-    :num_students_correct: 410.0
-    :mean_clicks_to_correct: 5.2951219512
+    :pct_on_first: 0.3397129187
+    :total_students_attempting: 418
+    :num_students_correct: 414.0
+    :mean_clicks_to_correct: 5.2608695652
 
     Write a function ``scalar_mult(s, v)`` that takes a number, s, and a list of numbers,
     v,  and returns a **new** list with the scalar multiple of v by s. The original list v

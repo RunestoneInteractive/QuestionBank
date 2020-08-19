@@ -1,14 +1,16 @@
 .. actex:: ac11_14_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
    :nocodelens: 
-   :pct_on_first: 0.5345454545
-   :total_students_attempting: 275
-   :num_students_correct: 262.0
-   :mean_clicks_to_correct: 1.9885496183
+   :pct_on_first: 0.5342960289
+   :total_students_attempting: 277
+   :num_students_correct: 264.0
+   :mean_clicks_to_correct: 2.0037878788
 
    Write a function that mirrors its string argument,
    generating a string containing the original string and the string backwards.

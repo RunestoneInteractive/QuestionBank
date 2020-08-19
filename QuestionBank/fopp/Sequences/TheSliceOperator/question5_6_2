@@ -1,8 +1,10 @@
 .. mchoice:: question5_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/TheSliceOperator
+   :chapter: Sequences
+   :subchapter: TheSliceOperator
+   :topics: Sequences/TheSliceOperator
    :from_source: T
    :answer_a: [ [ ], 3.14, False]
    :answer_b: [ [ ], 3.14]
@@ -12,10 +14,10 @@
    :feedback_b: By leaving out the upper bound on the slice, we go up to and including the last item.
    :feedback_c: Index values start at 0.
    :practice: T
-   :pct_on_first: 0.6391223156
-   :total_students_attempting: 2142
-   :num_students_correct: 2137.0
-   :mean_clicks_to_correct: 1.5114646701
+   :pct_on_first: 0.6395187413
+   :total_students_attempting: 2161
+   :num_students_correct: 2156.0
+   :mean_clicks_to_correct: 1.5106679035
 
    What is printed by the following statements?
    

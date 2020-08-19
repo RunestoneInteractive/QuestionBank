@@ -1,14 +1,16 @@
 .. parsonsprob:: pp_2_15
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: T
    :noindent: 
-   :pct_on_first: 0.8612945839
-   :total_students_attempting: 1514
+   :pct_on_first: 0.8620462046
+   :total_students_attempting: 1515
    :num_students_correct: 1489.0
-   :mean_clicks_to_correct: 1.2619207522
+   :mean_clicks_to_correct: 1.2592343855
 
    Piece together the code so that a user is asked for two numbers, and then the sum of those two numbers is printed out.
    -----

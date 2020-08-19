@@ -1,8 +1,10 @@
 .. activecode:: ClassTestTwo
     :author: Wesley Thang
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: ClassesBasics/Exercises
+    :chapter: ClassesBasics
+    :subchapter: Exercises
+    :topics: ClassesBasics/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

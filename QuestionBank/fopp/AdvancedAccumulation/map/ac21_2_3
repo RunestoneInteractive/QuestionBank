@@ -1,8 +1,10 @@
 .. activecode:: ac21_2_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/map
+   :chapter: AdvancedAccumulation
+   :subchapter: map
+   :topics: AdvancedAccumulation/map
    :from_source: T
 
    things = [2, 5, 9]

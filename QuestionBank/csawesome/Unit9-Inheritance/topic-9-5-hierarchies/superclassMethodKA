@@ -1,8 +1,10 @@
 .. activecode:: superclassMethodKA
   :author: Katie Anderson
-  :difficulty: 0
+  :difficulty: 0.0
   :basecourse: csawesome
-  :topic: Unit9-Inheritance/topic-9-5-hierarchies
+  :chapter: Unit9-Inheritance
+  :subchapter: topic-9-5-hierarchies
+  :topics: Unit9-Inheritance/topic-9-5-hierarchies
   :from_source: F
   :language: java
 

@@ -1,8 +1,10 @@
 .. mchoice:: qcb1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/topic-3-3-if-else
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-3-if-else
+   :topics: Unit3-If-Statements/topic-3-3-if-else
    :from_source: F
    :answer_a: A
    :answer_b: B
@@ -15,11 +17,15 @@
    :feedback_c: Check this in DrJava.
    :feedback_d: Each of the if statements will be executed. So grade will be set to A, then B then C and finally D.
    :feedback_e: This will only be true when score is less than 60.
+   :pct_on_first: 0.0864197531
+   :total_students_attempting: 81
+   :num_students_correct: 80.0
+   :mean_clicks_to_correct: 3.4
 
     What is the value of grade when the following code executes and score is 93?
-
+   
    .. code-block:: java
-
+   
      if (score >= 90) grade = "A";
      if (score >= 80) grade = "B";
      if (score >= 70) grade = "C";

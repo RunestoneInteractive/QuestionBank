@@ -1,8 +1,10 @@
 .. activecode:: lst_complete_tree
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: IntroRecursion/intro-VisualizingRecursion
+    :chapter: IntroRecursion
+    :subchapter: intro-VisualizingRecursion
+    :topics: IntroRecursion/intro-VisualizingRecursion
     :from_source: T
     :caption: Recursively Drawing a Tree
     :nocodelens:

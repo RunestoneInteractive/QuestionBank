@@ -1,8 +1,10 @@
 .. mchoice:: cswt2_25
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :answer_a: 1,080,000 bits
    :answer_b: 60,000 bits

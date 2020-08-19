@@ -1,8 +1,10 @@
 .. mchoice:: program_dvlmt_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter5/programdevelopment
+   :chapter: Chapter5
+   :subchapter: programdevelopment
+   :topics: Chapter5/programdevelopment
    :from_source: T
    :answer_a: Use temporary variables to hold intermediate values so you can output and check them.
    :answer_b: Start with a working program and make small, incremental changes. That way you know exactly where the error is if you have one.
@@ -13,5 +15,9 @@
    :feedback_b: This is the definition of incremental development.
    :feedback_c: Incremental development uses step by step debugging in order to avoid the difficulty this would present.
    :feedback_d: This is good practice, as long as it doesn't make the program difficult to read.
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Which of the following is **not** a key aspect of the incremental development process?

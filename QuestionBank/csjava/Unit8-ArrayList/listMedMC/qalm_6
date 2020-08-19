@@ -1,0 +1,35 @@
+.. mchoice:: qalm_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit8-ArrayList
+   :subchapter: listMedMC
+   :topics: Unit8-ArrayList/listMedMC
+   :from_source: T
+   :practice: T
+   :answer_a: [c, d, e, b]
+   :answer_b: [c, d, e, b, f]
+   :answer_c: [c, a, e, b, f]
+   :answer_d: [c, d, e, a, b, f]
+   :answer_e: [c, a, e, d, b, f]
+   :correct: b
+   :feedback_a: What happened to the f?
+   :feedback_b: This list is [a], then [a, b], then [c, a, b], then [c, d, a, b], then [c, d, e, b], then [c, d, e, b, f]
+   :feedback_c: The a is pushed to position 2 and then replaced with the e.
+   :feedback_d: This would be true if it was <code>list1.add(2,"e")</code>
+   :feedback_e: Remember that the set will replace the value at index 2.
+
+   What is printed as a result of executing the following code segment?
+
+   .. code-block:: java
+
+     List<String> list1 = new ArrayList<String>();
+     list1.add("a");
+     list1.add("b");
+     list1.add(0,"c");
+     list1.add(1, "d");
+     list1.set(2, "e");
+     list1.add("f");
+     System.out.println(list1);
+
+     What is printed as a result of executing the following code segment?

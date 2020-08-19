@@ -1,28 +1,26 @@
 .. activecode:: ac10_9_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/ChapterAssessment
+   :chapter: Dictionaries
+   :subchapter: ChapterAssessment
+   :topics: Dictionaries/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/intro-Dictionaries
-   :pct_on_first: 0.5159235669
-   :total_students_attempting: 628
-   :num_students_correct: 489.0
-   :mean_clicks_to_correct: 1.6400817996
 
    At the halfway point during the Rio Olympics, the United States had 70 medals, Great Britain had 38 medals, China had 45 medals, Russia had 30 medals, and Germany had 17 medals. Create a dictionary assigned to the variable ``medal_count`` with the country names as the keys and the number of medals the country had as each key's value.
    ~~~~
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(sorted(medal_count.items()), sorted([('China', 45), ('Germany', 17), ('Great Britain', 38), ('Russia', 30), ('United States', 70)]), "Testing that the medal_count dictionary has the correct key-value pairs")
-   
+
    myTests().main()

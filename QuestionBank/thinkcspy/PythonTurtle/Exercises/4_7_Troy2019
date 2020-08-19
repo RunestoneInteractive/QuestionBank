@@ -1,8 +1,10 @@
 .. activecode:: 4_7_Troy2019
     :author: Shawn Haarer
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
    
 

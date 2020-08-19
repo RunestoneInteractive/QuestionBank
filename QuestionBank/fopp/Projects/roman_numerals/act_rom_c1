@@ -1,8 +1,10 @@
 .. activecode:: act_rom_c1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/roman_numerals
+    :chapter: Projects
+    :subchapter: roman_numerals
+    :topics: Projects/roman_numerals
     :from_source: T
 
     from collections import OrderedDict

@@ -1,16 +1,18 @@
 .. activecode:: ac6_6_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/TheAccumulatorPattern
+   :chapter: Iteration
+   :subchapter: TheAccumulatorPattern
+   :topics: Iteration/TheAccumulatorPattern
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3563928351
-   :total_students_attempting: 1619
-   :num_students_correct: 1146.0
-   :mean_clicks_to_correct: 2.6352530541
+   :pct_on_first: 0.357011635
+   :total_students_attempting: 1633
+   :num_students_correct: 1157.0
+   :mean_clicks_to_correct: 2.6343993086
 
    Count the number of characters in string ``str1``. Do not use ``len()``. Save the number in variable ``numbs``.
    ~~~~

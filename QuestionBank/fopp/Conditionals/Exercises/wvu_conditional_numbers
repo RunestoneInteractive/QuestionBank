@@ -1,8 +1,10 @@
 .. activecode:: wvu_conditional_numbers
    :author: Brian Powell
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: F
    :autograde: unittest
 

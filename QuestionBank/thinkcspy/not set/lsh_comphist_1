@@ -1,8 +1,10 @@
 .. activecode:: lsh_comphist_1
    :author: LHS CS Team
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: not set
+   :chapter: Chapter
+   :subchapter: 
+   :topics: not set
    :from_source: F
    :nocanvas
    :nopre

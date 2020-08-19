@@ -1,8 +1,10 @@
 .. activecode:: Picture
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit8-2DArray/pictureLabImageBasics
+    :chapter: Unit8-2DArray
+    :subchapter: pictureLabImageBasics
+    :topics: Unit8-2DArray/pictureLabImageBasics
     :from_source: F
     :language: java
     :datafile: pictureClasses, arch.jpg

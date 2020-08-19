@@ -1,8 +1,10 @@
 .. dragndrop:: lhs_try_matching_4
     :author: Shadaj Laddad
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :feedback: Look up the concepts to see what they mean in Java
     :match_1: Specifying the type and name for a variable|||declaring a variable

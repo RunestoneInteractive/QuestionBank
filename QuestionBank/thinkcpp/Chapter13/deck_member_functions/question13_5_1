@@ -1,8 +1,10 @@
 .. mchoice:: question13_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/deck_member_functions
+   :chapter: Chapter13
+   :subchapter: deck_member_functions
+   :topics: Chapter13/deck_member_functions
    :from_source: F
    :multiple_answers:
    :answer_a: Use the keyword ``this``.

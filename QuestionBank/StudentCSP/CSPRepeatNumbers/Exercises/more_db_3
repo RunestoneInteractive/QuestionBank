@@ -1,8 +1,10 @@
 .. mchoice:: more_db_3
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatNumbers/Exercises
+   :chapter: CSPRepeatNumbers
+   :subchapter: Exercises
+   :topics: CSPRepeatNumbers/Exercises
    :from_source: F
    :correct: c
    :answer_a: CREATE IF NOT EXISTS
@@ -13,5 +15,9 @@
    :feedback_b: Will always attempt to insert the data, even if it is already in the table.
    :feedback_c: Will only insert the data if it is not already there.
    :feedback_d: Will always try to create a table
+   :pct_on_first: 0.4380165289
+   :total_students_attempting: 121
+   :num_students_correct: 121.0
+   :mean_clicks_to_correct: 2.0330578512
 
    Which of the following should you use to add only new data to a database table?

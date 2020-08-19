@@ -1,34 +1,41 @@
 .. mchoice:: mce_7_12
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter7/Exercises
+    :chapter: Chapter7
+    :subchapter: Exercises
+    :topics: Chapter7/Exercises
     :from_source: T
+    :practice: T
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 2.0
 
     What is the output of the code below?
-
+    
     .. code-block:: cpp
-
+    
      int main() {
        cout << "butter" < "butterfly";
      }
-
+    
     - butterbutterfly
-
+    
       - The operator between "butter" and "butterfly" is the ``<`` operator, not ``<<``.
-
+    
     - 0
-
+    
       - Does "butter" come before or after "butterfly"?
-
+    
     - 1
-
+    
       + "butter" comes before "butterfly" in the dictionary.
-
+    
     - False
-
+    
       - In C++, boolean values are outputted as either a 0 or 1.
-
+    
     - True
-
+    
       - In C++, boolean values are outputted as either a 0 or 1.

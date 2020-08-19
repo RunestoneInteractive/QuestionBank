@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit7-ArrayList/topic-7-1-arraylist-basics
+   :topics: Unit7-ArrayList/topic-7-1-arraylist-basics
    :from_source: T
    :answer_a: A list will always use less memory than an array.
    :answer_b: A list can store objects, but arrays can only store primitive types.

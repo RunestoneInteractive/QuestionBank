@@ -1,16 +1,18 @@
 .. actex:: ex_6_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.2069403301
-   :total_students_attempting: 2363
-   :num_students_correct: 1854.0
-   :mean_clicks_to_correct: 6.7028047465
+   :pct_on_first: 0.2071278826
+   :total_students_attempting: 2385
+   :num_students_correct: 1874.0
+   :mean_clicks_to_correct: 6.734791889
 
    Write a function ``is_rightangled`` which, given the length of three sides of a triangle,
    will determine whether the triangle is right-angled.  Assume that the third argument to the

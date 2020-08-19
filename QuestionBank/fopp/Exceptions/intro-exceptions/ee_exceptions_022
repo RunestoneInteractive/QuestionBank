@@ -1,15 +1,17 @@
 .. activecode:: ee_exceptions_022
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Exceptions/intro-exceptions
+   :chapter: Exceptions
+   :subchapter: intro-exceptions
+   :topics: Exceptions/intro-exceptions
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
    :practice: T
    :pct_on_first: 0.5
-   :total_students_attempting: 192
-   :num_students_correct: 179.0
-   :mean_clicks_to_correct: 2.1899441341
+   :total_students_attempting: 196
+   :num_students_correct: 183.0
+   :mean_clicks_to_correct: 2.174863388
 
    6. Below, we have provided code that does not run. Add a try/except clause so the code runs without errors. If an element is not able to undergo the addition operation, the string 'Error' should be appended to plus_four.
    ~~~~

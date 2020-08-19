@@ -1,27 +1,33 @@
 .. mchoice:: e24_4_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_4
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_4
+   :topics: CSPPracticeQuestions/exam24_4
    :from_source: T
-   :answer_a:
-   :answer_b:
-   :answer_c:
-   :answer_d:
+   :answer_a: 
+   :answer_b: 
+   :answer_c: 
+   :answer_d: 
    :correct: c
    :feedback_a: Incorrect. The first step in this answer choice is correct. However, after the second step gets executed, the triangle faces a black sqaure, that is a dead end, and cannot move forward unless it turns first!
    :feedback_b: Incorrect. We will get an error in the very first step since our triangle cannot move forward 4 times!
    :feedback_c: Correct. Trace the movement of the red triangle in the grid for this answer choice. You will find that we successfully reach the gray sqaure.
    :feedback_d: Incorrect. Look at the third step - we incorrectly turn the triangle three times and it now faces a black sqaure. Therefore, we can't move forward now!
+   :pct_on_first: 0.376
+   :total_students_attempting: 125
+   :num_students_correct: 69.0
+   :mean_clicks_to_correct: 1.4202898551
 
    A red triangle is pictured below in a grid of squares. It is currently facing upward, and can only move using the MoveTriangle procedure, shown below. The triangle can move onto white and gray squares, but not onto the black squares.
-
+   
    .. figure:: Figures/triangle2.png
       :scale: 45 %
       :align: center
-
+   
    ::
-
+   
      PROCEDURE MoveTriangle (numMoves, numTurns)
      {
         REPEAT numMoves TIMES
@@ -33,34 +39,34 @@
             TURN_RIGHT()
         }
       }
-
+   
    Which of the following instructions will get the red triangle to the gray square?
-
+   
    (A)
    ::
-
+   
     MoveTriangle (1, 1)
     MoveTriangle (1, 1)
     MoveTriangle (3, 1)
     MoveTriangle (3, 0)
-
+   
    (B)
    ::
-
+   
     MoveTriangle (4, 1)
     MoveTriangle (4, 0)
-
+   
    (C)
    ::
-
+   
     MoveTriangle (1, 1)
     MoveTriangle (1, 3)
     MoveTriangle (3, 1)
     MoveTriangle (3, 0)
-
+   
    (D)
    ::
-
+   
     MoveTriangle (1, 1)
     MoveTriangle (1, 3)
     MoveTriangle (3, 3)

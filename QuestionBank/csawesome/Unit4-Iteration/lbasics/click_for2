@@ -1,12 +1,18 @@
 .. clickablearea:: click_for2
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit4-Iteration/lbasics
+    :chapter: Unit4-Iteration
+    :subchapter: lbasics
+    :topics: Unit4-Iteration/lbasics
     :from_source: F
     :question: Click on all the statements that are part of the body of the for loop.  If you make a mistake you can click on the statement again to unhighlight it.
-    :iscode:
+    :iscode: 
     :feedback: Remember, the body of a loop is all the statements between the { and } after the for declaration or single statement following the for declaration if there are no {}.  Java doesn't require the body to be indented, but you should indent it to make it easier to see that the statements are part of the loop.
+    :pct_on_first: 0.9102564103
+    :total_students_attempting: 78
+    :num_students_correct: 77.0
+    :mean_clicks_to_correct: 1.1038961039
 
     :click-incorrect:String message1 = "I ";:endclick:
     :click-incorrect:String message2a = "love ";:endclick:

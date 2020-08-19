@@ -1,8 +1,10 @@
 .. activecode:: Sum_Numbers
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPIntroData/workLists
+    :chapter: CSPIntroData
+    :subchapter: workLists
+    :topics: CSPIntroData/workLists
     :from_source: T
     :tour_1: "Line by line tour"; 2: for1_line1; 3: for1_line2; 6: for1_line3; 7: for1_line4; 10: for1_line5;
     :tour_2: "High level tour"; 2-3: for1_line1-2; 6-7: for1_line3-4; 10: for1_s_line5;

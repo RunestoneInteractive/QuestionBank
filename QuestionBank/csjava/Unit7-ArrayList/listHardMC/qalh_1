@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit7-ArrayList/listHardMC
+   :topics: Unit7-ArrayList/listHardMC
    :from_source: T
    :practice: T
    :answer_a: [5, 3, 1, 6]

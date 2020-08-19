@@ -1,15 +1,17 @@
 .. actex:: ac9_9_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: T
    :nocodelens: 
    :available_files: travel_plans.txt
-   :pct_on_first: 0.1855010661
-   :total_students_attempting: 469
-   :num_students_correct: 339.0
-   :mean_clicks_to_correct: 6.1474926254
+   :pct_on_first: 0.1856540084
+   :total_students_attempting: 474
+   :num_students_correct: 344.0
+   :mean_clicks_to_correct: 6.0872093023
 
    Create a list called ``destination`` using the data stored in ``travel_plans.txt``. Each element of the list should contain a line from the file that lists a country and cities inside that country. Hint: each line that has this information also has a colon ``:`` in it.
    ~~~~

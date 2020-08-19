@@ -1,0 +1,22 @@
+.. mchoice:: q3_1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-1-booleans
+   :topics: Unit3-If-Statements/topic-3-1-booleans
+   :from_source: T
+   :answer_a: true
+   :answer_b: false
+   :correct: b
+   :feedback_a: Incorrect.  5 > 10 is false
+   :feedback_b: Correct.  5 > 10 is false
+
+   What is printed?
+
+   .. code-block:: java
+
+        int num1 = 5;
+        int num2 = 10;
+        boolean isGt =  num1 > num2;
+        System.out.println( isGt );

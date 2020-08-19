@@ -1,8 +1,10 @@
 .. activecode:: JPICS4U1Test101
    :author: John Pataracchia
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :language: java
 

@@ -1,11 +1,17 @@
 .. activecode:: speeding
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 
+   :pct_on_first: 0.4
+   :total_students_attempting: 105
+   :num_students_correct: 94.0
+   :mean_clicks_to_correct: 2.7765957447
 
    
    You are driving a little too fast, and a police officer stops you. Write code to 
@@ -15,12 +21,12 @@
    your birthday -- on that day, your speed can be 5 higher in all cases. 
    ~~~~
    def caught_speeding(speed, is_birthday):
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(caught_speeding(60,False), 0, "caught_speeding(60,False)")
            self.assertEqual(caught_speeding(65,False), 1, "caught_speeding(65,False)")

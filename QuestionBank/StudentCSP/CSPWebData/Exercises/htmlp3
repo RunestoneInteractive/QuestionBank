@@ -1,11 +1,17 @@
 .. parsonsprob:: htmlp3
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/Exercises
+   :chapter: CSPWebData
+   :subchapter: Exercises
+   :topics: CSPWebData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.3314447592
+   :total_students_attempting: 353
+   :num_students_correct: 350.0
+   :mean_clicks_to_correct: 3.34
 
    Put the blocks in order to create an HTML page with a body that contains an H2 header, a paragraph, and a link to another page.
    -----

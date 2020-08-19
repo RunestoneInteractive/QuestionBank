@@ -1,8 +1,10 @@
 .. codelens:: chp13_improveconstructor
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: ClassesBasics/ImprovingourConstructor
+    :chapter: ClassesBasics
+    :subchapter: ImprovingourConstructor
+    :topics: ClassesBasics/ImprovingourConstructor
     :from_source: T
 
     class Point:

@@ -1,8 +1,10 @@
 .. activecode:: hill_monte_carlo
         :author: Scott Hill
-        :difficulty: 3
+        :difficulty: 3.0
         :basecourse: fopp
-        :topic: Files/Exercises
+        :chapter: Files
+        :subchapter: Exercises
+        :topics: Files/Exercises
         :from_source: F
 
         A basketball player makes a free throw 72% of the time. Use Monte Carlo methods to find the probability that they make 5 or more of 8 free throw attempts.

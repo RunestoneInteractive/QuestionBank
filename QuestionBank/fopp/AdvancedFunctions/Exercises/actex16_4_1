@@ -1,8 +1,10 @@
 .. actex:: actex16_4_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/Exercises
+   :chapter: AdvancedFunctions
+   :subchapter: Exercises
+   :topics: AdvancedFunctions/Exercises
    :from_source: T
 
    1. Fill in the parameter list for g so that the invocations of g yield the return values specified

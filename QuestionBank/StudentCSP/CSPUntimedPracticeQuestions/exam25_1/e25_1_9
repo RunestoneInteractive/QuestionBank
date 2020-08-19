@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_9
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: 122
   :answer_b: 220
@@ -13,11 +15,15 @@
   :feedback_b: Correct. The expression will begin by adding <i>Right</i> + <i>Left</i> inside the parentheses then move to the outer parentheses to add Mid to the sum of <i>Right</i> + <i>Left</i>. The entire sum within the outer parentheses will then be multiplied by <i>Right</i>.
   :feedback_c: Incorrect. Remember to follow the order of operations.
   :feedback_d: Incorrect. The product is not 0. Remember to follow the order of operations.
+  :pct_on_first: 0.7872340426
+  :total_students_attempting: 94
+  :num_students_correct: 92.0
+  :mean_clicks_to_correct: 1.2934782609
 
   What is the value of *Product*?
-
+  
   ::
-
+  
     Mid ← 8
     Right ← 10
     Left ← 4

@@ -1,8 +1,10 @@
 .. dragndrop:: glossary15
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter15/Glossary
+    :chapter: Chapter15
+    :subchapter: Glossary
+    :topics: Chapter15/Glossary
     :from_source: T
     :feedback: Try again!
     :match_1: ordered set|||a data structure in which every element appears only once and every element has an index that identifies it

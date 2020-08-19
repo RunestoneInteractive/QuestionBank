@@ -1,16 +1,18 @@
 .. activecode:: ac7_10_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/TheAccumulatorPatternwithConditionals
+   :chapter: Conditionals
+   :subchapter: TheAccumulatorPatternwithConditionals
+   :topics: Conditionals/TheAccumulatorPatternwithConditionals
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3830882353
-   :total_students_attempting: 1360
-   :num_students_correct: 912.0
-   :mean_clicks_to_correct: 3.0131578947
+   :pct_on_first: 0.3857350801
+   :total_students_attempting: 1374
+   :num_students_correct: 922.0
+   :mean_clicks_to_correct: 2.9924078091
 
    For each string in the list ``words``, find the number of characters in the string. If the number of characters in the string is greater than 3, add 1 to the variable ``num_words`` so that ``num_words`` should end up with the total number of words with more than 3 characters.
    ~~~~

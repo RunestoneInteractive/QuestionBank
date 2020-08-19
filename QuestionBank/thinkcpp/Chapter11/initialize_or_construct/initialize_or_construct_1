@@ -1,8 +1,10 @@
 .. mchoice:: initialize_or_construct_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter11/initialize_or_construct
+   :chapter: Chapter11
+   :subchapter: initialize_or_construct
+   :topics: Chapter11/initialize_or_construct
    :from_source: T
    :answer_a: When we initialize a new object, the compiler automatically finds the correct constructor to use.
    :answer_b: You can always initialize an object using squiggly-braces.

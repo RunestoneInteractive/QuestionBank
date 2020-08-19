@@ -1,9 +1,11 @@
 .. mchoice:: qlb_2_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit4-Iteration/topic-4-5-loop-analysis
-   :from_source: T
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-5-loop-analysis
+   :topics: Unit4-Iteration/topic-4-5-loop-analysis
+   :from_source: F
    :practice: T
    :answer_a: x = 5, y = 2
    :answer_b: x = 2, y = 5

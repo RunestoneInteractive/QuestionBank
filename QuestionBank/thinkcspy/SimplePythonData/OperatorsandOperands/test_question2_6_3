@@ -1,8 +1,10 @@
 .. mchoice:: test_question2_6_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/OperatorsandOperands
+   :chapter: SimplePythonData
+   :subchapter: OperatorsandOperands
+   :topics: SimplePythonData/OperatorsandOperands
    :from_source: T
    :practice: T
    :answer_a: 4.25
@@ -14,10 +16,10 @@
    :feedback_b: The % operator returns the remainder after division.
    :feedback_c: The % operator returns the remainder after division.
    :feedback_d: The % operator returns the remainder after division.
-   :pct_on_first: 0.741332157
-   :total_students_attempting: 22670
-   :num_students_correct: 22577.0
-   :mean_clicks_to_correct: 1.4951942242
+   :pct_on_first: 0.7426512092
+   :total_students_attempting: 23031
+   :num_students_correct: 22937.0
+   :mean_clicks_to_correct: 1.4924794001
 
    What value is printed when the following statement executes?
    

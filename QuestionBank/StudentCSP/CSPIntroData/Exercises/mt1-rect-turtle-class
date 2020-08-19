@@ -1,8 +1,10 @@
 .. parsonsprob:: mt1-rect-turtle-class
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPIntroData/Exercises
+   :chapter: CSPIntroData
+   :subchapter: Exercises
+   :topics: CSPIntroData/Exercises
    :from_source: F
    :numbered: left
 

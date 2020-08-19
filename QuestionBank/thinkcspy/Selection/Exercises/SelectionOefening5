@@ -1,8 +1,10 @@
 .. actex:: SelectionOefening5
    :author: Gilles Fiers
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
    :nocodelens:
 

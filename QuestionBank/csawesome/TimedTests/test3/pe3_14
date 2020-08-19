@@ -1,8 +1,10 @@
 .. mchoice:: pe3_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test3
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
    :from_source: T
    :answer_a: 12344321
    :answer_b: 1234
@@ -15,15 +17,19 @@
    :feedback_c: This would be true if the first call to System.out.print(x % 10); wasn't in the method.
    :feedback_d: This would be true if it was mystery(1234).
    :feedback_e: How does the 3 get printed first?  Remember that x % 10 returns the right most digit in x.
+   :pct_on_first: 0.3555555556
+   :total_students_attempting: 45
+   :num_students_correct: 17.0
+   :mean_clicks_to_correct: 1.0588235294
 
    What is the output from mystery(4321) when mystery is defined as follows?
-
+   
    .. code-block:: java
-
+   
       //precondition: x >=0
       public static void mystery (int x) {
          System.out.print(x % 10);
-
+   
          if ((x / 10) != 0) {
             mystery(x / 10);
          }

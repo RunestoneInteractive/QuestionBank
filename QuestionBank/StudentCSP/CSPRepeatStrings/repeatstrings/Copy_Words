@@ -1,8 +1,10 @@
 .. activecode:: Copy_Words
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatStrings/repeatstrings
+    :chapter: CSPRepeatStrings
+    :subchapter: repeatstrings
+    :topics: CSPRepeatStrings/repeatstrings
     :from_source: T
     :tour_1: "Lines of code"; 2: strR1-line2; 4: strR1-line4; 6: strR1-line6; 8: strR1-line8; 10: strR1-line10;
 

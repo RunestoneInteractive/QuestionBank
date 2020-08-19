@@ -1,13 +1,15 @@
 .. actex:: ac21_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.4468085106
-   :total_students_attempting: 47
-   :num_students_correct: 38.0
-   :mean_clicks_to_correct: 2.8947368421
+   :pct_on_first: 0.4489795918
+   :total_students_attempting: 49
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 2.975
 
    Use manual accumulation to define the lengths function below.
    ~~~~

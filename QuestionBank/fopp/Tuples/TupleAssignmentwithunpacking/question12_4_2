@@ -1,8 +1,10 @@
 .. mchoice:: question12_4_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TupleAssignmentwithunpacking
+   :chapter: Tuples
+   :subchapter: TupleAssignmentwithunpacking
+   :topics: Tuples/TupleAssignmentwithunpacking
    :from_source: T
    :practice: T
    :answer_a: You can't use different variable names on the left and right side of an assignment statement.
@@ -12,10 +14,10 @@
    :feedback_b: Once you assign x's value to y, y's original value is gone.
    :feedback_c: Once you assign x's value to y, y's original value is gone.
    :correct: b
-   :pct_on_first: 0.6983758701
-   :total_students_attempting: 431
-   :num_students_correct: 424.0
-   :mean_clicks_to_correct: 1.3514150943
+   :pct_on_first: 0.69476082
+   :total_students_attempting: 439
+   :num_students_correct: 432.0
+   :mean_clicks_to_correct: 1.3564814815
 
    Consider the following alternative way to swap the values of variables x and y. What's wrong with it?
    

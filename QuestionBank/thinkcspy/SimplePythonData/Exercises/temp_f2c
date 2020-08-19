@@ -1,8 +1,10 @@
 .. activecode:: temp_f2c
     :author: Erdogan Dogdu
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     Write a program to read the temperature in Fahrenheit

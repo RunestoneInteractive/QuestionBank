@@ -1,8 +1,10 @@
 .. mchoice:: e5a6_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/exam5a6
+   :chapter: CSPNameNames
+   :subchapter: exam5a6
+   :topics: CSPNameNames/exam5a6
    :from_source: T
    :practice: T
    :answer_a: Two squares connected with a straight line
@@ -14,11 +16,15 @@
    :feedback_b: This procedure will draw a triangle and it is called twice so it draws two triangles
    :feedback_c: This would be true if the right turns were 90 and there were four forwards with two different forward amounts
    :feedback_d: This would be true if we only defined the procedure and didn't execute it.
+   :pct_on_first: 0.7274529237
+   :total_students_attempting: 1009
+   :num_students_correct: 776.0
+   :mean_clicks_to_correct: 1.0579896907
 
    What will the following code draw?
-
+   
    ::
-
+   
       def shape(turtle):
           turtle.left(60)
           turtle.forward(100)
@@ -27,7 +33,7 @@
           turtle.right(120)
           turtle.forward(100)
           turtle.right(120)
-
+   
       from turtle import *
       space = Screen()
       luis = Turtle()

@@ -1,8 +1,10 @@
 .. mchoice:: e5a6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/exam5a6
+   :chapter: CSPNameNames
+   :subchapter: exam5a6
+   :topics: CSPNameNames/exam5a6
    :from_source: T
    :practice: T
    :answer_a: <img src="../_static/squarea.png" alt="A square with the first line in black and the next 3 in red" width="300">
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if the alice.pencolor("red") was before the first forward.
    :feedback_c: Since the alice.pencolor("red") is after the second forward the first two lines will be black and the last two will be red.
    :feedback_d: This would be true if the alice.pencolor("red") was after the third forward.
+   :pct_on_first: 0.8648915187
+   :total_students_attempting: 1014
+   :num_students_correct: 906.0
+   :mean_clicks_to_correct: 1.03200883
 
    Which picture would the following code produce?
-
+   
    ::
-
+   
       from turtle import *
       screen = Screen()
       alice = Turtle()

@@ -1,16 +1,18 @@
 .. activecode:: lhs_2_12a
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.5134474328
-    :total_students_attempting: 409
-    :num_students_correct: 393.0
-    :mean_clicks_to_correct: 2.5877862595
+    :pct_on_first: 0.5133819951
+    :total_students_attempting: 411
+    :num_students_correct: 395.0
+    :mean_clicks_to_correct: 2.5848101266
 
     Modify the following program so that it will convert degrees fahrenheit to degrees celsius (change the ``deg_c`` assignment in ``f_to_c``).
     

@@ -1,8 +1,10 @@
 .. codelens:: ch02_19_codelens
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/OperatorsandOperands
+    :chapter: SimplePythonData
+    :subchapter: OperatorsandOperands
+    :topics: SimplePythonData/OperatorsandOperands
     :from_source: T
 
     total_secs = 7684

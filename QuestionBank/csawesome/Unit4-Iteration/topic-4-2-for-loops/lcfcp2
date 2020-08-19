@@ -1,8 +1,10 @@
 .. activecode:: lcfcp2
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/topic-4-2-for-loops
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-2-for-loops
+   :topics: Unit4-Iteration/topic-4-2-for-loops
    :from_source: F
    :language: java
 

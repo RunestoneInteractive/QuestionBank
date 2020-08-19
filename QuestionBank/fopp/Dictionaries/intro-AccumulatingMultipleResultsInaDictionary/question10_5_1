@@ -1,8 +1,10 @@
 .. mchoice:: question10_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
+   :chapter: Dictionaries
+   :subchapter: intro-AccumulatingMultipleResultsInaDictionary
+   :topics: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
    :from_source: T
    :answer_a: print(txt['e'] > txt['t'])
    :answer_b: print(letter_counts['e'] > letter_counts['t'])
@@ -15,10 +17,10 @@
    :feedback_d: It seems like maybe you're guessing. Please review the material above and then try again.
    :feedback_e: It seems like you've reversed things. The variable that refers to the dictionary goes outside the square brackets; the key you're looking up goes inside.
    :correct: b
-   :pct_on_first: 0.5398075241
-   :total_students_attempting: 1143
-   :num_students_correct: 1121.0
-   :mean_clicks_to_correct: 1.8385370205
+   :pct_on_first: 0.5425347222
+   :total_students_attempting: 1152
+   :num_students_correct: 1130.0
+   :mean_clicks_to_correct: 1.8327433628
 
    Consider example ac10_5_5 above. After the program runs, which of the following will print out True if there are more
    occurrences of *e* than *t* in the text of "A Study in Scarlet," and False if *t* occurred more frequently?

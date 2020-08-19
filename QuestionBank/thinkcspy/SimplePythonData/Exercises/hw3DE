@@ -1,8 +1,10 @@
 .. activecode:: hw3DE
    :author: Damon Ellingston
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    **Homework 3**

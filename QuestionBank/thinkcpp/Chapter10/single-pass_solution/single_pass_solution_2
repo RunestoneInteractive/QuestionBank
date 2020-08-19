@@ -1,8 +1,10 @@
 .. parsonsprob:: single_pass_solution_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter10/single-pass_solution
+   :chapter: Chapter10
+   :subchapter: single-pass_solution
+   :topics: Chapter10/single-pass_solution
    :from_source: T
    :numbered: left
    :adaptive:

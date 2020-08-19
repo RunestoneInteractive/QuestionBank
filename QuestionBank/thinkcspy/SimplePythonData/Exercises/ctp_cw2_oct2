@@ -1,8 +1,10 @@
 .. activecode:: ctp_cw2_oct2
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Your goal is to calculate the time it will take a runner to run 10 miles with the following pace segments: 

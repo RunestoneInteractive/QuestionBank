@@ -1,86 +1,92 @@
 .. mchoice:: AP5-9-2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit5-Writing-Classes/topic-5-9-this
+    :chapter: Unit5-Writing-Classes
+    :subchapter: topic-5-9-this
+    :topics: Unit5-Writing-Classes/topic-5-9-this
     :from_source: T
     :practice: T
+    :pct_on_first: 0.5545234249
+    :total_students_attempting: 2476
+    :num_students_correct: 2440.0
+    :mean_clicks_to_correct: 1.9889344262
 
     Consider the following class definitions.
-
+    
     .. code-block:: java
-
+    
         public class Liquid
         {
             private int currentTemp;
-
+    
             public Liquid (int ct)
             {
                 currentTemp = ct;
             }
-
+    
             public int getCurrentTemp()
             {
                 return currentTemp;
             }
-
+    
             public void addToJar(LiquidJar j)
             {
                 j.addLiquid(this);
             }
         }
-
+    
         public class LiquidJar
         {
             private int totalTemp;
-
+    
             public LiquidJar()
             {
               totalTemp = 0;
             }
-
+    
             public void addLiquid(Liquid l)
             {
                 totalTemp += l.getCurrentTemp();
             }
-
+    
             public int getTotalTemp()
             {
                 return totalTemp;
             }
             // Constructor not shown.
         }
-
+    
     Consider the following code segment, which appears in a class other than Liquid or LiquidJar.
-
+    
     .. code-block:: java
-
+    
             Liquid water = new Liquid(50);
             Liquid milk = new Liquid(15);
-
+    
             LiquidJar j = new LiquidJar();
             water.addToJar(j);
             milk.addToJar(j);
             System.out.println(j.getTotalTemp());
-
+    
     What, if anything, is printed out after the execution of the code segment?
-
+    
     - 50
-
+    
       - The liquid water has a temperature of 50 but more is added to the jar.
-
+    
     - 15
-
+    
       - The liquid milk has a temperature of 15 but more is added to the jar.
-
+    
     - 65
-
+    
       + Correct! The liquid water with a temperature of 50 and then the liquid milk with a temperature of 15 are added to the jar.
-
+    
     - Nothing, the code segment attempts to access the private variable currentTemp outside of its scope.
-
+    
       - Incorrect. The currentTemp is never used outside its scope.
-
+    
     - Nothing, the code segment attempts to access the private variable totalTemp outside of its scope.
-
+    
       - Incorrect. The totalTemp is never used outside its scope.

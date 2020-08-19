@@ -1,8 +1,10 @@
 .. mchoice:: question10_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/Dictionaryoperations
+   :chapter: Dictionaries
+   :subchapter: Dictionaryoperations
+   :topics: Dictionaries/Dictionaryoperations
    :from_source: T
    :answer_a: 12
    :answer_b: 0
@@ -14,10 +16,10 @@
    :feedback_c: Yes, add the value for cat and the value for dog (12 + 6) and create a new entry for mouse.
    :feedback_d: Since the new key is introduced on the left hand side of the assignment statement, a new key-value pair is added to the dictionary.
    :practice: T
-   :pct_on_first: 0.7856625634
-   :total_students_attempting: 1381
-   :num_students_correct: 1368.0
-   :mean_clicks_to_correct: 1.2850877193
+   :pct_on_first: 0.7859195402
+   :total_students_attempting: 1392
+   :num_students_correct: 1379.0
+   :mean_clicks_to_correct: 1.2842639594
 
    What is printed by the following statements?
    

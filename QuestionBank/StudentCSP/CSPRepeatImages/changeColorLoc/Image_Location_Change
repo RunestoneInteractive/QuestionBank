@@ -1,8 +1,10 @@
 .. activecode:: Image_Location_Change
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatImages/changeColorLoc
+    :chapter: CSPRepeatImages
+    :subchapter: changeColorLoc
+    :topics: CSPRepeatImages/changeColorLoc
     :from_source: T
     :tour_1: "Important Lines Tour"; 2: nli2-line2; 5: nli2-line5; 8-9: nli2-line8-9; 12: nli2-line12; 15: nli2-line15; 18-19: nli2-line18-19;
     :nocodelens:

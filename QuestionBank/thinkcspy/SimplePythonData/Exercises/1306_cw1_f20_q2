@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_f20_q2
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    **Q2 [20 pts]** Write a Python program that takes the diameter of a circle as input and prints out the perimeter and area of the circle. A user session of the program proceeds as follows:

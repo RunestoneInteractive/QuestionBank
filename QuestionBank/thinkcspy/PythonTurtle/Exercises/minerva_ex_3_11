@@ -1,8 +1,10 @@
 .. actex:: minerva_ex_3_11
    :author: Juraj Vasek
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :nocodelens:
 

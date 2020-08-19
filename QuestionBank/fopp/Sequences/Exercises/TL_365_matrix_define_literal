@@ -1,15 +1,17 @@
 .. actex:: TL_365_matrix_define_literal
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.4384615385
-   :total_students_attempting: 130
-   :num_students_correct: 84.0
-   :mean_clicks_to_correct: 1.4166666667
+   :pct_on_first: 0.446969697
+   :total_students_attempting: 132
+   :num_students_correct: 86.0
+   :mean_clicks_to_correct: 1.4069767442
 
    We can represent a matrix in Python as a ``list`` of ``list`` s.
    We do this by creating a ``list`` in which each element is another

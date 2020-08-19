@@ -1,15 +1,17 @@
 .. actex:: ex_5_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.1834757835
-   :total_students_attempting: 1755
-   :num_students_correct: 1151.0
-   :mean_clicks_to_correct: 9.8019113814
+   :pct_on_first: 0.1840767928
+   :total_students_attempting: 1771
+   :num_students_correct: 1160.0
+   :mean_clicks_to_correct: 9.8017241379
 
    Write a function called ``mySqrt`` that will approximate the square root of a number, call it n, by using
    Newton's algorithm.

@@ -1,63 +1,69 @@
 .. activecode:: order-fix-test
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 
+   :pct_on_first: 0.0119047619
+   :total_students_attempting: 252
+   :num_students_correct: 211.0
+   :mean_clicks_to_correct: 10.3222748815
 
    Fix the unit test code below to compile without error and so that all test cases pass.
    ~~~~
    from unittest.gui import TestCaseGui
-
+   
    class Item:
        def __init__(self, name, price):
            self.name = name
            self.price = price
-
+   
        def __str__(self):
            return self.name + ": " + str(self.price)
-
+   
        def get_price(self):
            return self.price
-
+   
    class Order:
        def __init__(self, item):
            self.item_list = []
            self.item_list.append(item)
-
+   
        def __str__(self):
            output = ""
            for item in self.item_list:
                output += item.name + ", "
            return output[0:-2]
-
+   
        def add_item(self,item):
            self.item_list.append(item)
-
+   
        def total(self):
            sum = 0
            for item in self.item_list:
                sum += item.get_price()
            return sum
-
+   
    class TestOrder(TestCaseGui):
-
+   
        def setUp(self):
            self.i1 = Item("Coke", 2.99)
            self.i2 = Item("Burger", 6.99)
            self.o1 = Order(i1)
            self.o1.add_item(i2)
-
+   
        def test_create_item():
            self.assertEqual(self.i1.__str__(), "Coke: 2.99",'self.i1.__str__()')
            self.assertEqual(self.i2.__str__(), "Burger: 6.99", 'self.i2.__str__()')
-
+   
        def test_create_order(self):
            self.assertEqual(self.o1.__str__(), "Coke, Burger",'self.o1.__str__()')
     
        def test_total(self):
            self.assertEqual(self.o1.total, 9.98, 'self.o1.total()')
-
+   
    TestOrder().main()

@@ -1,15 +1,17 @@
 .. actex:: ex_7_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.5949547834
-   :total_students_attempting: 2101
-   :num_students_correct: 1983.0
-   :mean_clicks_to_correct: 2.2687846697
+   :pct_on_first: 0.5936762624
+   :total_students_attempting: 2119
+   :num_students_correct: 1999.0
+   :mean_clicks_to_correct: 2.2696348174
 
    Write a function that will return the number of digits in an integer.
    ~~~~

@@ -1,8 +1,10 @@
 .. fillintheblank:: 1306_cw1_uh8
     :author: Shishir Shah
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :pct_on_first: 0.2966101695
     :total_students_attempting: 118

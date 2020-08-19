@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q29
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :answer_a: Converts an image to grayscale
    :answer_b: Creates an image that is entirely green

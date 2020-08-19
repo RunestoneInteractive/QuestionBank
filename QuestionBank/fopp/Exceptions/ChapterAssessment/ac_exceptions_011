@@ -1,14 +1,16 @@
 .. activecode:: ac_exceptions_011
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Exceptions/ChapterAssessment
+   :chapter: Exceptions
+   :subchapter: ChapterAssessment
+   :topics: Exceptions/ChapterAssessment
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
-   :pct_on_first: 0.9185185185
-   :total_students_attempting: 135
-   :num_students_correct: 134.0
-   :mean_clicks_to_correct: 1.3880597015
+   :pct_on_first: 0.9202898551
+   :total_students_attempting: 138
+   :num_students_correct: 137.0
+   :mean_clicks_to_correct: 1.3795620438
 
    Provided is a buggy for loop that tries to accumulate some values out of some dictionaries. Insert a try/except so that the code passes.
    ~~~~

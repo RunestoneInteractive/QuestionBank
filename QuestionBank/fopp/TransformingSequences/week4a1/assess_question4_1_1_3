@@ -1,8 +1,10 @@
 .. mchoice:: assess_question4_1_1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: .insert()
    :answer_b: .pop()
@@ -15,9 +17,5 @@
    :correct: c
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.8504464286
-   :total_students_attempting: 896
-   :num_students_correct: 891.0
-   :mean_clicks_to_correct: 1.2188552189
 
    Which method is best to use when adding an item to the end of a list?

@@ -1,8 +1,10 @@
 .. activecode:: CS152_Prints_1
     :author: John Cigas
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
 
     Change the program so that it prints your name.

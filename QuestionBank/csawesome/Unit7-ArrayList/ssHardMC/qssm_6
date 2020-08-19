@@ -1,8 +1,10 @@
 .. mchoice:: qssm_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/ssHardMC
+   :chapter: Unit7-ArrayList
+   :subchapter: ssHardMC
+   :topics: Unit7-ArrayList/ssHardMC
    :from_source: T
    :practice: T
    :answer_a: Anna John Billy Bob Roger Dominic
@@ -14,11 +16,15 @@
    :feedback_b: This is the correct answer. The program is ordering the grades array from greatest to least as well as keeping the names with the grades.
    :feedback_c: This would be true if the program sorted the grades array from the smallest value to the largest value.
    :feedback_d: This would be true if the program did not modify the names array and if the for loop at the end of the program did not output all the values of the array.
+   :pct_on_first: 0.3361244019
+   :total_students_attempting: 836
+   :num_students_correct: 792.0
+   :mean_clicks_to_correct: 2.1123737374
 
    What is printed when the following main method is executed?
-
+   
    .. code-block:: java
-
+   
                 public class GradeSort
                 {
                    public static void main(String[] args)

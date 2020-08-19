@@ -1,17 +1,19 @@
 .. activecode:: ac12_3_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TuplesasReturnValues
+   :chapter: Tuples
+   :subchapter: TuplesasReturnValues
+   :topics: Tuples/TuplesasReturnValues
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.7794117647
-   :total_students_attempting: 272
-   :num_students_correct: 257.0
-   :mean_clicks_to_correct: 1.4824902724
+   :pct_on_first: 0.7725631769
+   :total_students_attempting: 277
+   :num_students_correct: 262.0
+   :mean_clicks_to_correct: 1.5267175573
 
    Define a function called ``info`` with the following required parameters: ``name``, ``age``, ``birth_year``, ``year_in_college``, and ``hometown``. The function should return a tuple that contains all the inputted information.
    ~~~~

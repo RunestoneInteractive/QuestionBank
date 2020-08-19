@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: 0.5 1.45
    :answer_b: 0.5 0.75
@@ -13,11 +15,15 @@
    :feedback_b: Incorrect. Although 0.75 is the value of 'total,' it is never displayed.
    :feedback_c: Incorrect. Neither the value of weight nor price -- the two variables being displayed -- are equal to 0.
    :feedback_d: Incorrect. Although price is equal to 1.45, the value of weight is also being displayed by this code.
+   :pct_on_first: 0.6470588235
+   :total_students_attempting: 51
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 1.66
 
    Refer to the following code:
-
+   
    ::
-
+   
      weight ← 0.5
      IF weight < 1
       { price ← 1.45 }
@@ -26,5 +32,5 @@
      total ← weight * price
      DISPLAY(weight)
      DISPLAY(price)
-
+   
    What will be printed?

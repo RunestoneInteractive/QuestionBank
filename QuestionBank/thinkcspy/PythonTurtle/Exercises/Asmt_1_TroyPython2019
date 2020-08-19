@@ -1,8 +1,10 @@
 .. activecode:: Asmt_1_TroyPython2019
     :author: Shawn Haarer
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
    
     Draw 3 different shapes: rectangle, square, and triangle

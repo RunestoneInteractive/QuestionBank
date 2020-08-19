@@ -1,8 +1,10 @@
 .. parsonsprob:: question_five_one
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter5/boolfunctions
+   :chapter: Chapter5
+   :subchapter: boolfunctions
+   :topics: Chapter5/boolfunctions
    :from_source: F
 
    Construct a block of code that prints out "positive" if num is positive, "even" if num is even, and "both" if it is both positive and even.

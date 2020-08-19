@@ -1,8 +1,10 @@
 .. poll:: TaskValue_11_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: httlads
-    :topic: Instacart/exploratory
+    :chapter: Instacart
+    :subchapter: exploratory
+    :topics: Instacart/exploratory
     :from_source: T
     :option_1: Don't seem worth learning
     :option_2: May be worth learning

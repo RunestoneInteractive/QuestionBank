@@ -1,8 +1,10 @@
 .. mchoice:: kario_3_1
    :author: Karioki Crosby
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/ThePythonProgrammingLanguage
+   :chapter: GeneralIntro
+   :subchapter: ThePythonProgrammingLanguage
+   :topics: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: F
    :practice: T
    :answer_a: It is high-level if you are standing and low-level if you are sitting.

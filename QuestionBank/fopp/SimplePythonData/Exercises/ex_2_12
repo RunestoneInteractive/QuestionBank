@@ -1,13 +1,15 @@
 .. actex:: ex_2_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: T
-   :pct_on_first: 0.4444444444
-   :total_students_attempting: 378
-   :num_students_correct: 284.0
-   :mean_clicks_to_correct: 2.2253521127
+   :pct_on_first: 0.45
+   :total_students_attempting: 380
+   :num_students_correct: 287.0
+   :mean_clicks_to_correct: 2.212543554
 
    Write a program that will compute MPG for a car. Prompt the user to enter the number of
    miles driven and store it in a variable called `miles` and the number of gallons used stored in a variable `gallons`.

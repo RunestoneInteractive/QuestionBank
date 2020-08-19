@@ -1,11 +1,17 @@
 .. parsonsprob:: exp1_pp1a
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1067961165
+   :total_students_attempting: 103
+   :num_students_correct: 101.0
+   :mean_clicks_to_correct: 7.5148514851
 
    Put the blocks in order to define the function has22 to return True if there are at least two items in the list nums that are adjacent and both equal to 2, otherwise return False. For example, return True for [1, 2, 2] since there are two adjacent items equal to 2 (at index 1 and 2) and False for [2, 1, 2] since the 2’s are not adjacent.
    -----

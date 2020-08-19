@@ -1,8 +1,10 @@
 .. activecode:: Image_Decrease_Red
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatImages/changeColor
+    :chapter: CSPRepeatImages
+    :subchapter: changeColor
+    :topics: CSPRepeatImages/changeColor
     :from_source: T
     :tour_1: "Important Lines Tour"; 2: timg5-line2; 5: timg5-line5; 8-9: timg5-line8-9; 12: timg5-line12; 15: timg5-line15; 18: timg5-line18; 21-22: timg5-line21-22;
     :nocodelens:

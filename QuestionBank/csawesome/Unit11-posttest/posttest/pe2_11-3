@@ -1,8 +1,10 @@
 .. mchoice:: pe2_11-3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit11-posttest/posttest
+   :chapter: Unit11-posttest
+   :subchapter: posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: var1=2, var2=0
    :answer_b: var1=3, var2=-1
@@ -15,14 +17,18 @@
    :feedback_c: This would be true if the body of the while loop never executed. This would have happened if the while check was if var1 != 0 instead of var2 != 0.
    :feedback_d: This would be true if the body of the while loop only executed one time, but it executes twice.
    :feedback_e: The operation 0 / 2 won't cause a division by zero. The result is just zero.
+   :pct_on_first: 0.5717592593
+   :total_students_attempting: 432
+   :num_students_correct: 286.0
+   :mean_clicks_to_correct: 1.2167832168
 
    Given the following code segment, what are the values of ``var1`` and ``var2`` after the while loop finishes?
-
+   
    .. code-block:: java
-
+   
      int var1 = 0;
      int var2 = 2;
-
+   
      while ((var2 != 0) && ((var1 / var2) >= 0))
      {
         var1 = var1 + 1;

@@ -1,15 +1,17 @@
 .. actex:: TL_365_ch_6_3
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.5862068966
-   :total_students_attempting: 145
-   :num_students_correct: 100.0
-   :mean_clicks_to_correct: 1.42
+   :pct_on_first: 0.5918367347
+   :total_students_attempting: 147
+   :num_students_correct: 102.0
+   :mean_clicks_to_correct: 1.4117647059
 
    Assign the value of the last character of 'lst' to the variable
    'output'. Do this so that the length of 'lst' doesn’t matter.

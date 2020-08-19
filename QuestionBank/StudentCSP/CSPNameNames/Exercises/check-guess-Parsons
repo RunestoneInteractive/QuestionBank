@@ -1,11 +1,17 @@
 .. parsonsprob:: check-guess-Parsons
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.5078125
+   :total_students_attempting: 128
+   :num_students_correct: 126.0
+   :mean_clicks_to_correct: 2.0317460317
 
    Finish the function below to return 'too low' if the guess is less
    than the passed target, 'correct' if they are equal, and 'too high' if the guess

@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_6
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: Classifying
   :answer_b: Cleaning
@@ -13,5 +15,9 @@
   :feedback_b: Correct. Cleaning is in fact the process of searching data sets for incomplete data records.
   :feedback_c: Incorrect. This is not the definition of Clustering.
   :feedback_d: Incorrect. Filtering often refers to choosing data with specific characteristics.
+  :pct_on_first: 0.1818181818
+  :total_students_attempting: 88
+  :num_students_correct: 85.0
+  :mean_clicks_to_correct: 2.6
 
   What describes the process of searching data sets for incomplete data records to process?

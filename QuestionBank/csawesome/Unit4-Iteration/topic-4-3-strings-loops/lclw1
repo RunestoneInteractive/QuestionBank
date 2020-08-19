@@ -1,11 +1,17 @@
 .. activecode:: lclw1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/topic-4-3-strings-loops
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-3-strings-loops
+   :topics: Unit4-Iteration/topic-4-3-strings-loops
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.2133891213
+   :total_students_attempting: 239
+   :num_students_correct: 179.0
+   :mean_clicks_to_correct: 1.9888268156
 
    Change the code to add code for a counter variable to count the number of 1's replaced in the message and print it out. Change the message to have more mistakes with 1's to test it.
    ~~~~
@@ -15,7 +21,7 @@
       {
         String message = "Have a 1ong and happy 1ife";
         int index = 0;
-
+   
         // while more 1's in the message
         while (message.indexOf("1") >= 0)
         {
@@ -37,13 +43,13 @@
     import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("FindAndReplace");
         }
-
+   
         @Test
         public void testMain() throws IOException
         {
@@ -55,9 +61,9 @@
                 "Replaced 1 with l at index 22\n" +
                 "The message is currently Have a long and happy life but we aren't done looping yet!\n" +
                 "Cleaned text: Have a long and happy life\n";
-
+   
             boolean pass = !output.equals(expect.trim());
-
+   
             boolean passed = getResults(expect, output, "Output should be different", pass);
             assertTrue(passed);
          }

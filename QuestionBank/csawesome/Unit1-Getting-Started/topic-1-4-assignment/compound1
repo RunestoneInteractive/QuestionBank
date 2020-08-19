@@ -1,11 +1,17 @@
 .. activecode:: compound1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-4-assignment
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.9975020816
+   :total_students_attempting: 1201
+   :num_students_correct: 1201.0
+   :mean_clicks_to_correct: 1.0024979184
 
    In the example below, try to guess what it will print out and then run it to see if you are right. Remember to consider **operator precedence**. How do the parentheses change the precedence?
    ~~~~
@@ -25,7 +31,7 @@
     import org.junit.Before;
     import org.junit.Test;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test

@@ -1,27 +1,25 @@
 .. activecode:: ac11_15_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/ChapterAssessment
+   :chapter: Functions
+   :subchapter: ChapterAssessment
+   :topics: Functions/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Functions/Returningavaluefromafunction
-   :pct_on_first: 0.7340569878
-   :total_students_attempting: 737
-   :num_students_correct: 630.0
-   :mean_clicks_to_correct: 1.3158730159
 
    Write a function called ``int_return`` that takes an integer as input and returns the same integer.
    ~~~~
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(int_return(10), 10, "Testing that function int_return(10) returns 10")
-   
+
    myTests().main()

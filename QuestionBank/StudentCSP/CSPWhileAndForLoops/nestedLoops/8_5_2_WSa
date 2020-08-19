@@ -1,8 +1,10 @@
 .. activecode::  8_5_2_WSa
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPWhileAndForLoops/nestedLoops
+    :chapter: CSPWhileAndForLoops
+    :subchapter: nestedLoops
+    :topics: CSPWhileAndForLoops/nestedLoops
     :from_source: T
     :nocodelens:
 

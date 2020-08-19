@@ -1,15 +1,19 @@
 .. parsonsprob:: DrawAHouse
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-4-methods-with-params
+   :topics: Unit2-Using-Objects/topic-2-4-methods-with-params
+   :from_source: F
    :numbered: left
    :practice: T
    :adaptive:
    :noindent:
 
-   The following code uses a turtle to draw a simple house, but the lines are mixed up.  Drag the code blocks to the right and put them in the correct order to first draw a square for the house and then a red triangle for the roof.  Click on the "Check Me" button to check your solution.  You can copy and paste this code in the Active Code window above to see it in action.
+   The following code uses a turtle to draw a simple house, but the lines are mixed up.
+   Note that the turtle variable name is "builder"
+   rather than "yertle" or "myrtle". Drag the code blocks to the right and put them in the correct order to first draw a square for the house and then a red triangle for the roof.  Click on the "Check Me" button to check your solution.  You can copy and paste this code in the Active Code window above to see it in action.
    -----
    public class TurtleDrawHouse
    {

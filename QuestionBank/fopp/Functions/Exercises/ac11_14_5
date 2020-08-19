@@ -1,14 +1,16 @@
 .. actex:: ac11_14_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
    :nocodelens: 
-   :pct_on_first: 0.2875816993
-   :total_students_attempting: 306
-   :num_students_correct: 247.0
-   :mean_clicks_to_correct: 5.4574898785
+   :pct_on_first: 0.288961039
+   :total_students_attempting: 308
+   :num_students_correct: 249.0
+   :mean_clicks_to_correct: 5.4939759036
 
    Write a function that removes all occurrences of a given letter from a string.
    ~~~~

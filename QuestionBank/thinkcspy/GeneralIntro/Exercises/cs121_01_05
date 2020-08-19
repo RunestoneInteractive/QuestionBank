@@ -1,0 +1,14 @@
+.. fillintheblank:: cs121_01_05
+   :author: Elizabeth Jensen
+   :difficulty: 1.0
+   :basecourse: thinkcspy
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
+   :from_source: F
+   :casei:
+
+   In a Python program, single line comments are indicated using the |blank| character.
+
+   - :#: Correct!  (pound sign, octothorpe, hashtag, number sign, sharp)
+     :.*: incorrect.  Try again. (Hint: enter only one character)

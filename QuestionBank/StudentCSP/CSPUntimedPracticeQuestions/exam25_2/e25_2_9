@@ -1,8 +1,10 @@
 .. mchoice:: e25_2_9
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_2
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_2
+  :topics: CSPUntimedPracticeQuestions/exam25_2
   :from_source: T
   :answer_a: DISPLAY(“I am a freshman.”)
   :answer_b: “I am a freshman.”
@@ -13,11 +15,15 @@
   :feedback_b: Correct. The text in quotations inside the DISPLAY function gets displayed when called on.
   :feedback_c: Incorrect. The variable freshman is never called on in the DISPLAY function in this code.
   :feedback_d: Incorrect. Nothing would print if freshman were not True.
+  :pct_on_first: 0.7037037037
+  :total_students_attempting: 81
+  :num_students_correct: 79.0
+  :mean_clicks_to_correct: 1.3670886076
 
   Consider the code below.
-
+  
   IF(freshman)
-
+  
    { DISPLAY(“I am a freshman.”) }
-
+  
   If freshman is True, what is displayed?

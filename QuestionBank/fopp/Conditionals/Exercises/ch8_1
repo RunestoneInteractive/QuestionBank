@@ -1,8 +1,10 @@
 .. activecode:: ch8_1
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
    
     You are given the following list of students taking a coding course: ['Ruth', 'Karla', 'Mercedez', 'Mariam', 'Mahak', 'Luisa', 'Kimberly', 'Brytanya', 'Perla', 'Gabriella', 'Marissa']. Do the following tasks.

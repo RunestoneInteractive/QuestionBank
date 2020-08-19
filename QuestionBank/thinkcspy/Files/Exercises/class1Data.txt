@@ -1,8 +1,10 @@
 .. datafile:: class1Data.txt
    :author: Tom Babbitt
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
 
    tom 90 95 91 72

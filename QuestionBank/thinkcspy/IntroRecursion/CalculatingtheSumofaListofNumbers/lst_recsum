@@ -1,8 +1,10 @@
 .. activecode:: lst_recsum
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: IntroRecursion/CalculatingtheSumofaListofNumbers
+    :chapter: IntroRecursion
+    :subchapter: CalculatingtheSumofaListofNumbers
+    :topics: IntroRecursion/CalculatingtheSumofaListofNumbers
     :from_source: T
     :caption: Recursive Summation
 

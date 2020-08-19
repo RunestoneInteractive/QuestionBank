@@ -1,8 +1,10 @@
 .. activecode:: it105_ps01_05
    :author: Tom Babbitt
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: IT105Resources/Exercises
+   :chapter: IT105Resources
+   :subchapter: Exercises
+   :topics: IT105Resources/Exercises
    :from_source: F
    :nocanvas: 
    :autograde: unittest

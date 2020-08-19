@@ -1,15 +1,17 @@
 .. activecode:: KDL_exam2_5
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.1098901099
-   :total_students_attempting: 91
-   :num_students_correct: 47.0
-   :mean_clicks_to_correct: 8.2127659574
+   :pct_on_first: 0.1170212766
+   :total_students_attempting: 94
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 8.04
 
    You are supplied with a string ``s`` below. Using python and not hard coding...Remove white space from the beginning and end, make the string lower case and replace all the words 'cat' with 'dog'. This new string should be saved as ``newS``. The final string should look like newS='the dog ate the dog food, it was yummy!'
    

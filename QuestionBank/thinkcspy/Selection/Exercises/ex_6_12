@@ -1,16 +1,18 @@
 .. actex:: ex_6_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.1901225399
-   :total_students_attempting: 2693
-   :num_students_correct: 2047.0
-   :mean_clicks_to_correct: 9.2608695652
+   :pct_on_first: 0.1905639513
+   :total_students_attempting: 2713
+   :num_students_correct: 2066.0
+   :mean_clicks_to_correct: 9.2579864472
 
    3 criteria must be taken into account to identify leap years:
    

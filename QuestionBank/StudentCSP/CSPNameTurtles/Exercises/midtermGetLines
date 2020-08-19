@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermGetLines
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.5530973451
+   :total_students_attempting: 226
+   :num_students_correct: 226.0
+   :mean_clicks_to_correct: 2.2477876106
 
    Put the mixed up code below in order to define a function that reads all the lines from the passed file into a list, closes the file, and returns the list. 
    -----

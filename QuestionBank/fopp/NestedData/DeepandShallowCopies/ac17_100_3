@@ -1,8 +1,10 @@
 .. activecode:: ac17_100_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: NestedData/DeepandShallowCopies
+    :chapter: NestedData
+    :subchapter: DeepandShallowCopies
+    :topics: NestedData/DeepandShallowCopies
     :from_source: T
 
     import copy

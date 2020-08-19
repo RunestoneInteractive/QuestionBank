@@ -1,8 +1,10 @@
 .. activecode:: ids17_02008
     :author:  KUO TZU-CHI
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
    
     4.10(劉邦鋒，由片語學習C程式設計)寫一個程序決定三個線段是否能形成一個三角形。請注意我們可以平移線段，但不能旋轉或是翻轉線段，題目假設所有線段有不同的斜率，所以你不必擔心有面積為0的三角形。

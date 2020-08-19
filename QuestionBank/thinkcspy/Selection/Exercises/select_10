@@ -1,8 +1,10 @@
 .. activecode:: select_10
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
   
     Write a nested conditional statement that checks if a variable 'num' is equal 

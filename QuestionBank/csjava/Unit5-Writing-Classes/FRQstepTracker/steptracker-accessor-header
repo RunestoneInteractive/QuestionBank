@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit5-Writing-Classes/FRQstepTracker
+   :topics: Unit5-Writing-Classes/FRQstepTracker
    :from_source: T
    :practice: T
    :answer_a: public void activeDays()

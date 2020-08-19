@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-9-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: Checks if s has a middle letter
    :answer_b: Checks if s is a palindrome
@@ -10,15 +12,19 @@
    :answer_d: Checks if s only starts and ends with the same characters
    :answer_e: None of the above
    :correct: b
+   :pct_on_first: 0.2380952381
+   :total_students_attempting: 84
+   :num_students_correct: 84.0
+   :mean_clicks_to_correct: 2.9761904762
 
    What does the following mystery method do?
-
+   
    .. code-block:: java
-
+   
     public boolean mystery(String s) {
-	if (s.length() == 0 || s.length() == 1)
-		return true;
-	if (s.charAt(0) == s.charAt(s.length()-1))
-		return mystery(s.substring(1, s.length() - 1));
-	return false;
+    (s.length() == 0 || s.length() == 1)
+   eturn true;
+    (s.charAt(0) == s.charAt(s.length()-1))
+   eturn mystery(s.substring(1, s.length() - 1));
+   turn false;
     }

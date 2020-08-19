@@ -1,8 +1,10 @@
 .. parsonsprob:: cswq5_8
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :pct_on_first: 0.3125
    :total_students_attempting: 160

@@ -1,8 +1,10 @@
 .. activecode:: random_numbers_AC_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter10/random_numbers
+   :chapter: Chapter10
+   :subchapter: random_numbers
+   :topics: Chapter10/random_numbers
    :from_source: T
    :language: cpp
 

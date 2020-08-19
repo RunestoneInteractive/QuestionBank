@@ -1,8 +1,10 @@
 .. mchoice:: test_question5_4_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/TheAccumulatorPattern
+   :chapter: Functions
+   :subchapter: TheAccumulatorPattern
+   :topics: Functions/TheAccumulatorPattern
    :from_source: T
    :practice: T
    :answer_a: The square function will return x instead of x * x
@@ -14,10 +16,10 @@
    :feedback_b: Assignment statements are perfectly legal inside loops and will not cause an error.
    :feedback_c: By putting the statement that sets runningtotal to 0 inside the loop, that statement gets executed every time through the loop, instead of once before the loop begins.  The result is that runningtotal is 'cleared' (reset to 0) each time through the loop.
    :feedback_d: The line runningtotal = 0 is the first line in the for loop, but immediately after this line, the line runningtotal = runningtotal + x will execute, giving runningtotal a non-zero value  (assuming x is non-zero).
-   :pct_on_first: 0.3963859159
-   :total_students_attempting: 12894
-   :num_students_correct: 12801.0
-   :mean_clicks_to_correct: 2.2420904617
+   :pct_on_first: 0.3977377655
+   :total_students_attempting: 12996
+   :num_students_correct: 12902.0
+   :mean_clicks_to_correct: 2.2387226787
 
    Consider the following code:
    

@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: [0, 5, 10, 20, 25, 0, 10, 20, 30]
    :answer_b: [20, 25, 0, 10, 20]
@@ -13,12 +15,16 @@
    :feedback_b: Correct. The first three items in 'myLst' iterate through the loop, are multiplied by 2 and appended to the back of 'myLst.' Then the list is displayed from the fifth item until the end of the list.
    :feedback_c: Incorrect. This would be correct if myLst[5:] were displayed.
    :feedback_d: Incorrect. This would be correct if you wanted to display myLst[:4] instead of myLst[4:].
+   :pct_on_first: 0.2549019608
+   :total_students_attempting: 51
+   :num_students_correct: 49.0
+   :mean_clicks_to_correct: 2.2448979592
 
    What will print when the following code is run?
-
+   
    ::
-
-
+   
+   
      myLst ← [0,5,10,15,20,25]
      FOR EACH item IN myLst[:3] :
        {       y ← x*2

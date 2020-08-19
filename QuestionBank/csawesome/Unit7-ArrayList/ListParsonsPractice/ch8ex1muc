@@ -1,13 +1,19 @@
 .. parsonsprob:: ch8ex1muc
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/ListParsonsPractice
+   :chapter: Unit7-ArrayList
+   :subchapter: ListParsonsPractice
+   :topics: Unit7-ArrayList/ListParsonsPractice
    :from_source: T
    :numbered: left
    :practice: T
-   :adaptive:
-   :noindent:
+   :adaptive: 
+   :noindent: 
+   :pct_on_first: 0.3014240506
+   :total_students_attempting: 1264
+   :num_students_correct: 1138.0
+   :mean_clicks_to_correct: 4.0114235501
 
    The following program segment should be a class that adds some Strings of conversational phrases to a List and then prints them out.  But, the blocks have been mixed up and include <b>one extra block</b> that is not needed in a correct solution.  Drag the needed code from the left to the right and put them in order with the correct indention so that the code would work correctly.  Click the <i>Check Me</i> button to check your solution.</p>
    -----

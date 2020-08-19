@@ -1,8 +1,10 @@
 .. activecode:: wvu_decision_dimensions
    :author: Brian Powell
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: F
    
    Ask users to input the width and length of a building in feet. Store the values in the **width** and **height** variables, respectively.

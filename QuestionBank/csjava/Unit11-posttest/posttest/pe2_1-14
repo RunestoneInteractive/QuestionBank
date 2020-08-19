@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit11-posttest/posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: The value you are searching for is the first element in the array.
    :answer_b: The value you are searching for is the last element in the array

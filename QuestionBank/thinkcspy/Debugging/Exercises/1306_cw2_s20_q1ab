@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw2_s20_q1ab
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
 
    **[20 pts] Question 1(a&b)** Consider the following program that computes a student' final score based on 2 quizzes, weighted equally,  that count for a total of 50% and a final that counts for  the remaining 50%::

@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw3_f19_q2
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
 
    **[30 points] Question 2**. The following question is designed to help your understanding of variable name scoping in Python. Please look at the code carefully and answer what the program will print. Note that a particular print statement will cause an error, then just mention that. You can type the code and run it to verify your answers.

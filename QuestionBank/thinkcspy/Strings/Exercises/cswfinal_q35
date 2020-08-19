@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q35
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :answer_a: ['', 'eter ', 'i', 'er ', 'icked a ', 'eck of ', 'ickled ', 'e', '', 'ers']
    :answer_b: ['peter', 'piper', 'picked', 'a', 'peck', 'of', 'pickled', 'peppers']

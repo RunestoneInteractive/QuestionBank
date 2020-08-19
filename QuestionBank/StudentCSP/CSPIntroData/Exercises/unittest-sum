@@ -1,11 +1,17 @@
 .. parsonsprob:: unittest-sum
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPIntroData/Exercises
+   :chapter: CSPIntroData
+   :subchapter: Exercises
+   :topics: CSPIntroData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1992753623
+   :total_students_attempting: 276
+   :num_students_correct: 271.0
+   :mean_clicks_to_correct: 6.0516605166
 
    Put the code in order to define the sum13 function and then the class to test the function.  The sum13 function returns the sum of the 
    numbers in a list, but doesn't include the number 13 in the sum or a number that immediately 

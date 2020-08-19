@@ -1,8 +1,10 @@
 .. activecode:: thirteenthree
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/another_constructor
+   :chapter: Chapter13
+   :subchapter: another_constructor
+   :topics: Chapter13/another_constructor
    :from_source: F
    :language: cpp
 

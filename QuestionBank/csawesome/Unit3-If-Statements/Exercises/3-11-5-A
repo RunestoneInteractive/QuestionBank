@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-5-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: (!a) && (!b)
    :answer_b: (a || b)
@@ -10,5 +12,9 @@
    :answer_d: !(a && b)
    :answer_e: (!a) || (!b)
    :correct: a
+   :pct_on_first: 0.6625
+   :total_students_attempting: 160
+   :num_students_correct: 160.0
+   :mean_clicks_to_correct: 1.89375
 
    Which of the following expressions is equivalent to !(a || b) ?

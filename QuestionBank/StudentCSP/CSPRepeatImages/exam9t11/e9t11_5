@@ -1,8 +1,10 @@
 .. mchoice:: e9t11_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatImages/exam9t11
+   :chapter: CSPRepeatImages
+   :subchapter: exam9t11
+   :topics: CSPRepeatImages/exam9t11
    :from_source: T
    :practice: T
    :answer_a: <img src="../_static/turtleStamp5.png" alt="5 turtles facing out in a circle with one in the center facing east" width="300">
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if the line zoe.penup() was removed.
    :feedback_c: This would be true if it was range(10) and right(36)
    :feedback_d: This would be true if it was range(10) and right(36) and if the line zoe.penup() was removed.
+   :pct_on_first: 0.7726550079
+   :total_students_attempting: 629
+   :num_students_correct: 510.0
+   :mean_clicks_to_correct: 1.0588235294
 
    What would the following draw?
-
+   
    ::
-
+   
       from turtle import *
       space = Screen()
       zoe = Turtle()

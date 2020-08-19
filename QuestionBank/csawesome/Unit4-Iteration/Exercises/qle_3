@@ -1,8 +1,10 @@
 .. mchoice:: qle_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/Exercises
+   :chapter: Unit4-Iteration
+   :subchapter: Exercises
+   :topics: Unit4-Iteration/Exercises
    :from_source: T
    :practice: T
    :answer_a: 5 4 3 2 1
@@ -12,11 +14,15 @@
    :feedback_a: x is initialized (set) to -5 to start.
    :feedback_b: x is incremented (x++) before the print statement executes.
    :feedback_c: x is set to -5 to start but then incremented by 1 so it first prints -4.
+   :pct_on_first: 0.4934140263
+   :total_students_attempting: 2809
+   :num_students_correct: 2769.0
+   :mean_clicks_to_correct: 1.6081617913
 
    What does the following code print?
-
+   
    .. code-block:: java
-
+   
      int x = -5;
      while (x < 0)
      {

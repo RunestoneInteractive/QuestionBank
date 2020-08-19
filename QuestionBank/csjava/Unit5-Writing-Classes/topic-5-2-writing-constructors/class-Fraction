@@ -2,7 +2,7 @@
   :author: bmiller
   :difficulty: 3
   :basecourse: csjava
-  :topic: Unit5-Writing-Classes/topic-5-2-writing-constructors
+  :topics: Unit5-Writing-Classes/topic-5-2-writing-constructors
   :from_source: T
   :language: java
   :autograde: unittest

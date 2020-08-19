@@ -1,17 +1,19 @@
 .. activecode:: ac21_2_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/map
+   :chapter: AdvancedAccumulation
+   :subchapter: map
+   :topics: AdvancedAccumulation/map
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.642384106
-   :total_students_attempting: 151
-   :num_students_correct: 114.0
-   :mean_clicks_to_correct: 1.2368421053
+   :pct_on_first: 0.6387096774
+   :total_students_attempting: 155
+   :num_students_correct: 117.0
+   :mean_clicks_to_correct: 1.2393162393
 
    **2.** Below, we have provided a list of strings called ``abbrevs``. Use map to produce a new list called ``abbrevs_upper`` that contains all the same strings in upper case.
    ~~~~

@@ -1,16 +1,18 @@
 .. activecode:: assess_ps3_1_1_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Conditionals/week3a1
+    :chapter: Conditionals
+    :subchapter: week3a1
+    :topics: Conditionals/week3a1
     :from_source: T
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.3053817272
-    :total_students_attempting: 799
-    :num_students_correct: 603.0
-    :mean_clicks_to_correct: 3.543946932
+    :pct_on_first: 0.3081683168
+    :total_students_attempting: 808
+    :num_students_correct: 612.0
+    :mean_clicks_to_correct: 3.5261437908
 
     The variable ``sentence`` stores a string. Write code to determine how many words in ``sentence`` start and end with the same letter, including one-letter words.
     Store the result in the variable ``same_letter_count``.

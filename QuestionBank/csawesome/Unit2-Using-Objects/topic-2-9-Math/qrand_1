@@ -1,8 +1,10 @@
 .. mchoice:: qrand_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-9-Math
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-9-Math
+   :topics: Unit2-Using-Objects/topic-2-9-Math
    :from_source: T
    :practice: T
    :answer_a: Math.random() < 0.4
@@ -12,5 +14,9 @@
    :feedback_a: This is true about 40% of the time since Math.random returns a value from 0 to not quite 1.
    :feedback_b: This will be true about 60% of the time.
    :feedback_c: Do not use == with double values!  Remember that Math.random can return any number between 0 and not quite 1 (about .99999999).
+   :pct_on_first: 0.5930944056
+   :total_students_attempting: 4576
+   :num_students_correct: 4546.0
+   :mean_clicks_to_correct: 1.6322041355
 
    Which of the following would be true about 40% of the time?

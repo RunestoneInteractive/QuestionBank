@@ -1,8 +1,10 @@
 .. mchoice:: question_inheritance_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Inheritance/inheritVarsAndMethods
+   :chapter: Inheritance
+   :subchapter: inheritVarsAndMethods
+   :topics: Inheritance/inheritVarsAndMethods
    :from_source: T
    :answer_a: We are Siamese if you please. We are Siamese if you don’t please.
    :answer_b: Error
@@ -13,10 +15,10 @@
    :feedback_c: This would print if the statement was print new_cat.name.
    :feedback_d: There is a print statement in the method definition for Siamese.
    :correct: b
-   :pct_on_first: 0.5248868778
-   :total_students_attempting: 221
-   :num_students_correct: 215.0
-   :mean_clicks_to_correct: 1.8837209302
+   :pct_on_first: 0.5286343612
+   :total_students_attempting: 227
+   :num_students_correct: 221.0
+   :mean_clicks_to_correct: 1.8733031674
 
    What would print after running the following code:
    

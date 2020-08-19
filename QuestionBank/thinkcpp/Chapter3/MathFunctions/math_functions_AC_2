@@ -1,8 +1,10 @@
 .. activecode:: math_functions_AC_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter3/MathFunctions
+   :chapter: Chapter3
+   :subchapter: MathFunctions
+   :topics: Chapter3/MathFunctions
    :from_source: T
    :language: cpp
    :caption: Working with Angles

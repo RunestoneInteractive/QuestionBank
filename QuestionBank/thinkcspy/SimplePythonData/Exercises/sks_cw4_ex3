@@ -1,8 +1,10 @@
 .. activecode:: sks_cw4_ex3
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [40 pts] Hailstone Numbers: This sequence takes the name hailstone as the numbers generated bounce up and down. Write a function that will take an integer value as a parameter, the input seed, and will print a hailstone sequence.  

@@ -1,0 +1,67 @@
+.. mchoice:: q6_1_5
+        :author: bmiller
+        :difficulty: 3.0
+        :basecourse: csjava
+        :chapter: Unit6-Writing-Classes
+        :subchapter: topic-6-1-parts-of-class
+        :topics: Unit6-Writing-Classes/topic-6-1-parts-of-class
+        :from_source: T
+        :practice: T
+        :random:
+
+        Consider the Cat class which will contain a String and an int attribute for a cat’s name and age and a constructor.
+
+        .. code-block:: java
+
+            public class Cat
+            {
+              /* missing code */
+            }
+
+            Which of the following replacements for /* missing code */ is the most appropriate
+            implementation of the class?
+
+        - .. code-block:: java
+
+            public String name;
+            private int age;
+            private Cat(String name, int age)
+            { /* implementation not shown */ }
+
+          - Instance variables should be private.
+
+        - .. code-block:: java
+
+            public String name;
+            private int age;
+            private Cat(String name, int age)
+            { /* implementation not shown */ }
+
+          - Instance variables should be private.
+
+        - .. code-block:: java
+
+            private String name;
+            private int age;
+            public Cat(String name, int age)
+            { /* implementation not shown */ }
+
+          + Correct! The instance variables are private and the constructor is public.
+
+        - .. code-block:: java
+
+            public String name;
+            public int age;
+            public Cat(String name, int age)
+            { /* implementation not shown */ }
+
+          - Instance variables should be private.
+
+        - .. code-block:: java
+
+            private String name;
+            private int age;
+            private Cat(String name, int age)
+            { /* implementation not shown */ }
+
+          - Constructor should be public.

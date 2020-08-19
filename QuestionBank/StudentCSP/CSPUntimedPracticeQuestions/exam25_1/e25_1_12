@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_12
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: 2
   :answer_b: 4
@@ -13,10 +15,14 @@
   :feedback_b: Incorrect. The remainder of 4/2 is not 4.
   :feedback_c: Correct. Because 4 is divisible by 2, there is no remainder.
   :feedback_d: Incorrect. The answer is not None. MOD will return an integer.
+  :pct_on_first: 0.5604395604
+  :total_students_attempting: 91
+  :num_students_correct: 89.0
+  :mean_clicks_to_correct: 1.808988764
 
   What will the following code print out?
-
+  
   ::
-
+  
     num ← 4 MOD 2
     DISPLAY (num)

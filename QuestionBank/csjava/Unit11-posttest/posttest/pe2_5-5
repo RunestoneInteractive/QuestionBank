@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit11-posttest/posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: if (x > 0) x = 0;
    :answer_b: x = 0;

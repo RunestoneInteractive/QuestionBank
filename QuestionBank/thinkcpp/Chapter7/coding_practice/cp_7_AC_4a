@@ -1,9 +1,11 @@
 .. activecode:: cp_7_AC_4a
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter7/coding_practice
-   :from_source: T
+   :chapter: Chapter7
+   :subchapter: coding_practice
+   :topics: Chapter7/coding_practice
+   :from_source: F
    :language: cpp
 
    #include <iostream>

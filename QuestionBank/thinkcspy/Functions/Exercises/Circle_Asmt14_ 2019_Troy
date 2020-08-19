@@ -1,8 +1,10 @@
 .. activecode:: Circle_Asmt14_ 2019_Troy
     :author: Shawn Haarer
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
     
     Write a program that will calculate the area and circumference of a

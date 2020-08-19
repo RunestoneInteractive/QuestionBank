@@ -1,8 +1,10 @@
 .. activecode:: fourteenone
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter14/private_data_and_classes
+   :chapter: Chapter14
+   :subchapter: private_data_and_classes
+   :topics: Chapter14/private_data_and_classes
    :from_source: F
    :language: cpp
 

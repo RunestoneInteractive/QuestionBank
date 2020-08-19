@@ -1,7 +1,9 @@
 .. actex:: histlab
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Labs/lab12_02
+   :chapter: Labs
+   :subchapter: lab12_02
+   :topics: Labs/lab12_02
    :from_source: T
    :nocodelens:

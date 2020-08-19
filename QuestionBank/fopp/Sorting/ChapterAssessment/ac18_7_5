@@ -1,30 +1,28 @@
 .. activecode:: ac18_7_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/ChapterAssessment
+   :chapter: Sorting
+   :subchapter: ChapterAssessment
+   :topics: Sorting/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Sorting/SortingaDictionary
-   :pct_on_first: 0.556097561
-   :total_students_attempting: 205
-   :num_students_correct: 172.0
-   :mean_clicks_to_correct: 1.9941860465
 
    We have provided the dictionary ``groceries``. You should return a list of its keys, but they should be sorted by their values, from highest to lowest. Save the new list as ``most_needed``.
    ~~~~
-   
+
    groceries = {'apples': 5, 'pasta': 3, 'carrots': 12, 'orange juice': 2, 'bananas': 8, 'popcorn': 1, 'salsa': 3, 'cereal': 4, 'coffee': 5, 'granola bars': 15, 'onions': 7, 'rice': 1, 'peanut butter': 2, 'spinach': 9}
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(most_needed, ['granola bars', 'carrots', 'spinach', 'bananas', 'onions', 'coffee', 'apples', 'cereal', 'salsa', 'pasta', 'peanut butter', 'orange juice', 'rice', 'popcorn'], "Testing that most_needed was created correctly.")
-   
+
    myTests().main()

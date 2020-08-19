@@ -1,8 +1,10 @@
 .. dragndrop:: MSIT-02-11
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :feedback: Keep trying.
    :match_1: x = 9|||initialize

@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: csjava
-    :topic: Unit5-Writing-Classes/topic-5-3-comments-conditions
+    :topics: Unit5-Writing-Classes/topic-5-3-comments-conditions
     :from_source: T
     :feedback: Review the section above.
     :match_1: single-line comment|||//

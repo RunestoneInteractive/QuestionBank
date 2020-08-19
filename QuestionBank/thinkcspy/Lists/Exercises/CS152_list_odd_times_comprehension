@@ -1,8 +1,10 @@
 .. actex:: CS152_list_odd_times_comprehension
     :author: John Cigas
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :practice: T
     :autograde: unittest

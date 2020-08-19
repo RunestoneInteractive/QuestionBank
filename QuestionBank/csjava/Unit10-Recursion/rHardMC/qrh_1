@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit10-Recursion/rHardMC
+   :topics: Unit10-Recursion/rHardMC
    :from_source: T
    :practice: T
    :answer_a: The string <code>s</code> contains two or more of the same characters.

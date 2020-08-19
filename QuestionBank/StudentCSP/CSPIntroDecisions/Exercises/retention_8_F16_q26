@@ -1,8 +1,10 @@
 .. mchoice:: retention_8_F16_q26
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPIntroDecisions/Exercises
+   :chapter: CSPIntroDecisions
+   :subchapter: Exercises
+   :topics: CSPIntroDecisions/Exercises
    :from_source: F
    :answer_a: [106]
    :answer_b: [206, 110]

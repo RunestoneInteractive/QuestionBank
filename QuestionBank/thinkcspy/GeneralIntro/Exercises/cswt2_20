@@ -1,8 +1,10 @@
 .. mchoice:: cswt2_20
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :answer_a: letting users take vocabulary tests
    :answer_b: setting up flights to deliver food to places where it's needed

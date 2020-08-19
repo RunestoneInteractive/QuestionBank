@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-10-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: 5742
    :answer_b: 126
@@ -10,9 +12,13 @@
    :answer_d: It will give a compile-time error.
    :answer_e: It will give a run-time error.
    :correct: c
+   :pct_on_first: 0.612244898
+   :total_students_attempting: 196
+   :num_students_correct: 171.0
+   :mean_clicks_to_correct: 1.514619883
 
    What does the following code print?
-
+   
    .. code-block:: java
-
+   
     System.out.println(5 + 7 + “4” + 2);

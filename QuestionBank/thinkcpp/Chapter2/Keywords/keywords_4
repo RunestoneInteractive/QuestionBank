@@ -1,8 +1,10 @@
 .. activecode:: keywords_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter2/Keywords
+   :chapter: Chapter2
+   :subchapter: Keywords
+   :topics: Chapter2/Keywords
    :from_source: T
    :language: cpp
    :autograde: unittest

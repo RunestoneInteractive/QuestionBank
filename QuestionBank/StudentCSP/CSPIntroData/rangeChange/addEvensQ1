@@ -1,8 +1,10 @@
 .. activecode:: addEvensQ1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPIntroData/rangeChange
+  :chapter: CSPIntroData
+  :subchapter: rangeChange
+  :topics: CSPIntroData/rangeChange
   :from_source: T
   :tour_1: "Line by Line Tour"; 2: lst7-line1; 3: lst7-line2; 6: lst7-line3; 9: lst7-line4; 12: lst7-line5;
 

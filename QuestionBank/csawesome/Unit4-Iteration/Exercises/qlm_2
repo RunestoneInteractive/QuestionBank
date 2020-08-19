@@ -1,8 +1,10 @@
 .. mchoice:: qlm_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/Exercises
+   :chapter: Unit4-Iteration
+   :subchapter: Exercises
+   :topics: Unit4-Iteration/Exercises
    :from_source: T
    :practice: T
    :answer_a: I
@@ -16,45 +18,49 @@
    :feedback_c: This will loop with i changing from 1 to 4 and j from i to 0.
    :feedback_d: This will loop with i changing from 1 to 5 and j from 0 to i but it will print each value on a different line.
    :feedback_e: This will loop with i changing from 0 to 4 and j from 0 to i.
+   :pct_on_first: 0.3913216561
+   :total_students_attempting: 2512
+   :num_students_correct: 2468.0
+   :mean_clicks_to_correct: 2.9290923825
 
    Which of the following code segments will produce the displayed output?
-
+   
    .. code-block:: java
-
+   
      1
      22
      333
      4444
      55555
-
-
+   
+   
      I.   for (int i = 1; i <= 5; i++) {
              for (int j = i; j > 0; j--) {
                 System.out.print(i);
              }
              System.out.println();
           }
-
+   
      II.  for (int i = 0; i < 5; i++) {
              for (int j = 0; j < i; j++) {
                 System.out.print(i);
              }
              System.out.println();
           }
-
+   
      III. for (int i = 1; i < 5; i++) {
              for (int j = i; j > 0; j--) {
                 System.out.print(i);
              }
              System.out.println();
           }
-
+   
      IV.  for (int i = 1; i < 6; i++) {
              for (int j = 0; j < i; j++) {
                 System.out.println(i);
              }
           }
-
+   
      V.   for (int i = 0; i < 5; i++) {
              for (int j = 0; j < i; j++) {
                 System.out.print(i+1);

@@ -1,16 +1,18 @@
 .. activecode:: ac7_9_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Chainedconditionals
+   :chapter: Conditionals
+   :subchapter: Chainedconditionals
+   :topics: Conditionals/Chainedconditionals
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.1333333333
-   :total_students_attempting: 1395
-   :num_students_correct: 783.0
-   :mean_clicks_to_correct: 5.5798212005
+   :pct_on_first: 0.1356534091
+   :total_students_attempting: 1408
+   :num_students_correct: 791.0
+   :mean_clicks_to_correct: 5.5385587863
 
    Create an empty list called ``resps``. Using the list ``percent_rain``, for each percent, if it is above 90, add the string 'Bring an umbrella.' to ``resps``, otherwise if it is above 80, add the string 'Good for the flowers?' to ``resps``, otherwise if it is above 50, add the string 'Watch out for clouds!' to ``resps``, otherwise, add the string 'Nice day!' to ``resps``. Note: if you're sure you've got the problem right but it doesn't pass, then check that you've matched up the strings exactly.
    ~~~~

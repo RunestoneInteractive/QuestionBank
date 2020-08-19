@@ -1,10 +1,12 @@
 .. mchoice:: assess_question1_11_11_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: T
-    :multiple_answers: 
+    :multiple_answers:
     :answer_a: It creates a new copy of <code>d</code>.
     :answer_b: It creates a new dictionary which swaps the keys and values in <code>d</code>.
     :answer_c: It throws an error.
@@ -18,15 +20,11 @@
     :feedback_e: The value of dictionary <code>e</code> is different from that of <code>d</code>.
     :practice: T
     :topics: Dictionaries/DictionaryKeyValueAssignment
-    :pct_on_first: 0.4133064516
-    :total_students_attempting: 496
-    :num_students_correct: 487.0
-    :mean_clicks_to_correct: 2.4866529774
 
     What does the following block of code do?
-    
+
     .. sourcecode:: python
-    
+
         d =  {'a': 2, 'b': 3, 'c': 1}
         e = {}
         for c in d:

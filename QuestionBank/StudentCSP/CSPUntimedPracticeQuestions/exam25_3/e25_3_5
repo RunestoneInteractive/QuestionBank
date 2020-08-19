@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: negative neither positive
    :answer_b: positive
@@ -13,11 +15,15 @@
    :feedback_b: Incorrect. 'Positive' is displayed for the final item in the list, but there are two other items in the list.
    :feedback_c: Incorrect. This does not account for the 0 in the list.
    :feedback_d: Incorrect. The if and else clauses are satisfied in this code, so there would be an output.
+   :pct_on_first: 0.6862745098
+   :total_students_attempting: 51
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 1.6
 
    Refer to the following code:
-
+   
    ::
-
+   
      numbers ← [-1,0,1]
      FOR EACH item IN numbers:
      IF item > 0:
@@ -26,5 +32,5 @@
        DISPLAY(“negative”)
      ELSE:
        DISPLAY(“neither”)
-
+   
    What will print when this code is run?

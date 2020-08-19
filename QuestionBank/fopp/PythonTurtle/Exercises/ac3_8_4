@@ -1,8 +1,10 @@
 .. actex:: ac3_8_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: T
    :nocodelens:
 

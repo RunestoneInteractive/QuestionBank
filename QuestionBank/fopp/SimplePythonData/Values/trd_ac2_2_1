@@ -1,8 +1,10 @@
 .. activecode:: trd_ac2_2_1
     :author: Majid Rouhani
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: SimplePythonData/Values
+    :chapter: SimplePythonData
+    :subchapter: Values
+    :topics: SimplePythonData/Values
     :from_source: F
     :nocanvas:
 

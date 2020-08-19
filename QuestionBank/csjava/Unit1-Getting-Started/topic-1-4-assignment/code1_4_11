@@ -1,0 +1,94 @@
+.. activecode:: code1_4_11
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :stdin: 16 5
+
+
+   Complete the program based on the process shown in the Figure 5 flowchart.
+   The program should get the initial values of pizzaSlices and numPeople by reading from the input stream.  Run the program a few times to experiment with different values.
+   What happens if you enter 0 for the number of people?  We will see how to deal with the problem of division by 0 in a later lesson.
+   ~~~~
+    import java.util.Scanner;
+    public class PizzaCalculatorInput {
+
+        public static void main(String[] args) {
+            int pizzaSlices, numPeople, slicesPerPerson, leftoverSlices;
+            Scanner scan = new Scanner(System.in);
+            //add code to initialize pizzaSlices and numPeople with input values read using the scanner object.
+
+            //compute and print slicesPerPerson and leftoverSlices
+
+        }
+
+    }
+
+   ====
+   import static org.junit.Assert.*;
+   import org.junit.*;;
+   import java.io.*;
+
+   public class RunestoneTests extends CodeTestHelper
+   {
+
+   @Test
+    public void test1a()
+    {
+      String code = getCode();
+      int count= countOccurences(code, "pizzaSlices = scan.nextInt()");
+      boolean passed = (count== 1);
+
+      passed = getResults("1 read pizzaSlices using scan.nextInt()", count+ " read pizzaSlices using scan.nextInt()", "pizzaSlices = scan.nextInt()", passed);
+    }
+   @Test
+    public void test1b()
+    {
+      String code = getCode();
+      int count= countOccurences(code, "numPeople= scan.nextInt()");
+      boolean passed = (count== 1);
+
+      passed = getResults("1 read numPeopleusing scan.nextInt()", count+ " read numPeopleusing scan.nextInt()", "numPeople= scan.nextInt()", passed);
+    }
+    @Test
+    public void test1()
+    {
+      String code = getCode();
+      int count= countOccurences(code, "slicesPerPerson = pizzaSlices / numPeople;");
+      boolean passed = (count== 1);
+
+      passed = getResults("1 assignment slicesPerPerson", count+ " assignment slicesPerPerson", "compute slicesPerPerson", passed);
+    }
+    @Test
+    public void test2()
+    {
+      String code = getCode();
+      int count= countOccurences(code, "leftoverSlices = pizzaSlices % numPeople;");
+      boolean passed = (count== 1);
+
+      passed = getResults("1 assignment leftoverSlices", count+ " assignment leftoverSlices", "compute leftoverSlices", passed);
+    }
+   @Test
+    public void test3()
+    {
+      String code = getCode();
+      int count= countOccurences(code, "println(slicesPerPerson)");
+      boolean passed = (count== 1);
+
+      passed = getResults("1 print slicesPerPerson", count+ " print slicesPerPerson", "output slicesPerPerson", passed);
+    }
+   @Test
+    public void test4()
+    {
+      String code = getCode();
+      int count= countOccurences(code, "println(leftoverSlices)");
+      boolean passed = (count== 1);
+
+      passed = getResults("1 print leftoverSlices", count+ " print leftoverSlices", "output leftoverSlices", passed);
+    }
+   }

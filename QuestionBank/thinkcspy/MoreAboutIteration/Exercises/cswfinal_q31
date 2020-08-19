@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q31
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :answer_a: Returns a new image that has the top half of img1 and the bottom half of img2
    :answer_b: Returns a brightened image

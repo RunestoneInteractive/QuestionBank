@@ -1,8 +1,10 @@
 .. actex:: ch_cl_01
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Classes/Exercises
+   :chapter: Classes
+   :subchapter: Exercises
+   :topics: Classes/Exercises
    :from_source: T
 
    Add a method ``reflect_x`` to Point which returns a new Point, one which is the reflection of the point about the x-axis. For example, ``Point(3, 5).reflect_x()`` is (3, -5)

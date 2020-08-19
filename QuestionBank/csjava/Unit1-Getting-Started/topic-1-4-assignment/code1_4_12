@@ -1,0 +1,56 @@
+.. activecode:: code1_4_12
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: T
+   :language: java
+   :autograde: unittest
+   :stdin: 5 7
+
+   Run the program and look at the result. When the input is ``5`` and ``7``, the output is ``Sum is 57``.
+   Both of the ``+`` operators in the print statement are performing string concatenation.
+   While the first ``+`` operator
+   should perform string concatenation, the second ``+`` operator should perform addition.
+   You can force the second ``+`` operator to perform addition by putting the arithmetic expression in parentheses ``( num1 + num2 )``.
+   ~~~~
+
+    import java.util.Scanner;
+    public class SumInput {
+        public static void main(String[] args) {
+            int num1, num2;
+            Scanner scan = new Scanner(System.in);
+
+            System.out.println("Enter first number");
+            num1= scan.nextInt();
+            System.out.println("Enter second number");
+            num2= scan.nextInt();
+            System.out.println("Sum is " + num1 + num2);
+
+        }
+    }
+   ====
+   import static org.junit.Assert.*;
+   import org.junit.*;;
+   import java.io.*;
+
+   public class RunestoneTests extends CodeTestHelper
+   {
+
+    public RunestoneTests() {
+      super("SumInput");
+    }
+
+    @Test
+    public void test1()
+    {
+      String code = getCode();
+      int sum = countOccurences(code, "(num1 + num2)");
+      boolean passed = sum == 1;
+
+      passed = getResults("1 sum", sum + " sum", "Update the last print statement to force addition (num1 + num2)", passed);
+      assertTrue(passed);
+    }
+   }

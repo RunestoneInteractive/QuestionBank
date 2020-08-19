@@ -1,17 +1,19 @@
 .. actex:: TL_365_ac9_9_1
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Classes/Exercises
+   :chapter: Classes
+   :subchapter: Exercises
+   :topics: Classes/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
    :nocodelens: 
    :available_files: studentdata.txt
-   :pct_on_first: 0.0754716981
-   :total_students_attempting: 53
-   :num_students_correct: 34.0
-   :mean_clicks_to_correct: 7.8823529412
+   :pct_on_first: 0.0727272727
+   :total_students_attempting: 55
+   :num_students_correct: 36.0
+   :mean_clicks_to_correct: 7.75
 
    The following sample file called ``studentdata.txt`` contains one
    line for each student in an imaginary class.  The students name is

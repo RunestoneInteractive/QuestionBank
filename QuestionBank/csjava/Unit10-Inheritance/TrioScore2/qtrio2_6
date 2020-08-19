@@ -1,0 +1,15 @@
+.. mchoice:: qtrio2_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit10-Inheritance
+   :subchapter: TrioScore2
+   :topics: Unit10-Inheritance/TrioScore2
+   :from_source: T
+   :answer_a: Yes
+   :answer_b: No
+   :correct: b
+   :feedback_a: Look at what <code>getName</code> is supposed to return.
+   :feedback_b: This solution doesn't include the "/" between the sandwich and salad and between the salad and the drink and is also missing the "Trio" at the end of the name, so it loses this point.
+
+   Should the student earn 1 point for correctly constructing the string to return from ``getName`` and making it available to be returned?

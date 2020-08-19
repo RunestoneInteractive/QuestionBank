@@ -1,8 +1,10 @@
 .. mchoice:: MSIT-03-05
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
    :multiple_answers: 
    :random: 

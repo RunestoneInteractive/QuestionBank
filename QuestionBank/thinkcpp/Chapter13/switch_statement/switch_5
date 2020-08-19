@@ -1,8 +1,10 @@
 .. mchoice:: switch_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/switch_statement
+   :chapter: Chapter13
+   :subchapter: switch_statement
+   :topics: Chapter13/switch_statement
    :from_source: T
    :answer_a: 4
    :answer_b: 49

@@ -1,9 +1,15 @@
 .. fillintheblank:: sql_join2
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
+   :pct_on_first: 0.5673076923
+   :total_students_attempting: 104
+   :num_students_correct: 103.0
+   :mean_clicks_to_correct: 1.9708737864
 
    Fill in the following: SELECT * FROM ORDERS [blank] [blank] [blank] Orders.CustomerID = Customers.CustomerID; To join the two tables Orders and Customers on the CustomerID in both tables. 
    

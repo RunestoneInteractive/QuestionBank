@@ -1,8 +1,10 @@
 .. activecode:: rab_lab_ex_05_03
     :author: Richard Bernatz
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
 
     Use this active code window for lab activity 3 in Chapter 5. Please see the course web page for Chapter 5 for activity directions.

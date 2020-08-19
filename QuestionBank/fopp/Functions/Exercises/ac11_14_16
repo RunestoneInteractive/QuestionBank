@@ -1,13 +1,15 @@
 .. actex:: ac11_14_16
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: T
-    :pct_on_first: 0.2039473684
-    :total_students_attempting: 152
-    :num_students_correct: 124.0
-    :mean_clicks_to_correct: 4.8306451613
+    :pct_on_first: 0.2077922078
+    :total_students_attempting: 154
+    :num_students_correct: 125.0
+    :mean_clicks_to_correct: 4.8
 
     Write a function ``is_rightangled`` which, given the length of three sides of a triangle, will determine whether the triangle is right-angled. Assume that the third argument to the function is always the longest side. It will return ``True`` if the triangle is right-angled, or ``False`` otherwise.
     

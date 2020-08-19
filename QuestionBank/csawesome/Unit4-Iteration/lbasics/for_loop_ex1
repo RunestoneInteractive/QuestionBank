@@ -1,8 +1,10 @@
 .. activecode:: for_loop_ex1
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/lbasics
+   :chapter: Unit4-Iteration
+   :subchapter: lbasics
+   :topics: Unit4-Iteration/lbasics
    :from_source: F
    :language: java
 

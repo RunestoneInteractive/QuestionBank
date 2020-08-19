@@ -1,8 +1,10 @@
 .. mchoice:: question6_100_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
+   :chapter: Iteration
+   :subchapter: WPKeepingTrackofYourIteratorVariableYourIterable
+   :topics: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
    :from_source: T
    :answer_a: string
    :answer_b: list
@@ -16,10 +18,10 @@
    :feedback_e: Incorrect, Python can iterate over this type.
    :correct: b
    :practice: T
-   :pct_on_first: 0.5469879518
-   :total_students_attempting: 1660
-   :num_students_correct: 1651.0
-   :mean_clicks_to_correct: 1.8558449425
+   :pct_on_first: 0.5491363907
+   :total_students_attempting: 1679
+   :num_students_correct: 1670.0
+   :mean_clicks_to_correct: 1.851497006
 
    What is the type of your iterable?
    

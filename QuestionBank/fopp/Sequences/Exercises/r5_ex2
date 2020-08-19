@@ -1,8 +1,10 @@
 .. activecode:: r5_ex2
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
 
     Given the list in activecode below write the code to do the following: 

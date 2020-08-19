@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-3-B
    :author: Rachel Reyes
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: A
    :answer_b: B
@@ -10,11 +12,15 @@
    :answer_d: D
    :answer_e: E
    :correct: d
+   :pct_on_first: 0.1694915254
+   :total_students_attempting: 118
+   :num_students_correct: 117.0
+   :mean_clicks_to_correct: 2.6581196581
 
    What is the value of grade when the following code executes and score is ‘z’?
-
+   
    .. code-block:: java
-
+   
     if (score >= 90) grade = “A”;
     if (score > 80) grade = “B”;
     if (score < 70) grade = “C”;

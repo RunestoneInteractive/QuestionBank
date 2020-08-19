@@ -1,8 +1,10 @@
 .. activecode:: ac6_4_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Iteration/Stringsandforloops
+    :chapter: Iteration
+    :subchapter: Stringsandforloops
+    :topics: Iteration/Stringsandforloops
     :from_source: T
     :nocanvas:
 

@@ -1,8 +1,10 @@
 .. activecode:: mathChallenge
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-9-Math
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-9-Math
+   :topics: Unit2-Using-Objects/topic-2-9-Math
    :from_source: F
    :language: java
 

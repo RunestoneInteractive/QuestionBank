@@ -1,8 +1,10 @@
 .. mchoice:: qtnt1_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Tests/test1nt
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
    :from_source: T
    :answer_a: I and II are exactly equivalent for all input values n.
    :answer_b: I and II are only equivalent when n is an even number.

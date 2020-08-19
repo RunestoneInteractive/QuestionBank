@@ -1,8 +1,10 @@
 .. activecode:: splitCityState
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/findPollState
+   :chapter: CSPWebData
+   :subchapter: findPollState
+   :topics: CSPWebData/findPollState
    :from_source: T
    :tour_1: "Line-by-line tour"; 1: state1-line1; 2: state1-line2; 3: state1-line3; 4: state1-line4; 5: state1-line5; 6: state1-line6; 7: state1-line7;
 

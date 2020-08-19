@@ -1,13 +1,15 @@
 .. actex:: TL_365_matrix_multiply
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0909090909
-   :total_students_attempting: 88
+   :pct_on_first: 0.0888888889
+   :total_students_attempting: 90
    :num_students_correct: 31.0
    :mean_clicks_to_correct: 5.7419354839
 

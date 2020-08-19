@@ -1,15 +1,17 @@
 .. actex:: TL_365_matrix_scalar_multiply
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1296296296
-   :total_students_attempting: 108
-   :num_students_correct: 49.0
-   :mean_clicks_to_correct: 4.612244898
+   :pct_on_first: 0.1272727273
+   :total_students_attempting: 110
+   :num_students_correct: 51.0
+   :mean_clicks_to_correct: 4.568627451
 
    
    In the code below, a :math:`3\times3` matrix has been define for

@@ -1,8 +1,10 @@
 .. clickablearea:: order_of_operations_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter2/OrderofOperations
+   :chapter: Chapter2
+   :subchapter: OrderofOperations
+   :topics: Chapter2/OrderofOperations
    :from_source: F
    :question: Click on ALL PARTS of the expression that get evaluated first.  For example, if "1 + 1" gets evaluated first, click on "1", "+", and "1".
    :iscode:

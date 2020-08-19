@@ -1,8 +1,10 @@
 .. mchoice:: cswt01_q19a
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :answer_a: A polygon with n sides
    :answer_b: A circle

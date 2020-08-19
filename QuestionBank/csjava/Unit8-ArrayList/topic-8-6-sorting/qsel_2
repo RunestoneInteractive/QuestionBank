@@ -1,0 +1,41 @@
+.. mchoice:: qsel_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit8-ArrayList
+   :subchapter: topic-8-6-sorting
+   :topics: Unit8-ArrayList/topic-8-6-sorting
+   :from_source: T
+   :answer_a: line 1
+   :answer_b: line 2
+   :answer_c: line 3
+   :answer_d: line 4
+   :answer_e: line 5
+   :correct: c
+   :feedback_a: The outer loop starts at 0 and ends when it reaches the length - 1.
+   :feedback_b: The min index should be set to the outer loop index before the start of the inner loop.
+   :feedback_c: The inner loop should start at the outer loop index + 1.
+   :feedback_d: You should compare the element at the inner loop index to the element at the min index to see if it is smaller.
+   :feedback_e: You should save the new min index as the inner loop index.
+
+   This method should sort the numbers in the passed array into ascending order. But, it does not work. Which of the following lines is wrong?
+
+   .. code-block:: java
+
+      public static void selectionSort(int[] elements)
+      {
+        for (int j = 0; j < elements.length − 1; j++)      // line 1
+        {
+           int minIndex = j;                               // line 2
+           for (int k = 0; k < elements.length; k++)       // line 3
+           {
+              if (elements[k] < elements[minIndex])        // line 4
+              {
+                 minIndex = k;                             // line 5
+              }
+           }
+           int temp = elements[j];
+           elements[j] = elements[minIndex];
+           elements[minIndex] = temp;
+         }
+      }

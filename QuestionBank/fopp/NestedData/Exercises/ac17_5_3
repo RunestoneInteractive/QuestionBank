@@ -1,13 +1,15 @@
 .. actex:: ac17_5_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/Exercises
+   :chapter: NestedData
+   :subchapter: Exercises
+   :topics: NestedData/Exercises
    :from_source: T
-   :pct_on_first: 0.3333333333
-   :total_students_attempting: 96
-   :num_students_correct: 70.0
-   :mean_clicks_to_correct: 2.9571428571
+   :pct_on_first: 0.3298969072
+   :total_students_attempting: 97
+   :num_students_correct: 71.0
+   :mean_clicks_to_correct: 2.985915493
 
    Below, we have provided a nested list called ``big_list``. Use nested iteration to create a dictionary, ``word_counts``, that contains all the words in ``big_list`` as keys, and the number of times they occur as values.
    

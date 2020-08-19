@@ -1,63 +1,69 @@
 .. mchoice:: AP2-5-2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-5-methods-return
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-5-methods-return
+    :topics: Unit2-Using-Objects/topic-2-5-methods-return
     :from_source: T
     :practice: T
+    :pct_on_first: 0.4672405548
+    :total_students_attempting: 2091
+    :num_students_correct: 2057.0
+    :mean_clicks_to_correct: 2.0257656782
 
     Consider the following class definition.
-
+    
     .. code-block:: java
-
+    
         public class Liquid
         {
             private double boilingPoint;
             private double freezingPoint;
             private double currentTemp;
-
+    
             public Liquid()
             {
                 currentTemp = 50;
             }
-
+    
             public void lowerTemp()
             {
                 currentTemp -= 10;
             }
-
+    
             public double getTemp()
             {
                 return currentTemp;
             }
         }
-
+    
     Assume that the following code segment appears in a class other than Liquid.
-
+    
     .. code-block:: java
-
+    
         Liquid water = new Liquid();
         water.lowerTemp();
         System.out.println(water.getTemp());
-
+    
     What is printed as a result of executing the code segment?
-
+    
     - \-10
-
+    
       - The Liquid() constructor sets the currentTemp instance variable to 50 and the lowerTemp() method subtracts 10 from it.
-
+    
     - 50
-
+    
       - The Liquid() constructor sets the currentTemp instance variable to 50 and the lowerTemp() method subtracts 10 from it.
-
+    
     - water.getTemp()
-
+    
       - The System.out.println will print the value returned from water.getTemp().
-
+    
     - The code will not compile.
-
+    
       - This code should compile.
-
+    
     - 40.0
-
+    
       + Correct, the Liquid() constructor sets the currentTemp instance variable to 50 and the lowerTemp() method subtracts 10 from it, and getTemp() returns the currentTemp value as a double.

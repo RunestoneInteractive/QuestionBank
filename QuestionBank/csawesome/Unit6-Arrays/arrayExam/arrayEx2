@@ -1,8 +1,10 @@
 .. mchoice:: arrayEx2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/arrayExam
+   :chapter: Unit6-Arrays
+   :subchapter: arrayExam
+   :topics: Unit6-Arrays/arrayExam
    :from_source: T
    :practice: T
    :answer_a: 3
@@ -14,11 +16,15 @@
    :feedback_b: This loops and only increments count when the same value is in x1 and x2, but it doesn't compare the values at index 0 since it stops when either index is 0.
    :feedback_c: It may appear that the indices get out of synchronization, but check out the else if and else code.
    :feedback_d: The very first time through the loop the values at the two indicies are equal and count is incremented.
+   :pct_on_first: 0.4363468635
+   :total_students_attempting: 1084
+   :num_students_correct: 616.0
+   :mean_clicks_to_correct: 1.3571428571
 
    What is the value of ``count`` after the following code has executed?
-
+   
    .. code-block:: java
-
+   
      int[] x1 = {1, 2, 4, 7};
      int[] x2 = {1, 2, 5, 7};
      int i1 = x1.length - 1;

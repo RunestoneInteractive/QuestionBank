@@ -1,0 +1,55 @@
+.. mchoice:: q6_2_5
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit6-Writing-Classes
+    :subchapter: topic-6-2-writing-constructors
+    :topics: Unit6-Writing-Classes/topic-6-2-writing-constructors
+    :from_source: T
+    :practice: T
+
+    Consider the definition of the Cat class below. The class uses the instance variable isSenior to indicate whether a cat is old enough to be considered a senior cat or not.
+
+    .. code-block:: java
+
+        public class Cat
+        {
+            private String name;
+            private int age;
+            private boolean isSenior;
+            public Cat(String n, int a)
+            {
+                name = n;
+                age = a;
+                if (age >= 10)
+                {
+                    isSenior = true;
+                }
+                else
+                {
+                    isSenior = false;
+                }
+            }
+        }
+
+    Which of the following statements will create a Cat object that represents a cat that is considered a senior cat?
+
+    - Cat c = new Cat ("Oliver", 7);
+
+      - The age 7 is less than 10, so this cat would not be considered a senior cat.
+
+    - Cat c = new Cat ("Max", "15");
+
+      - An integer should be passed in as the second parameter, not a string.
+
+    - Cat c = new Cat ("Spots", true);
+
+      - An integer should be passed in as the second parameter, not a boolean.
+
+    - Cat c = new Cat ("Whiskers", 10);
+
+      + Correct!
+
+    - Cat c = new Cat ("Bella", isSenior);
+
+      - An integer should be passed in as the second parameter and isSenior would be undefined outside of the class.

@@ -1,8 +1,10 @@
 .. activecode:: JC_country_lists
     :author: Joaquin Carbonara
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
 
     Create a list of tuples called TOTALS, where each tuple is like this: (country, total_loan_amount,total_time_to_rise,total_num_lenders).

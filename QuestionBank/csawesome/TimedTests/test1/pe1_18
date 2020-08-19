@@ -1,8 +1,10 @@
 .. mchoice:: pe1_18
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: { { 2, 1, 1, 1 }, { 2, 2, 1, 1 }, { 2, 2, 2, 1 } }
    :answer_b: { { 2, 3, 3, 3 }, { 1, 2, 3, 3 }, { 1, 1, 2, 3 } }
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if it was int [][] mat = new int [4][3] and it filled the mat with 1 if the row index is less than the column index.
    :feedback_d: This would be true if it was int [][] mat = new int [4][3]. Remember that the first number is the number of rows.
    :feedback_e: This would be true if it filled the mat with 1 if the row and column indices are equal and 2 if the row index is greater than the column index.
+   :pct_on_first: 0.5179856115
+   :total_students_attempting: 139
+   :num_students_correct: 91.0
+   :mean_clicks_to_correct: 1.3186813187
 
    Consider the following code segment, what are the contents of mat after the code segment has executed?
-
+   
    .. code-block:: java
-
+   
       int [][] mat = new int [3][4];
       for (int row = 0; row < mat.length; row++)
       {

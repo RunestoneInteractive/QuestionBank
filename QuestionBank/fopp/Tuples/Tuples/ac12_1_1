@@ -1,8 +1,10 @@
 .. activecode:: ac12_1_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Tuples/Tuples
+    :chapter: Tuples
+    :subchapter: Tuples
+    :topics: Tuples/Tuples
     :from_source: F
 
 

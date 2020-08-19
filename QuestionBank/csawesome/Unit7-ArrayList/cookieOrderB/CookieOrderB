@@ -1,11 +1,17 @@
 .. parsonsprob:: CookieOrderB
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/cookieOrderB
-   :from_source: T
+   :chapter: Unit7-ArrayList
+   :subchapter: cookieOrderB
+   :topics: Unit7-ArrayList/cookieOrderB
+   :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.1594713656
+   :total_students_attempting: 1135
+   :num_students_correct: 982.0
+   :mean_clicks_to_correct: 5.6446028513
 
    The method removeVariety below contains the correct code for one solution to this problem, but it is mixed up.  Drag the needed code from the left to the right and put them in order with the correct indention so that the code would work correctly.  There may be extra blocks that are not needed in a correct solution.
    -----

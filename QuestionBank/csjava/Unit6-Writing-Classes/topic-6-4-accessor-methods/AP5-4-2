@@ -1,0 +1,45 @@
+.. mchoice:: AP5-4-2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit6-Writing-Classes
+    :subchapter: topic-6-4-accessor-methods
+    :topics: Unit6-Writing-Classes/topic-6-4-accessor-methods
+    :from_source: F
+    :practice: T
+
+    Consider the following class definition. The class does not compile.
+
+    .. code-block:: java
+
+        public class Student
+        {
+            private int id;
+            public getId()
+            {
+                return id;
+            }
+            // Constructor not shown
+        }
+
+    The accessor method getId is intended to return the id of a Student object. Which of the following best explains why the class does not compile?
+
+    - The id instance variable should be public.
+
+      - Instance variables should be private.
+
+    - The getId method should be declared as private.
+
+      - Accessor methods should be public methods.
+
+    - The getId method requires a parameter.
+
+      - Accessor methods usually do not require parameters.
+
+    - The return type of the getId method needs to be defined as void.
+
+      - void is not the correct return type.
+
+    - The return type of the getId method needs to be defined as int.
+
+      + Correct! Accessor methods have a return type of the instance variable they are returning.

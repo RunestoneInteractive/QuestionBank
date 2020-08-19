@@ -1,8 +1,10 @@
 .. mchoice:: test_question2_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/OperatorsandOperands
+   :chapter: SimplePythonData
+   :subchapter: OperatorsandOperands
+   :topics: SimplePythonData/OperatorsandOperands
    :from_source: T
    :practice: T
    :answer_a: 4.5
@@ -14,10 +16,10 @@
    :feedback_b: The / operator does exact division and returns a floating point result.
    :feedback_c: The / operator does exact division and returns a floating point result.
    :feedback_d: The / operator does exact division and returns a floating point result.
-   :pct_on_first: 0.8419841586
-   :total_students_attempting: 22599
-   :num_students_correct: 22546.0
-   :mean_clicks_to_correct: 1.2222123658
+   :pct_on_first: 0.842355093
+   :total_students_attempting: 22963
+   :num_students_correct: 22908.0
+   :mean_clicks_to_correct: 1.2216692858
 
    What value is printed when the following statement executes?
    

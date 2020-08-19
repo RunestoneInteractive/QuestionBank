@@ -1,8 +1,10 @@
 .. mchoice:: question17_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/jsonlib
+   :chapter: NestedData
+   :subchapter: jsonlib
+   :topics: NestedData/jsonlib
    :from_source: T
    :answer_a: json.loads(d)
    :answer_b: json.dumps(d)
@@ -12,9 +14,9 @@
    :feedback_c: .json() tries to invoke the json method, but that method is not defined for dictionaries
    :correct: b
    :practice: T
-   :pct_on_first: 0.6656716418
-   :total_students_attempting: 335
-   :num_students_correct: 333.0
-   :mean_clicks_to_correct: 1.4264264264
+   :pct_on_first: 0.6695906433
+   :total_students_attempting: 342
+   :num_students_correct: 340.0
+   :mean_clicks_to_correct: 1.4205882353
 
    Because we can only write strings into a file, if we wanted to convert a dictionary `d` into a json-formatted string so that we could store it in a file, what would we use?

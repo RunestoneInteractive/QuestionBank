@@ -1,18 +1,20 @@
 .. activecode:: ac9_10_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :available_files: emotion_words.txt
    :nocodelens: 
-   :pct_on_first: 0.2693208431
-   :total_students_attempting: 854
-   :num_students_correct: 673.0
-   :mean_clicks_to_correct: 5.5542347697
+   :pct_on_first: 0.2686046512
+   :total_students_attempting: 860
+   :num_students_correct: 678.0
+   :mean_clicks_to_correct: 5.5339233038
 
    We have provided a file called ``emotion_words.txt`` that contains lines of words that describe emotions. Find the total number of words in the file and assign this value to the variable ``num_words``.
    ~~~~

@@ -1,18 +1,20 @@
 .. activecode:: ac9_10_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :available_files: travel_plans.txt
    :nocodelens: 
-   :pct_on_first: 0.5519877676
-   :total_students_attempting: 654
-   :num_students_correct: 507.0
-   :mean_clicks_to_correct: 1.7041420118
+   :pct_on_first: 0.5523520486
+   :total_students_attempting: 659
+   :num_students_correct: 511.0
+   :mean_clicks_to_correct: 1.7005870841
 
    Assign the first 33 characters from the textfile, ``travel_plans.txt`` to the variable ``first_chars``.
    ~~~~

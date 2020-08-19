@@ -1,8 +1,10 @@
 .. parsonsprob:: cpsc120_q1
    :author: Matthew Zuniga
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    
    Write a code snippet that uses a for loop to output all even numbers between 1 and 100. <br>

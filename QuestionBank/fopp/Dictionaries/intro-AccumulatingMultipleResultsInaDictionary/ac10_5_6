@@ -1,16 +1,18 @@
 .. activecode:: ac10_5_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
+   :chapter: Dictionaries
+   :subchapter: intro-AccumulatingMultipleResultsInaDictionary
+   :topics: Dictionaries/intro-AccumulatingMultipleResultsInaDictionary
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.0909090909
-   :total_students_attempting: 11
-   :num_students_correct: 7.0
-   :mean_clicks_to_correct: 3.0
+   :pct_on_first: 0.2608695652
+   :total_students_attempting: 23
+   :num_students_correct: 15.0
+   :mean_clicks_to_correct: 2.2
 
    f = open('scarlet.txt', 'r')
    txt = f.read()

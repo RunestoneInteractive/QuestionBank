@@ -1,8 +1,10 @@
 .. activecode:: L2.8_Troy2018
     :author: Shawn Haarer
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     LESSON 2.8 is focused on the difference between inputting

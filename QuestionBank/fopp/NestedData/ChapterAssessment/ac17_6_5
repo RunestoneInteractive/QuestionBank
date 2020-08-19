@@ -1,31 +1,29 @@
 .. activecode:: ac17_6_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ChapterAssessment
+   :chapter: NestedData
+   :subchapter: ChapterAssessment
+   :topics: NestedData/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: NestedData/NestedDictionaries
-   :pct_on_first: 0.5944444444
-   :total_students_attempting: 180
-   :num_students_correct: 143.0
-   :mean_clicks_to_correct: 1.5664335664
 
    The variable ``nested_d`` contains a nested dictionary with the gold medal counts for the top four countries in the past three Olympics. Assign the value of Great Britain's gold medal count from the London Olympics to the variable ``london_gold``. Use indexing. Do not hardcode.
-   
+
    ~~~~
-   
+
    nested_d = {'Beijing':{'China':51, 'USA':36, 'Russia':22, 'Great Britain':19}, 'London':{'USA':46, 'China':38, 'Great Britain':29, 'Russia':22}, 'Rio':{'USA':35, 'Great Britain':22, 'China':20, 'Germany':13}}
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(london_gold, 29, "Testing that london_gold is assigned to correct value")
-   
+
    myTests().main()

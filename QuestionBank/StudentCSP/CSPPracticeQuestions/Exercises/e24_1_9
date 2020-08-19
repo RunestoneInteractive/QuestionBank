@@ -1,8 +1,10 @@
 .. mchoice:: e24_1_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: T
    :answer_a: Sorting students by grade
    :answer_b: Deleting a student’s record
@@ -13,9 +15,13 @@
    :feedback_b: Incorrect. Since the run-time doubles whenever the number of students in class double, the run-time for a class of 400 students would be 32 seconds.
    :feedback_c: Incorrect. Since the run-time doubles whenever the number of students in class double, the run-time for a class of 400 students would be 16 seconds.
    :feedback_d: Correct. Since the run-time increments by 3 seconds whenever the number of students in class double, the run-time for a class of 400 students would be 15 seconds, which is the least out of all the four options.
+   :pct_on_first: 0.3180212014
+   :total_students_attempting: 566
+   :num_students_correct: 287.0
+   :mean_clicks_to_correct: 1.606271777
 
    A professor uses an automated computer system to manage the student records of his classes. The time the system takes to perform various tasks for different class sizes is shown in the table below:
-
+   
    +---------------------+---------------------------+----------------------------+----------------------------+
    | Task ↓       Size → | Small class (25 students) | Medium class (50 students) | Large class (100 students) |
    +=====================+===========================+============================+============================+
@@ -32,5 +38,5 @@
    | to grades of all    |                           |                            |                            |
    | students            |                           |                            |                            |
    +---------------------+---------------------------+----------------------------+----------------------------+
-
+   
    Based on the information in the table, which of the following tasks is likely to take the least amount of time if the computer system is used for a class of 400 students?

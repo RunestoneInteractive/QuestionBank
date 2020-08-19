@@ -1,8 +1,10 @@
 .. actex:: CS152_perimeter_PT
     :author: pranoj thapa
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

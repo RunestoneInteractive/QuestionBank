@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-9-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: s starts with three or more of the same characters
    :answer_b: s contains three or more of the same characters
@@ -10,11 +12,15 @@
    :answer_d: s ends with two or more of the same characters
    :answer_e: s.charAt(0) == s.charAt(1) == s.charAt(2)
    :correct: c
+   :pct_on_first: 0.5047169811
+   :total_students_attempting: 212
+   :num_students_correct: 204.0
+   :mean_clicks_to_correct: 2.1274509804
 
    The following method will return true if and only if:
-
+   
    .. code-block:: java
-
+   
     public boolean check(String s) {
         return s.length() >= 3 && (s.charAt(0) == s.charAt(1) == 
             s.charAt(2) || check(s.substring(2)));

@@ -1,8 +1,10 @@
 .. activecode:: hw11bDE
    :author: Damon Ellingston
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
 
    **Homework 11 part b**

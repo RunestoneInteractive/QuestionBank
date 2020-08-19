@@ -1,11 +1,17 @@
 .. parsonsprob:: filter_words-Parsons
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/Exercises
+   :chapter: CSPWhileAndForLoops
+   :subchapter: Exercises
+   :topics: CSPWhileAndForLoops/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.4571428571
+   :total_students_attempting: 140
+   :num_students_correct: 138.0
+   :mean_clicks_to_correct: 2.4492753623
 
    Finish the function to return a new list with all the words removed that are of 
    length 3 or less.

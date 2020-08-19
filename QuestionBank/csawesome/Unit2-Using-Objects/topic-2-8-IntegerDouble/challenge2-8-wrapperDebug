@@ -1,11 +1,17 @@
 .. activecode:: challenge2-8-wrapperDebug
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-8-IntegerDouble
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-8-IntegerDouble
+   :topics: Unit2-Using-Objects/topic-2-8-IntegerDouble
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.2286995516
+   :total_students_attempting: 223
+   :num_students_correct: 180.0
+   :mean_clicks_to_correct: 2.2833333333
 
    Find and fix the bugs below to use the correct Integer and Double methods and variables.
    ~~~~
@@ -26,7 +32,7 @@
    import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test

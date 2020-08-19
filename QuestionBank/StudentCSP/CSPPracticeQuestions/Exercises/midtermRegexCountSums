@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermRegexCountSums
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.3110047847
+   :total_students_attempting: 209
+   :num_students_correct: 192.0
+   :mean_clicks_to_correct: 5.921875
 
    The code below is correct, but is mixed-up.  It should create a function sumNums.  The function will open a file and loop through the lines in the file and find all numbers in each line and add them to a list of numbers represented as strings.  Then it should close the file.  Next it should loop through the numbers that are strings and add them to numList as integers.  Finally it should return the sum of the list numList.  The code below contains one extra block that is not needed in a correct solution.  
    -----
@@ -25,7 +31,7 @@
    =====
        hand.close()
    =====
-
+   
        for strNum in strList:
    =====
            numList.append(int(strNum))

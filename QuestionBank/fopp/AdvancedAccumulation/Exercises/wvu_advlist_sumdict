@@ -1,14 +1,16 @@
 .. activecode:: wvu_advlist_sumdict
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: AdvancedAccumulation/Exercises
+    :chapter: AdvancedAccumulation
+    :subchapter: Exercises
+    :topics: AdvancedAccumulation/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.2857142857
-    :total_students_attempting: 21
-    :num_students_correct: 13.0
-    :mean_clicks_to_correct: 3.9230769231
+    :pct_on_first: 0.2608695652
+    :total_students_attempting: 23
+    :num_students_correct: 14.0
+    :mean_clicks_to_correct: 3.7857142857
 
     Create a dictionary named **coal_total** that contains the total amount of coal produced in each county. The key should be the county name and the value should be the total tons of coal mined.
     ~~~~

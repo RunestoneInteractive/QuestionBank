@@ -1,8 +1,10 @@
 .. mchoice:: cswq4_9
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :answer_a: changing the background of an image by replacing green or blue pixels
    :answer_b: creating images that have a green tint

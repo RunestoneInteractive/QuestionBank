@@ -1,8 +1,10 @@
 .. actex:: ex_2_9_jcenteno
     :author: Jose Centeno-Gonzalez
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     The formula for computing the final amount if one is earning

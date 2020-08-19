@@ -1,8 +1,10 @@
 .. mchoice:: AP2-1-6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: An attribute of the scaryMovie class is title.
@@ -16,11 +18,15 @@
    :feedback_c: These are attributes of the object or class.
    :feedback_d: scaryMovie is an instance of the Movie class.
    :feedback_e: scaryMovie is an instance of the Movie class.
+   :pct_on_first: 0.4843501326
+   :total_students_attempting: 1885
+   :num_students_correct: 1860.0
+   :mean_clicks_to_correct: 2.1064516129
 
     A student has created a Movie class. The class contains variables to represent the following.
     - A String variable called title to represent the title of the movie
     - A String variable called director to represent the director of the movie
     - A double variable called rating to represent the rating of the movie
-
+   
     The object scaryMovie will be declared as type Movie.
     Which of the following descriptions is accurate?

@@ -1,8 +1,10 @@
 .. mchoice:: TurtleClass1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-2-constructors
+   :topics: Unit2-Using-Objects/topic-2-2-constructors
    :from_source: T
    :practice: T
    :answer_a: Turtle t = new Turtle();
@@ -16,5 +18,9 @@
    :feedback_c: This would initialize the Turtle to the middle of the world, not necessarily coordinates (50,150).
    :feedback_d: Make sure the order of the parameters match the constructor signature above.
    :feedback_e: This matches the second constructor above with the parameters of x, y, and world.
+   :pct_on_first: 0.670491321
+   :total_students_attempting: 3399
+   :num_students_correct: 3387.0
+   :mean_clicks_to_correct: 1.6368467671
 
    Given the Turtle class in the figure above and a World object world1, which of the following code segments will correctly create an instance of a Turtle object at (x,y) coordinates (50,150)?

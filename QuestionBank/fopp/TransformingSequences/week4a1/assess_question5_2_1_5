@@ -1,10 +1,12 @@
 .. mchoice:: assess_question5_2_1_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
-   :multiple_answers: 
+   :multiple_answers:
    :answer_a: num_lst
    :answer_b: p
    :answer_c: sentence
@@ -18,9 +20,5 @@
    :feedback_e: At least one of the answers above is a good name for a sequence variable
    :practice: T
    :topics: TransformingSequences/WPAccumulatorPatternStrategies
-   :pct_on_first: 0.5042857143
-   :total_students_attempting: 700
-   :num_students_correct: 689.0
-   :mean_clicks_to_correct: 1.8026124819
 
    Which of these are good names for a sequence variable? Select as many as apply.

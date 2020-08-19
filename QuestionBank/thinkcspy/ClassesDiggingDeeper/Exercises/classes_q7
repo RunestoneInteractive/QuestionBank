@@ -1,8 +1,10 @@
 .. actex:: classes_q7
    :author: jenkins
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: ClassesDiggingDeeper/Exercises
+   :chapter: ClassesDiggingDeeper
+   :subchapter: Exercises
+   :topics: ClassesDiggingDeeper/Exercises
    :from_source: F
 
    Write a new method called ``diagonal`` that will return the length of the diagonal that runs

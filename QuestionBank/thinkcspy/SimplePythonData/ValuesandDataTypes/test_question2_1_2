@@ -1,8 +1,10 @@
 .. mchoice:: test_question2_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/ValuesandDataTypes
+   :chapter: SimplePythonData
+   :subchapter: ValuesandDataTypes
+   :topics: SimplePythonData/ValuesandDataTypes
    :from_source: T
    :practice: T
    :answer_a: Character
@@ -14,9 +16,9 @@
    :feedback_b: The data is not numeric.
    :feedback_c: The value is not numeric with a decimal point.
    :feedback_d: Strings can be enclosed in single quotes.
-   :pct_on_first: 0.8717102549
-   :total_students_attempting: 24242
-   :num_students_correct: 24185.0
-   :mean_clicks_to_correct: 1.2197229688
+   :pct_on_first: 0.871935157
+   :total_students_attempting: 24675
+   :num_students_correct: 24617.0
+   :mean_clicks_to_correct: 1.2204574075
 
    What is the data type of 'this is what kind of data'?

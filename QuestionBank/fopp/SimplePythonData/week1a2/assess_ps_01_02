@@ -1,17 +1,15 @@
 .. activecode:: assess_ps_01_02
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: SimplePythonData/week1a2
+    :chapter: SimplePythonData
+    :subchapter: week1a2
+    :topics: SimplePythonData/week1a2
     :from_source: T
     :language: python
     :autograde: unittest
     :practice: T
     :topics: SimplePythonData/StatementsandExpressions
-    :pct_on_first: 0.5099150142
-    :total_students_attempting: 1765
-    :num_students_correct: 1455.0
-    :mean_clicks_to_correct: 2.0405498282
 
     Write code to assign the number of *characters* in the string ``rv`` to a variable ``num_chars``.
     ~~~~
@@ -21,16 +19,16 @@
         As of some one gently rapping, rapping at my chamber door.
         'Tis some visitor, I muttered, tapping at my chamber door;
         Only this and nothing more."""
-    
+
     # Write your code here!
-    
+
     =====
-    
+
     from unittest.gui import TestCaseGui
-    
+
     class myTests(TestCaseGui):
-    
+
         def testOne(self):
            self.assertEqual(num_chars, len(rv), "Testing that num_chars has been set to the length of rv")
-    
+
     myTests().main()

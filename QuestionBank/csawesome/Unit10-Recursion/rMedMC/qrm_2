@@ -1,8 +1,10 @@
 .. mchoice:: qrm_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit10-Recursion/rMedMC
+   :chapter: Unit10-Recursion
+   :subchapter: rMedMC
+   :topics: Unit10-Recursion/rMedMC
    :from_source: T
    :practice: T
    :answer_a: 243
@@ -16,12 +18,16 @@
    :feedback_c: This would only be true if you called <code>mystery(1)</code>
    :feedback_d: This would be true if you called <code>mystery(4)</code>
    :feedback_e: This would be true if you called <code>mystery(3)</code>
+   :pct_on_first: 0.5755102041
+   :total_students_attempting: 490
+   :num_students_correct: 485.0
+   :mean_clicks_to_correct: 1.8164948454
 
    Given the following method declaration, what value is returned as the result of the call ``mystery(5)``?
-
+   
    .. code-block:: java
       :linenos:
-
+   
       public static int mystery(int n)
       {
          if (n == 0)

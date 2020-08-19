@@ -1,8 +1,10 @@
 .. activecode:: Lesson4.5_Troy2018
     :author: Shawn Haarer
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
 
     In this window we will learn more about a FOR LOOP

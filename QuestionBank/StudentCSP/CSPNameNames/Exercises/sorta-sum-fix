@@ -1,11 +1,17 @@
 .. activecode:: sorta-sum-fix
        :author: Barbara  Ericson
-       :difficulty: 0
+       :difficulty: 0.0
        :basecourse: StudentCSP
-       :topic: CSPNameNames/Exercises
+       :chapter: CSPNameNames
+       :subchapter: Exercises
+       :topics: CSPNameNames/Exercises
        :from_source: F
        :autograde: unittest
-       
+       :pct_on_first: 0.1894736842
+       :total_students_attempting: 95
+       :num_students_correct: 92.0
+       :mean_clicks_to_correct: 2.4456521739
+
        Fix the following code so that given 2 ints, a and b it will return their sum. However, sums in the range 10..19
        inclusive, are forbidden, so in that case just return 20.  For example, 
        sorta_sum(3,4) returns 7 and sorta_sum(9, 4) returns 20.  
@@ -15,12 +21,12 @@
            if sum > 10 and sum <= 19:
                return 20
            return Sum
-
+       
        ====
        from unittest.gui import TestCaseGui
-
+       
        class myTests(TestCaseGui):
-
+       
            def testOne(self):
                self.assertEqual(sorta_sum(3,4), 7, 'sorta_sum(3,4)')
                self.assertEqual(sorta_sum(9,4), 20, 'sorta_sum(9,4)')
@@ -33,5 +39,5 @@
                self.assertEqual(sorta_sum(14,6), 20, 'sorta_sum(14,6)')
                self.assertEqual(sorta_sum(10,9),20, 'sorta_sum(10,9)')
                self.assertEqual(sorta_sum(10,10), 20, 'sorta_sum(10,10)')
-
+       
        myTests().main()

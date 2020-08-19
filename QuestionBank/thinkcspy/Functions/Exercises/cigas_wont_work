@@ -1,8 +1,10 @@
 .. actex:: cigas_wont_work
    :author: John Cigas
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :pct_on_first: 1.0
    :total_students_attempting: 2

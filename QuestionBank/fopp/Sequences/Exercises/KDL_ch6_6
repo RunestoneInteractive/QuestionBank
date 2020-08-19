@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch6_6
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.299270073
-   :total_students_attempting: 137
-   :num_students_correct: 86.0
-   :mean_clicks_to_correct: 2.0930232558
+   :pct_on_first: 0.3043478261
+   :total_students_attempting: 138
+   :num_students_correct: 87.0
+   :mean_clicks_to_correct: 2.0804597701
 
    Use indexing to determine the first location of 5 in the list and save this as ``i``. Determine the number of times 5` is present and save this as ``c``. No for loop is needed. Don't hardcode the answers I'm going to run it for a different L.
    ~~~~

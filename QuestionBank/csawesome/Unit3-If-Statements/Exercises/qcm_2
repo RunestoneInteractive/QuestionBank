@@ -1,8 +1,10 @@
 .. mchoice:: qcm_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: T
    :practice: T
    :answer_a: x = 0;
@@ -14,11 +16,15 @@
    :feedback_b: What happens in the original when x is greater than 2?
    :feedback_c: If x is greater than 2 it will be set to 0.
    :feedback_d: In the original what happens if x is less than 2?  Does this give the same result?
+   :pct_on_first: 0.315282392
+   :total_students_attempting: 3010
+   :num_students_correct: 2984.0
+   :mean_clicks_to_correct: 2.19269437
 
    Which of the following is equivalent to the code segment below?
-
+   
    .. code-block:: java
-
+   
      if (x > 2)
         x = x * 2;
      if (x > 4)

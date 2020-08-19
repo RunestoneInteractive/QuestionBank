@@ -1,27 +1,25 @@
 .. activecode:: ac11_15_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/ChapterAssessment
+   :chapter: Functions
+   :subchapter: ChapterAssessment
+   :topics: Functions/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Functions/Functionscancallotherfunctions
-   :pct_on_first: 0.5638977636
-   :total_students_attempting: 626
-   :num_students_correct: 494.0
-   :mean_clicks_to_correct: 1.9433198381
 
    You will need to write two functions for this problem. The first function, ``divide`` that takes in any number and returns that same number divided by 2. The second function called ``sum`` should take any number, divide it by 2, and add 6. It should return this new number. You should call the ``divide`` function within the ``sum`` function. Do not worry about decimals.
    ~~~~
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testSixA(self):
          self.assertEqual(divide(4), 2, "Tests that divide(4) returns 2")
       def testSixB(self):
@@ -29,5 +27,5 @@
          self.assertEqual(sum(2), 7, "Tests that sum(2) returns 7")
          self.assertEqual(sum(-6), 3, "Tests that sum(-6) returns 3")
          self.assertEqual(sum(0), 6, "Tests that sum(0) returns 6")
-   
+
    myTests().main()

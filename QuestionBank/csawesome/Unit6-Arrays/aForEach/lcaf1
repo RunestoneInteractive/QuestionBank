@@ -1,8 +1,10 @@
 .. activecode:: lcaf1
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/aForEach
+   :chapter: Unit6-Arrays
+   :subchapter: aForEach
+   :topics: Unit6-Arrays/aForEach
    :from_source: F
    :language: java
 

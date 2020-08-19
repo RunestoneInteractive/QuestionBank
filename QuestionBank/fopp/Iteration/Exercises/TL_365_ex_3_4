@@ -1,13 +1,15 @@
 .. actex:: TL_365_ex_3_4
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Iteration/Exercises
+   :chapter: Iteration
+   :subchapter: Exercises
+   :topics: Iteration/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.132183908
-   :total_students_attempting: 174
+   :pct_on_first: 0.1306818182
+   :total_students_attempting: 176
    :num_students_correct: 99.0
    :mean_clicks_to_correct: 3.5353535354
 

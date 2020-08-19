@@ -1,8 +1,10 @@
 .. dragndrop:: chapter_seven_glossary
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter7/glossary
+    :chapter: Chapter7
+    :subchapter: glossary
+    :topics: Chapter7/glossary
     :from_source: T
     :feedback: Try again!
     :match_1:  object|||A collection of related data that comes with a set of functions that operate on it.

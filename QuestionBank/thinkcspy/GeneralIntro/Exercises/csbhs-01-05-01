@@ -1,8 +1,10 @@
 .. dragndrop:: csbhs-01-05-01
    :author: Stephen Walloch
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :feedback: Review section 1.5
    :match_1: input|||Get data from the keyboard, a file, or some other device.

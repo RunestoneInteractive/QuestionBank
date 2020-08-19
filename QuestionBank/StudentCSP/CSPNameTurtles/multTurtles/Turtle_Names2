@@ -1,8 +1,10 @@
 .. activecode:: Turtle_Names2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPNameTurtles/multTurtles
+    :chapter: CSPNameTurtles
+    :subchapter: multTurtles
+    :topics: CSPNameTurtles/multTurtles
     :from_source: T
     :tour_1: "Line-by-line Tour"; 1: tri-line1; 2: tri-line2; 3: tri-line3; 4: tri-line4; 5: tri-line5; 6: tri-line6; 7: tri-line7; 8: tri-line8; 9: tri-line9; 10: tri-line10;
     :nocodelens:

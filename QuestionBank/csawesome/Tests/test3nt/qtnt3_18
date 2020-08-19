@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_18
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: System.out.print(arr[x] + " ");
    :answer_b: System.out.print(x + " ");
@@ -15,11 +17,15 @@
    :feedback_c: This will compile without error, but the toString is unnecessary. x is already a String and can be printed directly.
    :feedback_d: x refers to a String object, not an index in the array row. x can be printed directly.
    :feedback_e: x is a String, not an index.
+   :pct_on_first: 0.4102564103
+   :total_students_attempting: 117
+   :num_students_correct: 114.0
+   :mean_clicks_to_correct: 2.4561403509
 
    The method ``printNames`` is located below. It prints out all the names in a 2-D matrix. Which of the following correctly replaces ``/* to be determined */`` to make the method work as intended?
-
+   
    .. code-block:: java
-
+   
       public void printNames (String[][] arr)
       {
            for (String[] row : arr)
@@ -28,7 +34,7 @@
                {
                    /* to be determined */
                }
-
+   
                System.out.println();
            }
       }

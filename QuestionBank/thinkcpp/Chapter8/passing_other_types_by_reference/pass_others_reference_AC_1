@@ -1,8 +1,10 @@
 .. activecode:: pass_others_reference_AC_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter8/passing_other_types_by_reference
+  :chapter: Chapter8
+  :subchapter: passing_other_types_by_reference
+  :topics: Chapter8/passing_other_types_by_reference
   :from_source: T
   :language: cpp
 

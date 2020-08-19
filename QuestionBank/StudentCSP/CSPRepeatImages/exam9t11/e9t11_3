@@ -1,8 +1,10 @@
 .. mchoice:: e9t11_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatImages/exam9t11
+   :chapter: CSPRepeatImages
+   :subchapter: exam9t11
+   :topics: CSPRepeatImages/exam9t11
    :from_source: T
    :practice: T
    :answer_a: Pictures are made up of little pixels, laid out on an (x,y) grid.
@@ -14,5 +16,9 @@
    :feedback_b: A pixel has a color and the color has a red, green, and blue part.
    :feedback_c: One way to describe a color is a combination of red, green, and blue.
    :feedback_d: On a computer the value for red, green, and blue is between 0 and 255.
+   :pct_on_first: 0.7120253165
+   :total_students_attempting: 632
+   :num_students_correct: 474.0
+   :mean_clicks_to_correct: 1.0696202532
 
    Which of the following statements is false?

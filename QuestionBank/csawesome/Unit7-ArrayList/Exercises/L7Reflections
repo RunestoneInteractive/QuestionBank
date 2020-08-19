@@ -1,8 +1,10 @@
 .. shortanswer:: L7Reflections
    :author: John Figliulo
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/Exercises
+   :chapter: Unit7-ArrayList
+   :subchapter: Exercises
+   :topics: Unit7-ArrayList/Exercises
    :from_source: F
    :optional:
 

@@ -1,8 +1,10 @@
 .. actex:: suci_turtle_loop_2_a
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Run this program then modify it so it draws 2 squares that are half the size.

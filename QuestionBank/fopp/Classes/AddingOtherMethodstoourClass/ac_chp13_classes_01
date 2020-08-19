@@ -1,14 +1,16 @@
 .. activecode:: ac_chp13_classes_01
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Classes/AddingOtherMethodstoourClass
+   :chapter: Classes
+   :subchapter: AddingOtherMethodstoourClass
+   :topics: Classes/AddingOtherMethodstoourClass
    :from_source: T
    :tags: Classes/ImprovingourConstructor.rst, Classes/AddingOtherMethodstoourClass.rs
-   :pct_on_first: 0.3531598513
-   :total_students_attempting: 538
-   :num_students_correct: 396.0
-   :mean_clicks_to_correct: 2.6994949495
+   :pct_on_first: 0.3545454545
+   :total_students_attempting: 550
+   :num_students_correct: 405.0
+   :mean_clicks_to_correct: 2.6814814815
 
    
    =====

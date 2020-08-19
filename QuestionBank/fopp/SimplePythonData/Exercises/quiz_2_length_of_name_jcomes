@@ -1,13 +1,15 @@
 .. actex:: quiz_2_length_of_name_jcomes
    :author: Jonny Comes
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.25
-   :total_students_attempting: 4
+   :pct_on_first: 0.2
+   :total_students_attempting: 5
    :num_students_correct: 3.0
    :mean_clicks_to_correct: 1.6666666667
 

@@ -1,8 +1,10 @@
 .. mchoice:: question11_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/FunctionParameters
+   :chapter: Functions
+   :subchapter: FunctionParameters
+   :topics: Functions/FunctionParameters
    :from_source: T
    :answer_a: def greet(t):
    :answer_b: def greet:
@@ -14,9 +16,9 @@
    :feedback_c: A function definition needs to include the keyword def.
    :feedback_d: A function definition header must end in a colon (:).
    :practice: T
-   :pct_on_first: 0.7212698413
-   :total_students_attempting: 1575
-   :num_students_correct: 1569.0
-   :mean_clicks_to_correct: 1.4506054812
+   :pct_on_first: 0.7229219144
+   :total_students_attempting: 1588
+   :num_students_correct: 1582.0
+   :mean_clicks_to_correct: 1.4475347661
 
    Which of the following is a valid function header (first line of a function definition)?

@@ -1,8 +1,10 @@
 .. activecode:: sks_cw4_ex4
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [30 pts] Write a program to print the first ``k`` prime numbers.  Your program should 

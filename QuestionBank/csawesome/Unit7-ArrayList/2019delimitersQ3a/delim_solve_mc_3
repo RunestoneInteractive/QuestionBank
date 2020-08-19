@@ -1,8 +1,10 @@
 .. mchoice:: delim_solve_mc_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/2019delimitersQ3a
+   :chapter: Unit7-ArrayList
+   :subchapter: 2019delimitersQ3a
+   :topics: Unit7-ArrayList/2019delimitersQ3a
    :from_source: T
    :answer_a: delList.set(0,item);
    :answer_b: delList.add(0,item);
@@ -13,6 +15,10 @@
    :feedback_b: This would add item at index 0 and move right any other items in the list
    :feedback_c: This would remove item from the list
    :feedback_d: This adds item to the end of the list
-   :optional:
+   :optional: 
+   :pct_on_first: 0.7257142857
+   :total_students_attempting: 175
+   :num_students_correct: 174.0
+   :mean_clicks_to_correct: 1.4425287356
 
    Which code adds item to the end of the list called delList?

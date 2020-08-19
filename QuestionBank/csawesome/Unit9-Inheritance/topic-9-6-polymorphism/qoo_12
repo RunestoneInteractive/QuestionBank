@@ -1,8 +1,10 @@
 .. mchoice:: qoo_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/topic-9-6-polymorphism
+   :chapter: Unit9-Inheritance
+   :subchapter: topic-9-6-polymorphism
+   :topics: Unit9-Inheritance/topic-9-6-polymorphism
    :from_source: T
    :practice: T
    :answer_a: 5 6 10 11
@@ -14,21 +16,25 @@
    :feedback_b: RaceCar, while it inherits object methods from Car via inheritance, has a separate and different constructor that sets the initial fuel amount to 2 * g, thus in this case, fuel for fastCar is set to 10 initially.
    :feedback_c: The variable car is a Car object, so the constructor used is not the same as the fastCar object which is a RaceCar. The car constructor does not change the passed in parameter, so it is set to 5 initially.
    :feedback_d: RaceCar inherits from the Car class so all the public object methods in Car can be accessed by any object of the RaceCar class.
+   :pct_on_first: 0.5511319282
+   :total_students_attempting: 1281
+   :num_students_correct: 1266.0
+   :mean_clicks_to_correct: 1.8909952607
 
    What is the output from running the main method in the RaceCar class?
-
+   
    .. code-block:: java
-
+   
       public class Car
       {
         private int fuel;
-
+   
         public Car() { fuel = 0; }
         public Car(int g) { fuel = g; }
-
+   
         public void addFuel() { fuel++; }
         public void display() { System.out.print(fuel + " "); }
-
+   
         public static void main(String[] args)
         {
            Car car = new Car(5);
@@ -40,9 +46,9 @@
            fastCar.addFuel();
            fastCar.display();
         }
-
+   
       }
-
+   
       class RaceCar extends Car
       {
         public RaceCar(int g) { super(2*g); }

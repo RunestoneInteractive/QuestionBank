@@ -1,8 +1,10 @@
 .. youtube:: Ndw_EgFO_tw
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/FunctionParameters
+    :chapter: Functions
+    :subchapter: FunctionParameters
+    :topics: Functions/FunctionParameters
     :from_source: T
     :divid: goog_function_parms
     :height: 315

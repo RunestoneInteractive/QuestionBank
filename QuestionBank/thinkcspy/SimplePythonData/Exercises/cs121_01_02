@@ -1,0 +1,30 @@
+.. actex:: cs121_01_02
+   :author: Elizabeth Jensen
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
+   :from_source: F
+   :language: python
+   :autograde: unittest
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 2.0
+
+   Add parenthesis to the expression ``a = 6 * 1 - 2`` to change its value from 4 to -6.  Do not make any other changes to the code, and do not hardcode the value of ''a''.
+   ~~~~
+   a = 6 * 1 - 2
+   
+   
+   =====
+   
+   from unittest.gui import TestCaseGui
+   
+   class myTests(TestCaseGui):
+   
+      def testOne(self):
+         self.assertEqual(a, -6, "Testing a is now equal to -6.")         
+   
+   myTests().main()

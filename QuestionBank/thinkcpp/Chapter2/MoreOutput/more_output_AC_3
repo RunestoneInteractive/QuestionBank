@@ -1,8 +1,10 @@
 .. activecode:: more_output_AC_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter2/MoreOutput
+   :chapter: Chapter2
+   :subchapter: MoreOutput
+   :topics: Chapter2/MoreOutput
    :from_source: T
    :language: cpp
    :caption: Spaces Removed (messy)

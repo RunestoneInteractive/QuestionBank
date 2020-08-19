@@ -1,8 +1,10 @@
 .. activecode:: answer8_11_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: T
 
    myList = [76, 92.3, 'hello', True, 4, 76]

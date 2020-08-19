@@ -1,6 +1,8 @@
 .. activecode:: act_xkcd_5
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/xkcd_pass
+    :chapter: Projects
+    :subchapter: xkcd_pass
+    :topics: Projects/xkcd_pass
     :from_source: T

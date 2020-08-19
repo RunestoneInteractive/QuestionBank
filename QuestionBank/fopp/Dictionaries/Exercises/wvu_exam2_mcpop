@@ -1,8 +1,10 @@
 .. mchoice:: wvu_exam2_mcpop
    :author: Brian Powell
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: Dictionaries/Exercises
+   :chapter: Dictionaries
+   :subchapter: Exercises
+   :topics: Dictionaries/Exercises
    :from_source: F
    :answer_a: my_dictionary.remove(key)
    :answer_b: my_dictionary.pop(key)

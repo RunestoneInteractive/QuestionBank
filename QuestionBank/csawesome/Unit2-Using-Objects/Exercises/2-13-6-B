@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-6-B
    :author: Beryl Hoffman
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :practice: T
    :answer_a: San
@@ -14,11 +16,15 @@
    :feedback_b: Try again.
    :feedback_c: Correct!
    :feedback_d: There are no errors here.
+   :pct_on_first: 0.1878787879
+   :total_students_attempting: 165
+   :num_students_correct: 126.0
+   :mean_clicks_to_correct: 2.3412698413
 
    What is the value of s3 after the following code is executed?
-
+   
    .. code-block:: java
-
+   
     String s = "San!Diego";
     String s1 = new String("San Diego");
     String s2 = s1.substring(4);

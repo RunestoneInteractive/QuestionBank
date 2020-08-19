@@ -1,8 +1,10 @@
 .. mchoice:: e24_1_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: T
    :answer_a: a ≥ c and c ≥ b
    :answer_b: a ≥ c and b ≥ c
@@ -13,10 +15,14 @@
    :feedback_b: Incorrect. The second part of this answer choice is incorrect since we display 'c' even though 'b ≥ c'.
    :feedback_c: Incorrect. The first part of this answer choice is incorrect since we display 'a' even though 'c ≥ a'.
    :feedback_d: Incorrect. Both parts of this answer choice are incorrect, plug-in values for 'a', 'b' and 'c' to see for yourself.
+   :pct_on_first: 0.6771929825
+   :total_students_attempting: 570
+   :num_students_correct: 447.0
+   :mean_clicks_to_correct: 1.2147651007
 
    Consider the following incomplete pseudo-code to print the largest of three integer variables, namely ``a``, ``b`` and ``c``:
    ::
-
+   
      IF (a ≥ b)
      {
         IF (<MISSING CODE 1>)
@@ -39,5 +45,5 @@
            DISPLAY(b)
         }
      }
-
+   
    Which of the following options can be substituted for <MISSING CODE 1> and <MISSING CODE 2>, respectively, for the code to work as intended?

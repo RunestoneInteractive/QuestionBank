@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_s20_q0
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    **Q0 [0 pts]** Please review Question 1 in Book under section 2.13 (Exercises). Please raise any questions you may have. No submission is needed.

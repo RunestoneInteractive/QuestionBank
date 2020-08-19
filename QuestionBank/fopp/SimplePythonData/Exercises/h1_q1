@@ -1,17 +1,19 @@
 .. dragndrop:: h1_q1
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :match_1: a|||variable (name)
     :match_2: =|||assignment
     :match_3: square|||function name
     :match_4: square(3)|||function call
     :match_5: square(3) + 1|||10
-    :pct_on_first: 0.4984025559
-    :total_students_attempting: 313
-    :num_students_correct: 282.0
-    :mean_clicks_to_correct: 2.1524822695
+    :pct_on_first: 0.498392283
+    :total_students_attempting: 311
+    :num_students_correct: 280.0
+    :mean_clicks_to_correct: 2.1607142857
 
     Match each component of the expression a = square(3) + 1 with the right box on the right.

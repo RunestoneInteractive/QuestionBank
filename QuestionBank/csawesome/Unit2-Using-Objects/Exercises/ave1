@@ -1,8 +1,10 @@
 .. activecode:: ave1
    :author: Kevin Clevenger
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :language: java
    :stdin: 0

@@ -1,8 +1,10 @@
 .. mchoice:: qtnt1_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test1nt
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
    :from_source: T
    :answer_a: k
    :answer_b: k + 1
@@ -15,11 +17,15 @@
    :feedback_c: This would be the case if i had the initial value 2 and arr[i] < someValue would be true for all i values.
    :feedback_d: This would be the case if only one element in the array would fulfill the condition that arr[i] < someValue.
    :feedback_e: This is the minimum number of times that HELLO could be executed.
+   :pct_on_first: 0.4889502762
+   :total_students_attempting: 362
+   :num_students_correct: 359.0
+   :mean_clicks_to_correct: 1.8774373259
 
    Consider the following code. What is the maximum amount of times that ``HELLO`` could possibly be printed?
-
+   
    .. code-block:: java
-
+   
       for (int i = 0; i <= k; i++)
       {
          if (arr[i] < someValue)

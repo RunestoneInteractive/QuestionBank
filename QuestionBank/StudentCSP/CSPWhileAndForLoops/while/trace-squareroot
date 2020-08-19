@@ -1,8 +1,10 @@
 .. video:: trace-squareroot
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/while
+   :chapter: CSPWhileAndForLoops
+   :subchapter: while
+   :topics: CSPWhileAndForLoops/while
    :from_source: F
    :controls:
    :thumb: ../_static/squareRootTrace.png

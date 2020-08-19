@@ -1,8 +1,10 @@
 .. poll:: cspq
    :author: Paul Lagrange
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/survey
+   :chapter: Unit1-Getting-Started
+   :subchapter: survey
+   :topics: Unit1-Getting-Started/survey
    :from_source: F
    :option_1: Yes, I took CSP.
    :option_2: No, I did not take CSP.

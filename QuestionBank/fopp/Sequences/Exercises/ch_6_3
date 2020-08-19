@@ -1,8 +1,10 @@
 .. activecode:: ch_6_3
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
     
     Assign the value of the last chacter of 'lst' to the variable 

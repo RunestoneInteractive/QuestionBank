@@ -1,8 +1,10 @@
 .. activecode:: ac5_4_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/DisabmiguatingSquareBrackets
+   :chapter: Sequences
+   :subchapter: DisabmiguatingSquareBrackets
+   :topics: Sequences/DisabmiguatingSquareBrackets
    :from_source: T
 
    new_lst = ["NFLX", "AMZN", "GOOGL", "DIS", "XOM"]

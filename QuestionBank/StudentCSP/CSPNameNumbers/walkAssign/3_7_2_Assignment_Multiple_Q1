@@ -1,8 +1,10 @@
 .. mchoice:: 3_7_2_Assignment_Multiple_Q1
                    :author: bmiller
-                   :difficulty: 3
+                   :difficulty: 3.0
                    :basecourse: StudentCSP
-                   :topic: CSPNameNumbers/walkAssign
+                   :chapter: CSPNameNumbers
+                   :subchapter: walkAssign
+                   :topics: CSPNameNumbers/walkAssign
                    :from_source: T
                    :answer_a: var1 is 45, var2 is 45
                    :answer_b: var1 is 45, var2 is var1
@@ -13,5 +15,9 @@
                    :feedback_b: Both variables contain numeric values, because those are the only values in this program.
                    :feedback_c: The variable var2 never gets set to 45 in this program.
                    :feedback_d: The variable var1 is first set to 45 and then changed to 17.3, and then, var2 gets the value from var1.
+                   :pct_on_first: 0.8758716876
+                   :total_students_attempting: 2151
+                   :num_students_correct: 2143.0
+                   :mean_clicks_to_correct: 1.2113859076
 
                    What are the values in ``var1`` and ``var2`` after this program runs?

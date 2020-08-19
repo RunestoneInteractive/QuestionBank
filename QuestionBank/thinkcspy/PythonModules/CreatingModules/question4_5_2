@@ -1,8 +1,10 @@
 .. mchoice:: question4_5_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: PythonModules/CreatingModules
+   :chapter: PythonModules
+   :subchapter: CreatingModules
+   :topics: PythonModules/CreatingModules
    :from_source: T
    :practice: T
    :answer_a: writing a new function or class
@@ -14,9 +16,9 @@
    :feedback_b: Import statements permit you to use other modules, but they do not create one.
    :feedback_c: Modules are Python source code files.
    :feedback_d: Modules should include comment blocks at the top, but writing a comment block at the top of a file does not create a new module.
-   :pct_on_first: 0.6272855134
-   :total_students_attempting: 711
-   :num_students_correct: 709.0
-   :mean_clicks_to_correct: 1.5232722144
+   :pct_on_first: 0.6282973621
+   :total_students_attempting: 834
+   :num_students_correct: 832.0
+   :mean_clicks_to_correct: 1.53125
 
    Create a module by:

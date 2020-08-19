@@ -1,8 +1,10 @@
 .. codelens:: Change_Word
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatStrings/modify
+    :chapter: CSPRepeatStrings
+    :subchapter: modify
+    :topics: CSPRepeatStrings/modify
     :from_source: T
     :question: What is the value of pos after the line with the red arrow executes?
     :breakline: 6

@@ -1,8 +1,10 @@
 .. actex:: atheno-hw03-q4
    :author: Atheno Chen
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
 
    Write a program to generate a random number with two decimal places. The number should be between 

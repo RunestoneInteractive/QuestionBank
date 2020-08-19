@@ -1,14 +1,16 @@
 .. activecode:: ac_exceptions_02
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Exceptions/ChapterAssessment
+   :chapter: Exceptions
+   :subchapter: ChapterAssessment
+   :topics: Exceptions/ChapterAssessment
    :from_source: T
    :tags:Exceptions/intro-exceptions.rst: 
-   :pct_on_first: 0.3629032258
-   :total_students_attempting: 124
-   :num_students_correct: 99.0
-   :mean_clicks_to_correct: 2.2929292929
+   :pct_on_first: 0.359375
+   :total_students_attempting: 128
+   :num_students_correct: 102.0
+   :mean_clicks_to_correct: 2.3725490196
 
    The list, ``numb``, contains integers. Write code that populates the list ``remainder`` with the remainder of 36 divided by each number in ``numb``. For example, the first element should be 0, because 36/6 has no remainder. If there is an error, have the string "Error" appear in the ``remainder``.
    ~~~~

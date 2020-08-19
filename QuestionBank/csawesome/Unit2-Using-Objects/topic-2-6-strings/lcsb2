@@ -1,11 +1,17 @@
 .. activecode:: lcsb2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-6-strings
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-6-strings
+   :topics: Unit2-Using-Objects/topic-2-6-strings
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.9965277778
+   :total_students_attempting: 288
+   :num_students_correct: 288.0
+   :mean_clicks_to_correct: 1.0034722222
 
    Now that greeting refers to an actual object we can ask the object what class created it. Try the following.  What does it print?
    ~~~~
@@ -24,7 +30,7 @@
    import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test

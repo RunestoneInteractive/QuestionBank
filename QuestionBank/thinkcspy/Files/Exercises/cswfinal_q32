@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q32
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :answer_a: prints all the files in the program's folder
    :answer_b: prints a list of all the states in alphabetical order

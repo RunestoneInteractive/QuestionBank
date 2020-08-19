@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-5-A
    :author: Rachel Reyes
-   :difficulty: 4
+   :difficulty: 4.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: I only
    :answer_b: II only
@@ -10,15 +12,19 @@
    :answer_d: I and II only
    :answer_e: I, II, III
    :correct: e
+   :pct_on_first: 0.6515837104
+   :total_students_attempting: 221
+   :num_students_correct: 211.0
+   :mean_clicks_to_correct: 1.6066350711
 
    After the following code is executed, which of I, II and/or III will evaluate to true?
-
+   
    .. code-block:: java
-
+   
     String s1 = "ab";
     String s2 = s1;
     String s3 = s2;
-
+   
     I.   s1.equals(s3)
     II.  s1 == s2
     III. s1 == s3

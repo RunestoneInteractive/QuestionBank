@@ -1,15 +1,17 @@
 .. activecode:: lhs_7_12
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.3357314149
-    :total_students_attempting: 417
-    :num_students_correct: 409.0
-    :mean_clicks_to_correct: 6.3447432763
+    :pct_on_first: 0.3333333333
+    :total_students_attempting: 420
+    :num_students_correct: 411.0
+    :mean_clicks_to_correct: 6.3381995134
 
     A fruit company sells oranges for 32 cents a pound. They charge $7.50 for shipping
     on any order.  But, if the order is above 50 pounds, they only charge $5 for shipping.

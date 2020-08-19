@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermCountEvens
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.3793103448
+   :total_students_attempting: 87
+   :num_students_correct: 81.0
+   :mean_clicks_to_correct: 4.2098765432
 
    Put the code below in order to print the total of the even numbers in the list nums.
    -----
@@ -24,7 +30,7 @@
                total += 1
    =====
        return total
-
-config values (conf.py):
-
-- parsons_div_class - custom CSS class of the component's outermost div
+   
+   fig values (conf.py):
+   
+   arsons_div_class - custom CSS class of the component's outermost div

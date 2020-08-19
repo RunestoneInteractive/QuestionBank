@@ -1,8 +1,10 @@
 .. mchoice:: MSIT-02-08
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :multiple_answers: 
    :random: 
@@ -17,9 +19,9 @@
    :answer_e: In_got
    :feedback_e: Underscore is fine in a variable name.
    :correct: a, b, e
-   :pct_on_first: 0.2083333333
-   :total_students_attempting: 24
-   :num_students_correct: 24.0
-   :mean_clicks_to_correct: 2.5
+   :pct_on_first: 0.2
+   :total_students_attempting: 25
+   :num_students_correct: 25.0
+   :mean_clicks_to_correct: 2.48
 
    Which of these are valid variable names in Python? (Choose all that are correct)

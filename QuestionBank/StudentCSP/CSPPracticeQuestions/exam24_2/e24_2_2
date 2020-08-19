@@ -1,8 +1,10 @@
 .. mchoice:: e24_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_2
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_2
+   :topics: CSPPracticeQuestions/exam24_2
    :from_source: T
    :answer_a: I only
    :answer_b: I, III only
@@ -13,10 +15,14 @@
    :feedback_b: Correct. This is correct because The Internet is not made with security built-in, rather spread of informaton and availability are key goals.
    :feedback_c: Incorrect. This is incorrect because the Internet is not made with security built-in.
    :feedback_d: Incorrect. This is incorrect because the Internet is not made with security built-in.
+   :pct_on_first: 0.5404411765
+   :total_students_attempting: 272
+   :num_students_correct: 184.0
+   :mean_clicks_to_correct: 1.2989130435
 
    Which of the following statements is true regarding the benefits of using the internet?
    ::
-
+   
     I.   The Internet allows information to be spread quickly from person to
     person.
     II.  Internet users’ private information is protected regardless of

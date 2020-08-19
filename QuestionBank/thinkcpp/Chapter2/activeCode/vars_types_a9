@@ -1,9 +1,11 @@
 .. activecode:: vars_types_a9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter2/activeCode
-   :from_source: T
+   :chapter: Chapter2
+   :subchapter: activeCode
+   :topics: Chapter2/activeCode
+   :from_source: F
    :language: cpp
 
    You have about three hours and fifteen minutes of homework to do today.  Rather

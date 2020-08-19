@@ -1,8 +1,10 @@
 .. activecode:: act_circle_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/drawing_a_circle
+    :chapter: Projects
+    :subchapter: drawing_a_circle
+    :topics: Projects/drawing_a_circle
     :from_source: T
     :nocodelens:
 

@@ -1,8 +1,10 @@
 .. mchoice:: enum_type_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/enumerated_types
+   :chapter: Chapter13
+   :subchapter: enumerated_types
+   :topics: Chapter13/enumerated_types
    :from_source: T
    :answer_a: Who ordered a triple scoop of Cookies 'n' Cream in a sugar cone?
    :answer_b: Who ordered a double scoop of Strawberry in a cake cone?

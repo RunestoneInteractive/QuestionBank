@@ -1,8 +1,10 @@
 .. activecode:: GuessingGame
   :author: Carolyn Petite
-  :difficulty: 0
+  :difficulty: 0.0
   :basecourse: csawesome
-  :topic: Unit4-Iteration/topic-4-1-while-loops
+  :chapter: Unit4-Iteration
+  :subchapter: topic-4-1-while-loops
+  :topics: Unit4-Iteration/topic-4-1-while-loops
   :from_source: F
   :language: java
   :autograde: unittest

@@ -1,8 +1,10 @@
 .. activecode:: uniqueid
    :author: Richard Moffat
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/Exercises
+   :chapter: CSPWhileAndForLoops
+   :subchapter: Exercises
+   :topics: CSPWhileAndForLoops/Exercises
    :from_source: F
    :nocanvas:  -- do not create a canvas
    :autograde: unittest

@@ -1,8 +1,10 @@
 .. activecode:: cs128_StringFind
   :author: Linda Seiter
-  :difficulty: 0
+  :difficulty: 0.0
   :basecourse: csawesome
-  :topic: Unit5-Writing-Classes/topic-5-6-writing-methods
+  :chapter: Unit5-Writing-Classes
+  :subchapter: topic-5-6-writing-methods
+  :topics: Unit5-Writing-Classes/topic-5-6-writing-methods
   :from_source: F
   :language: java
   :autograde: unittest

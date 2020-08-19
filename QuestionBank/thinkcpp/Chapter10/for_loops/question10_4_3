@@ -1,11 +1,17 @@
 .. parsonsprob:: question10_4_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter10/for_loops
+   :chapter: Chapter10
+   :subchapter: for_loops
+   :topics: Chapter10/for_loops
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 1.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 1.0
 
    Construct the ``half_life()`` function that prints the first num half lives
    of the initial amount.

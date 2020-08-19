@@ -1,8 +1,10 @@
 .. activecode:: ac400_1_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TestCases/WPProgramDevelopment
+    :chapter: TestCases
+    :subchapter: WPProgramDevelopment
+    :topics: TestCases/WPProgramDevelopment
     :from_source: T
 
     def distance(x1, y1, x2, y2):

@@ -1,11 +1,17 @@
 .. parsonsprob:: 13_4_1_string_elif
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPStringDecisions/elif
+   :chapter: CSPStringDecisions
+   :subchapter: elif
+   :topics: CSPStringDecisions/elif
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.6440177253
+   :total_students_attempting: 677
+   :num_students_correct: 654.0
+   :mean_clicks_to_correct: 2.5993883792
 
    The following program should report which team won or if there was a tie.  But the code has been mixed up.  Drag it into the right order with the right indention.
    -----

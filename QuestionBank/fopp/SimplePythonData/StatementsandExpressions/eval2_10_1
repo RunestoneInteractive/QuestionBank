@@ -1,8 +1,10 @@
 .. showeval:: eval2_10_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: SimplePythonData/StatementsandExpressions
+    :chapter: SimplePythonData
+    :subchapter: StatementsandExpressions
+    :topics: SimplePythonData/StatementsandExpressions
     :from_source: T
     :trace_mode: true
 

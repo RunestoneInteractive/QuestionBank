@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_f20_q3b
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    **Q3b [15 pts]** Extend the program in Q3a such that:

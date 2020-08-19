@@ -1,8 +1,10 @@
 .. activecode:: sell_3_box_without_corners
     :author: Stephen Sell
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
 
     #import turtle

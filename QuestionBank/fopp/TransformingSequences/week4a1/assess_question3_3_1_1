@@ -1,27 +1,25 @@
 .. fillintheblank:: assess_question3_3_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :practice: T
    :topics: TransformingSequences/ObjectsandReferences
-   :pct_on_first: 0.280350438
-   :total_students_attempting: 799
-   :num_students_correct: 614.0
-   :mean_clicks_to_correct: 3.4185667752
 
    What will be the value of ``a`` after the following code has executed?
-   
+
    .. sourcecode:: python
-   
+
     a = ["holiday", "celebrate!"]
     quiet = a
     quiet.append("company")
-   
-   
+
+
    The value of ``a`` will be
-   
+
    -  :\[["']holiday["'], ["']celebrate!["'], ["']company["']\]: Good work!
       :\[["']holiday["'], ["']celebrate!["']\]: This is the old value of a - a has changed.
       :.*: Incorrect, try again. Don't forget to include a space between list elements.

@@ -1,11 +1,17 @@
 .. parsonsprob:: count_lines-Parsons
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatNumbers/Exercises
+   :chapter: CSPRepeatNumbers
+   :subchapter: Exercises
+   :topics: CSPRepeatNumbers/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.1891891892
+   :total_students_attempting: 259
+   :num_students_correct: 259.0
+   :mean_clicks_to_correct: 5.2239382239
 
    Put the code in order to define a function that returns a 
    count of the number of lines in the passed file.  It should

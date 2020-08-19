@@ -1,8 +1,10 @@
 .. activeCode:: if_and_else
      :author: bmiller
-     :difficulty: 3
+     :difficulty: 3.0
      :basecourse: StudentCSP
-     :topic: CSPIntroDecisions/ifAndElse
+     :chapter: CSPIntroDecisions
+     :subchapter: ifAndElse
+     :topics: CSPIntroDecisions/ifAndElse
      :from_source: T
      :tour_1: "Structural Tour"; 1: c5-line1; 2-3: c5-line2-3; 4-5: c5-line4-5; 6: c5-line6; 7-9: c3f-line7-9;
 

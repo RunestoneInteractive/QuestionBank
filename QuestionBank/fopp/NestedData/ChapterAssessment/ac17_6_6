@@ -1,38 +1,36 @@
 .. activecode:: ac17_6_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ChapterAssessment
+   :chapter: NestedData
+   :subchapter: ChapterAssessment
+   :topics: NestedData/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: NestedData/NestedDictionaries
-   :pct_on_first: 0.2457142857
-   :total_students_attempting: 175
-   :num_students_correct: 131.0
-   :mean_clicks_to_correct: 3.213740458
 
    Below, we have provided a nested dictionary. Index into the dictionary to create variables that we have listed in the ActiveCode window.
-   
+
    ~~~~
-   
+
    sports = {'swimming': ['butterfly', 'breaststroke', 'backstroke', 'freestyle'], 'diving': ['springboard', 'platform', 'synchronized'], 'track': ['sprint', 'distance', 'jumps', 'throws'], 'gymnastics': {'women':['vault', 'floor', 'uneven bars', 'balance beam'], 'men': ['vault', 'parallel bars', 'floor', 'rings']}}
-   
+
    # Assign the string 'backstroke' to the name v1
-   
+
    # Assign the string 'platform' to the name v2
-   
+
    # Assign the list ['vault', 'floor', 'uneven bars', 'balance beam'] to the name v3
-   
+
    # Assign the string 'rings' to the name v4
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testA(self):
          self.assertEqual(v1, 'backstroke', "Testing that v1 was created correctly.")
          self.assertNotIn("v1 = 'backstroke'", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
@@ -48,5 +46,5 @@
          self.assertEqual(v4, 'rings', "Testing that v4 was created correctly.")
          self.assertNotIn("v4 = 'rings'", self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('v4 = "rings"', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-   
+
    myTests().main()

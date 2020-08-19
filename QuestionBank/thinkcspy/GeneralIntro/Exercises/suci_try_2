@@ -1,8 +1,10 @@
 .. actex:: suci_try_2
    :author: peter suci
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Write a program do something else.

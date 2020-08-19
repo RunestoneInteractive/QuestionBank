@@ -1,8 +1,10 @@
 .. activecode:: 1306_prac4_rev2
     :author: Shishir Shah
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :language: python
 

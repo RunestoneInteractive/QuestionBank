@@ -1,8 +1,10 @@
 .. mchoice:: cs130t2_24
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Lists/Exercises
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
    :from_source: F
    :answer_a: ["cow?", "brown", "now", "How"]
    :answer_b: ["How", "now", "brown", "cow?"]

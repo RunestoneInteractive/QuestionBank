@@ -1,0 +1,20 @@
+.. mchoice:: q2_1_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-1-objects-intro-turtles
+   :topics: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: Position
+   :answer_b: Heading
+   :answer_c: Pen Color
+   :answer_d: Visible
+   :correct: b
+   :feedback_a: Incorrect. Position (x,y coordinate) is not altered when the turtle turns.
+   :feedback_b: Correct.
+   :feedback_c: Incorrect. Pen color is not altered when the turtle turns.
+   :feedback_d: Incorrect. Visibility is not altered when the turtle turns.
+
+   Which attribute does the turnLeft method alter?

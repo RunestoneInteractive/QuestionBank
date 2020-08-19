@@ -1,8 +1,10 @@
 .. parsonsprob:: question13_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/shuffling
+   :chapter: Chapter13
+   :subchapter: shuffling
+   :topics: Chapter13/shuffling
    :from_source: F
    :numbered: left
    :adaptive:

@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: thinkcpp
-   :topic: Chapter2/Outputtingvariables
+   :topics: Chapter2/Outputtingvariables
    :from_source: T
    :feedback: Try again!
    :match_1:  x = 2|||int

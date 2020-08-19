@@ -1,8 +1,10 @@
 .. activecode:: CS152_fruitco_selection_2
     :author: John Cigas
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
 
     Modify the program above to use a fruitful function, order_cost, that will take the number of pounds of oranges as a parameter and return the cost of the order.

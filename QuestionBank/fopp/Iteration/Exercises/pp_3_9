@@ -1,13 +1,15 @@
 .. parsonsprob:: pp_3_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/Exercises
+   :chapter: Iteration
+   :subchapter: Exercises
+   :topics: Iteration/Exercises
    :from_source: T
-   :pct_on_first: 0.2771573604
-   :total_students_attempting: 985
-   :num_students_correct: 954.0
-   :mean_clicks_to_correct: 3.6855345912
+   :pct_on_first: 0.281124498
+   :total_students_attempting: 996
+   :num_students_correct: 965.0
+   :mean_clicks_to_correct: 3.7056994819
 
    Write a program that will print out a greeting to each student in the list. This list should also keep track of how many students have been greeted and note that each time a new student has been greeted.
    -----

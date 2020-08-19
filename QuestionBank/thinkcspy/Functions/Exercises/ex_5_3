@@ -1,8 +1,10 @@
 .. actex:: ex_5_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
 
    Write a non-fruitful function ``drawPoly(someturtle, somesides, somesize)`` which makes a turtle

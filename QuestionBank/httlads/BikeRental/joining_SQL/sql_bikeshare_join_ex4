@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: httlads
-    :topic: BikeRental/joining_SQL
+    :topics: BikeRental/joining_SQL
     :from_source: T
     :language: sql
     :autograde: unittest

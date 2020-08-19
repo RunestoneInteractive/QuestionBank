@@ -1,8 +1,10 @@
 .. mchoice:: question18_2_1
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TestCases/Testingfunctions
+   :chapter: TestCases
+   :subchapter: Testingfunctions
+   :topics: TestCases/Testingfunctions
    :from_source: F
    :practice: T
    :answer_a: True

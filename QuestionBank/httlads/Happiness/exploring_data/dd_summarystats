@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: httlads
-   :topic: Happiness/exploring_data
+   :topics: Happiness/exploring_data
    :from_source: T
    :feedback: Check the Reading list for the introduction to summary statistics
    :match_1: Mean|||The sum of all values, divided by the number of values

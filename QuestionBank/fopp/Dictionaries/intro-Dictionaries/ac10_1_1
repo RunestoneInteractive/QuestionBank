@@ -1,16 +1,18 @@
 .. activecode:: ac10_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/intro-Dictionaries
+   :chapter: Dictionaries
+   :subchapter: intro-Dictionaries
+   :topics: Dictionaries/intro-Dictionaries
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5663580247
-   :total_students_attempting: 1296
-   :num_students_correct: 1068.0
-   :mean_clicks_to_correct: 1.5514981273
+   :pct_on_first: 0.567381317
+   :total_students_attempting: 1306
+   :num_students_correct: 1077.0
+   :mean_clicks_to_correct: 1.5506035283
 
    **3.** Create a dictionary that keeps track of the USA's Olympic medal count. Each key of the dictionary should be the type of medal (gold, silver, or bronze) and each key's value should be the number of that type of medal the USA's won. Currently, the USA has 33 gold medals, 17 silver, and 12 bronze. Create a dictionary saved in the variable ``medals`` that reflects this information.
    ~~~~

@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit6-Arrays/selfDivisorB
+   :topics: Unit6-Arrays/selfDivisorB
    :from_source: T
    :answer_a: for
    :answer_b: for each

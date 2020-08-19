@@ -1,8 +1,10 @@
 .. activecode:: collegiateCS_01
    :author: Michael McCarrin
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
    :caption: new;
 

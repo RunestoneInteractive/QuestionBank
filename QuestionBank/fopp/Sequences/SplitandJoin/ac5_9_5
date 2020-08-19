@@ -1,16 +1,18 @@
 .. activecode:: ac5_9_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/SplitandJoin
+   :chapter: Sequences
+   :subchapter: SplitandJoin
+   :topics: Sequences/SplitandJoin
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4765957447
-   :total_students_attempting: 1880
-   :num_students_correct: 1439.0
-   :mean_clicks_to_correct: 2.2050034746
+   :pct_on_first: 0.4799789252
+   :total_students_attempting: 1898
+   :num_students_correct: 1456.0
+   :mean_clicks_to_correct: 2.1923076923
 
    Create a variable ``output`` and assign to it a list whose elements are the words in the string ``str1``.
    ~~~~

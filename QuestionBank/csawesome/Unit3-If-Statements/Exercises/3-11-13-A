@@ -1,21 +1,27 @@
 .. mchoice:: 3-11-13-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: first
    :answer_b: second
    :answer_c: first second
    :answer_d: None of the above
    :correct: b
+   :pct_on_first: 0.3457943925
+   :total_students_attempting: 107
+   :num_students_correct: 107.0
+   :mean_clicks_to_correct: 2.2710280374
 
    What would the following print?
-
+   
    .. code-block:: java
-
+   
     int x = 3; 
     int y = 2;
     if (y / x > 0.5) 
-	System.out.print(“first ”);
-	System.out.print(“second ”);
+   stem.out.print(“first ”);
+   stem.out.print(“second ”);

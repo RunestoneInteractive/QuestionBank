@@ -1,8 +1,10 @@
 .. activecode:: composition_AC_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter2/Composition
+   :chapter: Chapter2
+   :subchapter: Composition
+   :topics: Chapter2/Composition
    :from_source: T
    :language: cpp
    :caption: Variable Output

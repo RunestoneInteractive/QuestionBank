@@ -1,8 +1,10 @@
 .. activecode:: ac6_8_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/WPNamingVariablesinForLoops
+   :chapter: Iteration
+   :subchapter: WPNamingVariablesinForLoops
+   :topics: Iteration/WPNamingVariablesinForLoops
    :from_source: T
    :include: ac6_8_3
 

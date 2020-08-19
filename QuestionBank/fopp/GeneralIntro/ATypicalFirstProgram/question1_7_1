@@ -1,8 +1,10 @@
 .. mchoice:: question1_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: GeneralIntro/ATypicalFirstProgram
+   :chapter: GeneralIntro
+   :subchapter: ATypicalFirstProgram
+   :topics: GeneralIntro/ATypicalFirstProgram
    :from_source: T
    :answer_a: sends information to the printer to be printed on paper.
    :answer_b: displays a value on the screen.
@@ -13,9 +15,9 @@
    :feedback_b: Yes, the print statement is used to display the value of the thing being printed.
    :feedback_c: The format of the information is called its font and has nothing to do with the print statement.
    :feedback_d: That would be nice! But no...
-   :pct_on_first: 0.7744816587
-   :total_students_attempting: 3135
-   :num_students_correct: 3117.0
-   :mean_clicks_to_correct: 1.3564324671
+   :pct_on_first: 0.7754782063
+   :total_students_attempting: 3189
+   :num_students_correct: 3171.0
+   :mean_clicks_to_correct: 1.3547776727
 
    The print function:

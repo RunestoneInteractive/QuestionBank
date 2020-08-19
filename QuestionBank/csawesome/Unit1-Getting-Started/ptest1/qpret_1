@@ -1,8 +1,10 @@
 .. mchoice:: qpret_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit1-Getting-Started/ptest1
+    :chapter: Unit1-Getting-Started
+    :subchapter: ptest1
+    :topics: Unit1-Getting-Started/ptest1
     :from_source: T
     :answer_a: 112233445566
     :answer_b: 123456
@@ -15,11 +17,15 @@
     :feedback_c: This would be true if the loop was loop printing three characters at a time, but it prints two characters at a time.
     :feedback_d: This would be true if the index was incrementing by 1 instead of 2.
     :feedback_e: This would be true if the loop stopped when index was less than the string length instead of one less than the string length.
+    :pct_on_first: 0.2871076432
+    :total_students_attempting: 5639
+    :num_students_correct: 2091.0
+    :mean_clicks_to_correct: 1.5456719273
 
     Given the following code segment, what is printed when it is executed?
-
+    
     .. code-block:: java
-
+    
         String test = "123456";
         for (int index = 0; index < test.length() - 1; index = index + 2)
         {

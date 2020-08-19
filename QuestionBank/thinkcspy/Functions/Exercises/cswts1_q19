@@ -1,8 +1,10 @@
 .. mchoice:: cswts1_q19
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :answer_a: A polygon with n sides
    :answer_b: A circle

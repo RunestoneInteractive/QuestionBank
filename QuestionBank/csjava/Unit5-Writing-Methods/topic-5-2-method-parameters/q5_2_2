@@ -1,0 +1,21 @@
+.. mchoice:: q5_2_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit5-Writing-Methods
+   :subchapter: topic-5-2-method-parameters
+   :topics: Unit5-Writing-Methods/topic-5-2-method-parameters
+   :from_source: T
+   :practice: T
+   :answer_a: Chris:125.0
+   :answer_b: employee:weeklyPay
+   :answer_c: "Chris":125.0
+   :correct: a
+   :feedback_a: Correct.
+   :feedback_b: Incorrect. The actual values of the employee and weeklyPay variables will be printed.
+   :feedback_c: Incorrect. The CodeLens tool just shows quotes to let you know the value is a String.
+
+   The figure shows the call stack after line 8 executed.  Notice the weeklyPay local variable is stored in the
+   calculatePay method frame on the call stack.    What is printed when line 9 executes?
+
+   .. figure:: Figures/stackframecalculatepay.png

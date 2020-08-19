@@ -1,8 +1,10 @@
 .. activecode:: Invoice1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPNameNumbers/invoice
+    :chapter: CSPNameNumbers
+    :subchapter: invoice
+    :topics: CSPNameNumbers/invoice
     :from_source: T
     :tour_1: "Line by line tour"; 1: inv-line1; 2: inv-line2; 3: inv-line3; 4: inv-line4; 5: inv-line5; 6: inv-line6; 7: inv-line7; 8: inv-line8;
 

@@ -1,8 +1,10 @@
 .. mchoice:: question21_4_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/listcomp
+   :chapter: AdvancedAccumulation
+   :subchapter: listcomp
+   :topics: AdvancedAccumulation/listcomp
    :from_source: T
    :practice: T
    :answer_a: [4,2,8,6,5]
@@ -14,10 +16,10 @@
    :feedback_b: Not all the items in alist are to be included in blist. Look at the if clause.
    :feedback_c: The result needs to be a list.
    :feedback_d: Yes, 5 is the only odd number in alist. It is doubled before being placed in blist.
-   :pct_on_first: 0.7676056338
-   :total_students_attempting: 142
-   :num_students_correct: 140.0
-   :mean_clicks_to_correct: 1.4214285714
+   :pct_on_first: 0.7619047619
+   :total_students_attempting: 147
+   :num_students_correct: 145.0
+   :mean_clicks_to_correct: 1.4206896552
 
    What is printed by the following statements?
    

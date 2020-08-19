@@ -1,8 +1,10 @@
 .. actex:: atheno-hw03-q1
    :author: Atheno Chen
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
    :autograde: unittest
    :pct_on_first: 0.0

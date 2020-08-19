@@ -1,8 +1,10 @@
 .. mchoice:: assess_question2_1_1_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/week2a1
+   :chapter: Sequences
+   :subchapter: week2a1
+   :topics: Sequences/week2a1
    :from_source: T
    :answer_a: string
    :answer_b: integer
@@ -15,15 +17,11 @@
    :feedback_d: Not quite, think about what .split() and .join() return.
    :practice: T
    :topics: Sequences/SplitandJoin
-   :pct_on_first: 0.5843083276
-   :total_students_attempting: 1453
-   :num_students_correct: 1447.0
-   :mean_clicks_to_correct: 1.6275051831
 
    What is the type of ``a``?
-   
+
    .. sourcecode:: python
-   
+
     b = "My, what a lovely day"
     x = b.split(',')
     z = "".join(x)

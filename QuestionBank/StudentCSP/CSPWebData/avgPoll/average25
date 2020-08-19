@@ -1,8 +1,10 @@
 .. activecode:: average25
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/avgPoll
+   :chapter: CSPWebData
+   :subchapter: avgPoll
+   :topics: CSPWebData/avgPoll
    :from_source: T
    :tour_1: "Structural tour"; 2-4: web5-line1-3; 7-8: web5-line5-6; 11: web5-line7; 14: web5-line8; 17: web5-line9; 20: web5-line10; 21: web5-line11; 24: web5-line13;
    :nocodelens:

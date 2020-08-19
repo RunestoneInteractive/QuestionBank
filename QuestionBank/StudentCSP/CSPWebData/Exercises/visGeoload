@@ -1,11 +1,17 @@
 .. parsonsprob:: visGeoload
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/Exercises
+   :chapter: CSPWebData
+   :subchapter: Exercises
+   :topics: CSPWebData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.0
+   :total_students_attempting: 47
+   :num_students_correct: 41.0
+   :mean_clicks_to_correct: 7.5609756098
 
    Put the blocks in order to match the process in geoload.py.  There is one extra block that isn't needed in a correct solution.
    -----

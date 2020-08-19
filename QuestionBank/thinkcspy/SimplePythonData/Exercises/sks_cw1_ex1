@@ -1,8 +1,10 @@
 .. activecode:: sks_cw1_ex1
    :author: Shishir Shah
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Evaluate the following numerical expressions in your head and write the answer as a comment. Then use

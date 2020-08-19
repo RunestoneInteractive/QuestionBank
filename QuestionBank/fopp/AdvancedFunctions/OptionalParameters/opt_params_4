@@ -1,8 +1,10 @@
 .. codelens:: opt_params_4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: AdvancedFunctions/OptionalParameters
+    :chapter: AdvancedFunctions
+    :subchapter: OptionalParameters
+    :topics: AdvancedFunctions/OptionalParameters
     :from_source: T
     :python: py3
 

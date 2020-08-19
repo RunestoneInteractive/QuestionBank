@@ -1,14 +1,16 @@
 .. activecode:: ac14_2_4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: MoreAboutIteration/ThewhileStatement
+    :chapter: MoreAboutIteration
+    :subchapter: ThewhileStatement
+    :topics: MoreAboutIteration/ThewhileStatement
     :from_source: T
     :practice: T
-    :pct_on_first: 0.0687679083
-    :total_students_attempting: 349
-    :num_students_correct: 152.0
-    :mean_clicks_to_correct: 8.4934210526
+    :pct_on_first: 0.0674157303
+    :total_students_attempting: 356
+    :num_students_correct: 155.0
+    :mean_clicks_to_correct: 8.5935483871
 
     Write a function called ``stop_at_four`` that iterates through a list of numbers. Using a while loop, append each number to a new list until the number 4 appears. The function should return the new list.
     ~~~~

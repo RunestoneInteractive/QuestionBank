@@ -1,8 +1,10 @@
 .. mchoice:: cswt2_7
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :answer_a: ["Sally s", "lls s", "ash", "lls"]
    :answer_b: ["Sally se", "lls se", "ashe", "lls"]

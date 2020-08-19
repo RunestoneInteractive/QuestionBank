@@ -1,15 +1,17 @@
 .. actex:: TL_365_function_plus_minus_delta
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.4166666667
-   :total_students_attempting: 24
-   :num_students_correct: 21.0
-   :mean_clicks_to_correct: 4.8095238095
+   :pct_on_first: 0.44
+   :total_students_attempting: 25
+   :num_students_correct: 22.0
+   :mean_clicks_to_correct: 4.6363636364
 
    Functions are also objects.  This means that we can pass function
    object as a parameter to another function. For example, we will

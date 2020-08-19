@@ -1,8 +1,10 @@
 .. actex:: ac10_8_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/Exercises
+   :chapter: Dictionaries
+   :subchapter: Exercises
+   :topics: Dictionaries/Exercises
    :from_source: T
    :tie: pirateTranslator
 

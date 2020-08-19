@@ -1,10 +1,16 @@
 .. parsonsprob:: loop_avg_drop_lowest
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/Exercises
+   :chapter: CSPWhileAndForLoops
+   :subchapter: Exercises
+   :topics: CSPWhileAndForLoops/Exercises
    :from_source: F
    :numbered: left
+   :pct_on_first: 0.3333333333
+   :total_students_attempting: 162
+   :num_students_correct: 160.0
+   :mean_clicks_to_correct: 3.34375
 
    Order the code to return the average of a list of numbers, but drop the lowest value.  However, if the list 
    only has one value then return that.  For example, get_avg_drop_lowest([90]) returns 90 and 

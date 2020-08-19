@@ -1,8 +1,10 @@
 .. activecode:: chp8_in3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Strings/Theinandnotinoperators
+    :chapter: Strings
+    :subchapter: Theinandnotinoperators
+    :topics: Strings/Theinandnotinoperators
     :from_source: T
 
     print('x' not in 'apple')

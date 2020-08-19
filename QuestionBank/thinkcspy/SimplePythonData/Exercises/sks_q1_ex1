@@ -1,8 +1,10 @@
 .. mchoice:: sks_q1_ex1
    :author: Shishir Shah
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :answer_a: 1813.0
    :answer_b: "1813.0"

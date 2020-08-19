@@ -1,28 +1,26 @@
 .. fillintheblank:: assess_question1_3_1_1_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/week1a3
+   :chapter: PythonTurtle
+   :subchapter: week1a3
+   :topics: PythonTurtle/week1a3
    :from_source: T
    :practice: T
    :topics: PythonTurtle/ObjectInstances
-   :pct_on_first: 0.2162346521
-   :total_students_attempting: 1466
-   :num_students_correct: 1220.0
-   :mean_clicks_to_correct: 5.8524590164
 
    What is the name of jane's attribute (not method) that is referred to in the following code?
-   
+
    .. sourcecode:: python
-   
+
     import turtle
-   
+
     jane = turtle.Turtle()
     jane.forward(20)
     print(jane.x)
-   
+
    The attribute is
-   
+
    -  :x: Good work!
       :jane: jane is an instance, not an attribute.
       :forward: forward is a method.

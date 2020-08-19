@@ -1,8 +1,10 @@
 .. mchoice:: mt1_20
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/Exercises
+   :chapter: TimedTests
+   :subchapter: Exercises
+   :topics: TimedTests/Exercises
    :from_source: T
    :answer_a: A
    :answer_b: B
@@ -15,11 +17,15 @@
    :feedback_c: The first test is false since num2 is less than 0 and for a complex conditional joined with And (&&) to be true both expressions must be true.  Next, else if ((num2<0) || (num1<0)) is executed and this will be true since num2 is less than 0 and for a complex conditional joined with Or (||) only one of the expressions must be true for it to execute.
    :feedback_d: This will not happen since if num2 is less than 0 the previous conditional would be true ((num2<0) || (num1<0))).
    :feedback_e: This will not happen since if num2 is less than 0 the previous conditional would be true ((num2<0) || (num1<0))).
+   :pct_on_first: 0.4444444444
+   :total_students_attempting: 18
+   :num_students_correct: 11.0
+   :mean_clicks_to_correct: 1.7272727273
 
    Consider the following method.  What is the output from ``conditionTest(3,-2);``?
-
+   
    .. code-block:: java
-
+   
       public static void conditionTest(int num1, int num2)
       {
          if ((num1 > 0) && (num2 > 0)) {

@@ -1,8 +1,10 @@
 .. codelens:: ch12_dict5
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Dictionaries/Dictionaryoperations
+    :chapter: Dictionaries
+    :subchapter: Dictionaryoperations
+    :topics: Dictionaries/Dictionaryoperations
     :from_source: T
 
     inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}

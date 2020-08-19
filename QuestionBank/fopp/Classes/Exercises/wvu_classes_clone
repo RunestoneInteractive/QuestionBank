@@ -1,8 +1,10 @@
 .. activecode:: wvu_classes_clone
     :author: Brian Powell
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: Classes/Exercises
+    :chapter: Classes
+    :subchapter: Exercises
+    :topics: Classes/Exercises
     :from_source: F
 
     Add a **clone()** function to the **Vehicle** class to return a new **Vehicle** instance that duplicates the contents of the existing vehicle.

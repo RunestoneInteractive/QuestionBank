@@ -1,8 +1,10 @@
 .. activecode:: lp_image_functions
     :author: Laura Plunkett
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 Take each of the image processing filters, and turn them into functions. 
 

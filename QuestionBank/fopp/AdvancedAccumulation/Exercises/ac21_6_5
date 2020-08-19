@@ -1,13 +1,15 @@
 .. actex:: ac21_6_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.5
-   :total_students_attempting: 44
-   :num_students_correct: 37.0
-   :mean_clicks_to_correct: 1.7567567568
+   :pct_on_first: 0.4782608696
+   :total_students_attempting: 46
+   :num_students_correct: 38.0
+   :mean_clicks_to_correct: 1.7631578947
 
    Write a function called positives_Acc that receives list of numbers as the input (like [3, -1, 5, 7]) and returns a list of only the positive numbers, [3, 5, 7], via manual accumulation.
    ~~~~

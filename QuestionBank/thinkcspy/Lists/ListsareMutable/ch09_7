@@ -1,8 +1,10 @@
 .. activecode:: ch09_7
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Lists/ListsareMutable
+    :chapter: Lists
+    :subchapter: ListsareMutable
+    :topics: Lists/ListsareMutable
     :from_source: T
 
     fruit = ["banana", "apple", "cherry"]

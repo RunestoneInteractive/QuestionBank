@@ -1,0 +1,30 @@
+.. parsonsprob:: cs121_01_01
+   :author: Elizabeth Jensen
+   :difficulty: 0.0
+   :basecourse: thinkcspy
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
+   :from_source: F
+
+   What is the order of operations for the following expression?  But the blocks have been mixed up and include <b>two extra blocks</b> that are not needed in the correct solution.  Drag the needed blocks from the left and put them in the correct order on the right. <b>2 + (3 - 1) * 10 / 5 * (2 + 3)</b>
+   -----
+   2 + 2 * 10 / 5 * (2 + 3)
+   =====
+   2 + (3 - 1) * 10 / 5 * 5 #distractor
+   =====
+   2 + 20 / 5 * (2 + 3)
+   =====
+   2 + 4.0 * (2 + 3)
+   =====
+   2 + 4 * (2 + 3) #distractor
+   =====
+   2 + 4.0 * 5
+   =====
+   2 + 20.0
+   =====
+   22.0
+
+config values (conf.py):
+
+- parsons_div_class - custom CSS class of the component's outermost div

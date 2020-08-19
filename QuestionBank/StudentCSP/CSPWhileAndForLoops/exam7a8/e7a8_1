@@ -1,8 +1,10 @@
 .. mchoice:: e7a8_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/exam7a8
+   :chapter: CSPWhileAndForLoops
+   :subchapter: exam7a8
+   :topics: CSPWhileAndForLoops/exam7a8
    :from_source: T
    :practice: T
    :answer_a: Number: 10
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if it was print ("Number: ", "number").  But since there are no quotes around number it will print the value of number.
    :feedback_c: While number is set to 0 to start it increments each time inside the loop.
    :feedback_d: This would be true if the print statement was after number was incremented by 1, but it is before.
+   :pct_on_first: 0.7521645022
+   :total_students_attempting: 924
+   :num_students_correct: 739.0
+   :mean_clicks_to_correct: 1.0784844384
 
    What is the last thing printed when the following code is run?
-
+   
    ::
-
+   
       number = 0
       while number <= 10:
           print ("Number: ", number)

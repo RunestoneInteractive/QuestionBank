@@ -1,8 +1,10 @@
 .. activecode:: aveInt1R
    :author: Gheorghe Ceara
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :language: java
    :stdin: : 5, 9, 8

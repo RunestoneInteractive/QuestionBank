@@ -1,11 +1,13 @@
 .. mchoice:: AP2-2-3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/practice-test-objects
+   :chapter: Unit2-Using-Objects
+   :subchapter: practice-test-objects
+   :topics: Unit2-Using-Objects/practice-test-objects
    :from_source: T
    :practice: T
-   :random:
+   :random: 
    :answer_a: I only
    :answer_b: I and II
    :answer_c: II only
@@ -17,22 +19,26 @@
    :feedback_c: Correct!
    :feedback_d: III calls the Party constructor with a double parameter instead of an int.
    :feedback_e: I needs to initialize the object and III needs to use an int instead of a double as the parameter for the constructor.
+   :pct_on_first: 0.2657824934
+   :total_students_attempting: 1885
+   :num_students_correct: 784.0
+   :mean_clicks_to_correct: 1.6989795918
 
     Which of the following code segments correctly creates an instance of a new Party object?
-
+   
     .. code-block:: java
-
+   
         public class Party
         {
             private int numInvited;
             private boolean partyCancelled;
-
+   
             public Party()
             {
                 numInvited = 1;
                 partyCancelled = false;
             }
-
+   
             public Party(int invites)
             {
                 numInvited = invites;

@@ -1,8 +1,10 @@
 .. mchoice:: pe2_1-14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit11-posttest/posttest
+   :chapter: Unit11-posttest
+   :subchapter: posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: The value you are searching for is the first element in the array.
    :answer_b: The value you are searching for is the last element in the array
@@ -15,5 +17,9 @@
    :feedback_c: Results will differ depending on the exact location of the element, but Binary Search will still find the element faster while Sequential will have to check more elements.
    :feedback_d: If the search value is not in the array, a sequential search will have to check every item in the array before failing, a binary search will be faster.
    :feedback_e: When the search value is the first element, Sequential will always be faster, as it will only need to check one element.
+   :pct_on_first: 0.7384259259
+   :total_students_attempting: 432
+   :num_students_correct: 354.0
+   :mean_clicks_to_correct: 1.1412429379
 
    Under which of these conditions will a sequential search be faster than a binary search?

@@ -1,8 +1,10 @@
 .. parsonsprob:: tables_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter6/tables
+   :chapter: Chapter6
+   :subchapter: tables
+   :topics: Chapter6/tables
    :from_source: T
    :numbered: left
    :adaptive:

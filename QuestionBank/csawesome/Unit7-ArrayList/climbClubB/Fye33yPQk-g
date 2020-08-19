@@ -1,8 +1,10 @@
 .. youtube:: Fye33yPQk-g
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit7-ArrayList/climbClubB
+    :chapter: Unit7-ArrayList
+    :subchapter: climbClubB
+    :topics: Unit7-ArrayList/climbClubB
     :from_source: T
     :width: 800
     :align: center

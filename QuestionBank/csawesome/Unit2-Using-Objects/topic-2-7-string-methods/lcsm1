@@ -1,11 +1,17 @@
 .. activecode:: lcsm1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-7-string-methods
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-7-string-methods
+   :topics: Unit2-Using-Objects/topic-2-7-string-methods
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 1.0
+   :total_students_attempting: 288
+   :num_students_correct: 288.0
+   :mean_clicks_to_correct: 1.0
 
    This code shows the output from String methods length, substring, and indexOf. How many letters does substring(0,3) return? What does indexOf return when its argument is not found?
    ~~~~
@@ -15,18 +21,18 @@
       {
         String message1 = "This is a test";
         String message2 = "Hello Class";
-
+   
         System.out.println(message1.length());
         System.out.println(message2.length());
-
+   
         System.out.println(message1.substring(0,3));
         System.out.println(message2.substring(4,5));
         System.out.println(message1.substring(5));
-
+   
         System.out.println(message1.indexOf("is")); // This will match the is in "This"!
         System.out.println(message1.indexOf("Hello"));
         System.out.println(message2.indexOf("Hello"));
-
+   
         // lowercase and uppercase are not on the AP exam, but still useful
         System.out.println(message2.toLowerCase());
         System.out.println(message2.toUpperCase());
@@ -36,7 +42,7 @@
    import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test

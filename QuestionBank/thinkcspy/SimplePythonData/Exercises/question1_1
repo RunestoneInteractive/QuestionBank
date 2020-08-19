@@ -1,8 +1,10 @@
 .. mchoice:: question1_1
     :author: Yavor Atov
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :correct: a
     :answer_a: int

@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-9-A
    :author: Rachel Reyes
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: I and IV
    :answer_b: II, III, and IV
@@ -10,15 +12,19 @@
    :answer_d: I, II, IV, and V
    :answer_e: All of them are correct.
    :correct: c
+   :pct_on_first: 0.461928934
+   :total_students_attempting: 197
+   :num_students_correct: 182.0
+   :mean_clicks_to_correct: 2.1648351648
 
    Given the following code segment, which of the following is true?
-
+   
    .. code-block:: java
-
+   
     String s1 = new String(“Hello world!");
     String s2 = s1; 
     String s3 = new String(“Hello world!");
-
+   
     I.   s1.equals(s2)
     II.  s1 == s2
     III. s2 == s3

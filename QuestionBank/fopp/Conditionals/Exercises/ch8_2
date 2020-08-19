@@ -1,8 +1,10 @@
 .. activecode:: ch8_2
     :author: Irma Ravkic
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
   
     Given a list of desserts ['ice cream', 'chocolate', 'apple crisp', 'cookies'] and your favorite dessert 'apple crisp' below, write a program using conditional statements that will for each dessert in list desserts capitalize its first letter and say if it is your favorite dessert or not. Hint: you need to use capitalize() method, for loops and use == to check whether a dessert equals your favorite dessert. Your code should print the following sentences:

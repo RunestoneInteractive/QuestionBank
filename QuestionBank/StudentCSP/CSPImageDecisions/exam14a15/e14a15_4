@@ -1,8 +1,10 @@
 .. mchoice:: e14a15_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPImageDecisions/exam14a15
+   :chapter: CSPImageDecisions
+   :subchapter: exam14a15
+   :topics: CSPImageDecisions/exam14a15
    :from_source: T
    :practice: T
    :answer_a: Vertical stripes that alternate between red and black and start with red.
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if the color was set to black when index is even and red when index is odd.
    :feedback_c: This would be true if sue didn't turn left 90 degrees at the start.
    :feedback_d: This would be true if sue didn't turn left 90 degrees at the start and if the color was set to black when the index is even and red when it is odd.
+   :pct_on_first: 0.6168717047
+   :total_students_attempting: 569
+   :num_students_correct: 397.0
+   :mean_clicks_to_correct: 1.120906801
 
    What does the following code draw?
-
+   
    ::
-
+   
       from turtle import *
       space = Screen()
       height = space.window_height()
@@ -26,7 +32,7 @@
       sue = Turtle()
       sue.pensize(10)
       sue.left(90)
-
+   
       for index in range(5):
       sue.penup()
       if index % 2 == 0:

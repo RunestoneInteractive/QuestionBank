@@ -1,11 +1,17 @@
 .. parsonsprob:: xml_1
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPTurtleDecisions/Exercises
+   :chapter: CSPTurtleDecisions
+   :subchapter: Exercises
+   :topics: CSPTurtleDecisions/Exercises
    :from_source: F
    :adaptive: 
    :numbered: left
+   :pct_on_first: 0.3684210526
+   :total_students_attempting: 133
+   :num_students_correct: 133.0
+   :mean_clicks_to_correct: 3.8496240602
 
    Put the blocks into order to define a XML note. The note should contain a to, from, time, subject, and body in that order.
    -----

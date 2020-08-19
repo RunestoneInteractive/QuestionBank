@@ -1,8 +1,10 @@
 .. activecode:: madlib1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPStringPieces/madLibPieces
+   :chapter: CSPStringPieces
+   :subchapter: madLibPieces
+   :topics: CSPStringPieces/madLibPieces
    :from_source: T
    :tour_1: "Line by line tour"; 2: StEx-line1; 3: StEx-line2; 4: StEx-line3; 5: StEx-line4; 6: StEx-line5; 9: StEx-line6; 10: StEx-line7; 11: StEx-line8; 12: StEx-line9; 13: StEx-line10; 16: StEx-line11; 17: StEx-line12; 18: StEx-line13; 19: StEx-line14; 20: StEx-line15;
    :tour_2: "Structural tour"; 2-6: StEx-line1-5; 9-13: StEx-line6-10; 16-20: StEx-line11-15;

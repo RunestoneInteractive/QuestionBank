@@ -1,0 +1,18 @@
+.. mchoice:: q1_4_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: T
+   :practice: T
+   :answer_a: 15
+   :answer_b: 16
+   :answer_c: 8
+   :correct: c
+   :feedback_a: This would be the result of 158 divided by 10.  modulo gives you the remainder.
+   :feedback_b: modulo gives you the remainder after the division.
+   :feedback_c: When you divide 158 by 10 you get a remainder of 8.
+
+   What is the result of 158 % 10?

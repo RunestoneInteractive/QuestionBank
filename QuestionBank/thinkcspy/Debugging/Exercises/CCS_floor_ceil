@@ -1,8 +1,10 @@
 .. activecode:: CCS_floor_ceil
    :author: Michael McCarrin
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
 
    **The "floor" operation takes any decimal input and returns the largest integer that is smaller than the input.**

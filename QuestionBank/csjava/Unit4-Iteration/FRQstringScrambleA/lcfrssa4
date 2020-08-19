@@ -1,8 +1,10 @@
 .. activecode:: lcfrssa4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit4-Iteration/FRQstringScrambleA
+   :chapter: Unit4-Iteration
+   :subchapter: FRQstringScrambleA
+   :topics: Unit4-Iteration/FRQstringScrambleA
    :from_source: T
    :language: java
    :autograde: unittest

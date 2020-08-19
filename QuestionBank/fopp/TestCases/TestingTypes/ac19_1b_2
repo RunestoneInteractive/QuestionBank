@@ -1,8 +1,10 @@
 .. activecode:: ac19_1b_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TestCases/TestingTypes
+    :chapter: TestCases
+    :subchapter: TestingTypes
+    :topics: TestCases/TestingTypes
     :from_source: T
 
     lst = ['a', 'b', 'c']

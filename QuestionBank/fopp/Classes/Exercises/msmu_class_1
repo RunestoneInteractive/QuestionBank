@@ -1,12 +1,14 @@
 .. activecode:: msmu_class_1
     :author: Irma Ravkic
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Classes/Exercises
+    :chapter: Classes
+    :subchapter: Exercises
+    :topics: Classes/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 0.0
-    :total_students_attempting: 14
+    :total_students_attempting: 16
     :num_students_correct: 5.0
     :mean_clicks_to_correct: 23.2
 

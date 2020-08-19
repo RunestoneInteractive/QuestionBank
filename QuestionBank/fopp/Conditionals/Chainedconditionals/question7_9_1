@@ -1,8 +1,10 @@
 .. mchoice:: question7_9_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Chainedconditionals
+   :chapter: Conditionals
+   :subchapter: Chainedconditionals
+   :topics: Conditionals/Chainedconditionals
    :from_source: T
    :answer_a: I only
    :answer_b: II only
@@ -16,10 +18,10 @@
    :feedback_d: No, Although II is correct III will not give the same result.  Try it.
    :feedback_e: No, in I you can not have a Boolean expression after an else.
    :practice: T
-   :pct_on_first: 0.4572142411
-   :total_students_attempting: 1601
-   :num_students_correct: 1584.0
-   :mean_clicks_to_correct: 2.029040404
+   :pct_on_first: 0.4595429277
+   :total_students_attempting: 1619
+   :num_students_correct: 1602.0
+   :mean_clicks_to_correct: 2.0218476904
 
    Which of I, II, and III below gives the same result as the following nested if?
    

@@ -1,8 +1,10 @@
 .. actex:: suci_math_2_3
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Run the program and modify it so computes the formula: A x ((B/C) + (C/A)) 

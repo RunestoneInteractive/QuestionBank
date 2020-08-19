@@ -1,13 +1,15 @@
 .. actex:: ex_2_9
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: T
-    :pct_on_first: 0.5784753363
-    :total_students_attempting: 446
-    :num_students_correct: 393.0
-    :mean_clicks_to_correct: 2.2875318066
+    :pct_on_first: 0.5774336283
+    :total_students_attempting: 452
+    :num_students_correct: 399.0
+    :mean_clicks_to_correct: 2.2781954887
 
     Challenge: The formula for computing the final amount if one is earning
     compound interest is given on Wikipedia as

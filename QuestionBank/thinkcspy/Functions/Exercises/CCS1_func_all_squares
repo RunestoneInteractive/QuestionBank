@@ -1,8 +1,10 @@
 .. activecode:: CCS1_func_all_squares
     :author: Michael McCarrin
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
    
     Use the same area_of_square function as before, but now create another function called all_squares_between that takes two integers, **start** and **end** and prints out the squares of all numbers between start and end, each on a separate line. The second function should use a **for ... in** statement and it should also call **your** area_of_square function to calculate the squares.

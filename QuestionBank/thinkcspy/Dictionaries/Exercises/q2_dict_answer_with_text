@@ -1,8 +1,10 @@
 .. activecode:: q2_dict_answer_with_text
     :author: Karl Sickendick
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: F
 
     Give the Python interpreter’s response to each of the following from a continuous interpreter session:

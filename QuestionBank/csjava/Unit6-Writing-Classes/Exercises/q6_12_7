@@ -1,0 +1,40 @@
+.. mchoice:: q6_12_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit6-Writing-Classes
+   :subchapter: Exercises
+   :topics: Unit6-Writing-Classes/Exercises
+   :from_source: T
+   :practice: T
+   :random:
+   :answer_a: The getAge method should be declared as private.
+   :answer_b: The return type of the getAge method should be void.
+   :answer_c: The getAge method should have at least one parameter.
+   :answer_d: The variable age is not declared inside the getAge method.
+   :answer_e: The instance variable age should be returned instead of a, which is local to the constructor.
+   :correct: e
+   :feedback_a: The method should be public so it can be accessed outside of the class.
+   :feedback_b: The method return type should stay as int.
+   :feedback_c: The getAge should not take any parameters.
+   :feedback_d: This is an instance variable and should be declared outside.
+   :feedback_e: The accessor method getAge should return the instance variable age.
+
+    Consider the following Cat class, with the cat’s age stored in the method’s int attribute. The getAge method is intended to allow methods in other classes to access a Cat object’s age value; however, it does not work as intended. Which of the following best explains why the getAge method does NOT work as intended?
+
+    .. code-block:: java
+
+        public class Cat
+        {
+            private int age;
+
+            public Cat(int a)
+            {
+                age = a;
+            }
+
+            public int getAge()
+            {
+                return a;
+            }
+        }

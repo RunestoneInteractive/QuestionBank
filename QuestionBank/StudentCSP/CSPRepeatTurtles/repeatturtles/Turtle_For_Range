@@ -1,8 +1,10 @@
 .. activecode:: Turtle_For_Range
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPRepeatTurtles/repeatturtles
+  :chapter: CSPRepeatTurtles
+  :subchapter: repeatturtles
+  :topics: CSPRepeatTurtles/repeatturtles
   :from_source: T
   :tour_1: "Line-by-line tour"; 1: tR2-line1; 2: tR2-line2; 3: tR2-line3; 4: tR2-line4; 7: tR2-line7; 8: tR2-line8; 9: tR2-line9;
   :nocodelens:

@@ -1,16 +1,18 @@
 .. activecode:: ac15_5_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/ChapterAssessment
+   :chapter: AdvancedFunctions
+   :subchapter: ChapterAssessment
+   :topics: AdvancedFunctions/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.0971428571
-   :total_students_attempting: 175
-   :num_students_correct: 113.0
-   :mean_clicks_to_correct: 4.4778761062
+   :pct_on_first: 0.095505618
+   :total_students_attempting: 178
+   :num_students_correct: 116.0
+   :mean_clicks_to_correct: 4.4396551724
 
    We have provided the function ``checkingIfIn`` such that if the first input parameter is in the third, dictionary, input parameter, then the function returns that value, and otherwise, it returns ``False``. Follow the instructions in the active code window for specific variable assignmemts.
    ~~~~

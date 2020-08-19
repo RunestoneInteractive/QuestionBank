@@ -1,11 +1,16 @@
 .. activecode:: lc-magpie3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/magpie3
+   :chapter: Unit3-If-Statements
+   :subchapter: magpie3
+   :topics: Unit3-If-Statements/magpie3
    :from_source: T
    :language: java
+   :autograde: unittest
 
+   Modify the code below to print the values of ``psn``, ``before``, and ``after`` right after the comment on line 100 in the ``findKeyword`` method below. Record each of the values in a table. The College Board student guide for the |Magpie Chatbot Lab| has a table on page 8 that can be printed. Use the CodeLens button to step through the code.
+   ~~~~
    /**
     * A program to carry on conversations with a human user.
     * This version:
@@ -188,3 +193,20 @@
           }
 
    }
+   ====
+       // should pass if/when they run code
+    import static org.junit.Assert.*;
+    import org.junit.*;
+    import java.io.*;
+
+    public class RunestoneTests extends CodeTestHelper
+    {
+        @Test
+        public void testMain() throws IOException
+        {
+            String output = getMethodOutput("main");
+            String expect = "6...";
+            boolean passed = getResults(expect, output, "Expected output from main", true);
+            assertTrue(passed);
+        }
+    }

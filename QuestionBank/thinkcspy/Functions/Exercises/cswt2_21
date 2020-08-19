@@ -1,8 +1,10 @@
 .. parsonsprob:: cswt2_21
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :pct_on_first: 0.3962264151
    :total_students_attempting: 53

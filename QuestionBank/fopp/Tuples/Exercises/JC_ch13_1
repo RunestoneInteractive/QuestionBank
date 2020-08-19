@@ -1,8 +1,10 @@
 .. activecode:: JC_ch13_1
    :author: Joaquin Carbonara
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

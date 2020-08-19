@@ -1,8 +1,10 @@
 .. activecode:: patterns
    :author: Diana Linville
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
    :autograde: unittest
    :caption: #Write a for loop to print 10 numbers

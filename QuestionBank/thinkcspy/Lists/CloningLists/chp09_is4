@@ -1,8 +1,10 @@
 .. codelens:: chp09_is4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Lists/CloningLists
+    :chapter: Lists
+    :subchapter: CloningLists
+    :topics: Lists/CloningLists
     :from_source: T
     :showoutput:
 

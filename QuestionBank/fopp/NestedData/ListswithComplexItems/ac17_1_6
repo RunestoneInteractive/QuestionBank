@@ -1,16 +1,18 @@
 .. activecode:: ac17_1_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ListswithComplexItems
+   :chapter: NestedData
+   :subchapter: ListswithComplexItems
+   :topics: NestedData/ListswithComplexItems
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2598684211
-   :total_students_attempting: 304
-   :num_students_correct: 249.0
-   :mean_clicks_to_correct: 2.9759036145
+   :pct_on_first: 0.2580645161
+   :total_students_attempting: 310
+   :num_students_correct: 253.0
+   :mean_clicks_to_correct: 2.976284585
 
    **2.** Using indexing, retrieve the string 'willow' from the list and assign that to the variable ``plant``.
    

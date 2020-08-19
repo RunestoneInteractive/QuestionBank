@@ -1,13 +1,19 @@
 .. clickablearea:: delim_find_parts_ca
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit7-ArrayList/2019delimitersQ3a
+    :chapter: Unit7-ArrayList
+    :subchapter: 2019delimitersQ3a
+    :topics: Unit7-ArrayList/2019delimitersQ3a
     :from_source: T
     :question: Click on the part of the sentences below with the type of thing passed to the method <code>getDelimitersList</code> and the type it returns.
-    :iscode:
+    :iscode: 
     :feedback: Variable declarations start with a type and then a name.
-    :optional:
+    :optional: 
+    :pct_on_first: 0.251396648
+    :total_students_attempting: 179
+    :num_students_correct: 152.0
+    :mean_clicks_to_correct: 4.8552631579
 
     :click-incorrect:A string:endclick::click-incorrect: containing text and possibly delimiters has been split into *tokens* and stored inTest2:endclick:
     :click-correct:String[] tokens:endclick:. :click-incorrect:Each token is either an open delimiter, a close delimiter, or a substring that is not a

@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: The redundancy of the Internet increasing costs
    :answer_b: The cost the ISP will charge to access the cloud
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. An internet service provider will not charge more to access a data cloud.
    :feedback_c: Correct. One of the main concerns with implementing new data systems for large companies is security.
    :feedback_d: Incorrect. This is not a main concern and would be up to the discretion of the IT director.
+   :pct_on_first: 0.4
+   :total_students_attempting: 60
+   :num_students_correct: 59.0
+   :mean_clicks_to_correct: 2.0508474576
 
    New data is available to add to a company’s existing data. The IT director wants to store the new data on the cloud. What is a concern that needs to be addressed before implementing the plan?

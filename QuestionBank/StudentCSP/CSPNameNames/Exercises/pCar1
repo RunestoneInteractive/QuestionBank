@@ -1,13 +1,19 @@
 .. parsonsprob:: pCar1
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.6480836237
+   :total_students_attempting: 287
+   :num_students_correct: 281.0
+   :mean_clicks_to_correct: 1.8896797153
 
-   Put the code below in order to define a Car class.  A car has a make and model.  Define a constructor (__init__), a method to return the attributes as a string (__str__), and a method speed that takes an integer, theSpeed, and returns "speed: " followed by the value of theSpeed.
+   Put the code below in order to define a Car class.  A car has a make and model.  Define a constructor (__init__), a method to return the attributes as a string (__str__), and a method, forward, that takes an integer, theSpeed, and returns "speed: " followed by the value of theSpeed.
    -----
    class Car:
    =====
@@ -29,6 +35,6 @@
    =====
        def forward(theSpeed, self): #paired
    =====
-           return("speed: " + str(theSpeed))
+           return("forward: " + str(theSpeed))
    =====
-           return("speed: " + theSpeed) #paired
+           return("forward: " + theSpeed) #paired

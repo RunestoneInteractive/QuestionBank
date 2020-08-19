@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit8-2DArray/topic-8-1-2D-arrays-Day1
+   :topics: Unit8-2DArray/topic-8-1-2D-arrays-Day1
    :from_source: T
    :question: Click on all the values in the column at index 1
    :feedback: Rows are horizontal and columns are vertical and both start with index 0.

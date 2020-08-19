@@ -1,8 +1,10 @@
 .. activecode:: more_3
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: MoreAboutIteration/Exercises
+    :chapter: MoreAboutIteration
+    :subchapter: Exercises
+    :topics: MoreAboutIteration/Exercises
     :from_source: F
   
     Write a while loop that iterates 10 times. Each iteration should cause a turtle 

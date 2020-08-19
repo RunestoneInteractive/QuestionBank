@@ -1,8 +1,10 @@
 .. actex:: atheno-hw07-q1-calculate-pi
    :author: Atheno Chen
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
    :language: python
  

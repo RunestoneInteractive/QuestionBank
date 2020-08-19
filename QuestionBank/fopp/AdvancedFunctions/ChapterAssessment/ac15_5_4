@@ -1,16 +1,18 @@
 .. activecode:: ac15_5_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/ChapterAssessment
+   :chapter: AdvancedFunctions
+   :subchapter: ChapterAssessment
+   :topics: AdvancedFunctions/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3076923077
-   :total_students_attempting: 195
-   :num_students_correct: 147.0
-   :mean_clicks_to_correct: 3.7755102041
+   :pct_on_first: 0.303030303
+   :total_students_attempting: 198
+   :num_students_correct: 150.0
+   :mean_clicks_to_correct: 3.7466666667
 
    Write a function, ``test``, that takes in three parameters: a required integer, an optional boolean whose default value is ``True``, and an optional dictionary, called ``dict1``, whose default value is ``{2:3, 4:5, 6:8}``. If the boolean parameter is True, the function should test to see if the integer is a key in the dictionary. The value of that key should then be returned. If the boolean parameter is False, return the boolean value "False".
    ~~~~

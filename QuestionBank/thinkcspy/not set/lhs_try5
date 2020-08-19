@@ -1,8 +1,10 @@
 .. parsonsprob:: lhs_try5
    :author: LHS CS Team
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: not set
+   :chapter: GeneralIntro
+   :subchapter: 
+   :topics: not set
    :from_source: F
 
    Construct a block of code that correctly implements the accumulator pattern.

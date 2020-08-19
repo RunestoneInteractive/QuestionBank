@@ -1,8 +1,10 @@
 .. actex:: S1_P5
    :author: Neil Kakhandiki
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Define a function that takes an input (use input function) of 0 - 6, which symbolizes the days of the week; Sunday(0), Saturday(6). Ask what day are you leaving and the length of the stay.

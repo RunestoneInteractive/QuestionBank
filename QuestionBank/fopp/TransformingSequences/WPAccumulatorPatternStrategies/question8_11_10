@@ -1,8 +1,10 @@
 .. mchoice:: question8_11_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/WPAccumulatorPatternStrategies
+   :chapter: TransformingSequences
+   :subchapter: WPAccumulatorPatternStrategies
+   :topics: TransformingSequences/WPAccumulatorPatternStrategies
    :from_source: T
    :answer_a: seat_counts
    :answer_b: total_seat_counts
@@ -12,9 +14,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.7687555163
-   :total_students_attempting: 1133
-   :num_students_correct: 1122.0
-   :mean_clicks_to_correct: 1.320855615
+   :pct_on_first: 0.7696335079
+   :total_students_attempting: 1146
+   :num_students_correct: 1134.0
+   :mean_clicks_to_correct: 1.3183421517
 
     What sequence will you iterate through as you accumulate a result in the following prompt? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

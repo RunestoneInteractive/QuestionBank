@@ -1,13 +1,15 @@
 .. mchoice:: mc_ethics_anon_cheaters
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: httlads
-   :topic: DataEthics/finding_cheaters
+   :chapter: DataEthics
+   :subchapter: finding_cheaters
+   :topics: DataEthics/finding_cheaters
    :from_source: T
    :random: 
    :pct_on_first: 0.3101265823
    :total_students_attempting: 158
-   :num_students_correct: 149
+   :num_students_correct: 149.0
    :mean_clicks_to_correct: 2.9127516779
 
    Check the ids of all of the cheaters here.

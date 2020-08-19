@@ -1,0 +1,39 @@
+.. parsonsprob:: q2_3_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-3-methods-no-params
+   :topics: Unit2-Using-Objects/topic-2-3-methods-no-params
+   :from_source: T
+   :practice: T
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The following code uses a turtle to draw the digital number 7, but the lines are mixed up.
+   Drag the code blocks to the right and put them in the correct order to first
+   draw the line going up (towards the top of the page) and then turn and draw a
+   line to the left to make a 7. Remember that the turtle is facing the top of the
+   page when it is first created.
+   -----
+   public class Draw7
+   {
+   =====
+       public static void main(String[] args)
+       {
+   =====
+           World world = new World(300,300);
+   =====
+           Turtle yertle = new Turtle(world);
+   =====
+           yertle.forward();
+   =====
+           yertle.turnLeft();
+           yertle.forward();
+   =====
+           world.show(true);
+   =====
+       } // end main
+   =====
+   } // end class

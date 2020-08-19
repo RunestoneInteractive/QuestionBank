@@ -1,8 +1,10 @@
 .. activecode:: ids17_02001
     :author: 弘倫 王
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     If this is a homework problem instead of an example in the text

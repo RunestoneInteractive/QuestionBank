@@ -1,15 +1,17 @@
 .. actex:: TL_365_double_angle_sin
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1904761905
-   :total_students_attempting: 126
-   :num_students_correct: 53.0
-   :mean_clicks_to_correct: 3.5283018868
+   :pct_on_first: 0.192
+   :total_students_attempting: 125
+   :num_students_correct: 54.0
+   :mean_clicks_to_correct: 3.5740740741
 
    Use the double angle formula,
    

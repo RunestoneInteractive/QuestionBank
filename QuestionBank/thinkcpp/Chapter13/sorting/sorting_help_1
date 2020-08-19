@@ -1,8 +1,10 @@
 .. parsonsprob:: sorting_help_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/sorting
+   :chapter: Chapter13
+   :subchapter: sorting
+   :topics: Chapter13/sorting
    :from_source: T
    :numbered: left
    :adaptive:

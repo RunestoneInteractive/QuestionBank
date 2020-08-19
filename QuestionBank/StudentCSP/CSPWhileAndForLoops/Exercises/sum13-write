@@ -1,11 +1,17 @@
 .. activecode:: sum13-write
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/Exercises
+   :chapter: CSPWhileAndForLoops
+   :subchapter: Exercises
+   :topics: CSPWhileAndForLoops/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 
+   :pct_on_first: 0.2313432836
+   :total_students_attempting: 134
+   :num_students_correct: 118.0
+   :mean_clicks_to_correct: 10.9576271186
 
    
    Return the sum of the numbers in the list, returning 0 for an empty list. 
@@ -14,12 +20,12 @@
    sum13([13,1]) returns 0 and sum13([1,13]) returns 1.
    ~~~~
    def sum13(nums):
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(sum13([13,1]), 0, 'sum13([13,1])')
            self.assertEqual(sum13([1,13]), 1, 'sum13([1,13])')

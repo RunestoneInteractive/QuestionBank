@@ -1,9 +1,11 @@
 .. dragndrop:: Params
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
-    :from_source: T
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-4-methods-with-params
+    :topics: Unit2-Using-Objects/topic-2-4-methods-with-params
+    :from_source: F
     :feedback: Review the vocabulary above.
     :match_1: an object's behaviors or functions that can be used or called to do its job|||methods
     :match_2: the values or data passed to an object's method|||arguments or actual parameters

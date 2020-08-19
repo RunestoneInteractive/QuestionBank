@@ -1,8 +1,10 @@
 .. activecode::  12_3_3_WSa
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPIntroDecisions/multiple
+    :chapter: CSPIntroDecisions
+    :subchapter: multiple
+    :topics: CSPIntroDecisions/multiple
     :from_source: T
     :nocodelens:
 

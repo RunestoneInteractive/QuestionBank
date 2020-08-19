@@ -1,8 +1,10 @@
 .. activecode:: act_dict_hu_fa19_final_2_so_altair
     :author: Sean Joyce
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Files/Exercises
+    :chapter: Files
+    :subchapter: Exercises
+    :topics: Files/Exercises
     :from_source: F
 
     *(10 points)* Recall the Stack Overflow developer 

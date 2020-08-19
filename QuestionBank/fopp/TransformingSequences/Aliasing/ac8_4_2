@@ -1,8 +1,10 @@
 .. activecode:: ac8_4_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TransformingSequences/Aliasing
+    :chapter: TransformingSequences
+    :subchapter: Aliasing
+    :topics: TransformingSequences/Aliasing
     :from_source: T
 
     a = [81,82,83]

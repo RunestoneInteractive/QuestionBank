@@ -1,8 +1,10 @@
 .. mchoice:: qtnt1_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test1nt
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
    :from_source: T
    :answer_a: I only
    :answer_b: II only
@@ -15,20 +17,24 @@
    :feedback_c: Loop II is correct, but loop III will produce the reverse output, 43210.
    :feedback_d: Both of these loops will have the correct output. They iterate (and print each value) starting from 0 until the max value which we defined earlier in our code.
    :feedback_e: While loop I and II will produce the correct output, loop III will actually produce the reverse of the correct output.
+   :pct_on_first: 0.6825775656
+   :total_students_attempting: 419
+   :num_students_correct: 417.0
+   :mean_clicks_to_correct: 1.5491606715
 
    Which of these loops will output ``01234``?
-
+   
    .. code-block:: java
-
+   
       int max = 5;
-
+   
       //Loop I
       for (int i = 0; i < max; i++)
       {
          System.out.print(i);
       }
-
-
+   
+   
       //Loop II
       int j = 0;
       while (j < max)
@@ -36,8 +42,8 @@
          System.out.print(j);
          j++;
       }
-
-
+   
+   
       //Loop III
       int k = 0;
       for (int i = max; i > 0; i--)

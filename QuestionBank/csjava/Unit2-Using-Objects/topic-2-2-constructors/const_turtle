@@ -1,9 +1,11 @@
 .. mchoice:: const_turtle
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/topic-2-2-constructors
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-2-constructors
+   :topics: Unit2-Using-Objects/topic-2-2-constructors
+   :from_source: F
    :practice: T
    :answer_a: Turtle t = Turtle(world);
    :answer_b: Turtle t = new Turtle();

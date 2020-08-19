@@ -1,8 +1,10 @@
 .. mchoice:: assess_question1_3_1_1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/week1a3
+   :chapter: PythonTurtle
+   :subchapter: week1a3
+   :topics: PythonTurtle/week1a3
    :from_source: T
    :answer_a: The turtle class.
    :answer_b: The same turtle that is used in each drawing your programs make.
@@ -13,9 +15,5 @@
    :feedback_c: Yes, an instance of the turtle class represents a unique turtle. The turtle class is like a stencil or mold that can be used to make as many turtles as you would like.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
-   :pct_on_first: 0.688976378
-   :total_students_attempting: 1524
-   :num_students_correct: 1518.0
-   :mean_clicks_to_correct: 1.4229249012
 
    What does each instance of the Turtle class represent?

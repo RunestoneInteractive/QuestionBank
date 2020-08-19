@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_3
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: 'Fido'
   :answer_b: animal_3
@@ -13,14 +15,18 @@
   :feedback_b: Incorrect. <i>animal_3</i> is the name of the variable.
   :feedback_c: Incorrect. 'fish' is the new value of <i>animal_2</i> assigned on the last line.
   :feedback_d: Incorrect. This code will run and there will not be an error.
+  :pct_on_first: 0.1919191919
+  :total_students_attempting: 99
+  :num_students_correct: 97.0
+  :mean_clicks_to_correct: 3.0721649485
 
   Use the following code for questions 3 and 4.
-
+  
   What will print out when the code is run?
-
+  
   ::
-
-
+  
+  
       animal_1 ← 'Garfield'
       animal_2 ← 'Fido'
       animal_3 ← 'Gary'

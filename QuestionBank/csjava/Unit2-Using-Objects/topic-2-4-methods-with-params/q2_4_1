@@ -1,0 +1,15 @@
+.. dragndrop:: q2_4_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-4-methods-with-params
+    :topics: Unit2-Using-Objects/topic-2-4-methods-with-params
+    :from_source: T
+    :feedback: Review the vocabulary above.
+    :match_1: an object's behaviors or functions that can be used or called to do its job|||methods
+    :match_2: the values or data passed to an object's method|||arguments or actual parameters
+    :match_3: the variables in a method's definition that hold the arguments|||formal parameters
+    :match_4: asking to run the method|||method call
+
+    Drag the definition from the left and drop it on the correct word on the right.  Click the "Check Me" button to see if you are correct.

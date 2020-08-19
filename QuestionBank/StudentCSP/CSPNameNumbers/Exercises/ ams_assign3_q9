@@ -1,8 +1,10 @@
 .. activecode::  ams_assign3_q9
     :author: Allison Schullo
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: StudentCSP
-    :topic: CSPNameNumbers/Exercises
+    :chapter: CSPNameNumbers
+    :subchapter: Exercises
+    :topics: CSPNameNumbers/Exercises
     :from_source: F
     :nocodelens:
 

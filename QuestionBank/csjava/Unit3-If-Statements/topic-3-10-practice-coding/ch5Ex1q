@@ -1,8 +1,10 @@
 .. activecode::  ch5Ex1q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit3-If-Statements/topic-3-10-practice-coding
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-10-practice-coding
+   :topics: Unit3-If-Statements/topic-3-10-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest

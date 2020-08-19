@@ -1,8 +1,10 @@
 .. mchoice:: question200_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/DecodingaFunction
+   :chapter: Functions
+   :subchapter: DecodingaFunction
+   :topics: Functions/DecodingaFunction
    :from_source: T
    :answer_a: 0
    :answer_b: 1
@@ -16,10 +18,10 @@
    :feedback_d: x, y, and z.
    :feedback_e: You can tell by looking inside the parentheses on line 1. Each variable name is separated by a comma.
    :practice: T
-   :pct_on_first: 0.7577319588
-   :total_students_attempting: 1358
-   :num_students_correct: 1347.0
-   :mean_clicks_to_correct: 1.4068299926
+   :pct_on_first: 0.759502924
+   :total_students_attempting: 1368
+   :num_students_correct: 1357.0
+   :mean_clicks_to_correct: 1.4038319823
 
    How many parameters does function cyu3 take?
    

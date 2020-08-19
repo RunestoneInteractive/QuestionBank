@@ -1,15 +1,17 @@
 .. actex:: TL_365_ac11_14_8
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1627906977
-   :total_students_attempting: 43
-   :num_students_correct: 26.0
-   :mean_clicks_to_correct: 5.7307692308
+   :pct_on_first: 0.1818181818
+   :total_students_attempting: 44
+   :num_students_correct: 27.0
+   :mean_clicks_to_correct: 5.5555555556
 
    Write a Python function called ``largest`` that will take a the list of 
    integers between 0 and 1000 and return the maximum value.  (Note:

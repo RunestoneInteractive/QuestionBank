@@ -1,8 +1,10 @@
 .. mchoice:: qssm_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/ssHardMC
+   :chapter: Unit7-ArrayList
+   :subchapter: ssHardMC
+   :topics: Unit7-ArrayList/ssHardMC
    :from_source: T
    :practice: T
    :answer_a: 3,5,3,9,2,4,
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if the if statement had said: if(!check(arr[i])).
    :feedback_c: This would be true if the array had not been modified at all.
    :feedback_d: This would be true if the final for loop did not iterate through every element in the array.
+   :pct_on_first: 0.3944315545
+   :total_students_attempting: 862
+   :num_students_correct: 814.0
+   :mean_clicks_to_correct: 2.3611793612
 
    What is printed when the following main method is executed?
-
+   
    .. code-block:: java
-
+   
           public class PrimeOrNot
           {
               private static boolean check(int n)
@@ -30,7 +36,7 @@
                   }
                   return true;
               }
-
+   
               public static void main(String[] args)
               {
                   int[] arr = {5,3,2,9,3,4};

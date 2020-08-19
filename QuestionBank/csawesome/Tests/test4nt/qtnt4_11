@@ -1,8 +1,10 @@
 .. mchoice:: qtnt4_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test4nt
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
    :from_source: F
    :answer_a: Remove the abstract keyword from the Meal class declaration.
    :answer_b: Remove the abstract keyword from the Meal class and method declarations.
@@ -15,28 +17,32 @@
    :feedback_c: Creating a constructor for the Meal class will not make the classes compile. The problem with these classes lies in the methods, not the constructors.
    :feedback_d: In order for this to compile, the addToMenu method would also have to be defined in the Meal class - would have to have a body.
    :feedback_e: Because Meal is an abstract class and Breakfast is not, addToMenu MUST be defined in the Breakfast class. Abstract methods must be defined in the classes that implement them, if that class is not also abstract.
+   :pct_on_first: 0.8
+   :total_students_attempting: 5
+   :num_students_correct: 5.0
+   :mean_clicks_to_correct: 1.8
 
    Consider the ``Breakfast`` and ``Meal`` classes shown below. Currently, the ``Breakfast`` class will not compile. Which of the following is the BEST solution to make ``Meal`` and ``Breakfast`` compile and run as intended?
-
+   
    .. code-block:: java
-
+   
       public abstract class Meal
       {
           public abstract String getMealTime;
-
+   
           public abstract List<String> getMenu();
-
+   
           public abstract void addToMenu (String food);
-
+   
           public abstract double getCalories();
       }
-
+   
       public class Breakfast extends Meal
       {
           private double calories;
           private String time;
           private List<String> menu;
-
+   
           public Breakfast (double theCalories, String theTime,
                             ArrayList<String> theMenu)
           {
@@ -44,17 +50,17 @@
               time = theTime;
               menu = theMenu;
           }
-
+   
           public String getMealTime()
           {
              return time;
           }
-
+   
           public List<String> getMenu()
           {
               return menu;
           }
-
+   
           public double getCalories()
           {
                return calories;

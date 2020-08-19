@@ -1,8 +1,10 @@
 .. mchoice:: assess_question4_1_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: .pop()
    :answer_b: .insert()
@@ -15,9 +17,5 @@
    :correct: d
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.8045356371
-   :total_students_attempting: 926
-   :num_students_correct: 921.0
-   :mean_clicks_to_correct: 1.3409337676
 
    Which method would you use to figure out the position of an item in a list?

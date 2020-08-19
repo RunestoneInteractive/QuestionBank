@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch6_7
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.1721311475
-   :total_students_attempting: 122
-   :num_students_correct: 68.0
-   :mean_clicks_to_correct: 2.8529411765
+   :pct_on_first: 0.1707317073
+   :total_students_attempting: 123
+   :num_students_correct: 69.0
+   :mean_clicks_to_correct: 2.8405797101
 
    Use indexing to print the 6th through 9th values in the supplied list (there should be 4 total, traditional counting). Save the result to variable ``i``. Don't hardcode the result...I'm going to change L for my run!
    ~~~~

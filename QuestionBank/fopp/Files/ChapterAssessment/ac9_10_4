@@ -1,18 +1,20 @@
 .. activecode:: ac9_10_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :available_files: school_prompt.txt
    :nocodelens: 
-   :pct_on_first: 0.4886211513
-   :total_students_attempting: 747
-   :num_students_correct: 605.0
-   :mean_clicks_to_correct: 2.3719008264
+   :pct_on_first: 0.4893617021
+   :total_students_attempting: 752
+   :num_students_correct: 609.0
+   :mean_clicks_to_correct: 2.3645320197
 
    Assign the first 30 characters of ``school_prompt.txt`` as a string to the variable ``beginning_chars``.
    ~~~~

@@ -1,8 +1,10 @@
 .. mchoice:: question15_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter15/Parsing_input
+   :chapter: Chapter15
+   :subchapter: Parsing_input
+   :topics: Chapter15/Parsing_input
    :from_source: T
    :answer_a: to scan an entire program for errors
    :answer_b: to run a program start to finish and record the run time

@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch13_1
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.3
-   :total_students_attempting: 40
-   :num_students_correct: 38.0
-   :mean_clicks_to_correct: 3.5789473684
+   :pct_on_first: 0.2926829268
+   :total_students_attempting: 41
+   :num_students_correct: 39.0
+   :mean_clicks_to_correct: 3.5384615385
 
    Create a function ``compare_str`` that accepts a letter and a string. The function should return the locations of letter in the string (in the form of a list) and ratio of the number of times the letter appears compared to the total number of letters(in the form of a float). The values should be returned as a tuple. For example ``compare_str('a','Is your mama a llama? I asked my friend Fred. No, is what Fred said.')`` should return ``([9, 11, 13, 17, 19, 24, 55, 64],0.117)``.
    ~~~~

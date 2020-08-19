@@ -1,8 +1,10 @@
 .. mchoice:: cswt2_19
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :answer_a: All the text of the file in one string
    :answer_b: Only the 'r' characters from the file

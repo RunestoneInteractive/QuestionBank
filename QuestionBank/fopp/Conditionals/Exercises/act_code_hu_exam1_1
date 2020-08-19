@@ -1,8 +1,10 @@
 .. activecode:: act_code_hu_exam1_1
     :author: Sean Joyce
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
 
     Provide below your solution to Exam 1 Programming Problem 1 (the product of a set of integers).

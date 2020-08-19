@@ -1,16 +1,18 @@
 .. activecode:: ac15_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/ChapterAssessment
+   :chapter: AdvancedFunctions
+   :subchapter: ChapterAssessment
+   :topics: AdvancedFunctions/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.6974358974
-   :total_students_attempting: 195
-   :num_students_correct: 165.0
-   :mean_clicks_to_correct: 1.4181818182
+   :pct_on_first: 0.702020202
+   :total_students_attempting: 198
+   :num_students_correct: 168.0
+   :mean_clicks_to_correct: 1.4107142857
 
    Create a function called ``mult`` that has two parameters, the first is required and should be an integer, the second is an optional parameter that can either be a number or a string but whose default is 6. The function should return the first parameter multiplied by the second.
    ~~~~

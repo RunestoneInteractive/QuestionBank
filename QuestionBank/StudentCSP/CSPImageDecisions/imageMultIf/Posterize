@@ -1,8 +1,10 @@
 .. activecode:: Posterize
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPImageDecisions/imageMultIf
+    :chapter: CSPImageDecisions
+    :subchapter: imageMultIf
+    :topics: CSPImageDecisions/imageMultIf
     :from_source: T
     :tour_1: "Structural Tour"; 1: id3-line1; 4: id3-line4; 7-8: id3-line7-8; 9: id3-line9; 11-13: id3-line11-13; 16-17: id3-line16-17; 18-19: id3-line18-19; 20-21: id3-line20-21; 22-23: id3-line22-23; 24-25: id3-line24-25; 26-27: id3-line26-27; 30: id3-line30; 33: id3-line33; 36-37: id3-line35-36;
     :nocodelens:

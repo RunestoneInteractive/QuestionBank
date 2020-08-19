@@ -1,8 +1,10 @@
 .. mchoice:: question5_8_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/CountandIndex
+   :chapter: Sequences
+   :subchapter: CountandIndex
+   :topics: Sequences/CountandIndex
    :from_source: T
    :answer_a: 0
    :answer_b: -1
@@ -12,10 +14,10 @@
    :feedback_b: Though there is no 'garden' in the list, we do not get back -1 when we use index. Instead, we get an error.
    :feedback_c: Yes, there is no 'garden' in the list, so we get back an error.
    :practice: T
-   :pct_on_first: 0.7728371194
-   :total_students_attempting: 2069
-   :num_students_correct: 2057.0
-   :mean_clicks_to_correct: 1.3266893534
+   :pct_on_first: 0.7740545716
+   :total_students_attempting: 2089
+   :num_students_correct: 2077.0
+   :mean_clicks_to_correct: 1.3254694271
 
    What will be stored in the variable ht below?
    

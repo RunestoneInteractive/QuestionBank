@@ -1,41 +1,40 @@
 .. parsonsprob:: mucp_7_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter7/mixed_up_code
+   :chapter: Chapter7
+   :subchapter: mixed_up_code
+   :topics: Chapter7/mixed_up_code
    :from_source: T
    :numbered: left
    :adaptive:
+   :practice: T
 
-   On the strange planet of Noes, there's a law that prohibits the usage of the letter "e".
-   As a result, they hired you to write a function called ``censorE`` that replaces all occurences
-   of the letter "e" in a string with an asterisk and returns the censored string. For example,
-   if the input is "hello world", the function returns "h*llo world".
+   The program below should print out the number of occurences of the character 't'
+   in the string tongue_twister but the code is mixed up. Put the necessary blocks
+   in the correct order, with declaration in the order of tongue_twister, count, and i.
    -----
-   string censorE (string input) {
+   int main() {
    =====
-   void censorE (string input) {  #paired
+      string tongue_twister = "twelve twins twirled twelve twigs";
    =====
-      string copy = input;  #distractor
+      int count = 0;
+   =====
+      int count = 1;  #paired
    =====
       int i = 0;
    =====
-      while (i < input.length()) {
+      while (i < tongue_twister.length()) {
    =====
-      while (i < input.length() - 1) {  #paired
+         if (tongue_twister[i] == 't') {
    =====
-         if (input[i] == 'e') {
+         if (tongue_twister[i] = 't') {  #paired
    =====
-         if (input[i] = 'e') {  #paired
-   =====
-            input[i] = '*';
-         }
-   =====
-            '*' = input[i];  #paired
+            count++;
          }
    =====
          i++;
       }
    =====
-      return input;
+      cout << count;
    }

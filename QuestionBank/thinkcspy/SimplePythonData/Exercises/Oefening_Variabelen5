@@ -1,8 +1,10 @@
 .. activecode:: Oefening_Variabelen5
     :author: Jan Persan
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :language: python
 

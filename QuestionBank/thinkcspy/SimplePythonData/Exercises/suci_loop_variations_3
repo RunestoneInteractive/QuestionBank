@@ -1,8 +1,10 @@
 .. actex:: suci_loop_variations_3
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Use two "nested loops" to make a row of 5 squares, each with side length 20, spaced 50  units apart (right corner to right corner)

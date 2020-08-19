@@ -1,8 +1,10 @@
 .. mchoice:: test_question2_8_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/OrderofOperations
+   :chapter: SimplePythonData
+   :subchapter: OrderofOperations
+   :topics: SimplePythonData/OrderofOperations
    :from_source: T
    :practice: T
    :answer_a: 14
@@ -14,10 +16,10 @@
    :feedback_b: Remember that * has precedence over -.
    :feedback_c: Remember that // has precedence over -.
    :feedback_d: Remember that // does integer division.
-   :pct_on_first: 0.6555963215
-   :total_students_attempting: 20987
-   :num_students_correct: 20897.0
-   :mean_clicks_to_correct: 1.6095133273
+   :pct_on_first: 0.6573626683
+   :total_students_attempting: 21317
+   :num_students_correct: 21224.0
+   :mean_clicks_to_correct: 1.6056822465
 
    What is the value of the following expression:
    

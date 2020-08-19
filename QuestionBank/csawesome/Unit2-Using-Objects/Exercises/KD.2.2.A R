@@ -1,8 +1,10 @@
 .. mchoice:: KD.2.2.A R
    :author: Gheorghe Ceara
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :practice: T
    :answer_a: Monster m1 = new Monster();

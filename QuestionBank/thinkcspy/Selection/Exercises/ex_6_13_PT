@@ -1,8 +1,10 @@
 .. actex:: ex_6_13_PT
    :author: pranoj thapa
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
 
    Implement the calculator for the date of Easter.

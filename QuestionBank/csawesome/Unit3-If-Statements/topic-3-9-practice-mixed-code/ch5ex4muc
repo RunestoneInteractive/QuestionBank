@@ -1,13 +1,19 @@
 .. parsonsprob:: ch5ex4muc
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/topic-3-9-practice-mixed-code
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-9-practice-mixed-code
+   :topics: Unit3-If-Statements/topic-3-9-practice-mixed-code
    :from_source: T
    :numbered: left
    :practice: T
-   :adaptive:
-   :noindent:
+   :adaptive: 
+   :noindent: 
+   :pct_on_first: 0.6161782914
+   :total_students_attempting: 2423
+   :num_students_correct: 2297.0
+   :mean_clicks_to_correct: 2.0117544623
 
    The main method in the following class should print out if a string has the word "ringing" in it or not. But, the blocks have been mixed up and includes <b>an extra block</b> that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----

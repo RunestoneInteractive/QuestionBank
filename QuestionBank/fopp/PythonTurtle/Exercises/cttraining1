@@ -1,8 +1,10 @@
 .. activecode:: cttraining1
    :author: Christopher Towse
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    
    Write a function to compute pi to 5000 digits

@@ -1,8 +1,10 @@
 .. activecode:: tamogotchi_3:
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Classes/Tamagotchi
+    :chapter: Classes
+    :subchapter: Tamagotchi
+    :topics: Classes/Tamagotchi
     :from_source: T
     :nocanvas:
     :include: tamagotchi_1

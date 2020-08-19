@@ -1,8 +1,10 @@
 .. mchoice:: qtnt4_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test4nt
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
    :from_source: T
    :answer_a: arr[col][i] += sum;
    :answer_b: arr[i][col] += sum;
@@ -15,19 +17,23 @@
    :feedback_c: Correct! This adds the value in [i][col] to sum, and i loops through every row in the array.
    :feedback_d: This method sums the values at a specified row, not a specified column. Check the array indexing.
    :feedback_e: Because col does not change, this method simply sums the value at arr[col][col] i times.
+   :pct_on_first: 0.4893617021
+   :total_students_attempting: 94
+   :num_students_correct: 91.0
+   :mean_clicks_to_correct: 1.989010989
 
    The method ``columnSum`` is shown below. ``columnSum`` returns the sum of all of the values in a specified column ``col`` of a 2-D array. Which of the following should replace ``/* to be completed */`` so that the method will work as intended?
-
+   
    .. code-block:: java
-
+   
       public int columnSum (int col, int[][] arr)
       {
           int sum = 0;
-
+   
           for (int i = 0; i < arr.length; i++)
           {
               /* to be completed */
           }
-
+   
           return sum;
       }

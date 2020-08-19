@@ -1,8 +1,10 @@
 .. actex:: cutr_ch08_ex05
  :author: Sandra Jackson
- :difficulty: 1
+ :difficulty: 1.0
  :basecourse: thinkcspy
- :topic: MoreAboutIteration/Exercises
+ :chapter: MoreAboutIteration
+ :subchapter: Exercises
+ :topics: MoreAboutIteration/Exercises
  :from_source: F
  :pct_on_first: 0.2941176471
  :total_students_attempting: 34

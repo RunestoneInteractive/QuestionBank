@@ -1,8 +1,10 @@
 .. activecode:: idp_oki
     :author: Karioki Crosby
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Variables
+    :chapter: SimplePythonData
+    :subchapter: Variables
+    :topics: SimplePythonData/Variables
     :from_source: F
     :nocanvas:
 

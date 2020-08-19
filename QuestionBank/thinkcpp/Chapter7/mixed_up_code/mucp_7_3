@@ -1,33 +1,47 @@
 .. parsonsprob:: mucp_7_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter7/mixed_up_code
+   :chapter: Chapter7
+   :subchapter: mixed_up_code
+   :topics: Chapter7/mixed_up_code
    :from_source: T
    :numbered: left
    :adaptive:
    :noindent:
+   :practice: T
 
-   The program below should print out the index of the second instance of the
-   character 'i' but the code is mixed up and contains extra blocks.
+   Let's write the function ``longerString``, which takes two ``strings``
+   as parameters, ``first`` and ``second``. If ``first`` has more letters
+   than ``second``, ``longerString`` prints "``first`` is longer than ``second``",
+   and vice versa. If they have the same number of letters, ``longerString``
+   prints "``first`` and ``second`` are the same length".
    Put the necessary blocks in the correct order.
    -----
-   int main() {
+   void longerString (string first, string second) {
    =====
-      string quote = "Your time is limited, so don't waste it living someone else's life.";
+   string longerString (string first, string second) {  #paired
    =====
-      int i = 0;  #distractor
+      if (first.length() > second.length()) {
    =====
-      while (i < quote.length()) {  #distractor
+      if (first.length() >= second.length()) {  #paired
    =====
-      int first = quote.find("i");
+         cout << first << " is longer than " << second << endl;
+      }
    =====
-      int index = find (quote, 'i', first + 1);
+      else if (first.length() < second.length()) {
    =====
-      int index = find (quote, 'i', first);  #paired
+         cout << second << " is longer than " << first << endl;
+      }
    =====
-      cout << index;
-   }
+         cout << second << " is longer than " << second << endl;  #paired
+      }
    =====
-      cout << first;  #paired
+      else {
+   =====
+      else (first.length() == second.length()) {  #distractor
+   =====
+         cout << first << " and " << second << " are the same length" << endl;
+      }
+   =====
    }

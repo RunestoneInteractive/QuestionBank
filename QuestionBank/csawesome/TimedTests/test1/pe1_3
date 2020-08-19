@@ -1,8 +1,10 @@
 .. mchoice:: pe1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: 128
    :answer_b: 256
@@ -15,11 +17,15 @@
    :feedback_c: This would be the result of mystery(6).
    :feedback_d: This would be the result of mystery(1).
    :feedback_e: This would be the result of mystery(0).
+   :pct_on_first: 0.5111111111
+   :total_students_attempting: 135
+   :num_students_correct: 86.0
+   :mean_clicks_to_correct: 1.3139534884
 
    What value is returned as the result of ``mystery(7)``?
-
+   
    .. code-block:: java
-
+   
      public int mystery(int n)
      {
         if (n == 0) return 1;

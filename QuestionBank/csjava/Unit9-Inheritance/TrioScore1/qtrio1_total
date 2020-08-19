@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit9-Inheritance/TrioScore1
+   :topics: Unit9-Inheritance/TrioScore1
    :from_source: T
 
    What should the total score be for this student response (out of 9 points)?  Enter it as a number (like 3).

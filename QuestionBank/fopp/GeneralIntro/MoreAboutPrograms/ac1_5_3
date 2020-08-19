@@ -1,8 +1,10 @@
 .. activecode:: ac1_5_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: GeneralIntro/MoreAboutPrograms
+   :chapter: GeneralIntro
+   :subchapter: MoreAboutPrograms
+   :topics: GeneralIntro/MoreAboutPrograms
    :from_source: T
 
    grocery_item = ""

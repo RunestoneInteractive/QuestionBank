@@ -1,8 +1,10 @@
 .. actex:: ex_2_11de
    :author: Damon Ellingston
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Write a program that will convert degrees Farenheit to degrees Kelvin.

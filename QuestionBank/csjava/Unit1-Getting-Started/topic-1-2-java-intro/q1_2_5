@@ -1,0 +1,14 @@
+.. dragndrop:: q1_2_5
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit1-Getting-Started
+    :subchapter: topic-1-2-java-intro
+    :topics: Unit1-Getting-Started/topic-1-2-java-intro
+    :from_source: T
+    :feedback: Review the section above.
+    :match_1: single-line comment|||//
+    :match_2: multi-line comment|||/* */
+    :match_3: Java documentation comment|||/** */
+
+    Drag the definition from the left and drop it on the correct symbols on the right.  Click the "Check Me" button to see if you are correct.

@@ -1,8 +1,10 @@
 .. mchoice:: test_question8_5_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/TheSliceOperator
+   :chapter: Strings
+   :subchapter: TheSliceOperator
+   :topics: Strings/TheSliceOperator
    :from_source: T
    :practice: T
    :answer_a: rockrockrock
@@ -14,10 +16,10 @@
    :feedback_b: Repetition does not add a space.
    :feedback_c: Slicing will not include the character at index 11.  Just up to it (10 in this case).
    :feedback_d: The slice will happen first, then the repetition.  So it is ok.
-   :pct_on_first: 0.5808520385
-   :total_students_attempting: 10915
-   :num_students_correct: 10859.0
-   :mean_clicks_to_correct: 1.6202228566
+   :pct_on_first: 0.5821793003
+   :total_students_attempting: 10976
+   :num_students_correct: 10920.0
+   :mean_clicks_to_correct: 1.6181318681
 
    
    What is printed by the following statements?

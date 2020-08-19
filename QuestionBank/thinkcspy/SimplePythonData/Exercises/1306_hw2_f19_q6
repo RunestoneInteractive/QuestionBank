@@ -1,8 +1,10 @@
 .. activecode:: 1306_hw2_f19_q6
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Write a program to play the "guess the number" game. Your program should use the ``random``

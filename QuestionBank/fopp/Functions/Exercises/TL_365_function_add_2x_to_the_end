@@ -1,8 +1,10 @@
 .. actex:: TL_365_function_add_2x_to_the_end
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

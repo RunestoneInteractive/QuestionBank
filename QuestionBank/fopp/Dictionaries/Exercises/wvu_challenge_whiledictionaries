@@ -1,8 +1,10 @@
 .. activecode:: wvu_challenge_whiledictionaries
     :author: Brian Powell
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: fopp
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: F
 
     Write code that asks users to the first name, last name, and age of members of their extended family. Users should be able to enter as many family members as they want. Figure out what format for having users enter data you think is best.

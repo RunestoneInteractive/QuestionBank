@@ -1,8 +1,10 @@
 .. actex:: TL_365_r5_ex4
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

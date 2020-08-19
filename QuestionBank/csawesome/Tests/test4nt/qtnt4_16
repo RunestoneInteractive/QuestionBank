@@ -1,8 +1,10 @@
 .. mchoice:: qtnt4_16
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test4nt
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
    :from_source: T
    :answer_a: x % y == 0
    :answer_b: x % y == 1
@@ -15,18 +17,22 @@
    :feedback_c: The modulo operator (%) returns the remainder left by integer division. If x % y == 2, x is not evenly divisible by y, because there is a remainder of 2 left after the division.
    :feedback_d: The modulo operator (%) is used to check if numbers are divisible by each other. The division operator (/) should be replaced with a %.
    :feedback_e: The division operator does not check if one number is divisible by another. In integer division, remainders are calculated by the modulo operator (%).
+   :pct_on_first: 0.6808510638
+   :total_students_attempting: 94
+   :num_students_correct: 92.0
+   :mean_clicks_to_correct: 1.8369565217
 
-
+   
    The method ``divisible`` is shown below. In order for ``divisible`` to compile and run as intended, the method must return true if x is evenly divisible by y with no remainder, returning false otherwise. Which of the following could replace ``/* to be completed */`` to make the code work as intended?
-
+   
    .. code-block:: java
-
-
+   
+   
      /* Precondition: x and y are both integers greater than 0 */
       public boolean divisible (int x, int y)
       {
           if ( /* to be completed */)
               return true;
-
+   
           return false;
       }

@@ -1,8 +1,10 @@
 .. mchoice:: AP5-4-1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit5-Writing-Classes/topic-5-4-accessor-methods
+   :chapter: Unit5-Writing-Classes
+   :subchapter: topic-5-4-accessor-methods
+   :topics: Unit5-Writing-Classes/topic-5-4-accessor-methods
    :from_source: T
    :practice: T
    :answer_a: The getNumOfPeople method should be declared as public.
@@ -16,20 +18,24 @@
    :feedback_c: This method should not have any parameters
    :feedback_d: This is an instance variable and should be declared outside.
    :feedback_e: The numOfPeople variable is correctly returned.
+   :pct_on_first: 0.6412870341
+   :total_students_attempting: 3139
+   :num_students_correct: 3087.0
+   :mean_clicks_to_correct: 2.1049562682
 
     Consider the following Party class. The getNumOfPeople method is intended to allow methods in other classes to access a Party object’s numOfPeople instance variable value; however, it does not work as intended. Which of the following best explains why the getNumOfPeople method does NOT work as intended?
-
+   
     .. code-block:: java
-
+   
         public class Party
         {
             private int numOfPeople;
-
+   
             public Party(int num)
             {
                 numOfPeople = num;
             }
-
+   
             private int getNumOfPeople()
             {
                 return numOfPeople;

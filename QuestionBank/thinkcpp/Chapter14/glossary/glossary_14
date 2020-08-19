@@ -1,8 +1,10 @@
 .. dragndrop:: glossary_14
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter14/glossary
+    :chapter: Chapter14
+    :subchapter: glossary
+    :topics: Chapter14/glossary
     :from_source: T
     :feedback: Try again!
     :match_1: class|||In general use, a class is a user-defined type with member functions. In C++, a class is a structure with private instance variables.

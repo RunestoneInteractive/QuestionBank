@@ -1,11 +1,17 @@
 .. parsonsprob:: json_req1
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/Exercises
+   :chapter: CSPWebData
+   :subchapter: Exercises
+   :topics: CSPWebData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.089347079
+   :total_students_attempting: 291
+   :num_students_correct: 277.0
+   :mean_clicks_to_correct: 8.6028880866
 
    Put the following code in order to create a function get_data.  The function will try to read JSON from a URL (generated from the parameters and base url) using requests.get and load the JSON into a dictionary. If there is an error it will print an error message and set the dictionary to the empty dictionary.   If the length of the dictionary is greater than 0 it will get another dictionary using the "results" and then print the values at the "sunrise" and "sunset" keys in that dictionary.
    -----

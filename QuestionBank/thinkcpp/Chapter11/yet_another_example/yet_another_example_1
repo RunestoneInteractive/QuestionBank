@@ -1,8 +1,10 @@
 .. mchoice:: yet_another_example_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter11/yet_another_example
+   :chapter: Chapter11
+   :subchapter: yet_another_example
+   :topics: Chapter11/yet_another_example
    :from_source: T
    :answer_a: Before the parameter list.
    :answer_b: Inside the parameter list.

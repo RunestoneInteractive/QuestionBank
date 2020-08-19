@@ -1,8 +1,10 @@
 .. mchoice:: test_question6_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Selection/Nestedconditionals
+   :chapter: Selection
+   :subchapter: Nestedconditionals
+   :topics: Selection/Nestedconditionals
    :from_source: T
    :practice: T
    :answer_a: No
@@ -10,10 +12,10 @@
    :correct: a
    :feedback_a: This is a legal nested if-else statement.  The inner if-else statement is contained completely within the body of the outer else-block.
    :feedback_b: This is a legal nested if-else statement.  The inner if-else statement is contained completely within the body of the outer else-block.
-   :pct_on_first: 0.8335345501
-   :total_students_attempting: 14081
-   :num_students_correct: 14016.0
-   :mean_clicks_to_correct: 1.1732305936
+   :pct_on_first: 0.8338040102
+   :total_students_attempting: 14164
+   :num_students_correct: 14099.0
+   :mean_clicks_to_correct: 1.1729909923
 
    Will the following code cause an error?
    

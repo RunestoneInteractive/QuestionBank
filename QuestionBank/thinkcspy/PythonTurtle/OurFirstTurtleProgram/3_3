@@ -1,13 +1,15 @@
 .. parsonsprob:: 3_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/OurFirstTurtleProgram
+   :chapter: PythonTurtle
+   :subchapter: OurFirstTurtleProgram
+   :topics: PythonTurtle/OurFirstTurtleProgram
    :from_source: T
-   :pct_on_first: 0.8412293354
-   :total_students_attempting: 18026
-   :num_students_correct: 17788.0
-   :mean_clicks_to_correct: 1.290982685
+   :pct_on_first: 0.8417179262
+   :total_students_attempting: 18208
+   :num_students_correct: 17969.0
+   :mean_clicks_to_correct: 1.2897211865
 
    The following program uses a turtle to draw a single line to the west as shown to the left, <img src="../_static/TurtleLineToWest.png" width="150" align="left" hspace="10" vspace="5" /> but the program lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle.  The turtle should then turn to face west and draw a line that is 75 pixels long.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----

@@ -1,17 +1,19 @@
 .. activecode:: hollins_final_2_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :nopair: 
    :nocodelens: 
    :autograde: unittest
-   :pct_on_first: 1.0
-   :total_students_attempting: 1
-   :num_students_correct: 1.0
-   :mean_clicks_to_correct: 1.0
+   :pct_on_first: 0.5
+   :total_students_attempting: 2
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 2.0
 
    Write a function named ``merge_strings`` that takes two
    parameters, both strings, and merges them into one,

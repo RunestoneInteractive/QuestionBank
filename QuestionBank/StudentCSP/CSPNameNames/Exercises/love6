@@ -1,11 +1,17 @@
 .. activecode:: love6
        :author: Barbara  Ericson
-       :difficulty: 0
+       :difficulty: 0.0
        :basecourse: StudentCSP
-       :topic: CSPNameNames/Exercises
+       :chapter: CSPNameNames
+       :subchapter: Exercises
+       :topics: CSPNameNames/Exercises
        :from_source: F
-       :nocodelens:
+       :nocodelens: 
        :autograde: unittest
+       :pct_on_first: 0.4
+       :total_students_attempting: 50
+       :num_students_correct: 44.0
+       :mean_clicks_to_correct: 2.4090909091
 
        The number 6 is a truly great number. Given two int values, a and b, return 
        True if either one is 6 or if their sum or difference is 6. Note: the function 
@@ -14,12 +20,12 @@
        returns True.  
        ~~~~
        def love6(a, b):
-
+       
        ====
        from unittest.gui import TestCaseGui
-
+       
        class myTests(TestCaseGui):
-
+       
            def testOne(self):
                self.assertEqual(love6(6,4), True, 'love6(6,4)')
                self.assertEqual(love6(4, 5), False, 'love6(4, 5)')
@@ -37,5 +43,5 @@
                self.assertEqual(love6(1, 7), True, 'love6(1, 7)') 
                self.assertEqual(love6(8,3), False, 'love6(8,3)')
                self.assertEqual(love6(0,9), False, 'love6(0,9)')
-
+       
        myTests().main()

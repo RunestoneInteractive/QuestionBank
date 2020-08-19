@@ -1,8 +1,10 @@
 .. parsonsprob:: 53
     :author: Renske Weeda
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: StudentCSP
-    :topic: CSPWhileAndForLoops/Exercises
+    :chapter: CSPWhileAndForLoops
+    :subchapter: Exercises
+    :topics: CSPWhileAndForLoops/Exercises
     :from_source: F
     :numbered: left
 

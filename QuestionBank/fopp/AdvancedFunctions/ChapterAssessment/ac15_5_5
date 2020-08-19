@@ -1,16 +1,18 @@
 .. activecode:: ac15_5_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/ChapterAssessment
+   :chapter: AdvancedFunctions
+   :subchapter: ChapterAssessment
+   :topics: AdvancedFunctions/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4756756757
-   :total_students_attempting: 185
-   :num_students_correct: 150.0
-   :mean_clicks_to_correct: 2.0533333333
+   :pct_on_first: 0.4787234043
+   :total_students_attempting: 188
+   :num_students_correct: 153.0
+   :mean_clicks_to_correct: 2.0392156863
 
    Write a function called ``checkingIfIn`` that takes three parameters. The first is a required parameter, which should be a string. The second is an optional parameter called ``direction`` with a default value of ``True``. The third is an optional parameter called ``d`` that has a default value of ``{'apple': 2, 'pear': 1, 'fruit': 19, 'orange': 5, 'banana': 3, 'grapes': 2, 'watermelon': 7}``. Write the function ``checkingIfIn`` so that when the second parameter is ``True``, it checks to see if the first parameter is a key in the third parameter; if it is, return ``True``, otherwise return ``False``.
    

@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: csjava
-    :topic: Unit7-ArrayList/2019delimitersQ3a
+    :topics: Unit7-ArrayList/2019delimitersQ3a
     :from_source: T
     :question: Click on the part of the sentences below with the type of thing passed to the method <code>getDelimitersList</code> and the type it returns.
     :iscode:

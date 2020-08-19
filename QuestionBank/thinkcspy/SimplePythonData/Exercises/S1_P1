@@ -1,8 +1,10 @@
 .. actex:: S1_P1
    :author: Neil Kakhandiki
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Define a function that divides two number (dividend and 

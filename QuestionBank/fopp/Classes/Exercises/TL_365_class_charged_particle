@@ -1,13 +1,15 @@
 .. actex:: TL_365_class_charged_particle
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Classes/Exercises
+   :chapter: Classes
+   :subchapter: Exercises
+   :topics: Classes/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1489361702
-   :total_students_attempting: 47
+   :pct_on_first: 0.1458333333
+   :total_students_attempting: 48
    :num_students_correct: 23.0
    :mean_clicks_to_correct: 7.4347826087
 

@@ -1,16 +1,18 @@
 .. actex:: ex_6_9
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: T
     :practice: T
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.6477782307
-    :total_students_attempting: 2453
-    :num_students_correct: 2334.0
-    :mean_clicks_to_correct: 1.8778920308
+    :pct_on_first: 0.6476537217
+    :total_students_attempting: 2472
+    :num_students_correct: 2351.0
+    :mean_clicks_to_correct: 1.8753721821
 
     Modify ``is_odd`` so that it uses a call to ``is_even`` to determine if its
     argument is an odd integer.

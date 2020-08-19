@@ -1,8 +1,10 @@
 .. activecode:: BPU_Dessert
     :author: Jane Weyant
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
   
     Given the following list and the indication of your favorite, write a program using conditional statements that will, for each dessert, say if it is your favorite dessert or not. Use a for loop and == to check whether a dessert equals your favorite dessert. Your code should print the following sentences:

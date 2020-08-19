@@ -1,16 +1,18 @@
 .. actex:: ex_6_8
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: T
     :practice: T
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.6885516331
-    :total_students_attempting: 3031
-    :num_students_correct: 2773.0
-    :mean_clicks_to_correct: 2.1366750811
+    :pct_on_first: 0.6882989184
+    :total_students_attempting: 3051
+    :num_students_correct: 2793.0
+    :mean_clicks_to_correct: 2.1317579663
 
     Now write the function ``is_odd(n)`` that returns ``True`` when ``n`` is odd
     and ``False`` otherwise.

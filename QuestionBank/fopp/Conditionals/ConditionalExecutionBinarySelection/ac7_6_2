@@ -1,16 +1,18 @@
 .. activecode:: ac7_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/ConditionalExecutionBinarySelection
+   :chapter: Conditionals
+   :subchapter: ConditionalExecutionBinarySelection
+   :topics: Conditionals/ConditionalExecutionBinarySelection
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2780373832
-   :total_students_attempting: 1712
-   :num_students_correct: 1184.0
-   :mean_clicks_to_correct: 3.0515202703
+   :pct_on_first: 0.28125
+   :total_students_attempting: 1728
+   :num_students_correct: 1197.0
+   :mean_clicks_to_correct: 3.0342522974
 
    Write code to assign the string ``"You can apply to SI!"`` to ``output`` *if* the string ``"SI 106"`` is in the list ``courses``. If it is not in ``courses``, assign the value ``"Take SI 106!"`` to the variable ``output``.
    ~~~~

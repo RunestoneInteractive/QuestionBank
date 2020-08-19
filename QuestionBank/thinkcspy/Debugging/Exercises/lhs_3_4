@@ -1,16 +1,18 @@
 .. activecode:: lhs_3_4
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Debugging/Exercises
+    :chapter: Debugging
+    :subchapter: Exercises
+    :topics: Debugging/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.1125461255
-    :total_students_attempting: 542
-    :num_students_correct: 504.0
-    :mean_clicks_to_correct: 4.8392857143
+    :pct_on_first: 0.1135531136
+    :total_students_attempting: 546
+    :num_students_correct: 506.0
+    :mean_clicks_to_correct: 4.8280632411
 
     This program calculates how far an object will fall (in feet) in a given number of seconds. However, it does not produce the correct answer. Find and fix the error:
     

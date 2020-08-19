@@ -1,8 +1,10 @@
 .. mchoice:: pe3_18
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test3
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
    :from_source: T
    :answer_a: method1 and method3
    :answer_b: method1 only
@@ -15,11 +17,15 @@
    :feedback_c: This one won't work.  The problem with method2 is that if num1==num2 the first if will execute, but so will the second if and result will be set to 1.
    :feedback_d: While method3 will work, method2 won't.  The problem with method2 is that if num1==num2 the first if will execute, but so will the second if and result will be set to 1.
    :feedback_e: Two will work, but one will not.
+   :pct_on_first: 0.4
+   :total_students_attempting: 45
+   :num_students_correct: 21.0
+   :mean_clicks_to_correct: 1.1904761905
 
    Consider the following methods. Which of method1, method2, and method3 would give the same result as sample?
-
+   
    .. code-block:: java
-
+   
       public void sample(int num1, int num2) {
          int result = 99;
          if (num1==num2) {result = 0;}
@@ -27,7 +33,7 @@
          else {result = -1;}
          System.out.println(result);
       }
-
+   
       public void method1(int num1, int num2) {
          int result=99;
              if (num1 == num2) {result = 0;}
@@ -37,7 +43,7 @@
              }
         System.out.println(result);
       }
-
+   
       public void method2(int num1, int num2) {
              int result = 99;
              if (num1 == num2) {result = 0;}
@@ -45,7 +51,7 @@
              else {result = -1;}
          System.out.println(result);
       }
-
+   
       public void method3(int num1, int num2) {
              int result = 99 ;
              if (num1 == num2) {result = 0;}

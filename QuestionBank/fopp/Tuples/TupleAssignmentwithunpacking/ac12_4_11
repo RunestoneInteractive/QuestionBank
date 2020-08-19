@@ -1,17 +1,19 @@
 .. activecode:: ac12_4_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TupleAssignmentwithunpacking
+   :chapter: Tuples
+   :subchapter: TupleAssignmentwithunpacking
+   :topics: Tuples/TupleAssignmentwithunpacking
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.3111702128
-   :total_students_attempting: 376
-   :num_students_correct: 253.0
-   :mean_clicks_to_correct: 3.3399209486
+   :pct_on_first: 0.3167539267
+   :total_students_attempting: 382
+   :num_students_correct: 258.0
+   :mean_clicks_to_correct: 3.2984496124
 
    If you remember, the .items() dictionary method produces a sequence of tuples. Keeping this in mind, we have provided you a dictionary called ``pokemon``. For every key value pair, append the key to the list ``p_names``, and append the value to the list ``p_number``. Do not use the .keys() or .values() methods.
    ~~~~

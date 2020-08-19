@@ -1,9 +1,11 @@
 .. activecode:: challenge-2-9b-dancing-turtles
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit2-Using-Objects/topic-2-9-Math
-    :from_source: T
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-9-Math
+    :topics: Unit2-Using-Objects/topic-2-9-Math
+    :from_source: F
     :language: java
     :autograde: unittest
     :datafile: turtleClasses.jar

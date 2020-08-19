@@ -1,8 +1,10 @@
 .. actex:: IT105Resoures_ex_1_1q
    :author: jenkins
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: IT105Resources/Exercises
+   :chapter: IT105Resources
+   :subchapter: Exercises
+   :topics: IT105Resources/Exercises
    :from_source: F
    :pct_on_first: 0.5833333333
    :total_students_attempting: 12

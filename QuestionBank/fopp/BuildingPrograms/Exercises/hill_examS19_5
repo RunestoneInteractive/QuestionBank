@@ -1,8 +1,10 @@
 .. activecode:: hill_examS19_5
     :author: Scott Hill
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: BuildingPrograms/Exercises
+    :chapter: BuildingPrograms
+    :subchapter: Exercises
+    :topics: BuildingPrograms/Exercises
     :from_source: F
 
     Define a function ``first_letters(sentence)`` which takes in a sentence (as a string), and counts the number of words that begin with each letter of the alphabet.  The function should return a dictionary. Capitals and lower-case letters (e.g. ``S`` and ``s``) should count as the same letter.

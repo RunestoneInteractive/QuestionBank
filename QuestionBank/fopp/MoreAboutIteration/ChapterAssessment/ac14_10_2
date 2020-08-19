@@ -1,29 +1,27 @@
 .. activecode:: ac14_10_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: MoreAboutIteration/ChapterAssessment
+    :chapter: MoreAboutIteration
+    :subchapter: ChapterAssessment
+    :topics: MoreAboutIteration/ChapterAssessment
     :from_source: T
     :practice: T
     :topics: MoreAboutIteration/listenerLoop
-    :pct_on_first: 0.3004694836
-    :total_students_attempting: 213
-    :num_students_correct: 136.0
-    :mean_clicks_to_correct: 3.8676470588
 
     Write a function called ``check_nums`` that takes a list as its parameter, and contains a while loop that only stops once the element of the list is the number 7. What is returned is a list of all of the numbers up until it reaches 7.
     ~~~~
-    
+
     =====
-    
+
     from unittest.gui import TestCaseGui
-    
+
     class myTests(TestCaseGui):
-    
+
        def testOne(self):
           self.assertEqual(check_nums([0,2,4,9,2,3,6,8,12,14,7,9,10,8,3]), [0,2,4,9,2,3,6,8,12,14], "Testing that check_nums stops on the correct postion with input [0,2,4,9,2,3,6,8,12,14,7,9,10,8,3]")
           self.assertEqual(check_nums([9,302,4,62,78,97,10,7,8,23,53,1]), [9,302,4,62,78,97,10], "Testing that check_nums stops on the correct position with input [9,302,4,62,78,97,10,7,8,23,53,1]")
           self.assertEqual(check_nums([7,8,3,2,4,51]), [], "Testing that check_nums stops on the correct position with input [7,8,3,2,4,51]")
           self.assertEqual(check_nums([1, 6, 2, 3, 9]), [1, 6, 2, 3, 9], "Testing that check_nums([1, 6, 2, 3, 9]) returns ([1, 6, 2, 3, 9])")
-    
+
     myTests().main()

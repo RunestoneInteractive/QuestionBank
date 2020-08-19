@@ -1,8 +1,10 @@
 .. mchoice:: regex1-v3
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPrinTeasers/Exercises
+   :chapter: CSPrinTeasers
+   :subchapter: Exercises
+   :topics: CSPrinTeasers/Exercises
    :from_source: F
    :answer_a: abby
    :answer_b: abbot
@@ -15,5 +17,9 @@
    :feedback_c: one a followed by two b's
    :feedback_d: there are not two b's
    :feedback_e: one c followed by two b's
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 4.0
 
    Which of the following will not match this regular expression: "(a|c)+bb"?

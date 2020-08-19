@@ -1,8 +1,10 @@
 .. activecode:: incremental_development_AC_2
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter9/incremental_development
+  :chapter: Chapter9
+  :subchapter: incremental_development
+  :topics: Chapter9/incremental_development
   :from_source: T
   :language: cpp
 

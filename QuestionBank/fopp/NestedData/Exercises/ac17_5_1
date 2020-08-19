@@ -1,13 +1,15 @@
 .. actex:: ac17_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/Exercises
+   :chapter: NestedData
+   :subchapter: Exercises
+   :topics: NestedData/Exercises
    :from_source: T
-   :pct_on_first: 0.0769230769
-   :total_students_attempting: 117
-   :num_students_correct: 82.0
-   :mean_clicks_to_correct: 8.2804878049
+   :pct_on_first: 0.0762711864
+   :total_students_attempting: 118
+   :num_students_correct: 83.0
+   :mean_clicks_to_correct: 8.2168674699
 
    Iterate through the list so that if the character 'm' is in the string, then it should be added to a new list called ``m_list``. Hint: Because this isn't just a list of lists, think about what type of object you want your data to be stored in. Conditionals may help you.
    ~~~~

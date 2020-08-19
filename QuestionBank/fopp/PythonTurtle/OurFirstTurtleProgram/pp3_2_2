@@ -1,13 +1,15 @@
 .. parsonsprob:: pp3_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/OurFirstTurtleProgram
+   :chapter: PythonTurtle
+   :subchapter: OurFirstTurtleProgram
+   :topics: PythonTurtle/OurFirstTurtleProgram
    :from_source: T
-   :pct_on_first: 0.7535896248
-   :total_students_attempting: 2159
-   :num_students_correct: 2139.0
-   :mean_clicks_to_correct: 1.6040205704
+   :pct_on_first: 0.7558728696
+   :total_students_attempting: 2171
+   :num_students_correct: 2151.0
+   :mean_clicks_to_correct: 1.5918177592
 
    The following program uses a turtle to draw a checkmark as shown to the left, <img src="../_static/TurtleCheckmark4.png" width="150" align="left" hspace="10" vspace="5" alt="image of a navigational compass and a checkmark which is drawn by Turtle."/> but the lines are mixed up. The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle. The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long. We have added a compass to the picture to indicate the directions north, south, west, and east. Northeast is between north and east. Southeast is between south and east. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>
    -----

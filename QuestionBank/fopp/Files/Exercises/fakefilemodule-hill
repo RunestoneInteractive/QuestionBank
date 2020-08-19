@@ -1,8 +1,10 @@
 .. activecode:: fakefilemodule-hill
    :author: Scott Hill
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
 
    I will use this to simulate a fake file system.

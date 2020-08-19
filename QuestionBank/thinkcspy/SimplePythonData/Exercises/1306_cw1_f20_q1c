@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_f20_q1c
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    **Q1c [10 pts]** Modify the above program to take the same input but prints as follows. You can use as many variables as you need in this part:

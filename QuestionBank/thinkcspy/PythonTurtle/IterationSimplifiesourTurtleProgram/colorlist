@@ -1,8 +1,10 @@
 .. activecode:: colorlist
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/IterationSimplifiesourTurtleProgram
+    :chapter: PythonTurtle
+    :subchapter: IterationSimplifiesourTurtleProgram
+    :topics: PythonTurtle/IterationSimplifiesourTurtleProgram
     :from_source: T
     :nocodelens:
 

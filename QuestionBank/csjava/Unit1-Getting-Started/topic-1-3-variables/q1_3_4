@@ -1,0 +1,20 @@
+.. mchoice:: q1_3_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-3-variables
+   :topics: Unit1-Getting-Started/topic-1-3-variables
+   :from_source: T
+   :practice: T
+   :answer_a: int
+   :answer_b: double
+   :answer_c: boolean
+   :answer_d: String
+   :correct: c
+   :feedback_a: While you could use an int and use 0 for false and 1 for true this would waste 31 of the 32 bits an int uses. Java has a special type for things that are either true or false.
+   :feedback_b: Java has a special type for variables that are either true or false.
+   :feedback_c: Java uses boolean for values that are only true or false.
+   :feedback_d: While you can use a string to represent "True" or "False", using a boolean variable would be better for making decisions.
+
+   What type should you use to record if it is raining or not?

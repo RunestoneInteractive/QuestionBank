@@ -1,8 +1,10 @@
 .. activecode:: ans7_14_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: T
 
    sc = input("Enter a score from 0 to 100 (decimal points are allowed)")

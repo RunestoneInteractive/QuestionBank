@@ -1,29 +1,36 @@
 .. activecode:: cp_6_AC_3a
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter6/coding_practice
+   :chapter: Chapter6
+   :subchapter: coding_practice
+   :topics: Chapter6/coding_practice
    :from_source: T
    :language: cpp
+   :optional:
 
    #include <iostream>
    using namespace std;
 
-   int main() {
-       int n = 1;
-       while (n <= 100) {
-           if (n % 3 == 0 && n % 5 == 0) {
-               cout << "FizzBuzz" << endl;
+   void printPyramid(int n) {
+       int space, numAsterisks;
+       int count = 1;
+       while (count <= n) {
+           space = n - count;
+           while (space > 0) {
+               cout << " ";
+               space--;
            }
-           else if (n % 3 == 0) {
-               cout << "Fizz" << endl;
+           numAsterisks = 2 * count - 1;
+           while (numAsterisks > 0) {
+               cout << "*";
+               numAsterisks--;
            }
-           else if (n % 5 == 0) {
-               cout << "Buzz" << endl;
-           }
-           else {
-               cout << n << endl;
-           }
-           n++;
+           cout << endl;
+           count++;
        }
+   }
+
+   int main() {
+       printPyramid (5);
    }

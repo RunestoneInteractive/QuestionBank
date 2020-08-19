@@ -1,16 +1,18 @@
 .. actex:: ex_8_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.0942788074
-   :total_students_attempting: 1241
-   :num_students_correct: 715.0
-   :mean_clicks_to_correct: 11.5748251748
+   :pct_on_first: 0.0940988836
+   :total_students_attempting: 1254
+   :num_students_correct: 725.0
+   :mean_clicks_to_correct: 11.6
 
    def count(substr,theStr):
        # your code here

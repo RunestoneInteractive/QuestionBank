@@ -1,8 +1,10 @@
 .. mchoice:: question14_8_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter14/invariants
+   :chapter: Chapter14
+   :subchapter: invariants
+   :topics: Chapter14/invariants
    :from_source: T
    :answer_a: True
    :answer_b: False

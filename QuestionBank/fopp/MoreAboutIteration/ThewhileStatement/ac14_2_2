@@ -1,14 +1,16 @@
 .. activecode:: ac14_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: MoreAboutIteration/ThewhileStatement
+   :chapter: MoreAboutIteration
+   :subchapter: ThewhileStatement
+   :topics: MoreAboutIteration/ThewhileStatement
    :from_source: T
    :practice: T
-   :pct_on_first: 0.3452157598
-   :total_students_attempting: 533
-   :num_students_correct: 382.0
-   :mean_clicks_to_correct: 3.2539267016
+   :pct_on_first: 0.3475046211
+   :total_students_attempting: 541
+   :num_students_correct: 388.0
+   :mean_clicks_to_correct: 3.2293814433
 
    Write a while loop that is initialized at 0 and stops at 15. If the counter is an even number, append the counter to a list called ``eve_nums``.
    ~~~~

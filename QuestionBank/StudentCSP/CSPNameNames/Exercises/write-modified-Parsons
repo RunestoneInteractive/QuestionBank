@@ -1,11 +1,17 @@
 .. parsonsprob:: write-modified-Parsons
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.3545816733
+   :total_students_attempting: 251
+   :num_students_correct: 250.0
+   :mean_clicks_to_correct: 3.588
 
    Put the code in order to open the files and loop through the lines
    in the input file.  Each line has city, state: pm10: pm25.  

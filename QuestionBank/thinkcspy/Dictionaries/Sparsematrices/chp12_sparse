@@ -1,8 +1,10 @@
 .. activecode:: chp12_sparse
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Dictionaries/Sparsematrices
+   :chapter: Dictionaries
+   :subchapter: Sparsematrices
+   :topics: Dictionaries/Sparsematrices
    :from_source: T
 
    matrix = {(0, 3): 1, (2, 1): 2, (4, 3): 3}

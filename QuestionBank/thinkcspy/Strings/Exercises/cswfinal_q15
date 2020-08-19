@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q15
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :answer_a: s[3: 9]
    :answer_b: s / 2

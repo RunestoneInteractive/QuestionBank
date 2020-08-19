@@ -1,8 +1,10 @@
 .. mchoice:: e12a13_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPStringDecisions/exam12a13
+   :chapter: CSPStringDecisions
+   :subchapter: exam12a13
+   :topics: CSPStringDecisions/exam12a13
    :from_source: T
    :practice: T
    :answer_a: A
@@ -16,11 +18,15 @@
    :feedback_c: This would be true if the score was less than 80 and greater than or equal to 70.
    :feedback_d: This would be true if the score was less than 70 and greater than or equal to 60.
    :feedback_e: This would be true if the score was less than 60.
+   :pct_on_first: 0.852189781
+   :total_students_attempting: 548
+   :num_students_correct: 491.0
+   :mean_clicks_to_correct: 1.0509164969
 
    What is printed when the following code executes?
-
+   
    ::
-
+   
       score = 88
       if score >= 90:
           grade = "A"

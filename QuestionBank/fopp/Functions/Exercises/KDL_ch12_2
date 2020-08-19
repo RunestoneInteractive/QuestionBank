@@ -1,8 +1,10 @@
 .. activecode:: KDL_ch12_2
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

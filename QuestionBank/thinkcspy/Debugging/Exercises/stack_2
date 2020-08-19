@@ -1,8 +1,10 @@
 .. mchoice:: stack_2
     :author: David Birrow
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Debugging/Exercises
+    :chapter: Debugging
+    :subchapter: Exercises
+    :topics: Debugging/Exercises
     :from_source: F
     :answer_a: Syntax
     :answer_b: Name

@@ -1,8 +1,10 @@
 .. mchoice:: question7_10_3
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/TheAccumulatorPatternwithConditionals
+   :chapter: Conditionals
+   :subchapter: TheAccumulatorPatternwithConditionals
+   :topics: Conditionals/TheAccumulatorPatternwithConditionals
    :from_source: F
    :answer_a: I
    :answer_b: II

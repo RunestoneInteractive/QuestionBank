@@ -1,8 +1,10 @@
 .. shortanswer:: TL_365_ReadingFeedback_3
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
    :optional:
 

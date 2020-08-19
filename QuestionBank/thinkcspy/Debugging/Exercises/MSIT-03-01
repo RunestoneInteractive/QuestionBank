@@ -1,8 +1,10 @@
 .. fillintheblank:: MSIT-03-01
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
    :casei: 
    :pct_on_first: 0.2857142857

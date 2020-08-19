@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit8-2DArray/a2dHardMC
+   :topics: Unit8-2DArray/a2dHardMC
    :from_source: T
    :practice: T
    :answer_a: The maximum brightness value for all pixels in imagePixel

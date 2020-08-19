@@ -1,8 +1,10 @@
 .. mchoice:: e1a2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPTuring/Exercises
+   :chapter: CSPTuring
+   :subchapter: Exercises
+   :topics: CSPTuring/Exercises
    :from_source: T
    :answer_a: variable
    :answer_b: turtle
@@ -13,5 +15,9 @@
    :feedback_b: A turtle is an object that can move forward and turn.  As it moves it can draw with a pen.
    :feedback_c: A string is a sequence of characters.
    :feedback_d: A program is a set of instructions that a computer can execute.
+   :pct_on_first: 0.862312812
+   :total_students_attempting: 2404
+   :num_students_correct: 2128.0
+   :mean_clicks_to_correct: 1.0310150376
 
    A named space that can hold a value is which of the following?

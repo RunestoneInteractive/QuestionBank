@@ -1,16 +1,18 @@
 .. activecode:: ac6_8_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/TheAccumulatorPattern
+   :chapter: Iteration
+   :subchapter: TheAccumulatorPattern
+   :topics: Iteration/TheAccumulatorPattern
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3492268041
-   :total_students_attempting: 1552
-   :num_students_correct: 1153.0
-   :mean_clicks_to_correct: 2.7068516912
+   :pct_on_first: 0.350798722
+   :total_students_attempting: 1565
+   :num_students_correct: 1164.0
+   :mean_clicks_to_correct: 2.7079037801
 
    Create a list of numbers 0 through 40 and assign this list to the variable ``numbers``. Then, accumulate the total of the list's values and assign that sum to the variable ``sum1``.
    ~~~~

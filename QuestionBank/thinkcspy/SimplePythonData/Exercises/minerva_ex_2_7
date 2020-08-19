@@ -1,8 +1,10 @@
 .. actex:: minerva_ex_2_7
    :author: Juraj Vasek
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    The formula for computing the final amount if one is earning

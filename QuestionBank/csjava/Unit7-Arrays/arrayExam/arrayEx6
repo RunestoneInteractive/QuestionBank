@@ -1,0 +1,75 @@
+.. mchoice:: arrayEx6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit7-Arrays
+   :subchapter: arrayExam
+   :topics: Unit7-Arrays/arrayExam
+   :from_source: T
+   :practice: T
+   :answer_a: A
+   :answer_b: B
+   :answer_c: C
+   :answer_d: D
+   :answer_e: E
+   :correct: b
+   :feedback_a: This won't work since each time through the loop b is reset based on the last comparison.
+   :feedback_b: This will return false if it finds a value at i that is larger than the value at i+1 and otherwise it returns true.
+   :feedback_c: There is no way for b to become true.
+   :feedback_d: This sets b to true when it finds elements that are out of order.
+   :feedback_e: This returns as soon as it finds a value that is out of order, but returns true instead of false.
+
+   Which of the following is the missing code from the method ``isSorted`` so that it correctly checks that all elements in ``x`` are sorted in ascending order?
+
+   .. code-block:: java
+
+      public static boolean isSorted(int[] x)
+      {
+         //missing code goes here
+      }
+
+
+     A.
+     boolean b = true;
+     for (int i=0 ; i < x.length - 1; i++)
+     {
+        if ( x[i] > x[i+1] )
+           b = false;
+        else
+           b = true;
+     }
+     return b;
+
+     B.
+     for (int i=0; i < x.length - 1; i++)
+     {
+        if (x[i] > x[i+1] )
+           return false;
+     }
+     return true;
+
+     C.
+     boolean b = false;
+     for (int i=0; i<x.length - 1; i++)
+     {
+        if (x[i] > x[i+1] )
+           b = false;
+     }
+     return b;
+
+     D.
+     boolean b = false;
+     for (int i=0;i<x.length - 1;i++)
+     {
+        if (x[i] > x[i+1] )
+           b = true;
+     }
+     return b;
+
+     E.
+     for (int i=0;i<x.length - 1;i++)
+     {
+        if (x[i] > x[i+1] )
+           return true;
+     }
+     return false;

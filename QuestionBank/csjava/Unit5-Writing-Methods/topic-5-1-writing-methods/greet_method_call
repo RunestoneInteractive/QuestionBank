@@ -1,0 +1,27 @@
+.. clickablearea:: greet_method_call
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit5-Writing-Methods
+    :subchapter: topic-5-1-writing-methods
+    :topics: Unit5-Writing-Methods/topic-5-1-writing-methods
+    :from_source: F
+    :question: Click on the greet method call.
+    :iscode:
+    :feedback: The greet() method call occurs in the main method.
+
+    :click-incorrect:public class Test2:endclick:
+    :click-incorrect:{:endclick:
+        :click-incorrect:public static void greet():endclick:
+        :click-incorrect:{:endclick:
+            :click-incorrect:System.out.println("Hello!");:endclick:
+            :click-incorrect:System.out.println("How are you?");:endclick:
+        :click-incorrect:}:endclick:
+        :click-incorrect: :endclick:
+        :click-incorrect:public static void main(String[] args):endclick:
+        :click-incorrect:{:endclick:
+            :click-incorrect:System.out.println("Before greeting");:endclick:
+            :click-correct:greet();:endclick:
+            :click-incorrect:System.out.println("After greeting");:endclick:
+        :click-incorrect:}:endclick:
+    :click-incorrect:}:endclick:

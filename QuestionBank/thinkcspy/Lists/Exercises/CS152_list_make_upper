@@ -1,8 +1,10 @@
 .. actex:: CS152_list_make_upper
     :author: John Cigas
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :practice: T
     :autograde: unittest

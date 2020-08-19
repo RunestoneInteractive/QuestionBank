@@ -1,8 +1,10 @@
 .. activecode:: lhs_10_4a
     :author: Shadaj Laddad
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

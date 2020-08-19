@@ -1,8 +1,10 @@
 .. mchoice:: qpret_17
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit1-Getting-Started/ptest1
+    :chapter: Unit1-Getting-Started
+    :subchapter: ptest1
+    :topics: Unit1-Getting-Started/ptest1
     :from_source: T
     :answer_a: AB
     :answer_b: ABDC
@@ -15,35 +17,39 @@
     :feedback_c: After the call to methodOne in the super class printing "A", the code continues with the implicit this.methodTwo which resolves from the current object's class which is Derived. methodTwo in the Derived class is executed which then calls super.methodTwo which invokes printin "B" from methodTwo in the Base class. Then the "D" in the Derive methodTwo is printed. Finally the program returns to methodOne in the Derived class are prints "C".
     :feedback_d: The call to methodTwo in super.methodOne is to this.methodTwo which is the method from the Derived class. Consequently the "D" is also printed.
     :feedback_e: This is not an example of recursion. No method is called from within itself.
+    :pct_on_first: 0.1809198706
+    :total_students_attempting: 5566
+    :num_students_correct: 1368.0
+    :mean_clicks_to_correct: 1.6023391813
 
     Given the following class declarations, and assuming that the following declaration appears in a client program: ``Base b = new Derived();``, what is the result of the call ``b.methodOne();``?
-
+    
     .. code-block:: java
-
+    
         public class Base
         {
-
+    
            public void methodOne()
            {
               System.out.print("A");
               methodTwo();
            }
-
+    
            public void methodTwo()
            {
               System.out.print("B");
            }
         }
-
+    
         public class Derived extends Base
         {
-
+    
            public void methodOne()
            {
               super.methodOne();
               System.out.print("C");
            }
-
+    
            public void methodTwo()
            {
               super.methodTwo();

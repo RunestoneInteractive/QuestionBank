@@ -1,30 +1,28 @@
 .. activecode:: ac14_10_4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: MoreAboutIteration/ChapterAssessment
+    :chapter: MoreAboutIteration
+    :subchapter: ChapterAssessment
+    :topics: MoreAboutIteration/ChapterAssessment
     :from_source: T
     :practice: T
     :topics: MoreAboutIteration/ThewhileStatement
-    :pct_on_first: 0.5646258503
-    :total_students_attempting: 147
-    :num_students_correct: 146.0
-    :mean_clicks_to_correct: 2.0273972603
 
     Write a function called ``stop_at_z`` that iterates through a list of strings. Using a while loop, append each string to a new list until the string that appears is "z". The function should return the new list.
     ~~~~
-    
+
     def stop_at_z():
-    
+
     =====
-    
+
     from unittest.gui import TestCaseGui
-    
+
     class myTests(TestCaseGui):
-    
+
        def testOne(self):
           self.assertEqual(stop_at_z(['c', 'b', 'd', 'zebra', 'h', 'r', 'z', 'm', 'a', 'k']), ['c', 'b', 'd', 'zebra', 'h', 'r'], "Testing the function stop_at_z on the input ['c', 'b', 'd', 'zebra', 'h', 'r', 'z', 'm', 'a', 'k'].")
           self.assertEqual(stop_at_z(['zoo', 'zika', 'ozzie', 'pizzazz', 'z', 'pizza', 'zap', 'haze']), ['zoo', 'zika', 'ozzie', 'pizzazz'], "Testing the function stop_at_z on the input ['zoo', 'zika', 'ozzie', 'pizzazz', 'z', 'pizza', 'zap', 'haze'].")
           self.assertEqual(stop_at_z(['z']), [], "Testing the function stop_at_z on the input ['z'].")
-    
+
     myTests().main()

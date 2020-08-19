@@ -1,11 +1,17 @@
 .. parsonsprob:: json_list1
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/Exercises
+   :chapter: CSPWebData
+   :subchapter: Exercises
+   :topics: CSPWebData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.4488448845
+   :total_students_attempting: 303
+   :num_students_correct: 300.0
+   :mean_clicks_to_correct: 3.63
 
    Put the blocks in order to import the libraries and then read JSON data from a file into a list of dictionaries.  If the length of the list is greater than 0 then loop through the  list of dictionaries and print the first name and email for each entry.  There are three extra blocks that are not needed in a correct solution.
    -----

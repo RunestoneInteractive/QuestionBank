@@ -1,8 +1,10 @@
 .. mchoice:: e24_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_3
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_3
+   :topics: CSPPracticeQuestions/exam24_3
    :from_source: T
    :answer_a: sample.com
    :answer_b: sample.org.biz
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. sample.org is a subdomain of biz in this answer choice.
    :feedback_c: Correct. The subdomain is always on the left of the domain name.
    :feedback_d: Incorrect. Subdomains are always on the left side of the domain and use a "." instead of a "/".
+   :pct_on_first: 0.5189504373
+   :total_students_attempting: 343
+   :num_students_correct: 228.0
+   :mean_clicks_to_correct: 1.2807017544
 
    Which of the following would be a subdomain of the domain sample.org according to the guidelines of the Domain Name System (DNS)?

@@ -1,8 +1,10 @@
 .. mchoice:: mt1_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/Exercises
+   :chapter: TimedTests
+   :subchapter: Exercises
+   :topics: TimedTests/Exercises
    :from_source: T
    :answer_a: "Hello World!"
    :answer_b: "Hello "
@@ -15,11 +17,15 @@
    :feedback_c: The variable holds all characters that were stored at even indices for the original phrase.
    :feedback_d: Correct! The variable holds all characters that were stored at even indices for the original phrase.
    :feedback_e: The variable holds all characters that were stored at even indices for the original phrase.
+   :pct_on_first: 0.6111111111
+   :total_students_attempting: 18
+   :num_students_correct: 13.0
+   :mean_clicks_to_correct: 1.3846153846
 
    After the following code is executed, what does the variable mystery hold?
-
+   
    .. code-block:: java
-
+   
       public class mysterious
       {
          public static void main (String[] args)

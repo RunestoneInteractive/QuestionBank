@@ -1,13 +1,15 @@
 .. activecode:: act_scramble_ac_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/encryption
+    :chapter: Projects
+    :subchapter: encryption
+    :topics: Projects/encryption
     :from_source: T
-    :pct_on_first: 0.3867924528
-    :total_students_attempting: 530
-    :num_students_correct: 427.0
-    :mean_clicks_to_correct: 4.5971896956
+    :pct_on_first: 0.3879472693
+    :total_students_attempting: 531
+    :num_students_correct: 429.0
+    :mean_clicks_to_correct: 4.5850815851
 
     Write a program that will encrypt the plaintext.  Store your encrypted message in the variable ciphertext.
     ~~~~

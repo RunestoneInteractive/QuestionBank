@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit7-ArrayList/topic-7-1-arraylist-basics
+   :topics: Unit7-ArrayList/topic-7-1-arraylist-basics
    :from_source: T
    :answer_a: You can only have one import statement in a source file.
    :answer_b: You must specify the class to import.

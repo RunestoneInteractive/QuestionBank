@@ -1,13 +1,15 @@
 .. actex:: ac21_6_15
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.6153846154
-   :total_students_attempting: 39
-   :num_students_correct: 35.0
-   :mean_clicks_to_correct: 1.5714285714
+   :pct_on_first: 0.6097560976
+   :total_students_attempting: 41
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 1.5675675676
 
    Use the zip function to take the lists below and turn them into a list of tuples, with all the first items in the first tuple, etc.
    ~~~~

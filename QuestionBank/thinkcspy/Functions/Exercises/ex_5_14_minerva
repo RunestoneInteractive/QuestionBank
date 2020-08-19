@@ -1,15 +1,17 @@
 .. actex:: ex_5_14_minerva
    :author: Svitlana Midianko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.4117647059
-   :total_students_attempting: 17
-   :num_students_correct: 14.0
-   :mean_clicks_to_correct: 6.5
+   :pct_on_first: 0.4444444444
+   :total_students_attempting: 18
+   :num_students_correct: 15.0
+   :mean_clicks_to_correct: 6.1333333333
 
    **# # # EXTRA QUESTIONS # # #**
    Write a function called ``mySqrt`` that will approximate the square root of a number, call it n, by using

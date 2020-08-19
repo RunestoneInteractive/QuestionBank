@@ -1,16 +1,18 @@
 .. actex:: ex_6_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.5849802372
-   :total_students_attempting: 2530
-   :num_students_correct: 2307.0
-   :mean_clicks_to_correct: 2.5461638492
+   :pct_on_first: 0.5866927593
+   :total_students_attempting: 2555
+   :num_students_correct: 2332.0
+   :mean_clicks_to_correct: 2.5368782161
 
    Write a function ``findHypot``.  The function will be given the length of two sides of a right-angled triangle and it should return
    the length of the hypotenuse.  (Hint:  ``x ** 0.5`` will return the square root, or use ``sqrt`` from the math module)

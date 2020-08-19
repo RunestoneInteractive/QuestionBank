@@ -1,8 +1,10 @@
 .. poll:: Expectancy_0
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/scaffolded_code
+    :chapter: Projects
+    :subchapter: scaffolded_code
+    :topics: Projects/scaffolded_code
     :from_source: T
     :option_1: Definitely within reach
     :option_2: Within reach if I try my hardest

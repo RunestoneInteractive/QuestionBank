@@ -1,8 +1,10 @@
 .. actex:: CS152_ex_5_1_step_3
     :author: John Cigas
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     Copy your program from the previous exercise and make the following modifications:

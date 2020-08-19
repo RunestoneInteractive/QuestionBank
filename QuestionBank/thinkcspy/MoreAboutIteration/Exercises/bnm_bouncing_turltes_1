@@ -1,8 +1,10 @@
 .. activecode:: bnm_bouncing_turltes_1
     :author: Brad Miller
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: MoreAboutIteration/Exercises
+    :chapter: MoreAboutIteration
+    :subchapter: Exercises
+    :topics: MoreAboutIteration/Exercises
     :from_source: F
 
     Write a program that animates two turtles wandering aimlessly around the window.  If the turtles run into the edge of the window they should bounce off and go the other direction. If the turtles get too close to each other lets say the distance between them is less than 10 then your program should stop.   

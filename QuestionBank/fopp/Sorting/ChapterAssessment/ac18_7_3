@@ -1,30 +1,28 @@
 .. activecode:: ac18_7_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/ChapterAssessment
+   :chapter: Sorting
+   :subchapter: ChapterAssessment
+   :topics: Sorting/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Sorting/SortingaDictionary
-   :pct_on_first: 0.7104072398
-   :total_students_attempting: 221
-   :num_students_correct: 196.0
-   :mean_clicks_to_correct: 1.362244898
 
    The dictionary, ``medals``, shows the medal count for six countries during the Rio Olympics. Sort the country names so they appear alphabetically. Save this list to the variable ``alphabetical``.
    ~~~~
-   
+
    medals = {'Japan':41, 'Russia':56, 'South Korea':21, 'United States':121, 'Germany':42, 'China':70}
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testTwo(self):
          self.assertEqual(alphabetical, sorted(medals.keys()), "Testing that alphabetical value is assigned to correct values.")
-   
+
    myTests().main()

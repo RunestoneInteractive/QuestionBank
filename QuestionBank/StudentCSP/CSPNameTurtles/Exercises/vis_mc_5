@@ -1,8 +1,10 @@
 .. mchoice:: vis_mc_5
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
    :correct: c
    :answer_a: SELECT id FROM Messages
@@ -13,5 +15,9 @@
    :feedback_b: This gets all columns from Messages
    :feedback_c: This returns the highest id from Messages
    :feedback_d: This isn't valid in SQL
+   :pct_on_first: 0.4031007752
+   :total_students_attempting: 129
+   :num_students_correct: 129.0
+   :mean_clicks_to_correct: 1.9302325581
 
    Which of the following gets the highest id from the Messages table?

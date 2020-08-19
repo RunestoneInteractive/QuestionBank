@@ -1,8 +1,10 @@
 .. activecode:: L7.4a_Troy_If/Else
     :author: Shawn Haarer
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
     
     Lesson 7.4  Use  IF / ELSE  to decide between Heads and Tails

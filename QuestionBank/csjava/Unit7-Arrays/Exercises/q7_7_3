@@ -1,0 +1,22 @@
+.. mchoice:: q7_7_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit7-Arrays
+   :subchapter: Exercises
+   :topics: Unit7-Arrays/Exercises
+   :from_source: T
+   :practice: T
+   :answer_a: 1
+   :answer_b: 2
+   :answer_c: 3
+   :answer_d: 6
+   :answer_e: 4
+   :correct: b
+   :feedback_a: This would be returned from <code>arr[2]</code>.
+   :feedback_b: This returns the value in <code>arr</code> at index 3.  Remember that the first item in an array is at index 0.
+   :feedback_c: This would be returned from <code>arr[1]</code>.
+   :feedback_d: This would be returned from <code>arr[0]</code>.
+   :feedback_e: This would be returned from <code>arr.length</code>
+
+   What is returned from ``arr[3]`` if ``arr={6, 3, 1, 2}``?

@@ -1,8 +1,10 @@
 .. activecode:: If_Structure
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPIntroDecisions/if
+    :chapter: CSPIntroDecisions
+    :subchapter: if
+    :topics: CSPIntroDecisions/if
     :from_source: T
     :tour_1: "Structural Tour"; 1: c0-line1; 2-3: c0-line2-3; 4: c0-line4;
 

@@ -1,8 +1,10 @@
 .. activecode:: wvu_conditional_favoriteschool
     :author: Brian Powell
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
 
     Ask the user to enter their favorite university, storing the result in the **favorite_school** variable.

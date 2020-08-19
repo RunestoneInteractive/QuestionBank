@@ -1,8 +1,10 @@
 .. fillintheblank:: test
         :author: john bruzzo
-        :difficulty: 1
+        :difficulty: 1.0
         :basecourse: httlads
-        :topic: Introduction/Exercises
+        :chapter: Introduction
+        :subchapter: Exercises
+        :topics: Introduction/Exercises
         :from_source: F
 
         Complete the sentence: |blank| had a |blank| lamb. One plus one is: (note that if there aren't enough blanks for the feedback given, they're added to the end of the problem. So, we don't **need** to specify a blank here.)

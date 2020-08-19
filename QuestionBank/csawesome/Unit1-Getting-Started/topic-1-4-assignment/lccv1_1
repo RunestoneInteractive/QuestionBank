@@ -1,8 +1,10 @@
 .. activecode:: lccv1_1
    :author: Jeffrey Lapointe
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-4-assignment
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: F
    :language: java
 

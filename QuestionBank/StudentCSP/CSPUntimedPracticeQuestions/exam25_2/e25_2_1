@@ -1,8 +1,10 @@
 .. mchoice:: e25_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_2
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_2
+   :topics: CSPUntimedPracticeQuestions/exam25_2
    :from_source: T
    :answer_a: 10
    :answer_b: [1,2,3,4]
@@ -13,25 +15,29 @@
    :feedback_b: Incorrect. This is what is assigned to the variable new_list.
    :feedback_c: Incorrect. This is the final value in new_list.
    :feedback_d: Incorrect. The value of run_counter is what is returned from count(new_list).
+   :pct_on_first: 0.472972973
+   :total_students_attempting: 74
+   :num_students_correct: 73.0
+   :mean_clicks_to_correct: 2.2876712329
 
    What will the following code print?
-
-
-
+   
+   
+   
    PROCEDURE counter(lst):
-
+   
     count ← 0
-
+   
     FOR EACH item IN lst:
-
+   
      {
      count ← count + item
      }
-
+   
     RETURN (count)
-
+   
    new_list ← [1,2,3,4]
-
+   
    run_counter ← counter(new_list)
-
+   
    DISPLAY (run_counter)

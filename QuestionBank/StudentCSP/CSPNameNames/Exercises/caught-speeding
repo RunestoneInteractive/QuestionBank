@@ -1,8 +1,10 @@
 .. activecode:: caught-speeding
        :author: Barbara  Ericson
-       :difficulty: 1
+       :difficulty: 1.0
        :basecourse: StudentCSP
-       :topic: CSPNameNames/Exercises
+       :chapter: CSPNameNames
+       :subchapter: Exercises
+       :topics: CSPNameNames/Exercises
        :from_source: F
        :nocodelens:
        :autograde: unittest

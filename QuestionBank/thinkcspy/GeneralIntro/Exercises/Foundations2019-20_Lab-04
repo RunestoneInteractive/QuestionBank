@@ -1,8 +1,10 @@
 .. activecode:: Foundations2019-20_Lab-04
     :author: Max Garagnani
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
    
     ~~~~

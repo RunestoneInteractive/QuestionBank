@@ -1,8 +1,10 @@
 .. mchoice:: 12_6_3_Grade_Ifs
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPIntroDecisions/practice
+   :chapter: CSPIntroDecisions
+   :subchapter: practice
+   :topics: CSPIntroDecisions/practice
    :from_source: T
    :practice: T
    :answer_a: A
@@ -16,11 +18,15 @@
    :feedback_c: Copy this code to an activecode window and run it.
    :feedback_d: Each of the first 4 if statements will be executed. So grade will be set to A, then B then C and finally D.
    :feedback_e: This will only be true when score is less than 60.
+   :pct_on_first: 0.1388577828
+   :total_students_attempting: 893
+   :num_students_correct: 882.0
+   :mean_clicks_to_correct: 2.6553287982
 
    What is printed when the following code executes?
-
+   
    ::
-
+   
      score = 93
      if score >= 90:
          grade = "A"

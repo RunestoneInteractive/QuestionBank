@@ -1,8 +1,10 @@
 .. activecode:: debug_syntaxerr
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Debugging/Syntaxerrors
+    :chapter: Debugging
+    :subchapter: Syntaxerrors
+    :topics: Debugging/Syntaxerrors
     :from_source: T
 
     print("Hello, World!")

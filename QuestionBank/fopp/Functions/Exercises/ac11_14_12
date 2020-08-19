@@ -1,13 +1,15 @@
 .. actex:: ac11_14_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
-   :pct_on_first: 0.567251462
-   :total_students_attempting: 171
-   :num_students_correct: 152.0
-   :mean_clicks_to_correct: 1.6578947368
+   :pct_on_first: 0.5722543353
+   :total_students_attempting: 173
+   :num_students_correct: 154.0
+   :mean_clicks_to_correct: 1.6493506494
 
    Sum up all the negative numbers in a list.
    ~~~~

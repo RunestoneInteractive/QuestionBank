@@ -1,8 +1,10 @@
 .. parsonsprob:: print_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter11/print
+   :chapter: Chapter11
+   :subchapter: print
+   :topics: Chapter11/print
    :from_source: T
    :numbered: left
    :adaptive:

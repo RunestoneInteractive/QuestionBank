@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q33
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
    :answer_a: Prints the current time and date
    :answer_b: Prints the current time and temperature

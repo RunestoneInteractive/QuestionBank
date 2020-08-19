@@ -1,8 +1,10 @@
 .. mchoice:: 2D_tables_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter6/two_dimensional_tables
+   :chapter: Chapter6
+   :subchapter: two_dimensional_tables
+   :topics: Chapter6/two_dimensional_tables
    :from_source: T
    :answer_a: Change the first output statement to say cout << 3*x << endl;
    :answer_b: Change the first output statement to say cout << 3*x << \n;

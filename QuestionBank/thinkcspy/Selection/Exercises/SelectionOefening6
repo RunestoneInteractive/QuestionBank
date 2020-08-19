@@ -1,8 +1,10 @@
 .. actex:: SelectionOefening6
    :author: Jan Persan
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
    :nocodelens:
 

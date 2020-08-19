@@ -1,8 +1,10 @@
 .. activecode:: ac101_sample1
     :author: Brad Miller
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Debugging/Exercises
+    :chapter: Debugging
+    :subchapter: Exercises
+    :topics: Debugging/Exercises
     :from_source: F
 
     Write a function to add together its two arguments 

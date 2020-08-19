@@ -1,8 +1,10 @@
 .. activecode:: ICE_LSN10_01
     :author: jenkins
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: ICE/ICE_LSN10_01
+    :chapter: ICE
+    :subchapter: ICE_LSN10_01
+    :topics: ICE/ICE_LSN10_01
     :from_source: F
     :nocanvas:
 

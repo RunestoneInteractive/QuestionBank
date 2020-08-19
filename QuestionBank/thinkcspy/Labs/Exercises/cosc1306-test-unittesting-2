@@ -1,8 +1,10 @@
 .. activecode:: cosc1306-test-unittesting-2
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

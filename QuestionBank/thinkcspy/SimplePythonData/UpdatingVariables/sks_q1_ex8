@@ -1,8 +1,10 @@
 .. mchoice:: sks_q1_ex8
    :author: Shishir Shah
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/UpdatingVariables
+   :chapter: SimplePythonData
+   :subchapter: UpdatingVariables
+   :topics: SimplePythonData/UpdatingVariables
    :from_source: F
    :answer_a: 12
    :answer_b: -1

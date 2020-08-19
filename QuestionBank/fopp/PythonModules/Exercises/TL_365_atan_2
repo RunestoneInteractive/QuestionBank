@@ -1,15 +1,17 @@
 .. actex:: TL_365_atan_2
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1176470588
-   :total_students_attempting: 153
-   :num_students_correct: 70.0
-   :mean_clicks_to_correct: 3.1142857143
+   :pct_on_first: 0.1184210526
+   :total_students_attempting: 152
+   :num_students_correct: 71.0
+   :mean_clicks_to_correct: 3.0985915493
 
    For a right triangle we have
    

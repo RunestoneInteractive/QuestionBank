@@ -1,8 +1,10 @@
 .. activecode:: moff_3wk_check
     :author: Richard Moffat
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
 
     Use this active code window to complete the following:

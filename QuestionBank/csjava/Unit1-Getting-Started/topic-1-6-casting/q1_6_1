@@ -1,0 +1,16 @@
+.. mchoice:: q1_6_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-6-casting
+   :topics: Unit1-Getting-Started/topic-1-6-casting
+   :from_source: T
+   :practice: T
+   :answer_a: true
+   :answer_b: false
+   :correct: b
+   :feedback_a: Did you try this out in Active Code?  Does it work that way?
+   :feedback_b: Java throws away any values after the decimal point if you do integer division.  It does not round up automatically.
+
+   True or false: Java rounds up automatically when you do integer division.

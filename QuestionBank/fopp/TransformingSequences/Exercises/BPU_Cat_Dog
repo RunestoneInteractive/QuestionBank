@@ -1,8 +1,10 @@
 .. activecode:: BPU_Cat_Dog
    :author: Jane Weyant
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

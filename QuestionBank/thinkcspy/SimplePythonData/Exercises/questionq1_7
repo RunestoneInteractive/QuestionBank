@@ -1,8 +1,10 @@
 .. mchoice:: questionq1_7
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :answer_a: Nothing - a string and a number can't be added
    :answer_b: "1813"

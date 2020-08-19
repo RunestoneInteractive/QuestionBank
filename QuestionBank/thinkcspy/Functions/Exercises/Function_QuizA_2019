@@ -1,8 +1,10 @@
 .. activecode:: Function_QuizA_2019
     :author: Shawn Haarer
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     A function is provided that will calculate the area of a rectangle.  

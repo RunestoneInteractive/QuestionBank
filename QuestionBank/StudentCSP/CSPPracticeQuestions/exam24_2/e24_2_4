@@ -1,8 +1,10 @@
 .. mchoice:: e24_2_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_2
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_2
+   :topics: CSPPracticeQuestions/exam24_2
    :from_source: T
    :answer_a: Animal Size, Quantity
    :answer_b: Price, Quantity
@@ -13,9 +15,13 @@
    :feedback_b: Incorrect. Price and quantity of an animal isnt considered when determining which food to prepare.
    :feedback_c: Incorrect. Favorite food is important for the manager to know, but quantity of animal is not important in determining what food to prepare.
    :feedback_d: Correct. Animal size and favorite food are the two columns a manager would look at to determine which food to prepare.
+   :pct_on_first: 0.321299639
+   :total_students_attempting: 277
+   :num_students_correct: 143.0
+   :mean_clicks_to_correct: 1.6993006993
 
    A pet store has a database of all of its animals with information about each animal. The database is shown below.
-
+   
    +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
    |       Animal        |        Animal Size        |            Price           |         Quantity           |       Favorite Food        |
    +=====================+===========================+============================+============================+============================+
@@ -27,5 +33,5 @@
    +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
    |       Fish          |          Fish             |           $9.99            |              8             |          Fish Pellets      |
    +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
-
+   
    If the store manager wants to prepare food for small size animals only, which of the following categories should he/she use?

@@ -1,8 +1,10 @@
 .. actex:: ac18_8_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Sorting/Exercises
+    :chapter: Sorting
+    :subchapter: Exercises
+    :topics: Sorting/Exercises
     :from_source: T
 
     Now take a list L and make a dictionary of counts for how often these numbers appear in the list.

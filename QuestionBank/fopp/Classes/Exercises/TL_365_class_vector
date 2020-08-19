@@ -1,15 +1,17 @@
 .. actex:: TL_365_class_vector
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Classes/Exercises
+   :chapter: Classes
+   :subchapter: Exercises
+   :topics: Classes/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.06
-   :total_students_attempting: 50
-   :num_students_correct: 19.0
-   :mean_clicks_to_correct: 6.4736842105
+   :pct_on_first: 0.0588235294
+   :total_students_attempting: 51
+   :num_students_correct: 20.0
+   :mean_clicks_to_correct: 6.25
 
    Add ``dot_product()`` methods to the ``Vector``
    class below.  Don't worry about the case where the vector lengths

@@ -1,8 +1,10 @@
 .. mchoice:: mt1_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/Exercises
+   :chapter: TimedTests
+   :subchapter: Exercises
+   :topics: TimedTests/Exercises
    :from_source: T
    :answer_a: !(a && b)
    :answer_b: !a && b
@@ -15,5 +17,9 @@
    :feedback_c: Correct!
    :feedback_d: This will only be true only when both a and b are true.
    :feedback_e: This will only be true if a is true, or b is false.
+   :pct_on_first: 0.7222222222
+   :total_students_attempting: 18
+   :num_students_correct: 14.0
+   :mean_clicks_to_correct: 1.0714285714
 
    Which option will evaluate to true, if and only if both a and b are false?

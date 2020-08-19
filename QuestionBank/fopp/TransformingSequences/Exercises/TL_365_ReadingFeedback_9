@@ -1,8 +1,10 @@
 .. shortanswer:: TL_365_ReadingFeedback_9
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :optional:
 

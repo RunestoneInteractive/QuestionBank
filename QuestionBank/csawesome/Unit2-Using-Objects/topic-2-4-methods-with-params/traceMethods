@@ -1,8 +1,10 @@
 .. mchoice:: traceMethods
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-4-methods-with-params
+   :topics: Unit2-Using-Objects/topic-2-4-methods-with-params
    :from_source: T
    :practice: T
    :answer_a: 25 and 2
@@ -16,11 +18,15 @@
    :feedback_c: The square(x) method is called before the divide(x,y) method.
    :feedback_d: The main method prints out " and " in between the method calls.
    :feedback_e: Try the code in the visualizer link below.
+   :pct_on_first: 0.634375
+   :total_students_attempting: 2560
+   :num_students_correct: 2535.0
+   :mean_clicks_to_correct: 1.8291913215
 
    What does the following code print out?
-
+   
    .. code-block:: java
-
+   
       public class MethodTrace
       {
         public void square(int x)

@@ -1,8 +1,10 @@
 .. parsonsprob:: medium_002
    :author: Ivan Lakovic
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :pct_on_first: 0.375
    :total_students_attempting: 8

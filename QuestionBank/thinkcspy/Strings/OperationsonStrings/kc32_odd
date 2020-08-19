@@ -1,8 +1,10 @@
 .. activecode:: kc32_odd
     :author: Karioki Crosby
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Strings/OperationsonStrings
+    :chapter: Strings
+    :subchapter: OperationsonStrings
+    :topics: Strings/OperationsonStrings
     :from_source: F
     :nocanvas:
 

@@ -1,8 +1,10 @@
 .. activecode:: ch_cl_05_answer
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Classes/Exercises
+    :chapter: Classes
+    :subchapter: Exercises
+    :topics: Classes/Exercises
     :from_source: F
 
     class Point:

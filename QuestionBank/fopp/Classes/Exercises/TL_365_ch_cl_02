@@ -1,8 +1,10 @@
 .. actex:: TL_365_ch_cl_02
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Classes/Exercises
+   :chapter: Classes
+   :subchapter: Exercises
+   :topics: Classes/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

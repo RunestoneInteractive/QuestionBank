@@ -1,8 +1,10 @@
 .. activecode:: while_ex2vars
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/topic-4-5-loop-analysis
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-5-loop-analysis
+   :topics: Unit4-Iteration/topic-4-5-loop-analysis
    :from_source: F
    :language: java
 

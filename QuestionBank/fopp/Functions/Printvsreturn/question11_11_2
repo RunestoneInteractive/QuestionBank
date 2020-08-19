@@ -1,8 +1,10 @@
 .. mchoice:: question11_11_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Printvsreturn
+   :chapter: Functions
+   :subchapter: Printvsreturn
+   :topics: Functions/Printvsreturn
    :from_source: T
    :answer_a: 2
    :answer_b: 5
@@ -16,10 +18,10 @@
    :feedback_d: h(2) returns 7, so y is bound to 7 when g is invoked.
    :feedback_e: Ah, but you can nest function calls.
    :practice: T
-   :pct_on_first: 0.7222672065
-   :total_students_attempting: 1235
-   :num_students_correct: 1218.0
-   :mean_clicks_to_correct: 1.4958949097
+   :pct_on_first: 0.7220883534
+   :total_students_attempting: 1245
+   :num_students_correct: 1228.0
+   :mean_clicks_to_correct: 1.4942996743
 
    What will the following code output?
    

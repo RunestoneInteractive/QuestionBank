@@ -1,8 +1,10 @@
 .. mchoice:: question4_8_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Debugging/ExperimentalDebugging
+   :chapter: Debugging
+   :subchapter: ExperimentalDebugging
+   :topics: Debugging/ExperimentalDebugging
    :from_source: F
    :answer_a: programming is the process of writing and gradually debugging a program until it does what you want.
    :answer_b: programming is creative and debugging is routine.

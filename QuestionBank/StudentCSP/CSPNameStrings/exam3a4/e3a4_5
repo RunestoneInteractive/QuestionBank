@@ -1,8 +1,10 @@
 .. mchoice:: e3a4_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/exam3a4
+   :chapter: CSPNameStrings
+   :subchapter: exam3a4
+   :topics: CSPNameStrings/exam3a4
    :from_source: T
    :practice: T
    :answer_a: 3
@@ -14,11 +16,15 @@
    :feedback_b: While var2 starts out set to 3 it changes to a copy of the value in var1 which is 10.
    :feedback_c: This is the value of var1 after the code executes.
    :feedback_d: You would have to set var2 to 0 at some point for this to be true.
+   :pct_on_first: 0.7695707071
+   :total_students_attempting: 1584
+   :num_students_correct: 1290.0
+   :mean_clicks_to_correct: 1.0682170543
 
    What is the value of var2 after the following code executes?
-
+   
    ::
-
+   
       var2 = 3
       var1 = 10
       var2 = var1

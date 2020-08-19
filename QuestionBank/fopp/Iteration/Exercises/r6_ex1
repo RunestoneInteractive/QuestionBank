@@ -1,8 +1,10 @@
 .. activecode:: r6_ex1
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Iteration/Exercises
+    :chapter: Iteration
+    :subchapter: Exercises
+    :topics: Iteration/Exercises
     :from_source: F
 
     This code is supposed to multiply all the elements in the list 'lst'. However, the code is wrong and doesn't produce the right result. Fix all the errors to get the desired result. Your code HAS to produce a single output: 24.

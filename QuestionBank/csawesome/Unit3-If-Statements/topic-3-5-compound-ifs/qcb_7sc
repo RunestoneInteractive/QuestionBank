@@ -1,8 +1,10 @@
 .. mchoice:: qcb_7sc
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/topic-3-5-compound-ifs
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-5-compound-ifs
+   :topics: Unit3-If-Statements/topic-3-5-compound-ifs
    :from_source: T
    :practice: T
    :answer_a: first case
@@ -12,11 +14,15 @@
    :feedback_a: Since x is equal to zero the first expression in the complex conditional will be true and the (y / x) == 3 won't be evaluated, so it won't cause a divide by zero error.  It will print "first case".
    :feedback_b: Since x is equal to zero the first part of the complex conditional is true so it will print first case.
    :feedback_c: You won't get an error because of short circuit evaluation.  The (y / x) == 3 won't be evaluated since the first expression is true and an or is used.
+   :pct_on_first: 0.5884595831
+   :total_students_attempting: 3934
+   :num_students_correct: 3889.0
+   :mean_clicks_to_correct: 1.6011828233
 
    What is printed when the following code executes and x has been set to zero and y is set to 3?
-
+   
    .. code-block:: java
-
+   
      if (x == 0 || (y / x) == 3)
      {
         System.out.println("first case");

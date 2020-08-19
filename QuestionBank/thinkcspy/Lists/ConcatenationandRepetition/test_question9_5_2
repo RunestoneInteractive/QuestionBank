@@ -1,8 +1,10 @@
 .. mchoice:: test_question9_5_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Lists/ConcatenationandRepetition
+   :chapter: Lists
+   :subchapter: ConcatenationandRepetition
+   :topics: Lists/ConcatenationandRepetition
    :from_source: T
    :practice: T
    :answer_a: 9
@@ -14,10 +16,10 @@
    :feedback_b: Repetition does not repeat each item individually.
    :feedback_c: Yes, the items of the list are repeated 3 times, one after another.
    :feedback_d: Repetition does not multiply the individual items.
-   :pct_on_first: 0.8418184776
-   :total_students_attempting: 12296
-   :num_students_correct: 12246.0
-   :mean_clicks_to_correct: 1.2503674669
+   :pct_on_first: 0.8422715489
+   :total_students_attempting: 12344
+   :num_students_correct: 12293.0
+   :mean_clicks_to_correct: 1.2494102335
 
    What is printed by the following statements?
    

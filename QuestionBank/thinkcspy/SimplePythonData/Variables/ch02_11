@@ -1,8 +1,10 @@
 .. codelens:: ch02_11
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Variables
+    :chapter: SimplePythonData
+    :subchapter: Variables
+    :topics: SimplePythonData/Variables
     :from_source: T
     :showoutput:
 

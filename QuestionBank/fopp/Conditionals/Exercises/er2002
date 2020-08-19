@@ -1,8 +1,10 @@
 .. activecode:: er2002
     :author: Eric Reed
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
 
     Write code that will ask the user for a number.  Using ONLY ONE

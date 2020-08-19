@@ -1,8 +1,10 @@
 .. actex:: HerhalingsOefening_Functies2
     :author: Gilles Fiers
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     (optioneel) Werk met je klasgenoten samen zodat je gelijk welke letter uit het alfabet kunt laten tekenen door een turtle.

@@ -1,8 +1,10 @@
 .. mchoice:: cswq3_10
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
    :answer_a: 11111111
    :answer_b: 10000000

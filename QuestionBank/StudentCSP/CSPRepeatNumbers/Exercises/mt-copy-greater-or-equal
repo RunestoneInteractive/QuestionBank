@@ -1,8 +1,10 @@
 .. parsonsprob:: mt-copy-greater-or-equal
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatNumbers/Exercises
+   :chapter: CSPRepeatNumbers
+   :subchapter: Exercises
+   :topics: CSPRepeatNumbers/Exercises
    :from_source: F
    :numbered: left
 

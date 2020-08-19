@@ -1,8 +1,10 @@
 .. activecode:: ac500_3_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: BuildingPrograms/WPCodeSectionataTime
+    :chapter: BuildingPrograms
+    :subchapter: WPCodeSectionataTime
+    :topics: BuildingPrograms/WPCodeSectionataTime
     :from_source: T
 
     # initialize a dictionary

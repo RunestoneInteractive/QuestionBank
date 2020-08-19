@@ -1,8 +1,10 @@
 .. mchoice:: question1_Ch1
    :author: Irma Ravkic
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :answer_a: print(I am a string!)
    :answer_b: I am a string!

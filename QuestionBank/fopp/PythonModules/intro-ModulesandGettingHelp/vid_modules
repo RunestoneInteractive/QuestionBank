@@ -1,8 +1,10 @@
 .. youtube:: GCLHuPBtLdQ
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: PythonModules/intro-ModulesandGettingHelp
+    :chapter: PythonModules
+    :subchapter: intro-ModulesandGettingHelp
+    :topics: PythonModules/intro-ModulesandGettingHelp
     :from_source: T
     :divid: vid_modules
     :height: 315

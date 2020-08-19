@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-7-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: It will give a compile-time error.
    :answer_b: san diego!
@@ -10,11 +12,15 @@
    :answer_d: null
    :answer_e: It will give a run-time error.
    :correct: b
+   :pct_on_first: 0.6582914573
+   :total_students_attempting: 199
+   :num_students_correct: 180.0
+   :mean_clicks_to_correct: 1.7222222222
 
    What is the value of s3 when the following code is executed?
-
+   
    .. code-block:: java
-
+   
     String s1 = "San Diego!";
     String s2 = s1;
     String s3 = new String("San Diego!");

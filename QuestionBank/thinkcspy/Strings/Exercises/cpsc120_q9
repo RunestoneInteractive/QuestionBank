@@ -1,8 +1,10 @@
 .. parsonsprob:: cpsc120_q9
    :author: Matthew Zuniga
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
 
    Sometimes, we unintentionally create infinite loops. That is, an exit condition for the loop is never reached. This type of infinite loop is called an Alderson loop (like Elliot Alderson from the hit TV series, Mr. Robot!) An Alderson Loop is when an exit condition is programmed but can never be reached.

@@ -1,8 +1,10 @@
 .. mchoice:: 15_4_1_posterize1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPImageDecisions/imageMultIf
+   :chapter: CSPImageDecisions
+   :subchapter: imageMultIf
+   :topics: CSPImageDecisions/imageMultIf
    :from_source: T
    :answer_a: 8
    :answer_b: 3
@@ -13,5 +15,9 @@
    :feedback_b: Two values of each of red, green, and blue is more than 3.
    :feedback_c: Far fewer
    :feedback_d: That's the total number of colors possible.  But this code reduces that.
+   :pct_on_first: 0.2111801242
+   :total_students_attempting: 322
+   :num_students_correct: 318.0
+   :mean_clicks_to_correct: 2.4088050314
 
    How many different colors will be in our image when we are done?

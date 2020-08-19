@@ -1,8 +1,10 @@
 .. activecode:: Image_Negate_Quarter
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatImages/changeData
+    :chapter: CSPRepeatImages
+    :subchapter: changeData
+    :topics: CSPRepeatImages/changeData
     :from_source: T
     :tour_1: "Important Lines Tour"; 1-2: imgR2-line1-2; 4-5: imgR2-line4-5; 8: imgR6-line8; 9: imgR6-line9; 10: imgR6-line10; 11: imgR6-line11; 13-17: imgR6-line13-17; 19-20: imgR6-line19-20; 22-23: imgR6-line22-23; 25-27: imgR6-line25-27;
     :nocodelens:

@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q23
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Lists/Exercises
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
    :from_source: F
    :answer_a: "I don't know why you say hello"
    :answer_b: 'I say goodbye'
@@ -10,10 +12,10 @@
    :answer_d: 'hello'
    :correct: a
    :random: 
-   :pct_on_first: 0.4745762712
-   :total_students_attempting: 59
-   :num_students_correct: 52.0
-   :mean_clicks_to_correct: 1.6730769231
+   :pct_on_first: 0.46875
+   :total_students_attempting: 64
+   :num_students_correct: 57.0
+   :mean_clicks_to_correct: 1.6666666667
 
    23. What does the following code print?::
    

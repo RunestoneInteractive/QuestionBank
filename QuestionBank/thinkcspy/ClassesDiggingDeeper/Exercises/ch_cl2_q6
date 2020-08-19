@@ -1,8 +1,10 @@
 .. actex:: ch_cl2_q6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: ClassesDiggingDeeper/Exercises
+   :chapter: ClassesDiggingDeeper
+   :subchapter: Exercises
+   :topics: ClassesDiggingDeeper/Exercises
    :from_source: T
    :nocodelens:
 

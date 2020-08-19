@@ -1,16 +1,18 @@
 .. activecode:: ac15_2_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/KeywordParameters
+   :chapter: AdvancedFunctions
+   :subchapter: KeywordParameters
+   :topics: AdvancedFunctions/KeywordParameters
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.7835820896
-   :total_students_attempting: 268
-   :num_students_correct: 249.0
-   :mean_clicks_to_correct: 1.4899598394
+   :pct_on_first: 0.7875457875
+   :total_students_attempting: 273
+   :num_students_correct: 254.0
+   :mean_clicks_to_correct: 1.4803149606
 
    **6.** Currently the function is supposed to take 1 required parameter, and 2 optional parameters, however the code doesn't work. Fix the code so that it passes the test. This should only require changing one line of code.
    ~~~~

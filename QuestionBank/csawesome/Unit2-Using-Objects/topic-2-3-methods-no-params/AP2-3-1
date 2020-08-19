@@ -1,55 +1,61 @@
 .. mchoice:: AP2-3-1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-3-methods-no-params
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-3-methods-no-params
+    :topics: Unit2-Using-Objects/topic-2-3-methods-no-params
     :from_source: T
     :practice: T
+    :pct_on_first: 0.5289485873
+    :total_students_attempting: 2159
+    :num_students_correct: 2138.0
+    :mean_clicks_to_correct: 2.1983161833
 
     Consider the following class definition.
-
+    
     .. code-block:: java
-
+    
         public class Party
         {
             private int numInvited;
             private boolean partyCancelled;
-
+    
             public Party()
             {
                 numInvited = 1;
                 partyCancelled = false;
             }
-
+    
             public void inviteFriend()
             {
                 numInvited++;
             }
-
+    
             public void cancelParty()
             {
                 partyCancelled = true;
             }
         }
-
+    
     Assume that a Party object called myParty has been properly declared and initialized in a class other than Party.  Which of the following statements are valid?
-
+    
     - myParty.cancelParty();
-
+    
       + Correct!
-
+    
     - myParty.inviteFriend(2);
-
+    
       - The method inviteFriend() does not have any parameters.
-
+    
     - myParty.endParty();
-
+    
       - There is no endParty() method in the class Party.
-
+    
     - myParty.numInvited++;
-
+    
       - This would cause an error because you cannot access the private instance variables of an object outside of the class.
-
+    
     - System.out.println( myParty.cancelParty() );
-
+    
       - This would cause an error because the void method cancelParty() does not return a String that could be printed out.

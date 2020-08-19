@@ -1,8 +1,10 @@
 .. youtube:: iUbToOoAykE
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: MoreAboutIteration/ThewhileStatement
+    :chapter: MoreAboutIteration
+    :subchapter: ThewhileStatement
+    :topics: MoreAboutIteration/ThewhileStatement
     :from_source: T
     :divid: whileloop
     :height: 315

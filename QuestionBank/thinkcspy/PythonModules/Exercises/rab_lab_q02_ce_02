@@ -1,8 +1,10 @@
 .. activecode:: rab_lab_q02_ce_02
    :author: Richard Bernatz
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
 
    Use this active code window for coding exercise 2 of Lab Quiz 2. Please refer to the quiz question sheet for directions.

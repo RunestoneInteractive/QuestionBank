@@ -1,35 +1,33 @@
 .. activecode:: ac21_7_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/ChapterAssessment
+   :chapter: AdvancedAccumulation
+   :subchapter: ChapterAssessment
+   :topics: AdvancedAccumulation/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
-   :chatcodes: 
+   :chatcodes:
    :practice: T
    :topics: AdvancedAccumulation/listcomp
-   :pct_on_first: 0.5882352941
-   :total_students_attempting: 85
-   :num_students_correct: 76.0
-   :mean_clicks_to_correct: 1.6315789474
 
    Below, we have provided a list of tuples that contain students' names and their final grades in PYTHON 101. Using list comprehension, create a new list ``passed`` that contains the names of students who passed the class (had a final grade of 70 or greater).
    ~~~~
-   
+
    students = [('Tommy', 95), ('Linda', 63), ('Carl', 70), ('Bob', 100), ('Raymond', 50), ('Sue', 75)]
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(passed, ['Tommy', 'Carl', 'Bob', 'Sue'], "Testing that passed is correct.")
          self.assertNotIn('map(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('filter(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('sum(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
          self.assertNotIn('zip(', self.getEditorText(), "Testing your code (Don't worry about actual and expected values).")
-   
+
    myTests().main()

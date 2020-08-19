@@ -1,8 +1,10 @@
 .. mchoice:: e3a4_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/exam3a4
+   :chapter: CSPNameStrings
+   :subchapter: exam3a4
+   :topics: CSPNameStrings/exam3a4
    :from_source: T
    :practice: T
    :answer_a: 0
@@ -14,10 +16,14 @@
    :feedback_b: This would be true if you were trying to divide 5 by a number that was larger than 5.
    :feedback_c: This would be true if it was 5 % 3.
    :feedback_d: 2 goes into 5 2 times with a remainder of 1.
+   :pct_on_first: 0.8278688525
+   :total_students_attempting: 1586
+   :num_students_correct: 1377.0
+   :mean_clicks_to_correct: 1.0682643428
 
    What is printed after the following executes?
-
+   
    ::
-
+   
       result = 5 % 2
       print(result)

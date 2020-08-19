@@ -1,8 +1,10 @@
 .. parsonsprob:: 2_swapex
    :author: Lizzy Scholten
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Projects/Exercises
+   :chapter: Projects
+   :subchapter: Exercises
+   :topics: Projects/Exercises
    :from_source: F
    :noindent:
 

@@ -1,8 +1,10 @@
 .. mchoice:: question5_8_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/CountandIndex
+   :chapter: Sequences
+   :subchapter: CountandIndex
+   :topics: Sequences/CountandIndex
    :from_source: T
    :answer_a: 5
    :answer_b: 6
@@ -16,10 +18,10 @@
    :feedback_d: Remember that index returns the left most occurance of the argument.
    :feedback_e: There is at least one 'we' in the string assigned to qu.
    :practice: T
-   :pct_on_first: 0.5115384615
-   :total_students_attempting: 2080
-   :num_students_correct: 2068.0
-   :mean_clicks_to_correct: 1.9879110251
+   :pct_on_first: 0.5116722249
+   :total_students_attempting: 2099
+   :num_students_correct: 2088.0
+   :mean_clicks_to_correct: 1.9851532567
 
    What will be stored in the variable ty below?
    

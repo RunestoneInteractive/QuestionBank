@@ -1,11 +1,17 @@
 .. parsonsprob:: 6_3_3_Triangle_Procedure
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/nameSteps
+   :chapter: CSPNameNames
+   :subchapter: nameSteps
+   :topics: CSPNameNames/nameSteps
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.2024983563
+   :total_students_attempting: 1521
+   :num_students_correct: 1442.0
+   :mean_clicks_to_correct: 4.1823855756
 
    The following code should define a procedure that draws a triangle, but it may be mixed up <i>and may contain extra (unused) code</i>.  Drag the needed code to the right side in the correct order.  <b>Remember that the statements in the procedure must be indented!</b>  To indent a block drag it further right.
    -----

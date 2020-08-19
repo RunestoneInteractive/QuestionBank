@@ -1,18 +1,24 @@
 .. activecode:: TurtleNestedLoop
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit4-Iteration/topic-4-4-nested-loops
+    :chapter: Unit4-Iteration
+    :subchapter: topic-4-4-nested-loops
+    :topics: Unit4-Iteration/topic-4-4-nested-loops
     :from_source: T
     :language: java
     :datafile: turtleClasses.jar
     :autograde: unittest
+    :pct_on_first: 0.125
+    :total_students_attempting: 144
+    :num_students_correct: 106.0
+    :mean_clicks_to_correct: 3.1886792453
 
     The turtle below is trying to draw a square many times to create a snowflake pattern. Can you change the outer loop so that the pattern completes all the way around? Try different ending values for the counter i to find the smallest number that works between 5 and 15.
     ~~~~
     import java.util.*;
     import java.awt.*;
-
+    
     public class TurtleDrawSnowflake
     {
       public static void main(String[] args)
@@ -20,9 +26,9 @@
           World world = new World(300,300);
           Turtle yertle = new Turtle(world);
           yertle.setColor(Color.blue);
-
+    
           for (int i = 1; i <= 5; i++) {
-
+    
              // inner loop draws a square
              for(int sides = 1; sides <= 4; sides++) {
                  yertle.forward();
@@ -38,22 +44,22 @@
     import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+    
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("TurtleDrawSnowflake");
         }
-
+    
         @Test
         public void test1()
         {
             String orig = "import java.util.*;\nimport java.awt.*;\n\npublic class TurtleDrawSnowflake\n{\n  public static void main(String[] args)\n  {\n      World world = new World(300,300);\n      Turtle yertle = new Turtle(world);\n      yertle.setColor(Color.blue);\n\n      for (int i = 1; i <= 5; i++) {\n\n         // inner loop draws a square\n         for(int sides = 1; sides <= 4; sides++) {\n             yertle.forward();\n             yertle.turn(90);\n         }\n         // turn a little before drawing square again\n         yertle.turn(30);\n      }\n      world.show(true);\n  }\n}\n";
-
+    
             boolean passed = codeChanged(orig);
             assertTrue(passed);
         }
-
+    
         @Test
         public void test2()
         {

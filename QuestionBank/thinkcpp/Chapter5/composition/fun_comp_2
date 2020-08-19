@@ -1,8 +1,10 @@
 .. mchoice:: fun_comp_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter5/composition
+   :chapter: Chapter5
+   :subchapter: composition
+   :topics: Chapter5/composition
    :from_source: T
    :answer_a: print_hello_name
    :answer_b: fluffy_cat
@@ -15,13 +17,17 @@
    :feedback_c: Although unconventional, there is nothing wrong about this name, but what about fluffy_cat?
    :feedback_d: All of these function names are technically legal, but in general, it's good practice to name your functions something that describes what they do.
    :feedback_e: There's nothing wrong with any of these function names, although some of them are weird.
+   :pct_on_first: 0.3333333333
+   :total_students_attempting: 3
+   :num_students_correct: 3.0
+   :mean_clicks_to_correct: 1.6666666667
 
    It turns out you already have a function called ``printHelloName``
    so you must rename this one.  Which of the following could be the
    new name for your function?
-
+   
    ::
-
+   
        void printHelloName (string name) {
          cout << "Hello " << name << "!" <<  endl;
        }

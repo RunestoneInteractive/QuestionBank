@@ -1,45 +1,51 @@
 .. mchoice:: AP2-4-3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/practice-test-objects
+    :chapter: Unit2-Using-Objects
+    :subchapter: practice-test-objects
+    :topics: Unit2-Using-Objects/practice-test-objects
     :from_source: T
     :practice: T
-    :random:
+    :random: 
+    :pct_on_first: 0.7042780749
+    :total_students_attempting: 1870
+    :num_students_correct: 1477.0
+    :mean_clicks_to_correct: 1.2491536899
 
     Consider the following methods, which appear in the same class.
-
+    
     .. code-block:: java
-
+    
         public void celsiusToFahrenheit(double cTemp)
         {
             double fTemp = (cTemp * 9)/5 + 32;
             printTemperature(cTemp, fTemp);
         }
-
+    
         public void printTemperature(double celsius, double fahrenheit)
         {
             System.out.print(celsius + "-->" + fahrenheit);
         }
-
+    
     Assume that the method call ``celsiusToFahrenheit(5)`` appears in a method in the same class. What is printed as a result of the method call?
-
+    
     - 5.0 --> 77.0
-
+    
       - (5 * 9)/5 + 32 = 41
-
+    
     - 41 --> 5
-
+    
       - Notice the order of parameters in printTemperature.
-
+    
     - celsius --> fahrenheit
-
+    
       - These are variables and their values would be printed.
-
+    
     - 5 --> 33.8
-
+    
       - (5 * 9)/5 + 32 = 41
-
+    
     - 5.0 --> 41.0
-
+    
       + Correct! (5 * 9)/5 + 32 = 41 and doubles print out with .0 at the end.

@@ -1,16 +1,18 @@
 .. activecode:: assess_ps3_1_1_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Conditionals/week3a1
+    :chapter: Conditionals
+    :subchapter: week3a1
+    :topics: Conditionals/week3a1
     :from_source: T
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.1303901437
-    :total_students_attempting: 974
-    :num_students_correct: 719.0
-    :mean_clicks_to_correct: 7.016689847
+    :pct_on_first: 0.1342828077
+    :total_students_attempting: 983
+    :num_students_correct: 728.0
+    :mean_clicks_to_correct: 6.9587912088
 
     ``rainfall_mi`` is a string that contains the average number of inches of rainfall in Michigan for every month (in inches) with every month separated by a comma.
     Write code to compute the number of months that have more than 3 inches of rainfall. Store the result in the variable ``num_rainy_months``.

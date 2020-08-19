@@ -1,17 +1,23 @@
 .. mchoice:: plot_mc2
    :author: Barbara  Ericson
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/Exercises
+   :chapter: CSPNameStrings
+   :subchapter: Exercises
+   :topics: CSPNameStrings/Exercises
    :from_source: F
    :correct: b
    :answer_a: git pull
-   :answer_b: git fetch upstream 
+   :answer_b: git fetch upstream
    :answer_c: git push
    :answer_d: git remote -v
    :feedback_a: This pulls changes from your GitHub repository.
    :feedback_b: This pulls changes from the upstream repository.
    :feedback_c: This puts your commits on your GitHub account.
    :feedback_d: This displays your origin and upstream
+   :pct_on_first: 0.4126984127
+   :total_students_attempting: 126
+   :num_students_correct: 126.0
+   :mean_clicks_to_correct: 1.8888888889
 
    Which command gets the changes on the repository that you forked?

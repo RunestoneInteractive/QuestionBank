@@ -1,8 +1,10 @@
 .. activecode:: MSIT-03-04
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
 
    When the activities shown are placed in the correct order, they describe a procedure that can be used to assure a program exhibits the correct behavior under a variety of circumstances.  Drag each block to put them in the correct order. 

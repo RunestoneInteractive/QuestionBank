@@ -1,8 +1,10 @@
 .. activecode:: CS152_ch07_validation_exercise2
     :author: John Cigas
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: MoreAboutIteration/SentinelValuesAndValidation
+    :chapter: MoreAboutIteration
+    :subchapter: SentinelValuesAndValidation
+    :topics: MoreAboutIteration/SentinelValuesAndValidation
     :from_source: F
     :timelimit: 60000
 

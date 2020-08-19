@@ -1,8 +1,10 @@
 .. activecode:: 1306_hw1_f19_q4a
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    [10 pts] You are now asked to develop a cash register for a Fruit shop. 

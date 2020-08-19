@@ -1,8 +1,10 @@
 .. activecode:: international_postal
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Inheritance/07-CaseStudy
+    :chapter: Inheritance
+    :subchapter: 07-CaseStudy
+    :topics: Inheritance/07-CaseStudy
     :from_source: T
     :include: base_postal
 

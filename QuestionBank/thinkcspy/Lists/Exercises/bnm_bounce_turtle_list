@@ -1,8 +1,10 @@
 .. activecode:: bnm_bounce_turtle_list
     :author: Brad Miller
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
 
     Write a program that allows 10 (or more) turtles to bounce around the screen.  When a trutle hits the edge of the screen it should bounce off at the appropriate angle.  (The angle of incidence is equal to the angle of reflection).  When two turtles hit each other, they should bounce off each other as well.  In a perfectly elastic collision the turtles simple exchange their headings.  The program should run for a minute before timing out.

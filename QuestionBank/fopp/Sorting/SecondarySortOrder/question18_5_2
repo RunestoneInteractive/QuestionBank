@@ -1,8 +1,10 @@
 .. mchoice:: question18_5_2
       :author: bmiller
-      :difficulty: 3
+      :difficulty: 3.0
       :basecourse: fopp
-      :topic: Sorting/SecondarySortOrder
+      :chapter: Sorting
+      :subchapter: SecondarySortOrder
+      :topics: Sorting/SecondarySortOrder
       :from_source: T
       :answer_a: first city name (reverse alphabetically), then temperature (lowest to highest)
       :answer_b: first temperature (highest to lowest), then city name (alphabetically)
@@ -16,10 +18,10 @@
       :feedback_e: Not quite, remember that by default, the sorted function will sort by alphabetical order, or lowest to highest. Is the reverse parameter set to True? Has a negative sign been used in the key parameter?
       :correct: a
       :practice: T
-      :pct_on_first: 0.4430769231
-      :total_students_attempting: 325
-      :num_students_correct: 318.0
-      :mean_clicks_to_correct: 2.1289308176
+      :pct_on_first: 0.4504504505
+      :total_students_attempting: 333
+      :num_students_correct: 326.0
+      :mean_clicks_to_correct: 2.1165644172
 
       What how will the following data be sorted?
       

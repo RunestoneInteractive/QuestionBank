@@ -1,8 +1,10 @@
 .. video:: v_interfacesAndInherit
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooInheritanceAndInterfaces
+   :chapter: Unit9-Inheritance
+   :subchapter: ooInheritanceAndInterfaces
+   :topics: Unit9-Inheritance/ooInheritanceAndInterfaces
    :from_source: F
    :controls:
    :thumb: ../_static/videoStart.png

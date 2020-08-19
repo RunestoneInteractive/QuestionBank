@@ -1,8 +1,10 @@
 .. mchoice:: e24_3_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_3
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_3
+   :topics: CSPPracticeQuestions/exam24_3
    :from_source: T
    :answer_a: Algorithm A always calculates the correct average, but Algorithm B may not.
    :answer_b: Algorithm B always calculates the correct average, but Algorithm A may not.
@@ -13,12 +15,16 @@
    :feedback_b: Incorrect. Algorithm B would calculate the average if the groups of four took an average of their scores.
    :feedback_c: Incorrect. Algorithm B would calculate the average if the groups of four took an average of their scores.
    :feedback_d: Incorrect. Algorithm A correctly calculates the average.
+   :pct_on_first: 0.5342857143
+   :total_students_attempting: 350
+   :num_students_correct: 261.0
+   :mean_clicks_to_correct: 1.4712643678
 
    There are 16 students standing in a classroom. Each student is given back his or her graded homework. Students decide to find out the class’s average score on the homework. Two different algorithms are given for finding the average score.
-
+   
    ::
-
-
+   
+   
      Algorithm A
      Step 1: All students stand.
      Step 2: A randomly selected student writes his or her score on the whiteboard
@@ -28,7 +34,7 @@
      The previous value on the whiteboard is erased.
      Step 4: Repeat step 3 until no students remain standing.
      Step 5: The value on the whiteboard is divided by 16.
-
+   
      Algorithm B
      Step 1: All students stand.
      Step 2: Students form groups of 4.
@@ -36,5 +42,5 @@
      to their seats.
      Step 4: Repeat steps 1 and 2 until only two students remain standing.
      Step 5: Add the remaining two students’ numbers and divide the sum by two.
-
+   
    Which of the following statements is true?

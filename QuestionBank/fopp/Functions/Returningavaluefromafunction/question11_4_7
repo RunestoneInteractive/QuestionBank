@@ -1,8 +1,10 @@
 .. mchoice:: question11_4_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Returningavaluefromafunction
+   :chapter: Functions
+   :subchapter: Returningavaluefromafunction
+   :topics: Functions/Returningavaluefromafunction
    :from_source: T
    :answer_a: 3
    :answer_b: 2
@@ -12,10 +14,10 @@
    :feedback_b: Yes! Two printed lines, and then the function body execution reaches a return statement.
    :feedback_c: The function returns an integer value! However, this code does not print out the result of the function invocation, so you can't see it (print is for people). The only lines you see printed are the ones that occur in the print statements before the return statement.
    :practice: T
-   :pct_on_first: 0.3861731844
-   :total_students_attempting: 1432
-   :num_students_correct: 1424.0
-   :mean_clicks_to_correct: 1.7773876404
+   :pct_on_first: 0.386001386
+   :total_students_attempting: 1443
+   :num_students_correct: 1435.0
+   :mean_clicks_to_correct: 1.7783972125
 
    How many lines will the following code print?
    

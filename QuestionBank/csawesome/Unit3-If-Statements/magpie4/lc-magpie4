@@ -1,8 +1,10 @@
 .. activecode:: lc-magpie4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/magpie4
+   :chapter: Unit3-If-Statements
+   :subchapter: magpie4
+   :topics: Unit3-If-Statements/magpie4
    :from_source: T
    :language: java
 

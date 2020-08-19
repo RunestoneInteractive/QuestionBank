@@ -1,8 +1,10 @@
 .. shortanswer:: wvu_exam2_dowhile
    :author: Brian Powell
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
 
    (4 points)

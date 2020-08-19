@@ -1,8 +1,10 @@
 .. mchoice:: question11_7_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Variablesandparametersarelocal
+   :chapter: Functions
+   :subchapter: Variablesandparametersarelocal
+   :topics: Functions/Variablesandparametersarelocal
    :from_source: T
    :answer_a: 33
    :answer_b: 12
@@ -12,10 +14,10 @@
    :feedback_b: Incorrect, look again at what is happening in producing.
    :feedback_c: Yes! There is an error because we reference y in the producing function, but it was defined in adding. Because y is a local variable, we can't use it in both functions without initializing it in both. If we initialized y as 3 in both though, the answer would be 33.
    :practice: T
-   :pct_on_first: 0.6344667697
-   :total_students_attempting: 1294
-   :num_students_correct: 1279.0
-   :mean_clicks_to_correct: 1.6637998436
+   :pct_on_first: 0.6355283308
+   :total_students_attempting: 1306
+   :num_students_correct: 1291.0
+   :mean_clicks_to_correct: 1.6630518978
 
    What is the result of the following code?
    

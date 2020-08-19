@@ -1,13 +1,15 @@
 .. actex:: ac21_6_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.5813953488
-   :total_students_attempting: 43
-   :num_students_correct: 40.0
-   :mean_clicks_to_correct: 1.725
+   :pct_on_first: 0.6
+   :total_students_attempting: 45
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 1.6904761905
 
    Define longwords using filter.
    ~~~~

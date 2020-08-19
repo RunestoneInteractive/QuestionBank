@@ -1,8 +1,10 @@
 .. mchoice:: qch_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: T
    :practice: T
    :answer_a: (x > 15 && x < 18) && (x > 10)
@@ -14,9 +16,13 @@
    :feedback_b: There's a third condition on x that can affect the output of the statement which is not considered in this solution.
    :feedback_c: The commutative property allows the terms to be switched around, while maintaining the value. In this case, the || symbol is used with the commutative property and the statement included the && must stay together to follow the laws of logic.
    :feedback_d: This is the negation of the original statement, thus returning incorrect values.
+   :pct_on_first: 0.4678932179
+   :total_students_attempting: 2772
+   :num_students_correct: 2746.0
+   :mean_clicks_to_correct: 1.8969410051
 
    Assuming that x and y have been declared as valid integer values, which of the following is equivalent to this statement?
-
+   
    .. code-block:: java
-
+   
      (x > 15 && x < 18) || (x > 10 || y < 20)

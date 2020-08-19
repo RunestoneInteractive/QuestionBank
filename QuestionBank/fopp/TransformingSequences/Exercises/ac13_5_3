@@ -1,13 +1,15 @@
 .. activecode:: ac13_5_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: T
-   :pct_on_first: 0.2918367347
-   :total_students_attempting: 490
-   :num_students_correct: 373.0
-   :mean_clicks_to_correct: 3.3431635389
+   :pct_on_first: 0.291750503
+   :total_students_attempting: 497
+   :num_students_correct: 380.0
+   :mean_clicks_to_correct: 3.3236842105
 
    The module ``keyword`` determines if a string is a keyword. e.g. ``keyword.iskeyword(s)`` where ``s`` is a string will return either ``True`` or ``False``, depending on whether or not the string is a Python keyword. Import the ``keyword`` module and test to see whether each of the words in list ``test`` are keywords. Save the respective answers in a list, ``keyword_test``.
    ~~~~

@@ -1,8 +1,10 @@
 .. mchoice:: pe4_13
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: Book b = new Book();
    :answer_b: Dictionary d = new Book();
@@ -11,16 +13,20 @@
    :feedback_a: A object can always be declared to be of the type of the class that creates it.
    :feedback_b: The declared type must the the type of the class that creates the object or the type of any parent class.   Dictionary is not a parent of the Book class.
    :feedback_c: The declared type can be the actual type (the class that creates the object) or any parent of the actual type.
+   :pct_on_first: 0.625
+   :total_students_attempting: 32
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 1.1666666667
 
    Given the following class declarations, which declaration below will result in a compiler error?
-
+   
    .. code-block:: java
-
+   
      public class Book
      {
         // code for class
      }
-
+   
      public class Dictionary extends Book
      {
         // code for class

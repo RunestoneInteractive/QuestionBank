@@ -1,8 +1,10 @@
 .. mchoice:: qcb3_4_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/topic-3-4-else-ifs
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-4-else-ifs
+   :topics: Unit3-If-Statements/topic-3-4-else-ifs
    :from_source: T
    :practice: T
    :answer_a: first quartile
@@ -14,11 +16,15 @@
    :feedback_b: This will only print if x is greater than or equal to 0.25 and less than 0.5.
    :feedback_c: The first only print if x is greater than or equal to 0.5 and less than 0.75.
    :feedback_d: This will print whenever x is greater than or equal to 0.75.
+   :pct_on_first: 0.7698516011
+   :total_students_attempting: 3841
+   :num_students_correct: 3814.0
+   :mean_clicks_to_correct: 1.3636601993
 
    What does the following code print when x has been set to .8?
-
+   
    .. code-block:: java
-
+   
      if (x < .25)
      {
          System.out.println("first quartile");

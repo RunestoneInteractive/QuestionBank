@@ -1,47 +1,53 @@
 .. mchoice:: AP1-2-1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit1-Getting-Started/topic-1-2-java-intro
+    :chapter: Unit1-Getting-Started
+    :subchapter: topic-1-2-java-intro
+    :topics: Unit1-Getting-Started/topic-1-2-java-intro
     :from_source: T
     :practice: T
+    :pct_on_first: 0.6546888694
+    :total_students_attempting: 3423
+    :num_students_correct: 3403.0
+    :mean_clicks_to_correct: 1.5254187482
 
     Consider the following code segment.
-
+    
     .. code-block:: java
-
+    
        System.out.print("Java is ");
        System.out.println("fun ");
        System.out.print("and cool!");
-
+    
     What is printed as a result of executing the code segment?
-
+    
     - .. raw:: html
-
+    
          <pre>Java is fun and cool!</pre>
-
+    
       - Notice the println in line 2.
-
+    
     - .. raw:: html
-
+    
          <pre>
          Java isfun
          and cool!
          </pre>
-
+    
       - Notice the space after is in the first line.
-
+    
     - .. raw:: html
-
+    
          <pre>Java is
          fun
          and cool!  </pre>
-
+    
       - Notice that the first line is a print, not println.
-
+    
     - .. raw:: html
-
+    
          <pre>Java is fun
          and cool!  </pre>
-
+    
       + Correct! Pay attention to which lines are print or println.

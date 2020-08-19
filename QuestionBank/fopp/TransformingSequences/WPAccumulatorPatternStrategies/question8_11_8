@@ -1,8 +1,10 @@
 .. mchoice:: question8_11_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/WPAccumulatorPatternStrategies
+   :chapter: TransformingSequences
+   :subchapter: WPAccumulatorPatternStrategies
+   :topics: TransformingSequences/WPAccumulatorPatternStrategies
    :from_source: T
    :answer_a: wrds
    :answer_b: past_wrds
@@ -12,9 +14,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.7066549912
-   :total_students_attempting: 1142
-   :num_students_correct: 1130.0
-   :mean_clicks_to_correct: 1.4088495575
+   :pct_on_first: 0.7082251082
+   :total_students_attempting: 1155
+   :num_students_correct: 1143.0
+   :mean_clicks_to_correct: 1.4059492563
 
    What sequence will you iterate through as you accumulate a result in the following prompt? For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.

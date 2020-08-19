@@ -1,8 +1,10 @@
 .. actex:: suci_practice_input_output_1
    :author: peter suci
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Run the program then modify it so that it will print whatever you enter in the input box.

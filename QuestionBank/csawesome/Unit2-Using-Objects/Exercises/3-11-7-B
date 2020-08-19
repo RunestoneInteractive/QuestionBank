@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-7-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: x = 0;
    :answer_b: x >= 0;
@@ -10,10 +12,14 @@
    :answer_d: if (x < 2) x = 0; else x += 2;
    :answer_e: None of the above
    :correct: e
+   :pct_on_first: 0.4789473684
+   :total_students_attempting: 190
+   :num_students_correct: 180.0
+   :mean_clicks_to_correct: 2.1444444444
 
    Which of the following is equivalent to the code segment below?
-
+   
    .. code-block:: java
-
+   
     if ( x > 5 ) x = x + 2;
     if ( x >= 2 ) x = 0;

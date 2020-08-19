@@ -1,16 +1,18 @@
 .. activecode:: assess_ps3_1_1_5
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Conditionals/week3a1
+    :chapter: Conditionals
+    :subchapter: week3a1
+    :topics: Conditionals/week3a1
     :from_source: T
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.4331288344
-    :total_students_attempting: 815
-    :num_students_correct: 630.0
-    :mean_clicks_to_correct: 3.3126984127
+    :pct_on_first: 0.4356796117
+    :total_students_attempting: 824
+    :num_students_correct: 638.0
+    :mean_clicks_to_correct: 3.289968652
 
     Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``. For this problem, vowels are only a, e, i, o, and u. Hint: use the ``in`` operator with ``vowels``.
     ~~~~

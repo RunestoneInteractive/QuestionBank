@@ -1,0 +1,42 @@
+.. mchoice:: mce_6_10
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :chapter: Chapter6
+    :subchapter: Exercises
+    :topics: Chapter6/Exercises
+    :from_source: T
+
+    After making some changes to his code, RePete tries again.
+    This time, however, the robots don't repeat anything!
+    Can you find the new error?
+
+    .. code-block:: cpp
+
+     void repeatBot (string input) {
+       int n = 0;
+       while (n > 5) {
+         cout << input << " ";
+         n++;
+       }
+     }
+
+     int main() {
+       repeatBot ("Hello, how may I help you?");
+     }
+
+    - ``n > 5`` is not a valid conditional, so the ``while`` loop doesn't execute.
+
+      - ``n > 5`` is a boolean statement and thus is a valid conditional.
+
+    - The value of ``n`` never gets modified in the ``while`` loop.
+
+      - ``n`` is incremented in the ``while`` loop after the ``cout`` statement.
+
+    - In the ``cout`` statement, only spaces are printed.
+
+      - ``input`` is also printed.
+
+    - Since ``n`` is declared to be 0, 0 is not greater than 5, so the ``while`` loop does not execute.
+
+      + The ``while`` loop is ignored, and thus nothing is printed.

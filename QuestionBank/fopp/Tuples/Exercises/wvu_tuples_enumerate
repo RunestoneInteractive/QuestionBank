@@ -1,8 +1,10 @@
 .. activecode:: wvu_tuples_enumerate
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Tuples/Exercises
+    :chapter: Tuples
+    :subchapter: Exercises
+    :topics: Tuples/Exercises
     :from_source: F
 
     Use the enumerate() function to print the contents of the **majors** list, with the name of the major and its index position in the list one to a line like this:

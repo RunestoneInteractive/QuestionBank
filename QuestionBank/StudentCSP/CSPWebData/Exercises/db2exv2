@@ -1,11 +1,17 @@
 .. parsonsprob:: db2exv2
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/Exercises
+   :chapter: CSPWebData
+   :subchapter: Exercises
+   :topics: CSPWebData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.0068965517
+   :total_students_attempting: 145
+   :num_students_correct: 144.0
+   :mean_clicks_to_correct: 7.7916666667
 
    Put the blocks below in order to connect to a database, create a cursor, use the cursor to insert into a table, commit the change, select data from the table and print it.  Then close the cursor..
    -----

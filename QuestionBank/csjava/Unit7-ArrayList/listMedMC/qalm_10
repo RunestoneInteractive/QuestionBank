@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit7-ArrayList/listMedMC
+   :topics: Unit7-ArrayList/listMedMC
    :from_source: T
    :practice: T
    :answer_a: [5, 7, 8, 12]

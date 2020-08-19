@@ -1,8 +1,10 @@
 .. activecode:: wvu_exam2_loadfile
     :author: Brian Powell
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: Projects/Exercises
+    :chapter: Projects
+    :subchapter: Exercises
+    :topics: Projects/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 1.0

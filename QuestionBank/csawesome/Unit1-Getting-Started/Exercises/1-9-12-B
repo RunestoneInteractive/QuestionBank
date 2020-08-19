@@ -1,19 +1,25 @@
 .. mchoice:: 1-9-12-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :answer_a: a = 8.0, b = 2, c = 4.0
    :answer_b: a = 6.0, b = -4, c = 3.0
    :answer_c: It will give a compile-time error.
    :answer_d: It will give a run-time error.
    :correct: a
+   :pct_on_first: 0.4083769634
+   :total_students_attempting: 382
+   :num_students_correct: 378.0
+   :mean_clicks_to_correct: 2.3174603175
 
    What are the values of a, b, and c after the following code executes?
-
+   
    .. code-block:: java
-
+   
     double a = 0.0;
     int b = 2;
     double c = 3.0;

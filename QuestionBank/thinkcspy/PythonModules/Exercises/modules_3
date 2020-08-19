@@ -1,8 +1,10 @@
 .. activecode:: modules_3
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
 
     Go to the Turtle module reference page

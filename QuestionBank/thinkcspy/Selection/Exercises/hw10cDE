@@ -1,8 +1,10 @@
 .. activecode:: hw10cDE
    :author: Damon Ellingston
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
 
    **Homework 10 part c**

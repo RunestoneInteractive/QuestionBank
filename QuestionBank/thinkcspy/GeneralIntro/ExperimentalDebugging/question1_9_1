@@ -1,8 +1,10 @@
 .. mchoice:: question1_9_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/ExperimentalDebugging
+   :chapter: GeneralIntro
+   :subchapter: ExperimentalDebugging
+   :topics: GeneralIntro/ExperimentalDebugging
    :from_source: T
    :practice: T
    :answer_a: programming is the process of writing and gradually debugging a program until it does what you want.
@@ -14,9 +16,9 @@
    :feedback_b: Programming can be creative, but it also follows a process and debugging can involve creativity in how you find the errors.
    :feedback_c: Some people think that debugging is actually more fun than programming (they usually become good software testers).  Debugging is much like solving puzzles, which some people think is fun!
    :feedback_d: You cannot debug without first having a program, meaning that someone had to do the programming first.
-   :pct_on_first: 0.7597751301
-   :total_students_attempting: 23836
-   :num_students_correct: 23731.0
-   :mean_clicks_to_correct: 1.331760145
+   :pct_on_first: 0.7598283613
+   :total_students_attempting: 24470
+   :num_students_correct: 24362.0
+   :mean_clicks_to_correct: 1.330432641
 
    The difference between programming and debugging is:

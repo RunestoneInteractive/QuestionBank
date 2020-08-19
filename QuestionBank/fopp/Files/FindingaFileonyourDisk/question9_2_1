@@ -1,8 +1,10 @@
 .. mchoice:: question9_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/FindingaFileonyourDisk
+   :chapter: Files
+   :subchapter: FindingaFileonyourDisk
+   :topics: Files/FindingaFileonyourDisk
    :from_source: T
    :answer_a: open("YearlyProjections.csv", "r")
    :answer_b: open("../CompanyData/YearlyProjections.csv", "r")
@@ -16,9 +18,9 @@
    :feedback_d: This would try to find a subdirectory Project of the current directory called Project.
    :feedback_e: Remember that '..' will bring you up one level to the parent directory. This would try to open a csv file in the parent directory of Project (but that is not where the file is.)
    :practice: T
-   :pct_on_first: 0.2307692308
-   :total_students_attempting: 1378
-   :num_students_correct: 1361.0
-   :mean_clicks_to_correct: 2.7553269655
+   :pct_on_first: 0.2298850575
+   :total_students_attempting: 1392
+   :num_students_correct: 1376.0
+   :mean_clicks_to_correct: 2.7558139535
 
    Say you are in a directory called Project. In it, you have a file with your Python code. You would like to read in data from a file called "YearlyProjections.csv" which is in a folder called CompanyData, which is inside of Project. What is the best way to open the file in your Python program?

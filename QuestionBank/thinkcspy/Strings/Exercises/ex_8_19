@@ -1,15 +1,17 @@
 .. actex:: ex_8_19
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.3349917081
-   :total_students_attempting: 1206
-   :num_students_correct: 1019.0
-   :mean_clicks_to_correct: 6.5112855741
+   :pct_on_first: 0.3355317395
+   :total_students_attempting: 1213
+   :num_students_correct: 1026.0
+   :mean_clicks_to_correct: 6.4980506823
 
    Write a function called  ``remove_dups`` that takes a string and creates a new string by only adding those characters that are not already present.  In other words,
    there will never be a duplicate letter added to the new string.

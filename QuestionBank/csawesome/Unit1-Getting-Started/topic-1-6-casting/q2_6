@@ -1,8 +1,10 @@
 .. mchoice:: q2_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-6-casting
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-6-casting
+   :topics: Unit1-Getting-Started/topic-1-6-casting
    :from_source: T
    :practice: T
    :answer_a: true
@@ -10,5 +12,9 @@
    :correct: b
    :feedback_a: Try casting to int instead of double.  What does that do?
    :feedback_b: Casting results in the type that you cast to. However, if you can't really cast the value to the specified type then you will get an error.
+   :pct_on_first: 0.7357443551
+   :total_students_attempting: 5226
+   :num_students_correct: 5205.0
+   :mean_clicks_to_correct: 1.2856868396
 
    True or false: casting always results in a double type.

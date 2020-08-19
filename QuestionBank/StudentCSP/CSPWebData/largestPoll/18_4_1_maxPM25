@@ -1,11 +1,17 @@
 .. parsonsprob:: 18_4_1_maxPM25
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/largestPoll
+   :chapter: CSPWebData
+   :subchapter: largestPoll
+   :topics: CSPWebData/largestPoll
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.36
+   :total_students_attempting: 350
+   :num_students_correct: 292.0
+   :mean_clicks_to_correct: 4.2739726027
 
    The following program prints the maximum PM 2.5 pollution found, but the code is mixed up.  Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or have the wrong indention.
    -----
@@ -13,7 +19,7 @@
    inFile = open("uspoll.txt","r")
    lines = inFile.readlines()
    inFile.close()
-
+   
    # initialize the variables
    maxCity = ''
    max25 = 0

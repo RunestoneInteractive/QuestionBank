@@ -1,8 +1,10 @@
 .. shortanswer:: short-lab1b1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit3-If-Statements/magpie2
+   :chapter: Unit3-If-Statements
+   :subchapter: magpie2
+   :topics: Unit3-If-Statements/magpie2
    :from_source: T
    :optional:
 

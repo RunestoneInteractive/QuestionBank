@@ -1,0 +1,15 @@
+.. dragndrop:: q1_8_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit1-Getting-Started
+    :subchapter: topic-1-8-summary
+    :topics: Unit1-Getting-Started/topic-1-8-summary
+    :from_source: T
+    :feedback: Review the summaries above.
+    :match_1: Specifying the type and name for a variable|||declaring a variable
+    :match_2: A whole number|||integer
+    :match_3: A name associated with a memory location.|||variable
+    :match_4: An expression that is either true or false|||Boolean
+
+    Drag the definition from the left and drop it on the correct concept on the right.  Click the "Check Me" button to see if you are correct

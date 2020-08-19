@@ -1,15 +1,17 @@
 .. actex:: TL_365_function_H-atom_energy
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0588235294
-   :total_students_attempting: 34
-   :num_students_correct: 21.0
-   :mean_clicks_to_correct: 8.380952381
+   :pct_on_first: 0.0571428571
+   :total_students_attempting: 35
+   :num_students_correct: 22.0
+   :mean_clicks_to_correct: 8.2272727273
 
    The `energy levels of the hydrogen atom
    <http://hyperphysics.phy-astr.gsu.edu/hbase/hyde.html>`_

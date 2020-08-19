@@ -1,13 +1,15 @@
 .. parsonsprob:: cswq5_9
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
-   :pct_on_first: 0.6948051948
-   :total_students_attempting: 154
-   :num_students_correct: 153.0
-   :mean_clicks_to_correct: 1.9477124183
+   :pct_on_first: 0.6987179487
+   :total_students_attempting: 156
+   :num_students_correct: 155.0
+   :mean_clicks_to_correct: 1.935483871
 
    9. Put the following statements in the correct order to define a function that returns all the digits in string s.
    -----

@@ -1,8 +1,10 @@
 .. activecode:: combined_pts_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Inheritance/03-Extending
+    :chapter: Inheritance
+    :subchapter: 03-Extending
+    :topics: Inheritance/03-Extending
     :from_source: T
 
     class Point:

@@ -1,8 +1,10 @@
 .. actex:: JC_14_1
    :author: Joaquin Carbonara
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :nocodelens: 
    :pct_on_first: 1.0

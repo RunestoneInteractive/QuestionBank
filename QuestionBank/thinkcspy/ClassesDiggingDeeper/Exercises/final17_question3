@@ -1,8 +1,10 @@
 .. activecode:: final17_question3
     :author: Brad Miller
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: ClassesDiggingDeeper/Exercises
+    :chapter: ClassesDiggingDeeper
+    :subchapter: Exercises
+    :topics: ClassesDiggingDeeper/Exercises
     :from_source: F
     :pct_on_first: 0.0625
     :total_students_attempting: 16

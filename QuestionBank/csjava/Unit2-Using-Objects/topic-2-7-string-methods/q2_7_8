@@ -1,0 +1,26 @@
+.. mchoice:: q2_7_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-7-string-methods
+   :topics: Unit2-Using-Objects/topic-2-7-string-methods
+   :from_source: T
+   :practice: T
+   :answer_a: hi th
+   :answer_b: hi the
+   :answer_c: hi ther
+   :answer_d: hi there
+   :correct: a
+   :feedback_a: The substring method returns the string starting at the first index and not including the last index.  The method indexOf returns the index of the first place the string occurs.
+   :feedback_b: This would be correct if substring returned all characters between the first index and last index, but does it?
+   :feedback_c: This would be correct if indexOf returned the last position the string str was found in the current string, does it?
+   :feedback_d: This would be correct if indexOf returned the last position the string str was found in the current string and if substring included all characters between the start and end index.  Check both of these.
+
+   What is the value of s2 after the following code executes?
+
+   .. code-block:: java
+
+     String s1 = new String("hi there");
+     int pos = s1.indexOf("e");
+     String s2 = s1.substring(0,pos);

@@ -1,8 +1,10 @@
 .. mchoice:: pe4_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: hi there
    :answer_b: HI THERE
@@ -15,11 +17,15 @@
    :feedback_c: Strings are immutable in Java which means they never change.  Any method that looks like it changes a string returns a new string object.  Since s1 was never changed to refer to a different string it stays the same.
    :feedback_d: This would be true if we asked what the value of s4 was.
    :feedback_e: How could this have happened?
+   :pct_on_first: 0.78125
+   :total_students_attempting: 32
+   :num_students_correct: 28.0
+   :mean_clicks_to_correct: 1.25
 
    What is value of s1 after the code below executes?
-
+   
    .. code-block:: java
-
+   
      String s1 = "Hi There";
      String s2 = s1;
      String s3 = s2;

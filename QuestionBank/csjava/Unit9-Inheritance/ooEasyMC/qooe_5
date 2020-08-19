@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit9-Inheritance/ooEasyMC
+   :topics: Unit9-Inheritance/ooEasyMC
    :from_source: T
    :practice: T
    :answer_a: Use four unrelated classes: <code>Car</code>, <code>Doors</code>, <code>AirConditioning</code>, and <code>MilesPerGallon</code>.

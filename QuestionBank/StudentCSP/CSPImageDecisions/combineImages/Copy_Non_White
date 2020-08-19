@@ -1,8 +1,10 @@
 .. activecode:: Copy_Non_White
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPImageDecisions/combineImages
+   :chapter: CSPImageDecisions
+   :subchapter: combineImages
+   :topics: CSPImageDecisions/combineImages
    :from_source: T
    :tour_1: "Structural Tour"; 1: id2a-line1; 4-5: id2a-line4-5; 8-9: id2a-line8-9; 10: id2a-line10; 11-13: id2a-line11-13; 16: id2a-line16; 19: id2a-line19; 22-23: id2a-line21-22;
    :nocodelens:

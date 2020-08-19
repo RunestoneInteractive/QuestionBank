@@ -1,8 +1,10 @@
 .. mchoice:: assess_question3_3_1_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: yes
    :answer_b: no
@@ -11,15 +13,11 @@
    :correct: b
    :practice: T
    :topics: TransformingSequences/Aliasing
-   :pct_on_first: 0.693877551
-   :total_students_attempting: 735
-   :num_students_correct: 726.0
-   :mean_clicks_to_correct: 1.303030303
 
    Could aliasing cause potential confusion in this problem?
-   
+
    .. sourcecode:: python
-   
+
     sent = "Holidays can be a fun time when you have good company!"
     phrase = sent
     phrase = phrase + " Holidays can also be fun on your own!"

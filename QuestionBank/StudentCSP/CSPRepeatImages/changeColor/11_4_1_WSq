@@ -1,7 +1,9 @@
 .. activecode::  11_4_1_WSq
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatImages/changeColor
+    :chapter: CSPRepeatImages
+    :subchapter: changeColor
+    :topics: CSPRepeatImages/changeColor
     :from_source: T
     :nocodelens:

@@ -1,8 +1,10 @@
 .. shortanswer:: rea2000-test-01
    :author: Ruth Anderson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :optional:
 

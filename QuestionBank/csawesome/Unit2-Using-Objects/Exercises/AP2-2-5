@@ -1,8 +1,10 @@
 .. mchoice:: AP2-2-5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: Movie one = new Movie("Harry Potter", "Bob");
@@ -16,18 +18,22 @@
    :feedback_c: It is not clear whether the variables title, rating, and director are the correct types or in the correct order.
    :feedback_d: The third argument "4.4" is a String because it is in quotes, but the constructor expects a double.
    :feedback_e: It is not clear whether t is the correct type for this constructor.
+   :pct_on_first: 0.362911796
+   :total_students_attempting: 1882
+   :num_students_correct: 1855.0
+   :mean_clicks_to_correct: 2.5142857143
 
     Consider the following class.  Which of the following code segments would successfully create a new Movie object?
-
+   
     .. code-block:: java
-
+   
         public class Movie
         {
             private String title;
             private String director;
             private double rating;
             private boolean inTheaters;
-
+   
             public Movie(String t, String d, double r)
             {
                 title = t;
@@ -35,7 +41,7 @@
                 rating = r;
                 inTheaters = false;
             }
-
+   
             public Movie(String t)
             {
                 title = t;

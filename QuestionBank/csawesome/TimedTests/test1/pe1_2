@@ -1,8 +1,10 @@
 .. mchoice:: pe1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: 1 2 3 2 4 6
    :answer_b: 1 2 3 2 4 6 3 6 9
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if it was k <= 3.
    :feedback_d: This would be true if it was k <= 4.
    :feedback_e: This would be true if k started at 0 instead of 1.
+   :pct_on_first: 0.6474820144
+   :total_students_attempting: 139
+   :num_students_correct: 106.0
+   :mean_clicks_to_correct: 1.2169811321
 
    What will the following code print when it is executed?
-
+   
    .. code-block:: java
-
+   
      for (int j = 1; j <= 3; j++) {
         for (int k = 1; k < 4; k++)
            System.out.print(j * k + " ");

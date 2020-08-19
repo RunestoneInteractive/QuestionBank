@@ -1,0 +1,32 @@
+.. mchoice:: qamed_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit7-Arrays
+   :subchapter: Exercises
+   :topics: Unit7-Arrays/Exercises
+   :from_source: F
+   :practice: T
+   :answer_a: [-2, -1, -5, 3, -4]
+   :answer_b: [-2, -1, 3, -8, 6]
+   :answer_c: [1, 5, -5, 3, -4]
+   :answer_d: [1, 5, 3, -8, 6]
+   :answer_e: [1, 5, -2, -5, 2]
+   :correct: c
+   :feedback_a: This would be true if <code>i</code> started at 0 instead of <code>arr1.length / 2</code>.
+   :feedback_b: This would be true if <code>i</code> started at 0 and ended when it reached <code>arr1.length / 2</code>.
+   :feedback_c: This loop starts at <code>arr2.length / 2</code> which is 2 and loops to the end of the array copying from <code>arr2</code> to <code>arr1</code>.
+   :feedback_d: This would be correct if this loop didn't change <code>arr1</code>, but it does.
+   :feedback_e: This would be correct if it set <code>arr1[i]</code> equal to <code>arr[i] + arr[2]</code> instead.
+
+   Assume that ``arr1={1, 5, 3, -8, 6}`` and ``arr2={-2, -1, -5, 3, -4}`` what will the contents of ``arr1`` be after ``copyArray`` finishes executing?
+
+   .. code-block:: java
+
+      public static void copyArray(int[] arr1, int[] arr2)
+      {
+         for (int i = arr1.length / 2; i < arr1.length; i++)
+         {
+            arr1[i] = arr2[i];
+         }
+      }

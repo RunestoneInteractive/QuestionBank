@@ -1,8 +1,10 @@
 .. mchoice:: test_question9_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Lists/ListsareMutable
+   :chapter: Lists
+   :subchapter: ListsareMutable
+   :topics: Lists/ListsareMutable
    :from_source: T
    :practice: T
    :answer_a: [4, 2, True, 8, 6, 5]
@@ -12,10 +14,10 @@
    :feedback_a: Item assignment does not insert the new item into the list.
    :feedback_b: Yes, the value True is placed in the list at index 2.  It replaces 8.
    :feedback_c: Item assignment is allowed with lists.  Lists are mutable.
-   :pct_on_first: 0.6962466254
-   :total_students_attempting: 11483
-   :num_students_correct: 11437.0
-   :mean_clicks_to_correct: 1.3943341785
+   :pct_on_first: 0.6972166826
+   :total_students_attempting: 11533
+   :num_students_correct: 11487.0
+   :mean_clicks_to_correct: 1.3932271263
 
    What is printed by the following statements?
    

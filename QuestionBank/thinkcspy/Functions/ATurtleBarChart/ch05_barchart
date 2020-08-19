@@ -1,8 +1,10 @@
 .. activecode:: ch05_barchart
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcspy
-  :topic: Functions/ATurtleBarChart
+  :chapter: Functions
+  :subchapter: ATurtleBarChart
+  :topics: Functions/ATurtleBarChart
   :from_source: T
   :nocodelens:
 

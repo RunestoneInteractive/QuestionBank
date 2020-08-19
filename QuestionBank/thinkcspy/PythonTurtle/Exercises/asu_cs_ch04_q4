@@ -1,8 +1,10 @@
 .. activecode:: asu_cs_ch04_q4
     :author: Erdogan Dogdu
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
 
     Write a program to draw the (turtle) graph for a 4th degree polynomial function

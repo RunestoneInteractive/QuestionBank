@@ -1,8 +1,10 @@
 .. mchoice:: pe2_17-11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit11-posttest/posttest
+   :chapter: Unit11-posttest
+   :subchapter: posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: 4
    :answer_b: 3
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if it was return (a[0] *= 2);
    :feedback_d: This would be true if it was a[0]--;
    :feedback_e: The statement a[1]--; is the same as a[1] = a[1] - 1; so this will change to 3 to 2.  The return (a[1] * 2) does not change the value at a[1].
+   :pct_on_first: 0.2651162791
+   :total_students_attempting: 430
+   :num_students_correct: 158.0
+   :mean_clicks_to_correct: 1.3924050633
 
    Given the following method declaration, and ``int[] a = {8, 3, 1}``, what is the value in ``a[1]`` after ``m1(a);`` is run?
-
+   
    .. code-block:: java
-
+   
      public static int m1(int[] a)
      {
         a[1]--;

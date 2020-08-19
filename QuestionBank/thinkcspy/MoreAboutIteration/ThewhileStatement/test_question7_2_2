@@ -1,8 +1,10 @@
 .. mchoice:: test_question7_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/ThewhileStatement
+   :chapter: MoreAboutIteration
+   :subchapter: ThewhileStatement
+   :topics: MoreAboutIteration/ThewhileStatement
    :from_source: T
    :practice: T
    :answer_a: n starts at 10 and is incremented by 1 each time through the loop, so it will always be positive
@@ -14,10 +16,10 @@
    :feedback_b: While it is true that answer will always be positive, answer is not considered in the loop condition.
    :feedback_c: It is perfectly valid to compare n to 0.  Though indirectly, this is what causes the infinite loop.
    :feedback_d: The loop condition must become False for the loop to terminate, but n by itself is not the condition in this case.
-   :pct_on_first: 0.6498971682
-   :total_students_attempting: 12642
-   :num_students_correct: 12596.0
-   :mean_clicks_to_correct: 1.6712448396
+   :pct_on_first: 0.6506498622
+   :total_students_attempting: 12695
+   :num_students_correct: 12649.0
+   :mean_clicks_to_correct: 1.6696972093
 
    The following code contains an infinite loop.  Which is the best explanation for why the loop does not terminate?
    

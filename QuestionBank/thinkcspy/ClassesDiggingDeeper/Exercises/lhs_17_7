@@ -1,8 +1,10 @@
 .. activecode:: lhs_17_7
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: ClassesDiggingDeeper/Exercises
+    :chapter: ClassesDiggingDeeper
+    :subchapter: Exercises
+    :topics: ClassesDiggingDeeper/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

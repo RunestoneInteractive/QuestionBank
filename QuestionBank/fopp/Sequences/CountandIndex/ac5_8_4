@@ -1,8 +1,10 @@
 .. activecode:: ac5_8_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/CountandIndex
+   :chapter: Sequences
+   :subchapter: CountandIndex
+   :topics: Sequences/CountandIndex
    :from_source: T
 
    seasons = ["winter", "spring", "summer", "fall"]

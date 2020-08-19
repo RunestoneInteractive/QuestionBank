@@ -1,8 +1,10 @@
 .. mchoice:: test_question8_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/StringComparison
+   :chapter: Strings
+   :subchapter: StringComparison
+   :topics: Strings/StringComparison
    :from_source: T
    :practice: T
    :answer_a: True
@@ -10,10 +12,10 @@
    :correct: a
    :feedback_a: Both match up to the g but Dog is shorter than Doghouse so it comes first in the dictionary.
    :feedback_b: Strings are compared character by character.
-   :pct_on_first: 0.7281183146
-   :total_students_attempting: 10751
-   :num_students_correct: 10721.0
-   :mean_clicks_to_correct: 1.2829027143
+   :pct_on_first: 0.7284076198
+   :total_students_attempting: 10814
+   :num_students_correct: 10783.0
+   :mean_clicks_to_correct: 1.2824816841
 
    Evaluate the following comparison:
    

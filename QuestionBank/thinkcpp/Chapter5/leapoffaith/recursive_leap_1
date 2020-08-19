@@ -1,8 +1,10 @@
 .. mchoice:: recursive_leap_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter5/leapoffaith
+   :chapter: Chapter5
+   :subchapter: leapoffaith
+   :topics: Chapter5/leapoffaith
    :from_source: T
    :answer_a: Since you can find the factorial of the first 3 numbers in a list, you must also be able to find the factorial of the first 2.
    :answer_b: You assume that the log function works, without examining the implementation.
@@ -13,5 +15,9 @@
    :feedback_b: This is a leap of faith, but it is not recursive.
    :feedback_c: Recursive leaps of faith always assume that the recursive call will work.
    :feedback_d: This is a leap of faith, but it is not recursive.
+   :pct_on_first: 0.0
+   :total_students_attempting: 2
+   :num_students_correct: 2.0
+   :mean_clicks_to_correct: 2.5
 
    Which of the following is an example of the recursive leap of faith?

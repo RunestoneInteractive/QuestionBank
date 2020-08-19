@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-6-A
    :author: Beryl Hoffman
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: Uni
    :answer_b: ni
@@ -14,12 +16,16 @@
    :feedback_b: How many characters is s2? Can you get the substring from 2 to 10 of it?
    :feedback_c: How many characters is s2? Can you get the substring from 2 to 10 of it?
    :feedback_d: How many characters is s2? Can you get the substring from 2 to 10 of it?
-   :feedback_e: s = "Unive" so we cannot get characters from 2 to 10 from it. 
+   :feedback_e: s = "Unive" so we cannot get characters from 2 to 10 from it.
+   :pct_on_first: 0.2398190045
+   :total_students_attempting: 221
+   :num_students_correct: 193.0
+   :mean_clicks_to_correct: 2.9067357513
 
    What is the output from the following code?
-
+   
    .. code-block:: java
-
+   
     String s = "University of California, San Diego";
     String s1 = s.substring(0, 11);
     String s2 = s1.substring(0, 5);

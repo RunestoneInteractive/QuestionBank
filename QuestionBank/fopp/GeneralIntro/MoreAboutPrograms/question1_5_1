@@ -1,8 +1,10 @@
 .. mchoice:: question1_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: GeneralIntro/MoreAboutPrograms
+   :chapter: GeneralIntro
+   :subchapter: MoreAboutPrograms
+   :topics: GeneralIntro/MoreAboutPrograms
    :from_source: T
    :answer_a: a sequence of instructions that specifies how to perform a computation.
    :answer_b: something you follow along at a play or concert.
@@ -13,9 +15,9 @@
    :feedback_b: True, but not in this context.  We mean a program as related to a computer.
    :feedback_c: A program can perform a computation, but by itself it is not one.
    :feedback_d: Programs often implement algorithms, but they are not the same thing.  An algorithm is a step by step list of instructions, but those instructions are not necessarily precise enough for a computer to follow.  A program must be written in a programming language that the computer knows how to interpret.
-   :pct_on_first: 0.8923173804
-   :total_students_attempting: 3176
-   :num_students_correct: 3166.0
-   :mean_clicks_to_correct: 1.1699305117
+   :pct_on_first: 0.8928019771
+   :total_students_attempting: 3237
+   :num_students_correct: 3227.0
+   :mean_clicks_to_correct: 1.1682677409
 
    A program is:

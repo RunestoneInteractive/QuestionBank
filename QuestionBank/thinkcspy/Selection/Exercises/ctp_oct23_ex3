@@ -1,8 +1,10 @@
 .. actex:: ctp_oct23_ex3
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
    :pct_on_first: 0.0505050505
    :total_students_attempting: 99

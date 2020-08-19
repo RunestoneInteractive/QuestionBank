@@ -1,21 +1,27 @@
 .. activecode:: TurtleTestGetSet
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-5-methods-return
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-5-methods-return
+    :topics: Unit2-Using-Objects/topic-2-5-methods-return
     :from_source: T
     :language: java
     :autograde: unittest
     :datafile: turtleClasses.jar
+    :pct_on_first: 0.12
+    :total_students_attempting: 125
+    :num_students_correct: 105.0
+    :mean_clicks_to_correct: 1.8952380952
 
     Try the code below that changes the turtle's width and height. How big or small can you make yertle?
-
+    
     (If the code below does not work in your browser, you can also copy in the code below into the Turtle code at this |repl link| (refresh page after forking and if it gets stuck) or download the files |github| to use in your own IDE.)
     ~~~~
     import java.util.*;
     import java.awt.*;
     import java.lang.Math;
-
+    
     public class TurtleTestGetSet
     {
       public static void main(String[] args)
@@ -34,13 +40,13 @@
     import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+    
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("TurtleTestGetSet");
         }
-
+    
         @Test
         public void test1()
         {

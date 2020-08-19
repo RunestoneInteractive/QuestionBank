@@ -1,8 +1,10 @@
 .. fillintheblank:: composition_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter12/composition
+    :chapter: Chapter12
+    :subchapter: composition
+    :topics: Chapter12/composition
     :from_source: T
 
     There are many different arrangements to combine language features.  This is called __________.

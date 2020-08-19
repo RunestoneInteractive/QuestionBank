@@ -1,8 +1,10 @@
 .. mchoice:: ePost_3_20
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPAbilitySummary/Exercises
+   :chapter: CSPAbilitySummary
+   :subchapter: Exercises
+   :topics: CSPAbilitySummary/Exercises
    :from_source: T
    :answer_a: [-5, 5, 0]  [3, 1, 3, 5]
    :answer_b: [10, 5, 0]  [3, 1, 3, 100]
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if it was a[0] = -5.
    :feedback_d: The value of a at index 1 is changed to -5.  The variable val is set to 0.  Then the value of a is printed.  Then b is set to [3,1,3,0].  Then the value at index 3 in b is set to 100.  Then it prints the value of b.
    :feedback_e: This would be true if it was var = a[1] before a[1] was changed.
+   :pct_on_first: 0.7527777778
+   :total_students_attempting: 360
+   :num_students_correct: 297.0
+   :mean_clicks_to_correct: 1.0942760943
 
    What is the output from the program below?
-
+   
    ::
-
+   
       a = [10,5,0]
       a[1] = -5
       val = a[2]

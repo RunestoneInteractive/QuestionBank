@@ -1,0 +1,47 @@
+.. mchoice:: AP5-3-3
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit6-Writing-Classes
+    :subchapter: Exercises
+    :topics: Unit6-Writing-Classes/Exercises
+    :from_source: F
+    :practice: T
+    :random:
+
+    Consider the following class definition that defines a Liquid class with a boilingPoint, a currentTemperature, and a freezingPoint. For example, Liquid water = new Liquid(100, 50, 0); defines a water object with a boiling point of 100, a current temperature of 50, and a freezing temperature of 0.
+
+    .. code-block:: java
+
+        public class Liquid
+        {
+            private int boilingPoint;
+            private int currentTemp;
+            private int freezingPoint;
+
+            public Liquid(int bp, int ct, int fp)
+            {
+                boilingPoint = bp;
+                currentTemp = ct;
+                freezingPoint = fp;
+            }
+            /* Other methods not shown */
+        }
+
+    Which of the following preconditions is reasonable for the Liquid constructor?
+
+    - Precondition: fp \> 0
+
+      - Incorrect. The freezing point could be negative.
+
+    - Precondition: currentTemp \> 0
+
+      - Incorrect. Unable to make this assumption for all liquids.
+
+    - Precondition: fp < ct < bp
+
+      + Correct!
+
+    - Precondition: fp > ct > bp
+
+      - Incorrect. This would again result in freezing point being > boiling point which is impossible.

@@ -1,8 +1,10 @@
 .. activecode:: chp08_index1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Strings/IndexOperatorWorkingwiththeCharactersofaString
+    :chapter: Strings
+    :subchapter: IndexOperatorWorkingwiththeCharactersofaString
+    :topics: Strings/IndexOperatorWorkingwiththeCharactersofaString
     :from_source: T
 
     school = "Luther College"

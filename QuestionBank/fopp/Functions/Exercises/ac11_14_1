@@ -1,13 +1,15 @@
 .. actex:: ac11_14_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
-   :pct_on_first: 0.3126079447
-   :total_students_attempting: 579
-   :num_students_correct: 455.0
-   :mean_clicks_to_correct: 3.4923076923
+   :pct_on_first: 0.3109965636
+   :total_students_attempting: 582
+   :num_students_correct: 457.0
+   :mean_clicks_to_correct: 3.4879649891
 
    Write a function named ``num_test`` that takes a number as input. If the number is greater than 10, the function should return "Greater than 10." If the number is less than 10, the function should return "Less than 10." If the number is equal to 10, the function should return "Equal to 10."
    ~~~~

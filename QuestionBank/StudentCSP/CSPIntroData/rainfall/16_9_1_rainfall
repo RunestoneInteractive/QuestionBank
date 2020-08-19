@@ -1,11 +1,17 @@
 .. parsonsprob:: 16_9_1_rainfall
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPIntroData/rainfall
+  :chapter: CSPIntroData
+  :subchapter: rainfall
+  :topics: CSPIntroData/rainfall
   :from_source: T
   :numbered: left
-  :adaptive:
+  :adaptive: 
+  :pct_on_first: 0.0423387097
+  :total_students_attempting: 496
+  :num_students_correct: 360.0
+  :mean_clicks_to_correct: 11.5
 
   Construct a program that correctly solves the rainfall problem
   -----

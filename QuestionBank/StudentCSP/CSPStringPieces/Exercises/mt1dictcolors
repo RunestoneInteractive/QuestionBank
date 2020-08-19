@@ -1,11 +1,17 @@
 .. parsonsprob:: mt1dictcolors
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPStringPieces/Exercises
+   :chapter: CSPStringPieces
+   :subchapter: Exercises
+   :topics: CSPStringPieces/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.4770318021
+   :total_students_attempting: 283
+   :num_students_correct: 282.0
+   :mean_clicks_to_correct: 1.9219858156
 
    Put the blocks in order to define the function get_color_counts to take a list of colors as strings and 
    return a dictionary that has the number of times each unique color appears in the list.

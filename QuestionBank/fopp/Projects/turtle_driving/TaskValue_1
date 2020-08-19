@@ -1,8 +1,10 @@
 .. poll:: TaskValue_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/turtle_driving
+    :chapter: Projects
+    :subchapter: turtle_driving
+    :topics: Projects/turtle_driving
     :from_source: T
     :option_1: Don't seem worth learning
     :option_2: May be worth learning

@@ -1,12 +1,18 @@
 .. activecode::  ch6ex10nq
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/topic-4-8-practice-coding
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-8-practice-coding
+   :topics: Unit4-Iteration/topic-4-8-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.5490196078
+   :total_students_attempting: 51
+   :num_students_correct: 41.0
+   :mean_clicks_to_correct: 1.7073170732
 
    Finish the code to print the value of ``x`` and ``" is even"`` if ``x`` is even and ``" is odd"`` if it is odd for all values from 10 to 1.
    ~~~~
@@ -14,14 +20,14 @@
    {
        public static void main(String[] args)
        {
-
+   
        }
    }
    ====
    import static org.junit.Assert.*;
      import org.junit.*;
      import java.io.*;
-
+   
      public class RunestoneTests extends CodeTestHelper
      {
          @Test
@@ -29,11 +35,11 @@
          {
              String output = getMethodOutput("main");
              String expect = "10 is even\n9 is odd\n8 is even\n7 is odd\n6 is even\n5 is odd\n4 is even\n3 is odd\n2 is even\n1 is odd\n";
-
+   
              boolean passed = getResults(expect, output, "Expected output from main");
              assertTrue(passed);
          }
-
+   
           @Test
          public void testIfLoop()
          {

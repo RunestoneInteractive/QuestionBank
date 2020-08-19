@@ -1,8 +1,10 @@
 .. activecode:: Complete_Assignment
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/invoice
+   :chapter: CSPNameNumbers
+   :subchapter: invoice
+   :topics: CSPNameNumbers/invoice
    :from_source: T
 
    numApples = 4

@@ -1,12 +1,18 @@
 .. activecode::  ch3Ex10q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-9-practice-coding
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-9-practice-coding
+   :topics: Unit1-Getting-Started/topic-1-9-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2876712329
+   :total_students_attempting: 292
+   :num_students_correct: 216.0
+   :mean_clicks_to_correct: 2.7824074074
 
    Write the code to print the number of chicken wings you can buy if you have $4.50 and they cost $0.75 each.  Remember that you can't buy part of a wing.
    ~~~~
@@ -17,14 +23,14 @@
          // Your code should use the variables
          // money, pricePerWing, numWings
          // and print out numWings
-
+   
        }
    }
    ====
    import static org.junit.Assert.*;
      import org.junit.*;
      import java.io.*;
-
+   
      public class RunestoneTests extends CodeTestHelper
      {
        @Test
@@ -35,11 +41,11 @@
          boolean passed = getResults(expect, output, "Expected output from main");
          assertTrue(passed);
        }
-
+   
        @Test
        public void testFormulaWings() throws IOException
        {
-         String target = "int numWings = (int)(money / pricePerWing);"
+         String target = "int numWings = (int)(money / pricePerWing)";
          boolean passed = checkCodeContains("formula for numWings using money and pricePerWing, and type casting", target);
          assertTrue(passed);
        }

@@ -1,8 +1,10 @@
 .. mchoice:: test_question8_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/TheSliceOperator
+   :chapter: Strings
+   :subchapter: TheSliceOperator
+   :topics: Strings/TheSliceOperator
    :from_source: T
    :practice: T
    :answer_a: python
@@ -14,10 +16,10 @@
    :feedback_b: That would be s[7:].
    :feedback_c: Yes, start with the character at index 3 and go up to but not include the character at index 8.
    :feedback_d: This is called slicing, not indexing.  It requires a start and an end.
-   :pct_on_first: 0.8724178724
-   :total_students_attempting: 10989
-   :num_students_correct: 10945.0
-   :mean_clicks_to_correct: 1.1956144358
+   :pct_on_first: 0.8726812053
+   :total_students_attempting: 11051
+   :num_students_correct: 11007.0
+   :mean_clicks_to_correct: 1.1952393931
 
    
    What is printed by the following statements?

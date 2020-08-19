@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: thinkcpp
-    :topic: Chapter2/exercises
+    :topics: Chapter2/exercises
     :from_source: T
 
     **Multiple Response** What could be changed so that the output of

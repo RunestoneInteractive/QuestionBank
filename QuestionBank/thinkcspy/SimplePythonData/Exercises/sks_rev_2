@@ -1,8 +1,10 @@
 .. mchoice:: sks_rev_2
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :answer_a: only accessible from within the function it is defined
    :answer_b: accessible to any part of the code in the same .py file

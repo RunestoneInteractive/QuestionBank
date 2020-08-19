@@ -1,14 +1,16 @@
 .. actex:: ac3_8_1_jcomes
    :author: Jonny Comes
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :autograde: unittest
    :pct_on_first: 0.5
-   :total_students_attempting: 6
-   :num_students_correct: 6.0
-   :mean_clicks_to_correct: 2.0
+   :total_students_attempting: 10
+   :num_students_correct: 10.0
+   :mean_clicks_to_correct: 2.9
 
    Write a program that prints ``We like Python's turtles!`` 100 times.
    ~~~~

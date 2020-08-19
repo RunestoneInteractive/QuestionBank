@@ -1,8 +1,10 @@
 .. parsonsprob:: csuf_cpsc120_q7
    :author: Matthew Zuniga
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :pct_on_first: 0.0
    :total_students_attempting: 1

@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit11-posttest/posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: a = 6 and b = 7
    :answer_b: a = 13 and b = 0

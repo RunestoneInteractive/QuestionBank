@@ -1,11 +1,17 @@
 .. parsonsprob:: count_subject-Parsons
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.1490196078
+   :total_students_attempting: 255
+   :num_students_correct: 251.0
+   :mean_clicks_to_correct: 7.3824701195
 
    Put the code in order to define a function that prints the 
    number of lines that begin with "Subject" in the passed file.

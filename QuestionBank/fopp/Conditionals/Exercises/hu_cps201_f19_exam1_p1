@@ -1,8 +1,10 @@
 .. activecode:: hu_cps201_f19_exam1_p1
     :author: Sean Joyce
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
 
     In the problem below, you are given a list of integers named `num_list`.

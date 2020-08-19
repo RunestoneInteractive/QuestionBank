@@ -1,9 +1,11 @@
 .. mchoice:: qpret_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit1-Getting-Started/ptest1
-    :from_source: T
+    :chapter: Unit1-Getting-Started
+    :subchapter: ptest1
+    :topics: Unit1-Getting-Started/ptest1
+    :from_source: F
     :answer_a: var1=1, var2=1
     :answer_b: var1=3, var2=-1
     :answer_c: var1=0, var2=2

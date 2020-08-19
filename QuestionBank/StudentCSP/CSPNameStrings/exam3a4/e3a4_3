@@ -1,8 +1,10 @@
 .. mchoice:: e3a4_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/exam3a4
+   :chapter: CSPNameStrings
+   :subchapter: exam3a4
+   :topics: CSPNameStrings/exam3a4
    :from_source: T
    :practice: T
    :answer_a: I only
@@ -14,11 +16,15 @@
    :feedback_b: When you use '+' it appends the strings together so this will print the correct string
    :feedback_c: Answer III will not work since there is no variable called Morrissey.
    :feedback_d: Answer II will work, but not answer I or answer III.  Number I has no quotes around the string. In III there is no variable called Morrissey.
+   :pct_on_first: 0.7744171393
+   :total_students_attempting: 1587
+   :num_students_correct: 1311.0
+   :mean_clicks_to_correct: 1.0785659802
 
    Which of the following line(s) of code will print out "My name is Morrissey"?
-
+   
    ::
-
+   
       I.   print (My name is Morrissey)
       II.  var1 = "My name is "
            var2 = "Morrissey"

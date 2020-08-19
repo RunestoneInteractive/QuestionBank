@@ -1,8 +1,10 @@
 .. actex:: suci_if_else_2a
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Run the program then modify it so that it asks the user what country they live in and then prints "correct" if is the USA.

@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw4_f19_q1
    :author: Nabeel Bacchus
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
 
    **[40 points] Question 1**. This problem is split into two parts

@@ -1,8 +1,10 @@
 .. parsonsprob:: question14_4_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter14/accessor_functions
+   :chapter: Chapter14
+   :subchapter: accessor_functions
+   :topics: Chapter14/accessor_functions
    :from_source: T
    :numbered: left
    :adaptive:

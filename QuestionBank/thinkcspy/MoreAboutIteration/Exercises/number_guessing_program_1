@@ -1,8 +1,10 @@
 .. activecode:: number_guessing_program_1
     :author: Richard Moffat
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: MoreAboutIteration/Exercises
+    :chapter: MoreAboutIteration
+    :subchapter: Exercises
+    :topics: MoreAboutIteration/Exercises
     :from_source: F
   
     Complete a program for the following game descriptions:

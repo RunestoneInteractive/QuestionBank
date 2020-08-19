@@ -1,8 +1,10 @@
 .. mchoice:: qrh_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit10-Recursion/rHardMC
+   :chapter: Unit10-Recursion
+   :subchapter: rHardMC
+   :topics: Unit10-Recursion/rHardMC
    :from_source: T
    :practice: T
    :answer_a: 5
@@ -16,11 +18,15 @@
    :feedback_c: The return value is not incremented the last time the method is called, when <code>i</code> is equal to 0.
    :feedback_d: The method only executes 6 times, with the return value incremented each time <code>i</code> is not equal to zero
    :feedback_e: Infinite recursion would happen if the method never reached its base case where <code>i</code> is equal to 0. This would be true if the division could result in a constantly shrinking fraction, but integer division truncates the fractional portion of the division.
+   :pct_on_first: 0.2953020134
+   :total_students_attempting: 447
+   :num_students_correct: 434.0
+   :mean_clicks_to_correct: 2.7419354839
 
    Given the following method declaration, what will ``redo(82, 3)`` return?
-
+   
    .. code-block:: java
-
+   
       public static int redo(int i, int j)
       {
          if (i==0)

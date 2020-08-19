@@ -1,8 +1,10 @@
 .. mchoice:: 11_6_1_Image_Mirror_Q1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatImages/changeData
+   :chapter: CSPRepeatImages
+   :subchapter: changeData
+   :topics: CSPRepeatImages/changeData
    :from_source: T
    :answer_a: img.setPixel(halfway - x, y, newPixel)
    :answer_b: img.setPixel(x - halfway, y, newPixel)
@@ -13,5 +15,9 @@
    :feedback_b: This creates two copies of the left half
    :feedback_c: Yes, it looks like the woman is kissing herself
    :feedback_d: No, no effect.
+   :pct_on_first: 0.4709543568
+   :total_students_attempting: 482
+   :num_students_correct: 478.0
+   :mean_clicks_to_correct: 1.9456066946
 
    Try it: How would you mirror the image from left-to-right around a vertical line in the middle of the picture?  Try changing line 22 to these.  If you get it right it will look like the women is nose to nose with herself.

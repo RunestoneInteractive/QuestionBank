@@ -1,8 +1,10 @@
 .. mchoice:: e24_3_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/exam24_3
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_3
+   :topics: CSPPracticeQuestions/exam24_3
    :from_source: T
    :answer_a: The long data type can store 2^48 times as many distinct values as the short data type
    :answer_b: The long data type can store 2^64 times as many distinct values as the short data type
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. That is how many total values the long data stores.
    :feedback_c: Incorrect. That is how many total values the short data stores.
    :feedback_d: Incorrect. While long data is 4 times as long as the short, the question asks for the difference in distinct values the data type can hold.
+   :pct_on_first: 0.4269005848
+   :total_students_attempting: 342
+   :num_students_correct: 211.0
+   :mean_clicks_to_correct: 1.5213270142
 
    Imagine there is a programming language which uses two different data types to store integers - a 16-bit short data type and a 64-bit long data type. Then which of the following statements is true about the two data types?

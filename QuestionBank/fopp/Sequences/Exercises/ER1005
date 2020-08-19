@@ -1,8 +1,10 @@
 .. activecode:: ER1005
     :author: Eric Reed
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
 
 

@@ -1,16 +1,18 @@
 .. actex:: ex_8_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.4140969163
-   :total_students_attempting: 1362
-   :num_students_correct: 1243.0
-   :mean_clicks_to_correct: 4.2622687047
+   :pct_on_first: 0.412837345
+   :total_students_attempting: 1371
+   :num_students_correct: 1252.0
+   :mean_clicks_to_correct: 4.2691693291
 
    Write a function that removes the first occurrence of a string from another string.
    ~~~~

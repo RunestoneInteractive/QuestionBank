@@ -1,8 +1,10 @@
 .. mchoice:: e25_2_12
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_2
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_2
+  :topics: CSPUntimedPracticeQuestions/exam25_2
   :from_source: T
   :answer_a: “I am a sophomore.”
   :answer_b: "I am not a freshman"
@@ -13,21 +15,25 @@
   :feedback_b: Incorrect.  Freshman is False, so this would not be displayed.
   :feedback_c: Correct. Since we know that freshman is and sophomore are False, the ELSE block after sophomore is executed.
   :feedback_d: Incorrect. Since we know that freshman is and sophomore are False, the ELSE block after sophomore is executed.
+  :pct_on_first: 0.775
+  :total_students_attempting: 80
+  :num_students_correct: 79.0
+  :mean_clicks_to_correct: 1.2911392405
 
   Consider the code below.
-
+  
   IF(freshman)
-
+  
    { DISPLAY(“I am a freshman.”) }
-
+  
   ELSE
-
+  
    IF(sophomore)
-
+  
     { DISPLAY(“I am a sophomore”) }
-
+  
    ELSE
-
+  
     { DISPLAY(“Who knows what I am?”) }
-
+  
   If variables freshman and sophomore are false, what is displayed?

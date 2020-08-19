@@ -1,8 +1,10 @@
 .. mchoice:: question5_4_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/DisabmiguatingSquareBrackets
+   :chapter: Sequences
+   :subchapter: DisabmiguatingSquareBrackets
+   :topics: Sequences/DisabmiguatingSquareBrackets
    :from_source: T
    :multiple_answers: 
    :answer_a: w = [a]
@@ -15,9 +17,9 @@
    :feedback_d: Yes, this will using indexing to get the value of the first element of a.
    :correct: d
    :practice: T
-   :pct_on_first: 0.3483443709
-   :total_students_attempting: 2265
-   :num_students_correct: 2228.0
-   :mean_clicks_to_correct: 2.460951526
+   :pct_on_first: 0.3496503497
+   :total_students_attempting: 2288
+   :num_students_correct: 2251.0
+   :mean_clicks_to_correct: 2.4571301644
 
    Which of the following correctly uses indexing? Assume that ``a`` is a list or string. Select as many as apply.

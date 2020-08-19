@@ -1,8 +1,10 @@
 .. parsonsprob:: asu_cs_dict_q1
    :author: Erdogan Dogdu
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :pct_on_first: 0.6666666667
    :total_students_attempting: 12

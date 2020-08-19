@@ -1,8 +1,10 @@
 .. activecode:: Bishop_Turtle Test
    :author: Carlee Bishop
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    **Turtles and Random:** Write a turtle program that generates a random number of sides for a polygon between 3 and 8 

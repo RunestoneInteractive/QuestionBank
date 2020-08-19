@@ -1,8 +1,10 @@
 .. mchoice:: qse_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: new Person john = Person("John", 16);
@@ -16,16 +18,20 @@
    :feedback_c: The new keyword is needed to create an object in Java
    :feedback_d: Correct!
    :feedback_e: The Person constructor expects a String and an int parameter in that order.
+   :pct_on_first: 0.7094418362
+   :total_students_attempting: 1917
+   :num_students_correct: 1899.0
+   :mean_clicks_to_correct: 1.5397577672
 
    Which of the following code segments will correctly create an instance of a Person object?
-
+   
    .. code-block:: java
-
+   
      public class Person
      {
           private String name;
           private int age;
-
+   
           public Person(String a, int b)
           {
              name = a;

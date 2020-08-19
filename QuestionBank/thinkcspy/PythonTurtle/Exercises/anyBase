@@ -1,8 +1,10 @@
 .. activecode:: anyBase
    :author: Michael Jones
-   :difficulty: 5
+   :difficulty: 5.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :caption: Decimal to Any Base
     

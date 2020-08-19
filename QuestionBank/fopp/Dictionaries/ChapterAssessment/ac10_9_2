@@ -1,30 +1,28 @@
 .. activecode:: ac10_9_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/ChapterAssessment
+   :chapter: Dictionaries
+   :subchapter: ChapterAssessment
+   :topics: Dictionaries/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Dictionaries/intro-Dictionaries
-   :pct_on_first: 0.7192474674
-   :total_students_attempting: 691
-   :num_students_correct: 558.0
-   :mean_clicks_to_correct: 1.1523297491
 
    Given the dictionary ``swimmers``, add an additional key-value pair to the dictionary with ``"Phelps"`` as the key and the integer ``23`` as the value. Do not rewrite the entire dictionary.
    ~~~~
-   
+
    swimmers = {'Manuel':4, 'Lochte':12, 'Adrian':7, 'Ledecky':5, 'Dirado':4}
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testTwo(self):
          self.assertEqual(sorted(swimmers.items()), sorted([('Adrian', 7), ('Dirado', 4), ('Manuel',4), ('Ledecky', 5), ('Lochte', 12), ('Phelps', 23)]), "Testing that swimmers is assigned to correct value.")
-   
+
    myTests().main()

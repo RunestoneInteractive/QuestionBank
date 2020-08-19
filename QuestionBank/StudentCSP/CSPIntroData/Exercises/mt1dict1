@@ -1,11 +1,17 @@
 .. parsonsprob:: mt1dict1
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPIntroData/Exercises
+   :chapter: CSPIntroData
+   :subchapter: Exercises
+   :topics: CSPIntroData/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.456445993
+   :total_students_attempting: 287
+   :num_students_correct: 285.0
+   :mean_clicks_to_correct: 2.5192982456
 
    Put the blocks in order to define the function greater_dictionary. 
    It takes a dictionary d and an integer cutoff and returns a dictionary 

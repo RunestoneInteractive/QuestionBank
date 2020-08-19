@@ -1,8 +1,10 @@
 .. codelens:: String_Manip
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPIntroData/workStrings
+  :chapter: CSPIntroData
+  :subchapter: workStrings
+  :topics: CSPIntroData/workStrings
   :from_source: T
   :showoutput:
 

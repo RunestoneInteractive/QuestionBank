@@ -1,8 +1,10 @@
 .. mchoice:: e14a15_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPImageDecisions/exam14a15
+   :chapter: CSPImageDecisions
+   :subchapter: exam14a15
+   :topics: CSPImageDecisions/exam14a15
    :from_source: T
    :practice: T
    :answer_a: y % 1
@@ -14,5 +16,9 @@
    :feedback_b: This will return two possible values 0 if even and 1 if odd.
    :feedback_c: This will return 0, 1, or 2.
    :feedback_d: This will return 0, 1, 2, or 3.
+   :pct_on_first: 0.7676056338
+   :total_students_attempting: 568
+   :num_students_correct: 470.0
+   :mean_clicks_to_correct: 1.0744680851
 
    Which of the following expressions gives you 3 possible results for all values of y?

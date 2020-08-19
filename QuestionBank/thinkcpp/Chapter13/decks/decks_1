@@ -1,8 +1,10 @@
 .. fillintheblank:: decks_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter13/decks
+    :chapter: Chapter13
+    :subchapter: decks
+    :topics: Chapter13/decks
     :from_source: T
 
     A euchre deck consists of 9's, 10's, Jacks, Queens, Kings, and Aces.

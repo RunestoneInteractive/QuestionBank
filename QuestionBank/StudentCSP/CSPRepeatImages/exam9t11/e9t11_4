@@ -1,8 +1,10 @@
 .. mchoice:: e9t11_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatImages/exam9t11
+   :chapter: CSPRepeatImages
+   :subchapter: exam9t11
+   :topics: CSPRepeatImages/exam9t11
    :from_source: T
    :practice: T
    :answer_a: Double the blue and green values in the picture
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if it was p.setGreen(g / 2) and p.setBlue(b / 2)
    :feedback_c: This sets the green values to half the original blue values and the blue values to half the original green values.
    :feedback_d: This would be true if it was p.setGreen(b * 2) and p.setBlue(g * 2)
+   :pct_on_first: 0.726984127
+   :total_students_attempting: 630
+   :num_students_correct: 481.0
+   :mean_clicks_to_correct: 1.0582120582
 
    What does the following code do?
-
+   
    ::
-
+   
       from image import *
       img = Image("beach.jpg")
       pixels = img.getPixels()

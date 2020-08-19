@@ -1,8 +1,10 @@
 .. activecode:: ch00_1_1
     :author: Euripides Vrachnos
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/ValuesandDataTypes
+    :chapter: SimplePythonData
+    :subchapter: ValuesandDataTypes
+    :topics: SimplePythonData/ValuesandDataTypes
     :from_source: F
     :nocanvas:
 

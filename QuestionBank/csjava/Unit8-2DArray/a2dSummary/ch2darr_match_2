@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: csjava
-    :topic: Unit8-2DArray/a2dSummary
+    :topics: Unit8-2DArray/a2dSummary
     :from_source: T
     :feedback: Review the summaries above.
     :match_1: Declare an 2d integer array named nums|||int[][] nums;

@@ -1,8 +1,10 @@
 .. activecode:: sks_cw3_ex1
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [30 pts] Write a program that will ask the user to provide numbers as input and then find the minimum and the maximum values of the provided numbers.  

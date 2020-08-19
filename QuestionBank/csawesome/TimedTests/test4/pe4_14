@@ -1,8 +1,10 @@
 .. mchoice:: pe4_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: 2
    :answer_b: 5
@@ -15,11 +17,15 @@
    :feedback_c: Did you notice the recursive calls?
    :feedback_d: How does it miss one "x"?
    :feedback_e: Since the first character is "x" how can this be true?
+   :pct_on_first: 0.6875
+   :total_students_attempting: 32
+   :num_students_correct: 26.0
+   :mean_clicks_to_correct: 1.2307692308
 
    What will the method below return when called with mystery(“xxzxyxx”)?
-
+   
    .. code-block:: java
-
+   
      public static int mystery(String str)
      {
         if (str.length() == 0) return 0;

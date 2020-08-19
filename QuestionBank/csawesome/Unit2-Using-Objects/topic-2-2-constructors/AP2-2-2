@@ -1,8 +1,10 @@
 .. mchoice:: AP2-2-2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-2-constructors
+   :topics: Unit2-Using-Objects/topic-2-2-constructors
    :from_source: T
    :practice: T
    :answer_a: Movie m = new Movie(8.0, "Lion King");
@@ -16,18 +18,22 @@
    :feedback_c: This creates a Movie object but it does not have the correct title and rating.
    :feedback_d: This creates a Movie object with the correct title and rating.
    :feedback_e: This creates a Movie object but it does not have a rating of 8.0.
+   :pct_on_first: 0.6302952503
+   :total_students_attempting: 2337
+   :num_students_correct: 2319.0
+   :mean_clicks_to_correct: 1.7399741268
 
    Consider the following class.  Which of the following code segments will construct a Movie object m with a title of "Lion King" and rating of 8.0?
-
+   
    .. code-block:: java
-
+   
         public class Movie
         {
             private String title;
             private String director;
             private double rating;
             private boolean inTheaters;
-
+   
             public Movie(String t, String d, double r)
             {
                 title = t;
@@ -35,7 +41,7 @@
                 rating = r;
                 inTheaters = false;
             }
-
+   
             public Movie(String t)
             {
                 title = t;

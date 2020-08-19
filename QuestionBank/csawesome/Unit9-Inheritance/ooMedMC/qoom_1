@@ -1,8 +1,10 @@
 .. mchoice:: qoom_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooMedMC
+   :chapter: Unit9-Inheritance
+   :subchapter: ooMedMC
+   :topics: Unit9-Inheritance/ooMedMC
    :from_source: T
    :practice: T
    :answer_a: Won't compile since <code>GradStudent</code> doesn't have a <code>getInfo</code> method
@@ -16,11 +18,15 @@
    :feedback_c: This would be true if it was <code>Student s1 = new Student();</code>
    :feedback_d: An object of a subclass can be substituted for a parent class object. A <code>GradStudent</code> is a <code>Student</code>.
    :feedback_e: In object methods if you leave off the <code>this.</code> when invoking an object method it will be added for you by the compiler. The keyword <code>this</code> refers to the current object which is implicitly passed to all object methods.
+   :pct_on_first: 0.5721925134
+   :total_students_attempting: 748
+   :num_students_correct: 739.0
+   :mean_clicks_to_correct: 1.8673883627
 
    Given the following class declarations, what is the output from ``Student s1 = new GradStudent();`` followed by ``s1.getInfo();``?
-
+   
    .. code-block:: java
-
+   
       public class Student {
          public String getFood() {
             return "Pizza";
@@ -29,7 +35,7 @@
             return this.getFood();
          }
       }
-
+   
       public class GradStudent extends Student {
          public String getFood() {
             return "Taco";

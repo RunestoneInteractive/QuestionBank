@@ -1,8 +1,10 @@
 .. mchoice:: question1_3_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: GeneralIntro/ThePythonProgrammingLanguage
+   :chapter: GeneralIntro
+   :subchapter: ThePythonProgrammingLanguage
+   :topics: GeneralIntro/ThePythonProgrammingLanguage
    :from_source: T
    :answer_a: It is high-level if you are standing and low-level if you are sitting.
    :answer_b: It is high-level if you are programming for a computer and low-level if you are programming for a phone or mobile device.
@@ -13,9 +15,9 @@
    :feedback_b: High and low have nothing to do with the type of device you are programming for.  Instead, look at what it takes to run the program written in the language.
    :feedback_c: Python is a high level language but must be interpreted into machine code (binary) before it can be executed.
    :feedback_d: While it is true that it is generally easier to program in a high-level language and programs written in a high-level language are usually shorter, this is not always the case.
-   :pct_on_first: 0.7558205565
-   :total_students_attempting: 3522
-   :num_students_correct: 3487.0
-   :mean_clicks_to_correct: 1.3713794092
+   :pct_on_first: 0.7552954292
+   :total_students_attempting: 3588
+   :num_students_correct: 3553.0
+   :mean_clicks_to_correct: 1.3712355756
 
    What is the difference between a high-level programming language and a low-level programming language?

@@ -1,8 +1,10 @@
 .. mchoice:: csw_abet_6
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :answer_a: trained volunteers who are faculty members in other accredited programs
    :answer_b: professional accreditation experts whose sole job is to evaluate programs

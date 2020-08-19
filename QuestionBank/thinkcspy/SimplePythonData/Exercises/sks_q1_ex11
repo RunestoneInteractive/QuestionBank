@@ -1,8 +1,10 @@
 .. activecode:: sks_q1_ex11
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [20 pts] Write a Python program that takes as input the temperature in Fahrenheit and prints the temperature in Celsius.  

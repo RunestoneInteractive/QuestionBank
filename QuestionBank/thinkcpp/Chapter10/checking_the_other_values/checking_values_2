@@ -1,8 +1,10 @@
 .. mchoice:: checking_values_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter10/checking_the_other_values
+   :chapter: Chapter10
+   :subchapter: checking_the_other_values
+   :topics: Chapter10/checking_the_other_values
    :from_source: T
    :multiple_answers:
    :answer_a: the difference between actual and expected number of appearances increases

@@ -1,17 +1,23 @@
 .. mchoice:: 1-9-2-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :answer_a: 0
    :answer_b: 1
    :answer_c: 17
    :answer_d: It will give a compile-time error.
    :correct: b
+   :pct_on_first: 0.8946135831
+   :total_students_attempting: 427
+   :num_students_correct: 426.0
+   :mean_clicks_to_correct: 1.1455399061
 
    What does the following code print?
-
+   
    .. code-block:: java
-
+   
     System.out.println(17 % 16);

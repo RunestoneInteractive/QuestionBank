@@ -1,8 +1,10 @@
 .. mchoice:: question18_4_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/SortingaDictionary
+   :chapter: Sorting
+   :subchapter: SortingaDictionary
+   :topics: Sorting/SortingaDictionary
    :from_source: T
    :multiple_answers: 
    :answer_a: sorted(ks, key=g)
@@ -13,10 +15,10 @@
    :feedback_b: The lambda function takes just one parameter, and calls g with two parameters.
    :feedback_c: The lambda function looks up the value of x in d.
    :practice: T
-   :pct_on_first: 0.0893371758
-   :total_students_attempting: 347
-   :num_students_correct: 342.0
-   :mean_clicks_to_correct: 2.8128654971
+   :pct_on_first: 0.0901408451
+   :total_students_attempting: 355
+   :num_students_correct: 350.0
+   :mean_clicks_to_correct: 2.8
 
    Which of the following will sort the keys of d in ascending order of their values (i.e., from lowest to highest)?
    

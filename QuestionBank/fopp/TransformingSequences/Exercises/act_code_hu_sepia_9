@@ -1,8 +1,10 @@
 .. activecode:: act_code_hu_sepia_9
     :author: Sean Joyce
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TransformingSequences/Exercises
+    :chapter: TransformingSequences
+    :subchapter: Exercises
+    :topics: TransformingSequences/Exercises
     :from_source: F
 
     In Chapter 9, your author describes how you can transform an image into "Sepia tone," by applying a formula.  I have provided that formula for you as a comment in the code window below; complete the pixel transformations necessary to apply such a Sepia tone filter to the given image.  **FOR FULL CREDIT**, also update the code so the transformation is visibly made *from the left edge of the image to the right edge,* instead of from the top down.

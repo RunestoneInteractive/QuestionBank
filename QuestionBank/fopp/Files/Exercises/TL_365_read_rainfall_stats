@@ -1,16 +1,18 @@
 .. actex:: TL_365_read_rainfall_stats
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
    :available_files: van_nuys_seasonal_rainfall.dat
-   :pct_on_first: 0.046728972
-   :total_students_attempting: 107
-   :num_students_correct: 51.0
-   :mean_clicks_to_correct: 11.5882352941
+   :pct_on_first: 0.0458715596
+   :total_students_attempting: 109
+   :num_students_correct: 53.0
+   :mean_clicks_to_correct: 11.6037735849
 
    The seasonal average monthly rainfall in inches recorded at the Van
    Nuys Airport as of 2019 are provide in the file

@@ -1,8 +1,10 @@
 .. mchoice:: question1_11_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/ATypicalFirstProgram
+   :chapter: GeneralIntro
+   :subchapter: ATypicalFirstProgram
+   :topics: GeneralIntro/ATypicalFirstProgram
    :from_source: T
    :practice: T
    :answer_a: sends information to the printer to be printed on paper.
@@ -14,9 +16,9 @@
    :feedback_b: Yes, the print function is used to display the value of the thing being printed.
    :feedback_c: The format of the information is called its font and has nothing to do with the print function.
    :feedback_d: That would be a different function.
-   :pct_on_first: 0.776056999
-   :total_students_attempting: 23439
-   :num_students_correct: 23379.0
-   :mean_clicks_to_correct: 1.3571153599
+   :pct_on_first: 0.7773372287
+   :total_students_attempting: 23960
+   :num_students_correct: 23902.0
+   :mean_clicks_to_correct: 1.3553259141
 
    The print function:

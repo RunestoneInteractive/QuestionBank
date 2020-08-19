@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit10-Recursion/topic-10-2-recursive-search-sort
+   :topics: Unit10-Recursion/topic-10-2-recursive-search-sort
    :from_source: T
    :practice: T
    :answer_a: If the data is already sorted in ascending order

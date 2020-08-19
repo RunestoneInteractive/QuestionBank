@@ -1,8 +1,10 @@
 .. mchoice:: question7_5_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/PrecedenceofOperators
+   :chapter: Conditionals
+   :subchapter: PrecedenceofOperators
+   :topics: Conditionals/PrecedenceofOperators
    :from_source: T
    :answer_a: ((5*3) &gt; 10) and ((4+6) == 11)
    :answer_b: (5*(3 &gt; 10)) and (4 + (6 == 11))
@@ -14,9 +16,9 @@
    :feedback_c: This grouping assumes Python simply evaluates from left to right, which is incorrect.  It follows the precedence listed in the table in this section.
    :feedback_d: This grouping assumes that &quot;and&quot; has a higher precedence than ==, which is not true.
    :practice: T
-   :pct_on_first: 0.7884393064
-   :total_students_attempting: 1730
-   :num_students_correct: 1720.0
-   :mean_clicks_to_correct: 1.4622093023
+   :pct_on_first: 0.7893226177
+   :total_students_attempting: 1742
+   :num_students_correct: 1732.0
+   :mean_clicks_to_correct: 1.4595842956
 
    Which of the following properly expresses the  precedence of operators (using parentheses) in the following expression: 5*3 > 10 and 4+6==11

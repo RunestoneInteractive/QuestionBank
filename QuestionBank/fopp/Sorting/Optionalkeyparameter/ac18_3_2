@@ -1,8 +1,10 @@
 .. activecode:: ac18_3_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Sorting/Optionalkeyparameter
+    :chapter: Sorting
+    :subchapter: Optionalkeyparameter
+    :topics: Sorting/Optionalkeyparameter
     :from_source: T
 
     L1 = [1, 7, 4, -2, 3]

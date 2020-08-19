@@ -1,8 +1,10 @@
 .. activecode:: hill_test3a
     :author: Scott Hill
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     Define a function ``graph(x_list,y_list)`` which takes two lists and uses Altair to make a point graph of the ``x_list`` versus the ``y_list``.  

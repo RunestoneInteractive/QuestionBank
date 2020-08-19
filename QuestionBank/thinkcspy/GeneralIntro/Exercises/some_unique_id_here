@@ -1,8 +1,10 @@
 .. fillintheblank:: some_unique_id_here
         :author: Dane Brown
-        :difficulty: 1
+        :difficulty: 1.0
         :basecourse: thinkcspy
-        :topic: GeneralIntro/Exercises
+        :chapter: GeneralIntro
+        :subchapter: Exercises
+        :topics: GeneralIntro/Exercises
         :from_source: F
 
         Complete the sentence: |blank| had a |blank| lamb. One plus one is: (note that if there aren't enough blanks for the feedback given, they're added to the end of the problem. So, we don't **need** to specify a blank here.)

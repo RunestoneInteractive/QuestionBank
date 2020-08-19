@@ -1,8 +1,10 @@
 .. activecode:: CS151-Unit1-Media-2
    :author: John Cigas
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-4-assignment
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: F
    :language: java
 

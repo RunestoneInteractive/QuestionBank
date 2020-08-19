@@ -1,8 +1,10 @@
 .. shortanswer:: remainingQuestions
    :author: Pauline Lake
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: GettingStarted/Exercises
+   :chapter: GettingStarted
+   :subchapter: Exercises
+   :topics: GettingStarted/Exercises
    :from_source: F
    :optional:
 

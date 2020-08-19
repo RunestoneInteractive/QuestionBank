@@ -1,8 +1,10 @@
 .. dragndrop:: BPU_Quiz1_Q1
     :author: Jane Weyant
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :match_1: 26//12|||13
     :match_2: 26%12|||2

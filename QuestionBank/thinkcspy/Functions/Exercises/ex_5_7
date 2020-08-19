@@ -1,15 +1,17 @@
 .. actex:: ex_5_7
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: T
     :practice: T
     :autograde: unittest
-    :pct_on_first: 0.7075767063
-    :total_students_attempting: 3194
-    :num_students_correct: 3045.0
-    :mean_clicks_to_correct: 2.0095238095
+    :pct_on_first: 0.7081265509
+    :total_students_attempting: 3224
+    :num_students_correct: 3073.0
+    :mean_clicks_to_correct: 2.0081353726
 
     Write a fruitful function ``sumTo(n)`` that returns the sum of all integer numbers up to and
     including `n`.   So ``sumTo(10)`` would be ``1+2+3...+10`` which would return the value 55.  Use the

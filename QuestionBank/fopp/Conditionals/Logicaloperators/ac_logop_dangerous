@@ -1,8 +1,10 @@
 .. activecode:: ac_logop_dangerous
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Logicaloperators
+   :chapter: Conditionals
+   :subchapter: Logicaloperators
+   :topics: Conditionals/Logicaloperators
    :from_source: T
 
    total_weight = int(input('Enter total weight of luggage:'))

@@ -1,8 +1,10 @@
 .. mchoice:: test_question2_8_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/OrderofOperations
+   :chapter: SimplePythonData
+   :subchapter: OrderofOperations
+   :topics: SimplePythonData/OrderofOperations
    :from_source: T
    :practice: T
    :answer_a: 768
@@ -14,10 +16,10 @@
    :feedback_b: Exponentiation (**) is processed right to left, so take 2 ** 3 first.
    :feedback_c: There are two exponentiations.
    :feedback_d: Remember to multiply by 3.
-   :pct_on_first: 0.6649954201
-   :total_students_attempting: 20743
-   :num_students_correct: 20651.0
-   :mean_clicks_to_correct: 1.6096557067
+   :pct_on_first: 0.6662395596
+   :total_students_attempting: 21072
+   :num_students_correct: 20977.0
+   :mean_clicks_to_correct: 1.6065690995
 
    What is the value of the following expression:
    

@@ -1,11 +1,17 @@
 .. parsonsprob:: htmlp1-v2
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/Exercises
+   :chapter: CSPWebData
+   :subchapter: Exercises
+   :topics: CSPWebData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1102362205
+   :total_students_attempting: 254
+   :num_students_correct: 254.0
+   :mean_clicks_to_correct: 4.9763779528
 
    Put the blocks into order to define a simple HTML page. Indent the blocks to show the structure.
    -----

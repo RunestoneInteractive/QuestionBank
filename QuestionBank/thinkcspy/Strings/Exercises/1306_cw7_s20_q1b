@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw7_s20_q1b
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Strings/Exercises
+    :chapter: Strings
+    :subchapter: Exercises
+    :topics: Strings/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 0.2272727273

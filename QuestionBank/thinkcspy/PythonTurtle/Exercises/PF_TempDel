@@ -1,8 +1,10 @@
 .. activecode:: PF_TempDel
    :author: Philip Foster
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :above: -- put the canvas above the code
    :caption: this is the caption

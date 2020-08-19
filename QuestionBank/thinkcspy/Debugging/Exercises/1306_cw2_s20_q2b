@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw2_s20_q2b
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
 
    **[10 pts] Question 2(b)** Convert the program in Question 2(a) to one that takes the same input but prints a triangle as illustrated below  when the number input is 4 and the symbol is  +  (i.e. N = 4, S = '+' )

@@ -1,8 +1,10 @@
 .. activecode:: td_stripes
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPTurtleDecisions/oddEven
+    :chapter: CSPTurtleDecisions
+    :subchapter: oddEven
+    :topics: CSPTurtleDecisions/oddEven
     :from_source: T
     :tour_1: "Structural Tour"; 1-4: td2a-line1-4; 6-7: td2a-line6-7; 9-10: td2a-line9-10; 12: td2a-line12; 13: td2a-line13; 14-15: td2a-line14-15; 16-17: td2a-line16-17; 18: td2a-line18; 19: td2a-line19; 20: td2a-line20;
     :nocodelens:

@@ -1,8 +1,10 @@
 .. activecode:: encapsulation_generalization_AC_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter6/encapsulation_generalization
+  :chapter: Chapter6
+  :subchapter: encapsulation_generalization
+  :topics: Chapter6/encapsulation_generalization
   :from_source: T
   :language: cpp
   :caption: Two-dimensional tables

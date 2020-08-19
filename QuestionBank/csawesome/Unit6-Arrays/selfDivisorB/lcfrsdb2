@@ -1,8 +1,10 @@
 .. activecode:: lcfrsdb2
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/selfDivisorB
+   :chapter: Unit6-Arrays
+   :subchapter: selfDivisorB
+   :topics: Unit6-Arrays/selfDivisorB
    :from_source: F
    :language: java
 

@@ -1,8 +1,10 @@
 .. mchoice:: implicit_variable_access_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter11/implicit_variable_access
+   :chapter: Chapter11
+   :subchapter: implicit_variable_access
+   :topics: Chapter11/implicit_variable_access
    :from_source: T
    :answer_a: after being granted permission
    :answer_b: only inside of that specific member function

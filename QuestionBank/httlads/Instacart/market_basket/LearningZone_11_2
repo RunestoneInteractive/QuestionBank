@@ -1,8 +1,10 @@
 .. poll:: LearningZone_11_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: httlads
-    :topic: Instacart/market_basket
+    :chapter: Instacart
+    :subchapter: market_basket
+    :topics: Instacart/market_basket
     :from_source: T
     :option_1: Comfort Zone
     :option_2: Learning Zone

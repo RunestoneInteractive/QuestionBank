@@ -1,13 +1,15 @@
 .. parsonsprob:: pp7_14_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: T
-   :pct_on_first: 0.2579564489
-   :total_students_attempting: 597
-   :num_students_correct: 576.0
-   :mean_clicks_to_correct: 3.0381944444
+   :pct_on_first: 0.2562396007
+   :total_students_attempting: 601
+   :num_students_correct: 580.0
+   :mean_clicks_to_correct: 3.0327586207
 
    Piece together a program so that it can successfully print out one print statement, given the value of x.
    -----

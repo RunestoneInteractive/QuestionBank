@@ -1,8 +1,10 @@
 .. dragndrop:: chapter_nine_glossary_two
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter9/glossary
+    :chapter: Chapter9
+    :subchapter: glossary
+    :topics: Chapter9/glossary
     :from_source: T
     :feedback: Try again!
     :match_1: functional programming style|||A style of program design in which the majority of functions are pure.

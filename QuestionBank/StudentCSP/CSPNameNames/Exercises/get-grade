@@ -1,11 +1,17 @@
 .. activecode:: get-grade
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 
+   :pct_on_first: 0.2248803828
+   :total_students_attempting: 209
+   :num_students_correct: 201.0
+   :mean_clicks_to_correct: 3.5223880597
 
    Fix the function below to work correctly.  If the score is 90 or above return 'A', 
    80 to 89 return 'B',  70 to 79 return 'C', 60 to 69 return 'D', and otherwise 
@@ -24,12 +30,12 @@
        else
            grade = 'E'
        return grade
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            self.assertEqual(get_grade(91), 'A', "get_grade(91)")
            self.assertEqual(get_grade(90), 'A', "get_grade(90)")

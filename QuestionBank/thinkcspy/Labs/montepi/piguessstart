@@ -1,8 +1,10 @@
 .. activecode:: piguessstart
         :author: bmiller
-        :difficulty: 3
+        :difficulty: 3.0
         :basecourse: thinkcspy
-        :topic: Labs/montepi
+        :chapter: Labs
+        :subchapter: montepi
+        :topics: Labs/montepi
         :from_source: T
 
         import turtle

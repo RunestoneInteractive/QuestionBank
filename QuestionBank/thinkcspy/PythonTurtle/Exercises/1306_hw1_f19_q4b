@@ -1,8 +1,10 @@
 .. activecode:: 1306_hw1_f19_q4b
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    [10 pts] Extend this program such that it asks for the number of customers.  It then requests each customer's name followed by the above session for each customer. 

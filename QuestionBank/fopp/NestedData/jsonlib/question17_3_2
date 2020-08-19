@@ -1,8 +1,10 @@
 .. mchoice:: question17_3_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/jsonlib
+   :chapter: NestedData
+   :subchapter: jsonlib
+   :topics: NestedData/jsonlib
    :from_source: T
    :multiple_answers: 
    :answer_a: entertainment.json()
@@ -13,10 +15,10 @@
    :feedback_c: loads (load from string) turns a json-formatted string into a list or dictionary
    :correct: c
    :practice: T
-   :pct_on_first: 0.7477477477
-   :total_students_attempting: 333
-   :num_students_correct: 329.0
-   :mean_clicks_to_correct: 1.5075987842
+   :pct_on_first: 0.7448680352
+   :total_students_attempting: 341
+   :num_students_correct: 337.0
+   :mean_clicks_to_correct: 1.5163204748
 
    Say we had a JSON string in the following format. How would you convert it so that it is a python list?
    

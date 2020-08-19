@@ -1,8 +1,10 @@
 .. mchoice:: cswt1_q16
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :answer_a: string
    :answer_b: integer

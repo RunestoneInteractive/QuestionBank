@@ -1,9 +1,11 @@
 .. fillintheblank:: 3_5_2_falseOrTrue
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit3-If-Statements/topic-3-5-compound-ifs
-   :from_source: T
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-5-compound-ifs
+   :topics: Unit3-If-Statements/topic-3-5-compound-ifs
+   :from_source: F
 
    The truth table above is missing one result.  What is the result of ``P || Q`` when ``P=false`` and ``Q=true``?
 

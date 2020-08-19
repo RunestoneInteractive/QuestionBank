@@ -1,8 +1,10 @@
 .. actex:: ermHW
    :author: Eric Reed
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
    :autograde: unittest
    :pct_on_first: 0.0

@@ -1,8 +1,10 @@
 .. dragndrop:: chapter_eight_glossary
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter8/glossary
+    :chapter: Chapter8
+    :subchapter: glossary
+    :topics: Chapter8/glossary
     :from_source: T
     :feedback: Try again!
     :match_1:  structure|||A collection of data grouped together and treated as a single object.

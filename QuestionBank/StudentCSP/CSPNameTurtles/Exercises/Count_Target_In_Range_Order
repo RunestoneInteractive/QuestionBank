@@ -1,11 +1,17 @@
 .. parsonsprob:: Count_Target_In_Range_Order
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :maxdist: 4
+   :pct_on_first: 0.2738095238
+   :total_students_attempting: 84
+   :num_students_correct: 81.0
+   :mean_clicks_to_correct: 3.7777777778
 
    Put the code in order to define countInRange that returns a count of the number of times that a target value appears in a list between the start and end indices (inclusive).  For example, countInRange(1,2,4,[1, 2, 1, 1, 1, 1]) should return 3 since there are three 1's between index 2 and 4 inclusive. 
    -----

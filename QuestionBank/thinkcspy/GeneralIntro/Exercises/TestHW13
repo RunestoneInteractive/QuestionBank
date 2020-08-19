@@ -1,8 +1,10 @@
 .. dragndrop:: TestHW13
     :author: Damon Ellingston
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :feedback: Feed your gerbils
     :match_1: Blackie|||Louisa

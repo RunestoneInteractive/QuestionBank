@@ -1,8 +1,10 @@
 .. activecode:: act_code_hu_exam1_2
     :author: Sean Joyce
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
 
     Provide below your solution to Exam 1 Programming Problem 2 (the turtle shape drawer).

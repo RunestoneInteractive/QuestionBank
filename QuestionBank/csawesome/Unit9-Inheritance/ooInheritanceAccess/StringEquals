@@ -1,8 +1,10 @@
 .. activecode:: StringEquals
   :author: Brad Miller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: csawesome
-  :topic: Unit9-Inheritance/ooInheritanceAccess
+  :chapter: Unit9-Inheritance
+  :subchapter: ooInheritanceAccess
+  :topics: Unit9-Inheritance/ooInheritanceAccess
   :from_source: F
   :language: java
 

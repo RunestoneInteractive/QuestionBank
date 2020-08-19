@@ -1,8 +1,10 @@
 .. activecode::  ch8Ex10qWithInstruction
    :author: Steve Emerson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/listPractice
+   :chapter: Unit7-ArrayList
+   :subchapter: listPractice
+   :topics: Unit7-ArrayList/listPractice
    :from_source: F
    :language: java
 

@@ -1,8 +1,10 @@
 .. mchoice:: 1-9-10-B
    :author: Beryl Hoffman
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :practice: T
    :answer_a: a = 1.0, b = 2.0, c = 2.0
@@ -14,11 +16,15 @@
    :feedback_b: Note that a++ changes the value of a.
    :feedback_c: Correct!
    :feedback_d: Note that b and c change in value.
+   :pct_on_first: 0.7445255474
+   :total_students_attempting: 411
+   :num_students_correct: 411.0
+   :mean_clicks_to_correct: 1.3746958637
 
    What are the values of a, b, and c after the following code executes?
-
+   
    .. code-block:: java
-
+   
     double a = 0, b = 2, c = 3;
     a++;
     b = a;

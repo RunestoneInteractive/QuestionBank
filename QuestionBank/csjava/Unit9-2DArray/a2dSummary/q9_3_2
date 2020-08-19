@@ -1,0 +1,15 @@
+.. dragndrop:: q9_3_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: csjava
+    :chapter: Unit9-2DArray
+    :subchapter: a2dSummary
+    :topics: Unit9-2DArray/a2dSummary
+    :from_source: T
+    :feedback: Review the summaries above.
+    :match_1: Declare an 2d integer array named nums|||int[][] nums;
+    :match_2: Declare and create a String 2d array named list1 that has 3 rows and 2 columns|||String[][] list1 = new String[3][2];
+    :match_3: Initialize a 2d array of integers named nums so that it has 1,2,3 in the first row and 4,5,6 in the second row.|||int[][] nums = { {1,2,3},{4,5,6}};
+    :match_4: Initialize a 2d String array named list1 so that it has a,b,c in the first row and d,e,f in the second row.|||String[][] list1 = { {"a","b","c"},{"d","e","f"}};
+
+    Drag the description from the left and drop it on the correct code on the right.  Click the "Check Me" button to see if you are correct.

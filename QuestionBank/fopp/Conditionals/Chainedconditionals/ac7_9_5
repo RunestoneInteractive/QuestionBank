@@ -1,16 +1,18 @@
 .. activecode:: ac7_9_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Chainedconditionals
+   :chapter: Conditionals
+   :subchapter: Chainedconditionals
+   :topics: Conditionals/Chainedconditionals
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5555555556
-   :total_students_attempting: 1089
-   :num_students_correct: 1003.0
-   :mean_clicks_to_correct: 1.9232303091
+   :pct_on_first: 0.556261343
+   :total_students_attempting: 1102
+   :num_students_correct: 1016.0
+   :mean_clicks_to_correct: 1.9173228346
 
    We have created conditionals for you to use. Do not change the provided conditional statements. Find an integer value for ``x`` that will cause ``output`` to hold the values ``True`` and ``None``. (Drawing diagrams or flow charts for yourself may help!)
    ~~~~

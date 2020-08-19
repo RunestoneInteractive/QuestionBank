@@ -1,7 +1,9 @@
 .. activecode:: act_monte_5
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/monte_carlo_simulations
+    :chapter: Projects
+    :subchapter: monte_carlo_simulations
+    :topics: Projects/monte_carlo_simulations
     :from_source: T
     :nocodelens:

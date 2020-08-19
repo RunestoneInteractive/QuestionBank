@@ -1,8 +1,10 @@
 .. activecode:: 2019SB2vraag1
     :author: Gilles Fiers
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
     :language: python
 

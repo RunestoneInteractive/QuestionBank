@@ -1,8 +1,10 @@
 .. mchoice:: cyketestquestion1_1_1
    :author: Didier van den Daele
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Algorithms
+   :chapter: GeneralIntro
+   :subchapter: Algorithms
+   :topics: GeneralIntro/Algorithms
    :from_source: F
    :answer_a: To think like a computer.
    :answer_b: To be able to write code really well.

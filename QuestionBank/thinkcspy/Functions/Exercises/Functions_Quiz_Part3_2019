@@ -1,8 +1,10 @@
 .. activecode:: Functions_Quiz_Part3_2019
     :author: Shawn Haarer
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
    
     Write a Function that will calculate the Perimeter of a rectangle.  Your 

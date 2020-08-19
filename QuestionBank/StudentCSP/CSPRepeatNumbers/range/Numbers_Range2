@@ -1,8 +1,10 @@
 .. activecode:: Numbers_Range2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatNumbers/range
+    :chapter: CSPRepeatNumbers
+    :subchapter: range
+    :topics: CSPRepeatNumbers/range
     :from_source: T
 
     print(range(1,10))

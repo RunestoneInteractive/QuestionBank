@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit6-Arrays/Exercises
+   :topics: Unit6-Arrays/Exercises
    :from_source: T
    :practice: T
    :answer_a: All values in positions <i>m+1</i> through <i>myStuff.length-1</i> are greater than or equal to <i>n</i>.

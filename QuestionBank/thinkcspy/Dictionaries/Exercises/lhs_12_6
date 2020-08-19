@@ -1,8 +1,10 @@
 .. activecode:: lhs_12_6
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

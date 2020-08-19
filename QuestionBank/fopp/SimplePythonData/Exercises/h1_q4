@@ -1,8 +1,10 @@
 .. actex:: h1_q4
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     Initialize two variables to values ``9`` and ``2`` respectively. 

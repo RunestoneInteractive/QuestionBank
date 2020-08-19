@@ -1,8 +1,10 @@
 .. mchoice:: qsh_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: 21
@@ -16,9 +18,13 @@
    :feedback_c: You can append a number to a string in Java. It turns the number into a string and then appends the second string to the first string.
    :feedback_d: This would be correct if it was System.out.println("13" + (5 + 3)), but the 5 is turned into a string and appended to the 13 and then the same is done with the 3.
    :feedback_e: You can append a number to a string in Java.  It will compile.
+   :pct_on_first: 0.4657439446
+   :total_students_attempting: 2890
+   :num_students_correct: 2852.0
+   :mean_clicks_to_correct: 2.0701262272
 
    What does the following code print?
-
+   
    .. code-block:: java
-
+   
      System.out.println("13" + 5 + 3);

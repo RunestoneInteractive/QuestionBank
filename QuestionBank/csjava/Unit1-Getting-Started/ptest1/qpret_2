@@ -1,9 +1,11 @@
 .. mchoice:: qpret_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit1-Getting-Started/ptest1
-    :from_source: T
+    :chapter: Unit1-Getting-Started
+    :subchapter: ptest1
+    :topics: Unit1-Getting-Started/ptest1
+    :from_source: F
     :answer_a: It is the length of the array nums.
     :answer_b: It is the length of the first consecutive block of the value target in nums.
     :answer_c: It is the number of occurrences of the value target in nums.

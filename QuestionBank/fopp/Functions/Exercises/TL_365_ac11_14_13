@@ -1,16 +1,18 @@
 .. actex:: TL_365_ac11_14_13
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
    :nocodelens: 
-   :pct_on_first: 0.8048780488
-   :total_students_attempting: 41
-   :num_students_correct: 41.0
-   :mean_clicks_to_correct: 1.4146341463
+   :pct_on_first: 0.8095238095
+   :total_students_attempting: 42
+   :num_students_correct: 42.0
+   :mean_clicks_to_correct: 1.4047619048
 
    Write a function ``findHypot``.  The function will be given the
    length of two sides of a right-angled triangle and it should return

@@ -1,8 +1,10 @@
 .. actex:: CS152_first_digit
     :author: John Cigas
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

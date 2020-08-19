@@ -1,8 +1,10 @@
 .. mchoice:: arrayEx5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/arrayExam
+   :chapter: Unit6-Arrays
+   :subchapter: arrayExam
+   :topics: Unit6-Arrays/arrayExam
    :from_source: T
    :practice: T
    :answer_a: {3,2,2,0}
@@ -16,11 +18,15 @@
    :feedback_c: This would be true if the code simply reversed the values in the array, but what happens when x[j] = 2 * temp?
    :feedback_d: This would be true if the code just multiplied all the original values by 2.  Is that what it does?  Why would you need to use temp for that?
    :feedback_e: This would be true if the code multiplied the original values by 2 and reversed the values.  Is that what it does?  The loop only continues while i is less than j, so it doesn't loop through all the values in x.
+   :pct_on_first: 0.4347014925
+   :total_students_attempting: 1072
+   :num_students_correct: 626.0
+   :mean_clicks_to_correct: 1.6469648562
 
    After the following code is executed which of the following are the values in ``x``?
-
+   
    .. code-block:: java
-
+   
       int[ ] x = {0, 1, 2, 3};
       int temp;
       int i = 0;

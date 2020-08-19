@@ -1,8 +1,10 @@
 .. parsonsprob:: irma_Ch1_q22
   :author: Irma Ravkic
-  :difficulty: 1
+  :difficulty: 1.0
   :basecourse: fopp
-  :topic: GeneralIntro/Exercises
+  :chapter: GeneralIntro
+  :subchapter: Exercises
+  :topics: GeneralIntro/Exercises
   :from_source: F
 
   Put in order the elements of the pipeline for translating high-

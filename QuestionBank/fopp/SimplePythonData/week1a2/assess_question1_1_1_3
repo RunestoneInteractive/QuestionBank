@@ -1,10 +1,12 @@
 .. mchoice:: assess_question1_1_1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: SimplePythonData/week1a2
+   :chapter: SimplePythonData
+   :subchapter: week1a2
+   :topics: SimplePythonData/week1a2
    :from_source: T
-   :multiple_answers: 
+   :multiple_answers:
    :answer_a: a = len("hello worldwelcome!")
    :answer_b: a = 11 + 8
    :answer_c: a = len(z) + len(y)
@@ -18,14 +20,10 @@
    :correct: a,b,d
    :practice: T
    :topics: SimplePythonData/StatementsandExpressions
-   :pct_on_first: 0.1546900713
-   :total_students_attempting: 1823
-   :num_students_correct: 1750.0
-   :mean_clicks_to_correct: 3.8508571429
 
    The code below initializes two variables, ``z`` and ``y``. We want to assign the total number of characters in ``z`` and in ``y`` to the variable ``a``. Which of the following solutions, if any, would be considered hard coding?
-   
+
    .. sourcecode:: python
-   
+
     z = "hello world"
     y = "welcome!"

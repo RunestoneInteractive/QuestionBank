@@ -1,8 +1,10 @@
 .. mchoice:: mc_19_4_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TestCases/ChapterAssessment
+   :chapter: TestCases
+   :subchapter: ChapterAssessment
+   :topics: TestCases/ChapterAssessment
    :from_source: T
    :multiple_answers: 
    :answer_a: the method study does not return None
@@ -16,9 +18,9 @@
    :feedback_d: Correct! Study does not increase the self.knowledge.
    :feedback_e: Incorrect, year_at_umich does return the value assigned to self.years_UM.
    :correct: c, d
-   :pct_on_first: 0.067961165
-   :total_students_attempting: 103
-   :num_students_correct: 98.0
-   :mean_clicks_to_correct: 3.2959183673
+   :pct_on_first: 0.0654205607
+   :total_students_attempting: 107
+   :num_students_correct: 102.0
+   :mean_clicks_to_correct: 3.3137254902
 
    Which of the following cases fail for the Student class?

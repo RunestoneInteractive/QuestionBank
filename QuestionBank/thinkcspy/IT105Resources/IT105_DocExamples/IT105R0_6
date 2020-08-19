@@ -1,8 +1,10 @@
 .. activecode:: IT105R0_6
     :author: jenkins
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: IT105Resources/IT105_DocExamples
+    :chapter: IT105Resources
+    :subchapter: IT105_DocExamples
+    :topics: IT105Resources/IT105_DocExamples
     :from_source: F
     :nocanvas:
 

@@ -1,8 +1,10 @@
 .. activecode:: accessing_instance_variables_AC_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter8/accessing_instance_variables
+  :chapter: Chapter8
+  :subchapter: accessing_instance_variables
+  :topics: Chapter8/accessing_instance_variables
   :from_source: T
   :language: cpp
 

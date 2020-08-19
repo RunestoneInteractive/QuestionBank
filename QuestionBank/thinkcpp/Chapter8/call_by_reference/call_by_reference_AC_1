@@ -1,8 +1,10 @@
 .. activecode:: call_by_reference_AC_1
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcpp
-  :topic: Chapter8/call_by_reference
+  :chapter: Chapter8
+  :subchapter: call_by_reference
+  :topics: Chapter8/call_by_reference
   :from_source: T
   :language: cpp
 

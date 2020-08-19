@@ -1,8 +1,10 @@
 .. mchoice:: 4_3_1_s1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/immutable
+   :chapter: CSPNameStrings
+   :subchapter: immutable
+   :topics: CSPNameStrings/immutable
    :from_source: T
    :practice: T
    :answer_a: xyz
@@ -16,11 +18,15 @@
    :feedback_c: No spaces are added during concatenation.
    :feedback_d: No spaces are added during concatenation, and an additional "xy" should be included at the beginning.
    :feedback_e: s1 was set to "xy" initially, so the final answer will be "xyxyz"
+   :pct_on_first: 0.8064876957
+   :total_students_attempting: 1788
+   :num_students_correct: 1784.0
+   :mean_clicks_to_correct: 1.293161435
 
    Given the following code segment, what is the value of the string s1 after these are executed?
-
+   
    ::
-
+   
      s1 = "xy"
      s2 = s1
      s1 = s1 + s2 + "z"

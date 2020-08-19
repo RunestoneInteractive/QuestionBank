@@ -1,8 +1,10 @@
 .. mchoice:: pe1_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: 4
    :answer_b: 16
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if it was <code>a[0]--;</code>  Or it would be true if array indicies started at 1, but they start with 0.
    :feedback_d: The statement <code>a[1]--;</code> is the same as <code>a[1] = a[1] - 1;</code> so this will change the 3 to a 2.  The return <code>(a[1] * 2)</code> does not change the value at <code>a[1]</code>.
    :feedback_e: This can't be true because <code>a[1]--;</code> means the same as <code>a[1] = a[1] - 1;</code>  So the 3 will become a 2.  Parameters are all pass by value in Java which means that a copy of the value is passed to a method.  But, since an array is an object a copy of the value is a copy of the reference to the object.  So changes to objects in methods are permanent.
+   :pct_on_first: 0.2949640288
+   :total_students_attempting: 139
+   :num_students_correct: 63.0
+   :mean_clicks_to_correct: 1.5555555556
 
    Consider the following method and if ``int[] a = {8, 3, 1}``, what is the value in ``a[1]`` after ``m1(a);`` is run?
-
+   
    .. code-block:: java
-
+   
       public int m1(int[] a)
       {
          a[1]--;

@@ -1,8 +1,10 @@
 .. mchoice:: 6_7_1_Rename_Internal_Q1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/renameFunctions
+   :chapter: CSPNameNames
+   :subchapter: renameFunctions
+   :topics: CSPNameNames/renameFunctions
    :from_source: T
    :answer_a: -16
    :answer_b: -16.789
@@ -13,5 +15,9 @@
    :feedback_b: No, the original number will change
    :feedback_c: No, noDecimal will remove the decimal part
    :feedback_d: Yes! Absolute will make it positive, and noDecimal will throw away the values after the decimal point leaving just the 16.
+   :pct_on_first: 0.8518796992
+   :total_students_attempting: 1330
+   :num_students_correct: 1326.0
+   :mean_clicks_to_correct: 1.2156862745
 
    If you add one more line to the above program, `print(noDecimal(absolute(-16.789)))`, what prints?

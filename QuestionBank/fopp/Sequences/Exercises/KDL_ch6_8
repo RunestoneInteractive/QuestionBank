@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch6_8
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.2444444444
-   :total_students_attempting: 90
-   :num_students_correct: 48.0
-   :mean_clicks_to_correct: 2.5625
+   :pct_on_first: 0.2527472527
+   :total_students_attempting: 91
+   :num_students_correct: 49.0
+   :mean_clicks_to_correct: 2.5306122449
 
    Using indexing multiple the 6th number (5) in the list by the 10th number(7) in the list save this value to ``k``. Then use indexing to determine the location of the 8 in the list, save this as ``j``. Do not hardcode!
    ~~~~

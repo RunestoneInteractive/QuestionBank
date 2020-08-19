@@ -1,9 +1,11 @@
 .. mchoice:: AP2-1-6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/Exercises
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
+   :from_source: F
    :practice: T
    :answer_a: An attribute of the scaryMovie class is title.
    :answer_b: scaryMovie is an instance of the Movie class.

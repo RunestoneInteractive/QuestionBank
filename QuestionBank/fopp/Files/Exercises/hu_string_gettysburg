@@ -1,8 +1,10 @@
 .. activecode:: hu_string_gettysburg
     :author: Sean Joyce
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Files/Exercises
+    :chapter: Files
+    :subchapter: Exercises
+    :topics: Files/Exercises
     :from_source: F
   
 

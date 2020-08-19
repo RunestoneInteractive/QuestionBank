@@ -1,8 +1,10 @@
 .. activecode:: KDL_ch14_5
    :author: Kaelyn Leake
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

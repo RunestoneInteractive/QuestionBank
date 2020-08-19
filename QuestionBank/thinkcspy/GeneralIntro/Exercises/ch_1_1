@@ -1,8 +1,10 @@
 .. fillintheblank:: ch_1_1
         :author: Eric Level
-        :difficulty: 1
+        :difficulty: 1.0
         :basecourse: thinkcspy
-        :topic: GeneralIntro/Exercises
+        :chapter: GeneralIntro
+        :subchapter: Exercises
+        :topics: GeneralIntro/Exercises
         :from_source: F
 
         Complete the sentence: |blank| had a |blank| lamb.

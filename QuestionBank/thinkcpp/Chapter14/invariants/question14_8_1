@@ -1,8 +1,10 @@
 .. mchoice:: question14_8_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter14/invariants
+   :chapter: Chapter14
+   :subchapter: invariants
+   :topics: Chapter14/invariants
    :from_source: T
    :answer_a: It prevents unrestricted access to the instance variables by making them private.
    :answer_b: It allows users to directly modify private member variables.

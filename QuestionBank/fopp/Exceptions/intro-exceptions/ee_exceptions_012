@@ -1,15 +1,17 @@
 .. activecode:: ee_exceptions_012
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Exceptions/intro-exceptions
+   :chapter: Exceptions
+   :subchapter: intro-exceptions
+   :topics: Exceptions/intro-exceptions
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
    :practice: T
-   :pct_on_first: 0.5586592179
-   :total_students_attempting: 179
-   :num_students_correct: 166.0
-   :mean_clicks_to_correct: 2.0843373494
+   :pct_on_first: 0.5573770492
+   :total_students_attempting: 183
+   :num_students_correct: 170.0
+   :mean_clicks_to_correct: 2.0941176471
 
    5. Below, we have provided a list of tuples that consist of student names, final exam scores, and whether or not they will pass the class. For some students, the tuple does not have a third element because it is unknown whether or not they will pass. Currently, the for loop does not work. Add a try/except clause so the code runs without an error - if there is no third element in the tuple, no changes should be made to the dictionary.
    ~~~~

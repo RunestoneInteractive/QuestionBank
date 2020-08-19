@@ -1,11 +1,17 @@
 .. parsonsprob:: 5_5_2_Turtle_House2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/house
+   :chapter: CSPNameTurtles
+   :subchapter: house
+   :topics: CSPNameTurtles/house
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.7405660377
+   :total_students_attempting: 848
+   :num_students_correct: 783.0
+   :mean_clicks_to_correct: 1.4572158365
 
    Align the program pieces below to make the house and window figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the window.
    -----

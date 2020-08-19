@@ -1,8 +1,10 @@
 .. mchoice:: pe1_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: I
    :answer_b: II
@@ -15,31 +17,35 @@
    :feedback_c: You can not access private inherited fields directly.  You can either use public method to get and set their values or invoke the parent's constructor using super(paramList) as the first line of code in a constructor.
    :feedback_d: You can not access private inherited fields directly.  You can either use public method to get and set their values or invoke the parent's constructor using super(paramList) as the first line of code in a constructor.
    :feedback_e: To initialize inherited private fields you can use the parent's constructor.  Use super followed by the parameter list as the first line of code in the constructor.
+   :pct_on_first: 0.6571428571
+   :total_students_attempting: 140
+   :num_students_correct: 108.0
+   :mean_clicks_to_correct: 1.212962963
 
    Consider the following class definitions, which of the following can replace the missing code?
-
+   
    .. code-block:: java
-
+   
       public class ContactInfo
       {
          private String name;
          private String phoneNumber;
-
+   
          public ContactInfo(String theName, String thePhoneNumber)
          {
             this.name = theName;
             this.phoneNumber = thePhoneNumber;
          }
-
+   
          public String getName() { return name; }
-
+   
          public String getPhoneNumber() { return phoneNumber; }
       }
-
+   
       public class ExtendedContactInfo extends ContactInfo
       {
          private String nickname;
-
+   
          public ExtendedContactInfo (String theNickname,
                                      String theName,
                                      String thePhoneNumber)
@@ -47,25 +53,25 @@
             // missing code
          }
       }
-
+   
       I.
          super(theNickname, theName, thePhoneNumber);
-
+   
       II.
          this.name = theName;
          this.phoneNumber = thePhoneNumber;
          this.nickname = theNickname;
-
+   
       III.
          this.nickname = theNickname;
          this.name = theName;
          this.phoneNumber = thePhoneNumber;
-
+   
       IV.
          this.nickname = theNickname;
          this.name = theName;
          this.phoneNumber = thePhoneNumber;
-
+   
       V.
          super(theName,thePhoneNumber);
          this.nickname = theNickname;

@@ -1,8 +1,10 @@
 .. activecode:: sks_cw4_ex5
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [40 pts] Write a program to simulate the growth and fall of leaves on a tree.  At an initial point, the tree 

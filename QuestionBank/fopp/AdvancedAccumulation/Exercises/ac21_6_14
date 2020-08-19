@@ -1,13 +1,15 @@
 .. actex:: ac21_6_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.3658536585
-   :total_students_attempting: 41
-   :num_students_correct: 35.0
-   :mean_clicks_to_correct: 2.6857142857
+   :pct_on_first: 0.3488372093
+   :total_students_attempting: 43
+   :num_students_correct: 37.0
+   :mean_clicks_to_correct: 2.9459459459
 
    Write a function that takes a list of numbers and returns the sum of the squares of all the numbers. Try it using map and sum.
    ~~~~

@@ -1,8 +1,10 @@
 .. activecode:: Asmt_4_ch04.3_2019
     :author: Shawn Haarer
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
 
     Create two polygons with 5 or more sides

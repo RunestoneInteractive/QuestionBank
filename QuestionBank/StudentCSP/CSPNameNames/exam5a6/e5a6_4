@@ -1,8 +1,10 @@
 .. mchoice:: e5a6_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/exam5a6
+   :chapter: CSPNameNames
+   :subchapter: exam5a6
+   :topics: CSPNameNames/exam5a6
    :from_source: T
    :practice: T
    :answer_a: definition
@@ -14,5 +16,9 @@
    :feedback_b: A procedure doesn't return anything.
    :feedback_c: Turtles have procedures and functions.
    :feedback_d: A function returns a result.
+   :pct_on_first: 0.7305034551
+   :total_students_attempting: 1013
+   :num_students_correct: 789.0
+   :mean_clicks_to_correct: 1.0684410646
 
    A named sequence of statements that returns a result is known as which of the following?

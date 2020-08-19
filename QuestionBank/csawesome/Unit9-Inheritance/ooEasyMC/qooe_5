@@ -1,8 +1,10 @@
 .. mchoice:: qooe_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooEasyMC
+   :chapter: Unit9-Inheritance
+   :subchapter: ooEasyMC
+   :topics: Unit9-Inheritance/ooEasyMC
    :from_source: T
    :practice: T
    :answer_a: Use four unrelated classes: <code>Car</code>, <code>Doors</code>, <code>AirConditioning</code>, and <code>MilesPerGallon</code>.
@@ -16,5 +18,9 @@
    :feedback_c: The number of doors, flag if it has air conditioning, and the average number of miles per gallon are attributes of a car. Each of these is a simple value so they can just be fields of a <code>Car</code> class.
    :feedback_d: A door is not a type of car. A flag for air conditioning is not a type of door, and a miles per gallon is not a type of air conditioning flag. Child classes need to be able to be substituted for the parent class.
    :feedback_e: A class <code>Car</code> can't be a subclass of three different classes. Each class can only have one parent class. Also a car is not a type of door, air conditioning flag, or miles per gallon. Child classes need to be able to be substituted for the parent class.
+   :pct_on_first: 0.5933774834
+   :total_students_attempting: 755
+   :num_students_correct: 748.0
+   :mean_clicks_to_correct: 1.8435828877
 
     A car dealership needs a program to store information about the cars for sale. For each car, they want to keep track of the following information: number of doors (2 or 4), whether the car has air conditioning, and its average number of miles per gallon. Which of the following is the best design?

@@ -1,8 +1,10 @@
 .. mchoice:: assess_question5_2_1_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: accumulator variable: x | iterator variable: s | sequence variable: lst
    :answer_b: accumulator variable: total | iterator variable: s | sequence variable: lst
@@ -17,9 +19,5 @@
    :feedback_e: One of the options above has good names for the scenario.
    :practice: T
    :topics: TransformingSequences/WPAccumulatorPatternStrategies
-   :pct_on_first: 0.5865237366
-   :total_students_attempting: 653
-   :num_students_correct: 648.0
-   :mean_clicks_to_correct: 1.7669753086
 
    Given the following scenario, what are good names for the accumulator variable, iterator variable, and sequence variable? You are writing code that uses a list of sentences and accumulates the total number of sentences that have the word 'happy' in them.

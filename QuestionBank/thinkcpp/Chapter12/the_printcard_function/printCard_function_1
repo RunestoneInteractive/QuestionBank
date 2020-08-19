@@ -1,8 +1,10 @@
 .. mchoice:: printCard_function_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter12/the_printcard_function
+   :chapter: Chapter12
+   :subchapter: the_printcard_function
+   :topics: Chapter12/the_printcard_function
    :from_source: T
    :answer_a: rank.ranks
    :answer_b: ranks.rank

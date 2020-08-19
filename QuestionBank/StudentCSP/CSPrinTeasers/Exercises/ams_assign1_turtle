@@ -1,8 +1,10 @@
 .. activecode:: ams_assign1_turtle
     :author: Allison Schullo
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: StudentCSP
-    :topic: CSPrinTeasers/Exercises
+    :chapter: CSPrinTeasers
+    :subchapter: Exercises
+    :topics: CSPrinTeasers/Exercises
     :from_source: F
     :nocodelens:
 

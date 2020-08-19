@@ -1,8 +1,10 @@
 .. activecode:: combinedpts
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Inheritance/02-IntroToInheritance
+    :chapter: Inheritance
+    :subchapter: 02-IntroToInheritance
+    :topics: Inheritance/02-IntroToInheritance
     :from_source: T
     :include: pointclass_1, labeledpoint_2
 

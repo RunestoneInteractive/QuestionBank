@@ -1,8 +1,10 @@
 .. actex:: ex_8_6_ccs
    :author: Michael McCarrin
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :nocodelens: 
    :pct_on_first: 0.3333333333

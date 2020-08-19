@@ -1,8 +1,10 @@
 .. mchoice:: question14_9_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter14/preconditions
+   :chapter: Chapter14
+   :subchapter: preconditions
+   :topics: Chapter14/preconditions
    :from_source: T
    :multiple_answers:
    :answer_a: Assume assumptions are always true.

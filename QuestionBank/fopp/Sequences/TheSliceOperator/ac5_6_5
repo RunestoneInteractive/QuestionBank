@@ -1,16 +1,18 @@
 .. activecode:: ac5_6_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/TheSliceOperator
+   :chapter: Sequences
+   :subchapter: TheSliceOperator
+   :topics: Sequences/TheSliceOperator
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.1347099312
-   :total_students_attempting: 2034
-   :num_students_correct: 1552.0
-   :mean_clicks_to_correct: 3.5476804124
+   :pct_on_first: 0.1354775828
+   :total_students_attempting: 2052
+   :num_students_correct: 1569.0
+   :mean_clicks_to_correct: 3.5430210325
 
    Create a new list using the 9th through 12th elements (four items in all) of ``new_lst`` and assign it to the variable ``sub_lst``.
    ~~~~

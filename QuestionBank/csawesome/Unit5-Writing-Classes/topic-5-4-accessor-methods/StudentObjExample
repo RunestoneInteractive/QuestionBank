@@ -1,12 +1,18 @@
 .. activecode:: StudentObjExample
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: csawesome
-  :topic: Unit5-Writing-Classes/topic-5-4-accessor-methods
+  :chapter: Unit5-Writing-Classes
+  :subchapter: topic-5-4-accessor-methods
+  :topics: Unit5-Writing-Classes/topic-5-4-accessor-methods
   :from_source: T
   :language: java
   :autograde: unittest
   :practice: T
+  :pct_on_first: 0.9377990431
+  :total_students_attempting: 209
+  :num_students_correct: 202.0
+  :mean_clicks_to_correct: 1.0297029703
 
   Try the following code. Note that it has a bug! It tries to access the private instance variable email from outside the class Student.  Change the main method in Tester class so that it uses the appropriate public accessor method (get method) to access the email value instead.
   ~~~~
@@ -28,14 +34,14 @@
      private String name;
      private String email;
      private int id;
-
+  
      public Student(String initName, String initEmail, int initId)
      {
         name = initName;
         email = initEmail;
         id = initId;
      }
-
+  
      // accessor methods - getters
      /** getName()  @return name */
      public String getName()
@@ -57,7 +63,7 @@
   import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+  
     public class RunestoneTests extends CodeTestHelper
     {
         @Test
@@ -68,7 +74,7 @@
             boolean passed = getResults(expect, output, "Checking for expected output");
             assertTrue(passed);
         }
-
+  
         @Test
         public void testMethodCall() throws IOException
         {

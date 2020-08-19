@@ -1,13 +1,15 @@
 .. activecode:: wvu_string_concat
    :author: Brian Powell
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
-   :pct_on_first: 0.2173913043
-   :total_students_attempting: 138
-   :num_students_correct: 64.0
-   :mean_clicks_to_correct: 3.734375
+   :pct_on_first: 0.2230215827
+   :total_students_attempting: 139
+   :num_students_correct: 65.0
+   :mean_clicks_to_correct: 3.6923076923
 
    We want to concatenate the elements of parts into a new variable named wv. Include spaces between each part.
    ~~~~

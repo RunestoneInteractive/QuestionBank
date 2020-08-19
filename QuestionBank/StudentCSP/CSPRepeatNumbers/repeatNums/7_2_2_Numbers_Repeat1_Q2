@@ -1,8 +1,10 @@
 .. mchoice:: 7_2_2_Numbers_Repeat1_Q2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatNumbers/repeatNums
+   :chapter: CSPRepeatNumbers
+   :subchapter: repeatNums
+   :topics: CSPRepeatNumbers/repeatNums
    :from_source: T
    :answer_a: It prints the same thing it did before.
    :answer_b: It prints the value of sum 10 times and sum is different each time it is printed.
@@ -13,5 +15,9 @@
    :feedback_b: Both lines 4 and 5 are not in the loop anymore.
    :feedback_c: Is the print repeated now?
    :feedback_d: You have to have at least one statement in the body of a loop.
+   :pct_on_first: 0.8208955224
+   :total_students_attempting: 1541
+   :num_students_correct: 1536.0
+   :mean_clicks_to_correct: 1.3229166667
 
    What is printed if you change the program above so that lines 4 and 5 are not indented?

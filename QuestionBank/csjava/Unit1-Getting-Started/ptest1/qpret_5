@@ -1,9 +1,11 @@
 .. mchoice:: qpret_5
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit1-Getting-Started/ptest1
-    :from_source: T
+    :chapter: Unit1-Getting-Started
+    :subchapter: ptest1
+    :topics: Unit1-Getting-Started/ptest1
+    :from_source: F
     :answer_a: x = 0;
     :answer_b: if (x > 0) x = 0;
     :answer_c: if (x < 0) x = 0;

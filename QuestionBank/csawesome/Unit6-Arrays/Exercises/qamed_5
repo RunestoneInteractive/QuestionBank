@@ -1,8 +1,10 @@
 .. mchoice:: qamed_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/Exercises
+   :chapter: Unit6-Arrays
+   :subchapter: Exercises
+   :topics: Unit6-Arrays/Exercises
    :from_source: T
    :practice: T
    :answer_a: Returns the index of the largest value in array <code>arr</code>.
@@ -16,13 +18,17 @@
    :feedback_c: This would be true if it returned <code>loc</code> after setting <code>loc = k</code> and if it started at the end of the array and looped toward the beginning of the array.
    :feedback_d: It returns the <i>index</i> to the largest value in array <code>arr</code>, not the largest value.
    :feedback_e: <code>k</code> loops from 0 to <code>arr.length - 1</code>.  So it checks all of the elements in the array.
+   :pct_on_first: 0.2798353909
+   :total_students_attempting: 1944
+   :num_students_correct: 1885.0
+   :mean_clicks_to_correct: 3.2339522546
 
    Consider the following field ``arr`` and method ``checkArray``.  Which of the following best describes what ``checkArray`` returns?
-
+   
    .. code-block:: java
-
+   
      private int[] arr;
-
+   
      // precondition: arr.length != 0
      public int checkArray()
      {

@@ -1,11 +1,17 @@
 .. parsonsprob:: unittest-square
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPIntroData/Exercises
+   :chapter: CSPIntroData
+   :subchapter: Exercises
+   :topics: CSPIntroData/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.2428571429
+   :total_students_attempting: 280
+   :num_students_correct: 277.0
+   :mean_clicks_to_correct: 4.2960288809
 
    Put the code in order to define a square function which returns a value times itself.  After that function create a test class with a test using a positive number, a negative number, and 0 in that order.  The area on the left has extra blocks that are not needed in a correct solution.
    -----

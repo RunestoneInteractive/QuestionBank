@@ -1,0 +1,25 @@
+.. activecode::  ch3Ex1a
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-10-practice-coding
+   :topics: Unit1-Getting-Started/topic-1-10-practice-coding
+   :from_source: T
+   :language: java
+   :optional:
+
+   This is the answer for the previous question.
+   ~~~~
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int tripMiles = 300;
+           double price = 2.50;
+           int milesPerGallon = 30;
+           double numberOfGallons = tripMiles / milesPerGallon;
+           double totalCost = numberOfGallons * price;
+           System.out.println(totalCost);
+       }
+   }

@@ -1,13 +1,15 @@
 .. fillintheblank:: ch02_ex1_alt
    :author: Scott Hill
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
-   :pct_on_first: 0.5210084034
-   :total_students_attempting: 357
-   :num_students_correct: 340.0
-   :mean_clicks_to_correct: 2.5294117647
+   :pct_on_first: 0.5284090909
+   :total_students_attempting: 352
+   :num_students_correct: 336.0
+   :mean_clicks_to_correct: 2.5119047619
 
    Evaluate the following numerical expressions in your head, then use
    the active code window to check your results:

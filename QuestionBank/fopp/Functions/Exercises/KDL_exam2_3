@@ -1,15 +1,17 @@
 .. activecode:: KDL_exam2_3
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.5652173913
-   :total_students_attempting: 23
-   :num_students_correct: 20.0
-   :mean_clicks_to_correct: 3.2
+   :pct_on_first: 0.5833333333
+   :total_students_attempting: 24
+   :num_students_correct: 21.0
+   :mean_clicks_to_correct: 3.0952380952
 
    Create a function called ``key_val`` that accepts a dictionary and a list of keys and returns the corresponding list of values. For example key_val({'one':1,'two':2,'three':3,'four':4},['one','three','two']) should return [1,3,2].
    ~~~~

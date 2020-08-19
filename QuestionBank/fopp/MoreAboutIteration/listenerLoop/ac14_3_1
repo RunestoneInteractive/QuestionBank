@@ -1,8 +1,10 @@
 .. activecode:: ac14_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: MoreAboutIteration/listenerLoop
+   :chapter: MoreAboutIteration
+   :subchapter: listenerLoop
+   :topics: MoreAboutIteration/listenerLoop
    :from_source: T
 
    theSum = 0

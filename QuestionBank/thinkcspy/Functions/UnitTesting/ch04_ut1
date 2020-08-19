@@ -1,8 +1,10 @@
 .. activecode:: ch04_ut1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/UnitTesting
+    :chapter: Functions
+    :subchapter: UnitTesting
+    :topics: Functions/UnitTesting
     :from_source: T
 
     def square(x):

@@ -1,8 +1,10 @@
 .. mchoice:: qa2hard_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit8-2DArray/a2dHardMC
+   :chapter: Unit8-2DArray
+   :subchapter: a2dHardMC
+   :topics: Unit8-2DArray/a2dHardMC
    :from_source: T
    :practice: T
    :answer_a: The maximum brightness value for all pixels in imagePixel
@@ -16,16 +18,20 @@
    :feedback_c: To do this you would need a third loop and an array, 256 in size. In the second loop you would track how many pixels of a certain brightness had occurred using, countBright[i]++, and then in the third loop find the item in countBright with the highest value.
    :feedback_d: Firstly, you would need to traverse the 2D array in the opposite order, going through the rows instead of the columns. Then, you would sum each row's brightness in the second loop and compare it to the max in the first loop.
    :feedback_e: This would be accomplished by instead of having an if statement to track the currentmax, simply using, sum += imagePixels[r][c];
+   :pct_on_first: 0.576
+   :total_students_attempting: 1000
+   :num_students_correct: 969.0
+   :mean_clicks_to_correct: 2.2002063983
 
    A two-dimensional array, ``imagePixels``, holds the brightness values for the pixels in an image. The brightness can range from 0 to 255. What does the following method compute?
-
+   
    .. code-block:: java
      :linenos:
-
+   
      public int findMax(int[][] imagePixels) {
         int r, c;
         int i, iMax = 0;
-
+   
         for (r = 0; r < imagePixels.length; r++) {
            for (c = 0; c < imagePixels[0].length; c++) {
               i = imagePixels[r][c];

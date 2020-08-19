@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermNumberGuess
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1639344262
+   :total_students_attempting: 122
+   :num_students_correct: 100.0
+   :mean_clicks_to_correct: 5.66
 
    The code below is correct, but is mixed-up.  It should be the play method for a number guessing game. It should loop while the user's guess doesn't match the game's number.  It should get the guess from the user and tell the user if the guess is too low, too high, or correct.
    -----
@@ -28,7 +34,7 @@
           else:
    =====
               print("You guessed the number!")
-
-config values (conf.py):
-
-- parsons_div_class - custom CSS class of the component's outermost div
+   
+   fig values (conf.py):
+   
+   arsons_div_class - custom CSS class of the component's outermost div

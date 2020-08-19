@@ -1,29 +1,36 @@
 .. parsonsprob:: mucp_6_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter6/mixed_up_code
+   :chapter: Chapter6
+   :subchapter: mixed_up_code
+   :topics: Chapter6/mixed_up_code
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :practice: T
+   :pct_on_first: 0.0
+   :total_students_attempting: 1
+   :num_students_correct: 1.0
+   :mean_clicks_to_correct: 2.0
 
-   Now let's generalize the ``repeatHello`` function so that it repeats a given string three times.
-   Let's write the code for the ``repeatString`` function, which is a void function that takes
-   a string input as a parameter and uses a while loop to print out the string three times.
+   Let's write the code for the ``repeatHello`` function. ``repeatHello``
+   should be a void function that takes no arguments and uses a while
+   loop to print out "hello" three times.
    -----
-   void repeatString (string input) {
+   void repeatHello () {
    =====
-   void repeatString () {                         #paired
+   repeatHello () {                         #paired
    =====
       int n = 0;
    =====
+      int n = 0                        #paired
+   =====
       while (n < 3) {
    =====
-      while (3 > n) {                        #paired
+      while (n > 3) {                        #paired
    =====
-         cout << input << endl;
-   =====
-         cout << string << endl;                        #paired
+         cout << "hello" << endl;
    =====
          n++;
       }

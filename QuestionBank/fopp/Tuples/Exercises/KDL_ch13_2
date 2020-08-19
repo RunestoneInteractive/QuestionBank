@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch13_2
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.6078431373
-   :total_students_attempting: 51
-   :num_students_correct: 46.0
-   :mean_clicks_to_correct: 1.8913043478
+   :pct_on_first: 0.5961538462
+   :total_students_attempting: 52
+   :num_students_correct: 47.0
+   :mean_clicks_to_correct: 1.8936170213
 
    Write a function ``list_link`` that accepts two lists and returns a dictionary with the first list as the key and the second list as the value. Use enumerate link the two lists in a single for loop to create the dictionary. For example, ``list_link(['what','do','you','do'],[1,2,3,4])`` should return ``{'what': 1, 'do': 4, 'you': 3}``. 
    ~~~~

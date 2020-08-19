@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: thinkcpp
-    :topic: Chapter1/exercises
+    :topics: Chapter1/exercises
     :from_source: T
 
     You were asked to parse through your program, what should this entail?

@@ -1,8 +1,10 @@
 .. mchoice:: json_mmc1a
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/Exercises
+   :chapter: CSPNameNumbers
+   :subchapter: Exercises
+   :topics: CSPNameNumbers/Exercises
    :from_source: F
    :correct: c
    :answer_a: name = dList.get("last_name", None)
@@ -13,11 +15,15 @@
    :feedback_b: The attribute name needs to be in quotes.
    :feedback_c: Can use get with an attribute name to get the value.
    :feedback_d: This gets the first name, not the last name
+   :pct_on_first: 0.5555555556
+   :total_students_attempting: 117
+   :num_students_correct: 116.0
+   :mean_clicks_to_correct: 1.7413793103
 
    What line would you use after the code below to get the value of the last_name from the first item from dList?
-
+   
    .. code-block:: python
-
+   
       data = '''
       [{
           "id": 1,

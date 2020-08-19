@@ -1,8 +1,10 @@
 .. activecode:: CS152_Assignment_02
      :author: John Cigas
-     :difficulty: 3
+     :difficulty: 3.0
      :basecourse: thinkcspy
-     :topic: Labs/Exercises
+     :chapter: Labs
+     :subchapter: Exercises
+     :topics: Labs/Exercises
      :from_source: F
 
      Create a Python program that prompts the user to enter a 

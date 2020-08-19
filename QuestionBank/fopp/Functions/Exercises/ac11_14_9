@@ -1,13 +1,15 @@
 .. actex:: ac11_14_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
-   :pct_on_first: 0.4480519481
-   :total_students_attempting: 308
-   :num_students_correct: 283.0
-   :mean_clicks_to_correct: 4.3604240283
+   :pct_on_first: 0.4483870968
+   :total_students_attempting: 310
+   :num_students_correct: 285.0
+   :mean_clicks_to_correct: 4.3403508772
 
    Write a function ``sum_of_squares(xs)`` that computes the sum
    of the squares of the numbers in the list ``xs``.  For example,

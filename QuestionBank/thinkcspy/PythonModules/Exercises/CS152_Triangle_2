@@ -1,8 +1,10 @@
 .. activecode:: CS152_Triangle_2
     :author: John Cigas
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
 
 

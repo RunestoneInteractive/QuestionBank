@@ -1,11 +1,17 @@
 .. parsonsprob:: sum13-parsons
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPWhileAndForLoops/Exercises
+   :chapter: CSPWhileAndForLoops
+   :subchapter: Exercises
+   :topics: CSPWhileAndForLoops/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1778846154
+   :total_students_attempting: 208
+   :num_students_correct: 201.0
+   :mean_clicks_to_correct: 8.4676616915
 
    Put the code blocks in order to return the sum of the numbers in the list 
    nums, returning 0 for an empty list. Except the number 13 is very 

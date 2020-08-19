@@ -1,8 +1,10 @@
 .. youtube:: GCLHuPBtLdQ
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: PythonModules/modules
+    :chapter: PythonModules
+    :subchapter: modules
+    :topics: PythonModules/modules
     :from_source: T
     :divid: vid_modules
     :height: 315

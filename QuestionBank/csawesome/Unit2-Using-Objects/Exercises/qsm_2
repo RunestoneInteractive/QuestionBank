@@ -1,8 +1,10 @@
 .. mchoice:: qsm_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: org
@@ -16,11 +18,15 @@
    :feedback_c: This can't be true since the e is at index 1 and s2 = s1.substring(2) will start at index 2 and take all characters till the end of the string.
    :feedback_d: This would be true if substring(a,b) included the character at index b, but it doesn't.
    :feedback_e: This would be true if the starting index was invalid or the ending index was past 2 past the last valid index.
+   :pct_on_first: 0.4706079946
+   :total_students_attempting: 2977
+   :num_students_correct: 2943.0
+   :mean_clicks_to_correct: 2.3591573225
 
    What is output from the following code?
-
+   
    .. code-block:: java
-
+   
      String s = "Georgia Tech";
      String s1 = s.substring(0,7);
      String s2 = s1.substring(2);

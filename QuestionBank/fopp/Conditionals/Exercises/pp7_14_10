@@ -1,13 +1,15 @@
 .. parsonsprob:: pp7_14_10
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: F
-   :pct_on_first: 0.3333333333
-   :total_students_attempting: 273
-   :num_students_correct: 258.0
-   :mean_clicks_to_correct: 3.7441860465
+   :pct_on_first: 0.3345454545
+   :total_students_attempting: 275
+   :num_students_correct: 259.0
+   :mean_clicks_to_correct: 3.7335907336
 
    Write a program that will print out a greeting to each student in the list. This list should also keep track of how many students have been greeted and note that each time a new student has been greeted. When only one student has entered, the program should say "The first student has entered!". Afterwards, the program should say "There are {number here} students in the classroom!".
    -----

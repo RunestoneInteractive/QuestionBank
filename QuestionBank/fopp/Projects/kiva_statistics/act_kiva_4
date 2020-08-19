@@ -1,14 +1,16 @@
 .. activecode:: act_kiva_4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/kiva_statistics
+    :chapter: Projects
+    :subchapter: kiva_statistics
+    :topics: Projects/kiva_statistics
     :from_source: T
     :include: act_kiva_1
-    :pct_on_first: 0.112568306
-    :total_students_attempting: 915
-    :num_students_correct: 683.0
-    :mean_clicks_to_correct: 5.8448023426
+    :pct_on_first: 0.1124454148
+    :total_students_attempting: 916
+    :num_students_correct: 685.0
+    :mean_clicks_to_correct: 5.8364963504
 
     Store the amount of the minimum loan in  ``min_loan`` and the amount of the maximum loan in ``max_loan`` Then, store the name of the country that received the largest loan in ``max_country`` and the smallest loan in ``min_country``  Hint: ``max`` and ``min`` are built in Python functions that you can use to find the minimum value or maximum value in any sequence.
     ~~~~

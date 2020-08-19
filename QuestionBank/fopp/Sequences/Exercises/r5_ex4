@@ -1,8 +1,10 @@
 .. activecode:: r5_ex4
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
 
     Create a list containing any 6 shopping items of your choice.

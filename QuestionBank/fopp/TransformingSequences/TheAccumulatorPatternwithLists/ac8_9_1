@@ -1,8 +1,10 @@
 .. activecode:: ac8_9_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/TheAccumulatorPatternwithLists
+   :chapter: TransformingSequences
+   :subchapter: TheAccumulatorPatternwithLists
+   :topics: TransformingSequences/TheAccumulatorPatternwithLists
    :from_source: T
 
    nums = [3, 5, 8]

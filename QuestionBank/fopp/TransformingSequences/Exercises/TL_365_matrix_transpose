@@ -1,15 +1,17 @@
 .. actex:: TL_365_matrix_transpose
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0083333333
-   :total_students_attempting: 120
-   :num_students_correct: 28.0
-   :mean_clicks_to_correct: 8.3214285714
+   :pct_on_first: 0.008
+   :total_students_attempting: 125
+   :num_students_correct: 30.0
+   :mean_clicks_to_correct: 9.8666666667
 
    The transpose of a matrix is flipped along its diagonal.  E.g.,
    an input matrix that looks like

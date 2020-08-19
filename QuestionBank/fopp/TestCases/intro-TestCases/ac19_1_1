@@ -1,8 +1,10 @@
 .. activecode:: ac19_1_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TestCases/intro-TestCases
+    :chapter: TestCases
+    :subchapter: intro-TestCases
+    :topics: TestCases/intro-TestCases
     :from_source: F
 
     def square(x):

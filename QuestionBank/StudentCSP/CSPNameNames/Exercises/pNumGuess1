@@ -1,11 +1,17 @@
 .. parsonsprob:: pNumGuess1
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.2107843137
+   :total_students_attempting: 204
+   :num_students_correct: 183.0
+   :mean_clicks_to_correct: 4.4644808743
 
    Put the code in order to define a NumberGuess class that will pick a random number from 1 to 100 in the __init__ method. Create a play method that loops while the current user guess is not equal to the game's pick.  The game will ask the user to pick a number from 1 to 100 and tell the user if the guess is too low, too high, or correct.
    -----

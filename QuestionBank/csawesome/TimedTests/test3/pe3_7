@@ -1,8 +1,10 @@
 .. mchoice:: pe3_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test3
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
    :from_source: T
    :answer_a: v.test(sporty,v);
    :answer_b: sporty.test(c,c);
@@ -15,21 +17,25 @@
    :feedback_c: This would be true if the test method took a SportsCar object and a Car object.
    :feedback_d: This would be true if the test method took a SportsCar object and a Vehicle object.
    :feedback_e: The test method takes a Car object and a SportsCar object.  Only this answer correctly passes a SportsCar object as the second parameter.  You can use a SportsCar object as a Car object since it is a subclass of Car.  The test method can be called on any child of Vehicle.
+   :pct_on_first: 0.3541666667
+   :total_students_attempting: 48
+   :num_students_correct: 22.0
+   :mean_clicks_to_correct: 1.2272727273
 
    Which of the following is a correct call to test?
-
+   
    .. code-block:: java
-
+   
       public class Vehicle {
          public void test(Car x, SportsCar y) {}
       }
-
+   
       public class Car extends Vehicle {
       }
-
+   
       public class SportsCar extends Car {
       }
-
+   
       public class VechicleTest
       {
          public static void main(String[] args)

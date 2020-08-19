@@ -1,8 +1,10 @@
 .. mchoice:: assess_question1_3_1_1_4
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/week1a3
+   :chapter: PythonTurtle
+   :subchapter: week1a3
+   :topics: PythonTurtle/week1a3
    :from_source: F
    :answer_a: True
    :answer_b: False
@@ -11,9 +13,5 @@
    :feedback_b: The only difference is the structure that is used to refer to it.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
-   :pct_on_first: 0.5644820296
-   :total_students_attempting: 473
-   :num_students_correct: 471.0
-   :mean_clicks_to_correct: 1.4479830149
 
    True or False, attributes/instance variables are just like other variables in Python.

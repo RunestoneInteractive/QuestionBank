@@ -1,18 +1,16 @@
 .. actex:: TL_365_ac7_14_6
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Conditionals/TheAccumulatorPatternwithConditionals
-   :nocodelens: 
-   :pct_on_first: 0.2432432432
-   :total_students_attempting: 74
-   :num_students_correct: 42.0
-   :mean_clicks_to_correct: 2.7380952381
+   :nocodelens:
 
    Provided is a list of numbers. For each of the numbers in the list,
    determine whether they are even. If the number is even, add
@@ -21,29 +19,29 @@
    
    ~~~~
    num_lst = [3, 20, -1, 9, 10]
-   
+
    ====
-   
+
    from unittest.gui import TestCaseGui
    import re
    class myTests(TestCaseGui):
        def testOne(self):
            self.assertEqual(is_even, [False, True, False, False, True],"Testing that is_even is set correctly.")
-   
+
    	   # LOOK FOR IF STATEMENTS
-    outer_ifs = re.findall(r'^(if[ (].*: *)$', self.getEditorText(), re.M)
-    outer_elifs = re.findall(r'^(elif[ (].*: *)$', self.getEditorText(), re.M)
-    outer_elses = re.findall(r'^(else[ (]*: *)$', self.getEditorText(), re.M)
-    inner_ifs = re.findall(r'^( +if[ (].*: *)$', self.getEditorText(), re.M)
-    inner_elifs = re.findall(r'^( +elif[ (].*: *)$', self.getEditorText(), re.M)
-    inner_elses = re.findall(r'^( +else[ (]*: *)$', self.getEditorText(), re.M)
-    self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
-                    len(inner_ifs)==1 and len(inner_elifs)==0 and len(inner_elses)==1, 
-      'Checking if-statements')
-    # LOOK FOR for STATEMENTS
-    outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
-    inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
-    self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements (there shouldn\'t be any)')
-   
-     
+	   outer_ifs = re.findall(r'^(if[ (].*: *)$', self.getEditorText(), re.M)
+	   outer_elifs = re.findall(r'^(elif[ (].*: *)$', self.getEditorText(), re.M)
+	   outer_elses = re.findall(r'^(else[ (]*: *)$', self.getEditorText(), re.M)
+	   inner_ifs = re.findall(r'^( +if[ (].*: *)$', self.getEditorText(), re.M)
+	   inner_elifs = re.findall(r'^( +elif[ (].*: *)$', self.getEditorText(), re.M)
+	   inner_elses = re.findall(r'^( +else[ (]*: *)$', self.getEditorText(), re.M)
+	   self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
+	                   len(inner_ifs)==1 and len(inner_elifs)==0 and len(inner_elses)==1, 
+			   'Checking if-statements')
+	   # LOOK FOR for STATEMENTS
+	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
+	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
+	   self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements (there shouldn\'t be any)')
+
+	    
    myTests().main()

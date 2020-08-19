@@ -1,48 +1,54 @@
 .. mchoice:: AP5-5-1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit5-Writing-Classes/topic-5-5-mutator-methods
+    :chapter: Unit5-Writing-Classes
+    :subchapter: topic-5-5-mutator-methods
+    :topics: Unit5-Writing-Classes/topic-5-5-mutator-methods
     :from_source: T
     :practice: T
+    :pct_on_first: 0.5143422354
+    :total_students_attempting: 3033
+    :num_students_correct: 2984.0
+    :mean_clicks_to_correct: 2.0144101877
 
     Consider the following class definition.
-
+    
     .. code-block:: java
-
+    
         public class Liquid
         {
             private int currentTemp;
-
+    
             public Liquid(int temp)
             {
                 currentTemp = temp;
             }
-
+    
             public void resetTemp()
             {
                 currentTemp = newTemp;
             }
         }
-
+    
     Which of the following best identifies the reason the class does not compile?
-
+    
     - The constructor header does not have a return type.
-
+    
       - The constructor should not have a return type.
-
+    
     - The resetTemp method is missing a return type.
-
+    
       - Mutator methods usually have a void return type.
-
+    
     - The constructor should not have a parameter.
-
+    
       - Constructors can have parameters.
-
+    
     - The resetTemp method should have a parameter.
-
+    
       + Correct! The resetTemp method should have a parameter for the newTemp value to set the currentTemp.
-
+    
     - The instance variable currentTemp should be public instead of private.
-
+    
       - Instance variables should be private variables.

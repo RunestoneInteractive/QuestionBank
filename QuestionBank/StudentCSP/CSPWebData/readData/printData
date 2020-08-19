@@ -1,8 +1,10 @@
 .. activecode:: printData
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/readData
+   :chapter: CSPWebData
+   :subchapter: readData
+   :topics: CSPWebData/readData
    :from_source: T
    :tour_1: "Structural tour"; 2: web1-line4; 5: web1-line5; 8: web1-line6; 11: web1-line7; 14: web1-line8; 17: web1-line9; 18-19: web1-line10-11; 22: web1-line12; 25: web1-line14;
    :nocodelens:

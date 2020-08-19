@@ -1,13 +1,15 @@
 .. activecode:: KDL_ch11_3
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Dictionaries/Exercises
+   :chapter: Dictionaries
+   :subchapter: Exercises
+   :topics: Dictionaries/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.0067567568
-   :total_students_attempting: 148
+   :pct_on_first: 0.0067114094
+   :total_students_attempting: 149
    :num_students_correct: 24.0
    :mean_clicks_to_correct: 14.4166666667
 

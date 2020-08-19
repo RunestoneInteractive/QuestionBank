@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_10
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: They are the same.
   :answer_b: The Internet cannot search using user-specified queries, the Web can.
@@ -13,5 +15,9 @@
   :feedback_b: Incorrect. The Internet can search user-specified queries.
   :feedback_c: Incorrect. The Web is a system on the Internet that connects documents to one another.
   :feedback_d: Correct. This is true of the World Wide Web.
+  :pct_on_first: 0.3163265306
+  :total_students_attempting: 98
+  :num_students_correct: 95.0
+  :mean_clicks_to_correct: 2.4
 
   How do the World Wide Web and the Internet work together?

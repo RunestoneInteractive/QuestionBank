@@ -1,8 +1,10 @@
 .. mchoice:: question9_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/FindingaFileonyourDisk
+   :chapter: Files
+   :subchapter: FindingaFileonyourDisk
+   :topics: Files/FindingaFileonyourDisk
    :from_source: T
    :multiple_answers: 
    :answer_a: "Stacy/Applications/README.txt"
@@ -15,9 +17,9 @@
    :feedback_c: This is an absolute file path. Not all absolute file paths contain "User"! Instead, check to see if the path starts with "/".
    :feedback_d: Yes, this is a relative file path. You can tell by the lack of "/" at the beginning of the path.
    :practice: T
-   :pct_on_first: 0.2694828842
-   :total_students_attempting: 1373
-   :num_students_correct: 1340.0
-   :mean_clicks_to_correct: 2.7529850746
+   :pct_on_first: 0.2691197691
+   :total_students_attempting: 1386
+   :num_students_correct: 1354.0
+   :mean_clicks_to_correct: 2.7488921713
 
    Which of the following paths are relative file paths?

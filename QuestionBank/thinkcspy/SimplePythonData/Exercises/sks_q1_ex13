@@ -1,8 +1,10 @@
 .. activecode:: sks_q1_ex13
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [30 pts] Write a Python program that computes the approximate number of days since the start of the year. Assume all months are 30 days! A user session should proceed as follows:

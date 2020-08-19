@@ -1,16 +1,18 @@
 .. activecode:: ac17_1_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ListswithComplexItems
+   :chapter: NestedData
+   :subchapter: ListswithComplexItems
+   :topics: NestedData/ListswithComplexItems
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5503144654
-   :total_students_attempting: 318
-   :num_students_correct: 267.0
-   :mean_clicks_to_correct: 1.7752808989
+   :pct_on_first: 0.549382716
+   :total_students_attempting: 324
+   :num_students_correct: 271.0
+   :mean_clicks_to_correct: 1.7675276753
 
    **1.** Below, we have provided a list of lists. Use indexing to assign the element 'horse' to the variable name ``idx1``.
    

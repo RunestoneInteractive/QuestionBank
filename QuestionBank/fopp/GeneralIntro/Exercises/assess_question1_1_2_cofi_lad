@@ -1,8 +1,10 @@
 .. activecode:: assess_question1_1_2_cofi_lad
     :author: Lynda Danielson
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

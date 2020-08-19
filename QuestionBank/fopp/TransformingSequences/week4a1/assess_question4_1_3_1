@@ -1,8 +1,10 @@
 .. mchoice:: assess_question4_1_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: I.
    :answer_b: II.
@@ -15,36 +17,32 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.4873837981
-   :total_students_attempting: 753
-   :num_students_correct: 749.0
-   :mean_clicks_to_correct: 2.0347129506
 
    Which of these is a correct reference diagram following the execution of the following code?
-   
+
    .. sourcecode:: python
-   
+
     sent = "The mall has excellent sales right now."
     wrds = sent.split()
     wrds[1] = 'store'
     new_sent = " ".join(wrds)
-   
+
    I.
-   
+
    .. image:: Figures/week3a2_1.png
       :alt: First Potential Solution
-   
+
    II.
-   
+
    .. image:: Figures/week3a2_2.png
       :alt: Second Potential Solution
-   
+
    III.
-   
+
    .. image:: Figures/week3a2_3.png
       :alt: Third Potential Solution
-   
+
    IV.
-   
+
    .. image:: Figures/week3a2_4.png
       :alt: Fourth Potential Solution

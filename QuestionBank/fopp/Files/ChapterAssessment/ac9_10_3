@@ -1,18 +1,20 @@
 .. activecode:: ac9_10_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :available_files: school_prompt.txt
    :nocodelens: 
-   :pct_on_first: 0.6133828996
-   :total_students_attempting: 807
-   :num_students_correct: 675.0
-   :mean_clicks_to_correct: 1.6207407407
+   :pct_on_first: 0.6137761378
+   :total_students_attempting: 813
+   :num_students_correct: 680.0
+   :mean_clicks_to_correct: 1.6176470588
 
    Assign to the variable ``num_lines`` the number of lines in the file ``school_prompt.txt``.
    ~~~~

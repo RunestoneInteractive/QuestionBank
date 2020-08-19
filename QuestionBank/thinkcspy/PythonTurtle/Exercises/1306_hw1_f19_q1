@@ -1,8 +1,10 @@
 .. activecode:: 1306_hw1_f19_q1
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
    
     [20 pts] 

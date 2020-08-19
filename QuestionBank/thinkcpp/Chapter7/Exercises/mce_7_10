@@ -1,37 +1,44 @@
 .. mchoice:: mce_7_10
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter7/Exercises
+    :chapter: Chapter7
+    :subchapter: Exercises
+    :topics: Chapter7/Exercises
     :from_source: T
+    :practice: T
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 4.0
 
     What is the output of the code below?
-
+    
     .. code-block:: cpp
-
+    
      int main() {
        string call = "Marco!";
        string response = "Polo!";
        string output = "call" + "response";
        cout << output;
      }
-
+    
     - Marco! Polo!
-
+    
       - Take a closer look at the initialization of ``output``.
-
+    
     - Marco!Polo!
-
+    
       - Take a closer look at the initialization of ``output``.
-
+    
     - call response
-
+    
       - Can we concatenate "call" and "response"?
-
+    
     - callresponse
-
+    
       - Can we concatenate "call" and "response"?
-
+    
     - Error, we cannot concatenate native C strings.
-
+    
       + We cannot concatenate "call" and "response", so this code results in an error.

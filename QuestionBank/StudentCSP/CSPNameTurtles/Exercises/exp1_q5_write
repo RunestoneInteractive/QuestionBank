@@ -1,22 +1,28 @@
 .. activecode:: exp1_q5_write
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
    :autograde: unittest
    :nocodelens: 
+   :pct_on_first: 0.3943661972
+   :total_students_attempting: 71
+   :num_students_correct: 61.0
+   :mean_clicks_to_correct: 3.6393442623
 
    Finish the function get_names that takes a list of dictionaries and returns a list of strings with the names from the dictionaries.  The key for the first name is 'first' and the key for the last name is 'last'.  Return a list of the full names (first last) as a string.  If the 'first' or 'last' key is missing in the dictionary use 'Unknown'.
    
    ~~~~
    def get_names(d_list):
-
+   
    ====
    from unittest.gui import TestCaseGui
-
+   
    class myTests(TestCaseGui):
-
+   
        def testOne(self):
            d1 = {'first': 'Tsi', 'last': 'Choi'}
            d2 = {'first': 'Joy', 'last': 'Ali'}

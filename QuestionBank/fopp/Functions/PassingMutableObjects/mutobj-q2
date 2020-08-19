@@ -1,13 +1,15 @@
 .. mchoice:: mutobj-q2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/PassingMutableObjects
+    :chapter: Functions
+    :subchapter: PassingMutableObjects
+    :topics: Functions/PassingMutableObjects
     :from_source: T
-    :pct_on_first: 0.7340425532
-    :total_students_attempting: 94
-    :num_students_correct: 93.0
-    :mean_clicks_to_correct: 1.2580645161
+    :pct_on_first: 0.7428571429
+    :total_students_attempting: 105
+    :num_students_correct: 104.0
+    :mean_clicks_to_correct: 1.25
 
     What is the output of the following code fragment?
     

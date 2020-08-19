@@ -1,44 +1,50 @@
 .. mchoice:: AP2-4-1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-4-methods-with-params
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-4-methods-with-params
+    :topics: Unit2-Using-Objects/topic-2-4-methods-with-params
     :from_source: T
     :practice: T
+    :pct_on_first: 0.5778513961
+    :total_students_attempting: 2113
+    :num_students_correct: 2091.0
+    :mean_clicks_to_correct: 1.7890961263
 
     Consider the following methods:
-
+    
     .. code-block:: java
-
+    
         public void inchesToCentimeters(double i)
         {
             double c = i * 2.54;
             printInCentimeters(i, c);
         }
-
+    
         public void printInCentimeters(double inches, double centimeters)
         {
             System.out.print(inches + "-->" + centimeters);
         }
-
+    
     Assume that the method call ``inchesToCentimeters(10)`` appears in a method in the same class. What is printed as a result of the method call?
-
+    
     - inches --> centimeters
-
+    
       - The values of the variables inches and centimeters should be printed out, not the words.
-
+    
     - 10 -->  25
-
+    
       - Two doubles should be printed, not two ints, and the centimeters should be 25.4
-
+    
     - 25.4 --> 10
-
+    
       - Inches should be printed before centimeters.
-
+    
     - 10 --> 12.54
-
+    
       - c = 10 * 2.54 = 25.4, not 12.54.
-
+    
     - 10.0 --> 25.4
-
+    
       + Correct! centimeters = 10 * 2.54 = 25.4.

@@ -1,13 +1,15 @@
 .. fillintheblank:: mov_dead_presidents_budget
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: httlads
-   :topic: MovieData/filtering
+   :chapter: MovieData
+   :subchapter: filtering
+   :topics: MovieData/filtering
    :from_source: T
-   :pct_on_first: 0.6701030928
-   :total_students_attempting: 291
-   :num_students_correct: 286
-   :mean_clicks_to_correct: 2.3216783217
+   :pct_on_first: 0.6768707483
+   :total_students_attempting: 294
+   :num_students_correct: 290.0
+   :mean_clicks_to_correct: 2.3034482759
 
    What was the budget for Dead Presidents? |blank|
    

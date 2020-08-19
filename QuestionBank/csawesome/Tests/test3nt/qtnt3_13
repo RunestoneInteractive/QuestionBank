@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_13
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: I only
    :answer_b: II only
@@ -15,16 +17,20 @@
    :feedback_c: This method returns true if the list has at least one value in it that is not zero.
    :feedback_d: I is correct, but II is incorrect. Because list is not an array, the get method must be used to find the value at a certain index.
    :feedback_e: You can not use list[i] to get a value from a list so II is incorrect.  III would return true if at least one value in the list is not zero.
+   :pct_on_first: 0.4915254237
+   :total_students_attempting: 118
+   :num_students_correct: 116.0
+   :mean_clicks_to_correct: 2.1293103448
 
    Consider the method ``emptyList``, shown below. The method returns true if a ``List`` of integers is filled with zeros and false otherwise. Which of the following should replace ``/* to be completed */`` so that the method will work as intended?
-
+   
    .. code-block:: java
-
+   
       public boolean emptyList (List <Integer> list)
       {
            /* to be completed */
       }
-
+   
       // I.
       for (int i = 0; i < list.size(); i++)
       {
@@ -32,7 +38,7 @@
               return false;
       }
       return true;
-
+   
       // II.
       for (int i = 0; i < list.size(); i++)
       {
@@ -40,7 +46,7 @@
               return false;
       }
       return true;
-
+   
       // III.
       for (int i = 0; i < list.size(); i++)
       {

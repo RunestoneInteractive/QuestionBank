@@ -1,10 +1,17 @@
 .. activecode:: superclassMethod
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: csawesome
-  :topic: Unit9-Inheritance/topic-9-5-hierarchies
+  :chapter: Unit9-Inheritance
+  :subchapter: topic-9-5-hierarchies
+  :topics: Unit9-Inheritance/topic-9-5-hierarchies
   :from_source: T
   :language: java
+  :autograde: unittest
+  :pct_on_first: 1.0
+  :total_students_attempting: 8
+  :num_students_correct: 8.0
+  :mean_clicks_to_correct: 1.0
 
   Which toString() method is called below? What would happen if you commented out the Student toString() method? Which one would be called now?
   ~~~~
@@ -24,7 +31,7 @@
           t.print(s); //call print with a Student
        }
     }
-
+  
     class Person
     {
        private String name;
@@ -37,7 +44,7 @@
           return name;
        }
     }
-
+  
     class Student extends Person
     {
        private int id;
@@ -50,4 +57,26 @@
        {
           return super.toString() + " " + id;
        }
+    }
+    ====
+    import static org.junit.Assert.*;
+    import org.junit.*;;
+    import java.io.*;
+  
+    public class RunestoneTests extends CodeTestHelper
+    {
+        public RunestoneTests() {
+            super("Tester");
+        }
+  
+        @Test
+        public void test1()
+        {
+            String output = getMethodOutput("main");
+            String expect = "Sila\nTully 1001";
+  
+            boolean passed = getResults(expect, output, "Running main", true);
+            assertTrue(passed);
+  
+        }
     }

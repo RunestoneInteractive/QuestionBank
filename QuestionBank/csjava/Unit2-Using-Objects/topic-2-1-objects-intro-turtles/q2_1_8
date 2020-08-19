@@ -1,0 +1,20 @@
+.. mchoice:: q2_1_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-1-objects-intro-turtles
+   :topics: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: Position
+   :answer_b: Heading
+   :answer_c: Pen Color
+   :answer_d: Visible
+   :correct: a
+   :feedback_a: Correct.
+   :feedback_b: Incorrect. Heading (direction) is not altered when the turtle moves forward.
+   :feedback_c: Incorrect. Pen color is not altered when the turtle moves forward.
+   :feedback_d: Incorrect. Visibility is not altered when the turtle moves forward.
+
+   Which attribute does the forward method alter?

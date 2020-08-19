@@ -1,8 +1,10 @@
 .. activecode:: ER1007
     :author: Eric Reed
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
 
     Write code that will create a random sentence using several pools

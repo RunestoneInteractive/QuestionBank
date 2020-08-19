@@ -1,8 +1,10 @@
 .. mchoice:: question2_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: SimplePythonData/Operators
+   :chapter: SimplePythonData
+   :subchapter: Operators
+   :topics: SimplePythonData/Operators
    :from_source: T
    :answer_a: 4.5
    :answer_b: 5
@@ -16,10 +18,10 @@
    :feedback_d: / performs exact division, without truncation
    :feedback_e: / does division. Perhaps you were thinking of %, which computes the remainder?
    :practice: T
-   :pct_on_first: 0.865976044
-   :total_students_attempting: 3089
-   :num_students_correct: 3077.0
-   :mean_clicks_to_correct: 1.2375690608
+   :pct_on_first: 0.8668365722
+   :total_students_attempting: 3139
+   :num_students_correct: 3127.0
+   :mean_clicks_to_correct: 1.2360089543
 
    What value is printed when the following statement executes?
    

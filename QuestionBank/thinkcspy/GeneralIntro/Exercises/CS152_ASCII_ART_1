@@ -1,8 +1,10 @@
 .. activecode:: CS152_ASCII_ART_1
     :author: John Cigas
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
 
     Visit the site http://www.oocities.org/spunk1111/small.htm to get some ideas for a small shape 

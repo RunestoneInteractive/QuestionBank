@@ -1,8 +1,10 @@
 .. activecode:: Edge_Detection
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPImageDecisions/imageIfElse
+    :chapter: CSPImageDecisions
+    :subchapter: imageIfElse
+    :topics: CSPImageDecisions/imageIfElse
     :from_source: T
     :tour_1: "Structural Tour";  1: id2b-line1; 4: id2b-line4; 7-8: id2b-line7-8; 9: id2b-line9; 10: id2b-line10; 11-13: id2b-line11-13; 14: id2b-line14; 15-17: id2b-line15-17; 18: id2b-line18; 21-22: id2b-line21-22; 23-24: id2b-line23-24; 27: id2b-line27; 30-31: id2b-line29-30;
     :nocodelens:

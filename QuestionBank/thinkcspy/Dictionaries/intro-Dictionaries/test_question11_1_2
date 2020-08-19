@@ -1,8 +1,10 @@
 .. mchoice:: test_question11_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Dictionaries/intro-Dictionaries
+   :chapter: Dictionaries
+   :subchapter: intro-Dictionaries
+   :topics: Dictionaries/intro-Dictionaries
    :from_source: T
    :practice: T
    :answer_a: 12
@@ -14,10 +16,10 @@
    :feedback_b: Yes, 6 is associated with the key dog.
    :feedback_c: 23 is associated with the key elephant.
    :feedback_d: The [ ] operator, when used with a dictionary, will look up a value based on its key.
-   :pct_on_first: 0.9028072034
-   :total_students_attempting: 7552
-   :num_students_correct: 7529.0
-   :mean_clicks_to_correct: 1.1324213043
+   :pct_on_first: 0.9023529412
+   :total_students_attempting: 7650
+   :num_students_correct: 7625.0
+   :mean_clicks_to_correct: 1.1329836066
 
    
    What is printed by the following statements?

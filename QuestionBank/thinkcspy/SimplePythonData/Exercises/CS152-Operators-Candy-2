@@ -1,8 +1,10 @@
 .. activecode:: CS152-Operators-Candy-2
    :author: John Cigas
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :language: python
 

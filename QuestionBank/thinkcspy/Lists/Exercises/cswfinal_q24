@@ -1,8 +1,10 @@
 .. parsonsprob:: cswfinal_q24
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Lists/Exercises
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
    :from_source: F
    :pct_on_first: 0.2820512821
    :total_students_attempting: 39

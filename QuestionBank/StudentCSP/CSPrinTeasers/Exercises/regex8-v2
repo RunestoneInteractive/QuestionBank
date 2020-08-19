@@ -1,8 +1,10 @@
 .. mchoice:: regex8-v2
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPrinTeasers/Exercises
+   :chapter: CSPrinTeasers
+   :subchapter: Exercises
+   :topics: CSPrinTeasers/Exercises
    :from_source: F
    :multiple_answers:
    :answer_a: 01296-43

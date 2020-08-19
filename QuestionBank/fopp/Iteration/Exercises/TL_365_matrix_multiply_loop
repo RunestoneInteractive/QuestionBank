@@ -1,13 +1,15 @@
 .. actex:: TL_365_matrix_multiply_loop
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Iteration/Exercises
+   :chapter: Iteration
+   :subchapter: Exercises
+   :topics: Iteration/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0684931507
-   :total_students_attempting: 73
+   :pct_on_first: 0.0675675676
+   :total_students_attempting: 74
    :num_students_correct: 16.0
    :mean_clicks_to_correct: 9.0
 

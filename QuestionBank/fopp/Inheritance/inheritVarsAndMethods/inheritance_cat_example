@@ -1,8 +1,10 @@
 .. activecode:: inheritance_cat_example
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Inheritance/inheritVarsAndMethods
+    :chapter: Inheritance
+    :subchapter: inheritVarsAndMethods
+    :topics: Inheritance/inheritVarsAndMethods
     :from_source: T
     :nocanvas:
 

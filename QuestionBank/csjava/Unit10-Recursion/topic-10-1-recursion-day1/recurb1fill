@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit10-Recursion/topic-10-1-recursion-day1
+   :topics: Unit10-Recursion/topic-10-1-recursion-day1
    :from_source: T
 
    Which line in the method neverEnd (shown above) contains the recursive call (the call to the same method)?

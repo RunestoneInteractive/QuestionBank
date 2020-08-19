@@ -1,8 +1,10 @@
 .. activecode:: Functies_Voorbeeld1
     :author: Jan Persan
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
     :language: python
 

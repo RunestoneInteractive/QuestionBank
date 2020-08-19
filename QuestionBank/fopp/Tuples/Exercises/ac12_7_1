@@ -1,8 +1,10 @@
 .. actex:: ac12_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: T
 
    Fill in the left side of line 7 so that the following code runs without error

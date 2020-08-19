@@ -1,0 +1,20 @@
+.. mchoice:: q2_1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-1-objects-intro-turtles
+   :topics: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :from_source: T
+   :practice: T
+   :answer_a: attributes
+   :answer_b: methods
+   :answer_c: class
+   :answer_d: object
+   :correct: a
+   :feedback_a: attributes specify the data that an object keeps track of.
+   :feedback_b: Methods specify the behavior of all objects of a class.
+   :feedback_c: While the class does specify the data or state that all objects of the class keep track of, what part of the class stores the data?
+   :feedback_d: The object data or state is stored in the attributes of the object.  The attributes are defined in the class.
+
+   What specifies the data or state for an object in Java?

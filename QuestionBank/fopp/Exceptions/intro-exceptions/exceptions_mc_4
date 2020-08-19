@@ -1,8 +1,10 @@
 .. mchoice:: exceptions_mc_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Exceptions/intro-exceptions
+   :chapter: Exceptions
+   :subchapter: intro-exceptions
+   :topics: Exceptions/intro-exceptions
    :from_source: T
    :answer_a: 0
    :answer_b: 1
@@ -16,10 +18,10 @@
    :feedback_e: When i=3, it will get a run-time error, and execution stops after that.
    :correct: d
    :practice: T
-   :pct_on_first: 0.292358804
-   :total_students_attempting: 301
-   :num_students_correct: 296.0
-   :mean_clicks_to_correct: 2.472972973
+   :pct_on_first: 0.2908496732
+   :total_students_attempting: 306
+   :num_students_correct: 301.0
+   :mean_clicks_to_correct: 2.4684385382
 
    How many lines will print out when the following code is executed?
    

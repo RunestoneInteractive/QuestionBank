@@ -1,18 +1,20 @@
 .. activecode:: ac9_10_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :available_files: emotion_words.txt
    :nocodelens: 
-   :pct_on_first: 0.4706744868
-   :total_students_attempting: 682
-   :num_students_correct: 519.0
-   :mean_clicks_to_correct: 2.5722543353
+   :pct_on_first: 0.4723837209
+   :total_students_attempting: 688
+   :num_students_correct: 523.0
+   :mean_clicks_to_correct: 2.5602294455
 
    **Challenge:** Create a list called ``emotions`` that contains the first word of every line in ``emotion_words.txt``.
    ~~~~

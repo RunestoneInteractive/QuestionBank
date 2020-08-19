@@ -1,17 +1,23 @@
 .. mchoice:: 1-9-1-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :answer_a: 0
    :answer_b: 6
    :answer_c: It will give a run-time error.
    :answer_d: It will give a compile-time error.
    :correct: c
+   :pct_on_first: 0.5539112051
+   :total_students_attempting: 473
+   :num_students_correct: 467.0
+   :mean_clicks_to_correct: 1.7965738758
 
    What does the following code print?
-
+   
    .. code-block:: java
-
+   
     System.out.println(6 % 0);

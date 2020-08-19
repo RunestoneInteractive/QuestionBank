@@ -1,8 +1,10 @@
 .. activecode:: ids17_04005
     :author:  KUO TZU-CHI
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
   
     6.6(劉邦鋒，由片語學習C程式設計)寫一個程式找出一個n乘m的矩陣中大於上下左右相鄰元素的元素。輸入第一行為矩陣的列數n與行數m，以下n列每列有m個矩陣元素，輸出為所有大於其相鄰元素的元素。如果有一個以上這樣的元素，則輸出的順序是逐列輸出，每一列在逐行輸出。每個輸出元素占一行。參數規範： 0 < n <= 100，0 < m <= 100。

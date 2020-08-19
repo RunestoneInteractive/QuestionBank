@@ -1,8 +1,10 @@
 .. mchoice:: zanneio_question2_1_1
    :author: Euripides Vrachnos
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/ValuesandDataTypes
+   :chapter: SimplePythonData
+   :subchapter: ValuesandDataTypes
+   :topics: SimplePythonData/ValuesandDataTypes
    :from_source: F
    :answer_a: Print out the value and determine the data type based on the value printed.
    :answer_b: Use the type function.

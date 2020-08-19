@@ -1,8 +1,10 @@
 .. activecode:: SkyViewA
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: FreeResponse/SkyViewA
+   :chapter: FreeResponse
+   :subchapter: SkyViewA
+   :topics: FreeResponse/SkyViewA
    :from_source: T
    :language: java
 

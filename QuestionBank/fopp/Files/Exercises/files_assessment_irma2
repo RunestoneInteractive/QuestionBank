@@ -1,8 +1,10 @@
 .. mchoice:: files_assessment_irma2
    :author: Irma Ravkic
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :answer_a: outfile = open("myText.txt", w)
    :answer_b: outfile = open("myText.txt", “r”)
@@ -15,9 +17,5 @@
    :correct: d
    :practice: T
    :topics: Files
-   :pct_on_first: 0.6834862385
-   :total_students_attempting: 218
-   :num_students_correct: 216.0
-   :mean_clicks_to_correct: 1.5462962963
 
    Which of the following commands is used to open a file called ``myText.txt`` in Write-Only mode?

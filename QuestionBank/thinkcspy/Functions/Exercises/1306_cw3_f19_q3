@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw3_f19_q3
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
 
    **[50 points] Question 3**. Write a function linear(m,b) that prints out the (x,y) values for the function y = mx + b. Inside your function, use a for loop to generate the values for x to be integers from -10 to 10. Then have your function evaluate the formula y = mx+b for all the values x. Your function should print all 21 pairs of (x, y) values. If we were to graph the values of y vs. x, they would lie on a straight line with slope m and y-intercept b.

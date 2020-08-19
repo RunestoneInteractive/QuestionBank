@@ -1,13 +1,16 @@
 .. activecode:: SkyViewB
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: FreeResponse/SkyViewB
+   :chapter: FreeResponse
+   :subchapter: SkyViewB
+   :topics: FreeResponse/SkyViewB
    :from_source: T
    :language: java
 
+   Finish writing the ``getAverage`` method in the class below.
+   ~~~~
    public class SkyView
-
    {
        private double[][] view;
 
@@ -39,11 +42,12 @@
                    }
                }
                else {
-               for (int c = numCols - 1; c >= 0; c--)
-               {
-                   view[r][c] = scanned[scannedIndex];
-                   scannedIndex++;
-               }
+                   for (int c = numCols - 1; c >= 0; c--)
+                   {
+                       view[r][c] = scanned[scannedIndex];
+                       scannedIndex++;
+                   }
+                }
            }
        }
 

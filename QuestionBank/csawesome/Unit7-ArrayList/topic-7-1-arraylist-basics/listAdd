@@ -1,11 +1,17 @@
 .. activecode:: listAdd
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/topic-7-1-arraylist-basics
+   :chapter: Unit7-ArrayList
+   :subchapter: topic-7-1-arraylist-basics
+   :topics: Unit7-ArrayList/topic-7-1-arraylist-basics
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.186440678
+   :total_students_attempting: 59
+   :num_students_correct: 41.0
+   :mean_clicks_to_correct: 1.7804878049
 
    Can you add another item to the shopping list?
    ~~~~
@@ -33,23 +39,23 @@
    import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("Shopping");
         }
-
+   
         @Test
         public void test1()
         {
             String output = getMethodOutput("main");
             String expect = "Size: 0\n[carrots]\n[carrots, bread]\n[carrots, bread, chocolate]\nSize: 3\n[2, 4]";
-
+   
             boolean passed = !output.equals(expect);
-
-            passed = getResults(expect, output, "Changes to main()", passed);
+   
+            passed = getResults(expect, output, "Changed code", passed);
             assertTrue(passed);
         }
-
+   
     }

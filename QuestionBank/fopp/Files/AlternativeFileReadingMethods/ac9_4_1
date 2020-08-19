@@ -1,18 +1,20 @@
 .. activecode:: ac9_4_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/AlternativeFileReadingMethods
+   :chapter: Files
+   :subchapter: AlternativeFileReadingMethods
+   :topics: Files/AlternativeFileReadingMethods
    :from_source: T
    :language: python
    :nocodelens: 
    :autograde: unittest
    :practice: T
    :available_files: school_prompt2.txt
-   :pct_on_first: 0.2273351648
-   :total_students_attempting: 1456
-   :num_students_correct: 1039.0
-   :mean_clicks_to_correct: 4.2377285852
+   :pct_on_first: 0.2277966102
+   :total_students_attempting: 1475
+   :num_students_correct: 1055.0
+   :mean_clicks_to_correct: 4.2255924171
 
    1. Using the file ``school_prompt2.txt``, find the number of characters in the file and assign that value to the variable ``num_char``.
    ~~~~

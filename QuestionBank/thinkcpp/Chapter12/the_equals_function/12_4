@@ -1,8 +1,10 @@
 .. activecode:: 12_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter12/the_equals_function
+   :chapter: Chapter12
+   :subchapter: the_equals_function
+   :topics: Chapter12/the_equals_function
    :from_source: T
    :language: cpp
 

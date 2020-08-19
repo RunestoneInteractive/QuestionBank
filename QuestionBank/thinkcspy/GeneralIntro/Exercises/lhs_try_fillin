@@ -1,8 +1,10 @@
 .. fillintheblank:: lhs_try_fillin
         :author: LHS CS Team
-        :difficulty: 1
+        :difficulty: 1.0
         :basecourse: thinkcspy
-        :topic: GeneralIntro/Exercises
+        :chapter: GeneralIntro
+        :subchapter: Exercises
+        :topics: GeneralIntro/Exercises
         :from_source: F
         :pct_on_first: 0.1304347826
         :total_students_attempting: 230

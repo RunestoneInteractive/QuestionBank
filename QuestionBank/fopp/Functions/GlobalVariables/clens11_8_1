@@ -1,8 +1,10 @@
 .. codelens::  clens11_8_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/GlobalVariables
+    :chapter: Functions
+    :subchapter: GlobalVariables
+    :topics: Functions/GlobalVariables
     :from_source: T
     :python: py3
 

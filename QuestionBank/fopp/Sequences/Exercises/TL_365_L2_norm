@@ -1,15 +1,17 @@
 .. actex:: TL_365_L2_norm
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1466666667
-   :total_students_attempting: 75
-   :num_students_correct: 35.0
-   :mean_clicks_to_correct: 3.4
+   :pct_on_first: 0.1447368421
+   :total_students_attempting: 76
+   :num_students_correct: 36.0
+   :mean_clicks_to_correct: 3.3611111111
 
    The :math:`L^{2}\text{-norm}` is the most common method for calculating
    the norm or magnitude of a vector. For a 3-dimensional vector, the

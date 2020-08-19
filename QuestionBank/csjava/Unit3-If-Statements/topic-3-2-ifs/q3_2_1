@@ -1,0 +1,26 @@
+.. mchoice:: q3_2_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-2-ifs
+   :topics: Unit3-If-Statements/topic-3-2-ifs
+   :from_source: T
+   :practice: T
+   :answer_a: Because x < 2 is always true
+   :answer_b: Because there is a semicolon ; at the end of the condition "if (x < 2) ;"
+   :answer_c: Because Java makes a random decision
+   :correct: b
+   :feedback_a: Incorrect, 3 < 2 is always false so the print statement should never execute
+   :feedback_b: Correct.  Get rid of the ; at the end of the condition "if (x < 2) "
+   :feedback_c: Incorrect, 3 < 2 is always false so the print statement should never execute
+
+   Consider the following code segment. Why does it always print "ERROR"?
+
+   .. code-block:: java
+
+     int x = 3;
+     if (x < 2) ;
+     {
+         System.out.println("ERROR");
+     }

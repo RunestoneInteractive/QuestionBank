@@ -1,8 +1,10 @@
 .. activecode:: hw1DE
     :author: Damon Ellingston
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
 
     :HW 1:

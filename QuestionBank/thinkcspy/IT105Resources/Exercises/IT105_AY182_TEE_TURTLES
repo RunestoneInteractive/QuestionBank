@@ -1,8 +1,10 @@
 .. activecode:: IT105_AY182_TEE_TURTLES
   :author: Kyle King
-  :difficulty: 0
+  :difficulty: 0.0
   :basecourse: thinkcspy
-  :topic: IT105Resources/Exercises
+  :chapter: IT105Resources
+  :subchapter: Exercises
+  :topics: IT105Resources/Exercises
   :from_source: F
   :language: python
   :autograde: unittest

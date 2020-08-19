@@ -1,8 +1,10 @@
 .. mchoice:: 12_6_4_Logic_Ifs
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPIntroDecisions/practice
+   :chapter: CSPIntroDecisions
+   :subchapter: practice
+   :topics: CSPIntroDecisions/practice
    :from_source: T
    :practice: T
    :answer_a: x will always equal 0 after this code executes for any value of x
@@ -12,11 +14,15 @@
    :feedback_a: If x was set to 1 originally, then it would still equal 1.
    :feedback_b: What happens in the original when x is greater than 2?
    :feedback_c: If x is greater than 2, it will be set to 0.
+   :pct_on_first: 0.3384615385
+   :total_students_attempting: 845
+   :num_students_correct: 836.0
+   :mean_clicks_to_correct: 1.9210526316
 
    Which of the following is true about the code below?
-
+   
    ::
-
+   
      x = 3
      if (x > 2):
          x = x * 2;

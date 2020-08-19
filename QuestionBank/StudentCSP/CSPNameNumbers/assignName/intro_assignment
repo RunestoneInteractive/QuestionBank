@@ -1,8 +1,10 @@
 .. video:: intro_assignment
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/assignName
+   :chapter: CSPNameNumbers
+   :subchapter: assignName
+   :topics: CSPNameNumbers/assignName
    :from_source: F
    :controls:
    :thumb: ../_static/video-think-about-assignment.png

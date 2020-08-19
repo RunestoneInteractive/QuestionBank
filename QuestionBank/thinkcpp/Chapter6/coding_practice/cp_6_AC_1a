@@ -1,10 +1,13 @@
 .. activecode:: cp_6_AC_1a
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter6/coding_practice
+   :chapter: Chapter6
+   :subchapter: coding_practice
+   :topics: Chapter6/coding_practice
    :from_source: T
    :language: cpp
+   :optional:
 
    #include <iostream>
    using namespace std;

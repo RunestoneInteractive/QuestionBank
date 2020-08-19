@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: Converting data from one file type to another usually comes at a cost.
    :answer_b: Data is never lost in conversion.
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. For example, the quality of a photo may decrease when you convert from JPG to PNG.
    :feedback_c: Incorrect. Data may lose readability in conversion and may be changed as a result.
    :feedback_d: Incorrect. There are instances in which data is lost through conversion.
+   :pct_on_first: 0.5357142857
+   :total_students_attempting: 56
+   :num_students_correct: 54.0
+   :mean_clicks_to_correct: 1.8703703704
 
    Which of the following is true?

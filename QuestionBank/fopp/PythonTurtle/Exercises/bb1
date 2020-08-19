@@ -1,8 +1,10 @@
 .. activecode:: bb1
     :author: Brian Barrey
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
    
     Write a turtle program to draw LLL

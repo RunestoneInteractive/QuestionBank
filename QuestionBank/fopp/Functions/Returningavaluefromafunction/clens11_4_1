@@ -1,8 +1,10 @@
 .. codelens:: clens11_4_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/Returningavaluefromafunction
+    :chapter: Functions
+    :subchapter: Returningavaluefromafunction
+    :topics: Functions/Returningavaluefromafunction
     :from_source: T
     :python: py3
 

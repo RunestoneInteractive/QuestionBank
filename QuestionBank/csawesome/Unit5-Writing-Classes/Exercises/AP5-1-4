@@ -1,25 +1,31 @@
 .. mchoice:: AP5-1-4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit5-Writing-Classes/Exercises
+    :chapter: Unit5-Writing-Classes
+    :subchapter: Exercises
+    :topics: Unit5-Writing-Classes/Exercises
     :from_source: T
     :practice: T
-    :random:
+    :random: 
+    :pct_on_first: 0.6640589047
+    :total_students_attempting: 2173
+    :num_students_correct: 2140.0
+    :mean_clicks_to_correct: 1.738317757
 
     The Cat class below will contain two String attributes and one int attribute for name, color, and age; a constructor; and an adoptCat method. The adoptCat method is intended to be accessed outside the class.
-
+    
     .. code-block:: java
-
+    
         public class Cat
         {
           /* missing code */
         }
         Which of the following replacements for /* missing code */ is the most appropriate
         implementation of the class?
-
+    
     - .. code-block:: java
-
+    
         private String name;
         private String color;
         private int age;
@@ -27,11 +33,11 @@
         { /* implementation not shown */ }
         private void adoptCat(String n, String c, int a)
         { /* implementation not shown */ }
-
+    
       - Method adoptCat() should be public.
-
+    
     - .. code-block:: java
-
+    
         public String name;
         public String color;
         public int age;
@@ -39,11 +45,11 @@
         { /* implementation not shown */ }
         private void adoptCat(String n, String c, int a)
         { /* implementation not shown */ }
-
+    
       - Method and constructor should be public, and instance variables should be private.
-
+    
     - .. code-block:: java
-
+    
         private String name;
         private String color;
         private int age;
@@ -51,11 +57,11 @@
         { /* implementation not shown */ }
         public void adoptCat(String n, String c, int a)
         { /* implementation not shown */ }
-
+    
       + Correct! Method and constructor should be public, and instance variables should be private.
-
+    
     - .. code-block:: java
-
+    
         public String name;
         public String color;
         public int age;
@@ -63,11 +69,11 @@
         { /* implementation not shown */ }
         public void adoptCat(String n, String c, int a)
         { /* implementation not shown */ }
-
+    
       - Instance variables should be private.
-
+    
     - .. code-block:: java
-
+    
         public String name;
         public String color;
         public int age;
@@ -75,5 +81,5 @@
         { /* implementation not shown */ }
         public void adoptCat(String n, String c, int a)
         { /* implementation not shown */ }
-
+    
       - Instance variables should be private, and the constructor should be public.

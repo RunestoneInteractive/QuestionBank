@@ -1,8 +1,10 @@
 .. mchoice:: test_question8_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Strings/OperationsonStrings
+   :chapter: Strings
+   :subchapter: OperationsonStrings
+   :topics: Strings/OperationsonStrings
    :from_source: T
    :practice: T
    :answer_a: python!!!
@@ -14,10 +16,10 @@
    :feedback_b: Repetition is done first.
    :feedback_c: The repetition operator is working on the excl variable.
    :feedback_d: The + and * operator are defined for strings as well as numbers.
-   :pct_on_first: 0.7165766782
-   :total_students_attempting: 12409
-   :num_students_correct: 12354.0
-   :mean_clicks_to_correct: 1.4816253845
+   :pct_on_first: 0.7171458317
+   :total_students_attempting: 12487
+   :num_students_correct: 12432.0
+   :mean_clicks_to_correct: 1.480453668
 
    
    What is printed by the following statements?

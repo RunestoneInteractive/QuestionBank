@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit7-ArrayList/topic-7-2-arraylist-methods
+   :topics: Unit7-ArrayList/topic-7-2-arraylist-methods
    :from_source: T
    :language: java
    :autograde: unittest

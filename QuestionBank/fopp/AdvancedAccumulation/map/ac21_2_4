@@ -1,17 +1,19 @@
 .. activecode:: ac21_2_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/map
+   :chapter: AdvancedAccumulation
+   :subchapter: map
+   :topics: AdvancedAccumulation/map
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.5527950311
-   :total_students_attempting: 161
-   :num_students_correct: 123.0
-   :mean_clicks_to_correct: 1.4471544715
+   :pct_on_first: 0.5393939394
+   :total_students_attempting: 165
+   :num_students_correct: 126.0
+   :mean_clicks_to_correct: 1.5
 
    **1.** Using map, create a list assigned to the variable ``greeting_doubled`` that doubles each element in the list ``lst``.
    ~~~~

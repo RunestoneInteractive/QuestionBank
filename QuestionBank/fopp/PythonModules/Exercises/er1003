@@ -1,8 +1,10 @@
 .. activecode:: er1003
     :author: Eric Reed
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
    
     Write a program that spins a "Magic Eight Ball."

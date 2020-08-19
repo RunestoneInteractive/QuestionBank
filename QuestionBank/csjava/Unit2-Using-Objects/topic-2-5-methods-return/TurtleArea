@@ -1,19 +1,17 @@
 .. activecode:: TurtleArea
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit2-Using-Objects/topic-2-5-methods-return
-    :from_source: T
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-5-methods-return
+    :topics: Unit2-Using-Objects/topic-2-5-methods-return
+    :from_source: F
     :language: java
     :autograde: unittest
     :datafile: turtleClasses.jar
 
     Fix the errors in the code below so that it prints out the area of the space that the turtle occupies by multiplying its width and height. Remember that you have to do something with the values that the get methods return.
     ~~~~
-    import java.util.*;
-    import java.awt.*;
-    import java.lang.Math;
-
     public class TurtleArea
     {
       public static void main(String[] args)

@@ -1,8 +1,10 @@
 .. activecode:: ch08_run3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Strings/Afindfunction
+    :chapter: Strings
+    :subchapter: Afindfunction
+    :topics: Strings/Afindfunction
     :from_source: T
 
     def find(astring, achar):

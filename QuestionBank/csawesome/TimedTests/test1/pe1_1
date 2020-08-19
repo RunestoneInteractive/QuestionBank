@@ -1,8 +1,10 @@
 .. mchoice:: pe1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: 50
    :answer_b: 20
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if the call was m(6).
    :feedback_d: This would be true if the call was m(1).
    :feedback_e: This would be true if the call was m(3).
+   :pct_on_first: 0.6571428571
+   :total_students_attempting: 140
+   :num_students_correct: 110.0
+   :mean_clicks_to_correct: 1.2090909091
 
    Given the following method.  What is the output when ``m1(5)`` is called?
-
+   
    .. code-block:: java
-
+   
      public int m1 (int a)
      {
         if (a == 1)

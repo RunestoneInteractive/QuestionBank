@@ -1,0 +1,49 @@
+.. mchoice:: q6_2_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit6-Writing-Classes
+   :subchapter: topic-6-2-writing-constructors
+   :topics: Unit6-Writing-Classes/topic-6-2-writing-constructors
+   :from_source: T
+   :practice: T
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and III only
+   :answer_e: I, II and III
+   :correct: d
+   :feedback_a: Option III can also create a correct Cat instance.
+   :feedback_b: Option II will create a cat that is 0 years old with 5 kittens.
+   :feedback_c: Option I can also create a correct Cat instance.
+   :feedback_d: Good job!
+   :feedback_e: Option II will create a cat that is 0 years old with 5 kittens.
+
+   Consider the following class definition. Each object of the class Cat will store the cat’s name as name, the cat’s age as age, and the number of kittens the cat has as kittens. Which of the following code segments, found in a class other than Cat, can be used to create a cat that is 5 years old with no kittens?
+
+   .. code-block:: java
+
+    public class Cat
+    {
+        private String name;
+        private int age;
+        private int kittens;
+
+        public Cat(String n, int a, int k)
+        {
+            name = n;
+            age = a;
+            kittens = k;
+        }
+        public Cat(String n, int a)
+        {
+            name = n;
+            age = a;
+            kittens = 0;
+        }
+        /* Other methods not shown */
+    }
+
+    I.   Cat c = new Cat("Sprinkles", 5, 0);
+    II.  Cat c = new Cat("Lucy", 0, 5);
+    III. Cat c = new Cat("Luna", 5);

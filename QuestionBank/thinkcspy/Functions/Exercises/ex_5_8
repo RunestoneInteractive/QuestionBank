@@ -1,15 +1,17 @@
 .. actex:: ex_5_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.4866735895
-   :total_students_attempting: 2889
-   :num_students_correct: 2513.0
-   :mean_clicks_to_correct: 2.7401512137
+   :pct_on_first: 0.4874785592
+   :total_students_attempting: 2915
+   :num_students_correct: 2536.0
+   :mean_clicks_to_correct: 2.7338328076
 
    Write a function `areaOfCircle(r)` which returns the area of a circle of radius `r`.  Make sure you use the math module in your solution.
    ~~~~

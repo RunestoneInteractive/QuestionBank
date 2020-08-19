@@ -1,18 +1,20 @@
 .. activecode:: ac9_4_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/AlternativeFileReadingMethods
+   :chapter: Files
+   :subchapter: AlternativeFileReadingMethods
+   :topics: Files/AlternativeFileReadingMethods
    :from_source: T
    :available_files: travel_plans2.txt
    :language: python
    :nocodelens: 
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3977777778
-   :total_students_attempting: 1350
-   :num_students_correct: 1011.0
-   :mean_clicks_to_correct: 2.1384767557
+   :pct_on_first: 0.4
+   :total_students_attempting: 1365
+   :num_students_correct: 1023.0
+   :mean_clicks_to_correct: 2.1300097752
 
    2. Find the number of lines in the file, ``travel_plans2.txt``, and assign it to the variable ``num_lines``.
    ~~~~

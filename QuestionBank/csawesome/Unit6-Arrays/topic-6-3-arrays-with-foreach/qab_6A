@@ -1,8 +1,10 @@
 .. mchoice:: qab_6A
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/topic-6-3-arrays-with-foreach
+   :chapter: Unit6-Arrays
+   :subchapter: topic-6-3-arrays-with-foreach
+   :topics: Unit6-Arrays/topic-6-3-arrays-with-foreach
    :from_source: T
    :practice: T
    :answer_a: Only I.
@@ -14,12 +16,16 @@
    :feedback_b: Correct! For-each loops access all elements and enable users to use a variable name to refer to array elements, but do not allow users to modify elements directly.
    :feedback_c: For-each loops, as well as allowing users to refer to array elements, run through every element. For-each loops also do not allow users to modify elements directly.
    :feedback_d: For-each loops access all of an array's elements and allow users to refer to elements through a variable, but do not allow users to modify elements directly.
+   :pct_on_first: 0.4829047754
+   :total_students_attempting: 3539
+   :num_students_correct: 3503.0
+   :mean_clicks_to_correct: 1.8584070796
 
-
+   
    What are some of the reasons you would use an enhanced for-each loop instead of a for loop?
-
+   
    .. code-block:: java
-
+   
       I: If you wish to access every element of an array.
       II: If you wish to modify elements of the array.
       III: If you wish to refer to elements through a variable name instead of an array index.

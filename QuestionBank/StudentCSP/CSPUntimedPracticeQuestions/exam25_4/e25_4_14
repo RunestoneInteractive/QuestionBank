@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: The internet
    :answer_b: A network
@@ -13,6 +15,10 @@
    :feedback_b: Correct. A network is a group of multiple systems.
    :feedback_c: Incorrect. A model represents the relationship between elements or objects.
    :feedback_d: Incorrect. Memory is the storing of information.
+   :pct_on_first: 0.8181818182
+   :total_students_attempting: 11
+   :num_students_correct: 11.0
+   :mean_clicks_to_correct: 1.1818181818
 
-
+   
    A group of two or more systems linked together is called:

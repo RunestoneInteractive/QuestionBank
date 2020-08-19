@@ -1,16 +1,18 @@
 .. activecode:: ac7_9_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Conditionals/Chainedconditionals
+   :chapter: Conditionals
+   :subchapter: Chainedconditionals
+   :topics: Conditionals/Chainedconditionals
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3301304049
-   :total_students_attempting: 1457
-   :num_students_correct: 921.0
-   :mean_clicks_to_correct: 2.8436482085
+   :pct_on_first: 0.3328804348
+   :total_students_attempting: 1472
+   :num_students_correct: 933.0
+   :mean_clicks_to_correct: 2.8242229368
 
    Create one conditional to find whether "false" is in string ``str1``. If so, assign variable ``output`` the string "False. You aren't you?". Check to see if "true" is in string ``str1`` and if it is then assign "True! You are you!" to the variable ``output``. If neither are in ``str1``, assign "Neither true nor false!" to ``output``.
    ~~~~

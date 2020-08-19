@@ -1,8 +1,10 @@
 .. actex:: IT105_AY182_TEE_TEST
                :author: Kyle King
-               :difficulty: 1
+               :difficulty: 1.0
                :basecourse: thinkcspy
-               :topic: IT105Resources/Exercises
+               :chapter: IT105Resources
+               :subchapter: Exercises
+               :topics: IT105Resources/Exercises
                :from_source: F
                :nocodelens:
                :available_files: studentdata.txt

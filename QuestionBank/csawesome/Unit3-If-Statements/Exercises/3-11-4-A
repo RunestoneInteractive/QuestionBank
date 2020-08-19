@@ -1,18 +1,24 @@
 .. mchoice:: 3-11-4-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: first case!
    :answer_b: second case!
    :answer_c: There will be a compile-time error.
    :answer_d: There will be a run-time error.
    :correct: d
+   :pct_on_first: 0.3581081081
+   :total_students_attempting: 148
+   :num_students_correct: 148.0
+   :mean_clicks_to_correct: 2.0743243243
 
    What is printed when the following code executes and x has been set to 10 and y is set to 5?
-
+   
    .. code-block:: java
-
+   
     if (x == 10) && (y / 0) == 0) System.out.println(“first case!”);
     else System.out.println(“second case!”);

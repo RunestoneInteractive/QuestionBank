@@ -1,8 +1,10 @@
 .. activecode:: wvu_advfunc_lambda
     :author: Brian Powell
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: fopp
-    :topic: AdvancedFunctions/Exercises
+    :chapter: AdvancedFunctions
+    :subchapter: Exercises
+    :topics: AdvancedFunctions/Exercises
     :from_source: F
 
     Create a lambda function that is designed to manipulate a dictionary, such as by returning the keys or values. Store the lambda function as **lambda_func**.    

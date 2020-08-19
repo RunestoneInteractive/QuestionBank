@@ -1,8 +1,10 @@
 .. activecode:: alt_kiva_data2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/graphing_with_altair
+    :chapter: Projects
+    :subchapter: graphing_with_altair
+    :topics: Projects/graphing_with_altair
     :from_source: T
     :nocodelens:
 

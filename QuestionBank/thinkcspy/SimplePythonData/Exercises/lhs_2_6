@@ -1,8 +1,10 @@
 .. clickablearea:: lhs_2_6
     :author: LHS CS Team
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :question: Click on any variable that is an integer
     :iscode: 

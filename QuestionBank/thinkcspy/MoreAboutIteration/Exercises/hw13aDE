@@ -1,8 +1,10 @@
 .. activecode:: hw13aDE
    :author: Damon Ellingston
-   :difficulty: 4
+   :difficulty: 4.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
 
    **Homework 13 - Guessing game**

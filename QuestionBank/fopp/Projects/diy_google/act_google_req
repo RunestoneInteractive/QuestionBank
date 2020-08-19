@@ -1,8 +1,10 @@
 .. activecode:: act_google_req
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/diy_google
+    :chapter: Projects
+    :subchapter: diy_google
+    :topics: Projects/diy_google
     :from_source: T
 
     import requests

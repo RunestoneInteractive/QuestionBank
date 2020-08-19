@@ -1,8 +1,10 @@
 .. actex:: ex_5_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
 
    The two spirals in this picture differ only by the turn angle.  Draw both.

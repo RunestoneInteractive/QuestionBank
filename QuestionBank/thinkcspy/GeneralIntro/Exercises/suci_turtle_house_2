@@ -1,8 +1,10 @@
 .. actex:: suci_turtle_house_2
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Run the program then modify it so the windows are 15 units on each side instead of 10.

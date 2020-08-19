@@ -1,8 +1,10 @@
 .. mchoice:: question4_1_oki
    :author: Karioki Crosby
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonModules/modules
+   :chapter: PythonModules
+   :subchapter: modules
+   :topics: PythonModules/modules
    :from_source: F
    :practice: T
    :answer_a: A file containing Python definitions and statements intended for use in other Python programs.

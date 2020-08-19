@@ -1,8 +1,10 @@
 .. mchoice:: q1_rab_names_2
    :author: Richard Bernatz
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :answer_a: number-of-days
    :answer_b: _number_of_days

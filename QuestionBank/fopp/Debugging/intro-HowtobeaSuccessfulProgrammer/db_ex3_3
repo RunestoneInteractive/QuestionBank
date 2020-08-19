@@ -1,8 +1,10 @@
 .. activecode:: db_ex3_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Debugging/intro-HowtobeaSuccessfulProgrammer
+   :chapter: Debugging
+   :subchapter: intro-HowtobeaSuccessfulProgrammer
+   :topics: Debugging/intro-HowtobeaSuccessfulProgrammer
    :from_source: T
 
    current_time_str = input("what is the current time (in hours 0-23)?")

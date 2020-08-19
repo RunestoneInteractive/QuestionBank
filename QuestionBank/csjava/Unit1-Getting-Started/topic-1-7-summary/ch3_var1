@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: csjava
-    :topic: Unit1-Getting-Started/topic-1-7-summary
+    :topics: Unit1-Getting-Started/topic-1-7-summary
     :from_source: T
     :feedback: Review the summaries above.
     :match_1: Specifying the type and name for a variable|||declaring a variable

@@ -1,8 +1,10 @@
 .. activecode:: ch09_11
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Lists/ListDeletion
+    :chapter: Lists
+    :subchapter: ListDeletion
+    :topics: Lists/ListDeletion
     :from_source: T
 
     a = ['one', 'two', 'three']

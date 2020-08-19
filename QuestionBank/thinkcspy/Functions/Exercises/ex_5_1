@@ -1,8 +1,10 @@
 .. actex:: ex_5_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: T
 
     Use the drawsquare function we wrote in this chapter in a program to draw

@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit11-posttest/posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: Data (fields) can be directly accessed by all code in all classes.
    :answer_b: Data (fields) can be hidden inside of an object using the abstract visibility modifier.

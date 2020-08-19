@@ -1,8 +1,10 @@
 .. youtube:: xGSfiZt5cdw
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/TheforLoop
+    :chapter: PythonTurtle
+    :subchapter: TheforLoop
+    :topics: PythonTurtle/TheforLoop
     :from_source: T
     :divid: forloopvid
     :height: 315

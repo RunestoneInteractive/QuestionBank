@@ -1,14 +1,16 @@
 .. activecode:: wvu_tuples_returntuple
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Tuples/Exercises
+    :chapter: Tuples
+    :subchapter: Exercises
+    :topics: Tuples/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.125
-    :total_students_attempting: 88
-    :num_students_correct: 49.0
-    :mean_clicks_to_correct: 5.5918367347
+    :pct_on_first: 0.1235955056
+    :total_students_attempting: 89
+    :num_students_correct: 50.0
+    :mean_clicks_to_correct: 5.56
 
     The dictionary **majors** contains major codes as the key and major names as the value.
     

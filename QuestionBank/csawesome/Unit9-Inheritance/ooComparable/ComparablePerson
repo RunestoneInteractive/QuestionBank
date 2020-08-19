@@ -1,8 +1,10 @@
 .. activecode:: ComparablePerson
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooComparable
+   :chapter: Unit9-Inheritance
+   :subchapter: ooComparable
+   :topics: Unit9-Inheritance/ooComparable
    :from_source: F
    :language: java
 

@@ -1,14 +1,16 @@
 .. activecode:: wvu_finalexam_averagelist
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.1851851852
-    :total_students_attempting: 54
-    :num_students_correct: 24.0
-    :mean_clicks_to_correct: 2.6666666667
+    :pct_on_first: 0.2
+    :total_students_attempting: 55
+    :num_students_correct: 25.0
+    :mean_clicks_to_correct: 2.6
 
     Write a function named **average** that accepts a list as a parameter. It must return the average of all the numbers in the list.
     

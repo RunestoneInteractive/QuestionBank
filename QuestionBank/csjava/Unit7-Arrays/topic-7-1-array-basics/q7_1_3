@@ -1,0 +1,16 @@
+.. mchoice:: q7_1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit7-Arrays
+   :subchapter: topic-7-1-array-basics
+   :topics: Unit7-Arrays/topic-7-1-array-basics
+   :from_source: T
+   :practice: T
+   :answer_a: 0
+   :answer_b: 1
+   :correct: a
+   :feedback_a: The index is really telling the computer how far the item is from the front of the array.  So the first element in an array is at index 0.
+   :feedback_b: While this matches with how we number some things, the first item in an array is at index 0.
+
+   At what index do you find the first element of an array?

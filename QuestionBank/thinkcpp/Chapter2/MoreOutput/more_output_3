@@ -1,24 +1,42 @@
 .. parsonsprob:: more_output_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter2/MoreOutput
+   :chapter: Chapter2
+   :subchapter: MoreOutput
+   :topics: Chapter2/MoreOutput
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :noindent: 
+   :pct_on_first: 0.2857142857
+   :total_students_attempting: 7
+   :num_students_correct: 7.0
+   :mean_clicks_to_correct: 6.4285714286
 
-   Construct a main function that prints "Hello, world!" so that
-   "Hello," and "world!" are printed on two separate lines.
-
+   Construct a main function that prints "Snap!" on the first line,
+   "Crackle!" on the third line, and "Pop!" on the sixth line.  You
+   might not use all of endl blocks provided.
+   
    -----
    int main () {
    =====
-    cout << "Hello," << endl; cout << "world!";
+    cout << "Snap!";
    =====
-    cout << "Hello," << "world!" << endl; #distractor
+    cout << endl; // first endl
    =====
-    cout >> "Hello," >> endl; cout >> "world!"; #distractor
+    cout << endl; // second endl
    =====
-    cout >> "Hello," >> "world!" >> endl; #distractor
+    cout << "Crakcle!" << endl;
+   =====
+    cout << endl; // third endl
+   =====
+    cout << endl; // fourth endl
+   =====
+    cout << "Pop!";
+   =====
+    cout << endl; // fifth endl #distractor
+   =====
+    cout << endl; // sixth endl #distractor
    =====
    }

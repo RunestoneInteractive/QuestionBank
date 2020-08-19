@@ -1,8 +1,10 @@
 .. clickablearea:: egt_example_Type_clicablearea_03_table_feedback
     :author: Eric Taucher (Instructor)
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :question: Click the rainbow color(s)
     :feedback: This is incorrect

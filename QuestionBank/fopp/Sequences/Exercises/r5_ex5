@@ -1,8 +1,10 @@
 .. activecode:: r5_ex5
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Sequences/Exercises
+    :chapter: Sequences
+    :subchapter: Exercises
+    :topics: Sequences/Exercises
     :from_source: F
 
     Create a string representing a quote from the first black woman in space Mae Jemison. She said: "We look at science as something very elite, which only a few people can learn. That's just not true. You just have to start early and give kids a foundation. Kids live up, or down, to expectations." Now use the split function to split this quote into four pieces based on the occurrence of the period punctuation.

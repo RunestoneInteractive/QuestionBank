@@ -1,8 +1,10 @@
 .. activecode:: asu_cs_list_q01
     :author: Erdogan Dogdu
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 0.0

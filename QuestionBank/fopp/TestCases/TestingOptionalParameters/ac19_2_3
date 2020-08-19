@@ -1,8 +1,10 @@
 .. activecode:: ac19_2_3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TestCases/TestingOptionalParameters
+    :chapter: TestCases
+    :subchapter: TestingOptionalParameters
+    :topics: TestCases/TestingOptionalParameters
     :from_source: T
     :pct_on_first: 1.0
     :total_students_attempting: 1

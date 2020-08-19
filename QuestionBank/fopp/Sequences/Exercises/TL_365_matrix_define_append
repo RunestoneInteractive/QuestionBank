@@ -1,15 +1,17 @@
 .. actex:: TL_365_matrix_define_append
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1153846154
-   :total_students_attempting: 130
-   :num_students_correct: 89.0
-   :mean_clicks_to_correct: 2.4831460674
+   :pct_on_first: 0.1136363636
+   :total_students_attempting: 132
+   :num_students_correct: 91.0
+   :mean_clicks_to_correct: 2.4725274725
 
    Another way to create a matrix is by combining several already
    define lists using the ``append()`` function.  For example, the matrix 

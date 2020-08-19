@@ -1,8 +1,10 @@
 .. actex:: ac18_8_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/Exercises
+   :chapter: Sorting
+   :subchapter: Exercises
+   :topics: Sorting/Exercises
    :from_source: T
 
    Finally, generalize what you've done. Write a function that takes a string instead of a list as a parameter and returns a list of the five most frequent characters in the string.

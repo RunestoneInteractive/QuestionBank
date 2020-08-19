@@ -1,8 +1,10 @@
 .. activecode:: wvu_moreiter_forwhile
     :author: Brian Powell
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: MoreAboutIteration/Exercises
+    :chapter: MoreAboutIteration
+    :subchapter: Exercises
+    :topics: MoreAboutIteration/Exercises
     :from_source: F
 
     Write a for loop to print out the contents of the **majors** list, one at a time. Below it, write a second loop, a while loop, to do the same thing.

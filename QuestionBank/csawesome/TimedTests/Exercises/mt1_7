@@ -1,8 +1,10 @@
 .. mchoice:: mt1_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/Exercises
+   :chapter: TimedTests
+   :subchapter: Exercises
+   :topics: TimedTests/Exercises
    :from_source: T
    :answer_a: { 1, 2, 5, 4, 3 }
    :answer_b: { 1, 2, 5, 4, 5 }
@@ -15,11 +17,15 @@
    :feedback_c: Incorrect, temp is used to hold the value from index 2 and that value is put in index 4.
    :feedback_d: Nums at index 2 is set to the value of nums at index 4, not just the value 4.
    :feedback_e: Incorrect. Remember that arrays are indexed from 0.
+   :pct_on_first: 0.6111111111
+   :total_students_attempting: 18
+   :num_students_correct: 13.0
+   :mean_clicks_to_correct: 1.5384615385
 
    What are the contents of nums after the following code is executed?
-
+   
    .. code-block:: java
-
+   
       int [] nums = { 1, 2, 3, 4, 5 };
       int temp = nums[2];
       nums[2] = nums[4];

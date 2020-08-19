@@ -1,8 +1,10 @@
 .. mchoice:: pre_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPrinTeasers/pretest
+   :chapter: CSPrinTeasers
+   :subchapter: pretest
+   :topics: CSPrinTeasers/pretest
    :from_source: T
    :answer_a: The printed result will only contain vowels.
    :answer_b: The printed result will only contain consonants.
@@ -15,11 +17,15 @@
    :feedback_c: No, it will add vowels to newString and print that.
    :feedback_d: The letter must be in "aeiou" to be added to newString.
    :feedback_e: That is okay.  We do not expect you to know this.
+   :pct_on_first: 0.5161606268
+   :total_students_attempting: 3063
+   :num_students_correct: 1679.0
+   :mean_clicks_to_correct: 1.0905300774
 
    Given the following code segment, which of the statements below is true?
-
+   
    ::
-
+   
       newString = ""
       phrase = "Rubber baby buggy bumpers."
       for letter in phrase:

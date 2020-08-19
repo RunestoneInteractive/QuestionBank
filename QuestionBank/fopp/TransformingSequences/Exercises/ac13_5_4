@@ -1,13 +1,15 @@
 .. activecode:: ac13_5_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: T
-   :pct_on_first: 0.1550387597
-   :total_students_attempting: 387
-   :num_students_correct: 248.0
-   :mean_clicks_to_correct: 5.2943548387
+   :pct_on_first: 0.1526717557
+   :total_students_attempting: 393
+   :num_students_correct: 252.0
+   :mean_clicks_to_correct: 5.2420634921
 
    The ``string`` module provides sequences of various types of Python characters. It has an attribute called ``digits`` that produces the string '0123456789'. Import the module and assign this string to the variable ``nums``. Below, we have provided a list of characters called ``chars``. Using ``nums`` and ``chars``, produce a list called ``is_num`` that consists of tuples. The first element of each tuple should be the character from ``chars``, and the second element should be a Boolean that reflects whether or not it is a Python digit.
    ~~~~

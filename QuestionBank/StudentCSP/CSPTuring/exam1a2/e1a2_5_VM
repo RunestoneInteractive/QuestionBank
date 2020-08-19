@@ -1,8 +1,10 @@
 .. mchoice:: e1a2_5_VM
    :author: V Monaco
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPTuring/exam1a2
+   :chapter: CSPTuring
+   :subchapter: exam1a2
+   :topics: CSPTuring/exam1a2
    :from_source: F
    :answer_a: A square
    :answer_b: A rectangle that is taller than it is wide
@@ -13,11 +15,15 @@
    :feedback_b: Zari's heading is set to 90 which turns her to point due north.  So, the rectangle is taller than it is high.
    :feedback_c: This would be true if all the forward amounts were the same and the heading was 45 to start.
    :feedback_d: Turtles start off facing east and setting the heading to 90 turns it to face north.
+   :pct_on_first: 0.7857142857
+   :total_students_attempting: 28
+   :num_students_correct: 28.0
+   :mean_clicks_to_correct: 1.3214285714
 
    What shape would the following code draw?
-
+   
    ::
-
+   
      from turtle import *        # use the turtle library
      space = Screen()            # create a turtle screen (space)
      zari = Turtle()             # create a turtle named zari

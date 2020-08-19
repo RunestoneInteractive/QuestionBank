@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch7_8
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Iteration/Exercises
+   :chapter: Iteration
+   :subchapter: Exercises
+   :topics: Iteration/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.1515151515
-   :total_students_attempting: 66
-   :num_students_correct: 35.0
-   :mean_clicks_to_correct: 4.1142857143
+   :pct_on_first: 0.1470588235
+   :total_students_attempting: 68
+   :num_students_correct: 36.0
+   :mean_clicks_to_correct: 4.0833333333
 
    Ask the user for a integer ``i``. Use a for loop to find i*i*i*i (aka :math:`{i}^{4}`) and save this to the variable ``g``.
    ~~~~

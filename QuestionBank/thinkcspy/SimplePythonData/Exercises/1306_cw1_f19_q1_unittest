@@ -1,13 +1,15 @@
 .. activecode:: 1306_cw1_f19_q1_unittest
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.0476190476
-    :total_students_attempting: 21
+    :pct_on_first: 0.0454545455
+    :total_students_attempting: 22
     :num_students_correct: 11.0
     :mean_clicks_to_correct: 6.4545454545
 

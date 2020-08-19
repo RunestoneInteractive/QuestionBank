@@ -1,8 +1,10 @@
 .. activecode:: ch6ex1q
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPNameNames/Exercises
+    :chapter: CSPNameNames
+    :subchapter: Exercises
+    :topics: CSPNameNames/Exercises
     :from_source: T
     :nocodelens:
 

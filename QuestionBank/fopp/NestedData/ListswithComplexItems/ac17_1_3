@@ -1,8 +1,10 @@
 .. actex:: ac17_1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ListswithComplexItems
+   :chapter: NestedData
+   :subchapter: ListswithComplexItems
+   :topics: NestedData/ListswithComplexItems
    :from_source: T
 
    nested2 = [{'a': 1, 'b': 3}, {'a': 5, 'c': 90, 5: 50}, {'b': 3, 'c': "yes"}]

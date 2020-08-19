@@ -1,8 +1,10 @@
 .. activecode:: ids17_03004
     :author:  KUO TZU-CHI
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
    
     5.6(劉邦鋒，由片語學習C程式設計)寫一個程式計算自1970年1月1日到某一特定日期的天數。如果日期有誤或是在1970年1月1日之前則輸出0。

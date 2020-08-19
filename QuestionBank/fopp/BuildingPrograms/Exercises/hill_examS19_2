@@ -1,8 +1,10 @@
 .. activecode:: hill_examS19_2
     :author: Scott Hill
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: BuildingPrograms/Exercises
+    :chapter: BuildingPrograms
+    :subchapter: Exercises
+    :topics: BuildingPrograms/Exercises
     :from_source: F
 
     Write a function ``stripbothsides(text)`` which takes in a string, and returns that 

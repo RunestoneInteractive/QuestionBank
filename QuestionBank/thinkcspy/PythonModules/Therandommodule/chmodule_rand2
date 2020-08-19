@@ -1,8 +1,10 @@
 .. activecode:: chmodule_rand2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Therandommodule
+    :chapter: PythonModules
+    :subchapter: Therandommodule
+    :topics: PythonModules/Therandommodule
     :from_source: T
 
     import random

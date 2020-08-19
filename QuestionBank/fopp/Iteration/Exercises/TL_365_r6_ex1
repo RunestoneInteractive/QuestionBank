@@ -1,8 +1,10 @@
 .. actex:: TL_365_r6_ex1
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Iteration/Exercises
+   :chapter: Iteration
+   :subchapter: Exercises
+   :topics: Iteration/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

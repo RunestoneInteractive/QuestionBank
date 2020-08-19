@@ -1,8 +1,10 @@
 .. activecode:: chp09_4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Lists/ListMembership
+    :chapter: Lists
+    :subchapter: ListMembership
+    :topics: Lists/ListMembership
     :from_source: T
 
     fruit = ["apple", "orange", "banana", "cherry"]

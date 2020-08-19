@@ -1,8 +1,10 @@
 .. shortanswer:: L10Reflections
    :author: John Figliulo
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit10-Recursion/Exercises
+   :chapter: Unit10-Recursion
+   :subchapter: Exercises
+   :topics: Unit10-Recursion/Exercises
    :from_source: F
    :optional:
 

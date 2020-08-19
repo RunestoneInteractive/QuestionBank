@@ -1,8 +1,10 @@
 .. mchoice:: qab_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/topic-6-2-traversing-arrays
+   :chapter: Unit6-Arrays
+   :subchapter: topic-6-2-traversing-arrays
+   :topics: Unit6-Arrays/topic-6-2-traversing-arrays
    :from_source: T
    :practice: T
    :answer_a: The values don't matter this will always cause an infinite loop.
@@ -16,11 +18,15 @@
    :feedback_c: Values larger then <i>temp</i> will not cause an infinite loop.
    :feedback_d: Values larger then <i>temp</i> will not cause an infinite loop.
    :feedback_e: Values equal to <i>temp</i> will not cause the infinite loop.
+   :pct_on_first: 0.4450934579
+   :total_students_attempting: 3424
+   :num_students_correct: 3374.0
+   :mean_clicks_to_correct: 2.3992294013
 
    Given the following code segment, which of the following will cause an infinite loop?  Assume that ``temp`` is an int variable initialized to be greater than zero and that ``a`` is an array of integers.
-
+   
    .. code-block:: java
-
+   
       for ( int k = 0; k < a.length; k++ )
       {
          while ( a[ k ] < temp )

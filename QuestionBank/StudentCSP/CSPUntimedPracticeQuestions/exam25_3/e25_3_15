@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_15
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: An algorithm that returns the number of elements that are positive.
    :answer_b: An algorithm that returns true if the first element equals the last.
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. The algorithm will only need to select the first and last integers and compare the values.
    :feedback_c: Incorrect. This only requires iteration since no individual values are selected.
    :feedback_d: Incorrect. This does not require iteration.
+   :pct_on_first: 0.4423076923
+   :total_students_attempting: 52
+   :num_students_correct: 51.0
+   :mean_clicks_to_correct: 2.1764705882
 
    Which of the following algorithms, given a list of integers, require both selection and iteration?

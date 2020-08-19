@@ -1,8 +1,10 @@
 .. mchoice:: pe4_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: 243
    :answer_b: 0
@@ -15,11 +17,15 @@
    :feedback_c: Did you notice the recursive call?
    :feedback_d: This is the same as 3 to the 4th power (3 * 3 * 3 * 3 = 81).
    :feedback_e: This would be true if it was mystery(3).
+   :pct_on_first: 0.6428571429
+   :total_students_attempting: 28
+   :num_students_correct: 20.0
+   :mean_clicks_to_correct: 1.1
 
    Condsider the following method.  What value is returned from a call of mystery(4)?
-
+   
    .. code-block:: java
-
+   
      public static int mystery(int n)
      {
         if (n == 0)

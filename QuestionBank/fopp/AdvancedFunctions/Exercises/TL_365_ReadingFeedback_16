@@ -1,8 +1,10 @@
 .. shortanswer:: TL_365_ReadingFeedback_16
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/Exercises
+   :chapter: AdvancedFunctions
+   :subchapter: Exercises
+   :topics: AdvancedFunctions/Exercises
    :from_source: F
    :optional:
 

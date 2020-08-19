@@ -1,8 +1,10 @@
 .. fillintheblank:: MSIT-01-06
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :pct_on_first: 0.8666666667
    :total_students_attempting: 15

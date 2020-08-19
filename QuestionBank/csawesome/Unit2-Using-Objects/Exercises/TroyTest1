@@ -1,8 +1,10 @@
 .. activecode:: TroyTest1
     :author: Shawn Haarer
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/Exercises
+    :chapter: Unit2-Using-Objects
+    :subchapter: Exercises
+    :topics: Unit2-Using-Objects/Exercises
     :from_source: F
 
     Try this  homework problem instead of an example in the text

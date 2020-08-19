@@ -1,8 +1,10 @@
 .. mchoice:: qtnt4_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Tests/test4nt
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
    :from_source: T
    :answer_a: arr[col][i] += sum;
    :answer_b: arr[i][col] += sum;

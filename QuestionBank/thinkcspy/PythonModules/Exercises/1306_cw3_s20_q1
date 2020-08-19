@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw3_s20_q1
    :author: Mohammad Rajiur Rahman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
 
    **[20 pts] Question 1** Write a Python program that performs the following 5 times: Picks 10 random numbers between 20 and 30 and prints their average.

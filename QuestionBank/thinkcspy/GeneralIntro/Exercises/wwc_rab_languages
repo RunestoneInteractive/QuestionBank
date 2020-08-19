@@ -1,8 +1,10 @@
 .. mchoice:: wwc_rab_languages
    :author: Mars Landis
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :answer_a: formal assembly language
    :answer_b: natural machine language

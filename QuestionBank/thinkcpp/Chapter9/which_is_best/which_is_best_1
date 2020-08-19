@@ -1,8 +1,10 @@
 .. mchoice:: which_is_best_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter9/which_is_best
+   :chapter: Chapter9
+   :subchapter: which_is_best
+   :topics: Chapter9/which_is_best
    :from_source: T
    :answer_a: Writing modifiers only if there is a compelling advantage. Otherwise, write pure functions.
    :answer_b: Writing fill-in functions only if there is a compelling advantage. Otherwise, write modifiers.

@@ -1,8 +1,10 @@
 .. mchoice:: qrm_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit10-Recursion/rMedMC
+   :chapter: Unit10-Recursion
+   :subchapter: rMedMC
+   :topics: Unit10-Recursion/rMedMC
    :from_source: T
    :practice: T
    :answer_a: 1
@@ -16,12 +18,16 @@
    :feedback_c: If you assume the purpose of the method is to compute <code>n * n</code> this is correct, but the product method does not do this. Be sure to trace the code to see what happens.
    :feedback_d: If you assume the purpose of the method is to compute <code>n ^ n</code>, this would be correct. But product does not do this. Be sure to trace the code to see what happens.
    :feedback_e: The result from <code>product(5)</code> is <code>5 * product(3)</code> which is 3 * product(1) which is <code>1</code> so the answer is <code>1 * 3 * 5 = 15</code>.
+   :pct_on_first: 0.5225409836
+   :total_students_attempting: 488
+   :num_students_correct: 483.0
+   :mean_clicks_to_correct: 4.2049689441
 
    Given the following method declaration, what value is returned as the result of the call ``product(5)``?
-
+   
    .. code-block:: java
       :linenos:
-
+   
       public static int product(int n)
       {
          if (n <= 1)

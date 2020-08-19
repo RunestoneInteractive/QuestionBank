@@ -1,8 +1,10 @@
 .. activecode:: accessing_elements_AC_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter10/accessing_elements
+   :chapter: Chapter10
+   :subchapter: accessing_elements
+   :topics: Chapter10/accessing_elements
    :from_source: T
    :language: cpp
 

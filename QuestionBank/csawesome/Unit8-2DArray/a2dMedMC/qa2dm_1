@@ -1,8 +1,10 @@
 .. mchoice:: qa2dm_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit8-2DArray/a2dMedMC
+   :chapter: Unit8-2DArray
+   :subchapter: a2dMedMC
+   :topics: Unit8-2DArray/a2dMedMC
    :from_source: T
    :practice: T
    :answer_a: 4
@@ -16,13 +18,17 @@
    :feedback_c: This would be correct if the variable col was 1 because then it would add 1 + 2 + 2 + 4 which is 9.
    :feedback_d: This would be correct if the variable col was 3 becuase then it would add 2 + 4 + 4+ 2 which is 12.
    :feedback_e: This would be true if we were adding the values in the 3rd row (row = 2) instead of the 3rd column.  This would be 1 + 2 + 3 + 4 which is 10.
+   :pct_on_first: 0.5107334526
+   :total_students_attempting: 1118
+   :num_students_correct: 1095.0
+   :mean_clicks_to_correct: 2.0420091324
 
    Given the following code segment, what is the value of sum after this code executes?
-
+   
    .. code-block:: java
-
+   
       int[][] matrix = { {1,1,2,2},{1,2,2,4},{1,2,3,4},{1,4,1,2}};
-
+   
       int sum = 0;
       int col = matrix[0].length - 2;
       for (int row = 0; row < 4; row++)

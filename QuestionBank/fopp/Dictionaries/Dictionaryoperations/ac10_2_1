@@ -1,15 +1,17 @@
 .. activecode:: ac10_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/Dictionaryoperations
+   :chapter: Dictionaries
+   :subchapter: Dictionaryoperations
+   :topics: Dictionaries/Dictionaryoperations
    :from_source: T
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.7010703364
-   :total_students_attempting: 1308
-   :num_students_correct: 1069.0
-   :mean_clicks_to_correct: 1.2507015903
+   :pct_on_first: 0.7000759301
+   :total_students_attempting: 1317
+   :num_students_correct: 1077.0
+   :mean_clicks_to_correct: 1.2516248839
 
    **2.** Update the value for "Phelps" in the dictionary ``swimmers`` to include his medals from the Rio Olympics by adding 5 to the current value (Phelps will now have 28 total medals). Do not rewrite the dictionary.
    ~~~~

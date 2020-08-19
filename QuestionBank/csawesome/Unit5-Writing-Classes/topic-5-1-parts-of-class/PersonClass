@@ -1,11 +1,17 @@
 .. activecode:: PersonClass
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: csawesome
-  :topic: Unit5-Writing-Classes/topic-5-1-parts-of-class
+  :chapter: Unit5-Writing-Classes
+  :subchapter: topic-5-1-parts-of-class
+  :topics: Unit5-Writing-Classes/topic-5-1-parts-of-class
   :from_source: T
   :language: java
   :autograde: unittest
+  :pct_on_first: 0.9937888199
+  :total_students_attempting: 322
+  :num_students_correct: 322.0
+  :mean_clicks_to_correct: 1.0124223602
 
   Run the following class. Try changing the Person p2 object in main to your name.
   ~~~~
@@ -15,7 +21,7 @@
      private String name;
      private String email;
      private String phoneNumber;
-
+  
      // constructor: construct a Person copying in the data into the instance variables
      public Person(String initName, String initEmail, String initPhone)
      {
@@ -23,7 +29,7 @@
         email = initEmail;
         phoneNumber = initPhone;
      }
-
+  
      // Print all the data for a person
      public void print()
      {
@@ -31,7 +37,7 @@
        System.out.println("Email: " + email);
        System.out.println("Phone Number: " + phoneNumber);
      }
-
+  
      // main method for testing
      public static void main(String[] args)
      {
@@ -43,13 +49,13 @@
         p2.print();
      }
   }
-
+  
   ====
   // Test for Lesson 5.1.0 - Person class - should pass if/when they run code
   import static org.junit.Assert.*;
   import org.junit.*;;
   import java.io.*;
-
+  
   public class RunestoneTests extends CodeTestHelper
   {
         @Test
@@ -57,7 +63,7 @@
         {
            String output = getMethodOutput("main");
             String expect = "Name: Sana\nEmail: sana@gmail.com\nPhone Number: 123-456-7890\nName: Jean\nEmail: jean@gmail.com\nPhone Number: 404 899-9955";
-
+  
             boolean passed = getResults(expect, output, "Expected output from main", true);
             assertTrue(passed);
         }

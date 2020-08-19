@@ -1,8 +1,10 @@
 .. youtube:: HdFujZpLFVg
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Functions/Variablesandparametersarelocal
+    :chapter: Functions
+    :subchapter: Variablesandparametersarelocal
+    :topics: Functions/Variablesandparametersarelocal
     :from_source: T
     :divid: goog_local_vars
     :height: 315

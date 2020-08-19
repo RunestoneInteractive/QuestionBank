@@ -1,8 +1,10 @@
 .. mchoice:: pe2_7-20
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit11-posttest/posttest
+   :chapter: Unit11-posttest
+   :subchapter: posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: IV
    :answer_b: I and II
@@ -15,11 +17,15 @@
    :feedback_c: II is also valid. In some cases a single method is applicable for a number of subclasses, and inheritance allows you to pass objects of the subclasses to the same method instead of writing individual methods for each subclass.
    :feedback_d: In fact, all of the reasons listed are valid. Subclasses can reuse methods written for superclasses without code replication, subclasses can be stored in the same array, and passed as arguments to methods meant for the superclass. All of which make writing code more streamlined.
    :feedback_e: II and III are also valid, in some cases a single method is applicable for a number of subclasses, and inheritance allows you to pass all the subclasses to the same method instead of writing individual methods for each subclass and you might want to store subclasses together in a single array, and inheritance allows for this.
+   :pct_on_first: 0.3441860465
+   :total_students_attempting: 430
+   :num_students_correct: 192.0
+   :mean_clicks_to_correct: 1.3802083333
 
    Which of the following reasons for using an inheritance heirarchy are valid?
-
+   
    .. code-block:: java
-
+   
       I.   Methods from a superclass can be used in a subclass without
            rewriting or copying code.
       II.  Objects from subclasses can be passed as arguments to a method

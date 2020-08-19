@@ -1,8 +1,10 @@
 .. activecode:: CS152_Function_Shape_Practice
     :author: John Cigas
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Functions/functions
+    :chapter: Functions
+    :subchapter: functions
+    :topics: Functions/functions
     :from_source: F
     :nocodelens:
 

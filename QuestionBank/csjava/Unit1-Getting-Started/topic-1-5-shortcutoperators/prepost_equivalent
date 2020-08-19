@@ -1,0 +1,15 @@
+.. dragndrop:: prepost_equivalent
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-5-shortcutoperators
+   :topics: Unit1-Getting-Started/topic-1-5-shortcutoperators
+   :from_source: F
+   :feedback: Try again.
+   :match_1: System.out.println(score++);|||System.out.println(score);   score++;
+   :match_2: System.out.println(score--);|||System.out.println(score);   score--;
+   :match_3: System.out.println(++score);|||score++;     System.out.println(score);
+   :match_4: System.out.println(--score);|||score--;     System.out.println(score);
+
+   Match each single line of code on the left to the equivalent pair of lines on the right.

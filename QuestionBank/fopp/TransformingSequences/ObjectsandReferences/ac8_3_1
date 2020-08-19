@@ -1,8 +1,10 @@
 .. activecode:: ac8_3_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: TransformingSequences/ObjectsandReferences
+    :chapter: TransformingSequences
+    :subchapter: ObjectsandReferences
+    :topics: TransformingSequences/ObjectsandReferences
     :from_source: T
 
     a = "banana"

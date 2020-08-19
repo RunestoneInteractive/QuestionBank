@@ -1,14 +1,16 @@
 .. activecode:: act_kiva_7
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/kiva_statistics
+    :chapter: Projects
+    :subchapter: kiva_statistics
+    :topics: Projects/kiva_statistics
     :from_source: T
     :include: act_kiva_1
-    :pct_on_first: 0.2826362484
-    :total_students_attempting: 789
-    :num_students_correct: 618.0
-    :mean_clicks_to_correct: 4.6116504854
+    :pct_on_first: 0.2848101266
+    :total_students_attempting: 790
+    :num_students_correct: 620.0
+    :mean_clicks_to_correct: 4.6
 
     For each unique country name, print a line that shows the name of the country and then the number of loans made in that country, like this: "Guatemala 1"
     ~~~~

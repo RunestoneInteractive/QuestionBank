@@ -1,8 +1,10 @@
 .. actex:: suci_turtle_house_3
    :author: peter suci
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Run the program then modify it so that the roof is 70 units on a side. Change the last turtle.goto statement so that the roof sits on the middle of the house.

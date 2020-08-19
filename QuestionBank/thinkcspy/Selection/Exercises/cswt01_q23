@@ -1,8 +1,10 @@
 .. mchoice:: cswt01_q23
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
    :answer_a: Read a book
    :answer_b: Play golf

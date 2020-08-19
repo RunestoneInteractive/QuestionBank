@@ -1,8 +1,10 @@
 .. codelens:: codelens_question
     :author: Florian Picard
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :question: What is the value of tot after the line with the red arrow executes?
     :breakline: 4

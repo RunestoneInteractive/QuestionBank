@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermRegexCountSumsv2
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.1468531469
+   :total_students_attempting: 286
+   :num_students_correct: 273.0
+   :mean_clicks_to_correct: 7.7545787546
 
    The code below is correct, but is mixed-up.  It should create a function sumNums.  The function will open a file and loop through the lines in the file and find all numbers in each line and add them to a list of numbers represented as strings.  Then it should close the file.  Next it should loop through the numbers that are strings and add them to numList as integers.  Finally it should return the sum of the list numList.  The code below contains extra blocks that are not needed in a correct solution.  
    -----

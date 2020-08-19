@@ -1,8 +1,10 @@
 .. activecode:: 1306_prac3_rev2
     :author: Shishir Shah
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Strings/Exercises
+    :chapter: Strings
+    :subchapter: Exercises
+    :topics: Strings/Exercises
     :from_source: F
     :language: python
 

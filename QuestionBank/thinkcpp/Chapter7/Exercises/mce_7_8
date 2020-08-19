@@ -1,9 +1,12 @@
 .. mchoice:: mce_7_8
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter7/Exercises
+    :chapter: Chapter7
+    :subchapter: Exercises
+    :topics: Chapter7/Exercises
     :from_source: T
+    :practice: T
 
     What is the output of the code below?
 

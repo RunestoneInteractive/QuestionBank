@@ -1,8 +1,10 @@
 .. activecode:: thirteenten
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/mergesort
+   :chapter: Chapter13
+   :subchapter: mergesort
+   :topics: Chapter13/mergesort
    :from_source: F
    :language: cpp
 

@@ -1,8 +1,10 @@
 .. mchoice:: qtnt4_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test4nt
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
    :from_source: T
    :answer_a: 5
    :answer_b: 6
@@ -15,16 +17,20 @@
    :feedback_c: This is the answer returned for fibonacci(6). Check your tracing and try again.
    :feedback_d: This is the answer returned for fibonacci(7). Check your tracing and try again.
    :feedback_e: Notice what is returned in the if statement. fibonacci(0) returns 0, not 1.
+   :pct_on_first: 0.33
+   :total_students_attempting: 100
+   :num_students_correct: 98.0
+   :mean_clicks_to_correct: 3.0
 
    The ``fibonacci`` method is shown below. What is returned as a result of ``fibonacci(5)``?
-
+   
    .. code-block:: java
-
+   
       public int fibonacci (int num)
       {
           if (num <= 1)
               return num;
-
+   
           else
               return fibonacci(num - 1) + fibonacci(num - 2);
       }

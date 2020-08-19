@@ -1,8 +1,10 @@
 .. activecode:: ccs_maze00
     :author: Michael McCarrin
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
     :include: ccs_mazes
 

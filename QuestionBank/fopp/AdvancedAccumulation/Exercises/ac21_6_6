@@ -1,13 +1,15 @@
 .. actex:: ac21_6_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.4893617021
-   :total_students_attempting: 47
-   :num_students_correct: 39.0
-   :mean_clicks_to_correct: 1.8461538462
+   :pct_on_first: 0.4693877551
+   :total_students_attempting: 49
+   :num_students_correct: 40.0
+   :mean_clicks_to_correct: 2.025
 
    Write a function called positives_Fil that receives list of things as the input and returns a list of only the positive things, [3, 5, 7], using the filter function.
    ~~~~

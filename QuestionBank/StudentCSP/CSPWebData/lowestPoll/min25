@@ -1,8 +1,10 @@
 .. activecode:: min25
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPWebData/lowestPoll
+   :chapter: CSPWebData
+   :subchapter: lowestPoll
+   :topics: CSPWebData/lowestPoll
    :from_source: T
    :tour_1: "Structural tour"; 2-4: web4-line1-3; 7-8: web4-line5-6; 11: web4-line7; 14: web4-line8; 17: web4-line9; 20: web4-line10; 23-24: web4-line11-12; 27: web4-line13;
    :nocodelens:

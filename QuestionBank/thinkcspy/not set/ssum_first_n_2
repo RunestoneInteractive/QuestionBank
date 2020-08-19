@@ -1,6 +1,8 @@
 .. activecode:: ssum_first_n_2%0A    :language: python%0A%0A    Write a Python function to sum the first N numbers starting with 0.  So if N is 4 then your function should add 0 + 1 + 2 + 3%0A    ~~~~%0A    def sum_first_n(N):%0A        # your python code here%0A    ====%0A    from unittest.gui import TestCaseGui%0A%0A    class myTests(TestCaseGui):%0A%0A        def testOne(self):%0A            self.assertEqual(sum_first_n(4),6,feedback="0 + 1 + 2 + 3 == 6")%0A            self.assertEqual(sum_first_n(0),0,feedback="summing 0 numbers should be 0")%0A%0A    myTests().main()
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: not set
+    :chapter: Chapter
+    :subchapter: 
+    :topics: not set
     :from_source: F

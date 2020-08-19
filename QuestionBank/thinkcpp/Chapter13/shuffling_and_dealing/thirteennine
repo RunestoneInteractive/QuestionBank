@@ -1,8 +1,10 @@
 .. activecode:: thirteennine
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/shuffling_and_dealing
+   :chapter: Chapter13
+   :subchapter: shuffling_and_dealing
+   :topics: Chapter13/shuffling_and_dealing
    :from_source: F
    :language: cpp
 

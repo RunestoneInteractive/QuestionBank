@@ -1,8 +1,10 @@
 .. mchoice:: pe1_19
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: The values don't matter, this will always cause an infinite loop.
    :answer_b: Whenever a has a value larger then temp.
@@ -15,11 +17,15 @@
    :feedback_c: Values larger then temp will not cause an infinite loop.
    :feedback_d: Values equal to temp will not cause an infinite loop.
    :feedback_e: When a contains a value that is less than or equal to zero, then multiplying that value by 2 will never make the result larger than the temp value (which was set to some value > 0), so an infinite loop will occur.
+   :pct_on_first: 0.5869565217
+   :total_students_attempting: 138
+   :num_students_correct: 95.0
+   :mean_clicks_to_correct: 1.2421052632
 
    Assume that ``temp`` is an ``int`` variable initialized to be greater than zero and that ``a`` is an array of type ``int``.  Also, consider the following code segment.  What of the following will cause an infinite loop?
-
+   
    .. code-block:: java
-
+   
       for ( int k = 0; k < a.length; k++ )
       {
          while ( a[ k ] < temp )

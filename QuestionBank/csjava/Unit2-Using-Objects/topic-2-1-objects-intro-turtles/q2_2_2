@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :topics: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
    :from_source: T
    :practice: T
    :answer_a: attributes

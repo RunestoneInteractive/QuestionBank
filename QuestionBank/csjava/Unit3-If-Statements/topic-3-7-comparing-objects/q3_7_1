@@ -1,0 +1,25 @@
+.. mchoice:: q3_7_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit3-If-Statements
+   :subchapter: topic-3-7-comparing-objects
+   :topics: Unit3-If-Statements/topic-3-7-comparing-objects
+   :from_source: T
+   :practice: T
+   :answer_a: s1 == s2 && s1 == s3
+   :answer_b: s1 == s2 && s1.equals(s3)
+   :answer_c: s1 != s2 && s1.equals(s3)
+   :correct: b
+   :feedback_a: Do s1 and s3 refer to the same object?
+   :feedback_b: Yes s2 was set to refer to the same object as s1 and s1 and s3 have the same characters.
+   :feedback_c: Did you miss that s2 was set to refer to the same object as s1?
+
+   Which of the following is true after the code executes?
+
+   .. code-block:: java
+
+     String s1 = new String("hi");
+     String s2 = new String("bye");
+     String s3 = new String("hi");
+     s2 = s1;

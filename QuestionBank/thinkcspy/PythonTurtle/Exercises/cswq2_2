@@ -1,8 +1,10 @@
 .. mchoice:: cswq2_2
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :answer_a: 0 1 2 3 4 5 6
    :answer_b: 1 2 3 4 5 6 7

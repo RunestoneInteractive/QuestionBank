@@ -1,8 +1,10 @@
 .. shortanswer:: wvu_typeerror_concatenateintstr
    :author: Brian Powell
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Suppose Python gives you this error:

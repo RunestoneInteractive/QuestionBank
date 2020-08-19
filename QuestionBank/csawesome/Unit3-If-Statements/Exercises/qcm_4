@@ -1,8 +1,10 @@
 .. mchoice:: qcm_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: T
    :practice: T
    :answer_a: I and III only
@@ -16,11 +18,15 @@
    :feedback_c: III is one of the correct answers. However, choice I is also correct. Choice I uses multiple if's with logical ands in the conditions to check that the numbers are in range. Choice III uses ifs with else if to make sure that the only one conditional is executed.
    :feedback_d: Choice II won't work since if you had a score of 94 it would first assign the grade to an "A" but then it would execute the next if and change the grade to a "B" and so on until the grade was set to a "C". This could have been fixed by using else if instead of just if.
    :feedback_e: Choice II won't work since if you had a score of 94 it would first assign the grade to an "A" but then it would execute the next if and change the grade to a "B" and so on until the grade was set to a "C". This could have been fixed by using else if instead of just if.
+   :pct_on_first: 0.5090604027
+   :total_students_attempting: 2980
+   :num_students_correct: 2949.0
+   :mean_clicks_to_correct: 2.1302136317
 
    At a certain high school students receive letter grades based on the following scale: 93 or above is an A, 84 to 92 is a B, 75 to 83 is a C, and below 75 is an F. Which of the following code segments will assign the correct string to grade for a given integer score?
-
+   
    .. code-block:: java
-
+   
      I.   if (score >= 93)
              grade = "A";
           if (score >= 84 && score <=92)
@@ -29,7 +35,7 @@
              grade = "C";
           if (score < 75)
              grade = "F";
-
+   
      II.  if (score >= 93)
              grade = "A";
           if (score >= 84)
@@ -38,7 +44,7 @@
              grade = "C";
           if (score < 75)
              grade = "F";
-
+   
      III. if (score >= 93)
              grade = "A";
           else if (score >= 84)

@@ -1,14 +1,16 @@
 .. activecode:: sigcse_ex1
     :author: Andrew McDonald
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
     :language: python
-    :pct_on_first: 0.0
-    :total_students_attempting: 65
-    :num_students_correct: 6.0
-    :mean_clicks_to_correct: 6.0
+    :pct_on_first: 0.0133333333
+    :total_students_attempting: 75
+    :num_students_correct: 7.0
+    :mean_clicks_to_correct: 5.2857142857
 
     Write a Python function to sum the first N numbers starting with 0.  So if N is 4 then your function should add 0 + 1 + 2 + 3
     ~~~~

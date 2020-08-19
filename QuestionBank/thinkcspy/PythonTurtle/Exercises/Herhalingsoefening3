@@ -1,8 +1,10 @@
 .. activecode:: Herhalingsoefening3
     :author: Gilles Fiers
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
     :language: python
 

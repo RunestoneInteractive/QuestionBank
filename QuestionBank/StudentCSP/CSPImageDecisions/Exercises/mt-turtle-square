@@ -1,8 +1,10 @@
 .. parsonsprob:: mt-turtle-square
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPImageDecisions/Exercises
+   :chapter: CSPImageDecisions
+   :subchapter: Exercises
+   :topics: CSPImageDecisions/Exercises
    :from_source: F
    :numbered: left
 

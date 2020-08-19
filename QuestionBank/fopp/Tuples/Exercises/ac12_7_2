@@ -1,8 +1,10 @@
 .. actex:: ac12_7_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: T
 
    Use a for loop to print out the last name, year of birth, and city for each of the people. (There are multiple ways you could do this. Try out some code and see what happens!)

@@ -1,8 +1,10 @@
 .. mchoice:: assess_question2_1_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/week2a1
+   :chapter: Sequences
+   :subchapter: week2a1
+   :topics: Sequences/week2a1
    :from_source: T
    :answer_a: zpzpzpzpzp
    :answer_b: zzzzzppppp
@@ -17,15 +19,11 @@
    :feedback_e: This is correct syntax and no errors will occur.
    :practice: T
    :topics: Sequences/ConcatenationandRepetition
-   :pct_on_first: 0.6098626717
-   :total_students_attempting: 1602
-   :num_students_correct: 1591.0
-   :mean_clicks_to_correct: 1.5857950974
 
    What will the output be for the following code?
-   
+
    .. sourcecode:: python
-   
+
     let = "z"
     let_two = "p"
     c = let_two + let

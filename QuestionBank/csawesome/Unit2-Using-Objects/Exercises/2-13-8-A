@@ -1,8 +1,10 @@
 .. mchoice:: 2-13-8-A
    :author: Beryl Hoffman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :practice: T
    :answer_a: Data Set 2 contains strings that should either return true or false
@@ -16,11 +18,15 @@
    :feedback_c: Are all strings in Data Set 1 and 2 palindromes?
    :feedback_d: True, but not really an advantage.
    :feedback_e: It only has 1 more.
+   :pct_on_first: 0.1837837838
+   :total_students_attempting: 185
+   :num_students_correct: 141.0
+   :mean_clicks_to_correct: 3.5531914894
 
    There is a method called palindromeString that determines whether a string is the same forwards and backwards. The following data sets can be used for testing the method. What advantage does Data Set 2 have over Data Set 1?
-
+   
    .. code-block:: java
-
+   
     Data Set 1			Data Set 2
     racecar			tacocat
     ebbe			tacos!!

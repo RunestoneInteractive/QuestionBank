@@ -1,16 +1,18 @@
 .. activecode:: ac18_3_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/Optionalkeyparameter
+   :chapter: Sorting
+   :subchapter: Optionalkeyparameter
+   :topics: Sorting/Optionalkeyparameter
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3760683761
-   :total_students_attempting: 351
-   :num_students_correct: 243.0
-   :mean_clicks_to_correct: 2.8395061728
+   :pct_on_first: 0.3777777778
+   :total_students_attempting: 360
+   :num_students_correct: 249.0
+   :mean_clicks_to_correct: 2.8313253012
 
    **1.** You will be sorting the following list by each element's second letter, a to z. Create a function to use when sorting, called ``second_let``. It will take a string as input and return the second letter of that string. Then sort the list,  create a variable called ``sorted_by_second_let`` and assign the sorted list to it. Do not use lambda.
    ~~~~

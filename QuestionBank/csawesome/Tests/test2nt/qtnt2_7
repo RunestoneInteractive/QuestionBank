@@ -1,8 +1,10 @@
 .. mchoice:: qtnt2_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test2nt
+   :chapter: Tests
+   :subchapter: test2nt
+   :topics: Tests/test2nt
    :from_source: T
    :answer_a: I only
    :answer_b: II only
@@ -15,23 +17,27 @@
    :feedback_c: The value i starts at 0 and increments by 2, correctly printing out every value.
    :feedback_d: Notice the incrementing in the loops for I and II. In I, the value i increments by 1 and prints out too many values. In II, the first value is not printed.
    :feedback_e: III is correct, but I prints out every value between 0 and 8 and II does not print the first value.
+   :pct_on_first: 0.6839378238
+   :total_students_attempting: 193
+   :num_students_correct: 191.0
+   :mean_clicks_to_correct: 1.5497382199
 
    Which of these loops will output ``02468``?
-
+   
    .. code-block:: java
-
+   
       I. for (int i = 0; i <= 8; i++)
          {
             System.out.print(i);
          }
-
+   
       II. int i = 0;
           while (i < 8)
           {
              i +=2;
              System.out.print(i);
           }
-
+   
       III. for (int i = 0; i <= 8; i +=2)
            {
               System.out.print(i);

@@ -1,8 +1,10 @@
 .. parsonsprob:: turtleRep2-adp
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatTurtles/Exercises
+   :chapter: CSPRepeatTurtles
+   :subchapter: Exercises
+   :topics: CSPRepeatTurtles/Exercises
    :from_source: F
    :numbered: left
    :adaptive:

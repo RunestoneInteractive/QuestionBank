@@ -1,8 +1,10 @@
 .. mchoice:: q2_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-6-casting
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-6-casting
+   :topics: Unit1-Getting-Started/topic-1-6-casting
    :from_source: T
    :practice: T
    :answer_a: (double) (total / 3);
@@ -12,5 +14,9 @@
    :feedback_a: This does integer division before casting the result to double so it loses the fractional part.
    :feedback_b: When you divide an integer by an integer you get an integer result and lose the fractional part.
    :feedback_c: This will convert total to a double value and then divide by 3 to return a double result.
+   :pct_on_first: 0.4781684699
+   :total_students_attempting: 5176
+   :num_students_correct: 5148.0
+   :mean_clicks_to_correct: 1.702991453
 
    Which of the following returns the correct average for a total that is the sum of 3 int values?

@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch13_5
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.756097561
-   :total_students_attempting: 41
-   :num_students_correct: 34.0
-   :mean_clicks_to_correct: 1.0882352941
+   :pct_on_first: 0.7619047619
+   :total_students_attempting: 42
+   :num_students_correct: 35.0
+   :mean_clicks_to_correct: 1.0857142857
 
    Create a function ``tuplize`` that accepts two inputs and returns them in a tuple. The first input and then the second.
    ~~~~

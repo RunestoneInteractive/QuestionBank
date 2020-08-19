@@ -1,12 +1,18 @@
 .. parsonsprob:: ch13ex8muc
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPStringDecisions/mixup_IF
+   :chapter: CSPStringDecisions
+   :subchapter: mixup_IF
+   :topics: CSPStringDecisions/mixup_IF
    :from_source: T
    :numbered: left
    :practice: T
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.0810810811
+   :total_students_attempting: 37
+   :num_students_correct: 29.0
+   :mean_clicks_to_correct: 5.6896551724
 
    The following program segment contains code from a movie theater kiosk that asks for your age to determine whether you are old enough to watch a PG-13 rated movie and then prints the appropriate statement. The blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
    -----

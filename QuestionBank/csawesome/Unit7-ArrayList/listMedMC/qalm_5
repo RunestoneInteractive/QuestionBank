@@ -1,8 +1,10 @@
 .. mchoice:: qalm_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/listMedMC
+   :chapter: Unit7-ArrayList
+   :subchapter: listMedMC
+   :topics: Unit7-ArrayList/listMedMC
    :from_source: T
    :practice: T
    :answer_a: [1, 2, 3, 4, 5]
@@ -16,11 +18,15 @@
    :feedback_c: This would be true if the <code>set</code> was an add.
    :feedback_d: This would be true it it was <code>remove(0)</code>.  Remember that it removes the object at the given index.
    :feedback_e: This would be true if the <code>set</code> was an add and if it was <code>remove(0)</code>.
+   :pct_on_first: 0.590437788
+   :total_students_attempting: 1736
+   :num_students_correct: 1693.0
+   :mean_clicks_to_correct: 1.8984051979
 
    What is printed as a result of executing the following code segment?
-
+   
    .. code-block:: java
-
+   
      List<Integer> aList = new ArrayList<Integer>();
      aList.add(new Integer(1));
      aList.add(new Integer(2));

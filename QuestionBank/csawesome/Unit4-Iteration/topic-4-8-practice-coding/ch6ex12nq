@@ -1,12 +1,18 @@
 .. activecode::  ch6ex12nq
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit4-Iteration/topic-4-8-practice-coding
+   :chapter: Unit4-Iteration
+   :subchapter: topic-4-8-practice-coding
+   :topics: Unit4-Iteration/topic-4-8-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.3333333333
+   :total_students_attempting: 45
+   :num_students_correct: 34.0
+   :mean_clicks_to_correct: 3.3235294118
 
    Finish the code to loop printing the message each time through the loop and remove an ``x`` from the message until all the ``x``'s are gone.
    ~~~~
@@ -16,8 +22,8 @@
        {
            String message = "Ix lovex youxxx";
            System.out.println(message);
-
-
+   
+   
        }
    }
    ====
@@ -33,7 +39,7 @@
          {
              String output = getMethodOutput("main");
              String expect = "Ix lovex youxxx\nI lovex youxxx\nI love youxxx\nI love youxx\nI love youx\nI love you\n";
-
+   
              boolean passed = getResults(expect, output, "Expected output from main");
              assertTrue(passed);
          }

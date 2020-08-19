@@ -1,8 +1,10 @@
 .. mchoice:: cswfinal_q17
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Lists/Exercises
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
    :from_source: F
    :answer_a: 4
    :answer_b: 3

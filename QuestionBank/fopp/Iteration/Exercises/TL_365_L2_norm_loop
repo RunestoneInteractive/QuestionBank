@@ -1,15 +1,17 @@
 .. actex:: TL_365_L2_norm_loop
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Iteration/Exercises
+   :chapter: Iteration
+   :subchapter: Exercises
+   :topics: Iteration/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0364963504
-   :total_students_attempting: 137
-   :num_students_correct: 35.0
-   :mean_clicks_to_correct: 5.5714285714
+   :pct_on_first: 0.035971223
+   :total_students_attempting: 139
+   :num_students_correct: 36.0
+   :mean_clicks_to_correct: 5.5277777778
 
    The :math:`L^{2}\text{-norm}` is the most common method for calculating
    the norm or magnitude of a vector. For an :math:`N\text{-dimensional}` vector, the

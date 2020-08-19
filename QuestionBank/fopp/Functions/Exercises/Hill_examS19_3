@@ -1,8 +1,10 @@
 .. activecode:: Hill_examS19_3
     :author: Scott Hill
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     Define a function ``countE(text)`` which takes in a string, and returns the number of words which contain an ``E`` or an ``e``. 

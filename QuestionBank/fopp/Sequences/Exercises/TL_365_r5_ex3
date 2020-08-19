@@ -1,15 +1,17 @@
 .. actex:: TL_365_r5_ex3
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1454545455
-   :total_students_attempting: 110
-   :num_students_correct: 55.0
-   :mean_clicks_to_correct: 2.9636363636
+   :pct_on_first: 0.1441441441
+   :total_students_attempting: 111
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 2.9464285714
 
    Given the list in activecode below use list indexing to print the
    type of the 4th element ('lights') and 7th element ('1') of

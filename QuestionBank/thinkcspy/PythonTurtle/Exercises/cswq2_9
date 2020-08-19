@@ -1,8 +1,10 @@
 .. mchoice:: cswq2_9
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :answer_a: prints the average of the numbers in the list
    :answer_b: prints the numbers in the list

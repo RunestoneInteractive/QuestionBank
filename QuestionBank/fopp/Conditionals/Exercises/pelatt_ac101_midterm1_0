@@ -1,8 +1,10 @@
 .. activecode:: pelatt_ac101_midterm1_0
     :author: Kristine Pelatt
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Conditionals/Exercises
+    :chapter: Conditionals
+    :subchapter: Exercises
+    :topics: Conditionals/Exercises
     :from_source: F
 
     current_grades = [23, 26, 84, 43, 56, 50, 35, 47, 30, 69, 44, 44, 95, 79, 94, 79, 47, 33, 54, 44, 54, 24, 55, 90, 69, 46, 45, 89, 35, 66, 28, 70, 47, 58, 55, 92, 79, 77, 94, 83, 59, 83, 32, 55, 74, 62, 85, 62, 32, 62, 69, 75, 30, 78, 22, 44, 93, 61, 71, 47, 67, 94, 66, 88, 23, 30, 52, 74, 76, 99, 82, 95, 64, 52, 54, 65, 67, 61, 37, 41, 47, 61, 67, 22, 92, 92, 27, 74, 20, 68, 88, 46, 74, 64, 68, 51, 23, 84, 37, 84]

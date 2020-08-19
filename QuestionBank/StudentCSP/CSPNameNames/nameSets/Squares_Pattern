@@ -1,8 +1,10 @@
 .. activecode:: Squares_Pattern
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPNameNames/nameSets
+  :chapter: CSPNameNames
+  :subchapter: nameSets
+  :topics: CSPNameNames/nameSets
   :from_source: T
   :tour_1: "Important lines tour"; 1-9: sqM-line1-9; 11-13: sqM-line11-13; 14: sqM-line14; 15: sqM-line15; 16: sqM-line16; 17: sqM-line17; 18: sqM-line18; 19: sqM-line19; 20: sqM-line20; 21: sqM-line21; 22: sqM-line22; 23: sqM-line23;
   :nocodelens:

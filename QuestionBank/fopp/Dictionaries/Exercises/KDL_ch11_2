@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch11_2
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Dictionaries/Exercises
+   :chapter: Dictionaries
+   :subchapter: Exercises
+   :topics: Dictionaries/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.0915492958
-   :total_students_attempting: 142
-   :num_students_correct: 71.0
-   :mean_clicks_to_correct: 6.9436619718
+   :pct_on_first: 0.0902777778
+   :total_students_attempting: 144
+   :num_students_correct: 72.0
+   :mean_clicks_to_correct: 6.9166666667
 
    Create a function ``word_count`` that accepts a string and returns a dictionary that contains the number of times each word is in the string. Convert all letters to lower case and split at the spaces in order to more easily compare. For example "Sweet Sweet Briar" should get {'sweet': 2, 'briar': 1}. A string with no words should return an empty dictionary.
    ~~~~

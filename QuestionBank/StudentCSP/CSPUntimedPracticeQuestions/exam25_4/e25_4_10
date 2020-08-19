@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: Problems that have a “yes” or “no” answer for all inputs are called decidable.
    :answer_b: Problems that have a “yes” or “no” answer for all inputs are called undecidable.
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. If a problem is solvable, it cannot be undecidable.
    :feedback_c: Incorrect. It is impossible to construct an algorithm that solves an undecidable problem.
    :feedback_d: Incorrect. Problems than cannot be solved with an algorithm are called unsolvable.
+   :pct_on_first: 0.6346153846
+   :total_students_attempting: 52
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 1.7
 
    Which of the following statements is true?

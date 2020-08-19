@@ -1,8 +1,10 @@
 .. activecode:: hu_handshakes_question
     :author: Sean Joyce
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
     Reconsider the work from our Input-Compute-Output project.  The last question in that project asks you to write a short Python program to compute an answer to the "how many handshakes" question.  In the ActiveCode window below, write a short Python program to prompt the user for the number of people in the room.  The program should then calculate how many handshakes would take place if everyone shook hands with everyone else.  (Do not double count handshakes.) Finally, the program should print a nice message with the result.  Remember the formula we derived in class!  (Or, look up Gauss' formula if you don't remember.) . 

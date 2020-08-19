@@ -1,8 +1,10 @@
 .. mchoice:: qsh_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: unknown value
@@ -14,16 +16,20 @@
    :feedback_b: ints get initialized to 0 by default if not explicitly initialized.
    :feedback_c: This code will compile.
    :feedback_d: someVar has a value assigned by default.
+   :pct_on_first: 0.1754907793
+   :total_students_attempting: 1681
+   :num_students_correct: 1652.0
+   :mean_clicks_to_correct: 2.6870460048
 
    Assume that SomeClass and MainClass are properly defined in separate files. What is the output of main()?
-
+   
    .. code-block:: java
-
+   
     class SomeClass
     {
         int someVar;
     }
-
+   
     public class MainClass
     {
         public static void main(String[] args)

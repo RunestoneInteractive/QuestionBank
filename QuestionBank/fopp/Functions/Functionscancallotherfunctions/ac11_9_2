@@ -1,13 +1,14 @@
 .. activecode:: ac11_9_2
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Functionscancallotherfunctions
+   :chapter: Functions
+   :subchapter: Functionscancallotherfunctions
+   :topics: Functions/Functionscancallotherfunctions
    :from_source: F
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Functions/Functionscancallotherfunctions
    :pct_on_first: 0.4571428571
    :total_students_attempting: 35
    :num_students_correct: 28.0

@@ -1,13 +1,15 @@
 .. actex:: ac21_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/Exercises
+   :chapter: AdvancedAccumulation
+   :subchapter: Exercises
+   :topics: AdvancedAccumulation/Exercises
    :from_source: T
-   :pct_on_first: 0.5090909091
-   :total_students_attempting: 55
-   :num_students_correct: 48.0
-   :mean_clicks_to_correct: 1.8333333333
+   :pct_on_first: 0.5087719298
+   :total_students_attempting: 57
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 1.82
 
    Write equivalent code using map instead of the manual accumulation below and assign it to the variable ``test``.
    ~~~~

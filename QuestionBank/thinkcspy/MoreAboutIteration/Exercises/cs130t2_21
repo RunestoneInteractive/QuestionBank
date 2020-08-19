@@ -1,8 +1,10 @@
 .. mchoice:: cs130t2_21
    :author: Lloyd Smith
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :answer_a: 0 1 2 3 4 7 8 9
    :answer_b: 4 5 6

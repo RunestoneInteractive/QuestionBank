@@ -1,8 +1,10 @@
 .. shortanswer:: wvu_typeerror_concatenate
    :author: Brian Powell
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: fopp
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
 
    Suppose Python gives you this error:

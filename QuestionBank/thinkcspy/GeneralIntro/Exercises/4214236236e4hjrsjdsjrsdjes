@@ -1,8 +1,10 @@
 .. parsonsprob:: 4214236236e4hjrsjdsjrsdjes
    :author: Matthew Zuniga
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
 
    Construct a program that will output all the even numbers from 0 to 99 using a for loop. <br>

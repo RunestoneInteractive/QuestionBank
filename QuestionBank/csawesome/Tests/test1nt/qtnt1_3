@@ -1,8 +1,10 @@
 .. mchoice:: qtnt1_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test1nt
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
    :from_source: T
    :answer_a: II only
    :answer_b: I only
@@ -15,11 +17,15 @@
    :feedback_c: II is correct, but number I will actually be the worst run time for insertion sort since all values will have to be moved each time through the loop.
    :feedback_d: While II is the correct anwser, an array in random order will have average run time.
    :feedback_e: When the array is not sorted the run time will be average.
+   :pct_on_first: 0.5718085106
+   :total_students_attempting: 376
+   :num_students_correct: 372.0
+   :mean_clicks_to_correct: 1.7795698925
 
    In which of these cases will an ascending order (from smallest to largest) insertion sort have the fastest run time?
-
+   
    .. code-block:: java
-
+   
       I.   An array that is in reverse order (from largest to smallest).
       II.  An array that is in sorted order already (from smallest to largest).
       III. An array that is in random order (not already sorted).

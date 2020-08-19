@@ -1,0 +1,22 @@
+.. mchoice:: q5_1_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit5-Writing-Methods
+   :subchapter: topic-5-1-writing-methods
+   :topics: Unit5-Writing-Methods/topic-5-1-writing-methods
+   :from_source: T
+   :practice: T
+   :answer_a: 16
+   :answer_b: 17
+   :answer_c: 18
+   :answer_d: 19
+   :correct: d
+   :feedback_a: Look at the main method frame in the stack diagram.
+   :feedback_b: Look at the main method frame in the stack diagram.
+   :feedback_c: Look at the main method frame in the stack diagram.
+   :feedback_d: Correct. The main method frame shows the greet method was called at line 19.
+
+   After line 12 executes and the greet() method completes, control will return to which line in the main method?
+
+    .. figure:: Figures/stackframeq2.png

@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: North
    :answer_b: South
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. The default direction of a turtle is facing east.
    :feedback_c: Correct. The default direction of a turtle is facing east.
    :feedback_d: Incorrect. Think about in which direction you read and write.
+   :pct_on_first: 0.4615384615
+   :total_students_attempting: 52
+   :num_students_correct: 49.0
+   :mean_clicks_to_correct: 1.6734693878
 
    What is the default direction a turtle object is facing?

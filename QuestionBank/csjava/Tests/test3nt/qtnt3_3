@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: [7, 1, 4, 8, 3]
    :answer_b: [7, 8, 1, 2, 4, 3]

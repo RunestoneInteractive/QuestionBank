@@ -1,8 +1,10 @@
 .. activecode:: sks_hw2_ex2
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [50 pts] Write to program to read 3 non-negative integers as input from the user and sort them in an ascending order.  

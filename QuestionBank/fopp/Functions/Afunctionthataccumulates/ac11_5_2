@@ -1,16 +1,18 @@
 .. activecode:: ac11_5_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Afunctionthataccumulates
+   :chapter: Functions
+   :subchapter: Afunctionthataccumulates
+   :topics: Functions/Afunctionthataccumulates
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3957027753
-   :total_students_attempting: 1117
-   :num_students_correct: 781.0
-   :mean_clicks_to_correct: 2.7439180538
+   :pct_on_first: 0.396797153
+   :total_students_attempting: 1124
+   :num_students_correct: 788.0
+   :mean_clicks_to_correct: 2.7347715736
 
    **1.** Write a function named ``total`` that takes a list of integers as input, and returns the total value of all those integers added together.
    ~~~~

@@ -1,8 +1,10 @@
 .. actex:: CS152_isValid_YNM_a
     :author: John Cigas
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: Strings/Exercises
+    :chapter: Strings
+    :subchapter: Exercises
+    :topics: Strings/Exercises
     :from_source: F
     :practice: T
     :autograde: unittest

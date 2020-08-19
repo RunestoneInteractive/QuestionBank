@@ -1,64 +1,70 @@
 .. mchoice:: e25_2_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_2
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_2
+   :topics: CSPUntimedPracticeQuestions/exam25_2
    :from_source: T
-   :answer_a:
-   :answer_b:
-   :answer_c:
-   :answer_d:
+   :answer_a: 
+   :answer_b: 
+   :answer_c: 
+   :answer_d: 
    :correct: c
    :feedback_a: Incorrect. After the .split() function, the while loop will break.
    :feedback_b: Incorrect. The remainder of 6 divided by 2 is equal to 0 and the loop will break.
    :feedback_c: Correct. The variable counter begins at a value greater than 0 and continues to increase which leads to an infinite loop.
    :feedback_d: Incorrect. The program will eventually end since x is subtracted by 1 each time through the loop.
+   :pct_on_first: 0.4166666667
+   :total_students_attempting: 72
+   :num_students_correct: 70.0
+   :mean_clicks_to_correct: 1.8857142857
 
    Which of the following will result in an infinite loop?
-
+   
    (A)
    :::
-
+   
    x ← “heLLo”
-
+   
    while x[2] == ’L’:
-
+   
     DISPLAY(x)
-
+   
     x ← x.split(‘h’)
-
+   
    (B)
    ::
-
+   
    my_num ← 6
-
+   
    while my_num ≠ 0:
-
+   
     DISPLAY(“Hello World”)
-
+   
     my_num ← my_num % 2
-
+   
    (C)
    ::
-
+   
    counter ← 10
-
+   
    while counter > 0:
-
+   
     DISPLAY(counter)
-
+   
     counter ← counter + 1
-
-
+   
+   
    (D)
    ::
-
+   
    x ← 5
-
+   
    while x > 0:
-
+   
     DISPLAY(x)
-
+   
     x ← x - 1
-
+   
    DISPLAY(“x is now” + x)

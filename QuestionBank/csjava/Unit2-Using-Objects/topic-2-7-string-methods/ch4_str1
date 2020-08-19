@@ -1,9 +1,11 @@
 .. dragndrop:: ch4_str1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit2-Using-Objects/topic-2-7-string-methods
-    :from_source: T
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-7-string-methods
+    :topics: Unit2-Using-Objects/topic-2-7-string-methods
+    :from_source: F
     :feedback: Review the vocabulary.
     :match_1: the position of a character in a string|||index
     :match_2: a new string that is a part of another string with 0 to all characters copied from the original string|||substring

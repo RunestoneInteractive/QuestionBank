@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: umich.edu/help
    :answer_b: umich.edu.subdomain
@@ -13,5 +15,9 @@
    :feedback_b: Incorrect. A subdomain does not come after umich.edu in the web address.
    :feedback_c: Correct. A subdomain modifies a domain and comes before the domain in the web address.
    :feedback_d: Incorrect. Nothing is modifying the domain umich.edu.
+   :pct_on_first: 0.619047619
+   :total_students_attempting: 63
+   :num_students_correct: 60.0
+   :mean_clicks_to_correct: 1.5666666667
 
    Which of the following would be considered a subdomain of umich.edu according to the guidelines of the Domain Name System (DNS)?

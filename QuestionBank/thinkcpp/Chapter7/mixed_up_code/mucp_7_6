@@ -1,41 +1,35 @@
 .. parsonsprob:: mucp_7_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter7/mixed_up_code
+   :chapter: Chapter7
+   :subchapter: mixed_up_code
+   :topics: Chapter7/mixed_up_code
    :from_source: T
    :numbered: left
    :adaptive:
+   :practice: T
 
-   Your work for the planet of Noes impressed the nearby planets of Noas, Nois, Noos, and Nous.
-   They want you to write different functions that censor out each planet's corresponding forbidden letter.
-   However, your galaxy brain knows better than to write a different function for each planet.
-   Using generalization, write the function ``censorLetter`` which takes a string input and a char to censor
-   as parameters and returns a censored string. For example, censorLetter("Bye world", 'o') returns the
-   string "Bye w*rld".
+   The program below should print out the index of the second instance of the
+   character 'i' but the code is mixed up and contains extra blocks.
+   Put the necessary blocks in the correct order.
    -----
-   string censorLetter (string input, char letter) {
+   int main() {
    =====
-   string censorLetter (string input) {  #paired
+      string quote = "Your time is limited, so don't waste it living someone else's life.";
    =====
-      int i = 0;
+      int i = 0;  #distractor
    =====
-      int i = 1;  #paired
+      while (i < quote.length()) {  #distractor
    =====
-      while (i < input.length()) {
+      int first = quote.find("i");
    =====
-         if (input[i] == letter) {
+      int index = find (quote, 'i', first + 1);
    =====
-         if (input[i] == "letter") {  #paired
+      int index = find (quote, 'i', first);  #paired
    =====
-            input[i] = '*';
-         }
+      cout << index;
+   }
    =====
-            '*' = input[i];  #paired
-         }
-   =====
-         i++;
-      }
-   =====
-      return input;
+      cout << first;  #paired
    }

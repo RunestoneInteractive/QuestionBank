@@ -1,8 +1,10 @@
 .. poll:: Expectancy_7
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/kiva_statistics
+    :chapter: Projects
+    :subchapter: kiva_statistics
+    :topics: Projects/kiva_statistics
     :from_source: T
     :option_1: Definitely within reach
     :option_2: Within reach if I try my hardest

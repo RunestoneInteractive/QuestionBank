@@ -1,8 +1,10 @@
 .. activecode:: CS152_Assignment_02_Liquid
      :author: John Cigas
-     :difficulty: 0
+     :difficulty: 0.0
      :basecourse: thinkcspy
-     :topic: Labs/Exercises
+     :chapter: Labs
+     :subchapter: Exercises
+     :topics: Labs/Exercises
      :from_source: F
 
      Create a Python program that prompts the user to enter a 

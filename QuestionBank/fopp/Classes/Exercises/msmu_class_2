@@ -1,14 +1,16 @@
 .. activecode:: msmu_class_2
     :author: Irma Ravkic
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Classes/Exercises
+    :chapter: Classes
+    :subchapter: Exercises
+    :topics: Classes/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.0392156863
-    :total_students_attempting: 51
-    :num_students_correct: 34.0
-    :mean_clicks_to_correct: 4.1176470588
+    :pct_on_first: 0.037037037
+    :total_students_attempting: 54
+    :num_students_correct: 37.0
+    :mean_clicks_to_correct: 4.1621621622
 
     Consider the class below. Write the main part of the program that asks the users for input and uses those inputs to create a new instance of ``User`` and store it in variable ``new_user``.
     

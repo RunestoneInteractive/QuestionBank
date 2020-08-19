@@ -1,8 +1,10 @@
 .. activecode:: recursion_AC_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter4/Recursion
+   :chapter: Chapter4
+   :subchapter: Recursion
+   :topics: Chapter4/Recursion
    :from_source: T
    :language: cpp
    :caption: Recursion

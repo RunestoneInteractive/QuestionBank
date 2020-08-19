@@ -1,8 +1,10 @@
 .. mchoice:: question2_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: SimplePythonData/Values
+   :chapter: SimplePythonData
+   :subchapter: Values
+   :topics: SimplePythonData/Values
    :from_source: T
    :answer_a: Nothing is printed. It generates a runtime error.
    :answer_b: "Hello World!"
@@ -12,10 +14,10 @@
    :feedback_b: The literal in the program includes the quote marks, but the printed representation omits them.
    :feedback_c: The printed representation omits the quote marks that are included in the string literal.
    :practice: T
-   :pct_on_first: 0.9020826857
-   :total_students_attempting: 3217
-   :num_students_correct: 3209.0
-   :mean_clicks_to_correct: 1.122156435
+   :pct_on_first: 0.9015591562
+   :total_students_attempting: 3271
+   :num_students_correct: 3262.0
+   :mean_clicks_to_correct: 1.122624157
 
    What appears in the output window when the following statement executes?
    

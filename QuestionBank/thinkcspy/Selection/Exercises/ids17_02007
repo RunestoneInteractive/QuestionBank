@@ -1,8 +1,10 @@
 .. activecode:: ids17_02007
     :author:  KUO TZU-CHI
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
    
     4.9(劉邦鋒，由片語學習C程式設計)寫一個程式來解決以下問題。有雞、兔子和螃蟹在一個籠子裡。現給定這些動物的總數，這些動物腳的總數以及這些動物尾巴的總數，請計算雞、兔子和螃蟹的數量。如果給定的數字不可能有解，（如9、48、及20），程式應該輸出0。

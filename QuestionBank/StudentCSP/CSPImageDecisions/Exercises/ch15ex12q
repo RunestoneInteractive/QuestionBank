@@ -1,8 +1,10 @@
 .. activecode::  ch15ex12q
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPImageDecisions/Exercises
+    :chapter: CSPImageDecisions
+    :subchapter: Exercises
+    :topics: CSPImageDecisions/Exercises
     :from_source: T
     :nocodelens:
 

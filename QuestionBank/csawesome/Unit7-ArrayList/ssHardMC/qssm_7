@@ -1,8 +1,10 @@
 .. mchoice:: qssm_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit7-ArrayList/ssHardMC
+   :chapter: Unit7-ArrayList
+   :subchapter: ssHardMC
+   :topics: Unit7-ArrayList/ssHardMC
    :from_source: T
    :practice: T
    :answer_a: 6 7 17 3 2 9 1 5
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if the loop was moving the position of odd numbers in the array to arr.length-1.
    :feedback_c: This would be true if the array was printed in the reversed order.
    :feedback_d: This is the correct answer, because the divCheck method is checking to see if the values in the array are divisible by 2 or 3. If they are, they are swapped with the value at the first position (index 0).
+   :pct_on_first: 0.3424494649
+   :total_students_attempting: 841
+   :num_students_correct: 792.0
+   :mean_clicks_to_correct: 2.125
 
    What is printed when the following main method is executed?
-
+   
    .. code-block:: java
-
+   
           public class DivisibleBy2or3
           {
               private static boolean divCheck(int n)
@@ -29,7 +35,7 @@
                   }
                   return false;
               }
-
+   
               public static void main(String[] args)
               {
                   int[] arr = {6,7,17,3,2,9,1,5};

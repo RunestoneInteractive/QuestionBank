@@ -1,8 +1,10 @@
 .. parsonsprob:: mid-Homework-class
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatTurtles/Exercises
+   :chapter: CSPRepeatTurtles
+   :subchapter: Exercises
+   :topics: CSPRepeatTurtles/Exercises
    :from_source: F
    :numbered: left
    :adaptive:

@@ -1,8 +1,10 @@
 .. activecode:: hw18DE
     :author: Damon Ellingston
-    :difficulty: 5
+    :difficulty: 5.0
     :basecourse: thinkcspy
-    :topic: ClassesDiggingDeeper/Exercises
+    :chapter: ClassesDiggingDeeper
+    :subchapter: Exercises
+    :topics: ClassesDiggingDeeper/Exercises
     :from_source: F
 
     **Final Homework Project**

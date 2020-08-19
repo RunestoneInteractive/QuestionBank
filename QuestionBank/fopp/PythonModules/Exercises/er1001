@@ -1,8 +1,10 @@
 .. activecode:: er1001
     :author: Eric Reed
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
 
     Write a program that generates a random integer between 1 and 100, and asks the user to guess the integer.

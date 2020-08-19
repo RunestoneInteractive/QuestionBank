@@ -1,8 +1,10 @@
 .. activecode:: chp09_for3
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Lists/Listsandforloops
+    :chapter: Lists
+    :subchapter: Listsandforloops
+    :topics: Lists/Listsandforloops
     :from_source: T
 
     for number in range(20):

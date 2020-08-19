@@ -1,8 +1,10 @@
 .. mchoice:: json_mmc3
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/Exercises
+   :chapter: CSPNameStrings
+   :subchapter: Exercises
+   :topics: CSPNameStrings/Exercises
    :from_source: F
    :correct: d
    :answer_a: name = dList.get("first_name", None)
@@ -13,11 +15,15 @@
    :feedback_b: The second item is at index 1.
    :feedback_c: Need to use quotes around the attribute name.
    :feedback_d: This gets the first name of the second item.
+   :pct_on_first: 0.6293103448
+   :total_students_attempting: 116
+   :num_students_correct: 116.0
+   :mean_clicks_to_correct: 1.7155172414
 
    What line would you use after the code below to get the value of the first_name from the second item from dList?
-
+   
    .. code-block:: python
-
+   
       data = '''
       [{
           "id": 1,

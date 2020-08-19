@@ -1,8 +1,10 @@
 .. mchoice:: question19_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TestCases/intro-TestCases
+   :chapter: TestCases
+   :subchapter: intro-TestCases
+   :topics: TestCases/intro-TestCases
    :from_source: T
    :answer_a: A runtime error will occur
    :answer_b: A message is printed out saying that the test failed.
@@ -16,9 +18,9 @@
    :feedback_d: The expression ``x==y`` evaluates to ``False``
    :feedback_e: When an assertion test passes, no message is printed. In this case, the assertion test fails.
    :practice: T
-   :pct_on_first: 0.6398601399
-   :total_students_attempting: 286
-   :num_students_correct: 281.0
-   :mean_clicks_to_correct: 1.6476868327
+   :pct_on_first: 0.6426116838
+   :total_students_attempting: 291
+   :num_students_correct: 286.0
+   :mean_clicks_to_correct: 1.6398601399
 
    When ``assert x==y`` is executed and x and y have different values, what will happen?

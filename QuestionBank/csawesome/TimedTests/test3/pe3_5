@@ -1,8 +1,10 @@
 .. mchoice:: pe3_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test3
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
    :from_source: T
    :answer_a: return 9 * y;
    :answer_b: return 7 * y;
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if the body only had the last line in it.  What do the first 2 lines do?
    :feedback_d: This would be true if the it was missing the second line.  What does that line do?
    :feedback_e: Remember that 2 * y + y is the same as 3 * y.
+   :pct_on_first: 0.3333333333
+   :total_students_attempting: 45
+   :num_students_correct: 17.0
+   :mean_clicks_to_correct: 1.1176470588
 
    Which of the following expressions can be use to replace the body of mystery so that mystery will return the same result for all values of y?
-
+   
    .. code-block:: java
-
+   
       public static int mystery(int y)
       {
          y = 2 * y + y;

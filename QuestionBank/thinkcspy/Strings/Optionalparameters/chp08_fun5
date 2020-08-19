@@ -1,8 +1,10 @@
 .. activecode:: chp08_fun5
         :author: bmiller
-        :difficulty: 3
+        :difficulty: 3.0
         :basecourse: thinkcspy
-        :topic: Strings/Optionalparameters
+        :chapter: Strings
+        :subchapter: Optionalparameters
+        :topics: Strings/Optionalparameters
         :from_source: T
 
         def find3(astring, achar, start=0):

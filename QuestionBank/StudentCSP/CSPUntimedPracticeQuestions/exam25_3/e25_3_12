@@ -1,8 +1,10 @@
 .. mchoice:: e25_3_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_3
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
    :from_source: T
    :answer_a: How does temperature fluctuate in Detroit from day to night?
    :answer_b: What is the average annual precipitation?
@@ -13,7 +15,11 @@
    :feedback_b: Correct. Data for only one year is recorded, so there is no way to measure average annual precipitation.
    :feedback_c: Incorrect. Since both air temperature and precipitation are recorded, this can be measured.
    :feedback_d: Incorrect. This can be recorded since the temperature is recorded every day for 12 months.
+   :pct_on_first: 0.4339622642
+   :total_students_attempting: 53
+   :num_students_correct: 51.0
+   :mean_clicks_to_correct: 2.0392156863
 
    A weatherman record atmospheric data to predict future weather conditions. Suppose that his lab in Detroit takes hourly measurements of air temperature and precipitation in the city for a total period of 12 months. The lab also records the exact time and date for each measurement.
-
+   
    Which of the following questions about the Detroit’s weather could NOT be accurately answered using only the data collected by the lab?

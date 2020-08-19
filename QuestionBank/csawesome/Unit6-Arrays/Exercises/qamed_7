@@ -1,8 +1,10 @@
 .. mchoice:: qamed_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/Exercises
+   :chapter: Unit6-Arrays
+   :subchapter: Exercises
+   :topics: Unit6-Arrays/Exercises
    :from_source: T
    :practice: T
    :answer_a: k - 1
@@ -16,11 +18,15 @@
    :feedback_c: This would be true if <code>arr[i] < someValue</code> was always true and the loop started at 0 instead of 1.
    :feedback_d: This would be the case if only one element in the array would fulfill the condition that <code>arr[i] < someValue</code>.
    :feedback_e: This is the minimum number of times that <code>HELLO</code> could be executed.  This would be true if <code>k</code> was less than <code>i</code> initially.
+   :pct_on_first: 0.5636926251
+   :total_students_attempting: 1939
+   :num_students_correct: 1894.0
+   :mean_clicks_to_correct: 2.1388595565
 
    Consider the following code. What is the *maximum* amount of times that ``HELLO`` could possibly be printed?
-
+   
    .. code-block:: java
-
+   
       for (int i = 1; i < k; i++)
       {
          if (arr[i] < someValue)

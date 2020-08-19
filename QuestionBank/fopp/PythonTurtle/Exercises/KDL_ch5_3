@@ -1,8 +1,10 @@
 .. activecode:: KDL_ch5_3
    :author: Kaelyn Leake
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit9-Inheritance/topic-9-6-polymorphism
+   :topics: Unit9-Inheritance/topic-9-6-polymorphism
    :from_source: T
    :practice: T
    :answer_a: Shape Shape Shape Shape

@@ -1,13 +1,15 @@
 .. actex:: TL_365_Stirling_approximation
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: PythonModules/Exercises
+   :chapter: PythonModules
+   :subchapter: Exercises
+   :topics: PythonModules/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0042194093
-   :total_students_attempting: 237
+   :pct_on_first: 0.0041841004
+   :total_students_attempting: 239
    :num_students_correct: 67.0
    :mean_clicks_to_correct: 9.6268656716
 

@@ -1,8 +1,10 @@
 .. activecode:: ch03_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/AFewMoreturtleMethodsandObservations
+   :chapter: PythonTurtle
+   :subchapter: AFewMoreturtleMethodsandObservations
+   :topics: PythonTurtle/AFewMoreturtleMethodsandObservations
    :from_source: T
    :nocodelens:
 

@@ -1,8 +1,10 @@
 .. activecode:: sks_cw3_ex5
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
 
    [40 pts] A fruit company sells oranges for 32 cents a pound plus $7.50 per order for shipping.  If an order is 100 pounds or more, then the shipping cost is reduced to $1.50 for the entire order.  

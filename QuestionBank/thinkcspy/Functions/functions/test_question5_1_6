@@ -1,8 +1,10 @@
 .. mchoice:: test_question5_1_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/functions
+   :chapter: Functions
+   :subchapter: functions
+   :topics: Functions/functions
    :from_source: T
    :practice: T
    :answer_a: def drawSquare(t, sz)
@@ -16,10 +18,10 @@
    :feedback_c: This function takes two parameters (arguments)
    :feedback_d: A colon is only required in a function definition.  It will cause an error with a function call.
    :feedback_e: Since alex was already previously defined and 10 is a value, we have passed in two correct values for this function.
-   :pct_on_first: 0.466362671
-   :total_students_attempting: 16009
-   :num_students_correct: 15937.0
-   :mean_clicks_to_correct: 2.078245592
+   :pct_on_first: 0.4678842092
+   :total_students_attempting: 16098
+   :num_students_correct: 16026.0
+   :mean_clicks_to_correct: 2.0751279171
 
    Considering the function below, which of the following statements correctly invokes, or calls, this function (i.e., causes it to run)?  Assume we already have a turtle named alex.
    

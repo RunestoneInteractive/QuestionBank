@@ -1,8 +1,10 @@
 .. actex:: ac18_8_4
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Sorting/Exercises
+    :chapter: Sorting
+    :subchapter: Exercises
+    :topics: Sorting/Exercises
     :from_source: T
 
     Now sort the keys (numbers) based on their frequencies. Review *Sorting a Dictionary* if you're not sure how to do this. Keep just the top five keys.

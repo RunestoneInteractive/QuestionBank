@@ -1,8 +1,10 @@
 .. activecode:: Image_Functions
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPNameNames/imageLib
+    :chapter: CSPNameNames
+    :subchapter: imageLib
+    :topics: CSPNameNames/imageLib
     :from_source: T
     :tour_1: "Important Lines Tour"; 1,4,7,11,15,18: timg2-line1_4_7_11_15_18; 2: timg2-line2; 5: timg2-line5; 8-9: timg2-line8-9; 12-13: timg2-line12-13; 16: timg2-line16; 19-20: timg2-line19-20;
     :nocodelens:

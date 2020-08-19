@@ -1,8 +1,10 @@
 .. mchoice:: cswt2_14
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Strings/Exercises
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
    :from_source: F
    :answer_a: Hex: 4D 53 55 (Decimal: 77 83 85)
    :answer_b: Hex: 6D 71 73 (Decimal: 109 113 115)

@@ -1,16 +1,18 @@
 .. activecode:: ac15_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedFunctions/OptionalParameters
+   :chapter: AdvancedFunctions
+   :subchapter: OptionalParameters
+   :topics: AdvancedFunctions/OptionalParameters
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.6153846154
-   :total_students_attempting: 351
-   :num_students_correct: 280.0
-   :mean_clicks_to_correct: 1.5857142857
+   :pct_on_first: 0.6173184358
+   :total_students_attempting: 358
+   :num_students_correct: 286.0
+   :mean_clicks_to_correct: 1.5804195804
 
    **3.** Write a function called ``str_mult`` that takes in a required string parameter and an optional integer parameter. The default value for the integer parameter should be 3. The function should return the string multiplied by the integer parameter.
    ~~~~

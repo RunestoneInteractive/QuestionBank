@@ -1,8 +1,10 @@
 .. parsonsprob:: 14214215215wyhaw
    :author: Matthew Zuniga
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    In computer science, the <b>Fibonacci Sequence</b> is an important problem for the concepts of recursion and memoization. These are introduced to you in later courses. <br> <br>

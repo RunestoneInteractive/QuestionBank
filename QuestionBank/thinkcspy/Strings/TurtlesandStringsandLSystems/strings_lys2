@@ -1,8 +1,10 @@
 .. activecode:: strings_lys2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Strings/TurtlesandStringsandLSystems
+    :chapter: Strings
+    :subchapter: TurtlesandStringsandLSystems
+    :topics: Strings/TurtlesandStringsandLSystems
     :from_source: T
     :nocodelens:
 

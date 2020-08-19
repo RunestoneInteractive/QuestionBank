@@ -1,8 +1,10 @@
 .. activecode:: act_code_hu_rotate_choice_9
     :author: Sean Joyce
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: TransformingSequences/Exercises
+    :chapter: TransformingSequences
+    :subchapter: Exercises
+    :topics: TransformingSequences/Exercises
     :from_source: F
 
     In the Chapter 9 project, we have worked on various image transformations.  I have provided some template code for you below that loads in one of your author's standard images from the textbook. Complete a program that prompts the user to enter an integer, describing their choice of rotation. An input of 0 signifies 90 degrees clockwise; an input of 1 signifies 90 degrees counterclockwise.  Your program should display both the original image and the (properly) rotated new image.

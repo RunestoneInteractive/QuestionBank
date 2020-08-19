@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: Expected to run in reasonable time
    :answer_b: NOT expected to run in reasonable time
@@ -13,5 +15,9 @@
    :feedback_b: Correct. Since an exponential function is continually changing, it may not run in reasonable time.
    :feedback_c: Incorrect. They can be solved for a specific value.
    :feedback_d: Incorrect. It is not necessarily easier to calculate by hand.
+   :pct_on_first: 0.4716981132
+   :total_students_attempting: 53
+   :num_students_correct: 51.0
+   :mean_clicks_to_correct: 1.8039215686
 
    Algorithms will exponential behavior (e.g. x^n) are:

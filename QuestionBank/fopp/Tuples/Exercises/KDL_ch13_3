@@ -1,8 +1,10 @@
 .. activecode:: KDL_ch13_3
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Tuples/Exercises
+   :chapter: Tuples
+   :subchapter: Exercises
+   :topics: Tuples/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

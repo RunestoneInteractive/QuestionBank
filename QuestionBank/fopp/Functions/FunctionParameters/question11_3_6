@@ -1,8 +1,10 @@
 .. mchoice:: question11_3_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/FunctionParameters
+   :chapter: Functions
+   :subchapter: FunctionParameters
+   :topics: Functions/FunctionParameters
    :from_source: T
    :answer_a: Hello
    :answer_b: Goodbye
@@ -14,10 +16,10 @@
    :feedback_c: s1 is a variable name; its value would print out, not the variable name.
    :feedback_d: s2 is a variable name; its value would print out, not the variable name.
    :practice: T
-   :pct_on_first: 0.763496144
-   :total_students_attempting: 1556
-   :num_students_correct: 1550.0
-   :mean_clicks_to_correct: 1.3206451613
+   :pct_on_first: 0.7643312102
+   :total_students_attempting: 1570
+   :num_students_correct: 1564.0
+   :mean_clicks_to_correct: 1.3196930946
 
    What output will the following code produce?
    

@@ -1,32 +1,30 @@
 .. activecode:: assess_ac_2_1_1_13
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/week2a1
+   :chapter: Sequences
+   :subchapter: week2a1
+   :topics: Sequences/week2a1
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Sequences/SplitandJoin
-   :pct_on_first: 0.5099540582
-   :total_students_attempting: 1306
-   :num_students_correct: 1002.0
-   :mean_clicks_to_correct: 2.0958083832
 
    Create a variable called ``wrds`` and assign to it a list whose elements are the words in the string ``sent``. Do not worry about punctuation.
    ~~~~
    sent = "The bicentennial for our university was in 2017"
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
    import re
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(wrds, sent.split(), "Testing that wrds has been correctly assigned.")
          self.assertFalse(re.search(r'wrds\s*=\s*\S*The\S', self.getEditorText()), "Hardcoding Check (Don't worry about actual and expected values)")
-   
-   
+
+
    myTests().main()

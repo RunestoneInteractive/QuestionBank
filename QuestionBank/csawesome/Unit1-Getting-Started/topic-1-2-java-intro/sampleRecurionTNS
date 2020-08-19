@@ -1,8 +1,10 @@
 .. activecode:: sampleRecurionTNS
    :author: Tiffani Slutsky
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-2-java-intro
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-2-java-intro
+   :topics: Unit1-Getting-Started/topic-1-2-java-intro
    :from_source: F
    :language: java
    :practice: T

@@ -1,13 +1,15 @@
 .. activecode:: wvu_list_slice
    :author: Brian Powell
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
-   :pct_on_first: 0.2584269663
-   :total_students_attempting: 178
-   :num_students_correct: 122.0
-   :mean_clicks_to_correct: 2.7213114754
+   :pct_on_first: 0.2625698324
+   :total_students_attempting: 179
+   :num_students_correct: 123.0
+   :mean_clicks_to_correct: 2.7073170732
 
    We want to use the slicing operator to create a list named recent_presidents containing the presidents elected starting with the 32nd president, Franklin D. Roosevelt.
    ~~~~

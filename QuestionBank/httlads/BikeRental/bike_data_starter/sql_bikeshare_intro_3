@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: httlads
-    :topic: BikeRental/bike_data_starter
+    :topics: BikeRental/bike_data_starter
     :from_source: T
     :language: sql
     :dburl: /runestone/books/published/httlads/_static/bikeshare.db

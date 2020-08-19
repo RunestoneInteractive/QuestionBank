@@ -1,8 +1,10 @@
 .. activecode:: coop_U01_Ex01
     :author: Bill Montana
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: GeneralIntro/Exercises
+    :chapter: GeneralIntro
+    :subchapter: Exercises
+    :topics: GeneralIntro/Exercises
     :from_source: F
 
     The Python print() command is pretty versatile. Experiment with printing various things to see the output. Use this list, creating a new print() statement each time. Your final program should be a bunch of print() statements. Pay attention to the inputs and outputs, and draw conclusions from your observations. Include your observations and conclusions within the code as a multi-line comment. Space has been provided.

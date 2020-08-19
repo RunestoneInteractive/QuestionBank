@@ -1,8 +1,10 @@
 .. mchoice:: pe4_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: if (a[savedIndex] > a[j]) { j = savedIndex; }
    :answer_b: if (a[j] > a[savedIndex]) { savedIndex = j;}
@@ -15,24 +17,28 @@
    :feedback_c: This would be correct if this was starting at index 0 and finding the smallest item in the rest of the array, but this starts at the end of the array instead and finds the largest value in the rest of the array.
    :feedback_d: Should j be set to the savedIndex?
    :feedback_e: Why would you want to change the savedIndex if the values are the same?
+   :pct_on_first: 0.375
+   :total_students_attempting: 32
+   :num_students_correct: 17.0
+   :mean_clicks_to_correct: 1.2941176471
 
    Which of the following could be used to replace the missing code so that the method sort will sort the array a in ascending order?
-
+   
    .. code-block:: java
-
+   
      public static void sort(int[] a) {
         int maxCompare = a.length - 1;
         int savedIndex = 0;
         int numSteps = 0;
         int temp = 0;
-
+   
         for (int i = maxCompare; i > 0; i--) {
            savedIndex = i;
-
+   
            for (int j = i - 1; j >= 0; j--) {
              /* missing code */
            }
-
+   
           temp = a[i];
           a[i] = a[savedIndex];
           a[savedIndex] = temp;

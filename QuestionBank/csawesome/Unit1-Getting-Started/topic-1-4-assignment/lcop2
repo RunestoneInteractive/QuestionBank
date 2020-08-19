@@ -1,11 +1,17 @@
 .. activecode:: lcop2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-4-assignment
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.9951923077
+   :total_students_attempting: 1248
+   :num_students_correct: 1248.0
+   :mean_clicks_to_correct: 1.0056089744
 
    In the example below, try to guess what it will print out and then run it to see if you are right.
    ~~~~
@@ -25,9 +31,9 @@
     import org.junit.After;
     import org.junit.Before;
     import org.junit.Test;
-
+   
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test

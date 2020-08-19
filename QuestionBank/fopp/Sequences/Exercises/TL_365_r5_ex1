@@ -1,15 +1,17 @@
 .. actex:: TL_365_r5_ex1
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1454545455
-   :total_students_attempting: 165
-   :num_students_correct: 103.0
-   :mean_clicks_to_correct: 4.9611650485
+   :pct_on_first: 0.1506024096
+   :total_students_attempting: 166
+   :num_students_correct: 104.0
+   :mean_clicks_to_correct: 4.9230769231
 
    Write code that combines the following variables so that the
    sentence “Now I know how to concatenate strings in Python!” is

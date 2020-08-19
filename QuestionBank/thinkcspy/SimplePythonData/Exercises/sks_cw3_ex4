@@ -1,8 +1,10 @@
 .. activecode:: sks_cw3_ex4
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [30 pts] Write a program that takes in 3 numbers from the user and reports the minimum value of the 3 numbers.

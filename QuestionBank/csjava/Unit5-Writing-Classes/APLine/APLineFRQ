@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit5-Writing-Classes/APLine
+   :topics: Unit5-Writing-Classes/APLine
    :from_source: T
    :language: java
    :autograde: unittest

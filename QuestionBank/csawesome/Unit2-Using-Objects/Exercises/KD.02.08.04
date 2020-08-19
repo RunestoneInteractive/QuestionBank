@@ -1,8 +1,10 @@
 .. mchoice:: KD.02.08.04
    :author: Kuri DiFede
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: 25 1020.0
    :answer_b: 25.0 1020.0
@@ -15,12 +17,16 @@
    :feedback_c: incorrect
    :feedback_d: incorrect
    :feedback_e: incorrect
+   :pct_on_first: 0.2857142857
+   :total_students_attempting: 7
+   :num_students_correct: 7.0
+   :mean_clicks_to_correct: 3.5714285714
 
-
+   
    Consider the following code segment. What, if anything, is printed when the code segment is executed?
-
+   
    .. code-block:: java
-
+   
     int i1 = 5;
     Double d1 = 20;
     Integer i2 = new Integer(10);

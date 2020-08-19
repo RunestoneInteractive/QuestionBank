@@ -1,8 +1,10 @@
 .. mchoice:: assess_question2_1_1_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/week2a1
+   :chapter: Sequences
+   :subchapter: week2a1
+   :topics: Sequences/week2a1
    :from_source: T
    :answer_a: ['travel', 'lights', 'moon']
    :answer_b: ['world', 'travel', 'lights']
@@ -15,15 +17,11 @@
    :feedback_d: Python is a zero-index based language.
    :practice: T
    :topics: Sequences/TheSliceOperator
-   :pct_on_first: 0.596013289
-   :total_students_attempting: 1505
-   :num_students_correct: 1497.0
-   :mean_clicks_to_correct: 1.5838343353
 
    What will the output be for the following code?
-   
+
    .. sourcecode:: python
-   
+
     ls = ['run', 'world', 'travel', 'lights', 'moon', 'baseball', 'sea']
     new = ls[2:4]
     print(new)

@@ -1,13 +1,15 @@
 .. actex:: ac11_14_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
-   :pct_on_first: 0.375
-   :total_students_attempting: 224
-   :num_students_correct: 206.0
-   :mean_clicks_to_correct: 4.9514563107
+   :pct_on_first: 0.3761061947
+   :total_students_attempting: 226
+   :num_students_correct: 208.0
+   :mean_clicks_to_correct: 4.9182692308
 
    Write a function ``replace(s, old, new)`` that replaces all occurences of
    ``old`` with ``new`` in a string ``s``::

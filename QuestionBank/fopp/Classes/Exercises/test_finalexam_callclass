@@ -1,8 +1,10 @@
 .. activecode:: test_finalexam_callclass
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Classes/Exercises
+    :chapter: Classes
+    :subchapter: Exercises
+    :topics: Classes/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 0.1428571429

@@ -1,16 +1,18 @@
 .. activecode:: lhs_4_1a
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.3135435993
-    :total_students_attempting: 539
-    :num_students_correct: 520.0
-    :mean_clicks_to_correct: 3.5557692308
+    :pct_on_first: 0.314232902
+    :total_students_attempting: 541
+    :num_students_correct: 522.0
+    :mean_clicks_to_correct: 3.5517241379
 
     Write code that uses a ``for`` loop to print out each element and its ``type`` from the following list: ``["hello", 2, 4, 6.0, 7.5, 234352354, "the end", "", 99]``.
     

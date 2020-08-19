@@ -1,8 +1,10 @@
 .. activecode:: wvu_exam2_findpeakproductionyear
     :author: Brian Powell
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: fopp
-    :topic: Files/Exercises
+    :chapter: Files
+    :subchapter: Exercises
+    :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 0.0740740741

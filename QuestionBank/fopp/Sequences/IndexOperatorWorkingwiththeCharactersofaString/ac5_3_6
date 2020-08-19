@@ -1,16 +1,18 @@
 .. activecode:: ac5_3_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/IndexOperatorWorkingwiththeCharactersofaString
+   :chapter: Sequences
+   :subchapter: IndexOperatorWorkingwiththeCharactersofaString
+   :topics: Sequences/IndexOperatorWorkingwiththeCharactersofaString
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.6231106777
-   :total_students_attempting: 2051
-   :num_students_correct: 1636.0
-   :mean_clicks_to_correct: 1.5482885086
+   :pct_on_first: 0.6247582205
+   :total_students_attempting: 2068
+   :num_students_correct: 1652.0
+   :mean_clicks_to_correct: 1.5447941889
 
    Assign the value of the last chacter of ``lst`` to the variable ``output``. Do this so that the length of lst doesn't matter.
    ~~~~

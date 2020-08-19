@@ -1,8 +1,10 @@
 .. activecode:: wvu_exam2_readfilecontentscoal
     :author: Brian Powell
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Files/Exercises
+    :chapter: Files
+    :subchapter: Exercises
+    :topics: Files/Exercises
     :from_source: F
     :hidecode:
     :nocodelens:

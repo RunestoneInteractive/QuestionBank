@@ -1,14 +1,16 @@
 .. activecode:: ab_1
     :author: Shishir Shah
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.0689655172
-    :total_students_attempting: 29
+    :pct_on_first: 0.0666666667
+    :total_students_attempting: 30
     :num_students_correct: 23.0
     :mean_clicks_to_correct: 5.1304347826
 

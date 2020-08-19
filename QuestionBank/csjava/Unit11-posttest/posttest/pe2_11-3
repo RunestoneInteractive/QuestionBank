@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit11-posttest/posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: var1=2, var2=0
    :answer_b: var1=3, var2=-1

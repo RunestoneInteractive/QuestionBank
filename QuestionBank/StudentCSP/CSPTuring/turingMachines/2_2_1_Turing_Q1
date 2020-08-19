@@ -1,8 +1,10 @@
 .. mchoice:: 2_2_1_Turing_Q1
                    :author: bmiller
-                   :difficulty: 3
+                   :difficulty: 3.0
                    :basecourse: StudentCSP
-                   :topic: CSPTuring/turingMachines
+                   :chapter: CSPTuring
+                   :subchapter: turingMachines
+                   :topics: CSPTuring/turingMachines
                    :from_source: T
                    :answer_a: He occasionally ran 40 miles to London for meetings.
                    :answer_b: He proposed the Turing Test to decide if a computer was intelligent.
@@ -13,5 +15,9 @@
                    :feedback_b: This is true.  He said that if a computer could fool a person into thinking it was a person, that that computer was intelligent.
                    :feedback_c: This is true.  Winston Churchill said that Alan Turing made the single biggest contribution to winning World War II.
                    :feedback_d: This is false.  He attended King's College at Cambridge and Princeton University.
+                   :pct_on_first: 0.4658740643
+                   :total_students_attempting: 2271
+                   :num_students_correct: 2237.0
+                   :mean_clicks_to_correct: 2.0187751453
 
                    Use the following link to learn more about `Alan Turing <http://en.wikipedia.org/wiki/Alan_Turing>`_.  Which of the following is **false** about him?

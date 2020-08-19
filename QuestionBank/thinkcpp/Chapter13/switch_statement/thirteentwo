@@ -1,8 +1,10 @@
 .. activecode:: thirteentwo
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/switch_statement
+   :chapter: Chapter13
+   :subchapter: switch_statement
+   :topics: Chapter13/switch_statement
    :from_source: F
    :language: cpp
 

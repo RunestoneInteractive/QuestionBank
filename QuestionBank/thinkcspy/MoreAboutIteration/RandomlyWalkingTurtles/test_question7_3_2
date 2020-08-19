@@ -1,8 +1,10 @@
 .. mchoice:: test_question7_3_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/RandomlyWalkingTurtles
+   :chapter: MoreAboutIteration
+   :subchapter: RandomlyWalkingTurtles
+   :topics: MoreAboutIteration/RandomlyWalkingTurtles
    :from_source: T
    :practice: T
    :answer_a: Returns True if the turtle is still on the screen and False if the turtle is no longer on the screen.
@@ -14,9 +16,9 @@
    :feedback_b: The isInScreen function does not contain a while-loop.  That loop is outside the isInScreen function.
    :feedback_c: The isInScreen function does not move the turtle.
    :feedback_d: While the isInScreen function does use the size of the window and position of the turtle, it does not return the turtle position.
-   :pct_on_first: 0.7018992568
-   :total_students_attempting: 9688
-   :num_students_correct: 9648.0
-   :mean_clicks_to_correct: 1.6178482587
+   :pct_on_first: 0.703407225
+   :total_students_attempting: 9744
+   :num_students_correct: 9704.0
+   :mean_clicks_to_correct: 1.6149010717
 
    In the random walk program in this section, what does the isInScreen function do?

@@ -1,8 +1,10 @@
 .. activecode:: lhs_piguessstart
         :author: LHS CS Team
-        :difficulty: 0
+        :difficulty: 0.0
         :basecourse: thinkcspy
-        :topic: Labs/montepi
+        :chapter: Labs
+        :subchapter: montepi
+        :topics: Labs/montepi
         :from_source: F
 
         import turtle

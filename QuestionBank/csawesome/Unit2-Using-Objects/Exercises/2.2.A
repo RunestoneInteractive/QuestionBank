@@ -1,8 +1,10 @@
 .. mchoice:: 2.2.A
    :author: Beryl Hoffman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :practice: T
    :answer_a: Monster m1 = new Monster();
@@ -12,9 +14,13 @@
    :feedback_a: There is no constructor with no arguments listed.
    :feedback_b: Correct! The type and order are correct.
    :feedback_c: The arguments inside the constructor must be in the same order as the method signature
+   :pct_on_first: 0.5801526718
+   :total_students_attempting: 131
+   :num_students_correct: 124.0
+   :mean_clicks_to_correct: 1.4516129032
 
    Based off of the Monster constructor signature below, which is a valid statement?
-
+   
    .. code-block:: java
-
+   
      public Monster( int eyes, String name, int arms );

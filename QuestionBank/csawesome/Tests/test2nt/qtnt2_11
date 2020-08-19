@@ -1,8 +1,10 @@
 .. mchoice:: qtnt2_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test2nt
+   :chapter: Tests
+   :subchapter: test2nt
+   :topics: Tests/test2nt
    :from_source: T
    :answer_a: 25
    :answer_b: 15
@@ -15,13 +17,17 @@
    :feedback_c: This would be correct if the for-loops both continued when the values were less than or equal to 5, not when the values were less than 5.
    :feedback_d: This would be correct if the for-loops both began at 0 and looped until the values were less than or equal to 5. Check the for loop structures.
    :feedback_e: This would be correct if the first for-loop began at 1, not at 0.
+   :pct_on_first: 0.4171122995
+   :total_students_attempting: 187
+   :num_students_correct: 184.0
+   :mean_clicks_to_correct: 2.2663043478
 
    Consider the following code. What is printed as a result of executing this code?
-
+   
    .. code-block:: java
-
+   
       int sum = 0;
-
+   
       for (int x = 0; x < 5; x++)
       {
          for (int y = x; y < 5; y++)
@@ -29,5 +35,5 @@
             sum++;
          }
       }
-
+   
       System.out.println(sum);

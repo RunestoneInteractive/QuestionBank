@@ -1,8 +1,10 @@
 .. actex:: JOC_ex_2_7b
     :author: Joaquin Carbonara
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
 
 Take the sentence: 

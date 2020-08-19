@@ -1,8 +1,10 @@
 .. mchoice:: DateClass1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-2-constructors
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-2-constructors
+   :topics: Unit2-Using-Objects/topic-2-2-constructors
    :from_source: T
    :practice: T
    :answer_a: Date d = new Date();
@@ -16,5 +18,9 @@
    :feedback_c: The comment for the second constructor in the Date class above says that the first parameter must be the year.
    :feedback_d: This matches the second constructor above with the parameters year, month, day.
    :feedback_e: Make sure the order of the parameters match the constructor signature above.
+   :pct_on_first: 0.5845643654
+   :total_students_attempting: 3317
+   :num_students_correct: 3299.0
+   :mean_clicks_to_correct: 1.6574719612
 
    Given the ``Date`` class in the figure above and assuming that months in the ``Date`` class are numbered starting at 1, which of the following code segments will create a ``Date`` object for the date September 20, 2020 using the correct constructor?

@@ -1,17 +1,19 @@
 .. activecode:: ac12_2_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TuplePacking
+   :chapter: Tuples
+   :subchapter: TuplePacking
+   :topics: Tuples/TuplePacking
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.3270588235
-   :total_students_attempting: 425
-   :num_students_correct: 308.0
-   :mean_clicks_to_correct: 2.9383116883
+   :pct_on_first: 0.3279445727
+   :total_students_attempting: 433
+   :num_students_correct: 314.0
+   :mean_clicks_to_correct: 2.9363057325
 
    **4.** Provided is a list of tuples. Create another list called ``t_check`` that contains the third element of every tuple.
    ~~~~

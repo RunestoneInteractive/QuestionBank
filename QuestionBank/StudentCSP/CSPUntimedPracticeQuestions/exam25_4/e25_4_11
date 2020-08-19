@@ -1,8 +1,10 @@
 .. mchoice:: e25_4_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPUntimedPracticeQuestions/exam25_4
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
    :from_source: T
    :answer_a: 11100101
    :answer_b: 10100111
@@ -13,5 +15,9 @@
    :feedback_b: Correct. 10100111 = (1 × 2⁷) + (0 × 2⁶) + (1 × 2⁵) + (0 × 2⁴) + (0 × 2³) + (1 × 2²) + (1 × 2¹) + (1 × 2⁰) = 167
    :feedback_c: Incorrect. 0000111 = (0 × 2⁶) + (0 × 2⁵) + (0 × 2⁴) + (0 × 2³) + (1 × 2²) + (1 × 2¹) + (1 × 2⁰) = 7
    :feedback_d: Incorrect. 1010101 = (1 × 2⁶) + (0 × 2⁵) + (1 × 2⁴) + (0 × 2³) + (1 × 2²) + (0 × 2¹) + (1 × 2⁰) = 85
+   :pct_on_first: 0.4528301887
+   :total_students_attempting: 53
+   :num_students_correct: 50.0
+   :mean_clicks_to_correct: 1.8
 
    Which of the following correctly converts 167 to the binary number system? (Hint: Binary numbers have place values that are powers of 2.)

@@ -1,8 +1,10 @@
 .. mchoice:: 3_1_2_varNames_Q2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/assignName
+   :chapter: CSPNameNumbers
+   :subchapter: assignName
+   :topics: CSPNameNumbers/assignName
    :from_source: T
    :practice: T
    :answer_a: _my_name
@@ -16,5 +18,9 @@
    :feedback_c: This may be hard to read, but it is legal.
    :feedback_d: Since you can't have spaces in names, one way to make variable names easier to read is to use camel case (uppercase the first letter of each new word).
    :feedback_e: Since you can't have spaces in names, one way to make variable names easier to read is to use an underscore between two words.
+   :pct_on_first: 0.777733119
+   :total_students_attempting: 2488
+   :num_students_correct: 2478.0
+   :mean_clicks_to_correct: 1.4370460048
 
    Which of the following is *not* a legal variable name?

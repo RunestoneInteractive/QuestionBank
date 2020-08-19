@@ -1,8 +1,10 @@
 .. codelens:: chp13_points
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: ClassesBasics/UserDefinedClasses
+    :chapter: ClassesBasics
+    :subchapter: UserDefinedClasses
+    :topics: ClassesBasics/UserDefinedClasses
     :from_source: T
 
     class Point:

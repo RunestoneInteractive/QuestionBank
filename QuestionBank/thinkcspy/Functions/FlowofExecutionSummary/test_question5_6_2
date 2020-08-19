@@ -1,8 +1,10 @@
 .. mchoice:: test_question5_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/FlowofExecutionSummary
+   :chapter: Functions
+   :subchapter: FlowofExecutionSummary
+   :topics: Functions/FlowofExecutionSummary
    :from_source: T
    :practice: T
    :answer_a: 25
@@ -14,10 +16,10 @@
    :feedback_b: What is printed is the output of the square function.  5 is the input to the square function.
    :feedback_c: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :feedback_d: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
-   :pct_on_first: 0.7971744195
-   :total_students_attempting: 13307
-   :num_students_correct: 13253.0
-   :mean_clicks_to_correct: 1.3664830604
+   :pct_on_first: 0.7977167587
+   :total_students_attempting: 13402
+   :num_students_correct: 13348.0
+   :mean_clicks_to_correct: 1.3650734192
 
    Consider the following Python code. Note that line numbers are included on the left.
    

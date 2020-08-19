@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit5-Writing-Classes/Exercises
+   :topics: Unit5-Writing-Classes/Exercises
    :from_source: T
    :practice: T
    :answer_a: The private variables boxesOfFood and numOfPeople are not properly initialized.

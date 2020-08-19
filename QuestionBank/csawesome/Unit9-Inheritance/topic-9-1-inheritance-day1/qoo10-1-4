@@ -1,8 +1,10 @@
 .. mchoice:: qoo10-1-4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/topic-9-1-inheritance-day1
+   :chapter: Unit9-Inheritance
+   :subchapter: topic-9-1-inheritance-day1
+   :topics: Unit9-Inheritance/topic-9-1-inheritance-day1
    :from_source: T
    :practice: T
    :answer_a: 0
@@ -14,5 +16,9 @@
    :feedback_b: All classes in Java have one and only one parent class.
    :feedback_c: While that is how it works with humans, is that how Java works?
    :feedback_d: This is true for interfaces, but not parent classes.
+   :pct_on_first: 0.6361867704
+   :total_students_attempting: 2570
+   :num_students_correct: 2559.0
+   :mean_clicks_to_correct: 1.5275498242
 
    In Java how many parents can a class have?

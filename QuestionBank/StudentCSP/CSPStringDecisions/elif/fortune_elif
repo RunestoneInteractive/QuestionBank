@@ -1,8 +1,10 @@
 .. activecode:: fortune_elif
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPStringDecisions/elif
+    :chapter: CSPStringDecisions
+    :subchapter: elif
+    :topics: CSPStringDecisions/elif
     :from_source: T
     :tour_1: "Structural Tour"; 1: elif1-line1; 2-3: elif1-line2-3; 4-5: elif1-line4-5; 6-7: elif1-line6-7; 8-9: elif1-line8-9; 10-11: elif1-line10-11;
     :nocodelens:

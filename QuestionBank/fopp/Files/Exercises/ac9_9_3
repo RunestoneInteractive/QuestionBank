@@ -1,15 +1,17 @@
 .. actex:: ac9_9_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: T
    :nocodelens: 
    :available_files: emotion_words.txt
-   :pct_on_first: 0.2377777778
-   :total_students_attempting: 450
-   :num_students_correct: 361.0
-   :mean_clicks_to_correct: 6.9667590028
+   :pct_on_first: 0.2417582418
+   :total_students_attempting: 455
+   :num_students_correct: 366.0
+   :mean_clicks_to_correct: 6.9071038251
 
    Create a list called ``j_emotions`` that contains every word in ``emotion_words.txt`` that begins with the letter "j".
    ~~~~

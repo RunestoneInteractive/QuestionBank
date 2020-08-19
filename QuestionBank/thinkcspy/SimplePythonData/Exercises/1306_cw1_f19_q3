@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_f19_q3
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [30 pts] Your goal is to calculate the ``total time`` and ``average speed`` it will take a runner to run 10 miles with the following pace segments: 

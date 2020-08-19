@@ -1,8 +1,10 @@
 .. mchoice:: question1_4_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: GeneralIntro/SpecialWaystoExecutePythoninthisBook
+   :chapter: GeneralIntro
+   :subchapter: SpecialWaystoExecutePythoninthisBook
+   :topics: GeneralIntro/SpecialWaystoExecutePythoninthisBook
    :from_source: T
    :multiple_answers: 
    :answer_a: measure the speed of a program’s execution.
@@ -14,9 +16,9 @@
    :feedback_b: By using codelens, you can control the execution of a program step by step. You can even go backwards!
    :feedback_c: Codelens works only for the pre-programmed examples.
    :feedback_d: By stepping forward through the Python code in codelens, you are executing the Python program.
-   :pct_on_first: 0.2398791541
-   :total_students_attempting: 3310
-   :num_students_correct: 3144.0
-   :mean_clicks_to_correct: 3.0168575064
+   :pct_on_first: 0.2394074074
+   :total_students_attempting: 3375
+   :num_students_correct: 3209.0
+   :mean_clicks_to_correct: 3.0271112496
 
    Codelens allows you to (select all that apply):

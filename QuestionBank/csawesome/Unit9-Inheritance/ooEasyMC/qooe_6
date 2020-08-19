@@ -1,8 +1,10 @@
 .. mchoice:: qooe_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/ooEasyMC
+   :chapter: Unit9-Inheritance
+   :subchapter: ooEasyMC
+   :topics: Unit9-Inheritance/ooEasyMC
    :from_source: T
    :practice: T
    :answer_a: How the methods are implemented.
@@ -16,5 +18,9 @@
    :feedback_c: In order to use the public methods of the <code>Employee</code> class, a programmer must know the method return types.
    :feedback_d: Constants are public fields and are meant to be used by people using a class.
    :feedback_e: In order to use the public methods of the <code>Employee</code> class, a programmer must know the number of parameters and the type for each parameter.
+   :pct_on_first: 0.4669479606
+   :total_students_attempting: 711
+   :num_students_correct: 704.0
+   :mean_clicks_to_correct: 2.3352272727
 
     A program is being written by a team of programmers. One programmer is implementing a class called ``Employee``; another programmer is writing code that will use the ``Employee`` class. Which of the following aspects of the public methods and fields of the ``Employee`` class does not need to be known by both programmers?

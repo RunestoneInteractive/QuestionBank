@@ -1,11 +1,17 @@
 .. parsonsprob:: 5_5_1_Turtle_House
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/house
+   :chapter: CSPNameTurtles
+   :subchapter: house
+   :topics: CSPNameTurtles/house
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.4503239741
+   :total_students_attempting: 926
+   :num_students_correct: 845.0
+   :mean_clicks_to_correct: 2.3917159763
 
    Align the program pieces below to make the house and chimney figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the chimney.
    -----

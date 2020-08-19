@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: 1
    :answer_b: 2
@@ -15,29 +17,33 @@
    :feedback_c: 30 would be found in 3 iterations. After the third iteration of the while loop, mid would equal 6. list[6] equals 30, so 6 is returned and the while-loop is exited.
    :feedback_d: 4 iterations is too many iterations. Only 3 iterations are needed to find 30 in the array. After 4 iterations for an array with 7 elements, either the key is not present in the array or the key is at the first or last index of the array.
    :feedback_e: Only 3 iterations of the while loop are needed to find 30 in the array. After 5 iterations for an array with seven elements, it must be that the key was not found.
+   :pct_on_first: 0.4298245614
+   :total_students_attempting: 114
+   :num_students_correct: 110.0
+   :mean_clicks_to_correct: 1.9090909091
 
    Consider the following method ``binSearch``, which uses binary search to locate an element ``key`` in an array of integers ``arr``. If ``list`` is an array of integers containing ``{4, 7, 9, 11, 20, 24, 30, 41}``, how many iterations of the while loop occur in ``binSearch(30, list)``?
-
+   
    .. code-block:: java
-
+   
       public static int binSearch(int key, int[] arr)
       {
           int low = 0;
           int high = arr.length - 1;
-
+   
           while (low <= high)
           {
               int mid = (low + high) / 2;
-
+   
               if (arr[mid] == key)
                   return mid;
-
+   
               else if (arr[mid] < key)
                   low = mid + 1;
-
+   
               else
                   high = mid - 1;
           }
-
+   
          return -1;
       }

@@ -1,13 +1,15 @@
 .. activecode:: wvu_list_count
    :author: Brian Powell
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
-   :pct_on_first: 0.4180327869
-   :total_students_attempting: 122
-   :num_students_correct: 73.0
-   :mean_clicks_to_correct: 1.7534246575
+   :pct_on_first: 0.4227642276
+   :total_students_attempting: 123
+   :num_students_correct: 74.0
+   :mean_clicks_to_correct: 1.7432432432
 
    We want to see how many times Grover Cleveland was president. Store the result in a variable named grover_count.
    ~~~~

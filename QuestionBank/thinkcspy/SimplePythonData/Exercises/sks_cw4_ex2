@@ -1,8 +1,10 @@
 .. activecode:: sks_cw4_ex2
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [30 pts] Write a python function "print_pattern(n,m)" that will take two integer values as parameters, n and m, and will print a pattern of n lines with m ‘*’. 

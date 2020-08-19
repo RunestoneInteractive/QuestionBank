@@ -1,8 +1,10 @@
 .. activecode:: ac8_8_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/NonmutatingMethodsonStrings
+   :chapter: TransformingSequences
+   :subchapter: NonmutatingMethodsonStrings
+   :topics: TransformingSequences/NonmutatingMethodsonStrings
    :from_source: T
 
    scores = [("Rodney Dangerfield", -1), ("Marlon Brando", 1), ("You", 100)]

@@ -1,17 +1,23 @@
 .. mchoice:: 3-11-2-B
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: first case!
    :answer_b: second case!
    :answer_c: There will be a compile-time error.
    :correct: a
+   :pct_on_first: 0.6428571429
+   :total_students_attempting: 168
+   :num_students_correct: 168.0
+   :mean_clicks_to_correct: 1.6904761905
 
    What is printed when the following code executes when int x = 100 and int y = 10?
-
+   
    .. code-block:: java
-
+   
     if (!(x == 10) && !(y < 10)) System.out.println(“first case!”);
     else System.out.println(“second case!”);

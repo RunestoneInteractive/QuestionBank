@@ -1,8 +1,10 @@
 .. parsonsprob:: cswfinal_q25
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :pct_on_first: 0.7179487179
    :total_students_attempting: 39

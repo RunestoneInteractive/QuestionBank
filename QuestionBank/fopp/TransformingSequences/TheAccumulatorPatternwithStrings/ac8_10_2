@@ -1,16 +1,18 @@
 .. activecode:: ac8_10_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/TheAccumulatorPatternwithStrings
+   :chapter: TransformingSequences
+   :subchapter: TheAccumulatorPatternwithStrings
+   :topics: TransformingSequences/TheAccumulatorPatternwithStrings
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2962962963
-   :total_students_attempting: 1188
-   :num_students_correct: 736.0
-   :mean_clicks_to_correct: 2.8016304348
+   :pct_on_first: 0.3005828476
+   :total_students_attempting: 1201
+   :num_students_correct: 746.0
+   :mean_clicks_to_correct: 2.7815013405
 
    1. For each character in the string already saved in the variable ``str1``, add each character to a list called ``chars``.
    ~~~~

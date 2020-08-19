@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw1_f20_q1a
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    **Q1a [10 pts]** Write a Python program to request the user to type his/her first name and store it in a variable. Then request the user to type his/her last name and store in a different variable. Then print a welcome message (in a single line), which will look as follows if the user entered ``Jane`` for the first name and ``Doe`` for the last name

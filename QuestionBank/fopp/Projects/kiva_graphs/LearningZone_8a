@@ -1,8 +1,10 @@
 .. poll:: LearningZone_8a
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/kiva_graphs
+    :chapter: Projects
+    :subchapter: kiva_graphs
+    :topics: Projects/kiva_graphs
     :from_source: T
     :option_1: Comfort Zone
     :option_2: Learning Zone

@@ -1,15 +1,17 @@
 .. actex:: TL_365_modify_list
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.180952381
-   :total_students_attempting: 105
-   :num_students_correct: 48.0
-   :mean_clicks_to_correct: 5.4375
+   :pct_on_first: 0.1775700935
+   :total_students_attempting: 107
+   :num_students_correct: 49.0
+   :mean_clicks_to_correct: 5.4081632653
 
    Replace each number in the list ``numbers`` with its square root.  Your solution should work for any number of elements in the list.  
    

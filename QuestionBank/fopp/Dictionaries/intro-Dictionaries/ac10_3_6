@@ -1,16 +1,18 @@
 .. activecode:: ac10_3_6
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Dictionaries/intro-Dictionaries
+    :chapter: Dictionaries
+    :subchapter: intro-Dictionaries
+    :topics: Dictionaries/intro-Dictionaries
     :from_source: T
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.5766299746
-    :total_students_attempting: 1181
-    :num_students_correct: 895.0
-    :mean_clicks_to_correct: 1.4100558659
+    :pct_on_first: 0.5793450882
+    :total_students_attempting: 1191
+    :num_students_correct: 904.0
+    :mean_clicks_to_correct: 1.4059734513
 
     places = {"Australia":2000, "Greece":2004, "China":2008, "England":2012}
     

@@ -1,8 +1,10 @@
 .. actex:: tamagotchi_exercises
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Inheritance/Exercises
+   :chapter: Inheritance
+   :subchapter: Exercises
+   :topics: Inheritance/Exercises
    :from_source: T
    :nocanvas:
 

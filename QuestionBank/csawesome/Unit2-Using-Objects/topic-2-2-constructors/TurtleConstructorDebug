@@ -1,8 +1,10 @@
 .. activecode:: TurtleConstructorDebug
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-2-constructors
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-2-constructors
+    :topics: Unit2-Using-Objects/topic-2-2-constructors
     :from_source: F
     :language: java
     :datafile: turtleClassesConstructor

@@ -1,8 +1,10 @@
 .. activecode:: wvu_dictionaries_extendedfamily
     :author: Brian Powell
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: F
 
     Use a two-level dictionary to store information on members of your extended family.

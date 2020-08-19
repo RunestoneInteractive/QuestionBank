@@ -1,8 +1,10 @@
 .. mchoice:: question4_3_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Debugging/WhatisDebugging
+   :chapter: Debugging
+   :subchapter: WhatisDebugging
+   :topics: Debugging/WhatisDebugging
    :from_source: F
    :answer_a: tracking down programming errors and correcting them.
    :answer_b: removing all the bugs from your house.

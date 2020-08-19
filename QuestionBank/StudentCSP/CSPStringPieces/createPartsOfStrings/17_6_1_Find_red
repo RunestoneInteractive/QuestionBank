@@ -1,8 +1,10 @@
 .. mchoice:: 17_6_1_Find_red
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPStringPieces/createPartsOfStrings
+   :chapter: CSPStringPieces
+   :subchapter: createPartsOfStrings
+   :topics: CSPStringPieces/createPartsOfStrings
    :from_source: T
    :practice: T
    :answer_a: 1
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if it was pos = str.find(" is").
    :feedback_c: This would be true if it was pos = str.find(" is") and the first position was 1, but it is 0.
    :feedback_d: A -1 is returned if the string you are looking for isn't found.
+   :pct_on_first: 0.5371549894
+   :total_students_attempting: 471
+   :num_students_correct: 465.0
+   :mean_clicks_to_correct: 2.1032258065
 
    What will be printed when the following executes?
-
+   
    ::
-
+   
      str = "His shirt is red"
      pos = str.find("is")
      print(pos)

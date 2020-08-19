@@ -1,8 +1,10 @@
 .. mchoice:: e25_1_2
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPUntimedPracticeQuestions/exam25_1
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
   :from_source: T
   :answer_a: A device that can be programmed to compute anything that can be mathematically computed.
   :answer_b: Any machine that passes the Turing Test.
@@ -13,5 +15,9 @@
   :feedback_b: Incorrect. This one is true! Turing Machines pass the Turing Test if they reflect human-like tendencies during the Turing Test.
   :feedback_c: Incorrect. This one is true! A Turing Machine can read information that it is provided and write back results.
   :feedback_d: Correct. This answer is not true! All Turing Machines do have the ability to repeat steps.
+  :pct_on_first: 0.3978494624
+  :total_students_attempting: 93
+  :num_students_correct: 90.0
+  :mean_clicks_to_correct: 2.1
 
   Which of the following is NOT true of a Turing Machine?

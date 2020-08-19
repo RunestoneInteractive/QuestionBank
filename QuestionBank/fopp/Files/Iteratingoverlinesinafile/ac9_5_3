@@ -1,18 +1,20 @@
 .. activecode:: ac9_5_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/Iteratingoverlinesinafile
+   :chapter: Files
+   :subchapter: Iteratingoverlinesinafile
+   :topics: Files/Iteratingoverlinesinafile
    :from_source: T
    :available_files: emotion_words.txt
    :language: python
    :nocodelens: 
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4183908046
-   :total_students_attempting: 1305
-   :num_students_correct: 866.0
-   :mean_clicks_to_correct: 2.0889145497
+   :pct_on_first: 0.4188163885
+   :total_students_attempting: 1318
+   :num_students_correct: 876.0
+   :mean_clicks_to_correct: 2.0901826484
 
    1. Write code to find out how many lines are in the file ``emotion_words.txt`` as shown above. Save this value to the variable ``num_lines``. Do not use the len method.
    ~~~~

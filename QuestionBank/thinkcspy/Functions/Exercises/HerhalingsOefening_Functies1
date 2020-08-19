@@ -1,8 +1,10 @@
 .. actex:: HerhalingsOefening_Functies1
     :author: Gilles Fiers
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
 
     Schrijf een functie dat een turtle de eerste letters van je achternaam laat tekenen. In het geval van de naam Gilles Fiers maak je dus een functie : tekenF(t,grootte). Een voorbeeld vind je hieronder in de code.

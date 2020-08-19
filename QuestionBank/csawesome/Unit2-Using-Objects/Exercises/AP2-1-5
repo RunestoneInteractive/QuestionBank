@@ -1,8 +1,10 @@
 .. mchoice:: AP2-1-5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: T
    :practice: T
    :answer_a: An attribute of breed is String.
@@ -16,12 +18,16 @@
    :feedback_c: myCat is an instance of the Cat class.
    :feedback_d: Attributes of the Cat class and myCat object are color, breed, age.
    :feedback_e: Attributes of the Cat class are color, breed, age.
+   :pct_on_first: 0.5354772843
+   :total_students_attempting: 1959
+   :num_students_correct: 1937.0
+   :mean_clicks_to_correct: 1.9044914817
 
-
+   
     A student has created a Cat class. The class contains variables to represent the following.
     - A String variable called color to represent the color of the cat
     - A String variable called breed to represent the breed of the cat
     - An int variable called age to represent the age of the cat
-
+   
     The object myCat will be declared as type Cat.
     Which of the following descriptions is accurate?

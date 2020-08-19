@@ -1,18 +1,24 @@
 .. mchoice:: 3-11-6-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: x = 0;
    :answer_b: if (x > 5) x *= 2;
    :answer_c: if (x > 5) x = 0;
    :answer_d: if (x > 2) x = 0; else x *= 2;
    :correct: c
+   :pct_on_first: 0.4718309859
+   :total_students_attempting: 142
+   :num_students_correct: 142.0
+   :mean_clicks_to_correct: 1.7957746479
 
    Which of the following is equivalent to the code segment below?
-
+   
    .. code-block:: java
-
+   
     if (x > 5) x = x * 2;
     if (x > 10) x = 0;

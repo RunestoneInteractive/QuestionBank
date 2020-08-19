@@ -1,11 +1,17 @@
 .. parsonsprob:: 10_1_2_Rectangle
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatTurtles/repeatturtles
+   :chapter: CSPRepeatTurtles
+   :subchapter: repeatturtles
+   :topics: CSPRepeatTurtles/repeatturtles
    :from_source: T
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.2142857143
+   :total_students_attempting: 868
+   :num_students_correct: 753.0
+   :mean_clicks_to_correct: 5.807436919
 
    The following program uses a turtle to draw a rectangle as shown to the left, <img src="../_static/TurtleRect.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up and create the turtle.  After that, iterate (loop) 2 times, and each time through the loop the turtle should go forward 175 pixels, turn right 90 degrees, go forward 150 pixels, and turn right 90 degrees.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  There may be additional blocks that are not needed in a correct solution.   Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----

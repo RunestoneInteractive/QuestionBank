@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit5-Writing-Classes/FRQstepTracker
+   :topics: Unit5-Writing-Classes/FRQstepTracker
    :from_source: T
    :answer_a: StepTracker tr = new StepTracker(1000)
    :answer_b: tr.addDailysteps(1000);

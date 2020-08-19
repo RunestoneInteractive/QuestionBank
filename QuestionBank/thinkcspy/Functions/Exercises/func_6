@@ -1,8 +1,10 @@
 .. activecode:: func_6
     :author: DANIEL LEE
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Functions/Exercises
+    :chapter: Functions
+    :subchapter: Exercises
+    :topics: Functions/Exercises
     :from_source: F
   
     Write a program that asks the user for a number and calls a function that 

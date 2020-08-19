@@ -1,8 +1,10 @@
 .. mchoice:: assess_question1_3_1_1_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/week1a3
+   :chapter: PythonTurtle
+   :subchapter: week1a3
+   :topics: PythonTurtle/week1a3
    :from_source: T
    :answer_a: student.title()
    :answer_b: title.student()
@@ -17,9 +19,5 @@
    :feedback_e: Yes, this is the correct syntax to use.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
-   :pct_on_first: 0.1180836707
-   :total_students_attempting: 1482
-   :num_students_correct: 1470.0
-   :mean_clicks_to_correct: 3.168707483
 
    For an instance of a class that is assigned to the variable ``student``, what is the proper way to refer to the ``title`` attribute/instance variable?

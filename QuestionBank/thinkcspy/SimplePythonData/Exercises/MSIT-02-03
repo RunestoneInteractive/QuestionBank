@@ -1,15 +1,17 @@
 .. activecode:: MSIT-02-03
     :author: Kevin Austin
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.4594594595
-    :total_students_attempting: 37
-    :num_students_correct: 35.0
-    :mean_clicks_to_correct: 2.3714285714
+    :pct_on_first: 0.4736842105
+    :total_students_attempting: 38
+    :num_students_correct: 36.0
+    :mean_clicks_to_correct: 2.3333333333
 
     Write a statement to create a float variable named nine that is equal to 9
     ~~~~

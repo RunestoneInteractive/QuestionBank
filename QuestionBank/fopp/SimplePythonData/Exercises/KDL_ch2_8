@@ -1,8 +1,10 @@
 .. activecode:: KDL_ch2_8
    :author: Kaelyn Leake
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

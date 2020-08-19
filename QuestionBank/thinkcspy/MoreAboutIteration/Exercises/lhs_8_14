@@ -1,15 +1,17 @@
 .. activecode:: lhs_8_14
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: MoreAboutIteration/Exercises
+    :chapter: MoreAboutIteration
+    :subchapter: Exercises
+    :topics: MoreAboutIteration/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.3988095238
-    :total_students_attempting: 168
-    :num_students_correct: 149.0
-    :mean_clicks_to_correct: 3.255033557
+    :pct_on_first: 0.3941176471
+    :total_students_attempting: 170
+    :num_students_correct: 152.0
+    :mean_clicks_to_correct: 3.3486842105
 
     **PRACTICE**
     

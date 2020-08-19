@@ -1,11 +1,17 @@
 .. parsonsprob:: pPersonClass1
    :author: Barbara  Ericson
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/Exercises
+   :chapter: CSPNameNames
+   :subchapter: Exercises
+   :topics: CSPNameNames/Exercises
    :from_source: F
    :numbered: left
-   :adaptive:
+   :adaptive: 
+   :pct_on_first: 0.4107142857
+   :total_students_attempting: 336
+   :num_students_correct: 307.0
+   :mean_clicks_to_correct: 2.8501628664
 
    Put the code in order to define a Person class with a constructor (__init__), a method to print the object attributes (__str__), and an initials method which returns the first letter of the first name and the first letter of the last name.  
    -----
@@ -20,7 +26,7 @@
            self.first = first
            self.last = last
    =====
-
+   
        def __str__(self):
    =====
        def __str__(): #paired

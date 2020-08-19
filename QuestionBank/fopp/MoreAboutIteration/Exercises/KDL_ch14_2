@@ -1,15 +1,17 @@
 .. activecode:: KDL_ch14_2
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.4915254237
-   :total_students_attempting: 59
-   :num_students_correct: 43.0
-   :mean_clicks_to_correct: 1.976744186
+   :pct_on_first: 0.5161290323
+   :total_students_attempting: 62
+   :num_students_correct: 46.0
+   :mean_clicks_to_correct: 1.9130434783
 
    Request a user input an string ``s``, use a while loop to keep looping until the value entered contains the word "stop" or "end". This should re-ask each loop.
    ~~~~

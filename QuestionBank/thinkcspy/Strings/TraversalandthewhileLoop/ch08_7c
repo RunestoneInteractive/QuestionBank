@@ -1,8 +1,10 @@
 .. activecode:: ch08_7c
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Strings/TraversalandthewhileLoop
+    :chapter: Strings
+    :subchapter: TraversalandthewhileLoop
+    :topics: Strings/TraversalandthewhileLoop
     :from_source: T
     :nocanvas:
 

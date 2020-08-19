@@ -1,8 +1,10 @@
 .. codelens:: clens11_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/FunctionInvocation
+   :chapter: Functions
+   :subchapter: FunctionInvocation
+   :topics: Functions/FunctionInvocation
    :from_source: T
    :python: py3
 

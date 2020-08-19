@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: thinkcpp
-    :topic: Chapter2/exercises
+    :topics: Chapter2/exercises
     :from_source: T
 
     Take a look at the following program.  How many lines of output will be produced?

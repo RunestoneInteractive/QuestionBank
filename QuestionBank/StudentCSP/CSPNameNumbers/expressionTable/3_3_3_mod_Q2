@@ -1,8 +1,10 @@
 .. mchoice:: 3_3_3_mod_Q2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/expressionTable
+   :chapter: CSPNameNumbers
+   :subchapter: expressionTable
+   :topics: CSPNameNumbers/expressionTable
    :from_source: T
    :practice: T
    :answer_a: 0
@@ -14,5 +16,9 @@
    :feedback_b: This would be correct if it was some odd number divided by 2, but it is not.
    :feedback_c: 6 goes into 2 zero times with 2 left over.
    :feedback_d: If you have a smaller number divided by a larger number the remainder is always the smaller number.
+   :pct_on_first: 0.4549605645
+   :total_students_attempting: 2409
+   :num_students_correct: 2378.0
+   :mean_clicks_to_correct: 1.9020185029
 
    What is the result of ``2 % 6``?

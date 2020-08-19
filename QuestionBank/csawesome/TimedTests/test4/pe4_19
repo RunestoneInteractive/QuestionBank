@@ -1,8 +1,10 @@
 .. mchoice:: pe4_19
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: I only
    :answer_b: II only
@@ -15,11 +17,15 @@
    :feedback_c: Selection sort always takes the same amount of time to execute.
    :feedback_d: Mergesort does use recursion (has a method that calls itself).  Insertion sort does take longer to execute when the items to be sorted are in ascending order and you want them in descending order.
    :feedback_e: Selection sort always takes the same amount of time to execute.
+   :pct_on_first: 0.3103448276
+   :total_students_attempting: 29
+   :num_students_correct: 10.0
+   :mean_clicks_to_correct: 1.1
 
    Which of the following is (are) true?
-
+   
    .. code-block:: java
-
+   
      I.  Insertion sort takes longer when the array is sorted in ascending order and
          you want it sorted in descending order.
      II.  Mergesort uses recursion.

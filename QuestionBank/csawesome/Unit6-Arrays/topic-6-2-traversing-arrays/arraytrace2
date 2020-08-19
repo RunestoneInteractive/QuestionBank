@@ -1,11 +1,17 @@
 .. activecode:: arraytrace2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/topic-6-2-traversing-arrays
+   :chapter: Unit6-Arrays
+   :subchapter: topic-6-2-traversing-arrays
+   :topics: Unit6-Arrays/topic-6-2-traversing-arrays
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.135021097
+   :total_students_attempting: 237
+   :num_students_correct: 215.0
+   :mean_clicks_to_correct: 1.9906976744
 
    What do you think the following code will print out? First trace through it on paper keeping track of the array and the index variable. Then, run it to see if you were right. Try the Code Lens button. Then, try adding your name and a friend's name to the array names and run the code again. Did the code work without changing the loop?
    ~~~~
@@ -14,7 +20,7 @@
       public static void main(String[] args)
       {
         String[ ] names = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia"};
-
+   
         for (int i = 0; i < names.length; i++)
         {
             System.out.println( names[i] );
@@ -23,38 +29,38 @@
    }
    ====
    // Test for Lesson 6.2
-
+   
     import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("Test2");
         }
-
+   
         @Test
         public void test1()
         {
             String output = getMethodOutput("main");
             String expect = "Jamal\nEmily\nDestiny\nMateo\nSofia";
-
+   
             boolean passed = output.contains(expect);
             passed = getResults(expect, output, "Did you run the code?", passed);
             assertTrue(passed);
         }
-
+   
         @Test
         public void test2()
         {
             String output = getMethodOutput("main");
             String expect = "Jamal\nEmily\nDestiny\nMateo\nSofia\nYour name\nFriend's name";
-
+   
             int len = output.split("\n").length;
-
+   
             boolean passed = len >= 6;
-
+   
             passed = getResults(expect, output, "Did you add two more names?", passed);
             assertTrue(passed);
         }

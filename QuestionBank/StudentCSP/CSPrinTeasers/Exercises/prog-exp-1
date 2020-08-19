@@ -1,8 +1,10 @@
 .. poll:: prog-exp-1
     :author: Barbara  Ericson
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: StudentCSP
-    :topic: CSPrinTeasers/Exercises
+    :chapter: CSPrinTeasers
+    :subchapter: Exercises
+    :topics: CSPrinTeasers/Exercises
     :from_source: F
     :option_1: No programming experience at all
     :option_2: Some blocks-based programming experience 

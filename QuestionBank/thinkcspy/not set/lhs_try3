@@ -1,8 +1,10 @@
 .. mchoice:: lhs_try3
    :author: LHS CS Team
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: not set
+   :chapter: Chapter
+   :subchapter: 
+   :topics: not set
    :from_source: F
    :answer_a: Choose A
    :answer_b: Java

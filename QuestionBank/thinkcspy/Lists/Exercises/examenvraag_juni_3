@@ -1,8 +1,10 @@
 .. actex:: examenvraag_juni_3
    :author: Gilles Fiers
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Lists/Exercises
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
    :from_source: F
 
    

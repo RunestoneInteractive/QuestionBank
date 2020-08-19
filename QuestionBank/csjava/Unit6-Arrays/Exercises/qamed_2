@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit6-Arrays/Exercises
+   :topics: Unit6-Arrays/Exercises
    :from_source: T
    :practice: T
    :answer_a: whenever the first element in <code>a</code> is equal to <code>val</code>

@@ -1,12 +1,14 @@
 .. activecode:: ac21_5_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: AdvancedAccumulation/zip
+   :chapter: AdvancedAccumulation
+   :subchapter: zip
+   :topics: AdvancedAccumulation/zip
    :from_source: T
    :pct_on_first: 1.0
-   :total_students_attempting: 117
-   :num_students_correct: 117.0
+   :total_students_attempting: 122
+   :num_students_correct: 122.0
    :mean_clicks_to_correct: 1.0
 
    def possible(word, blanked, guesses_made):

@@ -1,9 +1,11 @@
 .. mchoice:: qce_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit3-If-Statements/Exercises
-   :from_source: T
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
+   :from_source: F
    :practice: T
    :answer_a: first case
    :answer_b: second case

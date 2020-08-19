@@ -1,8 +1,10 @@
 .. activecode:: hw_words_5000_pos_graph
     :author: Sean Joyce
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: Files/Exercises
+    :chapter: Files
+    :subchapter: Exercises
+    :topics: Files/Exercises
     :from_source: F
 
     In the first Chapter 10 project, you worked with a file of 

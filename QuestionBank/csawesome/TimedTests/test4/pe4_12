@@ -1,8 +1,10 @@
 .. mchoice:: pe4_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: mp
    :answer_b: mpu
@@ -15,11 +17,15 @@
    :feedback_c: A substring of (0,3) will have 3 characters in it (index 0, index 1, and index 2).
    :feedback_d: Remember that the first character in a string object is at index 0.
    :feedback_e: A substring of (0,3) will have 3 characters in it (index 0, index 1, and index 2).
+   :pct_on_first: 0.75
+   :total_students_attempting: 32
+   :num_students_correct: 27.0
+   :mean_clicks_to_correct: 1.1111111111
 
    What is the output from the following code?
-
+   
    .. code-block:: java
-
+   
      String s = "Computer Science is fun!";
      String s1 = s.substring(0,8);
      String s2 = s1.substring(2);

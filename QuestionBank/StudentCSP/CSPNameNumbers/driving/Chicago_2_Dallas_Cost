@@ -1,8 +1,10 @@
 .. codelens:: Chicago_2_Dallas_Cost
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/driving
+   :chapter: CSPNameNumbers
+   :subchapter: driving
+   :topics: CSPNameNumbers/driving
    :from_source: T
 
    distance = 924.7

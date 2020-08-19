@@ -1,8 +1,10 @@
 .. mchoice:: KD.2.5.02
    :author: Kuri DiFede
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: I only
    :answer_b: II only
@@ -15,13 +17,17 @@
    :feedback_c: III is correct, you can store the int return value into a double, but there is another correct too.
    :feedback_d: I and III are both correct! I is correct, with an int parameter and an int return values. III is correct, you can store the int return value into a double.
    :feedback_e: II is not correct, you can not pass a double as a parameter that expects and int
+   :pct_on_first: 0.625
+   :total_students_attempting: 8
+   :num_students_correct: 8.0
+   :mean_clicks_to_correct: 1.75
 
    Consider an object obj1 which is of type MyObj. Given the following method statement, which exists inside the MyObj class, which of the following is valid code?
-
+   
    .. code-block:: java
-
+   
     public int getMyNum( int c );
-
+   
     I.   int a = obj.getMyNum( 5 );
     II.  int a = obj.getMyNum( 5.0 );
     III. double a = obj.getMyNum( 5 );

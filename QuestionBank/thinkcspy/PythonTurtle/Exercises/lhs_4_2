@@ -1,15 +1,17 @@
 .. activecode:: lhs_4_2
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: PythonTurtle/Exercises
+    :chapter: PythonTurtle
+    :subchapter: Exercises
+    :topics: PythonTurtle/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.1459459459
-    :total_students_attempting: 555
-    :num_students_correct: 510.0
-    :mean_clicks_to_correct: 6.5235294118
+    :pct_on_first: 0.1446428571
+    :total_students_attempting: 560
+    :num_students_correct: 512.0
+    :mean_clicks_to_correct: 6.525390625
 
     Write a program using a ``for`` loop that adds up all of the even integers from 2 to 10 (inclusive) and prints out the result. 
     Initial code has been given what does the job without a loop. But the code is very repetitive. So, change the 5 repetitive lines

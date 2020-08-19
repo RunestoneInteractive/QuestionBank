@@ -1,9 +1,11 @@
 .. mchoice:: apcsa_sample1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit1-Getting-Started/topic-1-4-assignment
-   :from_source: T
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: F
    :practice: T
    :answer_a: 0.666666666666667
    :answer_b: 9.0
@@ -17,7 +19,7 @@
    :feedback_d: Don't forget that division and multiplication will be done first due to operator precedence, and that an int/int gives an int result where it is rounded down to the nearest int.
    :feedback_e: Don't forget that division and multiplication will be done first due to operator precedence.
 
-   Consider the following code segment.
+   Consider the following code segment.  Be careful about integer division.
 
    .. code-block:: java
 

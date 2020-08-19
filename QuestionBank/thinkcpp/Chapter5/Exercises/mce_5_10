@@ -1,0 +1,44 @@
+.. mchoice:: mce_5_10
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: thinkcpp
+    :chapter: Chapter5
+    :subchapter: Exercises
+    :topics: Chapter5/Exercises
+    :from_source: T
+    :practice: T
+    :pct_on_first: 1.0
+    :total_students_attempting: 2
+    :num_students_correct: 2.0
+    :mean_clicks_to_correct: 1.0
+
+    What is the base case of the ``factorial`` recursive function?
+    
+    .. code-block:: cpp
+    
+      int factorial (int n) {
+        if (n == 0) {
+          return 1;
+        }
+        else {
+          int recurse = factorial (n-1);
+          int result = n * recurse;
+          return result;
+        }
+      }
+    
+    - ``n = 0``
+    
+      + When ``n`` is 0, the function returns the value 1 without making a recursive call.
+    
+    - ``n = 1``
+    
+      - When ``n`` is 1, the function makes a recursive call in the else statement.
+    
+    - ``n = -1``
+    
+      - ``n`` never becomes -1.
+    
+    - There is no base case.
+    
+      - If there was no base case, the function would recurse infinitely.

@@ -1,8 +1,10 @@
 .. activecode:: TurtleMethodsDistChallenge
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-5-methods-return
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-5-methods-return
+    :topics: Unit2-Using-Objects/topic-2-5-methods-return
     :from_source: F
     :language: java
     :datafile: turtleClassesReturn

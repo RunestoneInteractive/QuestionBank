@@ -1,8 +1,10 @@
 .. mchoice:: files_assessment_irma4
    :author: Irma Ravkic
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :answer_a: filevar.append(somestring)
    :answer_b: filevar.write("somestring")
@@ -15,9 +17,5 @@
    :correct: c
    :practice: T
    :topics: Files
-   :pct_on_first: 0.3225806452
-   :total_students_attempting: 217
-   :num_students_correct: 212.0
-   :mean_clicks_to_correct: 2.1132075472
 
    Which of the commands below is used to add a string ``somestring = "my Sentence"`` to the end of the file referenced by ``filevar`` variable.

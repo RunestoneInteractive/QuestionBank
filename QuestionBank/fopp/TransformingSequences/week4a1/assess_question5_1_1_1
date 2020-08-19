@@ -1,8 +1,10 @@
 .. mchoice:: assess_question5_1_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: byzo
    :answer_b: x
@@ -15,15 +17,11 @@
    :feedback_d: Yes, this is the accumulator variable. By the end of the program, it will have a full count of how many items are in byzo.
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithStrings
-   :pct_on_first: 0.5452162516
-   :total_students_attempting: 763
-   :num_students_correct: 759.0
-   :mean_clicks_to_correct: 1.8458498024
 
    Which of these is the accumulator variable?
-   
+
    .. sourcecode:: python
-   
+
     byzo = 'hello world!'
     c = 0
     for x in byzo:

@@ -1,15 +1,17 @@
 .. actex:: TL_365_function_linspace
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0731707317
-   :total_students_attempting: 41
-   :num_students_correct: 22.0
-   :mean_clicks_to_correct: 22.8181818182
+   :pct_on_first: 0.0714285714
+   :total_students_attempting: 42
+   :num_students_correct: 23.0
+   :mean_clicks_to_correct: 22.0869565217
 
    Write a function call ``linspace`` that returns :math:`N` evenly
    spaced values between two points :math:`a` and :math:`b` inclusive.

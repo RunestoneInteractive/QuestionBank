@@ -1,8 +1,10 @@
 .. mchoice:: qoo10-1-2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/topic-9-1-inheritance-day1
+   :chapter: Unit9-Inheritance
+   :subchapter: topic-9-1-inheritance-day1
+   :topics: Unit9-Inheritance/topic-9-1-inheritance-day1
    :from_source: T
    :practice: T
    :answer_a: Yes
@@ -10,5 +12,9 @@
    :correct: a
    :feedback_a: Yes, a child class inherits all the parent class object field and methods.
    :feedback_b: Why would inheritance be useful if you didn't actually get anything from the parent class?
+   :pct_on_first: 0.881871345
+   :total_students_attempting: 2565
+   :num_students_correct: 2558.0
+   :mean_clicks_to_correct: 1.1215793589
 
    If the class Vehicle has the instance fields make and model and the class Car inherits from the class Vehicle, will a car object have a make and model?

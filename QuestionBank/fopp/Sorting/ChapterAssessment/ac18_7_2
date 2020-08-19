@@ -1,30 +1,28 @@
 .. activecode:: ac18_7_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/ChapterAssessment
+   :chapter: Sorting
+   :subchapter: ChapterAssessment
+   :topics: Sorting/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: Sorting/Optionalreverseparameter
-   :pct_on_first: 0.7446808511
-   :total_students_attempting: 188
-   :num_students_correct: 160.0
-   :mean_clicks_to_correct: 1.20625
 
    Sort the list below, ``animals``, into alphabetical order, a-z. Save the new list as ``animals_sorted``.
    ~~~~
-   
+
    animals = ['elephant', 'cat', 'moose', 'antelope', 'elk', 'rabbit', 'zebra', 'yak', 'salamander', 'deer', 'otter', 'minx', 'giraffe', 'goat', 'cow', 'tiger', 'bear']
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testOne(self):
          self.assertEqual(animals_sorted, ['antelope', 'bear', 'cat', 'cow', 'deer', 'elephant', 'elk', 'giraffe', 'goat', 'minx', 'moose', 'otter', 'rabbit', 'salamander', 'tiger', 'yak', 'zebra'], "Testing that animals_sorted was created correctly.")
-   
+
    myTests().main()

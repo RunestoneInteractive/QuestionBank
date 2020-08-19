@@ -1,8 +1,10 @@
 .. youtube:: 3WgmLIsXFkI
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/StatementsandExpressions
+    :chapter: SimplePythonData
+    :subchapter: StatementsandExpressions
+    :topics: SimplePythonData/StatementsandExpressions
     :from_source: T
     :divid: expression_vid
     :height: 315

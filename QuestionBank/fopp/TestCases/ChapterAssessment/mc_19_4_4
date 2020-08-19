@@ -1,17 +1,19 @@
 .. mchoice:: mc_19_4_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TestCases/ChapterAssessment
+   :chapter: TestCases
+   :subchapter: ChapterAssessment
+   :topics: TestCases/ChapterAssessment
    :from_source: T
    :answer_a: Yes
    :answer_b: No
    :feedback_a: Correct! There is an issue with the getKnowledge method because it returns None when self.knowledge is 0, even though it returns the correct value when self.knowledge is non-zero.
    :feedback_b: Incorrect, there are more cases that fail. Try finding those other cases!
    :correct: a
-   :pct_on_first: 0.5333333333
-   :total_students_attempting: 105
-   :num_students_correct: 100.0
-   :mean_clicks_to_correct: 1.49
+   :pct_on_first: 0.5321100917
+   :total_students_attempting: 109
+   :num_students_correct: 104.0
+   :mean_clicks_to_correct: 1.4903846154
 
    Are there any other cases, that we can determine based on the current structure of the class, that also fail for the Student class?

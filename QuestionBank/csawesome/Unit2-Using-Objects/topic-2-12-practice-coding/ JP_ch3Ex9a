@@ -1,8 +1,10 @@
 .. activecode::  JP_ch3Ex9a
    :author: John Pataracchia
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-12-practice-coding
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-12-practice-coding
+   :topics: Unit2-Using-Objects/topic-2-12-practice-coding
    :from_source: F
    :language: java
 

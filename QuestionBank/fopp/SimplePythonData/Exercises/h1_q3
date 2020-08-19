@@ -1,8 +1,10 @@
 .. activecode:: h1_q3
    :author: Irma Ravkic
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :language: python3
    :sourcefile: : python3

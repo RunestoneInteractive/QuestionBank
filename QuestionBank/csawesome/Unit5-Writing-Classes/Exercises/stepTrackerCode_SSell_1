@@ -1,8 +1,10 @@
 .. activecode:: stepTrackerCode_SSell_1
    :author: Stephen Sell
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: csawesome
-   :topic: Unit5-Writing-Classes/Exercises
+   :chapter: Unit5-Writing-Classes
+   :subchapter: Exercises
+   :topics: Unit5-Writing-Classes/Exercises
    :from_source: F
    :language: java
 

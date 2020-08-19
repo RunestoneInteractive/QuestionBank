@@ -1,8 +1,10 @@
 .. mchoice:: question5_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/TheSliceOperator
+   :chapter: Sequences
+   :subchapter: TheSliceOperator
+   :topics: Sequences/TheSliceOperator
    :from_source: T
    :answer_a: python
    :answer_b: rocks
@@ -14,10 +16,10 @@
    :feedback_c: Yes, start with the character at index 3 and go up to but not include the character at index 8.
    :feedback_d: This is called slicing, not indexing. It requires a start and an end.
    :practice: T
-   :pct_on_first: 0.8867837338
-   :total_students_attempting: 2164
-   :num_students_correct: 2160.0
-   :mean_clicks_to_correct: 1.1768518519
+   :pct_on_first: 0.8868529546
+   :total_students_attempting: 2183
+   :num_students_correct: 2179.0
+   :mean_clicks_to_correct: 1.1766865535
 
    What is printed by the following statements?
    

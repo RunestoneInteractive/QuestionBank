@@ -1,8 +1,10 @@
 .. activecode:: ac10_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/AccumulatingtheBestKey
+   :chapter: Dictionaries
+   :subchapter: AccumulatingtheBestKey
+   :topics: Dictionaries/AccumulatingtheBestKey
    :from_source: T
 
    d = {'a': 194, 'b': 54, 'c':34, 'd': 44, 'e': 312, 'full':31}

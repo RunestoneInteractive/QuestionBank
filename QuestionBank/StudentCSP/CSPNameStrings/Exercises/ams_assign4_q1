@@ -1,8 +1,10 @@
 .. activecode:: ams_assign4_q1
     :author: Allison Schullo
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: StudentCSP
-    :topic: CSPNameStrings/Exercises
+    :chapter: CSPNameStrings
+    :subchapter: Exercises
+    :topics: CSPNameStrings/Exercises
     :from_source: F
     :nocodelens:
 

@@ -1,13 +1,15 @@
 .. actex:: ac8_11_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: T
-   :pct_on_first: 0.1346153846
-   :total_students_attempting: 468
-   :num_students_correct: 328.0
-   :mean_clicks_to_correct: 7.6280487805
+   :pct_on_first: 0.133192389
+   :total_students_attempting: 473
+   :num_students_correct: 334.0
+   :mean_clicks_to_correct: 7.6497005988
 
    In XYZ University, upper level math classes are numbered 300 and up. Upper level English classes are numbered 200 and up. Upper level Psychology classes are 400 and up. Create two lists, ``upper`` and ``lower``. Assign each course in ``classes`` to the correct list, ``upper`` or ``lower``. HINT: remember, you can convert some strings to different types!
    ~~~~

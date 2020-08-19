@@ -1,8 +1,10 @@
 .. activecode:: 1306_cw5_s20_q2
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Selection/Exercises
+    :chapter: Selection
+    :subchapter: Exercises
+    :topics: Selection/Exercises
     :from_source: F
     :autograde: unittest
     :pct_on_first: 0.3116883117

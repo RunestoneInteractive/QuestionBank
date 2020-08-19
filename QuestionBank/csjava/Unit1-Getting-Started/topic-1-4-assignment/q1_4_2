@@ -1,0 +1,10 @@
+.. shortanswer:: q1_4_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: T
+
+   Explain in your own words why the ``ErrorSwap`` program code does not swap the values stored in x and y.

@@ -1,33 +1,31 @@
 .. activecode:: ac17_6_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/ChapterAssessment
+   :chapter: NestedData
+   :subchapter: ChapterAssessment
+   :topics: NestedData/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :topics: NestedData/NestedIteration
-   :pct_on_first: 0.5
-   :total_students_attempting: 142
-   :num_students_correct: 104.0
-   :mean_clicks_to_correct: 1.4711538462
 
    Given below is a list of lists of athletes. Create a list, ``t``, that saves only the athlete's name if it contains the letter "t". If it does not contain the letter "t", save the athlete name into list ``other``.
-   
+
    ~~~~
-   
+
    athletes = [['Phelps', 'Lochte', 'Schooling', 'Ledecky', 'Franklin'], ['Felix', 'Bolt', 'Gardner', 'Eaton'], ['Biles', 'Douglas', 'Hamm', 'Raisman', 'Mikulak', 'Dalton']]
-   
+
    =====
-   
+
    from unittest.gui import TestCaseGui
-   
+
    class myTests(TestCaseGui):
-   
+
       def testFive(self):
          self.assertEqual(t, ['Lochte', 'Bolt', 'Eaton', 'Dalton'], "Testing that t is assigned to correct values.")
       def testFiveA(self):
          self.assertEqual(other, ['Phelps', 'Schooling', 'Ledecky', 'Franklin', 'Felix', 'Gardner', 'Biles', 'Douglas', 'Hamm', 'Raisman', 'Mikulak'], "Testing that other is assigned to correct values.")
-   
+
    myTests().main()

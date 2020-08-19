@@ -1,8 +1,10 @@
 .. mchoice:: 3-11-10-A
    :author: Rachel Reyes
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit3-If-Statements/Exercises
+   :chapter: Unit3-If-Statements
+   :subchapter: Exercises
+   :topics: Unit3-If-Statements/Exercises
    :from_source: F
    :answer_a: s1 == (s2 - 4) && (2 * s1 + 3) == (s2 + 2)
    :answer_b: (s1 == s2 - 4) && (s1 - 2 == 2 * (s2 - 2))
@@ -10,14 +12,18 @@
    :answer_d: s1 == s2 + 4 && s1 + 2 == 2 * s2 + 6
    :answer_e: None of the above
    :correct: c
+   :pct_on_first: 0.2921348315
+   :total_students_attempting: 89
+   :num_students_correct: 89.0
+   :mean_clicks_to_correct: 2.2921348315
 
    Shawn is 4 years older than Sam. Two years from now Shawn’s age will be twice Sam’s age. What should be in place of the following condition to solve this problem?
-
+   
    .. code-block:: java
-
+   
     for (int s1 = 1, s1 <= 50; s1++){
-	for (int s2 = 1; s2 <= 50; s2++){
-		if (condition)
-		System.out.println(“Shawn is ” + s1 + “ and Sam is ” + s2);
-	}
+   r (int s2 = 1; s2 <= 50; s2++){
+   f (condition)
+   ystem.out.println(“Shawn is ” + s1 + “ and Sam is ” + s2);
+   
     }

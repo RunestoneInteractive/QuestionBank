@@ -1,8 +1,10 @@
 .. mchoice:: question13_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter13/enumerated_types
+   :chapter: Chapter13
+   :subchapter: enumerated_types
+   :topics: Chapter13/enumerated_types
    :from_source: F
    :multiple_answers:
    :answer_a: Do arithmetic with enumerated types.

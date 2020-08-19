@@ -1,8 +1,10 @@
 .. mchoice:: assess_question4_1_1_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :answer_a: I.
    :answer_b: II.
@@ -13,25 +15,21 @@
    :correct: a
    :practice: T
    :topics: TransformingSequences/MutatingMethods
-   :pct_on_first: 0.5473204105
-   :total_students_attempting: 877
-   :num_students_correct: 870.0
-   :mean_clicks_to_correct: 1.616091954
 
    Which of these is a correct reference diagram following the execution of the following code?
-   
+
    .. sourcecode:: python
-   
+
     lst = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
     lst.remove('pluto')
     first_three = lst[:3]
-   
+
    I.
-   
+
    .. image:: Figures/week3a1_1.png
       :alt: First Potential Solution
-   
+
    II.
-   
+
    .. image:: Figures/week3a1_2.png
       :alt: Second Potential Solution

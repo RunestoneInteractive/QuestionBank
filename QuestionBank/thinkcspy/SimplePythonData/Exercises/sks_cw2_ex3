@@ -1,8 +1,10 @@
 .. activecode:: sks_cw2_ex3
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    [20 pts] Write a program using a ``for`` loop that adds up all of the even integers from 2 to 10 (inclusive) and prints out the result. 

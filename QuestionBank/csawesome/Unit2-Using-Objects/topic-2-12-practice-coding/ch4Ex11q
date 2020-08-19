@@ -1,12 +1,18 @@
 .. activecode::  ch4Ex11q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-12-practice-coding
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-12-practice-coding
+   :topics: Unit2-Using-Objects/topic-2-12-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.4333333333
+   :total_students_attempting: 60
+   :num_students_correct: 56.0
+   :mean_clicks_to_correct: 2.2321428571
 
    The following code should remove the word "very " (and following space) from the message and print the new message.  You can use ``indexOf`` to find the position of a substring in your string.  You can use ``substring`` to create a new string removing the word.
    ~~~~
@@ -16,14 +22,14 @@
        {
            String message = "I am very happy!";
            String target = "very ";
-
+   
        }
    }
    ====
    import static org.junit.Assert.*;
      import org.junit.*;;
      import java.io.*;
-
+   
      public class RunestoneTests extends CodeTestHelper
      {
          @Test

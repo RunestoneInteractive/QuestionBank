@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit6-Arrays/soundB
+   :topics: Unit6-Arrays/soundB
    :from_source: T
    :answer_a: int[] samples2;
    :answer_b: int[] samples2 = new Array(count);

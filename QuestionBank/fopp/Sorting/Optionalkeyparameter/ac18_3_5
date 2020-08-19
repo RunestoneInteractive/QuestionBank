@@ -1,16 +1,18 @@
 .. activecode:: ac18_3_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sorting/Optionalkeyparameter
+   :chapter: Sorting
+   :subchapter: Optionalkeyparameter
+   :topics: Sorting/Optionalkeyparameter
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3518518519
-   :total_students_attempting: 270
-   :num_students_correct: 249.0
-   :mean_clicks_to_correct: 3.3052208835
+   :pct_on_first: 0.3503649635
+   :total_students_attempting: 274
+   :num_students_correct: 253.0
+   :mean_clicks_to_correct: 3.2964426877
 
    **2.** Below, we have provided a list of strings called ``nums``. Write a function called ``last_char`` that takes a string as input, and returns only its last character. Use this function to sort the list ``nums`` by the last digit of each number, from highest to lowest, and save this as a new list called ``nums_sorted``.
    ~~~~

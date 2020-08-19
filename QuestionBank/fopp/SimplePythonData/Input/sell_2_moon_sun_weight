@@ -1,8 +1,10 @@
 .. activecode:: sell_2_moon_sun_weight
     :author: Stephen Sell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: SimplePythonData/Input
+    :chapter: SimplePythonData
+    :subchapter: Input
+    :topics: SimplePythonData/Input
     :from_source: F
 
     #prompt user for their weight on earth - retrieve what user enters - remember input stores strings!!!

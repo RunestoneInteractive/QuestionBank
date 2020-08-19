@@ -1,8 +1,10 @@
 .. actex:: suci_practice_input_output_4
    :author: peter suci
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
 
    Write a program that will ask the user to input their first and second favorite subjects and outputs "I like ___ better than ___".

@@ -1,8 +1,10 @@
 .. activecode:: PF_MyName
       :author: Philip Foster
-      :difficulty: 0
+      :difficulty: 0.0
       :basecourse: thinkcspy
-      :topic: PythonTurtle/Exercises
+      :chapter: PythonTurtle
+      :subchapter: Exercises
+      :topics: PythonTurtle/Exercises
       :from_source: F
       Assignment Requirements
       * Create a new turtle and give it your name. (Your First & Last Name  no spaces)

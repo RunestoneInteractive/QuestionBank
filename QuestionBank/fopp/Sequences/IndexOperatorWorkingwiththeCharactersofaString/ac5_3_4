@@ -1,16 +1,18 @@
 .. activecode:: ac5_3_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/IndexOperatorWorkingwiththeCharactersofaString
+   :chapter: Sequences
+   :subchapter: IndexOperatorWorkingwiththeCharactersofaString
+   :topics: Sequences/IndexOperatorWorkingwiththeCharactersofaString
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.1880072137
-   :total_students_attempting: 2218
-   :num_students_correct: 1717.0
-   :mean_clicks_to_correct: 3.6156086197
+   :pct_on_first: 0.1890925346
+   :total_students_attempting: 2237
+   :num_students_correct: 1735.0
+   :mean_clicks_to_correct: 3.6074927954
 
    Assign the value of the 34th element of ``lst`` to the variable ``output``.
    ~~~~

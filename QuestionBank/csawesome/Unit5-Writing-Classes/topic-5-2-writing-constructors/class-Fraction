@@ -1,11 +1,17 @@
 .. activecode:: class-Fraction
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: csawesome
-  :topic: Unit5-Writing-Classes/topic-5-2-writing-constructors
+  :chapter: Unit5-Writing-Classes
+  :subchapter: topic-5-2-writing-constructors
+  :topics: Unit5-Writing-Classes/topic-5-2-writing-constructors
   :from_source: T
   :language: java
   :autograde: unittest
+  :pct_on_first: 1.0
+  :total_students_attempting: 255
+  :num_students_correct: 255.0
+  :mean_clicks_to_correct: 1.0
 
   The following class defines a Fraction with the instance variables numerator and denominator. It uses 2 constructors. Note that this constructor sets the default instance variable values to 1 rather than 0 -- so we don't end up with divide by zero. Try to guess what it will print before you run it.  Hint!  Remember to start with the main method! You can also view it in the |Java visualizer| by clicking on the Code Lens button below.
   ~~~~
@@ -14,27 +20,27 @@
      //  instance variables
      private int numerator;
      private int denominator;
-
+  
      // constructor: set instance variables to default values
      public Fraction()
      {
         numerator = 1;
         denominator = 1;
      }
-
+  
      // constructor: set instance variables to init parameters
      public Fraction(int initNumerator, int initDenominator)
      {
         numerator = initNumerator;
         denominator = initDenominator;
      }
-
+  
      // Print fraction
      public void print()
      {
        System.out.println(numerator + "/" + denominator);
      }
-
+  
      // main method for testing
      public static void main(String[] args)
      {
@@ -51,9 +57,9 @@
     import org.junit.After;
     import org.junit.Before;
     import org.junit.Test;
-
+  
     import java.io.*;
-
+  
     public class RunestoneTests extends CodeTestHelper
     {
         @Test
@@ -61,9 +67,9 @@
         {
             String output = getMethodOutput("main");
             String expect = "1/1\n1/2";
-
+  
             boolean passed = getResults(expect, output, "Running main", true);
             assertTrue(passed);
         }
-
+  
     }

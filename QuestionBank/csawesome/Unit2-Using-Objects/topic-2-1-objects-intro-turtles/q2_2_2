@@ -1,8 +1,10 @@
 .. mchoice:: q2_2_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-1-objects-intro-turtles
+   :topics: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
    :from_source: T
    :practice: T
    :answer_a: attributes
@@ -14,5 +16,9 @@
    :feedback_b: Methods specify the behavior of all objects of a class.
    :feedback_c: While the class does specify the behavior of all objects created by that class, what part of a class specifies the behavior?
    :feedback_d: The object behavior is specified by the methods in the class that created the object.
+   :pct_on_first: 0.5871480394
+   :total_students_attempting: 5789
+   :num_students_correct: 5776.0
+   :mean_clicks_to_correct: 1.6423130194
 
    What specifies the behavior for objects of a class in Java?

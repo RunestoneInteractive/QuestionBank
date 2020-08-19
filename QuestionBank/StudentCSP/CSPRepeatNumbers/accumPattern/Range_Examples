@@ -1,8 +1,10 @@
 .. activecode:: Range_Examples
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: StudentCSP
-  :topic: CSPRepeatNumbers/accumPattern
+  :chapter: CSPRepeatNumbers
+  :subchapter: accumPattern
+  :topics: CSPRepeatNumbers/accumPattern
   :from_source: T
 
   print(range(1,11,1))

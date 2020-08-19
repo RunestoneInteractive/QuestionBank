@@ -1,8 +1,10 @@
 .. datafile:: maze1a.txt
    :author: Michael McCarrin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Selection/Exercises
+   :chapter: Selection
+   :subchapter: Exercises
+   :topics: Selection/Exercises
    :from_source: F
    :hide:
    :rows: 5

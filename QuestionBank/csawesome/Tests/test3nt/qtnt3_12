@@ -1,8 +1,10 @@
 .. mchoice:: qtnt3_12
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test3nt
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
    :from_source: T
    :answer_a: 4
    :answer_b: 5
@@ -15,16 +17,20 @@
    :feedback_c: Examine the return statements. Although the last digit of the number is 0, 0 is returned to the previous calls, where it is added to the other digits.
    :feedback_d: Try tracing the recursive calls again.
    :feedback_e: The method divides the number by 10 until it reaches the first dight. Then, it adds the values of all of the digits together.
+   :pct_on_first: 0.3362831858
+   :total_students_attempting: 113
+   :num_students_correct: 109.0
+   :mean_clicks_to_correct: 2.4220183486
 
    The method ``numFun`` is below. What is returned as a result of ``numFun(21560)``?
-
+   
    .. code-block:: java
-
+   
       public static int numFun(int num)
       {
            if (num / 10 == 0)
                 return num;
-
+   
            else
                 return (num % 10) + numFun(num / 10);
       }

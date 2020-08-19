@@ -1,8 +1,10 @@
 .. activecode::  ac14_7_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Iteration/NestedIterationImageProcessing
+    :chapter: Iteration
+    :subchapter: NestedIterationImageProcessing
+    :topics: Iteration/NestedIterationImageProcessing
     :from_source: T
     :nocodelens:
 

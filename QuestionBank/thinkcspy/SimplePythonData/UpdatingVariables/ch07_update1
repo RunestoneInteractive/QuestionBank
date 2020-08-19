@@ -1,8 +1,10 @@
 .. activecode:: ch07_update1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/UpdatingVariables
+    :chapter: SimplePythonData
+    :subchapter: UpdatingVariables
+    :topics: SimplePythonData/UpdatingVariables
     :from_source: T
 
     x = 6        # initialize x

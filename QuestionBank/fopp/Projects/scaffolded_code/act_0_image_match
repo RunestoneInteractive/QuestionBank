@@ -1,8 +1,10 @@
 .. dragndrop:: act_0_image_match
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Projects/scaffolded_code
+   :chapter: Projects
+   :subchapter: scaffolded_code
+   :topics: Projects/scaffolded_code
    :from_source: T
    :feedback: Keep trying
    :match_1: process1(img)|||Adds vignette effect - dark corners
@@ -14,7 +16,7 @@
    :match_7: process7(img)|||Converts image to high contrast - black and white only
    :match_8: process8(img)|||Lightens image
    :match_9: process9(img)|||Darkens image
-   :pct_on_first: 0.2042931162
-   :total_students_attempting: 1351
-   :num_students_correct: 910.0
-   :mean_clicks_to_correct: 8.3373626374
+   :pct_on_first: 0.202173913
+   :total_students_attempting: 1380
+   :num_students_correct: 928.0
+   :mean_clicks_to_correct: 8.3739224138

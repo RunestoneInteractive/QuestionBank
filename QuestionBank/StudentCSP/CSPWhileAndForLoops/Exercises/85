@@ -1,10 +1,16 @@
 .. parsonsprob:: 85
     :author: Renske Weeda
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: StudentCSP
-    :topic: CSPWhileAndForLoops/Exercises
+    :chapter: CSPWhileAndForLoops
+    :subchapter: Exercises
+    :topics: CSPWhileAndForLoops/Exercises
     :from_source: F
     :numbered: left
+    :pct_on_first: 0.0
+    :total_students_attempting: 1
+    :num_students_correct: 1.0
+    :mean_clicks_to_correct: 2.0
 
     [85] Het is weer verkiezingstijd. In een lijst is bijgehouden op welk kandidaat (nummer 1, 2 of 3) er gestemd is. Het volgende programma moet de kandidaatnummers afdrukken waar vaker dan 5 keer op gestemd is. Maar de blokken staan in de verkeerde volgorde. Sleep de code naar de rechterkant en plaats deze in de juiste volgorde. Zorg ook dat de regels code juist staan ingesprongen. Als je denkt dat jouw oplossing helemaal goed is, klik dan op de knop <i>Check Me</i> om jouw oplossing te controleren.
     -----
@@ -42,7 +48,7 @@
             print(index) #paired
     =====
         index+=1
-
-config values (conf.py):
-
-- parsons_div_class - custom CSS class of the component's outermost div
+    
+    ig values (conf.py):
+    
+    rsons_div_class - custom CSS class of the component's outermost div

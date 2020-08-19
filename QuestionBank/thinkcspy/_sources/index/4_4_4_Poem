@@ -1,8 +1,10 @@
 .. parsonsprob:: 4_4_4_Poem
    :author: Brad Miller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: _sources/index
+   :chapter: _sources
+   :subchapter: index
+   :topics: _sources/index
    :from_source: F
 
    Put the blocks below into the correct order to print a twist on a famous poem.

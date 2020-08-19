@@ -1,17 +1,19 @@
 .. activecode:: ac12_3_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TuplesasReturnValues
+   :chapter: Tuples
+   :subchapter: TuplesasReturnValues
+   :topics: Tuples/TuplesasReturnValues
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.5899470899
-   :total_students_attempting: 378
-   :num_students_correct: 289.0
-   :mean_clicks_to_correct: 1.8200692042
+   :pct_on_first: 0.587012987
+   :total_students_attempting: 385
+   :num_students_correct: 294.0
+   :mean_clicks_to_correct: 1.843537415
 
    Define a function called ``information`` that takes as input, the variables ``name``, ``birth_year``, ``fav_color``, and ``hometown``. It should return a tuple of these variables in this order.
    ~~~~

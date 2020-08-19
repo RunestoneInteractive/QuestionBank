@@ -1,15 +1,17 @@
 .. actex:: TL_365_function_matrix_transpose
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0277777778
-   :total_students_attempting: 36
-   :num_students_correct: 18.0
-   :mean_clicks_to_correct: 5.4444444444
+   :pct_on_first: 0.027027027
+   :total_students_attempting: 37
+   :num_students_correct: 19.0
+   :mean_clicks_to_correct: 5.3684210526
 
    Write a function called ``transpose`` that takes any matrix and
    returns its transpose without changing the input. Use your function

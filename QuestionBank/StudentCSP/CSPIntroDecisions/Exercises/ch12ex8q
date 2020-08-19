@@ -1,8 +1,10 @@
 .. activecode::  ch12ex8q
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPIntroDecisions/Exercises
+    :chapter: CSPIntroDecisions
+    :subchapter: Exercises
+    :topics: CSPIntroDecisions/Exercises
     :from_source: T
     :nocodelens:
 

@@ -1,8 +1,10 @@
 .. activecode:: KDL_ch8_2
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Conditionals/Exercises
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

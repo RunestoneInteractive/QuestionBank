@@ -1,8 +1,10 @@
 .. mchoice:: bisection_search_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter12/bisection_search
+   :chapter: Chapter12
+   :subchapter: bisection_search
+   :topics: Chapter12/bisection_search
    :from_source: T
    :multiple_answers:
    :answer_a: having more than one recursive call

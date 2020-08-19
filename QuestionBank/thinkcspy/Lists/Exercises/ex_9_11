@@ -1,8 +1,10 @@
 .. actex:: ex_9_11
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Lists/Exercises
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
    :from_source: T
    :pct_on_first: 0.3333333333
    :total_students_attempting: 6

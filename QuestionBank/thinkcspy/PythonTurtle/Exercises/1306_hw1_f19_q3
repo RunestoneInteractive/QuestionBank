@@ -1,8 +1,10 @@
 .. activecode:: 1306_hw1_f19_q3
    :author: Mohammad Rajiur Rahman
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: PythonTurtle/Exercises
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
    :from_source: F
 
    [20 pts] In problem 3 of Classwork-2 you developed a Python program that takes integers ``N`` and ``Start`` as input and computes the arithmetic average of numbers ``[Start, Start+1, Start+2…Start+N-1]`` and prints the result.

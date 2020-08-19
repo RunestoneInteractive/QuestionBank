@@ -1,8 +1,10 @@
 .. parsonsprob:: csct01_q20
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :pct_on_first: 0.9523809524
    :total_students_attempting: 42

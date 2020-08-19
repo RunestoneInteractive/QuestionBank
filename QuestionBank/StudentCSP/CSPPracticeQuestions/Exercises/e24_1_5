@@ -1,10 +1,12 @@
 .. mchoice:: e24_1_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: T
-   .. mchoice:: e24_1_5
+   :..: mchoice:: e24_1_5
    :answer_a: The baby duck picture appears as intended.
    :answer_b: The baby duck picture appears as 4 out of order images.
    :answer_c: The baby duck picture is distorted.
@@ -14,7 +16,11 @@
    :feedback_b: Incorrect. The packets are always reassembled in the correct order, so the original picture will appear as inteded.
    :feedback_c: Incorrect. The packets are always reassembled in the correct order, so the original picture will appear as inteded.
    :feedback_d: Incorrect. The picture will load since all the packets successfully arrive on the user's smart phone.
+   :pct_on_first: 0.4652406417
+   :total_students_attempting: 561
+   :num_students_correct: 341.0
+   :mean_clicks_to_correct: 1.357771261
 
    A user’s smartphone makes a request to a server for 4 packets that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image?
-
+   
    .. figure:: Figures/duckpacket.jpg

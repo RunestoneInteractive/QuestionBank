@@ -1,8 +1,10 @@
 .. activecode:: er2001
     :author: Eric Reed
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: fopp
-    :topic: TransformingSequences/Exercises
+    :chapter: TransformingSequences
+    :subchapter: Exercises
+    :topics: TransformingSequences/Exercises
     :from_source: F
 
 

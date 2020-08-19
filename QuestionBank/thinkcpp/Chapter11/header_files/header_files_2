@@ -1,8 +1,10 @@
 .. mchoice:: header_files_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter11/header_files
+   :chapter: Chapter11
+   :subchapter: header_files
+   :topics: Chapter11/header_files
    :from_source: T
    :answer_a: #include <header.h>
    :answer_b: #include <"header.h">

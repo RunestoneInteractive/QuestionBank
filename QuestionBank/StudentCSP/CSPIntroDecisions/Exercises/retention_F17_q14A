@@ -1,8 +1,10 @@
 .. activecode:: retention_F17_q14A
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPIntroDecisions/Exercises
+   :chapter: CSPIntroDecisions
+   :subchapter: Exercises
+   :topics: CSPIntroDecisions/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

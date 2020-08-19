@@ -1,8 +1,10 @@
 .. activecode:: chp13_classes2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Classes/UserDefinedClasses
+    :chapter: Classes
+    :subchapter: UserDefinedClasses
+    :topics: Classes/UserDefinedClasses
     :from_source: T
 
     class Point:

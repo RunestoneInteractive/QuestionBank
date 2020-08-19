@@ -1,16 +1,18 @@
 .. activecode:: ac5_9_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/SplitandJoin
+   :chapter: Sequences
+   :subchapter: SplitandJoin
+   :topics: Sequences/SplitandJoin
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3118167621
-   :total_students_attempting: 1921
-   :num_students_correct: 1464.0
-   :mean_clicks_to_correct: 2.493852459
+   :pct_on_first: 0.3118556701
+   :total_students_attempting: 1940
+   :num_students_correct: 1481.0
+   :mean_clicks_to_correct: 2.4868332208
 
    Create a new list of the 6th through 13th elements of ``lst`` (eight items in all) and assign it to the variable ``output``.
    ~~~~

@@ -1,27 +1,25 @@
 .. fillintheblank:: assess_question5_1_1_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/week4a1
+   :chapter: TransformingSequences
+   :subchapter: week4a1
+   :topics: TransformingSequences/week4a1
    :from_source: T
    :practice: T
    :topics: TransformingSequences/TheAccumulatorPatternwithLists
-   :pct_on_first: 0.75
-   :total_students_attempting: 716
-   :num_students_correct: 654.0
-   :mean_clicks_to_correct: 1.6177370031
 
    What is the iterator (loop) variable in the following?
-   
+
    .. sourcecode:: python
-   
+
     rest = ["sleep", 'dormir', 'dormire', "slaap", 'sen', 'yuxu', 'yanam']
     let = ''
     for phrase in rest:
         let += phrase[0]
-   
+
    The iterator variable is
-   
+
    -  :phrase: Good work!
       :rest: rest is the sequence, not the iterator variable.
       :let: let is the accumulator variable, not the iterator variable.

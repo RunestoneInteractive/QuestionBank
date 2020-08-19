@@ -1,29 +1,35 @@
 .. activecode:: challenge-2-9b-dancing-turtles
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit2-Using-Objects/topic-2-9-Math
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-9-Math
+    :topics: Unit2-Using-Objects/topic-2-9-Math
     :from_source: T
     :language: java
     :autograde: unittest
     :datafile: turtleClasses.jar
+    :pct_on_first: 0.5697674419
+    :total_students_attempting: 86
+    :num_students_correct: 79.0
+    :mean_clicks_to_correct: 1.7594936709
 
     Complete the random numbers using Math.random() in the correct ranges to choose x, y coordinates and random color in the range of 0-255 for the turtle. Put on some music and watch your turtle dance!
     ~~~~
     import java.util.*;
     import java.awt.*;
-
+    
     public class DancingTurtles
     {
       public static void main(String[] args)
       {
-
+    
           World world = new World(500,400);
           Turtle yertle = new Turtle(world);
-
+    
           // This is a loop that runs 10 times (you will learn to write loops in Unit 4)
-         for(int i=1; i <= 10; i++)
-         {
+          for(int i=1; i <= 10; i++)
+          {
            // Can you choose a randomX between 0-500?
            // Can you adjust for the 20 pixel width of the turtle,
            // so it doesn't get cut off at the edges?
@@ -33,17 +39,17 @@
            // Can you adjust for the 20 pixel height of the turtle,
            // so it doesn't get cut off at the edges?
            int randomY =
-
+    
            yertle.moveTo(randomX, randomY);
            yertle.turnRight();
-
+    
            // Can you choose a random red, green, and blue value between 0-255?
            int randomR =
            int randomG =
            int randomB =
-
+    
            yertle.setColor(new Color(randomR, randomG, randomB));
-
+    
           } // end of loop
           world.show(true);
       }
@@ -52,25 +58,25 @@
     import static org.junit.Assert.*;
     import org.junit.*;;
     import java.io.*;
-
+    
     public class RunestoneTests extends CodeTestHelper
     {
         public RunestoneTests() {
             super("DancingTurtles");
         }
-
-
+    
+    
         @Test
         public void test1()
         {
             String code = getCode();
             int numRandom = countOccurences(code, "Math.random()");
-
+    
             boolean passed = numRandom >= 5;
             passed = getResults("5+", ""+numRandom, "5+ calls to Math.random()", passed);
             assertTrue(passed);
         }
-
+    
         @Test
         public void test2()
         {

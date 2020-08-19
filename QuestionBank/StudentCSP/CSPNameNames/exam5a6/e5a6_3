@@ -1,8 +1,10 @@
 .. mchoice:: e5a6_3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNames/exam5a6
+   :chapter: CSPNameNames
+   :subchapter: exam5a6
+   :topics: CSPNameNames/exam5a6
    :from_source: T
    :practice: T
    :answer_a: bob.move(50)
@@ -14,11 +16,15 @@
    :feedback_b: The left procedure turns the turtle left by the specified amount.
    :feedback_c: Turtles have a forward procedure which moves the turtle in the direction it is facing by the specified amount.
    :feedback_d: The right procedure turns the turtle right by the specified amount.
+   :pct_on_first: 0.9351297405
+   :total_students_attempting: 1002
+   :num_students_correct: 962.0
+   :mean_clicks_to_correct: 1.0280665281
 
    Given the following lines of code, which will move the turtle bob 50 units forward?
-
+   
    ::
-
+   
       from turtle import *
       space = Screen()
       bob = Turtle()

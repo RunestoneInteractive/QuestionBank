@@ -2,7 +2,7 @@
   :author: bmiller
   :difficulty: 3
   :basecourse: csjava
-  :topic: Unit5-Writing-Classes/topic-5-1-parts-of-class
+  :topics: Unit5-Writing-Classes/topic-5-1-parts-of-class
   :from_source: T
   :language: java
   :autograde: unittest

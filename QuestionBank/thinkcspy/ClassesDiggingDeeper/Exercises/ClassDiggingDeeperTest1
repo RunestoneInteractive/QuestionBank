@@ -1,8 +1,10 @@
 .. activecode:: ClassDiggingDeeperTest1
     :author: Wesley Thang
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: ClassesDiggingDeeper/Exercises
+    :chapter: ClassesDiggingDeeper
+    :subchapter: Exercises
+    :topics: ClassesDiggingDeeper/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

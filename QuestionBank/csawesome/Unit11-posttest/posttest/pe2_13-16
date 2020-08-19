@@ -1,8 +1,10 @@
 .. mchoice:: pe2_13-16
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit11-posttest/posttest
+   :chapter: Unit11-posttest
+   :subchapter: posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: { {2 3 3 3}, {1 2 3 3}, {1 1 2 3}}
    :answer_b: { {2 3 3}, {1 2 3}, {1 1 2}, {1 1 1}}
@@ -15,11 +17,15 @@
    :feedback_c: This would be true if the first value when you create a 2-d array was the number of columns and the second was the number of rows.
    :feedback_d: When you create a 2-d array the first value is the number of rows and the second is the number of columns. This code will put a 1 in the array when the row index is less than the column index and a 2 in the array when the row and column index are the same, and a 3 in the array when the row index is greater than the column index.
    :feedback_e: This would be true if you set the value to the row index.
+   :pct_on_first: 0.4209302326
+   :total_students_attempting: 430
+   :num_students_correct: 222.0
+   :mean_clicks_to_correct: 1.2927927928
 
    Given the following code segment, What are the contents of ``mat`` after the code segment has been executed?
-
+   
    .. code-block:: java
-
+   
      int [][] mat = new int [3][4];
      for (int row = 0; row < mat.length; row++)
      {

@@ -1,8 +1,10 @@
 .. activecode:: JOC_Ch11_1
    :author: Joaquin Carbonara
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Dictionaries/Exercises
+   :chapter: Dictionaries
+   :subchapter: Exercises
+   :topics: Dictionaries/Exercises
    :from_source: F
    :autograde: unittest
    :language: python

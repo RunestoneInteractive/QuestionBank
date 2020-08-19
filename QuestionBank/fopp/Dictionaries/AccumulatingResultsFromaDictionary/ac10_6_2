@@ -1,16 +1,18 @@
 .. activecode:: ac10_6_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Dictionaries/AccumulatingResultsFromaDictionary
+   :chapter: Dictionaries
+   :subchapter: AccumulatingResultsFromaDictionary
+   :topics: Dictionaries/AccumulatingResultsFromaDictionary
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3494423792
-   :total_students_attempting: 1076
-   :num_students_correct: 718.0
-   :mean_clicks_to_correct: 1.991643454
+   :pct_on_first: 0.351425943
+   :total_students_attempting: 1087
+   :num_students_correct: 729.0
+   :mean_clicks_to_correct: 1.9862825789
 
    **1.** The dictionary ``travel`` contains the number of countries within each continent that Jackie has traveled to. Find the total number of countries that Jackie has been to, and save this number to the variable name ``total``. Do not hard code this!
    ~~~~

@@ -1,8 +1,10 @@
 .. activecode:: int_secs
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Input
+    :chapter: SimplePythonData
+    :subchapter: Input
+    :topics: SimplePythonData/Input
     :from_source: T
 
     str_seconds = input("Please enter the number of seconds you wish to convert")

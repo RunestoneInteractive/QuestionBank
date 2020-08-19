@@ -1,8 +1,10 @@
 .. mchoice:: qtnt1_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test1nt
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
    :from_source: T
    :answer_a: I and II are exactly equivalent for all input values n.
    :answer_b: I and II are only equivalent when n is an even number.
@@ -15,17 +17,21 @@
    :feedback_c: When n = 0, Code block I will print out 0, while Code block 2 will print out 1.
    :feedback_d: The code blocks never output the same value.
    :feedback_e: I and II will never be equivalent because count is incremented after it is printed in Code block I and before it is printed in Code block II.
+   :pct_on_first: 0.498630137
+   :total_students_attempting: 365
+   :num_students_correct: 364.0
+   :mean_clicks_to_correct: 1.9532967033
 
    Given that both ``count`` and ``n`` are integer values, which of the following statements is true about both code blocks?
-
+   
    .. code-block:: java
-
+   
       // Code block I
       for (count = 0; count <= n; count++)
       {
           System.out.println(count);
       }
-
+   
       //Code block II
       count = 0;
       while (count <= n)

@@ -1,8 +1,10 @@
 .. mchoice:: qtnt1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test1nt
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
    :from_source: T
    :answer_a: 9
    :answer_b: 81
@@ -15,11 +17,15 @@
    :feedback_c: This value is returned when we call mystery(1), since 1 is the base case and doesn't result in a recursive call.
    :feedback_d: This value would be returned from mystery(5).
    :feedback_e: This value would be returned from mystery(3).
+   :pct_on_first: 0.4757033248
+   :total_students_attempting: 391
+   :num_students_correct: 387.0
+   :mean_clicks_to_correct: 2.023255814
 
    Consider the following recursive method. What does ``mystery(4)`` return?
-
+   
    .. code-block:: java
-
+   
       public int mystery(int m)
       {
         if (m == 1)

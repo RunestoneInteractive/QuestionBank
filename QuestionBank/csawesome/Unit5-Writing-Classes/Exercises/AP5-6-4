@@ -1,11 +1,13 @@
 .. mchoice:: AP5-6-4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit5-Writing-Classes/Exercises
+   :chapter: Unit5-Writing-Classes
+   :subchapter: Exercises
+   :topics: Unit5-Writing-Classes/Exercises
    :from_source: T
    :practice: T
-   :random:
+   :random: 
    :answer_a: I only
    :answer_b: II only
    :answer_c: III only
@@ -17,32 +19,36 @@
    :feedback_c: You cannot put a shortcut assignment operator in the conditional test of an if statement.
    :feedback_d: Correct!
    :feedback_e: III would not work because you cannot put a shortcut assignment operator in the conditional test of an if statement.
+   :pct_on_first: 0.4495311638
+   :total_students_attempting: 1813
+   :num_students_correct: 1771.0
+   :mean_clicks_to_correct: 2.0508187465
 
    Consider the Party class below.
-
+   
    .. code-block:: java
-
+   
         public class Party
         {
             private int numOfPeople; //number of people at the party
             private int capacity;    //total capacity of people at party
-
+   
             public Party(int people, int cap)
             {
                 numOfPeople = people;
                 capacity = cap;
             }
-
+   
             public boolean updateNumOfPeople(int additionalPeople)
             {
                 /* missing code */
             }
         }
-
+   
    The class contains the updateNumOfPeople method, which is intended to update the instance variable numOfPeople under certain conditions and return a value indicating whether the  update was successful. If adding additionalPeople to the current number of people would lead to the number going over the capacity, then the update would be unsuccessful. Otherwise, if adding the number of additional people is still below or at the capacity, the update is successful. Which of the following code segments can replace *missing code* to ensure that the updateNumOfPeople method works as intended?
-
+   
    .. code-block:: java
-
+   
         I.  if (numOfPeople + additionalPeople > capacity)
             {
                 return false;

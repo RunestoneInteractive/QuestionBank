@@ -1,8 +1,10 @@
 .. mchoice:: AP2-1-1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-1-objects-intro-turtles
+   :topics: Unit2-Using-Objects/topic-2-1-objects-intro-turtles
    :from_source: T
    :practice: T
    :answer_a: An attribute of the name object is String.
@@ -16,11 +18,15 @@
    :feedback_c: An instance of the Dog class is pet.
    :feedback_d: An attribute of the Dog class is name.
    :feedback_e: An instance of the Dog class is pet.
+   :pct_on_first: 0.4541569542
+   :total_students_attempting: 2574
+   :num_students_correct: 2546.0
+   :mean_clicks_to_correct: 2.3087195601
 
    A student has created a ``Dog`` class. The class contains variables to represent the following.
     - A String variable called ``breed`` to represent the breed of the dog
     - An int variable called ``age`` to represent the age of the dog
     - A String variable called ``name`` to represent the name of the dog
-
+   
     The object ``pet`` is declared as type Dog.
     Which of the following descriptions is accurate?

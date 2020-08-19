@@ -1,8 +1,10 @@
 .. activecode:: q5_answer
     :author: Brad Miller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Functions/thinkcspyExercises
+    :chapter: Functions
+    :subchapter: thinkcspyExercises
+    :topics: Functions/thinkcspyExercises
     :from_source: F
 
     import turtle

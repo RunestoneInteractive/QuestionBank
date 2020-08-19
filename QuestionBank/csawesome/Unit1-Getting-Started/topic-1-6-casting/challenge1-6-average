@@ -1,12 +1,18 @@
 .. activecode:: challenge1-6-average
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/topic-1-6-casting
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-6-casting
+   :topics: Unit1-Getting-Started/topic-1-6-casting
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.2143974961
+   :total_students_attempting: 639
+   :num_students_correct: 360.0
+   :mean_clicks_to_correct: 3.475
 
    Type in three made up int grades and then sum and average them. Use type casting to report the result as a double. If you do this challenge on repl.it, please paste your repl link here to turn it in.
    ~~~~
@@ -16,26 +22,26 @@
       {
          // 1. Declare 3 int variables called grade1, grade2, grade3
          // and initialize them to 3 values
-
-
+   
+   
          // 2. Declare an int variable called sum for the sum of the grades
-
+   
          // 3. Declare a variable called average for the average of the grades
-
+   
          // 4. Write a formula to calculate the sum of the 3 grades (add them up).
-
+   
          // 5. Write a formula to calculate the average of the 3 grades from the sum using division and type casting.
-
+   
          // 6. Print out the average
-
-
+   
+   
       }
    }
    ====
    import static org.junit.Assert.*;
     import org.junit.*;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test

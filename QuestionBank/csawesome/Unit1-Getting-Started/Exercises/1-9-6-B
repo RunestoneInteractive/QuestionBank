@@ -1,8 +1,10 @@
 .. mchoice:: 1-9-6-B
    :author: Beryl Hoffman
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: csawesome
-   :topic: Unit1-Getting-Started/Exercises
+   :chapter: Unit1-Getting-Started
+   :subchapter: Exercises
+   :topics: Unit1-Getting-Started/Exercises
    :from_source: F
    :practice: T
    :answer_a: A random number from 1 to 9
@@ -14,11 +16,15 @@
    :feedback_b: (int) (Math.random() * 10) will return a number between 0 to 9, and then add 1 to those to get a range from 1 to 10.
    :feedback_c: (int) (Math.random() * 10) will return a number between 0 to 9, and then add 1 to those.
    :feedback_d: (int) (Math.random() * 10) will return a number between 0 to 9, and then add 1 to those.
+   :pct_on_first: 0.5480225989
+   :total_students_attempting: 354
+   :num_students_correct: 352.0
+   :mean_clicks_to_correct: 1.7926136364
 
    Given the following code segment, what is the value of ``value`` when it finishes executing?
-
+   
    Math.random() returns a random decimal number between 0 (inclusive) and 1 (exclusive).
-
+   
    .. code-block:: java
-
+   
     int value = (int) (Math.random() * 10) + 1;

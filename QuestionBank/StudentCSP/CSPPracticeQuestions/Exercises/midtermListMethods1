@@ -1,8 +1,10 @@
 .. parsonsprob:: midtermListMethods1
    :author: Nelson Yang
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
    :adaptive:
 

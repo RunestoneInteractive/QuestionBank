@@ -2,7 +2,7 @@
     :author: bmiller
     :difficulty: 3
     :basecourse: thinkcpp
-    :topic: Chapter2/exercises
+    :topics: Chapter2/exercises
     :from_source: T
 
     What line does the first error occur in the following program?

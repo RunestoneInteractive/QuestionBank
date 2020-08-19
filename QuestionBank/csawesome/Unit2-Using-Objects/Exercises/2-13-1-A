@@ -1,19 +1,25 @@
 .. mchoice:: 2-13-1-A
    :author: Rachel Reyes
-   :difficulty: 2
+   :difficulty: 2.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/Exercises
+   :chapter: Unit2-Using-Objects
+   :subchapter: Exercises
+   :topics: Unit2-Using-Objects/Exercises
    :from_source: F
    :answer_a: world!world!
    :answer_b: hello world!
    :answer_c: hellohelloworld!
    :answer_d: hello hello world!
    :correct: c
+   :pct_on_first: 0.8706293706
+   :total_students_attempting: 286
+   :num_students_correct: 278.0
+   :mean_clicks_to_correct: 1.154676259
 
    Given the following code segment, what is in the string referenced by s1?
-
+   
    .. code-block:: java
-
+   
     String s1 = "hello";
     String s2 = s1;
     s1 = s1 + s2 + "world!";

@@ -1,8 +1,10 @@
 .. mchoice:: pe4_20
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: TimedTests/test4
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
    :from_source: T
    :answer_a: The method is recursive and the first call it will compare 3 to 5 and then do mystery(3,4,5).
    :answer_b: There are two calls: mystery(0, 4, 5) and mystery(3, 4, 5).

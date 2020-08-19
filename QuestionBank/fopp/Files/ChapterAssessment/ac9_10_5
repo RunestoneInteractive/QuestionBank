@@ -1,18 +1,20 @@
 .. activecode:: ac9_10_5
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :available_files: school_prompt.txt
    :nocodelens: 
-   :pct_on_first: 0.2712550607
-   :total_students_attempting: 741
-   :num_students_correct: 542.0
-   :mean_clicks_to_correct: 4.8782287823
+   :pct_on_first: 0.2704149933
+   :total_students_attempting: 747
+   :num_students_correct: 546.0
+   :mean_clicks_to_correct: 4.8663003663
 
    **Challenge:** Using the file ``school_prompt.txt``, assign the third word of every line to a list called ``three``.
    ~~~~

@@ -1,8 +1,10 @@
 .. activecode:: uniqueid
    :author: Laura Plunkett
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :nocanvas:  -- do not create a canvas
    :autograde: unittest

@@ -1,8 +1,10 @@
 .. mchoice:: e9t11_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPRepeatImages/exam9t11
+   :chapter: CSPRepeatImages
+   :subchapter: exam9t11
+   :topics: CSPRepeatImages/exam9t11
    :from_source: T
    :practice: T
    :answer_a: X = 5 and Y = 72
@@ -14,11 +16,15 @@
    :feedback_b: This would be true if you were trying to draw a 36 sided figure.
    :feedback_c: The value of X is 10 to make a 10 sided figure and the amount to turn is 360 / 10 = 36.
    :feedback_d: This would be true if you were trying to draw a 12 sided figure.
+   :pct_on_first: 0.8476190476
+   :total_students_attempting: 630
+   :num_students_correct: 552.0
+   :mean_clicks_to_correct: 1.0416666667
 
    If we would like to draw a decagon (10 sided figure), what should the values of X and Y be in the code below?
-
+   
    ::
-
+   
       from turtle import *       # use the turtle library
       space = Screen()           # create a turtle space
       zoe = Turtle()             # create a turtle named zoe

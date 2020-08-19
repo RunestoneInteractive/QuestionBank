@@ -1,17 +1,19 @@
 .. activecode:: ac12_4_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TupleAssignmentwithunpacking
+   :chapter: Tuples
+   :subchapter: TupleAssignmentwithunpacking
+   :topics: Tuples/TupleAssignmentwithunpacking
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
    :chatcodes: 
-   :pct_on_first: 0.5846560847
-   :total_students_attempting: 378
-   :num_students_correct: 302.0
-   :mean_clicks_to_correct: 1.4039735099
+   :pct_on_first: 0.5848563969
+   :total_students_attempting: 383
+   :num_students_correct: 305.0
+   :mean_clicks_to_correct: 1.4
 
    With only one line of code, assign the variables ``water``, ``fire``, ``electric``, and ``grass`` to the values "Squirtle", "Charmander", "Pikachu", and "Bulbasaur"
    ~~~~

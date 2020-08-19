@@ -1,8 +1,10 @@
 .. activecode:: irma_hw1_q3
     :author: Irma Ravkic
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: fopp
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
  
     Consider the initialized variables in the code below I created for you. Add code after line 7 to check and print their types (don't touch/change lines 1 - 7).

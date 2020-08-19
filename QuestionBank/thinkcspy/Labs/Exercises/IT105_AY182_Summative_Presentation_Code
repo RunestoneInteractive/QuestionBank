@@ -1,8 +1,10 @@
 .. activecode:: IT105_AY182_Summative_Presentation_Code
    :author: Chip Schooler
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Labs/Exercises
+   :chapter: Labs
+   :subchapter: Exercises
+   :topics: Labs/Exercises
    :from_source: F
    :language: python
    :nocodelens:

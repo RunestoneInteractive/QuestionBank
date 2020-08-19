@@ -1,8 +1,10 @@
 .. mchoice:: mt1_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: TimedTests/Exercises
+   :chapter: TimedTests
+   :subchapter: Exercises
+   :topics: TimedTests/Exercises
    :from_source: T
    :answer_a: Prints the string in reverse order
    :answer_b: Deletes the second half of the string

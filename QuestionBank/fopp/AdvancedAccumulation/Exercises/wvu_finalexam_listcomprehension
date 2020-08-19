@@ -1,14 +1,16 @@
 .. activecode:: wvu_finalexam_listcomprehension
     :author: Brian Powell
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: fopp
-    :topic: AdvancedAccumulation/Exercises
+    :chapter: AdvancedAccumulation
+    :subchapter: Exercises
+    :topics: AdvancedAccumulation/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.3333333333
-    :total_students_attempting: 30
-    :num_students_correct: 23.0
-    :mean_clicks_to_correct: 2.7826086957
+    :pct_on_first: 0.34375
+    :total_students_attempting: 32
+    :num_students_correct: 25.0
+    :mean_clicks_to_correct: 2.84
 
     Write a list comprehension to filter the values from the **values** list so it includes values that are at least 0 but not more than 100. Place the results in a new list named **filtered_values**.
     ~~~~

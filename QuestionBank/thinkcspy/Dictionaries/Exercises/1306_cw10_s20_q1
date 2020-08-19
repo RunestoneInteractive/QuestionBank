@@ -1,14 +1,16 @@
 .. activecode:: 1306_cw10_s20_q1
     :author: Mohammad Rajiur Rahman
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: Dictionaries/Exercises
+    :chapter: Dictionaries
+    :subchapter: Exercises
+    :topics: Dictionaries/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.1315789474
-    :total_students_attempting: 76
-    :num_students_correct: 68.0
-    :mean_clicks_to_correct: 9.9852941176
+    :pct_on_first: 0.1298701299
+    :total_students_attempting: 77
+    :num_students_correct: 69.0
+    :mean_clicks_to_correct: 9.8695652174
 
     
     **Question 1 [40 points]** 

@@ -1,8 +1,10 @@
 .. actex:: atheno_hw2_q3
    :author: Atheno Chen
-   :difficulty: 4
+   :difficulty: 4.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
    :pct_on_first: 0.0

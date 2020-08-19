@@ -1,8 +1,10 @@
 .. activecode:: Assign_Days
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameNumbers/walkAssign
+   :chapter: CSPNameNumbers
+   :subchapter: walkAssign
+   :topics: CSPNameNumbers/walkAssign
    :from_source: T
    :tour_1: "Line by line tour"; 1: calcDays-line1; 2: calcDays-line2; 3: calcDays-line3; 4: calcDays-line4; 5: calcDays-line5; 6: calcDays-line6;
 

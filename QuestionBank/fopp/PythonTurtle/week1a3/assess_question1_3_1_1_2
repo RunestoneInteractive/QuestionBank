@@ -1,8 +1,10 @@
 .. mchoice:: assess_question1_3_1_1_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonTurtle/week1a3
+   :chapter: PythonTurtle
+   :subchapter: week1a3
+   :topics: PythonTurtle/week1a3
    :from_source: T
    :answer_a: turtle(Turtle)
    :answer_b: turtle.Turtle()
@@ -15,9 +17,5 @@
    :feedback_d: When making a new instace of the turtle class, you need to use dot notation.
    :practice: T
    :topics: PythonTurtle/ObjectInstances
-   :pct_on_first: 0.8752424047
-   :total_students_attempting: 1547
-   :num_students_correct: 1540.0
-   :mean_clicks_to_correct: 1.1675324675
 
    Which is the correct way to make a new instance of the Turtle class?

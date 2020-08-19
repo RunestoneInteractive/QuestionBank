@@ -1,8 +1,10 @@
 .. activecode::  ams_assign5_q2
      :author: Allison Schullo
-     :difficulty: 0
+     :difficulty: 0.0
      :basecourse: StudentCSP
-     :topic: CSPNameTurtles/Exercises
+     :chapter: CSPNameTurtles
+     :subchapter: Exercises
+     :topics: CSPNameTurtles/Exercises
      :from_source: F
      :nocodelens:
 

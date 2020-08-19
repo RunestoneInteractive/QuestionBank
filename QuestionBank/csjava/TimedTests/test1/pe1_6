@@ -1,8 +1,10 @@
 .. mchoice:: pe1_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: Data set 1 since it has more test cases.
    :answer_b: Data set 2 since it only contains strings with lower case characters.

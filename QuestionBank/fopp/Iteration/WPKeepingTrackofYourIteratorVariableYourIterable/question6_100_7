@@ -1,8 +1,10 @@
 .. mchoice:: question6_100_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
+   :chapter: Iteration
+   :subchapter: WPKeepingTrackofYourIteratorVariableYourIterable
+   :topics: Iteration/WPKeepingTrackofYourIteratorVariableYourIterable
    :from_source: T
    :answer_a: string
    :answer_b: list
@@ -16,10 +18,10 @@
    :feedback_e: Incorrect, the for loop is iterating over an iterable object.
    :correct: d
    :practice: T
-   :pct_on_first: 0.4320448878
-   :total_students_attempting: 1604
-   :num_students_correct: 1594.0
-   :mean_clicks_to_correct: 2.4190715182
+   :pct_on_first: 0.4331484904
+   :total_students_attempting: 1623
+   :num_students_correct: 1613.0
+   :mean_clicks_to_correct: 2.4153750775
 
    What’s the type of your iterator variable in the first iteration?
    

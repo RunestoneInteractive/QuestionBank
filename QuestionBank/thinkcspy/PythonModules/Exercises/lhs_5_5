@@ -1,8 +1,10 @@
 .. activecode:: lhs_5_5
     :author: LHS CS Team
-    :difficulty: 2
+    :difficulty: 2.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Exercises
+    :chapter: PythonModules
+    :subchapter: Exercises
+    :topics: PythonModules/Exercises
     :from_source: F
     :language: python
     :autograde: unittest

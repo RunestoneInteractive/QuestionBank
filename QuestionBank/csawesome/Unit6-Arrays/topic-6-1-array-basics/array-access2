@@ -1,17 +1,23 @@
 .. fillintheblank:: array-access2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csawesome
-    :topic: Unit6-Arrays/topic-6-1-array-basics
+    :chapter: Unit6-Arrays
+    :subchapter: topic-6-1-array-basics
+    :topics: Unit6-Arrays/topic-6-1-array-basics
     :from_source: T
+    :pct_on_first: 0.6333010179
+    :total_students_attempting: 4126
+    :num_students_correct: 3759.0
+    :mean_clicks_to_correct: 1.9406757116
 
     Fill in the blank with code to access the cars array.  NOTE: The semicolon is provided for you after the box.
-
-   String[] cars = {"Honda", "Volvo", "BMW"};
-
-   // Set the first item of the cars array to be Toyota
-
-   |blank|  = "Toyota";
-
-   -   :cars\[0\]: Correct.
+    
+    tring[] cars = {"Honda", "Volvo", "BMW"};
+    
+    / Set the first item of the cars array to be Toyota
+    
+    blank|  = "Toyota";
+    
+       :cars\[0\]: Correct.
        :x: Use the array name cars with [ ] with a number in it. Remember which index is for the first item in the array. Don't use spaces in your answer!

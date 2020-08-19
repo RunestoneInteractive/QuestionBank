@@ -1,8 +1,10 @@
 .. mchoice:: MSIT-03-02b
    :author: Kevin Austin
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Debugging/Exercises
+   :chapter: Debugging
+   :subchapter: Exercises
+   :topics: Debugging/Exercises
    :from_source: F
    :multiple_answers: 
    :random: 
@@ -17,9 +19,9 @@
    :answer_e: Get code from the internet.  Why reinvent the wheel?
    :feedback_e: No.  Reading is good.  Copying without understanding will not be helpful.
    :correct: d
-   :pct_on_first: 0.5357142857
-   :total_students_attempting: 84
-   :num_students_correct: 82.0
-   :mean_clicks_to_correct: 1.8902439024
+   :pct_on_first: 0.5340909091
+   :total_students_attempting: 88
+   :num_students_correct: 86.0
+   :mean_clicks_to_correct: 1.9186046512
 
    Which of the following activities will help you avoid debugging while solving programming problems …

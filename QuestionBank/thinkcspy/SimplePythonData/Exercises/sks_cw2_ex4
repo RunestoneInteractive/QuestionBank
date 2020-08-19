@@ -1,8 +1,10 @@
 .. activecode:: sks_cw2_ex4
    :author: Shishir Shah
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: thinkcspy
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
    :pct_on_first: 0.0622009569

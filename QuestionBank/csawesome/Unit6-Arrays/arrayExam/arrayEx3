@@ -1,8 +1,10 @@
 .. mchoice:: arrayEx3
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/arrayExam
+   :chapter: Unit6-Arrays
+   :subchapter: arrayExam
+   :topics: Unit6-Arrays/arrayExam
    :from_source: T
    :practice: T
    :answer_a: 1
@@ -16,11 +18,15 @@
    :feedback_c: This changes b[x[i]] to true and then counts the number of true in b.  Since x only has 3 distinct values in it the answer will be 3.
    :feedback_d: This would be true if there were 4 distinct values in x.
    :feedback_e: This would be true if it was ``b[i] = true`` instead of ``b[x[i]] = true``.
+   :pct_on_first: 0.5289855072
+   :total_students_attempting: 1104
+   :num_students_correct: 728.0
+   :mean_clicks_to_correct: 1.364010989
 
    What is the value of ``count`` after the following code has executed?
-
+   
    .. code-block:: java
-
+   
      int [] x = {1, 2, 3, 3, 3};
      boolean b[] = new boolean[x.length];
      for (int i = 0; i < b.length; i++)

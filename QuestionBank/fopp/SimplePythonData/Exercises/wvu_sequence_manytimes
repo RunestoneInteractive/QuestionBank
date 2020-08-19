@@ -1,8 +1,10 @@
 .. activecode:: wvu_sequence_manytimes
    :author: Brian Powell
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: SimplePythonData/Exercises
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
    :from_source: F
    :autograde: unittest
    :pct_on_first: 0.173553719

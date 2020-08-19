@@ -1,15 +1,17 @@
 .. activecode:: TL_365_h1_q4_1
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: GeneralIntro/Exercises
+   :chapter: GeneralIntro
+   :subchapter: Exercises
+   :topics: GeneralIntro/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.4127659574
-   :total_students_attempting: 235
-   :num_students_correct: 142.0
-   :mean_clicks_to_correct: 1.8732394366
+   :pct_on_first: 0.4149377593
+   :total_students_attempting: 241
+   :num_students_correct: 148.0
+   :mean_clicks_to_correct: 1.9121621622
 
    Initialize two variables to values ``9`` and ``2`` respectively. 
    Then:

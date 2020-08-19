@@ -1,8 +1,10 @@
 .. activecode::  3_7_5_WSa
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPNameNumbers/walkAssign
+    :chapter: CSPNameNumbers
+    :subchapter: walkAssign
+    :topics: CSPNameNumbers/walkAssign
     :from_source: T
     :nocodelens:
 

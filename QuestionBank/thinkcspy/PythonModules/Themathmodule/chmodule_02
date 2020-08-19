@@ -1,8 +1,10 @@
 .. activecode:: chmodule_02
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: PythonModules/Themathmodule
+    :chapter: PythonModules
+    :subchapter: Themathmodule
+    :topics: PythonModules/Themathmodule
     :from_source: T
 
     import math

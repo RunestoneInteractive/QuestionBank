@@ -1,8 +1,10 @@
 .. activecode:: ac18_4_2
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Sorting/SortingaDictionary
+    :chapter: Sorting
+    :subchapter: SortingaDictionary
+    :topics: Sorting/SortingaDictionary
     :from_source: T
 
     L = ['E', 'F', 'B', 'A', 'D', 'I', 'I', 'C', 'B', 'A', 'D', 'D', 'E', 'D']

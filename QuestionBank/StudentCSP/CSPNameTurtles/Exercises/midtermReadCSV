@@ -1,11 +1,17 @@
 .. parsonsprob:: midtermReadCSV
    :author: Barbara  Ericson
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPNameTurtles/Exercises
+   :chapter: CSPNameTurtles
+   :subchapter: Exercises
+   :topics: CSPNameTurtles/Exercises
    :from_source: F
-   :adaptive:
+   :adaptive: 
    :numbered: left
+   :pct_on_first: 0.12
+   :total_students_attempting: 125
+   :num_students_correct: 125.0
+   :mean_clicks_to_correct: 5.184
 
    Put the mixed up code below in order to define a function user_counts that reads from a csv file and returns a dictionary of the users and the number of times each user has an entry in the log file.
    -----

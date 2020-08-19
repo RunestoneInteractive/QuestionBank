@@ -1,9 +1,11 @@
 .. activecode:: integerMethods
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csjava
-   :topic: Unit2-Using-Objects/topic-2-8-IntegerDouble
-   :from_source: T
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-8-IntegerDouble
+   :topics: Unit2-Using-Objects/topic-2-8-IntegerDouble
+   :from_source: F
    :language: java
    :autograde: unittest
 
@@ -21,7 +23,6 @@
         String ageStr = "16";
         // Integer.parseInt and Double.parseDouble are often used to
         // convert an input string to a number so you can do math on it.
-        // They are not on the AP exam
         System.out.println("Age " + ageStr + " in 10 years is " + (Integer.parseInt(ageStr) + 10) );
         System.out.println("Note that + with strings does concatenation, not addition: " + (ageStr + 10));
       }

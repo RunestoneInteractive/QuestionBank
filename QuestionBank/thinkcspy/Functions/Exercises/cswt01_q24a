@@ -1,8 +1,10 @@
 .. mchoice:: cswt01_q24a
    :author: Lloyd Smith
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: F
    :answer_a: Prints the sum of all the even integers between 2 and 10 (including 10)
    :answer_b: Prints the sum of all the integers between 2 and 10 (including 10)

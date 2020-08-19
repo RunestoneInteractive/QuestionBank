@@ -1,8 +1,10 @@
 .. activecode:: Turtle_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPrinTeasers/computeTurtles
+    :chapter: CSPrinTeasers
+    :subchapter: computeTurtles
+    :topics: CSPrinTeasers/computeTurtles
     :from_source: T
     :tour_1: "Line-by-line Tour"; 1: first-turtle-line-1; 2: first-turtle-line-2; 3: first-turtle-line-3; 4: first-turtle-line-4; 5: first-turtle-line-5; 6: first-turtle-line-6;
     :nocodelens:

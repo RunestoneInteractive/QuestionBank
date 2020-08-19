@@ -1,8 +1,10 @@
 .. activecode:: lcfrgia1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit8-2DArray/grayImageA
+   :chapter: Unit8-2DArray
+   :subchapter: grayImageA
+   :topics: Unit8-2DArray/grayImageA
    :from_source: T
    :language: java
 

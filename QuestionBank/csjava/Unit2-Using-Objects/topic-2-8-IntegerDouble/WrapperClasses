@@ -1,9 +1,11 @@
 .. dragndrop:: WrapperClasses
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit2-Using-Objects/topic-2-8-IntegerDouble
-    :from_source: T
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-8-IntegerDouble
+    :topics: Unit2-Using-Objects/topic-2-8-IntegerDouble
+    :from_source: F
     :feedback: Review the vocabulary.
     :match_1: automatic conversion from the primitive type to the wrapper object|||autoboxing
     :match_2: automatic conversion from the wrapper object to the primitive type|||unboxing

@@ -1,0 +1,14 @@
+.. fillintheblank:: q1_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit1-Getting-Started
+   :subchapter: topic-1-4-assignment
+   :topics: Unit1-Getting-Started/topic-1-4-assignment
+   :from_source: T
+
+   |codeq|
+   The code above shows the variable state in memory after line 9 is executed. What is printed when line 10 is executed?
+
+   -    :12: Correct.
+        :.*: num3 - num1 = 19 - 7 = 12

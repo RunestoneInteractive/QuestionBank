@@ -1,8 +1,10 @@
 .. activecode:: Two_Turtles
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPNameTurtles/multTurtles
+    :chapter: CSPNameTurtles
+    :subchapter: multTurtles
+    :topics: CSPNameTurtles/multTurtles
     :from_source: T
     :tour_1: "Line-by-line Tour"; 1: tt-line1; 2: tt-line2; 3: tt-line3; 4: tt-line4; 5: tt-line5; 6: tt-line6; 7: tt-line7; 8: tt-line8; 9: tt-line9; 10: tt-line10; 11: tt-line11; 12: tt-line12;
     :nocodelens:

@@ -1,0 +1,39 @@
+.. mchoice:: qfor-each
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: csjava
+   :chapter: Unit7-Arrays
+   :subchapter: topic-6-3-arrays-with-foreach
+   :topics: Unit7-Arrays/topic-6-3-arrays-with-foreach
+   :from_source: F
+   :practice: T
+
+   What is the output of the following code segment?
+
+   .. code-block:: java
+
+      int[ ] numbers = {44, 33, 22, 11};
+      for (int num : numbers)
+      {
+          num *= 2;
+      }
+      for (int num : numbers)
+      {
+          System.out.print(num + " ");
+      }
+
+   - 44 33 22 11
+
+     + The array is unchanged because the foreach loop cannot modify the array elements.
+
+   - 46 35 24 13
+
+     - Remember that the foreach loop cannot modify the array elements, but it also uses multiplication, not addition.
+
+   - 88 66 44 22
+
+     - Remember that the foreach loop cannot modify the array elements. Only the variable num will be doubled, not the original array values.
+
+   - The code will not compile.
+
+     - This code will compile.

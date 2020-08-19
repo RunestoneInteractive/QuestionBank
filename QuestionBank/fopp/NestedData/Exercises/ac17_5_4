@@ -1,13 +1,15 @@
 .. actex:: ac17_5_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/Exercises
+   :chapter: NestedData
+   :subchapter: Exercises
+   :topics: NestedData/Exercises
    :from_source: T
-   :pct_on_first: 0.1098901099
-   :total_students_attempting: 91
-   :num_students_correct: 66.0
-   :mean_clicks_to_correct: 8.6818181818
+   :pct_on_first: 0.1075268817
+   :total_students_attempting: 93
+   :num_students_correct: 68.0
+   :mean_clicks_to_correct: 8.6176470588
 
    Provided is a dictionary that contains pokemon go player data, where each player reveals the amount of candy each of their pokemon have. If you pooled all the data together, which pokemon has the highest number of candy? Assign that pokemon to the variable ``most_common_pokemon``.
    ~~~~

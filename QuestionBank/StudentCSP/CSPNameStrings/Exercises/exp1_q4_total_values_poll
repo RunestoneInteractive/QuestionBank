@@ -1,8 +1,10 @@
 .. poll:: exp1_q4_total_values_poll
     :author: Carl Christopher Haynes
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: StudentCSP
-    :topic: CSPNameStrings/Exercises
+    :chapter: CSPNameStrings
+    :subchapter: Exercises
+    :topics: CSPNameStrings/Exercises
     :from_source: F
     :allowcomment: 
     :option_1: Very, very low mental effort

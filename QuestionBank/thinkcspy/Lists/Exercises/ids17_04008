@@ -1,8 +1,10 @@
 .. activecode:: ids17_04008
     :author:  KUO TZU-CHI
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: Lists/Exercises
+    :chapter: Lists
+    :subchapter: Exercises
+    :topics: Lists/Exercises
     :from_source: F
 
     6.13(劉邦鋒，由片語學習C程式設計)現有一個n乘n乘n的立方體。立方體的每一個小格都有一個從1到n^3不同的數字。我們將這n^3個號碼一次一個隨機抽出。如果已抽出數字形成一行、一列、一直行或一個對角線，則稱為"bingo"。注意一個對角線可從一個角到任意另一個角。請檢查一序列的數字何時出現"bingo"。

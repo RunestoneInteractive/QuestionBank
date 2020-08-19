@@ -1,15 +1,17 @@
 .. actex:: TL_365_pig_latin
    :author: Tyler Luchko
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: TransformingSequences/Exercises
+   :chapter: TransformingSequences
+   :subchapter: Exercises
+   :topics: TransformingSequences/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.0317460317
-   :total_students_attempting: 126
-   :num_students_correct: 31.0
-   :mean_clicks_to_correct: 15.6451612903
+   :pct_on_first: 0.0387596899
+   :total_students_attempting: 129
+   :num_students_correct: 33.0
+   :mean_clicks_to_correct: 14.8787878788
 
    Pig latin is a `language game or argot
    <https://en.wikipedia.org/wiki/Pig_Latin>`_. The rules are

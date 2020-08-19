@@ -1,8 +1,10 @@
 .. activecode:: files_for
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcspy
-    :topic: Files/Iteratingoverlinesinafile
+    :chapter: Files
+    :subchapter: Iteratingoverlinesinafile
+    :topics: Files/Iteratingoverlinesinafile
     :from_source: T
     :nocodelens:
     :available_files: qbdata.txt

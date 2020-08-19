@@ -1,8 +1,10 @@
 .. mchoice:: question17_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: NestedData/NestedDictionaries
+   :chapter: NestedData
+   :subchapter: NestedDictionaries
+   :topics: NestedData/NestedDictionaries
    :from_source: T
    :practice: T
    :multiple_answers: 
@@ -15,10 +17,10 @@
    :feedback_b: Dictionary keys must be of immutable types. A dictionary can't be used as a key in a dictionary.
    :feedback_c: d['key2'] is {'b': 3, 'c': "yes"}, a python object. It can be bound to the key 'd' in a dictionary {'a': 5, 'c': 90, 5: 50}
    :feedback_d: key2 is an unbound variable here. d['key2'] would be OK.
-   :pct_on_first: 0.106017192
-   :total_students_attempting: 349
-   :num_students_correct: 345.0
-   :mean_clicks_to_correct: 3.3797101449
+   :pct_on_first: 0.1036414566
+   :total_students_attempting: 357
+   :num_students_correct: 353.0
+   :mean_clicks_to_correct: 3.3852691218
 
    Which of the following is a legal assignment statement, after the following code executes?
    

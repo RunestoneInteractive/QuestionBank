@@ -1,8 +1,10 @@
 .. mchoice:: e24_1_8
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: T
    :answer_a: 4
    :answer_b: 8
@@ -13,10 +15,14 @@
    :feedback_b: Incorrect. This would be true if the loop terminated at i = 3
    :feedback_c: Correct. This is true since the loop runs 3 times and we are multiplying 'n' with 2 in each iteration.
    :feedback_d: Incorrect. This would be true if the loop terminated at i = 5
+   :pct_on_first: 0.6090750436
+   :total_students_attempting: 573
+   :num_students_correct: 423.0
+   :mean_clicks_to_correct: 1.2222222222
 
    Trace the value of an integer variable ``n`` in the following code.
    ::
-
+   
       i ← 1
       n ← 2
       REPEAT until i = 4
@@ -24,5 +30,5 @@
          n ← n * 2
          i ← i + 1
       }
-
+   
    What is the value of ``n`` after the above code executes?

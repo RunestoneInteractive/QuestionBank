@@ -1,19 +1,25 @@
 .. mchoice:: 4_4_2_Story2_Q1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: StudentCSP
-   :topic: CSPNameStrings/madlib
+   :chapter: CSPNameStrings
+   :subchapter: madlib
+   :topics: CSPNameStrings/madlib
    :from_source: T
    :answer_a: Yes
    :answer_b: No
    :correct: a
    :feedback_a: The only thing that is different is when the lines are printed, but the lines are the same.
    :feedback_b: Did you try it?  Copy the code into the program area above and run it.
+   :pct_on_first: 0.7556346382
+   :total_students_attempting: 1686
+   :num_students_correct: 1681.0
+   :mean_clicks_to_correct: 1.259964307
 
    Would the following code print the same story as shown above?
-
+   
    ::
-
+   
      firstName = "Sofia"
      lastName = "Diaz"
      gender = "girl"

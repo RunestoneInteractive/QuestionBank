@@ -1,15 +1,17 @@
 .. actex:: ex_7_9
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: MoreAboutIteration/Exercises
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.3942695722
-   :total_students_attempting: 2478
-   :num_students_correct: 2199.0
-   :mean_clicks_to_correct: 5.0550250114
+   :pct_on_first: 0.3934294872
+   :total_students_attempting: 2496
+   :num_students_correct: 2215.0
+   :mean_clicks_to_correct: 5.0528216704
 
    Write a function, ``is_prime``, that takes a single integer argument
    and returns ``True`` when the argument is a *prime number* and ``False``

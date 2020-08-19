@@ -1,8 +1,10 @@
 .. activecode:: Bishop_error_check
    :author: Carlee Bishop
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: Files/ChapterAssessment
+   :chapter: Files
+   :subchapter: ChapterAssessment
+   :topics: Files/ChapterAssessment
    :from_source: F
    
    :available_files: school_prompt.txt

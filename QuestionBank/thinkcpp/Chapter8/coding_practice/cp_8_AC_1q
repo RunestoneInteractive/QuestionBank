@@ -1,21 +1,22 @@
 .. activecode:: cp_8_AC_1q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcpp
-   :topic: Chapter8/coding_practice
+   :chapter: Chapter8
+   :subchapter: coding_practice
+   :topics: Chapter8/coding_practice
    :from_source: T
    :language: cpp
+   :practice: T
+   :stdin: 4, 6
 
    #include <iostream>
-   #include "ctype.h"
    using namespace std;
 
-   bool isPalindrome (string input) {
+   void rectangleInfo () {
        // Write your implementation here.
    }
 
    int main() {
-       cout << isPalindrome ("racecar") << endl;               // Should output 1
-       cout << isPalindrome ("no lemon, no melon") << endl;    // Should output 1
-       cout << isPalindrome ("kangaroo") << endl;              // Should output 0
+       rectangleInfo ();
    }

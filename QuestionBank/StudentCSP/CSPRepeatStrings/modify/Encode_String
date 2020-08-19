@@ -1,8 +1,10 @@
 .. codelens:: Encode_String
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatStrings/modify
+    :chapter: CSPRepeatStrings
+    :subchapter: modify
+    :topics: CSPRepeatStrings/modify
     :from_source: T
 
     message = "meet me at midnight"

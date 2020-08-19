@@ -1,8 +1,10 @@
 .. mchoice:: test_question3_5_5
   :author: bmiller
-  :difficulty: 3
+  :difficulty: 3.0
   :basecourse: thinkcspy
-  :topic: PythonTurtle/TherangeFunction
+  :chapter: PythonTurtle
+  :subchapter: TherangeFunction
+  :topics: PythonTurtle/TherangeFunction
   :from_source: T
   :practice: T
   :answer_a: No other value would give the same sequence.
@@ -12,9 +14,9 @@
   :feedback_a: The sequence produced has steps of 4: 2, 6, 10.  The next would be 14, but it is not before the limit 12.  There are other limit choices past 10, but not past 14.
   :feedback_b: 14 would work:  It is also past 10, and not past 14, but there are other integers with the same properties.
   :feedback_c: Yes, any integer past 10, and not past the next step at 14 would work.
-  :pct_on_first: 0.628706489
-  :total_students_attempting: 16289
-  :num_students_correct: 16185.0
-  :mean_clicks_to_correct: 1.534321903
+  :pct_on_first: 0.6294106893
+  :total_students_attempting: 16409
+  :num_students_correct: 16303.0
+  :mean_clicks_to_correct: 1.5329080537
 
   What could the second parameter (12) in range(2, 12, 4) be replaced with and generate exactly the same sequence?

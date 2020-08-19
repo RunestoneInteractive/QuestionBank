@@ -1,15 +1,17 @@
 .. actex:: ex_5_13
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: thinkcspy
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
    :practice: T
    :autograde: unittest
-   :pct_on_first: 0.5269352648
-   :total_students_attempting: 2209
-   :num_students_correct: 2095.0
-   :mean_clicks_to_correct: 3.6272076372
+   :pct_on_first: 0.5271422162
+   :total_students_attempting: 2229
+   :num_students_correct: 2113.0
+   :mean_clicks_to_correct: 3.6142924752
 
    Rewrite the function ``sumTo(n)`` that returns the sum of all integer numbers up to and
    including `n`.   This time use the accumulator pattern.

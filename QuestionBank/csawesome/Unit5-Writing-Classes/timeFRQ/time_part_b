@@ -1,11 +1,17 @@
 .. activecode:: time_part_b
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit5-Writing-Classes/timeFRQ
+   :chapter: Unit5-Writing-Classes
+   :subchapter: timeFRQ
+   :topics: Unit5-Writing-Classes/timeFRQ
    :from_source: T
    :language: java
    :autograde: unittest
+   :pct_on_first: 0.125
+   :total_students_attempting: 32
+   :num_students_correct: 17.0
+   :mean_clicks_to_correct: 5.6470588235
 
    /**
     * Objects of the Time class hold a time value for
@@ -20,7 +26,7 @@
       private int hours;
       private int minutes;
       private int seconds;
-
+   
       /**
        * Creates a new Time object set to 00:00:00.
        * Do not change this constructor.
@@ -31,7 +37,7 @@
          this.minutes = 0;
          this.seconds = 0;
       }
-
+   
       /**
        * Constructor for objects of class Time.
        * Creates a new Time object set to h:m:s.
@@ -46,7 +52,7 @@
          this.minutes = m;
          this.seconds = s;
       }
-
+   
       /**
        * Add an offset to this Time.
        * Rolls over the hours, minutes and seconds fields when needed.
@@ -55,12 +61,12 @@
       {
            // Part b: complete the add method
       }
-
+   
       public String toString()
       {
          return pad(hours) + ":" + pad(minutes) + ":" + pad(seconds);
       }
-
+   
       /**
        * Returns a string representing the argument value, adding a leading
        * "0" if needed to make it at least two digits long.
@@ -80,7 +86,7 @@
              return sign + value;
           }
        }
-
+   
        public static void main(String[] args)
        {
           Time time1 = new Time(1,1,1);
@@ -88,39 +94,39 @@
           time1.add(time2);
           System.out.println("The result of (1,1,1).add(2,2,2) is " +
                               time1 + " and should be (03:03:03)");
-
+   
           time1 = new Time(0,0,59);
           time2 = new Time(0,0,1);
           time1.add(time2);
           System.out.println("The result of (0,0,59).add(0,0,1) is " +
                               time1 + " and should be (00:01:00)");
-
+   
           time1 = new Time(0,59,0);
           time2 = new Time(0,0,1);
           time1.add(time2);
           System.out.println("The result of (0,59,0).add(0,0,1) is " +
                               time1 + " and should be (00:59:01)");
-
+   
           time1 = new Time(0,59,59);
           time2 = new Time(0,0,1);
           time1.add(time2);
           System.out.println("The result of (0,59,59).add(0,0,1) is " +
                               time1 + " and should be (01:00:00)");
-
+   
           time1 = new Time(23,0,0);
           time2 = new Time(1,0,0);
           time1.add(time2);
           System.out.println("The result of (23,0,0).add(1,0,0) is " +
                               time1 + " and should be (00:00:00)");
-
+   
           time1 = new Time(23,59,59);
           time2 = new Time(23,59,59);
           time1.add(time2);
           System.out.println("The result of (23,59,59).add(23,59,59) is " +
                               time1 + " and should be (23:59:58)");
-
-
-
+   
+   
+   
        }
     }
     ====
@@ -130,7 +136,7 @@
     import org.junit.Before;
     import org.junit.Test;
     import java.io.*;
-
+   
     public class RunestoneTests extends CodeTestHelper
     {
         @Test
@@ -139,82 +145,82 @@
             Time time1 = new Time(1,1,1);
             Time time2 = new Time(2,2,2);
             time1.add(time2);
-
+   
             String expected = "03:03:03";
             String actual = time1.toString();
-
+   
             String msg = time1.toString() +".add(" + time2.toString() + ")";
-
+   
             boolean passed = getResults(expected, actual, msg);
             assertTrue(passed);
         }
-
+   
         @Test
         public void test2() throws IOException
         {
             Time time1 = new Time(0,0,59);
             Time time2 = new Time(0,0,1);
             time1.add(time2);
-
+   
             String expected = "00:01:00";
             String actual = time1.toString();
-
+   
             boolean passed = getResults(expected, actual, time1.toString() +".add(" + time2.toString() + ")");
             assertTrue(passed);
         }
-
+   
         @Test
         public void test3() throws IOException
         {
             Time time1 = new Time(0,59,0);
             Time time2 = new Time(0,0,1);
             time1.add(time2);
-
+   
             String expected = "00:59:01";
             String actual = time1.toString();
-
+   
             boolean passed = getResults(expected, actual, time1.toString() +".add(" + time2.toString() + ")");
             assertTrue(passed);
         }
-
+   
         @Test
         public void test4() throws IOException
         {
             Time time1 = new Time(0,59,59);
             Time time2 = new Time(0,0,1);
             time1.add(time2);
-
+   
             String expected = "01:00:00";
             String actual = time1.toString();
-
+   
             boolean passed = getResults(expected, actual, time1.toString() +".add(" + time2.toString() + ")");
             assertTrue(passed);
         }
-
+   
         @Test
         public void test5() throws IOException
         {
             Time time1 = new Time(23,0,0);
             Time time2 = new Time(1,0,0);
             time1.add(time2);
-
+   
             String expected = "00:00:00";
             String actual = time1.toString();
-
+   
             boolean passed = getResults(expected, actual, time1.toString() +".add(" + time2.toString() + ")");
             assertTrue(passed);
         }
-
+   
         @Test
         public void test6() throws IOException
         {
             Time time1 = new Time(23,59,59);
             Time time2 = new Time(23,59,59);
             time1.add(time2);
-
+   
             String expected = "23:59:58";
             String actual = time1.toString();
-
+   
             boolean passed = getResults(expected, actual, time1.toString() +".add(" + time2.toString() + ")");
             assertTrue(passed);
         }

@@ -1,8 +1,10 @@
 .. activecode:: hu_caesar_shift_prompt
     :author: Sean Joyce
-    :difficulty: 4
+    :difficulty: 4.0
     :basecourse: fopp
-    :topic: TransformingSequences/Exercises
+    :chapter: TransformingSequences
+    :subchapter: Exercises
+    :topics: TransformingSequences/Exercises
     :from_source: F
    
     Write a program that prompts the user to enter a string of text. Store the 

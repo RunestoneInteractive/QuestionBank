@@ -1,8 +1,10 @@
 .. mchoice:: qoo_6s
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit9-Inheritance/topic-9-4-super
+   :chapter: Unit9-Inheritance
+   :subchapter: topic-9-4-super
+   :topics: Unit9-Inheritance/topic-9-4-super
    :from_source: T
    :practice: T
    :answer_a: AB
@@ -16,11 +18,15 @@
    :feedback_c: After the call to methodOne in the super class printing "A", the code continues with the implicit this.methodTwo which resolves from the current object's class which is Derived. methodTwo in the Derived class is executed which then calls super.methodTwo which invokes printin "B" from methodTwo in the Base class. Then the "D" in the Derive methodTwo is printed. Finally the program returns to methodOne in the Derived class are prints "C".
    :feedback_d: The call to methodTwo in super.methodOne is to this.methodTwo which is the method from the Derived class. Consequently the "D" is also printed.
    :feedback_e: Remember that it will first look for a method in its own class.
+   :pct_on_first: 0.1797684339
+   :total_students_attempting: 1641
+   :num_students_correct: 1627.0
+   :mean_clicks_to_correct: 2.7289489859
 
    Given the following class declarations, and assuming that the following declaration appears in a client program: ``Base b = new Derived();``, what is the result of the call ``b.methodOne();``?
-
+   
    .. code-block:: java
-
+   
      public class Base
      {
         public void methodOne()
@@ -28,13 +34,13 @@
           System.out.print("A");
           methodTwo();
         }
-
+   
         public void methodTwo()
         {
           System.out.print("B");
         }
      }
-
+   
      public class Derived extends Base
      {
         public void methodOne()
@@ -42,7 +48,7 @@
            super.methodOne();
            System.out.print("C");
         }
-
+   
         public void methodTwo()
         {
           super.methodTwo();

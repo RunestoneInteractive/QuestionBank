@@ -1,13 +1,15 @@
 .. activecode:: KDL_Project
    :author: Kaelyn Leake
-   :difficulty: 0
+   :difficulty: 0.0
    :basecourse: fopp
-   :topic: BuildingPrograms/Exercises
+   :chapter: BuildingPrograms
+   :subchapter: Exercises
+   :topics: BuildingPrograms/Exercises
    :from_source: F
    :autograde: unittest
    :language: python
    :pct_on_first: 0.0
-   :total_students_attempting: 58
+   :total_students_attempting: 61
    :num_students_correct: 11.0
    :mean_clicks_to_correct: 68.9090909091
 

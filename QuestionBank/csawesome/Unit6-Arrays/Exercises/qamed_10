@@ -1,8 +1,10 @@
 .. mchoice:: qamed_10
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit6-Arrays/Exercises
+   :chapter: Unit6-Arrays
+   :subchapter: Exercises
+   :topics: Unit6-Arrays/Exercises
    :from_source: T
    :practice: T
    :answer_a: The values don't matter this will always cause an infinite loop.
@@ -16,11 +18,15 @@
    :feedback_c: Values larger then <code>temp</code> will not cause an infinite loop.
    :feedback_d: Values larger then <code>temp</code> will not cause an infinite loop.
    :feedback_e: Values equal to <code>temp</code> will not cause the infinite loop.
+   :pct_on_first: 0.4754901961
+   :total_students_attempting: 1836
+   :num_students_correct: 1794.0
+   :mean_clicks_to_correct: 2.2775919732
 
    Given the following code segment, which of the following will cause an infinite loop?  Assume that ``temp`` is an ``int`` variable initialized to be greater than zero and that ``a`` is an array of ints.
-
+   
    .. code-block:: java
-
+   
       for ( int k = 0; k < a.length; k++ )
       {
          while ( a[ k ] < temp )

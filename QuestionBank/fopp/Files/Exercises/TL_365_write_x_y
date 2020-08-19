@@ -1,15 +1,17 @@
 .. actex:: TL_365_write_x_y
    :author: Tyler Luchko
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: fopp
-   :topic: Files/Exercises
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1542553191
-   :total_students_attempting: 188
-   :num_students_correct: 112.0
-   :mean_clicks_to_correct: 4.4285714286
+   :pct_on_first: 0.1570680628
+   :total_students_attempting: 191
+   :num_students_correct: 115.0
+   :mean_clicks_to_correct: 4.3652173913
 
    Write the contents of the ``x`` and ``y`` lists to a file called
    ``xy2.dat`` with one value from ``x`` and ``y`` on each line, separated by a comma.

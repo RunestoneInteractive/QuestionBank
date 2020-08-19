@@ -1,8 +1,10 @@
 .. activecode:: sum_first_n_1
     :author: LHS CS Team
-    :difficulty: 1
+    :difficulty: 1.0
     :basecourse: thinkcspy
-    :topic: not set
+    :chapter: Labs
+    :subchapter: 
+    :topics: not set
     :from_source: F
     :language: python
 

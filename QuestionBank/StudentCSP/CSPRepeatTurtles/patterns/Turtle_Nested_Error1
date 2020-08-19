@@ -1,8 +1,10 @@
 .. activecode:: Turtle_Nested_Error1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPRepeatTurtles/patterns
+    :chapter: CSPRepeatTurtles
+    :subchapter: patterns
+    :topics: CSPRepeatTurtles/patterns
     :from_source: T
     :nocodelens:
 

@@ -1,8 +1,10 @@
 .. activecode:: sd_fortune
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: StudentCSP
-    :topic: CSPStringDecisions/fortuneTeller
+    :chapter: CSPStringDecisions
+    :subchapter: fortuneTeller
+    :topics: CSPStringDecisions/fortuneTeller
     :from_source: T
     :tour_1: "Structural Tour"; 1: sd4-line1; 2-3: sd4-line2-3; 4-5: sd4-line4-5; 6-7: sd4-line6-7; 8-9: sd4-line8-9; 10-11: sd4-line10-11;
     :nocodelens:

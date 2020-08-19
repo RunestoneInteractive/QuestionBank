@@ -1,8 +1,10 @@
 .. mchoice:: question5_7_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/ConcatenationandRepetition
+   :chapter: Sequences
+   :subchapter: ConcatenationandRepetition
+   :topics: Sequences/ConcatenationandRepetition
    :from_source: T
    :answer_a: 6
    :answer_b: [1,2,3,4,5,6]
@@ -14,10 +16,10 @@
    :feedback_c: Yes, a new list with all the items of the first list followed by all those from the second.
    :feedback_d: Concatenation does not add the individual items.
    :practice: T
-   :pct_on_first: 0.8164705882
-   :total_students_attempting: 2125
-   :num_students_correct: 2120.0
-   :mean_clicks_to_correct: 1.2353773585
+   :pct_on_first: 0.8168685927
+   :total_students_attempting: 2146
+   :num_students_correct: 2141.0
+   :mean_clicks_to_correct: 1.2344698739
 
    What is printed by the following statements?
    

@@ -1,8 +1,10 @@
 .. activecode:: ac13_6_7
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: PythonModules/ChapterAssessment
+   :chapter: PythonModules
+   :subchapter: ChapterAssessment
+   :topics: PythonModules/ChapterAssessment
    :from_source: F
 
    numb = [1, 2, 3, 4, 5]

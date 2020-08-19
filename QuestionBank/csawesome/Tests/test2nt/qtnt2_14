@@ -1,8 +1,10 @@
 .. mchoice:: qtnt2_14
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Tests/test2nt
+   :chapter: Tests
+   :subchapter: test2nt
+   :topics: Tests/test2nt
    :from_source: T
    :answer_a: The method will produce an infinite loop.
    :answer_b: 19
@@ -15,18 +17,22 @@
    :feedback_c: This method finds the number of digits in num.
    :feedback_d: This method finds the number of digits in num. Check your recursive call to make sure you reached the base case correctly.
    :feedback_e: This would be correct if the method added the digits in the value. Instead, the method simply finds the number of digits. Check the recursive call again.
+   :pct_on_first: 0.5351351351
+   :total_students_attempting: 185
+   :num_students_correct: 182.0
+   :mean_clicks_to_correct: 1.9340659341
 
    Given the following code, what is returned by mystery(5364)?
-
+   
    .. code-block:: java
-
+   
      public static int mystery(int num)
      {
         if (num < 10)
         {
            return 1;
         }
-
+   
         else
         {
            return 1 + mystery(num / 10);

@@ -1,14 +1,16 @@
 .. activecode:: lhs_2_13a
     :author: LHS CS Team
-    :difficulty: 0
+    :difficulty: 0.0
     :basecourse: thinkcspy
-    :topic: SimplePythonData/Exercises
+    :chapter: SimplePythonData
+    :subchapter: Exercises
+    :topics: SimplePythonData/Exercises
     :from_source: F
     :language: python
     :autograde: unittest
     :nocodelens: 
-    :pct_on_first: 0.0148148148
-    :total_students_attempting: 270
+    :pct_on_first: 0.0147601476
+    :total_students_attempting: 271
     :num_students_correct: 192.0
     :mean_clicks_to_correct: 14.6145833333
 

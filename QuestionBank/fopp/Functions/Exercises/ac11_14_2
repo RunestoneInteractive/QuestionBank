@@ -1,13 +1,15 @@
 .. actex:: ac11_14_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
    :from_source: T
-   :pct_on_first: 0.4810810811
-   :total_students_attempting: 370
-   :num_students_correct: 349.0
-   :mean_clicks_to_correct: 2.1375358166
+   :pct_on_first: 0.4811827957
+   :total_students_attempting: 372
+   :num_students_correct: 351.0
+   :mean_clicks_to_correct: 2.1367521368
 
    Write a function that will return the number of digits in an integer.
    ~~~~

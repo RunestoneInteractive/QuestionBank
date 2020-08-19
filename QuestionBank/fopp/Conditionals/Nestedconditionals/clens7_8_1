@@ -1,8 +1,10 @@
 .. codelens:: clens7_8_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Conditionals/Nestedconditionals
+    :chapter: Conditionals
+    :subchapter: Nestedconditionals
+    :topics: Conditionals/Nestedconditionals
     :from_source: T
     :python: py3
     :showoutput:

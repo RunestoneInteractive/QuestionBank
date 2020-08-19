@@ -1,8 +1,10 @@
 .. dragndrop:: dnd9_1
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: thinkcpp
-    :topic: Chapter9/functions_for_objects
+    :chapter: Chapter9
+    :subchapter: functions_for_objects
+    :topics: Chapter9/functions_for_objects
     :from_source: T
     :feedback: Try again.
     :match_1: pure function|||Does not modify objects. The return values is either a basic type or a new object that was create in the function. Takes objects and/or basic types as arguments.

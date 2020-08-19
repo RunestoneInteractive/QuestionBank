@@ -1,8 +1,10 @@
 .. parsonsprob:: MattTest1
    :author: Matt C
-   :difficulty: 1
+   :difficulty: 1.0
    :basecourse: StudentCSP
-   :topic: CSPPracticeQuestions/Exercises
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
    :from_source: F
    :maxdist:
    :order:

@@ -1,8 +1,10 @@
 .. mchoice:: question6_6_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Iteration/TheAccumulatorPattern
+   :chapter: Iteration
+   :subchapter: TheAccumulatorPattern
+   :topics: Iteration/TheAccumulatorPattern
    :from_source: T
    :answer_a: It will print out 10 instead of 55
    :answer_b: It will cause a run-time error
@@ -12,10 +14,10 @@
    :feedback_b: Assignment statements are perfectly legal inside loops and will not cause an error.
    :feedback_c: Good thought: the variable accum will be reset to 0 each time through the loop. But then it adds the current item.
    :practice: T
-   :pct_on_first: 0.5901116427
-   :total_students_attempting: 1881
-   :num_students_correct: 1867.0
-   :mean_clicks_to_correct: 1.6052490627
+   :pct_on_first: 0.5913638757
+   :total_students_attempting: 1899
+   :num_students_correct: 1885.0
+   :mean_clicks_to_correct: 1.6037135279
 
    Consider the following code:
    

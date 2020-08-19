@@ -2,7 +2,7 @@
    :author: bmiller
    :difficulty: 3
    :basecourse: csjava
-   :topic: Unit5-Writing-Classes/FRQstepTracker
+   :topics: Unit5-Writing-Classes/FRQstepTracker
    :from_source: T
    :answer_a: the minimum number of steps that must be taken for a day to be considered active
    :answer_b: the number of active days

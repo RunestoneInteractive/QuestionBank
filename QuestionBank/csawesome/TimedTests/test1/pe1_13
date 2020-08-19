@@ -1,8 +1,10 @@
 .. mchoice:: pe1_13
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: TimedTests/test1
+   :chapter: TimedTests
+   :subchapter: test1
+   :topics: TimedTests/test1
    :from_source: T
    :answer_a: IV
    :answer_b: V
@@ -15,11 +17,15 @@
    :feedback_c: III is also valid. In some cases you might want to store subclasses together in a single array, and inheritance allows for this.
    :feedback_d: II is also valid. In some cases a single method is applicable for a number of subclasses, and inheritance allows you to pass objects of the subclasses to the same method instead of writing individual methods for each subclass.
    :feedback_e: II and III are also valid, in some cases a single method is applicable for a number of subclasses, and inheritance allows you to pass all the subclasses to the same method instead of writing individual methods for each subclass and you might want to store subclasses together in a single array, and inheritance allows for this.
+   :pct_on_first: 0.4539007092
+   :total_students_attempting: 141
+   :num_students_correct: 83.0
+   :mean_clicks_to_correct: 1.4096385542
 
    Which of the following reasons for using an inheritance hierarchy are valid?
-
+   
    .. code-block:: java
-
+   
       I.   Methods from a superclass can be used in a subclass without rewriting
            or copying code.
       II.  Objects from subclasses can be passed as arguments to a method  designed

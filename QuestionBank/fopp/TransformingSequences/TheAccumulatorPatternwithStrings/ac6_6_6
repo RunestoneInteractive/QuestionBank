@@ -1,16 +1,18 @@
 .. activecode:: ac6_6_6
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: TransformingSequences/TheAccumulatorPatternwithStrings
+   :chapter: TransformingSequences
+   :subchapter: TheAccumulatorPatternwithStrings
+   :topics: TransformingSequences/TheAccumulatorPatternwithStrings
    :from_source: T
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3871252205
-   :total_students_attempting: 1134
-   :num_students_correct: 754.0
-   :mean_clicks_to_correct: 2.525198939
+   :pct_on_first: 0.3865619546
+   :total_students_attempting: 1146
+   :num_students_correct: 763.0
+   :mean_clicks_to_correct: 2.5137614679
 
    Assign an empty string to the variable ``output``. Using the ``range`` function, write code to make it so that the variable ``output`` has 35 ``a`` s inside it (like ``"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"``). Hint: use the accumulation pattern!
    ~~~~

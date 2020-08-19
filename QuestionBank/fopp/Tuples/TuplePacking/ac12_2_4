@@ -1,17 +1,19 @@
 .. activecode:: ac12_2_4
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Tuples/TuplePacking
+   :chapter: Tuples
+   :subchapter: TuplePacking
+   :topics: Tuples/TuplePacking
    :from_source: T
    :language: python
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.6155844156
-   :total_students_attempting: 385
-   :num_students_correct: 290.0
-   :mean_clicks_to_correct: 1.4172413793
+   :pct_on_first: 0.6157760814
+   :total_students_attempting: 393
+   :num_students_correct: 295.0
+   :mean_clicks_to_correct: 1.4101694915
 
    **5.** Below, we have provided a list of tuples. Write a for loop that saves the second element of each tuple into a list called ``seconds``.
    ~~~~

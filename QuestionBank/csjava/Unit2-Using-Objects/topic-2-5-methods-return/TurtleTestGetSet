@@ -1,9 +1,11 @@
 .. activecode:: TurtleTestGetSet
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: csjava
-    :topic: Unit2-Using-Objects/topic-2-5-methods-return
-    :from_source: T
+    :chapter: Unit2-Using-Objects
+    :subchapter: topic-2-5-methods-return
+    :topics: Unit2-Using-Objects/topic-2-5-methods-return
+    :from_source: F
     :language: java
     :autograde: unittest
     :datafile: turtleClasses.jar
@@ -12,10 +14,6 @@
 
     (If the code below does not work in your browser, you can also copy in the code below into the Turtle code at this |repl link| (refresh page after forking and if it gets stuck) or download the files |github| to use in your own IDE.)
     ~~~~
-    import java.util.*;
-    import java.awt.*;
-    import java.lang.Math;
-
     public class TurtleTestGetSet
     {
       public static void main(String[] args)
@@ -44,7 +42,7 @@
         @Test
         public void test1()
         {
-            String orig = "import java.util.*;\nimport java.awt.*;\nimport java.lang.Math;\n\npublic class TurtleTestGetSet\n{\n  public static void main(String[] args)\n  {\n      World world = new World(300,300);\n      Turtle yertle = new Turtle(world);\n      System.out.println(\"Yertle's width is: \" + yertle.getWidth());\n      yertle.setWidth(200);\n      yertle.setHeight(200);\n      System.out.println(\"Yertle's width is: \" + yertle.getWidth());\n      yertle.turnRight();\n      world.show(true);\n  }\n}\n";
+            String orig = "public class TurtleTestGetSet\n{\n  public static void main(String[] args)\n  {\n      World world = new World(300,300);\n      Turtle yertle = new Turtle(world);\n      System.out.println(\"Yertle's width is: \" + yertle.getWidth());\n      yertle.setWidth(200);\n      yertle.setHeight(200);\n      System.out.println(\"Yertle's width is: \" + yertle.getWidth());\n      yertle.turnRight();\n      world.show(true);\n  }\n}\n";
             boolean passed = codeChanged(orig);
             assertTrue(passed);
         }

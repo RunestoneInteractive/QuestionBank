@@ -1,12 +1,14 @@
 .. activecode:: act_kiva_graph_5
     :author: bmiller
-    :difficulty: 3
+    :difficulty: 3.0
     :basecourse: fopp
-    :topic: Projects/kiva_graphs
+    :chapter: Projects
+    :subchapter: kiva_graphs
+    :topics: Projects/kiva_graphs
     :from_source: T
     :include: act_kiva_graph_data
-    :pct_on_first: 0.1184834123
-    :total_students_attempting: 211
+    :pct_on_first: 0.119047619
+    :total_students_attempting: 210
     :num_students_correct: 110.0
     :mean_clicks_to_correct: 14.5090909091
 

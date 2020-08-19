@@ -1,13 +1,15 @@
 .. parsonsprob:: pp5_11_2
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: Sequences/Exercises
+   :chapter: Sequences
+   :subchapter: Exercises
+   :topics: Sequences/Exercises
    :from_source: T
-   :pct_on_first: 0.6640926641
-   :total_students_attempting: 1554
-   :num_students_correct: 1506.0
-   :mean_clicks_to_correct: 1.5577689243
+   :pct_on_first: 0.6649649011
+   :total_students_attempting: 1567
+   :num_students_correct: 1519.0
+   :mean_clicks_to_correct: 1.5556287031
 
    Write code to determine how many t's are in the following sentences.
    -----

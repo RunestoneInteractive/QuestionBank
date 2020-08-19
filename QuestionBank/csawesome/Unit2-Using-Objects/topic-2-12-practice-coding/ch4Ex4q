@@ -1,12 +1,18 @@
 .. activecode::  ch4Ex4q
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit2-Using-Objects/topic-2-12-practice-coding
+   :chapter: Unit2-Using-Objects
+   :subchapter: topic-2-12-practice-coding
+   :topics: Unit2-Using-Objects/topic-2-12-practice-coding
    :from_source: T
    :language: java
    :autograde: unittest
    :practice: T
+   :pct_on_first: 0.5593220339
+   :total_students_attempting: 59
+   :num_students_correct: 57.0
+   :mean_clicks_to_correct: 1.8421052632
 
    The following code should print the first 3 letters of the string ``message`` all in lowercase letters. However, the code has errors.  Fix the errors so that the code runs as intended.
    ~~~~
@@ -24,7 +30,7 @@
    import static org.junit.Assert.*;
      import org.junit.*;;
      import java.io.*;
-
+   
      public class RunestoneTests extends CodeTestHelper
      {
          @Test

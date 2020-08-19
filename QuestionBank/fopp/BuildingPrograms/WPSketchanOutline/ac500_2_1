@@ -1,8 +1,10 @@
 .. actex:: ac500_2_1
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: fopp
-   :topic: BuildingPrograms/WPSketchanOutline
+   :chapter: BuildingPrograms
+   :subchapter: WPSketchanOutline
+   :topics: BuildingPrograms/WPSketchanOutline
    :from_source: T
 
    #put your comments below here

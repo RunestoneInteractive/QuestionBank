@@ -1,8 +1,10 @@
 .. mchoice:: pe2_9-18
    :author: bmiller
-   :difficulty: 3
+   :difficulty: 3.0
    :basecourse: csawesome
-   :topic: Unit11-posttest/posttest
+   :chapter: Unit11-posttest
+   :subchapter: posttest
+   :topics: Unit11-posttest/posttest
    :from_source: T
    :answer_a: a = 6 and b = 7
    :answer_b: a = 13 and b = 0
@@ -15,11 +17,15 @@
    :feedback_c: Actually i = 6 and t = 6 and b = 0 after the loop finishes.
    :feedback_d: Actually a = 13 and b = 0 after the loop finishes.
    :feedback_e: Actually i = 6 and t = 6 and a = 13 after the loop finishes.
+   :pct_on_first: 0.5976744186
+   :total_students_attempting: 430
+   :num_students_correct: 297.0
+   :mean_clicks_to_correct: 1.1952861953
 
    Given the following code segment, what are the values of ``a`` and ``b`` after the ``for`` loop finishes?
-
+   
    .. code-block:: java
-
+   
       int a = 10, b = 3, t;
       for (int i=1; i<=6; i++)
       {
