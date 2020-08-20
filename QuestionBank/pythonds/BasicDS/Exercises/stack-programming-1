@@ -1,9 +1,0 @@
-.. shortanswer:: stack-programming-1
-   :author: Yachao Zhu
-   :difficulty: 4
-   :basecourse: pythonds
-   :topic: BasicDS/Exercises
-   :from_source: F
-   :optional:
-
-  Another example of the parentheses matching problem comes from hypertext markup language (HTML). In HTML, tags exist in both opening and closing forms and must be balanced to properly describe a web document.Write a program that can check an HTML document for proper opening and closing tags.

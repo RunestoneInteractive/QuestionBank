@@ -1,0 +1,17 @@
+.. mchoice:: q2_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: VariableBasics
+   :subchapter: casting
+   :topics: VariableBasics/casting
+   :from_source: T
+   :answer_a: (double) (total / 3);
+   :answer_b: total / 3;
+   :answer_c: (double) total /  3;
+   :correct: c
+   :feedback_a: This does integer division before casting the result to double so it loses the fractional part.
+   :feedback_b: When you divide an integer by an integer you get an integer result and lose the fractional part.
+   :feedback_c: This will convert total to a double value and then divide by 3 to return a double result.
+
+   Which of the following returns the correct average when 3 values had been added to an integer total?

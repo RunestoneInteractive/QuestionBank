@@ -1,0 +1,29 @@
+.. activecode:: js_event_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: events
+   :topics: Javascript/events
+   :from_source: T
+   :language: html
+
+   <html>
+   <body>
+   <button onclick="stop();">Stop</button>
+   <script>
+     changeColor = function() {
+         red = Math.floor(Math.random()*255);
+         green = Math.floor(Math.random()*255);
+         blue = Math.floor(Math.random()*255);
+         colorStr = "rgb(" + red + "," + green + "," + blue + ")";
+         document.body.style.backgroundColor = colorStr;
+         //window.setInterval(changeColor, 1000);
+     }
+     stop = function() {
+         window.clearInterval(intId);
+     }
+     intId = window.setInterval(changeColor, 1000);
+   </script>
+   </body>
+   </html>

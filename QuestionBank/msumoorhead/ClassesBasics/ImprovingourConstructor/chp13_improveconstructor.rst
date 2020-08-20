@@ -1,0 +1,18 @@
+.. codelens:: chp13_improveconstructor
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: ClassesBasics
+    :subchapter: ImprovingourConstructor
+    :topics: ClassesBasics/ImprovingourConstructor
+    :from_source: None
+
+    class Point:
+        """ Point class for representing and manipulating x,y coordinates. """
+
+        def __init__(self, initX, initY):
+            """ Create a new point at the given coordinates. """
+            self.__x = initX
+            self.__y = initY
+
+    p = Point(7, 6)

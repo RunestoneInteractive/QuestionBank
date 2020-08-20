@@ -1,0 +1,25 @@
+.. parsonsprob:: thirdClass
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: JavaBasics
+   :subchapter: firstClass
+   :topics: JavaBasics/firstClass
+   :from_source: T
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The following has all the correct code to print out "Hi my friend!" when the code is run, but the code is mixed up.  Drag the blocks from left to right and put them in the correct order.  Click on the "Check Me" button to check your solution.
+   -----
+   public class ThirdClass
+   {
+   =====
+      public static void main(String[] args)
+      {
+      =====
+         System.out.println("Hi my friend!");
+         =====
+      }
+      =====
+   }

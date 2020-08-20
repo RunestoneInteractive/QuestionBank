@@ -1,0 +1,28 @@
+.. mchoice:: e1a2_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPTuring
+   :subchapter: Exercises
+   :topics: CSPTuring/Exercises
+   :from_source: T
+   :answer_a: dog
+   :answer_b: fish
+   :answer_c: cat
+   :answer_d: bird
+   :correct: a
+   :feedback_a: The value of var3 is first set to "bird" but then changed to be the value of var1.  The value of var1 is first set to "cat" but later changed to the value of var2 which was set to "dog".
+   :feedback_b: Only var2 has the value of fish.  When you assign the value of a variable to the value of another variable the value is copied to the new variable.  No relationship is created between the two variables.
+   :feedback_c: The value of var3 is first set to "bird" but then changed to be the value of var1.  However, the value of var1 also is changed after it is originally set.
+   :feedback_d: While var3 is originally set to "bird" the value is changed later.
+
+   What is the value of var3 after the following code executes?
+
+   ::
+
+      var1 = "cat"
+      var2 = "dog"
+      var3 = "bird"
+      var1 = var2
+      var3 = var1
+      var2 = "fish"

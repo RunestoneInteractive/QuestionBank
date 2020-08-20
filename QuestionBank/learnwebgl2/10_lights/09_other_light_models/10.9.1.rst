@@ -1,0 +1,28 @@
+.. mchoice:: 10.9.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 09_other_light_models
+  :topics: 10_lights/09_other_light_models
+  :from_source: T
+  :random:
+
+  To model a *sun* light source, what needs to be passed to a *fragment shader*? (Select all that apply.)
+
+  - The direction of incoming light.
+
+    + Correct. A vector that contains the direction the light is coming from.
+
+  - The color of the sun's light.
+
+    + Correct.
+
+  - The location of the sun.
+
+    - Incorrect. Knowing the location of the sun in a virtual scene is problematic.
+
+  - The volume of the sun.
+
+    - Incorrect. The sun is so far away, we typically model it as a single point,
+      even though in real life the size of the sun is very large.

@@ -1,0 +1,21 @@
+.. parsonsprob:: 9_3_3_Palindrome
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPRepeatStrings
+   :subchapter: mirror
+   :topics: CSPRepeatStrings/mirror
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   <p>The phrase <code>"A but tuba"</code> is a <b>palindrome</b>.  The letters are the same forward and backward.  The below program generates the output: <code>"abut tub a<=>a but tuba"</code>  Put the lines in the right order with the right indentation.</p>
+   -----
+   newStr = "<=>"
+   phrase = "a but tuba"
+   =====
+   for char in phrase:
+   =====
+       newStr = char + newStr + char
+   =====
+   print(newStr)

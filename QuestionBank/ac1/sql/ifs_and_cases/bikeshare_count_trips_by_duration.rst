@@ -1,0 +1,25 @@
+.. activecode:: bikeshare_count_trips_by_duration
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: sql
+   :subchapter: ifs_and_cases
+   :topics: sql/ifs_and_cases
+   :from_source: T
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
+
+   SELECT
+     CASE
+       WHEN duration < 10 * 60 THEN "under 10 minutes"
+       WHEN duration < 30 * 60 THEN "10-30 minutes"
+       WHEN duration < 60 * 60 THEN "30-60 minutes"
+       WHEN duration < 2 * 60 * 60 THEN "1-2 hours"
+       WHEN duration < 4 * 60 * 60 THEN "2-4 hours"
+       ELSE "over 4 hours"
+     END AS duration_grouped,
+     COUNT(*) AS n_trips
+   FROM
+     bikeshare_stations
+   GROUP BY
+     duration_grouped

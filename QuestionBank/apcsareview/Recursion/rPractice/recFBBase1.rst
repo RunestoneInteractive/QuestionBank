@@ -1,0 +1,13 @@
+.. fillintheblank:: recFBBase1
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Recursion
+   :subchapter: rPractice
+   :topics: Recursion/rPractice
+   :from_source: F
+
+   What is the value of X in the trace above?
+
+   -    :^1$: Correct!
+        :.*: What is the value returned when mystery is called with a 0?

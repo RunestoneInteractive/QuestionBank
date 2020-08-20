@@ -1,0 +1,28 @@
+.. mchoice:: 10.7.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 07_lights_attenuation
+  :topics: 10_lights/07_lights_attenuation
+  :from_source: T
+  :random:
+
+  In the real world, what is the formula for calculating light attenuation, where :code:`d`
+  is the distance a surface is from a light source?
+
+  - 1/(d^2)
+
+    + Correct. One divided by the distance squared.
+
+  - 1/d
+
+    - Incorrect.
+
+  - 1.0/(1 + d + d^2)
+
+    - Incorrect.
+
+  - 20/d
+
+    - Incorrect.

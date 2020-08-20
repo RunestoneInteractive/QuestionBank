@@ -1,0 +1,33 @@
+.. mchoice:: stack_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythonds3
+   :chapter: BasicDS
+   :subchapter: ImplementingaStackinPython
+   :topics: BasicDS/ImplementingaStackinPython
+   :from_source: T
+   :answer_a: "x"
+   :answer_b: the stack is empty
+   :answer_c: an error will occur
+   :answer_d: "z"
+   :correct: c
+   :feedback_a: You may want to check out the docs for isEmpty
+   :feedback_b: There is an odd number of things on the stack but each time through the loop 2 things are popped.
+   :feedback_c: Good Job.
+   :feedback_d: You may want to check out the docs for isEmpty
+   :pct_on_first: 0.4210526316
+   :total_students_attempting: 19
+   :num_students_correct: 19
+   :mean_clicks_to_correct: 2.3684210526
+
+   Given the following sequence of stack operations, what is the top item on the stack when the sequence is complete?
+   
+   .. code-block:: python
+   
+     m = Stack()
+     m.push("x")
+     m.push("y")
+     m.push("z")
+     while not m.is_empty():
+        m.pop()
+        m.pop()

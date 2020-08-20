@@ -1,0 +1,44 @@
+.. actex:: recursion_sc_2cpp
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Recursion
+    :subchapter: pythondsConvertinganIntegertoaStringinAnyBase
+    :topics: Recursion/pythondsConvertinganIntegertoaStringinAnyBase
+    :from_source: T
+    :language: cpp
+    :nocodelens:
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    void testEqual(bool a, bool b){
+        if (a == b){
+            cout << "PASS" << endl;
+        }
+        else{
+            cout << "Failed" << endl;
+        }
+    }
+
+    string removeWhite(string s) {
+        //Code Here
+        return s;
+    }
+
+    bool isPal(string s) {
+        //Code Here
+        return false;
+    }
+
+    int main(){
+        testEqual(isPal(removeWhite("x")),true);
+        testEqual(isPal(removeWhite("radar")),true);
+        testEqual(isPal(removeWhite("hello")),false);
+        testEqual(isPal(removeWhite("")),true);
+        testEqual(isPal(removeWhite("hannah")),true);
+        testEqual(isPal(removeWhite("madam i'm adam")),true);
+
+        return 0;
+    }

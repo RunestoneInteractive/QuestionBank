@@ -1,0 +1,23 @@
+.. mchoice:: qsbeq_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Strings
+   :subchapter: sEquality
+   :topics: Strings/sEquality
+   :from_source: T
+   :answer_a: s1 == s3 && s1.equals(s3)
+   :answer_b: s2.equals(s3) && s1.equals(s3)
+   :answer_c: !(s1 == s2) && !(s1 == s3)
+   :correct: c
+   :feedback_a: Since s3 uses the new operator it will not refer to the same object as s1.
+   :feedback_b: Do s2 and s3 have the same characters in the same order?
+   :feedback_c: All of the variables refer to different objects.  But, s1.equals(s3) would be true since they have the same characters in the same order.
+
+   Which of the following is true after the code executes?
+
+   .. code-block:: java
+
+     String s1 = "hi";
+     String s2 = "bye";
+     String s3 = new String("hi");

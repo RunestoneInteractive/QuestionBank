@@ -1,0 +1,21 @@
+.. activecode:: hellocommented
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cpp4python
+    :chapter: IntroCpp
+    :subchapter: firstcppprogram
+    :topics: IntroCpp/firstcppprogram
+    :from_source: T
+    :language: cpp
+
+    /* This hello world program demonstrates the C++ concepts
+        of commenting, using libraries, and using output.
+    */
+
+    #include <iostream>
+    using namespace std;
+
+    int main(){         // main() must exist & return an int
+        cout << "Hello World!\n";
+        return 0;       // 0 indicates program ended correctly.
+    }

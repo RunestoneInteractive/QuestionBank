@@ -1,0 +1,29 @@
+.. mchoice:: 6.6.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 06_matrix_library
+  :topics: 06_transformations/06_matrix_library
+  :from_source: T
+  :random:
+
+  You have created an instance of the :code:`GlMatrix4x4` class called :code:`m` and you
+  want to use it to create a 4x4 transformation matrix called :code:`sam`. Which of the following code examples
+  accomplish this?
+
+  - :code:`sam = m.create();`
+
+    + Correct.
+
+  - :code:`sam = new GlMatrix4x4().create();`
+
+    - Incorrect. (While this will work in theory, it creates an unnecessary :code:`GlMatrix4x4` object.)
+
+  - :code:`sam = new GlMatrix4x4();`
+
+    - Incorrect. This creates an instance of the :code:`GlMatrix4x4` class.
+
+  - :code:`m.create();`
+
+    - Incorrect. It creates a new 4x4 transformation matrix but does not assign it to a variable so it can be used.

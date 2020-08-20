@@ -1,0 +1,29 @@
+.. activecode:: printData_withLines
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPWebData
+   :subchapter: readData
+   :topics: CSPWebData/readData
+   :from_source: T
+   :tour_1: "Structural tour"; 2: web1-line4; 3: web2-line5; 4: web2-line6; 7: web2-line8; 10: web2-line9; 13: web2-line10; 16: web2-line11; 17-18: web2-line12-13;
+   :nocodelens:
+
+   # open the file, read the lines into a list, and close the file
+   inFile = open("uspoll.txt","r")
+   lines = inFile.readlines()
+   inFile.close()
+
+   # loop through the lines list
+   for line in lines:
+
+       # split at :
+       values = line.split(":")
+
+       # get the city
+       city = values[0]
+
+       # if city starts with A print the info
+       if (city.find("A") == 0):
+           print('City: ', city)
+           print("Pollution values:",values[1],values[2])

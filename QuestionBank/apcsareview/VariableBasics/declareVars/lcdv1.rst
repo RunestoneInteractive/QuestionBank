@@ -1,0 +1,25 @@
+.. activecode:: lcdv1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: VariableBasics
+   :subchapter: declareVars
+   :topics: VariableBasics/declareVars
+   :from_source: T
+   :language: java
+
+   public class Test1
+   {
+      public static void main(String[] args)
+      {
+        int score;
+        score = 0;
+        System.out.println(score);
+        double price;
+        price = 2.55;
+        System.out.println(price);
+        boolean won;
+        won = false;
+        System.out.println(won);
+      }
+   }

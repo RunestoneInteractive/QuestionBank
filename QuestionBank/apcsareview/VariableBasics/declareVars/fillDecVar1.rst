@@ -1,0 +1,15 @@
+.. fillintheblank:: fillDecVar1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: VariableBasics
+   :subchapter: declareVars
+   :topics: VariableBasics/declareVars
+   :from_source: T
+
+   Fill in the following: [blank] age = [blank]; to declare age to be an integer and set its value to 5.
+
+   -    :int: Correct.  You typically use whole numbers for ages after age 1.
+        :.*: Remember that Java uses just the first 3 letters of integer
+   -    :5: Correct.  You can initialize to a value.
+        :.*: Use 5 in the second blank

@@ -1,0 +1,13 @@
+.. fillintheblank:: 1_5_2_Shape_fill
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPrinTeasers
+   :subchapter: computeTurtles
+   :topics: CSPrinTeasers/computeTurtles
+   :from_source: T
+
+   What shape will the program below draw when you click on the Run button?
+
+   -    :^square$|^Square$|^SQUARE$: Correct!
+        :.*: Did you actually run the program?

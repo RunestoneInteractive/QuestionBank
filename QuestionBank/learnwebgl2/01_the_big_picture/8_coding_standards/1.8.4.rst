@@ -1,0 +1,20 @@
+.. mchoice:: 1.8.4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 8_coding_standards
+    :topics: 01_the_big_picture/8_coding_standards
+    :from_source: T
+    :random:
+    :answer_a: an array
+    :answer_b: a single float
+    :answer_c: a string
+    :answer_d: an integer
+    :correct: a
+    :feedback_a: Correct, since the type is included in the name.
+    :feedback_b: Incorrect.
+    :feedback_c: Incorrect.
+    :feedback_d: Incorrect.
+
+    If :code:`apples_array` is a JavaScript identifier that follows the coding standard, what type of data does it hold?

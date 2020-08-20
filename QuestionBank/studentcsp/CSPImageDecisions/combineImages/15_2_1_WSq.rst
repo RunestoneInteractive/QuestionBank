@@ -1,0 +1,9 @@
+.. activecode::  15_2_1_WSq
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPImageDecisions
+    :subchapter: combineImages
+    :topics: CSPImageDecisions/combineImages
+    :from_source: T
+    :nocodelens:

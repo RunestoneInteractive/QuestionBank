@@ -1,0 +1,34 @@
+.. mchoice:: french_painters
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: sheets_basics
+   :subchapter: what_is_a_formula
+   :topics: sheets_basics/what_is_a_formula
+   :from_source: T
+
+   Who are the French painters who painted over 200 paintings?
+
+   - Titian
+
+     - Incorrect
+
+   - Pierre-Auguste Renoir
+
+     + Correct
+
+   - Paul Gauguin
+
+     + Correct
+
+   - Diego Rivera
+
+     - Incorrect
+
+   - Claude Monet
+
+     - Incorrect
+
+   - Edgar Degas
+
+     + Correct

@@ -1,0 +1,29 @@
+.. mchoice:: e25_1_13
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: 0.5
+  :answer_b: 5.0
+  :answer_c: 15.0
+  :answer_d: 20
+  :correct: b
+  :feedback_a: Incorrect. 100 divided by 20 is 5.
+  :feedback_b: Correct. Because they are float types, the value of 100.0/20.0 is equal to 5.0.
+  :feedback_c: Incorrect. 100 divided by 20 is not 15.
+  :feedback_d: Incorrect. 100 divided by 20 is not 20. The value of a float divided by a float is also a float.
+
+  Use the following code for questions 13 and 14.
+
+  What is the value of *gallons*?
+
+  ::
+
+    distance ← 100.0
+    mpg ← 20.0
+    gallons ← distance / mpg
+    costPerGallon ← 3.00
+    costTrip ← gallons * costPerGallon

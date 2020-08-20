@@ -1,0 +1,20 @@
+.. activecode:: ex_3_8
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
+   :from_source: None
+   :nocodelens:
+
+   import turtle
+   wn = turtle.Screen()
+   tess = turtle.Turtle()
+   tess.speed(6)
+   tess.right(90)
+   tess.left(3600)
+   tess.right(-90)
+   tess.left(3600)
+   tess.left(3645)
+   tess.forward(-100)

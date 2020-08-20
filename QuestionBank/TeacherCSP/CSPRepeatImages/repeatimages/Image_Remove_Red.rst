@@ -1,0 +1,29 @@
+.. activecode:: Image_Remove_Red
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPRepeatImages
+    :subchapter: repeatimages
+    :topics: CSPRepeatImages/repeatimages
+    :from_source: T
+    :tour_1: "Important Lines Tour"; 1: timg3-line1; 4: timg3-line4; 7-8: timg3-line7-8; 11: timg3-line11; 14: timg3-line14; 17-18: timg3-line17-18;
+    :nocodelens:
+
+    from image import *
+
+    # CREATE AN IMAGE FROM A FILE
+    img = Image("arch.jpg")
+
+    # LOOP THROUGH THE PIXELS
+    pixelList = img.getPixels()
+    for p in pixelList:
+
+        # SET THE RED TO 0
+        p.setRed(0)
+
+        # UPDATE THE IMAGE
+        img.updatePixel(p)
+
+    # SHOW THE RESULT
+    win = ImageWin(img.getWidth(),img.getHeight())
+    img.draw(win)

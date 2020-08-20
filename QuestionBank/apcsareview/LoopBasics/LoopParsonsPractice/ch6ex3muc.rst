@@ -1,0 +1,34 @@
+.. parsonsprob:: ch6ex3muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: LoopBasics
+   :subchapter: LoopParsonsPractice
+   :topics: LoopBasics/LoopParsonsPractice
+   :from_source: T
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The main method in the following class should print up from 0 to 50 by 5 (0, 5, 10, 15 ... 50). But, the blocks have been mixed up and include <b>an extra block</b> that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public class Test1
+   {
+   =====
+       public static void main(String[] args)
+       {
+   =====
+           int x = 0;
+   =====
+           while (x <= 50) {
+   =====
+           while (x < 50) { #paired
+   =====
+               System.out.println(x);
+   =====
+               x = x + 5;
+   =====
+           }
+   =====
+       }
+   }

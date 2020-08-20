@@ -1,0 +1,17 @@
+.. fillintheblank:: difede_01_003
+   :author: Kuri DiFede
+   :difficulty: 1.0
+   :basecourse: apcsareview
+   :chapter: GettingStarted
+   :subchapter: Exercises
+   :topics: GettingStarted/Exercises
+   :from_source: F
+
+   How would you represent the following characters with 1 byte?  --------------------- a.) A (Ascii 65) |blank|  b.) % (Ascii 37) |blank|  c.) 4 (Ascii 52) |blank|   
+
+   -    :1000001: Correct!
+        :.*: Try Again!
+   -    :100101: Correct!
+        :.*: Try Again!
+   -    :110100: Correct!
+        :.*: Try Again!

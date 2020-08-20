@@ -1,0 +1,18 @@
+.. activecode:: Price_If_Default
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPIntroDecisions
+  :subchapter: multiple
+  :topics: CSPIntroDecisions/multiple
+  :from_source: T
+  :tour_1: "Structural Tour"; 1: c2-line1; 2: c2-line2; 3-4: c2-line3-4; 5: c2-line5; 6-8: c3f-line7-9;
+
+  weight = 0.5
+  price = 1.45
+  if weight >= 1:
+      price = 1.15
+  total = weight * price
+  print(weight)
+  print(price)
+  print(total)

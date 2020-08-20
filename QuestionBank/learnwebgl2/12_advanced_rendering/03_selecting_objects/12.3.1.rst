@@ -1,0 +1,27 @@
+.. mchoice:: 12.3.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 03_selecting_objects
+  :topics: 12_advanced_rendering/03_selecting_objects
+  :from_source: T
+  :random:
+
+  What WebGL command will retrieve values from a *color buffer*?
+
+  - :code:`gl.readPixels()`
+
+    + Correct.
+
+  - :code:`gl.readColorBuffer()`
+
+    - Incorrect. There is no such function.
+
+  - :code:`gl.getPixelColor()`
+
+    - Incorrect. There is no such function.
+
+  - :code:`gl.atPixel()`
+
+    - Incorrect. There is no such function.

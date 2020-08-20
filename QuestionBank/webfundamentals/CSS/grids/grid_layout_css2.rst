@@ -1,0 +1,50 @@
+.. activecode:: grid_layout_css2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: webfundamentals
+    :chapter: CSS
+    :subchapter: grids
+    :topics: CSS/grids
+    :from_source: T
+    :language: html
+    :include: grid_layout_1
+
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 33% 33% 34%;
+        }
+
+        #d1 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        #d2 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: greenyellow;
+        }
+        #d3 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: pink;
+        }
+        #d4 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: orange;
+        }
+        #d5 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: mintcream;
+        }
+        #d6 {
+            font-size: 20pt;
+            text-align: center;
+            background-color: maroon;
+        }
+    </style>

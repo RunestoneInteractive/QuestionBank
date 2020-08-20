@@ -1,0 +1,32 @@
+.. activecode::  ch14ex3q
+     :author: bmiller
+     :difficulty: 3.0
+     :basecourse: studentcsp
+     :chapter: CSPTurtleDecisions
+     :subchapter: Exercises
+     :topics: CSPTurtleDecisions/Exercises
+     :from_source: T
+     :nocodelens:
+
+     from turtle import *             # use the turtle library
+     from sys import *                # use the system library
+     setExecutionLimit(100000)        # let this take up to 100 seconds
+     space = Screen()                 # create a turtle screen (space)
+
+     width = space.window_width()     # get the width of the screen (space)
+     maxX = width / 2                 # set the max x value to half the width
+
+     sue = Turtle()                   # create a turtle named sue
+     sue.shape("turtle")
+     sue.penup()
+     sue.left(45)
+
+     for y in range(4):               # repeat 4 times
+     if y % 2 == 0:                   # if even row
+     sue.color('red')                 # set the color to red
+     if y % 2 == 1:                   # if odd row
+     sue.color('black')               # set the color to black
+     sue.forward(100)
+     sue.stamp()
+     sue.backward(100)
+     sue.left(90)

@@ -1,0 +1,21 @@
+.. mchoice:: e25_1_1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: A variable.
+  :answer_b: A Function.
+  :answer_c: Code.
+  :answer_d: A String.
+  :correct: d
+  :feedback_a: Incorrect. A variable is name that a computer can associate with a value. For example, if <i>name</i> ='Alexa' then <i>name</i> is the variable and 'Alexa' is the value.
+  :feedback_b: Incorrect. Functions perform some action, like a procedure, and return a value. For example, x.lower() would return a new string in all lowercase.
+  :feedback_c: Incorrect. Code is what you are using to tell the computer how to function! You are learning how to code!
+  :feedback_d: Correct. A string is characters typed between one, two, or three quotes.
+
+  Which term does the following statement describe?
+
+  *Any sequence of characters we can type between a pair of single, double, or triple quotes*

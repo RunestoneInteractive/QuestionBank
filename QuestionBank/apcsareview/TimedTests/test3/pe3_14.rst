@@ -1,0 +1,33 @@
+.. mchoice:: pe3_14
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
+   :from_source: T
+   :answer_a: 12344321
+   :answer_b: 1234
+   :answer_c: 4321
+   :answer_d: 43211234
+   :answer_e: 32144123
+   :correct: a
+   :feedback_a: This method prints the right most digit (x % 10 returns the right most digit) and then if x / 10 is not equal to 0 (x < 10) it returns mystery of the current number after chopping off the right most digit.  So mystery(4321) prints 1 and then calls mystery(432) which prints 2 and then calls mystery(43) which prints 3 and then calls mystery (4) which prints 4.  Since 4 / 10 is equal to 0 it won't do a recursive call. It prints 4 again and mystery(4) returns.  Execution will return to mystery(43) after the recursive call to mystery(4) and the 3 will print and then mystery (43) will return.  Execution will return to mystery(432) after the recursive call to mystery(43) and the 2 will print and then mystery (432) will return. Execution will return to mystery(4321) after the recursive call to mystery(432) and the 1 will print and then mystery (4321) will return.
+   :feedback_b: This would be true if there wasn't a second System.out.print(x % 10) after if.
+   :feedback_c: This would be true if the first call to System.out.print(x % 10); wasn't in the method.
+   :feedback_d: This would be true if it was mystery(1234).
+   :feedback_e: How does the 3 get printed first?  Remember that x % 10 returns the right most digit in x.
+
+   What is the output from mystery(4321) when mystery is defined as follows?
+
+   .. code-block:: java
+
+      //precondition: x >=0
+      public static void mystery (int x) {
+         System.out.print(x % 10);
+
+         if ((x / 10) != 0) {
+            mystery(x / 10);
+         }
+         System.out.print(x % 10);
+      }

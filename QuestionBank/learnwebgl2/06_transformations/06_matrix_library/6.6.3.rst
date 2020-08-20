@@ -1,0 +1,29 @@
+.. mchoice:: 6.6.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 06_matrix_library
+  :topics: 06_transformations/06_matrix_library
+  :from_source: T
+  :random:
+  :answer_a: matrix q
+  :answer_b: matrix a
+  :answer_c: matrix b
+  :answer_d: matrix c
+  :correct: a
+  :feedback_a: Correct. Only the first parameter is modified and contains the results of the matrix multiplications.
+  :feedback_b: Incorrect.
+  :feedback_c: Incorrect.
+  :feedback_d: Incorrect.
+
+  You need to multiple 3 matrices together, :code:`a` times :code:`b` times :code:`c`, and
+  store the results in matrix :code:`q`. You can do this using the
+  :code:`multiplySeries()` function like this:
+
+  .. Code-block:: Javascript
+
+    m.multiplySeries(q,a,b,c);
+
+  Which of the parameters to the :code:`multiplySeries()` function are modified by the function call?
+  (Select all that apply.)

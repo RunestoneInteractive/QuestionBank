@@ -1,0 +1,23 @@
+.. mchoice:: e24_3_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_3
+   :topics: CSPPracticeQuestions/exam24_3
+   :from_source: T
+   :answer_a: I, II
+   :answer_b: I, III
+   :answer_c: I, II, III
+   :answer_d: None of the options
+   :correct: b
+   :feedback_a: Incorrect. Option II is incorrect. Some problems require algorithms that do not run in reasonable time.
+   :feedback_b: Correct. Both of these statements regarding algorithms are true.
+   :feedback_c: Incorrect. Option II is incorrect. Some problems require algorithms that do not run in reasonable time.
+   :feedback_d: Incorrect. An algorithm that runs in reasonable time refers to a polynomial function of the input size.
+
+   Which of the following statements are true about algorithms?
+
+     | I. If an algorithm runs in reasonable time, the number of steps the algorithm takes is a polynomial function (constant, linear, squared, etc.) of the size of the input.
+     | II. All problems can be solved using an algorithm that runs in reasonable time.
+     | III. If a problem cannot be solved in reasonable time, a heuristic approach is helpful to solve the problem.

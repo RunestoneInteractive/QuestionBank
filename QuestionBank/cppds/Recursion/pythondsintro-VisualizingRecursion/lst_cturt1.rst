@@ -1,0 +1,31 @@
+.. activecode:: lst_cturt1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Recursion
+    :subchapter: pythondsintro-VisualizingRecursion
+    :topics: Recursion/pythondsintro-VisualizingRecursion
+    :from_source: T
+    :caption: Drawing a Recursive Spiral using Turtles
+    :language: cpp
+
+    #include <CTurtle.hpp>
+    namespace ct = cturtle;
+
+    void spiral(ct::Turtle& turtle, int length) {
+        if (length > 0) {
+            turtle.forward(length);
+            turtle.right(90);
+            spiral(turtle, length - 5);
+        }
+    }
+
+    int main() {
+        ct::TurtleScreen screen;
+        ct::Turtle turtle(screen);
+
+        spiral(turtle, 100);
+
+        screen.bye();
+        return 0;
+    }

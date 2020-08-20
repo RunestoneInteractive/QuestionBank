@@ -1,0 +1,28 @@
+.. mchoice:: 12.8.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 08_particle_systems
+  :topics: 12_advanced_rendering/08_particle_systems
+  :from_source: T
+  :random:
+
+  Why are the particles in a particle system often sorted before rendering?
+
+  - If the particles are transparent, the particles must be rendered from back to front.
+
+    + Correct.
+
+  - Some orderings of particles can better simulate a real world phenomenon.
+
+    - Incorrect. A user can't determine the order that particles are rendered. A
+      rendering is visible to a user only after it is totally finished.
+
+  - Sorting according to size can make the smaller particles appear closer to the camera.
+
+    - Incorrect. (That's silly!)
+
+  - Sorting according to color can make the rendering faster.
+
+    - Incorrect. (That's silly!)

@@ -1,0 +1,19 @@
+.. mchoice:: e24_4_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_4
+   :topics: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: Importing the data into a format that the computer can process
+   :answer_b: Testing hypotheses and looking for patterns in the processed data to gain insight and knowledge
+   :answer_c: Visualizing or reporting the results in a meaningful way to the end user
+   :answer_d: All of the above
+   :correct: d
+   :feedback_a: Incorrect. This statement is true since we cannot perform meaninful analysis on our data if  our computer can't understand it. However, the other answer choices are also correct!
+   :feedback_b: Incorrect. Before we can arrive at results, we need to hypothesize - make predictions about what our results may be and test them out. Looking for patterns in the data can help us gain intuition into how we should proceed proving or disproving our hypothesis. This statement is true; however, the other answer choices are also correct!
+   :feedback_c: Incorrect. The end user is not concerned with our raw data, or with all our lengthy calculations; we should use abstraction and present only the necessary data and results to the end user. This statement is true; however, the other answer choices are also correct!
+   :feedback_d: Correct. Since all answer choices are correct.
+
+   Which of the following is an important part of data analysis?

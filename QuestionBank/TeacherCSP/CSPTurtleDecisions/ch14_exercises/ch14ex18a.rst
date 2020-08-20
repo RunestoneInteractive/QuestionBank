@@ -1,0 +1,28 @@
+.. activecode::  ch14ex18a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPTurtleDecisions
+    :subchapter: ch14_exercises
+    :topics: CSPTurtleDecisions/ch14_exercises
+    :from_source: T
+    :nocodelens:
+
+    def turtleDraw(num, turtle):
+        rand = random.randrange(1,3)
+        if rand == 1:
+            turtle.color("blue")
+        else:
+            turtle.color("red")
+        if num % 2 == 0:
+            turtle.forward(100)
+        else:
+            turtle.left(180)
+            turtle.forward(100)
+
+    from turtle import *
+    import random
+    space = Screen()
+
+    jaz = Turtle()
+    turtleDraw(10, jaz)

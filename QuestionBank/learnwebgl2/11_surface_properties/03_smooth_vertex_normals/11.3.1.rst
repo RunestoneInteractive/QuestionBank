@@ -1,0 +1,29 @@
+.. mchoice:: 11.3.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 11_surface_properties
+  :subchapter: 03_smooth_vertex_normals
+  :topics: 11_surface_properties/03_smooth_vertex_normals
+  :from_source: T
+  :random:
+
+  Given a triangle, a vector that is 90 degrees to every point in the plane defined
+  by the triangle is called a *normal vector*. How many *normal vectors* does a triangle
+  have?
+
+  - two
+
+    + Correct. These corresponds to the two sides of a triangle (or the two sides of a plane).
+
+  - one
+
+    - Incorrect.
+
+  - three
+
+    - Incorrect.
+
+  - infinite
+
+    - Incorrect.

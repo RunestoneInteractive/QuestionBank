@@ -1,0 +1,20 @@
+.. mchoice:: mc_forloop
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: cpp4python
+  :chapter: Control_Structures
+  :subchapter: for_loop
+  :topics: Control_Structures/for_loop
+  :from_source: T
+  :answer_a: 0 2 4 6
+  :answer_b: 0 0 0 0
+  :answer_c: Runtime error
+  :answer_d: 0 1 2 3
+  :answer_e: all of the above
+  :correct: a
+  :feedback_a: Good Job!
+  :feedback_b: Not quite, take another look at the operation happening in the cout line
+  :feedback_c: Not quite, take another look at the for loop
+  :feedback_d: Not quite, take another look at the operation happening in the cout line
+
+  Using the code above please select the answer that should appear?

@@ -1,0 +1,32 @@
+.. activecode:: getAvgForEach
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Array2dBasics
+   :subchapter: a2dLoop
+   :topics: Array2dBasics/a2dLoop
+   :from_source: T
+   :language: java
+
+   public class Test
+   {
+
+      public static double getAvg(int[][] a)
+      {
+         double total = 0;
+         for (int[] innerArray : a)
+         {
+            for (int val : innerArray)
+            {
+               total = total + val;
+            }
+         }
+         return total / (a.length * a[0].length);
+      }
+
+      public static void main(String[] args)
+      {
+         int[][] theArray = { {80, 90, 70}, {20, 80, 75} };
+         System.out.println(getAvg(theArray));
+      }
+   }

@@ -1,0 +1,20 @@
+.. clickablearea:: logic_error
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cpp4python
+    :chapter: Exception_Handling
+    :subchapter: ExceptionHandling
+    :topics: Exception_Handling/ExceptionHandling
+    :from_source: T
+    :question: Click on the logic error.
+    :iscode:
+    :feedback: If we want the code to say when we can vote, what cases should it say when can and cannot?
+
+    :click-incorrect:int age;:endclick:
+    :click-incorrect:cout << "age:";:endclick:
+    :click-incorrect:cin >> age;:endclick:
+    :click-correct:if (age > 18) {:endclick:
+    :click-incorrect:cout << "You can vote in the U.S!";}:endclick:
+    :click-incorrect:else {:endclick:
+    :click-incorrect:cout << You cannot vote in the U.S yet.;:endclick:
+    }

@@ -1,0 +1,17 @@
+.. activecode::  ch13ex7q
+     :author: bmiller
+     :difficulty: 3.0
+     :basecourse: studentcsp
+     :chapter: CSPStringDecisions
+     :subchapter: Exercises
+     :topics: CSPStringDecisions/Exercises
+     :from_source: T
+     :nocodelens:
+
+     score = 22
+     if score < 10:
+         print("You can do better.")
+     if score > 10:
+         print("Good job!")
+     if score > 20:
+         print("Amazing")

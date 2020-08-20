@@ -1,0 +1,15 @@
+.. dragndrop:: matching_ADT
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cpp4python
+   :chapter: AtomicData
+   :subchapter: glossary
+   :topics: AtomicData/glossary
+   :from_source: T
+   :feedback: Feedback shows incorrect matches.
+   :match_1: address-of|||(&) is used to access the memory address of a C++ variable.
+   :match_2: atomic data type|||Data type that cannot be broken down into any simpler data elements.
+   :match_3: dereference|||Reads data in a pointers memory location.
+   :match_4: pointer|||Variables that store and manipulate memory addresses.
+
+   Drag each glossary term to its' corresponding definition. (Note: none of the data types are in this matching, but they are in the glossary)

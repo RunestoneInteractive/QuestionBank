@@ -1,0 +1,25 @@
+.. mchoice:: 1.6.2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 6_file_structure
+    :topics: 01_the_big_picture/6_file_structure
+    :from_source: T
+    :random:
+    :answer_a: _static/shaders
+    :answer_b: ../shaders
+    :answer_c: shaders
+    :answer_d: ../../shaders
+    :correct: a,b
+    :feedback_a: Correct, this is an absolute path from the servers root folder
+    :feedback_b: Correct, this is a relative path from the current working folder, program1.
+    :feedback_c: No, there is no sub-folder called "shaders" from the root folder of the server.
+    :feedback_d: No, this goes to the parent folder of the parent folder, which is learnwebgl2, which does not have a sub-folder called shaders
+
+    Assume that you have a web page defined by a file :code:`ex1.html` in the folder :code:`program1` of this file hierarchy.
+
+    .. figure:: figures/file_structure.png
+        :align: left
+
+    Which of the following paths get you to the :code:`shaders` sub-folder? (Select all that apply.)

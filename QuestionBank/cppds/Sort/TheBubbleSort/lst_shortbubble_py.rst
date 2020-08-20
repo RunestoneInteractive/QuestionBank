@@ -1,0 +1,29 @@
+.. activecode:: lst_shortbubble_py
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: Sort
+   :subchapter: TheBubbleSort
+   :topics: Sort/TheBubbleSort
+   :from_source: T
+   :caption: The Short Bubble Sort in Python
+   :optional:
+
+   def shortBubbleSort(alist):
+       exchanges = True
+       passnum = len(alist)-1
+       while passnum > 0 and exchanges:
+          exchanges = False
+          for i in range(passnum):
+              if alist[i]>alist[i+1]:
+                  exchanges = True
+                  temp = alist[i]
+                  alist[i] = alist[i+1]
+                  alist[i+1] = temp
+          """subtracts from the passnum variable so that the next passthrough is one less
+          than the previous, because the largest value has already 'bubbled' all the way up"""
+          passnum = passnum-1
+
+   alist=[20,30,40,90,50,60,70,80,100,110]
+   shortBubbleSort(alist)
+   print(alist)

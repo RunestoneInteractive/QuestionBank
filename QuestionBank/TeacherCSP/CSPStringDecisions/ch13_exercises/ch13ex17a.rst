@@ -1,0 +1,24 @@
+.. activecode::  ch13ex17a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPStringDecisions
+    :subchapter: ch13_exercises
+    :topics: CSPStringDecisions/ch13_exercises
+    :from_source: T
+    :nocodelens:
+
+    def getFortune(num):
+        if num == "1":
+            return("You will ace a test")
+        elif num == "2":
+            return("You will get hurt.")
+        elif num == "3":
+            return("You will meet a new friend.")
+        elif num == "4":
+            return("You will find a penny.")
+        else:
+            return("You will lose something.")
+
+    num = input ("Type a number from 1 to 5. Then click OK or press enter")
+    print(getFortune(num))

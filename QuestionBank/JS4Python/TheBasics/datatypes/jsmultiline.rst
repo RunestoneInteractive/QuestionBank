@@ -1,0 +1,18 @@
+.. activecode:: jsmultiline
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :chapter: TheBasics
+    :subchapter: datatypes
+    :topics: TheBasics/datatypes
+    :from_source: T
+    :language: javascript
+
+    mlstr = `Hello world
+    this is a "multi-line."
+    Isn't it nice.
+    string.
+    `
+
+    writeln(mlstr);
+    alert(mlstr);

@@ -1,0 +1,41 @@
+.. mchoice:: e25_4_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: In no situation; this procedure works as intended
+   :answer_b: In all situations; this procedure will DISPLAY the maximum, not the minimum
+   :answer_c: If every item in the list is greater than zero
+   :answer_d: If every item in the list is less than zero
+   :correct: c
+   :feedback_a: Incorrect. This procedure does not work in every case.
+   :feedback_b: Incorrect. This code does obtain a minimum value, but fails to do so under certain circumstances.
+   :feedback_c: Correct. If every item in the list is positive, "min" never gets updated because it is initialized to 0 and every value in the list is being compared to it.
+   :feedback_d: Incorrect. The code will work as intended if every value is negative.
+
+   Imagine you want to create a procedure to find and print the smallest item in a list. Take the code below for example:
+
+
+   ::
+
+            PROCEDURE showMin(aList)
+
+             {
+              min ← 0
+
+              FOR EACH item IN aList
+
+               {
+                if (min > item)
+
+                 {
+                         min ← item
+                 }
+               }
+              DISPLAY(“smallest item in list is “ + min)
+             }
+
+   In what situation would this procedure fail to correctly display the minimum?

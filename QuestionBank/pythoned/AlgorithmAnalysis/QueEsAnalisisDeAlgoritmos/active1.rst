@@ -1,0 +1,18 @@
+.. activecode:: active1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythoned
+    :chapter: AlgorithmAnalysis
+    :subchapter: QueEsAnalisisDeAlgoritmos
+    :topics: AlgorithmAnalysis/QueEsAnalisisDeAlgoritmos
+    :from_source: None
+    :caption: Sumatoria de los primeros n enteros
+
+    def sumaDeN(n):
+       laSuma = 0
+       for i in range(1,n+1):
+           laSuma = laSuma + i
+
+       return laSuma
+
+    print(sumaDeN(10))

@@ -1,0 +1,19 @@
+.. mchoice:: question_sort_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythoned
+    :chapter: SortSearch
+    :subchapter: ElOrdenamientoBurbuja
+    :topics: SortSearch/ElOrdenamientoBurbuja
+    :from_source: None
+    :correct: b
+    :answer_a: [1, 9, 19, 7, 3, 10, 13, 15, 8, 12]
+    :answer_b: [1, 3, 7, 9, 10, 8, 12, 13, 15, 19]
+    :answer_c: [1, 7, 3, 9, 10, 13, 8, 12, 15, 19]
+    :answer_d: [1, 9, 19, 7, 3, 10, 13, 15, 8, 12]
+    :feedback_a:  Esta respuesta representa tres intercambios. Una pasada implica que usted continúa haciendo intercambios hasta el final de la lista.
+    :feedback_b:  Muy bien
+    :feedback_c: Un ordenamiento burbuja continúa intercambiando números hasta la posición del índica numPasada. Pero recuerde que numPasada comienza con el valor de la longitud de la lista - 1.
+    :feedback_d: Usted ha estado haciendo un ordenamiento por inserción, no un ordenamiento burbuja.
+
+    Suponga que usted tiene que ordenar la siguiente lista de números: [19, 1, 9, 7, 3, 10, 13, 15, 8, 12]. ¿Cuál de las siguientes listas representa la lista parcialmente ordenada tras tres pasadas completas del ordenamiento burbuja?

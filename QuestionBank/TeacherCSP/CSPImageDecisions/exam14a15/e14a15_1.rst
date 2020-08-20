@@ -1,0 +1,19 @@
+.. mchoice:: e14a15_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPImageDecisions
+   :subchapter: exam14a15
+   :topics: CSPImageDecisions/exam14a15
+   :from_source: T
+   :answer_a: y % 1
+   :answer_b: y % 2
+   :answer_c: y % 3
+   :answer_d: y % 4
+   :correct: c
+   :feedback_a: Since every value is evenly divisible by 1 this will always return 0.
+   :feedback_b: This will return two possible values 0 if even and 1 if odd.
+   :feedback_c: This will return 0, 1, or 2.
+   :feedback_d: This will return 0, 1, 2, or 3.
+
+   Which of the following expressions gives you 3 possible results for all values of y?

@@ -1,0 +1,11 @@
+.. activecode:: ex_7_7
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
+   :from_source: None
+
+   def newtonSqrt(n):
+       # your code here

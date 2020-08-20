@@ -1,0 +1,25 @@
+.. mchoice:: q3_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: jsquiz
+   :topics: Javascript/jsquiz
+   :from_source: T
+   :multiple_answers: 
+   :answer_a: document.body.h1
+   :answer_b: document.h1
+   :answer_c: document.body
+   :answer_d: document.body.style
+   :correct: c,d
+   :feedback_a: What if there are more than one h1?
+   :feedback_b: No, at a minimum the h1 would be inside the body
+   :feedback_c: Yes
+   :feedback_d: Correct
+   :pct_on_first: 0.4689922481
+   :total_students_attempting: 258
+   :num_students_correct: 132
+   :mean_clicks_to_correct: 1.0909090909
+
+   
+   Which of the following are legal?

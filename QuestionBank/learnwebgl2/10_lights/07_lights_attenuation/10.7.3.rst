@@ -1,0 +1,27 @@
+.. mchoice:: 10.7.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 07_lights_attenuation
+  :topics: 10_lights/07_lights_attenuation
+  :from_source: T
+  :random:
+
+  CGI scenes often get better results from which attenuation formula below?
+
+  - proportional to 1/d
+
+    + Correct. Proportional to one divided by the distance.
+
+  - 1/(d^2)
+
+    - Incorrect.
+
+  - 1.0/(1 + d + d^2)
+
+    - Incorrect.
+
+  - 20/d
+
+    - Incorrect.

@@ -1,0 +1,29 @@
+.. mchoice:: histogram_vs_bar_chart
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: introduction_to_visualizations
+   :subchapter: histograms_and_bar_charts
+   :topics: introduction_to_visualizations/histograms_and_bar_charts
+   :from_source: T
+
+   For which of the following variables would you prefer a histogram over a bar
+   chart?
+
+   - Marathon completion times
+
+     + Correct: Time is always a numeric variable.
+
+   - Undergraduate major
+
+     - Incorrect: This is a categorical variable.
+
+   - Income
+
+     + Correct: Income is a numeric variable.
+
+   - Income bracket
+
+     - Incorrect: While “income” is a numeric variable, once it is discretized
+       into buckets, it becomes categorical (or more precisely,
+       `ordinal`_).

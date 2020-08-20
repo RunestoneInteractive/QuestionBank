@@ -1,0 +1,20 @@
+.. activecode:: bikeshare_rides_over_8_hours_by_W01274
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: sql
+   :subchapter: filtering
+   :topics: sql/filtering
+   :from_source: T
+   :language: sql
+   :dburl: /runestone/books/published/ac1/_static/bikeshare.db
+
+   Write a query to find the ending station and duration of all of trips by bike
+   number W00153 that lasted over 8 hours.
+   ~~~~
+
+   ====
+   assert 0,0 == 31606
+   assert 0,1 == 40791
+   assert 2,0 == 31703
+   assert 2,1 == 40820

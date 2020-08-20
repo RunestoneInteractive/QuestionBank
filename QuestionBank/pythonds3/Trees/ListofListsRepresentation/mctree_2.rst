@@ -1,0 +1,22 @@
+.. actex:: mctree_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythonds3
+   :chapter: Trees
+   :subchapter: ListofListsRepresentation
+   :topics: Trees/ListofListsRepresentation
+   :from_source: T
+
+   Write a function ``build_tree`` that returns a tree using the list of lists functions that looks like this:
+
+   .. image:: Figures/tree_ex.png
+   ~~~~
+   from test import testEqual
+
+   def build_tree():
+       pass
+
+   ttree = build_tree()
+   testEqual(get_root_val(get_right_child(ttree)), "c")
+   testEqual(get_root_val(get_right_child(get_left_child(ttree))), "d")
+   testEqual(get_root_val(get_right_child(get_right_child(ttree))), "f")

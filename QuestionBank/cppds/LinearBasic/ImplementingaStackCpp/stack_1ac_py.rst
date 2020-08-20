@@ -1,0 +1,48 @@
+.. activecode:: stack_1ac_py
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: LinearBasic
+   :subchapter: ImplementingaStackCpp
+   :topics: LinearBasic/ImplementingaStackCpp
+   :from_source: T
+   :caption: Implementing a Stack class using Python lists
+   :optional:
+
+   #Tests the push, empty, size, pop, and top methods of the stack library.
+
+   class Stack:
+       def __init__(self): #initializes new stack instance
+           self.items = []
+
+       def isEmpty(self): #returns boolean
+           return self.items == []
+
+       def push(self, item): #pushes new item onto stack
+           self.items.append(item)
+
+       def pop(self): #removes topmost item from stack
+           return self.items.pop()
+
+       def top(self): #returns the topmost item from the stack
+           return self.items[len(self.items)-1]
+
+       def size(self): #returns the size of the stack
+           return len(self.items)
+
+   def main():
+       newStack = Stack()
+       newStack.push(4)
+       newStack.push(8)
+       newStack.push(15)
+
+       print("Stack Empty? ", newStack.isEmpty())
+
+       print("Stack Size: ", newStack.size())
+
+       print("Top Element of the Stack: ", newStack.top())
+
+       newStack.pop();
+
+       print("Top Element of the Stack: ", newStack.top())
+   main()

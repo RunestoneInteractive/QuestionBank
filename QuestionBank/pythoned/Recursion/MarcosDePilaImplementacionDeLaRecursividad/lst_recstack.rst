@@ -1,0 +1,29 @@
+.. activecode:: lst_recstack
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythoned
+    :chapter: Recursion
+    :subchapter: MarcosDePilaImplementacionDeLaRecursividad
+    :topics: Recursion/MarcosDePilaImplementacionDeLaRecursividad
+    :from_source: None
+    :caption: Conversión de un entero a una cadena usando una pila
+    :nocodelens:
+
+    from pythoned.basicas.pila import Pila
+
+    pilaResultados = Pila()
+
+    def aCadena(n,base):
+        cadenaConversion = "0123456789ABCDEF"
+        while n > 0:
+            if n < base:
+                pilaResultados.incluir(cadenaConversion[n])
+            else:
+                pilaResultados.incluir(cadenaConversion[n % base])
+            n = n // base
+        resultado = ""
+        while not pilaResultados.estaVacia():
+            resultado = resultado + str(pilaResultados.extraer())
+        return resultado
+
+    print(aCadena(1453,16))

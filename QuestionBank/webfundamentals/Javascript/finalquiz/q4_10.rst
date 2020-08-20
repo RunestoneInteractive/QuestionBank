@@ -1,0 +1,34 @@
+.. mchoice:: q4_10
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: finalquiz
+   :topics: Javascript/finalquiz
+   :from_source: T
+   :answer_a: a1
+   :answer_b: a2
+   :answer_c: a3
+   :answer_d: a5
+   :correct: b
+   :feedback_a: No, a1 is the grand parent
+   :feedback_b: Yes
+   :feedback_c: No, a3 is a sibling
+   :feedback_d: No, a5 is the child of a4
+   :pct_on_first: 0.7288135593
+   :total_students_attempting: 59
+   :num_students_correct: 45
+   :mean_clicks_to_correct: 1.0888888889
+
+   Given the following HTML source, what is the parent of the element with the selector "#a4"
+   
+   .. code-block:: html
+   
+      <body>
+      <table id="a1">
+      <tr id="a2">
+         <td id="a3">Hello</td>
+         <td id="a4"><img id="a5" src="hello.jpg"></td>
+      </tr>
+      </table>
+      </body>

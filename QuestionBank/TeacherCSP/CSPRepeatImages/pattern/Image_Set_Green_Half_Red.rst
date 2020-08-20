@@ -1,0 +1,33 @@
+.. parsonsprob:: Image_Set_Green_Half_Red
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPRepeatImages
+   :subchapter: pattern
+   :topics: CSPRepeatImages/pattern
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   The program below should set all the green values to half the red values.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   img = Image("beach.jpg")
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+       p.setGreen(p.getRed() * 0.5)
+   =====
+       p.setGreen(p.getRed() - 0.5) #paired
+   =====
+       img.updatePixel(p)
+   =====
+       Image.updatePixel(p) #paired
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)
+   =====
+   win = ImageWin(Img.getWidth(),img.getHeight())
+   img.draw(win) #paired

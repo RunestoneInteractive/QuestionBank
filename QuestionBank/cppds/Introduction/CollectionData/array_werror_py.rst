@@ -1,0 +1,26 @@
+.. activecode:: array_werror_py
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Introduction
+    :subchapter: CollectionData
+    :topics: Introduction/CollectionData
+    :from_source: T
+    :caption: Write error in Python
+    :optional:
+
+    """shows how C++ allows you to easily
+    overwrite values in memory even when
+    you dont mean to."""
+    def main():
+        mylist = [2, 4]
+        otherdata = [777, 777]
+        for i in range(4):
+            print(mylist[i])
+            print("id: "+str(id(mylist[i])))
+
+        for j in range(2):
+              print(otherdata[i])
+              print("id: "+str(id(otherdata[i])))
+
+    main()

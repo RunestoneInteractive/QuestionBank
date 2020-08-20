@@ -1,0 +1,22 @@
+.. mchoice:: 2.7.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 02_tools_and_languages
+  :subchapter: 7_events
+  :topics: 02_tools_and_languages/7_events
+  :from_source: T
+  :random:
+  :answer_a: It is considered bad design to mix page content with user event functionality.
+  :answer_b: If you use HTML, you can only assign one event handler to an element. Using JavaScript, multiple event handlers can be assigned to a single element.
+  :answer_c: Using jQuery takes care of browser inconsistencies in handling events.
+  :answer_d: JavaScript event handlers are faster.
+  :answer_e: The HTML code can't be modified after the web page is loaded.
+  :correct: a,b,c
+  :feedback_a: Correct.
+  :feedback_b: Correct.
+  :feedback_c: Correct.
+  :feedback_d: Incorrect. All event handlers are implemented in JavaScript, so there is no speed differences.
+  :feedback_e: Incorrect. The HTML code can be easily modified after the web page is loaded. That is what JavaScript does!
+
+  Why should event handlers be assigned in JavaScript code instead of in HTML code? (Select all that apply.)

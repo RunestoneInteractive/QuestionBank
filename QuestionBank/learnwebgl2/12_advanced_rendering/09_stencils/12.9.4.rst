@@ -1,0 +1,30 @@
+.. mchoice:: 12.9.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 09_stencils
+  :topics: 12_advanced_rendering/09_stencils
+  :from_source: T
+  :random:
+
+  How many rendering passes does it typically take to use a *stencil buffer*
+  to control which *color buffer* pixels can be modified?
+
+  - two
+
+    + Correct. One rendering pass to set the *stencil buffer* values, and
+      a second rendering pass to use the *stencil buffer* to control writing
+      to the *color buffer*.
+
+  - one
+
+    - Incorrect.
+
+  - none
+
+    - Incorrect.
+
+  - four
+
+    - Incorrect. Certainly four passes might be used, but that is not typical.

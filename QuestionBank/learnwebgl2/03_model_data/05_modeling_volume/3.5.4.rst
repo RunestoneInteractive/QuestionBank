@@ -1,0 +1,20 @@
+.. mchoice:: 3.5.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 03_model_data
+  :subchapter: 05_modeling_volume
+  :topics: 03_model_data/05_modeling_volume
+  :from_source: T
+  :random:
+  :answer_a: The approximation of the 3D object can be more accurate.
+  :answer_b: The rendering will be slower -- because is has to draw more triangles.
+  :answer_c: More memory will be required to store the 3D representation.
+  :answer_d: The approximation of the 3D object will be less accurate.
+  :correct: a,b,c
+  :feedback_a: Correct. Assuming the added triangles add details to the object's form.
+  :feedback_b: Correct.
+  :feedback_c: Correct.
+  :feedback_d: Incorrect. Though it would be possible to decrease accuracy if the added triangles were ill-placed.
+
+  What are the implications of adding more triangles to a triangular mesh? (Select all that apply.)

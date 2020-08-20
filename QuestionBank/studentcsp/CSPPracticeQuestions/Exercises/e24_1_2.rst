@@ -1,0 +1,19 @@
+.. mchoice:: e24_1_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
+   :from_source: T
+   :answer_a: Abstraction requires users to understand the low-level details of a system.
+   :answer_b: Abstraction reduces information and detail to facilitate focus on relevant concepts.
+   :answer_c: Abstraction increases the run-time complexity of a program.
+   :answer_d: Abstraction compresses a program file to reduce file size.
+   :correct: b
+   :feedback_a: Incorrect. Abstraction is used to hide the low-level details from the user, therefore this statement is false.
+   :feedback_b: Correct. This follows from the definition of abstraction.
+   :feedback_c: Incorrect. Abstraction is not related to run-time complexity.
+   :feedback_d: Incorrect. Abstraction is not related to compression.
+
+   Which of the following statements about abstraction is true?

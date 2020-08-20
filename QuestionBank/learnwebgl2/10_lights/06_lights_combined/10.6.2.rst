@@ -1,0 +1,28 @@
+.. mchoice:: 10.6.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 06_lights_combined
+  :topics: 10_lights/06_lights_combined
+  :from_source: T
+  :random:
+
+  A "combined light model" creates the color a fragment by adding which of the
+  following together? (Select all that apply.)
+
+  - Ambient light.
+
+    + Yes.
+
+  - Diffuse light.
+
+    + Yes.
+
+  - Specular light.
+
+    + Yes.
+
+  - Sun light.
+
+    - Incorrect.

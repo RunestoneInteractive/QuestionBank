@@ -1,0 +1,22 @@
+.. mchoice:: e24_1_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPPracticeQuestions
+   :subchapter: Exercises
+   :topics: CSPPracticeQuestions/Exercises
+   :from_source: T
+   .. mchoice:: e24_1_5
+   :answer_a: The baby duck picture appears as intended.
+   :answer_b: The baby duck picture appears as 4 out of order images.
+   :answer_c: The baby duck picture is distorted.
+   :answer_d: The baby duck picture won’t load on the user’s smartphone.
+   :correct: a
+   :feedback_a: Correct. One of the specific design goals of TCP/IP network protocols is to allow packets to arrive out of order and then be reassembled correctly, therefore the picture appears as intended.
+   :feedback_b: Incorrect. The packets are always reassembled in the correct order, so the original picture will appear as inteded.
+   :feedback_c: Incorrect. The packets are always reassembled in the correct order, so the original picture will appear as inteded.
+   :feedback_d: Incorrect. The picture will load since all the packets successfully arrive on the user's smart phone.
+
+   A user’s smartphone makes a request to a server for 4 packets that represent the image of a baby duck. The server sends the 4 packets but they arrive at the user’s smartphone out of order. How does the smartphone interpret the packets that form the image?
+
+   .. figure:: Figures/duckpacket.jpg

@@ -1,0 +1,19 @@
+.. activecode:: ito
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: MoreAboutIteration
+    :subchapter: SentinelValuesAndValidation
+    :topics: MoreAboutIteration/SentinelValuesAndValidation
+    :from_source: None
+    :timelimit: 60000
+
+    response = 'x' # initial value ensures loop body will execute
+    while not(response == 'y' or response == 'n'):
+        response = input('Do you like brussel sprouts? (y or n): ')
+
+
+    if response == 'y':
+        print('You can have mine.')
+    else:
+        print('Neither do I.')

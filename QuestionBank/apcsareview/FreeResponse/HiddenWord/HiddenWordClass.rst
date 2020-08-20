@@ -1,0 +1,33 @@
+.. activecode:: HiddenWordClass
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: FreeResponse
+   :subchapter: HiddenWord
+   :topics: FreeResponse/HiddenWord
+   :from_source: T
+   :language: java
+
+   // Declare the HiddenWord class below
+
+   {
+
+       /** Declare any fields (instance variables) **/
+
+       /** Declare a constructor */
+
+       /** Write the getHint method */
+
+       /** This is a main method for testing the class */
+       public static void main(String[] args)
+       {
+           HiddenWord puzzle = new HiddenWord("HARPS");
+           System.out.println(puzzle.getHint("AAAAA") + " it should print +A+++");
+           System.out.println(puzzle.getHint("HELLO") + " it should print H****");
+           System.out.println(puzzle.getHint("HEART") + " it should print H*++*");
+           System.out.println(puzzle.getHint("HARMS") + " it should print HAR*S");
+           System.out.println(puzzle.getHint("HARPS") + " it should print HARPS");
+
+       } // end of main
+
+   } // end of class

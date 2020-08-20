@@ -1,0 +1,22 @@
+.. activecode:: lab0401a
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: Labs
+    :subchapter: lab04_01a
+    :topics: Labs/lab04_01a
+    :from_source: None
+    :nocodelens:
+
+    import turtle
+
+    def drawPolygon(t, sideLength, numSides):
+        # your code here.
+
+
+    wn = turtle.Screen()
+    geo = turtle.Turtle()
+
+    drawPolygon(geo,30,10)  # draw a decagon
+
+    wn.exitonclick()

@@ -1,0 +1,18 @@
+.. clickablearea:: rec_base3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Recursion
+   :subchapter: rBasePractice
+   :topics: Recursion/rBasePractice
+   :from_source: T
+   :question: Click on the line or lines that contain the test for the base case
+   :iscode:
+   :feedback: When a base case test is true a value is returned and the recursion stops
+
+   :click-incorrect:public static int bunnyEars(int bunnies):endclick:
+   :click-incorrect:{:endclick:
+       :click-correct:if (bunnies == 0) return 0;:endclick:
+       :click-correct:else if (bunnies == 1) return 2;:endclick:
+       :click-incorrect:else return 2 + bunnyEars(bunnies - 1);:endclick:
+   :click-incorrect:}:endclick:

@@ -1,0 +1,12 @@
+.. activecode:: Nested_Loops_Stars
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPWhileAndForLoops
+    :subchapter: nestedLoops
+    :topics: CSPWhileAndForLoops/nestedLoops
+    :from_source: T
+
+    for x in range(0,2):
+        for y in range(0,3):
+            print('*')

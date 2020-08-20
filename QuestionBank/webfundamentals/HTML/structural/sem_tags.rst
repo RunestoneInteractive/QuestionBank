@@ -1,0 +1,24 @@
+.. activecode:: sem_tags
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: HTML
+   :subchapter: structural
+   :topics: HTML/structural
+   :from_source: T
+   :language: html
+
+   <html>
+   <body>
+   <header>
+   <p>This is text in the header</p>
+   </header>
+   <aside>
+   <p>This is a side comment</p>
+   </aside>
+   <article>
+   <p>This is some text for an article</p>
+   </article>
+   <p>Notice that there is nothing special about the location of any of this text.  Without CSS the semantic tags simply divide the document logically</p>
+   </body>
+   </html>

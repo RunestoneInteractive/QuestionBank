@@ -1,0 +1,44 @@
+.. mchoice:: e25_2_14
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_2
+  :topics: CSPUntimedPracticeQuestions/exam25_2
+  :from_source: T
+  :answer_a: figure = 15, x = 6
+  :answer_b: figure = 18, x = 3
+  :answer_c: figure = 15, x = 7
+  :answer_d: figure = 18, x = 7
+  :correct: d
+  :feedback_a: Incorrect. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 2. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 3 * 3 = 9 and x = 4; after period 3, figure = 3 * 4 = 12 and x = 5; after period 4, figure = 3 * 5 = 15 and x = 6; after period 5, figure = 3 * 6 = 18 and x = 7. The program will stop after period 5 since figure exceeds 15.
+  :feedback_b: Incorrect. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 2. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 3 * 3 = 9 and x = 4; after period 3, figure = 3 * 4 = 12 and x = 5; after period 4, figure = 3 * 5 = 15 and x = 6; after period 5, figure = 3 * 6 = 18 and x = 7. The program will stop after period 5 since figure exceeds 15.
+  :feedback_c: Incorrect. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 2. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 3 * 3 = 9 and x = 4; after period 3, figure = 3 * 4 = 12 and x = 5; after period 4, figure = 3 * 5 = 15 and x = 6; after period 5, figure = 3 * 6 = 18 and x = 7. The program will stop after period 5 since figure exceeds 15.
+  :feedback_d: Correct. The code runs for 5 periods total. We start in period 0 with fig = 0 and x = 2. The value for x increases by 1 after each period. So, the values for figure are as follows for every period: After period 2, figure = 3 * 3 = 9 and x = 4; after period 3, figure = 3 * 4 = 12 and x = 5; after period 4, figure = 3 * 5 = 15 and x = 6; after period 5, figure = 3 * 6 = 18 and x = 7. The program will stop after period 5 since figure exceeds 15.
+
+  Consider the following code:
+
+  x ← 2
+
+  figure ← 0
+
+  REPEAT UNTIL figure > 15
+
+  {
+
+   figure ← 3 * x
+
+   x  ← x + 1
+
+  }
+
+
+  DISPLAY(“figure =”)
+
+  DISPLAY(figure)
+
+  DISPLAY(“, x =”)
+
+  DISPLAY(x)
+
+  What is displayed as a result of running the code above?

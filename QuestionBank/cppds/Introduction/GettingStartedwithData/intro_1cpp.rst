@@ -1,0 +1,32 @@
+.. activecode:: intro_1cpp
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Introduction
+    :subchapter: GettingStartedwithData
+    :topics: Introduction/GettingStartedwithData
+    :from_source: T
+    :caption: Basic Arithmetic Operators C++
+    :language: cpp
+
+    //outputs results from various math expressions
+    #include <iostream>
+    #include <cmath>
+    using namespace std;
+
+    int main(){
+
+        cout << (2+3*4) << endl;
+        cout << (2+3)*4 << endl;
+        cout << pow(2, 10) << endl;
+        cout << float(6)/3 << endl;
+        cout << float(7)/3 << endl;
+        cout << 7/3 << endl; //In C++ this is integer division
+        cout << 7%3 << endl;
+        cout << float(3)/6 << endl;
+        cout << 3/6 << endl;
+        cout << 3%6 << endl;
+        cout << pow(2, 100) << endl;
+
+        return 0;
+    }

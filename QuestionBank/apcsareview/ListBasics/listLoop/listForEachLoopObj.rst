@@ -1,0 +1,49 @@
+.. activecode:: listForEachLoopObj
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ListBasics
+   :subchapter: listLoop
+   :topics: ListBasics/listLoop
+   :from_source: T
+   :language: java
+
+   import java.util.*;  // import all classes in this package.
+   public class ListWorker
+   {
+      private List<String> nameList;
+
+      public ListWorker(List<String> theNames)
+      {
+          nameList = theNames;
+      }
+
+      public boolean removeName(String name)
+      {
+          boolean found = false;
+          int index = 0;
+          while (index < nameList.size())
+          {
+              if (name.equals(nameList.get(index)))
+              {
+                  nameList.remove(index);
+                  found = true;
+              }
+              else index++;
+          }
+          return found;
+       }
+
+       public static void main(String[] args)
+       {
+           List<String> myList = new ArrayList<String>();
+           myList.add("Amun");
+           myList.add("Ethan");
+           myList.add("Donnie");
+           myList.add("Ethan");
+           ListWorker listWorker = new ListWorker(myList);
+           System.out.println(listWorker.nameList);
+           listWorker.removeName("Ethan");
+           System.out.println(listWorker.nameList);
+       }
+   }

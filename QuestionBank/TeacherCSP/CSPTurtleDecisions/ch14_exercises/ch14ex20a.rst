@@ -1,0 +1,30 @@
+.. activecode::  ch14ex20a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPTurtleDecisions
+    :subchapter: ch14_exercises
+    :topics: CSPTurtleDecisions/ch14_exercises
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *
+    space = Screen()
+    jaz = Turtle()
+    mia = Turtle()
+    mia.penup()
+    mia.goto(100,0)
+    mia.pendown()
+    mia.right(180)
+    for x in range(20):
+        if x % 2 == 0:
+            mia.color("blue")
+            jaz.color("green")
+        else:
+            mia.color("red")
+            jaz.color("yellow")
+        jaz.forward(10)
+        mia.forward(10)
+        if (mia.xcor() - jaz.xcor() < 40):
+            jaz.right(45)
+            mia.right(45)

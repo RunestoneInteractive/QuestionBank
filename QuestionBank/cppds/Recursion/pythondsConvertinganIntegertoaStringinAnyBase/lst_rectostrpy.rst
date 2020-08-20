@@ -1,0 +1,24 @@
+.. activecode:: lst_rectostrpy
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: Recursion
+   :subchapter: pythondsConvertinganIntegertoaStringinAnyBase
+   :topics: Recursion/pythondsConvertinganIntegertoaStringinAnyBase
+   :from_source: T
+   :caption: Recursively Converting from Integer to String
+   :optional:
+
+   #Recursive example of converting an int to str.
+
+   def toStr(n,base):
+      convertString = "0123456789ABCDEF"
+      if n < base:
+         return convertString[n]
+      else:
+         return toStr(n//base,base) + convertString[n%base] #function makes a recursive call to itself.
+
+   def main():
+      print(toStr(1453,16))
+
+   main()

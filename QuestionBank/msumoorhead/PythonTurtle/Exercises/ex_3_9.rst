@@ -1,0 +1,9 @@
+.. activecode:: ex_3_9
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: PythonTurtle
+   :subchapter: Exercises
+   :topics: PythonTurtle/Exercises
+   :from_source: None
+   :nocodelens:

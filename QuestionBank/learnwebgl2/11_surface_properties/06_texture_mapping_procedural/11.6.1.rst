@@ -1,0 +1,27 @@
+.. mchoice:: 11.6.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 11_surface_properties
+  :subchapter: 06_texture_mapping_procedural
+  :topics: 11_surface_properties/06_texture_mapping_procedural
+  :from_source: T
+  :random:
+
+  A *procedural texture map* is performed by ...
+
+  - calculations on input values to produce a percentage or color output value.
+
+    + Correct.
+
+  - calculations to create a color.
+
+    - Not the best answer. Another choice is a better definition.
+
+  - getting a color from a 2D image.
+
+    - Incorrect. This is *image texture mapping*.
+
+  - a procedure.
+
+    - Not the best answer. Another choice is a better definition.

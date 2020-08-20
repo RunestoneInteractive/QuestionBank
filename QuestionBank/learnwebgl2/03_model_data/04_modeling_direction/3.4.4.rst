@@ -1,0 +1,16 @@
+.. mchoice:: 3.4.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 03_model_data
+  :subchapter: 04_modeling_direction
+  :topics: 03_model_data/04_modeling_direction
+  :from_source: T
+  :random:
+  :answer_a: an absolute direction.
+  :answer_b: a relative direction.
+  :correct: a
+  :feedback_a: Correct. A vector defined by &#60;dx,dy&#62; is an absolute direction. It does not define a reference point from which to start.
+  :feedback_b: Incorrect. A relative direction must define a starting point and the &#60;dx,dy&#62; vector definition only gives a direction.
+
+  A vector defined by 2 distances, <dx,dy>, is ...

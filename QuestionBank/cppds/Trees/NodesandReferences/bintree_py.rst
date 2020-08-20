@@ -1,0 +1,62 @@
+.. activecode:: bintree_py
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Trees
+    :subchapter: NodesandReferences
+    :topics: Trees/NodesandReferences
+    :from_source: T
+    :caption: Exercising the Node and Reference Implementation Python
+    :optional:
+
+    """ creates a binary tree, allows you to insert nodes
+     and access those nodes. """
+    class BinaryTree:
+        def __init__(self,rootObj): # initializer function expects to get some kind of object to store in the root
+            self.key = rootObj
+            self.leftChild = None  # reference other instances of the binary tree the BinaryTree class
+            self.rightChild = None # reference other instances of the binary tree the BinaryTree class
+
+        def insertLeft(self,newNode): # Handles insertion if there is no left child simply adds a node to the tree.
+            if self.leftChild == None:
+                self.leftChild = BinaryTree(newNode)
+            else:
+                t = BinaryTree(newNode) # handles insertion if there is a left child pushes the existing child down one level in the tree.
+                t.leftChild = self.leftChild
+                self.leftChild = t
+
+        def insertRight(self,newNode): # Handles insertion if there is no right child simply adds a node to the tree
+            if self.rightChild == None:
+                self.rightChild = BinaryTree(newNode)
+            else: # handles insertion if there is a right child pushes the existing child down one level in the tree.
+                t = BinaryTree(newNode)
+                t.rightChild = self.rightChild
+                self.rightChild = t
+
+
+        def getRightChild(self): # accessor method
+            return self.rightChild
+
+        def getLeftChild(self): # accessor method
+            return self.leftChild
+
+        def setRootVal(self,obj): # accessor method
+            self.key = obj
+
+        def getRootVal(self): # accessor method
+            return self.key
+
+
+    def main():
+        r = BinaryTree('a')
+        print(r.getRootVal())
+        print(r.getLeftChild())
+        r.insertLeft('b')
+        print(r.getLeftChild())
+        print(r.getLeftChild().getRootVal())
+        r.insertRight('c')
+        print(r.getRightChild())
+        print(r.getRightChild().getRootVal())
+        r.getRightChild().setRootVal('d')
+        print(r.getRightChild().getRootVal())
+    main()

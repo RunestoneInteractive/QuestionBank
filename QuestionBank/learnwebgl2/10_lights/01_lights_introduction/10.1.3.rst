@@ -1,0 +1,27 @@
+.. mchoice:: 10.1.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 01_lights_introduction
+  :topics: 10_lights/01_lights_introduction
+  :from_source: T
+  :random:
+
+  Which types of light sources require a direction for the light? (Select all that apply.)
+
+  - Point light source
+
+    - Incorrect. Point light sources shine light in all directions.
+
+  - Sun light source
+
+    + Correct. All light rays from the sun have the same direction because the sun is so far away from the scene.
+
+  - Spotlight light source
+
+    + Correct. The direction the spotlight is pointed is critical.
+
+  - Area light source
+
+    + Correct. Area light sources only shine light to one side of the defined area.

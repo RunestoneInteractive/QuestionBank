@@ -1,0 +1,19 @@
+.. activecode:: css_float1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: CSS
+   :subchapter: layoutattributes
+   :topics: CSS/layoutattributes
+   :from_source: T
+   :language: html
+
+   <html>
+      <head>
+         <style>
+         </style>
+       </head>
+   <body>
+   <p>the quick brown fox jumped over the lazy dog.  the quick brown fox jumped over the lazy dog.  the quick brown fox jumped over the lazy dog.  <img src="http://interactivepython.org/runestone/static/webfundamentals/_images/norse-logo.png" /> the quick brown fox jumped over the lazy dog. the quick brown fox jumped over the lazy dog. the quick brown fox jumped over the lazy dog.
+   </body>
+   </html>

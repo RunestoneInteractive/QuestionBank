@@ -1,0 +1,17 @@
+.. mchoice:: 5_6_2_Turtle_Names5_Q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameTurtles
+   :subchapter: changeProg
+   :topics: CSPNameTurtles/changeProg
+   :from_source: T
+   :answer_a: alex.left(45)
+   :answer_b: alex.left(90)
+   :answer_c: alex.left(135)
+   :correct: c
+   :feedback_a: The turtle turns the exterior angle, not the interior angle.
+   :feedback_b: That would make another right angle. Which would be more like a square shape.
+   :feedback_c: The interior angles of a triangle need to add up to 180.  So far we have one angle of 90 so the other two must be equal and must total 90.  They both have to be 45, but we tell the turtle to turn the exterior angle so 180 - 45 = 135.
+
+   The code ``alex.left(0)`` will not turn the turtle toward the starting point.  Which of these will?

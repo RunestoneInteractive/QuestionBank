@@ -1,0 +1,38 @@
+.. mchoice:: e24_1_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_1
+   :topics: CSPPracticeQuestions/exam24_1
+   :from_source: T
+   :answer_a: Sorting students by grade
+   :answer_b: Deleting a student’s record
+   :answer_c: Searching for a student’s name
+   :answer_d: Adding bonus points to grades of all students
+   :correct: d
+   :feedback_a: Incorrect
+   :feedback_b: Incorrect
+   :feedback_c: Incorrect
+   :feedback_d: Correct
+
+   A professor uses an automated computer system to manage the student records of his classes. The time the system takes to perform various tasks for different class sizes is shown in the table below:
+
+   +---------------------+---------------------------+----------------------------+----------------------------+
+   | Task ↓       Size → | Small class (25 students) | Medium class (50 students) | Large class (100 students) |
+   +=====================+===========================+============================+============================+
+   | Sorting students by | 10 seconds                | 40 seconds                 | 160 seconds                |
+   | grade               |                           |                            |                            |
+   +---------------------+---------------------------+----------------------------+----------------------------+
+   | Deleting a student’s| 2 seconds                 | 4 seconds                  | 8 seconds                  |
+   | record              |                           |                            |                            |
+   +---------------------+---------------------------+----------------------------+----------------------------+
+   | Searching for a     | 1 second                  | 2 seconds                  | 4 seconds                  |
+   | student’s name      |                           |                            |                            |
+   +---------------------+---------------------------+----------------------------+----------------------------+
+   | Adding bonus points | 3 seconds                 | 6 seconds                  | 9 seconds                  |
+   | to grades of all    |                           |                            |                            |
+   | students            |                           |                            |                            |
+   +---------------------+---------------------------+----------------------------+----------------------------+
+
+   Based on the information in the table, which of the following tasks is likely to take the least amount of time if the computer system is used for a class of 400 students?

@@ -1,0 +1,29 @@
+.. mchoice:: pre_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPrinTeasers
+   :subchapter: pretest
+   :topics: CSPrinTeasers/pretest
+   :from_source: T
+   :answer_a: The printed result will be even and will have a decimal point.
+   :answer_b: The printed result will be odd and will have a decimal point.
+   :answer_c: The printed result will be even and will not have a decimal point.
+   :answer_d: The printed result will be odd and will not have a decimal point.
+   :answer_e: I don’t know
+   :correct: c
+   :feedback_a: Adding up an even number of odd numbers results in an even sum, but there won't be a decimal point.
+   :feedback_b: Adding up an even number of odd numbers results in an even sum.
+   :feedback_c: Adding up an even number of odd numbers results in an even sum and there won't be a decimal point.
+   :feedback_d: Adding up an even number of odd numbers results in an even sum.
+   :feedback_e: That is okay.  We do not expect you to know this.
+
+   Given the following code segment, which of the following is true?
+
+   ::
+
+      sum = 0 # Start out with nothing
+      thingsToAdd = [1,3,7,19,21,131]
+      for number in thingsToAdd:
+          sum = sum + number
+      print (sum)

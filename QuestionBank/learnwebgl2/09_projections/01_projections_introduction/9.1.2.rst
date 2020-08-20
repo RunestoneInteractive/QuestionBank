@@ -1,0 +1,16 @@
+.. mchoice:: 9.1.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 09_projections
+  :subchapter: 01_projections_introduction
+  :topics: 09_projections/01_projections_introduction
+  :from_source: T
+  :random:
+  :answer_a: orthogonal
+  :answer_b: perspective
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect.
+
+  Which projection maintains parallel lines and the size of models?

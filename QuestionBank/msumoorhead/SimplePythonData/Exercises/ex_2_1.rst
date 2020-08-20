@@ -1,0 +1,26 @@
+.. activecode:: ex_2_1
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
+   :from_source: None
+
+   Evaluate the following numerical expressions in your head, then use the activecode window to check your results:
+
+   #. ``5 ** 2``
+   #. ``2 ** 5``
+   #. ``15 / 12``
+   #. ``12 / 15``
+   #. ``15 // 12``
+   #. ``12 // 15``
+   #. ``15 % 12``
+   #. ``12 % 15``
+   #. ``5 % 2``
+   #. ``2 % 5``
+   #. ``6 % 6``
+   #. ``0 % 6``
+   #. ``2 + (3 - 1) * 10 / 5 * (2 + 3)``
+   ~~~~
+   print(' 1:', 5 ** 2)

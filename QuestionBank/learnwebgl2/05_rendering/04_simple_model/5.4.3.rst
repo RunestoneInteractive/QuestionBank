@@ -1,0 +1,20 @@
+.. mchoice:: 5.4.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 04_simple_model
+  :topics: 05_rendering/04_simple_model
+  :from_source: T
+  :random:
+  :answer_a: [1]
+  :answer_b: [0]
+  :answer_c: [2]
+  :correct: a
+  :feedback_a: Correct. Change the y component in the (x,y,z) vertex.
+  :feedback_b: Incorrect. This is the x component in the (x,y,z) vertex.
+  :feedback_c: Incorrect. This is the z component in the (x,y,z) vertex.
+
+  In the above WebGL program, which component of vertex 1 would need to be modified to raise the
+  apex of the pyramid (it's highest point on the y axis) one unit higher?
+  (Note that arrays are zero sub-scripted.)

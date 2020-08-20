@@ -1,0 +1,16 @@
+.. activecode:: intro_8
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythonds3
+    :chapter: Introduction
+    :subchapter: ControlStructures
+    :topics: Introduction/ControlStructures
+    :from_source: T
+    :caption: Processing Each Character in a List of Strings
+
+    word_list = ["cat", "dog", "rabbit"]
+    letter_list = [ ]
+    for a_word in word_list:
+        for a_letter in a_word:
+            letter_list.append(a_letter)
+    print(letter_list)

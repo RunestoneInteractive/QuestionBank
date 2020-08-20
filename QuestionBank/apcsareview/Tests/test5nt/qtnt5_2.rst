@@ -1,0 +1,33 @@
+.. mchoice:: qtnt5_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Tests
+   :subchapter: test5nt
+   :topics: Tests/test5nt
+   :from_source: T
+   :answer_a: 1
+   :answer_b: 8
+   :answer_c: 8*7*6*5*4*3*2
+   :answer_d: 8*6*4*2
+   :answer_e: 7*5*3
+   :correct: d
+   :feedback_a: n != 0
+   :feedback_b: There are some recursive calls since n % 2 != 1
+   :feedback_c: Subtracts 2 from original number of 8, so could never call an odd number to be multiplied
+   :feedback_d: Will recursively call 8 -2, then 6-2, and lastly 4-2
+   :feedback_e: Subtracts 2 from original number of 8, so could never call an odd number to be multiplied
+
+   Consider the following method. What will be returned by a call to ``multiply(8)``?
+
+   .. code-block:: java
+
+     public int multiply(int n)
+     {
+         if (n == 0)
+             return 1;
+         else if(n % 2 == 1)
+           return n;
+         else
+             return n * multiply(n - 2);
+     }

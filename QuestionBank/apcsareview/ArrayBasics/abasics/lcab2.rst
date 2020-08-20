@@ -1,0 +1,18 @@
+.. activecode:: lcab2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: abasics
+   :topics: ArrayBasics/abasics
+   :from_source: T
+   :language: java
+
+   public class Test2
+   {
+      public static void main(String[] args)
+      {
+        int[ ] highScores = {99,98,98,88,68};
+        System.out.println(highScores.length);
+      }
+   }

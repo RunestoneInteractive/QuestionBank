@@ -1,0 +1,28 @@
+.. mchoice:: 11.10.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 11_surface_properties
+  :subchapter: 10_bump_maps
+  :topics: 11_surface_properties/10_bump_maps
+  :from_source: T
+  :random:
+
+  Where are *bump maps* and *normal maps* implemented?
+
+  - both the *vertex shader* and the *fragment shader*
+
+    + Correct. The *vertex shader* retrieves (or calculates) a *local coordinate system* for a triangle;
+      The *fragment shader* retrieves (or calculates) a *normal vector* for a fragment.
+
+  - *vertex shader*
+
+    - Incorrect. (But part of the work is done in the *vertex shader*.)
+
+  - *fragment shader*
+
+    - Incorrect. (But part of the work is done in the *fragment shader*.)
+
+  - JavaScript pre-processing code.
+
+    - Incorrect.

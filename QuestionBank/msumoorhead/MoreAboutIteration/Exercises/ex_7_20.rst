@@ -1,0 +1,9 @@
+.. activecode:: ex_7_20
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:

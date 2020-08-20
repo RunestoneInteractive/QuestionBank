@@ -1,0 +1,17 @@
+.. activecode:: sd_three_options_elif
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPStringDecisions
+    :subchapter: elif
+    :topics: CSPStringDecisions/elif
+    :from_source: T
+    :tour_1: "Structural Tour"; 1: sd6-line1; 2-3: sd6-line2-3; 4-5: sd6-line4-5; 6-7: sd6-line6-7;
+
+    x = 8
+    if x < 0:
+        print("x is negative")
+    elif x == 0:
+        print("x is 0")
+    else:
+        print("x is positive")

@@ -1,0 +1,22 @@
+.. mchoice:: 8.4.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 04_speed_and_acceleration
+  :topics: 08_animations/04_speed_and_acceleration
+  :from_source: T
+  :random:
+  :answer_a: Yes, because for a frame-ratae of "n frame/sec", time changes by 1/n between each frame.
+  :answer_b: No, the "change in t" between frames can vary without side effects.
+  :answer_c: Yes, because we need simple calculations to make the rendering fast.
+  :answer_d: No, because the value of "t" does not represent anything "real world".
+  :correct: a
+  :feedback_a: Correct. "t" represents time and time always changes consistently.
+  :feedback_b: Incorrect. "t" represents time and if it changes arbitrarily, syncing the motion of multiple objects becomes impossible.
+  :feedback_c: Incorrect. Fast rendering comes from the GPU.
+  :feedback_d: Incorrect. "t" represents time, which is very real!
+
+  A parametric equation calculates intermediate values as :code:`t` changes
+  from 0.0 to 1.0. Should the change in values of :code:`t` be the same between
+  every frame?

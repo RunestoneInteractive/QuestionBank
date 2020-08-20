@@ -1,0 +1,29 @@
+.. mchoice:: qamed_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: aMedMC
+   :topics: ArrayBasics/aMedMC
+   :from_source: T
+   :answer_a: whenever the first element in <code>a</code> is equal to <code>val</code>
+   :answer_b: Whenever <code>a</code> contains any element which equals <code>val</code>
+   :answer_c: Whenever the last element in <code>a</code> is equal to <code>val</code>
+   :answer_d: Whenever more than 1 element in <code>a</code> is equal to <code>val</code>
+   :answer_e: Whenever exactly 1 element in <code>a</code> is equal to <code>val</code>
+   :correct: c
+   :feedback_a: It is the last value in <code>a</code> that controls the final state of <code>temp</code>, as the loop is progressing through the array from 0 to the end.
+   :feedback_b: Because <code>temp</code> is reset every time through the loop, only the last element controls whether the final value is true or false.
+   :feedback_c: Because each time through the loop <code>temp</code> is reset, it will only be returned as true if the last value in <code>a</code> is equal to <code>val</code>.
+   :feedback_d: Because <code>temp</code> is reset every time through the loop, only the last element controls whether the final value is true or false, so it is possible for just the last value to be equal to <code>val</code>.
+   :feedback_e: Because <code>temp</code> is reset every time through the loop, only the last element controls whether the final value is true or false, so it is possible for several elements to be equal to <code>val</code>.
+
+   Consider the following code segment. Which of the following statements best describes the condition when it returns true?
+
+   .. code-block:: java
+
+     boolean temp = false;
+     for (int i = 0; i < a.length; i++) {
+        temp = (a[i] == val);
+     }
+     return temp;

@@ -1,0 +1,21 @@
+.. mchoice:: 6.8.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 08_transformations_example2
+  :topics: 06_transformations/08_transformations_example2
+  :from_source: T
+  :random:
+  :answer_a: The forearm does not rotate with the base about the Y axis.
+  :answer_b: It works fine!
+  :answer_c: The forearm does not rotate with the base about the Z axis.
+  :answer_d: The forearm rotates in the opposite direction.
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect.
+  :feedback_c: Incorrect.
+  :feedback_d: Incorrect.
+
+  If the base rotation matrix was not included in the transformation for the forearm rendering,
+  what would be the visual result? (Hint: Modify the code to see!)

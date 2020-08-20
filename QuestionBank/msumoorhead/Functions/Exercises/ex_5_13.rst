@@ -1,0 +1,13 @@
+.. activecode:: ex_5_13
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: Functions
+   :subchapter: Exercises
+   :topics: Functions/Exercises
+   :from_source: None
+   :nocodelens:
+
+   import turtle
+
+   def drawSprite(t, numlegs, leglength):

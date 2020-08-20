@@ -1,0 +1,21 @@
+.. actex:: ex_2_3
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: SimplePythonData
+   :subchapter: Exercises
+   :topics: SimplePythonData/Exercises
+   :from_source: None
+
+   Write a small program to simulate a bank account:
+
+   #. The bank balance begins at 0
+   #. Display the bank balance with a message stating this is the current balance
+   #. Prompt the user to enter the amount to deposit (a floating point number)
+   #. Update the bank balance by increasing it by the deposit amount
+   #. Display the bank balance with a message stating this the the current balance
+   #. Prompt the user to enter the amount to withdraw (a floating point number)
+   #. Update the bank balance by decreasing it by the withdrawal amount
+   #. Display the bank balance with a message stating this the the current balance
+   ~~~~
+   # your code goes here

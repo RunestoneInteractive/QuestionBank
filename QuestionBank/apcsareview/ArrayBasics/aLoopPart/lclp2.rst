@@ -1,0 +1,43 @@
+.. activecode:: lclp2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: aLoopPart
+   :topics: ArrayBasics/aLoopPart
+   :from_source: T
+   :language: java
+
+   public class ArrayWorker
+   {
+      private int[ ] values;
+
+      public ArrayWorker(int[] theValues)
+      {
+         values = theValues;
+      }
+
+      public void doubleLastHalf()
+      {
+        for (int i = values.length / 2; i < values.length; i++)
+        {
+          values[i] = values[i] * 2;
+        }
+      }
+
+      public void printArray()
+      {
+         for (int val: values)
+         {
+            System.out.println(val);
+         }
+      }
+
+      public static void main(String[] args)
+      {
+        int[] numArray = {3,8,-3, 2};
+        ArrayWorker worker = new ArrayWorker(numArray);
+        worker.doubleLastHalf();
+        worker.printArray();
+      }
+   }

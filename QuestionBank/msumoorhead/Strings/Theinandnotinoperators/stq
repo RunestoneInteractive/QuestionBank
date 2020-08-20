@@ -1,8 +1,0 @@
-.. activecode:: stq
-    :author: jenkins
-    :difficulty: 3
-    :basecourse: msumoorhead
-    :topic: Strings/Theinandnotinoperators
-    :from_source: None
-
-    print('x' not in 'apple')

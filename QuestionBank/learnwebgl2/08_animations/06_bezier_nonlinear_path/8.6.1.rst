@@ -1,0 +1,18 @@
+.. mchoice:: 8.6.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 06_bezier_nonlinear_path
+  :topics: 08_animations/06_bezier_nonlinear_path
+  :from_source: T
+  :random:
+  :answer_a: Only if the four points are co-linear.
+  :answer_b: true.
+  :answer_c: false.
+  :correct: a
+  :feedback_a: Correct. If the four points do not define a straight line segment, only the first and last point are on the path.
+  :feedback_b: Incorrect. It only passes through the intermediate control points if all four points are co-linear.
+  :feedback_c: Partially correct, but the path does pass through the control points if they define a straight line segment.
+
+  The path defined by a Bezier parametric equation always passed through its four control points?

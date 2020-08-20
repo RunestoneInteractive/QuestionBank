@@ -1,0 +1,14 @@
+.. activecode:: String_Assign
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameStrings
+   :subchapter: assignNameStr
+   :topics: CSPNameStrings/assignNameStr
+   :from_source: T
+   :tour_1: "Line-by-line Tour"; 1: sa1-line1; 2: sa1-line2; 3: sa1-line3; 4: sa1-line4;
+
+   first = "Jorge"
+   last = "Garcia"
+   fullName = first + " " + last
+   print(fullName)

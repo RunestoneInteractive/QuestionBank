@@ -1,0 +1,15 @@
+.. mchoice:: qab_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: abasics
+   :topics: ArrayBasics/abasics
+   :from_source: T
+   :answer_a: <code>highScores.length</code>
+   :answer_b: <code>highScores.length - 1</code>
+   :correct: b
+   :feedback_a: Look at the example above when we were setting the values for the <i>highScore</i> array.
+   :feedback_b: Since the first element in an array is at index 0 the last element is the length minus 1.
+
+   Which index is the last element in an array called ``highScores`` at?

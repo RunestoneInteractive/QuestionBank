@@ -1,0 +1,32 @@
+.. parsonsprob:: ch4ex8muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Strings
+   :subchapter: StringPracticeParsons
+   :topics: Strings/StringPracticeParsons
+   :from_source: T
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The main method in the following class should print the message in all uppercase letters. But, the blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public class Test1
+   {
+   =====
+       public static void main(String[] args)
+   =====
+       {
+   =====
+           String message = "Don't Pokemon and drive!";
+   =====
+           String upperMessage = message.toUpperCase();
+   =====
+           System.out.println(upperMessage);
+   =====
+       }
+   =====
+   }
+   =====
+          System.print(upperMessage); #distractor

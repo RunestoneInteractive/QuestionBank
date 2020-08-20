@@ -1,0 +1,16 @@
+.. mchoice:: 8.6.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 06_bezier_nonlinear_path
+  :topics: 08_animations/06_bezier_nonlinear_path
+  :from_source: T
+  :random:
+  :answer_a: true
+  :answer_b: false
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect.
+
+  The path defined by a Bezier parametric equation lies entirely inside the convex hull defines by its control points.

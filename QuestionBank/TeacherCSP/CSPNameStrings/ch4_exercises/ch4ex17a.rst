@@ -1,0 +1,17 @@
+.. activecode::  ch4ex17a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPNameStrings
+    :subchapter: ch4_exercises
+    :topics: CSPNameStrings/ch4_exercises
+    :from_source: T
+    :nocodelens:
+
+    goal = 200
+    weeklyEarning = 20
+    totalWeeks = goal / weeklyEarning
+    months = totalWeeks / 4
+    print("It will take " + str(months) + " months to earn " +
+           str(goal) + " if you make " + str(weeklyEarning) +
+           " dollars a week.")

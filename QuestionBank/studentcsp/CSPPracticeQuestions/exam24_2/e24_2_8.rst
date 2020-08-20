@@ -1,0 +1,19 @@
+.. mchoice:: e24_2_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_2
+   :topics: CSPPracticeQuestions/exam24_2
+   :from_source: T
+   :answer_a: Heuristic algorithm
+   :answer_b: Brute-Force algorithm
+   :answer_c: Recursive algorithm
+   :answer_d: Dynamic Programming
+   :correct: a
+   :feedback_a: Correct. A Heuristic algorithm atempts to find an approximation of a solution without finding the exact solution.
+   :feedback_b: Incorrect. Brute-Forcing is trying to find a solution using trial and error.
+   :feedback_c: Incorrect. A Recursive algorithm is an algorithm that calls itself until a condition is met, at which point it stops.
+   :feedback_d: Incorrect. Dynamic Programming is breaking a problem into smaller sub-problems in order to find the correct answer.
+
+    The Traveling Salesman Problem is a problem in theoretical computer science in which one tries to find the shortest route that passes through every point in a set, once and only once. The optimal solution to the problem for an arbitrary set of of points cannot be found in a reasonable amount of time, that is, it cannot be found in polynomial time. However, we can find an approximation to the optimal solution in a reasonable amount of time. It would be best to find the approximate solution using a

@@ -1,0 +1,19 @@
+.. mchoice:: question_SRCH_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :chapter: SortSearch
+   :subchapter: LaBusquedaSecuencial
+   :topics: SortSearch/LaBusquedaSecuencial
+   :from_source: None
+   :correct: d
+   :answer_a: 5
+   :answer_b: 10
+   :answer_c: 4
+   :answer_d: 2
+   :feedback_a: Con cinco comparaciones obtendría el segundo 18 en la lista.
+   :feedback_b: No es necesario buscar en toda la lista, solo hasta que usted encuentre la clave que está buscando.
+   :feedback_c: No, recuerde que en una búsqueda secuencial usted empieza desde el principio y revisa cada clave hasta que encuentre lo que busque o la lista se agote.
+   :feedback_d: En este caso sólo se necesitaron 2 comparaciones para encontrar la clave.
+
+   Suponga que usted está realizando una búsqueda secuencial en la lista [15, 18, 2, 19, 18, 0, 8, 14, 19, 14]. ¿Cuántas comparaciones necesitaría hacer para encontrar la clave 18?

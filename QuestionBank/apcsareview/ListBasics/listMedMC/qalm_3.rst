@@ -1,0 +1,39 @@
+.. mchoice:: qalm_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ListBasics
+   :subchapter: listMedMC
+   :topics: ListBasics/listMedMC
+   :from_source: T
+   :answer_a: Both methods produce the same result, and process1 is faster than process2.
+   :answer_b: The two methods produce different results and take the same amount of time.
+   :answer_c: The two methods produce different results, and process1 is faster than process2.
+   :answer_d: The two methods produce different results, and process2 is faster than process1.
+   :answer_e: Both methods produce the same result and take the same amount of time.
+   :correct: e
+   :feedback_a: In this case they do the same thing.  The only difference would be if there were values in the list in process2.
+   :feedback_b: These produce the same result on an empty list when you add to the end.
+   :feedback_c: These produce the same result on an empty list when you add to the end.
+   :feedback_d: These produce the same result on an empty list when you add to the end.
+   :feedback_e: The method process1 adds to the end of the list each time through the loop.  The method process2 also adds to the end of the list each time through the loop.  The only difference would be if there were values in the list in process2.  Any existing values would be moved to the right.  But, there are no existing values in the list at that index or beyond.
+
+   Which of the following best describes the behavior of process1 and process2 (shown below)?
+
+   .. code-block:: java
+
+      public static List<Integer> process1(int n)
+      {
+         List<Integer> someList = new ArrayList<Integer>();
+         for (int k = 0; k < n; k++)
+            someList.add(k);
+         return someList;
+      }
+
+      public static List<Integer> process2(int n)
+      {
+         List<Integer> someList = new ArrayList<Integer>();
+         for (int k = 0; k < n; k++)
+            someList.add(k, k);
+         return someList;
+      }

@@ -1,0 +1,33 @@
+.. activecode:: Image_Increase_Red
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPRepeatImages
+    :subchapter: changeColor
+    :topics: CSPRepeatImages/changeColor
+    :from_source: T
+    :tour_1: "Important Lines Tour"; 2: timg5-line2; 5: timg5-line5; 8-9: timg5-line8-9; 12: timg5-line12; 15: timg6-line15; 18: timg5-line18; 21-22: timg5-line21-22;
+    :nocodelens:
+
+    # STEP 1: USE THE IMAGE LIBRARY
+    from image import *
+
+    # STEP 2: PICK THE IMAGE
+    img = Image("beach.jpg")
+
+    # STEP 3: LOOP THROUGH THE PIXELS
+    pixels = img.getPixels()
+    for p in pixels:
+
+        # STEP 4: GET THE DATA
+        r = p.getRed()
+
+        # STEP 5: MODIFY THE COLOR
+        p.setRed(r * 1.5)
+
+        # STEP 6: UPDATE THE IMAGE
+        img.updatePixel(p)
+
+    # STEP 7: SHOW THE RESULT
+    win = ImageWin(img.getWidth(),img.getHeight())
+    img.draw(win)

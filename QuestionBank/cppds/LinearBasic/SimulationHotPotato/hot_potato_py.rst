@@ -1,0 +1,32 @@
+.. activecode:: hot_potato_py
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: LinearBasic
+   :subchapter: SimulationHotPotato
+   :topics: LinearBasic/SimulationHotPotato
+   :from_source: T
+   :caption: Hot Potato Simulation
+   :optional:
+
+   #This program creates a simulation of hot potato.
+
+   from pythonds.basic.queue import Queue
+
+   def hotPotato(namelist, num):
+       simqueue = Queue()
+       for name in namelist:
+           #adds all items in the list into a queue.
+           simqueue.enqueue(name)
+
+       while simqueue.size() > 1: #continues until there is only one remaining item.
+           for i in range(num):
+               simqueue.enqueue(simqueue.dequeue())
+
+           simqueue.dequeue()
+
+       return simqueue.dequeue()
+
+   def main():
+       print(hotPotato(["Bill","David","Susan","Jane","Kent","Brad"],7))
+   main()

@@ -1,0 +1,29 @@
+.. parsonsprob:: 5.1.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 01_introduction_to_rendering
+  :topics: 05_rendering/01_introduction_to_rendering
+  :from_source: T
+  :noindent:
+  :adaptive:
+
+  Please correctly order the following **pre-processing steps** needed for rendering.
+  -----
+  Get the HTML *canvas* element you will be rendering into.
+  =====
+  Get a WebGL *context* for the canvas element.
+  =====
+  Compile and link your *vertex shader* and your *fragment shader* programs
+  into a *rendering program*.
+  =====
+  For each model in your scene:
+
+    #. Convert your OBJ model data into appropriate arrays of data for rendering.
+    #. Create one or more *buffer objects* in the GPU's memory.
+    #. Copy your model data into the *buffer object(s)*.
+  =====
+  Get references to the variables in your *shader rendering programs* so you can
+  set their values at render time.
+  =====

@@ -1,0 +1,21 @@
+.. mchoice:: 5.2.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 02_shader_primer
+  :topics: 05_rendering/02_shader_primer
+  :from_source: T
+  :random:
+  :answer_a: u_Transform.
+  :answer_b: u_Color.
+  :answer_c: a_Vertex.
+  :answer_d: v_Temp.
+  :correct: a,b
+  :feedback_a: Correct.
+  :feedback_b: Correct.
+  :feedback_c: Incorrect. This is an attribute variable that changes for each vertex.
+  :feedback_d: Incorrect. THere is no variable in the programs called v_Temp.
+
+  Referring to the "Simplest Shaders Possible" examples above, which GLSL variables
+  have the same value for an entire execution of :code:`gl.drawArrays()`? (Select all that apply.)

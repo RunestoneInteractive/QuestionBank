@@ -1,0 +1,17 @@
+.. mchoice:: numbercubea_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: numberCubeA
+   :topics: ArrayBasics/numberCubeA
+   :from_source: T
+   :answer_a: int[] tossArray = new int[];
+   :answer_b: int[] tossArray = new int(numTosses);
+   :answer_c: int[] tossArray = new int[numTosses];
+   :correct: c
+   :feedback_a: You need to specify the size of the array when you create it.
+   :feedback_b: It should be new int[numTosses].
+   :feedback_c: This will create an array of size numTosses.
+
+   Which of the following correctly creates an array of size numTosses?

@@ -1,0 +1,19 @@
+.. mchoice:: e25_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: Linear search is more efficient for large data sets than binary search.
+   :answer_b: Binary search does not work on ordered lists.
+   :answer_c: Linear search looks at one element at a time.
+   :answer_d: Binary search is better for smaller lists.
+   :correct: c
+   :feedback_a: Incorrect. Linear search will generally take longer since it looks at one element at a time.
+   :feedback_b: Incorrect. Binary search can only be used on ordered sets.
+   :feedback_c: Correct. Linear search looks at just one element at a time.
+   :feedback_d: Incorrect. Linear search is generally preferred for smaller data.
+
+   Which of the following is true about linear and binary search?

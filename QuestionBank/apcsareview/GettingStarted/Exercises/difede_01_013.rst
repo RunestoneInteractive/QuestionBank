@@ -1,0 +1,15 @@
+.. fillintheblank:: difede_01_013
+   :author: Kuri DiFede
+   :difficulty: 1.0
+   :basecourse: apcsareview
+   :chapter: GettingStarted
+   :subchapter: Exercises
+   :topics: GettingStarted/Exercises
+   :from_source: F
+
+   How many symbols do we use in the following numerical representations? --- a.) binary |blank|  b.) decimal |blank|     
+
+   -    :2: Correct!
+        :.*: Try Again!
+   -    :10: Correct!
+        :.*: Try Again!

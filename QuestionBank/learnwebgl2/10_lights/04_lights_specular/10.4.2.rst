@@ -1,0 +1,27 @@
+.. mchoice:: 10.4.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 04_lights_specular
+  :topics: 10_lights/04_lights_specular
+  :from_source: T
+  :random:
+
+  Specular reflection is calculated based on the angle between what two vectors? (Select two.)
+
+  - a vector from the fragment to the light source.
+
+    - Incorrect. This is the light hitting the surface. We want the light reflected off the surface.
+
+  - a vector from the fragment to the camera.
+
+    + Correct.
+
+  - a vector that represents the reflection of the light source off a surface.
+
+    + Correct.
+
+  - the normal vector of the surface.
+
+    - Incorrect.

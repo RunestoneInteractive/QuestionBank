@@ -1,0 +1,23 @@
+.. activecode:: introstring_py
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cpp4python
+    :chapter: CollectionData
+    :subchapter: Strings
+    :topics: CollectionData/Strings
+    :from_source: T
+    :caption: Python strings
+
+    """This does the same thing as the C++ function """
+    def main():
+        mystring1 = "Hello"
+        mystring2 = "World!"
+
+        mystring3 = mystring1 + " " + mystring2
+        print(mystring3)
+
+        print(mystring2, end=" ")
+        print("begins at", end=" ")
+        print(str(mystring3.find(mystring2)))
+
+    main()

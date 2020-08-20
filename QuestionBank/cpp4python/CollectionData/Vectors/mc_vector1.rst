@@ -1,0 +1,19 @@
+.. mchoice:: mc_vector1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cpp4python
+   :chapter: CollectionData
+   :subchapter: Vectors
+   :topics: CollectionData/Vectors
+   :from_source: T
+   :answer_a: Nothing. It is completely optional.
+   :answer_b: Using it will save time if you know the maximum size needed.
+   :answer_c: It is required so memory can be allocated.
+   :answer_d: none of the above
+   :correct: b
+   :feedback_a: It is optional but it does serve a purpose. Try again.
+   :feedback_b: Right!
+   :feedback_c: It is not required.
+   :feedback_d: One of the above is indeed correct.
+
+   What good is the ``reserve`` method in a vector?

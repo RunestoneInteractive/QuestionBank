@@ -1,0 +1,15 @@
+.. mchoice:: qtrio1_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: OOBasics
+   :subchapter: TrioScore1
+   :topics: OOBasics/TrioScore1
+   :from_source: T
+   :answer_a: Yes
+   :answer_b: No
+   :correct: a
+   :feedback_a: This solution declares the constructor as <code>public Trio(Sandwich a, Salad b, Drink c)</code>
+   :feedback_b: What do you think is wrong with the constructor declaration?
+
+   Should the student earn 1 point for declaring the the constructor correctly?

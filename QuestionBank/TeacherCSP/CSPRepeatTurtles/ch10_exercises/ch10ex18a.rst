@@ -1,0 +1,23 @@
+.. activecode::  ch10ex18a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPRepeatTurtles
+    :subchapter: ch10_exercises
+    :topics: CSPRepeatTurtles/ch10_exercises
+    :from_source: T
+    :nocodelens:
+
+    def circleDraw(turt, num):
+        turt.shape("turtle")
+        turt.penup()
+        for size in range(20):
+            turt.forward(num)
+            turt.stamp()
+            turt.right(18)
+
+    from turtle import *
+    space = Screen()
+    turt = Turtle()
+
+    circleDraw(turt, 20)

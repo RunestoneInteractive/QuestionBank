@@ -1,0 +1,25 @@
+.. activecode::  ch11ex2a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPRepeatImages
+    :subchapter: ch11_exercises
+    :topics: CSPRepeatImages/ch11_exercises
+    :from_source: T
+    :nocodelens:
+
+    # USE THE IMAGE LIBRARY
+    from image import *
+    # PICK THE IMAGE
+    img = Image("puppy.jpg")
+    # LOOP THROUGH THE PIXELS
+    pixelList = img.getPixels()
+    for p in pixelList:
+        # SET THE COLOR
+        p.setRed(0)
+        # UPDATE THE PIXEL
+        img.updatePixel(p)
+
+    # SHOW THE RESULT
+    win = ImageWin(img.getWidth(),img.getHeight())
+    img.draw(win)

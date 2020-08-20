@@ -1,0 +1,20 @@
+.. mchoice:: 3.5.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 03_model_data
+  :subchapter: 05_modeling_volume
+  :topics: 03_model_data/05_modeling_volume
+  :from_source: T
+  :random:
+  :answer_a: A triangle defined by 3 points where 2 or more of them are equal to each other.
+  :answer_b: A triangle defined by 3 points where the 3 points lay along a straight line.
+  :answer_c: A triangle defined by 3 unique points that do not lay along a straight line.
+  :answer_d: A triangle defined by 3 points where the area inside its boundaries is positive.
+  :correct: a,b
+  :feedback_a: Correct. If 2 of the points are equal, you have a straight line. If all 3 points are equal, you have a single point.
+  :feedback_b: Correct. The 3 points define a straight line, not a triangle.
+  :feedback_c: Incorrect. This is a valid triangle definition.
+  :feedback_d: Incorrect. This is a valid triangle definition.
+
+  What is a degenerate triangle? (Select all that apply.)

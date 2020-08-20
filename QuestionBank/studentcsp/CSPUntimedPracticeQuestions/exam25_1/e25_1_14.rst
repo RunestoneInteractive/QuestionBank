@@ -1,0 +1,19 @@
+.. mchoice:: e25_1_14
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: 15.0
+  :answer_b: 5.0
+  :answer_c: 15.0
+  :answer_d: 20
+  :correct: a
+  :feedback_a: Correct. The value of <i>gallons</i> is 5.0, the value of <i>costPerGallon</i> is 3.00. Therefore, <i>costTrip</i> = 15.0.
+  :feedback_b: Incorrect. A float multiplied by a float is a float.
+  :feedback_c: Incorrect. The value of <i>costTrip</i> is the product of <i>gallons</i> multiplied by <i>costPerGallon</i>.
+  :feedback_d: Incorrect. The value of <i>costTrip</i> is the product of <i>gallons</i> multiplied by <i>costPerGallon</i>.
+
+  What is the value of *costTrip*?

@@ -1,0 +1,17 @@
+.. fillintheblank:: searchTreeAnalysis
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Trees
+    :subchapter: SearchTreeAnalysis
+    :topics: Trees/SearchTreeAnalysis
+    :from_source: T
+    :pct_on_first: 0.4642857143
+    :total_students_attempting: 84
+    :num_students_correct: 73
+    :mean_clicks_to_correct: 2.1095890411
+
+    The worst-case performance of the del function is O(|blank|)?
+    
+    - :n: Is the correct answer!
+      :.*:   Read carefully the restrictions of the the functions

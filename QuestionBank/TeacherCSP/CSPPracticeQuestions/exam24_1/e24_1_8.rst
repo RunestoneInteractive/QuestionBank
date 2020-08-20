@@ -1,0 +1,30 @@
+.. mchoice:: e24_1_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_1
+   :topics: CSPPracticeQuestions/exam24_1
+   :from_source: T
+   :answer_a: 4
+   :answer_b: 8
+   :answer_c: 16
+   :answer_d: 32
+   :correct: c
+   :feedback_a: Incorrect
+   :feedback_b: Incorrect
+   :feedback_c: Correct
+   :feedback_d: Incorrect
+
+   Trace the value of an integer variable ``n`` in the following code.
+   ::
+
+     i ← 1
+     n ← 2
+     REPEAT until i = 4
+     {
+        n ← n * 2
+        i ← i + 1
+     }
+
+   What is the value of ``n`` after the above code executes?

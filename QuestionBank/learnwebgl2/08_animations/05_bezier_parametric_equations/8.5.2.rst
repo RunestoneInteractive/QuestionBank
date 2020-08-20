@@ -1,0 +1,21 @@
+.. mchoice:: 8.5.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 05_bezier_parametric_equations
+  :topics: 08_animations/05_bezier_parametric_equations
+  :from_source: T
+  :random:
+  :answer_a: p0
+  :answer_b: p1
+  :answer_c: p2
+  :answer_d: p3
+  :correct: b,c
+  :feedback_a: Incorrect. p0 is the starting location.
+  :feedback_b: Correct.
+  :feedback_c: Correct.
+  :feedback_d: Incorrect. p3 is the ending location.
+
+  Which control points of a Bezier parametric equation control the
+  speed and acceleration of motion? (Select all that apply.)

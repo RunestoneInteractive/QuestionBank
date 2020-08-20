@@ -1,0 +1,33 @@
+.. mchoice:: e24_2_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_2
+   :topics: CSPPracticeQuestions/exam24_2
+   :from_source: T
+   :answer_a: Animal, Favorite Food
+   :answer_b: Animal Size, Quantity, Favorite Food
+   :answer_c: Animal, Quantity
+   :answer_d: Favorite Food
+   :correct: a
+   :feedback_a: Correct. The Name of the animal and an animal's Favorite Food do not influence total money made from selling the animals.
+   :feedback_b: Incorrect. Quantity is important in calculating total money made because each animal costs a price and the total amount for an animal is (price x quantity).
+   :feedback_c: Incorrect. Quantity is important in calculating total money made because each animal costs a price and the total amount for an animal is (price x quantity).
+   :feedback_d: Incorrect. Favorite Food is not important for calculating price, but an Animal's name is not important for calculating total money.
+
+   A pet store has a database of all of its animals with information about each animal. The database is shown below.
+
+   +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
+   |       Animal        |        Animal Size        |            Price           |         Quantity           |       Favorite Food        |
+   +=====================+===========================+============================+============================+============================+
+   |       Rabbit        |          Small            |           $15.99           |              4             |          Carrots           |
+   +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
+   |        Dog          |          Large            |           $89.99           |              2             |          Dog Food          |
+   +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
+   |        Cat          |          Medium           |           $69.99           |              3             |          Catnip            |
+   +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
+   |       Fish          |          Fish             |           $9.99            |              8             |          Fish Pellets      |
+   +---------------------+---------------------------+----------------------------+----------------------------+----------------------------+
+
+   If the store manager wants to know how much money will be made by selling all the small animals, which of the following categories can be ignored when calculating this number?

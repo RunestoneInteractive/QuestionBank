@@ -1,0 +1,20 @@
+.. mchoice:: 8.1.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 01_introduction
+  :topics: 08_animations/01_introduction
+  :from_source: T
+  :random:
+  :answer_a: frames per second
+  :answer_b: time per frame
+  :answer_c: distance moved per frame
+  :answer_d: frames per minute
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect.
+  :feedback_c: Incorrect.
+  :feedback_d: Incorrect.
+
+  The *frame rate* of an animation is specified in what units?

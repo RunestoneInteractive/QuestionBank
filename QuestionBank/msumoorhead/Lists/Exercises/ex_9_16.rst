@@ -1,0 +1,9 @@
+.. activecode:: ex_9_16
+   :author: Brad Miller
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: Lists
+   :subchapter: Exercises
+   :topics: Lists/Exercises
+   :from_source: None
+   :nocodelens:

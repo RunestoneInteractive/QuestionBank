@@ -1,0 +1,29 @@
+.. mchoice:: pre_11
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPrinTeasers
+   :subchapter: pretest
+   :topics: CSPrinTeasers/pretest
+   :from_source: T
+   :answer_a: 29
+   :answer_b: 182
+   :answer_c: 153
+   :answer_d: 181
+   :answer_e: I don't know
+   :correct: c
+   :feedback_a: This adds up every other number starting with the one at index 1 (second in list).
+   :feedback_b: This adds up every other number starting with the one at index 1 (second in list).
+   :feedback_c: This adds up every other number starting with the one at index 1 (second in list).
+   :feedback_d: This adds up every other number starting with the one at index 1 (second in list).
+   :feedback_e: That is okay.  We do not expect you to know this.
+
+   Given the following code segment, what will be printed?
+
+   ::
+
+      sum = 0 # Start out with nothing
+      thingsToAdd = [1,3,7,19,21,131]
+      for number in range(1,len(thingsToAdd),2):
+          sum = sum + thingsToAdd[number]
+      print(sum)

@@ -1,0 +1,13 @@
+.. fillintheblank:: 12_6_1_brokenrange_fill
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPIntroDecisions
+   :subchapter: practice
+   :topics: CSPIntroDecisions/practice
+   :from_source: T
+
+   What value for weight will result in an error complaining that price is not defined?
+
+   -   :^1$|1\.[0]*$: Correct!
+       :.*: Which value is not tested currently?

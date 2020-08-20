@@ -1,0 +1,29 @@
+.. mchoice:: e25_2_10
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_2
+  :topics: CSPUntimedPracticeQuestions/exam25_2
+  :from_source: T
+  :answer_a: “I am a freshman.”
+  :answer_b: Nothing is displayed.
+  :answer_c: "I am not a freshman"
+  :answer_d: DISPLAY("I am not a freshman")
+  :correct: c
+  :feedback_a: Incorrect. This would print if freshman were True.
+  :feedback_b: Incorrect. Nothing would display if there were no ELSE clause.
+  :feedback_c: Correct. Since freshman is False and there is an ELSE clause, the block after the ELSE is run.
+  :feedback_d: Incorrect. Only the text inside the quotations in the DISPLAY function is displayed.
+
+  Consider the code below.
+
+  IF(freshman)
+
+   { DISPLAY(“I am a freshman.”) }
+
+  ELSE
+
+   { DISPLAY(“I am not a freshman.”)}
+
+  If the variable freshman is false, what is displayed?

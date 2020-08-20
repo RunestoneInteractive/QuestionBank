@@ -1,0 +1,27 @@
+.. mchoice:: 10.2.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 02_lights_diffuse
+  :topics: 10_lights/02_lights_diffuse
+  :from_source: T
+  :random:
+
+  The maximum amount of diffuse light is reflected when ...
+
+  - the light strikes the surface at the same angle as the surface's normal vector.
+
+    + Correct. 90 degrees to the surface
+
+  - the light strikes the edge of a surface.
+
+    - Incorrect.
+
+  - light strikes the surface at a very sharp angle, such as 5 degrees.
+
+    - Incorrect. This is when diffuse light reflection is the weakest.
+
+  - the light's color is red.
+
+    - Incorrect. The color of a light source does not affect the amount of reflection.

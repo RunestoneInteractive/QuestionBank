@@ -1,0 +1,25 @@
+.. codelens:: search1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythonds
+    :chapter: SortSearch
+    :subchapter: TheSequentialSearch
+    :topics: SortSearch/TheSequentialSearch
+    :from_source: T
+    :caption: Sequential Search of an Unordered List
+
+    def sequentialSearch(alist, item):
+        pos = 0
+        found = False
+
+        while pos < len(alist) and not found:
+            if alist[pos] == item:
+                found = True
+            else:
+                pos = pos+1
+
+        return found
+
+    testlist = [1, 2, 32, 8, 17, 19, 42, 13, 0]
+    print(sequentialSearch(testlist, 3))
+    print(sequentialSearch(testlist, 13))

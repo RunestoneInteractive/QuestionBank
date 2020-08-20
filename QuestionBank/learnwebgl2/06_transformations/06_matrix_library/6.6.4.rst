@@ -1,0 +1,21 @@
+.. mchoice:: 6.6.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 06_matrix_library
+  :topics: 06_transformations/06_matrix_library
+  :from_source: T
+  :random:
+  :answer_a: m.scale(mary, 2, 1, 1);
+  :answer_b: m.scale(mary, 2, 2, 2);
+  :answer_c: m.scale(mary, 2);
+  :answer_d: m.scale(mary, 1, 1, 2);
+  :correct: a
+  :feedback_a: Correct. The x scale factor is 2, while the scale factors of 1 for the y and z components leaves them unchanged.
+  :feedback_b: Incorrect. This doubles the x, y and z components of all vertices.
+  :feedback_c: Incorrect. This does not provide the 3 scaling parameters required by the function call.
+  :feedback_d: Incorrect. This doubles the z components, leaving the x and y components unchanged.
+
+  Which of the following statements set a matrix called :code:`mary` to a
+  scaling transformation that doubles only the x coordinates of a model?

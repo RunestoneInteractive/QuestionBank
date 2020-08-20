@@ -1,0 +1,13 @@
+.. fillintheblank:: qtrio2_total
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: OOBasics
+   :subchapter: TrioScore2
+   :topics: OOBasics/TrioScore2
+   :from_source: T
+
+   What should the total score be for this student response (out of 9 points)?  Enter it as a number (like 3).
+
+   -    :^6$: Correct.  The answer lost a total of 3 points.
+        :.*: Subtract 1 point for each no response from the 9 possible points

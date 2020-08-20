@@ -1,0 +1,23 @@
+.. actex:: recursion_sc_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythonds
+   :chapter: Recursion
+   :subchapter: pythondsConvertinganIntegertoaStringinAnyBase
+   :topics: Recursion/pythondsConvertinganIntegertoaStringinAnyBase
+   :from_source: T
+   :nocodelens:
+
+   from test import testEqual
+   def removeWhite(s):
+       return s
+
+   def isPal(s):
+       return False
+
+   testEqual(isPal(removeWhite("x")),True)
+   testEqual(isPal(removeWhite("radar")),True)
+   testEqual(isPal(removeWhite("hello")),False)
+   testEqual(isPal(removeWhite("")),True)
+   testEqual(isPal(removeWhite("hannah")),True)
+   testEqual(isPal(removeWhite("madam i'm adam")),True)

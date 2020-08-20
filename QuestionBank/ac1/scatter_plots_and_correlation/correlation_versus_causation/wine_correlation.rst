@@ -1,0 +1,28 @@
+.. mchoice:: wine_correlation
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: scatter_plots_and_correlation
+   :subchapter: correlation_versus_causation
+   :topics: scatter_plots_and_correlation/correlation_versus_causation
+   :from_source: T
+
+   Suppose we found a correlation of ``r = -0.48`` between red wine consumption
+   and incidence of heart attacks. Which of the following would be appropriate
+   conclusions?
+
+   - Drinking red wine reduces the probability of heart attack.
+
+     - Incorrect: Red wine does not prevent a heart attack.
+
+   - Drinking red wine increases the probability of heart attack.
+
+     - Incorrect: Red wine is not the cause of a heart attack.
+
+   - Drinking red wine is associated with a reduction in heart attack risk
+
+     + Correct
+
+   - Having a heart attack decreases the probability of drinking red wine.
+
+     - Incorrect: The heart attack itself does not decrease the consumption of red wine.

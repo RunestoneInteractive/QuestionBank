@@ -1,0 +1,23 @@
+.. mchoice:: 12_5_2_or1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: TeacherCSP
+  :chapter: CSPIntroDecisions
+  :subchapter: complex
+  :topics: CSPIntroDecisions/complex
+  :from_source: T
+  :answer_a: all values of x
+  :answer_b: 1 to 9
+  :answer_c: 0 to 9
+  :correct: a
+  :feedback_a: This will be true if x is greater than 0 or less than 10.  This covers all possible values of x.
+  :feedback_b: This would be true if the logical expressions were joined with and instead of or.
+  :feedback_c: This would be true if the logical expressions were jointed with and instead of or and if the first logical expression was x >= 0.
+
+   Given the code below, what describes the values of x that will cause the code to print "condition true"?
+
+   ::
+
+     if x > 0 or x < 10:
+         print ("condition true")
+     print ("All done")

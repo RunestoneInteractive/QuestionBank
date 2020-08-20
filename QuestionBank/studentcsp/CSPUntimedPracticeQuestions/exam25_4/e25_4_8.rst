@@ -1,0 +1,19 @@
+.. mchoice:: e25_4_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: Converting data from one file type to another usually comes at a cost.
+   :answer_b: Data is never lost in conversion.
+   :answer_c: Data is never changed in conversion.
+   :answer_d: Data can always be converted without a loss.
+   :correct: a
+   :feedback_a: Correct. For example, you may lose the ability to edit a document when you convert to a PDF file.
+   :feedback_b: Incorrect. For example, the quality of a photo may decrease when you convert from JPG to PNG.
+   :feedback_c: Incorrect. Data may lose readability in conversion and may be changed as a result.
+   :feedback_d: Incorrect. There are instances in which data is lost through conversion.
+
+   Which of the following is true?

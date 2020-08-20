@@ -1,0 +1,14 @@
+.. activecode:: proto_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: AdvancedJavascript
+   :subchapter: prototype
+   :topics: AdvancedJavascript/prototype
+   :from_source: T
+   :language: javascript
+
+   x  = Object.create(null)
+   x.foo = 1
+   x.bar = 2
+   alert(x['bar'])

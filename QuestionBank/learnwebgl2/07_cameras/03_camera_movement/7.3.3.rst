@@ -1,0 +1,23 @@
+.. mchoice:: 7.3.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 03_camera_movement
+  :topics: 07_cameras/03_camera_movement
+  :from_source: T
+  :random:
+  :answer_a: (3, 4, 7)
+  :answer_b: (5, 4, 5)
+  :answer_c: (3, 6, 5)
+  :answer_d: (3, 4, 3)
+  :correct: a
+  :feedback_a: Correct. The camera would move to its right, which is along the <0,0,1> axis, so you add 2 units to the z coordinate.
+  :feedback_b: Incorrect. You need to move along the camera's "to the right" axis.
+  :feedback_c: Incorrect. You need to move along the camera's "to the right" axis.
+  :feedback_d: Incorrect. You need to move along the camera's "to the right" axis.
+
+  You have a camera that is located at :code:`(3, 4, 5)` and whose orientation is
+  defined by the vectors: :code:`u = <0,0,1>`, :code:`v = <0,1,0>`, and :code:`n = <1,0,0>`.
+  (The camera is looking down a vector parallel to the -X axis.) If you "truck right"
+  two units, what would be the location of the camera?

@@ -1,0 +1,28 @@
+.. mchoice:: 10.7.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 07_lights_attenuation
+  :topics: 10_lights/07_lights_attenuation
+  :from_source: T
+  :random:
+
+  The visual effect of light attenuation is to make objects further
+  from a light source to  ...
+
+  - be darker.
+
+    + Correct. Because the objects are receiving less light.
+
+  - be brighter.
+
+    - Incorrect. The exact opposite is true.
+
+  - have more contrast.
+
+    - Incorrect. They get less light, which decreases contrast.
+
+  - have more detail.
+
+    - Incorrect. They get less light, which decreases visual detail.

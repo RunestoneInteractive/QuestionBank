@@ -1,0 +1,19 @@
+.. activecode:: active2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythoned
+    :chapter: AlgorithmAnalysis
+    :subchapter: QueEsAnalisisDeAlgoritmos
+    :topics: AlgorithmAnalysis/QueEsAnalisisDeAlgoritmos
+    :from_source: None
+    :caption: Otra sumatoria de los primeros n enteros
+
+    def cosa(fulano):
+        mengano = 0
+        for zutano in range(1,fulano+1):
+           perencejo = zutano
+           mengano = mengano + perencejo
+
+        return mengano
+
+    print(cosa(10))

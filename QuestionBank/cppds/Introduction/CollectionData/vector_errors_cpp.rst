@@ -1,0 +1,31 @@
+.. activecode:: vector_errors_cpp
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Introduction
+    :subchapter: CollectionData
+    :topics: Introduction/CollectionData
+    :from_source: T
+    :caption: Vectors out of bounds
+    :language: cpp
+
+    //shows errors when a vector goes out of bounds
+    #include <iostream>
+    #include <vector>
+    using namespace std;
+
+    int main(){
+
+        vector<int> intvector;
+        intvector.reserve(10);
+
+        for (int i=0; i<10; i++){
+            intvector.push_back(i);
+        }
+
+        for (int i=0; i<=10; i++){
+            cout << "intvector[" << i << "]="<<intvector[i] << endl;
+        }
+
+        return 0;
+    }

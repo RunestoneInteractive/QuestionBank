@@ -1,0 +1,20 @@
+.. mchoice:: 2.3.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 02_tools_and_languages
+  :subchapter: 3_javascript
+  :topics: 02_tools_and_languages/3_javascript
+  :from_source: T
+  :random:
+  :answer_a: The memory used by new objects must be reclaimed by the garbage collection process, which can cause real-time animations to loss their frame rate.
+  :answer_b: It is just bad programming to create new objects.
+  :answer_c: Continually creating new objects will cause you to run out of memory.
+  :answer_d: You don't need objects for WebGL programming.
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect, JavaScript is object-oriented and you have to create new objects. You just want to minimize the number of objects that need to be garbage collected.
+  :feedback_c: Incorrect, because typically the garbage collection process with recover memory for objects that are no longer being used.
+  :feedback_d: Incorrect, because even the WebGL context is an object.
+
+  Why should a WebGL program avoid repeatedly creating new objects?

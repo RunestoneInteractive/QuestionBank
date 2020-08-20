@@ -1,0 +1,24 @@
+.. activecode::  ch17ex7a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPStringPieces
+    :subchapter: ch17_exercises
+    :topics: CSPStringPieces/ch17_exercises
+    :from_source: T
+    :nocodelens:
+
+    input = "Roses,Violets,Sugar,Sue"
+    pieces = input.split(",")
+    flower1 = pieces[0]
+    flower2 = pieces[1]
+    spice = pieces[2]
+    name = pieces[3]
+    line1 = flower1 + " are red"
+    line2 = flower2 + " are blue"
+    line3 = spice + " is sweet"
+    line4 = "And so it " + name
+    print(line1)
+    print(line2)
+    print(line3)
+    print(line4)

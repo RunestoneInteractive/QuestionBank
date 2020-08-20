@@ -1,0 +1,27 @@
+.. activecode:: ex_7_10
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: Strings
+   :subchapter: Exercises
+   :topics: Strings/Exercises
+   :from_source: None
+
+   def numDigits(n):
+       # your code here
+
+   ====
+
+   from unittest.gui import TestCaseGui
+
+   class myTests(TestCaseGui):
+
+       def testOne(self):
+           self.assertEqual(numDigits(2),1,"Tested numDigits on input of 2")
+           self.assertEqual(numDigits(55),2,"Tested numDigits on input of 55")
+           self.assertEqual(numDigits(1352),4,"Tested numDigits on input of 1352")
+           self.assertEqual(numDigits(444),3,"Tested numDigits on input of 444")
+
+
+
+   myTests().main()

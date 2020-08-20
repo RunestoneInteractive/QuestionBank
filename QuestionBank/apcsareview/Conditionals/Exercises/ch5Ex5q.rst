@@ -1,0 +1,21 @@
+.. activecode::  ch5Ex5q
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Conditionals
+   :subchapter: Exercises
+   :topics: Conditionals/Exercises
+   :from_source: T
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           int x = -3;
+           if (x > 0)
+               System.out.prinln("x is less than 0");
+
+       }
+
+   }

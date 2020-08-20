@@ -1,0 +1,20 @@
+.. mchoice:: 3_3_2_mod_Q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameNumbers
+   :subchapter: expressionTable
+   :topics: CSPNameNumbers/expressionTable
+   :from_source: T
+   :practice: T
+   :answer_a: 0
+   :answer_b: 1
+   :answer_c: 2
+   :answer_d: 3
+   :correct: d
+   :feedback_a: This would be correct if it was <code>18 % 2</code>, but what is the remainder of 18 divided by 5?
+   :feedback_b: This would be correct if it was <code>18 % 17</code>, since 17 goes into 18 one time and the remainder is 18 - 17 = 1.
+   :feedback_c: What is the highest multiple of 5 that is less than or equal to 18? The remainder is 18 - that number.
+   :feedback_d: The reminder is 3 since 5 goes into 18 three times (15) and 18 - 15 = 3.
+
+   What is the result of ``18 % 5``?

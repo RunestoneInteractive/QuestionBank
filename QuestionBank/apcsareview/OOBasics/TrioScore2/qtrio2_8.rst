@@ -1,0 +1,15 @@
+.. mchoice:: qtrio2_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: OOBasics
+   :subchapter: TrioScore2
+   :topics: OOBasics/TrioScore2
+   :from_source: T
+   :answer_a: Yes
+   :answer_b: No
+   :correct: b
+   :feedback_a: What if b is equal to c but both are less than a?
+   :feedback_b: This does not always compute the price correctly (when b is equal to c and they are both less than a).
+
+   Should the student earn 1 point for correctly calculating the price and making it available to be returned from ``getPrice``?

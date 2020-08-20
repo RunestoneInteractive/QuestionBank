@@ -1,0 +1,19 @@
+.. mchoice:: 13_2_1_story1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPStringDecisions
+   :subchapter: input
+   :topics: CSPStringDecisions/input
+   :from_source: T
+   :answer_a: The room is pitch black.
+   :answer_b: A ghost appears at the end of the hall.
+   :answer_c: A greenish light is visible in the distance.
+   :answer_d: None of the above is printed.
+   :correct: b
+   :feedback_a: This line will be printed when the user enters in.
+   :feedback_b: This line will printed when the user enters left.
+   :feedback_c: This line will printed when the user enters right.
+   :feedback_d: If the user enters something besides in, left, or right none of the logical expressions will be true and none of these will be printed.
+
+   What is the second thing printed if the user answers left?

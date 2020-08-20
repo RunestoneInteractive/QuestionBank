@@ -1,0 +1,28 @@
+.. mchoice:: 12.2.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 02_hidden_surface_removal
+  :topics: 12_advanced_rendering/02_hidden_surface_removal
+  :from_source: T
+  :random:
+
+  The *painter's algorithm* is simple but has the following flaws. (Select all that apply.)
+
+  - Sorting graphic primitives based on their distance from the camera is slow.
+
+    + Correct.
+
+  - Sorting graphic primitives based on their distance from the camera requires
+    the data that defines the graphic primitives be copied to the GPU over and over again.
+
+    + Correct.
+
+  - Graphic primitives that overlap in 3D space can't be sorted.
+
+    + Correct.
+
+  - Graphic primitive can be rendered in any order and still accomplish "hidden surface removal".
+
+    - Incorrect.

@@ -1,0 +1,36 @@
+.. activecode:: betterdecor
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Frameworks
+   :subchapter: decorators
+   :topics: Frameworks/decorators
+   :from_source: T
+
+   class BetterDecor:
+       def __init__(self,func):
+           self.counter = 0
+           self.func = func
+
+       def __call__(self, *args, **kwargs):
+           self.counter += 1
+           return self.func(*args,**kwargs)
+
+   @BetterDecor
+   def fib(n):
+       if n <= 1:
+           return 1
+       else:
+           return fib(n-1) + fib(n-2)
+
+   @BetterDecor
+   def fact(n):
+       if n <= 1:
+           return 1
+       else:
+           return n * fact(n-1)
+
+   fib(20)
+   fact(100)
+   print(fib.counter)
+   print(fact.counter)

@@ -1,0 +1,20 @@
+.. mchoice:: 1.2.1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 2_what_is_computer_graphics
+    :topics: 01_the_big_picture/2_what_is_computer_graphics
+    :from_source: T
+    :random:
+    :answer_a: A rectangular grid of pixels, where each pixel has a specific color.
+    :answer_b: A description of a scene, including the types of objects in a scene (e.g., a dog eating a bone.)
+    :answer_c: A set of geometric primitives, such as lines, arcs, polygons, etc.
+    :answer_d: A group of spline curves that form an interesting pattern.
+    :correct: a
+    :feedback_a: Yes. Each pixel is a *picture element*.
+    :feedback_b: No. But this might be the output of an *image processing* detection algorithm.
+    :feedback_c: No. This is a *vector graphics* image description.
+    :feedback_d: No. This is a *vector graphics* image description.
+
+    A *raster graphics* image is composed of what?

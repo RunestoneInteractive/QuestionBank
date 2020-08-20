@@ -1,0 +1,25 @@
+.. mchoice:: e24_1_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_1
+   :topics: CSPPracticeQuestions/exam24_1
+   :from_source: T
+   :answer_a: X = 155, Y = 1555
+   :answer_b: X = 20, Y = 20
+   :answer_c: X = 15, Y = 5
+   :answer_d: X = 20, Y = 25
+   :correct: d
+   :feedback_a: Incorrect
+   :feedback_b: Incorrect
+   :feedback_c: Incorrect
+   :feedback_d: Correct
+
+   What is the final value of the integers ``X`` and ``Y`` after the following statements are executed?
+   ::
+
+     X ← 15
+     Y ← 5
+     X ← X + Y
+     Y ← X + Y

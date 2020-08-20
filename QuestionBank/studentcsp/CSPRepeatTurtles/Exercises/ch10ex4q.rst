@@ -1,0 +1,17 @@
+.. activecode::  ch10ex4q
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPRepeatTurtles
+    :subchapter: Exercises
+    :topics: CSPRepeatTurtles/Exercises
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *
+    space = Screen()
+    liz = Turtle()
+    liz.setheading(90)
+    for sides in range(9)
+        liz.forward(45)
+    liz.right(50)

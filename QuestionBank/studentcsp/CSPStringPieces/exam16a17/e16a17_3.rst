@@ -1,0 +1,32 @@
+.. mchoice:: e16a17_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPStringPieces
+   :subchapter: exam16a17
+   :topics: CSPStringPieces/exam16a17
+   :from_source: T
+   :practice: T
+   :answer_a: Charlie
+   :answer_b: Brown
+   :answer_c: football
+   :answer_d: Charlie Brown
+   :correct: d
+   :feedback_a: This would be true if it was "Charlie Brown boy football" and we were splitting at the space characters.
+   :feedback_b: This would be true if it was "Charlie Brown boy football" and we were splitting at the space characters and it was name = pieces[1]
+   :feedback_c: This is the value of sport.
+   :feedback_d: The split function splits the string at the passed character which is a comma so the name is everything before the first comma.
+
+   What is the value of name after executing the following code?
+
+   ::
+
+      from image import *
+      def example (nameInput, ageInput):
+          pieces = nameInput.split(",")
+          name = pieces[0]
+          gender = pieces[1]
+          sport = pieces[2]
+          age = ageInput
+
+       example("Charlie Brown,boy,football", 8)

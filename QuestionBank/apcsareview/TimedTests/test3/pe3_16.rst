@@ -1,0 +1,32 @@
+.. mchoice:: pe3_16
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
+   :from_source: T
+   :answer_a: Whenever the first element in a is equal to val
+   :answer_b: Whenever a contains any element which equals val.
+   :answer_c: Whenever more than 1 element in a is equal to val.
+   :answer_d: Whenever exactly 1 element in a is equal to val.
+   :answer_e: Whenever the last element in a is equal to val.
+   :correct: c
+   :feedback_a: What is count for?
+   :feedback_b: It only sets temp to true when count is greater than 1.
+   :feedback_c: This increments count once for each value in a that is equal to val.  It returns true when count is greater than 1.
+   :feedback_d: This would be true if it was temp = count == 1.
+   :feedback_e: This could be one line of code return (a[a.length-1] == val).
+
+   Given the following code which of the answers best describes the conditions needed for temp to be true when it is returned?
+
+   .. code-block:: java
+
+      boolean temp = false;
+      int count = 0;
+      for ( int testVal : a)
+      {
+         if ( testVal == val ) count++;
+      }
+      temp = count > 1;
+      return temp;

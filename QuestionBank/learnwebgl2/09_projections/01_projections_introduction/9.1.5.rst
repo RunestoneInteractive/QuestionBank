@@ -1,0 +1,20 @@
+.. mchoice:: 9.1.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 09_projections
+  :subchapter: 01_projections_introduction
+  :topics: 09_projections/01_projections_introduction
+  :from_source: T
+  :random:
+  :answer_a: a triangle.
+  :answer_b: a quad. (A 4-sided polygon.)
+  :answer_c: a 5-sided polygon.
+  :answer_d: a 6-sided polygon.
+  :correct: a,b,c,d
+  :feedback_a: Correct.
+  :feedback_b: Correct.
+  :feedback_c: Correct.
+  :feedback_d: Correct.
+
+  Clipping a triangle against the *viewing window* can result in what types of geometric primitives? (Select all that apply.)

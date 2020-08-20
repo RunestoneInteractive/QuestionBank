@@ -1,0 +1,21 @@
+.. mchoice:: 6.6.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 06_matrix_library
+  :topics: 06_transformations/06_matrix_library
+  :from_source: T
+  :random:
+  :answer_a: m.rotate(nice, 30, 0, 1, 0);
+  :answer_b: m.rotate(nice, 30, 1, 0, 0)
+  :answer_c: m.rotate(nice, 30, 0, 0, 1);
+  :answer_d: m.rotate(nice, 30);
+  :correct: a
+  :feedback_a: Correct. The angle is 30 degrees and the axis of rotation is the y axis, <0,1,0>.
+  :feedback_b: Incorrect. This rotates about the x axis, <1,0,0>.
+  :feedback_c: Incorrect. This rotates about the z axis, <0,0,1>.
+  :feedback_d: Incorrect. This is missing the 3 parameters that define the axis of rotation.
+
+  Which of the following statements set a matrix called :code:`nice` to a
+  rotation transformation that rotates a model 30 degrees about the y axis?

@@ -1,0 +1,16 @@
+.. activecode:: Rename_Internal
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPNameNames
+  :subchapter: renameFunctions
+  :topics: CSPNameNames/renameFunctions
+  :from_source: T
+  :tour_1: "Line-by-line tour"; 1: funName-line1; 2: funName-line2; 3: funName-line3; 4: funName-line4; 5: funName-line5; 6: funName-line6;
+
+  absolute = abs
+  print("Absolute value of -5:")
+  print(absolute(-5))
+  noDecimal = int
+  print("Integer part of of 34.2")
+  print(noDecimal(34.2))

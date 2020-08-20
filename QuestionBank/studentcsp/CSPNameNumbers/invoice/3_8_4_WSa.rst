@@ -1,0 +1,17 @@
+.. activecode::  3_8_4_WSa
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPNameNumbers
+    :subchapter: invoice
+    :topics: CSPNameNumbers/invoice
+    :from_source: T
+    :nocodelens:
+
+    # DECLARE VARIABLES AND ASSIGN VALUES
+    costPerClip = .05
+    budget = 4.00
+    # 2. CREATE FORMULA
+    numPaperclips = budget / costPerClip
+    # 3. PRINT RESULT
+    print(numPaperclips)

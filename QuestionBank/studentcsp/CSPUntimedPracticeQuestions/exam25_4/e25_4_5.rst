@@ -1,0 +1,19 @@
+.. mchoice:: e25_4_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_4
+   :topics: CSPUntimedPracticeQuestions/exam25_4
+   :from_source: T
+   :answer_a: Abstraction reduces or removes details to help understand something new.
+   :answer_b: A lower-level abstraction is less specific than a higher-level abstraction.
+   :answer_c: Abstraction helps you manage the details and code of a program.
+   :answer_d: Lower-level abstractions can be combined to make higher-level abstractions.
+   :correct: b
+   :feedback_a: Incorrect. Abstraction removes unnecessary information that is not needed to understand something.
+   :feedback_b: Correct. The opposite is true. A lower the level of abstraction means there is more detail.
+   :feedback_c: Incorrect. Abstraction is a way of managing details because it emphasizes the details that are relevant.
+   :feedback_d: Incorrect. Since lower-level abstractions are more detailed, they cannot be combined to make higher-level abstractions.
+
+   Which of the following is NOT true about abstraction?

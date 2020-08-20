@@ -1,0 +1,24 @@
+.. parsonsprob:: 3_7_4_Per_Person_Cost
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameNumbers
+   :subchapter: walkAssign
+   :topics: CSPNameNumbers/walkAssign
+   :from_source: T
+   :practice: T
+   :numbered: left
+   :adaptive:
+
+   The following program should figure out the cost per person for a dinner including the tip. But the blocks have been mixed up.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   bill = 89.23
+   =====
+   tip = bill * 0.20
+   =====
+   total = bill + tip
+   =====
+   numPeople = 3
+   perPersonCost = total / numPeople
+   =====
+   print(perPersonCost)

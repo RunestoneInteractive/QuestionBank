@@ -1,0 +1,25 @@
+.. mchoice:: qtnt5_10
+      :author: bmiller
+      :difficulty: 3.0
+      :basecourse: apcsareview
+      :chapter: Tests
+      :subchapter: test5nt
+      :topics: Tests/test5nt
+      :from_source: T
+      :answer_a: -5
+      :answer_b: 0
+      :answer_c: 13
+      :answer_d: -1
+      :answer_e: 12
+      :correct: e
+      :feedback_a: the %, *, and / all have the same precedence
+      :feedback_b: the %, *, and / all have the same precedence
+      :feedback_c: the %, *, and / all have the same precedence
+      :feedback_d: the %, *, and / all have the same precedence
+      :feedback_e: the %, *, and / all have the same precedence
+
+      What value is stored in ``result`` if:
+
+      .. code-block:: Java
+
+        int result = 13 - 3 * 6 / 4 % 3

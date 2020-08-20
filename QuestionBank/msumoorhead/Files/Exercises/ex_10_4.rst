@@ -1,0 +1,10 @@
+.. activecode:: ex_10_4
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: Files
+   :subchapter: Exercises
+   :topics: Files/Exercises
+   :from_source: None
+   :nocodelens:
+   :available_files: labdata.txt

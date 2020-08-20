@@ -1,0 +1,26 @@
+.. mchoice:: mc_IS-A_HAS-A
+        :author: bmiller
+        :difficulty: 3.0
+        :basecourse: cppds
+        :chapter: Introduction
+        :subchapter: ObjectOrientedProgrammingDerivedClasses
+        :topics: Introduction/ObjectOrientedProgrammingDerivedClasses
+        :from_source: T
+        :multiple_answers: 
+        :answer_a: An IS-A class object is an instance of an inherited class.
+        :answer_b: A HAS-A class object has all of the methods of another class.
+        :answer_c: An IS-A class object contains instances of another class.
+        :answer_d: A HAS-A class object is an instance of an inherited class.
+        :answer_e: A HAS-A class object contains instances of another class.
+        :correct: a, e
+        :feedback_a: Correct!
+        :feedback_b: No. HAS-A relationships do not mean that one class is copying another class.
+        :feedback_c: No. IS-A relationships do not mean that an object contains different class instances.
+        :feedback_d: No, HAS-A reltionships do not use inheritance.
+        :feedback_e: Correct!
+        :pct_on_first: 0.3483146067
+        :total_students_attempting: 89
+        :num_students_correct: 85
+        :mean_clicks_to_correct: 2.4470588235
+
+        What is the difference between HAS-A and IS-A relationships? Select all that apply.

@@ -1,0 +1,22 @@
+.. mchoice:: 12_2_1_If_Structure
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: TeacherCSP
+  :chapter: CSPIntroDecisions
+  :subchapter: if
+  :topics: CSPIntroDecisions/if
+  :from_source: T
+  :answer_a: line 3
+  :answer_b: line 4
+  :correct: b
+  :feedback_a: Line 3 will only execute when x is less than 3.
+  :feedback_b: Execution continues at the next statement beyond the block following the <code>if</code> when the logical expression is false.
+
+   Given the code below, what line executes after line 2 executes?
+
+   ::
+
+     x = 4
+     if x < 3:
+         print ("x is less than 3")
+     print ("All done")

@@ -1,0 +1,25 @@
+.. activecode:: stack_ex_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythonds
+   :chapter: BasicDS
+   :subchapter: ImplementingaStackinPython
+   :topics: BasicDS/ImplementingaStackinPython
+   :from_source: T
+   :nocodelens:
+
+   from pythonds.basic import Stack
+
+   s=Stack()
+
+   print(s.isEmpty())
+   s.push(4)
+   s.push('dog')
+   print(s.peek())
+   s.push(True)
+   print(s.size())
+   print(s.isEmpty())
+   s.push(8.4)
+   print(s.pop())
+   print(s.pop())
+   print(s.size())

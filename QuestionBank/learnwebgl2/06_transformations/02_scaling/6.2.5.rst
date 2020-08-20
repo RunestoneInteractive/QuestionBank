@@ -1,0 +1,20 @@
+.. mchoice:: 6.2.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 02_scaling
+  :topics: 06_transformations/02_scaling
+  :from_source: T
+  :random:
+  :answer_a: Collapses all vertices to (0,0,0), thus losing all 3D information about the model.
+  :answer_b: Performs the "unity" operation which leaves the model unchanged.
+  :answer_c: Makes the model larger.
+  :answer_d: Makes the model smaller.
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect. (The "unity" operation uses a scale factor of 1.0.)
+  :feedback_c: Incorrect.
+  :feedback_d: Partially correct, but there is a better answer.
+
+  Uniform scaling of a model by 0.0 does what to a model?

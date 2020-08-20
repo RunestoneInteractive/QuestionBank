@@ -1,0 +1,20 @@
+.. mchoice:: eofFirst
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cpp4python
+    :chapter: Input_and_Output
+    :subchapter: InputandOutput
+    :topics: Input_and_Output/InputandOutput
+    :from_source: T
+    :multiple_answers:
+    :answer_a: To keep a program from writing into other files.
+    :answer_b: To keep a program from stopping.
+    :answer_c: To make sure you do not overflow into temporary buffer.
+    :answer_d: To stop an input files stream.
+    :correct: a,c,d
+    :feedback_a: Yes, EOFs are intended to prevent the program from overwriting a file.
+    :feedback_b: Not quite, the point of EOFs is to do the opposite.
+    :feedback_c: Yes, EOFs prevent overflow into temporary buffer.
+    :feedback_d: Yes, EOFs stop input file streams.
+
+    What are good use cases for EOFs in C++ programming?

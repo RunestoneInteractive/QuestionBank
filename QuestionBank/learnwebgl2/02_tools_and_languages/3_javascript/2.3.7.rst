@@ -1,0 +1,20 @@
+.. mchoice:: 2.3.7
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 02_tools_and_languages
+  :subchapter: 3_javascript
+  :topics: 02_tools_and_languages/3_javascript
+  :from_source: T
+  :random:
+  :answer_a: It is a function because it uses CamelCase.
+  :answer_b: It is a function that defines a "class" to create objects because it starts with a capital letter.
+  :answer_c: It is a global variable.
+  :answer_d: It is a local variable.
+  :correct: a,b
+  :feedback_a: Correct.
+  :feedback_b: Correct.
+  :feedback_c: Incorrect.
+  :feedback_d: Incorrect.
+
+  Based on the coding standard we will be using in this textbook, what is :code:`ExampleId`? (Select all that apply.)

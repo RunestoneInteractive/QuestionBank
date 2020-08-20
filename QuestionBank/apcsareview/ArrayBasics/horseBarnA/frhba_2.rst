@@ -1,0 +1,17 @@
+.. mchoice:: frhba_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: horseBarnA
+   :topics: ArrayBasics/horseBarnA
+   :from_source: T
+   :answer_a: str.compareTo(anotherString);
+   :answer_b: str == anotherString;
+   :answer_c: str.equals(anotherString);
+   :correct: c
+   :feedback_a: This String method is used for comparing two strings alphabetically. It returns 0 if they are equal so you would need to check the return value.
+   :feedback_b: This would only return true if the two variables refer to the same object.
+   :feedback_c: This String method will compare the characters in both strings and return true if they are the same.
+
+   What is the best way to compare two strings for equality?

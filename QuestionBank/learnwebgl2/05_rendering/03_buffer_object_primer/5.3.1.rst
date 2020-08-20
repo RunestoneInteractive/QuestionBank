@@ -1,0 +1,20 @@
+.. mchoice:: 5.3.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 03_buffer_object_primer
+  :topics: 05_rendering/03_buffer_object_primer
+  :from_source: T
+  :random:
+  :answer_a: a one-dimensional array of floats.
+  :answer_b: a contiguous block of memory in the GPU that stores data values.
+  :answer_c: always stored in the GPU's memory.
+  :answer_d: a variable in a shader program.
+  :correct: a,b,c
+  :feedback_a: Correct.
+  :feedback_b: Correct.
+  :feedback_c: Correct.
+  :feedback_d: Incorrect.
+
+  A WebGL *buffer object* is ... (Select all that apply.)

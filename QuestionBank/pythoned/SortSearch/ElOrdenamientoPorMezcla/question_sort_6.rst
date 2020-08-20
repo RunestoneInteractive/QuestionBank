@@ -1,0 +1,19 @@
+.. mchoice:: question_sort_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :chapter: SortSearch
+   :subchapter: ElOrdenamientoPorMezcla
+   :topics: SortSearch/ElOrdenamientoPorMezcla
+   :from_source: None
+   :correct: c
+   :answer_a: [21, 1] y [26, 45]
+   :answer_b: [[1, 2, 9, 21, 26, 28, 29, 45] y [16, 27, 34, 39, 40, 43, 46, 49]
+   :answer_c: [21] y [1]
+   :answer_d: [9] y [16]
+   :feedback_a: Las primeras dos listas mezcladas serán listas de caso base, aún no hemos alcanzado un caso base.
+   :feedback_b: Éstas serán las dos últimas listas mezcladas
+   :feedback_c: Las listas [21] y [1] son los dos primeros casos base encontrados por ordenamientoPorMezcla y, por tanto, serán las dos primeras listas mezcladas.
+   :feedback_d: Aunque 9 y 16 son valores vecinos, están en mitades diferentes de la lista desde la primera partición.
+
+   Dada la siguiente lista de números: [21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 27, 43, 34, 46, 40] ¿Cuál de las siguientes respuestas corresponde a las primeras dos listadas que serán mezcladas?

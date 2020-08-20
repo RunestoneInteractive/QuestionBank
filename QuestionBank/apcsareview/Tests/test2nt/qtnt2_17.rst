@@ -1,0 +1,29 @@
+.. mchoice:: qtnt2_17
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Tests
+   :subchapter: test2nt
+   :topics: Tests/test2nt
+   :from_source: T
+   :answer_a: [2, 6, 2, -1, -3]
+   :answer_b: [-23, -21, -13, -3, 6]
+   :answer_c: [10, 18, 19, 15, 6]
+   :answer_d: This method creates an IndexOutOfBounds exception.
+   :answer_e: [35, 33, 25, 15, 6]
+   :correct: e
+   :feedback_a: This would be correct if data[k] was modified in the for-loop. In this for-loop, data[k - 1] is the element that changes.
+   :feedback_b: This would be correct if data[k - 1] was subtracted from data[k]. Notice that for every instance of the for-loop, data[k] and data[k - 1] are added together and assigned to the index at data[k - 1].
+   :feedback_c: This would be correct if the for-loop began at 1 and continued to data.length - 1. Notice the for-loop indexing.
+   :feedback_d: The indexing of this method is correct. The for-loop begins at the last index and ends at the second index, and the method does not access any values other than the ones specified.
+   :feedback_e: This method starts at the second-to-last index of the array and adds the value of the previous element to the element at index k - 1.
+
+   Consider the following method ``changeArray``. An array is created that contains ``[2, 8, 10, 9, 6]`` and is passed to ``changeArray``. What are the contents of the array after the ``changeArray`` method executes?
+
+   .. code-block:: java
+
+      public void changeArray(int[] data)
+      {
+         for (int k = data.length - 1; k > 0; k--)
+            data[k - 1] = data[k] + data[k - 1];
+      }

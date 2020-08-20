@@ -1,0 +1,22 @@
+.. mchoice:: 8.5.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 05_bezier_parametric_equations
+  :topics: 08_animations/05_bezier_parametric_equations
+  :from_source: T
+  :random:
+  :answer_a: at p0 and p3.
+  :answer_b: equally spaced along the path.
+  :answer_c: equal to each other and at the path's midpoint.
+  :answer_d: (1/4) the distance of the total motion.
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect. This produces constant speed, but does not start with a speed of zero.
+  :feedback_c: Incorrect. The speed is not zero when the motion starts.
+  :feedback_d: Incorrect. The speed is not zero when the motion starts.
+
+  You want an object to move starting with a speed of zero and
+  ending with a speed of zero. Where should the intermediate points
+  be located?

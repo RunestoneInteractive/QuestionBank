@@ -1,0 +1,32 @@
+.. activecode:: js_second
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: intro
+   :topics: Javascript/intro
+   :from_source: T
+   :language: html
+
+   <html>
+      <head>
+         <style>
+         .myclass {
+            background-color: lightblue;
+         }
+         </style>
+      </head>
+      <body>
+         <h1>Hello World!!</h1>
+
+         <button onclick="changeThisPageFunc();">Click Me!</button>
+         <script type="text/javascript">
+            changeThisPageFunc = function() {
+               alert("body has class = "+document.body.className);
+               document.body.className = "myclass";
+               alert("body has class = "+document.body.className);
+               document.body.innerHTML = "<h1>I am a little blue today</h1>";
+            }
+         </script>
+      </body>
+   </html>

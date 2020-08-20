@@ -1,0 +1,39 @@
+.. parsonsprob:: ch4ex7muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Strings
+   :subchapter: StringPracticeParsons
+   :topics: Strings/StringPracticeParsons
+   :from_source: T
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The main method in the following class should print the initials in lowercase letters. But, the blocks have been mixed up and include an extra block that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public class Test1
+   {
+   =====
+       public static void main(String[] args)
+   =====
+       {
+   =====
+           String first = "Gerald";
+           String middle = "Foster";
+           String last= "Jones";
+
+   =====
+           String initials = first.substring(0,1) +
+                             middle.substring(0,1) +
+                             last.substring(0,1);
+   =====
+           String lowerInitials = initials.toLowerCase();
+   =====
+           System.out.println(lowerInitials);
+   =====
+       }
+   =====
+   }
+   =====
+           System.out.println(initials); #distractor

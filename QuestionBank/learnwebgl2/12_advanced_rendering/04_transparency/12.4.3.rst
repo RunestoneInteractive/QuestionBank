@@ -1,0 +1,22 @@
+.. mchoice:: 12.4.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 04_transparency
+  :topics: 12_advanced_rendering/04_transparency
+  :from_source: T
+  :random:
+
+  To render transparent surfaces correctly, models must be sorted, but individual triangles
+  that compose a model can be rendered in any order.
+
+  - False.
+
+    + Correct. Transparent surfaces must be drawn in a "back-to-front" order, especially individual
+      triangles within a model.
+
+  - True.
+
+    - Incorrect. Transparent surfaces must be drawn in a "back-to-front" order, especially individual
+      triangles within a model.

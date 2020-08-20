@@ -1,0 +1,25 @@
+.. parsonsprob:: 9_4_3_Decode_String
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPRepeatStrings
+   :subchapter: modify
+   :topics: CSPRepeatStrings/modify
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   The program below decodes an encoded message, but the lines are mixed up.  Put the lines in the right order with the right indentation.
+   -----
+   message = ""
+   str = "abcdefghijklmnopqrstuvwxyz. "
+   eStr = "zyxwvutsrqponmlkjihgfedcba ."
+   encodedMessage = "nvvg.nv.zg.nrwmrtsg"
+   =====
+   for letter in encodedMessage:
+   =====
+       pos = eStr.find(letter)
+   =====
+       message = message + str[pos:pos+1]
+   =====
+   print(message)

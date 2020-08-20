@@ -1,0 +1,204 @@
+.. activecode:: complete_cuircuit
+    :author: Brad Miller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Introduction
+    :subchapter: ObjectOrientedProgramminginPythonDefiningClasses
+    :topics: Introduction/ObjectOrientedProgramminginPythonDefiningClasses
+    :from_source: F
+    :language: cpp
+    :caption: The Complete Circuit Program.
+
+    #include <iostream>
+    #include <string>
+    using namespace std;
+
+    class LogicGate {
+        private:
+                string label;
+                bool output;
+
+        public:
+                LogicGate(string n) {
+                        label = n;
+                }
+
+                string getLabel() {
+                        return label;
+                }
+
+                bool getOutput() {
+                        output = performGateLogic();
+                        return output;
+                }
+
+                virtual bool performGateLogic() {
+                cout << "ERROR! performGateLogic BASE" << endl;
+                return false;
+            };
+
+                virtual void setNextPin(bool source) {
+                cout << "ERROR! setNextPin BASE" << endl;
+            };
+    };
+
+    class BinaryGate : public LogicGate {
+        private:
+                bool pinA;
+                bool pinATaken;
+                bool pinB;
+                bool pinBTaken;
+
+        public:
+                BinaryGate(string n) : LogicGate(n) {
+                        pinATaken = false;
+                        pinBTaken = false;
+                }
+
+                bool getPinA() {
+                    if (pinATaken==false) {
+                        cout << "Enter Pin A input for gate " << getLabel() << " -->";
+                        cin >> pinA;
+                        pinATaken = true;
+                    }
+                        return pinA;
+                }
+
+                bool getPinB() {
+                if (pinBTaken==false ) {
+                        cout << "Enter Pin B input for gate " << getLabel() << " -->";
+                        cin >> pinB;
+                        pinBTaken = true;
+                }
+                        return pinB;
+                }
+
+                virtual void setNextPin(bool source) {
+                        if (pinATaken == false) {
+                                pinA = source;
+                                this->pinATaken=true;
+                        }
+                        else if (pinBTaken == false) {
+                                pinB = source;
+                                this->pinBTaken=true;
+                        }
+                }
+    };
+
+    class UnaryGate : public LogicGate {
+        private:
+                bool pin;
+                bool pinTaken;
+
+        public:
+                UnaryGate(string n) : LogicGate(n) {
+                        pinTaken = false;
+                }
+
+                bool getPin() {
+                    if (pinTaken==false) {
+                        cout << "Enter Pin input for gate " << getLabel() << " -->";
+                        cin >> pin;
+                        pinTaken = true;
+                    }
+                        return pin;
+                }
+
+                virtual void setNextPin(bool source) {
+                        if (pinTaken == false) {
+                                pin = source;
+                                pinTaken=true;
+                        }
+                        else {
+                                return;
+                        }
+                }
+    };
+
+    class AndGate : public BinaryGate {
+        public:
+                AndGate(string n) : BinaryGate(n) {};
+
+                virtual bool performGateLogic() {
+                        bool a = getPinA();
+                        bool b = getPinB();
+                        if (a == 1 && b == 1) {
+                                return true;
+                        }
+                        else {
+                                return false;
+                        }
+                }
+    };
+
+    class OrGate : public BinaryGate {
+        public:
+                OrGate(string n) : BinaryGate(n) {};
+
+                virtual bool performGateLogic() {
+                        bool a = getPinA();
+                        bool b = getPinB();
+                        if (a == 1 || b == 1) {
+                                return true;
+                        }
+                        else {
+                                return false;
+                        }
+                }
+    };
+
+    class NotGate : public UnaryGate {
+        public:
+                NotGate(string n) : UnaryGate(n) {};
+
+                virtual bool performGateLogic() {
+                        if (getPin()) {
+                                return false;
+                        }
+                        else {
+                                return true;
+                        }
+                }
+    };
+
+    class Connector {
+        private:
+                LogicGate *fromgate;
+                LogicGate *togate;
+
+        public:
+                Connector(LogicGate *fgate, LogicGate *tgate) {
+                        fromgate = fgate;
+                        togate = tgate;
+                        tgate->setNextPin(fromgate->getOutput());
+                }
+
+                LogicGate *getFrom() {
+                        return fromgate;
+                }
+
+                LogicGate *getTo() {
+                        return togate;
+                }
+    };
+
+    int main() {
+        AndGate g1("AND1");
+        AndGate g2("AND2");
+        OrGate g3("OR3");
+        NotGate g4("NOT4");
+
+        // The inputs can be changed here!
+        g1.setNextPin(1);
+        g1.setNextPin(0);
+        g2.setNextPin(1);
+        g2.setNextPin(0);
+
+        Connector c1(&g1, &g3);
+        Connector c2(&g2, &g3);
+        Connector c3(&g3, &g4);
+
+        cout << g4.getOutput();
+
+        return 0;
+    }

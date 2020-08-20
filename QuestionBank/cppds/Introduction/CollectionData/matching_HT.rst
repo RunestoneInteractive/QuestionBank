@@ -1,0 +1,20 @@
+.. dragndrop:: matching_HT
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: Introduction
+   :subchapter: CollectionData
+   :topics: Introduction/CollectionData
+   :from_source: T
+   :feedback: Feedback shows incorrect matches.
+   :match_1: [ ]|||Returns the value associated with the key, otherwise throws error.
+   :match_2: erase|||Deletes the entry from the hash table.
+   :match_3: count|||Returns true if key is in the hash table, and false otherwise.
+   :match_4: begin|||An iterator to the first element in the hash table.
+   :match_5: end|||An iterator pointing to past-the-end element of the hash table.
+   :pct_on_first: 0.7692307692
+   :total_students_attempting: 91
+   :num_students_correct: 86
+   :mean_clicks_to_correct: 1.3255813953
+
+    Match the Hash Table operations with their corresponding explination.

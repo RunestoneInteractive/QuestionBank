@@ -1,0 +1,28 @@
+.. parsonsprob:: ch7ex10muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: ArrayBasics
+   :subchapter: ArrayParsonsPractice
+   :topics: ArrayBasics/ArrayParsonsPractice
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   The following program segment is a method that should return string array that is in reverse order -- so {"b", "a", "z"} should return {"z", "a", "b"}.  But, the blocks have been mixed up and include <b>one extra block</b> that is not needed in a correct solution.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution. </p>
+   -----
+   public static int[] firstHalf(int[] arr) {
+   =====
+       int[] result = new int[arr.length / 2];
+   =====
+       for (int i = 0; i < result.length; i++) {
+   =====
+       for (int i = 0; i < arr.length; i++) { #distractor
+   =====
+         result[i] = arr[i];
+   =====
+       } //end for loop
+   =====
+       return result;
+   =====
+   } //end firstHalf method

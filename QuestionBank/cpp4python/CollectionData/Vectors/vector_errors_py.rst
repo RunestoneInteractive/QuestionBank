@@ -1,0 +1,21 @@
+.. activecode:: vector_errors_py
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cpp4python
+    :chapter: CollectionData
+    :subchapter: Vectors
+    :topics: CollectionData/Vectors
+    :from_source: T
+    :caption: Python list out of bounds
+
+    """Demonstrates python's protections
+    against iterating outside of a list"""
+    def main():
+        intlist=[]
+        for i in range(10):
+            intlist.append(i)
+
+        for i in range(11):
+            print("intlist[" + str(i) + "]=" + str(intlist[i]))
+
+    main()

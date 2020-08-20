@@ -1,0 +1,18 @@
+.. actex:: mctree_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :chapter: Trees
+   :subchapter: RepresentacionDeListaDeListas
+   :topics: Trees/RepresentacionDeListaDeListas
+   :from_source: None
+
+   from test import testEqual
+
+   def crearArbol():
+       #Escriba su código aquí
+
+   arbolDePrueba = crearArbol()
+   testEqual(obtenerValorRaiz(obtenerHijoDerecho(arbolDePrueba)),'c')
+   testEqual(obtenerValorRaiz(obtenerHijoDerecho(obtenerHijoIzquierdo(arbolDePrueba))),'d')
+   testEqual(obtenerValorRaiz(obtenerHijoDerecho(obtenerHijoDerecho(arbolDePrueba))),'f')

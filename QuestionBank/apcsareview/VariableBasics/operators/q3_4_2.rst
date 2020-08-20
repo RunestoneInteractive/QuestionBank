@@ -1,0 +1,17 @@
+.. mchoice:: q3_4_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: VariableBasics
+   :subchapter: operators
+   :topics: VariableBasics/operators
+   :from_source: T
+   :answer_a: 3
+   :answer_b: 2
+   :answer_c: 8
+   :correct: a
+   :feedback_a: 8 goes into 3 no times so the remainder is 3.  The remainder of a smaller number divided by a larger number is always the smaller number!
+   :feedback_b: This would be the remainder if the question was 8 % 3 but here we are asking for the reminder after we divide 3 by 8.
+   :feedback_c: What is the remainder after you divide 3 by 8?
+
+   What is the result of 3 % 8?

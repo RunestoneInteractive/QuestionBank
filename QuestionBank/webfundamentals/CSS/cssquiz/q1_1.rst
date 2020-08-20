@@ -1,0 +1,24 @@
+.. mchoice:: q1_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: CSS
+   :subchapter: cssquiz
+   :topics: CSS/cssquiz
+   :from_source: T
+   :multiple_answers: 
+   :answer_a: &lt;h1&gt;
+   :answer_b: &lt;p&gt;
+   :answer_c: &lt;img&gt;
+   :answer_d: &lt;li&gt;
+   :correct: a,b,d
+   :feedback_a: Yes
+   :feedback_b: Yes
+   :feedback_c: No, an img tag is an inline element
+   :feedback_d: Yes
+   :pct_on_first: 0.3943089431
+   :total_students_attempting: 246
+   :num_students_correct: 122
+   :mean_clicks_to_correct: 1.2786885246
+
+   Which of the following are HTML block elements.  Select all that apply.

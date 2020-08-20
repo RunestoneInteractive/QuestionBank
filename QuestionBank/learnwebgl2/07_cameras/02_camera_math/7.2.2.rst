@@ -1,0 +1,24 @@
+.. mchoice:: 7.2.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 02_camera_math
+  :topics: 07_cameras/02_camera_math
+  :from_source: T
+  :random:
+
+  Given a camera's local coordinate system defined by vectors :code:`<u>`, :code:`<v>`,
+  and :code:`<n>`, what global axis does :code:`<u>` map to?
+
+  - global :code:`<x>` axis
+
+    + Correct.
+
+  - global :code:`<y>` axis
+
+    - Incorrect. The :code:`<v>` axis maps to the :code:`<y>` axis
+
+  - global :code:`<z>` axis
+
+    - Incorrect. The :code:`<n>` axis maps to the :code:`<z>` axis

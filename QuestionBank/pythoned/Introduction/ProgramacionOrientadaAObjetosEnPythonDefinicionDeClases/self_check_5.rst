@@ -1,0 +1,135 @@
+.. actex:: self_check_5
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :chapter: Introduction
+   :subchapter: ProgramacionOrientadaAObjetosEnPythonDefinicionDeClases
+   :topics: Introduction/ProgramacionOrientadaAObjetosEnPythonDefinicionDeClases
+   :from_source: None
+
+   class CompuertaLogica:
+
+       def __init__(self,n):
+           self.nombre = n
+           self.salida = None
+
+       def obtenerNombre(self):
+           return self.nombre
+
+       def obtenerSalida(self):
+           self.salida = self.ejecutarLogicaDeCompuerta()
+           return self.salida
+
+
+   class CompuertaBinaria(CompuertaLogica):
+
+       def __init__(self,n):
+           CompuertaLogica.__init__(self,n)
+
+           self.pinA = None
+           self.pinB = None
+
+       def obtenerPinA(self):
+           if self.pinA == None:
+               return int(input("Ingrese la entrada del Pin A para la compuerta "+self.obtenerNombre()+"-->"))
+           else:
+               return self.pinA.obtenerFuente().obtenerSalida()
+
+       def obtenerPinB(self):
+           if self.pinB == None:
+               return int(input("Ingrese la entrada del Pin B para la compuerta "+self.obtenerNombre()+"-->"))
+           else:
+               return self.pinB.obtenerFuente().obtenerSalida()
+
+       def asignarProximoPin(self,fuente):
+           if self.pinA == None:
+               self.pinA = fuente
+           else:
+               if self.pinB == None:
+                   self.pinB = fuente
+               else:
+                   print("No se puede conectar: NO HAY PINES DISPONIBLES en esta compuerta")
+
+
+   class CompuertaAND(CompuertaBinaria):
+
+       def __init__(self,n):
+           CompuertaBinaria.__init__(self,n)
+
+       def ejecutarLogicaDeCompuerta(self):
+
+           a = self.obtenerPinA()
+           b = self.obtenerPinB()
+           if a==1 and b==1:
+               return 1
+           else:
+               return 0
+
+   class CompuertaOR(CompuertaBinaria):
+
+       def __init__(self,n):
+           CompuertaBinaria.__init__(self,n)
+
+       def ejecutarLogicaDeCompuerta(self):
+
+           a = self.obtenerPinA()
+           b = self.obtenerPinB()
+           if a ==1 or b==1:
+               return 1
+           else:
+               return 0
+
+   class CompuertaUnaria(CompuertaLogica):
+
+       def __init__(self,n):
+           CompuertaLogica.__init__(self,n)
+
+           self.pin = None
+
+       def obtenerPin(self):
+           if self.pin == None:
+               return int(input("Ingrese la entrada del Pin para la compuerta "+self.obtenerNombre()+"-->"))
+           else:
+               return self.pin.obtenerFuente().obtenerSalida()
+
+       def asignarProximoPin(self,fuente):
+           if self.pin == None:
+               self.pin = fuente
+           else:
+               print("No se puede conectar: NO HAY PINES DISPONIBLES en esta compuerta")
+
+
+   class CompuertaNOT(CompuertaUnaria):
+
+       def __init__(self,n):
+           CompuertaUnaria.__init__(self,n)
+
+       def ejecutarLogicaDeCompuerta(self):
+           if self.obtenerPin():
+               return 0
+           else:
+               return 1
+
+
+   class Conector:
+
+       def __init__(self, deComp, aComp):
+           self.deCompuerta = deComp
+           self.aCompuerta = aComp
+
+           aComp.asignarProximoPin(self)
+
+       def obtenerFuente(self):
+           return self.deCompuerta
+
+       def obtenerDestino(self):
+           return self.aCompuerta
+
+
+
+   def main():
+      c1 = CompuertaAND("C1")
+
+      print(c1.obtenerSalida())
+
+   main()

@@ -1,0 +1,33 @@
+.. mchoice:: mctree_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: Trees
+   :subchapter: ListofListsRepresentation
+   :topics: Trees/ListofListsRepresentation
+   :from_source: T
+   :correct: c
+   :answer_a: ['a', ['b', [], []], ['c', [], ['d', [], []]]]
+   :answer_b: ['a', ['c', [], ['d', ['e', [], []], []]], ['b', [], []]]
+   :answer_c: ['a', ['b', [], []], ['c', [], ['d', ['e', [], []], []]]]
+   :answer_d: ['a', ['b', [], ['d', ['e', [], []], []]], ['c', [], []]]
+   :feedback_a: Not quite, this tree is missing the 'e' node.
+   :feedback_b: This is close, but if you carefully you will see that the left and right children of the root are swapped.
+   :feedback_c: Very good
+   :feedback_d: This is close, but the left and right child names have been swapped along with the underlying structures.
+   :pct_on_first: 0.6666666667
+   :total_students_attempting: 18
+   :num_students_correct: 18
+   :mean_clicks_to_correct: 1.4444444444
+
+   Given the following statements:
+   
+   .. sourcecode:: python
+   
+       x = BinaryTree('a')
+       insertLeft(x,'b')
+       insertRight(x,'c')
+       insertRight(getRightChild(x),'d')
+       insertLeft(getRightChild(getRightChild(x)),'e')
+   
+   Which of the answers is the correct representation of the tree?

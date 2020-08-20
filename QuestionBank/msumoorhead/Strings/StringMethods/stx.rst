@@ -1,0 +1,26 @@
+.. activecode:: stx
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: Strings
+    :subchapter: StringMethods
+    :topics: Strings/StringMethods
+    :from_source: None
+
+
+    food = "banana bread"
+    print(food.capitalize())
+    size = 25
+    print("*" + food.center(size) + "*")
+    print("*" + food.ljust(size) + "*")     # stars added to show bounds
+    print("*" + food.rjust(size) + "*")
+
+    print('line  8:', food.find("e"))
+    print('line  9:', food.find("na"))
+    print('line 10:', food.find("b"))
+
+    print('line 12:', food.rfind("e"))
+    print('line 13:', food.rfind("na"))
+    print('line 14:', food.rfind("b"))
+
+    print('line 16:', food.index("e"))

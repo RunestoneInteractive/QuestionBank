@@ -1,0 +1,17 @@
+.. mchoice:: 3_8_1_Diagnosing_Assignment_Q1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: TeacherCSP
+  :chapter: CSPNameNumbers
+  :subchapter: misconceptions
+  :topics: CSPNameNumbers/misconceptions
+  :from_source: T
+  :answer_a: Sam may see assignment as a move.
+  :answer_b: Sam may see assignment as a copy.
+  :answer_c: Sam may see assignment as a relationship.
+  :correct: c
+  :feedback_a: Assignment-as-move says that number1 is 32 and number2 has 17, but number2 was empty or zero after number1 = number2
+  :feedback_b: Assignment really is a copy, so that's not a misconception.  Assignment-as-copy wouldn't lead to number1 being 17.
+  :feedback_c: If Sam thinks changing number2 changes number1, Sam may misunderstand assignment as creating a relationship.
+
+   If the answer was `17`, Sam might have what kind of misconception?

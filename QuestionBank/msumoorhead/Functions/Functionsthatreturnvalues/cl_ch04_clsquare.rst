@@ -1,0 +1,20 @@
+.. codelens:: cl_ch04_clsquare
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: Functions
+    :subchapter: Functionsthatreturnvalues
+    :topics: Functions/Functionsthatreturnvalues
+    :from_source: None
+    :question: What line will be executed after the line with the red arrow?
+    :breakline: 6
+    :feedback: Notice the function call.
+    :correct: line
+
+    def square(x):
+        y = x * x
+        return y
+
+    toSquare = 10
+    squareResult = square(toSquare)
+    print("The result of ", toSquare, " squared is ", squareResult)

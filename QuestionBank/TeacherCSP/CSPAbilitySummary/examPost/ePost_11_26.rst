@@ -1,0 +1,27 @@
+.. mchoice:: ePost_11_26
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPAbilitySummary
+   :subchapter: examPost
+   :topics: CSPAbilitySummary/examPost
+   :from_source: T
+   :answer_a: 182
+   :answer_b: 181
+   :answer_c: 153
+   :answer_d: 29
+   :correct: c
+   :feedback_a: Check your addition.
+   :feedback_b: This would be true if it was for number in range(1,len(numList))
+   :feedback_c: This will add 1 + 7 + 131 which is 153
+   :feedback_d: This would be true if it was for number in range(0,len(thingsToAdd),2)
+
+   Given the following code segment, what will be printed?
+
+   ::
+
+      sum = 0
+      numList = [1,3,7,19,21,131]
+      for number in range(1,len(numList),2):
+          sum = sum + numList[number]
+      print(sum)

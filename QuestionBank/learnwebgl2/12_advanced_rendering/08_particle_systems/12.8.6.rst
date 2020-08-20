@@ -1,0 +1,29 @@
+.. mchoice:: 12.8.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 08_particle_systems
+  :topics: 12_advanced_rendering/08_particle_systems
+  :from_source: T
+  :random:
+
+  What technique is used in the example WebGL program in this lesson to keep
+  particle data in an array in contiguous array positions?
+
+  - A particle that "dies" is overwritten by the last particle in an array.
+
+    + Correct. And the number of particles is decreased by one.
+
+  - Any particle that "dies" has its size set to -1.
+
+    - Incorrect. (This technique could be used, but it does not keep the data in the array contiguous.)
+
+  - Any particle that "dies" has its location set to (-999, -999, -999).
+
+    - Incorrect. (This technique could be used, but it does not keep the data in the array contiguous.)
+
+  - A particle that "dies" is overwritten by shifting all elements that have
+    greater array indexes over by 1 in the array.
+
+    - Incorrect. (This is very inefficient and should be avoided, if possible.)

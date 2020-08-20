@@ -1,0 +1,26 @@
+.. parsonsprob:: 3_6_1_Ketchup_Speed
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameNumbers
+   :subchapter: ketchup
+   :topics: CSPNameNumbers/ketchup
+   :from_source: T
+   :practice: T
+   :numbered: left
+   :adaptive:
+
+   The following program figures out the ketchup speed in feet per <i>seconds</i>.  Drag the blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   dripMPH = .028
+   FPM= 5280.0
+   dripFPH = dripMPH * FPM
+   =====
+   MPH = 60
+   dripFPM = dripFPH / MPH
+   =====
+   SPM = 60
+   dripFPS = dripFPM / SPM
+   =====
+   print("Ketchup speed:")
+   print(dripFPS)

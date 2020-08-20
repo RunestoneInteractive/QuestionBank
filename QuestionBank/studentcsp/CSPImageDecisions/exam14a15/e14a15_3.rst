@@ -1,0 +1,52 @@
+.. mchoice:: e14a15_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPImageDecisions
+   :subchapter: exam14a15
+   :topics: CSPImageDecisions/exam14a15
+   :from_source: T
+   :practice: T
+   :answer_a: The program removes all the red from the image
+   :answer_b: The program changes all the red pixels to a single color
+   :answer_c: The program changes all the pixels to have some red
+   :answer_d: The program changes the image to only have 3 values of red
+   :correct: d
+   :feedback_a: This would be true if the red was always set to 0.
+   :feedback_b: This would be true if the red was always set to the same value.
+   :feedback_c: If r is less than 120 the red is removed (set to 0).
+   :feedback_d: The red will be sets to 0, 200, or 255.
+
+   What does the following code do to the image?
+
+   ::
+
+      from image import *
+
+      # CREATE AN IMAGE FROM A FILE
+      img = Image("arch.jpg")
+
+      # LOOP THROUGH ALL PIXELS
+      for x in range(img.getWidth()):
+          for y in range(img.getHeight()):
+              p = img.getPixel(x, y)
+              r = p.getRed()
+              g = p.getGreen()
+              b = p.getBlue()
+
+              # VALUES FOR THE NEW COLOR
+              if r < 120:
+                  r = 0
+              elif r < 240:
+                  r = 200
+              else:
+                  r = 255
+
+              # CREATE THE COLOR
+              newPixel = image.Pixel(r,g,b)
+
+              # CHANGE THE IMAGE
+              img.setPixel(x, y, newPixel)
+
+      win = ImageWin()
+      img.draw(win)

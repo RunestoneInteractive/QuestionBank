@@ -1,0 +1,39 @@
+.. activecode:: css_pos3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: CSS
+   :subchapter: layoutattributes
+   :topics: CSS/layoutattributes
+   :from_source: T
+   :language: html
+
+   <html>
+      <head>
+         <style>
+             main {
+                 position: relative;
+             }
+             img.card {
+                 height: 200px;
+             }
+             img#a {
+                 position: absolute;
+                 top: 10px;
+                 left: 50px;
+             }
+             img#b {
+                 position: absolute;
+                 top: 10px;
+                 left: 50px;
+             }
+         </style>
+      </head>
+   <body>
+   <main>
+      <img id="a" class="card" src="http://interactivepython.org/runestone/static/webfundamentals/_images/ace-of-hearts.gif" />
+      <img id="b" class="card" src="http://interactivepython.org/runestone/static/webfundamentals/_images/ace-of-hearts.gif" />
+
+   </main>
+   </body>
+   </html>

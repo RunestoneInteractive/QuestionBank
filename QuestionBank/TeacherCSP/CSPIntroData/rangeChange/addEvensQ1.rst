@@ -1,0 +1,22 @@
+.. activecode:: addEvensQ1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: TeacherCSP
+  :chapter: CSPIntroData
+  :subchapter: rangeChange
+  :topics: CSPIntroData/rangeChange
+  :from_source: T
+  :tour_1: "Line by Line Tour"; 2: lst7-line1; 3: lst7-line2; 6: lst7-line3; 9: lst7-line4; 12: lst7-line5;
+
+  # initialize the variables
+  numbers = [0,1,2,3,4,5,6,7,8,9,10]
+  evens = []
+
+  # loop though every other index
+  for index in range(0,len(numbers),2):
+
+      # add the lists
+      evens = evens + [numbers[index]]
+
+  # print the result
+  print(evens)

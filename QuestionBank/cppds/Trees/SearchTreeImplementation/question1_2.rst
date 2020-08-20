@@ -1,0 +1,23 @@
+.. mchoice:: question1_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: Trees
+   :subchapter: SearchTreeImplementation
+   :topics: Trees/SearchTreeImplementation
+   :from_source: T
+   :answer_a: At least 4
+   :answer_b: At most 3
+   :answer_c: At least 1
+   :answer_d: At most 2
+   :correct: d
+   :feedback_a: Incorrect. Refer back to the definition of a binary search tree.
+   :feedback_b: Incorrect.
+   :feedback_c: Incorrect, it has a limit.
+   :feedback_d: Correct!
+   :pct_on_first: 0.4725274725
+   :total_students_attempting: 91
+   :num_students_correct: 91
+   :mean_clicks_to_correct: 1.9120879121
+
+   How many children can a node have in a binary search tree?

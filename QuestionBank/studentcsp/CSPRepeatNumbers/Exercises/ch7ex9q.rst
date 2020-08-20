@@ -1,0 +1,20 @@
+.. activecode::  ch7ex9q
+     :author: bmiller
+     :difficulty: 3.0
+     :basecourse: studentcsp
+     :chapter: CSPRepeatNumbers
+     :subchapter: Exercises
+     :topics: CSPRepeatNumbers/Exercises
+     :from_source: T
+     :nocodelens:
+
+     # STEP 1: INITIALIZE ACCUMULATOR
+     sum =   # Start out with nothing
+     # STEP 2: GET DATA
+     numbers = range()
+     # STEP 3: LOOP THROUGH THE DATA
+     for number in numbers:
+         # STEP 4: ACCUMULATE
+        sum = sum +
+     # STEP 5: PROCESS RESULT
+     print(sum)

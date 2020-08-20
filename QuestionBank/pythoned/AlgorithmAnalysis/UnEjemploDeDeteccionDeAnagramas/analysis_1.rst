@@ -1,0 +1,26 @@
+.. mchoice:: analysis_1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: pythoned
+    :chapter: AlgorithmAnalysis
+    :subchapter: UnEjemploDeDeteccionDeAnagramas
+    :topics: AlgorithmAnalysis/UnEjemploDeDeteccionDeAnagramas
+    :from_source: None
+    :answer_a: O(n)
+    :answer_b: O(n^2)
+    :answer_c: O(log n)
+    :answer_d: O(n^3)
+    :correct: b
+    :feedback_a: En un ejemplo como éste, usted desea contar los ciclos anidados. Especialmente los ciclos que dependen de la misma variable, en este caso, n.
+    :feedback_b: Un ciclo anidado individualmente como éste es O(n^2)
+    :feedback_c: log n normalmente se indica cuando el problema se hace iterativamente más pequeño
+    :feedback_d: En un ejemplo como éste, usted desea contar los ciclos anidados. Especialmente los ciclos que dependen de la misma variable, en este caso, n.
+
+    Dado el siguiente fragmento de código, ¿cuál es su O-grande de tiempo de ejecución?
+
+    .. code-block:: python
+
+      prueba = 0
+      for i in range(n):
+         for j in range(n):
+            prueba = prueba + i * j

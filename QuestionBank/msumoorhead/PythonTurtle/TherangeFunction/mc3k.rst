@@ -1,0 +1,19 @@
+.. mchoice:: mc3k
+  :author: jenkins
+  :difficulty: 3.0
+  :basecourse: msumoorhead
+  :chapter: PythonTurtle
+  :subchapter: TherangeFunction
+  :topics: PythonTurtle/TherangeFunction
+  :from_source: None
+  :answer_a: Range should generate a list that stops before 10.
+  :answer_b: Range should generate a list that starts at 10 (including 10).
+  :answer_c: Range should generate a list that stops at 10 (including 10).
+  :answer_d: Range should generate a list using every 10th number between the start and the stopping number.
+  :correct: a
+  :feedback_a: Range will generate the sequence 3, 5, 7, 9.
+  :feedback_b: The first argument (3) tells range what number to start at.
+  :feedback_c: Range will always stop at the number before (not including) the specified ending point for the sequence.
+  :feedback_d: The third argument (2) tells range how many numbers to skip between each element in the sequence.
+
+  In the command range(3, 10, 2), what does the second argument (10) specify?

@@ -1,0 +1,20 @@
+.. mchoice:: 7.3.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 03_camera_movement
+  :topics: 07_cameras/03_camera_movement
+  :from_source: T
+  :random:
+  :answer_a: the eye location
+  :answer_b: the center location
+  :answer_c: the up vector
+  :correct: a
+  :feedback_a: Correct. You need to change the location of the camera.
+  :feedback_b: Incorrect. Assuming the center point was already at the center of the model you are trying to circle around.
+  :feedback_c: Incorrect. Typically you would not modify the orientation of the camera as you are "circling" -- but you could.
+
+  If you wanted to move a camera in a circular arc around a model, keeping the model
+  in the center of view, which parameters of the :code:`lookat` function would
+  you need to modify?

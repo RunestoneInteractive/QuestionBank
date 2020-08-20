@@ -1,0 +1,18 @@
+.. parsonsprob:: 11.4.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 11_surface_properties
+  :subchapter: 04_texture_mapping_images
+  :topics: 11_surface_properties/04_texture_mapping_images
+  :from_source: T
+  :noindent:
+
+  Please correctly order the following steps needed to implement image texture mapping
+  in a WebGL program.
+  -----
+  Download a model from the server. (The model must have texture <br>coordinates defined for each vertex.)
+  Download the image used for texture mapping from the server.
+  Create a "texture object" in the GPU that contains the image.
+  Before rendering, attach the "texture object" to a GPU "texture unit".
+  In a fragment shader use a "texture2D" function to lookup a <br>color from the texture map image.

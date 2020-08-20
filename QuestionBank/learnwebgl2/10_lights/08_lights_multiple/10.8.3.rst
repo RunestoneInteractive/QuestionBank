@@ -1,0 +1,19 @@
+.. mchoice:: 10.8.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 08_lights_multiple
+  :topics: 10_lights/08_lights_multiple
+  :from_source: T
+  :random:
+
+  *Shader programs* can implement sub-functions to reduce code duplication.
+
+  - True.
+
+    + Correct.
+
+  - False.
+
+    - Incorrect. sub-functions are very common in *shader programs*.

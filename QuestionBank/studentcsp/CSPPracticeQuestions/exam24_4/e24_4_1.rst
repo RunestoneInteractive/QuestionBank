@@ -1,0 +1,19 @@
+.. mchoice:: e24_4_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_4
+   :topics: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: Calling Domino’s Pizza to talk to an employee to place an order
+   :answer_b: Downloading your AP scores from the College Board website
+   :answer_c: Searching through a phone book to find the phone number belonging to a certain name
+   :answer_d: Adding a subdomain to your website for your blog posts
+   :correct: c
+   :feedback_a: Incorrect. This is analogous to giving a request to a server but not analogous to DNS.
+   :feedback_b: Incorrect. This is analogous to receiving data from a server but not analogous to DNS.
+   :feedback_c: Correct. The DNS is the Internet's equivalent of a phone book. It maintains a directory of domain names and translate them to Internet Protocol (IP) addresses.
+   :feedback_d: Incorrect. The rules laid out by the DNS allow us to create subdomains, but this is not analogous to the purpose DNS serves.
+
+   The Domain Name System (DNS) is analogous to:

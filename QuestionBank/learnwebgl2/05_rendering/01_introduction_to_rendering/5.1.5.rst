@@ -1,0 +1,13 @@
+.. dragndrop:: 5.1.5
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 01_introduction_to_rendering
+  :topics: 05_rendering/01_introduction_to_rendering
+  :from_source: T
+  :feedback: What does a fragment shader process?
+  :match_1: Vertex shader ||| Transforms each vertex of a model to its correct location for the current scene.
+  :match_2: Fragment shader ||| Assigns a color to each fragment (pixel) that composes a geometric primitive (point, line, or triangle).
+
+  Match each type of shader program with its correct definition.

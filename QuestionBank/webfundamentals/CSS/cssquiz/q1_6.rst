@@ -1,0 +1,26 @@
+.. mchoice:: q1_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: CSS
+   :subchapter: cssquiz
+   :topics: CSS/cssquiz
+   :from_source: T
+   :multiple_answers: 
+   :answer_a: &lt;h1 class="low"&gt;Hello World&lt;/h1&gt;
+   :answer_b: &lt;p class="high"&gt;some text&lt;/p&gt;
+   :answer_c: &lt;p&gt;some text&lt;/p&gt;
+   :answer_d: &lt;li class="high"&gt;do my homework&lt;/li&gt;
+   :answer_e: &lt;p id="high"&gt;some text&lt;/p&gt;
+   :correct: e
+   :feedback_a: No this is an h1 tag
+   :feedback_b: No, this selector is matching the id attribute
+   :feedback_c: No, this selector is looking for an id
+   :feedback_d: No, this selector is matching on the id not the class
+   :feedback_e: Yes
+   :pct_on_first: 0.6653061224
+   :total_students_attempting: 245
+   :num_students_correct: 182
+   :mean_clicks_to_correct: 1.1703296703
+
+   Which of the following will match the CSS selector ``#high``

@@ -1,0 +1,28 @@
+.. mchoice:: 8.6.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 06_bezier_nonlinear_path
+  :topics: 08_animations/06_bezier_nonlinear_path
+  :from_source: T
+  :random:
+
+  To create a Bezier parametric equation that defines constant speed (no acceleration) along a path
+  requires which of the following criteria, even when the path is non-linear?
+
+  - the length of the vectors :raw-html:`&lt;` p1-p0 :raw-html:`&gt;`, :raw-html:`&lt;` p2-p1 :raw-html:`&gt;`, and :raw-html:`&lt;` p3-p2 :raw-html:`&gt;` must be equal.
+
+    + Correct. If the three vectors have the same length, the path defines constant speed.
+
+  - the control points must be co-linear.
+
+    - Incorrect. This makes the path linear, but there are many possibilities for the speed (as lesson 8.4 explains).
+
+  - the length of the vectors :raw-html:`&lt;` p1-p0 :raw-html:`&gt;` and :raw-html:`&lt;` p3-p2 :raw-html:`&gt;` must be equal.
+
+    - Incorrect. This makes the speed and acceleration symmetrical at the beginning and ending of the path, but it does not make the speed constant.
+
+  - the number of frames must be equal to the number of changes in the parameter t.
+
+    - Incorrect. This is a nonsensical statement.

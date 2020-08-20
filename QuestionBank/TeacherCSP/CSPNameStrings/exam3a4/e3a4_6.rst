@@ -1,0 +1,26 @@
+.. mchoice:: e3a4_6
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPNameStrings
+   :subchapter: exam3a4
+   :topics: CSPNameStrings/exam3a4
+   :from_source: T
+   :answer_a: THIS IS A TEST
+   :answer_b: this is a test
+   :answer_c: This is a test
+   :answer_d: This is a test, really!
+   :correct: a
+   :feedback_a: Strings are immutable.  Any change to a string returns a new string.
+   :feedback_b: This would be true if the question asked for the value of better.
+   :feedback_c: This would be true if the question asked for the value of betterStill
+   :feedback_d: This would be true if the question asked for the value of more.
+
+   What is the value of sentence after the following code executes?
+
+   ::
+
+      sentence = "THIS IS A TEST"
+      better = sentence.lower()
+      betterStill = better.capitalize() + "."
+      more = sentence + ", really!"

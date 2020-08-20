@@ -1,0 +1,27 @@
+.. activecode:: Turtle_Nested_Error2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPRepeatTurtles
+    :subchapter: patterns
+    :topics: CSPRepeatTurtles/patterns
+    :from_source: T
+    :nocodelens:
+
+    from turtle import *    # use the turtle library
+    from sys import *
+    setExecutionLimit(50000)
+
+    wn = screen()
+    mateo = Turtle
+    mateo.setheading(90)
+
+    for repeats in range(20):
+        mateo.color("red")
+        mateo.forward(10)
+        mateo.left(18)
+
+        for sides in range(3)
+            mateo.color("blue")
+            mateo.Forward(50)
+            mateo.right(120)

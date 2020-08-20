@@ -1,0 +1,23 @@
+.. shortanswer:: bikeshare_explain_numbered_aliases
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: sql
+   :subchapter: aggregating
+   :topics: sql/aggregating
+   :from_source: T
+
+   Explain what question the following query is answering.
+
+   .. code-block:: sql
+
+      SELECT
+        start_station,
+        end_station,
+        AVG(duration) AS mean_duration
+      FROM
+        trip_data
+      GROUP BY
+        1, 2
+      ORDER BY
+        3 DESC

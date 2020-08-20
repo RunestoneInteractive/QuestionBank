@@ -1,0 +1,13 @@
+.. mchoice:: pt_10
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :chapter: TheBasics
+    :subchapter: pretest
+    :topics: TheBasics/pretest
+    :from_source: T
+    :answer_a: True
+    :answer_b: False
+    :correct: b
+
+    JavaScript is the same as Java.

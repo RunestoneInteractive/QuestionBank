@@ -1,0 +1,26 @@
+.. mchoice:: q1_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: CSS
+   :subchapter: cssquiz
+   :topics: CSS/cssquiz
+   :from_source: T
+   :multiple_answers: 
+   :answer_a: height
+   :answer_b: padding
+   :answer_c: border
+   :answer_d: margin
+   :answer_e: background-color
+   :correct: b,c,d
+   :feedback_a: No height is an attribute of the content
+   :feedback_b: Yes
+   :feedback_c: Yes
+   :feedback_d: Yes
+   :feedback_e: No, background-color is not part of the box model
+   :pct_on_first: 0.4048582996
+   :total_students_attempting: 247
+   :num_students_correct: 124
+   :mean_clicks_to_correct: 1.314516129
+
+   Which of the following are properties of the CSS Box Model

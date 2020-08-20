@@ -1,0 +1,24 @@
+.. activecode:: foverload_py
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cpp4python
+    :chapter: Functions
+    :subchapter: DefiningFunctions
+    :topics: Functions/DefiningFunctions
+    :from_source: T
+    :caption: Function Overloading in Python
+
+    """Demonstrates the use of multiple parameters using a single function"""
+    def myfunct(n, m=None):
+        if m is None:
+            print("1 parameter: " + str(n))
+        else:
+            print("2 parameters: " + str(n), end="")
+            print(" and ", str(m))
+
+    def main():
+        myfunct(4);
+        myfunct(5, 6);
+        myfunct(100);
+
+    main()

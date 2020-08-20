@@ -1,0 +1,18 @@
+.. mchoice:: 6.2.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 02_scaling
+  :topics: 06_transformations/02_scaling
+  :from_source: T
+  :random:
+  :answer_a: When the model is not centered at the origin.
+  :answer_b: When the model is composed of only triangles.
+  :answer_c: When the model is centered at the origin.
+  :correct: a
+  :feedback_a: Correct. An object away from the origin will move further away from the origin when enlarged and closer to the origin when shrunk.
+  :feedback_b: Incorrect. All models are composed of only triangles. This has no impact on scaling.
+  :feedback_c: Incorrect. If the model is centered at the origin, then all vertices move the same percentage away or towards the origin, which keeps the object in the same relative location.
+
+  Scaling changes the location of a model under what circumstances?

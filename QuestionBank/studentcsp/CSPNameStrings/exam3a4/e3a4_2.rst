@@ -1,0 +1,24 @@
+.. mchoice:: e3a4_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameStrings
+   :subchapter: exam3a4
+   :topics: CSPNameStrings/exam3a4
+   :from_source: T
+   :practice: T
+   :answer_a: Tests to see if the values on each side of the expression are equal
+   :answer_b: Assigns the name on the left to the value on the right
+   :answer_c: Copies the value from the right to the left
+   :answer_d: Creates two new objects, one named cat and one named meow
+   :correct: b
+   :feedback_a: This would be true if it was cat == "meow"
+   :feedback_b: A name on the left and a value on the right creates a variable with that name and that value.
+   :feedback_c: This would be true if it was a variable name on the right instead of a string.
+   :feedback_d: This creates a variable and sets its value.  It doesn't create an object.
+
+   In the following code, what does the "=" do?
+
+   ::
+
+      cat = "meow"

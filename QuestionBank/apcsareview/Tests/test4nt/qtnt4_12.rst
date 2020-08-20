@@ -1,0 +1,35 @@
+.. mchoice:: qtnt4_12
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Tests
+   :subchapter: test4nt
+   :topics: Tests/test4nt
+   :from_source: T
+   :answer_a: arr[col][i] += sum;
+   :answer_b: arr[i][col] += sum;
+   :answer_c: sum += arr[i][col];
+   :answer_d: sum += arr[col][i];
+   :answer_e: sum += arr[col][col];
+   :correct: c
+   :feedback_a: This assigns the value of sum to a space in the array. Remember that assignment occurs from right to left.
+   :feedback_b: This assigns the value of sum to a space in the array. Remember that assignment occurs from right to left.
+   :feedback_c: Correct! This adds the value in [i][col] to sum, and i loops through every row in the array.
+   :feedback_d: This method sums the values at a specified row, not a specified column. Check the array indexing.
+   :feedback_e: Because col does not change, this method simply sums the value at arr[col][col] i times.
+
+   The method ``columnSum`` is shown below. ``columnSum`` returns the sum of all of the values in a specified column ``col`` of a 2-D array. Which of the following should replace ``/* to be completed */`` so that the method will work as intended?
+
+   .. code-block:: java
+
+      public int columnSum (int col, int[][] arr)
+      {
+          int sum = 0;
+
+          for (int i = 0; i < arr.length; i++)
+          {
+              /* to be completed */
+          }
+
+          return sum;
+      }

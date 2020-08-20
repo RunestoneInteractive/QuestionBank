@@ -1,0 +1,36 @@
+.. activecode:: taller_03_ejer_01
+   :author: Luis Cobo
+   :difficulty: 5.0
+   :basecourse: apcsareview
+   :chapter: Appendix
+   :subchapter: Exercises
+   :topics: Appendix/Exercises
+   :from_source: F
+   :nocanvas:  -- do not create a canvas
+   :autograde: unittest
+   :caption: Ejercicio de clases en Java
+   :nocodelens: -- Do not show the codelens button
+   :language: java
+
+   Un trapecio es una figura geométrica que consta de una base mayor, una base menor y altura, tal como se ve
+   en la figura a continuación:
+
+   .. image:: https://www.curriculumnacional.cl/614/articles-24264_recurso_jpg.jpg
+      :alt: Imagen de un trapecio
+
+    Ahora, escriba una clase en Java para modelar un trapecio. No olvide indicar los atributos, los métodos
+    analizadores y finalmente, añada un método para encontrar el área del trapecio.
+    ~~~~
+    class Trapecio {
+        // Atributos
+
+        // Constructor
+
+        // Métodos analizadores
+
+        // Obtener el área del trapecio
+        public double darArea() {
+        }
+    }
+    ====
+    print("Hidden code, such as unit tests come after the four = signs")

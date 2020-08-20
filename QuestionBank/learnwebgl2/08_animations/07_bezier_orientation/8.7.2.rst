@@ -1,0 +1,20 @@
+.. mchoice:: 8.7.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 07_bezier_orientation
+  :topics: 08_animations/07_bezier_orientation
+  :from_source: T
+  :random:
+  :answer_a: n x u (cross product of n and u)
+  :answer_b: u x n (cross product of u and n)
+  :answer_c: v x n (cross product of v and n)
+  :answer_d: u x v (cross product of u and v)
+  :correct: a
+  :feedback_a: Correct. Using the "right-hand-rule," align your thumb with n, your index finder with u, and your middle finder will point in the direction of v.
+  :feedback_b: Incorrect. This calculates -v because the order of the cross-product is wrong.
+  :feedback_c: Incorrect. You can't use v to calculate v.
+  :feedback_d: Incorrect. You can't use v to calculate v.
+
+  If :code:`u` and :code:`n` are known, how can :code:`v` be calculated.

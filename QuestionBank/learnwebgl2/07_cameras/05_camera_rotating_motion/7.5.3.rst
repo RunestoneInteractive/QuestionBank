@@ -1,0 +1,22 @@
+.. mchoice:: 7.5.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 05_camera_rotating_motion
+  :topics: 07_cameras/05_camera_rotating_motion
+  :from_source: T
+  :random:
+  :answer_a: sine and cosine are only defined in a plane, but a tilt is relative to a camera's current orientation.
+  :answer_b: well, actually you could use normal trig calculations.
+  :answer_c: sine and cosine only work in the x-y plane.
+  :answer_d: matrix transforms minimize the calculations required.
+  :correct: a
+  :feedback_a: Correct. The tilt rotation is about an arbitrary axis, not the x, y or z axis.
+  :feedback_b: Incorrect. Actually, you can't!
+  :feedback_c: Incorrect. Sine and cosine only work in a plane, but are not restricted to the x-y plane.
+  :feedback_d: Incorrect. Matrix multiplies are computationally expensive.
+
+  A **tilt** camera movement is a rotation. Why can't we use simple trig functions
+  like *sine* and *cosine* to calculate the required modifications to the camera definition?
+  Why do we have to use matrix transforms?

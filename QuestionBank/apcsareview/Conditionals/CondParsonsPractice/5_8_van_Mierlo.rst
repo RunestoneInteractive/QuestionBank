@@ -1,0 +1,40 @@
+.. parsonsprob:: 5_8_van_Mierlo
+   :author: Matthijs van Mierlo
+   :difficulty: 0.0
+   :basecourse: apcsareview
+   :chapter: Conditionals
+   :subchapter: CondParsonsPractice
+   :topics: Conditionals/CondParsonsPractice
+   :from_source: F
+   :numbered: left
+   :adaptive:
+   :noindent:
+
+   The main method in the following class should print if you can text now.  You can text if you are not driving and not eating. But, the blocks have been mixed up and includes <b>an extra block</b> that isn't needed in the solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public class Test1
+   {
+   =====
+       public static void main(String[] args)
+       {
+   =====
+           boolean driving = true;
+           boolean eating = false;
+   =====
+           if (!driving && !eating)
+           {
+   =====
+           if (!driving || !eating) 
+           { #paired
+   =====
+               System.out.println("Can text now");
+           }
+   =====
+           else
+           {
+   =====
+               System.out.println("Can't text now");
+           }
+   =====
+       }
+   }

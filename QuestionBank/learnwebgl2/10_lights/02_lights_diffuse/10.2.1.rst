@@ -1,0 +1,27 @@
+.. mchoice:: 10.2.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 02_lights_diffuse
+  :topics: 10_lights/02_lights_diffuse
+  :from_source: T
+  :random:
+
+  When diffuse light reflects from a surface it strikes, it reflects in ...
+
+  - all directions.
+
+    + Correct.
+
+  - an equal and opposite angle from the angle it hits the surface.
+
+    - Incorrect. This is called specular reflection.
+
+  - a direction towards the camera in the scene.
+
+    - Incorrect. How does a surface even know where the camera is?
+
+  - two directions, based on the angle of reflection.
+
+    - Incorrect. That silly! What two directions?

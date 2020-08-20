@@ -1,0 +1,29 @@
+.. mchoice:: 12.7.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 07_rendering_points
+  :topics: 12_advanced_rendering/07_rendering_points
+  :from_source: T
+  :random:
+
+  What happens to the rendering of a point if the 3D location of the point is
+  not inside the projection's clipping volume?
+
+  - None of the point's square is rendered.
+
+    + Correct. A point's square is rendered or not rendered based on whether a single
+      3D location is inside the projection's clipping volume.
+
+  - The portion of the point's square that is visible from the camera is rendered.
+
+    - Incorrect.
+
+  - The location of the point is modified in 3D space to guarantee its entire rendering.
+
+    - Incorrect. The graphics pipeline never modifies geometric primitive data.
+
+  - The alpha component of the point's color is modified to make the point fade out.
+
+    - Incorrect. The graphics pipeline never modifies geometric primitive data.

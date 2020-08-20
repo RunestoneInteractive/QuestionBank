@@ -1,0 +1,21 @@
+.. mchoice:: trd_question1_8
+   :author: Isaac Sung
+   :difficulty: 0.0
+   :basecourse: pythonds
+   :chapter: Introduction
+   :subchapter: Exercises
+   :topics: Introduction/Exercises
+   :from_source: F
+   :multiple_answers: 
+   :answer_a: True
+   :answer_b: False
+   :correct: a
+   :feedback_a: Yes.
+   :feedback_b: No.
+   :feedback_d: No.
+   :pct_on_first: 0.6666666667
+   :total_students_attempting: 6
+   :num_students_correct: 5.0
+   :mean_clicks_to_correct: 1.2
+
+   Encapsulation provides the user with an interface with which to interact with the data, while hiding the implementation.

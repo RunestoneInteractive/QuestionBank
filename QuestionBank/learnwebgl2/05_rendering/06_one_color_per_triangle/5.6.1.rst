@@ -1,0 +1,20 @@
+.. mchoice:: 5.6.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 06_one_color_per_triangle
+  :topics: 05_rendering/06_one_color_per_triangle
+  :from_source: T
+  :random:
+  :answer_a: the rendering is very slow.
+  :answer_b: it doesn't work.
+  :answer_c: the rendering is too fast for real-time graphics.
+  :answer_d: shader programs must always be executed on multiple triangles at one time.
+  :correct: a
+  :feedback_a: Correct. You lose most the GPU's builtin efficiencies.
+  :feedback_b: Incorrect. See the first WebGL program in this lesson for an example that works.
+  :feedback_c: Incorrect. It is not possible to render models too fast!
+  :feedback_d: Incorrect. A shader program can execute on a single vertex if your set the gl.drawArrays' count parameter to 1.
+
+  Rendering a model by calling :code:`gl.drawArrays()` for each individual triangle is a bad idea because...

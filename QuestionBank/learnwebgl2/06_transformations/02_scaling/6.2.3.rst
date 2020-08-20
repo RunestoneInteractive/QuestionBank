@@ -1,0 +1,19 @@
+.. mchoice:: 6.2.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 02_scaling
+  :topics: 06_transformations/02_scaling
+  :from_source: T
+  :random:
+  :answer_a: 1.0
+  :answer_b: 0.0
+  :answer_c: the same scale factor as the x axis
+  :correct: a
+  :feedback_a: Correct. This leave the z components of all vertices unchanged because multiplying by 1.0 does not change them.
+  :feedback_b: Incorrect. This makes all vertex z components be 0.0, which collapses your entire 3D model to a single plane.
+  :feedback_c: Incorrect.
+
+  If you want to scale the x and y dimensions of a model, but leave the z dimension unchanged,
+  what scale factor should you use for the z scale factor?

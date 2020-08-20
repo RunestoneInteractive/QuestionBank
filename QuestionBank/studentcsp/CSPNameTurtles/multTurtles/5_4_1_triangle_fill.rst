@@ -1,0 +1,13 @@
+.. fillintheblank:: 5_4_1_triangle_fill
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPNameTurtles
+   :subchapter: multTurtles
+   :topics: CSPNameTurtles/multTurtles
+   :from_source: T
+
+   What shape will the program below draw when you click on the Run button?
+
+   -    :^triangle$|^Triangle$|^TRIANGLE$: Correct!
+        :.*: Try to follow the directions as if you are the turtle

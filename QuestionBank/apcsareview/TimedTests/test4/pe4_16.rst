@@ -1,0 +1,32 @@
+.. mchoice:: pe4_16
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: TimedTests
+   :subchapter: test4
+   :topics: TimedTests/test4
+   :from_source: T
+   :answer_a: Awk Awk Awk Awk Awk
+   :answer_b: This won’t compile
+   :answer_c: Meow Moo Woof Oink Tweet
+   :answer_d: Meow Moo Woof Oink Awk
+   :answer_e: Meow Moo Woof Awk Awk
+   :correct: e
+   :feedback_a: This would be true if none of the children classes overrode the speak method, but many do.
+   :feedback_b: It is always okay to substitute a child object for a parent object.
+   :feedback_c: This would be true if Pig had a speak method that returned "Oink" and Bird had a speak method that returned "Tweet", but they do not.  The inherited speak method will be called in Animal.
+   :feedback_d: This would be true if Pig had a speak method that returned "Oink", but it does not.
+   :feedback_e: Both Pig and Bird do not have a speak method so the one in Animal will be used.
+
+   Given the following array declaration and the fact that Animal is the parent class for Bird, Dog, Pig, Cat, and Cow, what is output from looping through this array of animals and asking each object to speak()?
+
+   .. code-block:: java
+
+      Animal[] a = { new Cat(), new Cow(), new Dog(), new Pig(), new Bird() }
+
+      Animal that has a method speak() which returns "Awk".
+      Bird doesn’t have a speak method
+      Dog has a speak method that returns “Woof”
+      Pig doesn’t have a speak method
+      Cow has a speak method that returns “Moo”
+      Cat has a speak method that returns "Meow"

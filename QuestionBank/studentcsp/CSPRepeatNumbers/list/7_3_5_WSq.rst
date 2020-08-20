@@ -1,0 +1,9 @@
+.. activecode::  7_3_5_WSq
+     :author: bmiller
+     :difficulty: 3.0
+     :basecourse: studentcsp
+     :chapter: CSPRepeatNumbers
+     :subchapter: list
+     :topics: CSPRepeatNumbers/list
+     :from_source: T
+     :nocodelens:

@@ -1,0 +1,27 @@
+.. activecode:: js_closure_button
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :chapter: Advanced
+    :subchapter: closures
+    :topics: Advanced/closures
+    :from_source: T
+    :language: html
+
+    <div id="buttondiv"></div>
+    <script type='text/javascript'>
+    "use strict";
+    function buttonMaker(parent) {
+        let counter = 0
+        let bp = document.getElementById(parent)
+        let b = document.createElement('button')
+        b.innerHTML = counter
+        b.onclick = function() {
+            counter = counter + 1;
+            b.innerHTML = counter;
+        }
+        bp.appendChild(b)
+    }
+
+    buttonMaker("buttondiv")
+    </script>

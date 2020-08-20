@@ -1,0 +1,19 @@
+.. mchoice:: HASH_1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :chapter: SortSearch
+   :subchapter: TransformacionDeClaves
+   :topics: SortSearch/TransformacionDeClaves
+   :from_source: None
+   :correct: c
+   :answer_a: 1, 10
+   :answer_b: 13, 0
+   :answer_c: 1, 0
+   :answer_d: 2, 3
+   :feedback_a:  Tenga cuidado en usar el residuo, no la división entera
+   :feedback_b:  No divida entre dos, use el operador módulo.
+   :feedback_c: 27 % 13 == 1 y 130 % 13 == 0
+   :feedback_d: Use el operador módulo
+
+   En una tabla hash de tamaño 13, ¿qué índices de posición corresponden a las siguientes dos claves?: 27,  130

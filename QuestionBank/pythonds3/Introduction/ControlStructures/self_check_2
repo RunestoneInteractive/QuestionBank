@@ -1,8 +1,0 @@
-.. activecode:: self_check_2
-   :author: bmiller
-   :difficulty: 3
-   :basecourse: pythonds3
-   :topic: Introduction/ControlStructures
-   :from_source: T
-
-   # the answer is: ['c', 'a', 't', 'd', 'o', 'g', 'r', 'a', 'b', 'b', 'i', 't']

@@ -1,0 +1,21 @@
+.. mchoice:: pe3_15
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: TimedTests
+   :subchapter: test3
+   :topics: TimedTests/test3
+   :from_source: T
+   :answer_a: public class Room extends Classroom implements Building { … }
+   :answer_b: public class Classroom extends Room { … } public class Building { private Room[] rooms; …. }
+   :answer_c: public class Room extends Building { private Classroom room; …. }
+   :answer_d: public class Classroom extends Building, Room { … }
+   :answer_e: public class Room extends Classroom, Building { … }
+   :correct: b
+   :feedback_a: Is a Classroom a type of Building?  Don't use extends unless an object of the child class can be substituted for a object of the parent class.
+   :feedback_b: If a classroom is a room, then Classroom should extend Room (inherit from it).  If a Building has rooms it should have a field that holds them.  Since a Building can have more than one Room we can use an array to hold the rooms.
+   :feedback_c: Is a Room a type of Building?  Don't use extends unless the child is the same type of thing as the parent.
+   :feedback_d: You can't extend two classes in Java so this can't be right.
+   :feedback_e: You can't extend two classes in Java so this can't be right.
+
+   A classroom is a room and a building has many rooms. If the three classes Room, Classroom, and Building create objects that have the same relationship which of the following is the most appropriate set of declarations?

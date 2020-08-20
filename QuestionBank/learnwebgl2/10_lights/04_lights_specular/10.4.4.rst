@@ -1,0 +1,28 @@
+.. mchoice:: 10.4.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 10_lights
+  :subchapter: 04_lights_specular
+  :topics: 10_lights/04_lights_specular
+  :from_source: T
+  :random:
+
+  A reflection vector can be calculated using this equation: :code:`R = 2*n*dot_product(n,-L) + L`.
+  What does :code:`n` represent?
+
+  - The normal vector to the surface (normalized to unit length).
+
+    + Correct.
+
+  - The surface's normal vector.
+
+    - Incorrect. It has the direction of the normal vector, but it must be normalized.
+
+  - A "new" vector in the direction of the camera.
+
+    - Incorrect.
+
+  - A vector from the the light source to the fragment.
+
+    - Incorrect. This is :code:`L` in the equation.

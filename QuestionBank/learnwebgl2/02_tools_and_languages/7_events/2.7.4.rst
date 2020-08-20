@@ -1,0 +1,20 @@
+.. mchoice:: 2.7.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 02_tools_and_languages
+  :subchapter: 7_events
+  :topics: 02_tools_and_languages/7_events
+  :from_source: T
+  :random:
+  :answer_a: It prevents other elements that are also under the mouse cursor from processing the event.
+  :answer_b: It causes the event to perform some pre-specified actions.
+  :answer_c: It causes the event to not perform some pre-specified actions.
+  :answer_d: It makes the event happen on all other elements under the mouse's cursor.
+  :correct: a
+  :feedback_a: Correct. This prevents the event from being processed by other elements in the event hierarchy.
+  :feedback_b: Incorrect. Events do not have "pre-specified actions".
+  :feedback_c: Incorrect. Events do not have "pre-specified actions".
+  :feedback_d: Incorrect. This is the exact opposite of what preventDefault() does.
+
+  What does the command :code:`event.preventDefault();` do if called inside an event handler?

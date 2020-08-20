@@ -1,0 +1,14 @@
+.. dragndrop:: 5.1.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 01_introduction_to_rendering
+  :topics: 05_rendering/01_introduction_to_rendering
+  :from_source: T
+  :feedback: Please try again!
+  :match_1: uniform ||| A value that is the same for an entire execution of the graphics pipeline.
+  :match_2: attribute ||| A value that changes for every vertex as the graphics pipeline is processing vertices.
+  :match_3: varying ||| A value that changes for every fragment as the graphics pipeline is processing fragments.
+
+  Match each type of shader program variable with its correct definition.

@@ -1,0 +1,19 @@
+.. mchoice:: 6.11.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 11_more_matrix_math_concepts
+  :topics: 06_transformations/11_more_matrix_math_concepts
+  :from_source: T
+  :random:
+  :answer_a: Always.
+  :answer_b: Sometimes.
+  :answer_c: No.
+  :correct: a
+  :feedback_a: Correct. Matrix multiplication is associative.
+  :feedback_b: Incorrect. It is always true.
+  :feedback_c: Incorrect.
+
+  When performing matrix multiplication, is :raw-html:`<br>`
+  :inline_matrixeq:`([M1]*[M2])*[M3] == [M1]*([M2]*[M3])` ?

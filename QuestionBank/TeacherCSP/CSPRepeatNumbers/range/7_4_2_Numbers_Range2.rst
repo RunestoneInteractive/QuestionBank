@@ -1,0 +1,19 @@
+.. mchoice:: 7_4_2_Numbers_Range2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPRepeatNumbers
+   :subchapter: range
+   :topics: CSPRepeatNumbers/range
+   :from_source: T
+   :answer_a: range(10)
+   :answer_b: range(1,10)
+   :answer_c: range(11)
+   :answer_d: range(1,11)
+   :correct: d
+   :feedback_a: That includes zero and doesn't include 10: [0,1,2,3,4,5,6,7,8,9]
+   :feedback_b: That doesn't include 10: [1,2,3,4,5,6,7,8,9]
+   :feedback_c: That includes zero: [0,1,2,3,4,5,6,7,8,9,10]
+   :feedback_d: That returns [1,2,3,4,5,6,7,8,9,10]
+
+   Which of the following lines actually gives us a list of all numbers from 1 to 10?

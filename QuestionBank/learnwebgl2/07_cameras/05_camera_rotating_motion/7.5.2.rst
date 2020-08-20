@@ -1,0 +1,18 @@
+.. mchoice:: 7.5.2
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 05_camera_rotating_motion
+  :topics: 07_cameras/05_camera_rotating_motion
+  :from_source: T
+  :random:
+  :answer_a: u axis
+  :answer_b: v axis
+  :answer_c: n axis
+  :correct: a
+  :feedback_a: Correct. You are rotating "up" or "down" from the camera's current orientation.
+  :feedback_b: Incorrect. Rotating about the v axis would be a pan motion.
+  :feedback_c: Incorrect. Rotating along the n axis would be a cant motion.
+
+  To perform a **tilt** camera movement, which camera axis must you rotate about?

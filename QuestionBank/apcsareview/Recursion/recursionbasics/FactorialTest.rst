@@ -1,0 +1,28 @@
+.. activecode:: FactorialTest
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Recursion
+   :subchapter: recursionbasics
+   :topics: Recursion/recursionbasics
+   :from_source: T
+   :language: java
+
+   public class FactorialTest
+   {
+
+       public static int factorial(int n)
+       {
+           if (n == 0)
+               return 1;
+           else
+               return n * factorial(n-1);
+       }
+
+       public static void main(String[] args)
+       {
+           System.out.println("factorial of 3 is: " + factorial(3));
+           System.out.println("factorial of 4 is: " +factorial(4));
+           System.out.println("factorial of 5 is: " +factorial(5));
+       }
+   }

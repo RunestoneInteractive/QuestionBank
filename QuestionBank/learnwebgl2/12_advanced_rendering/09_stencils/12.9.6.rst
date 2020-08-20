@@ -1,0 +1,31 @@
+.. mchoice:: 12.9.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 09_stencils
+  :topics: 12_advanced_rendering/09_stencils
+  :from_source: T
+  :random:
+
+  A rendering pass is desired that increments a *stencil buffer* element
+  if the "depth test" fails on a fragment.
+  Which of the following parameters to :code:`gl.stencilOp` would accomplish this?
+
+  - :code:`gl.stencilOp( gl.KEEP, gl.INCR, gl.KEEP )`
+
+    + Correct.
+
+  - :code:`gl.stencilOp( gl.KEEP, gl.KEEP, gl.INCR )`
+
+    - Incorrect. The parameters are in the wrong position.
+
+  - :code:`gl.stencilOp( gl.ZERO, gl.INCR, gl.ZERO )`
+
+    - Incorrect. This also changes a *stencil buffer* element to zero when the "stencil test"
+      fails or the "depth test" passes -- actions that are not desired.
+
+  - :code:`gl.stencilOp( gl.KEEP, gl.REPLACE, gl.KEEP )`
+
+    - Incorrect. This replaces the value of a *stencil buffer* element, it doesn't
+      increment it.

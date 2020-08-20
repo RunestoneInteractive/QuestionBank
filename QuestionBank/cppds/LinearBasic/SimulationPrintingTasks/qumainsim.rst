@@ -1,0 +1,135 @@
+.. activecode:: qumainsim
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: LinearBasic
+    :subchapter: SimulationPrintingTasks
+    :topics: LinearBasic/SimulationPrintingTasks
+    :from_source: T
+    :caption: Printer Queue Simulation
+    :language: cpp
+
+    //Program that simulates printing task management.
+
+    #include <iostream>
+    #include <queue>
+    #include <vector>
+    #include <cstdlib>
+    using namespace std;
+
+    class Task {
+    public:
+        Task(int time) {
+            timestamp = time;
+            pages=(rand()%20) + 1;
+        }
+
+        int getStamp() {
+            return timestamp;
+        }
+
+        int getPages() {
+            return pages;
+        }
+
+        int waitTime(int currenttime) {
+            return (currenttime - timestamp);
+        }
+    private:
+        int timestamp;
+        int pages;
+    };
+
+    class Printer {
+    public:
+        Printer(int pagesPerMinute) {
+            pagerate = pagesPerMinute;
+            timeRemaining=0;
+            working = false;
+        }
+
+        void tick() {
+            //Performed once per second in the simulation.
+
+            if (working) { // If we're working on something...
+                timeRemaining--;// Subtract the remaining time.
+                if (timeRemaining <= 0)
+                    working = false; // When finished, stop working.
+            }
+        }
+
+        bool busy() {
+            return working;
+        }
+
+        void startNext(Task newtask) {
+            currentTask=newtask;
+            timeRemaining=newtask.getPages()*60/pagerate;
+            working = true;
+        }
+
+    private:
+        int pagerate; // unit is pages per minute.
+        Task currentTask = {0};// Current task. default is a dummy value.
+        bool working; // Are we working on the current task?
+        int timeRemaining; // Time remaining, in "seconds".
+    };
+
+    bool newPrintTask() {
+        //uses random to decide if there is a new print task.
+        //generates a random number from 1...180, and returns
+        //a boolean indicating whether or not it equals 180.
+        return (rand() % 180 + 1) == 180;
+    }
+
+    void simulation(int numSeconds, int pagesPerMinute) {
+        Printer labprinter(pagesPerMinute);
+
+        //The Queue ADT from the standard container library.
+        queue<Task> printQueue;
+
+        //A vector of wait-times for each task.
+        vector<int> waitingTimes;
+
+        //For every second in the simulation...
+        for (int i = 0; i < numSeconds; i++) {
+
+            //If there's a new printing task, add it to the queue.
+            if (newPrintTask()) {
+                Task task(i);//Create it...
+                printQueue.push(task);//Push it.
+            }
+
+            //If the printer is not busy and the queue is not empty:
+            if (!labprinter.busy() &&!printQueue.empty()) {
+                Task nextTask = printQueue.front(); // Assign a new task from the queue.
+                printQueue.pop(); // Remove it from the front
+
+                //Add the estimated wait time to our vector.
+                waitingTimes.push_back(nextTask.waitTime(i));
+                labprinter.startNext(nextTask);
+            }
+
+            //Process the current task.
+            labprinter.tick();
+        }
+
+        //Average out every wait time for the simulation.
+        float total=0;
+        for (int waitTime : waitingTimes)
+            total += waitTime;
+
+        cout << "Average Wait "<<total/waitingTimes.size()<<" secs "<<printQueue.size()<<" tasks remaining."<<endl;
+    }
+
+    int main() {
+        //Seed random number generator with the current time
+        //This ensures a unique random simulation every time it's ran.
+        srand(time(NULL));
+
+        for (int i=0; i<10; i++) {
+            simulation(3600, 5);
+        }
+
+        return 0;
+    }

@@ -1,0 +1,19 @@
+.. dragndrop:: scatter-correlation-ex-1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: scatter_plots_and_correlation
+   :subchapter: correlation
+   :topics: scatter_plots_and_correlation/correlation
+   :from_source: T
+   :feedback: Try again. Top left has a negative and strong correlation. Top
+              right has a positive and strong correlation. Bottom left has
+              no real relationship, and bottom right has a positive
+              and strong correlation.
+   :match_1: 0.79|||Bottom left
+   :match_2: 0.02|||Answer B
+   :match_3: -0.83|||Top left
+   :match_4: 0.92|||Top right
+
+   Using the above figure as a guide, match the correlation to
+   each of the scatterplots from previous questions.

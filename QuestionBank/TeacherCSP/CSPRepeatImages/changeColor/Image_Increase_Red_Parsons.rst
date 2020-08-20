@@ -1,0 +1,35 @@
+.. parsonsprob:: Image_Increase_Red_Parsons
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPRepeatImages
+   :subchapter: changeColor
+   :topics: CSPRepeatImages/changeColor
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   The program below should increase the red by 25%.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   from Image import * #paired
+   =====
+   img = Image("beach.jpg")
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+   pixels = img.getPixels
+   for p in pixels: #paired
+   =====
+       r = p.getRed()
+   =====
+       p.setRed(r * 1.25)
+   =====
+       p.setRed(r * 0.25) #paired
+   =====
+       img.updatePixel(p)
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)

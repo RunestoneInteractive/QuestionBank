@@ -1,0 +1,30 @@
+.. mchoice:: qtnt1_18
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Tests
+   :subchapter: test1nt
+   :topics: Tests/test1nt
+   :from_source: T
+   :answer_a: s="rainbow"; b=8;
+   :answer_b: s="rain";  b=8;
+   :answer_c: s="rainbow"; b=4;
+   :answer_d: s="rain"; b=4;
+   :answer_e: s="bow";  b=4;
+   :correct: d
+   :feedback_a: Strings are immutable so changing str doesn't affect the string that s refers to.  The value of b also will not change since Java passes a copy of the value.
+   :feedback_b: Java copies the value of primitive types when they are passed to methods so nothing done in the method test affects the value of b.
+   :feedback_c: Strings are immutable so changing str doesn't affect the string that s refers to.
+   :feedback_d: Since strings are immutable any change returns a new string and doesn't affect what s refers to.  Also the value of primitive types are copied and nothing done in test affects the orignal primitive value.
+   :feedback_e: The string that s refers to is not changed by the test method.  All changes to string result in a new string object.
+
+
+   Consider the following method.  Assume that ``String s = "rain";`` and ``int b = 4;`` have been executed.  What are the values of ``s`` and ``b`` after ``test(s,b)`` is executed?
+
+   .. code-block:: java
+
+      public static void test(String str, int y)
+      {
+         str = str + "bow";
+         y = y * 2;
+      }

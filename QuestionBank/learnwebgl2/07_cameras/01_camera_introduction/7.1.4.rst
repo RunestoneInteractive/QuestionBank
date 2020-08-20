@@ -1,0 +1,20 @@
+.. mchoice:: 7.1.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 01_camera_introduction
+  :topics: 07_cameras/01_camera_introduction
+  :from_source: T
+  :random:
+  :answer_a: The eye and center point are at the same location.
+  :answer_b: The up vector is parallel to the line-of-sight vector.
+  :answer_c: The eye is at the origin.
+  :answer_d: The up vector is parallel with the Z axis.
+  :correct: a,b
+  :feedback_a: Correct. If the eye and center point are the same, the line-of-sight vector they are meant to define can't be calculated.
+  :feedback_b: Correct. If the up vector and the line-of-sight vector have the same direction, their cross-product will calculate an invalid vector.
+  :feedback_c: Incorrect. The eye location can be anywhere, as long as the eye and center locations define a valid line-of-sight vector.
+  :feedback_d: Incorrect. The up vector can be in any direction, as long as it is not the same as the line-of-sight.
+
+  Which of the following will define an invalid camera? (Select all that apply.)

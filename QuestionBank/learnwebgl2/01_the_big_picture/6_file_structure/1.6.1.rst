@@ -1,0 +1,20 @@
+.. mchoice:: 1.6.1
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 6_file_structure
+    :topics: 01_the_big_picture/6_file_structure
+    :from_source: T
+    :random:
+    :answer_a: ./example/path
+    :answer_b: ../another/example
+    :answer_c: path/to/file
+    :answer_d: way/to/get/to/file
+    :correct: a,b
+    :feedback_a: Correct, it is starting from the current working folder
+    :feedback_b: Correct, it first goes to the parent folder of the current working folder
+    :feedback_c: No, this is an absolute path that starts at the web sites root folder on the server.
+    :feedback_d: No, this is an absolute path that starts at the web sites root folder on the server.
+
+    Which of the following file paths are relative? (Select all that apply.)

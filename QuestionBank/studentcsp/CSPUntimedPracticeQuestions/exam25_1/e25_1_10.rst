@@ -1,0 +1,19 @@
+.. mchoice:: e25_1_10
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: studentcsp
+  :chapter: CSPUntimedPracticeQuestions
+  :subchapter: exam25_1
+  :topics: CSPUntimedPracticeQuestions/exam25_1
+  :from_source: T
+  :answer_a: They are the same.
+  :answer_b: The Internet cannot search using user-specified queries, the Web can.
+  :answer_c: The Internet uses the Web to connect devices to share data.
+  :answer_d: The Web uses HTTP to share computational artifacts using the Internet.
+  :correct: d
+  :feedback_a: Incorrect. The Web and the Internet are not the same. The Internet is a global computer network consisting of interconnected networks. The Web is an information system on the Internet that allows documents to be connected to one another.
+  :feedback_b: Incorrect. The Internet can search user-specified queries.
+  :feedback_c: Incorrect. The Web is a system on the Internet that connects documents to one another.
+  :feedback_d: Correct. This is true of the World Wide Web.
+
+  How do the World Wide Web and the Internet work together?

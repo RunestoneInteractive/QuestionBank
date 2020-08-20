@@ -1,0 +1,18 @@
+.. activecode::  ch17ex17a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPStringPieces
+    :subchapter: ch17_exercises
+    :topics: CSPStringPieces/ch17_exercises
+    :from_source: T
+    :nocodelens:
+
+    def tellAnimalStory(name, animal, animalName, description):
+
+        line1 = "Once upon a time there was a girl named, " + name + "."
+        line2 = "She had a " + description + " " + animal + " named " + animalName + "."
+        print(line1)
+        print(line2)
+
+    tellAnimalStory("Barb","horse","Sport","handsome")

@@ -1,0 +1,36 @@
+.. parsonsprob:: ch9ex6muc
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Array2dBasics
+   :subchapter: Array2dParsonsPractice
+   :topics: Array2dBasics/Array2dParsonsPractice
+   :from_source: T
+   :numbered: left
+   :adaptive:
+
+   The following program segment is a method that should accept a two-dimensional array of ints and a desired int and return the number of occurrences of the desired int in the two-dimensional array.  But, the blocks have been mixed up and include <b>two extra blocks</b> that are not needed in a correct solution.  Drag the needed blocks from the left and put them in the correct order on the right.  Click the <i>Check Me</i> button to check your solution.</p>
+   -----
+   public static int numOccurrences(int[][] nums,
+                                    int desired) {
+   =====
+       int occurrences = 0;
+   =====
+       int occurrences; #distractor
+   =====
+       for (int i = 0; i < nums.length; i++) {
+           for (int j = 0; j < nums[i].length; j++) {
+   =====
+               if (nums[i][j] == desired) {
+                   occurrences++;
+               }
+   =====
+               if (nums[i][j] != desired) { #distractor
+                   occurrences++;
+               }
+   =====
+           } //end inner for loop
+       } //end outer for loop
+   =====
+       return occurrences;
+   } //end method

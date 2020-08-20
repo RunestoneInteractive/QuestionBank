@@ -1,9 +1,0 @@
-.. activecode:: ex_2_11
-   :author: jenkins
-   :difficulty: 3
-   :basecourse: msumoorhead
-   :topic: SimplePythonData/Exercises
-   :from_source: None
-
-   Write a program that will convert degrees celsius to degrees fahrenheit.
-   ~~~~

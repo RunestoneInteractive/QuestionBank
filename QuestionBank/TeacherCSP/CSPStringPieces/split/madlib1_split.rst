@@ -1,0 +1,36 @@
+.. activecode:: madlib1_split
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPStringPieces
+   :subchapter: split
+   :topics: CSPStringPieces/split
+   :from_source: T
+   :tour_1: "Structural tour"; 2: StP1-line1; 5: StP1-line2; 8-12: StP2-line3-7; 15-19: StP2-line8-12; 22-26: StP2-line13-17;
+
+   # create the input
+   input = "Pat,Smith,girl,65 Elm Street,eat"
+
+   # split at the comma
+   pieces = input.split(",")
+
+   # initialize the variables
+   firstName = pieces[0]
+   lastName = pieces[1]
+   gender = pieces[2]
+   address = pieces[3]
+   verb = pieces[4]
+
+   # create the story
+   start = "Once there was a " + gender + " named " + firstName + "."
+   next1 = "A good " + gender + " living at " + address + "."
+   next2 = "One day, a wicked witch came to the " + lastName + " house."
+   next3 = "The wicked witch was planning to " + verb + " " + firstName + "!"
+   ending = "But " + firstName + " was smart and avoided the wicked witch."
+
+   # print the story
+   print(start)
+   print(next1)
+   print(next2)
+   print(next3)
+   print(ending)

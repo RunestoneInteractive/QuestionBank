@@ -1,0 +1,20 @@
+.. mchoice:: 6.2.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 02_scaling
+  :topics: 06_transformations/02_scaling
+  :from_source: T
+  :random:
+  :answer_a: multiplication
+  :answer_b: division
+  :answer_c: subtraction
+  :answer_d: addition
+  :correct: a
+  :feedback_a: Correct. Scaling is performed by multiplication.
+  :feedback_b: Incorrect. While it is possible to produce scaling using division, division is the most expensive calculation a CPU can perform and in computer graphics divisions are avoided whenever possible.
+  :feedback_c: Incorrect. Subtraction (really addition) is used for translation.
+  :feedback_d: Incorrect. Addition is used for translation.
+
+  Scaling a model requires a _____________ operation on each vertex in the model.

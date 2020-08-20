@@ -1,0 +1,25 @@
+.. activecode:: Copy_Reverse
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: studentcsp
+    :chapter: CSPRepeatStrings
+    :subchapter: reverse
+    :topics: CSPRepeatStrings/reverse
+    :from_source: T
+    :tour_1: "Lines of code"; 2-3: strR2-line2-3; 5: strR2-line5; 7: strR2-line7; 9: strR2-line9; 10: strR2-line10; 12: strR2-line12; 13: strR2-line13; 14: strR2-line14; 15: strR2-line15;
+
+    # STEP 1: INITIALIZE ACCUMULATORS
+    newStringA = ""
+    newStringB = ""
+    # STEP 2: GET DATA
+    phrase = "Happy Birthday!"
+    # STEP 3: LOOP THROUGH THE DATA
+    for letter in phrase:
+        # STEP 4: ACCUMULATE
+        newStringA = letter + newStringA
+        newStringB = newStringB + letter
+    # STEP 5: PROCESS RESULT
+    print("Here's the result of using letter + newStringA:")
+    print(newStringA)
+    print("Here's the result of using newStringB + letter:")
+    print(newStringB)

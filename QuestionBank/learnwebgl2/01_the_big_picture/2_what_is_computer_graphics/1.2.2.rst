@@ -1,0 +1,20 @@
+.. mchoice:: 1.2.2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 2_what_is_computer_graphics
+    :topics: 01_the_big_picture/2_what_is_computer_graphics
+    :from_source: T
+    :random:
+    :answer_a: A rectangular grid of pixels, where each pixel has a specific color.
+    :answer_b: A description of the types of objects in a scene (e.g., a boy walking a dog.)
+    :answer_c: A set of geometric primitives, such as points, lines, and/or triangles.
+    :answer_d: A group of colors.
+    :correct: c
+    :feedback_a: No. This is a *raster image*.
+    :feedback_b: No. The computer does not understand such high level descriptions.
+    :feedback_c: Yes. A *3D computer graphics* rendering creates a picture from the geometric primitives.
+    :feedback_d: No. Color information is important, but insufficient to create a rendering.
+
+    How do you define a scene for a *3D computer graphics* rendering?

@@ -1,0 +1,19 @@
+.. mchoice:: 10_2_1_Turtle_Dodecagon_Q1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPRepeatTurtles
+   :subchapter: turtleGeom
+   :topics: CSPRepeatTurtles/turtleGeom
+   :from_source: T
+   :answer_a: 15
+   :answer_b: 30
+   :answer_c: 12
+   :answer_d: 90
+   :correct: b
+   :feedback_a: This one will not close
+   :feedback_b: Exactly! 12 * 30 = 360
+   :feedback_c: No, 12 * 12 is 144, which is not a multiple of 360
+   :feedback_d: This one will generate a square, three times. 12 * 90 = 1080 = 360 * 3
+
+   How much does ``mia`` need turn in the program above to create a closed dodecagon (12-sided figure)?  Only one of these works.

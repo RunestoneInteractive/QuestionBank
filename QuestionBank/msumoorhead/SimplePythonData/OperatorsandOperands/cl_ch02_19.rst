@@ -1,0 +1,14 @@
+.. codelens:: cl_ch02_19
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: SimplePythonData
+    :subchapter: OperatorsandOperands
+    :topics: SimplePythonData/OperatorsandOperands
+    :from_source: None
+
+    total_secs = 7777
+    hours = total_secs // 3600
+    secs_still_remaining = total_secs % 3600
+    minutes =  secs_still_remaining // 60
+    secs_finally_remaining = secs_still_remaining  % 60

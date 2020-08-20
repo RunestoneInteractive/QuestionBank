@@ -1,0 +1,14 @@
+.. fillintheblank:: baseconvert1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: pythoned
+   :chapter: BasicDS
+   :subchapter: ConversionDeNumerosDecimalesANumerosBinarios
+   :topics: BasicDS/ConversionDeNumerosDecimalesANumerosBinarios
+   :from_source: None
+
+   .. blank:: bcblank1
+      :correct: \\b31\\b
+      :feedback1: (".*", "Incorrecto")
+
+      ¿Cuál es el valor de 25 expresado como un número octal?

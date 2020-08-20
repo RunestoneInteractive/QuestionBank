@@ -1,0 +1,21 @@
+.. mchoice:: 7.3.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 07_cameras
+  :subchapter: 03_camera_movement
+  :topics: 07_cameras/03_camera_movement
+  :from_source: T
+  :random:
+  :answer_a: dolly
+  :answer_b: truck
+  :answer_c: tilt
+  :answer_d: cant
+  :correct: a
+  :feedback_a: Correct. It would be a "dolly-in".
+  :feedback_b: Incorrect. This would have moved the camera to its right or left.
+  :feedback_c: Incorrect. This would have rotated the camera up or down.
+  :feedback_d: Incorrect. This would have twisted the orientation of the camera.
+
+  Suppose you have a camera that is facing a model in a scene and you want to move
+  the camera closer to the model. This would be a ______________ camera movement.

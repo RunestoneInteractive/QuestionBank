@@ -1,0 +1,21 @@
+.. mchoice:: e25_3_13
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_3
+   :topics: CSPUntimedPracticeQuestions/exam25_3
+   :from_source: T
+   :answer_a: What is the average time the sun is out each day?
+   :answer_b: Is there a correlation between precipitation in Detroit and Kalamazoo?
+   :answer_c: Is there a correlation between daily air temperature and sunrise time?
+   :answer_d: During which hour of the day does it rain most on average?
+   :correct: d
+   :feedback_a: Incorrect. Sunrise and sunset times are not recorded.
+   :feedback_b: Incorrect. Only data from Detroit is recorded.
+   :feedback_c: Incorrect. Time of sunrise is not measured by the data.
+   :feedback_d: Correct. Precipitation and time are recorded, so this could be measured.
+
+   A weatherman record atmospheric data to predict future weather conditions. Suppose that his lab in Detroit takes hourly measurements of air temperature and precipitation in the city for a total period of 12 months. The lab also records the exact time and date for each measurement.
+
+   Which of the following questions about the Detroit’s weather could be accurately answered using only the data collected by the lab?

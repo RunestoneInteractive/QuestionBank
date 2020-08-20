@@ -1,0 +1,17 @@
+.. dragndrop:: models
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 03_model_data
+  :subchapter: 09_modeling_summary
+  :topics: 03_model_data/09_modeling_summary
+  :from_source: T
+  :match_1: color|||RGBA
+  :match_2: location|||(x,y,z,w)
+  :match_3: direction|||&#60;dx,dy,dz&#62;
+  :match_4: volume|||triangular mesh
+  :match_5: lights|||location, color, type, direction, etc.
+  :match_6: surfaces|||texture maps, bump maps, etc.
+  :match_7: cameras|||location and 3 orthogonal axes
+
+  Match each of the following things on the left with the way they are modeled.

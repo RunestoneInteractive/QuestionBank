@@ -1,0 +1,20 @@
+.. mchoice:: 8.1.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 08_animations
+  :subchapter: 01_introduction
+  :topics: 08_animations/01_introduction
+  :from_source: T
+  :random:
+  :answer_a: Prevent the user from seeing partial changes to an animation frame.
+  :answer_b: Allow a rendered image to be post-processed.
+  :answer_c: Keep GPU rendering processes separate from JavaScript commands.
+  :answer_d: Prevent the corruption of a rendering from JavaScript commands.
+  :correct: a
+  :feedback_a: Correct. Only after an entire rendering has been completed does it become visible to a user.
+  :feedback_b: Incorrect.
+  :feedback_c: Incorrect.
+  :feedback_d: Incorrect.
+
+  Double buffering is implemented to do what?

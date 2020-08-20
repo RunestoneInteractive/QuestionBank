@@ -1,0 +1,24 @@
+.. activecode::  ch11ex20a
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: TeacherCSP
+    :chapter: CSPRepeatImages
+    :subchapter: ch11_exercises
+    :topics: CSPRepeatImages/ch11_exercises
+    :from_source: T
+    :nocodelens:
+
+            from image import *
+
+            img = Image("motorcycle.jpg")
+
+            last = min(img.getWidth(), img.getHeight())
+            for x in range(last):
+                for y in range(int(last/2)):
+
+                    p = img.getPixel(x, y)
+
+                        img.setPixel(x, img.getHeight() -1 - y, p)
+
+        win = ImageWin(img.getWidth(),img.getHeight())
+    img.draw(win)

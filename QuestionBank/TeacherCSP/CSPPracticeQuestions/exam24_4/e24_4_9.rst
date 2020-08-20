@@ -1,0 +1,19 @@
+.. mchoice:: e24_4_9
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: TeacherCSP
+   :chapter: CSPPracticeQuestions
+   :subchapter: exam24_4
+   :topics: CSPPracticeQuestions/exam24_4
+   :from_source: T
+   :answer_a: If the student shares only three chapters of the textbook with their classmates
+   :answer_b: If the student gets permission from the textbook’s copyright owner
+   :answer_c: If the textbook is only shared with people in the student’s class
+   :answer_d: If the textbook is only shared with one other classmate
+   :correct: b
+   :feedback_a: Incorrect. Reproducing even a part of copyrighted, single-user content constitutes plagiarism.
+   :feedback_b: Correct. Permission from appropriate sources needs to be obtained before single-user content can be shared.
+   :feedback_c: Incorrect. Sharing single-user material with anyone constitutes plagiarism.
+   :feedback_d: Incorrect. Sharing single-user material with even one other person constitutes plagiarism.
+
+   A student purchases a single-user license of an online textbook and wants to share the textbook with their classmates. Under what conditions is it acceptable for the student to share this textbook?

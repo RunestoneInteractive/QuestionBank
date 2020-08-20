@@ -1,0 +1,40 @@
+.. mchoice:: 9.1.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 09_projections
+  :subchapter: 01_projections_introduction
+  :topics: 09_projections/01_projections_introduction
+  :from_source: T
+  :random:
+
+  Which of the following matrix multiplications is the correct order for creating a
+  single transformation matrix that can be used for a vertex shader?
+
+  - .. matrixeq:: Eq2
+      :nolabel:
+
+      VertexTransform = [M1: ProjectionMatrix]*[M2: ViewMatrix]*[M3: ModelMatrix]
+
+    + Correct. The projection must be the last operation performed on the vertices.
+
+  - .. matrixeq:: Eq3
+      :nolabel:
+
+      VertexTransform = [M2: ViewMatrix]*[M1: ProjectionMatrix]*[M3: ModelMatrix]
+
+    - Incorrect. The camera must be applied to the scene before the projection.
+
+  - .. matrixeq:: Eq4
+      :nolabel:
+
+      VertexTransform = [M3: ModelMatrix]*[M2: ViewMatrix]*[M1: ProjectionMatrix]
+
+    - Incorrect. This makes the projection transformation the first operation when it must be the last.
+
+  - .. matrixeq:: Eq4
+      :nolabel:
+
+      VertexTransform = [M2: ViewMatrix]*[M3: ModelMatrix]*[M1: ProjectionMatrix]
+
+    - Incorrect. This makes the camera transformation the last operation, which is wrong.

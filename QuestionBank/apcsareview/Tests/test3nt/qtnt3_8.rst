@@ -1,0 +1,57 @@
+.. mchoice:: qtnt3_8
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: Tests
+   :subchapter: test3nt
+   :topics: Tests/test3nt
+   :from_source: T
+   :answer_a: I only
+   :answer_b: II only
+   :answer_c: III only
+   :answer_d: I and II only
+   :answer_e: I and III only
+   :correct: b
+   :feedback_a: name and age are private instance variables in the Person class. Children classes do not have direct access to private variables in the parent class.
+   :feedback_b: This answer correctly calls on the constructor in the Person class using super. Then, it correctly instantiates the instance variable grade, located in the Student class.
+   :feedback_c: name and age are private instance variables in the Person class. Children classes do not have direct access to private variables in the parent class. Although the Person constructor has correctly been implemented using the super keyword, name and age cannot be accessed by the Student class.
+   :feedback_d: II is correct, but name and age instance variables found in the Person class. Instance variables are not inherited and cannot be modified by sub classes.
+   :feedback_e: name and age are private instance variables in the Person class. Although the constructor from the Person class may be implemented using super, the instance variables in the parent class are not directly accessible by the child class.
+
+   The ``Person`` and ``Student`` classes are found below. Which of the following correctly replaces ``/* to be completed */`` in the ``Student`` class?
+
+   .. code-block:: java
+
+      public class Person
+      {
+         private String name;
+         private int age;
+
+         public Person(String theName, int theAge)
+         {
+            name = theName;
+            age = theAge;
+         }
+      }
+
+      public class Student extends Person
+      {
+         private int grade;
+
+         public Student(String theName, int theAge, int theGrade)
+         {
+            /* to be completed */
+         }
+      }
+
+      I. name = theName;
+         age = theAge;
+         grade = theGrade;
+
+      II. super(theName, theAge);
+          grade = theGrade;
+
+      III. super(theName, theAge);
+           name = theName;
+           age = theAge;
+           grade = theGrade;

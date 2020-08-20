@@ -1,0 +1,30 @@
+.. mchoice:: 12.2.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 02_hidden_surface_removal
+  :topics: 12_advanced_rendering/02_hidden_surface_removal
+  :from_source: T
+  :random:
+
+  The *painter's algorithm* performs "hidden surface removal" by ...
+
+  - rendering graphic primitives in sorted order, with the primitives furthest from
+    the camera rendered first and the primitives closest to the camera rendered last.
+
+    + Correct.
+
+  - rendering graphic primitives based on their color values, with the red primitives
+    first, the green primitives next, and the blue primitives last.
+
+    - Incorrect. That's silly!
+
+  - rendering graphic primitives in the order a programmer defines them.
+
+    - Incorrect.
+
+  - rendering graphic primitives in sorted order, with the primitives closest to
+    the camera rendered first and the primitives furthest from the camera rendered last.
+
+    - Incorrect. This is backwards.

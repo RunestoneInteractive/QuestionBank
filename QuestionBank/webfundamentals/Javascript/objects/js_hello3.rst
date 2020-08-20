@@ -1,0 +1,22 @@
+.. activecode:: js_hello3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: objects
+   :topics: Javascript/objects
+   :from_source: T
+   :language: html
+
+   <html>
+      <body>
+         <h1>Hello World!!</h1>
+         <button onclick="changeThisPageFunc();">Click Me!</button>
+         <script type="text/javascript">
+            changeThisPageFunc = function() {
+               // this will not work
+               document.body.h1.style.backgroundColor = "lightblue";
+            }
+         </script>
+      </body>
+   </html>

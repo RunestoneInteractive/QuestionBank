@@ -1,0 +1,31 @@
+.. mchoice:: e25_2_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPUntimedPracticeQuestions
+   :subchapter: exam25_2
+   :topics: CSPUntimedPracticeQuestions/exam25_2
+   :from_source: T
+   :answer_a: 4
+   :answer_b: 2
+   :answer_c: i
+   :answer_d: 3
+   :correct: d
+   :feedback_a: Incorrect. Variable x will never equal 6 if 4 is added in the blank.
+   :feedback_b: Incorrect. Variable x will never equal 6 if 2 is added in the blank.
+   :feedback_c: Incorrect. Variable x will never equal 6 if i is added in the blank.
+   :feedback_d: Correct. After two times through the loop, variable i will equal 2 and it will be multiplied by 3 which equals 6.
+
+   What number should be added in the blank to make the following function print the number 6?
+
+   x ← 3
+
+   i ← 0
+
+   while i < 3:
+
+    x ← i*___
+
+    i ← i + 1
+
+   DISPLAY(x)

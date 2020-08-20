@@ -1,0 +1,28 @@
+.. mchoice:: e16a17_4
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: studentcsp
+   :chapter: CSPStringPieces
+   :subchapter: exam16a17
+   :topics: CSPStringPieces/exam16a17
+   :from_source: T
+   :practice: T
+   :answer_a: yad ecin a si tI
+   :answer_b: It is a nice day
+   :answer_c: The empty string
+   :answer_d: It will cause an error
+   :correct: a
+   :feedback_a: The for each loop will loop through each character and add it to the front of the result so this will reverse the string.
+   :feedback_b: This would be true if it was resString = resString + char
+   :feedback_c: While resString was initialized to the empty string it changes in the for each loop.
+   :feedback_d: This is the correct syntax for the for each loop.
+
+   What does the following code print?
+
+   ::
+
+      myString = "It is a nice day"
+      resString = ""
+      for char in myString:
+         resString = char + resString
+      print resString

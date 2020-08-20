@@ -1,0 +1,30 @@
+.. parsonsprob:: cpsc120_lab_q11
+   :author: Matthew Zuniga
+   :difficulty: 0.0
+   :basecourse: cpp4python
+   :chapter: Control_Structures
+   :subchapter: Exercises
+   :topics: Control_Structures/Exercises
+   :from_source: F
+
+   Similar with a for loop, we can use a <b>while loop> to use the <b>accumulator pattern.</b><br>
+   <br>
+   One of your colleagues is writing a program to find the <b>mean</b> (average) of their homework scores.<br>
+   <br>
+   Construct a program that solves this problem.
+
+   -----
+   int sum = 0;
+   int counter = 4;
+   vector&#60;int&#62 scores {90, 90, 100, 95, 85};
+   =====
+   while(counter >= 0) {
+   =====
+    sum += scores.at(counter);
+    counter--;
+   }
+   int average = sum / 4;
+   =====
+   #distractorwhile(counter < 0) {
+   =====
+   #distractorwhile(counter != 0) {

@@ -1,0 +1,20 @@
+.. mchoice:: 3.2.4
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 03_model_data
+  :subchapter: 02_modeling_color
+  :topics: 03_model_data/02_modeling_color
+  :from_source: T
+  :random:
+  :answer_a: 0.75
+  :answer_b: 0.25
+  :answer_c: 0.50
+  :answer_d: 1.0
+  :correct: a
+  :feedback_a: Correct. The object is 75% opaque.
+  :feedback_b: Incorrect. The alpha value is the percentage of opaqueness.
+  :feedback_c: Incorrect. The alpha value is the percentage of opaqueness.
+  :feedback_d: Incorrect. 1.0 means the object is totally opaque.
+
+  What should be the *alpha value* for an object that is 25% transparent?

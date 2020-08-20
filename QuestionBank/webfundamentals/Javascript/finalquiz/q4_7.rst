@@ -1,0 +1,23 @@
+.. mchoice:: q4_7
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: finalquiz
+   :topics: Javascript/finalquiz
+   :from_source: T
+   :answer_a: myFunction = function()
+   :answer_b: myFunction()
+   :answer_c: function:myFunction()
+   :answer_d: &lt;script&gt;function = {}&lt;/script&gt;
+   :correct: a
+   :feedback_a: Yes
+   :feedback_b: No, this calls myFunction
+   :feedback_c: No, the : is wrong
+   :feedback_d: No, this is syntactically all wrong
+   :pct_on_first: 0.5084745763
+   :total_students_attempting: 59
+   :num_students_correct: 31
+   :mean_clicks_to_correct: 1.0322580645
+
+   How do you create a function in JavaScript?

@@ -1,0 +1,39 @@
+.. mchoice:: q3_3
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: webfundamentals
+   :chapter: Javascript
+   :subchapter: jsquiz
+   :topics: Javascript/jsquiz
+   :from_source: T
+   :answer_a: dragon
+   :answer_b: wizard
+   :answer_c: castle
+   :answer_d: dungeon
+   :correct: b
+   :feedback_a: Not far enough
+   :feedback_b: Good Job
+   :feedback_c: Not quite, check the order of the ids
+   :feedback_d: No, check the ids carefully
+   :pct_on_first: 0.8759689922
+   :total_students_attempting: 258
+   :num_students_correct: 235
+   :mean_clicks_to_correct: 1.0468085106
+
+   
+   Given the following Javascript snippet, what will the alert box say?
+   
+       .. code-block:: html
+   
+           <html>
+           <ul>
+              <li id="d">dragon</li>
+              <li id="c">wizard</li>
+              <li id="b">castle</li>
+              <li id="a">dungeon</li>
+           </ul>
+           <script type="text/javascript">
+               myLi = document.querySelector('#c')
+               alert(myLi.innerHTML)
+           </script>
+           </html>

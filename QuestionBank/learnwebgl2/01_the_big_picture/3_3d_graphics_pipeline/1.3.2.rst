@@ -1,0 +1,20 @@
+.. parsonsprob:: 1.3.2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 3_3d_graphics_pipeline
+    :topics: 01_the_big_picture/3_3d_graphics_pipeline
+    :from_source: T
+    :noindent:
+
+    Please correctly order the following steps to the graphics pipeline.
+    -----
+    Setup geometric and scene data for the pipeline.
+    Execute a vertex shader on each vertex of a geometric model.
+    Clip away everything that is not in the camera's field-of-view.
+    Map the 3D object coordinates into pixel coordinates of a raster image.
+    Determine which specific pixels represent a geometric primitive.
+    Execute a fragment shader on each pixel that represents a geometric primitive.
+    Combine pixel colors.
+    Output a raster image.

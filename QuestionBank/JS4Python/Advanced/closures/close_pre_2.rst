@@ -1,0 +1,51 @@
+.. mchoice:: close_pre_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :chapter: Advanced
+    :subchapter: closures
+    :topics: Advanced/closures
+    :from_source: T
+
+    What values dos the call to inner1 print out?
+
+    .. code-block:: javascript
+
+        var z = 2;
+        function container() {
+            let x = 3
+
+            function inner1() {
+                console.log(x, y, z)
+            }
+
+            let y = 4
+            z = 9
+
+            function inner2() {
+                z = x + y
+                console.log(x,y,z)
+            }
+
+            return {inner1, inner2}
+        }
+
+        let { inner1, inner2 } = container()
+        inner2()
+        inner1()
+
+    - 3 4 2
+
+      - No, the closure captures a reference to z, so when inner2 is called it reassigns z the value of 7
+
+    - 3 4 7
+
+      + Correct!
+
+    - 3 4 9
+
+      - No, close but since inner2 is called first it reassigns z the value of 7
+
+    - An error occurs
+
+      - This is all legal!

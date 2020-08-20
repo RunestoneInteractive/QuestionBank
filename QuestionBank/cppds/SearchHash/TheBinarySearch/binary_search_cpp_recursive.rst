@@ -1,0 +1,50 @@
+.. activecode:: binary_search_cpp_recursive
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: cppds
+  :chapter: SearchHash
+  :subchapter: TheBinarySearch
+  :topics: SearchHash/TheBinarySearch
+  :from_source: T
+  :caption: A Recursive Binary Search
+  :language: cpp
+
+  #include <iostream>
+  #include <vector>
+  using namespace std;
+
+   // Checks to see if item is in a vector
+   // retruns true or false (1 or 0)
+   // using binary Search and
+   // seperating the vector in halves
+
+  bool binarySearch(vector<int> alist, int item) {
+        if (alist.size() == 0) {
+                return false;
+        } else {
+                int midpoint = alist.size() / 2;
+                if (alist[midpoint] == item) {
+                        return true;
+                } else {
+                        if (item < alist[midpoint]) {
+                                vector<int> lefthalf(alist.begin(), alist.begin() + midpoint);
+                                return binarySearch(lefthalf, item);
+                        } else {
+                                vector<int> righthalf(
+                                        alist.begin() + midpoint + 1, alist.end());
+                                return binarySearch(righthalf, item);
+                        }
+                }
+        }
+  }
+
+  int main() {
+        // Using static array to initialize a vector
+        static const int arr[] = {0, 1, 2, 8, 13, 17, 19, 32, 42};
+        vector<int> alist(arr, arr + sizeof(arr) / sizeof(arr[0]));
+
+        cout << binarySearch(alist, 3) << endl;
+        cout << binarySearch(alist, 13) << endl;
+
+        return 0;
+  }

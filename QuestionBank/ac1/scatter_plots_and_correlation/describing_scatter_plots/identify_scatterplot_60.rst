@@ -1,0 +1,27 @@
+.. mchoice:: identify_scatterplot_60
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: ac1
+   :chapter: scatter_plots_and_correlation
+   :subchapter: describing_scatter_plots
+   :topics: scatter_plots_and_correlation/describing_scatter_plots
+   :from_source: T
+
+   The explanatory variable (x) is the years of driving experience and the explained variable
+   (y) is the insurance premium paid for a sample of drivers.
+
+   - C
+
+     - Incorrect
+
+   - A
+
+     - Incorrect:
+
+   - D
+
+     + Correct: Drivers with more driving experience are considered safer, so they pay smaller premiums. Similarly, drivers with less driving experience are considered riskier and pay greater premiums.
+
+   - B
+
+     - Incorrect

@@ -1,0 +1,14 @@
+.. activecode:: st02
+    :author: jenkins
+    :difficulty: 3.0
+    :basecourse: msumoorhead
+    :chapter: Strings
+    :subchapter: StringComparison
+    :topics: Strings/StringComparison
+    :from_source: None
+
+    word = "banana"
+    if word == "banana":
+        print("Yes, we have bananas!")
+    else:
+        print("Yes, we have NO bananas!")

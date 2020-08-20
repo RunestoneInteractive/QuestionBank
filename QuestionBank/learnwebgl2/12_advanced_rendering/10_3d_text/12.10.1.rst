@@ -1,0 +1,28 @@
+.. mchoice:: 12.10.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 10_3d_text
+  :topics: 12_advanced_rendering/10_3d_text
+  :from_source: T
+  :random:
+
+  Suppose the text string "Yeah" is needed in a 3D scene and it will never change.
+  How many models are needed to render this string into the scene?
+
+  - one
+
+    + Correct.
+
+  - four
+
+    - Incorrect. It could be modeled as four separate characters, but why go to the trouble?
+
+  - eight
+
+    - Incorrect. Each character could be modeled using two separate models, but why?
+
+  - none (just use the :code:`gl.renderText()` function)
+
+    - Incorrect. No such function in the WebGL API exists.

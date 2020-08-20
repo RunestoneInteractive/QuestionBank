@@ -1,0 +1,14 @@
+.. activecode:: tdh2
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: Dictionaries
+   :subchapter: Enumerate
+   :topics: Dictionaries/Enumerate
+   :from_source: None
+
+   title = ["Duplicity", "Notting Hill", "Pretty Woman", "Erin Brockovich", "Eat Pray Love", "Mona Lisa Smile"]
+   year = (2009, 1999, 1990, 2000, 2010, 2003)
+
+   for movie in zip(title, year):
+       print(movie)

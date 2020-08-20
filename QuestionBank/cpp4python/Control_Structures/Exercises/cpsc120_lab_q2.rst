@@ -1,0 +1,24 @@
+.. parsonsprob:: cpsc120_lab_q2
+   :author: Matthew Zuniga
+   :difficulty: 0.0
+   :basecourse: cpp4python
+   :chapter: Control_Structures
+   :subchapter: Exercises
+   :topics: Control_Structures/Exercises
+   :from_source: F
+
+   Now that you have written the code to output all the even numbers from 0 to 99, use the accumulator pattern to sum the even numbers up in a variable called int sum.
+
+   -----
+   int sum = 0;
+   =====
+   for(int i = 0; i < 100; i++) {
+   ===== 
+    if(i % 2 == 0) {
+     sum += i;
+    }
+   =====
+   }
+   =====
+   #distractorfor(int i = 1; i <= 99; i++) {
+   =====

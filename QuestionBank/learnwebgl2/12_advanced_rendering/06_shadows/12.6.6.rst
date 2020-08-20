@@ -1,0 +1,21 @@
+.. mchoice:: 12.6.6
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 12_advanced_rendering
+  :subchapter: 06_shadows
+  :topics: 12_advanced_rendering/06_shadows
+  :from_source: T
+  :random:
+
+  Distance values retrieved from a *shadow map* must be used with a "tolerance" value
+  to compensate for losses in precision. Which type of projection has a fairly consistent
+  error over the entire range of distance values?
+
+  - Orthographic
+
+    + Correct. Because the mapping of z values to the *depth buffer* is linear.
+
+  - Perspective
+
+    - Incorrect. Because the mapping of z values to the *depth buffer* is non-linear.

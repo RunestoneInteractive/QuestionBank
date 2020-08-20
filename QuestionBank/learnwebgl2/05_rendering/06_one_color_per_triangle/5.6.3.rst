@@ -1,0 +1,18 @@
+.. mchoice:: 5.6.3
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 05_rendering
+  :subchapter: 06_one_color_per_triangle
+  :topics: 05_rendering/06_one_color_per_triangle
+  :from_source: T
+  :random:
+  :answer_a: Yes, though it does slow down overall rendering speed.
+  :answer_b: Yes, but it is not recommended.
+  :answer_c: No.
+  :correct: a
+  :feedback_a: Correct. Switching shader programs requires a "context switch" which does take a little time.
+  :feedback_b: Incorrect. Actually is very common because special rendering effects require special shader programs.
+  :feedback_c: Incorrect.
+
+  Can you render a scene using more than one shader program?

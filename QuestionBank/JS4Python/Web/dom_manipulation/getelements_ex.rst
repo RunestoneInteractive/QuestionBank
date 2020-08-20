@@ -1,0 +1,16 @@
+.. activecode:: getelements_ex
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: JS4Python
+    :chapter: Web
+    :subchapter: dom_manipulation
+    :topics: Web/dom_manipulation
+    :from_source: T
+    :language: javascript
+
+    "use strict"
+    var myArr = document.getElementsByTagName("p")
+
+    for (var p of myArr) {
+        writeln(p.toString() + p.innerHTML)
+    }

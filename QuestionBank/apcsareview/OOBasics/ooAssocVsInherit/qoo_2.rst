@@ -1,0 +1,17 @@
+.. mchoice:: qoo_2
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: OOBasics
+   :subchapter: ooAssocVsInherit
+   :topics: OOBasics/ooAssocVsInherit
+   :from_source: T
+   :answer_a: The MovieShowing class should be a subclass of the Movie class.
+   :answer_b: The Movie class should be a subclass of the MovieShowing class.
+   :answer_c: A MovieShowing has a movie associated with it, so it should have a Movie field.
+   :correct: c
+   :feedback_a: Is a movie showing a type of movie?  Or, does a movie showing have a movie associated with it?
+   :feedback_b: Is a movie a type of movie showing?  Or, does a movie showing have a movie associated with it?
+   :feedback_c: A movie showing is not a type of movie and a movie is not a type of movie showing.  A movie showing has a movie associated with it.
+
+    A movie theater has multiple showings of a movie each day. Each movie showing has a start time and location (theater number).  What should the relationship be between the Movie class and the MovieShowing class?

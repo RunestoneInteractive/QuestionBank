@@ -1,0 +1,20 @@
+.. mchoice:: 1.5.4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 5_history_of_computer_graphics
+    :topics: 01_the_big_picture/5_history_of_computer_graphics
+    :from_source: T
+    :random:
+    :answer_a: Because the hardware they interface with continues to enhance and improve.
+    :answer_b: Its kind of like fashion in clothes - people's taste change over time.
+    :answer_c: The designers of the API's keep leaving things out that they forgot about in earlier versions.
+    :answer_d: Change is good -- embrace change!
+    :correct: a
+    :feedback_a: Correct.
+    :feedback_b: No, people's change in taste don't typically cause hardware advancements.
+    :feedback_c: No, it's not forgetfulness.
+    :feedback_d: Change for change sake is not good when it means you have to re-write software over and over again!
+
+    Why do computer graphic API's like OpenGL and WebGL keep changing?

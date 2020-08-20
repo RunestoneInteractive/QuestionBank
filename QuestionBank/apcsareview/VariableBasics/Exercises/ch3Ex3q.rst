@@ -1,0 +1,22 @@
+.. activecode::  ch3Ex3q
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: apcsareview
+   :chapter: VariableBasics
+   :subchapter: Exercises
+   :topics: VariableBasics/Exercises
+   :from_source: T
+   :language: java
+
+   public class Test1
+   {
+       public static void main(String[] args)
+       {
+           gallonPrice = 2.35;
+           40 = double milesPerGallon;
+           double totalFunds = 8.0;
+           double numGallons = totalFunds gallonPrice;
+           double numMiles = numGallons * milesPerGallon;
+           System.out.println(numMiles;
+       }
+   }

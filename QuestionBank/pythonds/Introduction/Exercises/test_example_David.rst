@@ -1,0 +1,15 @@
+.. activecode:: test_example_David
+   :author: John Lensmire
+   :difficulty: 0.0
+   :basecourse: pythonds
+   :chapter: Introduction
+   :subchapter: Exercises
+   :topics: Introduction/Exercises
+   :from_source: F
+   
+   Write a program to convert degrees Fahrenheit to Kelvin
+   ~~~~
+   F = input("Input Degrees F")
+   # your code here
+   ====
+   print("I am a test case")

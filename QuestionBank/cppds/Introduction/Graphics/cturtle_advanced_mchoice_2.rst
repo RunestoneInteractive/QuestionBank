@@ -1,0 +1,20 @@
+.. mchoice:: cturtle_advanced_mchoice_2
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: cppds
+    :chapter: Introduction
+    :subchapter: Graphics
+    :topics: Introduction/Graphics
+    :from_source: T
+    :optional:
+    :answer_a: 3
+    :answer_b: 6
+    :answer_c: 1
+    :answer_d: 12
+    :correct: b
+    :feedback_a: Incorrect! Consider how many actions the turtle takes in the for loop.
+    :feedback_b: Correct!
+    :feedback_c: Incorrect! Consider how many actions the turtle takes in the for loop.
+    :feedback_d: Incorrect! Consider how many actions the turtle takes in the for loop.
+
+    How many actions will be in the turtle's undo queue for the code above?

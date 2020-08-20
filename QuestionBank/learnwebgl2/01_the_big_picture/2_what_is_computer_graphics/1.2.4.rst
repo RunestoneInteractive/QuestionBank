@@ -1,0 +1,20 @@
+.. mchoice:: 1.2.4
+    :author: bmiller
+    :difficulty: 3.0
+    :basecourse: learnwebgl2
+    :chapter: 01_the_big_picture
+    :subchapter: 2_what_is_computer_graphics
+    :topics: 01_the_big_picture/2_what_is_computer_graphics
+    :from_source: T
+    :random:
+    :answer_a: the rendering of a scene can be produced in less than 1/30th of a second.
+    :answer_b: the resulting image contains the current time.
+    :answer_c: the rendering of a scene happens right now.
+    :answer_d: the rendering is really fast.
+    :correct: a
+    :feedback_a: Correct. Displaying 30 frames per second allows most people to perceive motion without flicker.
+    :feedback_b: No, that's silly!
+    :feedback_c: Maybe, but the important issue is whether 30 or more images per second can be created.
+    :feedback_d: No, fast rendering does not guarantee motion without flicker, the number of frames per second does.
+
+    **Real-time** *3D computer graphics* means ...?

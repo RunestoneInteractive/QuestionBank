@@ -1,0 +1,21 @@
+.. activecode:: simplepage1
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: JS4Python
+   :chapter: Web
+   :subchapter: javascript_web
+   :topics: Web/javascript_web
+   :from_source: T
+   :language: html
+
+   <html>
+       <body>
+            <h1>Hello World</h1>
+            <button>Push Me Pull You</button>
+            <script>
+            function foo() {
+                alert("Hello World")
+            }
+            </script>
+       </body>
+   </html>

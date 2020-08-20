@@ -1,0 +1,23 @@
+.. mchoice:: mc2j
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: SimplePythonData
+   :subchapter: OrderofOperations
+   :topics: SimplePythonData/OrderofOperations
+   :from_source: None
+   :answer_a: 13.667
+   :answer_b: 24
+   :answer_c: 3
+   :answer_d: 14
+   :correct: d
+   :feedback_a: Remember that // does integer division.
+   :feedback_b: Remember that * has precedence over -.
+   :feedback_c: Remember that // has precedence over -.
+   :feedback_d: Using parentheses, the expression is evaluated as (2*5) first, then (10 // 3), then (16-3), and then (13+1).
+
+   What is the value of the following expression:
+
+   .. code-block:: python
+
+      16 - 2 * 5 // 3 + 1

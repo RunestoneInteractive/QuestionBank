@@ -1,0 +1,20 @@
+.. mchoice:: 1.1.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 01_the_big_picture
+  :subchapter: 1_mastery_learning
+  :topics: 01_the_big_picture/1_mastery_learning
+  :from_source: T
+  :random:
+  :answer_a: It forces every student to learn at the same pace. More advanced students get bored. Less advanced students struggle.
+  :answer_b: It continues with new material even when students don't fully understand the current material.
+  :answer_c: It is old and needs updating.
+  :answer_d: It assumes that gaining 70% understanding of a topic is good enough.
+  :correct: a,b,d
+  :feedback_a: Going at an "average" pace is OK for some students, but it hinders the advanced and struggling students.
+  :feedback_b: Gaps in knowledge can prevent a student from understanding more advanced material.
+  :feedback_c: Just because something if old doesn't mean it needs to be replaced.
+  :feedback_d: If a student understands 70% of a topic, there is still 30% they don't understand. This causes problems when trying to learn more advanced topics.
+
+  Please select the reasons why our traditional educational system is detrimental to learning. (Select all that apply.)

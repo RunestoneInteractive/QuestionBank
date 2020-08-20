@@ -1,0 +1,22 @@
+.. activecode:: ex_7_19
+   :author: jenkins
+   :difficulty: 3.0
+   :basecourse: msumoorhead
+   :chapter: MoreAboutIteration
+   :subchapter: Exercises
+   :topics: MoreAboutIteration/Exercises
+   :from_source: None
+   :nocodelens:
+
+   import image
+
+   def double(oldimage):
+
+
+   img = image.Image("luther.jpg")
+   win = image.ImageWin(img.getWidth()*2, img.getHeight()*2)
+
+   bigimg = double(img)
+   bigimg.draw(win)
+
+   win.exitonclick()

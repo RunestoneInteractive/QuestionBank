@@ -1,0 +1,20 @@
+.. mchoice:: 6.6.1
+  :author: bmiller
+  :difficulty: 3.0
+  :basecourse: learnwebgl2
+  :chapter: 06_transformations
+  :subchapter: 06_matrix_library
+  :topics: 06_transformations/06_matrix_library
+  :from_source: T
+  :random:
+  :answer_a: One
+  :answer_b: Four
+  :answer_c: One for each 4x4 transform you need in a program.
+  :answer_d: Two for each 4x4 transform you need in a program.
+  :correct: a
+  :feedback_a: Correct.
+  :feedback_b: Incorrect. Where did four come from?
+  :feedback_c: Incorrect. No, a GlMatrix4x4 contains functionality, not matrices.
+  :feedback_d: Incorrect. No, a GlMatrix4x4 contains functionality, not matrices.
+
+  How many instances of the :code:`GlMatrix4x4` do you typically need to create for a WebGL program?

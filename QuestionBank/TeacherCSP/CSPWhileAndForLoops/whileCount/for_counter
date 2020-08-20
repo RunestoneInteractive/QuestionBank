@@ -1,9 +1,0 @@
-.. codelens:: for_counter
-        :author: bmiller
-        :difficulty: 3
-        :basecourse: TeacherCSP
-        :topic: CSPWhileAndForLoops/whileCount
-        :from_source: T
-
-        for counter in range(1,11):
-            print(counter)

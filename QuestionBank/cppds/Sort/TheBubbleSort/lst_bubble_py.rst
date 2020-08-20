@@ -1,0 +1,27 @@
+.. activecode:: lst_bubble_py
+   :author: bmiller
+   :difficulty: 3.0
+   :basecourse: cppds
+   :chapter: Sort
+   :subchapter: TheBubbleSort
+   :topics: Sort/TheBubbleSort
+   :from_source: T
+   :caption: The Bubble Sort
+   :optional:
+
+   """function goes through list sorting adjacent values as it bubbles
+   the largest value to the top."""
+   def bubbleSort(alist):
+       for passnum in range(len(alist)-1,0,-1):
+           for i in range(passnum):
+               if alist[i]>alist[i+1]:
+                   temp = alist[i]
+                   alist[i] = alist[i+1]
+                   alist[i+1] = temp
+
+   def main():
+       alist = [54,26,93,17,77,31,44,55,20]
+       bubbleSort(alist)
+       print(alist)
+
+   main()
