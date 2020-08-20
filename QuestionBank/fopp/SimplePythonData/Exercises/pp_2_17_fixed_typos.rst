@@ -1,6 +1,6 @@
 .. parsonsprob:: pp_2_17_fixed_typos
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 2.0
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

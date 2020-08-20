@@ -1,6 +1,6 @@
 .. activecode:: wvu_advlist_filterdict
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.0706827309
     :basecourse: fopp
     :chapter: AdvancedAccumulation
     :subchapter: Exercises

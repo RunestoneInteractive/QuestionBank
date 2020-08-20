@@ -1,6 +1,6 @@
 .. dragndrop:: h1_q1
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 3.0064308682
     :basecourse: fopp
     :chapter: SimplePythonData
     :subchapter: Exercises

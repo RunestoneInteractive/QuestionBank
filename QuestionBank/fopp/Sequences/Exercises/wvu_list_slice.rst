@@ -1,6 +1,6 @@
 .. activecode:: wvu_list_slice
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 1.1005648611
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

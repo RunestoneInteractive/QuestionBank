@@ -1,6 +1,6 @@
 .. actex :: TL_365_wvu_forloop_oddnumbers
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.1543953592
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

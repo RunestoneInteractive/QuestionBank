@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch5_4_cofi_Q5_lad
    :author: Lynda Danielson
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: Exercises

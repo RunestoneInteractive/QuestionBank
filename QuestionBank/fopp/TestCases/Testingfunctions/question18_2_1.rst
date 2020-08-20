@@ -1,6 +1,6 @@
 .. mchoice:: question18_2_1
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: TestCases
    :subchapter: Testingfunctions

@@ -1,6 +1,6 @@
 .. mchoice:: question8_9_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3054518297
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: TheAccumulatorPatternwithLists
@@ -16,10 +16,10 @@
    :feedback_c: 5 is added to each item before the append operation is performed.
    :feedback_d: It is OK to have a complex expression inside the call to the append method. The expression `lst[i]+5` is fully evaluated before the append operation is performed.
    :practice: T
-   :pct_on_first: 0.6736526946
-   :total_students_attempting: 1336
-   :num_students_correct: 1329.0
-   :mean_clicks_to_correct: 1.4446952596
+   :pct_on_first: 0.6736370426
+   :total_students_attempting: 1339
+   :num_students_correct: 1332.0
+   :mean_clicks_to_correct: 1.4444444444
 
    What is printed by the following statements?
    

@@ -1,6 +1,6 @@
 .. activecode:: hill_test2_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

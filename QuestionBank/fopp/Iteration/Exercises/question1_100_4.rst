@@ -1,6 +1,6 @@
 .. parsonsprob:: question1_100_4
    :author: Matthew Zuniga
-   :difficulty: 0.0
+   :difficulty: 4.661971831
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

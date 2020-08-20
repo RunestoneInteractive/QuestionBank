@@ -1,6 +1,6 @@
 .. activecode:: ac11_9_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.2148897096
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Functionscancallotherfunctions
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2497643732
-   :total_students_attempting: 1061
-   :num_students_correct: 596.0
-   :mean_clicks_to_correct: 4.6543624161
+   :pct_on_first: 0.2504708098
+   :total_students_attempting: 1062
+   :num_students_correct: 597.0
+   :mean_clicks_to_correct: 4.648241206
 
    **1.** Write two functions, one called ``addit`` and one called ``mult``. ``addit`` takes one number as an input and adds 5. ``mult`` takes one number as an input, and multiplies that input by whatever is returned by ``addit``, and then returns the result.
    ~~~~

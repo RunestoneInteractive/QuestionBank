@@ -1,6 +1,6 @@
 .. activecode:: Hill_examS19_4_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

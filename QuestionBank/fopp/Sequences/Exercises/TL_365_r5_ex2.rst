@@ -1,6 +1,6 @@
 .. actex:: TL_365_r5_ex2
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.3509593931
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

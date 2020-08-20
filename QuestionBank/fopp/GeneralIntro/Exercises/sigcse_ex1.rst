@@ -1,6 +1,6 @@
 .. activecode:: sigcse_ex1
     :author: Andrew McDonald
-    :difficulty: 1.0
+    :difficulty: 1.2524383247
     :basecourse: fopp
     :chapter: GeneralIntro
     :subchapter: Exercises

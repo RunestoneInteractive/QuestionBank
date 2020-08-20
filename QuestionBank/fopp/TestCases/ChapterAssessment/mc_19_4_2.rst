@@ -1,6 +1,6 @@
 .. mchoice:: mc_19_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.1654135338
    :basecourse: fopp
    :chapter: TestCases
    :subchapter: ChapterAssessment

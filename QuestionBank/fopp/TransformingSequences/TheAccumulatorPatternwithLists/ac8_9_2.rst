@@ -1,6 +1,6 @@
 .. activecode:: ac8_9_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0744671258
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: TheAccumulatorPatternwithLists
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.408839779
-   :total_students_attempting: 1267
-   :num_students_correct: 962.0
-   :mean_clicks_to_correct: 2.2681912682
+   :pct_on_first: 0.4102362205
+   :total_students_attempting: 1270
+   :num_students_correct: 965.0
+   :mean_clicks_to_correct: 2.2642487047
 
    2. For each word in the list ``verbs``, add an -ing ending. Save this new list in a new list, ``ing``.
    ~~~~

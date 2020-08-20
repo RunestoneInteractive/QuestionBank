@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0505239348
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TupleAssignmentwithunpacking
@@ -10,10 +10,10 @@
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.4055555556
-   :total_students_attempting: 360
-   :num_students_correct: 231.0
-   :mean_clicks_to_correct: 1.8614718615
+   :pct_on_first: 0.4072022161
+   :total_students_attempting: 361
+   :num_students_correct: 232.0
+   :mean_clicks_to_correct: 1.8577586207
 
    The .items() method produces a sequence of key-value pair tuples. With this in mind, write code to create a list of keys from the dictionary ``track_medal_counts`` and assign the list to the variable name ``track_events``. Do **NOT** use the .keys() method.
    ~~~~

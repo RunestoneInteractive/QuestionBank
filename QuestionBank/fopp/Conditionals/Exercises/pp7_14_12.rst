@@ -1,6 +1,6 @@
 .. parsonsprob:: pp7_14_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.9750415973
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: hu_ch10_scarlet_modified_1
    :author: Sean Joyce
-   :difficulty: 3.0
+   :difficulty: 1.3681392236
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises

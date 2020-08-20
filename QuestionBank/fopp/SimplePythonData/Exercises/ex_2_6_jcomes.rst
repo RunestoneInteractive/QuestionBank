@@ -1,6 +1,6 @@
 .. activecode:: ex_2_6_jcomes
     :author: Jonny Comes
-    :difficulty: 0.0
+    :difficulty: 1.250334672
     :basecourse: fopp
     :chapter: SimplePythonData
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_2
         :author: Irma Ravkic
-        :difficulty: 0.0
+        :difficulty: 2.0909090909
         :basecourse: fopp
         :chapter: GeneralIntro
         :subchapter: Exercises
@@ -14,10 +14,10 @@
         :feedback_a: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to?
         :feedback_b: Correct. c = a + b = 7 + 3  = 10
         :feedback_c: Oh no. The value of a is now 7, the value of b is still 3, so what is a + b equal to?
-        :pct_on_first: 0.7419354839
-        :total_students_attempting: 31
-        :num_students_correct: 30.0
-        :mean_clicks_to_correct: 1.2666666667
+        :pct_on_first: 0.7272727273
+        :total_students_attempting: 33
+        :num_students_correct: 32.0
+        :mean_clicks_to_correct: 1.28125
 
         Consider the following program you read top to bottom:
         

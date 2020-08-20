@@ -1,6 +1,6 @@
 .. mchoice:: question1_1
    :author: Irma Ravkic
-   :difficulty: 3.0
+   :difficulty: 1.2872727273
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises
@@ -13,9 +13,9 @@
    :feedback_a: you need to enclose the string in quotes.
    :feedback_b: there is not function specified for printing.
    :feedback_c: this is correct.
-   :pct_on_first: 0.9272559853
-   :total_students_attempting: 1086
-   :num_students_correct: 1084.0
-   :mean_clicks_to_correct: 1.110701107
+   :pct_on_first: 0.9281818182
+   :total_students_attempting: 1100
+   :num_students_correct: 1098.0
+   :mean_clicks_to_correct: 1.1092896175
 
     What is the correct line below for printing I am a string! on the standard output?

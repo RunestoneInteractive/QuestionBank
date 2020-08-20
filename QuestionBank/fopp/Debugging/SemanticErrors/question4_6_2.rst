@@ -1,6 +1,6 @@
 .. mchoice:: question4_6_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.1937823834
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: SemanticErrors
@@ -16,9 +16,9 @@
    :feedback_c: The computer does not understand your problem. It just executes the instructions that it is given.
    :feedback_d: Your teacher and instructor may be able to find most of your semantic errors, but only because they have experience solving problems.  However it is your responsibility to understand the problem so you can develop a correct solution.
    :practice: T
-   :pct_on_first: 0.7019180923
-   :total_students_attempting: 1929
-   :num_students_correct: 1922.0
-   :mean_clicks_to_correct: 1.4786680541
+   :pct_on_first: 0.7015544041
+   :total_students_attempting: 1930
+   :num_students_correct: 1923.0
+   :mean_clicks_to_correct: 1.4789391576
 
    Who or what typically finds semantic errors?

@@ -1,6 +1,6 @@
 .. activecode:: ac10_7_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.108043603
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: AccumulatingtheBestKey
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2608225108
-   :total_students_attempting: 924
-   :num_students_correct: 523.0
-   :mean_clicks_to_correct: 2.8413001912
+   :pct_on_first: 0.2624190065
+   :total_students_attempting: 926
+   :num_students_correct: 525.0
+   :mean_clicks_to_correct: 2.8342857143
 
    **5.** Create a dictionary called ``lett_d`` that keeps track of all of the characters in the string ``product`` and notes how many times each character was seen. Then, find the key with the highest value in this dictionary and assign that key to ``max_value``.
    ~~~~

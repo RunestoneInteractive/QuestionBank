@@ -1,6 +1,6 @@
 .. activecode:: act_scramble_ac_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.0967794885
     :basecourse: fopp
     :chapter: Projects
     :subchapter: encryption

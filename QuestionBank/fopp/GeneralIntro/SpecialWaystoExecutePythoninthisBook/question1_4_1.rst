@@ -1,6 +1,6 @@
 .. mchoice:: question1_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.010815551
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: SpecialWaystoExecutePythoninthisBook
@@ -16,9 +16,9 @@
    :feedback_b: You are not limited to running the examples that are already there.  Try adding to them and creating your own.
    :feedback_c: The activecode interpreter will allow you type Python code into the textbox and then you can see it execute as the interpreter interprets and executes the source code.
    :feedback_d: Although you can (and should) verify that your code is correct by examining its output, activecode will not directly tell you whether you have correctly implemented your program.
-   :pct_on_first: 0.2480187849
-   :total_students_attempting: 3407
-   :num_students_correct: 3263.0
-   :mean_clicks_to_correct: 2.8464603126
+   :pct_on_first: 0.2472961122
+   :total_students_attempting: 3421
+   :num_students_correct: 3278.0
+   :mean_clicks_to_correct: 2.8486882245
 
    The activecode interpreter allows you to (select all that apply):

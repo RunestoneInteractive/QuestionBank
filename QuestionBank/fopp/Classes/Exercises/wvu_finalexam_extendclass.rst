@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_extendclass
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1767068273
     :basecourse: fopp
     :chapter: Classes
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. mchoice:: question5_5_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.8791055206
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Length

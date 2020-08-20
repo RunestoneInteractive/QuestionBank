@@ -1,6 +1,6 @@
 .. activecode:: TL_365_vrms
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.0911318229
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

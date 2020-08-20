@@ -1,6 +1,6 @@
 .. mchoice:: question2_14_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4021164021
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: UpdatingVariables
@@ -16,10 +16,10 @@
    :feedback_c: Yes, starting with 12, subtract 3, than add 5, and finally add 1.
    :feedback_d: Remember that variables in Python are different from variables in math in that they (temporarily) hold values, but can be reassigned.
    :practice: T
-   :pct_on_first: 0.8994328922
-   :total_students_attempting: 2645
-   :num_students_correct: 2637.0
-   :mean_clicks_to_correct: 1.163064088
+   :pct_on_first: 0.8994708995
+   :total_students_attempting: 2646
+   :num_students_correct: 2638.0
+   :mean_clicks_to_correct: 1.1630022745
 
    What is printed when the following statements execute?
    

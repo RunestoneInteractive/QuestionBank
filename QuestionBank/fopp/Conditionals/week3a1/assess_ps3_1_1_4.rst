@@ -1,6 +1,6 @@
 .. activecode:: assess_ps3_1_1_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.1647135889
     :basecourse: fopp
     :chapter: Conditionals
     :subchapter: week3a1
@@ -9,10 +9,10 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.3485221675
-    :total_students_attempting: 812
-    :num_students_correct: 608.0
-    :mean_clicks_to_correct: 3.8009868421
+    :pct_on_first: 0.3493234932
+    :total_students_attempting: 813
+    :num_students_correct: 609.0
+    :mean_clicks_to_correct: 3.7963875205
 
     Write code that counts the number of words in ``sentence`` that contain *either* an "a" or an "e". Store the result in the variable ``num_a_or_e``.
     

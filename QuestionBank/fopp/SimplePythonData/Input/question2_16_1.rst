@@ -1,6 +1,6 @@
 .. mchoice:: question2_16_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8910231282
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Input
@@ -16,10 +16,10 @@
    :feedback_c: 18 is the value of what the user typed, not the type of the data.
    :feedback_d: 18 is the value of what the user typed, not the type of the data.
    :practice: T
-   :pct_on_first: 0.5274509804
-   :total_students_attempting: 2550
-   :num_students_correct: 2529.0
-   :mean_clicks_to_correct: 1.9612495057
+   :pct_on_first: 0.527244218
+   :total_students_attempting: 2551
+   :num_students_correct: 2530.0
+   :mean_clicks_to_correct: 1.9612648221
 
    What is printed when the following statements execute?
    

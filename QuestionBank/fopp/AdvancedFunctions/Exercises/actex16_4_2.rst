@@ -1,6 +1,6 @@
 .. actex:: actex16_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0858290304
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: Exercises

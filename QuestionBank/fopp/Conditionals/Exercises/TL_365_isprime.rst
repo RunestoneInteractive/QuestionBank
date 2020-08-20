@@ -1,6 +1,6 @@
 .. actex:: TL_365_isprime
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.8957208143
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises

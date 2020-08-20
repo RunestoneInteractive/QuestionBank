@@ -1,6 +1,6 @@
 .. activecode:: ac10_5_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0437903216
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: intro-AccumulatingMultipleResultsInaDictionary
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4564796905
-   :total_students_attempting: 1034
-   :num_students_correct: 685.0
-   :mean_clicks_to_correct: 1.7445255474
+   :pct_on_first: 0.4565637066
+   :total_students_attempting: 1036
+   :num_students_correct: 686.0
+   :mean_clicks_to_correct: 1.7434402332
 
    stri = "what can I do"
    

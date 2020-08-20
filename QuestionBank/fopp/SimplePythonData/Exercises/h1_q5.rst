@@ -1,6 +1,6 @@
 .. fillintheblank:: h1_q5
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 1.4238410596
     :basecourse: fopp
     :chapter: SimplePythonData
     :subchapter: Exercises

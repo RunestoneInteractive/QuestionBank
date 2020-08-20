@@ -1,6 +1,6 @@
 .. mchoice:: question_ta_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.4262295082
    :basecourse: fopp
    :chapter: Functions
    :subchapter: TypeAnnotations
@@ -16,10 +16,10 @@
    :feedback_c: Incorrect. Python ignores the ': str' annotation and allows the float value 2.5 to be passed to msg.
    :feedback_d: Incorrect. In this call, msg contains the float value 2.5, not a str, so the + operation is legal.
    :practice: T
-   :pct_on_first: 0.3966942149
-   :total_students_attempting: 121
-   :num_students_correct: 119.0
-   :mean_clicks_to_correct: 2.268907563
+   :pct_on_first: 0.393442623
+   :total_students_attempting: 122
+   :num_students_correct: 120.0
+   :mean_clicks_to_correct: 2.2833333333
 
    What happens when the following is executed?
    

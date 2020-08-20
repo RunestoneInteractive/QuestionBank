@@ -1,6 +1,6 @@
 .. actex:: TL_365_Balmer_list_loop
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2738159847
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

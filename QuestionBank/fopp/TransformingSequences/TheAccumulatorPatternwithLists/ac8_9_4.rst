@@ -1,6 +1,6 @@
 .. activecode:: ac8_9_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1791610888
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: TheAccumulatorPatternwithLists
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2265834077
-   :total_students_attempting: 1121
-   :num_students_correct: 646.0
-   :mean_clicks_to_correct: 4.0495356037
+   :pct_on_first: 0.2268683274
+   :total_students_attempting: 1124
+   :num_students_correct: 648.0
+   :mean_clicks_to_correct: 4.0416666667
 
    Given the list of numbers, ``numbs``, modifiy the list ``numbs`` so that each of the original numbers are increased by 5.  Note this is not an accumulator pattern problem, but its a good review.
    ~~~~

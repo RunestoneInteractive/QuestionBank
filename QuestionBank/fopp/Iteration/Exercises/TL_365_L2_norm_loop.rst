@@ -1,6 +1,6 @@
 .. actex:: TL_365_L2_norm_loop
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2666964153
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

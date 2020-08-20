@@ -1,6 +1,6 @@
 .. mchoice:: question14_7_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.5536977492
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: NestedIterationImageProcessing
@@ -15,10 +15,10 @@
    :feedback_b: Because the red value varies from pixel to pixel, this will not look like a solid red rectangle. For it to look like a solid red rectangle each pixel would have to have exactly the same red value.
    :feedback_c: If you remove the blue and green values from the pixels, the image will look different, even though there does not appear to be any blue or green in the original image (remember that other colors are made of combinations of red, green and blue).
    :feedback_d: Because we have changed the value of the pixels from what they were in the original ActiveCode box code, the image will not be the same.
-   :pct_on_first: 0.6113256113
-   :total_students_attempting: 1554
-   :num_students_correct: 1543.0
-   :mean_clicks_to_correct: 1.736228127
+   :pct_on_first: 0.6115755627
+   :total_students_attempting: 1555
+   :num_students_correct: 1544.0
+   :mean_clicks_to_correct: 1.7357512953
 
    What would the image produced from ActiveCode box 16 look like if you replaced the lines:
    

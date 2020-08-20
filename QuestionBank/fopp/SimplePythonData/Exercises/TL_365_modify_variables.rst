@@ -1,6 +1,6 @@
 .. actex:: TL_365_modify_variables
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.078063257
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

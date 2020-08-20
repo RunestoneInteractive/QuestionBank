@@ -1,6 +1,6 @@
 .. dragndrop:: act_enc_match1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3.3529411765
     :basecourse: fopp
     :chapter: Projects
     :subchapter: encryption

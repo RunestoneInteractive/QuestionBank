@@ -1,6 +1,6 @@
 .. parsonsprob:: pp_2_hours2seconds_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 2.3333333333
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

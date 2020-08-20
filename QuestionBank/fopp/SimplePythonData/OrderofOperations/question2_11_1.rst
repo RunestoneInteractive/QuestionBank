@@ -1,6 +1,6 @@
 .. mchoice:: question2_11_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3877856875
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: OrderofOperations

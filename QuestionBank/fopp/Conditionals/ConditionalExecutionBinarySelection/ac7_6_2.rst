@@ -1,6 +1,6 @@
 .. activecode:: ac7_6_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1198220898
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: ConditionalExecutionBinarySelection

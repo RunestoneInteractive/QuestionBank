@@ -1,6 +1,6 @@
 .. activecode:: ee_exceptions_012
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0644460194
    :basecourse: fopp
    :chapter: Exceptions
    :subchapter: intro-exceptions

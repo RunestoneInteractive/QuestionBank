@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.2373443983
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -14,9 +14,9 @@
    :feedback_c: Correct!
    :correct: c
    :practice: T
-   :pct_on_first: 0.4388009992
-   :total_students_attempting: 1201
-   :num_students_correct: 1190.0
-   :mean_clicks_to_correct: 1.9302521008
+   :pct_on_first: 0.4406639004
+   :total_students_attempting: 1205
+   :num_students_correct: 1194.0
+   :mean_clicks_to_correct: 1.9271356784
 
    Does the following prompt require an accumulation pattern? If so, what words indicate that? Write code to print out each character of the string ``my_str`` on a separate line.

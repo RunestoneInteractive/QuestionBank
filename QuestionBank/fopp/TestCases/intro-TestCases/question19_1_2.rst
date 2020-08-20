@@ -1,6 +1,6 @@
 .. mchoice:: question19_1_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4948453608
    :basecourse: fopp
    :chapter: TestCases
    :subchapter: intro-TestCases

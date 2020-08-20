@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch11_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.1570727354
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. mchoice:: question13_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8043151029
    :basecourse: fopp
    :chapter: PythonModules
    :subchapter: Therandommodule
@@ -16,9 +16,9 @@
    :feedback_c: This will generate a number between 0 and 100.  The lowest value generated is 0.  The highest value generated will be 100.
    :feedback_d: This will generate a number between 0 and 100, but does not include 100.  The lowest value generated is 0 and the highest value generated will be 99.
    :practice: T
-   :pct_on_first: 0.5486947791
-   :total_students_attempting: 1992
-   :num_students_correct: 1985.0
-   :mean_clicks_to_correct: 1.8307304786
+   :pct_on_first: 0.5489212243
+   :total_students_attempting: 1993
+   :num_students_correct: 1986.0
+   :mean_clicks_to_correct: 1.8303121853
 
    The correct code to generate a random number between 1 and 100 (inclusive) is:

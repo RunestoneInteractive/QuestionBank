@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch9_3
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 2.1676509961
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

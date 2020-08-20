@@ -1,6 +1,6 @@
 .. mchoice:: question8_6_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.5269796776
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: MutatingMethods
@@ -14,10 +14,10 @@
    :feedback_b: Yes, each item is added to the end of the list.
    :feedback_c: append adds at the end, not the beginning.
    :practice: T
-   :pct_on_first: 0.8679775281
-   :total_students_attempting: 1424
-   :num_students_correct: 1418.0
-   :mean_clicks_to_correct: 1.1607898449
+   :pct_on_first: 0.8682550806
+   :total_students_attempting: 1427
+   :num_students_correct: 1421.0
+   :mean_clicks_to_correct: 1.1604503871
 
    What is printed by the following statements?
    

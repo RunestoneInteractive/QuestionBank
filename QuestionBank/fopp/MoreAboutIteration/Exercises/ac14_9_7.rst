@@ -1,6 +1,6 @@
 .. actex:: ac14_9_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.022688284
    :basecourse: fopp
    :chapter: MoreAboutIteration
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. mchoice:: question_inheritance_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8854625551
    :basecourse: fopp
    :chapter: Inheritance
    :subchapter: inheritVarsAndMethods

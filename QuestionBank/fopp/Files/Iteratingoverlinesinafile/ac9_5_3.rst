@@ -1,6 +1,6 @@
 .. activecode:: ac9_5_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0639223561
    :basecourse: fopp
    :chapter: Files
    :subchapter: Iteratingoverlinesinafile
@@ -11,10 +11,10 @@
    :nocodelens: 
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4188163885
-   :total_students_attempting: 1318
-   :num_students_correct: 876.0
-   :mean_clicks_to_correct: 2.0901826484
+   :pct_on_first: 0.4205748865
+   :total_students_attempting: 1322
+   :num_students_correct: 880.0
+   :mean_clicks_to_correct: 2.0852272727
 
    1. Write code to find out how many lines are in the file ``emotion_words.txt`` as shown above. Save this value to the variable ``num_lines``. Do not use the len method.
    ~~~~

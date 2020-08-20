@@ -1,6 +1,6 @@
 .. activecode:: hill2019-replacement
    :author: Scott Hill
-   :difficulty: 2.0
+   :difficulty: 2.5903614458
    :basecourse: fopp
    :chapter: TestCases
    :subchapter: Exercises

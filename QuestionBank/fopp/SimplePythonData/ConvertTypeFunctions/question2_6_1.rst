@@ -1,6 +1,6 @@
 .. mchoice:: question2_6_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3194070081
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: ConvertTypeFunctions
@@ -16,10 +16,10 @@
    :feedback_c: When converting to an integer, the int function does not round.
    :feedback_d: The int function removes the fractional part of 53.785 and returns an integer, which is then printed.
    :practice: T
-   :pct_on_first: 0.6707193516
-   :total_students_attempting: 2961
-   :num_students_correct: 2949.0
-   :mean_clicks_to_correct: 1.5459477789
+   :pct_on_first: 0.670148248
+   :total_students_attempting: 2968
+   :num_students_correct: 2956.0
+   :mean_clicks_to_correct: 1.548037889
 
    What value is printed when the following statement executes?
    

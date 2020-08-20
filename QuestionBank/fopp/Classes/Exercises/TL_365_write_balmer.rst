@@ -1,6 +1,6 @@
 .. actex:: TL_365_write_balmer
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.4609743321
    :basecourse: fopp
    :chapter: Classes
    :subchapter: Exercises

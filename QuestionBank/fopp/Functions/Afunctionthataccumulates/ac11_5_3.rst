@@ -1,6 +1,6 @@
 .. activecode:: ac11_5_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0441008018
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Afunctionthataccumulates
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.527595884
-   :total_students_attempting: 1069
-   :num_students_correct: 775.0
-   :mean_clicks_to_correct: 1.7496774194
+   :pct_on_first: 0.5280373832
+   :total_students_attempting: 1070
+   :num_students_correct: 776.0
+   :mean_clicks_to_correct: 1.7487113402
 
    **2.** Write a function called ``count`` that takes a list of numbers as input and returns a count of the number of elements in the list.
    ~~~~

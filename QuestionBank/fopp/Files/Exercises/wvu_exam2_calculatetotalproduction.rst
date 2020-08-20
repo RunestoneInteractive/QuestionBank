@@ -1,16 +1,16 @@
 .. activecode:: wvu_exam2_calculatetotalproduction
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1582998661
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises
     :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.12
-    :total_students_attempting: 50
-    :num_students_correct: 15.0
-    :mean_clicks_to_correct: 3.8666666667
+    :pct_on_first: 0.137254902
+    :total_students_attempting: 51
+    :num_students_correct: 16.0
+    :mean_clicks_to_correct: 3.6875
 
     (15 points)
     

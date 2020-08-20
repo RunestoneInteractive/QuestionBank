@@ -1,6 +1,6 @@
 .. mchoice:: question6_6_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.6345444971
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: TheAccumulatorPattern

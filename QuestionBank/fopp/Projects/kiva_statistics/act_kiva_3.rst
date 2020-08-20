@@ -1,16 +1,16 @@
 .. activecode:: act_kiva_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.0856028518
     :basecourse: fopp
     :chapter: Projects
     :subchapter: kiva_statistics
     :topics: Projects/kiva_statistics
     :from_source: T
     :include: act_kiva_1
-    :pct_on_first: 0.5283613445
-    :total_students_attempting: 952
-    :num_students_correct: 877.0
-    :mean_clicks_to_correct: 2.4549600912
+    :pct_on_first: 0.5288562434
+    :total_students_attempting: 953
+    :num_students_correct: 878.0
+    :mean_clicks_to_correct: 2.4533029613
 
     Compute the average amount of money loaned and store it in the variable ``loan_average``
     ~~~~

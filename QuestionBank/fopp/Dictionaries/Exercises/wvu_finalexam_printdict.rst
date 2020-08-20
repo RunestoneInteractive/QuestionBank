@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_printdict
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1178045515
     :basecourse: fopp
     :chapter: Dictionaries
     :subchapter: Exercises

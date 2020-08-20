@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch8_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.0642570281
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises

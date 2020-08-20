@@ -1,6 +1,6 @@
 .. mchoice:: question1_5_1_cofi_Q1_lad
    :author: Lynda Danielson
-   :difficulty: 3.0
+   :difficulty: 5.0
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: MoreAboutPrograms

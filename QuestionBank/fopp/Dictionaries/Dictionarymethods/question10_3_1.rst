@@ -1,6 +1,6 @@
 .. mchoice:: question10_3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.6490566038
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: Dictionarymethods
@@ -15,10 +15,10 @@
    :feedback_b: 12 is divided by 6, not the other way around.
    :feedback_c: Take another look at the example for get above.  get returns the value associated with a given key.
    :feedback_d: The integer division operator is being used on the values returned from the get method, not on the dictionary.
-   :pct_on_first: 0.8373676248
-   :total_students_attempting: 1322
-   :num_students_correct: 1303.0
-   :mean_clicks_to_correct: 1.2524942441
+   :pct_on_first: 0.8377358491
+   :total_students_attempting: 1325
+   :num_students_correct: 1306.0
+   :mean_clicks_to_correct: 1.251914242
 
    What is printed by the following statements?
    

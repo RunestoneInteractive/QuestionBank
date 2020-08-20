@@ -1,6 +1,6 @@
 .. mchoice:: question12_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.6952380952
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TuplesasReturnValues
@@ -19,9 +19,9 @@
    :feedback_d: return x, y causes the two values to be packed into a tuple.
    :feedback_e: It is possible, and frequently useful, to have one function compute multiple values.
    :correct: b,c,d
-   :pct_on_first: 0.076372315
-   :total_students_attempting: 419
-   :num_students_correct: 403.0
-   :mean_clicks_to_correct: 2.905707196
+   :pct_on_first: 0.0761904762
+   :total_students_attempting: 420
+   :num_students_correct: 404.0
+   :mean_clicks_to_correct: 2.9034653465
 
    If you want a function to return two values, contained in variables x and y, which of the following methods will work?

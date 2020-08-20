@@ -1,6 +1,6 @@
 .. activecode:: wvu_tuples_returntuple
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.2685943775
     :basecourse: fopp
     :chapter: Tuples
     :subchapter: Exercises

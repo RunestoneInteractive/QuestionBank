@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_add_2x_to_the_end
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2473895582
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

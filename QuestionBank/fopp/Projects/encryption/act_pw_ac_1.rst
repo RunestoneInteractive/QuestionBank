@@ -1,6 +1,6 @@
 .. activecode:: act_pw_ac_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.6325747434
     :basecourse: fopp
     :chapter: Projects
     :subchapter: encryption

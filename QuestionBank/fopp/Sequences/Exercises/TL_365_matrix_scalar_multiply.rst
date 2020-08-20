@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_scalar_multiply
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2102002782
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

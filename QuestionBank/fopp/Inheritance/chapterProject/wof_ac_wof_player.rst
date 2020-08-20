@@ -1,6 +1,6 @@
 .. activecode:: wof_ac_wof_player
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3.0674698795
     :basecourse: fopp
     :chapter: Inheritance
     :subchapter: chapterProject

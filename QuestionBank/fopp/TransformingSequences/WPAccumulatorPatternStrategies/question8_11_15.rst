@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_15
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8165784832
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -14,9 +14,9 @@
    :feedback_c: Neither the accumulator nor iterator variable are clear enough. The accumulator variable is better, but could be more clear.
    :correct: b
    :practice: T
-   :pct_on_first: 0.5460176991
-   :total_students_attempting: 1130
-   :num_students_correct: 1123.0
-   :mean_clicks_to_correct: 1.5957257346
+   :pct_on_first: 0.5458553792
+   :total_students_attempting: 1134
+   :num_students_correct: 1127.0
+   :mean_clicks_to_correct: 1.5953859805
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

@@ -1,6 +1,6 @@
 .. mchoice:: question3_2_2_cofi_Q5_lad
    :author: Lynda Danielson
-   :difficulty: 3.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: OurFirstTurtleProgram

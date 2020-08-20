@@ -1,6 +1,6 @@
 .. mchoice:: question19_1_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 2.9838709677
     :basecourse: fopp
     :chapter: TestCases
     :subchapter: Testingfunctions

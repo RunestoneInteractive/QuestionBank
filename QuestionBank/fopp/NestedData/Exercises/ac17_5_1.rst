@@ -1,6 +1,6 @@
 .. actex:: ac17_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4250899179
    :basecourse: fopp
    :chapter: NestedData
    :subchapter: Exercises

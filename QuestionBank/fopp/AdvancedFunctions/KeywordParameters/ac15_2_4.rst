@@ -1,6 +1,6 @@
 .. activecode:: ac15_2_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0282916443
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: KeywordParameters

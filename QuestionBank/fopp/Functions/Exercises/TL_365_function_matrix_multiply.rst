@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_matrix_multiply
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.3480589023
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

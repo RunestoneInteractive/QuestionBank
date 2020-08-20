@@ -1,6 +1,6 @@
 .. mchoice:: question1_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.0454277286
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: SpecialWaystoExecutePythoninthisBook
@@ -16,9 +16,9 @@
    :feedback_b: By using codelens, you can control the execution of a program step by step. You can even go backwards!
    :feedback_c: Codelens works only for the pre-programmed examples.
    :feedback_d: By stepping forward through the Python code in codelens, you are executing the Python program.
-   :pct_on_first: 0.2394074074
-   :total_students_attempting: 3375
-   :num_students_correct: 3209.0
-   :mean_clicks_to_correct: 3.0271112496
+   :pct_on_first: 0.2386430678
+   :total_students_attempting: 3390
+   :num_students_correct: 3225.0
+   :mean_clicks_to_correct: 3.0313178295
 
    Codelens allows you to (select all that apply):

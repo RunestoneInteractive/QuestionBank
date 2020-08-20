@@ -15,8 +15,8 @@
         :feedback_b: Oh no. c is assigned the result of a + b.
         :feedback_c: Oh no. c is assigned the result of a + b.
         :pct_on_first: 1.0
-        :total_students_attempting: 32
-        :num_students_correct: 32.0
+        :total_students_attempting: 36
+        :num_students_correct: 36.0
         :mean_clicks_to_correct: 1.0
 
         

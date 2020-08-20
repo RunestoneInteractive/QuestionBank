@@ -1,6 +1,6 @@
 .. mchoice:: question11_10_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.8667790894
    :basecourse: fopp
    :chapter: Functions
    :subchapter: FlowofExecutionSummary
@@ -16,10 +16,10 @@
    :feedback_c: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :feedback_d: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :practice: T
-   :pct_on_first: 0.7831223629
-   :total_students_attempting: 1185
-   :num_students_correct: 1171.0
-   :mean_clicks_to_correct: 1.4278394535
+   :pct_on_first: 0.7833052277
+   :total_students_attempting: 1186
+   :num_students_correct: 1172.0
+   :mean_clicks_to_correct: 1.4274744027
 
    Consider the following Python code. Note that line numbers are included on the left.
    

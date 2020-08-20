@@ -1,6 +1,6 @@
 .. mchoice:: quiz_6_mc_value_2_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 5.0
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: week2a1

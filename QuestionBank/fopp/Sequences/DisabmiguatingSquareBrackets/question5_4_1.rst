@@ -1,6 +1,6 @@
 .. mchoice:: question5_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.6013986014
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: DisabmiguatingSquareBrackets

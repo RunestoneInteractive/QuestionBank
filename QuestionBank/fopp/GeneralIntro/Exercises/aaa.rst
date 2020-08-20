@@ -1,6 +1,6 @@
 .. parsonsprob:: aaa
    :author: Matthew Zuniga
-   :difficulty: 0.0
+   :difficulty: 3.3345724907
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises

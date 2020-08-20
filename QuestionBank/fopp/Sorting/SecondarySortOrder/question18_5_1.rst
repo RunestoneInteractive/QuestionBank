@@ -1,6 +1,6 @@
 .. mchoice:: question18_5_1
       :author: bmiller
-      :difficulty: 3.0
+      :difficulty: 2.3805309735
       :basecourse: fopp
       :chapter: Sorting
       :subchapter: SecondarySortOrder
@@ -16,10 +16,10 @@
       :feedback_d: The order of the tuple matters. The first item in the tuple is the first condition used to sort.
       :correct: a
       :practice: T
-      :pct_on_first: 0.6538461538
-      :total_students_attempting: 338
-      :num_students_correct: 331.0
-      :mean_clicks_to_correct: 1.6555891239
+      :pct_on_first: 0.6548672566
+      :total_students_attempting: 339
+      :num_students_correct: 332.0
+      :mean_clicks_to_correct: 1.6536144578
 
       What will the sorted function sort by?
       

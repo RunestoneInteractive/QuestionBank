@@ -1,6 +1,6 @@
 .. fillintheblank:: act_enc_fb
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 3.5886654479
     :basecourse: fopp
     :chapter: Projects
     :subchapter: encryption

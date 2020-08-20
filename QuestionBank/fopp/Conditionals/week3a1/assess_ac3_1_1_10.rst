@@ -1,6 +1,6 @@
 .. activecode:: assess_ac3_1_1_10
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0476301705
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: week3a1
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.560455192
-   :total_students_attempting: 703
-   :num_students_correct: 532.0
-   :mean_clicks_to_correct: 1.8101503759
+   :pct_on_first: 0.5610795455
+   :total_students_attempting: 704
+   :num_students_correct: 533.0
+   :mean_clicks_to_correct: 1.808630394
 
    For each string in ``wrd_lst``, find the number of characters in the string. If the number of characters is less than 6, add 1 to ``accum`` so that in the end, ``accum`` will contain an integer representing the total number of words in the list that have fewer than 6 characters.
    ~~~~

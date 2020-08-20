@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch5_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.1472556894
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: Exercises

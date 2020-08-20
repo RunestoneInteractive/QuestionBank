@@ -1,6 +1,6 @@
 .. activecode:: ac18_3_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0749426277
    :basecourse: fopp
    :chapter: Sorting
    :subchapter: Optionalkeyparameter
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5702479339
-   :total_students_attempting: 242
-   :num_students_correct: 223.0
-   :mean_clicks_to_correct: 2.2780269058
+   :pct_on_first: 0.5720164609
+   :total_students_attempting: 243
+   :num_students_correct: 224.0
+   :mean_clicks_to_correct: 2.2723214286
 
    **3.** Once again, sort the list ``nums`` based on the last digit of each number from highest to lowest. However, now you should do so by writing a lambda function. Save the new list as ``nums_sorted_lambda``.
    ~~~~

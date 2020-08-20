@@ -1,6 +1,6 @@
 .. dragndrop:: act_0_image_match
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.1936645068
    :basecourse: fopp
    :chapter: Projects
    :subchapter: scaffolded_code
@@ -16,7 +16,7 @@
    :match_7: process7(img)|||Converts image to high contrast - black and white only
    :match_8: process8(img)|||Lightens image
    :match_9: process9(img)|||Darkens image
-   :pct_on_first: 0.202173913
-   :total_students_attempting: 1380
-   :num_students_correct: 928.0
-   :mean_clicks_to_correct: 8.3739224138
+   :pct_on_first: 0.2015838733
+   :total_students_attempting: 1389
+   :num_students_correct: 932.0
+   :mean_clicks_to_correct: 8.3605150215

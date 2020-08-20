@@ -1,6 +1,6 @@
 .. activecode:: ac1_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1178045515
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: MoreAboutPrograms

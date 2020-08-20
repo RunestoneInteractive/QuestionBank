@@ -1,6 +1,6 @@
 .. mchoice:: questionTry1
    :author: Caston Boyd
-   :difficulty: 1.0
+   :difficulty: 1.6
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

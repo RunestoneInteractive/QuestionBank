@@ -1,6 +1,6 @@
 .. activecode:: assess_ac3_1_1_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.132931206
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: week3a1
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3950795948
-   :total_students_attempting: 691
-   :num_students_correct: 513.0
-   :mean_clicks_to_correct: 3.2436647173
+   :pct_on_first: 0.3945086705
+   :total_students_attempting: 692
+   :num_students_correct: 514.0
+   :mean_clicks_to_correct: 3.2568093385
 
    Create one conditional so that if "Friendly" is in ``w``, then "Friendly is here!" should be assigned to the variable ``wrd``. If it's not, check if "Friend" is in ``w``. If so, the string "Friend is here!" should be assigned to the variable ``wrd``, otherwise "No variation of friend is in here." should be assigned to the variable ``wrd``. (Also consider: does the order of your conditional statements matter for this problem? Why?)
    ~~~~

@@ -1,6 +1,6 @@
 .. mchoice:: question8_8_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.0680628272
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: NonmutatingMethodsonStrings
@@ -16,10 +16,10 @@
    :feedback_c: Yes, correct substitutions!
    :feedback_d: Close:  REPLACE the braces.
    :practice: T
-   :pct_on_first: 0.7325842697
-   :total_students_attempting: 1335
-   :num_students_correct: 1327.0
-   :mean_clicks_to_correct: 1.3843255463
+   :pct_on_first: 0.7329842932
+   :total_students_attempting: 1337
+   :num_students_correct: 1329.0
+   :mean_clicks_to_correct: 1.3837471783
 
    
    What is printed by the following statements?

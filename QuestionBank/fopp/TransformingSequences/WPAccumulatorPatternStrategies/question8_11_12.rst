@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.5239755885
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -14,9 +14,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.6194225722
-   :total_students_attempting: 1143
-   :num_students_correct: 1133.0
-   :mean_clicks_to_correct: 1.5322153575
+   :pct_on_first: 0.6190061029
+   :total_students_attempting: 1147
+   :num_students_correct: 1137.0
+   :mean_clicks_to_correct: 1.5321020229
 
    What sequence will you iterate through as you accumulate a result in the following prompt? Write code to print out each character of the string ``my_str`` on a separate line.

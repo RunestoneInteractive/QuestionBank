@@ -1,6 +1,6 @@
 .. activecode:: hill2019-file
    :author: Scott Hill
-   :difficulty: 3.0
+   :difficulty: 1.6184738956
    :basecourse: fopp
    :chapter: TestCases
    :subchapter: Exercises

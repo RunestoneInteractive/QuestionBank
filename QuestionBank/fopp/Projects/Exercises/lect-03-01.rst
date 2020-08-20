@@ -1,6 +1,6 @@
 .. clickablearea:: lect-03-01
     :author: S MILTON RAJENDRAM
-    :difficulty: 0.0
+    :difficulty: 1.0
     :basecourse: fopp
     :chapter: Projects
     :subchapter: Exercises

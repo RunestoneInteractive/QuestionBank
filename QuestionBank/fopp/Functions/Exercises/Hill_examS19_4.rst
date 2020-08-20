@@ -1,6 +1,6 @@
 .. activecode:: Hill_examS19_4
    :author: Scott Hill
-   :difficulty: 0.0
+   :difficulty: 1.2987186843
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

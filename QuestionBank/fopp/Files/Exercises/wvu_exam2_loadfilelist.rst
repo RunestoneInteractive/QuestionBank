@@ -1,16 +1,16 @@
 .. activecode:: wvu_exam2_loadfilelist
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.5080321285
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises
     :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.1451612903
-    :total_students_attempting: 62
-    :num_students_correct: 31.0
-    :mean_clicks_to_correct: 9.8709677419
+    :pct_on_first: 0.1428571429
+    :total_students_attempting: 63
+    :num_students_correct: 32.0
+    :mean_clicks_to_correct: 9.625
 
     (10 points)
     

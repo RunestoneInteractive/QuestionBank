@@ -1,6 +1,6 @@
 .. mchoice:: question2_14_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.3373493976
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: UpdatingVariables
@@ -16,10 +16,10 @@
    :feedback_c: Yes, this statement sets the value of x equal to the current value minus 1.
    :feedback_d: Remember that variables in Python are different from variables in math in that they (temporarily) hold values, but can be reassigned.
    :practice: T
-   :pct_on_first: 0.9156308851
-   :total_students_attempting: 2655
-   :num_students_correct: 2646.0
-   :mean_clicks_to_correct: 1.1311413454
+   :pct_on_first: 0.9156626506
+   :total_students_attempting: 2656
+   :num_students_correct: 2647.0
+   :mean_clicks_to_correct: 1.131091802
 
    What is printed when the following statements execute?
    

@@ -1,6 +1,6 @@
 .. mchoice:: question7_10_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.0758075148
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: TheAccumulatorPatternwithConditionals
@@ -16,10 +16,10 @@
    :feedback_c: Check again what the conditional is evaluating. The value of i will be a character in the string s, so what will happen in the if statement?
    :feedback_d: There are no errors in this code.
    :practice: T
-   :pct_on_first: 0.7308707124
-   :total_students_attempting: 1516
-   :num_students_correct: 1502.0
-   :mean_clicks_to_correct: 1.4260985353
+   :pct_on_first: 0.7310481213
+   :total_students_attempting: 1517
+   :num_students_correct: 1503.0
+   :mean_clicks_to_correct: 1.4258150366
 
    What is printed by the following statements?
    

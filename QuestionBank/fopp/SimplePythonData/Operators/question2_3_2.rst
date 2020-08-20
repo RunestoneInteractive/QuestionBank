@@ -1,6 +1,6 @@
 .. mchoice:: question2_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.6378653113
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Operators
@@ -18,10 +18,10 @@
    :feedback_d: - Yes, even though it truncates, it produces a floating point result because 18.0 is a float
    :feedback_e: - / does division. Perhaps you were thinking of %, which computes the remainder?
    :practice: T
-   :pct_on_first: 0.3403441683
-   :total_students_attempting: 3138
-   :num_students_correct: 3108.0
-   :mean_clicks_to_correct: 2.0151222651
+   :pct_on_first: 0.3405336722
+   :total_students_attempting: 3148
+   :num_students_correct: 3118.0
+   :mean_clicks_to_correct: 2.0147530468
 
    What value is printed when the following statement executes?
    

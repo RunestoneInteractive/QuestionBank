@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_callclass
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1054040724
     :basecourse: fopp
     :chapter: Classes
     :subchapter: Exercises

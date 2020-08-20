@@ -1,6 +1,6 @@
 .. activecode:: TL_365_ex_2_11_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.1374386435
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

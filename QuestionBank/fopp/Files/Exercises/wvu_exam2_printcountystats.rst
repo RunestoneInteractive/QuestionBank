@@ -1,6 +1,6 @@
 .. activecode:: wvu_exam2_printcountystats
     :author: Brian Powell
-    :difficulty: 4.0
+    :difficulty: 1.0
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises

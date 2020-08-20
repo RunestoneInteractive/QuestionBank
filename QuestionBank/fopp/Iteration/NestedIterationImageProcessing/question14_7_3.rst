@@ -1,6 +1,6 @@
 .. mchoice:: question14_7_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3818646232
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: NestedIterationImageProcessing
@@ -15,10 +15,10 @@
    :feedback_b: The inner for-loop controls the second digit (j). The inner for-loop must complete before the outer for-loop advances.
    :feedback_c: The inner for-loop controls the second digit (j). Notice that the inner for-loop is over the list [0, 1].
    :feedback_d: The outer for-loop runs 3 times (0, 1, 2) and the inner for-loop runs twice for each time the outer for-loop runs, so this code prints exactly 6 lines.
-   :pct_on_first: 0.654313099
-   :total_students_attempting: 1565
-   :num_students_correct: 1554.0
-   :mean_clicks_to_correct: 1.7541827542
+   :pct_on_first: 0.6545338442
+   :total_students_attempting: 1566
+   :num_students_correct: 1555.0
+   :mean_clicks_to_correct: 1.7536977492
 
    What will the following nested for-loop print? (Note, if you are having trouble with this question, review CodeLens 3).
    

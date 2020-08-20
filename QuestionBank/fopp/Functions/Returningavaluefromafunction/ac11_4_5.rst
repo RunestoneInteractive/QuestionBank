@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0367134856
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.639632107
-   :total_students_attempting: 1196
-   :num_students_correct: 952.0
-   :mean_clicks_to_correct: 1.6239495798
+   :pct_on_first: 0.6399331662
+   :total_students_attempting: 1197
+   :num_students_correct: 953.0
+   :mean_clicks_to_correct: 1.6232948583
 
    **9.** Write a function called ``same_thing`` that returns the parameter, unchanged.
    ~~~~

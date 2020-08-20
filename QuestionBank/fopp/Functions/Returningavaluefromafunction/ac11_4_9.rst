@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1198507844
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2809694794
-   :total_students_attempting: 1114
-   :num_students_correct: 805.0
-   :mean_clicks_to_correct: 3.0372670807
+   :pct_on_first: 0.2816143498
+   :total_students_attempting: 1115
+   :num_students_correct: 806.0
+   :mean_clicks_to_correct: 3.0347394541
 
    **13.** Write a function called ``s_change`` that takes one string as input and returns that string, concatenated with the string " for fun.".
    ~~~~

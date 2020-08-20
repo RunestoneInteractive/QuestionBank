@@ -1,6 +1,6 @@
 .. fillintheblank:: hollins_table_3_fb
     :author: Stephen Wassell
-    :difficulty: 1.0
+    :difficulty: 1.8648648649
     :basecourse: fopp
     :chapter: Iteration
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: wvu_exam2_processfilecontents
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 2.3084719832
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises

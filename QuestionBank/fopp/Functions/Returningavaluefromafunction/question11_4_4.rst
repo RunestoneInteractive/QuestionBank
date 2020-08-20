@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.9946380697
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -13,10 +13,10 @@
    :feedback_a: It squares 2, yielding the value 4. But that doesn't mean the next value multiplies 2 and 4.
    :feedback_b: It squares 2, yielding the value 4. 4 is then passed as a value to square again, yeilding 16.
    :feedback_c: This is a more complicated expression, but still valid. The expression square(2) is evaluated, and the return value 4 substitutes for square(2) in the expression.
-   :pct_on_first: 0.7511737089
-   :total_students_attempting: 1491
-   :num_students_correct: 1483.0
-   :mean_clicks_to_correct: 1.3223196224
+   :pct_on_first: 0.7513404826
+   :total_students_attempting: 1492
+   :num_students_correct: 1484.0
+   :mean_clicks_to_correct: 1.3221024259
 
    What will the following code output?
    

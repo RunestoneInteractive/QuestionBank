@@ -1,6 +1,6 @@
 .. activecode:: ac5_9_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0875778604
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: SplitandJoin
@@ -9,8 +9,8 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3118556701
-   :total_students_attempting: 1940
+   :pct_on_first: 0.3116950026
+   :total_students_attempting: 1941
    :num_students_correct: 1481.0
    :mean_clicks_to_correct: 2.4868332208
 

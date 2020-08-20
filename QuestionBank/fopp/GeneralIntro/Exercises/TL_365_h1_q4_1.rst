@@ -1,6 +1,6 @@
 .. activecode:: TL_365_h1_q4_1
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.0537284272
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises

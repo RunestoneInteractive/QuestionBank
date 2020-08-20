@@ -1,6 +1,6 @@
 .. mchoice:: question14_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2834890966
    :basecourse: fopp
    :chapter: MoreAboutIteration
    :subchapter: ThewhileStatement
@@ -16,10 +16,10 @@
    :feedback_c: It is perfectly valid to compare n to 0.  Though indirectly, this is what causes the infinite loop.
    :feedback_d: The loop condition must become False for the loop to terminate, but n by itself is not the condition in this case.
    :practice: T
-   :pct_on_first: 0.6786271451
-   :total_students_attempting: 641
-   :num_students_correct: 631.0
-   :mean_clicks_to_correct: 1.6148969889
+   :pct_on_first: 0.6791277259
+   :total_students_attempting: 642
+   :num_students_correct: 632.0
+   :mean_clicks_to_correct: 1.6139240506
 
    The following code contains an infinite loop. Which is the best explanation for why the loop does not terminate?
    

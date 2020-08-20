@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch7_7
    :author: Kaelyn Leake
-   :difficulty: 1.0
+   :difficulty: 1.5252119589
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

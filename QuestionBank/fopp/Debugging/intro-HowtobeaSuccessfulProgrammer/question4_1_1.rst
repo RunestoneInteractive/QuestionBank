@@ -1,6 +1,6 @@
 .. mchoice:: question4_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.896034298
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: intro-HowtobeaSuccessfulProgrammer

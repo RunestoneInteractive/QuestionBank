@@ -1,6 +1,6 @@
 .. actex:: TL_365_read_x_y
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.3698221457
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :available_files: xy.dat
-   :pct_on_first: 0.1072961373
-   :total_students_attempting: 233
-   :num_students_correct: 139.0
-   :mean_clicks_to_correct: 7.2661870504
+   :pct_on_first: 0.1068376068
+   :total_students_attempting: 234
+   :num_students_correct: 140.0
+   :mean_clicks_to_correct: 7.2785714286
 
    ``xy.dat`` contains two floating point numbers per line, separated
    by a comma.  Read the contents of ``xy.dat`` and store the first

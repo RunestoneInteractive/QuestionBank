@@ -1,6 +1,6 @@
 .. actex:: JC_14_1
    :author: Joaquin Carbonara
-   :difficulty: 2.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

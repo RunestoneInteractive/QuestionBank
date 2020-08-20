@@ -1,6 +1,6 @@
 .. activecode:: wvu_functions_variance
    :author: Brian Powell
-   :difficulty: 3.0
+   :difficulty: 1.250334672
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

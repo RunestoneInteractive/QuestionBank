@@ -1,6 +1,6 @@
 .. parsonsprob:: pp_3_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.875502008
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

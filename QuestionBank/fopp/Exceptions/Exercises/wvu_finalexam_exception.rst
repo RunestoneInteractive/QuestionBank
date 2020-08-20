@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_exception
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.0656339644
     :basecourse: fopp
     :chapter: Exceptions
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: ac21_4_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.257274308
    :basecourse: fopp
    :chapter: AdvancedAccumulation
    :subchapter: listcomp

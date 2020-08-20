@@ -1,6 +1,6 @@
 .. mchoice:: question13_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.6785170137
    :basecourse: fopp
    :chapter: PythonModules
    :subchapter: intro-ModulesandGettingHelp
@@ -15,9 +15,9 @@
    :feedback_b: While a module is separate block of code, it is separate from a program.
    :feedback_c: The call to a feature within a module may be one line of code, but modules are usually multiple lines of code separate from the program.
    :feedback_d: Each module has its own documentation, but the module itself is more than just documentation.
-   :pct_on_first: 0.8302845528
-   :total_students_attempting: 1968
-   :num_students_correct: 1963.0
-   :mean_clicks_to_correct: 1.2750891493
+   :pct_on_first: 0.8303707466
+   :total_students_attempting: 1969
+   :num_students_correct: 1964.0
+   :mean_clicks_to_correct: 1.2749490835
 
    In Python a module is:

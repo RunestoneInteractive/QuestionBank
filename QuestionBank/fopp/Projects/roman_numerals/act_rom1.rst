@@ -1,6 +1,6 @@
 .. fillintheblank:: act_rom1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 2.1880108992
     :basecourse: fopp
     :chapter: Projects
     :subchapter: roman_numerals

@@ -1,6 +1,6 @@
 .. actex:: TL_365_cross_product
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.1299314907
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

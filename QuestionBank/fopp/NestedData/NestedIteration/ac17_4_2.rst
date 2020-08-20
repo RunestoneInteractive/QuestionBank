@@ -1,6 +1,6 @@
 .. activecode:: ac17_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0862866671
    :basecourse: fopp
    :chapter: NestedData
    :subchapter: NestedIteration
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4327868852
-   :total_students_attempting: 305
-   :num_students_correct: 227.0
-   :mean_clicks_to_correct: 2.4713656388
+   :pct_on_first: 0.4346405229
+   :total_students_attempting: 306
+   :num_students_correct: 228.0
+   :mean_clicks_to_correct: 2.4649122807
 
    **2.** Below, we have provided a list of lists that contain information about people. Write code to create a new list that contains every person's last name, and save that list as ``last_names``.
    

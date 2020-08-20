@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.199488491
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -16,9 +16,9 @@
    :feedback_d: Incorrect, we will need an accumulator variable.
    :correct: b
    :practice: T
-   :pct_on_first: 0.4499572284
-   :total_students_attempting: 1169
-   :num_students_correct: 1160.0
-   :mean_clicks_to_correct: 1.7801724138
+   :pct_on_first: 0.4501278772
+   :total_students_attempting: 1173
+   :num_students_correct: 1164.0
+   :mean_clicks_to_correct: 1.779209622
 
    What type should be used for the accumulator variable in the following prompt? For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.

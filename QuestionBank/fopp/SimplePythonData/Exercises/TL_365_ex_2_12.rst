@@ -1,6 +1,6 @@
 .. actex:: TL_365_ex_2_12
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.057391961
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

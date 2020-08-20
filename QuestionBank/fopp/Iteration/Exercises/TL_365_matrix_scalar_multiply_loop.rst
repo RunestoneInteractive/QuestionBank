@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_scalar_multiply_loop
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2634240666
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

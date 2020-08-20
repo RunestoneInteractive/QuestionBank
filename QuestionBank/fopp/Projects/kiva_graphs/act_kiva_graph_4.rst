@@ -1,15 +1,15 @@
 .. activecode:: act_kiva_graph_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.4419570756
     :basecourse: fopp
     :chapter: Projects
     :subchapter: kiva_graphs
     :topics: Projects/kiva_graphs
     :from_source: T
-    :pct_on_first: 0.1259259259
-    :total_students_attempting: 270
-    :num_students_correct: 154.0
-    :mean_clicks_to_correct: 8.512987013
+    :pct_on_first: 0.1254612546
+    :total_students_attempting: 271
+    :num_students_correct: 155.0
+    :mean_clicks_to_correct: 8.5032258065
 
     Given a list of numbers compute the counts for each bucket as represented by the bucket list. (get it!)  Assume that the numbers can be in the range from 0 -- 100. Do not cheat and count these manually.  Tell yourself that test_numbers has ten thousand numbers on it.
     ~~~~

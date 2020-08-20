@@ -1,6 +1,6 @@
 .. mchoice:: question5_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.7325256291
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: ConcatenationandRepetition

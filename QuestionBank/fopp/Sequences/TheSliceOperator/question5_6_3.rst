@@ -1,6 +1,6 @@
 .. mchoice:: question5_6_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.7134220073
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: TheSliceOperator

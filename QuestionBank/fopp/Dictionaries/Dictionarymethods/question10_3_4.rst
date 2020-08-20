@@ -1,6 +1,6 @@
 .. mchoice:: question10_3_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.5460122699
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: Dictionarymethods
@@ -16,10 +16,10 @@
    :feedback_c: This is the accumulator pattern. Total starts at 0 but then changes as the iteration proceeds.
    :feedback_d: Not all the values are added together. The if statement only chooses some of them.
    :practice: T
-   :pct_on_first: 0.613671275
-   :total_students_attempting: 1302
-   :num_students_correct: 1285.0
-   :mean_clicks_to_correct: 1.5455252918
+   :pct_on_first: 0.6134969325
+   :total_students_attempting: 1304
+   :num_students_correct: 1287.0
+   :mean_clicks_to_correct: 1.5454545455
 
    What is printed by the following statements?
    

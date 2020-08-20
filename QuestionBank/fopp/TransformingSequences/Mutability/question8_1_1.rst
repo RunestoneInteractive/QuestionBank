@@ -1,6 +1,6 @@
 .. mchoice:: question8_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.4194407457
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Mutability
@@ -14,10 +14,10 @@
    :feedback_b: Yes, the value True is placed in the list at index 2. It replaces 8.
    :feedback_c: Item assignment is allowed with lists. Lists are mutable.
    :practice: T
-   :pct_on_first: 0.6450967312
-   :total_students_attempting: 1499
-   :num_students_correct: 1494.0
-   :mean_clicks_to_correct: 1.4585006693
+   :pct_on_first: 0.6451398136
+   :total_students_attempting: 1502
+   :num_students_correct: 1497.0
+   :mean_clicks_to_correct: 1.4595858383
 
    What is printed by the following statements?
    

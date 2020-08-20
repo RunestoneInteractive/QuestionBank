@@ -1,6 +1,6 @@
 .. mchoice:: question19_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.32
    :basecourse: fopp
    :chapter: Classes
    :subchapter: TestingClasses

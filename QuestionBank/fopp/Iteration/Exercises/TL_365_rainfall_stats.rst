@@ -1,6 +1,6 @@
 .. actex:: TL_365_rainfall_stats
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.3477134344
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

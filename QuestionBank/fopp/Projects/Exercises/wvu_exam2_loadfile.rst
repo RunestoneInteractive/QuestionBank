@@ -1,6 +1,6 @@
 .. activecode:: wvu_exam2_loadfile
     :author: Brian Powell
-    :difficulty: 2.0
+    :difficulty: 1.0
     :basecourse: fopp
     :chapter: Projects
     :subchapter: Exercises

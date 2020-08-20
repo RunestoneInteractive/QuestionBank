@@ -1,6 +1,6 @@
 .. mchoice:: question7_10_3
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3.5245901639
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: TheAccumulatorPatternwithConditionals

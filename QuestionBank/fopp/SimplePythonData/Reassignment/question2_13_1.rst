@@ -1,6 +1,6 @@
 .. mchoice:: question2_13_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.070574624
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Reassignment
@@ -16,10 +16,10 @@
    :feedback_c: Look at the last assignment statement, which reassigns x, and not y.
    :feedback_d: Yes, x has the value 22 and y the value 15.
    :practice: T
-   :pct_on_first: 0.7322530864
-   :total_students_attempting: 2592
-   :num_students_correct: 2580.0
-   :mean_clicks_to_correct: 1.4205426357
+   :pct_on_first: 0.732356344
+   :total_students_attempting: 2593
+   :num_students_correct: 2581.0
+   :mean_clicks_to_correct: 1.4203796978
 
    After the following statements, what are the values of x and y?
    

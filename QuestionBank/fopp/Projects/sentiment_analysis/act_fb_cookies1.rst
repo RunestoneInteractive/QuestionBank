@@ -1,6 +1,6 @@
 .. fillintheblank:: act_fb_cookies1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 4.6631578947
     :basecourse: fopp
     :chapter: Projects
     :subchapter: sentiment_analysis

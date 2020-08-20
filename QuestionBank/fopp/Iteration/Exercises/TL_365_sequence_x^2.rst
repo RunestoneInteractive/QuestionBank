@@ -1,6 +1,6 @@
 .. actex:: TL_365_sequence_x^2
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.1835559291
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

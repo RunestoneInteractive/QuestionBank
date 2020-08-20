@@ -1,6 +1,6 @@
 .. activecode:: ac12_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0495178454
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TuplesasReturnValues
@@ -10,10 +10,10 @@
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.587012987
-   :total_students_attempting: 385
-   :num_students_correct: 294.0
-   :mean_clicks_to_correct: 1.843537415
+   :pct_on_first: 0.5880829016
+   :total_students_attempting: 386
+   :num_students_correct: 295.0
+   :mean_clicks_to_correct: 1.8406779661
 
    Define a function called ``information`` that takes as input, the variables ``name``, ``birth_year``, ``fav_color``, and ``hometown``. It should return a tuple of these variables in this order.
    ~~~~

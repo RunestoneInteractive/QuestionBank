@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0411052919
    :basecourse: fopp
    :chapter: Files
    :subchapter: ChapterAssessment
@@ -11,10 +11,10 @@
    :practice: T
    :available_files: travel_plans.txt
    :nocodelens: 
-   :pct_on_first: 0.5523520486
-   :total_students_attempting: 659
-   :num_students_correct: 511.0
-   :mean_clicks_to_correct: 1.7005870841
+   :pct_on_first: 0.5537065053
+   :total_students_attempting: 661
+   :num_students_correct: 513.0
+   :mean_clicks_to_correct: 1.6978557505
 
    Assign the first 33 characters from the textfile, ``travel_plans.txt`` to the variable ``first_chars``.
    ~~~~

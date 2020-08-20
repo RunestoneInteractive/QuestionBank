@@ -1,6 +1,6 @@
 .. activecode:: ac_chp13_classes_01
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0990430859
    :basecourse: fopp
    :chapter: Classes
    :subchapter: AddingOtherMethodstoourClass

@@ -1,6 +1,6 @@
 .. parsonsprob:: pp7_14_10
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 3.6618181818
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: assess_question1_1_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.027395368
     :basecourse: fopp
     :chapter: GeneralIntro
     :subchapter: Exercises
@@ -8,10 +8,10 @@
     :from_source: T
     :language: python
     :autograde: unittest
-    :pct_on_first: 0.7097578348
-    :total_students_attempting: 2808
-    :num_students_correct: 2623.0
-    :mean_clicks_to_correct: 1.4647350362
+    :pct_on_first: 0.7090715804
+    :total_students_attempting: 2822
+    :num_students_correct: 2636.0
+    :mean_clicks_to_correct: 1.4650986343
 
     Write code to print out the phrase "Hello World".
     ~~~~

@@ -1,6 +1,6 @@
 .. mchoice:: question7_7_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.4069898534
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: OmittingtheelseClauseUnarySelection

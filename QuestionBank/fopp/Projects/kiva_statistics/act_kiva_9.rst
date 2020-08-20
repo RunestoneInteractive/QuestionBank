@@ -1,6 +1,6 @@
 .. activecode:: act_kiva_9
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.1124497992
     :basecourse: fopp
     :chapter: Projects
     :subchapter: kiva_statistics

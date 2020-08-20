@@ -1,6 +1,6 @@
 .. activecode:: wvu_exceptions_filenotfound
     :author: Brian Powell
-    :difficulty: 4.0
+    :difficulty: 1.0634332201
     :basecourse: fopp
     :chapter: Exceptions
     :subchapter: Exercises

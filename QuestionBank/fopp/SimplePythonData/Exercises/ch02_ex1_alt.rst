@@ -1,6 +1,6 @@
 .. fillintheblank:: ch02_ex1_alt
    :author: Scott Hill
-   :difficulty: 1.0
+   :difficulty: 2.8863636364
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: KDL_exam2_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.4146720214
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises

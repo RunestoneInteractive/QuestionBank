@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch6_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.1598776057
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

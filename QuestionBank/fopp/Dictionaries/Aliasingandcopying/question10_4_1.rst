@@ -1,6 +1,6 @@
 .. mchoice:: question10_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.1136
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: Aliasingandcopying
@@ -16,10 +16,10 @@
    :feedback_c: Yes, since yourdict is an alias for mydict, the value for the key elephant has been changed.
    :feedback_d: There is only one dictionary with only one key named elephant.  The dictionary has two different names, mydict and yourdict.
    :practice: T
-   :pct_on_first: 0.7219551282
-   :total_students_attempting: 1248
-   :num_students_correct: 1228.0
-   :mean_clicks_to_correct: 1.3973941368
+   :pct_on_first: 0.7216
+   :total_students_attempting: 1250
+   :num_students_correct: 1230.0
+   :mean_clicks_to_correct: 1.3975609756
 
    What is printed by the following statements?
    

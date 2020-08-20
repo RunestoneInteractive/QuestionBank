@@ -1,6 +1,6 @@
 .. mchoice:: irma_hw1_q4
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1.8563968668
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

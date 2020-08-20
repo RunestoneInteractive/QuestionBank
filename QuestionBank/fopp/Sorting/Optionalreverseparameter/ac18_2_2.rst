@@ -1,6 +1,6 @@
 .. activecode:: ac18_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0693363932
    :basecourse: fopp
    :chapter: Sorting
    :subchapter: Optionalreverseparameter
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3587962963
-   :total_students_attempting: 432
-   :num_students_correct: 348.0
-   :mean_clicks_to_correct: 2.183908046
+   :pct_on_first: 0.3617511521
+   :total_students_attempting: 434
+   :num_students_correct: 350.0
+   :mean_clicks_to_correct: 2.1771428571
 
    **1.** Sort the list, ``lst`` from largest to smallest. Save this new list to the variable ``lst_sorted``.
    ~~~~

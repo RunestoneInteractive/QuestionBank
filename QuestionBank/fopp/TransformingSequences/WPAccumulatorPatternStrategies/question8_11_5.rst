@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8632911392
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -16,9 +16,9 @@
    :feedback_d: Incorrect, we will need an accumulator variable.
    :correct: c
    :practice: T
-   :pct_on_first: 0.532599492
-   :total_students_attempting: 1181
-   :num_students_correct: 1171.0
-   :mean_clicks_to_correct: 1.9060631939
+   :pct_on_first: 0.5341772152
+   :total_students_attempting: 1185
+   :num_students_correct: 1175.0
+   :mean_clicks_to_correct: 1.9029787234
 
    What type should be used for the accumulator variable in the following prompt? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

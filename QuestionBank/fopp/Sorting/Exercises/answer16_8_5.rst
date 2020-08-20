@@ -1,6 +1,6 @@
 .. actex:: answer16_8_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.0
     :basecourse: fopp
     :chapter: Sorting
     :subchapter: Exercises

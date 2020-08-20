@@ -1,6 +1,6 @@
 .. actex:: TL_365_double_angle_sin
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.151618821
    :basecourse: fopp
    :chapter: PythonModules
    :subchapter: Exercises

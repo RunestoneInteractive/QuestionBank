@@ -1,6 +1,6 @@
 .. dragndrop:: dnd_exxx1
     :author: Sabrina Morales
-    :difficulty: 2.0
+    :difficulty: 3.1153846154
     :basecourse: fopp
     :chapter: GeneralIntro
     :subchapter: Exercises

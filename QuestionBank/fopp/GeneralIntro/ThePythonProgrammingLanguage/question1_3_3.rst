@@ -1,6 +1,6 @@
 .. mchoice:: question1_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3932960894
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: ThePythonProgrammingLanguage
@@ -15,9 +15,9 @@
    :feedback_b: Compilers take the entire source code and produce object code or the executable and interpreters execute the code line by line.
    :feedback_c: Both compilers and interpreters are software.
    :feedback_d: Compilers can produce object code or byte code depending on the language.  An interpreter produces neither.
-   :pct_on_first: 0.6517957351
-   :total_students_attempting: 3564
-   :num_students_correct: 3513.0
-   :mean_clicks_to_correct: 1.6034728153
+   :pct_on_first: 0.6516759777
+   :total_students_attempting: 3580
+   :num_students_correct: 3529.0
+   :mean_clicks_to_correct: 1.6047038821
 
    Pick the best replacements for 1 and 2 in the following sentence: When comparing compilers and interpreters, a compiler is like 1 while an interpreter is like 2.

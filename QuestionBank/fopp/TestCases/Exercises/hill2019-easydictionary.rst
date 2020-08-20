@@ -1,6 +1,6 @@
 .. activecode:: hill2019-easydictionary
    :author: Scott Hill
-   :difficulty: 1.0
+   :difficulty: 1.2524383247
    :basecourse: fopp
    :chapter: TestCases
    :subchapter: Exercises

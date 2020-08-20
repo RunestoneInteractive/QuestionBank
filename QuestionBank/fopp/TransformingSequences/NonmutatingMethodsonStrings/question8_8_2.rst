@@ -1,6 +1,6 @@
 .. mchoice:: question8_8_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.0663780664
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: NonmutatingMethodsonStrings
@@ -16,10 +16,10 @@
    :feedback_c: This expression uses the index of n
    :feedback_d: This is fine, the repetition operator used the result of indexing and the index method.
    :practice: T
-   :pct_on_first: 0.4833815029
-   :total_students_attempting: 1384
-   :num_students_correct: 1375.0
-   :mean_clicks_to_correct: 1.9672727273
+   :pct_on_first: 0.4834054834
+   :total_students_attempting: 1386
+   :num_students_correct: 1377.0
+   :mean_clicks_to_correct: 1.966594045
 
    What is printed by the following statements?
    

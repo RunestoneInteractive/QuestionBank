@@ -1,6 +1,6 @@
 .. mchoice:: question7_9_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.1618282891
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Chainedconditionals

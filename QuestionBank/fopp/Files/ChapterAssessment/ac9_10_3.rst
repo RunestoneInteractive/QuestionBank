@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0362741288
    :basecourse: fopp
    :chapter: Files
    :subchapter: ChapterAssessment
@@ -11,10 +11,10 @@
    :practice: T
    :available_files: school_prompt.txt
    :nocodelens: 
-   :pct_on_first: 0.6137761378
-   :total_students_attempting: 813
-   :num_students_correct: 680.0
-   :mean_clicks_to_correct: 1.6176470588
+   :pct_on_first: 0.6147239264
+   :total_students_attempting: 815
+   :num_students_correct: 682.0
+   :mean_clicks_to_correct: 1.6158357771
 
    Assign to the variable ``num_lines`` the number of lines in the file ``school_prompt.txt``.
    ~~~~

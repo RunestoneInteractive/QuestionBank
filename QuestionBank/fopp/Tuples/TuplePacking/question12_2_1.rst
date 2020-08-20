@@ -1,6 +1,6 @@
 .. mchoice:: question12_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.784
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TuplePacking
@@ -19,9 +19,9 @@
    :feedback_d: Index into tuples using square brackets. julia(-1) will try to treat julia as a function call, with -1 as the parameter value.
    :feedback_e: Indexing starts at 0. You want the seventh item, which is julia[6]
    :practice: T
-   :pct_on_first: 0.3046092184
-   :total_students_attempting: 499
-   :num_students_correct: 485.0
-   :mean_clicks_to_correct: 2.6989690722
+   :pct_on_first: 0.304
+   :total_students_attempting: 500
+   :num_students_correct: 486.0
+   :mean_clicks_to_correct: 2.6975308642
 
    Which of the following statements will output Atlanta, Georgia

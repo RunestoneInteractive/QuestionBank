@@ -1,6 +1,6 @@
 .. activecode:: ac5_9_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0702296365
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: SplitandJoin

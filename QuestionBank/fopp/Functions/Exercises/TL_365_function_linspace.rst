@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_linspace
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 2.2420697282
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

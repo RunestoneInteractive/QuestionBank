@@ -1,6 +1,6 @@
 .. mchoice:: question2_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.0910344828
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Variables
@@ -16,10 +16,10 @@
    :feedback_c: This is the second value assigned to the variable day, but the next statement reassigns that variable to a new value.
    :feedback_d: The variable day will contain the last value assigned to it when it is printed.
    :practice: T
-   :pct_on_first: 0.7273982057
-   :total_students_attempting: 2898
-   :num_students_correct: 2889.0
-   :mean_clicks_to_correct: 1.4998269297
+   :pct_on_first: 0.7272413793
+   :total_students_attempting: 2900
+   :num_students_correct: 2891.0
+   :mean_clicks_to_correct: 1.4998270495
 
    What is printed when the following statements execute?
    

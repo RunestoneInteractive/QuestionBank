@@ -1,6 +1,6 @@
 .. parsonsprob:: irma_Ch1_q3_cofi_lad_2
    :author: Lynda Danielson
-   :difficulty: 0.0
+   :difficulty: 1.4444444444
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises

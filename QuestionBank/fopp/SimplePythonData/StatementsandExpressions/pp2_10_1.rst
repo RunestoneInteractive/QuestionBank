@@ -1,15 +1,15 @@
 .. parsonsprob:: pp2_10_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.5476387738
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: StatementsandExpressions
    :topics: SimplePythonData/StatementsandExpressions
    :from_source: T
-   :pct_on_first: 0.1131371736
-   :total_students_attempting: 2413
-   :num_students_correct: 1526.0
-   :mean_clicks_to_correct: 23.4226736566
+   :pct_on_first: 0.1130903065
+   :total_students_attempting: 2414
+   :num_students_correct: 1527.0
+   :mean_clicks_to_correct: 23.4092992796
 
    Please order the code fragments in the order in which the Python interpreter would evaluate them. x is 2 and y is 3. Now the interpreter is executing `square(x + sub(square(y), 2 *x))`.
    

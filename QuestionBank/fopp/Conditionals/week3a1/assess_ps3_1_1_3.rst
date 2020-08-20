@@ -1,6 +1,6 @@
 .. activecode:: assess_ps3_1_1_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.1013807053
     :basecourse: fopp
     :chapter: Conditionals
     :subchapter: week3a1
@@ -9,10 +9,10 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :pct_on_first: 0.5281030445
-    :total_students_attempting: 854
-    :num_students_correct: 684.0
-    :mean_clicks_to_correct: 2.7236842105
+    :pct_on_first: 0.5286549708
+    :total_students_attempting: 855
+    :num_students_correct: 685.0
+    :mean_clicks_to_correct: 2.7211678832
 
     Write code to count the number of strings in list ``items`` that have the character ``w`` in it. Assign that number to the variable ``acc_num``.
     

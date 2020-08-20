@@ -1,6 +1,6 @@
 .. actex:: ac3_8_1_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.111914324
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: Exercises

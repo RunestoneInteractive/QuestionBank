@@ -1,6 +1,6 @@
 .. actex:: TL_365_ch_cl_02
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2234224253
    :basecourse: fopp
    :chapter: Classes
    :subchapter: Exercises

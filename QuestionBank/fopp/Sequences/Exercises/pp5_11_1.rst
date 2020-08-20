@@ -1,13 +1,13 @@
 .. parsonsprob:: pp5_11_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.6625615764
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises
    :topics: Sequences/Exercises
    :from_source: T
-   :pct_on_first: 0.0844115835
-   :total_students_attempting: 1623
+   :pct_on_first: 0.0843596059
+   :total_students_attempting: 1624
    :num_students_correct: 1484.0
    :mean_clicks_to_correct: 7.1839622642
 

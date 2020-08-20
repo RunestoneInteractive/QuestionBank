@@ -1,6 +1,6 @@
 .. mchoice:: question14_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2116182573
    :basecourse: fopp
    :chapter: MoreAboutIteration
    :subchapter: RandomlyWalkingTurtles
@@ -15,9 +15,9 @@
    :feedback_b: The isInScreen function does not contain a while-loop. That loop is outside the isInScreen function.
    :feedback_c: The isInScreen function does not move the turtle.
    :feedback_d: While the isInScreen function does use the size of the window and position of the turtle, it does not return the turtle position.
-   :pct_on_first: 0.6964656965
-   :total_students_attempting: 481
-   :num_students_correct: 474.0
-   :mean_clicks_to_correct: 1.5654008439
+   :pct_on_first: 0.6970954357
+   :total_students_attempting: 482
+   :num_students_correct: 475.0
+   :mean_clicks_to_correct: 1.5642105263
 
    In the random walk program in this section, what does the isInScreen function do?

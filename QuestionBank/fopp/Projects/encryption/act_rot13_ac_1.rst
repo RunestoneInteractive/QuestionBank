@@ -1,6 +1,6 @@
 .. activecode:: act_rot13_ac_1
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.3427324321
     :basecourse: fopp
     :chapter: Projects
     :subchapter: encryption

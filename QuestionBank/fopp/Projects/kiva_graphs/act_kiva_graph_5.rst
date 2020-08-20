@@ -1,16 +1,16 @@
 .. activecode:: act_kiva_graph_5
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.7906701883
     :basecourse: fopp
     :chapter: Projects
     :subchapter: kiva_graphs
     :topics: Projects/kiva_graphs
     :from_source: T
     :include: act_kiva_graph_data
-    :pct_on_first: 0.119047619
-    :total_students_attempting: 210
-    :num_students_correct: 110.0
-    :mean_clicks_to_correct: 14.5090909091
+    :pct_on_first: 0.1184834123
+    :total_students_attempting: 211
+    :num_students_correct: 111.0
+    :mean_clicks_to_correct: 14.4234234234
 
     Now repeat what you did before, but use the ``loan_amount`` list.  This time it is a little more complicated because you will need to create your own bucket list, and the numbers are spread out over a much larger range that does not start at 0.  You don't want to waste any bins so you need to evenly divide the spread of the numbers in the ``loan_amount`` list.  Note:  This is a good problem for learning about boundary conditions.
     ~~~~

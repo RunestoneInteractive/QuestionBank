@@ -1,6 +1,6 @@
 .. actex:: ac21_6_16
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0736278447
    :basecourse: fopp
    :chapter: AdvancedAccumulation
    :subchapter: Exercises

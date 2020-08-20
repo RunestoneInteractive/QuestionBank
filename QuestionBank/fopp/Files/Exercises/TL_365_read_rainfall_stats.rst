@@ -1,6 +1,6 @@
 .. actex:: TL_365_read_rainfall_stats
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.6245863959
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises
@@ -9,8 +9,8 @@
    :language: python
    :autograde: unittest
    :available_files: van_nuys_seasonal_rainfall.dat
-   :pct_on_first: 0.0458715596
-   :total_students_attempting: 109
+   :pct_on_first: 0.0454545455
+   :total_students_attempting: 110
    :num_students_correct: 53.0
    :mean_clicks_to_correct: 11.6037735849
 

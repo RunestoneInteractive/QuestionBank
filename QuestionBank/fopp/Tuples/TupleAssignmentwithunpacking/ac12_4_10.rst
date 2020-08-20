@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_10
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0057747329
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TupleAssignmentwithunpacking
@@ -10,10 +10,10 @@
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.745308311
-   :total_students_attempting: 373
-   :num_students_correct: 305.0
-   :mean_clicks_to_correct: 1.0983606557
+   :pct_on_first: 0.7459893048
+   :total_students_attempting: 374
+   :num_students_correct: 306.0
+   :mean_clicks_to_correct: 1.0980392157
 
    With only one line of code, assign four variables, ``v1``, ``v2``, ``v3``, and ``v4``, to the following four values: 1, 2, 3, 4.
    ~~~~

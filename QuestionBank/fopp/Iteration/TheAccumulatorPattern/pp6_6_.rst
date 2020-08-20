@@ -1,6 +1,6 @@
 .. parsonsprob:: pp6_6_
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 2.8008658009
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: TheAccumulatorPattern

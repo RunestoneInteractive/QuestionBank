@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch10_3
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.4123159304
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: assess_ac3_1_1_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.018541712
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: week3a1
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.7798561151
-   :total_students_attempting: 695
-   :num_students_correct: 682.0
-   :mean_clicks_to_correct: 1.3152492669
+   :pct_on_first: 0.7801724138
+   :total_students_attempting: 696
+   :num_students_correct: 683.0
+   :mean_clicks_to_correct: 1.3147877013
 
    We have written conditionals for you to use. Create the variable x and assign it some integer so that at the end of the code, ``output`` will be assigned the string ``"Consistently working"``.
    ~~~~

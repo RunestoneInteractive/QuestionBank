@@ -1,6 +1,6 @@
 .. actex:: TL_365_sum_50_100
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.0431950022
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

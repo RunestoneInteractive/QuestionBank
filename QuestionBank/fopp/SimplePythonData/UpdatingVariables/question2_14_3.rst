@@ -1,6 +1,6 @@
 .. mchoice:: question2_14_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.3502994012
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: UpdatingVariables
@@ -19,9 +19,9 @@
    :feedback_d: x is updated to be the old value of x plus the value of y.
    :feedback_e: ++ is not a syntax that means anything in Python.
    :practice: T
-   :pct_on_first: 0.4122051666
-   :total_students_attempting: 2671
-   :num_students_correct: 2560.0
-   :mean_clicks_to_correct: 2.940234375
+   :pct_on_first: 0.4124251497
+   :total_students_attempting: 2672
+   :num_students_correct: 2561.0
+   :mean_clicks_to_correct: 2.9394767669
 
    Which of the following statements are equivalent?

@@ -1,6 +1,6 @@
 .. actex:: TL_365_class_vector
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.3092369478
    :basecourse: fopp
    :chapter: Classes
    :subchapter: Exercises

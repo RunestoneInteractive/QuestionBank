@@ -1,6 +1,6 @@
 .. actex:: TL_365_sequence_0_2_0.2_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.6282909415
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

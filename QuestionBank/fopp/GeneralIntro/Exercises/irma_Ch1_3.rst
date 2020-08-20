@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_3
         :author: Irma Ravkic
-        :difficulty: 1.0
+        :difficulty: 4.625
         :basecourse: fopp
         :chapter: GeneralIntro
         :subchapter: Exercises

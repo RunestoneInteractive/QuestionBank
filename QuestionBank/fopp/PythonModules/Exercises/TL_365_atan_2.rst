@@ -1,6 +1,6 @@
 .. actex:: TL_365_atan_2
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.1236118182
    :basecourse: fopp
    :chapter: PythonModules
    :subchapter: Exercises

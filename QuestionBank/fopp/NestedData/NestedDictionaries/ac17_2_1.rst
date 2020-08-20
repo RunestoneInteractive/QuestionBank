@@ -1,6 +1,6 @@
 .. activecode:: ac17_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0906408807
    :basecourse: fopp
    :chapter: NestedData
    :subchapter: NestedDictionaries
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3173652695
-   :total_students_attempting: 334
-   :num_students_correct: 205.0
-   :mean_clicks_to_correct: 2.5414634146
+   :pct_on_first: 0.3164179104
+   :total_students_attempting: 335
+   :num_students_correct: 206.0
+   :mean_clicks_to_correct: 2.5388349515
 
    **1.** Extract the value associated with the key color and assign it to the variable ``color``. Do not hard code this.
    

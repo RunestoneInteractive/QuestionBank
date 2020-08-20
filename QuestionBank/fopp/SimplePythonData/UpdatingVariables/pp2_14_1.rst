@@ -1,15 +1,15 @@
 .. parsonsprob:: pp2_14_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.5166795966
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: UpdatingVariables
    :topics: SimplePythonData/UpdatingVariables
    :from_source: T
-   :pct_on_first: 0.8707799767
-   :total_students_attempting: 2577
-   :num_students_correct: 2539.0
-   :mean_clicks_to_correct: 1.2059866089
+   :pct_on_first: 0.8708301009
+   :total_students_attempting: 2578
+   :num_students_correct: 2540.0
+   :mean_clicks_to_correct: 1.2059055118
 
    Construct the code that will result in the value 134 being printed.
    -----

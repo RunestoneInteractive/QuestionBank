@@ -1,6 +1,6 @@
 .. parsonsprob:: irma_Ch1_removed_quiz_reference
    :author: Alathea Jensen
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises

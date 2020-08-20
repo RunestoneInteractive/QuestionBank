@@ -1,6 +1,6 @@
 .. activecode:: wvu_string_concat
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 1.1585830501
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

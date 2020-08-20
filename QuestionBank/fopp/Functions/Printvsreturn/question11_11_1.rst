@@ -1,6 +1,6 @@
 .. mchoice:: question11_11_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2665075577
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Printvsreturn
@@ -18,10 +18,10 @@
    :feedback_d: 3 is added to the result of squaring 2
    :feedback_e: When square is called, x is bound to the parameter value that is passed in, 2.
    :practice: T
-   :pct_on_first: 0.6831210191
-   :total_students_attempting: 1256
-   :num_students_correct: 1240.0
-   :mean_clicks_to_correct: 1.5766129032
+   :pct_on_first: 0.6833731106
+   :total_students_attempting: 1257
+   :num_students_correct: 1241.0
+   :mean_clicks_to_correct: 1.5761482675
 
    What will the following code output?
    

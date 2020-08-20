@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_transpose
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.5222668452
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises

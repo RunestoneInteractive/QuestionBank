@@ -1,6 +1,6 @@
 .. mchoice:: question_inheritance_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.1346153846
    :basecourse: fopp
    :chapter: Inheritance
    :subchapter: InvokingSuperMethods

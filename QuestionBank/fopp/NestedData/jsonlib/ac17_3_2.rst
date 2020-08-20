@@ -1,6 +1,6 @@
 .. activecode:: ac17_3_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.0589022758
     :basecourse: fopp
     :chapter: NestedData
     :subchapter: jsonlib

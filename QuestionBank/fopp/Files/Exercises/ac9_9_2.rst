@@ -1,6 +1,6 @@
 .. actex:: ac9_9_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.2996482052
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises

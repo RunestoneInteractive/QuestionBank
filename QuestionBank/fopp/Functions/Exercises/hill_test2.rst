@@ -1,6 +1,6 @@
 .. activecode:: hill_test2
    :author: Scott Hill
-   :difficulty: 0.0
+   :difficulty: 1.1587800477
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

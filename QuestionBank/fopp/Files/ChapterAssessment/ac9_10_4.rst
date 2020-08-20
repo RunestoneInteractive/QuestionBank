@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0801109512
    :basecourse: fopp
    :chapter: Files
    :subchapter: ChapterAssessment
@@ -11,10 +11,10 @@
    :practice: T
    :available_files: school_prompt.txt
    :nocodelens: 
-   :pct_on_first: 0.4893617021
-   :total_students_attempting: 752
-   :num_students_correct: 609.0
-   :mean_clicks_to_correct: 2.3645320197
+   :pct_on_first: 0.4907161804
+   :total_students_attempting: 754
+   :num_students_correct: 611.0
+   :mean_clicks_to_correct: 2.3600654664
 
    Assign the first 30 characters of ``school_prompt.txt`` as a string to the variable ``beginning_chars``.
    ~~~~

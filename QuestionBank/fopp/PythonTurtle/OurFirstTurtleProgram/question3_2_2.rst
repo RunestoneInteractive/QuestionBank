@@ -1,6 +1,6 @@
 .. mchoice:: question3_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2044609665
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: OurFirstTurtleProgram

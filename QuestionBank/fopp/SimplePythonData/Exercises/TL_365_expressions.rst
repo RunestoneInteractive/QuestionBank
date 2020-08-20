@@ -1,6 +1,6 @@
 .. activecode:: TL_365_expressions
     :author: Tyler Luchko
-    :difficulty: 0.0
+    :difficulty: 1.1491502071
     :basecourse: fopp
     :chapter: SimplePythonData
     :subchapter: Exercises

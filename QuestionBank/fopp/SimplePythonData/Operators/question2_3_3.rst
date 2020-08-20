@@ -1,6 +1,6 @@
 .. mchoice:: question2_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.0875634518
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Operators
@@ -16,10 +16,10 @@
    :feedback_c: The % operator returns the remainder after division.
    :feedback_d: The % operator returns the remainder after division.
    :practice: T
-   :pct_on_first: 0.7285168682
-   :total_students_attempting: 3142
-   :num_students_correct: 3115.0
-   :mean_clicks_to_correct: 1.5585874799
+   :pct_on_first: 0.7281091371
+   :total_students_attempting: 3152
+   :num_students_correct: 3125.0
+   :mean_clicks_to_correct: 1.56064
 
    What value is printed when the following statement executes?
    

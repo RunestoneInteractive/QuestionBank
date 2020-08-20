@@ -1,6 +1,6 @@
 .. actex:: hollins_table_intro_2_ac
    :author: Stephen Wassell
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

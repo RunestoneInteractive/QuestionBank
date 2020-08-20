@@ -1,6 +1,6 @@
 .. activecode:: ac18_4_10
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1356188984
    :basecourse: fopp
    :chapter: Sorting
    :subchapter: SortingaDictionary
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.3104575163
-   :total_students_attempting: 306
-   :num_students_correct: 204.0
-   :mean_clicks_to_correct: 3.3088235294
+   :pct_on_first: 0.3094462541
+   :total_students_attempting: 307
+   :num_students_correct: 205.0
+   :mean_clicks_to_correct: 3.3024390244
 
    **4.** Sort the following dictionary's keys based on the value from highest to lowest. Assign the resulting value to the variable ``sorted_values``.
    ~~~~

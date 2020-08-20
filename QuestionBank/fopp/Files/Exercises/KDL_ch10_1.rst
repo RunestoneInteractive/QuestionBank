@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch10_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.6322177599
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises
@@ -8,10 +8,10 @@
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.0614035088
-   :total_students_attempting: 228
-   :num_students_correct: 119.0
-   :mean_clicks_to_correct: 11.6050420168
+   :pct_on_first: 0.0611353712
+   :total_students_attempting: 229
+   :num_students_correct: 120.0
+   :mean_clicks_to_correct: 11.7333333333
 
    How often does "red" and "scarlet" appear in Sir. Arthur Conan Doyle's "The Study in Scarlet". Use the scarlet.txt file to determine and return your values as ``red_count`` and ``scarlet_count``.
    ~~~~

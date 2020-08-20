@@ -1,6 +1,6 @@
 .. actex:: fixedex_2_14
    :author: Beth Stade
-   :difficulty: 0.0
+   :difficulty: 1.0775029944
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

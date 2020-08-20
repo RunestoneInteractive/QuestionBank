@@ -1,6 +1,6 @@
 .. actex:: TL_365_rainfall_above_ave
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.3259259259
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. mchoice:: df_question200_1_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.0165537998
    :basecourse: fopp
    :chapter: Functions
    :subchapter: DecodingaFunction
@@ -19,10 +19,10 @@
    :feedback_d: neither y-2 or  x+3 could produce a string.
    :feedback_e: You can tell from the expressions that follow the word return.
    :practice: T
-   :pct_on_first: 0.4954819277
-   :total_students_attempting: 1328
-   :num_students_correct: 1304.0
-   :mean_clicks_to_correct: 2.0536809816
+   :pct_on_first: 0.49586155
+   :total_students_attempting: 1329
+   :num_students_correct: 1305.0
+   :mean_clicks_to_correct: 2.0528735632
 
    What are the possible types of the return value from cyu3?
    

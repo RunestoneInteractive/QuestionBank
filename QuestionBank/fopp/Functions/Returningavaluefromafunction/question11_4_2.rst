@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.9787234043
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -14,10 +14,10 @@
    :feedback_b: Careful!  This is a very common mistake.  Here we have printed the value x+y+z but we have not returned it.  To return a value we MUST use the return keyword.
    :feedback_c: x+y+z calculates a number (assuming x+y+z are numbers) which represents the sum of the values x, y and z.
    :practice: T
-   :pct_on_first: 0.50499002
-   :total_students_attempting: 1503
-   :num_students_correct: 1495.0
-   :mean_clicks_to_correct: 1.8133779264
+   :pct_on_first: 0.5053191489
+   :total_students_attempting: 1504
+   :num_students_correct: 1496.0
+   :mean_clicks_to_correct: 1.8128342246
 
    What will the following function return?
    

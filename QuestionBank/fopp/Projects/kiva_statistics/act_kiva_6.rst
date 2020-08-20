@@ -1,16 +1,16 @@
 .. activecode:: act_kiva_6
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.1987951807
     :basecourse: fopp
     :chapter: Projects
     :subchapter: kiva_statistics
     :topics: Projects/kiva_statistics
     :from_source: T
     :include: act_kiva_1
-    :pct_on_first: 0.2366127024
-    :total_students_attempting: 803
-    :num_students_correct: 647.0
-    :mean_clicks_to_correct: 4.3786707883
+    :pct_on_first: 0.236318408
+    :total_students_attempting: 804
+    :num_students_correct: 648.0
+    :mean_clicks_to_correct: 4.375
 
     Compute the total number of loans made to the Philippines and store it in a variable ``philippines_count``
     ~~~~

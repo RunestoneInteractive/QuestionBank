@@ -1,6 +1,6 @@
 .. actex:: TL_365_write_x_x^3
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2300870147
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises
@@ -8,10 +8,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.09375
-   :total_students_attempting: 128
-   :num_students_correct: 63.0
-   :mean_clicks_to_correct: 4.9047619048
+   :pct_on_first: 0.0930232558
+   :total_students_attempting: 129
+   :num_students_correct: 64.0
+   :mean_clicks_to_correct: 4.90625
 
    Generate 101 evenly spaced values between -5 and 5 and compute
    :math:`x^3` of each of these values. Write the result to a file

@@ -1,6 +1,6 @@
 .. actex:: TL_365_r6_ex1
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.1484828202
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

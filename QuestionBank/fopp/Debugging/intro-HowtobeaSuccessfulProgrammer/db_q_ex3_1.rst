@@ -1,6 +1,6 @@
 .. mchoice:: db_q_ex3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.39912759
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: intro-HowtobeaSuccessfulProgrammer

@@ -1,6 +1,6 @@
 .. mchoice:: question1_3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.1398793198
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: ThePythonProgrammingLanguage
@@ -15,9 +15,9 @@
    :feedback_b: This language is simply called the programming language, or simply the language. Programs are writte in this language.
    :feedback_c: The environment may be called the IDE, or integrated development environment, though not always.
    :feedback_d: There is no such number that you must type in at the start of your program.
-   :pct_on_first: 0.7157024793
-   :total_students_attempting: 3630
-   :num_students_correct: 3584.0
-   :mean_clicks_to_correct: 1.5270647321
+   :pct_on_first: 0.71503017
+   :total_students_attempting: 3646
+   :num_students_correct: 3600.0
+   :mean_clicks_to_correct: 1.5275
 
    Source code is another name for:

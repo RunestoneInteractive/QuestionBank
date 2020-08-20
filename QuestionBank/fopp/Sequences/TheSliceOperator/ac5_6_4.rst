@@ -1,6 +1,6 @@
 .. activecode:: ac5_6_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.3534136546
     :basecourse: fopp
     :chapter: Sequences
     :subchapter: TheSliceOperator

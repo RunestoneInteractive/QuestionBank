@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_readcontents
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.2871485944
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. actex:: TL_365_Balmer_list
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.221210769
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

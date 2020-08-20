@@ -1,6 +1,6 @@
 .. parsonsprob:: pp3_2_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.6122258516
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: OurFirstTurtleProgram

@@ -1,6 +1,6 @@
 .. activecode:: ac10_6_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0163433075
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: AccumulatingResultsFromaDictionary
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5939922481
-   :total_students_attempting: 1032
-   :num_students_correct: 708.0
-   :mean_clicks_to_correct: 1.2782485876
+   :pct_on_first: 0.5947775629
+   :total_students_attempting: 1034
+   :num_students_correct: 710.0
+   :mean_clicks_to_correct: 1.2774647887
 
    **2.** ``schedule`` is a dictionary where a class name is a key and its value is how many credits it was worth. Go through and accumulate the total number of credits that have been earned so far and assign that to the variable ``total_credits``. Do not hardcode.
    ~~~~

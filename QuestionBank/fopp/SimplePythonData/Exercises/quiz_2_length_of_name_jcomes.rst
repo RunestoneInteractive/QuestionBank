@@ -1,6 +1,6 @@
 .. actex:: quiz_2_length_of_name_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.0392681838
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

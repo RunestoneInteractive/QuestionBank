@@ -1,15 +1,15 @@
 .. parsonsprob:: WhileLoop1
    :author: Lizzy Scholten
-   :difficulty: 0.0
+   :difficulty: 3.4724409449
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises
    :topics: GeneralIntro/Exercises
    :from_source: F
-   :pct_on_first: 0.3833992095
-   :total_students_attempting: 253
-   :num_students_correct: 222.0
-   :mean_clicks_to_correct: 3.2882882883
+   :pct_on_first: 0.3818897638
+   :total_students_attempting: 254
+   :num_students_correct: 223.0
+   :mean_clicks_to_correct: 3.3004484305
 
    Piece together a program so that it can successfully print out one print statement, given the value of x.
    -----

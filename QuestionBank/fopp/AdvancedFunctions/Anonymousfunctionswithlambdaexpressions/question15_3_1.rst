@@ -1,6 +1,6 @@
 .. mchoice:: question15_3_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.8955223881
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: Anonymousfunctionswithlambdaexpressions

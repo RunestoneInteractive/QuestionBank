@@ -1,6 +1,6 @@
 .. activecode:: ac12_4_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0234839139
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TupleAssignmentwithunpacking
@@ -10,10 +10,10 @@
    :autograde: unittest
    :practice: T
    :chatcodes: 
-   :pct_on_first: 0.5848563969
-   :total_students_attempting: 383
-   :num_students_correct: 305.0
-   :mean_clicks_to_correct: 1.4
+   :pct_on_first: 0.5859375
+   :total_students_attempting: 384
+   :num_students_correct: 306.0
+   :mean_clicks_to_correct: 1.3986928105
 
    With only one line of code, assign the variables ``water``, ``fire``, ``electric``, and ``grass`` to the values "Squirtle", "Charmander", "Pikachu", and "Bulbasaur"
    ~~~~

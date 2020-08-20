@@ -1,6 +1,6 @@
 .. mchoice:: question1_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.899408284
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: ATypicalFirstProgram
@@ -15,9 +15,9 @@
    :feedback_b: Yes, the print statement is used to display the value of the thing being printed.
    :feedback_c: The format of the information is called its font and has nothing to do with the print statement.
    :feedback_d: That would be nice! But no...
-   :pct_on_first: 0.7754782063
-   :total_students_attempting: 3189
-   :num_students_correct: 3171.0
-   :mean_clicks_to_correct: 1.3547776727
+   :pct_on_first: 0.775147929
+   :total_students_attempting: 3211
+   :num_students_correct: 3193.0
+   :mean_clicks_to_correct: 1.3551518948
 
    The print function:

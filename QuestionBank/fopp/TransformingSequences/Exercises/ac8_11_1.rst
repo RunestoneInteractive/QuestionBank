@@ -1,15 +1,15 @@
 .. actex:: ac8_11_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1758619176
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises
    :topics: TransformingSequences/Exercises
    :from_source: T
-   :pct_on_first: 0.3306709265
-   :total_students_attempting: 626
-   :num_students_correct: 486.0
-   :mean_clicks_to_correct: 3.9979423868
+   :pct_on_first: 0.3328025478
+   :total_students_attempting: 628
+   :num_students_correct: 488.0
+   :mean_clicks_to_correct: 3.9856557377
 
    For each word in the list ``verbs``, add an -ing ending. Overwrite the old list so that ``verbs`` has the same words with ``ing`` at the end of each one.
    ~~~~

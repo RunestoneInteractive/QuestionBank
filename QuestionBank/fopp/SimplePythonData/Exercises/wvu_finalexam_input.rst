@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_input
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.030292599
     :basecourse: fopp
     :chapter: SimplePythonData
     :subchapter: Exercises

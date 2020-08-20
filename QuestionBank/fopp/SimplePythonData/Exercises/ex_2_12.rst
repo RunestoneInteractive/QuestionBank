@@ -1,6 +1,6 @@
 .. actex:: ex_2_12
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0714215748
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

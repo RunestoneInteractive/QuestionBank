@@ -1,6 +1,6 @@
 .. mchoice:: exceptions_mc_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.4285714286
    :basecourse: fopp
    :chapter: Exceptions
    :subchapter: intro-exceptions

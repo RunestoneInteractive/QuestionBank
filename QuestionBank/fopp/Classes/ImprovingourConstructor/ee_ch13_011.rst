@@ -1,6 +1,6 @@
 .. activecode:: ee_ch13_011
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1492190986
    :basecourse: fopp
    :chapter: Classes
    :subchapter: ImprovingourConstructor

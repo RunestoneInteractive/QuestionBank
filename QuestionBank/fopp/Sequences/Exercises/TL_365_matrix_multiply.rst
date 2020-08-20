@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_multiply
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.2793107916
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

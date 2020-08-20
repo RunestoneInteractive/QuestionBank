@@ -1,15 +1,15 @@
 .. fillintheblank:: question11_7_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.1226415094
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Variablesandparametersarelocal
    :topics: Functions/Variablesandparametersarelocal
    :from_source: T
-   :pct_on_first: 0.2195121951
-   :total_students_attempting: 1271
-   :num_students_correct: 1120.0
-   :mean_clicks_to_correct: 3.0508928571
+   :pct_on_first: 0.2193396226
+   :total_students_attempting: 1272
+   :num_students_correct: 1121.0
+   :mean_clicks_to_correct: 3.049955397
 
    Which of the following are local variables? Please, write them in order of what line they are on in the code.
    

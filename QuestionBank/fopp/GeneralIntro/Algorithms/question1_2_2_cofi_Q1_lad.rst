@@ -1,6 +1,6 @@
 .. mchoice:: question1_2_2_cofi_Q1_lad
    :author: Lynda Danielson
-   :difficulty: 3.0
+   :difficulty: 2.3333333333
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Algorithms

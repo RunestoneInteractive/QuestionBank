@@ -1,6 +1,6 @@
 .. activecode:: ac5_3_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0320896176
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: IndexOperatorWorkingwiththeCharactersofaString

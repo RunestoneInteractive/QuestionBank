@@ -1,6 +1,6 @@
 .. activecode:: ac10_7_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1972302683
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: AccumulatingtheBestKey
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.140562249
-   :total_students_attempting: 996
-   :num_students_correct: 572.0
-   :mean_clicks_to_correct: 4.3601398601
+   :pct_on_first: 0.1422845691
+   :total_students_attempting: 998
+   :num_students_correct: 574.0
+   :mean_clicks_to_correct: 4.3484320557
 
    **1.** Create a dictionary called ``d`` that keeps track of all the characters in the string ``placement`` and notes how many times each character was seen. Then, find the key with the lowest value in this dictionary and assign that key to ``min_value``.
    ~~~~

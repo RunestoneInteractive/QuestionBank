@@ -1,6 +1,6 @@
 .. fillintheblank:: act_cc_multwords
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.8620689655
    :basecourse: fopp
    :chapter: Projects
    :subchapter: sentiment_analysis

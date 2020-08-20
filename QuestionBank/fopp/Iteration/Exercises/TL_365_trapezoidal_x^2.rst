@@ -1,6 +1,6 @@
 .. actex:: TL_365_trapezoidal_x^2
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.8688085676
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

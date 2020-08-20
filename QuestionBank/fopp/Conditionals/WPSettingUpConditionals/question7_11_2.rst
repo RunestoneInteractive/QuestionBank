@@ -1,6 +1,6 @@
 .. mchoice:: question7_11_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.5859959211
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: WPSettingUpConditionals
@@ -18,9 +18,9 @@
    :feedback_d: Yes, this is the most concise way of writing a conditional for that prompt.
    :feedback_e: The else statement is unnecessary.
    :practice: T
-   :pct_on_first: 0.3537414966
-   :total_students_attempting: 1470
-   :num_students_correct: 1453.0
-   :mean_clicks_to_correct: 2.4439091535
+   :pct_on_first: 0.3535010197
+   :total_students_attempting: 1471
+   :num_students_correct: 1454.0
+   :mean_clicks_to_correct: 2.4436038514
 
    Select the most appropriate set of conditonal statements for the situation described: You want to keep track of all the words that contain both "t" and "z".

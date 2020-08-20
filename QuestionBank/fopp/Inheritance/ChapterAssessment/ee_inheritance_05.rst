@@ -1,6 +1,6 @@
 .. activecode:: ee_inheritance_05
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1459170013
    :basecourse: fopp
    :chapter: Inheritance
    :subchapter: ChapterAssessment

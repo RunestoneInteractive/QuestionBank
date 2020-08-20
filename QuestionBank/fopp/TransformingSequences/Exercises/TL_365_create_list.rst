@@ -1,6 +1,6 @@
 .. actex:: TL_365_create_list
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.0300777578
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises

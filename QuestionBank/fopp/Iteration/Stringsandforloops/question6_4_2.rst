@@ -1,6 +1,6 @@
 .. mchoice:: question6_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.5981308411
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Stringsandforloops

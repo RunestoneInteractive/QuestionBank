@@ -1,6 +1,6 @@
 .. mchoice:: wvu_exam2_mcsorted
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 2.8604651163
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: Exercises

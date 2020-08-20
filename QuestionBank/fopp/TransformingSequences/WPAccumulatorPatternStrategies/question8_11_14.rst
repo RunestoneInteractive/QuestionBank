@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_14
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.6233421751
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -14,9 +14,9 @@
    :feedback_c: Though the iterator variable is good, the accumulator variable is not very clear.
    :correct: b
    :practice: T
-   :pct_on_first: 0.5936113576
-   :total_students_attempting: 1127
-   :num_students_correct: 1116.0
-   :mean_clicks_to_correct: 1.5071684588
+   :pct_on_first: 0.5941644562
+   :total_students_attempting: 1131
+   :num_students_correct: 1120.0
+   :mean_clicks_to_correct: 1.50625
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? Write code that will count the number of vowels in the sentence ``s`` and assign the result to the variable ``num_vowels``.

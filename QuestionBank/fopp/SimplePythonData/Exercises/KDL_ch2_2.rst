@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch2_2
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.3081042117
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

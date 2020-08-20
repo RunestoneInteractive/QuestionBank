@@ -1,6 +1,6 @@
 .. activecode:: ac17_4_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0698936095
    :basecourse: fopp
    :chapter: NestedData
    :subchapter: NestedIteration
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5035460993
-   :total_students_attempting: 282
-   :num_students_correct: 208.0
-   :mean_clicks_to_correct: 2.1923076923
+   :pct_on_first: 0.5053003534
+   :total_students_attempting: 283
+   :num_students_correct: 209.0
+   :mean_clicks_to_correct: 2.1866028708
 
    **3.** Below, we have provided a list of lists named ``L``. Use nested iteration to save every string containing "b" into a new list named ``b_strings``.
    

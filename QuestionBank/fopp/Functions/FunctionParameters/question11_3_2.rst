@@ -1,6 +1,6 @@
 .. mchoice:: question11_3_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2787723785
    :basecourse: fopp
    :chapter: Functions
    :subchapter: FunctionParameters
@@ -15,10 +15,10 @@
    :feedback_b: Yes, the name of the function is given after the keyword def and before the list of parameters.
    :feedback_c: This includes the function name and its parameters
    :feedback_d: This is a comment stating what the function does.
-   :pct_on_first: 0.6798975672
-   :total_students_attempting: 1562
-   :num_students_correct: 1557.0
-   :mean_clicks_to_correct: 1.5741811175
+   :pct_on_first: 0.6803069054
+   :total_students_attempting: 1564
+   :num_students_correct: 1559.0
+   :mean_clicks_to_correct: 1.5734445157
 
    What is the name of the following function?
    

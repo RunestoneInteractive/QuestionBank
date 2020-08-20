@@ -1,6 +1,6 @@
 .. activecode:: ac6_6_9
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 1.0900858335
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: TheAccumulatorPattern

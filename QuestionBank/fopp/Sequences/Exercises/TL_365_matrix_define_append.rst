@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_define_append
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.0867352193
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

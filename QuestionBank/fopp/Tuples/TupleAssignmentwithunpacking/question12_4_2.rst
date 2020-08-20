@@ -1,6 +1,6 @@
 .. mchoice:: question12_4_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2181818182
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TupleAssignmentwithunpacking
@@ -14,10 +14,10 @@
    :feedback_b: Once you assign x's value to y, y's original value is gone.
    :feedback_c: Once you assign x's value to y, y's original value is gone.
    :correct: b
-   :pct_on_first: 0.69476082
-   :total_students_attempting: 439
-   :num_students_correct: 432.0
-   :mean_clicks_to_correct: 1.3564814815
+   :pct_on_first: 0.6954545455
+   :total_students_attempting: 440
+   :num_students_correct: 433.0
+   :mean_clicks_to_correct: 1.3556581986
 
    Consider the following alternative way to swap the values of variables x and y. What's wrong with it?
    

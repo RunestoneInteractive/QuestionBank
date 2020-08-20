@@ -1,6 +1,6 @@
 .. mchoice:: question6_100_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.1809408926
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: WPKeepingTrackofYourIteratorVariableYourIterable

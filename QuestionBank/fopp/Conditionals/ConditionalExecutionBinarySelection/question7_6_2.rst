@@ -1,6 +1,6 @@
 .. mchoice:: question7_6_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4904632153
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: ConditionalExecutionBinarySelection

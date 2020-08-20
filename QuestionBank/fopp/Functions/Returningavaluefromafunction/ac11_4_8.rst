@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.2512408609
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.1575282855
-   :total_students_attempting: 1149
-   :num_students_correct: 779.0
-   :mean_clicks_to_correct: 5.270860077
+   :pct_on_first: 0.1582608696
+   :total_students_attempting: 1150
+   :num_students_correct: 780.0
+   :mean_clicks_to_correct: 5.2653846154
 
    **12.** Write a function named ``intro`` that takes a string as input. Given the string "Becky" as input, the function should return: "Hello, my name is Becky and I love SI 106."
    ~~~~

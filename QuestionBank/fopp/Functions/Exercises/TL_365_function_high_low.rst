@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_high_low
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.1055332441
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

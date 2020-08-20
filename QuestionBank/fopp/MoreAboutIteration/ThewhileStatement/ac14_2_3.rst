@@ -1,16 +1,16 @@
 .. activecode:: ac14_2_3
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.1195069295
     :basecourse: fopp
     :chapter: MoreAboutIteration
     :subchapter: ThewhileStatement
     :topics: MoreAboutIteration/ThewhileStatement
     :from_source: T
     :practice: T
-    :pct_on_first: 0.2394106814
-    :total_students_attempting: 543
-    :num_students_correct: 345.0
-    :mean_clicks_to_correct: 3.0347826087
+    :pct_on_first: 0.2408088235
+    :total_students_attempting: 544
+    :num_students_correct: 346.0
+    :mean_clicks_to_correct: 3.0289017341
 
     Below, we've provided a for loop that sums all the elements of ``list1``. Write code that accomplishes the same task, but instead uses a while loop. Assign the accumulator variable to the name ``accum``.
     ~~~~

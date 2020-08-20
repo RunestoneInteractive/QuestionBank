@@ -1,6 +1,6 @@
 .. activecode:: quiz_6_sequence_props_2_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.0589022758
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: week2a1

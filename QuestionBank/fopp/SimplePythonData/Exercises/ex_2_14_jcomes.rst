@@ -1,6 +1,6 @@
 .. actex:: ex_2_14_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.1472556894
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. mchoice:: question21_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.9523809524
    :basecourse: fopp
    :chapter: AdvancedAccumulation
    :subchapter: listcomp

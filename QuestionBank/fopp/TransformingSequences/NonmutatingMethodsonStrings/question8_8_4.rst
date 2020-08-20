@@ -1,6 +1,6 @@
 .. mchoice:: question8_8_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.9940298507
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: NonmutatingMethodsonStrings
@@ -14,10 +14,10 @@
    :feedback_b: Close, but round to the number of digits and display the full number of digits specified.
    :feedback_c: Yes, correct number of digits with rounding!
    :practice: T
-   :pct_on_first: 0.5022421525
-   :total_students_attempting: 1338
-   :num_students_correct: 1328.0
-   :mean_clicks_to_correct: 1.6475903614
+   :pct_on_first: 0.5014925373
+   :total_students_attempting: 1340
+   :num_students_correct: 1330.0
+   :mean_clicks_to_correct: 1.6481203008
 
    
    What is printed by the following statements?

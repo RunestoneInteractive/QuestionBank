@@ -1,6 +1,6 @@
 .. actex:: TL_365_ex_2_12_jcomes
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.0706827309
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

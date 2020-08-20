@@ -1,6 +1,6 @@
 .. mchoice:: question13_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.9357798165
    :basecourse: fopp
    :chapter: PythonModules
    :subchapter: Therandommodule
@@ -15,9 +15,9 @@
    :feedback_b: Computers generate random numbers using a deterministic algorithm.  This means that if anyone ever found out the algorithm they could accurately predict the next value to be generated and would always win the lottery.
    :feedback_c: This might happen if the same seed value was used over and over again, but they could make sure this was not the case.
    :feedback_d: While a programmer would need to ensure the computer did not select the same number more than once, it is easy to ensure this.
-   :pct_on_first: 0.7659357471
-   :total_students_attempting: 1961
-   :num_students_correct: 1953.0
-   :mean_clicks_to_correct: 1.3676395289
+   :pct_on_first: 0.7660550459
+   :total_students_attempting: 1962
+   :num_students_correct: 1954.0
+   :mean_clicks_to_correct: 1.3674513818
 
    One reason that lotteries don’t use computers to generate random numbers is:

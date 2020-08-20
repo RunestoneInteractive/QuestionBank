@@ -1,6 +1,6 @@
 .. activecode:: ac12_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0062936678
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TuplePacking
@@ -10,10 +10,10 @@
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.7811764706
-   :total_students_attempting: 425
-   :num_students_correct: 364.0
-   :mean_clicks_to_correct: 1.1071428571
+   :pct_on_first: 0.7816901408
+   :total_students_attempting: 426
+   :num_students_correct: 365.0
+   :mean_clicks_to_correct: 1.1068493151
 
    **3.** Create a tuple named ``tup1`` that has three elements: 'a', 'b', and 'c'.
    ~~~~

@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_stringrep
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1435742972
     :basecourse: fopp
     :chapter: Classes
     :subchapter: Exercises

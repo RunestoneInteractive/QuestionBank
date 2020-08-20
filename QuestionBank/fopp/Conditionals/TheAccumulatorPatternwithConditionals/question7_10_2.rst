@@ -1,6 +1,6 @@
 .. mchoice:: question7_10_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8726790451
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: TheAccumulatorPatternwithConditionals
@@ -16,10 +16,10 @@
    :feedback_c: Yes, min_value was set to a number that was smaller than any of the numbers in the list, so it was never updated in the for loop.
    :feedback_d: The code does not have an error that would prevent it from running.
    :practice: T
-   :pct_on_first: 0.5321831453
-   :total_students_attempting: 1507
-   :num_students_correct: 1495.0
-   :mean_clicks_to_correct: 1.72909699
+   :pct_on_first: 0.5318302387
+   :total_students_attempting: 1508
+   :num_students_correct: 1496.0
+   :mean_clicks_to_correct: 1.7292780749
 
    What is printed by the following statements?
    

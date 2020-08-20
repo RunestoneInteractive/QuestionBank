@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_1_cofi_lad_2
         :author: Lynda Danielson
-        :difficulty: 2.0
+        :difficulty: 5.0
         :basecourse: fopp
         :chapter: GeneralIntro
         :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: wvu_functions_createlist
    :author: Brian Powell
-   :difficulty: 3.0
+   :difficulty: 1.1262191624
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

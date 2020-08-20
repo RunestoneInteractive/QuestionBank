@@ -1,6 +1,6 @@
 .. mchoice:: question7_2_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.4751037344
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: BooleanValuesandBooleanExpressions

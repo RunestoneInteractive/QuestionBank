@@ -1,6 +1,6 @@
 .. actex:: TL_365_class_charged_particle
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.3790233397
    :basecourse: fopp
    :chapter: Classes
    :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch10_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises
@@ -8,8 +8,8 @@
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.0166666667
-   :total_students_attempting: 60
+   :pct_on_first: 0.0163934426
+   :total_students_attempting: 61
    :num_students_correct: 1.0
    :mean_clicks_to_correct: 1.0
 

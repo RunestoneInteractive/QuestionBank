@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_averagelist
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.0942436412
     :basecourse: fopp
     :chapter: Dictionaries
     :subchapter: Exercises

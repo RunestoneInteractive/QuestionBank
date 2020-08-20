@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_L2_norm
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.1489881093
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

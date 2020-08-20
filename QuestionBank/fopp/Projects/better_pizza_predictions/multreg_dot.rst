@@ -1,6 +1,6 @@
 .. activecode:: multreg_dot
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.4515841142
     :basecourse: fopp
     :chapter: Projects
     :subchapter: better_pizza_predictions

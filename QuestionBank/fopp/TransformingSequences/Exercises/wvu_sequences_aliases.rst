@@ -1,6 +1,6 @@
 .. activecode:: wvu_sequences_aliases
    :author: Brian Powell
-   :difficulty: 3.0
+   :difficulty: 1.1665731024
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises

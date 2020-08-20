@@ -1,6 +1,6 @@
 .. mchoice:: question4_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3552361396
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: RuntimeErrors
@@ -14,9 +14,9 @@
    :feedback_b: This is a problem with the formal structure of the program.  Python knows where colons are required and can detect when one is missing simply by looking at the code without running it.
    :feedback_c: This will produce the wrong answer, but Python will not consider it an error at all.  The programmer is the one who understands that the answer produced is wrong.
    :practice: T
-   :pct_on_first: 0.6615305598
-   :total_students_attempting: 1947
-   :num_students_correct: 1941.0
-   :mean_clicks_to_correct: 1.4585265327
+   :pct_on_first: 0.6611909651
+   :total_students_attempting: 1948
+   :num_students_correct: 1942.0
+   :mean_clicks_to_correct: 1.4593202884
 
    Which of the following is a run-time error?

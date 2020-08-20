@@ -1,6 +1,6 @@
 .. parsonsprob:: pp_2_15
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.5518151815
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

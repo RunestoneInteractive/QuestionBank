@@ -1,6 +1,6 @@
 .. mchoice:: question200_1_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.0397350993
    :basecourse: fopp
    :chapter: Functions
    :subchapter: DecodingaFunction
@@ -19,10 +19,10 @@
    :feedback_d: x - y and y-2 can't be performed on strings.
    :feedback_e: You can tell from some of the operations that are performed on them.
    :practice: T
-   :pct_on_first: 0.4896907216
-   :total_students_attempting: 1358
-   :num_students_correct: 1340.0
-   :mean_clicks_to_correct: 2.2298507463
+   :pct_on_first: 0.4900662252
+   :total_students_attempting: 1359
+   :num_students_correct: 1341.0
+   :mean_clicks_to_correct: 2.2289336316
 
    What are the possible types of variables x and y?
    

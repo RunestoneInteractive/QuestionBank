@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0387467473
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.6404308202
-   :total_students_attempting: 1207
-   :num_students_correct: 978.0
-   :mean_clicks_to_correct: 1.6584867076
+   :pct_on_first: 0.6407284768
+   :total_students_attempting: 1208
+   :num_students_correct: 979.0
+   :mean_clicks_to_correct: 1.657814096
 
    **10.** Write a function called ``subtract_three`` that takes an integer or any number as input, and returns that number minus three.
    ~~~~

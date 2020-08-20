@@ -1,6 +1,6 @@
 .. mchoice:: question7_8_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.7600721587
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Nestedconditionals

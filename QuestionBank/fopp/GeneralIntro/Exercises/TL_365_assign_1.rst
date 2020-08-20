@@ -1,6 +1,6 @@
 .. actex:: TL_365_assign_1
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.0288245179
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises

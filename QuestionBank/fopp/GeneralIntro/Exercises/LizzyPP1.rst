@@ -1,6 +1,6 @@
 .. parsonsprob:: LizzyPP1
    :author: Lizzy Scholten
-   :difficulty: 1.0
+   :difficulty: 3.6072874494
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises

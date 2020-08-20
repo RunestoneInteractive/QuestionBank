@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_euler_1d
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2489959839
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

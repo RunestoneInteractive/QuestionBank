@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_plus_minus_delta
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2141900937
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

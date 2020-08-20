@@ -1,6 +1,6 @@
 .. mchoice:: question5_8_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.9533111005
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: CountandIndex

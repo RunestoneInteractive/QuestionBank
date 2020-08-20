@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_9
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.1567099567
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -16,9 +16,9 @@
    :feedback_d: Incorrect, we will need an accumulator variable.
    :correct: c
    :practice: T
-   :pct_on_first: 0.70981755
-   :total_students_attempting: 1151
-   :num_students_correct: 1142.0
-   :mean_clicks_to_correct: 1.4640980736
+   :pct_on_first: 0.7108225108
+   :total_students_attempting: 1155
+   :num_students_correct: 1146.0
+   :mean_clicks_to_correct: 1.462478185
 
    What type should be used for the accumulator variable in the following prompt? Write code to sum up all of the numbers in the list ``seat_counts``. Store that number in the variable ``total_seat_counts``.

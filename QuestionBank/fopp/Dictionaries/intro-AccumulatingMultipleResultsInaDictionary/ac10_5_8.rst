@@ -1,6 +1,6 @@
 .. activecode:: ac10_5_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1258173069
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: intro-AccumulatingMultipleResultsInaDictionary
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2174704277
-   :total_students_attempting: 1099
-   :num_students_correct: 690.0
-   :mean_clicks_to_correct: 3.1391304348
+   :pct_on_first: 0.2179836512
+   :total_students_attempting: 1101
+   :num_students_correct: 691.0
+   :mean_clicks_to_correct: 3.1360347323
 
    sentence = "The dog chased the rabbit into the forest but the rabbit was too quick."
    

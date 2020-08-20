@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_gaussian
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.3269076305
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

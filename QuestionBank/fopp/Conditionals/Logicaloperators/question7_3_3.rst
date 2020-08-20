@@ -1,6 +1,6 @@
 .. mchoice:: question7_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.5172413793
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Logicaloperators

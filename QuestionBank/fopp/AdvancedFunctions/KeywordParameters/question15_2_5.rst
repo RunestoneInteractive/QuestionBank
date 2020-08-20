@@ -1,6 +1,6 @@
 .. mchoice:: question15_2_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3366834171
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: KeywordParameters

@@ -1,6 +1,6 @@
 .. activecode:: wvu_sequence_manytimes
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 1.1392235609
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

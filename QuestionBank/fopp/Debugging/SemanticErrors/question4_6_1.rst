@@ -1,6 +1,6 @@
 .. mchoice:: question4_6_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.6399166232
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: SemanticErrors
@@ -14,9 +14,9 @@
    :feedback_b: A semantic error is an error in logic. In this case the program does not produce the correct output because the code can not be processed by the compiler or interpreter. This would be considered a syntax error.
    :feedback_c: This will produce the wrong answer because the programmer implemented the solution incorrectly.  This is a semantic error.
    :practice: T
-   :pct_on_first: 0.8404588113
-   :total_students_attempting: 1918
-   :num_students_correct: 1914.0
-   :mean_clicks_to_correct: 1.2084639498
+   :pct_on_first: 0.8400208442
+   :total_students_attempting: 1919
+   :num_students_correct: 1915.0
+   :mean_clicks_to_correct: 1.2088772846
 
    Which of the following is a semantic error?

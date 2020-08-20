@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_lorentzian
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.1017402945
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

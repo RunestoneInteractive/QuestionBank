@@ -1,6 +1,6 @@
 .. activecode:: act_files_2
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.5118562104
     :basecourse: fopp
     :chapter: Projects
     :subchapter: common_words

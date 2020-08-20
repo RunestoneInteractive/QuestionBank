@@ -1,6 +1,6 @@
 .. mchoice:: question4_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.1576719577
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: KnowyourerrorMessages
@@ -14,9 +14,9 @@
    :feedback_b: Yes.  Variables must already have values in order to be used on the right hand side.
    :feedback_c: No, No, No!
    :practice: T
-   :pct_on_first: 0.7109581789
-   :total_students_attempting: 1889
-   :num_students_correct: 1885.0
-   :mean_clicks_to_correct: 1.3055702918
+   :pct_on_first: 0.7105820106
+   :total_students_attempting: 1890
+   :num_students_correct: 1886.0
+   :mean_clicks_to_correct: 1.3059384942
 
    Which of the following explains why ``wait_time_int = int(wait_time_int)`` is an error?

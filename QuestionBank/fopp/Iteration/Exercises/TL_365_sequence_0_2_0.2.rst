@@ -1,6 +1,6 @@
 .. actex:: TL_365_sequence_0_2_0.2
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.1209046713
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

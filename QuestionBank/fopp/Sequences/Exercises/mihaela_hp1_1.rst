@@ -1,6 +1,6 @@
 .. activecode:: mihaela_hp1_1
     :author: Mihaela Sabin
-    :difficulty: 2.0
+    :difficulty: 1.1325301205
     :basecourse: fopp
     :chapter: Sequences
     :subchapter: Exercises

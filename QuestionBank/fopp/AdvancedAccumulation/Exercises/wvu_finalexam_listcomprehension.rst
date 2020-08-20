@@ -1,6 +1,6 @@
 .. activecode:: wvu_finalexam_listcomprehension
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1083801874
     :basecourse: fopp
     :chapter: AdvancedAccumulation
     :subchapter: Exercises

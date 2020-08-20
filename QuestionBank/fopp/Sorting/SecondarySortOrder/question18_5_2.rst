@@ -1,6 +1,6 @@
 .. mchoice:: question18_5_2
       :author: bmiller
-      :difficulty: 3.0
+      :difficulty: 3.1916167665
       :basecourse: fopp
       :chapter: Sorting
       :subchapter: SecondarySortOrder
@@ -18,10 +18,10 @@
       :feedback_e: Not quite, remember that by default, the sorted function will sort by alphabetical order, or lowest to highest. Is the reverse parameter set to True? Has a negative sign been used in the key parameter?
       :correct: a
       :practice: T
-      :pct_on_first: 0.4504504505
-      :total_students_attempting: 333
-      :num_students_correct: 326.0
-      :mean_clicks_to_correct: 2.1165644172
+      :pct_on_first: 0.4520958084
+      :total_students_attempting: 334
+      :num_students_correct: 327.0
+      :mean_clicks_to_correct: 2.1131498471
 
       What how will the following data be sorted?
       

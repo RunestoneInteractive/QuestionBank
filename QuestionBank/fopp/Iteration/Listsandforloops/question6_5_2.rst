@@ -1,6 +1,6 @@
 .. mchoice:: question6_5_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.0626865672
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Listsandforloops

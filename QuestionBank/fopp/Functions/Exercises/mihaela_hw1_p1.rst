@@ -1,6 +1,6 @@
 .. activecode:: mihaela_hw1_p1
     :author: Mihaela Sabin
-    :difficulty: 1.0
+    :difficulty: 1.1598776057
     :basecourse: fopp
     :chapter: Functions
     :subchapter: Exercises

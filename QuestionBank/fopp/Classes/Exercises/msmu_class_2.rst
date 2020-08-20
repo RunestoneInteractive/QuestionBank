@@ -1,6 +1,6 @@
 .. activecode:: msmu_class_2
     :author: Irma Ravkic
-    :difficulty: 0.0
+    :difficulty: 1.1862585477
     :basecourse: fopp
     :chapter: Classes
     :subchapter: Exercises

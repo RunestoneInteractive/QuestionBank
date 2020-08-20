@@ -1,6 +1,6 @@
 .. activecode:: transforming_seq_q_1
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1.0575482005
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises

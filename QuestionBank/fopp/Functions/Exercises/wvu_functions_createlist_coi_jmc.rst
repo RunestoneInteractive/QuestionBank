@@ -1,6 +1,6 @@
 .. activecode:: wvu_functions_createlist_coi_jmc
    :author: Jonny Comes
-   :difficulty: 0.0
+   :difficulty: 1.1767068273
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

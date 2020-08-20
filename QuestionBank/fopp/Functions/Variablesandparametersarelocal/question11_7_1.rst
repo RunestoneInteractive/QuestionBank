@@ -1,6 +1,6 @@
 .. mchoice:: question11_7_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.9728096677
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Variablesandparametersarelocal
@@ -12,9 +12,9 @@
    :feedback_a: Local variables cannot be referenced outside of the function they were defined in.
    :feedback_b: Local variables cannot be referenced outside of the function they were defined in.
    :practice: T
-   :pct_on_first: 0.7566137566
-   :total_students_attempting: 1323
-   :num_students_correct: 1308.0
-   :mean_clicks_to_correct: 1.246941896
+   :pct_on_first: 0.7567975831
+   :total_students_attempting: 1324
+   :num_students_correct: 1309.0
+   :mean_clicks_to_correct: 1.2467532468
 
    True or False: Local variables can be referenced outside of the function they were defined in.

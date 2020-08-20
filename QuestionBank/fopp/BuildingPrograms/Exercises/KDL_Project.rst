@@ -1,6 +1,6 @@
 .. activecode:: KDL_Project
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 5.0
    :basecourse: fopp
    :chapter: BuildingPrograms
    :subchapter: Exercises

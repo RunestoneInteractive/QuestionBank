@@ -1,6 +1,6 @@
 .. activecode:: ac7_10_7
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1833530643
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: TheAccumulatorPatternwithConditionals
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.2075163399
-   :total_students_attempting: 1224
-   :num_students_correct: 708.0
-   :mean_clicks_to_correct: 4.115819209
+   :pct_on_first: 0.2073469388
+   :total_students_attempting: 1225
+   :num_students_correct: 709.0
+   :mean_clicks_to_correct: 4.1128349788
 
    **Challenge** For each word in ``words``, add 'd' to the end of the word if the word ends in "e" to make it past tense. Otherwise, add 'ed' to make it past tense. Save these past tense words to a list called ``past_tense``.
    ~~~~

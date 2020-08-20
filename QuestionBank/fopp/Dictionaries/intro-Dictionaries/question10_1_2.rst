@@ -1,6 +1,6 @@
 .. mchoice:: question10_1_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4157303371
    :basecourse: fopp
    :chapter: Dictionaries
    :subchapter: intro-Dictionaries
@@ -16,10 +16,10 @@
    :feedback_c: 23 is associated with the key elephant.
    :feedback_d: The [ ] operator, when used with a dictionary, will look up a value based on its key.
    :practice: T
-   :pct_on_first: 0.8959212377
-   :total_students_attempting: 1422
-   :num_students_correct: 1408.0
-   :mean_clicks_to_correct: 1.1413352273
+   :pct_on_first: 0.8960674157
+   :total_students_attempting: 1424
+   :num_students_correct: 1410.0
+   :mean_clicks_to_correct: 1.1411347518
 
    What is printed by the following statements?
    

@@ -1,6 +1,6 @@
 .. actex:: ac11_14_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.264705408
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

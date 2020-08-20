@@ -1,6 +1,6 @@
 .. mchoice:: question8_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.6621067031
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: CloningLists
@@ -14,10 +14,10 @@
    :feedback_b: blist is changed, not alist.
    :feedback_c: Yes, alist was unchanged by the assignment statement. blist was a copy of the references in alist.
    :practice: T
-   :pct_on_first: 0.3340192044
-   :total_students_attempting: 1458
-   :num_students_correct: 1446.0
-   :mean_clicks_to_correct: 2.0048409405
+   :pct_on_first: 0.3344733242
+   :total_students_attempting: 1462
+   :num_students_correct: 1450.0
+   :mean_clicks_to_correct: 2.004137931
 
    What is printed by the following statements?
    

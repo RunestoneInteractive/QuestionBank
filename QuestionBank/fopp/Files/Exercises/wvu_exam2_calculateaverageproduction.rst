@@ -1,16 +1,16 @@
 .. activecode:: wvu_exam2_calculateaverageproduction
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.4712182062
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises
     :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.0980392157
-    :total_students_attempting: 51
-    :num_students_correct: 19.0
-    :mean_clicks_to_correct: 9.2631578947
+    :pct_on_first: 0.0961538462
+    :total_students_attempting: 52
+    :num_students_correct: 20.0
+    :mean_clicks_to_correct: 9.0
 
     (15 points)
     

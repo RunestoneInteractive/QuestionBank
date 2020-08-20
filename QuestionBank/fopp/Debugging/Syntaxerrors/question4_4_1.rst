@@ -1,6 +1,6 @@
 .. mchoice:: question4_4_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4487704918
    :basecourse: fopp
    :chapter: Debugging
    :subchapter: Syntaxerrors

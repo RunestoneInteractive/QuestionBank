@@ -1,6 +1,6 @@
 .. activecode:: wvu_functions_oddlist
    :author: Brian Powell
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

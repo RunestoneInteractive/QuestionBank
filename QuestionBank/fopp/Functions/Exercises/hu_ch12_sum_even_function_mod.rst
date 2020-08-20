@@ -1,6 +1,6 @@
 .. activecode:: hu_ch12_sum_even_function_mod
    :author: Sean Joyce
-   :difficulty: 3.0
+   :difficulty: 1.4417670683
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

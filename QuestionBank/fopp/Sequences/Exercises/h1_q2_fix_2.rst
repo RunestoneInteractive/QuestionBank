@@ -1,6 +1,6 @@
 .. dragndrop:: h1_q2_fix_2
     :author: Irma Ravkic
-    :difficulty: 1.0
+    :difficulty: 3.5745140389
     :basecourse: fopp
     :chapter: Sequences
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. activecode:: final_exam_1
    :author: Irma Ravkic
-   :difficulty: 1.0
+   :difficulty: 1.0359958352
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

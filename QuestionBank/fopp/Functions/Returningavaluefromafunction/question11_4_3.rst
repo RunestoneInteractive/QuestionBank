@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2205196536
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -14,10 +14,10 @@
    :feedback_b: The two return values are added together.
    :feedback_c: The two results are substituted into the expression and then it is evaluated. The returned values are integers in this case, not strings.
    :practice: T
-   :pct_on_first: 0.6946666667
-   :total_students_attempting: 1500
-   :num_students_correct: 1493.0
-   :mean_clicks_to_correct: 1.3998660415
+   :pct_on_first: 0.6948700866
+   :total_students_attempting: 1501
+   :num_students_correct: 1494.0
+   :mean_clicks_to_correct: 1.3995983936
 
    What will the following code output?
    

@@ -1,6 +1,6 @@
 .. parsonsprob:: pp5_11_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.3401403957
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Exercises

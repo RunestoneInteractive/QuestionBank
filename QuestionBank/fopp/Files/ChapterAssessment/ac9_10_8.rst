@@ -1,6 +1,6 @@
 .. activecode:: ac9_10_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.2328306938
    :basecourse: fopp
    :chapter: Files
    :subchapter: ChapterAssessment
@@ -11,10 +11,10 @@
    :practice: T
    :available_files: school_prompt.txt
    :nocodelens: 
-   :pct_on_first: 0.3237704918
-   :total_students_attempting: 732
-   :num_students_correct: 528.0
-   :mean_clicks_to_correct: 4.9678030303
+   :pct_on_first: 0.325613079
+   :total_students_attempting: 734
+   :num_students_correct: 530.0
+   :mean_clicks_to_correct: 4.9528301887
 
    **Challenge:** Using the file ``school_prompt.txt``, if the character 'p' is in a word, then add the word to a list called ``p_words``.
    ~~~~

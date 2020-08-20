@@ -1,6 +1,6 @@
 .. activecode:: wvu_advlist_sumdict
     :author: Brian Powell
-    :difficulty: 0.0
+    :difficulty: 1.1640849111
     :basecourse: fopp
     :chapter: AdvancedAccumulation
     :subchapter: Exercises

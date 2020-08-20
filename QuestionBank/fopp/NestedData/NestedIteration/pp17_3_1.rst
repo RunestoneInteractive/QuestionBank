@@ -1,6 +1,6 @@
 .. parsonsprob:: pp17_3_1
    :author: Brad Miller
-   :difficulty: 3.0
+   :difficulty: 5.0
    :basecourse: fopp
    :chapter: NestedData
    :subchapter: NestedIteration

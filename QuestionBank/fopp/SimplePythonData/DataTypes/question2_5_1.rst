@@ -1,6 +1,6 @@
 .. mchoice:: question2_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.7171207534
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: DataTypes
@@ -16,9 +16,9 @@
    :feedback_c: Only numeric values can be used in equations.
    :feedback_d: In Python variables are not declared. Values, not variables, have types in Python. A variable can even take on values with different types during a program's execution.
    :practice: T
-   :pct_on_first: 0.8209710047
-   :total_students_attempting: 2966
-   :num_students_correct: 2957.0
-   :mean_clicks_to_correct: 1.3111261414
+   :pct_on_first: 0.8207198116
+   :total_students_attempting: 2973
+   :num_students_correct: 2964.0
+   :mean_clicks_to_correct: 1.3114035088
 
    How can you determine the type of a variable?

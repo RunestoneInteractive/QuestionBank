@@ -1,6 +1,6 @@
 .. activecode:: ac12_3_4
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0309068976
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: TuplesasReturnValues
@@ -10,10 +10,10 @@
    :autograde: unittest
    :chatcodes: 
    :practice: T
-   :pct_on_first: 0.7725631769
-   :total_students_attempting: 277
-   :num_students_correct: 262.0
-   :mean_clicks_to_correct: 1.5267175573
+   :pct_on_first: 0.773381295
+   :total_students_attempting: 278
+   :num_students_correct: 263.0
+   :mean_clicks_to_correct: 1.5247148289
 
    Define a function called ``info`` with the following required parameters: ``name``, ``age``, ``birth_year``, ``year_in_college``, and ``hometown``. The function should return a tuple that contains all the inputted information.
    ~~~~

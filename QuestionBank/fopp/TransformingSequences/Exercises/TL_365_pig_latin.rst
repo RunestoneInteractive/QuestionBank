@@ -1,6 +1,6 @@
 .. actex:: TL_365_pig_latin
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.817492191
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: Exercises

@@ -1,14 +1,14 @@
 .. activecode:: act_kiva_4
     :author: bmiller
-    :difficulty: 3.0
+    :difficulty: 1.2848806418
     :basecourse: fopp
     :chapter: Projects
     :subchapter: kiva_statistics
     :topics: Projects/kiva_statistics
     :from_source: T
     :include: act_kiva_1
-    :pct_on_first: 0.1124454148
-    :total_students_attempting: 916
+    :pct_on_first: 0.1123227917
+    :total_students_attempting: 917
     :num_students_correct: 685.0
     :mean_clicks_to_correct: 5.8364963504
 

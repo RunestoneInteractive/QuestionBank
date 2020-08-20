@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.2094915254
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -18,10 +18,10 @@
    :feedback_d: cyu2 returns the value 1, which is assigned to z.
    :feedback_e: what do you think will cause an error.
    :practice: T
-   :pct_on_first: 0.697421981
-   :total_students_attempting: 1474
-   :num_students_correct: 1466.0
-   :mean_clicks_to_correct: 1.517053206
+   :pct_on_first: 0.6976271186
+   :total_students_attempting: 1475
+   :num_students_correct: 1467.0
+   :mean_clicks_to_correct: 1.5167007498
 
    What will the following code output?
    

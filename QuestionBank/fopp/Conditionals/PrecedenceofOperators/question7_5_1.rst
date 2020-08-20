@@ -1,6 +1,6 @@
 .. mchoice:: question7_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.8427095293
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: PrecedenceofOperators

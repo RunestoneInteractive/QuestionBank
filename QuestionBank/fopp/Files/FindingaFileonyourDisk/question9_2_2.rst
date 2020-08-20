@@ -1,6 +1,6 @@
 .. mchoice:: question9_2_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.9179856115
    :basecourse: fopp
    :chapter: Files
    :subchapter: FindingaFileonyourDisk
@@ -17,9 +17,9 @@
    :feedback_c: This is an absolute file path. Not all absolute file paths contain "User"! Instead, check to see if the path starts with "/".
    :feedback_d: Yes, this is a relative file path. You can tell by the lack of "/" at the beginning of the path.
    :practice: T
-   :pct_on_first: 0.2691197691
-   :total_students_attempting: 1386
-   :num_students_correct: 1354.0
-   :mean_clicks_to_correct: 2.7488921713
+   :pct_on_first: 0.2705035971
+   :total_students_attempting: 1390
+   :num_students_correct: 1358.0
+   :mean_clicks_to_correct: 2.7444771723
 
    Which of the following paths are relative file paths?

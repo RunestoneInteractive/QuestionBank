@@ -1,6 +1,6 @@
 .. mchoice:: question8_9_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.9881656805
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: TheAccumulatorPatternwithLists
@@ -16,10 +16,10 @@
    :feedback_c: Yes, the for loop processes each item of the list. 5 is added before it is appended to blist.
    :feedback_d: 5 is added to each item before the append operation is performed.
    :practice: T
-   :pct_on_first: 0.752409192
-   :total_students_attempting: 1349
-   :num_students_correct: 1341.0
-   :mean_clicks_to_correct: 1.4056674124
+   :pct_on_first: 0.7529585799
+   :total_students_attempting: 1352
+   :num_students_correct: 1344.0
+   :mean_clicks_to_correct: 1.4047619048
 
    What is printed by the following statements?
    

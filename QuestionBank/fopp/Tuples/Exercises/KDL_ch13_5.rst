@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch13_5
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.0050487665
    :basecourse: fopp
    :chapter: Tuples
    :subchapter: Exercises

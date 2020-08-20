@@ -1,6 +1,6 @@
 .. actex:: ac3_8_1_jcomes_cofi_Q5_lad2
    :author: Lynda Danielson
-   :difficulty: 0.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: Exercises

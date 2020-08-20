@@ -1,6 +1,6 @@
 .. activecode:: JOCTest1-3
    :author: Joaquin Carbonara
-   :difficulty: 0.0
+   :difficulty: 5.0
    :basecourse: fopp
    :chapter: PythonTurtle
    :subchapter: Exercises

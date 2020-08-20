@@ -1,6 +1,6 @@
 .. activecode:: assess_question1_1_2_cofi_lad
     :author: Lynda Danielson
-    :difficulty: 0.0
+    :difficulty: 1.0
     :basecourse: fopp
     :chapter: GeneralIntro
     :subchapter: Exercises

@@ -1,6 +1,6 @@
 .. actex:: TL_365_matrix_multiply_loop
    :author: Tyler Luchko
-   :difficulty: 0.0
+   :difficulty: 1.4712182062
    :basecourse: fopp
    :chapter: Iteration
    :subchapter: Exercises

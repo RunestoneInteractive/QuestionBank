@@ -1,6 +1,6 @@
 .. activecode:: ac15_5_6
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.2026035175
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: ChapterAssessment

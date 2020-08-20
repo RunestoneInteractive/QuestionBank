@@ -1,6 +1,6 @@
 .. mchoice:: stack_2
     :author: Andrew McDonald
-    :difficulty: 1.0
+    :difficulty: 4.1304347826
     :basecourse: fopp
     :chapter: AdvancedFunctions
     :subchapter: Exercises

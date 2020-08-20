@@ -1,6 +1,6 @@
 .. actex:: TL_365_function_matrix_transpose
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2573099415
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Exercises

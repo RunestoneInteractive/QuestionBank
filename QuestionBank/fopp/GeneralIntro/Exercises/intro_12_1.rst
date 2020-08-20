@@ -1,6 +1,6 @@
 .. mchoice:: intro_12_1
    :author: Jamie Cores
-   :difficulty: 1.0
+   :difficulty: 1.8055944056
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises
@@ -15,9 +15,9 @@
    :feedback_b: While it is beneficial to have a set of instructions that others can follow, this isn't the best answer. By creating the algorithm, you solve a problem for yourself and others.
    :feedback_c: Yes, by creating a general solution you can then express it as a program if you choose, and then use a computer to automate the execution
    :feedback_d: While it is beneficial to have a set of instructions as that is what an algorithm **is**, it is not **why** we would want to create one.
-   :pct_on_first: 0.7980364656
-   :total_students_attempting: 713
-   :num_students_correct: 702.0
-   :mean_clicks_to_correct: 1.2877492877
+   :pct_on_first: 0.7986013986
+   :total_students_attempting: 715
+   :num_students_correct: 704.0
+   :mean_clicks_to_correct: 1.2869318182
 
    Why create an algorithm?

@@ -1,6 +1,6 @@
 .. actex:: python-level-0-hw1
    :author: Atheno Chen
-   :difficulty: 3.0
+   :difficulty: 1.0
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

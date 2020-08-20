@@ -1,6 +1,6 @@
 .. mchoice:: question15_1_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.7238095238
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: OptionalParameters

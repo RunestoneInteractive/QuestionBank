@@ -1,6 +1,6 @@
 .. mchoice:: question13_1_2
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.0241149307
    :basecourse: fopp
    :chapter: PythonModules
    :subchapter: intro-ModulesandGettingHelp
@@ -15,9 +15,9 @@
    :feedback_b: The import statements only tell you what modules are currently being used in the program, not how to use them or what they contain.
    :feedback_c: While the professor knows a subset of the modules available in Python, chances are the professor will have to look up the available modules just like you would.
    :feedback_d: This book only explains a portion of the modules available.  For a full listing you should look elsewhere.
-   :pct_on_first: 0.7443531828
-   :total_students_attempting: 1948
-   :num_students_correct: 1941.0
-   :mean_clicks_to_correct: 1.3699124163
+   :pct_on_first: 0.7439712673
+   :total_students_attempting: 1949
+   :num_students_correct: 1942.0
+   :mean_clicks_to_correct: 1.3702368692
 
    To find out information on the standard modules available with Python you should:

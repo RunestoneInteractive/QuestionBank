@@ -1,6 +1,6 @@
 .. activecode:: ac_exceptions_011
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.0223570682
    :basecourse: fopp
    :chapter: Exceptions
    :subchapter: ChapterAssessment

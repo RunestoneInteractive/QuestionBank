@@ -1,6 +1,6 @@
 .. mchoice:: question11_3_3
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.4726810673
    :basecourse: fopp
    :chapter: Functions
    :subchapter: FunctionParameters
@@ -15,10 +15,10 @@
    :feedback_b: x is only one of the parameters to this function.
    :feedback_c: Yes, the function specifies two parameters: x and y.
    :feedback_d: the parameters include only those variables whose values that the function expects to receive as input. They are specified in the header of the function.
-   :pct_on_first: 0.8816793893
-   :total_students_attempting: 1572
-   :num_students_correct: 1566.0
-   :mean_clicks_to_correct: 1.1845466156
+   :pct_on_first: 0.8818297332
+   :total_students_attempting: 1574
+   :num_students_correct: 1568.0
+   :mean_clicks_to_correct: 1.1843112245
 
    What are the parameters of the following function?
    

@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch15_1
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.0379592444
    :basecourse: fopp
    :chapter: AdvancedFunctions
    :subchapter: Exercises

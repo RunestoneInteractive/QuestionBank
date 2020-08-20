@@ -1,15 +1,15 @@
 .. parsonsprob:: pp11_5_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 3.2282521947
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Afunctionthataccumulates
    :topics: Functions/Afunctionthataccumulates
    :from_source: T
-   :pct_on_first: 0.4424920128
-   :total_students_attempting: 1252
-   :num_students_correct: 1155.0
-   :mean_clicks_to_correct: 4.716017316
+   :pct_on_first: 0.4429369513
+   :total_students_attempting: 1253
+   :num_students_correct: 1156.0
+   :mean_clicks_to_correct: 4.7128027682
 
    Rearrange the code statements to match the activecode window above. (This is an exercise in noticing where the indenting and outdenting happens, and where the return statement goes.)
    

@@ -1,6 +1,6 @@
 .. activecode:: ac8_9_5
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.020121463
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: TheAccumulatorPatternwithLists
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.6064981949
-   :total_students_attempting: 1108
-   :num_students_correct: 843.0
-   :mean_clicks_to_correct: 1.3416370107
+   :pct_on_first: 0.6066606661
+   :total_students_attempting: 1111
+   :num_students_correct: 846.0
+   :mean_clicks_to_correct: 1.341607565
 
    For each number in ``lst_nums``, multiply that number by 2 and append it to a new list called ``larger_nums``.
    ~~~~

@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_13
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.8140350877
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -14,9 +14,9 @@
    :feedback_c: The iterator variable is not the clearest here
    :correct: a
    :practice: T
-   :pct_on_first: 0.5466549296
-   :total_students_attempting: 1136
-   :num_students_correct: 1123.0
-   :mean_clicks_to_correct: 1.6616206589
+   :pct_on_first: 0.5464912281
+   :total_students_attempting: 1140
+   :num_students_correct: 1127.0
+   :mean_clicks_to_correct: 1.6628216504
 
    Which of these are good alternatives to the accumulator variable and iterator variable names for the following prompt? For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.

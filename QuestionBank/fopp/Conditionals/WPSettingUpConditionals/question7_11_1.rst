@@ -1,6 +1,6 @@
 .. mchoice:: question7_11_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 4.0481355932
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: WPSettingUpConditionals
@@ -16,9 +16,9 @@
    :feedback_c: Yes, two if statements will keep track of - and properly update - the two different accumulator variables.
    :feedback_d: Using if/elif/else here will provide an unnecessary else statement and improperly update one of the accumulator variables in the case where a word has both a "t" and a "z".
    :practice: T
-   :pct_on_first: 0.237449118
-   :total_students_attempting: 1474
-   :num_students_correct: 1461.0
-   :mean_clicks_to_correct: 2.5037645448
+   :pct_on_first: 0.2379661017
+   :total_students_attempting: 1475
+   :num_students_correct: 1462.0
+   :mean_clicks_to_correct: 2.5027359781
 
    What is the best set of conditonal statements provided based on the following prompt? You want to keep track of all the words that have the letter 't' and in a separate variable you want to keep track of all the words that have the letter 'z' in them.

@@ -1,6 +1,6 @@
 .. activecode:: ac11_4_10
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.072668708
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4361510791
-   :total_students_attempting: 1112
-   :num_students_correct: 782.0
-   :mean_clicks_to_correct: 2.2352941176
+   :pct_on_first: 0.4366576819
+   :total_students_attempting: 1113
+   :num_students_correct: 783.0
+   :mean_clicks_to_correct: 2.2337164751
 
    **14.** Write a function called ``decision`` that takes a string as input, and then checks the number of characters. If it has over 17 characters, return "This is a long string", if it is shorter or has 17 characters, return "This is a short string".
    ~~~~

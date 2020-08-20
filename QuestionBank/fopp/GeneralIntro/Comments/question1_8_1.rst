@@ -1,6 +1,6 @@
 .. mchoice:: question1_8_1
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.3949823094
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Comments
@@ -15,9 +15,9 @@
    :feedback_b: The computer ignores comments.  It’s for the humans that will “consume” your program.
    :feedback_c: Comments can provide much needed information for anyone reading the program.
    :feedback_d: Even small programs benefit from comments.
-   :pct_on_first: 0.9007756949
-   :total_students_attempting: 3094
-   :num_students_correct: 3081.0
-   :mean_clicks_to_correct: 1.1457319052
+   :pct_on_first: 0.9012544226
+   :total_students_attempting: 3109
+   :num_students_correct: 3096.0
+   :mean_clicks_to_correct: 1.1450258398
 
    What are comments for?

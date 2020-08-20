@@ -1,6 +1,6 @@
 .. actex:: TL_365_Balmer
    :author: Tyler Luchko
-   :difficulty: 1.0
+   :difficulty: 1.2014077817
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises

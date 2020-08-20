@@ -1,6 +1,6 @@
 .. activecode:: KDL_ch2_6
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.037658832
    :basecourse: fopp
    :chapter: SimplePythonData
    :subchapter: Exercises
@@ -8,8 +8,8 @@
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.4886363636
-   :total_students_attempting: 88
+   :pct_on_first: 0.4831460674
+   :total_students_attempting: 89
    :num_students_correct: 61.0
    :mean_clicks_to_correct: 1.6393442623
 

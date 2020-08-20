@@ -1,6 +1,6 @@
 .. activecode:: msmu_class_3
     :author: Irma Ravkic
-    :difficulty: 0.0
+    :difficulty: 1.2356091031
     :basecourse: fopp
     :chapter: Inheritance
     :subchapter: Exercises

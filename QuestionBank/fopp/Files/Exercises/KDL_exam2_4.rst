@@ -1,6 +1,6 @@
 .. activecode:: KDL_exam2_4
    :author: Kaelyn Leake
-   :difficulty: 0.0
+   :difficulty: 1.806961178
    :basecourse: fopp
    :chapter: Files
    :subchapter: Exercises

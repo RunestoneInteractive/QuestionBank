@@ -1,6 +1,6 @@
 .. activecode:: ac_ch13_classstr_01
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 1.1335118251
    :basecourse: fopp
    :chapter: Classes
    :subchapter: ConvertinganObjecttoaString

@@ -1,6 +1,6 @@
 .. mchoice:: question8_11_8
    :author: bmiller
-   :difficulty: 3.0
+   :difficulty: 2.1630716135
    :basecourse: fopp
    :chapter: TransformingSequences
    :subchapter: WPAccumulatorPatternStrategies
@@ -14,9 +14,9 @@
    :feedback_c: It is stated in the prompt.
    :correct: a
    :practice: T
-   :pct_on_first: 0.7082251082
-   :total_students_attempting: 1155
-   :num_students_correct: 1143.0
-   :mean_clicks_to_correct: 1.4059492563
+   :pct_on_first: 0.7092320966
+   :total_students_attempting: 1159
+   :num_students_correct: 1147.0
+   :mean_clicks_to_correct: 1.4045335658
 
    What sequence will you iterate through as you accumulate a result in the following prompt? For each string in ``wrds``, add 'ed' to the end of the word (to make the word past tense). Save these past tense words to a list called ``past_wrds``.
