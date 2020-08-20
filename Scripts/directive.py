@@ -21,7 +21,7 @@ testq = """
    :author: bmiller
    :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/FunctionParameters
+   :topics: Functions/FunctionParameters
    :from_source: T
    :answer_a: def print_many(x, y):
    :answer_b: print_many
@@ -48,7 +48,7 @@ test2 = """
    :author: bmiller
    :difficulty: 3.0
    :basecourse: fopp
-   :topic: Functions/Exercises
+   :topics: Functions/Exercises
    :from_source: T
 
    Write a function to count how many odd numbers are in a list.

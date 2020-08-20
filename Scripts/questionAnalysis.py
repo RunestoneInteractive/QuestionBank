@@ -23,6 +23,7 @@ import altair as alt
 from os import environ
 import redis
 import json
+r = redis.Redis()
 
 
 # %%
@@ -91,7 +92,7 @@ FROM {directive}_answers JOIN
     )
 
 
-# %%
+"# %%
 def get_correct_stats(basecourse, directive):
     """
     Get the statistics for students that got a correct answer:
@@ -151,7 +152,7 @@ def get_combined_stats(basecourse, qtype):
 
 # %%
 def get_combined_qtypes(basecourse):
-    qtypes = ["mchoice", "fitb", "dragndrop", "parsons", "clickablearea"]
+    qtypes = ["mchoice", "fitb", "dragndrop", "parsons", "clickablearea", "unittest"]
     flist = []
     for qtype in qtypes:
         print(f"getting stats for {qtype}")
@@ -161,7 +162,10 @@ def get_combined_qtypes(basecourse):
             flist.append(res)
         except Exception:
             print(f"No stats for {qtype}")
-    return pd.concat(flist)
+    if len(flist) > 0:
+        return pd.concat(flist)
+    else:
+        return pd.DataFrame()
 
 
 # %%
@@ -173,6 +177,7 @@ def save_results_to_redis(basecourse, rframe, rconn):
     * num_students_attempting
     * num_students_correct
     * mean_clicks_to_correct
+    * difficulty
 
     Args:
         basecourse (string): Which course are these questions from
@@ -183,20 +188,44 @@ def save_results_to_redis(basecourse, rframe, rconn):
         key = f"{basecourse}/{row.chapter}/{row.subchapter}/{row['name']}"
         rconn.set(key, json.dumps(row.to_json()))
 
+# %%
+def get_difficulty(row):
+    if row.question_type == "unittest":
+        return row.rescale_mcc
+    else:
+        return row.rescale_pct
+
+# %%
+def analyze_one_course(c, r):
+    x = get_combined_qtypes(c)
+    x['rescale_mcc'] = minmax_scale(x.mean_clicks_to_correct,(1,5))
+    x['rescale_pct'] = minmax_scale(x.pct_on_first,(1,5))
+    x.rescale_pct = x.rescale_pct.map(lambda x: 6-x)
+    x['difficulty'] = x.apply(get_difficulty, axis=1)
+    if not x.empty:
+        save_results_to_redis(c, x, r)
+
 
 # %%
 for c in [
-    # "pythonds",
-    # "cppds",
-    # "haugrud",
-    # "cps110fall2018",
-    # "cps110spring2019",
+    "pythonds",
+    "fopp",
+    "thinkcspy",
+    "cppds",
+    "StudentCSP",
+    "thinkcpp",
+    "pythonds3",
+    "haugrud",
+    "cps110fall2018",
+    "cps110spring2019",
     "csawesome",
+    "csjava",
     "httlads",
+    "webfundamentals",
+    "MasteringDatabases",
 ]:
-    x = get_combined_qtypes(c)
-    save_results_to_redis(c, x, r)
+    print(c)
+    analyze_one_course(c,r)
 
 
-# %%
 

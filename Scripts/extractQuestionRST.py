@@ -47,7 +47,9 @@ def compute_indent(q):
 
 
 # %%
-def update_question(q, author, difficulty, from_source, topic, basecourse):
+def update_question(
+    q, author, difficulty, from_source, topic, basecourse, chapter, subchapter
+):
     if q[0:2] == "\\x":
         return
     q = q.strip()
@@ -58,11 +60,15 @@ def update_question(q, author, difficulty, from_source, topic, basecourse):
     author = " " * indent + ":author: " + str(author)
     difficulty = " " * indent + ":difficulty: " + str(difficulty)
     from_source = " " * indent + ":from_source: " + str(from_source)
-    topic = " " * indent + ":topic: " + str(topic)
+    topic = " " * indent + ":topics: " + str(topic)
     basecourse = " " * indent + ":basecourse: " + str(basecourse)
+    chapter = " " * indent + ":chapter: " + str(chapter)
+    subchapter = " " * indent + ":subchapter: " + str(subchapter)
     qlist = q.split("\n")
     qlist.insert(1, from_source)
     qlist.insert(1, topic)
+    qlist.insert(1, subchapter)
+    qlist.insert(1, chapter)
     qlist.insert(1, basecourse)
     qlist.insert(1, difficulty)
     qlist.insert(1, author)
@@ -103,6 +109,8 @@ for ix, row in df.iterrows():
         topic = row["chapter"] + "/" + row["subchapter"]
     except KeyError:
         topic = "not set"
+    except Exception:
+        topic = "not set"
     p = Path(topic)
     p = Path("../QuestionBank") / row["base_course"] / p
     p.mkdir(parents=True, exist_ok=True)
@@ -116,6 +124,8 @@ for ix, row in df.iterrows():
                 row["from_source"],
                 topic,
                 row["base_course"],
+                row["chapter"] or "",
+                row["subchapter"] or "",
             )
             if res is not None:
                 f.write(res)
