@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithStrings
 
    Below are a set of scores that students have received in the past semester. Write code to determine how many are 90 or above and assign that result to the value ``a_scores``.
    ~~~~

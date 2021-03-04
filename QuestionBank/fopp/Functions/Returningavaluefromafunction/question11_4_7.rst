@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_7
    :author: bmiller
-   :difficulty: 3.4542936288
+   :difficulty: 3.4553633218
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -14,8 +14,8 @@
    :feedback_b: Yes! Two printed lines, and then the function body execution reaches a return statement.
    :feedback_c: The function returns an integer value! However, this code does not print out the result of the function invocation, so you can't see it (print is for people). The only lines you see printed are the ones that occur in the print statements before the return statement.
    :practice: T
-   :pct_on_first: 0.3864265928
-   :total_students_attempting: 1444
+   :pct_on_first: 0.3861591696
+   :total_students_attempting: 1445
    :num_students_correct: 1436.0
    :mean_clicks_to_correct: 1.7778551532
 

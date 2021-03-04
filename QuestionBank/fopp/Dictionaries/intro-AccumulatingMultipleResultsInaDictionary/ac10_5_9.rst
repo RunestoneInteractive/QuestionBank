@@ -9,8 +9,8 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.4565637066
-   :total_students_attempting: 1036
+   :pct_on_first: 0.456123433
+   :total_students_attempting: 1037
    :num_students_correct: 686.0
    :mean_clicks_to_correct: 1.7434402332
 

@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: NestedData/NestedDictionaries
 
    Provided is a nested data structure. Follow the instructions in the comments below. Do not hard code.
 

@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Prompt the user to input the name of their favorite musical band.  Determine the length of the name of the band by uisng a for loop.  Do not use the len function.
     ~~~~

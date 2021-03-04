@@ -1,6 +1,6 @@
 .. activecode:: ac5_3_6
    :author: bmiller
-   :difficulty: 1.0320896176
+   :difficulty: 1.0320702046
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: IndexOperatorWorkingwiththeCharactersofaString
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.6247582205
-   :total_students_attempting: 2068
-   :num_students_correct: 1652.0
-   :mean_clicks_to_correct: 1.5447941889
+   :pct_on_first: 0.6249395843
+   :total_students_attempting: 2069
+   :num_students_correct: 1653.0
+   :mean_clicks_to_correct: 1.5444646098
 
    Assign the value of the last chacter of ``lst`` to the variable ``output``. Do this so that the length of lst doesn't matter.
    ~~~~

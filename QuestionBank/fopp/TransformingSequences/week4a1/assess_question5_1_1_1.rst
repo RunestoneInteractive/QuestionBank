@@ -16,7 +16,6 @@
    :feedback_c: This is a variable inside the for loop. It changes each time but does not accumulate or retain the old expressions that were assigned to it.
    :feedback_d: Yes, this is the accumulator variable. By the end of the program, it will have a full count of how many items are in byzo.
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithStrings
 
    Which of these is the accumulator variable?
 

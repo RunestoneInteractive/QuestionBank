@@ -57,4 +57,6 @@ for basecourse in [
     "MasteringDatabases",
 ]:
 
-    update_one_course(basecourse, r)
+    update_one_course("fopp", r)
+
+# %%

@@ -7,7 +7,6 @@
    :topics: TransformingSequences/week4a1
    :from_source: T
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithLists
 
    What is the iterator (loop) variable in the following?
 

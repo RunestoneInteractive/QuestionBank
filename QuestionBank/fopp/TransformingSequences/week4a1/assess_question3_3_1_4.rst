@@ -12,7 +12,6 @@
    :feedback_b: Since a string is immutable, aliasing won't be as confusing. Beware of using something like item = item + new_item with mutable objects though because it creates a new object. However, when we use += then that doesn't happen.
    :correct: b
    :practice: T
-   :topics: TransformingSequences/Aliasing
 
    Could aliasing cause potential confusion in this problem?
 

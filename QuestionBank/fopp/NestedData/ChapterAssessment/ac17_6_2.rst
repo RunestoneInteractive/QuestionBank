@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: NestedData/ListswithComplexItems
 
    Below, a list of lists is provided. Use in and not in tests to create variables with Boolean values. See comments for further instructions.
 

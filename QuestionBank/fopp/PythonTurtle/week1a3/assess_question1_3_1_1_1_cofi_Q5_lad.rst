@@ -9,7 +9,7 @@
    :multiple_answers:
    :answer_a: backward(50)
    :answer_b: backward() + 50
-   :answer_c: Boone.backward(50) 
+   :answer_c: Boone.backward(50)
    :answer_d: backward(50).Boone
    :answer_e: Boone.backward(20 + 30)
    :correct: c,e
@@ -19,6 +19,5 @@
    :feedback_d: This is not the correct structure to execute the task.
    :feedback_e: You are allowed to write expressions inside of methods, so this is correctly written.
    :practice: T
-   :topics: PythonTurtle/InstancesAHerdofTurtles
 
    What are correct ways to tell a turtle named Boone to move backward 50 pixels? Select as many as apply.

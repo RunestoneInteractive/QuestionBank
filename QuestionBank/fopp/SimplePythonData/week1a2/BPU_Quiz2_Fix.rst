@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Fix the error in the following code so that is will correctly find the area of a rectangle
     ~~~~
@@ -20,6 +19,6 @@
     area = width x height
 
     print("The area of the rectangle is", arae)
- 
+
 
     =====

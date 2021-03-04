@@ -14,7 +14,6 @@
    :feedback_b: This is the sequence that we iterate over.
    :feedback_c: This is the accumulator variable. By the end of the program, it will have the total value of the integers that are in lst.
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithLists
 
    Which of these is the iterator (loop) variable?
 

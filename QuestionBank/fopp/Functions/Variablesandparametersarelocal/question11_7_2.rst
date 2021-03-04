@@ -1,13 +1,13 @@
 .. fillintheblank:: question11_7_2
    :author: bmiller
-   :difficulty: 4.1226415094
+   :difficulty: 4.1233307148
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Variablesandparametersarelocal
    :topics: Functions/Variablesandparametersarelocal
    :from_source: T
-   :pct_on_first: 0.2193396226
-   :total_students_attempting: 1272
+   :pct_on_first: 0.2191673213
+   :total_students_attempting: 1273
    :num_students_correct: 1121.0
    :mean_clicks_to_correct: 3.049955397
 

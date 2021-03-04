@@ -10,7 +10,6 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: AdvancedAccumulation/listcomp
 
    Use list comprehension to create a list called ``lst2`` that doubles each element in the list, ``lst``.
    ~~~~

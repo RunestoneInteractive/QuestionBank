@@ -4,7 +4,6 @@
     :basecourse: fopp
     :chapter: Conditionals
     :subchapter: Exercises
-    :topics: Conditionals/Exercises
     :from_source: F
     :practice: T
     :topics: Conditionals/TheAccumulatorPatternwithConditionals

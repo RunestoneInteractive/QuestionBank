@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Functions/Returningavaluefromafunction
 
    Write a function called ``change`` that takes any string, adds "Nice to meet you!" to the end of the argument given, and returns that new string.
    ~~~~

@@ -19,6 +19,5 @@
    :feedback_d: You do not explicitly delete object instances; when there are no variables or other references to them, so that they can't be accessed, they are automatically deleted.
    :feedback_e: Methods can do at least one of the above. Take another look.
    :practice: T
-   :topics: PythonTurtle/ObjectInstances
 
    Select all of the following things that methods can do:

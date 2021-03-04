@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Sequences/SplitandJoin
 
    Create a variable called ``wrds`` and assign to it a list whose elements are the words in the string ``sent``. Do not worry about punctuation.
    ~~~~

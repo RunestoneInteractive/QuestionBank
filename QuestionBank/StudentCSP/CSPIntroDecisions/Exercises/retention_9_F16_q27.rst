@@ -18,7 +18,6 @@
    :feedback_e: Incorrect!
    :correct: c
    :practice: T
-   :topics: Final_Exam_F16/q_27
 
    What is the output of the following code? If there is an error, say so.
 

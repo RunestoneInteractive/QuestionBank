@@ -1,6 +1,6 @@
 .. mchoice:: question11_8_2
    :author: bmiller
-   :difficulty: 1.5278868814
+   :difficulty: 1.5306122449
    :basecourse: fopp
    :chapter: Functions
    :subchapter: GlobalVariables
@@ -13,8 +13,8 @@
    :feedback_a: Yes, a local variable is a temporary variable that is only known (only exists) in the function it is defined in.
    :feedback_b: While parameters may be considered local variables, functions may also define and use additional local variables.
    :feedback_c: Variables that are used outside a function are not local, but rather global variables.
-   :pct_on_first: 0.8680282797
-   :total_students_attempting: 1273
+   :pct_on_first: 0.8673469388
+   :total_students_attempting: 1274
    :num_students_correct: 1260.0
    :mean_clicks_to_correct: 1.1880952381
 

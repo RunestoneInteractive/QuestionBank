@@ -9,11 +9,10 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Write code to create a list of word lengths for the words in names using the accumulation pattern and assign the lengths to a list called names_length.
     ~~~~
-    
+
     names = ['Harry','Ron','Hermione','Hagrid', 'Draco','Albus','Luna','Snape','Dobby','Voldemort','Neville']
 
     =====

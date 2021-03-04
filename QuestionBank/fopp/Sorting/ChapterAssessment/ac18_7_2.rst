@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Sorting/Optionalreverseparameter
 
    Sort the list below, ``animals``, into alphabetical order, a-z. Save the new list as ``animals_sorted``.
    ~~~~

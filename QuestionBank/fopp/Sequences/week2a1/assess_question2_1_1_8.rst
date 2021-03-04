@@ -16,7 +16,6 @@
    :feedback_c: Not quite, look again at what types are present and what the result of .split() is.
    :feedback_d: Not quite, think about what .split() and .join() return.
    :practice: T
-   :topics: Sequences/SplitandJoin
 
    What is the type of ``a``?
 

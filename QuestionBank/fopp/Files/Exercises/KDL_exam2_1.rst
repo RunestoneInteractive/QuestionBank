@@ -8,8 +8,8 @@
    :from_source: F
    :autograde: unittest
    :language: python
-   :pct_on_first: 0.0188679245
-   :total_students_attempting: 53
+   :pct_on_first: 0.0185185185
+   :total_students_attempting: 54
    :num_students_correct: 10.0
    :mean_clicks_to_correct: 10.1
 

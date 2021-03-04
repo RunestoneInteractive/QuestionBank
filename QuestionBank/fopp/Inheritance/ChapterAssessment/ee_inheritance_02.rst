@@ -8,7 +8,6 @@
    :from_source: T
    :tags: Inheritance/inheritVarsAndMethods.rst, Inheritance/OverrideMethods.rst
    :practice: T
-   :topics: Inheritance/OverrideMethods
 
    Modify the ``Grass_Pokemon`` subclass so that the attack strength for ``Grass_Pokemon`` instances does not change until they reach level 10. At level 10 and up, their attack strength should increase by the ``attack_boost`` amount when they are trained.
 

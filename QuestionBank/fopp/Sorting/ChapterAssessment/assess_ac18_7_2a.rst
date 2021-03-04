@@ -8,7 +8,6 @@
     :from_source: T
     :language: python
     :practice: T
-    :topics: Sorting/intro-SortingwithSortandSorted
 
     Write code to rearrange the strings in the list ``winners`` so that they are in alphabetical order by first name from A to Z.
     ~~~~

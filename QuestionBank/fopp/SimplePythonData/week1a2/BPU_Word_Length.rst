@@ -9,12 +9,11 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Determine how many of the elements in the given list have a length of 5.  Output this amount to the screen.  Be sure to write code that could be used with any given list.
     ~~~~
     names = ['Harry','Ron','Hermione','Hagrid', 'Draco','Albus','Luna','Snape','Dobby','Voldemort','Neville']
 
-   
+
 
     =====

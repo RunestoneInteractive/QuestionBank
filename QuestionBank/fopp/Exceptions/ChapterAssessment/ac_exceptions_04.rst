@@ -6,9 +6,8 @@
    :subchapter: ChapterAssessment
    :topics: Exceptions/ChapterAssessment
    :from_source: T
-   :tags:Exceptions/intro-exceptions.rst
+   :tags: Exceptions/intro-exceptions.rst
    :practice: T
-   :topics: Exceptions/intro-exceptions.rst
 
    The buggy code below prints out the value of the sport in the list ``sport``. Use try/except so that the code will run properly. If the sport is not in the dictionary, ``ppl_play``, add it in with the value of 1.
    ~~~~

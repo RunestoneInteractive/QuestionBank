@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Dictionaries/AccumulatingResultsFromaDictionary
 
    Create a dictionary, ``freq_words``, that contains each word in string ``str1`` as the key and its frequency as the value.
    ~~~~

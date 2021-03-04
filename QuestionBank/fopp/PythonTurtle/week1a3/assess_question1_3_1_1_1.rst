@@ -19,6 +19,5 @@
    :feedback_d: This is not the correct structure to execute the task.
    :feedback_e: You are allowed to write expressions inside of methods, so this is correctly written.
    :practice: T
-   :topics: PythonTurtle/InstancesAHerdofTurtles
 
    What are correct ways to tell a turtle named Tex to move forward 20 pixels? Select as many as apply.

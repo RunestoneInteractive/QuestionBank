@@ -7,7 +7,6 @@
     :topics: CSPIntroDecisions/Exercises
     :from_source: F
     :practice: T
-    :topics: Final_Exam_F17/q_07
 
     What will the following code print out?
 

@@ -18,6 +18,5 @@
    :feedback_d: Yes, this combination of variable names is the clearest.
    :feedback_e: One of the options above has good names for the scenario.
    :practice: T
-   :topics: TransformingSequences/WPAccumulatorPatternStrategies
 
    Given the following scenario, what are good names for the accumulator variable, iterator variable, and sequence variable? You are writing code that uses a list of sentences and accumulates the total number of sentences that have the word 'happy' in them.

@@ -16,7 +16,6 @@
    :feedback_c: What is happening in the assignment statement for m?
    :feedback_d: Yes, a slice returns a list no matter how large the slice.
    :practice: T
-   :topics: Sequences/TheSliceOperator
 
    What is the type of ``m``?
 

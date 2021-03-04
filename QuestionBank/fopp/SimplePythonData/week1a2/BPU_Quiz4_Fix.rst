@@ -9,11 +9,10 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     The following code is hard coded in order for the second to the last element, Krammer, to output to the screen.  Edit the code so that the second to the last entry in the list will output regardless of the size of the list.
     ~~~~
-    seinfeld = ["Jerry", "George", "Krammer", "Elaine"] 
-   
+    seinfeld = ["Jerry", "George", "Krammer", "Elaine"]
+
     print(seinfeld[2])
     =====

@@ -9,11 +9,10 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Write a program that will use the first letter from each item in the given list to form a new word. Output this new word.  For example: ["May", "Any", "Nobody"] would have an output of MAN.
     ~~~~
-    creatures = ["Yeti", "Ogre", "Dragon", "Angel"] 
- 
+    creatures = ["Yeti", "Ogre", "Dragon", "Angel"]
+
 
     =====

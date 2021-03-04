@@ -16,6 +16,5 @@
    :feedback_d: remove gets rid of the first occurance of any item that it is told. It does not add an item.
    :correct: c
    :practice: T
-   :topics: TransformingSequences/MutatingMethods
 
    Which method is best to use when adding an item to the end of a list?

@@ -7,7 +7,6 @@
    :topics: Classes/UserDefinedClasses
    :from_source: F
    :practice: T
-   :topics: Simple class
 
    Below, we have provided a simple class code for a point (Click show code to see the code for class). Set x to 10 and y to 5 for the the point p and x=15 and y = 20 for the point q.
 

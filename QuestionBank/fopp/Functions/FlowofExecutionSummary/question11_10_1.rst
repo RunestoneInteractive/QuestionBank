@@ -1,6 +1,6 @@
 .. mchoice:: question11_10_1
    :author: bmiller
-   :difficulty: 1.8667790894
+   :difficulty: 1.8694187026
    :basecourse: fopp
    :chapter: Functions
    :subchapter: FlowofExecutionSummary
@@ -16,8 +16,8 @@
    :feedback_c: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :feedback_d: Notice that pow is called from within square with a base (b) of 5 and a power (p) of two.
    :practice: T
-   :pct_on_first: 0.7833052277
-   :total_students_attempting: 1186
+   :pct_on_first: 0.7826453243
+   :total_students_attempting: 1187
    :num_students_correct: 1172.0
    :mean_clicks_to_correct: 1.4274744027
 

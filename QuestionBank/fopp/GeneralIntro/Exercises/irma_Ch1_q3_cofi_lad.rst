@@ -1,15 +1,15 @@
 .. parsonsprob:: irma_Ch1_q3_cofi_lad
    :author: Lynda Danielson
-   :difficulty: 1.5714285714
+   :difficulty: 2.0
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Exercises
    :topics: GeneralIntro/Exercises
    :from_source: F
-   :pct_on_first: 0.8571428571
-   :total_students_attempting: 7
-   :num_students_correct: 7.0
-   :mean_clicks_to_correct: 1.2857142857
+   :pct_on_first: 0.75
+   :total_students_attempting: 8
+   :num_students_correct: 8.0
+   :mean_clicks_to_correct: 1.375
 
    Assume you need to write a program to compute the total sale amount of a purchase including sales tax.  
    The formula in Idaho is the following: total = purchase + purchase * 0.06. That is, the total sale amount

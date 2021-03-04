@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: NestedData/NestedIteration
 
    Iterate through the contents of ``l_of_l`` and assign the third element of sublist to a new list called ``third``.
 

@@ -1,6 +1,6 @@
 .. activecode:: ac5_3_5
    :author: bmiller
-   :difficulty: 1.0341640207
+   :difficulty: 1.0341437092
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: IndexOperatorWorkingwiththeCharactersofaString
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5871516297
-   :total_students_attempting: 2117
-   :num_students_correct: 1681.0
-   :mean_clicks_to_correct: 1.5800118977
+   :pct_on_first: 0.5873465534
+   :total_students_attempting: 2118
+   :num_students_correct: 1682.0
+   :mean_clicks_to_correct: 1.579667063
 
    Assign the value of the 23rd element of ``l`` to the variable ``checking``.
    ~~~~

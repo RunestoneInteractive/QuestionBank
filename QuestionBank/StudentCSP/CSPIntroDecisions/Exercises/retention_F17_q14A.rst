@@ -10,7 +10,6 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: Final_Exam_F17/q_14_A
 
    Define a function f that takes a list of strings and returns a list containing the first letter of every word that contains the letter z. Your function **must use** manual accumulation (i.e., you may not use map, filter, reduce, zip, or list comprehensions.)
 

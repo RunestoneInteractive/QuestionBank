@@ -10,11 +10,10 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: Final_Exam_F16/q_21
 
    Define a function called **shortest_string** that takes a list of strings as input and returns
    the string with the fewest characters in it. (You can assume that one string in any input list will
-   be shorter than the rest.) 
+   be shorter than the rest.)
 
    ~~~~
 

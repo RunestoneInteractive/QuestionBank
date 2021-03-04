@@ -8,7 +8,6 @@
    :from_source: T
    :practice: T
    :autograde: unittest
-   :topics: Exceptions/intro-exceptions
 
    Below, we have provided buggy code. Add a try/except clause so the code runs without errors. If a blog post didn't get any likes, a 'Likes' key should be added to that dictionary with a value of 0.
 

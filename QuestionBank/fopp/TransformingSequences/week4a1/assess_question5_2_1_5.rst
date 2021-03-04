@@ -19,6 +19,5 @@
    :feedback_d: Yes, names is good, assuming that the for loop is iterating through actual names and not something unrelated to names.
    :feedback_e: At least one of the answers above is a good name for a sequence variable
    :practice: T
-   :topics: TransformingSequences/WPAccumulatorPatternStrategies
 
    Which of these are good names for a sequence variable? Select as many as apply.

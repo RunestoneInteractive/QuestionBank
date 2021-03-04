@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Sequences/Length
 
    Assign the number of elements in ``lst`` to the variable ``num_lst``.
    ~~~~

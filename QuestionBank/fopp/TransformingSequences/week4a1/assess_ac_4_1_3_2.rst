@@ -9,7 +9,6 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :topics: TransformingSequences/MutatingMethods
 
     Write code to find the position of the string "Tony" in the list ``awards`` and save that information in the variable ``pos``.
     ~~~~

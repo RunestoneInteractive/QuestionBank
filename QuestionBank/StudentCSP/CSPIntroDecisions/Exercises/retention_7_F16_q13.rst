@@ -7,7 +7,6 @@
    :topics: CSPIntroDecisions/Exercises
    :from_source: F
    :practice: T
-   :topics: Final_Exam_F16/q_13
 
    Variable **s** has a much simplified set of data returned from a Twitter query.
    What is the type of **s**?

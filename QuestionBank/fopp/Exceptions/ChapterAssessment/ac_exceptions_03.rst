@@ -8,7 +8,6 @@
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
    :practice: T
-   :topics: Exceptions/intro-exceptions.rst
 
    Write code so that the buggy code provided works using a try/except. When the codes does not work in the try, have it append to the list ``attempt`` the string "Error".
    ~~~~

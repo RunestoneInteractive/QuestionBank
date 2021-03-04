@@ -12,7 +12,6 @@
    :feedback_b: Can you figure out what the value of b is only by looking at the lines that mention b?
    :correct: a
    :practice: T
-   :topics: TransformingSequences/Aliasing
 
    Could aliasing cause potential confusion in this problem?
 

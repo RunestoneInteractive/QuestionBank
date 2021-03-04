@@ -7,8 +7,8 @@
     :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.1590909091
-    :total_students_attempting: 44
+    :pct_on_first: 0.1555555556
+    :total_students_attempting: 45
     :num_students_correct: 16.0
     :mean_clicks_to_correct: 2.25
 

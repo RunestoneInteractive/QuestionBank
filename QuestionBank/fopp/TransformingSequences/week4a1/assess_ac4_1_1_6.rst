@@ -9,7 +9,6 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :topics: TransformingSequences/MutatingMethods
 
     Write code to add 'Guadalajara' to the end of the list ``trav_dest`` using a list method.
     ~~~~

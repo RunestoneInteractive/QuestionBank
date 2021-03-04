@@ -16,7 +16,6 @@
    :feedback_c: Yes, this will solve the problem.
    :feedback_d: One of the patterns above is a correct way to solve the problem.
    :practice: T
-   :topics: TransformingSequences/WPAccumulatorPatternStrategies
 
    Given that we want to accumulate the total sum of a list of numbers, which of the following accumulator patterns would be appropriate?
 

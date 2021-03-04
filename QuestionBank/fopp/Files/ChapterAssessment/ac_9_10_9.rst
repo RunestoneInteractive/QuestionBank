@@ -10,7 +10,6 @@
    :autograde: unittest
    :practice: T
    :available_files: SP500.txt
-   :topics: Files/ReadingCSVFiles
 
    Read in the contents of the file ``SP500.txt`` which has monthly data for 2016 and 2017 about the S&P 500 closing prices as well as some other financial indicators, including the "Long Term Interest Rate", which is interest rate paid on 10-year U.S. government bonds.
 

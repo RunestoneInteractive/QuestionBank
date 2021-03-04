@@ -9,11 +9,10 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Determine how many of the temperatures in the given list are greater than 90. Output this total to the screen. Be sure to write code that could be used with any given list.
     ~~~~
     temps = [92, 86, 100, 95, 56, 67, 91]
-   
+
 
     =====

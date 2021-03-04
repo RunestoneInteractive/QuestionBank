@@ -1,6 +1,6 @@
 .. mchoice:: question11_2_4
    :author: bmiller
-   :difficulty: 2.3591505309
+   :difficulty: 2.3583021223
    :basecourse: fopp
    :chapter: Functions
    :subchapter: FunctionInvocation
@@ -18,10 +18,10 @@
    :feedback_d: Each time the function is invoked, it will print two lines, not one.
    :feedback_e: Three invocations generate two lines each, plus the line "It works".
    :practice: T
-   :pct_on_first: 0.6602123673
-   :total_students_attempting: 1601
-   :num_students_correct: 1592.0
-   :mean_clicks_to_correct: 1.8429648241
+   :pct_on_first: 0.6604244694
+   :total_students_attempting: 1602
+   :num_students_correct: 1593.0
+   :mean_clicks_to_correct: 1.842435656
 
    How many lines will be output by executing this code?
    

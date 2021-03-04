@@ -1,6 +1,6 @@
 .. activecode:: ac9_4_2
    :author: bmiller
-   :difficulty: 1.0662937092
+   :difficulty: 1.0662865261
    :basecourse: fopp
    :chapter: Files
    :subchapter: AlternativeFileReadingMethods
@@ -11,10 +11,10 @@
    :nocodelens: 
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.401459854
-   :total_students_attempting: 1370
-   :num_students_correct: 1028.0
-   :mean_clicks_to_correct: 2.1254863813
+   :pct_on_first: 0.4011670314
+   :total_students_attempting: 1371
+   :num_students_correct: 1029.0
+   :mean_clicks_to_correct: 2.1253644315
 
    2. Find the number of lines in the file, ``travel_plans2.txt``, and assign it to the variable ``num_lines``.
    ~~~~

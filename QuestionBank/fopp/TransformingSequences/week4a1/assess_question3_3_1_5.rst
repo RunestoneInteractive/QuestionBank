@@ -16,7 +16,6 @@
    :feedback_d: Yes, the behavior of obj = obj + object_two is different than obj += object_two when obj is a list. The first version makes a new object entirely and reassigns to obj. The second version changes the original object so that the contents of object_two are added to the end of the first.
    :correct: d
    :practice: T
-   :topics: TransformingSequences/ObjectsandReferences
 
    Which of these is a correct reference diagram following the execution of the following code?
 

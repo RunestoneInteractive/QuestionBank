@@ -7,7 +7,6 @@
    :topics: TransformingSequences/week4a1
    :from_source: T
    :practice: T
-   :topics: TransformingSequences/ObjectsandReferences
 
    What will be the value of ``a`` after the following code has executed?
 

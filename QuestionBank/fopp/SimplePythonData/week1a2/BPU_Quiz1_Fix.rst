@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Fix the error in the following code so that is will correctly convert feet to inches
     ~~~~

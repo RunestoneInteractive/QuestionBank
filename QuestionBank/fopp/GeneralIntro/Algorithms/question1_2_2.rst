@@ -1,6 +1,6 @@
 .. mchoice:: question1_2_2
    :author: bmiller
-   :difficulty: 1.5032628557
+   :difficulty: 1.5037809648
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: Algorithms
@@ -15,9 +15,9 @@
    :feedback_b: Algorithms are like recipes:  they must be followed exactly, they must be clear and unambiguous, and they must end.
    :feedback_c: Programming languages are used to express algorithms, but an algorithm does not have to be expressed in terms of a programming language.
    :feedback_d: Programmers sometimes use a special notation to illustrate or document an algorithm, but this is not the definition of an algorithm.
-   :pct_on_first: 0.8741842861
-   :total_students_attempting: 3831
-   :num_students_correct: 3796.0
-   :mean_clicks_to_correct: 1.1617492097
+   :pct_on_first: 0.8740547588
+   :total_students_attempting: 3835
+   :num_students_correct: 3801.0
+   :mean_clicks_to_correct: 1.1620626151
 
    An algorithm is:

@@ -1,6 +1,6 @@
 .. actex:: TL_365_class_charged_particle
    :author: Tyler Luchko
-   :difficulty: 1.3790233397
+   :difficulty: 1.3656849621
    :basecourse: fopp
    :chapter: Classes
    :subchapter: Exercises
@@ -8,10 +8,10 @@
    :from_source: F
    :language: python
    :autograde: unittest
-   :pct_on_first: 0.1458333333
-   :total_students_attempting: 48
-   :num_students_correct: 23.0
-   :mean_clicks_to_correct: 7.4347826087
+   :pct_on_first: 0.1428571429
+   :total_students_attempting: 49
+   :num_students_correct: 24.0
+   :mean_clicks_to_correct: 7.2083333333
 
    Create a class called ``Charge`` that describes a charged particle,
    and define ``__init__()`` and ``potential_at()``

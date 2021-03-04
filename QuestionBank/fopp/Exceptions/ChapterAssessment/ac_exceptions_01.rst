@@ -8,7 +8,6 @@
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
    :practice: T
-   :topics: Exceptions/intro-exceptions.rst
 
    The code below takes the list of country, ``country``, and searches to see if it is in the dictionary ``gold`` which shows some countries who won gold during the Olympics. However, this code currently does not work. Correctly add try/except clause in the code so that it will correctly populate the list, ``country_gold``, with either the number of golds won or the string "Did not get gold".
    ~~~~

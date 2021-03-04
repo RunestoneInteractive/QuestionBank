@@ -1,6 +1,6 @@
 .. mchoice:: question5_6_1
    :author: bmiller
-   :difficulty: 1.4525881814
+   :difficulty: 1.4542124542
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: TheSliceOperator
@@ -16,8 +16,8 @@
    :feedback_c: Yes, start with the character at index 3 and go up to but not include the character at index 8.
    :feedback_d: This is called slicing, not indexing. It requires a start and an end.
    :practice: T
-   :pct_on_first: 0.8868529546
-   :total_students_attempting: 2183
+   :pct_on_first: 0.8864468864
+   :total_students_attempting: 2184
    :num_students_correct: 2179.0
    :mean_clicks_to_correct: 1.1766865535
 

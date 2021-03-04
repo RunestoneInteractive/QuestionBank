@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Write a program which will find the average of the numbers in the given list.  Use a for loop and make sure the program would work regardless of how many elements are in the list.
     ~~~~

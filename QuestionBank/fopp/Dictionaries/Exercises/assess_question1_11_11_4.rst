@@ -7,7 +7,6 @@
     :topics: Dictionaries/Exercises
     :from_source: T
     :practice: T
-    :topics: Dictionaries/KeyValueLookupAssignment
 
     Consider the following function:
 

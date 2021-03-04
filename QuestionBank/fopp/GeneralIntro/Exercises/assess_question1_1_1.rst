@@ -16,6 +16,5 @@
    :feedback_d: While it is beneficial to have a set of instructions as that is what an algorithm **is**, it is not **why** we would want to create one.
    :correct: c
    :practice: T
-   :topics: GeneralIntro/Algorithms
 
    Why create an algorithm?

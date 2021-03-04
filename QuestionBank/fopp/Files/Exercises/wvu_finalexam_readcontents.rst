@@ -1,16 +1,16 @@
 .. activecode:: wvu_finalexam_readcontents
     :author: Brian Powell
-    :difficulty: 1.2871485944
+    :difficulty: 1.2806520198
     :basecourse: fopp
     :chapter: Files
     :subchapter: Exercises
     :topics: Files/Exercises
     :from_source: F
     :autograde: unittest
-    :pct_on_first: 0.0727272727
-    :total_students_attempting: 55
-    :num_students_correct: 16.0
-    :mean_clicks_to_correct: 5.875
+    :pct_on_first: 0.0714285714
+    :total_students_attempting: 56
+    :num_students_correct: 17.0
+    :mean_clicks_to_correct: 5.7647058824
 
     Write code to open the file **so_survey.csv** and read its contents into a list named **survey_results**. Each entry in the list should correspond with one line from the original file. Ensure the file is closed when you are done reading from it.
     

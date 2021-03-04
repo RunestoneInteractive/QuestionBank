@@ -12,6 +12,5 @@
    :feedback_a: Just like the variables you've learned about so far, you can assign values to an attribute and look up the values that are assigned to the attribute.
    :feedback_b: The only difference is the structure that is used to refer to it.
    :practice: T
-   :topics: PythonTurtle/ObjectInstances
 
    True or False, attributes/instance variables are just like other variables in Python.

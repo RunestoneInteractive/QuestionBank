@@ -16,7 +16,6 @@
    :feedback_d: What happens to the spaces in a string when it is split by whitespace?
    :correct: a
    :practice: T
-   :topics: TransformingSequences/MutatingMethods
 
    Which of these is a correct reference diagram following the execution of the following code?
 

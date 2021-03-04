@@ -7,7 +7,6 @@
     :topics: MoreAboutIteration/ChapterAssessment
     :from_source: T
     :practice: T
-    :topics: MoreAboutIteration/ThewhileStatement
 
     Below is a for loop that works. Underneath the for loop, rewrite the problem so that it does the same thing, but using a while loop instead of a for loop. Assign the accumulated total in the while loop code to the variable ``sum2``. Once complete, sum2 should equal sum1.
     ~~~~

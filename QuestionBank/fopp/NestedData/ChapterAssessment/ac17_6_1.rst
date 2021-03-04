@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: NestedData/ListswithComplexItems
 
    The variable ``nested`` contains a nested list. Assign 'snake' to the variable ``output`` using indexing.
 

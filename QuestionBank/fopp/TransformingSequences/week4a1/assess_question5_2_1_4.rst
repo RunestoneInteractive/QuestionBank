@@ -19,6 +19,5 @@
    :feedback_d: Yes, char can be a good name to use when iterating over a string, because the iterator variable would be assigned a character each time.
    :feedback_e: At least one of the answers above is a good name for an iterator variable.
    :practice: T
-   :topics: TransformingSequences/WPAccumulatorPatternStrategies
 
    Which of these are good names for an iterator (loop) variable? Select as many as apply.

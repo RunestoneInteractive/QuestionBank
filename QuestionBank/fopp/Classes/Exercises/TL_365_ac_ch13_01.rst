@@ -4,7 +4,6 @@
    :basecourse: fopp
    :chapter: Classes
    :subchapter: Exercises
-   :topics: Classes/Exercises
    :from_source: F
    :language: python
    :autograde: unittest

@@ -16,7 +16,6 @@
    :feedback_c: Not quite, look again at what types are present and what the result of .split() is.
    :feedback_d: Yes, the .split() method returns a list.
    :practice: T
-   :topics: Sequences/SplitandJoin
 
    What is the type of ``x``?
 

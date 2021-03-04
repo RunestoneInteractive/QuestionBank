@@ -16,6 +16,5 @@
    :feedback_d: correct.
    :correct: d
    :practice: T
-   :topics: Files
 
    Which of the following commands is used to open a file called ``myText.txt`` in Write-Only mode?

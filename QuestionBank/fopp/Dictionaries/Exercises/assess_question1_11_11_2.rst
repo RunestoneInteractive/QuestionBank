@@ -7,7 +7,6 @@
     :topics: Dictionaries/Exercises
     :from_source: T
     :practice: T
-    :topics: Dictionaries/DictionaryLookup
 
     In order to get the last line to print "success", what should the value *x* (in the last line) be?
 

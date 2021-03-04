@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Functions/Returningavaluefromafunction
 
    Write a function called ``int_return`` that takes an integer as input and returns the same integer.
    ~~~~

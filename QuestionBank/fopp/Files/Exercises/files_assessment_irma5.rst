@@ -14,19 +14,18 @@
    :feedback_b: This is correct. For each line in names file print THAT line.
    :feedback_c: This will print "line" three times. Not what we want.
    :practice: T
-   :topics: Files
 
     Assume I have a file called ``names.txt`` containing the following:
 
    ``Peter Pan``
-   
+
    ``Cinderella``
 
    ``Moana``
-   
+
    Which of the code snippets below prints all the lines/names in this text file?
-    
-   
+
+
    ``I``
 
    .. sourcecode:: python

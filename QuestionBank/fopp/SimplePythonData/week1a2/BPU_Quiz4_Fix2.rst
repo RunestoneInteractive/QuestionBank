@@ -9,11 +9,10 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Fix the errors in the following code so that it shows the index of the indicated entry.
     ~~~~
-    seinfeld = ["Jerry", "George", "Krammer", "Elaine"] 
-    
+    seinfeld = ["Jerry", "George", "Krammer", "Elaine"]
+
     print(seinfeld.index["krammer"])
     =====

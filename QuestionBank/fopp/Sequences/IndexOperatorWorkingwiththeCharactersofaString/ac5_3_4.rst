@@ -1,6 +1,6 @@
 .. activecode:: ac5_3_4
    :author: bmiller
-   :difficulty: 1.1535872597
+   :difficulty: 1.1534987878
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: IndexOperatorWorkingwiththeCharactersofaString
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.1890080429
-   :total_students_attempting: 2238
-   :num_students_correct: 1735.0
-   :mean_clicks_to_correct: 3.6074927954
+   :pct_on_first: 0.1893702546
+   :total_students_attempting: 2239
+   :num_students_correct: 1736.0
+   :mean_clicks_to_correct: 3.6059907834
 
    Assign the value of the 34th element of ``lst`` to the variable ``output``.
    ~~~~

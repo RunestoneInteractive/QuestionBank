@@ -4,7 +4,6 @@
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises
-   :topics: Conditionals/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
@@ -16,7 +15,7 @@
    determine whether they are even. If the number is even, add
    ``True`` to a new list called ``is_even``. If the number is odd,
    then add ``False``.
-   
+
    ~~~~
    num_lst = [3, 20, -1, 9, 10]
 
@@ -36,12 +35,12 @@
 	   inner_elifs = re.findall(r'^( +elif[ (].*: *)$', self.getEditorText(), re.M)
 	   inner_elses = re.findall(r'^( +else[ (]*: *)$', self.getEditorText(), re.M)
 	   self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
-	                   len(inner_ifs)==1 and len(inner_elifs)==0 and len(inner_elses)==1, 
+	                   len(inner_ifs)==1 and len(inner_elifs)==0 and len(inner_elses)==1,
 			   'Checking if-statements')
 	   # LOOK FOR for STATEMENTS
 	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)
 	   inner_loops = re.findall(r'^( +for .* in.*: *)$', self.getEditorText(), re.M)
 	   self.assertTrue(len(outer_loops)==1 and len(inner_loops)==0, 'Checking for-statements (there shouldn\'t be any)')
 
-	    
+
    myTests().main()

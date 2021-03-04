@@ -1,6 +1,6 @@
 .. mchoice:: question11_3_1
    :author: bmiller
-   :difficulty: 2.1119496855
+   :difficulty: 2.1137649277
    :basecourse: fopp
    :chapter: Functions
    :subchapter: FunctionParameters
@@ -16,9 +16,9 @@
    :feedback_c: A function definition needs to include the keyword def.
    :feedback_d: A function definition header must end in a colon (:).
    :practice: T
-   :pct_on_first: 0.7220125786
-   :total_students_attempting: 1590
-   :num_students_correct: 1584.0
-   :mean_clicks_to_correct: 1.4482323232
+   :pct_on_first: 0.7215587681
+   :total_students_attempting: 1591
+   :num_students_correct: 1585.0
+   :mean_clicks_to_correct: 1.4485804416
 
    Which of the following is a valid function header (first line of a function definition)?

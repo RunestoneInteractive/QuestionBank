@@ -7,7 +7,6 @@
    :topics: CSPIntroDecisions/Exercises
    :from_source: F
    :practice: T
-   :topics: Final_Exam_F16/q_09
 
    What is the type of ``s.split()`` after the following code executes?
 

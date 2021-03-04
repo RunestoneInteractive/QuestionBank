@@ -7,7 +7,6 @@
     :topics: MoreAboutIteration/ChapterAssessment
     :from_source: T
     :practice: T
-    :topics: MoreAboutIteration/ThewhileStatement
 
     Write a function called ``stop_at_z`` that iterates through a list of strings. Using a while loop, append each string to a new list until the string that appears is "z". The function should return the new list.
     ~~~~

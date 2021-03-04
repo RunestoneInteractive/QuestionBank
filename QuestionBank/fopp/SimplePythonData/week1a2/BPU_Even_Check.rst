@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Determine how many of the numbers in the following list are even. Output this total to the screen. Be sure to write code that could be used with any given list.
     ~~~~

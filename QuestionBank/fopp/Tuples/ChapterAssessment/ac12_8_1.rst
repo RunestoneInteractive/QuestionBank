@@ -10,7 +10,6 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: Tuples/TuplePacking
 
    Create a tuple called ``olympics`` with four elements: "Beijing", "London", "Rio", "Tokyo".
    ~~~~

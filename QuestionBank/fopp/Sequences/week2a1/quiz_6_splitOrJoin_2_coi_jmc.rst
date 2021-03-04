@@ -8,7 +8,6 @@
    :from_source: F
    :language: python
    :autograde: unittest
-   :topics: Sequences/SplitandJoin
 
    Use ``split`` to create a list whose elements are the words in the string ``items``. Assign your list to a variable named ``foods``. The elements in your list should not have any spaces or ``*``'s. Do not modify the value of ``items``.
    ~~~~

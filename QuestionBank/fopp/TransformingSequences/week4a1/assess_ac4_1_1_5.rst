@@ -9,7 +9,6 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :topics: TransformingSequences/MutatingMethods
 
     Write code to take 'London' out of the list ``trav_dest``.
     ~~~~

@@ -16,7 +16,6 @@
    :feedback_c: Not quite, look again at what is being extracted.
    :feedback_d: Not quite, is it slicing or accessing an element?
    :practice: T
-   :topics: Sequences/IndexOperatorWorkingwiththeCharactersofaString
 
    What is the type of ``m``?
 

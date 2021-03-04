@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: NestedData/NestedIteration
 
    Given the dictionary, ``nested_d``, save the medal count for the USA from all three Olympics in the dictionary to the list ``US_count``.
 

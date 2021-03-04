@@ -1,6 +1,6 @@
 .. mchoice:: question5_6_2
    :author: bmiller
-   :difficulty: 2.4419250347
+   :difficulty: 2.4431082331
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: TheSliceOperator
@@ -14,8 +14,8 @@
    :feedback_b: By leaving out the upper bound on the slice, we go up to and including the last item.
    :feedback_c: Index values start at 0.
    :practice: T
-   :pct_on_first: 0.6395187413
-   :total_students_attempting: 2161
+   :pct_on_first: 0.6392229417
+   :total_students_attempting: 2162
    :num_students_correct: 2156.0
    :mean_clicks_to_correct: 1.5106679035
 

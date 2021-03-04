@@ -18,7 +18,6 @@
    :feedback_d: Think about the order that the program is executed in, what occurs first?
    :feedback_e: This is correct syntax and no errors will occur.
    :practice: T
-   :topics: Sequences/ConcatenationandRepetition
 
    What will the output be for the following code?
 

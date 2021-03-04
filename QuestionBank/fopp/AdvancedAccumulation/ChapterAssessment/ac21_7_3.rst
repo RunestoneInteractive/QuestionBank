@@ -10,7 +10,6 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: AdvancedAccumulation/listcomp
 
    Below, we have provided a list of tuples that contain the names of Game of Thrones characters. Using list comprehension, create a list of strings called ``first_names`` that contains only the first names of everyone in the original list.
    ~~~~

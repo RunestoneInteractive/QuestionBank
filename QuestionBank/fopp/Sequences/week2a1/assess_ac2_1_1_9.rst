@@ -9,7 +9,6 @@
     :autograde: unittest
     :language: python
     :practice: T
-    :topics: Sequences/CountandIndex
 
     Write code to determine how many 9's are in the list ``nums`` and assign that value to the variable ``how_many``. Do not use a for loop to do this.
     ~~~~

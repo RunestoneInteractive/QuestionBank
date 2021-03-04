@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Write a program which will print out the sum of the first 5 natural numbers.  Use a for loop for this program.
     ~~~~

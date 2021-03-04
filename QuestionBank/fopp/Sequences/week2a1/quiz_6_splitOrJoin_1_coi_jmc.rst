@@ -8,10 +8,9 @@
    :from_source: F
    :language: python
    :autograde: unittest
-   :topics: Sequences/SplitandJoin
 
-   Use ``join`` to create a string obtained by combining all the words in the list ``items`` separated by commas. 
-   Assign your string to a variable named ``things``. 
+   Use ``join`` to create a string obtained by combining all the words in the list ``items`` separated by commas.
+   Assign your string to a variable named ``things``.
    Be sure to include a space after each comma in your answer so that ``things`` has value
    "tv, computer, car, phone, key".
    Do not modify the value of ``items``.

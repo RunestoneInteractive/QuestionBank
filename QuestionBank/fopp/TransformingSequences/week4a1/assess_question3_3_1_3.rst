@@ -12,7 +12,6 @@
    :feedback_b: These operations on the lists are not likely to cause confusion.
    :correct: b
    :practice: T
-   :topics: TransformingSequences/Aliasing
 
    Could aliasing cause potential confusion in this problem?
 

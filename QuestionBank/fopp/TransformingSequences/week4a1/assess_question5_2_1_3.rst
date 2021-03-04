@@ -19,6 +19,5 @@
    :feedback_d: Yes, accum is a good name. It's both short and easy to remember.
    :feedback_e: At least one of the answers above is a good name for an accumulator variable.
    :practice: T
-   :topics: TransformingSequences/WPAccumulatorPatternStrategies
 
    Which of these are good names for an accumulator variable? Select as many as apply.

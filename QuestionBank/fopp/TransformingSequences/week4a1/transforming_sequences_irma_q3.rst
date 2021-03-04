@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithStrings
 
    Below are a set of scores that students have received in the past semester. Write code to determine the average score and put it in a variable ``avg_score``.
    ~~~~

@@ -8,7 +8,6 @@
     :from_source: T
     :language: python
     :practice: T
-    :topics: Sorting/Optionalkeyparameter
 
     Write code to switch the order of the ``winners`` list so that it is now A to Z by *last name*. Assign this list to the variable ``z_winners``.
     ~~~~

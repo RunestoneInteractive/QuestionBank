@@ -16,6 +16,5 @@
    :feedback_d: Yes, index will return the position of the first occurance of an item.
    :correct: d
    :practice: T
-   :topics: TransformingSequences/MutatingMethods
 
    Which method would you use to figure out the position of an item in a list?

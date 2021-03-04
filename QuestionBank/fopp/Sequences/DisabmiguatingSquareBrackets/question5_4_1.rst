@@ -1,6 +1,6 @@
 .. mchoice:: question5_4_1
    :author: bmiller
-   :difficulty: 3.6013986014
+   :difficulty: 3.6020096112
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: DisabmiguatingSquareBrackets
@@ -17,9 +17,9 @@
    :feedback_d: Yes, this will using indexing to get the value of the first element of a.
    :correct: d
    :practice: T
-   :pct_on_first: 0.3496503497
-   :total_students_attempting: 2288
-   :num_students_correct: 2251.0
-   :mean_clicks_to_correct: 2.4571301644
+   :pct_on_first: 0.3494975972
+   :total_students_attempting: 2289
+   :num_students_correct: 2252.0
+   :mean_clicks_to_correct: 2.4569271758
 
    Which of the following correctly uses indexing? Assume that ``a`` is a list or string. Select as many as apply.

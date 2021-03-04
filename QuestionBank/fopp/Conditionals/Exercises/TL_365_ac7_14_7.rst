@@ -4,7 +4,6 @@
    :basecourse: fopp
    :chapter: Conditionals
    :subchapter: Exercises
-   :topics: Conditionals/Exercises
    :from_source: F
    :language: python
    :autograde: unittest
@@ -33,7 +32,7 @@
 	   inner_elifs = re.findall(r'^( +elif[ (].*: *)$', self.getEditorText(), re.M)
 	   inner_elses = re.findall(r'^( +else[ (]*: *)$', self.getEditorText(), re.M)
 	   self.assertTrue(len(outer_ifs)==0 and len(outer_elifs)==0 and len(outer_elses)==0 and
-	                   len(inner_ifs)>=0 and len(inner_elifs)==0 and len(inner_elses)>=0, 
+	                   len(inner_ifs)>=0 and len(inner_elifs)==0 and len(inner_elses)>=0,
 			   'Checking if-statements')
 	   # LOOK FOR for STATEMENTS
 	   outer_loops = re.findall(r'^(for .* in.*: *)$', self.getEditorText(), re.M)

@@ -8,7 +8,6 @@
     :from_source: F
     :language: python
     :practice: T
-    :topics: TransformingSequences/MutatingMethods
 
     Write code to switch the order of the ``winners`` list so that it is now Z to A. Assign this list to the variable ``z_winners``.
     ~~~~

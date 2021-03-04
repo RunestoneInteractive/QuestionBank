@@ -9,11 +9,10 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Write a program that will output the length and the last character for each element in the given list.
     ~~~~
-    creatures = ["Yeti", "Ogre", "Dragon", "Angel"] 
- 
+    creatures = ["Yeti", "Ogre", "Dragon", "Angel"]
+
 
     =====

@@ -1,6 +1,6 @@
 .. mchoice:: question5_3_1
    :author: bmiller
-   :difficulty: 2.0598290598
+   :difficulty: 2.0593763349
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: IndexOperatorWorkingwiththeCharactersofaString
@@ -16,10 +16,10 @@
    :feedback_c: s[-3] would return c, counting from right to left.
    :feedback_d: [ ] is the index operator.
    :practice: T
-   :pct_on_first: 0.735042735
-   :total_students_attempting: 2340
-   :num_students_correct: 2333.0
-   :mean_clicks_to_correct: 1.3913416202
+   :pct_on_first: 0.7351559163
+   :total_students_attempting: 2341
+   :num_students_correct: 2334.0
+   :mean_clicks_to_correct: 1.3911739503
 
    What is printed by the following statements?
    

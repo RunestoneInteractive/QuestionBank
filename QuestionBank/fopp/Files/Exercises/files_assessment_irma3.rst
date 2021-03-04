@@ -16,6 +16,5 @@
    :feedback_d: close() must be called on a variable referencing the file.
    :correct: b
    :practice: T
-   :topics: Files
 
    Which command below closes an already open file ``myText.txt`` with ``ref_file = open("myText.txt", "r")``??

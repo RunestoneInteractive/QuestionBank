@@ -1,6 +1,6 @@
 .. mchoice:: df_question200_1_3
    :author: bmiller
-   :difficulty: 3.0165537998
+   :difficulty: 3.0180451128
    :basecourse: fopp
    :chapter: Functions
    :subchapter: DecodingaFunction
@@ -19,8 +19,8 @@
    :feedback_d: neither y-2 or  x+3 could produce a string.
    :feedback_e: You can tell from the expressions that follow the word return.
    :practice: T
-   :pct_on_first: 0.49586155
-   :total_students_attempting: 1329
+   :pct_on_first: 0.4954887218
+   :total_students_attempting: 1330
    :num_students_correct: 1305.0
    :mean_clicks_to_correct: 2.0528735632
 

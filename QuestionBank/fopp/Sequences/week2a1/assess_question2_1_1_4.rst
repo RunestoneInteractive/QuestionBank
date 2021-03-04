@@ -16,7 +16,6 @@
    :feedback_c: Yes, python is a zero-index based language and slices are inclusive of the first index and exclusive of the second.
    :feedback_d: Python is a zero-index based language.
    :practice: T
-   :topics: Sequences/TheSliceOperator
 
    What will the output be for the following code?
 

@@ -8,7 +8,6 @@
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
    :practice: T
-   :topics: Exceptions/intro-exceptions.rst
 
    Provided is buggy code, insert a try/except so that the code passes.
    ~~~~

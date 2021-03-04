@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Sequences/IndexOperatorWorkingwiththeCharactersofaString
 
    Assign the last element of ``lst`` to the variable ``end_elem``. Do this so that it works no matter how long lst is.
    ~~~~

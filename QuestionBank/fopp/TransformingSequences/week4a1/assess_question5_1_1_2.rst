@@ -14,7 +14,6 @@
    :feedback_b: This is the iterator variable. It changes each time but is not the whole sequence itself.
    :feedback_c: This is the accumulator variable. By the end of the program, it will have a full count of how many items are in cawdra.
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithLists
 
    Which of these is the sequence?
 

@@ -7,7 +7,6 @@
    :topics: PythonTurtle/week1a3
    :from_source: T
    :practice: T
-   :topics: PythonTurtle/ObjectInstances
 
    What is the name of jane's attribute (not method) that is referred to in the following code?
 

@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: TransformingSequences/TheAccumulatorPatternwithStrings
 
    For each character in the string saved in ``ael``, append that character to a list that should be saved in a variable ``app``.
    ~~~~

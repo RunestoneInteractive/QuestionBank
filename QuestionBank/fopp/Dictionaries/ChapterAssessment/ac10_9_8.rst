@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Dictionaries/intro-Dictionaries
 
    Provided is a dictionary called ``US_medals`` which has the first 70 metals that the United States has won in 2016, and in which category they have won it in. Using dictionary mechanics, assign the value of the key ``"Fencing"`` to a variable ``fencing_value``. Remember, do not hard code this.
    ~~~~

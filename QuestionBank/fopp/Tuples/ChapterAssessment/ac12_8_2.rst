@@ -10,7 +10,6 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: Tuples/TuplePacking
 
    The list below, ``tuples_lst``, is a list of tuples. Create a list of the second elements of each tuple and assign this list to the variable ``country``.
    ~~~~

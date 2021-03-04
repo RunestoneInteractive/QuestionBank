@@ -16,6 +16,5 @@
    :feedback_d: string type variable doesn't have a function write().
    :correct: c
    :practice: T
-   :topics: Files
 
    Which of the commands below is used to add a string ``somestring = "my Sentence"`` to the end of the file referenced by ``filevar`` variable.

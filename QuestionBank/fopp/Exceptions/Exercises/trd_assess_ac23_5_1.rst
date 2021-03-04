@@ -7,9 +7,8 @@
    :topics: Exceptions/Exercises
    :from_source: F
    :practice: T
-   :topics: Exceptions/intro-exceptions
 
-   Below, we have provided buggy code. Add a try/except clause so the code runs without errors. 
+   Below, we have provided buggy code. Add a try/except clause so the code runs without errors.
 
    ~~~~
 

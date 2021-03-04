@@ -4,7 +4,6 @@
    :basecourse: fopp
    :chapter: Classes
    :subchapter: ChapterAssessment
-   :topics: Classes/ChapterAssessment
    :from_source: T
    :practice: T
    :topics: Classes/ImprovingourConstructor.rst

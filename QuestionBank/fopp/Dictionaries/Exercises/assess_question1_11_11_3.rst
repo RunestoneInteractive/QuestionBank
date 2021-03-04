@@ -19,7 +19,6 @@
     :feedback_d: The key of dictionary <code>e</code> is different from that of <code>d</code>.
     :feedback_e: The value of dictionary <code>e</code> is different from that of <code>d</code>.
     :practice: T
-    :topics: Dictionaries/DictionaryKeyValueAssignment
 
     What does the following block of code do?
 

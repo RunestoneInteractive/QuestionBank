@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Sorting/Optionalkeyparameter
 
    Sort the following string alphabetically, **from z to a**, and assign it to the variable ``sorted_letters``.
    ~~~~

@@ -1,6 +1,6 @@
 .. mchoice:: question1_5_1
    :author: bmiller
-   :difficulty: 1.4288786482
+   :difficulty: 1.4287469287
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: MoreAboutPrograms
@@ -15,9 +15,9 @@
    :feedback_b: True, but not in this context.  We mean a program as related to a computer.
    :feedback_c: A program can perform a computation, but by itself it is not one.
    :feedback_d: Programs often implement algorithms, but they are not the same thing.  An algorithm is a step by step list of instructions, but those instructions are not necessarily precise enough for a computer to follow.  A program must be written in a programming language that the computer knows how to interpret.
-   :pct_on_first: 0.8927803379
-   :total_students_attempting: 3255
-   :num_students_correct: 3245.0
-   :mean_clicks_to_correct: 1.1688751926
+   :pct_on_first: 0.8928132678
+   :total_students_attempting: 3256
+   :num_students_correct: 3246.0
+   :mean_clicks_to_correct: 1.168823167
 
    A program is:

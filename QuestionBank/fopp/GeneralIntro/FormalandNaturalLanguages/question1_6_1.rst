@@ -1,6 +1,6 @@
 .. mchoice:: question1_6_1
    :author: bmiller
-   :difficulty: 2.7175499841
+   :difficulty: 2.7170050761
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: FormalandNaturalLanguages
@@ -15,9 +15,9 @@
    :feedback_b: All of these can be present in natural languages, but cannot exist in formal languages.
    :feedback_c: There are several differences between the two but they are also similar.
    :feedback_d: These are the similarities between the two.
-   :pct_on_first: 0.570612504
-   :total_students_attempting: 3151
-   :num_students_correct: 3125.0
-   :mean_clicks_to_correct: 1.66624
+   :pct_on_first: 0.570748731
+   :total_students_attempting: 3152
+   :num_students_correct: 3126.0
+   :mean_clicks_to_correct: 1.6660268714
 
    The differences between natural and formal languages include:

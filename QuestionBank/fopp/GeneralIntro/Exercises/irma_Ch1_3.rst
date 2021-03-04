@@ -1,6 +1,6 @@
 .. mchoice:: irma_Ch1_3
         :author: Irma Ravkic
-        :difficulty: 4.625
+        :difficulty: 4.5151515152
         :basecourse: fopp
         :chapter: GeneralIntro
         :subchapter: Exercises
@@ -16,10 +16,10 @@
         :feedback_b: Correct! Namely you can change the value of a to be anything but a 0, and the error in line 4 will be avoided. Well done!
         :feedback_c: Oh no. The value of b doesn't need since it is being divided.
         :feedback_d: Oh no. Line 5 is after the problematic line 4 and even if you fix it, the error will still be in line 4. You need to change the code AT or BEFORE line 4 in order to fix it.
-        :pct_on_first: 0.09375
-        :total_students_attempting: 32
-        :num_students_correct: 10.0
-        :mean_clicks_to_correct: 2.7
+        :pct_on_first: 0.1212121212
+        :total_students_attempting: 33
+        :num_students_correct: 11.0
+        :mean_clicks_to_correct: 2.5454545455
 
         Consider the following program (you read line by line, top to bottom):
         

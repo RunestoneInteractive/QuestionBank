@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_6
    :author: bmiller
-   :difficulty: 3.0163710778
+   :difficulty: 3.0177232447
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -14,8 +14,8 @@
    :feedback_b: g has to be executed and return a value in order to know what paramater value to provide to x.
    :feedback_c: square and g both have to execute before the number is printed.
    :practice: T
-   :pct_on_first: 0.4959072306
-   :total_students_attempting: 1466
+   :pct_on_first: 0.4955691888
+   :total_students_attempting: 1467
    :num_students_correct: 1455.0
    :mean_clicks_to_correct: 1.7243986254
 

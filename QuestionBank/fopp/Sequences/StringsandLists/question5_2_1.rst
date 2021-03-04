@@ -1,6 +1,6 @@
 .. mchoice:: question5_2_1
    :author: bmiller
-   :difficulty: 1.7672131148
+   :difficulty: 1.766898812
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: StringsandLists
@@ -12,9 +12,9 @@
    :feedback_a: Yes, unlike strings, lists can consist of any type of Python data.
    :feedback_b: Lists are heterogeneous, meaning they can have different types of data.
    :practice: T
-   :pct_on_first: 0.8081967213
-   :total_students_attempting: 2440
-   :num_students_correct: 2425.0
-   :mean_clicks_to_correct: 1.1967010309
+   :pct_on_first: 0.808275297
+   :total_students_attempting: 2441
+   :num_students_correct: 2426.0
+   :mean_clicks_to_correct: 1.1966199505
 
    A list can only contain integer items.

@@ -16,6 +16,5 @@
    :feedback_c: turtle represents the class and should be first.
    :feedback_d: When making a new instace of the turtle class, you need to use dot notation.
    :practice: T
-   :topics: PythonTurtle/ObjectInstances
 
    Which is the correct way to make a new instance of the Turtle class?

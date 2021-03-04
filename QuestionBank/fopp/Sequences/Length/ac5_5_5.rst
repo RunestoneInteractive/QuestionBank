@@ -1,6 +1,6 @@
 .. activecode:: ac5_5_5
    :author: bmiller
-   :difficulty: 1.0300271993
+   :difficulty: 1.0300088564
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: Length
@@ -9,10 +9,10 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :pct_on_first: 0.5877491492
-   :total_students_attempting: 2057
-   :num_students_correct: 1636.0
-   :mean_clicks_to_correct: 1.5097799511
+   :pct_on_first: 0.5879494655
+   :total_students_attempting: 2058
+   :num_students_correct: 1637.0
+   :mean_clicks_to_correct: 1.50946854
 
    Assign the number of elements in ``lst`` to the variable ``output``.
    ~~~~

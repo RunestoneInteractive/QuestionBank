@@ -9,7 +9,6 @@
     :autograde: unittest
     :language: python
     :practice: T
-    :topics: Sequences/ConcatenationandRepetition
 
     Write code that combines the following variables so that the sentence "You are doing a great job, keep it up!" is assigned to the variable ``message``. Do not edit the values assigned to ``by``, ``az``, ``io``, or ``qy``.
     ~~~~

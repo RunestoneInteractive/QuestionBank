@@ -1,6 +1,6 @@
 .. mchoice:: question1_3_2
    :author: bmiller
-   :difficulty: 1.9836247571
+   :difficulty: 1.9855875831
    :basecourse: fopp
    :chapter: GeneralIntro
    :subchapter: ThePythonProgrammingLanguage
@@ -15,9 +15,9 @@
    :feedback_b: High and low have nothing to do with the type of device you are programming for.  Instead, look at what it takes to run the program written in the language.
    :feedback_c: Python is a high level language but must be interpreted into machine code (binary) before it can be executed.
    :feedback_d: While it is true that it is generally easier to program in a high-level language and programs written in a high-level language are usually shorter, this is not always the case.
-   :pct_on_first: 0.7540938107
-   :total_students_attempting: 3603
-   :num_students_correct: 3568.0
-   :mean_clicks_to_correct: 1.3724775785
+   :pct_on_first: 0.7536031042
+   :total_students_attempting: 3608
+   :num_students_correct: 3572.0
+   :mean_clicks_to_correct: 1.3726203807
 
    What is the difference between a high-level programming language and a low-level programming language?

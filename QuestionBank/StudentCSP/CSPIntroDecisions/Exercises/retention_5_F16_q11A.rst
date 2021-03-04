@@ -7,7 +7,6 @@
    :topics: CSPIntroDecisions/Exercises
    :from_source: F
    :practice: T
-   :topics: Final_Exam_F16/q_11_A
 
    Does the following code snippet result in an infinite loop (meaning that the while loop never stops running)?
 

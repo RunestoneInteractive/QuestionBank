@@ -18,6 +18,5 @@
    :feedback_d: This would be the syntax for a function named student being called on a variable named title.
    :feedback_e: Yes, this is the correct syntax to use.
    :practice: T
-   :topics: PythonTurtle/ObjectInstances
 
    For an instance of a class that is assigned to the variable ``student``, what is the proper way to refer to the ``title`` attribute/instance variable?

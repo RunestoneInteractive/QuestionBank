@@ -14,7 +14,6 @@
    :feedback_c: One of the diagrams is correct - look again at what is happening to lst.
    :correct: a
    :practice: T
-   :topics: TransformingSequences/MutatingMethods
 
    Which of these is a correct reference diagram following the execution of the following code?
 

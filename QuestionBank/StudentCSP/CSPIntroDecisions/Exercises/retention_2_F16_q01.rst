@@ -12,6 +12,5 @@
    :feedback_b: Correct!
    :correct: b
    :practice: T
-   :topics: Final_Exam_F16/q_01
 
    True or False? Tuples are mutable.

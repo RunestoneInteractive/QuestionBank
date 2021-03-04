@@ -8,7 +8,6 @@
     :from_source: F
     :language: python
     :practice: T
-    :topics: TransformingSequences/MutatingMethods
 
     Write code to rearrage the strings in the list ``winners`` so that they are in alphabetical order from A to Z.
     ~~~~

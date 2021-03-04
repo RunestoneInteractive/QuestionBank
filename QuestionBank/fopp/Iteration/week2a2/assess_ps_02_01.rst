@@ -9,7 +9,6 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :topics: Iteration/Stringsandforloops
 
     Write one for loop to print out each character of the string ``my_str`` on a separate line.
     ~~~~

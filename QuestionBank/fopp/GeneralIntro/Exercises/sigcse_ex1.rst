@@ -7,8 +7,8 @@
     :topics: GeneralIntro/Exercises
     :from_source: F
     :language: python
-    :pct_on_first: 0.0133333333
-    :total_students_attempting: 75
+    :pct_on_first: 0.0131578947
+    :total_students_attempting: 76
     :num_students_correct: 7.0
     :mean_clicks_to_correct: 5.2857142857
 

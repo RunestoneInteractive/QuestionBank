@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Fix the errors in the following code so that is will correctly multiply each element in the list to obtain an output of 24.
     ~~~~

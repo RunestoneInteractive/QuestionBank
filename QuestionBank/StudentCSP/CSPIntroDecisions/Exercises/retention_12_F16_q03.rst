@@ -12,6 +12,5 @@
    :feedback_b: Correct!
    :correct: b
    :practice: T
-   :topics: Final_Exam_F16/q_03
 
    True or False? Semantic errors can be caught in a ``try/except`` block.

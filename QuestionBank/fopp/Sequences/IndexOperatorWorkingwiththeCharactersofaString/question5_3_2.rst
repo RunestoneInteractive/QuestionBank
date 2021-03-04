@@ -1,6 +1,6 @@
 .. mchoice:: question5_3_2
    :author: bmiller
-   :difficulty: 2.1171638565
+   :difficulty: 2.1166810717
    :basecourse: fopp
    :chapter: Sequences
    :subchapter: IndexOperatorWorkingwiththeCharactersofaString
@@ -18,10 +18,10 @@
    :feedback_d: n is at location 5, not 2.
    :feedback_e: [ ] operator returns a string that can be concatenated with another string.
    :practice: T
-   :pct_on_first: 0.7207090359
-   :total_students_attempting: 2313
-   :num_students_correct: 2301.0
-   :mean_clicks_to_correct: 1.4502390265
+   :pct_on_first: 0.7208297321
+   :total_students_attempting: 2314
+   :num_students_correct: 2302.0
+   :mean_clicks_to_correct: 1.4500434405
 
    What is printed by the following statements?
    

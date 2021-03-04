@@ -7,7 +7,6 @@
     :topics: CSPIntroDecisions/Exercises
     :from_source: F
     :practice: T
-    :topics: Final_Exam_F16/q_07
 
     What is the output of the following expression?
 

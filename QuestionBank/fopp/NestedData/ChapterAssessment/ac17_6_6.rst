@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: NestedData/NestedDictionaries
 
    Below, we have provided a nested dictionary. Index into the dictionary to create variables that we have listed in the ActiveCode window.
 

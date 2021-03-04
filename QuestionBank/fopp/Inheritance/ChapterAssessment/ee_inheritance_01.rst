@@ -8,7 +8,6 @@
    :from_source: T
    :tags: Inheritance/inheritVarsAndMethods.rst
    :practice: T
-   :topics: Inheritance/inheritVarsAndMethods
 
    The class, ``Pokemon``, is provided below and describes a Pokemon and its leveling and evolving characteristics. An instance of the class is one pokemon that you create.
 

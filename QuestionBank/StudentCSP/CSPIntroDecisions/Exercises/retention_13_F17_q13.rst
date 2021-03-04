@@ -10,7 +10,6 @@
    :autograde: unittest
    :chatcodes:
    :practice: T
-   :topics: Final_Exam_F17/q_13
 
    Something is not working correctly with the **word_counts** function defined below. It takes a string as input. It is supposed to produce a dictionary containing the words in the string as keys, and their counts as values. Fix the definition of **word_counts** so that it will pass the test, changing as little of the code as you can.
 

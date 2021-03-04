@@ -9,7 +9,6 @@
     :include: assess_addl_functions
     :language: python
     :autograde: unittest
-    :topics: SimplePythonData/FunctionCalls
 
     Determine how many of the names in the following list are less than 6 characters. Create a new list called short_names that contains all of these short names and output this list to the screen.
     ~~~~

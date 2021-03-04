@@ -7,7 +7,6 @@
     :topics: MoreAboutIteration/ChapterAssessment
     :from_source: T
     :practice: T
-    :topics: MoreAboutIteration/listenerLoop
 
     Write a function called ``check_nums`` that takes a list as its parameter, and contains a while loop that only stops once the element of the list is the number 7. What is returned is a list of all of the numbers up until it reaches 7.
     ~~~~

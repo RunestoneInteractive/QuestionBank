@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Sorting/SortingaDictionary
 
    We have provided the dictionary ``groceries``. You should return a list of its keys, but they should be sorted by their values, from highest to lowest. Save the new list as ``most_needed``.
    ~~~~

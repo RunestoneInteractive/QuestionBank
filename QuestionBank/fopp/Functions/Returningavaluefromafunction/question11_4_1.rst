@@ -1,6 +1,6 @@
 .. mchoice:: question11_4_1
    :author: bmiller
-   :difficulty: 2.4787234043
+   :difficulty: 2.4803986711
    :basecourse: fopp
    :chapter: Functions
    :subchapter: Returningavaluefromafunction
@@ -16,8 +16,8 @@
    :feedback_c: Python will automatically calculate the value x+y+z and then return it in the statement as it is written
    :feedback_d: Functions can return any legal data, including (but not limited to) numbers, strings, lists, dictionaries, etc.
    :practice: T
-   :pct_on_first: 0.6303191489
-   :total_students_attempting: 1504
+   :pct_on_first: 0.6299003322
+   :total_students_attempting: 1505
    :num_students_correct: 1496.0
    :mean_clicks_to_correct: 1.550802139
 

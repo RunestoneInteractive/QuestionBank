@@ -18,7 +18,6 @@
    :feedback_e: Incorrect!
    :correct: c
    :practice: T
-   :topics: Final_Exam_F16/q_26
 
    What will print when the following code runs?
 

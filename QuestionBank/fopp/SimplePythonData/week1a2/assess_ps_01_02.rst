@@ -9,7 +9,6 @@
     :language: python
     :autograde: unittest
     :practice: T
-    :topics: SimplePythonData/StatementsandExpressions
 
     Write code to assign the number of *characters* in the string ``rv`` to a variable ``num_chars``.
     ~~~~

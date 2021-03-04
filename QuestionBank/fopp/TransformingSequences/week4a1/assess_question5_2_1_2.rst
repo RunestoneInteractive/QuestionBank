@@ -18,7 +18,6 @@
    :feedback_d: Yes, this will solve the problem.
    :feedback_e: One of the patterns above is a correct way to solve the problem.
    :practice: T
-   :topics: TransformingSequences/WPAccumulatorPatternStrategies
 
    Given that we want to accumulate the total number of strings in the list, which of the following accumulator patterns would be appropriate?
 

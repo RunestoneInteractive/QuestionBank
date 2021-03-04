@@ -8,7 +8,6 @@
    :from_source: T
    :tags: Exceptions/intro-exceptions.rst
    :practice: T
-   :topics: Exceptions/intro-exceptions.rst
 
    Provided is a buggy for loop that tries to accumulate some values out of some dictionaries. Insert a try/except so that the code passes. If the key is not there, initialize it in the dictionary and set the value to zero.
    ~~~~

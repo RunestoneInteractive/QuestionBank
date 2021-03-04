@@ -9,7 +9,6 @@
    :language: python
    :autograde: unittest
    :practice: T
-   :topics: Functions/Afunctionthataccumulates
 
    Write a function, ``accum``, that takes a list of integers as input and returns the sum of those integers.
    ~~~~
