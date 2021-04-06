@@ -1,0 +1,42 @@
+.. mchoice:: peerwiseqb_4052729
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q23:</strong></p><p>Consider the following function definition:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Test(int *values, int length)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int test = 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 1; i &lt; length; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (values[i] &lt;= values[test]) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; test = i;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return test;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>If this function is called as follows:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int nums[10] = {100, 75, 75, 200, 50, 200, 100, 50, 100, 100};</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int result;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; result = Test(nums, 10);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d ", result);</span></p><p>&nbsp;</p><p>what output would be generated (and what best describes the purpose of this function?)</p>
+    
+
+    - ``Result = 7``    
+          
+      (i.e. it returns the index position of the last occurrence of the smallest    
+      value)    
+      
+
+      + Correct!
+    - ``Result = 10``    
+          
+      (i.e. it returns the length of the array)    
+      
+
+      - Incorrect
+    - ``Result = 5``    
+          
+      (i.e. it returns the index position of the last occurrence of the largest    
+      value)    
+      
+
+      - Incorrect
+    - ``Result = 3``    
+          
+      (i.e. it returns the index position of the first occurrence of the largest    
+      value)    
+      
+
+      - Incorrect
+    - ``Result = 4``    
+          
+      (i.e. it returns the index position of the first occurrence of the smallest    
+      value)    
+      
+
+      - Incorrect

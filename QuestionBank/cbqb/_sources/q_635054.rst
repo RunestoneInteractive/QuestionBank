@@ -1,0 +1,17 @@
+.. mchoice:: canterburyqb_635054
+    :basecourse: canterburyqb
+        
+    Is a O(n log2 n) algorithm **ALWAYS** preferable over an O(n2) algorithm?      
+    
+
+    - False    
+      
+
+      + Correct!
+    - True    
+      
+
+      - The correct answer is False, since one does not know the coeeficients for the    
+        two algorithms, nor the specific value for n.  (e.g. .00001n2 vs 99999n log2    
+        n).  Certainly, no matter what the coefficients are, when n is sufficiently    
+        large, the quadratic algorithm will eventually become less efficient.

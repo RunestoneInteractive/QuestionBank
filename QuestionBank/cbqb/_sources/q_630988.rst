@@ -1,0 +1,115 @@
+.. mchoice:: canterburyqb_630988
+    :basecourse: canterburyqb
+        
+    Consider the following code segment:    
+        
+    .. code-block::    
+        
+        
+           if (!this.seesNet(LEFT) && this.seesFlower(AHEAD))    
+           {    
+               this.hop();    
+               this.pick();    
+           }    
+           else    
+           {    
+               this.turn(RIGHT);    
+           }    
+        
+    Which of the following alternative versions is logically equivalent to    
+    (produce the same behavior as) the original?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         if (this.seesNet(LEFT) || this.seesFlower(AHEAD))    
+         {    
+             this.turn(RIGHT);    
+         }    
+         else    
+         {    
+             this.pick();    
+             this.hop();    
+         }    
+          
+          
+      ```    
+      
+
+      - The correct alternative has the same actions in both branches of the if    
+        statement, but in reversed positions--the true branch has moved to the false    
+        branch, and vice versa.  At the same time, the logical condition in the if    
+        statement is the opposite of the original condition (by applying De Morgan's    
+        Law).  Together, these two conditions produce a behaviorally equivalent block    
+        of code.
+    - [code]    
+          
+      .. code-block::    
+          
+         if (!(this.seesNet(LEFT) && !this.seesFlower(AHEAD)))    
+         {    
+             this.turn(RIGHT);    
+         }    
+         else    
+         {    
+             this.hop();    
+             this.pick();     
+         }    
+          
+          
+      ```    
+      
+
+      - The correct alternative has the same actions in both branches of the if    
+        statement, but in reversed positions--the true branch has moved to the false    
+        branch, and vice versa.  At the same time, the logical condition in the if    
+        statement is the opposite of the original condition (by applying De Morgan's    
+        Law).  Together, these two conditions produce a behaviorally equivalent block    
+        of code.
+    - [code]    
+          
+      .. code-block::    
+          
+         if (this.seesNet(LEFT) || !this.seesFlower(AHEAD))    
+         {    
+             this.turn(RIGHT);    
+         }    
+         else    
+         {    
+             this.hop();    
+             this.pick();    
+         }    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         if (this.seesNet(LEFT) && !this.seesFlower(AHEAD))    
+         {    
+             this.turn(RIGHT);    
+             this.turn(RIGHT);    
+             this.turn(RIGHT);    
+         }    
+         else    
+         {    
+             this.pick();    
+             this.hop();    
+         }    
+          
+          
+      ```    
+      
+
+      - The correct alternative has the same actions in both branches of the if    
+        statement, but in reversed positions--the true branch has moved to the false    
+        branch, and vice versa.  At the same time, the logical condition in the if    
+        statement is the opposite of the original condition (by applying De Morgan's    
+        Law).  Together, these two conditions produce a behaviorally equivalent block    
+        of code.

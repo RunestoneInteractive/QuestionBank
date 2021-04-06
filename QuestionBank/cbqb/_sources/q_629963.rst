@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_629963
+    :basecourse: canterburyqb
+        
+    Suppose you have a sorted list stored in consecutive locations in a Java    
+    array. What is the worst-case time complexity of inserting a new element in    
+    the list?    
+    
+
+    - O(1)    
+      
+
+      - In order to make room for a new element in the array, it may be necessary to    
+        shift all the other elements.    
+            
+        **Note:** There is no skill tag for this type of question. Suggestion: Skill-    
+        Analyze-Code
+    - O(log n)    
+      
+
+      - In order to make room for a new element in the array, it may be necessary to    
+        shift all the other elements.    
+            
+        **Note:** There is no skill tag for this type of question. Suggestion: Skill-    
+        Analyze-Code
+    - O(n)    
+      
+
+      + Correct!
+    - O(n log n)    
+      
+
+      - In order to make room for a new element in the array, it may be necessary to    
+        shift all the other elements.    
+            
+        **Note:** There is no skill tag for this type of question. Suggestion: Skill-    
+        Analyze-Code
+    - O(n2)    
+      
+
+      - In order to make room for a new element in the array, it may be necessary to    
+        shift all the other elements.    
+            
+        **Note:** There is no skill tag for this type of question. Suggestion: Skill-    
+        Analyze-Code

@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_630947
+    :basecourse: canterburyqb
+        
+    Which of the following abstract datatypes would be the best choice for part of    
+    the implementation of a program modeling the arrival of patients to an    
+    emergency room in a hospital?    
+    
+
+    - a Stack    
+      
+
+      - In an emergency room, you want to serve patients in the order of how urgent    
+        their condition is, and if two patients have equally urgent conditions, in the    
+        order that they arrived. A PriorityQueue is the only abstract datatype listed    
+        that meets both of these conditions.
+    - a Queue    
+      
+
+      - In an emergency room, you want to serve patients in the order of how urgent    
+        their condition is, and if two patients have equally urgent conditions, in the    
+        order that they arrived. A PriorityQueue is the only abstract datatype listed    
+        that meets both of these conditions.
+    - A List    
+      
+
+      - In an emergency room, you want to serve patients in the order of how urgent    
+        their condition is, and if two patients have equally urgent conditions, in the    
+        order that they arrived. A PriorityQueue is the only abstract datatype listed    
+        that meets both of these conditions.
+    - a PriorityQueue    
+      
+
+      + Correct!
+    - a Dictionary    
+      
+
+      - In an emergency room, you want to serve patients in the order of how urgent    
+        their condition is, and if two patients have equally urgent conditions, in the    
+        order that they arrived. A PriorityQueue is the only abstract datatype listed    
+        that meets both of these conditions.

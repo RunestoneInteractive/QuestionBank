@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_632111
+    :basecourse: canterburyqb
+        
+    What node will be in a same rank (position) if the following tree is traversed    
+    by preorder, postorder and inorder algorithm?    
+    .. image:: img/6.gif    
+       :target: img/6.gif    
+       :alt: no description    
+        
+    
+
+    - A    
+      
+
+      - C
+    - B    
+      
+
+      - C
+    - C    
+      
+
+      + Correct!
+    - D    
+      
+
+      - C

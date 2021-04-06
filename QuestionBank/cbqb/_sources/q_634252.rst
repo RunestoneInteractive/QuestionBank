@@ -1,0 +1,88 @@
+.. mchoice:: canterburyqb_634252
+    :basecourse: canterburyqb
+        
+    Read the following method skeleton and choose the best expression to fill in    
+    the blank on **line 5**  so that the method will behave correctly:    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Takes a string reference and counts the number of times    
+           * the character 'A' or 'a' appears in the string object.    
+           * @param aString   String reference to object containing chars.    
+           * @precondition    aString is not null (you may assume this is true).    
+           * @return          The number of times 'A' or 'a' appears in the string.    
+           */    
+           public static int countAs(String aString)  // line 1    
+           {    
+               int counter = __________;              // line 2    
+               int totalA = 0;                        // line 3    
+               while (counter < __________)           // line 4    
+               {    
+                   if ( __________.equals("A") )      // line 5    
+                   {    
+                       totalA = totalA + __________;  // line 6    
+                   }    
+                   counter++;                         // line 7    
+               }    
+               return __________;                     // line 8    
+           }    
+    
+
+    - ``aString.charAt(counter)``    
+      
+
+      - While both `charAt()` can be used to examine a single `char` in a string,    
+        `char` is a primitive type without any methods.  Since the condition on Line 5    
+        uses the `equals()` method to compare against another String value, the    
+        expression used to fill in the blank must produce a String object, so the    
+        `substring()` method is a better fit.  The `substring()` method takes two    
+        parameters--a starting index and an ending index one past the end of the    
+        substring--and since the method counts both upper case and lower case A's, the    
+        result should be converted to upper case form before testing for equality    
+        against `"A"`.  Thus, the best answer is `aString.substring(counter, counter +    
+        1).toUpperCase()`.
+    - ``aString.substring(counter)``    
+      
+
+      - While both `charAt()` can be used to examine a single `char` in a string,    
+        `char` is a primitive type without any methods.  Since the condition on Line 5    
+        uses the `equals()` method to compare against another String value, the    
+        expression used to fill in the blank must produce a String object, so the    
+        `substring()` method is a better fit.  The `substring()` method takes two    
+        parameters--a starting index and an ending index one past the end of the    
+        substring--and since the method counts both upper case and lower case A's, the    
+        result should be converted to upper case form before testing for equality    
+        against `"A"`.  Thus, the best answer is `aString.substring(counter, counter +    
+        1).toUpperCase()`.
+    - ``aString.charAt(counter).toUpperCase()``    
+      
+
+      - While both `charAt()` can be used to examine a single `char` in a string,    
+        `char` is a primitive type without any methods.  Since the condition on Line 5    
+        uses the `equals()` method to compare against another String value, the    
+        expression used to fill in the blank must produce a String object, so the    
+        `substring()` method is a better fit.  The `substring()` method takes two    
+        parameters--a starting index and an ending index one past the end of the    
+        substring--and since the method counts both upper case and lower case A's, the    
+        result should be converted to upper case form before testing for equality    
+        against `"A"`.  Thus, the best answer is `aString.substring(counter, counter +    
+        1).toUpperCase()`.
+    - ``aString.substring(counter).toUpperCase()``    
+      
+
+      - While both `charAt()` can be used to examine a single `char` in a string,    
+        `char` is a primitive type without any methods.  Since the condition on Line 5    
+        uses the `equals()` method to compare against another String value, the    
+        expression used to fill in the blank must produce a String object, so the    
+        `substring()` method is a better fit.  The `substring()` method takes two    
+        parameters--a starting index and an ending index one past the end of the    
+        substring--and since the method counts both upper case and lower case A's, the    
+        result should be converted to upper case form before testing for equality    
+        against `"A"`.  Thus, the best answer is `aString.substring(counter, counter +    
+        1).toUpperCase()`.
+    - ``aString.substring(counter, counter + 1).toUpperCase()``    
+      
+
+      + Correct!

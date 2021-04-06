@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_634143
+    :basecourse: canterburyqb
+        
+    Consider the code    
+        
+    ``int i, *q, *p;``    
+        
+    .. code-block::    
+        
+        
+           p = &i;    
+           q = p;    
+           *p = 5;    
+        
+    Which of the following will print out "The value is 5."?    
+    
+
+    - printf("The value is %d", &i);    
+      
+
+      - q and p are sharing
+    - printf("The value is %d", p);    
+      
+
+      - q and p are sharing
+    - printf("The value is %d", *q);    
+      
+
+      + Correct!
+    - printf("The value is %d", *i);    
+      
+
+      - q and p are sharing

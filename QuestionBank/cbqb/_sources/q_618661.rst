@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_618661
+    :basecourse: canterburyqb
+        
+    A compiler error existed in this code. Why is that happening?    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+       final int testCount1;    
+        
+       final static int testCount2;    
+        
+       static int testCount3;    
+        
+       int testCount4;    
+        
+        
+    }    
+    
+
+    - testCount1 and testCount2 have not been initialized.    
+      
+
+      + Correct!
+    - testCount2 and testCount3 have not been initialized.    
+      
+
+      - testCount3 and testCount4 have not been initialized.
+    - testCount3 and testCount4 have not been initialized.    
+      
+
+      - testCount3 and testCount4 have not been initialized.
+    - None of the instance variables have been initialized.    
+      
+
+      - testCount3 and testCount4 have not been initialized.

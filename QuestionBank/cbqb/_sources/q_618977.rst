@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_618977
+    :basecourse: canterburyqb
+        
+    What will be outputted?    
+        
+    int income = 30;    
+        
+    boolean condition1 = true, condition2 = true;    
+        
+    if(income < 100)    
+        
+    .. code-block::    
+        
+       if(income > 10)    
+        
+           if(condition1){    
+        
+               System.out.print("A");    
+        
+               if(income < 20)    
+        
+               System.out.print("B");    
+        
+           }    
+        
+           else    
+        
+               System.out.print("C");    
+        
+       if(!condition2){    
+        
+           if(income > 50)    
+        
+               System.out.print("D");    
+        
+       }    
+        
+       else    
+        
+          System.out.print("E");    
+    
+
+    - AE    
+      
+
+      + Correct!
+    - AC    
+      
+
+      - ABC
+    - ABC    
+      
+
+      - ABC
+    - ACE    
+      
+
+      - ABC

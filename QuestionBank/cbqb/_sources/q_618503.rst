@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_618503
+    :basecourse: canterburyqb
+        
+    If we know the length of the string used in our program is almost 200, is    
+    there any difference between these following definitions in terms of    
+    performance?    
+        
+    StringBuilder string1 = new StringBuilder();    
+        
+    StringBuilder string2 = new StringBuilder(50);    
+        
+    StringBuilder string3 = new StringBuilder(100);    
+    
+
+    - No, there is no performance difference.    
+      
+
+      - Yes, the definition of string2 is better.
+    - Yes, the definition of string1 is better.    
+      
+
+      - Yes, the definition of string2 is better.
+    - Yes, the definition of string2 is better.    
+      
+
+      - Yes, the definition of string2 is better.
+    - Yes, the definition of String3 is better.    
+      
+
+      + Correct!

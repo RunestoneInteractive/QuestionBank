@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_632545
+    :basecourse: canterburyqb
+        
+    The time complexity of selection sort is:    
+    
+
+    - O(1)    
+      
+
+      - Selection sort requires n(n-1)/2 comparisons.
+    - O(n)    
+      
+
+      - Selection sort requires n(n-1)/2 comparisons.
+    - O(n log n)    
+      
+
+      - Selection sort requires n(n-1)/2 comparisons.
+    - O(n2)    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - Selection sort requires n(n-1)/2 comparisons.

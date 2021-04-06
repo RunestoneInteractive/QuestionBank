@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632840
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    .. code-block::    
+        
+        
+           if x >= 0:    
+               print (1)    
+           elif x < 20:    
+               print(2)    
+           else:    
+               print(3)    
+           print(4)    
+        
+    For what integer values of x will 3 be amont the values printed?    
+    
+
+    - x < 0    
+      
+
+      - It's not possible to get 3 to print.  This is because all possible values of x    
+        are covered by if x>=0 and x<20.  This creates a range that includes all    
+        possible values of x, since any number is either >=0 or < 20.
+    - x >= 0    
+      
+
+      - It's not possible to get 3 to print.  This is because all possible values of x    
+        are covered by if x>=0 and x<20.  This creates a range that includes all    
+        possible values of x, since any number is either >=0 or < 20.
+    - x < 20    
+      
+
+      - It's not possible to get 3 to print.  This is because all possible values of x    
+        are covered by if x>=0 and x<20.  This creates a range that includes all    
+        possible values of x, since any number is either >=0 or < 20.
+    - All values of x    
+      
+
+      - It's not possible to get 3 to print.  This is because all possible values of x    
+        are covered by if x>=0 and x<20.  This creates a range that includes all    
+        possible values of x, since any number is either >=0 or < 20.
+    - None of the above    
+      
+
+      + Correct!

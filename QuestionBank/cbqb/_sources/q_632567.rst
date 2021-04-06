@@ -1,0 +1,70 @@
+.. mchoice:: canterburyqb_632567
+    :basecourse: canterburyqb
+        
+    The worst-case time complexity of quicksort is:    
+    
+
+    - O(1)    
+      
+
+      - In the worst case, every time quicksort partitions the list, it is divided    
+        into two parts, one of size 0 and one of size n-1 (plus the pivot element).    
+        This would happen, for example, if all the elements in the list are equal, or    
+        if the list is already sorted and you always choose the leftmost element as a    
+        pivot.    
+            
+        Quicksort would have to partition the list n times, because each time the    
+        pivot element is the only one that gets put in place.  The first time    
+        quicksort compares the pivot element with all n-1 other elements. The second    
+        time, quicksort compares the new pivot with n-2 other elements, and so forth    
+        down to n - (n-1). So it does work proportional to 1+2+3+...+(n-1), or    
+        n(n-1)/2.
+    - O(n)    
+      
+
+      - In the worst case, every time quicksort partitions the list, it is divided    
+        into two parts, one of size 0 and one of size n-1 (plus the pivot element).    
+        This would happen, for example, if all the elements in the list are equal, or    
+        if the list is already sorted and you always choose the leftmost element as a    
+        pivot.    
+            
+        Quicksort would have to partition the list n times, because each time the    
+        pivot element is the only one that gets put in place.  The first time    
+        quicksort compares the pivot element with all n-1 other elements. The second    
+        time, quicksort compares the new pivot with n-2 other elements, and so forth    
+        down to n - (n-1). So it does work proportional to 1+2+3+...+(n-1), or    
+        n(n-1)/2.
+    - O(n log n)    
+      
+
+      - In the worst case, every time quicksort partitions the list, it is divided    
+        into two parts, one of size 0 and one of size n-1 (plus the pivot element).    
+        This would happen, for example, if all the elements in the list are equal, or    
+        if the list is already sorted and you always choose the leftmost element as a    
+        pivot.    
+            
+        Quicksort would have to partition the list n times, because each time the    
+        pivot element is the only one that gets put in place.  The first time    
+        quicksort compares the pivot element with all n-1 other elements. The second    
+        time, quicksort compares the new pivot with n-2 other elements, and so forth    
+        down to n - (n-1). So it does work proportional to 1+2+3+...+(n-1), or    
+        n(n-1)/2.
+    - O(n2)    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - In the worst case, every time quicksort partitions the list, it is divided    
+        into two parts, one of size 0 and one of size n-1 (plus the pivot element).    
+        This would happen, for example, if all the elements in the list are equal, or    
+        if the list is already sorted and you always choose the leftmost element as a    
+        pivot.    
+            
+        Quicksort would have to partition the list n times, because each time the    
+        pivot element is the only one that gets put in place.  The first time    
+        quicksort compares the pivot element with all n-1 other elements. The second    
+        time, quicksort compares the new pivot with n-2 other elements, and so forth    
+        down to n - (n-1). So it does work proportional to 1+2+3+...+(n-1), or    
+        n(n-1)/2.

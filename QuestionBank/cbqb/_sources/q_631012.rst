@@ -1,0 +1,68 @@
+.. mchoice:: canterburyqb_631012
+    :basecourse: canterburyqb
+        
+    Consider the incomplete code segment below. The segment is supposed to    
+    initialize a 4 x 4 matrix as shown in this image:    
+        
+        
+    .. image:: img/37.png    
+       :target: img/37.png    
+       :alt: no description    
+        
+        
+    .. code-block::    
+        
+        
+           final int SIZE = _________;            // line 0    
+           int matrix[][] = new int[SIZE][SIZE];  // line 1    
+           for (int i = 0; i < SIZE; i++)         // line 2    
+           {    
+               for (int j = 0; j < SIZE; j++)     // line 3    
+               {    
+                   if ( _________________ )       // line 4    
+                   {    
+                       matrix[i][j] = 4;          // line 5    
+                   }    
+                   else if ( _______________ )    // line 6    
+                   {    
+                       matrix[i][j] = 1;          // line 7    
+                   }    
+                   else    
+                   {    
+                       matrix[i][j] = 0;          // line 8    
+                   }    
+               }    
+           }    
+        
+    Select statement from the choices below that is the best choice to fill in the    
+    blank on ``line 6`` of this code segment so that it behaves as desired.    
+    
+
+    - ``i == j - 1``    
+      
+
+      - The condition on line 6 controls which locations in the array are set to the    
+        value 1.  The 1's in the array should appear along the identity diagonal,    
+        where i and j have the same value.
+    - ``i == j``    
+      
+
+      + Correct!
+    - ``i == j + 1``    
+      
+
+      - The condition on line 6 controls which locations in the array are set to the    
+        value 1.  The 1's in the array should appear along the identity diagonal,    
+        where i and j have the same value.
+    - ``Math.abs(i - j) == 1``    
+      
+
+      - The condition on line 6 controls which locations in the array are set to the    
+        value 1.  The 1's in the array should appear along the identity diagonal,    
+        where i and j have the same value.
+    - None of these    
+      
+
+      - The condition on line 6 controls which locations in the array are set to the    
+        value 1.  The 1's in the array should appear along the identity diagonal,    
+        where i and j have the same value.

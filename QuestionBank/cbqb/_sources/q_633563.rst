@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633563
+    :basecourse: canterburyqb
+        
+    Double hashing    
+    
+
+    - involves hashing the hash code    
+      
+
+      - With double hashing, a second hash function is used to determine the step size    
+        for the probing sequence. With linear or quadratic probing, elements that    
+        collide also tend to have the same step size, which leads to clustering. A    
+        secondary hash breaks up this uniformity.
+    - avoids collisions by computing a hash code that's a ``double`` instead of an    
+      ``int``    
+      
+
+      - With double hashing, a second hash function is used to determine the step size    
+        for the probing sequence. With linear or quadratic probing, elements that    
+        collide also tend to have the same step size, which leads to clustering. A    
+        secondary hash breaks up this uniformity.
+    - prevents collisions by keeping two tables    
+      
+
+      - With double hashing, a second hash function is used to determine the step size    
+        for the probing sequence. With linear or quadratic probing, elements that    
+        collide also tend to have the same step size, which leads to clustering. A    
+        secondary hash breaks up this uniformity.
+    - produces a second index in [0, table.length)    
+      
+
+      - With double hashing, a second hash function is used to determine the step size    
+        for the probing sequence. With linear or quadratic probing, elements that    
+        collide also tend to have the same step size, which leads to clustering. A    
+        secondary hash breaks up this uniformity.
+    - is less vulnerable to clustering than linear or quadratic probing    
+      
+
+      + Correct!

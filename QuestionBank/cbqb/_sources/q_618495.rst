@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_618495
+    :basecourse: canterburyqb
+        
+    How many active object references and reachable objects will be produced by    
+    this code?    
+        
+    String first = new String("Dorsa");    
+        
+    String second = new String("Mahsa");    
+        
+    String third = second;    
+        
+    second = null;    
+    
+
+    - 2 , 2    
+      
+
+      + Correct!
+    - 3, 2    
+      
+
+      - 3, 3
+    - 3, 3    
+      
+
+      - 3, 3
+    - 2, 3    
+      
+
+      - 3, 3

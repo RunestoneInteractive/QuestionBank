@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_618500
+    :basecourse: canterburyqb
+        
+    What will be printed?    
+        
+    String name = "John";    
+        
+    String surname = "Smith";    
+        
+    name.concat(surname);    
+        
+    System.out.print(name + " ");    
+        
+    System.out.println(surname);    
+    
+
+    - John Smith    
+      
+
+      + Correct!
+    - John Smith Smith    
+      
+
+      - JohnSmith Smith
+    - JohnSmith Smith    
+      
+
+      - JohnSmith Smith
+    - Smith John    
+      
+
+      - JohnSmith Smith

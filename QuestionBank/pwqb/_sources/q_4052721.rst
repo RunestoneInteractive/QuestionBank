@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052721
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q31:</strong></p><p>Blackjack, also known as twenty-one, is the most widely played casino card game. To win, the goal is to achieve the highest possible score without exceeding 21. If your score is greater than 21 then you lose. A score of exactly 21 is the best possible score.</p><p>&nbsp;</p><p>The function BlackJackWinner() takes two inputs, hand1 and hand2, which represent the scores of the hands held by two Blackjack players. The function should return the score of the player that wins the hand. If the hand is a draw, for example if both players have the same score or if they both have scores greater than 21, then the function should return 0. In all other cases, the function should return the score of the player that wins the game.</p><p>&nbsp;</p><p>However, the implementation of the BlackJackWinner() function below is <span style="text-decoration: underline;"><strong>incorrect</strong></span>.</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int BlackJackWinner(int hand1, int hand2)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if ((hand1 &gt; 21) &amp;&amp; (hand2 &gt; 21)) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else if (hand1 == hand2) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else if (hand1 &gt; hand2) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return hand1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return hand2;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Despite this, only <strong>ONE</strong> of the function calls below would generate an output that is not expected (i.e. only one function call shown would generate an output that would reveal the error in the function). The other options would generate the output expected if the function was correct. Which function call returns an unexpected output and reveals the error?</p>
+    
+
+    - ``BlackJackWinner(22, 24)``    
+      
+
+      - Incorrect
+    - ``BlackJackWinner(17, 17)``    
+      
+
+      - Incorrect
+    - ``BlackJackWinner(25, 15)``    
+      
+
+      + Correct!
+    - ``BlackJackWinner(10, 15)``    
+      
+
+      - Incorrect
+    - ``BlackJackWinner(15, 10)``    
+      
+
+      - Incorrect

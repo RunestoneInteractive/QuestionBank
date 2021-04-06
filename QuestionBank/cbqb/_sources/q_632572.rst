@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_632572
+    :basecourse: canterburyqb
+        
+    A chained hash table has an array size of 512. What is the maximum number of    
+    entries that can be placed in the table?    
+    
+
+    - 256    
+      
+
+      - In a hashtable with chaining, each element is assigned to a particular cell in    
+        the array (a "bucket") using the hash function. Each bucket has a pointer to    
+        the start of a linked list, and the elements assigned to that bucket are    
+        stored in the linked list.
+    - 511    
+      
+
+      - In a hashtable with chaining, each element is assigned to a particular cell in    
+        the array (a "bucket") using the hash function. Each bucket has a pointer to    
+        the start of a linked list, and the elements assigned to that bucket are    
+        stored in the linked list.
+    - 512    
+      
+
+      - In a hashtable with chaining, each element is assigned to a particular cell in    
+        the array (a "bucket") using the hash function. Each bucket has a pointer to    
+        the start of a linked list, and the elements assigned to that bucket are    
+        stored in the linked list.
+    - 1024    
+      
+
+      - In a hashtable with chaining, each element is assigned to a particular cell in    
+        the array (a "bucket") using the hash function. Each bucket has a pointer to    
+        the start of a linked list, and the elements assigned to that bucket are    
+        stored in the linked list.
+    - There is no maximum.    
+      
+
+      + Correct!

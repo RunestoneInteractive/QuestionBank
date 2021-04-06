@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_633269
+    :basecourse: canterburyqb
+        
+    What is not true about a binary search tree?    
+    
+
+    - It is a binary tree    
+      
+
+      - BSTs need not be perfect.
+    - It is a perfect tree    
+      
+
+      + Correct!
+    - The leftmost node is the smallest node in the tree    
+      
+
+      - BSTs need not be perfect.
+    - When printed with inorder traversal, it will be sorted    
+      
+
+      - BSTs need not be perfect.

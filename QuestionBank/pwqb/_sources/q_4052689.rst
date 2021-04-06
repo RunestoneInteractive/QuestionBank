@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052689
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q1:</strong></p><p>What output would be produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int x, y, z;</span><br /><span style="font-family: courier new,courier,monospace;">int a, b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">x = 10;</span><br /><span style="font-family: courier new,courier,monospace;">y = 6;</span><br /><span style="font-family: courier new,courier,monospace;">z = 4;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">a = x + z % y;</span><br /><span style="font-family: courier new,courier,monospace;">b = x / (x % y);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("a = %d, b = %d", a, b);</span></p>
+    
+
+    - a = 2, b = 2    
+      
+
+      - Incorrect
+    - a = 12, b = 2    
+      
+
+      - Incorrect
+    - a = 14, b = 1    
+      
+
+      - Incorrect
+    - a = 12, b = 1    
+      
+
+      - Incorrect
+    - a = 14, b = 2    
+      
+
+      + Correct!

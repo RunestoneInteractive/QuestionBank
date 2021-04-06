@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633225
+    :basecourse: canterburyqb
+        
+    Which one of the following is a limitation of Java's arrays?    
+    
+
+    - They can only hold primitive types.    
+      
+
+      - Arrays hold primitives and references, have a builtin length property, and    
+        allow modification of individual elements. They cannot be resized.
+    - They can only hold reference types.    
+      
+
+      - Arrays hold primitives and references, have a builtin length property, and    
+        allow modification of individual elements. They cannot be resized.
+    - Once an element is assigned, that element cannot be modified.    
+      
+
+      - Arrays hold primitives and references, have a builtin length property, and    
+        allow modification of individual elements. They cannot be resized.
+    - Their length must be stored separately.    
+      
+
+      - Arrays hold primitives and references, have a builtin length property, and    
+        allow modification of individual elements. They cannot be resized.
+    - They cannot change size.    
+      
+
+      + Correct!

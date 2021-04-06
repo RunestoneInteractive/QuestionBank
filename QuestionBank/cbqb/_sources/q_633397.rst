@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_633397
+    :basecourse: canterburyqb
+        
+    Suppose you try to perform a binary search on the unsorted array {1, 4, 3, 7,    
+    15, 9, 24}. Which element will not be found when you try searching for it?    
+    
+
+    - 7    
+      
+
+      - The answer is 15. The first check will look at 7. 15 is greater than 7, so we    
+        search to its right. The second check will look at 9. 15 is greater than 9, so    
+        we search to its right. The third check will look at 24. 15 is less than 24,    
+        so we look to its left. However, our range has just been inverted and our    
+        searching stops, not having found 15.
+    - 1    
+      
+
+      - The answer is 15. The first check will look at 7. 15 is greater than 7, so we    
+        search to its right. The second check will look at 9. 15 is greater than 9, so    
+        we search to its right. The third check will look at 24. 15 is less than 24,    
+        so we look to its left. However, our range has just been inverted and our    
+        searching stops, not having found 15.
+    - 9    
+      
+
+      - The answer is 15. The first check will look at 7. 15 is greater than 7, so we    
+        search to its right. The second check will look at 9. 15 is greater than 9, so    
+        we search to its right. The third check will look at 24. 15 is less than 24,    
+        so we look to its left. However, our range has just been inverted and our    
+        searching stops, not having found 15.
+    - 15    
+      
+
+      + Correct!
+    - 24    
+      
+
+      - The answer is 15. The first check will look at 7. 15 is greater than 7, so we    
+        search to its right. The second check will look at 9. 15 is greater than 9, so    
+        we search to its right. The third check will look at 24. 15 is less than 24,    
+        so we look to its left. However, our range has just been inverted and our    
+        searching stops, not having found 15.

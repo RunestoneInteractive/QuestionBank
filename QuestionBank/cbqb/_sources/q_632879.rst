@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_632879
+    :basecourse: canterburyqb
+        
+    Converting a value from one type to another sometimes requires an explicit    
+    cast and sometimes does not. Which of the following conversions and lines of    
+    reasoning explains how to convert a double d to an int i?    
+    
+
+    - i = d. No explicit cast is necessary because if the conversion isn't valid, an    
+      exception is thrown.    
+      
+
+      - Not all doubles can be stored as ints. You must sign off on the potential    
+        information loss with an explicit cast.
+    - i = (int) d. An explicit cast is needed to round d to the nearest integer.    
+      
+
+      - Not all doubles can be stored as ints. You must sign off on the potential    
+        information loss with an explicit cast.
+    - i = d. No explicit cast is necessary because any int can be stored in a    
+      double.    
+      
+
+      - Not all doubles can be stored as ints. You must sign off on the potential    
+        information loss with an explicit cast.
+    - i = (int) d. An explicit cast is needed because information may be lost in the    
+      conversion.    
+      
+
+      + Correct!
+    - i = d. No explicit cast is necessary because d isn't changed in the conversion    
+      process.    
+      
+
+      - Not all doubles can be stored as ints. You must sign off on the potential    
+        information loss with an explicit cast.

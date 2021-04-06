@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634187
+    :basecourse: canterburyqb
+        
+    What is the worst-case time performance of heapsort?    
+    
+
+    - O(nlgn)    
+      
+
+      + Correct!
+    - O(n)    
+      
+
+      - O(n2)
+    - O(lgn)    
+      
+
+      - O(n2)
+    - O(n2)    
+      
+
+      - O(n2)

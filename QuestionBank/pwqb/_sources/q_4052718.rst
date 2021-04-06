@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052718
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q2:</strong></p><p>The following are positive numbers represented in binary (i.e. base 2). Which number represents the <em>lowest</em> value?</p>
+    
+
+    - 1001001    
+      
+
+      + Correct!
+    - 1100011    
+      
+
+      - Incorrect
+    - 1001111    
+      
+
+      - Incorrect
+    - 1111000    
+      
+
+      - Incorrect
+    - 1010101    
+      
+
+      - Incorrect

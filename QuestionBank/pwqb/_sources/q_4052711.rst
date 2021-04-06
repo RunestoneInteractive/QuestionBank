@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052711
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q9:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int a = 10;</span><br /><span style="font-family: courier new,courier,monospace;">int b = 20;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = ");</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">if (!(a &gt; b)) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if (b != a) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("a ");</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("b ");</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span></p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("c ");</span><br /><span style="font-family: courier new,courier,monospace;">} else if (b == 20) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("d ");</span><br /><span style="font-family: courier new,courier,monospace;">} else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("e ");</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = a c d    
+      
+
+      - Incorrect
+    - Result = c d    
+      
+
+      - Incorrect
+    - Result = a c    
+      
+
+      + Correct!
+    - Result = a d    
+      
+
+      - Incorrect
+    - Result = b c    
+      
+
+      - Incorrect

@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_633292
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    .. code-block::    
+        
+        
+           in_str = input('Enter a string: ')    
+           a = ''    
+           d = 0    
+           r = 1    
+        
+           for c in 'abcdefghijklmnopqrstuvwxyz':    
+               if c in in_str:    
+                   a = c + a    
+               else:    
+                   d = d + 1    
+           r += 2    
+        
+           print(a) # Line 1    
+           print(d) # Line 2    
+           print(r) # Line 3    
+        
+    Given the input ``'Frick & Frack'``\ what output is produced by Line 1?    
+    
+
+    - FrickFrack    
+      
+
+      - Essentially this is filtering out all the upper case and non-alphabetic    
+        characters.  The for loop goes through each lower-case letter, and if that    
+        letter is in the input string in_str, we concatenate the letter to the    
+        variable a.
+    - kcarkcir    
+      
+
+      - Essentially this is filtering out all the upper case and non-alphabetic    
+        characters.  The for loop goes through each lower-case letter, and if that    
+        letter is in the input string in_str, we concatenate the letter to the    
+        variable a.
+    - acikr    
+      
+
+      - Essentially this is filtering out all the upper case and non-alphabetic    
+        characters.  The for loop goes through each lower-case letter, and if that    
+        letter is in the input string in_str, we concatenate the letter to the    
+        variable a.
+    - rkica    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - Essentially this is filtering out all the upper case and non-alphabetic    
+        characters.  The for loop goes through each lower-case letter, and if that    
+        letter is in the input string in_str, we concatenate the letter to the    
+        variable a.

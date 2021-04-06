@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_633564
+    :basecourse: canterburyqb
+        
+    You know exactly how much data you need to store, but there's not much of it.    
+    You do need to be able to search the collection quickly. What is the simplest    
+    data structure that best suits for your needs?    
+    
+
+    - Unordered array    
+      
+
+      - The memory needs are known, making an array a fine choice. Sorted arrays can    
+        be searched quickly with binary search.
+    - Ordered array    
+      
+
+      + Correct!
+    - Linked list    
+      
+
+      - The memory needs are known, making an array a fine choice. Sorted arrays can    
+        be searched quickly with binary search.
+    - Hashtable    
+      
+
+      - The memory needs are known, making an array a fine choice. Sorted arrays can    
+        be searched quickly with binary search.
+    - Binary search tree    
+      
+
+      - The memory needs are known, making an array a fine choice. Sorted arrays can    
+        be searched quickly with binary search.

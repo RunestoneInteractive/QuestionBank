@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_635018
+    :basecourse: canterburyqb
+        
+    Kun has a method:    
+        
+    .. code-block::    
+        
+        
+           struct node{    
+              struct node *next;    
+              int val;    
+           }    
+        
+    ``void delete_root(struct node *root)``    
+        
+    .. code-block::    
+        
+        
+           {    
+              free(root);    
+              root = NULL;    
+           }    
+        
+    What is most likely to happen?    
+    
+
+    - Deletes a copy of root    
+      
+
+      - The code frees memory it shouldn't be, and will do a core dump.
+    - Deletes root    
+      
+
+      - The code frees memory it shouldn't be, and will do a core dump.
+    - Segfault    
+      
+
+      - The code frees memory it shouldn't be, and will do a core dump.
+    - A lot of crazy stuff will be printed    
+      
+
+      + Correct!

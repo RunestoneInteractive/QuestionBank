@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632081
+    :basecourse: canterburyqb
+        
+    What will the display look like after these lines of code, with [ ]    
+    representing a space?    
+        
+    float fData = 3.6239;    
+        
+    printf("%3.1f \n", fData);    
+    
+
+    - 3.6    
+      
+
+      + Correct!
+    - 3.62    
+      
+
+      - The printf function follows the pattern printf("format" [, list of_ fields]).    
+        Within the "format" element the field specifiers have the following format [%    
+        [-] [+] [width [.precision]] data_type], where the square brackets indicate    
+        that the element is optional.   In this case %f represents a floating point    
+        element, and 3.1  the required precision of 1 decimal place.
+    - 3.624    
+      
+
+      - The printf function follows the pattern printf("format" [, list of_ fields]).    
+        Within the "format" element the field specifiers have the following format [%    
+        [-] [+] [width [.precision]] data_type], where the square brackets indicate    
+        that the element is optional.   In this case %f represents a floating point    
+        element, and 3.1  the required precision of 1 decimal place.
+    - [ ] 3.62    
+      
+
+      - The printf function follows the pattern printf("format" [, list of_ fields]).    
+        Within the "format" element the field specifiers have the following format [%    
+        [-] [+] [width [.precision]] data_type], where the square brackets indicate    
+        that the element is optional.   In this case %f represents a floating point    
+        element, and 3.1  the required precision of 1 decimal place.
+    - [ ] [ ] 3.6    
+      
+
+      - The printf function follows the pattern printf("format" [, list of_ fields]).    
+        Within the "format" element the field specifiers have the following format [%    
+        [-] [+] [width [.precision]] data_type], where the square brackets indicate    
+        that the element is optional.   In this case %f represents a floating point    
+        element, and 3.1  the required precision of 1 decimal place.

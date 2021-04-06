@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632097
+    :basecourse: canterburyqb
+        
+    What is output from the following section of code?    
+        
+    int i = 4;    
+        
+    int j = i - 1;    
+        
+    printf("%d bows = %d wows", i, j+1);    
+    
+
+    - 3 bows = 4 wows    
+      
+
+      - Through the printf function the decimal integer values defined by the %d field    
+        specifiers are replaced by the values for i and j resulting from the    
+        expression. The value of variable j is both decremented and incremented to    
+        remain equivalent to that of variable i when printed.
+    - 4 bows = 4 wows    
+      
+
+      + Correct!
+    - 3 bows = 5 wows    
+      
+
+      - Through the printf function the decimal integer values defined by the %d field    
+        specifiers are replaced by the values for i and j resulting from the    
+        expression. The value of variable j is both decremented and incremented to    
+        remain equivalent to that of variable i when printed.
+    - 4 bows = 5 wows    
+      
+
+      - Through the printf function the decimal integer values defined by the %d field    
+        specifiers are replaced by the values for i and j resulting from the    
+        expression. The value of variable j is both decremented and incremented to    
+        remain equivalent to that of variable i when printed.
+    - E 4 bows = 3 wows    
+      
+
+      - Through the printf function the decimal integer values defined by the %d field    
+        specifiers are replaced by the values for i and j resulting from the    
+        expression. The value of variable j is both decremented and incremented to    
+        remain equivalent to that of variable i when printed.

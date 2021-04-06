@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_631458
+    :basecourse: canterburyqb
+        
+    Given the code    
+        
+    .. code-block::    
+        
+        
+           int x = 27;    
+           int y = 12;    
+        
+    What is the value of the expression ``x%y``\ ?    
+    
+
+    - 2    
+      
+
+      - In Java, the % operator means "remainder." So this question is asking, "What    
+        is the remainder when you divide 27 by 12?"   27 - (2*12) = 3, so the answer    
+        is 3.
+    - 2.25    
+      
+
+      - In Java, the % operator means "remainder." So this question is asking, "What    
+        is the remainder when you divide 27 by 12?"   27 - (2*12) = 3, so the answer    
+        is 3.
+    - 3    
+      
+
+      + Correct!
+    - 3.0    
+      
+
+      - In Java, the % operator means "remainder." So this question is asking, "What    
+        is the remainder when you divide 27 by 12?"   27 - (2*12) = 3, so the answer    
+        is 3.
+    - None of the above.    
+      
+
+      - In Java, the % operator means "remainder." So this question is asking, "What    
+        is the remainder when you divide 27 by 12?"   27 - (2*12) = 3, so the answer    
+        is 3.

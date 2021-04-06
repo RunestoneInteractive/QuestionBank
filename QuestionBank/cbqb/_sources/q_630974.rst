@@ -1,0 +1,56 @@
+.. mchoice:: canterburyqb_630974
+    :basecourse: canterburyqb
+        
+    Consider the following code:    
+        
+    .. code-block::    
+        
+        
+           if (!somethingIsTrue())    
+           {    
+               return true;    
+           }    
+           else    
+           {    
+               return false;    
+           }    
+        
+    Which replacement for this code will produce the same result?    
+    
+
+    - ``return true;``    
+      
+
+      - The method `somethingIsTrue()` must return a boolean value, because of the way    
+        it is used in the if statement's condition.  If it returns the value `false`,    
+        the if statement will cause the value `true` to be returned; otherwise, the if    
+        statement will cause the value `false` to be returned.  Therefore, the entire    
+        if statement is equivalent to `return !somethingIsTrue();`.
+    - ``return false;``    
+      
+
+      - The method `somethingIsTrue()` must return a boolean value, because of the way    
+        it is used in the if statement's condition.  If it returns the value `false`,    
+        the if statement will cause the value `true` to be returned; otherwise, the if    
+        statement will cause the value `false` to be returned.  Therefore, the entire    
+        if statement is equivalent to `return !somethingIsTrue();`.
+    - ``return somethingIsTrue();``    
+      
+
+      - The method `somethingIsTrue()` must return a boolean value, because of the way    
+        it is used in the if statement's condition.  If it returns the value `false`,    
+        the if statement will cause the value `true` to be returned; otherwise, the if    
+        statement will cause the value `false` to be returned.  Therefore, the entire    
+        if statement is equivalent to `return !somethingIsTrue();`.
+    - ``return !somethingIsTrue();``    
+      
+
+      + Correct!
+    - none of these    
+      
+
+      - The method `somethingIsTrue()` must return a boolean value, because of the way    
+        it is used in the if statement's condition.  If it returns the value `false`,    
+        the if statement will cause the value `true` to be returned; otherwise, the if    
+        statement will cause the value `false` to be returned.  Therefore, the entire    
+        if statement is equivalent to `return !somethingIsTrue();`.

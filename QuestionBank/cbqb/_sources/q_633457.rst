@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_633457
+    :basecourse: canterburyqb
+        
+    Consider the following code:    
+        
+    .. code-block::    
+        
+        
+           number = int(input("Enter a positive number: "))    
+           while number > 1:    
+              if (number % 2 == 1):    
+                 number = number * 3 + 1    
+              else:    
+                 number = number/2    
+              print number    
+              if number == 1:    
+                 break    
+           else:    
+              print "The end"    
+        
+    What output is produced when the input is '-1'?    
+    
+
+    - an error    
+      
+
+      - if number is not greater than 1, we immediately get to "The end".  In Python,    
+        while loops are allowed to have an else statement.
+    - The end    
+      
+
+      + Correct!
+    - no output is produced    
+      
+
+      - if number is not greater than 1, we immediately get to "The end".  In Python,    
+        while loops are allowed to have an else statement.
+    - -1    
+      
+
+      - if number is not greater than 1, we immediately get to "The end".  In Python,    
+        while loops are allowed to have an else statement.
+    - none of the above    
+      
+
+      - if number is not greater than 1, we immediately get to "The end".  In Python,    
+        while loops are allowed to have an else statement.

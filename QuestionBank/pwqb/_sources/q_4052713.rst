@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052713
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q7:</strong></p><p>The following formula can be used to convert a temperature from Fahrenheit to Celsius (where T<sub>c</sub> is the temperature in Celsius and T<sub>f</sub> is the temperature in Fahrenheit):</p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp; &nbsp; T<sub>c</sub> = (5/9) x (T<sub>f</sub> - 32)</p><p>&nbsp;</p><p>Given the following variable declarations:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int fahrenheit = 212;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; double celsius;</span></p><p>&nbsp;</p><p>which of the following statements would successfully convert 212 degrees Fahrenheit to Celsius and store the result in the variable celsius?</p>
+    
+
+    - ``celsius = 5/9 * (fahrenheit - 32.0);``    
+      
+
+      - Incorrect
+    - ``celsius = (5/9) * fahrenheit - 32;``    
+      
+
+      - Incorrect
+    - ``celsius = ((double)5/9) * (fahrenheit - 32);``    
+      
+
+      + Correct!
+    - ``celsius = ((double)5/9) * fahrenheit - 32;``    
+      
+
+      - Incorrect
+    - ``celsius = (5/9) * (fahrenheit - 32);``    
+      
+
+      - Incorrect

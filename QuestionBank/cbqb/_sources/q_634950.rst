@@ -1,0 +1,88 @@
+.. mchoice:: canterburyqb_634950
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    The following class definitions illustrates which important object-oriented    
+    programming concept?    
+        
+    class Animal:\ :raw-html-m2r:`<br>`    
+        def **init**\ (self, name): # Constructor of the class\ :raw-html-m2r:`<br>`    
+            self.name = name\ :raw-html-m2r:`<br>`    
+        def talk(self): # Abstract method, defined by convention only\ :raw-html-m2r:`<br>`    
+            raise NotImplementedError("Subclass must implement abstract method")    
+        
+    class Cat(Animal):\ :raw-html-m2r:`<br>`    
+        def talk(self):\ :raw-html-m2r:`<br>`    
+            return 'Meow!'    
+        
+    class Dog(Animal):\ :raw-html-m2r:`<br>`    
+        def talk(self):\ :raw-html-m2r:`<br>`    
+            return 'Woof! Woof!'    
+    
+
+    - Polymorphism    
+      
+
+      + Correct!
+    - Inheritance    
+      
+
+      - This is the classic example of polymorphism.  Consider the following code:    
+            
+        animals = [Cat('Missy'), Dog('Lassie')]    
+            
+        for animal in animals:      
+            print(animal.name + ': ' + animal.talk())    
+            
+            
+            
+        # prints the following:      
+        # Missy: Meow!      
+        # Lassie: Woof! Woof!
+    - Responsibility driven design    
+      
+
+      - This is the classic example of polymorphism.  Consider the following code:    
+            
+        animals = [Cat('Missy'), Dog('Lassie')]    
+            
+        for animal in animals:      
+            print(animal.name + ': ' + animal.talk())    
+            
+            
+            
+        # prints the following:      
+        # Missy: Meow!      
+        # Lassie: Woof! Woof!
+    - Tight/strong cohesion and loose coupling    
+      
+
+      - This is the classic example of polymorphism.  Consider the following code:    
+            
+        animals = [Cat('Missy'), Dog('Lassie')]    
+            
+        for animal in animals:      
+            print(animal.name + ': ' + animal.talk())    
+            
+            
+            
+        # prints the following:      
+        # Missy: Meow!      
+        # Lassie: Woof! Woof!
+    - None of the above.    
+      
+
+      - This is the classic example of polymorphism.  Consider the following code:    
+            
+        animals = [Cat('Missy'), Dog('Lassie')]    
+            
+        for animal in animals:      
+            print(animal.name + ': ' + animal.talk())    
+            
+            
+            
+        # prints the following:      
+        # Missy: Meow!      
+        # Lassie: Woof! Woof!

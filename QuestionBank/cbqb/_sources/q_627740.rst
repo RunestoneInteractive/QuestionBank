@@ -1,0 +1,132 @@
+.. mchoice:: canterburyqb_627740
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    The following method ``isSorted`` should return\ ``true`` if the array ``x`` is    
+    sorted in ascending order. Otherwise, the method should return ``false``\ :    
+        
+    :raw-html-m2r:`<code class="docutils literal"><span class="pre">public boolean isSorted (int[] x)&#96;&#96;{</span></code>`    
+        
+    .. code-block::    
+        
+        
+              //missing code goes here    
+           }    
+        
+           Which of the following is the missing code from the method isSorted?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         boolean b = true;    
+         for (int i=0; i<x.length-1; i++) {    
+            if (x[i] > x[i+1])    
+               b = false;    
+            else    
+               b = true;    
+         }    
+         return b;    
+          
+          
+      ```    
+      
+
+      - This code should check each pair of consecutive values in the array and return    
+        false (that is, the array is not sorted) if it finds a single pair where the    
+        first value is greater than the second.    
+            
+        Choice A is wrong because its answer depends only on the relationship of the    
+        last two values it checks. Choice C is wrong because it always returns    
+        `false`. Choices D and E are wrong  because they return `false` when the array    
+        *is* sorted and` true` when it isn't.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=0; i<x.length-1; i++) {    
+            if (x[i] > x[i+1])    
+               return false;    
+         }    
+         return true;    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         boolean b = false;    
+         for (int i=0; i<x.length-1; i++) {    
+            if (x[i] > x[i+1])    
+               b = false;    
+         }    
+         return b;    
+          
+          
+      ```    
+      
+
+      - This code should check each pair of consecutive values in the array and return    
+        false (that is, the array is not sorted) if it finds a single pair where the    
+        first value is greater than the second.    
+            
+        Choice A is wrong because its answer depends only on the relationship of the    
+        last two values it checks. Choice C is wrong because it always returns    
+        `false`. Choices D and E are wrong  because they return `false` when the array    
+        *is* sorted and` true` when it isn't.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``boolean b = false;``    
+          
+      :raw-html-m2r:`<code class="docutils literal"><span class="pre">for (int i=0; i<x.length-1; i++)&#96;&#96;{</span></code>`    
+          
+      .. code-block::    
+          
+          
+                if (x[i] > x[i+1])    
+                   b = true;    
+             }    
+          
+      ``return b;``    
+      
+
+      - This code should check each pair of consecutive values in the array and return    
+        false (that is, the array is not sorted) if it finds a single pair where the    
+        first value is greater than the second.    
+            
+        Choice A is wrong because its answer depends only on the relationship of the    
+        last two values it checks. Choice C is wrong because it always returns    
+        `false`. Choices D and E are wrong  because they return `false` when the array    
+        *is* sorted and` true` when it isn't.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      :raw-html-m2r:`<code class="docutils literal"><span class="pre">for (int i=0; i<x.length-1; i++)&#96;&#96;{</span></code>`    
+          
+      .. code-block::    
+          
+          
+                if (x[i] > x[i+1])    
+                   return true;    
+             }    
+             return false;    
+      
+
+      - This code should check each pair of consecutive values in the array and return    
+        false (that is, the array is not sorted) if it finds a single pair where the    
+        first value is greater than the second.    
+            
+        Choice A is wrong because its answer depends only on the relationship of the    
+        last two values it checks. Choice C is wrong because it always returns    
+        `false`. Choices D and E are wrong  because they return `false` when the array    
+        *is* sorted and` true` when it isn't.

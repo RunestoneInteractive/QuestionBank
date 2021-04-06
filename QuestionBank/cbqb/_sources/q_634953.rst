@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_634953
+    :basecourse: canterburyqb
+        
+    Which of the following is the best definition of an algorithm?    
+    
+
+    - A well-ordered collection of unambiguous and effectively computable operations    
+      that when executed produces a result and halts in a reasonably short amount of    
+      time.    
+      
+
+      - Option B provides the best definition.  A key component is that in order to be    
+        an algorithm, it must eventually halt.
+    - A well-ordered collection of unambiguous and effectively computable operations    
+      that when executed produces a result and halts in a finite amount of time.    
+      
+
+      + Correct!
+    - A collection of unambiguous and effectively computable operations that when    
+      executed produces a result and halts in a finite amount of time.    
+      
+
+      - Option B provides the best definition.  A key component is that in order to be    
+        an algorithm, it must eventually halt.
+    - A well-ordered collection of unambiguous and effectively computable operations    
+      that when executed produces a result.    
+      
+
+      - Option B provides the best definition.  A key component is that in order to be    
+        an algorithm, it must eventually halt.
+    - A well-ordered collection of unambiguous and effectively computable    
+      operations.    
+      
+
+      - Option B provides the best definition.  A key component is that in order to be    
+        an algorithm, it must eventually halt.

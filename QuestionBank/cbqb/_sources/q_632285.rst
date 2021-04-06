@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_632285
+    :basecourse: canterburyqb
+        
+    Suppose ``StackADT`` is implemented in Java using a linked list. The big-Oh time    
+    complexity of the following ``pop`` method is:    
+        
+    .. code-block::    
+        
+        
+           public T pop() {    
+              T tmp;    
+              if (this.top == null)     
+                 tmp = null;    
+              else {    
+                 tmp = this.top.getElement();    
+                 this.top = this.top.getNext();    
+              }    
+              return tmp;    
+           }    
+    
+
+    - O(1)    
+      
+
+      + Correct!
+    - O(log n)    
+      
+
+      - These operations can be done in constant time, independent of the size of the    
+        stack.
+    - O(n)    
+      
+
+      - These operations can be done in constant time, independent of the size of the    
+        stack.
+    - O(n2)    
+      
+
+      - These operations can be done in constant time, independent of the size of the    
+        stack.
+    - O(2n)    
+      
+
+      - These operations can be done in constant time, independent of the size of the    
+        stack.

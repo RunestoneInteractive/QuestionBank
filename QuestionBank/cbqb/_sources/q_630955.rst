@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_630955
+    :basecourse: canterburyqb
+        
+    Which of the following choices would best be modeled by a class, followed by a    
+    subclass of that class?    
+    
+
+    - CountryInAfrica, Botswana    
+      
+
+      - Choices A and B are wrong, because one of the items listed is a concrete item    
+        that would be better modeled by an object. Choice E is wrong because both    
+        items listed are concrete. Choices C and D both list a class and a subclass,    
+        but only in Choice D does the class come first, followed by the subclass.
+    - Botswana, CountryInAfrica    
+      
+
+      - Choices A and B are wrong, because one of the items listed is a concrete item    
+        that would be better modeled by an object. Choice E is wrong because both    
+        items listed are concrete. Choices C and D both list a class and a subclass,    
+        but only in Choice D does the class come first, followed by the subclass.
+    - CountryInAfrica, Country    
+      
+
+      - Choices A and B are wrong, because one of the items listed is a concrete item    
+        that would be better modeled by an object. Choice E is wrong because both    
+        items listed are concrete. Choices C and D both list a class and a subclass,    
+        but only in Choice D does the class come first, followed by the subclass.
+    - Country, CountryInAfrica    
+      
+
+      + Correct!
+    - Botswana, SouthAfrica    
+      
+
+      - Choices A and B are wrong, because one of the items listed is a concrete item    
+        that would be better modeled by an object. Choice E is wrong because both    
+        items listed are concrete. Choices C and D both list a class and a subclass,    
+        but only in Choice D does the class come first, followed by the subclass.

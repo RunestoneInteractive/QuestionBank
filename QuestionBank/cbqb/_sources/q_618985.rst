@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_618985
+    :basecourse: canterburyqb
+        
+    How many asterisks will be printed as a result of executing this code?    
+        
+    int counter = 0, N = 10;    
+        
+    while (counter++ < N){    
+        
+    .. code-block::    
+        
+       if (counter%2 == 0)    
+        
+           continue;    
+        
+       System.out.print("*");    
+        
+        
+    }    
+    
+
+    - none, infinite loop.    
+      
+
+      - 5
+    - 10    
+      
+
+      - 5
+    - 5    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - 5

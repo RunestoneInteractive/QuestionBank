@@ -1,0 +1,69 @@
+.. mchoice:: canterburyqb_634933
+    :basecourse: canterburyqb
+        
+    One of the things in Java that allows us to use polymorphism is that the    
+    declared type and actual type of a variable may be different.    
+        
+    In Java, the actual type of a parameter or variable's value can be any    
+    concrete class that is    
+    
+
+    - the same as the declared type, or any subclass of the declared type (if the    
+      declared type is a class)    
+      
+
+      - The rule of thumb is that the declared type is the same or more abstract than    
+        the actual type.  If the declared type is a class, the things that are equally    
+        or less abstract are its descendants -- a subclass specializes a class.  If    
+        declared type is an interface, it is an abstraction of any class that    
+        implements it, or by the relationship between classes and its descendants, any    
+        class that is a subclass of something that implements it.    
+            
+        Java wants a guarantee that the actual type will have the declared type's    
+        methods.  That can be via inheritance or implementing an interface, or a    
+        combination of the two.
+    - any class that ``implements`` the declared type (if the declared type is an    
+      interface)    
+      
+
+      - The rule of thumb is that the declared type is the same or more abstract than    
+        the actual type.  If the declared type is a class, the things that are equally    
+        or less abstract are its descendants -- a subclass specializes a class.  If    
+        declared type is an interface, it is an abstraction of any class that    
+        implements it, or by the relationship between classes and its descendants, any    
+        class that is a subclass of something that implements it.    
+            
+        Java wants a guarantee that the actual type will have the declared type's    
+        methods.  That can be via inheritance or implementing an interface, or a    
+        combination of the two.
+    - any subclass of a class that ``implements`` the declared type (if the declared    
+      type is an interface)    
+      
+
+      - The rule of thumb is that the declared type is the same or more abstract than    
+        the actual type.  If the declared type is a class, the things that are equally    
+        or less abstract are its descendants -- a subclass specializes a class.  If    
+        declared type is an interface, it is an abstraction of any class that    
+        implements it, or by the relationship between classes and its descendants, any    
+        class that is a subclass of something that implements it.    
+            
+        Java wants a guarantee that the actual type will have the declared type's    
+        methods.  That can be via inheritance or implementing an interface, or a    
+        combination of the two.
+    - A, B, and C above.    
+      
+
+      + Correct!
+    - A and B above, but not C    
+      
+
+      - The rule of thumb is that the declared type is the same or more abstract than    
+        the actual type.  If the declared type is a class, the things that are equally    
+        or less abstract are its descendants -- a subclass specializes a class.  If    
+        declared type is an interface, it is an abstraction of any class that    
+        implements it, or by the relationship between classes and its descendants, any    
+        class that is a subclass of something that implements it.    
+            
+        Java wants a guarantee that the actual type will have the declared type's    
+        methods.  That can be via inheritance or implementing an interface, or a    
+        combination of the two.

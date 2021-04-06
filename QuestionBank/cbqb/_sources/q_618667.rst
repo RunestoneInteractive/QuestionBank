@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_618667
+    :basecourse: canterburyqb
+        
+    We have defined two JButton in a class and are going to handle the events by    
+    implementing ActionListener. As we know, this interface has a method called    
+    actionPerformed that we have to override it in our class. What would be the    
+    best way (i.e. object oriented approach) to listen to the events regarding    
+    both the buttons?    
+    
+
+    - Override actionPerformed method twice for both the buttons.    
+      
+
+      - Create two separate classes, each should implements ActionListener interface.    
+        Then register each button with each classes.
+    - Override actionPerformed method once, get the source of event in this method    
+      and then handle the events.    
+      
+
+      - Create two separate classes, each should implements ActionListener interface.    
+        Then register each button with each classes.
+    - Create two separate classes, each should implements ActionListener interface.    
+      Then register each button with each classes.    
+      
+
+      - Create two separate classes, each should implements ActionListener interface.    
+        Then register each button with each classes.
+    - use inner classes, each implements ActionListener interface. Each button    
+      should be registered with one of these inner classes.    
+      
+
+      + Correct!

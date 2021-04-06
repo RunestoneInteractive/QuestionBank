@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632809
+    :basecourse: canterburyqb
+        
+    Suppose ``a`` is ``true,`` ``b`` is ``false, and``\ c\ ``is``\ false\ ```. Which of the    
+    following expressions is``\ true`?    
+    
+
+    - ``b && c && !a``    
+      
+
+      - Substitute:    
+            
+          1. !c && !b    
+          2. !false && !false    
+          3. true && true    
+          4. true
+    - ``!a || (b || c)``    
+      
+
+      - Substitute:    
+            
+          1. !c && !b    
+          2. !false && !false    
+          3. true && true    
+          4. true
+    - c && !a    
+      
+
+      - Substitute:    
+            
+          1. !c && !b    
+          2. !false && !false    
+          3. true && true    
+          4. true
+    - ``!c && !b``    
+      
+
+      + Correct!
+    - ``!!b``    
+      
+
+      - Substitute:    
+            
+          1. !c && !b    
+          2. !false && !false    
+          3. true && true    
+          4. true

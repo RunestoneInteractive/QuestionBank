@@ -1,0 +1,90 @@
+.. mchoice:: canterburyqb_632327
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    This Perl script does not work correctly. It is supposed to work out the    
+    average assessment mark for a student who has 6 marked exercises.    
+        
+    Whatever data the student enters, the script always displays an average mark    
+    of zero.    
+        
+    Note that line numbers have been added for reference only - they are not part    
+    of the script    
+        
+    1 my $total = 0;    
+        
+    2    
+        
+    3 for(my $mk = 1; $mk <= 6; $mk++)    
+        
+    4 {    
+        
+    5     print "Enter mark $mk: ";    
+        
+    6     my $mark = :raw-html-m2r:`<STDIN>`\ ;    
+        
+    7     my $total += $mark;    
+        
+    8 }    
+        
+    9    
+        
+    10 my $average = $total / 6;    
+        
+    11 print "Average mark = $average.\n";    
+        
+    What is the problem?    
+    
+
+    - <= 6 on line 3 should be <    
+      
+
+      - A my declares the listed variables to be local (lexically) to the enclosing    
+        block, file, or eval.    
+            
+        source http://perldoc.perl.org/functions/my.html    
+            
+        Therefore the accumulated value of $total is not available to the following    
+        block where the average is calculated
+    - The my on line 6 should not be there.    
+      
+
+      - A my declares the listed variables to be local (lexically) to the enclosing    
+        block, file, or eval.    
+            
+        source http://perldoc.perl.org/functions/my.html    
+            
+        Therefore the accumulated value of $total is not available to the following    
+        block where the average is calculated
+    - The my on line 7 should not be there.    
+      
+
+      + Correct!
+    - Line 10 should show $mark / 6.    
+      
+
+      - A my declares the listed variables to be local (lexically) to the enclosing    
+        block, file, or eval.    
+            
+        source http://perldoc.perl.org/functions/my.html    
+            
+        Therefore the accumulated value of $total is not available to the following    
+        block where the average is calculated
+    - A <= 6 on line 3 should be <    
+          
+      B The my on line 6 should not be there.    
+          
+      C The my on line 7 should not be there.    
+          
+      D Line 10 should show $mark / 6.    
+      
+
+      - A my declares the listed variables to be local (lexically) to the enclosing    
+        block, file, or eval.    
+            
+        source http://perldoc.perl.org/functions/my.html    
+            
+        Therefore the accumulated value of $total is not available to the following    
+        block where the average is calculated

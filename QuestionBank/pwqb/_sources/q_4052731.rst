@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052731
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q21:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">void Change(int *x, int value)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; *x = *x + value;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int a, b;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int *p;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = 10;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b = 20;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; p = &amp;b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Change(&amp;a, b);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Change(p, a);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = (%d, %d)", a, b);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = (20, 50)    
+      
+
+      - Incorrect
+    - Result = (30, 40)    
+      
+
+      - Incorrect
+    - Result = (20, 40)    
+      
+
+      - Incorrect
+    - Result = (30, 50)    
+      
+
+      + Correct!
+    - Result = (20, 30)    
+      
+
+      - Incorrect

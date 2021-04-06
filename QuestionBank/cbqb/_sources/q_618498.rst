@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_618498
+    :basecourse: canterburyqb
+        
+    What should be done to change the following code to a correct one?    
+        
+    public class exam {    
+        
+    .. code-block::    
+        
+        float mark;    
+        
+        public static void main(String[]arg){    
+        
+        float aCopyofMark;    
+        
+        exam e = new exam();    
+        
+        System.out.println( e.mark + aCopyofMark);    
+        
+        }    
+        
+        
+    }    
+    
+
+    - Change float mark; to static float mark;    
+      
+
+      - Initialize aCopyofMark
+    - Delete exam e = new exam();    
+      
+
+      - Initialize aCopyofMark
+    - Initialize aCopyofMark    
+      
+
+      + Correct!
+    - This is a correct code.    
+      
+
+      - Initialize aCopyofMark

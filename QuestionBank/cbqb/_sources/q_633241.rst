@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_633241
+    :basecourse: canterburyqb
+        
+    Finding the median value in a complete and balanced binary search tree is    
+    
+
+    - O(1)    
+      
+
+      + Correct!
+    - O(log N)    
+      
+
+      - The median is the element that has M elements less than it and M elements    
+        greater than it. This can only be said of the root node in a complete and    
+        balanced binary tree. The root is accessed in constant time.
+    - O(N)    
+      
+
+      - The median is the element that has M elements less than it and M elements    
+        greater than it. This can only be said of the root node in a complete and    
+        balanced binary tree. The root is accessed in constant time.
+    - O(N2)    
+      
+
+      - The median is the element that has M elements less than it and M elements    
+        greater than it. This can only be said of the root node in a complete and    
+        balanced binary tree. The root is accessed in constant time.
+    - O(N log N)    
+      
+
+      - The median is the element that has M elements less than it and M elements    
+        greater than it. This can only be said of the root node in a complete and    
+        balanced binary tree. The root is accessed in constant time.

@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_633242
+    :basecourse: canterburyqb
+        
+    Suppose you have a binary search tree with no left children. Duplicate keys    
+    are not allowed. Which of the following explains how this tree may have ended    
+    up this way?    
+    
+
+    - It was filled in ascending order.    
+      
+
+      + Correct!
+    - The root value was the maximum.    
+      
+
+      - If the least node was inserted first, with each successive node having a    
+        greater key than its predecessor, we'd end up with all right children. Adding    
+        nodes with identical keys is prohibited by the problem statement, though it    
+        would yield a similar tree.
+    - All keys were identical.    
+      
+
+      - If the least node was inserted first, with each successive node having a    
+        greater key than its predecessor, we'd end up with all right children. Adding    
+        nodes with identical keys is prohibited by the problem statement, though it    
+        would yield a similar tree.
+    - The tree is a preorder tree.    
+      
+
+      - If the least node was inserted first, with each successive node having a    
+        greater key than its predecessor, we'd end up with all right children. Adding    
+        nodes with identical keys is prohibited by the problem statement, though it    
+        would yield a similar tree.
+    - It was filled in descending order.    
+      
+
+      - If the least node was inserted first, with each successive node having a    
+        greater key than its predecessor, we'd end up with all right children. Adding    
+        nodes with identical keys is prohibited by the problem statement, though it    
+        would yield a similar tree.

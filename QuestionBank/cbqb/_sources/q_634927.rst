@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_634927
+    :basecourse: canterburyqb
+        
+    Given the following Java code:    
+        
+    .. code-block::    
+        
+        
+           if (x >= 0) {    
+              System.out.println("1");    
+           } else if (x < 20) {    
+              System.out.println("2");    
+           } else {    
+              System.out.println("3");    
+           }    
+           System.out.println("4");    
+        
+    For what integer values of ``x`` will 1 be among the values printed?    
+    
+
+    - x < 0    
+      
+
+      - The first branch of the conditional statement will print "1" for any x value    
+        greater than or equal to 0.
+    - x >= 0    
+      
+
+      + Correct!
+    - x >= 20    
+      
+
+      - The first branch of the conditional statement will print "1" for any x value    
+        greater than or equal to 0.
+    - All values of x    
+      
+
+      - The first branch of the conditional statement will print "1" for any x value    
+        greater than or equal to 0.
+    - None of the above.    
+      
+
+      - The first branch of the conditional statement will print "1" for any x value    
+        greater than or equal to 0.

@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_635111
+    :basecourse: canterburyqb
+        
+    Determine if Java would evaluate the following boolean expression as true or    
+    false, or if there is something (syntactically) wrong with the expression:    
+        
+    ``(!x && !y) && (y && z)``    
+    
+
+    - true    
+      
+
+      - Consider the value of variable `y`, which appears in the expression twice.  If    
+        `y` is false, the right subexpression must also be false, so the overall    
+        expression will be false, because of the semantics of `&&`. Alternatively, if    
+        `y` is true, the left subexpression must be false because of its inclusion of    
+        `!y`, which also causes the overall expression to be false.` `
+    - false    
+      
+
+      + Correct!
+    - syntax error    
+      
+
+      - Consider the value of variable `y`, which appears in the expression twice.  If    
+        `y` is false, the right subexpression must also be false, so the overall    
+        expression will be false, because of the semantics of `&&`. Alternatively, if    
+        `y` is true, the left subexpression must be false because of its inclusion of    
+        `!y`, which also causes the overall expression to be false.` `

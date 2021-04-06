@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_618568
+    :basecourse: canterburyqb
+        
+    Considering the following code, which of the choices are wrong when access to    
+    ID is desired?    
+        
+    class N{    
+        
+    .. code-block::    
+        
+           private int ID;    
+        
+           public void setID(int id){    
+        
+                     >    
+        
+           }    
+        
+           public int getID(){    
+        
+                     return ID;    
+        
+           }    
+        
+        
+    }    
+    
+
+    - if we had the following in class N    
+          
+      N n = new N();    
+          
+      System.out.print(n.ID);    
+      
+
+      - If we had the following in class N    
+            
+        System.out.print(ID);
+    - If we had the following in another class but the same package as N    
+          
+      N n = new N();    
+          
+      System.out.print(n.ID);    
+      
+
+      + Correct!
+    - If we had the following in class N    
+          
+      System.out.print(ID);    
+      
+
+      - If we had the following in class N    
+            
+        System.out.print(ID);
+    - If we had the following in another class but the same package as N    
+          
+      N n = new N();    
+          
+      System.out.print(n.getID());    
+      
+
+      - If we had the following in class N    
+            
+        System.out.print(ID);

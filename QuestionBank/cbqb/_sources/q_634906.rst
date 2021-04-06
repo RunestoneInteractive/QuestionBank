@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_634906
+    :basecourse: canterburyqb
+        
+    Two algorithms accomplish the same task on a collection of N items. Algorithm    
+    A performs (N/2)3 operations. Algorithm B performs N2 operations. Under what    
+    conditions does algorithm A offer strictly better performance?    
+    
+
+    - N <= 7    
+      
+
+      + Correct!
+    - N <= 8    
+      
+
+      - For N <= 7, (N/2)3 < N2.
+    - N > 8    
+      
+
+      - For N <= 7, (N/2)3 < N2.
+    - For all N    
+      
+
+      - For N <= 7, (N/2)3 < N2.
+    - For no N    
+      
+
+      - For N <= 7, (N/2)3 < N2.

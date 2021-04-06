@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632094
+    :basecourse: canterburyqb
+        
+    Which of the following is NOT a fundamental data type in C?    
+    
+
+    - int    
+      
+
+      - A String is not a primitive data type.  It can be thought of as an array of    
+        characters.
+    - float    
+      
+
+      - A String is not a primitive data type.  It can be thought of as an array of    
+        characters.
+    - string    
+      
+
+      + Correct!
+    - short    
+      
+
+      - A String is not a primitive data type.  It can be thought of as an array of    
+        characters.
+    - char    
+      
+
+      - A String is not a primitive data type.  It can be thought of as an array of    
+        characters.

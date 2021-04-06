@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632796
+    :basecourse: canterburyqb
+        
+    After the assignments ``x = 27`` and ``y = 12``\ , what is returned by ``x%y``\ ?    
+    
+
+    - 2    
+      
+
+      - The % operation performs "mod" (modular division), which means "do the    
+        division but return the remainder rather than the quotient".
+    - 2.25    
+      
+
+      - The % operation performs "mod" (modular division), which means "do the    
+        division but return the remainder rather than the quotient".
+    - 3    
+      
+
+      + Correct!
+    - 3.0    
+      
+
+      - The % operation performs "mod" (modular division), which means "do the    
+        division but return the remainder rather than the quotient".
+    - None of the above    
+      
+
+      - The % operation performs "mod" (modular division), which means "do the    
+        division but return the remainder rather than the quotient".

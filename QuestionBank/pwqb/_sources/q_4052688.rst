@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052688
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q2:</strong></p><p>What output would be produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int a, b;</span><br /><span style="font-family: courier new,courier,monospace;">double x, y, z;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">b = 1;</span><br /><span style="font-family: courier new,courier,monospace;">a = 3;</span><br /><span style="font-family: courier new,courier,monospace;">x = 2;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">y = a / x;</span><br /><span style="font-family: courier new,courier,monospace;">z = b / a;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("y = %f, z = %f", y, z);</span></p>
+    
+
+    - ``y = 1.000000, z = 0.333333``    
+      
+
+      - Incorrect
+    - ``y = 0.000000, z = 0.000000``    
+      
+
+      - Incorrect
+    - ``y = 1.500000, z = 0.000000``    
+      
+
+      + Correct!
+    - ``y = 1.500000, z = 0.333333``    
+      
+
+      - Incorrect
+    - ``y = 1.000000, z = 0.000000``    
+      
+
+      - Incorrect

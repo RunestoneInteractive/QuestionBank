@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052865
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q6:</strong><br />Consider the following conditional statement:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">if ((a != b) || (a &lt;= c)) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("Wrong");</span><br /><span style="font-family: courier new, courier, monospace;">} else {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("Right");</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>For which values of a, b and c would "Right" be printed out to the screen?</p>
+    
+
+    - ``int a = 10; int b = 10; int c = 10;``    
+      
+
+      - Incorrect
+    - ``int a = 30; int b = 20; int c = 10;``    
+      
+
+      - Incorrect
+    - ``int a = 20; int b = 10; int c = 10;``    
+      
+
+      - Incorrect
+    - ``int a = 20; int b = 20; int c = 10;``    
+      
+
+      + Correct!
+    - ``int a = 20; int b = 10; int c = 30;``    
+      
+
+      - Incorrect

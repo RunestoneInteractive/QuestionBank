@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_618549
+    :basecourse: canterburyqb
+        
+    What would you put in the blank areas to let the following code read some    
+    integer data from console?    
+        
+    Scanner sc = new Scanner(\ **\ **\ **___**\ **\ **\ );    
+        
+    int intValue ;    
+        
+    while ((intValue = **\ **\ **___**\ **\ **\ )!= -1)    
+        
+    .. code-block::    
+        
+             System.out.println(intValue);    
+    
+
+    - System.in , sc.nextInt()    
+      
+
+      + Correct!
+    - nothing, leave it blank , sc.nextInt()    
+      
+
+      - nothing, leave it blank , sc.hasNextInt()
+    - nothing, leave it blank , sc.hasNextInt()    
+      
+
+      - nothing, leave it blank , sc.hasNextInt()
+    - System.in , sc.hasNextInt()    
+      
+
+      - nothing, leave it blank , sc.hasNextInt()

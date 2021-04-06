@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052754
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q30:</strong></p><p>Which of the following expressions will assign a random 3-digit number (in other words, a random integer between 100 and 999 inclusive) to the variable courseCode? You can assume that the seed for the random number generator has already been set to the current time.</p>
+    
+
+    - courseCode = (rand() % 999) + 100;    
+      
+
+      - Incorrect
+    - courseCode = (rand() % 899) + 100;    
+      
+
+      - Incorrect
+    - courseCode = (rand() % 900) + 100;    
+      
+
+      + Correct!
+    - courseCode = (rand() % 900) + 99;    
+      
+
+      - Incorrect
+    - courseCode = (rand() % 1000) - 100;    
+      
+
+      - Incorrect

@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_629962
+    :basecourse: canterburyqb
+        
+    Suppose you have a Java array of ints. What is the worst-case time complexity    
+    of retrieving a value from a given location in the array?    
+    
+
+    - O(1)    
+      
+
+      + Correct!
+    - O(log n)    
+      
+
+      - Retrieving a value from an array can be done in constant time.
+    - O(n)    
+      
+
+      - Retrieving a value from an array can be done in constant time.
+    - O(n log n)    
+      
+
+      - Retrieving a value from an array can be done in constant time.
+    - O(n2)    
+      
+
+      - Retrieving a value from an array can be done in constant time.

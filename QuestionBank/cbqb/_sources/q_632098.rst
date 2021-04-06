@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_632098
+    :basecourse: canterburyqb
+        
+    Suppose we have an arbitrary number of entries that each includes a key and a    
+    value. We never need to search the entries while the rule for insertion and    
+    removal is first-in-last-out. Which data structure is proper?    
+    
+
+    - one dimensional array    
+      
+
+      - single linked list
+    - two dimensional array    
+      
+
+      - single linked list
+    - single linked list    
+      
+
+      + Correct!
+    - double linked list    
+      
+
+      - single linked list

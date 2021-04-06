@@ -1,0 +1,94 @@
+.. mchoice:: canterburyqb_633218
+    :basecourse: canterburyqb
+        
+    Suppose we're modeling a person with just name and age. The notation    
+    {"Javier", 31} refers to a 31-year-old named Javier. Now, suppose we have this    
+    collection of five people:    
+        
+    {"Lupe", 29}    
+        
+    {"Dean", 29}    
+        
+    {"Lars", 28}    
+        
+    {"Javier", 31}    
+        
+    {"Di", 28}    
+        
+    Which of the following ordered collections is the result of applying a    
+    *stable* sort to this collection, where the sorting criteria orders by age?    
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      {"Javier", 31}\ :raw-html-m2r:`<br>`    
+      {"Dean", 29}\ :raw-html-m2r:`<br>`    
+      {"Lupe", 29}\ :raw-html-m2r:`<br>`    
+      {"Di", 28}\ :raw-html-m2r:`<br>`    
+      {"Lars", 28}    
+      
+
+      - A stable sort preserves the relative order of elements with the same keys.    
+        Thus, Lupe must appear before Dean and Lars must appear before Di. Only the    
+        correct answer maintains this order.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      {"Javier", 31}\ :raw-html-m2r:`<br>`    
+      {"Lupe", 29}\ :raw-html-m2r:`<br>`    
+      {"Dean", 29}\ :raw-html-m2r:`<br>`    
+      {"Lars", 28}\ :raw-html-m2r:`<br>`    
+      {"Di", 28}    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      {"Lars", 28}\ :raw-html-m2r:`<br>`    
+      {"Di", 28}    
+          
+      {"Dean", 29}    
+          
+      {"Lupe", 29}\ :raw-html-m2r:`<br>`    
+      {"Javier", 31}    
+      
+
+      - A stable sort preserves the relative order of elements with the same keys.    
+        Thus, Lupe must appear before Dean and Lars must appear before Di. Only the    
+        correct answer maintains this order.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      {"Lars", 28}\ :raw-html-m2r:`<br>`    
+      {"Di", 28}\ :raw-html-m2r:`<br>`    
+      {"Dean", 29}    
+          
+      {"Lupe", 29}\ :raw-html-m2r:`<br>`    
+      {"Javier", 31}    
+      
+
+      - A stable sort preserves the relative order of elements with the same keys.    
+        Thus, Lupe must appear before Dean and Lars must appear before Di. Only the    
+        correct answer maintains this order.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      {"Di", 28}    
+          
+      {"Lars", 28}\ :raw-html-m2r:`<br>`    
+      {"Dean", 29}    
+          
+      {"Lupe", 29}\ :raw-html-m2r:`<br>`    
+      {"Javier", 31}    
+      
+
+      - A stable sort preserves the relative order of elements with the same keys.    
+        Thus, Lupe must appear before Dean and Lars must appear before Di. Only the    
+        correct answer maintains this order.

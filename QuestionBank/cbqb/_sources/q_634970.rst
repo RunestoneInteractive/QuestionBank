@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_634970
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    What algorithm does _mystery  _implement, when a list of values is passed in    
+    as its argument?    
+        
+    def mystery (listOfVals):\ :raw-html-m2r:`<br>`    
+        current = 1\ :raw-html-m2r:`<br>`    
+        while (current < len(listOfVals)):\ :raw-html-m2r:`<br>`    
+            pivot = listOfVals[current]\ :raw-html-m2r:`<br>`    
+            underExam = current - 1\ :raw-html-m2r:`<br>`    
+            while ((underExam >= 0) and (listOfVals[underExam] > pivot)):\ :raw-html-m2r:`<br>`    
+                listOfVals[underExam+1] = listOfVals[underExam]\ :raw-html-m2r:`<br>`    
+                underExam = underExam - 1\ :raw-html-m2r:`<br>`    
+            listOfVals[underExam+1] = pivot\ :raw-html-m2r:`<br>`    
+            current = current + 1\ :raw-html-m2r:`<br>`    
+        return (listOfVals)    
+    
+
+    - Insertion Sort    
+      
+
+      + Correct!
+    - Quicksort    
+      
+
+      - This is a classic implementation of Insertion Sort.  Each item in the list is    
+        repeatedly _inserted_ into its correct spot in the portion of the list already    
+        sorted.
+    - Selection Sort    
+      
+
+      - This is a classic implementation of Insertion Sort.  Each item in the list is    
+        repeatedly _inserted_ into its correct spot in the portion of the list already    
+        sorted.
+    - List Reverser    
+      
+
+      - This is a classic implementation of Insertion Sort.  Each item in the list is    
+        repeatedly _inserted_ into its correct spot in the portion of the list already    
+        sorted.
+    - Bubble Sort    
+      
+
+      - This is a classic implementation of Insertion Sort.  Each item in the list is    
+        repeatedly _inserted_ into its correct spot in the portion of the list already    
+        sorted.

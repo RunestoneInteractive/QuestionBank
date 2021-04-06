@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_635042
+    :basecourse: canterburyqb
+        
+    The *scope* of a variable in Java is:    
+    
+
+    - The thing that allows it to see other variables;    
+      
+
+      - The scope of a variable is the part of the program in which that variable can    
+        be referred to by its name.  A private instance variable in a class    
+        definition, for example, can only be referred to within that class definition.
+    - The other variables that it can interact with    
+      
+
+      - The scope of a variable is the part of the program in which that variable can    
+        be referred to by its name.  A private instance variable in a class    
+        definition, for example, can only be referred to within that class definition.
+    - The part of the program in which it can be used    
+      
+
+      + Correct!
+    - One of its instance variables    
+      
+
+      - The scope of a variable is the part of the program in which that variable can    
+        be referred to by its name.  A private instance variable in a class    
+        definition, for example, can only be referred to within that class definition.
+    - None of the above    
+      
+
+      - The scope of a variable is the part of the program in which that variable can    
+        be referred to by its name.  A private instance variable in a class    
+        definition, for example, can only be referred to within that class definition.

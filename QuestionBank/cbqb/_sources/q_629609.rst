@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_629609
+    :basecourse: canterburyqb
+        
+    Suppose you're on a project that is writing a large program. One of the    
+    programmers is implementing a ``Clock`` class; the other programmers are writing    
+    classes that will use the ``Clock`` class. Which of the following aspects of the    
+    ``public`` methods of the ``Clock`` class do **not** need to be known by both the    
+    author of the ``Clock`` class and the programmers who are using the ``Clock``    
+    class?    
+    
+
+    - The methods' names    
+      
+
+      - This question addresses the principle of encapsulation. All these items must    
+        be known to the author of the `Clock` class. In order to use the class, the    
+        other programmers must know what the methods do, and must know their names,    
+        parameter types, and return values. The method bodies, on the other hand, are    
+        hidden from the users.
+    - The methods' return types    
+      
+
+      - This question addresses the principle of encapsulation. All these items must    
+        be known to the author of the `Clock` class. In order to use the class, the    
+        other programmers must know what the methods do, and must know their names,    
+        parameter types, and return values. The method bodies, on the other hand, are    
+        hidden from the users.
+    - The methods' parameter types    
+      
+
+      - This question addresses the principle of encapsulation. All these items must    
+        be known to the author of the `Clock` class. In order to use the class, the    
+        other programmers must know what the methods do, and must know their names,    
+        parameter types, and return values. The method bodies, on the other hand, are    
+        hidden from the users.
+    - The method bodies    
+      
+
+      + Correct!
+    - What the methods do    
+      
+
+      - This question addresses the principle of encapsulation. All these items must    
+        be known to the author of the `Clock` class. In order to use the class, the    
+        other programmers must know what the methods do, and must know their names,    
+        parameter types, and return values. The method bodies, on the other hand, are    
+        hidden from the users.

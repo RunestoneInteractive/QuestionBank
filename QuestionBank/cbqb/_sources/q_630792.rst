@@ -1,0 +1,77 @@
+.. mchoice:: canterburyqb_630792
+    :basecourse: canterburyqb
+        
+    Consider the following class definition:    
+        
+    .. code-block::    
+        
+        
+           import java.util.Scanner; // 1    
+        
+           public class SillyClass2 { // 2    
+              private int num, totalRed, totalBlack; // 3    
+              public SillyClass2 () { // 4    
+                 num = 0; // 5    
+                 totalRed = 0; // 6    
+                 totalBlack = 0; // 7    
+                 this.spinWheel(); // 8    
+                 System.out.print("Black: " + totalBlack); // 9    
+                 System.out.println(" and red: " + totalRed); // 10    
+              } // 11    
+        
+    ``public void spinWheel () { // 12``    
+        
+    .. code-block::    
+        
+        
+                 Scanner kbd = new Scanner(System.in); // 13    
+                 System.out.println("Enter 1 or 0, -1 to quit."); // 14    
+                 num = kbd.nextInt(); // 15    
+                 while (num >= 0) { // 16    
+                    if (num == 0) // 17    
+                       totalRed++; // 18    
+                    else if (num == 1) // 19    
+                       totalBlack++; // 20    
+                    else System.out.println("Try again"); // 21    
+                    System.out.println("Enter 1 or 0, -1 to quit)."); // 22    
+                    num = kbd.nextInt(); // 23    
+                 } // 24    
+                 System.out.println("Thanks for playing."); // 25    
+              } // 26    
+           } // 27    
+        
+    Which sequence of inputs will cause line 21 to be executed?    
+    
+
+    - -1    
+      
+
+      - Answers A, B, C, and E are incorrect because they contain no inputs greater    
+        than 1. Answer D does contain an input greater than 1, and that input is after    
+        a 0 (which causes the loop to be entered) and before the -1 (which causes the    
+        loop to be exited).
+    - 0   1   -1    
+      
+
+      - Answers A, B, C, and E are incorrect because they contain no inputs greater    
+        than 1. Answer D does contain an input greater than 1, and that input is after    
+        a 0 (which causes the loop to be entered) and before the -1 (which causes the    
+        loop to be exited).
+    - 0   1   1   0   -1    
+      
+
+      - Answers A, B, C, and E are incorrect because they contain no inputs greater    
+        than 1. Answer D does contain an input greater than 1, and that input is after    
+        a 0 (which causes the loop to be entered) and before the -1 (which causes the    
+        loop to be exited).
+    - 0   1   2   1   -1    
+      
+
+      + Correct!
+    - 1   1   1   0   -1    
+      
+
+      - Answers A, B, C, and E are incorrect because they contain no inputs greater    
+        than 1. Answer D does contain an input greater than 1, and that input is after    
+        a 0 (which causes the loop to be entered) and before the -1 (which causes the    
+        loop to be exited).

@@ -1,0 +1,289 @@
+.. mchoice:: canterburyqb_618636
+    :basecourse: canterburyqb
+        
+    If the following hierarchy of exception is defined by a user, which option is    
+    the correct order of catching these exceptions?    
+        
+    class firstLevelException extends Exception{}    
+        
+    class secondLevelException_1 extends firstLevelException{}    
+        
+    class secondLevelException_2 extends firstLevelException{}    
+        
+    class thirdLevelException extends secondLevelException_1{}    
+    
+
+    - A.    
+          
+      try{    
+          
+      .. code-block::    
+          
+          //code was removed    
+          
+          
+      }    
+          
+      catch (firstLevelException e){    
+          
+      .. code-block::    
+          
+           e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_1 e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_2 e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (thirdLevelException e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+      
+
+      - try{    
+            
+             //code was removed    
+            
+        }    
+            
+        catch (firstLevelException e){    
+            
+             e.printStackTrace();    
+            
+        }    
+            
+        catch (secondLevelException_2 e){    
+            
+             e.printStackTrace();    
+            
+        }    
+            
+        catch (secondLevelException_1 e){    
+            
+              e.printStackTrace();    
+            
+        }    
+            
+        catch (thirdLevelException e){    
+            
+             e.printStackTrace();    
+            
+        }
+    - try{    
+          
+      .. code-block::    
+          
+          //code was removed    
+          
+          
+      }    
+          
+      catch (thirdLevelException e){    
+          
+      .. code-block::    
+          
+           e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_1 e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_2 e){    
+          
+      .. code-block::    
+          
+           e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (firstLevelException e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+      
+
+      + Correct!
+    - try{    
+          
+      .. code-block::    
+          
+          //code was removed    
+          
+          
+      }    
+          
+      catch (firstLevelException e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_2 e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_1 e){    
+          
+      .. code-block::    
+          
+           e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (thirdLevelException e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+      
+
+      - try{    
+            
+             //code was removed    
+            
+        }    
+            
+        catch (firstLevelException e){    
+            
+             e.printStackTrace();    
+            
+        }    
+            
+        catch (secondLevelException_2 e){    
+            
+             e.printStackTrace();    
+            
+        }    
+            
+        catch (secondLevelException_1 e){    
+            
+              e.printStackTrace();    
+            
+        }    
+            
+        catch (thirdLevelException e){    
+            
+             e.printStackTrace();    
+            
+        }
+    - try{    
+          
+      .. code-block::    
+          
+          //code was removed    
+          
+          
+      }    
+          
+      catch (thirdLevelException e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (firstLevelException e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_2 e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+          
+      catch (secondLevelException_1 e){    
+          
+      .. code-block::    
+          
+          e.printStackTrace();    
+          
+          
+      }    
+      
+
+      - try{    
+            
+             //code was removed    
+            
+        }    
+            
+        catch (firstLevelException e){    
+            
+             e.printStackTrace();    
+            
+        }    
+            
+        catch (secondLevelException_2 e){    
+            
+             e.printStackTrace();    
+            
+        }    
+            
+        catch (secondLevelException_1 e){    
+            
+              e.printStackTrace();    
+            
+        }    
+            
+        catch (thirdLevelException e){    
+            
+             e.printStackTrace();    
+            
+        }

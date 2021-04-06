@@ -1,0 +1,78 @@
+.. mchoice:: canterburyqb_634975
+    :basecourse: canterburyqb
+        
+    Suppose you are using a library implementation of a LinkedList.  You have only    
+    the compiled binary version of the code, but not the source code.  You want to    
+    know if the runtime complexity of the size() method is O(1).  (i.e. you want    
+    to know if the library stores the size, or if it counts each node every time    
+    size() is invoked).    
+        
+    Which approach(es) would tell you if the size() method is O(1)?    
+    
+
+    - Insert one element and time how long the size method takes; compare this to    
+      how long the size method takes if you had inserted 100 elements. O(1) means    
+      they should be about equal.    
+      
+
+      - A won't work because most of what you are timing is the JVM starting up and    
+        shutting down.  In fact, just checking the time elapsed may require as many    
+        machine instructions as checking the size of a linked list of size 1.    
+            
+        C is also unlikely to work.  Suppose each element is a single int, which is 4    
+        bytes (this is a lower-bound on things you can put in a collection). A billion    
+        elements is 4 billion bytes. A gigabyte is a little more than a billion bytes,    
+        so this likely fills most of your RAM (about 4GB for many laptops and desktops    
+        in 2013). 10 billion elements is about 37 GB, which will fill the memory of    
+        all but the biggest machines available. You will be timing the garbage    
+        collector and memory allocator algorithms, not the size() method.
+    - Insert a million elements and time how long the size method takes; compare    
+      this to how long the size method takes if you had inserted 10 million    
+      elements. O(1) means they should be about equal.    
+      
+
+      + Correct!
+    - Insert 10 billion elements and time how long the size method takes; compare    
+      this to how long the size method takes if you had inserted 100 billion    
+      elements. O(1) means they should be about equal.    
+      
+
+      - A won't work because most of what you are timing is the JVM starting up and    
+        shutting down.  In fact, just checking the time elapsed may require as many    
+        machine instructions as checking the size of a linked list of size 1.    
+            
+        C is also unlikely to work.  Suppose each element is a single int, which is 4    
+        bytes (this is a lower-bound on things you can put in a collection). A billion    
+        elements is 4 billion bytes. A gigabyte is a little more than a billion bytes,    
+        so this likely fills most of your RAM (about 4GB for many laptops and desktops    
+        in 2013). 10 billion elements is about 37 GB, which will fill the memory of    
+        all but the biggest machines available. You will be timing the garbage    
+        collector and memory allocator algorithms, not the size() method.
+    - B and C both work    
+      
+
+      - A won't work because most of what you are timing is the JVM starting up and    
+        shutting down.  In fact, just checking the time elapsed may require as many    
+        machine instructions as checking the size of a linked list of size 1.    
+            
+        C is also unlikely to work.  Suppose each element is a single int, which is 4    
+        bytes (this is a lower-bound on things you can put in a collection). A billion    
+        elements is 4 billion bytes. A gigabyte is a little more than a billion bytes,    
+        so this likely fills most of your RAM (about 4GB for many laptops and desktops    
+        in 2013). 10 billion elements is about 37 GB, which will fill the memory of    
+        all but the biggest machines available. You will be timing the garbage    
+        collector and memory allocator algorithms, not the size() method.
+    - All 3 will work    
+      
+
+      - A won't work because most of what you are timing is the JVM starting up and    
+        shutting down.  In fact, just checking the time elapsed may require as many    
+        machine instructions as checking the size of a linked list of size 1.    
+            
+        C is also unlikely to work.  Suppose each element is a single int, which is 4    
+        bytes (this is a lower-bound on things you can put in a collection). A billion    
+        elements is 4 billion bytes. A gigabyte is a little more than a billion bytes,    
+        so this likely fills most of your RAM (about 4GB for many laptops and desktops    
+        in 2013). 10 billion elements is about 37 GB, which will fill the memory of    
+        all but the biggest machines available. You will be timing the garbage    
+        collector and memory allocator algorithms, not the size() method.

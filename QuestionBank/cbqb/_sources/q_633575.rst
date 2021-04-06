@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633575
+    :basecourse: canterburyqb
+        
+    You see the expression ``n = null`` in code that successfully compiles. Which is    
+    not a legal type of ``n``\ ?    
+    
+
+    - Integer    
+      
+
+      - Boolean's can only be true or false.
+    - String    
+      
+
+      - Boolean's can only be true or false.
+    - Object    
+      
+
+      - Boolean's can only be true or false.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ArrayList\ :raw-html-m2r:`<String>`    
+      
+
+      - Boolean's can only be true or false.
+    - boolean    
+      
+
+      + Correct!

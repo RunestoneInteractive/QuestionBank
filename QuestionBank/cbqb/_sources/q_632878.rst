@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_632878
+    :basecourse: canterburyqb
+        
+    We say indexing is fast if it's done in O(1) time, searching is fast if done    
+    in O(lg N) time, and inserting and deleting are fast if done in O(1) time.    
+    Compared to other data structures, sorted arrays offer:    
+    
+
+    - slow indexing, slow search, slow insertions and deletions.    
+      
+
+      - Sorted arrays can be indexed in constant time (which is fast), searched in    
+        O(lg N) time (which is fast), and restructured in O(N) time (which is not as    
+        good as O(1) time).
+    - fast indexing, fast search, slow insertions and deletions.    
+      
+
+      + Correct!
+    - fast indexing, slow search, slow insertions and deletions.    
+      
+
+      - Sorted arrays can be indexed in constant time (which is fast), searched in    
+        O(lg N) time (which is fast), and restructured in O(N) time (which is not as    
+        good as O(1) time).
+    - slow indexing, slow search, fast insertions and deletions.    
+      
+
+      - Sorted arrays can be indexed in constant time (which is fast), searched in    
+        O(lg N) time (which is fast), and restructured in O(N) time (which is not as    
+        good as O(1) time).
+    - slow indexing, fast search, fast insertions and deletions.    
+      
+
+      - Sorted arrays can be indexed in constant time (which is fast), searched in    
+        O(lg N) time (which is fast), and restructured in O(N) time (which is not as    
+        good as O(1) time).

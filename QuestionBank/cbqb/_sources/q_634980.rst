@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_634980
+    :basecourse: canterburyqb
+        
+    Which of the following statements about binary search algorithms is FALSE?    
+    
+
+    - The data must be sorted.    
+      
+
+      - Binary search takes ![](img/20.png)(log n) time, worst case.
+    - There must be a mechanism to access elements in the middle of the data    
+      structure.    
+      
+
+      - Binary search takes ![](img/20.png)(log n) time, worst case.
+    - Binary search is inefficient when performed on a linked list.    
+      
+
+      - Binary search takes ![](img/20.png)(log n) time, worst case.
+    - Binary search can be implemented to take     
+      .. image:: img/19.png    
+         :target: img/19.png    
+         :alt:     
+      (n) time in the worst    
+      case.    
+      
+
+      + Correct!

@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_634954
+    :basecourse: canterburyqb
+        
+    The worst-case time complexity of insertion sort is:    
+    
+
+    - O(1)    
+      
+
+      - Consider the case where the data are in reverse order. You will need to    
+        compare element 2 with element 1 and swap them; then compare element 3 with    
+        elements 1 and 2, shift elements 1 and 2 over, and insert element 3 in the    
+        first position, and so on. Each element will be compared with all of the    
+        elements before it, resulting in a total of n(n-1)/2 comparisons.
+    - O(n)    
+      
+
+      - Consider the case where the data are in reverse order. You will need to    
+        compare element 2 with element 1 and swap them; then compare element 3 with    
+        elements 1 and 2, shift elements 1 and 2 over, and insert element 3 in the    
+        first position, and so on. Each element will be compared with all of the    
+        elements before it, resulting in a total of n(n-1)/2 comparisons.
+    - O(n log n)    
+      
+
+      - Consider the case where the data are in reverse order. You will need to    
+        compare element 2 with element 1 and swap them; then compare element 3 with    
+        elements 1 and 2, shift elements 1 and 2 over, and insert element 3 in the    
+        first position, and so on. Each element will be compared with all of the    
+        elements before it, resulting in a total of n(n-1)/2 comparisons.
+    - O(n2)    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - Consider the case where the data are in reverse order. You will need to    
+        compare element 2 with element 1 and swap them; then compare element 3 with    
+        elements 1 and 2, shift elements 1 and 2 over, and insert element 3 in the    
+        first position, and so on. Each element will be compared with all of the    
+        elements before it, resulting in a total of n(n-1)/2 comparisons.

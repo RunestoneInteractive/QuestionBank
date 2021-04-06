@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_633266
+    :basecourse: canterburyqb
+        
+    Two algorithms accomplish the same task on a collection of N items. Algorithm    
+    A performs N/2 operations. Algorithm B performs N log N operations. Under what    
+    conditions does algorithm A offer better performance?    
+    
+
+    - N <= 4    
+      
+
+      - For all legal collection sizes, N/2 < N log N.
+    - N > 8    
+      
+
+      - For all legal collection sizes, N/2 < N log N.
+    - N > 2    
+      
+
+      - For all legal collection sizes, N/2 < N log N.
+    - For all N.    
+      
+
+      + Correct!
+    - For no N.    
+      
+
+      - For all legal collection sizes, N/2 < N log N.

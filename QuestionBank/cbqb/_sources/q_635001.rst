@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_635001
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following function. What does it return?    
+        
+    public boolean nameTester(String inValue) {\ :raw-html-m2r:`<br>`    
+        String oldValue = "mikeyg";\ :raw-html-m2r:`<br>`    
+        return (inValue == oldValue);\ :raw-html-m2r:`<br>`    
+    }    
+    
+
+    - True, regardless of the value of *inValue*    
+      
+
+      - The == (equality operator) for objects (strings are objects in Java) returns    
+        True when both operands refer to the same object.  In this case, there are two    
+        distinct objects, who might contain the same value ("mikeyg").
+    - False, regardless of the value of *inValue*    
+      
+
+      + Correct!
+    - It depends.  If inValue is assigned the value "mikeyg," then True; otherwise    
+      False.    
+      
+
+      - The == (equality operator) for objects (strings are objects in Java) returns    
+        True when both operands refer to the same object.  In this case, there are two    
+        distinct objects, who might contain the same value ("mikeyg").

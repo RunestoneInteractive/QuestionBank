@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_634982
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/15.png    
+       :target: img/15.png    
+       :alt: no description    
+        
+        
+    The above instance (or Object) diagram represents:    
+    
+
+    - A collection of Car and Node objects    
+      
+
+      - The diagram represents a Stack whose top element is a blue Car.   It includes    
+        a Node list, and a number of Node and Car objects, but the whole picture    
+        represents a Stack.
+    - A Node list    
+      
+
+      - The diagram represents a Stack whose top element is a blue Car.   It includes    
+        a Node list, and a number of Node and Car objects, but the whole picture    
+        represents a Stack.
+    - A Stack with a blue Car on top    
+      
+
+      + Correct!
+    - A Stack with a red Car on top    
+      
+
+      - The diagram represents a Stack whose top element is a blue Car.   It includes    
+        a Node list, and a number of Node and Car objects, but the whole picture    
+        represents a Stack.
+    - None of the above    
+      
+
+      - The diagram represents a Stack whose top element is a blue Car.   It includes    
+        a Node list, and a number of Node and Car objects, but the whole picture    
+        represents a Stack.

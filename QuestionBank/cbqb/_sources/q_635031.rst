@@ -1,0 +1,56 @@
+.. mchoice:: canterburyqb_635031
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1.  import java.util.ArrayList;    
+       2.  public BallPanel extends javax.swing.JPanel {    
+       3.     private ArrayList <Ball> _moreBalls;    
+       4.     public BallPanel(int numberOfBalls){    
+       5.        _moreBalls = new ArrayList<Ball>();    
+       6.        for (int i=0;i<numberOfBalls;i++)    
+       7.           _moreBalls.add(new Ball());    
+       8.     }    
+       9.  }    
+        
+        
+    ```    
+        
+    What is the value of _moreBalls.size() immediately after lines 4 and 6    
+    (respectively) if we invoke the BallPanel constructor?    
+    
+
+    - ``0, numberOfBalls``    
+      
+
+      + Correct!
+    - ``numberOfBalls, numberOfBalls``    
+      
+
+      - A is correct.  When you instantiate an ArrayList (in line 4) its size (the    
+        number of elements in the ArrayList) is zero because you haven't added any    
+        elements;  lines 5 and 6 add numberOfBalls elements to the ArrayList, so after    
+        that the size is numberOfBalls.
+    - ``i, numberOfBalls``    
+      
+
+      - A is correct.  When you instantiate an ArrayList (in line 4) its size (the    
+        number of elements in the ArrayList) is zero because you haven't added any    
+        elements;  lines 5 and 6 add numberOfBalls elements to the ArrayList, so after    
+        that the size is numberOfBalls.
+    - ``0, numberOfBalls - 1``    
+      
+
+      - A is correct.  When you instantiate an ArrayList (in line 4) its size (the    
+        number of elements in the ArrayList) is zero because you haven't added any    
+        elements;  lines 5 and 6 add numberOfBalls elements to the ArrayList, so after    
+        that the size is numberOfBalls.
+    - ``_moreBalls.size()`` is undefined    
+      
+
+      - A is correct.  When you instantiate an ArrayList (in line 4) its size (the    
+        number of elements in the ArrayList) is zero because you haven't added any    
+        elements;  lines 5 and 6 add numberOfBalls elements to the ArrayList, so after    
+        that the size is numberOfBalls.

@@ -1,0 +1,178 @@
+.. mchoice:: canterburyqb_618563
+    :basecourse: canterburyqb
+        
+    Depending on which delimiter is used in the following code, which output will    
+    be resulted respectively?    
+        
+    String input = "Keep your friends close and your enemies closer";    
+        
+    Scanner sc\ *input = new Scanner(input).useDelimiter("\ **\ **\ **__**\ **\ **\ *\ ");    
+        
+    while (sc_input.hasNext())    
+        
+    .. code-block::    
+        
+         System.out.println(sc_input.next());    
+        
+        
+    sc_input.close();    
+        
+    I.    \\s*close\\s    
+        
+    II.    \\s\ *close\\s*    
+        
+    III.   \\s*close    
+    
+
+    - I.    
+          
+      Keep your friends    
+          
+      and your enemies closer    
+          
+      II.    
+          
+      Keep your friends    
+          
+      and your enemies closer    
+          
+      III.    
+          
+      Keep your friends    
+          
+      and your enemies    
+          
+      r    
+      
+
+      - I.    
+            
+        Keep your friends    
+            
+        and your enemies closer    
+            
+        II.    
+            
+        Keep your friends    
+            
+        and your enemies    
+            
+        r    
+            
+        III.    
+            
+        Keep your friends    
+            
+        and your enemies    
+            
+        r
+    - I.    
+          
+      Keep your friends    
+          
+      and your enemies closer    
+          
+      II.    
+          
+      Keep your friends    
+          
+      and your enemies    
+          
+      r    
+          
+      III.    
+          
+      Keep your friends    
+          
+      and your enemies    
+          
+      r    
+      
+
+      - I.    
+            
+        Keep your friends    
+            
+        and your enemies closer    
+            
+        II.    
+            
+        Keep your friends    
+            
+        and your enemies    
+            
+        r    
+            
+        III.    
+            
+        Keep your friends    
+            
+        and your enemies    
+            
+        r
+    - I.    
+          
+      Keep your friends    
+          
+      and your enemies closer    
+          
+      II.    
+          
+      Keep your friends    
+          
+      and your enemies    
+          
+      r    
+          
+      III.    
+          
+      Keep your friends    
+          
+      and your enemies    
+          
+      r    
+      
+
+      + Correct!
+    - I.    
+          
+      Keep your friends    
+          
+      and your enemies closer    
+          
+      II.    
+          
+      Keep your friends    
+          
+      and your enemies closer    
+          
+      III.    
+          
+      Keep your friends    
+          
+      and your enemies    
+          
+      r    
+      
+
+      - I.    
+            
+        Keep your friends    
+            
+        and your enemies closer    
+            
+        II.    
+            
+        Keep your friends    
+            
+        and your enemies    
+            
+        r    
+            
+        III.    
+            
+        Keep your friends    
+            
+        and your enemies    
+            
+        r

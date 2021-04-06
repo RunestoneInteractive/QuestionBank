@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052709
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q11:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i, j;</span><br /><span style="font-family: courier new,courier,monospace;">int count = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 4; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (j = 0; j &lt; i; j++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count++;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Loop executed %d times", count);</span></p>
+    
+
+    - Loop executed 7 times    
+      
+
+      - Incorrect
+    - Loop executed 6 times    
+      
+
+      + Correct!
+    - Loop executed 9 times    
+      
+
+      - Incorrect
+    - Loop executed 8 times    
+      
+
+      - Incorrect
+    - Loop executed 10 times    
+      
+
+      - Incorrect

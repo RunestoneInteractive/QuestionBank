@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052738
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q14:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int containers[5] = {0, 0, 0, 0, 0};</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int startIndex = 3;</span></p><p><span style="font-family: courier new,courier,monospace;">containers[startIndex]++;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = %d %d", startIndex, containers[startIndex]);</span></p>
+    
+
+    - Result = 4 0    
+      
+
+      - Incorrect
+    - Result = 3 1    
+      
+
+      + Correct!
+    - Result = 4 1    
+      
+
+      - Incorrect
+    - Result = 1 4    
+      
+
+      - Incorrect
+    - Result = 3 0    
+      
+
+      - Incorrect

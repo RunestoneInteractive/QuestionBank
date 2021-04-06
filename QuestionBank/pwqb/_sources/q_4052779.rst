@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052779
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q5:</strong></p><p>What output is produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int low = 1;</span><br /><span style="font-family: courier new, courier, monospace;">int high = 6;</span><br /><span style="font-family: courier new, courier, monospace;">int evens = 1;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int sum = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">for (int i = low; i &lt;= high; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; if (i % 2 == 1-evens) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = sum + i;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result = %d", sum);</span></p>
+    
+
+    - Result = 21    
+      
+
+      - Incorrect
+    - Result = 9    
+      
+
+      - Incorrect
+    - Result = 6    
+      
+
+      - Incorrect
+    - Result = 17    
+      
+
+      - Incorrect
+    - Result = 12    
+      
+
+      + Correct!

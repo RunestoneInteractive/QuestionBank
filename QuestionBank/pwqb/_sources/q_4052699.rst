@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052699
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q21:</strong></p><p>The function called PositionInArray() takes three inputs: a value to search for, an array of integers in which to search, and the number of elements in the array. The PositionInArray() function is then supposed to return the index position of the first occurrence of the value in the array. If the value is not in the array, then the function should return -1. The following example shows this function being called to search for the value 5 in an array of length 10:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int result;</span><br /><span style="font-family: courier new,courier,monospace;">int values[10] = {3, 1, 5, 6, 7, 9, 5, 2, 4, 5};</span><br /><span style="font-family: courier new,courier,monospace;">result = PositionInArray(5, values, 10);</span><br /><span style="font-family: courier new,courier,monospace;">printf("Position of 5 in array is: %d \n", result);</span></p><p>&nbsp;</p><p><strong>However, the function implementation shown below may have errors.</strong> You need to determine what value would actually be returned by the PositionInArray() function. What would be printed after searching for the value 5 in the array {3, 1, 5, 6, 7, 9, 5, 2, 4, 5} using the following definition of the PositionInArray() function?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int PositionInArray(int toFind, int values[], int numValues)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i = 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int pos = -1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; while (i &lt; numValues) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (toFind == values[i]) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pos = i;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pos = -1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return pos;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Position of 5 in array is: 9    
+      
+
+      + Correct!
+    - Position of 5 in array is: 2    
+      
+
+      - Incorrect
+    - Position of 5 in array is: 6    
+      
+
+      - Incorrect
+    - Position of 5 in array is: 3    
+      
+
+      - Incorrect
+    - Position of 5 in array is: -1    
+      
+
+      - Incorrect

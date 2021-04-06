@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_633602
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           int outer=0;    
+           for (int i=0; i<12; i++) {    
+              if (i % 2 == 0) {    
+                 outer++;    
+              }    
+           }    
+           System.out.println(outer);    
+    
+
+    - 12    
+      
+
+      - i % 2 == 0 is true only when i is 0.  This loop counts the number of even    
+        values between 0 and 12, exclusive (because the loop body doesn't execute when    
+        i is 12, the loop ends instead).  In this case the result is 6 (0, 2, 4, 6, 8,    
+        10).
+    - 6    
+      
+
+      + Correct!
+    - 3    
+      
+
+      - i % 2 == 0 is true only when i is 0.  This loop counts the number of even    
+        values between 0 and 12, exclusive (because the loop body doesn't execute when    
+        i is 12, the loop ends instead).  In this case the result is 6 (0, 2, 4, 6, 8,    
+        10).
+    - 1    
+      
+
+      - i % 2 == 0 is true only when i is 0.  This loop counts the number of even    
+        values between 0 and 12, exclusive (because the loop body doesn't execute when    
+        i is 12, the loop ends instead).  In this case the result is 6 (0, 2, 4, 6, 8,    
+        10).
+    - 0    
+      
+
+      - i % 2 == 0 is true only when i is 0.  This loop counts the number of even    
+        values between 0 and 12, exclusive (because the loop body doesn't execute when    
+        i is 12, the loop ends instead).  In this case the result is 6 (0, 2, 4, 6, 8,    
+        10).

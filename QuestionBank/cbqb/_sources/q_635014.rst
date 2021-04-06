@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_635014
+    :basecourse: canterburyqb
+        
+    Consider the struct:    
+        
+    ``struct book{``    
+        
+    .. code-block::    
+        
+        
+               char title[50];    
+               int isbn;    
+           };    
+        
+    Assuming no address padding, what will ``sizeof(struct book)`` return?    
+    
+
+    - 12    
+      
+
+      - sizeof(the array) + sizeof(the int) = 50 + 4.
+    - 54    
+      
+
+      + Correct!
+    - 50    
+      
+
+      - sizeof(the array) + sizeof(the int) = 50 + 4.
+    - 204    
+      
+
+      - sizeof(the array) + sizeof(the int) = 50 + 4.
+    - 8    
+      
+
+      - sizeof(the array) + sizeof(the int) = 50 + 4.

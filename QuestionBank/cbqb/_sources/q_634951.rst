@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_634951
+    :basecourse: canterburyqb
+        
+    You don't know exactly how much data you need to store, but there's not much    
+    of it. You'd like to not allocate any memory that won't be used. You do not    
+    need to be able to search the collection quickly. What is the simplest data    
+    structure that best suits for your needs?    
+    
+
+    - Unordered array    
+      
+
+      - Since arrays must be allocated before they are used, we tend to overallocate    
+        to make sure we have sufficient capacity. This wastes space. If we're not    
+        exactly sure of how much storage we need and without a need for fast    
+        searching, a linked list is a good choice.
+    - Ordered array    
+      
+
+      - Since arrays must be allocated before they are used, we tend to overallocate    
+        to make sure we have sufficient capacity. This wastes space. If we're not    
+        exactly sure of how much storage we need and without a need for fast    
+        searching, a linked list is a good choice.
+    - Linked list    
+      
+
+      + Correct!
+    - Hashtable    
+      
+
+      - Since arrays must be allocated before they are used, we tend to overallocate    
+        to make sure we have sufficient capacity. This wastes space. If we're not    
+        exactly sure of how much storage we need and without a need for fast    
+        searching, a linked list is a good choice.
+    - Binary search tree    
+      
+
+      - Since arrays must be allocated before they are used, we tend to overallocate    
+        to make sure we have sufficient capacity. This wastes space. If we're not    
+        exactly sure of how much storage we need and without a need for fast    
+        searching, a linked list is a good choice.

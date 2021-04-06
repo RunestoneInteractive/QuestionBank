@@ -1,0 +1,66 @@
+.. mchoice:: canterburyqb_635010
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    What value will this code print out on a 64-bit Linux machine with gcc?    
+        
+    .. code-block::    
+        
+        
+           int main    
+           {    
+               int key = get_key("zflsbi-k#gk!2*8jc5r:/bb&fc:j\x42\x20\x46\x4e");    
+               printf("%d\n", key);    
+           }    
+        
+           int get_key(char *bar)    
+           {    
+        
+    :raw-html-m2r:`<code class="docutils literal"><span class="pre">// PRE: bar is != NULL&#96;&#96;      
+        // POST: key is a happy number!</span></code>`    
+        
+    ``assert(bar);``    
+        
+    ``int key = 10;``    
+        
+    .. code-block::    
+        
+        
+               char c[28];    
+               memcpy(c, bar, strlen(bar));    
+        
+    ``assert(key <= INT_MAX && key > INT_MIN);``    
+        
+    .. code-block::    
+        
+        
+               return key;    
+           }    
+    
+
+    - The code will not run; the asserts will trigger    
+      
+
+      - There's a stack buffer overflow due to the memcpy, so the method will return    
+        0x4e462042 (Little Endian); in decimal that is 1313218626.
+    - 10    
+      
+
+      - There's a stack buffer overflow due to the memcpy, so the method will return    
+        0x4e462042 (Little Endian); in decimal that is 1313218626.
+    - 1109411406    
+      
+
+      - There's a stack buffer overflow due to the memcpy, so the method will return    
+        0x4e462042 (Little Endian); in decimal that is 1313218626.
+    - 1313218626    
+      
+
+      + Correct!
+    - 3831759396    
+      
+
+      - There's a stack buffer overflow due to the memcpy, so the method will return    
+        0x4e462042 (Little Endian); in decimal that is 1313218626.

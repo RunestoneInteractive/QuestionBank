@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_632116
+    :basecourse: canterburyqb
+        
+    What would be the minimum number of required queue, to implement a stack?    
+    
+
+    - 1    
+      
+
+      - 3
+    - 2    
+      
+
+      + Correct!
+    - 3    
+      
+
+      - 3
+    - 4    
+      
+
+      - 3

@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_632806
+    :basecourse: canterburyqb
+        
+    The following methods are in Java's String class:    
+        
+        
+    * int indexOf(int ch) - Returns the index within this string of the first occurrence of the specified character.    
+    * int indexOf(int ch, int fromIndex) - Returns the index within this string of the first occurrence of the specified character, starting the search at the specified index.    
+    * String substring(int beginIndex, int endIndex) - Returns a new string that is a substring of this string. The substring begins at the specified beginIndex and extends to the character at index endIndex - 1. Thus the length of the substring is endIndex-beginIndex.    
+        
+    Given these specifications, what does the following code print?    
+        
+    .. code-block::    
+        
+        
+           String s = "ichi,ni,san,go";    
+           int i1 = s.indexOf(',');    
+           int i2 = s.indexOf(',', i1);    
+           System.out.println(s.substring(i1, i2));    
+    
+
+    - ``"ni"``    
+      
+
+      + Correct!
+    - The empty string    
+      
+
+      - i1 is 4, and so is i2, since the second indexOf call begins searching at the    
+        position of the same comma that was found by the first indexOf call. Calling    
+        substring with identical parameters yields a 0-length String.
+    - ``","``    
+      
+
+      - i1 is 4, and so is i2, since the second indexOf call begins searching at the    
+        position of the same comma that was found by the first indexOf call. Calling    
+        substring with identical parameters yields a 0-length String.
+    - ``",ni"``    
+      
+
+      - i1 is 4, and so is i2, since the second indexOf call begins searching at the    
+        position of the same comma that was found by the first indexOf call. Calling    
+        substring with identical parameters yields a 0-length String.
+    - ``",ni,"``    
+      
+
+      - i1 is 4, and so is i2, since the second indexOf call begins searching at the    
+        position of the same comma that was found by the first indexOf call. Calling    
+        substring with identical parameters yields a 0-length String.

@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_618976
+    :basecourse: canterburyqb
+        
+    What will be outputted?    
+        
+    int num = 3;    
+        
+    int counter = 1;    
+        
+    boolean condition = true;    
+        
+    while(condition){    
+        
+    .. code-block::    
+        
+       num+= counter++;    
+        
+       if(num>10){    
+        
+           condition=false;    
+        
+           num+= ++counter;    
+        
+       }    
+        
+        
+    }    
+    
+
+    - counter = 5 num = 16    
+      
+
+      - counter = 6 num = 18
+    - counter = 5 num = 17    
+      
+
+      - counter = 6 num = 18
+    - counter = 6 num = 18    
+      
+
+      - counter = 6 num = 18
+    - counter = 6 num = 19    
+      
+
+      + Correct!

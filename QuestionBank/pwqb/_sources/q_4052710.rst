@@ -1,0 +1,31 @@
+.. mchoice:: peerwiseqb_4052710
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q10:</strong></p><p>The following fragment of code shows three loops which have been labelled &ldquo;Loop A&rdquo;, &ldquo;Loop B&rdquo; and &ldquo;Loop C&rdquo;:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i;</span></p><p>&nbsp;</p><p><strong><span style="font-family: courier new,courier,monospace;">// Loop A</span></strong><br /><span style="font-family: courier new,courier,monospace;">printf("Loop A:");</span><br /><span style="font-family: courier new,courier,monospace;">i = 4;</span><br /><span style="font-family: courier new,courier,monospace;">while (i &lt; 10) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", (i + 1));</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><strong><span style="font-family: courier new,courier,monospace;">// Loop B</span></strong><br /><span style="font-family: courier new,courier,monospace;">printf("\nLoop B:");</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 5; i &lt;= 9; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", i);</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><strong><span style="font-family: courier new,courier,monospace;">// Loop C</span></strong><br /><span style="font-family: courier new,courier,monospace;">printf("\nLoop C:");</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 6; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", (i+4));</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Which of the following statements, regarding the output produced by each of these three loops, is correct?</p>
+    
+
+    - Loop A, Loop B and Loop C all produce identical output    
+      
+
+      - Incorrect
+    - Loop B and Loop C produce identical output, but Loop A produces different    
+      output    
+      
+
+      - Incorrect
+    - Loop A and Loop C produce identical output, but Loop B produces different    
+      output    
+      
+
+      - Incorrect
+    - Loop A and Loop B produce identical output, but Loop C produces different    
+      output    
+      
+
+      - Incorrect
+    - Loop A, Loop B and Loop C all produce different output    
+      
+
+      + Correct!

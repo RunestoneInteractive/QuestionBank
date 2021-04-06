@@ -1,0 +1,71 @@
+.. mchoice:: canterburyqb_634916
+    :basecourse: canterburyqb
+        
+    The **Fibonacci sequence** is 0, 1, 1, 2, 3, 5, 8, 13 ... Any term (value) of    
+    the sequence that follows the first two terms (0 and 1) is equal to the sum of    
+    the preceding two terms. Consider the following incomplete method to compute    
+    any term of the Fibonacci sequence:    
+        
+    .. code-block::    
+        
+        
+           public static int fibonacci(int term)    
+           {    
+               int fib1 = 0;          // Line 1    
+               int fib2 = 1;          // Line 2    
+               int fibn = 0;          // Line 3    
+        
+               if (term == 1)         // Line 4    
+               {    
+                   return fib1;       // Line 5    
+               }    
+               if (term == 2)         // Line 6    
+               {    
+                   return fib2;       // Line 7    
+               }    
+        
+               for (__________)       // Line 8: loop to the nth term    
+               {    
+                   fibn = __________; // Line 9: compute the next term    
+                   fib1 = __________; // Line 10: reset the second preceding term    
+                   fib2 = __________; // Line 11: reset the immediate preceding term    
+               }    
+               return fibn;           // Line 12: return the computed term    
+           }    
+        
+        
+           Choose the best answer to fill in the blank on line 8.    
+    
+
+    - ``int n = 0; n < term; n++``    
+      
+
+      - From the question, it is clear that the terms in the sequence are numbered    
+        starting at 1.  The two base cases cover terms 1 and 2, and the loop must then    
+        repeat (term - 2) times in total.  This will be achieved if the initial value    
+        on the loop counter is 1.
+    - ``int n = 1; n < term; n++``    
+      
+
+      + Correct!
+    - ``int n = 2; n < term; n++``    
+      
+
+      - From the question, it is clear that the terms in the sequence are numbered    
+        starting at 1.  The two base cases cover terms 1 and 2, and the loop must then    
+        repeat (term - 2) times in total.  This will be achieved if the initial value    
+        on the loop counter is 1.
+    - ``int n = 3; n < term; n++``    
+      
+
+      - From the question, it is clear that the terms in the sequence are numbered    
+        starting at 1.  The two base cases cover terms 1 and 2, and the loop must then    
+        repeat (term - 2) times in total.  This will be achieved if the initial value    
+        on the loop counter is 1.
+    - ``int n = 4; n < term; n++``    
+      
+
+      - From the question, it is clear that the terms in the sequence are numbered    
+        starting at 1.  The two base cases cover terms 1 and 2, and the loop must then    
+        repeat (term - 2) times in total.  This will be achieved if the initial value    
+        on the loop counter is 1.

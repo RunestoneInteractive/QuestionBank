@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_633219
+    :basecourse: canterburyqb
+        
+    This sorting algorithm starts by finding the smallest value in the entire    
+    array. Then it finds the second smallest value, which is the smallest value    
+    among the remaining elements. Then it finds the third smallest value, the    
+    fourth, and so on.    
+    
+
+    - selection sort    
+      
+
+      + Correct!
+    - insertion sort    
+      
+
+      - This procedure describes the steps of the selection sort, which repeatedly    
+        selects outs the ith smallest element.
+    - bubble sort    
+      
+
+      - This procedure describes the steps of the selection sort, which repeatedly    
+        selects outs the ith smallest element.
+    - quick sort    
+      
+
+      - This procedure describes the steps of the selection sort, which repeatedly    
+        selects outs the ith smallest element.
+    - merge sort    
+      
+
+      - This procedure describes the steps of the selection sort, which repeatedly    
+        selects outs the ith smallest element.

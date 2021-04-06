@@ -1,0 +1,63 @@
+.. mchoice:: canterburyqb_635117
+    :basecourse: canterburyqb
+        
+    Suppose you have an array of seven ``int`` values called ``test`` containing the    
+    following data:    
+        
+        
+    .. image:: img/26.png    
+       :target: img/26.png    
+       :alt: no description    
+        
+        
+    Trace the execution of the following code:    
+        
+    .. code-block::    
+        
+        
+           int x = 0;    
+           int y = 0;    
+           for (int i = 0; i < test.length; i++)    
+           {    
+               if (test[i] % 6 == 0)    
+               {    
+                   x++;    
+                   y += i;    
+               }    
+           }    
+        
+    What is the value of ``y`` when this loop is done?    
+    
+
+    - 5    
+      
+
+      - The variable `y` is updated for each value in the array that is evenly    
+        divisible by 6--when `y` is updated, the _position_ of the value (stored in    
+        `i`) is added to `y`, not the value itself.  So the final value of y is 0 + 1    
+        + 2 + 4 + 6 = 13.
+    - 7    
+      
+
+      - The variable `y` is updated for each value in the array that is evenly    
+        divisible by 6--when `y` is updated, the _position_ of the value (stored in    
+        `i`) is added to `y`, not the value itself.  So the final value of y is 0 + 1    
+        + 2 + 4 + 6 = 13.
+    - 13    
+      
+
+      + Correct!
+    - 14    
+      
+
+      - The variable `y` is updated for each value in the array that is evenly    
+        divisible by 6--when `y` is updated, the _position_ of the value (stored in    
+        `i`) is added to `y`, not the value itself.  So the final value of y is 0 + 1    
+        + 2 + 4 + 6 = 13.
+    - 84    
+      
+
+      - The variable `y` is updated for each value in the array that is evenly    
+        divisible by 6--when `y` is updated, the _position_ of the value (stored in    
+        `i`) is added to `y`, not the value itself.  So the final value of y is 0 + 1    
+        + 2 + 4 + 6 = 13.

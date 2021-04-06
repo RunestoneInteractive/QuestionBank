@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633224
+    :basecourse: canterburyqb
+        
+    In Java, what does it mean if something is marked ``static``\ ?    
+    
+
+    - It never changes value.    
+      
+
+      - Something that is static is defined at the class level and is accessed through    
+        the class, rather than through an instance.
+    - It exists outside of any particular instance of the class.    
+      
+
+      + Correct!
+    - It cannot be overridden.    
+      
+
+      - Something that is static is defined at the class level and is accessed through    
+        the class, rather than through an instance.
+    - Its value is undetermined.    
+      
+
+      - Something that is static is defined at the class level and is accessed through    
+        the class, rather than through an instance.
+    - It marks the program's starting point.    
+      
+
+      - Something that is static is defined at the class level and is accessed through    
+        the class, rather than through an instance.

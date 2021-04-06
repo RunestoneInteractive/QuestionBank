@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052717
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q3:</strong></p><p>How many different numbers can be represented in binary using just 3 bits (or binary digits)?</p>
+    
+
+    - 16    
+      
+
+      - Incorrect
+    - 10    
+      
+
+      - Incorrect
+    - 8    
+      
+
+      + Correct!
+    - 12    
+      
+
+      - Incorrect
+    - 4    
+      
+
+      - Incorrect

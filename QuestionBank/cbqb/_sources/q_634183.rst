@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_634183
+    :basecourse: canterburyqb
+        
+    For a heap of size n, which is indexed at 0, at what position will its last    
+    child be?    
+    
+
+    - 2n + 1    
+      
+
+      - The last element will be at the end of the array.
+    - n / 2    
+      
+
+      - The last element will be at the end of the array.
+    - n - 1    
+      
+
+      + Correct!
+    - floor(n / 2) + 1    
+      
+
+      - The last element will be at the end of the array.

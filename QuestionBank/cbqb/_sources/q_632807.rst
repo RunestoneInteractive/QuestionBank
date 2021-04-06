@@ -1,0 +1,57 @@
+.. mchoice:: canterburyqb_632807
+    :basecourse: canterburyqb
+        
+    Which one of the following methods should be made ``static``\ ?    
+        
+    .. code-block::    
+        
+        
+           public class Clazz {    
+             private final int num = 10;    
+        
+             double a() {    
+               System.out.println(num);    
+               return c();    
+             }    
+        
+             void b() {    
+               System.out.println(this);    
+             }    
+        
+             double c() {    
+               double r = Math.random();    
+               System.out.println(r);    
+               return r;    
+             }    
+        
+             void d() {    
+               a();    
+               a();    
+             }    
+        
+             int e() {    
+               return num;    
+             }    
+           }    
+    
+
+    - a    
+      
+
+      - Method c() does not depend on the invoking instance or its instance variables.
+    - b    
+      
+
+      - Method c() does not depend on the invoking instance or its instance variables.
+    - c    
+      
+
+      + Correct!
+    - d    
+      
+
+      - Method c() does not depend on the invoking instance or its instance variables.
+    - e    
+      
+
+      - Method c() does not depend on the invoking instance or its instance variables.

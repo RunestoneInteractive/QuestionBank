@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632115
+    :basecourse: canterburyqb
+        
+    Consider these lines of code:    
+        
+    txtName.SetFocus    
+        
+    txtName.SelStart = 0    
+        
+    txtName.SelLength = Len(txtName.Text)    
+        
+    txtName is an edit text box which is currently visible.    
+        
+    The code may cause a run time error. This will happen if:    
+    
+
+    - txtName is a multiline text box.    
+      
+
+      - A disabled edit text box may not be accessed by the setfocus method as this    
+        combination is not a logical action and therefore clashes with the underlying    
+        VB event model which controls the permissible sequences of events.
+    - there is no text in txtName.    
+      
+
+      - A disabled edit text box may not be accessed by the setfocus method as this    
+        combination is not a logical action and therefore clashes with the underlying    
+        VB event model which controls the permissible sequences of events.
+    - txtName is currently disabled.    
+      
+
+      + Correct!
+    - some of the text in txtName is currently highlighted.    
+      
+
+      - A disabled edit text box may not be accessed by the setfocus method as this    
+        combination is not a logical action and therefore clashes with the underlying    
+        VB event model which controls the permissible sequences of events.
+    - none of the text in txtName is currently highlighted.    
+      
+
+      - A disabled edit text box may not be accessed by the setfocus method as this    
+        combination is not a logical action and therefore clashes with the underlying    
+        VB event model which controls the permissible sequences of events.

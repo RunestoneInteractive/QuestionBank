@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052676
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q14:</strong></p><p>Given the following structure definition:</p><p><span style="font-family: courier new,courier,monospace;">typedef struct {</span><br /><span style="font-family: courier new,courier,monospace;">int x, y;</span><br /><span style="font-family: courier new,courier,monospace;">} Point;</span></p><p>&nbsp;</p><p>What output would be produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">Point a, b, c;</span></p><p><span style="font-family: courier new,courier,monospace;">a.x = 5;</span><br /><span style="font-family: courier new,courier,monospace;">a.y = 10;</span></p><p><span style="font-family: courier new,courier,monospace;">b.x = 20;</span><br /><span style="font-family: courier new,courier,monospace;">b.y = 30;</span></p><p><span style="font-family: courier new,courier,monospace;">c = b;</span><br /><span style="font-family: courier new,courier,monospace;">b = a;</span><br /><span style="font-family: courier new,courier,monospace;">a = c;</span></p><p><span style="font-family: courier new,courier,monospace;">printf("a = (%d %d), b = (%d %d)", a.x, a.y, b.x, b.y);</span></p>
+    
+
+    - a = (5 10), b = (5 10)    
+      
+
+      - Incorrect
+    - a = (20 30), b = (20 30)    
+      
+
+      - Incorrect
+    - a = (20 10), b = (5 30)    
+      
+
+      - Incorrect
+    - a = (5 10), b = (20 30)    
+      
+
+      - Incorrect
+    - a = (20 30), b = (5 10)    
+      
+
+      + Correct!

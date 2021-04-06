@@ -1,0 +1,74 @@
+.. mchoice:: canterburyqb_632087
+    :basecourse: canterburyqb
+        
+    What will be output by this loop?    
+        
+    for(n = 1, m = 5; n <= 5; n++, m--)    
+        
+    printf("%d %d\n", n, m);    
+    
+
+    - 1 5    
+          
+      2 4    
+          
+      3 3    
+          
+      4 2    
+          
+      5 1    
+      
+
+      + Correct!
+    - 1 4    
+          
+      2 3    
+          
+      3 2    
+          
+      4 1    
+          
+      5 0    
+      
+
+      - The loop increments the value of n and decrements the value of m on each    
+        iteration printing the value of each variable, until n reaches the terminal    
+        value of 5
+    - 5 1    
+          
+      4 2    
+          
+      3 3    
+          
+      2 4    
+          
+      1 5    
+      
+
+      - The loop increments the value of n and decrements the value of m on each    
+        iteration printing the value of each variable, until n reaches the terminal    
+        value of 5
+    - 1 5    
+          
+      2 4    
+          
+      3 3    
+          
+      4 2    
+      
+
+      - The loop increments the value of n and decrements the value of m on each    
+        iteration printing the value of each variable, until n reaches the terminal    
+        value of 5
+    - 1 4    
+          
+      2 3    
+          
+      3 2    
+          
+      4 1    
+      
+
+      - The loop increments the value of n and decrements the value of m on each    
+        iteration printing the value of each variable, until n reaches the terminal    
+        value of 5

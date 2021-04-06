@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_633554
+    :basecourse: canterburyqb
+        
+    What terminates a failed linear probe in a full hashtable?    
+    
+
+    - The end of the array    
+      
+
+      - A null entry will not appear in a full hashtable. Seeing the end of the array    
+        isn't correct, since we need to examine all elements, including those that    
+        appear before our original hash index. A node with a non-matching key is what    
+        started our probe in the first place. The purpose of leaving a deleted node in    
+        the table is so that probing may proceed past it. Revisiting the original hash    
+        index means we've looked at every entry and determined the item doesn't appear    
+        in the table.
+    - A deleted node    
+      
+
+      - A null entry will not appear in a full hashtable. Seeing the end of the array    
+        isn't correct, since we need to examine all elements, including those that    
+        appear before our original hash index. A node with a non-matching key is what    
+        started our probe in the first place. The purpose of leaving a deleted node in    
+        the table is so that probing may proceed past it. Revisiting the original hash    
+        index means we've looked at every entry and determined the item doesn't appear    
+        in the table.
+    - A null entry    
+      
+
+      - A null entry will not appear in a full hashtable. Seeing the end of the array    
+        isn't correct, since we need to examine all elements, including those that    
+        appear before our original hash index. A node with a non-matching key is what    
+        started our probe in the first place. The purpose of leaving a deleted node in    
+        the table is so that probing may proceed past it. Revisiting the original hash    
+        index means we've looked at every entry and determined the item doesn't appear    
+        in the table.
+    - A node with a non-matching key    
+      
+
+      - A null entry will not appear in a full hashtable. Seeing the end of the array    
+        isn't correct, since we need to examine all elements, including those that    
+        appear before our original hash index. A node with a non-matching key is what    
+        started our probe in the first place. The purpose of leaving a deleted node in    
+        the table is so that probing may proceed past it. Revisiting the original hash    
+        index means we've looked at every entry and determined the item doesn't appear    
+        in the table.
+    - Revisiting the original hash index    
+      
+
+      + Correct!

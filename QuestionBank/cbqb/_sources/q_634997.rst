@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_634997
+    :basecourse: canterburyqb
+        
+    Assume M and N are positive integers. What does the following code print?    
+        
+    .. code-block::    
+        
+        
+           int sum=0;    
+           for (int j=0; j<M; j++) {    
+             for (int i=0; i<N; i++) {    
+               if (N%2==0) {    
+                 sum += 1;    
+               }    
+             }    
+           }    
+           System.out.println(sum);    
+    
+
+    - M    
+      
+
+      - The outer loop executes M times, while the inner loop executes N/2 times (i.e.    
+        if N is 6, the loop executes 3 times because there are 3 even numbers (0,2,4)    
+        between 0 and 5).
+    - MN    
+      
+
+      - The outer loop executes M times, while the inner loop executes N/2 times (i.e.    
+        if N is 6, the loop executes 3 times because there are 3 even numbers (0,2,4)    
+        between 0 and 5).
+    - M*N    
+      
+
+      - The outer loop executes M times, while the inner loop executes N/2 times (i.e.    
+        if N is 6, the loop executes 3 times because there are 3 even numbers (0,2,4)    
+        between 0 and 5).
+    - M*N/2    
+      
+
+      + Correct!
+    - M*(N/2+1)    
+      
+
+      - The outer loop executes M times, while the inner loop executes N/2 times (i.e.    
+        if N is 6, the loop executes 3 times because there are 3 even numbers (0,2,4)    
+        between 0 and 5).

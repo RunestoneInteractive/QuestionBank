@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_629589
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/41.png    
+       :target: img/41.png    
+       :alt: no description    
+        
+        
+    Using the information in the above UML diagram, if ``sporty`` is an instance of    
+    ``Car``\ , what gets called if you execute ``sporty.move()``\ ?    
+    
+
+    - The ``move`` method defined in ``Vehicle``    
+      
+
+      - None of the above
+    - The\ ``move`` method defined in ``PeopleHauler``    
+      
+
+      - None of the above
+    - The ``move`` method defined in ``Car``    
+      
+
+      + Correct!
+    - All of the above    
+      
+
+      - None of the above
+    - None of the above    
+      
+
+      - None of the above

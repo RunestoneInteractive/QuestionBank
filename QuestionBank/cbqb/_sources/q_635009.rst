@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_635009
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following predicate (boolean) *accessor* function:    
+        
+    def blockedWithinOneMove(self):\ :raw-html-m2r:`<br>`    
+      if (not self.frontIsClear()):\ :raw-html-m2r:`<br>`    
+        return (True)\ :raw-html-m2r:`<br>`    
+      else:\ :raw-html-m2r:`<br>`    
+        self.move()\ :raw-html-m2r:`<br>`    
+        if (not self.frontIsClear()):\ :raw-html-m2r:`<br>`    
+          return (True)\ :raw-html-m2r:`<br>`    
+        else:\ :raw-html-m2r:`<br>`    
+          return (False)    
+        
+    What is logically wrong with this predicate accessor function? The error is    
+    semantic and not syntactic.    
+    
+
+    - If the robot is blocked, after moving forward, this function incorrectly    
+      returns True.    
+      
+
+      - Accessor functions need to guarantee that the program state does not change.    
+        The robot moves forward to check for a wall, but fails to return to its    
+        starting location - which is necessary since this is an _accessor_ method.
+    - If the robot is not blocked, after moving forward, this function incorrectly    
+      returns False.    
+      
+
+      - Accessor functions need to guarantee that the program state does not change.    
+        The robot moves forward to check for a wall, but fails to return to its    
+        starting location - which is necessary since this is an _accessor_ method.
+    - This function returns True when is should return False, and returns False when    
+      it should return True.    
+      
+
+      - Accessor functions need to guarantee that the program state does not change.    
+        The robot moves forward to check for a wall, but fails to return to its    
+        starting location - which is necessary since this is an _accessor_ method.
+    - In some cases, the preconditions do not match the postconditions; i.e. the    
+      state has changed.    
+      
+
+      + Correct!
+    - The robot moves, but does not change reverse direction.    
+      
+
+      - Accessor functions need to guarantee that the program state does not change.    
+        The robot moves forward to check for a wall, but fails to return to its    
+        starting location - which is necessary since this is an _accessor_ method.

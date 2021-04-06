@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_634925
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Which algorithm does the following code implement?    
+        
+    def mystery(target, listOfValues):\ :raw-html-m2r:`<br>`    
+         beginning = 0\ :raw-html-m2r:`<br>`    
+         end = len(listOfValues)\ :raw-html-m2r:`<br>`    
+         found = False\ :raw-html-m2r:`<br>`    
+         while (! found and (beginning <= end)):\ :raw-html-m2r:`<br>`    
+              middle = (beginning + end) / 2\ :raw-html-m2r:`<br>`    
+              if (listOfValues[middle] == target):\ :raw-html-m2r:`<br>`    
+                   found = True\ :raw-html-m2r:`<br>`    
+                   print "Found it at location: ", middle\ :raw-html-m2r:`<br>`    
+              else:\ :raw-html-m2r:`<br>`    
+                   if (target < listOfValues[middle]):\ :raw-html-m2r:`<br>`    
+                        end = middle -1\ :raw-html-m2r:`<br>`    
+                   else:\ :raw-html-m2r:`<br>`    
+                        beginning = middle + 1    
+        
+    .. code-block::    
+        
+        if (! found):      
+        print "Item not found"    
+    
+
+    - Short Sequential Search    
+      
+
+      - This a classic implementation of binary search.
+    - Sequential Search    
+      
+
+      - This a classic implementation of binary search.
+    - Binary Search    
+      
+
+      + Correct!
+    - Bubble Search    
+      
+
+      - This a classic implementation of binary search.
+    - None of the above.    
+      
+
+      - This a classic implementation of binary search.

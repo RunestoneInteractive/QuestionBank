@@ -1,0 +1,76 @@
+.. mchoice:: canterburyqb_634251
+    :basecourse: canterburyqb
+        
+    Read the following method skeleton and choose the best expression to fill in    
+    the blank on **line 4**  so that the method will behave correctly:    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Takes a string reference and counts the number of times    
+           * the character 'A' or 'a' appears in the string object.    
+           * @param aString   String reference to object containing chars.    
+           * @precondition    aString is not null (you may assume this is true).    
+           * @return          The number of times 'A' or 'a' appears in the string.    
+           */    
+           public static int countAs(String aString)  // line 1    
+           {    
+               int counter = __________;              // line 2    
+               int totalA = 0;                        // line 3    
+               while (counter < __________)           // line 4    
+               {    
+                   if ( __________.equals("A") )      // line 5    
+                   {    
+                       totalA = totalA + __________;  // line 6    
+                   }    
+                   counter++;                         // line 7    
+               }    
+               return __________;                     // line 8    
+           }    
+    
+
+    - ``aString.size()``    
+      
+
+      - The variable `counter` is being used as an index into the string that is being    
+        examined, and from line 7 it is clear that this index is increasing on each    
+        loop iteration, moving from left to right.  Because the loop test uses the `<`    
+        operator, the correct upper limit is `aString.length()`.  Remember that    
+        strings provide a `length()` method for obtaining their length (`size()` is    
+        used for containers like lists and maps, and `length` written as a field    
+        reference instead of a method call is used for arrays).
+    - ``aString.size() - 1``    
+      
+
+      - The variable `counter` is being used as an index into the string that is being    
+        examined, and from line 7 it is clear that this index is increasing on each    
+        loop iteration, moving from left to right.  Because the loop test uses the `<`    
+        operator, the correct upper limit is `aString.length()`.  Remember that    
+        strings provide a `length()` method for obtaining their length (`size()` is    
+        used for containers like lists and maps, and `length` written as a field    
+        reference instead of a method call is used for arrays).
+    - ``aString.length``    
+      
+
+      - The variable `counter` is being used as an index into the string that is being    
+        examined, and from line 7 it is clear that this index is increasing on each    
+        loop iteration, moving from left to right.  Because the loop test uses the `<`    
+        operator, the correct upper limit is `aString.length()`.  Remember that    
+        strings provide a `length()` method for obtaining their length (`size()` is    
+        used for containers like lists and maps, and `length` written as a field    
+        reference instead of a method call is used for arrays).
+    - ``aString.length()``    
+      
+
+      + Correct!
+    - ``aString.length() - 1``    
+      
+
+      - The variable `counter` is being used as an index into the string that is being    
+        examined, and from line 7 it is clear that this index is increasing on each    
+        loop iteration, moving from left to right.  Because the loop test uses the `<`    
+        operator, the correct upper limit is `aString.length()`.  Remember that    
+        strings provide a `length()` method for obtaining their length (`size()` is    
+        used for containers like lists and maps, and `length` written as a field    
+        reference instead of a method call is used for arrays).

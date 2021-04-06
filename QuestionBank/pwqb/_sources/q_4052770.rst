@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052770
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q14:</strong></p><p>Consider the following code which prompts the user to enter a sequence of integers which are then stored in an array. To end the input sequence, the user enters -1:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int values[100];</span><br /><span style="font-family: courier new, courier, monospace;">int numValues;</span><br /><span style="font-family: courier new, courier, monospace;">int input;</span><br /><span style="font-family: courier new, courier, monospace;">int i;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">numValues = 0;</span><br /><span style="font-family: courier new, courier, monospace;">input = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">while (input != -1) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("Enter value: ");</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; scanf("%d", &amp;input);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; values[numValues] = input;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; numValues++;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result: ");</span><br /><span style="font-family: courier new, courier, monospace;">for (i = 0; i &lt; numValues; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("%d ", values[i]);</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>When the code executes, assume the user enters the following sequence of values: 3, 2, 1, -1. These are shown in bold below:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">Enter value: <strong>3</strong></span><br /><span style="font-family: courier new, courier, monospace;">Enter value: <strong>2</strong></span><br /><span style="font-family: courier new, courier, monospace;">Enter value: <strong>1</strong></span><br /><span style="font-family: courier new, courier, monospace;">Enter value: <strong>-1</strong></span></p><p>&nbsp;</p><p>As soon as the user enters -1, the while loop will end. Exactly what output would then be produced by this code?</p>
+    
+
+    - Result: 3 2 1    
+      
+
+      - Incorrect
+    - Result: 3 2 1 -1    
+      
+
+      + Correct!
+    - Result: 2 1    
+      
+
+      - Incorrect
+    - Result: 2 1 -1    
+      
+
+      - Incorrect
+    - Result: 3 2    
+      
+
+      - Incorrect

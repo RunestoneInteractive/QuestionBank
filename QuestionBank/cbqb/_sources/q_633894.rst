@@ -1,0 +1,20 @@
+.. mchoice:: canterburyqb_633894
+    :basecourse: canterburyqb
+        
+    What does a binary tree **not** have in common with a doubly-linked list?    
+    
+
+    - A node's definition has (at least) two pointers defined    
+      
+
+      + Correct!
+    - If a node A points to a node B, then B will point to A    
+      
+
+      - Only the binary tree is hierarchical; only the linked list will have symmetric    
+        pointers.
+    - A given node will be pointed to at most one other node    
+      
+
+      - Only the binary tree is hierarchical; only the linked list will have symmetric    
+        pointers.

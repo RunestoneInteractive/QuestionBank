@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_632792
+    :basecourse: canterburyqb
+        
+    Does this compile?    
+        
+    ``int x=7.0``    
+    
+
+    - yes    
+      
+
+      - This doesn't compile.  Although 7.0 could be converted to an integer without    
+        loss of precision, Java will not perform any conversion of a double to an int    
+        without an explicit cast by the programmer.
+    - no    
+      
+
+      + Correct!
+    - It depends on the version of the compiler    
+      
+
+      - This doesn't compile.  Although 7.0 could be converted to an integer without    
+        loss of precision, Java will not perform any conversion of a double to an int    
+        without an explicit cast by the programmer.

@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_618576
+    :basecourse: canterburyqb
+        
+    Which one of the options cannot be a choice to override the aMethod in class    
+    testInterface?    
+        
+    interface A{    
+        
+    .. code-block::    
+        
+             abstract Object aMethod();    
+        
+        
+    }    
+        
+    interface B{    
+        
+    .. code-block::    
+        
+            abstract Object aMethod();    
+        
+        
+    }    
+        
+    class testInterface implements A, B{    
+        
+    }    
+    
+
+    - public String aMethod(){ return "";}    
+      
+
+      - public Double aMethod(){ return 0.0;}
+    - public Object aMethod(){ return null;}    
+      
+
+      - public Double aMethod(){ return 0.0;}
+    - public Double aMethod(){ return 0.0;}    
+      
+
+      - public Double aMethod(){ return 0.0;}
+    - public int aMethod(){ return 0;}    
+      
+
+      + Correct!

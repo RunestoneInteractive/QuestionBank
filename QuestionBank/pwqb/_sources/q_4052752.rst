@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052752
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q32:</strong></p><p>Consider the following program that uses the LibBMP library to generate an output bitmap image file. The input image file, &ldquo;blank.bmp&rdquo;, is 600 x 600 and all pixels are completely white.</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">#include &lt;stdio.h&gt;</span><br /><span style="font-family: courier new, courier, monospace;">#include "LibBMP.h"</span></p><p><span style="font-family: courier new, courier, monospace;">int main(void)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp; &nbsp; int width, height;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int i, j;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp; &nbsp; LoadBMPFile("blank.bmp", &amp;width, &amp;height);</span></p><p><span style="font-family: courier new, courier, monospace;">&nbsp; </span></p><p><span style="font-family: courier new, courier, monospace;">&nbsp; &nbsp; j = 150;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; for (i = 100; i &lt; 400; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DrawPixel(500-i, j, 0, 0, 0);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DrawPixel(i, 200, 0, 0, 0);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; j = j + 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp; &nbsp; SaveBMPFile("output.bmp", width, height);</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp; &nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>If the user opened the &ldquo;output.bmp&rdquo; file <em>after</em> this program had executed, which of the following statements best describes the image they would see?</p>
+    
+
+    - one vertical line and one diagonal line that do not intersect    
+      
+
+      - Incorrect
+    - two diagonal lines that do not intersect    
+      
+
+      - Incorrect
+    - one vertical line and one diagonal line that intersect    
+      
+
+      + Correct!
+    - only one line will be visible to the user    
+      
+
+      - Incorrect
+    - two diagonal lines that intersect    
+      
+
+      - Incorrect

@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_633570
+    :basecourse: canterburyqb
+        
+    You've got this code:    
+        
+    .. code-block::    
+        
+        
+           TreeMap<String, String> map = new TreeMap<String, String>();    
+           map.put("A", "*");    
+           map.put("AA", "*");    
+           map.put("B", "****");    
+           for (String s : map.keySet()) {    
+             System.out.print(map.get(s) + " ");    
+           }    
+        
+    What does it print?    
+    
+
+    - A A B    
+      
+
+      - We iterate through each key {"A", "AA", "B"}, looking up and printing the    
+        value of these keys.
+    - ----    
+      
+
+      + Correct!
+    - A\ * AA* B\ ****    
+      
+
+      - We iterate through each key {"A", "AA", "B"}, looking up and printing the    
+        value of these keys.
+    - A AA B    
+      
+
+      - We iterate through each key {"A", "AA", "B"}, looking up and printing the    
+        value of these keys.
+    - ----    
+      
+
+      - We iterate through each key {"A", "AA", "B"}, looking up and printing the    
+        value of these keys.

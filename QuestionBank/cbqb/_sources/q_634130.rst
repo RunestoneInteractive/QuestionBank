@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_634130
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Yuchi and Rui are working on a problem: to create an array whose elements are    
+    the sum of the row and\ :raw-html-m2r:`<br>`    
+    column indices. (For example, arr[2][3] = 5, as does arr[3][2].) They're both    
+    working off the same server\ :raw-html-m2r:`<br>`    
+    using the same compiler settings.    
+        
+    .. code-block::    
+        
+        
+           // Yuchi's Code    
+           #DEFINE N 500    
+           ---- (other code skipped) ----    
+           int arr[N][N]; int i; int j;    
+           for(i = 0; i < N; i++)    
+           {    
+              for(j = 0; j < N; j++)    
+              {    
+                  arr[i][j] = i + j;    
+              }    
+           }    
+        
+           // Rui's Code    
+           #DEFINE N 500    
+           ---- (other code skipped) ----    
+           int arr[N][N]; int i; int j;    
+           for(i = 0; i < N; i++)    
+           {    
+               for(j = 0; j < N; j++)    
+               {    
+                   arr[j][i] = i + j;    
+               }    
+           }    
+        
+    Whose code will be faster?    
+    
+
+    - Yuchi's code    
+      
+
+      + Correct!
+    - Rui's code    
+      
+
+      - Yuchi's code will be slightly faster as C uses row-major order array storage.
+    - The two are identical    
+      
+
+      - Yuchi's code will be slightly faster as C uses row-major order array storage.

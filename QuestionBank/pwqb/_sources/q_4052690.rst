@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052690
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q30:</strong></p><p>Consider the following program that uses the LibBMP library to generate an output bitmap image file. The input image file, &ldquo;blank.bmp&rdquo;, is 600 x 600 and all pixels are completely white.</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span><br /><span style="font-family: courier new,courier,monospace;">#include "LibBMP.h"</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int width, height;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i, j;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; LoadBMPFile("blank.bmp", &amp;width, &amp;height);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; j = 150;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 200; i &lt; 400; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SetPixelValue(0, i, j, 0);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SetPixelValue(0, i, j, 1);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SetPixelValue(0, i, j, 2);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; j = j + 1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; SaveBMPFile("output.bmp", width, height);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>If the user opened the &ldquo;output.bmp&rdquo; file after this program had executed, which of the following statements best describes the image they would see?</p>
+    
+
+    - A single diagonal line from lower left to upper right    
+      
+
+      - Incorrect
+    - A single diagonal line from upper left to lower right    
+      
+
+      + Correct!
+    - A single horizontal line    
+      
+
+      - Incorrect
+    - A cross-hair shape of two intersecting lines    
+      
+
+      - Incorrect
+    - A single vertical line    
+      
+
+      - Incorrect

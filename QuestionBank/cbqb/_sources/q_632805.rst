@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_632805
+    :basecourse: canterburyqb
+        
+    Which data structure used to implement ``Set`` yields the worst performance for    
+    ``Set.contains``\ ?    
+    
+
+    - Binary search tree    
+      
+
+      - Implementing Set.contains involves a search of the data structure. A binary    
+        search tree and a sorted array are searched in O(lg n) time, and a hashtable    
+        in O(1), assuming a sane hash function. A linked list is searched in O(n)    
+        time.
+    - Linked list    
+      
+
+      + Correct!
+    - Sorted array    
+      
+
+      - Implementing Set.contains involves a search of the data structure. A binary    
+        search tree and a sorted array are searched in O(lg n) time, and a hashtable    
+        in O(1), assuming a sane hash function. A linked list is searched in O(n)    
+        time.
+    - Hashtable    
+      
+
+      - Implementing Set.contains involves a search of the data structure. A binary    
+        search tree and a sorted array are searched in O(lg n) time, and a hashtable    
+        in O(1), assuming a sane hash function. A linked list is searched in O(n)    
+        time.

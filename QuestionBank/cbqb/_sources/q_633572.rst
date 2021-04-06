@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633572
+    :basecourse: canterburyqb
+        
+    You've got a ``byte`` variable holding the value 127. You add 1 with ``byte +=    
+    1``. What happens?    
+    
+
+    - It becomes a short with value 128.    
+      
+
+      - When you exceed the maximum value of an integral type, you wrap around to    
+        other extreme. Bytes range from -128 to 127.
+    - An OverflowException is raised.    
+      
+
+      - When you exceed the maximum value of an integral type, you wrap around to    
+        other extreme. Bytes range from -128 to 127.
+    - It remains a byte and stays at the value 127.    
+      
+
+      - When you exceed the maximum value of an integral type, you wrap around to    
+        other extreme. Bytes range from -128 to 127.
+    - It remains a byte and takes on the value -128.    
+      
+
+      + Correct!
+    - It remains a byte and takes on the value 0.    
+      
+
+      - When you exceed the maximum value of an integral type, you wrap around to    
+        other extreme. Bytes range from -128 to 127.

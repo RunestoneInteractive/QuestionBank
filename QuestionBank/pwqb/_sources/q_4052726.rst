@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052726
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q26:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Process(int a, int b, int c)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = a + b + c;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b = b + 1;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return a + b;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int a = 3;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int b = 4;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int c = 5;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = Process(a, b, c);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b = Process(c, a, b);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d %d %d", a, b, c);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - ``Result = 17 31 5``    
+      
+
+      - Incorrect
+    - ``Result = 3 16 5``    
+      
+
+      - Incorrect
+    - ``Result = 17 44 5``    
+      
+
+      + Correct!
+    - ``Result = 5 3 4``    
+      
+
+      - Incorrect
+    - ``Result = 3 4 5``    
+      
+
+      - Incorrect

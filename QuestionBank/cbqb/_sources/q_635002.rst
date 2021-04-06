@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_635002
+    :basecourse: canterburyqb
+        
+    Which of the following sorting algorithms has a best-case time performance    
+    that is the same as its and worst-case time performance (in big O notation)?    
+    
+
+    - Insertion sort    
+      
+
+      - Selection sort has both O(n^2) worst and best case.
+    - Selection sort    
+      
+
+      + Correct!
+    - Bubble sort    
+      
+
+      - Selection sort has both O(n^2) worst and best case.
+    - None of the above    
+      
+
+      - Selection sort has both O(n^2) worst and best case.

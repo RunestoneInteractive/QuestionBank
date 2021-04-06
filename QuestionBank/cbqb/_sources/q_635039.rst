@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_635039
+    :basecourse: canterburyqb
+        
+    Nathalin has created an integer array arr containing 5 zeros. Fill in the    
+    table:    
+        
+    .. list-table::    
+       :header-rows: 1    
+        
+       * - Variable name    
+         - Variable's address    
+         - Variable's value      
+       * - arr    
+         - 0x00123abc00    
+         - 0x00123abc00      
+       * - arr[0]    
+         - **A**    
+         - 0      
+       * - arr[1]    
+         - **B**    
+         - 0    
+        
+    
+

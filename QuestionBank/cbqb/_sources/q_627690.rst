@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_627690
+    :basecourse: canterburyqb
+        
+    2. Consider the following class definition:    
+        
+    .. code-block::    
+        
+        
+           public class SillyTestClass {    
+              public SillyTestClass(int x, int y) {    
+                 System.out.println(y);    
+              }    
+              public SillyTestClass(String string1, String string2) {    
+                 System.out.println(string2);    
+              }    
+              public static void main (String [ ] args) {    
+                 SillyTestClass app = new SillyTestClass(20, "Try this!");    
+              }    
+           }    
+        
+    Which of the following is the most accurate statement about this code?    
+    
+
+    - The class definition won't compile, because it has two constructors.    
+      
+
+      - Answer A is wrong because Java programs can have more than one constructor.    
+        Answer B is wrong because a variation between the type of the parameters is    
+        also sufficient. Answers D and E are wrong because the program won't compile    
+        or execute. Answer C identifies the problem.
+    - The class definition won't compile, because two constructors have the same    
+      number of parameters.    
+      
+
+      - Answer A is wrong because Java programs can have more than one constructor.    
+        Answer B is wrong because a variation between the type of the parameters is    
+        also sufficient. Answers D and E are wrong because the program won't compile    
+        or execute. Answer C identifies the problem.
+    - The class definition won't compile, because the actual and formal parameter    
+      types don't match.    
+      
+
+      + Correct!
+    - It will compile, and the output when the ``main`` method is executed will be: 20    
+      
+
+      - Answer A is wrong because Java programs can have more than one constructor.    
+        Answer B is wrong because a variation between the type of the parameters is    
+        also sufficient. Answers D and E are wrong because the program won't compile    
+        or execute. Answer C identifies the problem.
+    - It will compile, and the output when the ``main`` method is executed will be:    
+      Try this!    
+      
+
+      - Answer A is wrong because Java programs can have more than one constructor.    
+        Answer B is wrong because a variation between the type of the parameters is    
+        also sufficient. Answers D and E are wrong because the program won't compile    
+        or execute. Answer C identifies the problem.

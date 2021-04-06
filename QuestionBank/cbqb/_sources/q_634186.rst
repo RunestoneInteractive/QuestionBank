@@ -1,0 +1,25 @@
+.. mchoice:: canterburyqb_634186
+    :basecourse: canterburyqb
+        
+    What is the size of the largest min-heap which is also a BST?    
+    
+
+    - 2    
+      
+
+      - You cannot add a left child to the root because it would break the BST/min-    
+        heap property.
+    - 1    
+      
+
+      + Correct!
+    - 4    
+      
+
+      - You cannot add a left child to the root because it would break the BST/min-    
+        heap property.
+    - 3    
+      
+
+      - You cannot add a left child to the root because it would break the BST/min-    
+        heap property.

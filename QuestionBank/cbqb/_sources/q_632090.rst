@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_632090
+    :basecourse: canterburyqb
+        
+    What is the value of j after this code is executed?    
+        
+    int i = 6, j = 10;    
+        
+    j += i;    
+    
+
+    - 4    
+      
+
+      - The value of variable i (6) is added to that of variable  j (10) resulting in    
+        16 as the  new value of j
+    - 6    
+      
+
+      - The value of variable i (6) is added to that of variable  j (10) resulting in    
+        16 as the  new value of j
+    - 10    
+      
+
+      - The value of variable i (6) is added to that of variable  j (10) resulting in    
+        16 as the  new value of j
+    - 16    
+      
+
+      + Correct!
+    - Undefined    
+      
+
+      - The value of variable i (6) is added to that of variable  j (10) resulting in    
+        16 as the  new value of j

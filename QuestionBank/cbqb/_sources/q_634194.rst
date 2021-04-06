@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_634194
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Nathan is on the run (apparently the US is about to invade Canada). He needs    
+    to grab food.\ :raw-html-m2r:`<br>`    
+    Each piece of food around him has a nutritional value, and a weight. He wants    
+    to put the\ :raw-html-m2r:`<br>`    
+    most calories in his backpack, but it can only hold up to certain weight. What    
+    should he\ :raw-html-m2r:`<br>`    
+    optimize for when deciding which foods to bring?    
+    
+
+    - The value of food    
+      
+
+      - Greedy approach to fractional knapsack.
+    - The value / weight ratio of food    
+      
+
+      + Correct!
+    - The weight / value ratio of food    
+      
+
+      - Greedy approach to fractional knapsack.
+    - The weight of food    
+      
+
+      - Greedy approach to fractional knapsack.

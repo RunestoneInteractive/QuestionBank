@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_632020
+    :basecourse: canterburyqb
+        
+    Consider the following possible Java class names:    
+        
+       ``General, colonel, Private, Major-General, Strategy&Tactics``    
+        
+    When determining which names are valid, which of the following factors is    
+    important:    
+    
+
+    - Class names start with a capital letter.    
+      
+
+      - Choices (b) and (d) are Java syntactic rules; A and C are generally accepted    
+        conventions.
+    - Class names must not be a Java reserved word.    
+      
+
+      - Choices (b) and (d) are Java syntactic rules; A and C are generally accepted    
+        conventions.
+    - Class names are generally nouns, corresponding to a person, place, thing, or    
+      idea.    
+      
+
+      - Choices (b) and (d) are Java syntactic rules; A and C are generally accepted    
+        conventions.
+    - Class names must start with a letter or underscore, followed by zero or more    
+      letters, digits, and/or underscores.    
+      
+
+      - Choices (b) and (d) are Java syntactic rules; A and C are generally accepted    
+        conventions.
+    - All of the above.    
+      
+
+      + Correct!

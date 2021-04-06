@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_634932
+    :basecourse: canterburyqb
+        
+    You need to traverse a singly-linked list in reverse. What's the best worst-    
+    case performance you can achieve?    
+    
+
+    - O(1)    
+      
+
+      - Iterate through the list in the forward direction, but prepend each node on a    
+        second list as you do. Then iterate through the second list, which will be in    
+        the desired reverse order and traversable in O(N) time.
+    - O(log N)    
+      
+
+      - Iterate through the list in the forward direction, but prepend each node on a    
+        second list as you do. Then iterate through the second list, which will be in    
+        the desired reverse order and traversable in O(N) time.
+    - O(N)    
+      
+
+      + Correct!
+    - O(N log N)    
+      
+
+      - Iterate through the list in the forward direction, but prepend each node on a    
+        second list as you do. Then iterate through the second list, which will be in    
+        the desired reverse order and traversable in O(N) time.
+    - O(N2)    
+      
+
+      - Iterate through the list in the forward direction, but prepend each node on a    
+        second list as you do. Then iterate through the second list, which will be in    
+        the desired reverse order and traversable in O(N) time.

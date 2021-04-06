@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_633276
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Ming is hashing the numbers 5, 99, 15, 25 and the hash function h(k) = k % 10.    
+    Which\ :raw-html-m2r:`<br>`    
+    collision resolution strategy did she use?    
+        
+    .. list-table::    
+       :header-rows: 1    
+        
+       * - 0    
+         - 1    
+         - 2    
+         - 3    
+         - 4    
+         - 5    
+         - 6    
+         - 7    
+         - 8    
+         - 9      
+       * -     
+         -     
+         -     
+         -     
+         -     
+         - 25    
+         - 5    
+         - 15    
+         -     
+         - 99    
+        
+    
+

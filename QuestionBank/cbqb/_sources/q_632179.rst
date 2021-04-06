@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_632179
+    :basecourse: canterburyqb
+        
+    How many times will the printf statement be executed in this piece of code?    
+        
+    In each case assume the definition    
+        
+    int i = 0;    
+        
+    WARNING There are some very nasty traps in some of the code here. LOOK AT IT    
+    ALL VERY CAREFULLY!    
+        
+    while (i < 20)    
+        
+    {    
+        
+    .. code-block::    
+        
+        if ( i = 2 )    
+        
+             printf("Count me!");    
+        
+        i++;    
+        
+        
+    }    
+    
+
+    - 0    
+      
+
+      - The program fails the test of equality on the first pass through as i=0, so    
+        falls through the if statement without incrementing the index.  This triggers    
+        the while loop again (which again fails the equality test  as the index    
+        remains at 0) and the program loops in an endless cycle.
+    - 1    
+      
+
+      - The program fails the test of equality on the first pass through as i=0, so    
+        falls through the if statement without incrementing the index.  This triggers    
+        the while loop again (which again fails the equality test  as the index    
+        remains at 0) and the program loops in an endless cycle.
+    - 19    
+      
+
+      - The program fails the test of equality on the first pass through as i=0, so    
+        falls through the if statement without incrementing the index.  This triggers    
+        the while loop again (which again fails the equality test  as the index    
+        remains at 0) and the program loops in an endless cycle.
+    - 20    
+      
+
+      - The program fails the test of equality on the first pass through as i=0, so    
+        falls through the if statement without incrementing the index.  This triggers    
+        the while loop again (which again fails the equality test  as the index    
+        remains at 0) and the program loops in an endless cycle.
+    - an infinite number    
+      
+
+      + Correct!

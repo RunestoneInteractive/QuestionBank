@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_631873
+    :basecourse: canterburyqb
+        
+    Given the code:    
+        
+    .. code-block::    
+        
+        
+           if (x >= 0)    
+              System.out.println("1");    
+           else if (x < 20)    
+              System.out.println("2");    
+           else    
+              System.out.println("3");    
+           System.out.println("4");    
+        
+    for what integer values of ``x`` will ``2`` be among the values printed?    
+    
+
+    - x < 0    
+      
+
+      + Correct!
+    - x >= 0    
+      
+
+      - The if-else clause will be executed only when the if-clause is false. So for    
+        all int values less than 0, 2 will be printed.
+    - x < 20    
+      
+
+      - The if-else clause will be executed only when the if-clause is false. So for    
+        all int values less than 0, 2 will be printed.
+    - All values of x    
+      
+
+      - The if-else clause will be executed only when the if-clause is false. So for    
+        all int values less than 0, 2 will be printed.
+    - None of the above    
+      
+
+      - The if-else clause will be executed only when the if-clause is false. So for    
+        all int values less than 0, 2 will be printed.

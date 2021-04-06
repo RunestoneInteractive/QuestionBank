@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052702
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q18:</strong></p><p>The SumIsEven() function takes two integer inputs and returns true if the sum of those two integers is an even number, and false otherwise:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int SumIsEven(int a, int b)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return ????</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>The return statement is not complete. Which of the following would be the correct return statement for the SumIsEven() function?</p>
+    
+
+    - return (a + b) % 2 == 1;    
+      
+
+      - Incorrect
+    - return (a + b) / 2 == 0;    
+      
+
+      - Incorrect
+    - return (a/2 + b/2) == 0;    
+      
+
+      - Incorrect
+    - return (a + b) / 2 == 1;    
+      
+
+      - Incorrect
+    - return (a + b) % 2 == 0;    
+      
+
+      + Correct!

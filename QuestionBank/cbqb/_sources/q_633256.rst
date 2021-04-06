@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_633256
+    :basecourse: canterburyqb
+        
+    Suppose you have a tree with a maximum depth of d and an average branching    
+    factor of b (i.e. each node has b children).  You are searching for a    
+    particular node S located at depth m (m <= d).  You don't know where the node    
+    S is located, just that it is at depth m.    
+        
+    What is an upper bound on the runtime complexity of breadth-first search (i.e.    
+    big-O notation) to find the node S starting from the root?    
+    
+
+    - O(d * b)    
+      
+
+      - In the worst-case, you would keep choosing sub-tree containing S last, and    
+        have to keep searching.  Thus the worst-case is O(bd).    
+            
+        The following picture may help:    
+            
+        ![](img/9.png)
+    - O(bd)    
+      
+
+      + Correct!
+    - O(db)    
+      
+
+      - In the worst-case, you would keep choosing sub-tree containing S last, and    
+        have to keep searching.  Thus the worst-case is O(bd).    
+            
+        The following picture may help:    
+            
+        ![](img/9.png)
+    - O(b * m)    
+      
+
+      - In the worst-case, you would keep choosing sub-tree containing S last, and    
+        have to keep searching.  Thus the worst-case is O(bd).    
+            
+        The following picture may help:    
+            
+        ![](img/9.png)
+    - O(bm)    
+      
+
+      - In the worst-case, you would keep choosing sub-tree containing S last, and    
+        have to keep searching.  Thus the worst-case is O(bd).    
+            
+        The following picture may help:    
+            
+        ![](img/9.png)

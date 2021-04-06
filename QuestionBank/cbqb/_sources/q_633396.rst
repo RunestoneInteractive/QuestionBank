@@ -1,0 +1,61 @@
+.. mchoice:: canterburyqb_633396
+    :basecourse: canterburyqb
+        
+    You have a class Custom:    
+        
+    .. code-block::    
+        
+        
+           class Custom {    
+             private int i;    
+             ...    
+             public String toString() {    
+               return "" + i;    
+             }    
+           }    
+        
+    Consider this code, which prints a Custom instance:    
+        
+    ``Custom a = ...;``    
+        
+    ``System.out.println(a);``      
+        
+    What overloaded version of PrintStream.println is called?    
+    
+
+    - println(String s)    
+      
+
+      - The version of println that we call must have a type that is a supertype of    
+        Custom, leaving only Custom and Object as our two choices. Since PrintStream    
+        was written years before our Custom class ever existed, it doesn't know    
+        anything about our class. However, it does know about Objects and that all    
+        Objects have a toString method.
+    - println(Custom c)    
+      
+
+      - The version of println that we call must have a type that is a supertype of    
+        Custom, leaving only Custom and Object as our two choices. Since PrintStream    
+        was written years before our Custom class ever existed, it doesn't know    
+        anything about our class. However, it does know about Objects and that all    
+        Objects have a toString method.
+    - println(int i)    
+      
+
+      - The version of println that we call must have a type that is a supertype of    
+        Custom, leaving only Custom and Object as our two choices. Since PrintStream    
+        was written years before our Custom class ever existed, it doesn't know    
+        anything about our class. However, it does know about Objects and that all    
+        Objects have a toString method.
+    - println()    
+      
+
+      - The version of println that we call must have a type that is a supertype of    
+        Custom, leaving only Custom and Object as our two choices. Since PrintStream    
+        was written years before our Custom class ever existed, it doesn't know    
+        anything about our class. However, it does know about Objects and that all    
+        Objects have a toString method.
+    - println(Object o)    
+      
+
+      + Correct!

@@ -2,3 +2,6 @@
 .history
 .vscode
 __pycache__
+build
+build_info
+sphinx_settings.json

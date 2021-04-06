@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_634147
+    :basecourse: canterburyqb
+        
+    What is true about the pivot in quicksort?    
+    
+
+    - Before partitioning, it is always the smallest element in the list    
+      
+
+      - As the pivot will be to the right of all smaller elements and to the left of    
+        all larger elements, it is in the same position it will be when the array is    
+        sorted.
+    - After partitioning, the pivot will always be in the centre of the list    
+      
+
+      - As the pivot will be to the right of all smaller elements and to the left of    
+        all larger elements, it is in the same position it will be when the array is    
+        sorted.
+    - After partitioning, the pivot will never move again    
+      
+
+      + Correct!
+    - A random choice of pivot is always the optimal choice, regardless of input    
+      
+
+      - As the pivot will be to the right of all smaller elements and to the left of    
+        all larger elements, it is in the same position it will be when the array is    
+        sorted.

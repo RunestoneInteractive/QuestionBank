@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_633559
+    :basecourse: canterburyqb
+        
+    You've got two classes, Key and Value, both of which descend from Object. You    
+    intend to use these classes to populate a hashtable. Which class needs the    
+    hashCode method and which needs the equals method?    
+    
+
+    - Key.hashCode, Value.equals    
+      
+
+      - Only the Key needs these methods. On a search, only the Key will be provided,    
+        so that alone must provide the necessary information for finding the    
+        corresponding Value. Object's implementation of the equals method is too    
+        restrictive, comparing Keys only for identity.
+    - Key.hashCode, Key.equals    
+      
+
+      + Correct!
+    - Value.hashCode, Object.equals    
+      
+
+      - Only the Key needs these methods. On a search, only the Key will be provided,    
+        so that alone must provide the necessary information for finding the    
+        corresponding Value. Object's implementation of the equals method is too    
+        restrictive, comparing Keys only for identity.
+    - Key.hashCode, Object.equals    
+      
+
+      - Only the Key needs these methods. On a search, only the Key will be provided,    
+        so that alone must provide the necessary information for finding the    
+        corresponding Value. Object's implementation of the equals method is too    
+        restrictive, comparing Keys only for identity.
+    - Value.hashCode, Value.equals    
+      
+
+      - Only the Key needs these methods. On a search, only the Key will be provided,    
+        so that alone must provide the necessary information for finding the    
+        corresponding Value. Object's implementation of the equals method is too    
+        restrictive, comparing Keys only for identity.

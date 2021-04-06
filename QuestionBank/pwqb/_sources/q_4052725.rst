@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052725
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q27:</strong></p><p>What output is produced by the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Test(int a, int b)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if (a &gt; b) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return a - b;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return a + b;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int result;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; result = Test(Test(3, 2), Test(2, 3));</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d", result);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = 2    
+      
+
+      - Incorrect
+    - Result = 6    
+      
+
+      + Correct!
+    - Result = 3    
+      
+
+      - Incorrect
+    - Result = 1    
+      
+
+      - Incorrect
+    - Result = 5    
+      
+
+      - Incorrect

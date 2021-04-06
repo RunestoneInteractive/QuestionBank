@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_633243
+    :basecourse: canterburyqb
+        
+    Locating a new node's insertion point in a binary search tree stops when    
+    
+
+    - We reach a null child.    
+      
+
+      + Correct!
+    - We find a node greater than the node to be inserted.    
+      
+
+      - Finding nodes less than or greater than the new node happens frequently as we    
+        traverse the tree. Tree's don't have maximum levels. The insertion point isn't    
+        necessarily a leaf node. The remaining option of stopping when we reach null    
+        is the correct answer because we have found the new node's parent node.
+    - We reach the tree's maximum level.    
+      
+
+      - Finding nodes less than or greater than the new node happens frequently as we    
+        traverse the tree. Tree's don't have maximum levels. The insertion point isn't    
+        necessarily a leaf node. The remaining option of stopping when we reach null    
+        is the correct answer because we have found the new node's parent node.
+    - We find a node lesser than the node to be inserted.    
+      
+
+      - Finding nodes less than or greater than the new node happens frequently as we    
+        traverse the tree. Tree's don't have maximum levels. The insertion point isn't    
+        necessarily a leaf node. The remaining option of stopping when we reach null    
+        is the correct answer because we have found the new node's parent node.
+    - We find a node without any children.    
+      
+
+      - Finding nodes less than or greater than the new node happens frequently as we    
+        traverse the tree. Tree's don't have maximum levels. The insertion point isn't    
+        necessarily a leaf node. The remaining option of stopping when we reach null    
+        is the correct answer because we have found the new node's parent node.

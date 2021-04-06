@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_617887
+    :basecourse: canterburyqb
+        
+    Consider the following output consisting of a block of stars, with no spaces    
+    between each star, and no blank lines in between the lines of stars:    
+        
+    ----    
+        
+    ----    
+        
+    ----    
+        
+    ----    
+        
+    Considering a plan for a program to print out this shape, which of the    
+    following would be your  **main**  control structure?    
+    
+
+    - sequence    
+      
+
+      - or something else
+    - selection    
+      
+
+      - or something else
+    - repetition    
+      
+
+      + Correct!
+    - or something else    
+      
+
+      - or something else

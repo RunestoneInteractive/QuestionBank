@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_633307
+    :basecourse: canterburyqb
+        
+    Searching a heap is    
+    
+
+    - O(1)    
+      
+
+      - In a heap, we only know that a node's key is greater than both its chidrens'    
+        keys. We may need to search both subheaps for an element. In the worst case,    
+        we'll visit every element.
+    - O(log N)    
+      
+
+      - In a heap, we only know that a node's key is greater than both its chidrens'    
+        keys. We may need to search both subheaps for an element. In the worst case,    
+        we'll visit every element.
+    - O(N)    
+      
+
+      + Correct!
+    - O(N log N)    
+      
+
+      - In a heap, we only know that a node's key is greater than both its chidrens'    
+        keys. We may need to search both subheaps for an element. In the worst case,    
+        we'll visit every element.
+    - O(N2)    
+      
+
+      - In a heap, we only know that a node's key is greater than both its chidrens'    
+        keys. We may need to search both subheaps for an element. In the worst case,    
+        we'll visit every element.

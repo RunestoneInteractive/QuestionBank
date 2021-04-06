@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_634947
+    :basecourse: canterburyqb
+        
+    For the selection sort algorithm; what is its best case and worst case running    
+    time?    
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Best: O(1)\ :raw-html-m2r:`<br>`    
+      Worst: O(n)    
+      
+
+      - Selection sort repeatedly runs the Find-largest algorithm as its helper    
+        function.  So, regardless of the list's initial ordering, Find-largest will    
+        cost n-1 comparisons for the first pass, n-2 for the second, etc.  Hence    
+        selection sort's run time performence is independent of the list's initial    
+        ordering: O(n2)
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Best: O(n)\ :raw-html-m2r:`<br>`    
+      Worst: O(n2)    
+      
+
+      - Selection sort repeatedly runs the Find-largest algorithm as its helper    
+        function.  So, regardless of the list's initial ordering, Find-largest will    
+        cost n-1 comparisons for the first pass, n-2 for the second, etc.  Hence    
+        selection sort's run time performence is independent of the list's initial    
+        ordering: O(n2)
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Best: O(log2 n)\ :raw-html-m2r:`<br>`    
+      Worst: O(n)    
+      
+
+      - Selection sort repeatedly runs the Find-largest algorithm as its helper    
+        function.  So, regardless of the list's initial ordering, Find-largest will    
+        cost n-1 comparisons for the first pass, n-2 for the second, etc.  Hence    
+        selection sort's run time performence is independent of the list's initial    
+        ordering: O(n2)
+    - Best: O(n2)    
+          
+      Worst: O(n2)    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - Selection sort repeatedly runs the Find-largest algorithm as its helper    
+        function.  So, regardless of the list's initial ordering, Find-largest will    
+        cost n-1 comparisons for the first pass, n-2 for the second, etc.  Hence    
+        selection sort's run time performence is independent of the list's initial    
+        ordering: O(n2)

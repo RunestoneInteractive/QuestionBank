@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633087
+    :basecourse: canterburyqb
+        
+    In this question, you are given a Perl regular expression that you are    
+    required to evaluate.    
+        
+    There are no leading or trailing spaces in any of the text, nor are there any    
+    spaces in the regex.    
+        
+    Identify the answer which best matches the regex below:    
+        
+    /20[0-3]+/    
+    
+
+    - 205    
+      
+
+      - 20 followed by one or more digits in the range 0 to 3.
+    - 2003    
+      
+
+      + Correct!
+    - 0230    
+      
+
+      - 20 followed by one or more digits in the range 0 to 3.
+    - 2300    
+      
+
+      - 20 followed by one or more digits in the range 0 to 3.

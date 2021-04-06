@@ -1,0 +1,93 @@
+.. mchoice:: canterburyqb_635026
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+         public BallPanel extends javax.swing.JPanel {    
+            private Ball[] _balls;    
+            public BallPanel(){    
+               _balls = new Ball[20];    
+               for (int i=0;i<10;i++)    
+                  _balls[i] = new Ball();    
+            }    
+            ...    
+         }    
+        
+        
+    ```    
+        
+    After I have instantiated a ``BallPanel`` using the above code, which of the    
+    following Java statements would work (if executed in some method of    
+    ``BallPanel``\ )?  Assume ``Ball`` has a public ``getColor()`` method.    
+    
+
+    - ``_balls[20] = new Ball();``    
+      
+
+      - A doesn't work, since the possible range of a 20 element array index is 0 to    
+        19 inclusive.    
+            
+        B works, even though _balls[15] was never assigned a value -- its value is set    
+        to `null when the array is instantiated, and B would set `_balls[0`] to    
+        `null``    
+            
+        C doesn't work: since only `_balls[0]` to `_balls[9]` were assigned values,    
+        `_balls[10]`'s value is `null`, and we cannot call methods on a null instance.    
+            
+        So the answer is B.
+    - [code]    
+          
+      .. code-block::    
+          
+         _balls[0] = _balls[15];    
+          
+          
+          
+      ```    
+      
+
+      + Correct!
+    - ``_balls[10].getColor();``    
+      
+
+      - A doesn't work, since the possible range of a 20 element array index is 0 to    
+        19 inclusive.    
+            
+        B works, even though _balls[15] was never assigned a value -- its value is set    
+        to `null when the array is instantiated, and B would set `_balls[0`] to    
+        `null``    
+            
+        C doesn't work: since only `_balls[0]` to `_balls[9]` were assigned values,    
+        `_balls[10]`'s value is `null`, and we cannot call methods on a null instance.    
+            
+        So the answer is B.
+    - Both A and C work    
+      
+
+      - A doesn't work, since the possible range of a 20 element array index is 0 to    
+        19 inclusive.    
+            
+        B works, even though _balls[15] was never assigned a value -- its value is set    
+        to `null when the array is instantiated, and B would set `_balls[0`] to    
+        `null``    
+            
+        C doesn't work: since only `_balls[0]` to `_balls[9]` were assigned values,    
+        `_balls[10]`'s value is `null`, and we cannot call methods on a null instance.    
+            
+        So the answer is B.
+    - Both B and C work    
+      
+
+      - A doesn't work, since the possible range of a 20 element array index is 0 to    
+        19 inclusive.    
+            
+        B works, even though _balls[15] was never assigned a value -- its value is set    
+        to `null when the array is instantiated, and B would set `_balls[0`] to    
+        `null``    
+            
+        C doesn't work: since only `_balls[0]` to `_balls[9]` were assigned values,    
+        `_balls[10]`'s value is `null`, and we cannot call methods on a null instance.    
+            
+        So the answer is B.

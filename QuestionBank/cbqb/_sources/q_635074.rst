@@ -1,0 +1,74 @@
+.. mchoice:: canterburyqb_635074
+    :basecourse: canterburyqb
+        
+    Consider the following classes:    
+        
+    .. code-block::    
+        
+        
+           public class A    
+           {    
+               private int myNum;    
+               public A(int x)            { myNum = x;    }    
+               public int getNumber()     { return myNum; }    
+               public String getLetters() { return "A";   }    
+               public String getMessage()    
+               {    
+                   return getLetters() + "-" + getNumber();    
+               }    
+           }    
+        
+           public class AB extends A    
+           {    
+               public AB(int x)           { super(x + 1); }    
+               public int getNumber()     { return super.getNumber() + 1; }    
+               public String getLetters() { return "AB";  }    
+           }    
+        
+    What is the output of the following code segment?    
+        
+    ``A test = new AB(0);``    
+        
+    ``System.out.print(test.getMessage());``    
+    
+
+    - A-0    
+      
+
+      - The object created is an instance of class `AB`, despite the static type of    
+        the variable `test`. Because of the constructor defined in `AB`, the object's    
+        `myNum` field will be initialized with the value 1.  Because of polymorphism,    
+        when `getMessage()` calls `getLetters()`, the definition of the method in `AB`    
+        will be used, returning "AB".  Similarly, when `getMessage()` calls    
+        `getNumber()`, the definition of the method in `AB` will be used, returning 2.
+    - A-2    
+      
+
+      - The object created is an instance of class `AB`, despite the static type of    
+        the variable `test`. Because of the constructor defined in `AB`, the object's    
+        `myNum` field will be initialized with the value 1.  Because of polymorphism,    
+        when `getMessage()` calls `getLetters()`, the definition of the method in `AB`    
+        will be used, returning "AB".  Similarly, when `getMessage()` calls    
+        `getNumber()`, the definition of the method in `AB` will be used, returning 2.
+    - AB-0    
+      
+
+      - The object created is an instance of class `AB`, despite the static type of    
+        the variable `test`. Because of the constructor defined in `AB`, the object's    
+        `myNum` field will be initialized with the value 1.  Because of polymorphism,    
+        when `getMessage()` calls `getLetters()`, the definition of the method in `AB`    
+        will be used, returning "AB".  Similarly, when `getMessage()` calls    
+        `getNumber()`, the definition of the method in `AB` will be used, returning 2.
+    - AB-1    
+      
+
+      - The object created is an instance of class `AB`, despite the static type of    
+        the variable `test`. Because of the constructor defined in `AB`, the object's    
+        `myNum` field will be initialized with the value 1.  Because of polymorphism,    
+        when `getMessage()` calls `getLetters()`, the definition of the method in `AB`    
+        will be used, returning "AB".  Similarly, when `getMessage()` calls    
+        `getNumber()`, the definition of the method in `AB` will be used, returning 2.
+    - AB-2    
+      
+
+      + Correct!

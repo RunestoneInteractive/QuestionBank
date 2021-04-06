@@ -1,0 +1,46 @@
+.. mchoice:: canterburyqb_633236
+    :basecourse: canterburyqb
+        
+    This code fails to compile:    
+        
+    .. code-block::    
+        
+        
+           char current = 'a';    
+           current = current + 1;    
+        
+    Why?    
+    
+
+    - We can't add ints and chars.    
+      
+
+      - The char is promoted to an int when an int is added to it. Thus, our right-    
+        hand side is an int while our left-hand side is a char. Assigning an int into    
+        a char may result in information less, which requires us to sign off on this    
+        risky operation with an explicit cast.
+    - We're trying to squeeze an int into a char.    
+      
+
+      + Correct!
+    - The character after 'a' is platform-dependent.    
+      
+
+      - The char is promoted to an int when an int is added to it. Thus, our right-    
+        hand side is an int while our left-hand side is a char. Assigning an int into    
+        a char may result in information less, which requires us to sign off on this    
+        risky operation with an explicit cast.
+    - We're trying to squeeze a String into a char.    
+      
+
+      - The char is promoted to an int when an int is added to it. Thus, our right-    
+        hand side is an int while our left-hand side is a char. Assigning an int into    
+        a char may result in information less, which requires us to sign off on this    
+        risky operation with an explicit cast.
+    - The assignment is infinitely recursive.    
+      
+
+      - The char is promoted to an int when an int is added to it. Thus, our right-    
+        hand side is an int while our left-hand side is a char. Assigning an int into    
+        a char may result in information less, which requires us to sign off on this    
+        risky operation with an explicit cast.

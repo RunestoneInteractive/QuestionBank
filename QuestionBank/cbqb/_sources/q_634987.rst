@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_634987
+    :basecourse: canterburyqb
+        
+    Consider the following:    
+        
+    public void foo (int x) {    
+        
+    ...    
+        
+        
+    }    
+        
+    What is x?    
+    
+
+    - A global variable.    
+      
+
+      - When invoking a method, the invokation contains the _actual_ parameters, while    
+        the variables defined in the method signature define the _formal_ parameters.
+    - A local variable.    
+      
+
+      - When invoking a method, the invokation contains the _actual_ parameters, while    
+        the variables defined in the method signature define the _formal_ parameters.
+    - The actual parameter.    
+      
+
+      - When invoking a method, the invokation contains the _actual_ parameters, while    
+        the variables defined in the method signature define the _formal_ parameters.
+    - The formal parameter.    
+      
+
+      + Correct!
+    - An instance variable.    
+      
+
+      - When invoking a method, the invokation contains the _actual_ parameters, while    
+        the variables defined in the method signature define the _formal_ parameters.

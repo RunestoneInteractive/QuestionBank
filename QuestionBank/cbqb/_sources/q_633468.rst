@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_633468
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           for (int i=6; i>=2; i--) {    
+              System.out.print(i+" ");    
+           }    
+    
+
+    - 6 5 4 3 2 1 0    
+      
+
+      - This is a basic for loop that counts down from 6 to 2.
+    - 6 5 4 3 2 1    
+      
+
+      - This is a basic for loop that counts down from 6 to 2.
+    - 6 5 4 3 2    
+      
+
+      + Correct!
+    - 6 5 4 3    
+      
+
+      - This is a basic for loop that counts down from 6 to 2.
+    - the loop is infinite    
+      
+
+      - This is a basic for loop that counts down from 6 to 2.

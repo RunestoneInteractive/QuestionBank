@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632108
+    :basecourse: canterburyqb
+        
+    Which data structure has a better performance when customer offers needs to be    
+    stored/restored for an auction?    
+    
+
+    - An array    
+      
+
+      - A priority queue
+    - A single linked list    
+      
+
+      - A priority queue
+    - A priority queue    
+      
+
+      + Correct!
+    - A tree    
+      
+
+      - A priority queue

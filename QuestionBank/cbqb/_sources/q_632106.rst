@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632106
+    :basecourse: canterburyqb
+        
+    What would be the performance of removeMin and insert methods in a priority    
+    queue if it is implemented by an unsorted list?    
+    
+
+    - O(1) , O(1)    
+      
+
+      - O(n) , O(1)
+    - O(1) , O(n)    
+      
+
+      - O(n) , O(1)
+    - O(n) , O(1)    
+      
+
+      + Correct!
+    - O(n) , O(n)    
+      
+
+      - O(n) , O(1)

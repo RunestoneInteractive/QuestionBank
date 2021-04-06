@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_634431
+    :basecourse: canterburyqb
+        
+    Suppose you are trying to choose between an array and a singly linked list to    
+    store the data in your program. Which data structure must be traversed one    
+    element at a time to reach a particular point?    
+    
+
+    - an array    
+      
+
+      - In a basic linked list, each element is connected to the one after it. To    
+        reach a given element, you must start with the first node, if it's not the one    
+        you want, follow the link to the next one, and so forth until you reach the    
+        end of the list. (These are called "singly linked lists"; it is also possible    
+        to construct a doubly linked list, where each node is connected to the    
+        previous *and* the next element.)
+    - a linked list    
+      
+
+      + Correct!
+    - both    
+      
+
+      - In a basic linked list, each element is connected to the one after it. To    
+        reach a given element, you must start with the first node, if it's not the one    
+        you want, follow the link to the next one, and so forth until you reach the    
+        end of the list. (These are called "singly linked lists"; it is also possible    
+        to construct a doubly linked list, where each node is connected to the    
+        previous *and* the next element.)
+    - neither    
+      
+
+      - In a basic linked list, each element is connected to the one after it. To    
+        reach a given element, you must start with the first node, if it's not the one    
+        you want, follow the link to the next one, and so forth until you reach the    
+        end of the list. (These are called "singly linked lists"; it is also possible    
+        to construct a doubly linked list, where each node is connected to the    
+        previous *and* the next element.)

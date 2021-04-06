@@ -1,0 +1,66 @@
+.. mchoice:: canterburyqb_634993
+    :basecourse: canterburyqb
+        
+    Consider this method skeleton for ``findDigit()``\ :    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Returns the number of times the digit d occurs in the decimal    
+           * representation of n.    
+           * @param n The number to consider (must be non-negative).    
+           * @param d The digit to look for (must be 0-9).    
+           * Returns the number of times d occurs in the printed representation    
+           * of n.    
+           */    
+           public int findDigit(int n, int d)  // Line 1    
+           {    
+               int count = 0;                  // Line 2    
+               if (n == 0 && d == 0)           // Line 3    
+               {    
+                   __________;                 // Line 4    
+               }    
+               while (n > 0)                   // Line 5    
+               {    
+                   if (n % 10 == d)            // Line 6    
+                   {    
+                       count++;                // Line 7    
+                   }    
+                   __________;                 // Line 8    
+               }    
+               return count;                   // Line 9    
+           }    
+        
+    Select the best choice to fill in the blank on line 4 in this method to    
+    produce the correct behavior.    
+    
+
+    - ``return 0;``    
+      
+
+      - The test on line 3 checks a special case where the loop is never needed--when    
+        both the `n` passed in and the digit being search for are both zero.  In this    
+        situation, the result of the method should be 1.
+    - ``return 1;``    
+      
+
+      + Correct!
+    - ``return n;``    
+      
+
+      - The test on line 3 checks a special case where the loop is never needed--when    
+        both the `n` passed in and the digit being search for are both zero.  In this    
+        situation, the result of the method should be 1.
+    - ``return d;``    
+      
+
+      - The test on line 3 checks a special case where the loop is never needed--when    
+        both the `n` passed in and the digit being search for are both zero.  In this    
+        situation, the result of the method should be 1.
+    - ``return count;``    
+      
+
+      - The test on line 3 checks a special case where the loop is never needed--when    
+        both the `n` passed in and the digit being search for are both zero.  In this    
+        situation, the result of the method should be 1.

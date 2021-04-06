@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_632764
+    :basecourse: canterburyqb
+        
+    The following code for a method "minVal" contains a logic error on a single    
+    line in the method body, on one of the four lines indicated by comments:      
+        
+    ``public static int minVal(int[] y, int first, int last) {``    
+        
+    .. code-block::    
+        
+        
+           /* This method returns the value of the minimum element in the    
+            * subsection of the array "y", starting at position    
+            * "first" and ending at position "last".    
+            */    
+        
+             int bestSoFar = y[first];          // line 1    
+        
+             for (int i=first+1; i<=last; i++)    
+             {    
+               if ( y[i] < bestSoFar )          // line 2    
+        
+    ``bestSoFar = i;                // line 3``      
+        
+    ``} // for``      
+        
+    ``return bestSoFar;                  // line 4``      
+        
+    ``} // method minVal``      
+        
+    Which one of the four lines indicated by the comments contains the logic    
+    error?    
+    
+
+    - line 1    
+      
+
+      - line 3 should be `bestSoFar = y[i];`    
+            
+        `The buggy code is remembering an array position, but the correct code    
+        remembers the value.`
+    - line2    
+      
+
+      - line 3 should be `bestSoFar = y[i];`    
+            
+        `The buggy code is remembering an array position, but the correct code    
+        remembers the value.`
+    - line3    
+      
+
+      + Correct!
+    - line4    
+      
+
+      - line 3 should be `bestSoFar = y[i];`    
+            
+        `The buggy code is remembering an array position, but the correct code    
+        remembers the value.`

@@ -1,0 +1,147 @@
+.. mchoice:: canterburyqb_618630
+    :basecourse: canterburyqb
+        
+    Which option is NOT a correct solution to handle an exception if we know that    
+    NumberException is a user defined exception?    
+    
+
+    - public static int testNumber(int x) throws NumberException{    
+          
+      .. code-block::    
+          
+            if (x >= 12)    
+          
+                      throw new NumberException("This is my created exception message");    
+          
+           return x;    
+          
+          
+      }    
+      
+
+      - public static int testNumber(int x) throws NumberException{    
+            
+            try{    
+            
+                if (x >= 12) new NumberException();    
+            
+            }    
+            
+            catch (NumberException e){    
+            
+                e.printStackTrace();    
+            
+            }    
+            
+            finally{}    
+            
+            return x;    
+            
+        }
+    - public static int testNumber(int x) throws NumberException{    
+          
+      .. code-block::    
+          
+         try{    
+          
+             if (x >= 12)    
+          
+                  throw new NumberException("This is my created exception message");    
+          
+          
+         }    
+          
+         finally{}    
+          
+         return x;    
+          
+      }    
+      
+
+      - public static int testNumber(int x) throws NumberException{    
+            
+            try{    
+            
+                if (x >= 12) new NumberException();    
+            
+            }    
+            
+            catch (NumberException e){    
+            
+                e.printStackTrace();    
+            
+            }    
+            
+            finally{}    
+            
+            return x;    
+            
+        }
+    - public static int testNumber(int x) throws NumberException{    
+          
+      .. code-block::    
+          
+         try{    
+          
+             if (x >= 12) new NumberException();    
+          
+         }    
+          
+         catch (NumberException e){    
+          
+             e.printStackTrace();    
+          
+         }    
+          
+         finally{}    
+          
+         return x;    
+          
+          
+      }    
+      
+
+      + Correct!
+    - public static int testNumber(int x) {    
+          
+      .. code-block::    
+          
+          try{    
+          
+               if (x >= 12) throw new NumberException();    
+          
+         }    
+          
+         catch (NumberException e){    
+          
+             e.printStackTrace();    
+          
+          
+         }    
+          
+         finally{}    
+          
+         return x;    
+          
+      }    
+      
+
+      - public static int testNumber(int x) throws NumberException{    
+            
+            try{    
+            
+                if (x >= 12) new NumberException();    
+            
+            }    
+            
+            catch (NumberException e){    
+            
+                e.printStackTrace();    
+            
+            }    
+            
+            finally{}    
+            
+            return x;    
+            
+        }

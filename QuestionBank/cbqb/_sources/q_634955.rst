@@ -1,0 +1,157 @@
+.. mchoice:: canterburyqb_634955
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/4.png    
+       :target: img/4.png    
+       :alt: no description    
+        
+        
+    Given the above binary tree rooted at Node A, what is the order of nodes    
+    visited by a postorder search?    
+    
+
+    - A, B, C, D, E, F, G    
+      
+
+      - A postorder search of a tree is: visit the left subtree, visit the right    
+        subtree, visit the root    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+             Visit B (its root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit its right subtree:    
+            
+                  Visit G    
+            
+             Visit C (its root)    
+            
+        Visit A (the root)    
+            
+        The order of nodes visited corresponds to answer D
+    - A, B, D, E, C, F, G    
+      
+
+      - A postorder search of a tree is: visit the left subtree, visit the right    
+        subtree, visit the root    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+             Visit B (its root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit its right subtree:    
+            
+                  Visit G    
+            
+             Visit C (its root)    
+            
+        Visit A (the root)    
+            
+        The order of nodes visited corresponds to answer D
+    - D, B, E, A, F, C, G    
+      
+
+      - A postorder search of a tree is: visit the left subtree, visit the right    
+        subtree, visit the root    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+             Visit B (its root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit its right subtree:    
+            
+                  Visit G    
+            
+             Visit C (its root)    
+            
+        Visit A (the root)    
+            
+        The order of nodes visited corresponds to answer D
+    - D, E, B, F, G, C, A    
+      
+
+      + Correct!
+    - G, F, E, D, C, B, A    
+      
+
+      - A postorder search of a tree is: visit the left subtree, visit the right    
+        subtree, visit the root    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+             Visit B (its root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit its right subtree:    
+            
+                  Visit G    
+            
+             Visit C (its root)    
+            
+        Visit A (the root)    
+            
+        The order of nodes visited corresponds to answer D

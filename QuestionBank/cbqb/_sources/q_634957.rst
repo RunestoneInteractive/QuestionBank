@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_634957
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Bryon has dynamically allocated memory for an array named arr using malloc.    
+    Once he's\ :raw-html-m2r:`<br>`    
+    done using arr in his program, what single line of code should he write to    
+    free the block of\ :raw-html-m2r:`<br>`    
+    memory that arr points to?    
+    
+
+    - free(arr);    
+      
+
+      + Correct!
+    - free(*arr);    
+      
+
+      - it's free(arr)
+    - free(&arr);    
+      
+
+      - it's free(arr)
+    - dealloc(arr);    
+      
+
+      - it's free(arr)
+    - dealloc(*arr);    
+      
+
+      - it's free(arr)

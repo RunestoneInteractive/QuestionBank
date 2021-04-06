@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_630969
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/30.png    
+       :target: img/30.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above: Suppose the statement      
+        
+    ``super.carryCargo();``    
+        
+    appears in the body of the ``carryCargo`` method of ``OilTanker``.  Which method    
+    does the statement invoke?    
+    
+
+    - The ``carryCargo`` method defined in ``OilTanker``    
+      
+
+      - `super.carryCargo()`, when called from a method in `OilTanker`, resolves the    
+        method starting from the superclass, that is, it treats the instance as if its    
+        actual type was `Truck`.  Since there is no `carryCargo` method defined in    
+        `Truck`, the one used is the one inherited from `Vehicle.`
+    - The ``carryCargo`` method defined in ``Vehicle``    
+      
+
+      + Correct!
+    - The ``carryCargo`` method defined in ``Truck``    
+      
+
+      - `super.carryCargo()`, when called from a method in `OilTanker`, resolves the    
+        method starting from the superclass, that is, it treats the instance as if its    
+        actual type was `Truck`.  Since there is no `carryCargo` method defined in    
+        `Truck`, the one used is the one inherited from `Vehicle.`
+    - None of the above is true    
+      
+
+      - `super.carryCargo()`, when called from a method in `OilTanker`, resolves the    
+        method starting from the superclass, that is, it treats the instance as if its    
+        actual type was `Truck`.  Since there is no `carryCargo` method defined in    
+        `Truck`, the one used is the one inherited from `Vehicle.`

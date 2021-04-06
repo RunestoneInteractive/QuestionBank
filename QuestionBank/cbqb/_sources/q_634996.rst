@@ -1,0 +1,65 @@
+.. mchoice:: canterburyqb_634996
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1. public BallPanel extends javax.swing.JPanel {    
+       2.    private Ball[] _balls;    
+       3.    public BallPanel(int numberOfBalls){    
+       4.       _balls = new Ball[numberOfBalls];    
+       5.       for (int i=0;i<_balls.length;i++)    
+       6.          _balls[i] = new Ball();    
+       7.    }    
+       8.    public void ballCopy () {    
+       9.       Ball[] temp = new Ball[2 * _balls.length];    
+       10.      for (int j=0; j< _balls.length; j++0)    
+       11.         _temp[j] = _balls[j];    
+       12.      _balls = temp;     
+       13.   }    
+       13. ...    
+        
+        
+    .. code-block::    
+        
+        
+        
+        
+       After executing    
+        
+    .. code-block::    
+        
+       BallPanel myPanel = new BallPanel(10);    
+       _myPanel.ballCopy();    
+        
+        
+    ```    
+        
+    Which of the following is true?    
+    
+
+    - The array ``_balls`` is unchanged in myPanel    
+      
+
+      - C is true.  When you call ballCopy, it instantiates an array that is twice as    
+        large as _balls, which had length 10, then sets _balls to that new array.
+    - The elements of ``temp`` are copies of the elements of _balls in myPanel    
+      
+
+      - C is true.  When you call ballCopy, it instantiates an array that is twice as    
+        large as _balls, which had length 10, then sets _balls to that new array.
+    - ``_balls.length == 20`` in myPanel    
+      
+
+      + Correct!
+    - ``_balls.length == 10 in myPanel``    
+      
+
+      - C is true.  When you call ballCopy, it instantiates an array that is twice as    
+        large as _balls, which had length 10, then sets _balls to that new array.
+    - None of the above    
+      
+
+      - C is true.  When you call ballCopy, it instantiates an array that is twice as    
+        large as _balls, which had length 10, then sets _balls to that new array.

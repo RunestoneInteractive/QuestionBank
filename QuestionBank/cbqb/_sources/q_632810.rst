@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_632810
+    :basecourse: canterburyqb
+        
+    Which of the following assertions is *incorrect*\ ?    
+    
+
+    - A Python statement may return a value    
+      
+
+      + Correct!
+    - A Python expression may return a value    
+      
+
+      - Basically, a statement in Python is a special kind of function that doesn't    
+        return a value.  Statements are things like `print` (in Python 2.x but not    
+        Python 3) and `import`.    
+            
+        I think this is not a great question to put on a CS-1 exam beacuse it relies    
+        on terminology (statement, expression, side-effect) that doesn't really mean    
+        much until CS-2 or later.
+    - A Python statement may produce a side effect    
+      
+
+      - Basically, a statement in Python is a special kind of function that doesn't    
+        return a value.  Statements are things like `print` (in Python 2.x but not    
+        Python 3) and `import`.    
+            
+        I think this is not a great question to put on a CS-1 exam beacuse it relies    
+        on terminology (statement, expression, side-effect) that doesn't really mean    
+        much until CS-2 or later.
+    - A Python expression may produce a side effect    
+      
+
+      - Basically, a statement in Python is a special kind of function that doesn't    
+        return a value.  Statements are things like `print` (in Python 2.x but not    
+        Python 3) and `import`.    
+            
+        I think this is not a great question to put on a CS-1 exam beacuse it relies    
+        on terminology (statement, expression, side-effect) that doesn't really mean    
+        much until CS-2 or later.
+    - None of the above (i.e., all are correct)    
+      
+
+      - Basically, a statement in Python is a special kind of function that doesn't    
+        return a value.  Statements are things like `print` (in Python 2.x but not    
+        Python 3) and `import`.    
+            
+        I think this is not a great question to put on a CS-1 exam beacuse it relies    
+        on terminology (statement, expression, side-effect) that doesn't really mean    
+        much until CS-2 or later.

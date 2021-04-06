@@ -1,0 +1,25 @@
+.. mchoice:: canterburyqb_634201
+    :basecourse: canterburyqb
+        
+    Noor writes a program in C to evulate some Taylor series, to help her with her    
+    calculus homework. She remembers to\ ``#include<math.h>`` before calling the\ ``pow`` function. But when she compiles with ``gcc taylor.c``\ , she gets an error    
+    that ``pow`` is undefined. What she should instead type in the command-line to    
+    compile successfully?    
+    
+
+    - gcc taylor.c -01    
+      
+
+      - -lm will manually link the math library.
+    - gcc taylor.c -lm    
+      
+
+      + Correct!
+    - gcc taylor.c -math    
+      
+
+      - -lm will manually link the math library.
+    - gcc taylor.c -o taylor    
+      
+
+      - -lm will manually link the math library.

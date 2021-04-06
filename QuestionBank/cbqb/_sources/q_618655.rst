@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_618655
+    :basecourse: canterburyqb
+        
+    A compiler error existed in this code. Why is that happening?    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+        int testCount;    
+        
+        public static int getCount(){    
+        
+             return testCount;    
+        
+        }    
+        
+        public test(){    
+        
+            testCount ++;    
+        
+        }    
+        
+        
+    }    
+    
+
+    - testCount has not been initialized.    
+      
+
+      - testCount as a non-static variable cannot be referenced in a static method    
+        such as getCount() .
+    - testCount has never been used.    
+      
+
+      - testCount as a non-static variable cannot be referenced in a static method    
+        such as getCount() .
+    - testCount as a non-static variable cannot be referenced in a static method    
+      such as getCount() .    
+      
+
+      + Correct!
+    - testCount's access modifier is not public.    
+      
+
+      - testCount as a non-static variable cannot be referenced in a static method    
+        such as getCount() .

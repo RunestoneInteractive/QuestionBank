@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052855
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q9:</strong><br />Consider the following code which modifies an array:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int values[5] = { 1, 2, 3, 4, 5 };</span><br /><span style="font-family: courier new, courier, monospace;">int i;</span><br /><span style="font-family: courier new, courier, monospace;">for (i = 0; i &lt; 5; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; values[(i+1)%5] = values[(i+3)%5];</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>After this code has executed, in what order will the elements be in the array?</p>
+    
+
+    - { 5, 4, 5, 1, 4 }    
+      
+
+      + Correct!
+    - { 3, 4, 5, 1, 2 }    
+      
+
+      - Incorrect
+    - { 5, 4, 5, 1, 2 }    
+      
+
+      - Incorrect
+    - { 4, 5, 1, 2, 3 }    
+      
+
+      - Incorrect
+    - { 3, 4, 5, 5, 5 }    
+      
+
+      - Incorrect

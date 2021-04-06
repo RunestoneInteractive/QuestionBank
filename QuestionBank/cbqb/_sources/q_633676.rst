@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_633676
+    :basecourse: canterburyqb
+        
+    Suppose you want to write a Python function that takes a list as a parameter    
+    and returns True if there are no instances of 3 immediately followed by a 4,    
+    and False otherwise.    
+        
+    So this list returns True: [ 3 5 4 ]    
+        
+    But this list returns false: [ 1 2 3 4 5 ].    
+        
+    The following code has a bug in it.  Which line contains the bug?    
+        
+    .. code-block::    
+        
+        
+           def no34(nums):    
+             for i in range(len(nums)):               #line1    
+               if nums[i]==3 and nums[i+1]==4:        #line2    
+                 return False                         #line3    
+             return True                              #line4    
+    
+
+    - line1    
+      
+
+      + Correct!
+    - line2    
+      
+
+      - This will go over the edge of the list!  Line1 should be:    
+            
+        `for i in range(len(nums) **-1** ):`
+    - line3    
+      
+
+      - This will go over the edge of the list!  Line1 should be:    
+            
+        `for i in range(len(nums) **-1** ):`
+    - line4    
+      
+
+      - This will go over the edge of the list!  Line1 should be:    
+            
+        `for i in range(len(nums) **-1** ):`

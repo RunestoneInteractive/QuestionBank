@@ -1,0 +1,65 @@
+.. mchoice:: canterburyqb_630970
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/31.png    
+       :target: img/31.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose an ``Oak`` prepares for    
+    winter like a ``Tree``\ , but it drops its leaves first. What code should replace    
+    ``???`` in the following code?    
+        
+    .. code-block::    
+        
+        
+           public class Oak extends Tree {    
+              ...    
+              public void prepareForWinter(){    
+                 this.dropLeaves();    
+                 ???    
+              }    
+           }    
+    
+
+    - ``Tree.prepareForWinter();``    
+      
+
+      - To make an Oak prepare for winter "like a tree" after dropping its leaves,    
+        you can simply have Oak invoke Tree's prepareForWinter method.    
+            
+        Alternative A would work if prepareForWinter were static, but that is not    
+        indicated on this diagram (and would be really odd from a modeling    
+        perspective).
+    - ``super.this();``    
+      
+
+      - To make an Oak prepare for winter "like a tree" after dropping its leaves,    
+        you can simply have Oak invoke Tree's prepareForWinter method.    
+            
+        Alternative A would work if prepareForWinter were static, but that is not    
+        indicated on this diagram (and would be really odd from a modeling    
+        perspective).
+    - ``super.prepareForWinter();``    
+      
+
+      + Correct!
+    - ``this.absorb(new Water());``    
+      
+
+      - To make an Oak prepare for winter "like a tree" after dropping its leaves,    
+        you can simply have Oak invoke Tree's prepareForWinter method.    
+            
+        Alternative A would work if prepareForWinter were static, but that is not    
+        indicated on this diagram (and would be really odd from a modeling    
+        perspective).
+    - ``super(this);``    
+      
+
+      - To make an Oak prepare for winter "like a tree" after dropping its leaves,    
+        you can simply have Oak invoke Tree's prepareForWinter method.    
+            
+        Alternative A would work if prepareForWinter were static, but that is not    
+        indicated on this diagram (and would be really odd from a modeling    
+        perspective).

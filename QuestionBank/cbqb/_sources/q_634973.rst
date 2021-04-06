@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_634973
+    :basecourse: canterburyqb
+        
+    Suppose all of the computer's memory is available to you, and no other storage    
+    is available. Every time your array is filled to its capacity, you enlarge it    
+    by creating an array twice the size of the original, if sufficient memory is    
+    available, and copying over all elements. How large can your growable array    
+    get?    
+    
+
+    - 50% of memory    
+      
+
+      - When the array consumes 33% of memory and needs to expand, it can do so. The    
+        new array will consume 66% of memory. After this, there is not enough room for    
+        a larger array.
+    - 100% of memory    
+      
+
+      - When the array consumes 33% of memory and needs to expand, it can do so. The    
+        new array will consume 66% of memory. After this, there is not enough room for    
+        a larger array.
+    - 25% of memory    
+      
+
+      - When the array consumes 33% of memory and needs to expand, it can do so. The    
+        new array will consume 66% of memory. After this, there is not enough room for    
+        a larger array.
+    - 33% of memory    
+      
+
+      - When the array consumes 33% of memory and needs to expand, it can do so. The    
+        new array will consume 66% of memory. After this, there is not enough room for    
+        a larger array.
+    - 66% of memory    
+      
+
+      + Correct!

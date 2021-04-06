@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052705
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q15:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int ratings[3][3] = {{1,2,3}, {10, 20, 30}, {100,200,300}};</span><br /><span style="font-family: courier new,courier,monospace;">int i, sum;</span></p><p><span style="font-family: courier new,courier,monospace;">sum = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 3; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; sum += ratings[1][i];</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Sum = %d", sum);</span></p>
+    
+
+    - Sum = 111    
+      
+
+      - Incorrect
+    - Sum = 60    
+      
+
+      + Correct!
+    - Sum = 321    
+      
+
+      - Incorrect
+    - Sum = 222    
+      
+
+      - Incorrect
+    - Sum = 6    
+      
+
+      - Incorrect

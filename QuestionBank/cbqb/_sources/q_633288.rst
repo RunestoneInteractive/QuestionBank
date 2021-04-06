@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633288
+    :basecourse: canterburyqb
+        
+    What operation contributes the log N to heap sort's O(N log N) complexity?    
+    
+
+    - Trickling up only    
+      
+
+      - The heapsort involves inserting all elements and removing all elements.    
+        Inserting requires a trickle up and removing requires a trickle down.
+    - Trickling down only    
+      
+
+      - The heapsort involves inserting all elements and removing all elements.    
+        Inserting requires a trickle up and removing requires a trickle down.
+    - Both trickling up and trickling down    
+      
+
+      + Correct!
+    - Searching the array    
+      
+
+      - The heapsort involves inserting all elements and removing all elements.    
+        Inserting requires a trickle up and removing requires a trickle down.
+    - Splitting the array in half    
+      
+
+      - The heapsort involves inserting all elements and removing all elements.    
+        Inserting requires a trickle up and removing requires a trickle down.

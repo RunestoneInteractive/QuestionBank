@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_618506
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    How many times the capacity of the vector in following code changes?    
+        
+    Vector\ :raw-html-m2r:`<Integer>` intVect = new Vector\ :raw-html-m2r:`<Integer>`\ (10,2);    
+        
+    for (int i = 0; i <40; i++)    
+        
+    .. code-block::    
+        
+        intVect.add(i);    
+    
+
+    - 2    
+      
+
+      - 15
+    - 5    
+      
+
+      - 15
+    - 15    
+      
+
+      + Correct!
+    - 30    
+      
+
+      - 15

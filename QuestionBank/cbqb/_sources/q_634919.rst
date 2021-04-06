@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_634919
+    :basecourse: canterburyqb
+        
+    Grace has written a method to pop from a stack; fill in the pre-condition.    
+        
+    ``struct node* pop(struct node **head)``    
+        
+    .. code-block::    
+        
+        
+           {    
+               // pops the stack pointed to by head; does nothing to alter that node    
+               // PRE:    
+               // POST: head now points to what was the second element of the list    
+               struct node* to_pop = *head;    
+               *head = (*head)->next;    
+               return to_pop;    
+           }    
+    
+
+    - head != NULL    
+      
+
+      - *head != NULL is the best answer of A-C as it has the closest level of detail to what is used in the code
+    - *head != NULL    
+      
+
+      + Correct!
+    - **head != NULL    
+      
+
+      - *head != NULL is the best answer of A-C as it has the closest level of detail to what is used in the code
+    - to_pop != NULL    
+      
+
+      - *head != NULL is the best answer of A-C as it has the closest level of detail to what is used in the code

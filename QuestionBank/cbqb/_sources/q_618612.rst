@@ -1,0 +1,83 @@
+.. mchoice:: canterburyqb_618612
+    :basecourse: canterburyqb
+        
+    What will be the output?    
+        
+    class Pen{    
+        
+    .. code-block::    
+        
+          float hight;    
+        
+          public Pen(){    
+        
+              hight = 0;    
+        
+          }    
+        
+          public Pen ( float h){    
+        
+              hight = h;    
+        
+          }    
+        
+        
+    }    
+        
+    class Pencil extends Pen{    
+        
+    .. code-block::    
+        
+         String type;    
+        
+         public Pencil(){    
+        
+              type = null;    
+        
+        }    
+        
+        public Pencil (String t){    
+        
+              type = t;    
+        
+        }    
+        
+        
+    }    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+         public static void main(String[] arg){    
+        
+                 Pen mypen = new Pen(10);    
+        
+                System.out.print(mypen.hight+ " ");    
+        
+                Pencil mypencil = new Pencil("HB");    
+        
+                System.out.println(mypencil.hight + " "+ mypencil.type);    
+        
+         }    
+        
+        
+    }    
+    
+
+    - 10.0 0.0 HB    
+      
+
+      + Correct!
+    - 10.0 10.0 HB    
+      
+
+      - A compiler error
+    - A compiler error    
+      
+
+      - A compiler error
+    - A runtime error    
+      
+
+      - A compiler error

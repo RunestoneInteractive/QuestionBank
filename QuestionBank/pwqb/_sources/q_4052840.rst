@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052840
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q13:</strong><br />A 2D array is initialised with the following statement:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int ratings[3][3] = {{1,2,3},{10, 20, 30},{100,200,300}};</span></p><p>&nbsp;</p><p>This array can be visualised as follows:</p><p>&nbsp;</p><p><img src="../images/view.php?file=347707" alt="no description" width="167" height="124" /></p><p>&nbsp;</p><p>What output would be produced by the following code fragment that processes this array?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int i, j;</span><br /><span style="font-family: courier new, courier, monospace;">int sum1 = 0;</span><br /><span style="font-family: courier new, courier, monospace;">int sum2 = 0;</span></p><p><br /><span style="font-family: courier new, courier, monospace;">for (i = 0; i &lt; 3; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; for (j = 0; j &lt; 3; j++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum1 += ratings[i][j];</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; sum2 += ratings[i][2];</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p><br /><span style="font-family: courier new, courier, monospace;">printf("Result = %d %d", sum1, sum2);</span></p>
+    
+
+    - Result = 666 333    
+      
+
+      + Correct!
+    - Result = 300 222    
+      
+
+      - Incorrect
+    - Result = 300 60    
+      
+
+      - Incorrect
+    - Result = 666 222    
+      
+
+      - Incorrect
+    - Result = 666 60    
+      
+
+      - Incorrect

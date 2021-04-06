@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_633095
+    :basecourse: canterburyqb
+        
+    In this question, you are given a Perl regular expression that you are    
+    required to evaluate.    
+        
+    There are no leading or trailing spaces in any of the text, nor are there any    
+    spaces in the regex.    
+        
+    Identify the answer which matches the regex below:    
+        
+    /[A-Z][a-z]{2,4}day/    
+    
+
+    - Saturday    
+      
+
+      + Correct!
+    - tuesday    
+      
+
+      - Must start with an upper case letter, be followed by from 2 to 4 lower case    
+        letters, and be followed by day.
+    - Yesterday    
+      
+
+      - Must start with an upper case letter, be followed by from 2 to 4 lower case    
+        letters, and be followed by day.
+    - Today    
+      
+
+      - Must start with an upper case letter, be followed by from 2 to 4 lower case    
+        letters, and be followed by day.
+    - THURSDAY    
+      
+
+      - Must start with an upper case letter, be followed by from 2 to 4 lower case    
+        letters, and be followed by day.

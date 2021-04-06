@@ -1,0 +1,53 @@
+.. mchoice:: canterburyqb_632063
+    :basecourse: canterburyqb
+        
+    An array has been declared as shown then used to store the data in the table    
+    below.    
+        
+    int iTable[3][5]; /\ * Declaration *\ /    
+        
+    27 32 14   9 26    
+        
+    74 42 30 15 19    
+        
+    41 63 48 20  3    
+        
+    What is the value of iTable [3] [4]?    
+    
+
+    - 3    
+      
+
+      - The index values for the array start from 0 so iTable [3] [4] refers to the    
+        4th row and the 5th column, where the 4th row does not exist    
+            
+        for additional explanation cf.    
+        http://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm
+    - B    
+      
+
+      - The index values for the array start from 0 so iTable [3] [4] refers to the    
+        4th row and the 5th column, where the 4th row does not exist    
+            
+        for additional explanation cf.    
+        http://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm
+    - 19    
+      
+
+      - The index values for the array start from 0 so iTable [3] [4] refers to the    
+        4th row and the 5th column, where the 4th row does not exist    
+            
+        for additional explanation cf.    
+        http://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm
+    - 20    
+      
+
+      - The index values for the array start from 0 so iTable [3] [4] refers to the    
+        4th row and the 5th column, where the 4th row does not exist    
+            
+        for additional explanation cf.    
+        http://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm
+    - iTable[3][4] does not exist    
+      
+
+      + Correct!

@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_631874
+    :basecourse: canterburyqb
+        
+    Given the code:    
+        
+    .. code-block::    
+        
+        
+           if (x >= 0)    
+              System.out.println("1");    
+           else if (x < 20)    
+              System.out.println("2");    
+           else    
+              System.out.println("3");    
+           System.out.println("4");    
+        
+    for what integer values of x will 3 be among the values printed?    
+    
+
+    - x < 0    
+      
+
+      - The if-condition is true for all values of x >= 0; the if-else condition is    
+        true for all values of x < 0\. So that doesn't leave any possible values for    
+        the else-clause.
+    - x >= 0    
+      
+
+      - The if-condition is true for all values of x >= 0; the if-else condition is    
+        true for all values of x < 0\. So that doesn't leave any possible values for    
+        the else-clause.
+    - x < 20    
+      
+
+      - The if-condition is true for all values of x >= 0; the if-else condition is    
+        true for all values of x < 0\. So that doesn't leave any possible values for    
+        the else-clause.
+    - All values of x    
+      
+
+      - The if-condition is true for all values of x >= 0; the if-else condition is    
+        true for all values of x < 0\. So that doesn't leave any possible values for    
+        the else-clause.
+    - None of the above.    
+      
+
+      + Correct!

@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_633661
+    :basecourse: canterburyqb
+        
+    Which of these relationships best exemplify the "IS-A" relationships in    
+    object-oriented programming (OOP)?    
+    
+
+    - Empire State Building IS-A Building    
+      
+
+      - A and C are wrong because the Empire State Building would be best be described    
+        as an instance of the category Cuilding, while Angry Cat is an instance of the    
+        category Cat.    
+            
+        B is correct because Cat is a sub-category of Mammal, which best exemplifies    
+        the IS-A relations.  In OOP, the IS-A relationship is used to denote    
+        relationships between classes, which are sort of like categories.
+    - Cat IS-A Mammal    
+      
+
+      + Correct!
+    - Angry Cat IS-A Cat    
+          
+      (Note that "Angry Cat" is a specific cat that has become an online internet    
+      meme)    
+      
+
+      - A and C are wrong because the Empire State Building would be best be described    
+        as an instance of the category Cuilding, while Angry Cat is an instance of the    
+        category Cat.    
+            
+        B is correct because Cat is a sub-category of Mammal, which best exemplifies    
+        the IS-A relations.  In OOP, the IS-A relationship is used to denote    
+        relationships between classes, which are sort of like categories.
+    - All of the above    
+      
+
+      - A and C are wrong because the Empire State Building would be best be described    
+        as an instance of the category Cuilding, while Angry Cat is an instance of the    
+        category Cat.    
+            
+        B is correct because Cat is a sub-category of Mammal, which best exemplifies    
+        the IS-A relations.  In OOP, the IS-A relationship is used to denote    
+        relationships between classes, which are sort of like categories.
+    - None of the above    
+      
+
+      - A and C are wrong because the Empire State Building would be best be described    
+        as an instance of the category Cuilding, while Angry Cat is an instance of the    
+        category Cat.    
+            
+        B is correct because Cat is a sub-category of Mammal, which best exemplifies    
+        the IS-A relations.  In OOP, the IS-A relationship is used to denote    
+        relationships between classes, which are sort of like categories.

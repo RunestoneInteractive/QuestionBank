@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_631929
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    After the assignment statement\ :raw-html-m2r:`<br>`    
+    ``String word = "entropy";``\ :raw-html-m2r:`<br>`    
+    what is returned by\ :raw-html-m2r:`<br>`    
+    ``word.substring(2);``    
+        
+    ?    
+    
+
+    - "en"    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index n and    
+        ends at the end of the `String`.
+    - "tropy"    
+      
+
+      + Correct!
+    - "entropy"    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index n and    
+        ends at the end of the `String`.
+    - An error    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index n and    
+        ends at the end of the `String`.
+    - None of the above    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index n and    
+        ends at the end of the `String`.

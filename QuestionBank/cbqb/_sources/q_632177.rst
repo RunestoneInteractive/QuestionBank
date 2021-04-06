@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_632177
+    :basecourse: canterburyqb
+        
+    How many times will the printf statement be executed in this code?    
+        
+    In each case assume the definition    
+        
+    int i = 0;    
+        
+    WARNING There are some very nasty traps in some of the code here. LOOK AT IT    
+    ALL VERY CAREFULLY!    
+        
+     do    
+        
+    {    
+        
+    .. code-block::    
+        
+        printf("Count me!");    
+        
+        i++;    
+        
+        
+    } while(++i < 10);    
+    
+
+    - 0    
+      
+
+      - The line i++; in the body of the loop after the printf function, in    
+        combination with the ++i preceding each iteration in the while loop, causes    
+        the index to increment twice in each iteration, so the printf function is only    
+        executed 5 times
+    - 5    
+      
+
+      + Correct!
+    - 6    
+      
+
+      - The line i++; in the body of the loop after the printf function, in    
+        combination with the ++i preceding each iteration in the while loop, causes    
+        the index to increment twice in each iteration, so the printf function is only    
+        executed 5 times
+    - 10    
+      
+
+      - The line i++; in the body of the loop after the printf function, in    
+        combination with the ++i preceding each iteration in the while loop, causes    
+        the index to increment twice in each iteration, so the printf function is only    
+        executed 5 times
+    - 11    
+      
+
+      - The line i++; in the body of the loop after the printf function, in    
+        combination with the ++i preceding each iteration in the while loop, causes    
+        the index to increment twice in each iteration, so the printf function is only    
+        executed 5 times

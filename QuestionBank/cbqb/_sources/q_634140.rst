@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_634140
+    :basecourse: canterburyqb
+        
+    Consider the code    
+        
+    ``int *p, *q, i;``    
+        
+    .. code-block::    
+        
+        
+           i = 3;    
+           q = p;    
+           q = &i;    
+           printf("The value of p is %d which points to %d.\n", p, *p);    
+        
+    Which of the following would you expect the program to print?    
+    
+
+    - The value of p is 0x3eee198e1e1 which points to 3.    
+      
+
+      - p was never assigned! While p and q are sharing for a while that does not mean    
+        they are the same.
+    - The value of p is 0 which points to 0.    
+      
+
+      - p was never assigned! While p and q are sharing for a while that does not mean    
+        they are the same.
+    - The value of p is -29389112111 which points to 3.    
+      
+
+      - p was never assigned! While p and q are sharing for a while that does not mean    
+        they are the same.
+    - Segmentation fault    
+      
+
+      + Correct!

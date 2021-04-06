@@ -1,0 +1,76 @@
+.. mchoice:: canterburyqb_635128
+    :basecourse: canterburyqb
+        
+    Assume that an object of the following class has just been created:    
+        
+    .. code-block::    
+        
+        
+           public class Unknown    
+           {    
+               private int x;    
+        
+               public Unknown()    
+               {    
+                   x = 17;    
+                   method1();    
+                   method2(5);    
+                   method3();    
+                   System.out.println(x);      // Line D    
+               }    
+        
+               public void method1()    
+               {    
+                   --x;    
+                   int x = this.x;    
+                   x++;    
+                   System.out.println(this.x); // Line A    
+               }    
+        
+               public void method2(int x)    
+               {    
+                   x++;    
+                   System.out.println(x);      // Line B    
+               }    
+        
+               public void method3()    
+               {    
+                   --x;    
+                   int x = 2;    
+                   x++;    
+                   System.out.println(x);      // Line C    
+               }    
+           }    
+        
+    What output is produced by **Line C** when an instance of this class is    
+    created?    
+    
+
+    - 2    
+      
+
+      - Line C prints the value of the local variable called `x` declared in    
+        `method3()`.  That variable is initialized to 2 in its declaration, and then    
+        incremented on the following line of `method3()`, so the value printed is 3.
+    - 3    
+      
+
+      + Correct!
+    - 15    
+      
+
+      - Line C prints the value of the local variable called `x` declared in    
+        `method3()`.  That variable is initialized to 2 in its declaration, and then    
+        incremented on the following line of `method3()`, so the value printed is 3.
+    - 16    
+      
+
+      - Line C prints the value of the local variable called `x` declared in    
+        `method3()`.  That variable is initialized to 2 in its declaration, and then    
+        incremented on the following line of `method3()`, so the value printed is 3.
+    - 17    
+      
+
+      - Line C prints the value of the local variable called `x` declared in    
+        `method3()`.  That variable is initialized to 2 in its declaration, and then    
+        incremented on the following line of `method3()`, so the value printed is 3.

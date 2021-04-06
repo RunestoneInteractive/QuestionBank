@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_632280
+    :basecourse: canterburyqb
+        
+    If the StackADT operation ``push`` is implemented using a linked list, the big-    
+    Oh time complexity of the method is:    
+    
+
+    - O(1)    
+      
+
+      + Correct!
+    - O(log2n)    
+      
+
+      - The push method adds a new element to a stack. Regardless of the size of the    
+        list, the operations needed to add a new element include creating a node to    
+        store it in and setting the values of a few pointers, all of which can be done    
+        in constant time.
+    - O(n)    
+      
+
+      - The push method adds a new element to a stack. Regardless of the size of the    
+        list, the operations needed to add a new element include creating a node to    
+        store it in and setting the values of a few pointers, all of which can be done    
+        in constant time.
+    - O(n2)    
+      
+
+      - The push method adds a new element to a stack. Regardless of the size of the    
+        list, the operations needed to add a new element include creating a node to    
+        store it in and setting the values of a few pointers, all of which can be done    
+        in constant time.
+    - O(2n)    
+      
+
+      - The push method adds a new element to a stack. Regardless of the size of the    
+        list, the operations needed to add a new element include creating a node to    
+        store it in and setting the values of a few pointers, all of which can be done    
+        in constant time.

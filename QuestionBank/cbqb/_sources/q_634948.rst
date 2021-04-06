@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_634948
+    :basecourse: canterburyqb
+        
+    When we use recursion to solve a problem, we have    
+        
+        
+    #. a problem that contains one or more problems that are similar to itself    
+    #. a version of the problem that is simple enough to be solved by itself, without recursion, and    
+    #. a way of making the the problem simpler so that it is closer to (and ultimately the same as) the version in 2.    
+        
+    What is 2. called?    
+    
+
+    - The simple case    
+      
+
+      - Base case is the term we use for the case that is simple enough to solve    
+        directly.   We probably lifted the term from induction proofs in Mathematics,    
+        which is fitting.
+    - The inductive case    
+      
+
+      - Base case is the term we use for the case that is simple enough to solve    
+        directly.   We probably lifted the term from induction proofs in Mathematics,    
+        which is fitting.
+    - The base case    
+      
+
+      + Correct!
+    - The iterative case    
+      
+
+      - Base case is the term we use for the case that is simple enough to solve    
+        directly.   We probably lifted the term from induction proofs in Mathematics,    
+        which is fitting.
+    - None of the above    
+      
+
+      - Base case is the term we use for the case that is simple enough to solve    
+        directly.   We probably lifted the term from induction proofs in Mathematics,    
+        which is fitting.

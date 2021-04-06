@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_634979
+    :basecourse: canterburyqb
+        
+    An NP-Complete problem is:    
+    
+
+    - solvable, and the best known solution runs in polynomial time (i.e. feasible)    
+      
+
+      - NP-Complete problems typically have rather simplistic algorithmic solutions.    
+        The problem is that these solutions require exponential time to run.
+    - solvable, and the best known solution is not feasible (i.e. runs in    
+      exponential time)    
+      
+
+      + Correct!
+    - currently unsolvable, but researchers are hoping to find a solution.    
+      
+
+      - NP-Complete problems typically have rather simplistic algorithmic solutions.    
+        The problem is that these solutions require exponential time to run.
+    - provably unsolvable: it has been shown that this problem has no algorithmic    
+      solution.    
+      
+
+      - NP-Complete problems typically have rather simplistic algorithmic solutions.    
+        The problem is that these solutions require exponential time to run.

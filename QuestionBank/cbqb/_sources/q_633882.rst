@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633882
+    :basecourse: canterburyqb
+        
+    Barack Obama wants to know the most efficient way to sort a million 32-bit    
+    integers. He knows it's not bubble sort. What is?    
+    
+
+    - Heapsort    
+      
+
+      - Radix sort will be O(n) and works nicely on integers; at such a large scale it    
+        will outperform the O(nlgn) sorting algorithms.    
+            
+        (question is a reference to http://www.youtube.com/watch?v=k4RRi_ntQc8 )
+    - Insertion sort    
+      
+
+      - Radix sort will be O(n) and works nicely on integers; at such a large scale it    
+        will outperform the O(nlgn) sorting algorithms.    
+            
+        (question is a reference to http://www.youtube.com/watch?v=k4RRi_ntQc8 )
+    - Mergesort    
+      
+
+      - Radix sort will be O(n) and works nicely on integers; at such a large scale it    
+        will outperform the O(nlgn) sorting algorithms.    
+            
+        (question is a reference to http://www.youtube.com/watch?v=k4RRi_ntQc8 )
+    - Radix sort    
+      
+
+      + Correct!
+    - Quicksort    
+      
+
+      - Radix sort will be O(n) and works nicely on integers; at such a large scale it    
+        will outperform the O(nlgn) sorting algorithms.    
+            
+        (question is a reference to http://www.youtube.com/watch?v=k4RRi_ntQc8 )

@@ -1,0 +1,84 @@
+.. mchoice:: canterburyqb_632107
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider this code. It is part of a program that receives MMP list votes from    
+    constituencies and stores them in a database. The field PartyName stores the    
+    names of each party involved, and the field VoteTotal keeps a running total of    
+    list votes for a party. Tally is a table-type Recordset.    
+        
+    Do    
+        
+       ' Get a name and vote pair from the newly arrived text    
+        
+       ' Returns 0 when there are no more pairs    
+        
+       Start% = ExtractNextPair((txtData.Caption), Start%,_\ :raw-html-m2r:`<br>`    
+                                                    PartyName$,_Votes&)    
+        
+       If Start% > 0 Then    
+        
+    .. code-block::    
+        
+        ' See if the party name is already present    
+        
+        KeyField$ = UCase$(Trim$(PartyName$))    
+        
+       Tally.Seek "=", KeyField$    
+        
+        If Tally.NoMatch Then    
+        
+          ' Add a new record    
+        
+          Tally.AddNew    
+        
+          Tally("PartyName") = KeyField$    
+        
+          Tally("VoteTotal") = Votes    
+        
+       Else    
+        
+           ' Update the existing record - add latest votes    
+        
+           Tally.Edit    
+        
+           Tally("VoteTotal") = Tally("VoteTotal") + Votes    
+        
+       End If    
+        
+        
+      End If    
+        
+    Loop While Start% > 0    
+        
+    Tally.Update    
+        
+    Why does this code not successfully store all the incoming data?    
+    
+
+    - The loop logic is wrong - it should be Start% < 0    
+      
+
+      - Because the line Tally.Update is outside the loop it is only executed once at    
+        the end of the program
+    - There was no call to Tally.Refresh    
+      
+
+      - Because the line Tally.Update is outside the loop it is only executed once at    
+        the end of the program
+    - There was no call to Tally.UpdateRecords    
+      
+
+      - Because the line Tally.Update is outside the loop it is only executed once at    
+        the end of the program
+    - The line Tally.Update must come inside the loop    
+      
+
+      + Correct!
+    - The AddNew and Edit lines should be swapped    
+      
+
+      - Because the line Tally.Update is outside the loop it is only executed once at    
+        the end of the program

@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_632112
+    :basecourse: canterburyqb
+        
+    What node will be visited prior to E in an inorder traversal of the following    
+    tree?    
+        
+        
+    .. image:: img/46.gif    
+       :target: img/46.gif    
+       :alt: no description    
+        
+    
+
+    - A    
+      
+
+      - C
+    - B    
+      
+
+      - C
+    - C    
+      
+
+      + Correct!
+    - D    
+      
+
+      - C

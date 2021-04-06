@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_634977
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following class definition:    
+        
+    public class Mystery {    
+        
+    private ArrayList\ :raw-html-m2r:`<Stuff>` myStuff;    
+        
+    public Mystery() {\ :raw-html-m2r:`<br>`    
+       myStuff = new ArrayList\ :raw-html-m2r:`<Stuff>` ();\ :raw-html-m2r:`<br>`    
+    }    
+        
+    public Stuff foo1 (int id) {\ :raw-html-m2r:`<br>`    
+       int i = 42;    
+        
+       ... code deleted...    
+        
+       return myStuff[i];      
+        
+    }    
+        
+    public void foo2 (int id) {\ :raw-html-m2r:`<br>`    
+       int i = -2;    
+        
+       ... code deleted...      
+        
+    }    
+        
+    public Stuff foo3 (int id) {\ :raw-html-m2r:`<br>`    
+       int i = 0;\ :raw-html-m2r:`<br>`    
+       ... code deleted...\ :raw-html-m2r:`<br>`    
+       return myStuff[i];\ :raw-html-m2r:`<br>`    
+    }    
+        
+    } // End of class Mystery    
+        
+    True or False: "i" should be upgraded to an instance variable.    
+    
+
+    - True    
+      
+
+      - False.  Instance variables should only be declared for persistent data.  "i"    
+        is a local variable which contains no persistent data.  Even though it is used    
+        in ALL the class's methods, that is not justification to make it an instance    
+        variable.
+    - False    
+      
+
+      + Correct!

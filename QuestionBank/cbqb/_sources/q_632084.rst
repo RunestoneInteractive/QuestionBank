@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_632084
+    :basecourse: canterburyqb
+        
+    Before testing an executable version of your program with data from a test    
+    file using DOS redirection, you should remove all calls to fflush from your    
+    program. Why is this necessary?    
+    
+
+    - fflush is not part of the ANSI C standard.    
+      
+
+      - fflush would read and ignore all remaining data in the test file, as it has    
+        already flushed the input buffer
+    - fflush is for debugging only. It causes a run time error in an exe file.    
+      
+
+      - fflush would read and ignore all remaining data in the test file, as it has    
+        already flushed the input buffer
+    - fflush would read and ignore all remaining data in the test file.    
+      
+
+      + Correct!
+    - fflush is not in any QuickC library.    
+      
+
+      - fflush would read and ignore all remaining data in the test file, as it has    
+        already flushed the input buffer
+    - fflush does not echo output to the screen.    
+      
+
+      - fflush would read and ignore all remaining data in the test file, as it has    
+        already flushed the input buffer

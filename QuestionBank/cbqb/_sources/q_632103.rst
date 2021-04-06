@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632103
+    :basecourse: canterburyqb
+        
+    Which data structure does java use when evaluates a mathematical expression in    
+    a program?    
+    
+
+    - A tree    
+      
+
+      - A linked list
+    - A binary tree    
+      
+
+      + Correct!
+    - A linked list    
+      
+
+      - A linked list
+    - An array    
+      
+
+      - A linked list

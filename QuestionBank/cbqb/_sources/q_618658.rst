@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_618658
+    :basecourse: canterburyqb
+        
+    A compiler error existed in this code. Why is that happening?    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+          final int testCount;    
+        
+          int classCount;    
+        
+          public int getCount(){    
+        
+                  return testCount+classCount;    
+        
+          }    
+        
+        
+    }    
+    
+
+    - testCount and classCount have not been initialized.    
+      
+
+      - classCount has not been initialized.
+    - testCount has not been initialized.    
+      
+
+      + Correct!
+    - classCount has not been initialized.    
+      
+
+      - classCount has not been initialized.
+    - testCount and classCount cannot be added in return statement.    
+      
+
+      - classCount has not been initialized.

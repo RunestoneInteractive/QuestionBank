@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052700
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q20:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i, temp;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int values[5] = {2,7,6,4,1};</span></p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 4; i &gt; 0; i--) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (values[i-1] &gt; values[i]) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; temp = values[i];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; values[i] = values[i-1];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; values[i-1] = temp;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Output = ");</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 0; i &lt; 5; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("%d ", values[i]);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Output = 2 7 6 4 1    
+      
+
+      - Incorrect
+    - Output = 2 6 4 1 7    
+      
+
+      - Incorrect
+    - Output = 7 6 4 2 1    
+      
+
+      - Incorrect
+    - Output = 1 2 7 6 4    
+      
+
+      + Correct!
+    - Output = 7 2 6 4 1    
+      
+
+      - Incorrect

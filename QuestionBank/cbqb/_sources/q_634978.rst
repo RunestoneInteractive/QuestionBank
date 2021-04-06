@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_634978
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/14.png    
+       :target: img/14.png    
+       :alt: no description    
+        
+        
+    GIven the "standard" set of Stack methods, what would ``fred.pop()`` return?    
+    
+
+    - A Node whose element is a blue Car    
+      
+
+      - Pop removes the most-recently pushed element from the Stack and returns it.    
+        What it returns is specified by the interface, which is independent of    
+        implementation.  A user should be able to interact with a stack using push,    
+        pop, peek, and isEmpty without knowing the implementation details.
+    - A Node whose element is a red Car    
+      
+
+      - Pop removes the most-recently pushed element from the Stack and returns it.    
+        What it returns is specified by the interface, which is independent of    
+        implementation.  A user should be able to interact with a stack using push,    
+        pop, peek, and isEmpty without knowing the implementation details.
+    - A blue Car    
+      
+
+      + Correct!
+    - A red Car    
+      
+
+      - Pop removes the most-recently pushed element from the Stack and returns it.    
+        What it returns is specified by the interface, which is independent of    
+        implementation.  A user should be able to interact with a stack using push,    
+        pop, peek, and isEmpty without knowing the implementation details.
+    - A Stack that contains the remaining Car    
+      
+
+      - Pop removes the most-recently pushed element from the Stack and returns it.    
+        What it returns is specified by the interface, which is independent of    
+        implementation.  A user should be able to interact with a stack using push,    
+        pop, peek, and isEmpty without knowing the implementation details.

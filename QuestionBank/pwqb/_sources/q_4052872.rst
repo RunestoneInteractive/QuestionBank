@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052872
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q2:</strong><br />What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int a = 1;</span><br /><span style="font-family: courier new, courier, monospace;">int b = 2;</span><br /><span style="font-family: courier new, courier, monospace;">int c = 3;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">a = c;</span><br /><span style="font-family: courier new, courier, monospace;">c = b;</span><br /><span style="font-family: courier new, courier, monospace;">b = a;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result = %d %d %d", a, b, c);</span></p>
+    
+
+    - ``Result = 3 2 1``    
+      
+
+      - Incorrect
+    - ``Result = 3 2 2``    
+      
+
+      - Incorrect
+    - ``Result = 3 3 1``    
+      
+
+      - Incorrect
+    - ``Result = 1 1 1``    
+      
+
+      - Incorrect
+    - ``Result = 3 3 2``    
+      
+
+      + Correct!

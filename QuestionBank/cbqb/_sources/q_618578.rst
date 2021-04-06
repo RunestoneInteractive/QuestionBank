@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_618578
+    :basecourse: canterburyqb
+        
+    What would be the most effective way of adding useGun() method to this    
+    structure. Note: useGun() can only be used for any type of fighters.    
+        
+        
+    .. image:: img/40.gif    
+       :target: img/40.gif    
+       :alt: no description    
+        
+    
+
+    - Add useGun() to GameActors class.    
+      
+
+      - Add useGun() to both GoodFighters and BadFighters class.
+    - Add useGun() to GameActors class and make this class abstract.    
+      
+
+      - Add useGun() to both GoodFighters and BadFighters class.
+    - Add useGun() to both GoodFighters and BadFighters class.    
+      
+
+      - Add useGun() to both GoodFighters and BadFighters class.
+    - Define an interface and add useGun() to this interface and let fighters to    
+      implement the interface.    
+      
+
+      + Correct!

@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_631452
+    :basecourse: canterburyqb
+        
+    Given the code    
+        
+    .. code-block::    
+        
+        
+           int x = 27;    
+           int y = 12;    
+        
+    What is the value of the expression  ``x/y``\ ?    
+    
+
+    - 2    
+      
+
+      + Correct!
+    - 2.25    
+      
+
+      - In Java, when we divide one int value by another, we get another integer. You    
+        can start by doing the usual division (which would give you 2.25 in this case)    
+        and then remove the decimal part.
+    - 3    
+      
+
+      - In Java, when we divide one int value by another, we get another integer. You    
+        can start by doing the usual division (which would give you 2.25 in this case)    
+        and then remove the decimal part.
+    - 3.0    
+      
+
+      - In Java, when we divide one int value by another, we get another integer. You    
+        can start by doing the usual division (which would give you 2.25 in this case)    
+        and then remove the decimal part.
+    - None of the above.    
+      
+
+      - In Java, when we divide one int value by another, we get another integer. You    
+        can start by doing the usual division (which would give you 2.25 in this case)    
+        and then remove the decimal part.

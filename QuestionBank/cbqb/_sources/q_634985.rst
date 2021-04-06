@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_634985
+    :basecourse: canterburyqb
+        
+    C++ uses    
+    
+
+    - call by name    
+      
+
+      - C++ defaults to call by value, but allows for special sytax to force call-    
+        reference.
+    - call by reference    
+      
+
+      - C++ defaults to call by value, but allows for special sytax to force call-    
+        reference.
+    - call by value    
+      
+
+      - C++ defaults to call by value, but allows for special sytax to force call-    
+        reference.
+    - call by value-return    
+      
+
+      - C++ defaults to call by value, but allows for special sytax to force call-    
+        reference.
+    - call by value AND call by reference    
+      
+
+      + Correct!

@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_633245
+    :basecourse: canterburyqb
+        
+    Two algorithms accomplish the same task on a collection of N items. Algorithm    
+    A performs N2 operations. Algorithm B performs 10N operations. Under what    
+    conditions does algorithm A offer better performance?    
+    
+
+    - N < 10    
+      
+
+      + Correct!
+    - N < 100    
+      
+
+      - The two algorithms offer equal performance when N = 10. For N greater than 10,    
+        N2 > 10N.
+    - N > 10    
+      
+
+      - The two algorithms offer equal performance when N = 10. For N greater than 10,    
+        N2 > 10N.
+    - For all N.    
+      
+
+      - The two algorithms offer equal performance when N = 10. For N greater than 10,    
+        N2 > 10N.
+    - For no N.    
+      
+
+      - The two algorithms offer equal performance when N = 10. For N greater than 10,    
+        N2 > 10N.

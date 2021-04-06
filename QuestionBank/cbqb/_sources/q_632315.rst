@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_632315
+    :basecourse: canterburyqb
+        
+    The dequeue operation:    
+    
+
+    - adds a new item at the front of a queue    
+      
+
+      - dequeue is the name for the operation that removes an element from a queue.    
+        Specifically, it removes the item that was added *first* (just as the first    
+        person in a line gets served first).
+    - returns without removing the item at the front of a queue    
+      
+
+      - dequeue is the name for the operation that removes an element from a queue.    
+        Specifically, it removes the item that was added *first* (just as the first    
+        person in a line gets served first).
+    - removes and returns the item at the front of a queue    
+      
+
+      + Correct!
+    - adds a new item at the end of a queue    
+      
+
+      - dequeue is the name for the operation that removes an element from a queue.    
+        Specifically, it removes the item that was added *first* (just as the first    
+        person in a line gets served first).
+    - returns true if a queue is empty and otherwise false    
+      
+
+      - dequeue is the name for the operation that removes an element from a queue.    
+        Specifically, it removes the item that was added *first* (just as the first    
+        person in a line gets served first).

@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_635028
+    :basecourse: canterburyqb
+        
+    Consider the code below; what value will p have at the end?    
+        
+    ``int *p, i;``    
+        
+    .. code-block::    
+        
+        
+            i = 2;    
+            p = &i;    
+            *p = 5;    
+        
+    ``i++;``    
+        
+    .. list-table::    
+       :header-rows: 1    
+        
+       * - Variable name    
+         - Variable's address    
+         - Variable's value      
+       * - p    
+         - 0x0000123abc    
+         -     
+       * - i    
+         - 0x567def0000    
+         - (withheld)    
+        
+    
+

@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_633235
+    :basecourse: canterburyqb
+        
+    What is printed when the following program runs?    
+        
+    .. code-block::    
+        
+        
+           public class Main {    
+             public static boolean getTrue() {    
+               System.out.print("T");    
+               return true;    
+             }    
+        
+             public static boolean getFalse() {    
+               System.out.print("F");    
+               return false;    
+             }    
+        
+             public static void main(String[] args) {    
+               getFalse() && getFalse();    
+             }    
+           }    
+    
+
+    - FF    
+      
+
+      - The first operand is false. && requires both operands to be true, so we don't    
+        bother evaluating the second.
+    - T    
+      
+
+      - The first operand is false. && requires both operands to be true, so we don't    
+        bother evaluating the second.
+    - TF    
+      
+
+      - The first operand is false. && requires both operands to be true, so we don't    
+        bother evaluating the second.
+    - F    
+      
+
+      + Correct!
+    - Nothing is printed.    
+      
+
+      - The first operand is false. && requires both operands to be true, so we don't    
+        bother evaluating the second.

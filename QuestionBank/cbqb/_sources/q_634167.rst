@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_634167
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Fill in the single missing line of code:\ :raw-html-m2r:`<br>`    
+    ``int p, *r, **q;``    
+        
+    .. code-block::    
+        
+        
+           p = 27;    
+           r = &p;    
+        
+    // MISSING LINE\ :raw-html-m2r:`<br>`    
+    ``printf("The value is %d", **q); // prints 27.``    
+    
+
+    - *q = *\ r;    
+      
+
+      - B gets q to point to r, which points to p.
+    - q = &r;    
+      
+
+      + Correct!
+    - **q = p;    
+      
+
+      - B gets q to point to r, which points to p.
+    - q = &&p;    
+      
+
+      - B gets q to point to r, which points to p.
+    - *q = *\ p;    
+      
+
+      - B gets q to point to r, which points to p.

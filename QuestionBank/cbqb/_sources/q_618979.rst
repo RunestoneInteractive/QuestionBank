@@ -1,0 +1,77 @@
+.. mchoice:: canterburyqb_618979
+    :basecourse: canterburyqb
+        
+    Which one of the codes bellow will NOT compute the summation of 10 consecutive    
+    even numbers starting from zero?    
+    
+
+    - sum = 0;    
+          
+      for (int i = 0; i <20 ; i = i+2){    
+          
+      .. code-block::    
+          
+         sum+=i;    
+          
+          
+      }    
+      
+
+      - sum = 0;    
+            
+        for (int i = 0; i <10 ; i= i+2){    
+            
+            sum+=i;    
+            
+        }
+    - sum = 0;    
+          
+      for (int i = 0; i <10 ; i++){    
+          
+      .. code-block::    
+          
+         sum+=i*2;    
+          
+          
+      }    
+      
+
+      - sum = 0;    
+            
+        for (int i = 0; i <10 ; i= i+2){    
+            
+            sum+=i;    
+            
+        }
+    - sum = 0;    
+          
+      for (int i = 0; i <10 ; i= i+2){    
+          
+      .. code-block::    
+          
+         sum+=i;    
+          
+          
+      }    
+      
+
+      + Correct!
+    - sum = 0;    
+          
+      for (int i = 0; i <20 ; i++){    
+          
+      .. code-block::    
+          
+         sum+=i/2;    
+          
+          
+      }    
+      
+
+      - sum = 0;    
+            
+        for (int i = 0; i <10 ; i= i+2){    
+            
+            sum+=i;    
+            
+        }

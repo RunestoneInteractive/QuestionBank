@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_633272
+    :basecourse: canterburyqb
+        
+    After the assignment ``signal = 'abracadabra'``\ , what is returned by    
+    ``signal[:5]``\ ?    
+    
+
+    - 'abraca'    
+      
+
+      - This is a slice operation.  Slices in Python work with both lists and with    
+        Strings, and go up to but not including the limit.  Since the limit is 5, we    
+        get the first 5 characters (indexed 0 through 4).  Hence abrac
+    - 'abrac'    
+      
+
+      + Correct!
+    - 'c'    
+      
+
+      - This is a slice operation.  Slices in Python work with both lists and with    
+        Strings, and go up to but not including the limit.  Since the limit is 5, we    
+        get the first 5 characters (indexed 0 through 4).  Hence abrac
+    - An error    
+      
+
+      - This is a slice operation.  Slices in Python work with both lists and with    
+        Strings, and go up to but not including the limit.  Since the limit is 5, we    
+        get the first 5 characters (indexed 0 through 4).  Hence abrac
+    - None of the above    
+      
+
+      - This is a slice operation.  Slices in Python work with both lists and with    
+        Strings, and go up to but not including the limit.  Since the limit is 5, we    
+        get the first 5 characters (indexed 0 through 4).  Hence abrac

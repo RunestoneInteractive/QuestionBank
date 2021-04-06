@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052703
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q17:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int values[10] = {33, 20, 19, 41, 7, 16, 38, 39, 2, 22};</span><br /><span style="font-family: courier new,courier,monospace;">int buckets[5] = {0};</span><br /><span style="font-family: courier new,courier,monospace;">int i;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 10; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; buckets[values[i]/10]++;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = ");</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 5; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", buckets[i]);</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = 2 3 2 3 2    
+      
+
+      - Incorrect
+    - Result = 1 3 2 2 2    
+      
+
+      - Incorrect
+    - Result = 1 2 3 4 5    
+      
+
+      - Incorrect
+    - Result = 2 2 2 3 1    
+      
+
+      + Correct!
+    - Result = 2 3 1 3 2    
+      
+
+      - Incorrect

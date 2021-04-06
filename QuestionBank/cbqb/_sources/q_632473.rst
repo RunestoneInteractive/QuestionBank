@@ -1,0 +1,46 @@
+.. mchoice:: canterburyqb_632473
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       public int factorial (int n) {    
+          if (n == 0)     
+             return 1;    
+          else if (n > 0)    
+             return n * factorial(n - 1);    
+          else     
+             return -1; // invalid input    
+       }    
+        
+        
+    ```    
+        
+    The Big-Oh time complexity of this method is:    
+    
+
+    - O(1)    
+      
+
+      - The factorial method will be called n times, so the time complexity is    
+        proportional to n.
+    - O(log n)    
+      
+
+      - The factorial method will be called n times, so the time complexity is    
+        proportional to n.
+    - O(n)    
+      
+
+      + Correct!
+    - O(n2)    
+      
+
+      - The factorial method will be called n times, so the time complexity is    
+        proportional to n.
+    - none of the above    
+      
+
+      - The factorial method will be called n times, so the time complexity is    
+        proportional to n.

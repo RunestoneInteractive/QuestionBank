@@ -1,0 +1,48 @@
+.. mchoice:: canterburyqb_634959
+    :basecourse: canterburyqb
+        
+    Which of the following abstract datatypes would be the best choice for part of    
+    the implementation of the part of a compiler that determines whether the    
+    parentheses in a program are balanced?    
+    
+
+    - A Stack    
+      
+
+      + Correct!
+    - A Queue    
+      
+
+      - A close parenthesis must match the most recently entered open parenthesis. So    
+        for example, the sequence )()(  doesn't match, while ()() and (()) do, even    
+        though they all have two open and two close parentheses. To make this work,    
+        you can push each open parenthesis on a Stack, and pop it off each time you    
+        see a close parenthesis. The last-in-first-out nature of a Stack makes it easy    
+        to determine whether the parentheses are balanced.
+    - A List    
+      
+
+      - A close parenthesis must match the most recently entered open parenthesis. So    
+        for example, the sequence )()(  doesn't match, while ()() and (()) do, even    
+        though they all have two open and two close parentheses. To make this work,    
+        you can push each open parenthesis on a Stack, and pop it off each time you    
+        see a close parenthesis. The last-in-first-out nature of a Stack makes it easy    
+        to determine whether the parentheses are balanced.
+    - A PriorityQueue    
+      
+
+      - A close parenthesis must match the most recently entered open parenthesis. So    
+        for example, the sequence )()(  doesn't match, while ()() and (()) do, even    
+        though they all have two open and two close parentheses. To make this work,    
+        you can push each open parenthesis on a Stack, and pop it off each time you    
+        see a close parenthesis. The last-in-first-out nature of a Stack makes it easy    
+        to determine whether the parentheses are balanced.
+    - A Dictionary    
+      
+
+      - A close parenthesis must match the most recently entered open parenthesis. So    
+        for example, the sequence )()(  doesn't match, while ()() and (()) do, even    
+        though they all have two open and two close parentheses. To make this work,    
+        you can push each open parenthesis on a Stack, and pop it off each time you    
+        see a close parenthesis. The last-in-first-out nature of a Stack makes it easy    
+        to determine whether the parentheses are balanced.

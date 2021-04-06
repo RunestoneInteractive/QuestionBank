@@ -1,0 +1,21 @@
+.. mchoice:: canterburyqb_632278
+    :basecourse: canterburyqb
+        
+    Which data structure uses space more efficiently if the program is storing    
+    substantially less data than expected?    
+    
+
+    - An array    
+      
+
+      - For an array, you must set aside a block of memory in advance. A linked list    
+        only creates nodes for those elements that are actually contained in the list.
+    - A linked list    
+      
+
+      + Correct!
+    - They are both the same    
+      
+
+      - For an array, you must set aside a block of memory in advance. A linked list    
+        only creates nodes for those elements that are actually contained in the list.

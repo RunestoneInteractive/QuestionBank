@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_630927
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/34.png    
+       :target: img/34.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose I have a method    
+    (defined in some other class not on this diagram) with signature:    
+        
+    ``public void transportPeople(PeopleHauler mobile)``    
+        
+    which methods can be used with parameter mobile in this method?    
+    
+
+    - All of the methods of ``mobile``\ 's actual class    
+      
+
+      - Only the methods defined in the `interface PeopleMover` can be used,    
+        independent of the actual type -- these are the only methods guaranteed to be    
+        present, as all we know about the variable is that it is some class that    
+        implements this `interface`
+    - Only ``move()`` and ``carryCargo()``    
+      
+
+      - Only the methods defined in the `interface PeopleMover` can be used,    
+        independent of the actual type -- these are the only methods guaranteed to be    
+        present, as all we know about the variable is that it is some class that    
+        implements this `interface`
+    - Only ``move()`` and ``holdPeople(int)``    
+      
+
+      + Correct!
+    - Only ``move(),`` carryCargo(), and ``holdPeople(int)``    
+      
+
+      - Only the methods defined in the `interface PeopleMover` can be used,    
+        independent of the actual type -- these are the only methods guaranteed to be    
+        present, as all we know about the variable is that it is some class that    
+        implements this `interface`
+    - Only ``move()``    
+      
+
+      - Only the methods defined in the `interface PeopleMover` can be used,    
+        independent of the actual type -- these are the only methods guaranteed to be    
+        present, as all we know about the variable is that it is some class that    
+        implements this `interface`

@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_633253
+    :basecourse: canterburyqb
+        
+    Which of the following lines of code will correctly read in the two floats x    
+    and y?    
+    
+
+    - scanf("%d%d", &x, &y);    
+      
+
+      - Scanf requires pointers to x and y -- hence the ampersands. As x and y are    
+        floats, %f is used for both.
+    - scanf("&d&d", %x, %y);    
+      
+
+      - Scanf requires pointers to x and y -- hence the ampersands. As x and y are    
+        floats, %f is used for both.
+    - scanf("%f%f", &x, &y);    
+      
+
+      + Correct!
+    - scanf("&f&f", %x, %y);    
+      
+
+      - Scanf requires pointers to x and y -- hence the ampersands. As x and y are    
+        floats, %f is used for both.

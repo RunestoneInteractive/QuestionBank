@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633374
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    You see the expression ``n = 47 in some code that successfully compiles. What    
+    type can``\ n not be\ ```?``\ :raw-html-m2r:`<br>`    
+    `    
+    
+
+    - int    
+      
+
+      - Ints cannot be stored in Strings directly.
+    - double    
+      
+
+      - Ints cannot be stored in Strings directly.
+    - float    
+      
+
+      - Ints cannot be stored in Strings directly.
+    - byte    
+      
+
+      - Ints cannot be stored in Strings directly.
+    - String    
+      
+
+      + Correct!

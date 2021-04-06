@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_634940
+    :basecourse: canterburyqb
+        
+    Jacob has written some code using our standard linked list node definition (it    
+    has an ``int val`` and a ``struct node *next``\ , in that order ):    
+        
+    ``struct node *my_node = malloc(sizeof(struct node));``    
+        
+    .. code-block::    
+        
+        
+           my_node->val = 4;    
+           my_node->next = NULL;    
+           struct node **ptr_node = &my_node;    
+           *(*ptr_node)++;    
+        
+    If the value of ``my_node`` is initially 0x50085008, what will the value of    
+    ``my_node`` most likely be after this code?    
+    
+
+    - 0x50085008    
+      
+
+      - You would it expect it to be 0x50085014 (0x50085008 + size of int + size of    
+        pointer), but C actually does address padding, pushing it up to 0x50085018,    
+        which is wha you would see if you run the code.
+    - 0x50085010    
+      
+
+      - You would it expect it to be 0x50085014 (0x50085008 + size of int + size of    
+        pointer), but C actually does address padding, pushing it up to 0x50085018,    
+        which is wha you would see if you run the code.
+    - 0x5008500C    
+      
+
+      - You would it expect it to be 0x50085014 (0x50085008 + size of int + size of    
+        pointer), but C actually does address padding, pushing it up to 0x50085018,    
+        which is wha you would see if you run the code.
+    - 0x50085018    
+      
+
+      + Correct!

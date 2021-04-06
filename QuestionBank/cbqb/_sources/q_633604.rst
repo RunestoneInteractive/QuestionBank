@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_633604
+    :basecourse: canterburyqb
+        
+    What wil the following code print, assuming that N is a positive integer?    
+        
+    .. code-block::    
+        
+        
+           int count=0;    
+           for (int i=0; i< **N** ; i++) {    
+              if (i % 2 == 0) {    
+                 count++;    
+              }    
+           }    
+           System.out.println(count);    
+    
+
+    - N    
+      
+
+      - If N is even, for example N=12, N/2 works.  However, suppose N is odd, for    
+        example N=13.  Here the result should be 7, which is (N+1)/2.  However, for    
+        N=12, (N+1)/2 also works.  (N+1)/2 works for all positive integer.
+    - N/2    
+      
+
+      - If N is even, for example N=12, N/2 works.  However, suppose N is odd, for    
+        example N=13.  Here the result should be 7, which is (N+1)/2.  However, for    
+        N=12, (N+1)/2 also works.  (N+1)/2 works for all positive integer.
+    - N/2+1    
+      
+
+      - If N is even, for example N=12, N/2 works.  However, suppose N is odd, for    
+        example N=13.  Here the result should be 7, which is (N+1)/2.  However, for    
+        N=12, (N+1)/2 also works.  (N+1)/2 works for all positive integer.
+    - (N+1)/2    
+      
+
+      + Correct!
+    - 0 (i.e. the loop body never executes)    
+      
+
+      - If N is even, for example N=12, N/2 works.  However, suppose N is odd, for    
+        example N=13.  Here the result should be 7, which is (N+1)/2.  However, for    
+        N=12, (N+1)/2 also works.  (N+1)/2 works for all positive integer.

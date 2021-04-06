@@ -1,0 +1,68 @@
+.. mchoice:: canterburyqb_631010
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/36.png    
+       :target: img/36.png    
+       :alt: no description    
+        
+        
+    The simplified UML diagram above shows the relationships among classes Bird,    
+    Crow, and Duck that are implemented in Java.    
+        
+    Suppose Bird has a ``fly(Location)`` method, but we want ducks to fly    
+    differently.  What is the best way to do this?    
+    
+
+    - Define a method ``duckFly(Location)`` and use that for Ducks    
+      
+
+      - All of the above answers sort of work, but B is the best -- it allows Duck    
+        (and all of Duck's descendents) to have a different fly method without    
+        affecting any other classes.   A would require invoking duckFly on Ducks to    
+        get the appropriate behavior, and fly would give the wrong behavior if invoked    
+        on Ducks.  C would work, although it doesn't use the built-in method    
+        resolution capability of Java and would break down pretty fast if other Bird    
+        subclasses fly differently. D would require all subclasses of Bird to define    
+        their own fly method (and you could no longer instantiate Bird).
+    - Define a method ``fly(Location)`` in ``Duck``    
+      
+
+      + Correct!
+    - Put a conditional statement in ``Bird``\ 's  ``fly(Location)`` method that checks    
+      for whether the object is a ``Duck``    
+          
+      (eg ``if (this instanceof Duck)`` followed by specialized duck flying code)    
+      
+
+      - All of the above answers sort of work, but B is the best -- it allows Duck    
+        (and all of Duck's descendents) to have a different fly method without    
+        affecting any other classes.   A would require invoking duckFly on Ducks to    
+        get the appropriate behavior, and fly would give the wrong behavior if invoked    
+        on Ducks.  C would work, although it doesn't use the built-in method    
+        resolution capability of Java and would break down pretty fast if other Bird    
+        subclasses fly differently. D would require all subclasses of Bird to define    
+        their own fly method (and you could no longer instantiate Bird).
+    - Make ``fly(Location)`` an ``abstract`` method in ``Bird and define a``\ fly(Location)    
+      method in `Duck```    
+      
+
+      - All of the above answers sort of work, but B is the best -- it allows Duck    
+        (and all of Duck's descendents) to have a different fly method without    
+        affecting any other classes.   A would require invoking duckFly on Ducks to    
+        get the appropriate behavior, and fly would give the wrong behavior if invoked    
+        on Ducks.  C would work, although it doesn't use the built-in method    
+        resolution capability of Java and would break down pretty fast if other Bird    
+        subclasses fly differently. D would require all subclasses of Bird to define    
+        their own fly method (and you could no longer instantiate Bird).
+    - All of the above are equally good answers    
+      
+
+      - All of the above answers sort of work, but B is the best -- it allows Duck    
+        (and all of Duck's descendents) to have a different fly method without    
+        affecting any other classes.   A would require invoking duckFly on Ducks to    
+        get the appropriate behavior, and fly would give the wrong behavior if invoked    
+        on Ducks.  C would work, although it doesn't use the built-in method    
+        resolution capability of Java and would break down pretty fast if other Bird    
+        subclasses fly differently. D would require all subclasses of Bird to define    
+        their own fly method (and you could no longer instantiate Bird).

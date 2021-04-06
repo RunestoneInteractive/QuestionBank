@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_634983
+    :basecourse: canterburyqb
+        
+    The *All-Pairs* list programming pattern typically runs in time?    
+    
+
+    - O(n2)    
+      
+
+      + Correct!
+    - O(n)    
+      
+
+      - The _All-Pairs_ programming pattern typically compares each element in a list    
+        to each other element in the list.  Hence the first element is compared    
+        against n-1 other values.  The second element is compared against n-2 other    
+        values, etc.  Hence one gets a quadratic run time.
+    - O(n log2 n)    
+      
+
+      - The _All-Pairs_ programming pattern typically compares each element in a list    
+        to each other element in the list.  Hence the first element is compared    
+        against n-1 other values.  The second element is compared against n-2 other    
+        values, etc.  Hence one gets a quadratic run time.
+    - O(1)    
+      
+
+      - The _All-Pairs_ programming pattern typically compares each element in a list    
+        to each other element in the list.  Hence the first element is compared    
+        against n-1 other values.  The second element is compared against n-2 other    
+        values, etc.  Hence one gets a quadratic run time.
+    - O(2n)    
+      
+
+      - The _All-Pairs_ programming pattern typically compares each element in a list    
+        to each other element in the list.  Hence the first element is compared    
+        against n-1 other values.  The second element is compared against n-2 other    
+        values, etc.  Hence one gets a quadratic run time.

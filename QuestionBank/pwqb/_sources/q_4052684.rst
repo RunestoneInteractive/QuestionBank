@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052684
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q6:</strong></p><p>Consider the following 3 loops below, called Loop A, Loop B and Loop C:</p><p>&nbsp;</p><p><strong>Loop A:</strong><br /><span style="font-family: courier new,courier,monospace;">int i;</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 1; i &lt; 5; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", i * 10);</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><strong>Loop B:</strong><br /><span style="font-family: courier new,courier,monospace;">int i = 1;</span><br /><span style="font-family: courier new,courier,monospace;">while (i &lt; 5) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", i);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; i = i * 10;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><strong>Loop C:</strong><br /><span style="font-family: courier new,courier,monospace;">int i = 20;</span><br /><span style="font-family: courier new,courier,monospace;">while (i &lt; 60) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", i - 10);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; i = i + 10;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Which of the following statements is correct?</p>
+    
+
+    - Loop A, Loop B and Loop C all produce different output    
+      
+
+      - Incorrect
+    - The output produced by Loops A, B and C is identical    
+      
+
+      - Incorrect
+    - Loop A and Loop C produce identical output, Loop B produces different output    
+      
+
+      + Correct!
+    - Loop B and Loop C produce identical output, Loop A produces different output    
+      
+
+      - Incorrect
+    - Loop A and Loop B produce identical output, Loop C produces different output    
+      
+
+      - Incorrect

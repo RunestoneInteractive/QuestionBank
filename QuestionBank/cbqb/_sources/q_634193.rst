@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_634193
+    :basecourse: canterburyqb
+        
+    Which of the following is most appropriate as the missing post-condition?    
+        
+    ``void move_north_east(int *x, int *y)``    
+        
+    .. code-block::    
+        
+        
+           {    
+               // Moves a robot north-east in our coordinate system    
+               // by one step north and one step east    
+               // PRE: x != NULL, y != NULL    
+               // <missing post-condition>    
+               (*x)++;    
+               (*y)++;    
+           }    
+    
+
+    - POST: x != NULL, y != NULL    
+      
+
+      - what x to points to is being updated, not x itself
+    - POST: x is incremented; y is incremented    
+      
+
+      - what x to points to is being updated, not x itself
+    - POST: x's pointee is incremented; y's pointee is incremented    
+      
+
+      + Correct!
+    - POST: none    
+      
+
+      - what x to points to is being updated, not x itself

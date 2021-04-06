@@ -1,0 +1,53 @@
+.. mchoice:: canterburyqb_632110
+    :basecourse: canterburyqb
+        
+    I have a number of different forms in my program, and have help topics    
+    explaining how each should be used. When the users presses F1, I want the    
+    appropriate help topic to appear depending on which form is currently open.    
+    What is the easiest way to achieve this?    
+    
+
+    - Set the HelpContextID property of the Application object to the appropriate ID    
+      value.    
+      
+
+      - The HelpContextID property is used to link a user interface element (such as a    
+        control, form, or menu) to a related topic in a Help file. The HelpContextID    
+        property must be a Long that matches the Context ID of a topic in a WinHelp    
+        (.hlp) or HTML Help (.chm) file.    
+            
+        source http://msdn.microsoft.com/en-us/library/aa261329%28v=vs.60%29.aspx
+    - Set the HelpContextID property of each form to the appropriate ID value.    
+      
+
+      + Correct!
+    - Set the HelpContext property of a Common Dialog control to the appropriate ID    
+      value.    
+      
+
+      - The HelpContextID property is used to link a user interface element (such as a    
+        control, form, or menu) to a related topic in a Help file. The HelpContextID    
+        property must be a Long that matches the Context ID of a topic in a WinHelp    
+        (.hlp) or HTML Help (.chm) file.    
+            
+        source http://msdn.microsoft.com/en-us/library/aa261329%28v=vs.60%29.aspx
+    - Set the HelpCommand property of a Common Dialog control to the appropriate ID    
+      value.    
+      
+
+      - The HelpContextID property is used to link a user interface element (such as a    
+        control, form, or menu) to a related topic in a Help file. The HelpContextID    
+        property must be a Long that matches the Context ID of a topic in a WinHelp    
+        (.hlp) or HTML Help (.chm) file.    
+            
+        source http://msdn.microsoft.com/en-us/library/aa261329%28v=vs.60%29.aspx
+    - Rewrite the help as a number of different help files, one for each form. Use a    
+      different HelpFile property for each form.    
+      
+
+      - The HelpContextID property is used to link a user interface element (such as a    
+        control, form, or menu) to a related topic in a Help file. The HelpContextID    
+        property must be a Long that matches the Context ID of a topic in a WinHelp    
+        (.hlp) or HTML Help (.chm) file.    
+            
+        source http://msdn.microsoft.com/en-us/library/aa261329%28v=vs.60%29.aspx

@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_618604
+    :basecourse: canterburyqb
+        
+    Which part of the following code will produce a compiler error if we know    
+    class cat extends a class called animal and both of the classes have a method    
+    called makeNoise and class cat has a method called showFood.    
+        
+    1     animal mydog = new animal();    
+        
+    2     mydog.makeNoise();    
+        
+    3     animal mycat = new cat();    
+        
+    4     mycat.makeNoise();    
+        
+    5     mycat.showFood();    
+    
+
+    - line 3, new cat should be changed to new animal.    
+      
+
+      - line 4, makeNoise has not been recognized by mycat
+    - line 3, animal should be changed to cat.    
+      
+
+      - line 4, makeNoise has not been recognized by mycat
+    - line 4, makeNoise has not been recognized by mycat    
+      
+
+      - line 4, makeNoise has not been recognized by mycat
+    - line 5, showFood has not been recognized by mycat    
+      
+
+      + Correct!

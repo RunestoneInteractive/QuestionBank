@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_633222
+    :basecourse: canterburyqb
+        
+    What are the merits of insertion sort compared to bubble sort and selection    
+    sort?    
+    
+
+    - It doesn't require as much extra storage.    
+      
+
+      - Neither selection nor bubble sort require extra storage. Selection sort    
+        doesn't make unnecessary copies. Bubble sort can be expressed in very little    
+        code. Any of them could be expressed recursively. If the array is already    
+        sorted, then insertion sort will only make N comparisons and no copies, giving    
+        it better performance than the other sorts.
+    - It copies elements only to their final locations.    
+      
+
+      - Neither selection nor bubble sort require extra storage. Selection sort    
+        doesn't make unnecessary copies. Bubble sort can be expressed in very little    
+        code. Any of them could be expressed recursively. If the array is already    
+        sorted, then insertion sort will only make N comparisons and no copies, giving    
+        it better performance than the other sorts.
+    - It requires less code.    
+      
+
+      - Neither selection nor bubble sort require extra storage. Selection sort    
+        doesn't make unnecessary copies. Bubble sort can be expressed in very little    
+        code. Any of them could be expressed recursively. If the array is already    
+        sorted, then insertion sort will only make N comparisons and no copies, giving    
+        it better performance than the other sorts.
+    - It is faster for already sorted data.    
+      
+
+      + Correct!
+    - It can be implement recursively.    
+      
+
+      - Neither selection nor bubble sort require extra storage. Selection sort    
+        doesn't make unnecessary copies. Bubble sort can be expressed in very little    
+        code. Any of them could be expressed recursively. If the array is already    
+        sorted, then insertion sort will only make N comparisons and no copies, giving    
+        it better performance than the other sorts.

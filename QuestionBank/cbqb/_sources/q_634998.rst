@@ -1,0 +1,56 @@
+.. mchoice:: canterburyqb_634998
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following method and indicate what value is displayed from the    
+    initial call statement from another method:    
+        
+    .. code-block::    
+        
+              System.out.println(Ackermann(2,3));    
+        
+        
+    public int Ackermann(int n, int m) {\ :raw-html-m2r:`<br>`    
+         if (n==0)\ :raw-html-m2r:`<br>`    
+              return (m+1);\ :raw-html-m2r:`<br>`    
+         else if (m==0)\ :raw-html-m2r:`<br>`    
+              return (Ackermann(n-1,1));\ :raw-html-m2r:`<br>`    
+         else\ :raw-html-m2r:`<br>`    
+              return (Ackermann(n-1,Ackermann(n,m-1)));\ :raw-html-m2r:`<br>`    
+    }    
+    
+
+    - 4    
+      
+
+      - Ackermann's function is one of the earliest _hyper-exponential_ recursive    
+        functions.  The key to obtaining the correct answer is in keeping which    
+        parameter is which, straight.  Maybe, rename them as "red" and "blue" (instead    
+        of n and m) to reduce confusion.
+    - 9    
+      
+
+      + Correct!
+    - 5    
+      
+
+      - Ackermann's function is one of the earliest _hyper-exponential_ recursive    
+        functions.  The key to obtaining the correct answer is in keeping which    
+        parameter is which, straight.  Maybe, rename them as "red" and "blue" (instead    
+        of n and m) to reduce confusion.
+    - 7    
+      
+
+      - Ackermann's function is one of the earliest _hyper-exponential_ recursive    
+        functions.  The key to obtaining the correct answer is in keeping which    
+        parameter is which, straight.  Maybe, rename them as "red" and "blue" (instead    
+        of n and m) to reduce confusion.
+    - 29    
+      
+
+      - Ackermann's function is one of the earliest _hyper-exponential_ recursive    
+        functions.  The key to obtaining the correct answer is in keeping which    
+        parameter is which, straight.  Maybe, rename them as "red" and "blue" (instead    
+        of n and m) to reduce confusion.

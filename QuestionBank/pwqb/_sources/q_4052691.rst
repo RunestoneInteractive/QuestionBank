@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052691
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q29:</strong></p><p>Your friend is writing a program that needs to compare the height of two people. The heights are stored in imperial units of feet and inches. They are using the following structure definition to represent a person:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">typedef struct {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; int feet;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; int inches;</span><br /><span style="font-family: courier new,courier,monospace;">} Person;</span></p><p>&nbsp;</p><p>They have written a function called IsTallerThan() which takes two Person structures as input. The function is supposed to return true (i.e. 1) if the person represented by the first input is taller than the person represented by the second input. In all other cases, the function should return false.&nbsp; Here is the function definition your friend has written:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int IsTaller(Person p1, Person p2)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if (p1.feet &gt; p2.feet) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return p1.inches &gt; p2.inches;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>You can instantly spot an error in the logic of this function (well, you can, right?). To point this error out to your friend, you want to suggest they test their function with a particular test case that will highlight the error (in other words, a test case that will generate an output that is different from the output you would expect if the function was defined correctly).</p><p>Which of the following tests cases (which show height information for the function inputs p1 and p2) would you recommend your friend uses so that the logic error is discovered?</p>
+    
+
+    - p1 (feet: 6, inches: 5) and p2 (feet: 5, inches: 5)    
+      
+
+      - Incorrect
+    - p1 (feet: 5, inches: 5) and p2 (feet: 6, inches: 5)    
+      
+
+      - Incorrect
+    - p1 (feet: 6, inches: 5) and p2 (feet: 5, inches: 10)    
+      
+
+      - Incorrect
+    - p1 (feet: 5, inches: 10) and p2 (feet: 6, inches: 10)    
+      
+
+      - Incorrect
+    - p1 (feet: 5, inches: 10) and p2 (feet: 6, inches: 5)    
+      
+
+      + Correct!

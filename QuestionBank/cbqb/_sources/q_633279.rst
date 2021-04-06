@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_633279
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Which of the following makes an appropriate pre-condition for this code?\ :raw-html-m2r:`<br>`    
+    double calculate_percentage(double sum, double n)\ :raw-html-m2r:`<br>`    
+    ``{``    
+        
+    .. code-block::    
+        
+        
+               // calculates and returns a percentage given a sum and a length (n)    
+               // <missing pre-condition>    
+               // POST: none    
+               return (sum / n) * 100;    
+           }    
+    
+
+    - PRE: sum < 100    
+      
+
+      - The code will faill if n = 0, as it will divide by 0.
+    - PRE: n != 0    
+      
+
+      + Correct!
+    - PRE: sum != NULL and n != NULL    
+      
+
+      - The code will faill if n = 0, as it will divide by 0.
+    - PRE: none    
+      
+
+      - The code will faill if n = 0, as it will divide by 0.

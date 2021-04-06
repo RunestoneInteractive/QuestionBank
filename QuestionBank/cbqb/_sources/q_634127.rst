@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_634127
+    :basecourse: canterburyqb
+        
+    In C, which of the following will return 1, if s1 = "hi" and s2 = "hi"? Circle    
+    all that apply.    
+    
+
+    - s1 == s2    
+      
+
+      - C is not Python! Only strcmp will do what Python and similar languages would    
+        do. (My CS2 students come into C having learnt Python.)
+    - strcmp(s1, s2)    
+      
+
+      + Correct!
+    - strlen(s1)    
+      
+
+      - C is not Python! Only strcmp will do what Python and similar languages would    
+        do. (My CS2 students come into C having learnt Python.)
+    - s1 == "hi"    
+      
+
+      - C is not Python! Only strcmp will do what Python and similar languages would    
+        do. (My CS2 students come into C having learnt Python.)

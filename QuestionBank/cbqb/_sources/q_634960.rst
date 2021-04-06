@@ -1,0 +1,149 @@
+.. mchoice:: canterburyqb_634960
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/3.png    
+       :target: img/3.png    
+       :alt: no description    
+        
+        
+    Given the above binary tree rooted at Node A, what is the order of nodes    
+    visited by an inorder search?    
+    
+
+    - A, B, C, D, E, F, G    
+      
+
+      - An inorder search of a binary tree is: visit the left subtree, visit the root,    
+        visit the right subtree.    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                   Visit D    
+            
+             Visit B (its root)    
+            
+             Visit its right subtree:     
+            
+                   Visit E       
+            
+        Visit A (the root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit C (its root)    
+            
+             Visit its right subtree:    
+            
+                  Visit G
+    - A, B, D, E, C, F, G    
+      
+
+      - An inorder search of a binary tree is: visit the left subtree, visit the root,    
+        visit the right subtree.    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                   Visit D    
+            
+             Visit B (its root)    
+            
+             Visit its right subtree:     
+            
+                   Visit E       
+            
+        Visit A (the root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit C (its root)    
+            
+             Visit its right subtree:    
+            
+                  Visit G
+    - D, B, E, A, F, C, G    
+      
+
+      + Correct!
+    - D, E, B, F, G, C, A    
+      
+
+      - An inorder search of a binary tree is: visit the left subtree, visit the root,    
+        visit the right subtree.    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                   Visit D    
+            
+             Visit B (its root)    
+            
+             Visit its right subtree:     
+            
+                   Visit E       
+            
+        Visit A (the root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit C (its root)    
+            
+             Visit its right subtree:    
+            
+                  Visit G
+    - G, F, E, D, C, B, A    
+      
+
+      - An inorder search of a binary tree is: visit the left subtree, visit the root,    
+        visit the right subtree.    
+            
+        It procedes as    
+            
+        Visit left subtree:    
+            
+             Visit its left subtree:    
+            
+                   Visit D    
+            
+             Visit B (its root)    
+            
+             Visit its right subtree:     
+            
+                   Visit E       
+            
+        Visit A (the root)    
+            
+        Visit right subtree:    
+            
+             Visit its left subtree:    
+            
+                  Visit F    
+            
+             Visit C (its root)    
+            
+             Visit its right subtree:    
+            
+                  Visit G

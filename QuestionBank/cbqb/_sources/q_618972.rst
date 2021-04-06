@@ -1,0 +1,97 @@
+.. mchoice:: canterburyqb_618972
+    :basecourse: canterburyqb
+        
+    Which of the choices will produce the same result as the following statement?    
+        
+    if ( mark == 'A' && GPA > 3.5)    
+        
+    .. code-block::    
+        
+       System.out.println("First Class");    
+        
+        
+    else    
+        
+    .. code-block::    
+        
+       System.out.println("Not First Class");    
+    
+
+    - if ( mark != 'A' && GPA <= 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("First Class");    
+          
+          
+      else    
+          
+      .. code-block::    
+          
+         System.out.println("Not First Class");    
+      
+
+      - if ( mark == 'A' || GPA > 3.5)    
+            
+            System.out.println("First Class");    
+            
+        else    
+            
+            System.out.println("Not First Class");
+    - if ( mark != 'A' || GPA <= 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("First Class");    
+          
+          
+      else    
+          
+      .. code-block::    
+          
+         System.out.println("Not First Class");    
+      
+
+      - if ( mark == 'A' || GPA > 3.5)    
+            
+            System.out.println("First Class");    
+            
+        else    
+            
+            System.out.println("Not First Class");
+    - if ( mark == 'A' || GPA > 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("First Class");    
+          
+          
+      else    
+          
+      .. code-block::    
+          
+         System.out.println("Not First Class");    
+      
+
+      - if ( mark == 'A' || GPA > 3.5)    
+            
+            System.out.println("First Class");    
+            
+        else    
+            
+            System.out.println("Not First Class");
+    - if ( mark != 'A' || GPA <= 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("Not First Class");    
+          
+          
+      else    
+          
+      .. code-block::    
+          
+         System.out.println("First Class");    
+      
+
+      + Correct!

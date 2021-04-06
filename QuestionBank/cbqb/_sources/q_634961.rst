@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_634961
+    :basecourse: canterburyqb
+        
+    Which of the following makes an appropriate pre-condition for this code?    
+        
+    .. code-block::    
+        
+        
+           double calculate_percentage(double sum, double n)    
+           {    
+              // calculates and returns a percentage given a sum and a length (n)    
+              // <missing pre-condition>    
+              // POST: none    
+              return (sum / n) * 100;    
+           }    
+    
+
+    - PRE: sum < 100    
+      
+
+      - Want to avoid the divide by 0
+    - PRE: n != 0    
+      
+
+      + Correct!
+    - PRE: sum != NULL and n != NULL    
+      
+
+      - Want to avoid the divide by 0
+    - PRE: none    
+      
+
+      - Want to avoid the divide by 0

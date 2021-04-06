@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_634196
+    :basecourse: canterburyqb
+        
+    What will the following code output?    
+        
+    ``int arr[5];``    
+        
+    .. code-block::    
+        
+        
+           int *p = arr;    
+           printf("p is %p -- ", p);    
+           ++p;    
+           printf("p is %p \n", p);    
+    
+
+    - p is 0x7fffb04846d0 - p is 0x7fffb04846d1    
+      
+
+      - p will increase by the sizeof(int) == 4.
+    - p is 0x7fffb04846d0 - p is 0x7fffb04846d2    
+      
+
+      - p will increase by the sizeof(int) == 4.
+    - p is 0x7fffb04846d0 - p is 0x7fffb04846d4    
+      
+
+      + Correct!
+    - Segmentation fault    
+      
+
+      - p will increase by the sizeof(int) == 4.

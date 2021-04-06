@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633237
+    :basecourse: canterburyqb
+        
+    When deleting a node with both left and right children from a binary search    
+    tree, it may be replaced by which of the following?    
+    
+
+    - its left child    
+      
+
+      - A common choice for the replacement node is deleted node's right child's    
+        leftmost descendent. This descendent is the deleted node's inorder successor.
+    - its right child    
+      
+
+      - A common choice for the replacement node is deleted node's right child's    
+        leftmost descendent. This descendent is the deleted node's inorder successor.
+    - its preorder successor    
+      
+
+      - A common choice for the replacement node is deleted node's right child's    
+        leftmost descendent. This descendent is the deleted node's inorder successor.
+    - its inorder successor    
+      
+
+      + Correct!
+    - its postorder successor    
+      
+
+      - A common choice for the replacement node is deleted node's right child's    
+        leftmost descendent. This descendent is the deleted node's inorder successor.

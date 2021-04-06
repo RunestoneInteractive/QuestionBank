@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_634139
+    :basecourse: canterburyqb
+        
+    Jack has the code below. What will it print out?    
+        
+    ``int array[] = { 45, 67, 89, 22, 13 };``    
+        
+    .. code-block::    
+        
+        
+           int *array_ptr = &array[1];    
+           printf("%d, ", array_ptr[1]);    
+           printf("%d, ", *(array_ptr++));    
+           printf("%d, ", *array_ptr++);    
+           printf("%d\n", *array_ptr);    
+    
+
+    - 67, 67, 67, 89    
+      
+
+      - The array pointer starts at the second element; the incrementing is done post-    
+        evaluation.
+    - 67, 45, 67, 89    
+      
+
+      - The array pointer starts at the second element; the incrementing is done post-    
+        evaluation.
+    - 89, 67, 89, 22    
+      
+
+      + Correct!
+    - 89, 89, 89, 67    
+      
+
+      - The array pointer starts at the second element; the incrementing is done post-    
+        evaluation.
+    - 67, 89, 22, 22    
+      
+
+      - The array pointer starts at the second element; the incrementing is done post-    
+        evaluation.

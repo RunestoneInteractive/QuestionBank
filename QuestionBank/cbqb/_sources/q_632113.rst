@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_632113
+    :basecourse: canterburyqb
+        
+    I have a data control, dtData, and several text boxes which are bound to it.    
+    The program user edits some of the text in one of the boxes, but makes a    
+    mistake and presses the Cancel button to undo the changes. What code should    
+    the Cancel button invoke?    
+    
+
+    - dtData.Recordset.Update    
+      
+
+      - This method applies the cancel event procedure to restore the display content    
+        of the text boxes associated with the Data control without affecting the    
+        underlying recordset.
+    - dtData.Recordset.Delete    
+      
+
+      - This method applies the cancel event procedure to restore the display content    
+        of the text boxes associated with the Data control without affecting the    
+        underlying recordset.
+    - dtData.UpdateControls    
+      
+
+      + Correct!
+    - dtData.UpdateRecord    
+      
+
+      - This method applies the cancel event procedure to restore the display content    
+        of the text boxes associated with the Data control without affecting the    
+        underlying recordset.
+    - dtData.Clear    
+      
+
+      - This method applies the cancel event procedure to restore the display content    
+        of the text boxes associated with the Data control without affecting the    
+        underlying recordset.

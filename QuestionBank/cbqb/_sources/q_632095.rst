@@ -1,0 +1,46 @@
+.. mchoice:: canterburyqb_632095
+    :basecourse: canterburyqb
+        
+    What will be printed?    
+        
+    public static void main(String [] args){    
+        
+    .. code-block::    
+        
+           int[] array = {1, 2, 3, 4, 1, 2, 3, 4};    
+        
+           System.out.print( specialSum(array, 3));    
+        
+        
+    }    
+        
+    public static int specialSum (int[] integerArray , int index){    
+        
+    .. code-block::    
+        
+           int sum = index % 2 ==0 ? integerArray [index]*2 : integerArray [index] +1;    
+        
+           if( index == 0) return sum;    
+        
+           return sum + specialSum(integerArray, index-1);    
+        
+        
+    }    
+    
+
+    - 16    
+      
+
+      + Correct!
+    - 32    
+      
+
+      - 15
+    - 15    
+      
+
+      - 15
+    - 30    
+      
+
+      - 15

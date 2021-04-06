@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052741
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q11:</strong></p><p>Consider the following conditional statement:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">if ((a &lt;= b) || (b != c)) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Wrong");</span><br /><span style="font-family: courier new,courier,monospace;">} else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Right");</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>For which values of a, b and c would "Right" be printed out to the screen?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``int a = 20;``\ :raw-html-m2r:`<br>`    
+      ``int b = 10;``\ :raw-html-m2r:`<br>`    
+      ``int c = 10;``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``int a = 20;``\ :raw-html-m2r:`<br>`    
+      ``int b = 10;``\ :raw-html-m2r:`<br>`    
+      ``int c = 30;``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``int a = 20;``\ :raw-html-m2r:`<br>`    
+      ``int b = 20;``\ :raw-html-m2r:`<br>`    
+      ``int c = 30;``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``int a = 10;``\ :raw-html-m2r:`<br>`    
+      ``int b = 20;``\ :raw-html-m2r:`<br>`    
+      ``int c = 10;``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``int a = 10;``\ :raw-html-m2r:`<br>`    
+      ``int b = 20;``\ :raw-html-m2r:`<br>`    
+      ``int c = 20;``    
+      
+
+      - Incorrect

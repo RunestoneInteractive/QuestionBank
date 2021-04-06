@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_633553
+    :basecourse: canterburyqb
+        
+    What terminates a failed linear probe in a non-full hashtable?    
+    
+
+    - The end of the array    
+      
+
+      - A null entry marks the end of the probing sequence. Seeing the end of the    
+        array isn't correct, since we need to examine all elements, including those    
+        that appear before our original hash index. A node with a non-matching key is    
+        what started our probe in the first place. Revisiting the original hash index    
+        would mean we looked at every entry, but we could have stopped earlier at the    
+        null entry. The purpose of leaving a deleted node in the table is so that    
+        probing may proceed past it.
+    - A deleted node    
+      
+
+      - A null entry marks the end of the probing sequence. Seeing the end of the    
+        array isn't correct, since we need to examine all elements, including those    
+        that appear before our original hash index. A node with a non-matching key is    
+        what started our probe in the first place. Revisiting the original hash index    
+        would mean we looked at every entry, but we could have stopped earlier at the    
+        null entry. The purpose of leaving a deleted node in the table is so that    
+        probing may proceed past it.
+    - A null entry    
+      
+
+      + Correct!
+    - A node with a non-matching key    
+      
+
+      - A null entry marks the end of the probing sequence. Seeing the end of the    
+        array isn't correct, since we need to examine all elements, including those    
+        that appear before our original hash index. A node with a non-matching key is    
+        what started our probe in the first place. Revisiting the original hash index    
+        would mean we looked at every entry, but we could have stopped earlier at the    
+        null entry. The purpose of leaving a deleted node in the table is so that    
+        probing may proceed past it.
+    - Revisiting the original hash index    
+      
+
+      - A null entry marks the end of the probing sequence. Seeing the end of the    
+        array isn't correct, since we need to examine all elements, including those    
+        that appear before our original hash index. A node with a non-matching key is    
+        what started our probe in the first place. Revisiting the original hash index    
+        would mean we looked at every entry, but we could have stopped earlier at the    
+        null entry. The purpose of leaving a deleted node in the table is so that    
+        probing may proceed past it.

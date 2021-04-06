@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052674
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q16:</strong></p><p>The following function is passed two inputs: an array of integers and the number of elements in the array. The function should then calculate and return the <em>index position</em> of the <em>largest element</em> in the array. Unfortunately, the condition inside the loop is missing and has been replaced with <strong>????</strong></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int IndexOfLargestValue(int values[], int numValues)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i, max;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; max = 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 1; i &lt; numValues; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>????</strong></span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return max;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>What should replace the ???? in the loop above so that this function works correctly?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] > max) {``\ :raw-html-m2r:`<br>`    
+      ``max = values[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] > values[max]) {``\ :raw-html-m2r:`<br>`    
+      ``max = values[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] > values[max]) {``\ :raw-html-m2r:`<br>`    
+      ``max = i;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] > max) {``\ :raw-html-m2r:`<br>`    
+      ``max = i;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (i > values[max]) {``\ :raw-html-m2r:`<br>`    
+      ``values[max] = i;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect

@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_634942
+    :basecourse: canterburyqb
+        
+    What is the difference between    
+        
+    ``struct node* linked_list_node = malloc(sizeof(struct node));``    
+        
+    .. code-block::    
+        
+        
+           linked_list_node->val = 3;    
+           linked_list_node->next = NULL;    
+        
+    and:    
+        
+    ``struct node linked_list_node;``    
+        
+    .. code-block::    
+        
+        
+           linked_list_node.val = 3;    
+           linked_list_node.next = NULL;    
+        
+    ?    
+    
+
+    - The first needs more memory than the second    
+      
+
+      - Dynamic alloc goes on heap; static goes on stack.
+    - The first's node is stored on the heap; the second's is stored on the stack    
+      
+
+      + Correct!
+    - The second is globally-accessible in the program; the first is locally    
+      accessible    
+      
+
+      - Dynamic alloc goes on heap; static goes on stack.
+    - There is no difference    
+      
+
+      - Dynamic alloc goes on heap; static goes on stack.

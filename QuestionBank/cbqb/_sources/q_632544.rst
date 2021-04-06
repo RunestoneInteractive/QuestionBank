@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_632544
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/13.png    
+       :target: img/13.png    
+       :alt: no description    
+        
+        
+    The above instance (or Object) diagram represents a ``Queue``. If I invoke    
+    wilma.dequeue(),  it returns:    
+    
+
+    - A blue car    
+      
+
+      + Correct!
+    - A red car    
+      
+
+      - Dequeue removes the least-recently enqueued element from the Queue and returns    
+        it.  This element is at the "head" end of the Queue.  What it returns is    
+        specified by the interface, which is independent of implementation, so it is a    
+        Car, not a Node.
+    - A chartreuse car    
+      
+
+      - Dequeue removes the least-recently enqueued element from the Queue and returns    
+        it.  This element is at the "head" end of the Queue.  What it returns is    
+        specified by the interface, which is independent of implementation, so it is a    
+        Car, not a Node.
+    - A Node whose _element is a blue car    
+      
+
+      - Dequeue removes the least-recently enqueued element from the Queue and returns    
+        it.  This element is at the "head" end of the Queue.  What it returns is    
+        specified by the interface, which is independent of implementation, so it is a    
+        Car, not a Node.
+    - A Node whose _element is a chartreuse car    
+      
+
+      - Dequeue removes the least-recently enqueued element from the Queue and returns    
+        it.  This element is at the "head" end of the Queue.  What it returns is    
+        specified by the interface, which is independent of implementation, so it is a    
+        Car, not a Node.

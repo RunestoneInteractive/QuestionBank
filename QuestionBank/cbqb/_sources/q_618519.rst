@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_618519
+    :basecourse: canterburyqb
+        
+    Which definition is not allowed?    
+        
+    firstLevel first = new firstLevel();    
+        
+    secondLevel second = new secondLevel();    
+        
+    firstLevel third = new secondLevel();    
+        
+    secondLevel fourth = new firstLevel();    
+    
+
+    - first    
+      
+
+      - third
+    - second    
+      
+
+      - third
+    - third    
+      
+
+      - third
+    - fourth    
+      
+
+      + Correct!

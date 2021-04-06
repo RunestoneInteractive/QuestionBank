@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_630985
+    :basecourse: canterburyqb
+        
+    Given the following Boolean expression:    
+        
+    ``(jordan.getGridX() < 100) && (jordan.getGridY() >= 55)``    
+        
+    Which of the following is logically equivalent?    
+    
+
+    - ``!((jordan.getGridX() >= 100) || (jordan.getGridY() < 55))``    
+      
+
+      + Correct!
+    - ``((jordan.getGridX() >= 100) || (jordan.getGridY() < 55))``    
+      
+
+      - This question involves applying De Morgan's Law to factor out logical negation    
+        from a Boolean expression to find an equivalent expression.
+    - ``!((jordan.getGridX() > 100) || (jordan.getGridY() <= 55))``    
+      
+
+      - This question involves applying De Morgan's Law to factor out logical negation    
+        from a Boolean expression to find an equivalent expression.
+    - ``!((jordan.getGridX() < 100) || (jordan.getGridY() >= 55))``    
+      
+
+      - This question involves applying De Morgan's Law to factor out logical negation    
+        from a Boolean expression to find an equivalent expression.
+    - none of these    
+      
+
+      - This question involves applying De Morgan's Law to factor out logical negation    
+        from a Boolean expression to find an equivalent expression.

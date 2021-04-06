@@ -1,0 +1,62 @@
+.. mchoice:: canterburyqb_631950
+    :basecourse: canterburyqb
+        
+    Given the input "Click & Clack", what is the output of line 16 of the    
+    following Java code?    
+        
+    .. code-block::    
+        
+        
+           System.out.println("Enter a string: ");    
+           String input = kbd.nextLine();    
+           String a = "";    
+           String letter = "";    
+           int d = 0;    
+           int r = 1;    
+           String englishAlphabet = "abcdefghijklmnopqrstuvwxyz";    
+           for (int i = 0; i < englishAlphabet.length(); i++) {    
+              letter = englishAlphabet.substring(i,i+1);    
+              if (input.contains(letter)){    
+                 a = letter + a;    
+              } else {    
+                 d++;    
+              }    
+           }    
+           System.out.println("String a is: " + a); //line 16    
+           System.out.println("int d is: " + d); // line 17    
+        
+    `` ``    
+    
+
+    - ClickClack    
+      
+
+      - This code checks all the letters in the lower-case alphabet to see which ones    
+        appear in the input, and concatenates them into a string where each letter    
+        appears once, in reverse alphabetical order. The resulting string is output in    
+        line 16.
+    - kcalkcil    
+      
+
+      - This code checks all the letters in the lower-case alphabet to see which ones    
+        appear in the input, and concatenates them into a string where each letter    
+        appears once, in reverse alphabetical order. The resulting string is output in    
+        line 16.
+    - acikl    
+      
+
+      - This code checks all the letters in the lower-case alphabet to see which ones    
+        appear in the input, and concatenates them into a string where each letter    
+        appears once, in reverse alphabetical order. The resulting string is output in    
+        line 16.
+    - lkica    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - This code checks all the letters in the lower-case alphabet to see which ones    
+        appear in the input, and concatenates them into a string where each letter    
+        appears once, in reverse alphabetical order. The resulting string is output in    
+        line 16.

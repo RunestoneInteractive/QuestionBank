@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633249
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the code\ :raw-html-m2r:`<br>`    
+    int i, *q, *\ p;\ :raw-html-m2r:`<br>`    
+    p = &i;\ :raw-html-m2r:`<br>`    
+    q = p;\ :raw-html-m2r:`<br>`    
+    *p = 5;    
+        
+    Which of the following will print out "The value is 5."?    
+    
+
+    - printf("The value is %d", &i);    
+      
+
+      - p and q are currently "sharing" --- they both point to the same variable (i).
+    - printf("The value is %d", p);    
+      
+
+      - p and q are currently "sharing" --- they both point to the same variable (i).
+    - printf("The value is %d", *q);    
+      
+
+      + Correct!
+    - printf("The value is %d", *i);    
+      
+
+      - p and q are currently "sharing" --- they both point to the same variable (i).

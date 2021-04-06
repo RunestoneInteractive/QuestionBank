@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_625176
+    :basecourse: canterburyqb
+        
+    What is the *maximum* result of computing X % 7, where all we know about X is    
+    that it is a positive integer?    
+    
+
+    - 0    
+      
+
+      - There is not enough information in the question description to answer.
+    - 1    
+      
+
+      - There is not enough information in the question description to answer.
+    - 6    
+      
+
+      + Correct!
+    - 7    
+      
+
+      - There is not enough information in the question description to answer.
+    - There is not enough information in the question description to answer.    
+      
+
+      - There is not enough information in the question description to answer.

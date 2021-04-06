@@ -1,0 +1,69 @@
+.. mchoice:: canterburyqb_630925
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/35.png    
+       :target: img/35.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose we execute the    
+    following Java statements:    
+        
+    .. code-block::    
+        
+        
+                OilTanker oily = new Truck(2500);    
+                oily.move();    
+        
+    which definition of ``move`` will be executed?    
+    
+
+    - The one defined in ``Truck``    
+      
+
+      - The declared type of an object has to be the same as or more abstract than the    
+        actual type.  It would have been ok to say    
+            
+        `Truck oily = new OilTanker(2500);`    
+            
+        since `Truck` is a superclass of` OilTanker, but not vice-versa as in the    
+        above code, which will not compile.      
+        `
+    - The one defined in ``Vehicle``    
+      
+
+      - The declared type of an object has to be the same as or more abstract than the    
+        actual type.  It would have been ok to say    
+            
+        `Truck oily = new OilTanker(2500);`    
+            
+        since `Truck` is a superclass of` OilTanker, but not vice-versa as in the    
+        above code, which will not compile.      
+        `
+    - The one defined in ``OilTanker``    
+      
+
+      - The declared type of an object has to be the same as or more abstract than the    
+        actual type.  It would have been ok to say    
+            
+        `Truck oily = new OilTanker(2500);`    
+            
+        since `Truck` is a superclass of` OilTanker, but not vice-versa as in the    
+        above code, which will not compile.      
+        `
+    - The one defined in ``PeopleHauler``    
+      
+
+      - The declared type of an object has to be the same as or more abstract than the    
+        actual type.  It would have been ok to say    
+            
+        `Truck oily = new OilTanker(2500);`    
+            
+        since `Truck` is a superclass of` OilTanker, but not vice-versa as in the    
+        above code, which will not compile.      
+        `
+    - The code will not work    
+      
+
+      + Correct!

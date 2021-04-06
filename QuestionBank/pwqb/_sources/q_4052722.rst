@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052722
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q30:</strong></p><p>Consider the following code that uses the rand() function to generate a random number (you can assume that the seed for the random number generator has already been set to the current time).</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int x, y;</span></p><p><span style="font-family: courier new,courier,monospace;">x = rand() % 2;</span><br /><span style="font-family: courier new,courier,monospace;">y = 2 * ((rand() % 5) + 10) - x;</span></p><p><span style="font-family: courier new,courier,monospace;">printf("Result = %d", y);</span></p><p>&nbsp;</p><p>Which of the following values could <strong>NOT</strong> be printed when this code executes?</p>
+    
+
+    - Result = 23    
+      
+
+      - Incorrect
+    - Result = 29    
+      
+
+      + Correct!
+    - Result = 26    
+      
+
+      - Incorrect
+    - Result = 28    
+      
+
+      - Incorrect
+    - Result = 19    
+      
+
+      - Incorrect

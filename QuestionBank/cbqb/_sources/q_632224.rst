@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_632224
+    :basecourse: canterburyqb
+        
+    The ``StackADT``\ 's ``push`` operation:    
+    
+
+    - adds a new item at the bottom of the Stack    
+      
+
+      - "push" is the traditional term for adding a new item to a stack. Stacks work    
+        like a pile of paper. The bottom piece of paper is the first one that was put    
+        in the pile. The top piece of paper was added most recently. When another    
+        piece of paper is added to the stack, it goes on top of the rest of the pile.
+    - returns without removing the top item on the Stack    
+      
+
+      - "push" is the traditional term for adding a new item to a stack. Stacks work    
+        like a pile of paper. The bottom piece of paper is the first one that was put    
+        in the pile. The top piece of paper was added most recently. When another    
+        piece of paper is added to the stack, it goes on top of the rest of the pile.
+    - removes and returns the top item on the Stack    
+      
+
+      - "push" is the traditional term for adding a new item to a stack. Stacks work    
+        like a pile of paper. The bottom piece of paper is the first one that was put    
+        in the pile. The top piece of paper was added most recently. When another    
+        piece of paper is added to the stack, it goes on top of the rest of the pile.
+    - adds a new item at the top of the Stack    
+      
+
+      + Correct!
+    - returns true if the Stack is empty and otherwise false    
+      
+
+      - "push" is the traditional term for adding a new item to a stack. Stacks work    
+        like a pile of paper. The bottom piece of paper is the first one that was put    
+        in the pile. The top piece of paper was added most recently. When another    
+        piece of paper is added to the stack, it goes on top of the rest of the pile.

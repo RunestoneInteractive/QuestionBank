@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_635043
+    :basecourse: canterburyqb
+        
+    One of the key features of Object-oriented programming is encapsulation.    
+        
+    Because of encapsulation, we generally have **\ **_**\ ** instance variables and    
+    **\ **\ **_**\ **\ ** methods.    
+    
+
+    - protected, private    
+      
+
+      - Encapsulation involves hiding the internal state of an object, in particular    
+        not allowing direct access to an object's instance variables.  We use methods    
+        to define the interactions other objects can have with an object, so the    
+        internal structure and information is not revealed to the outside.
+    - private, public    
+      
+
+      + Correct!
+    - public, private    
+      
+
+      - Encapsulation involves hiding the internal state of an object, in particular    
+        not allowing direct access to an object's instance variables.  We use methods    
+        to define the interactions other objects can have with an object, so the    
+        internal structure and information is not revealed to the outside.
+    - public, public    
+      
+
+      - Encapsulation involves hiding the internal state of an object, in particular    
+        not allowing direct access to an object's instance variables.  We use methods    
+        to define the interactions other objects can have with an object, so the    
+        internal structure and information is not revealed to the outside.
+    - These have nothing to do with encapsulation.    
+      
+
+      - Encapsulation involves hiding the internal state of an object, in particular    
+        not allowing direct access to an object's instance variables.  We use methods    
+        to define the interactions other objects can have with an object, so the    
+        internal structure and information is not revealed to the outside.

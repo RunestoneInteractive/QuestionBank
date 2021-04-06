@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633463
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           int sum=0;    
+           for (int i=0; i>100; i++) {    
+              sum += i;    
+           }    
+           System.out.println(sum);    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 100    
+      
+
+      - This is a trick question!  The stop condition of the for loop is i>100, and    
+        since i starts at 0, i is never > 100, so the loop immediately ends.
+    - 0 + 1 + 2 + ... + 99 + 100    
+      
+
+      - This is a trick question!  The stop condition of the for loop is i>100, and    
+        since i starts at 0, i is never > 100, so the loop immediately ends.
+    - 0 + 1 + 2 + ... + 98 + 99    
+      
+
+      - This is a trick question!  The stop condition of the for loop is i>100, and    
+        since i starts at 0, i is never > 100, so the loop immediately ends.
+    - none of the above    
+      
+
+      - This is a trick question!  The stop condition of the for loop is i>100, and    
+        since i starts at 0, i is never > 100, so the loop immediately ends.

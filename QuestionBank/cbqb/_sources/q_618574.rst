@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_618574
+    :basecourse: canterburyqb
+        
+    What is wrong with this code?    
+        
+    interface A{    
+        
+    .. code-block::    
+        
+           abstract double aMethod();    
+        
+        
+    }    
+        
+    interface B{    
+        
+    .. code-block::    
+        
+             abstract int aMethod();    
+        
+        
+    }    
+        
+    class testInterface implements A, B{    
+        
+    }    
+    
+
+    - A class cannot implement more than one interface.    
+      
+
+      - Methods defined in an interface should not be abstract.
+    - Both the interfaces have a method with the same name and different return    
+      type.    
+      
+
+      + Correct!
+    - Methods defined in an interface should not be abstract.    
+      
+
+      - Methods defined in an interface should not be abstract.
+    - aMethod should be overridden in testInterface class.    
+      
+
+      - Methods defined in an interface should not be abstract.

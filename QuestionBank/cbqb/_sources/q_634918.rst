@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_634918
+    :basecourse: canterburyqb
+        
+    Suppose QueueADT is implemented using a singly linked list. What is the lowest    
+    Big-Oh time complexity that can be achieved for an enqueue method?:    
+    
+
+    - O(1)    
+      
+
+      + Correct!
+    - O(log2 n)    
+      
+
+      - If you keep a pointer to the last element of the queue, then the enqueue    
+        method just needs a fixed number of statements, which are the same independent    
+        of the size of the queue.
+    - O(n)    
+      
+
+      - If you keep a pointer to the last element of the queue, then the enqueue    
+        method just needs a fixed number of statements, which are the same independent    
+        of the size of the queue.
+    - O(n2)    
+      
+
+      - If you keep a pointer to the last element of the queue, then the enqueue    
+        method just needs a fixed number of statements, which are the same independent    
+        of the size of the queue.
+    - none of the above    
+      
+
+      - If you keep a pointer to the last element of the queue, then the enqueue    
+        method just needs a fixed number of statements, which are the same independent    
+        of the size of the queue.

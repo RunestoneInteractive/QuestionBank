@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_633268
+    :basecourse: canterburyqb
+        
+    Suppose you have a tree with a maximum depth of d and an average branching    
+    factor of b (i.e. each node has b children). You are searching for a    
+    particular node S located at depth m (m <= d). You don't know where the node S    
+    is located, just that it is at depth m.    
+        
+    What is an upper bound on the *space* complexity of breadth-first search (i.e.    
+    big-O notation) to find the node S starting from the root?    
+    
+
+    - O(d * b)    
+      
+
+      - In the worst case, we need to store all of the nodes, because the very last    
+        node we check at the maximum depth will be S.  The deepest nodes of the graph    
+        will have O(bd) nodes, and in the worst case we would need to store all of    
+        these nodes.    
+            
+        ![](img/7.png)
+    - O(bd)    
+      
+
+      + Correct!
+    - O(db)    
+      
+
+      - In the worst case, we need to store all of the nodes, because the very last    
+        node we check at the maximum depth will be S.  The deepest nodes of the graph    
+        will have O(bd) nodes, and in the worst case we would need to store all of    
+        these nodes.    
+            
+        ![](img/7.png)
+    - O(b * m)    
+      
+
+      - In the worst case, we need to store all of the nodes, because the very last    
+        node we check at the maximum depth will be S.  The deepest nodes of the graph    
+        will have O(bd) nodes, and in the worst case we would need to store all of    
+        these nodes.    
+            
+        ![](img/7.png)
+    - O(bm)    
+      
+
+      - In the worst case, we need to store all of the nodes, because the very last    
+        node we check at the maximum depth will be S.  The deepest nodes of the graph    
+        will have O(bd) nodes, and in the worst case we would need to store all of    
+        these nodes.    
+            
+        ![](img/7.png)

@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_632170
+    :basecourse: canterburyqb
+        
+    You are preparing test data for this function that accepts a day of the month    
+    (as a number) from the user:    
+        
+    int iGetDay(int iMonth);    
+        
+    You are currently working with a month value of 5 (May). What should your    
+    boundary test values be for iGetDay?    
+    
+
+    - -1, 0, 30, 31    
+      
+
+      - The month of May has 31 days and starts on the 1st of May.  So the day before    
+        and the day after these boundary days consitute the boundary test conditions
+    - -1, 0, 31, 32    
+      
+
+      - The month of May has 31 days and starts on the 1st of May.  So the day before    
+        and the day after these boundary days consitute the boundary test conditions
+    - 0, 1, 29, 30    
+      
+
+      - The month of May has 31 days and starts on the 1st of May.  So the day before    
+        and the day after these boundary days consitute the boundary test conditions
+    - 0, 1, 30, 31    
+      
+
+      - The month of May has 31 days and starts on the 1st of May.  So the day before    
+        and the day after these boundary days consitute the boundary test conditions
+    - 0, 1, 31, 32    
+      
+
+      + Correct!

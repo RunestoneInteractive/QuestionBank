@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_618983
+    :basecourse: canterburyqb
+        
+    What would be the value of sum at the end of executing this code?    
+        
+    int sum;    
+        
+    for (int i = 0; i < 2; i++)    
+        
+    .. code-block::    
+        
+       for (int j = 0; j < 5; j++ ){    
+        
+           sum = i + j;    
+        
+           if (sum > 5) break;    
+        
+           else continue;    
+        
+           System.out.print(sum);    
+        
+        
+    }    
+    
+
+    - Compiler error due to having unreachable code.    
+      
+
+      + Correct!
+    - Compiler error due to not initializing local variable.    
+      
+
+      - 6
+    - 6    
+      
+
+      - 6
+    - 5    
+      
+
+      - 6

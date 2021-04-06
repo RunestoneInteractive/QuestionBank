@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052686
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q4:</strong></p><p>The general form of a for loop is as follows:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for ( initialisation ; condition ; increment ) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; ... body ...</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>There are four main components to a for loop: <em>initialisation</em>, <em>condition</em>, <em>increment</em> and <em>body</em>. When a for loop executes, these four components are usually executed in a very particular order. However, it is possible that two of these four components are not executed at all. For a given for loop, which two components <em>might not</em> be executed?</p>
+    
+
+    - initialisation and body    
+      
+
+      - Incorrect
+    - condition and body    
+      
+
+      - Incorrect
+    - condition and increment    
+      
+
+      - Incorrect
+    - increment and body    
+      
+
+      + Correct!
+    - initialisation and increment    
+      
+
+      - Incorrect

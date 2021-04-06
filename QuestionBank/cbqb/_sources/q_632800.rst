@@ -1,0 +1,67 @@
+.. mchoice:: canterburyqb_632800
+    :basecourse: canterburyqb
+        
+    After the assignments ``x = 27`` and ``y = 12``\ , what is returned by ``not x <= y <    
+    x + y`` ?    
+    
+
+    - True    
+      
+
+      - Python has an incredibly flexible syntax which allows expressions like x <= y    
+        < x + y (this statement would not compile in many other languages).    
+            
+        If we break this expression down:    
+            
+        x+y is 39, so the expression is asking:    
+            
+        not 12 <= 27 < 39    
+            
+        12 <= 27 < 39 is True, as 27 is in fact between 12 and 39.  And if we apply    
+        not to True, we get False.
+    - False    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - Python has an incredibly flexible syntax which allows expressions like x <= y    
+        < x + y (this statement would not compile in many other languages).    
+            
+        If we break this expression down:    
+            
+        x+y is 39, so the expression is asking:    
+            
+        not 12 <= 27 < 39    
+            
+        12 <= 27 < 39 is True, as 27 is in fact between 12 and 39.  And if we apply    
+        not to True, we get False.
+    - 0    
+      
+
+      - Python has an incredibly flexible syntax which allows expressions like x <= y    
+        < x + y (this statement would not compile in many other languages).    
+            
+        If we break this expression down:    
+            
+        x+y is 39, so the expression is asking:    
+            
+        not 12 <= 27 < 39    
+            
+        12 <= 27 < 39 is True, as 27 is in fact between 12 and 39.  And if we apply    
+        not to True, we get False.
+    - An error    
+      
+
+      - Python has an incredibly flexible syntax which allows expressions like x <= y    
+        < x + y (this statement would not compile in many other languages).    
+            
+        If we break this expression down:    
+            
+        x+y is 39, so the expression is asking:    
+            
+        not 12 <= 27 < 39    
+            
+        12 <= 27 < 39 is True, as 27 is in fact between 12 and 39.  And if we apply    
+        not to True, we get False.

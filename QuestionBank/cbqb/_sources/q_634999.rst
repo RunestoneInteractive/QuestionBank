@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_634999
+    :basecourse: canterburyqb
+        
+    Which of the following algorithms use a divide-and-conquer strategy? (Circle    
+    all that apply.)    
+    
+
+    - Merge sort    
+      
+
+      + Correct!
+    - Insertion sort    
+      
+
+      - A and C are correct.
+    - Binary search    
+      
+
+      - A and C are correct.
+    - Linear search    
+      
+
+      - A and C are correct.

@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_635016
+    :basecourse: canterburyqb
+        
+    Which of the following is an equivalent boolean expression for:    
+        
+      **NOT(A AND B)**    
+    
+
+    - **(NOT A) AND (NOT B)**    
+      
+
+      - When applying DeMorgan's law, one distributes the **NOT  **over both operands    
+        and then one exchanges **AND** 's for **OR** 's, or **OR** 's for **AND** 's
+    - **A OR B**    
+      
+
+      - When applying DeMorgan's law, one distributes the **NOT  **over both operands    
+        and then one exchanges **AND** 's for **OR** 's, or **OR** 's for **AND** 's
+    - **(NOT A) AND  B**    
+      
+
+      - When applying DeMorgan's law, one distributes the **NOT  **over both operands    
+        and then one exchanges **AND** 's for **OR** 's, or **OR** 's for **AND** 's
+    - **(NOT A) OR (NOT B)**    
+      
+
+      + Correct!
+    - **NOT(A OR B)**    
+      
+
+      - When applying DeMorgan's law, one distributes the **NOT  **over both operands    
+        and then one exchanges **AND** 's for **OR** 's, or **OR** 's for **AND** 's

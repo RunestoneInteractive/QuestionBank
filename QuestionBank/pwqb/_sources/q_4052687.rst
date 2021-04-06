@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052687
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q3:</strong></p><p>Consider the following conditional statement:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">if (a != b &amp;&amp; a &lt; b) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("failure");</span><br /><span style="font-family: courier new,courier,monospace;">} else if (a &gt;= c) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("failure");</span><br /><span style="font-family: courier new,courier,monospace;">} else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("success");</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Which of the following assignments to the integer variables a, b and c would cause "success" to be printed:</p>
+    
+
+    - ``a = 10; b = 12; c = 12;``    
+      
+
+      - Incorrect
+    - ``a = 10; b = 10; c = 10;``    
+      
+
+      - Incorrect
+    - ``a = 10; b = 12; c = 10;``    
+      
+
+      - Incorrect
+    - ``a = 12; b = 10; c = 10;``    
+      
+
+      - Incorrect
+    - ``a = 10; b = 10; c = 12;``    
+      
+
+      + Correct!

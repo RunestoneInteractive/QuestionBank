@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_631885
+    :basecourse: canterburyqb
+        
+    After the assignment statement    
+        
+       ``String word = "entropy";``    
+        
+    what is returned by    
+        
+       ``word.substring(2, 4);``    
+    
+
+    - "ntro"    
+      
+
+      - The Java `String` method `word.substring (2, 4)` returns the substring of    
+        `word` starting at the third character (array index 2) and ending with the    
+        fourth character (array index 4-1).
+    - "nt"    
+      
+
+      - The Java `String` method `word.substring (2, 4)` returns the substring of    
+        `word` starting at the third character (array index 2) and ending with the    
+        fourth character (array index 4-1).
+    - "trop"    
+      
+
+      - The Java `String` method `word.substring (2, 4)` returns the substring of    
+        `word` starting at the third character (array index 2) and ending with the    
+        fourth character (array index 4-1).
+    - "tr"    
+      
+
+      + Correct!
+    - an error    
+      
+
+      - The Java `String` method `word.substring (2, 4)` returns the substring of    
+        `word` starting at the third character (array index 2) and ending with the    
+        fourth character (array index 4-1).

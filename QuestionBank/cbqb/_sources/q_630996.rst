@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_630996
+    :basecourse: canterburyqb
+        
+    Consider the following Java method:    
+        
+    .. code-block::    
+        
+        
+           public void printMenu(){    
+              System.out.println("Choose one of the following options:");    
+              System.out.println("1) Display account balance");    
+              System.out.println("2) Make deposit");    
+              System.out.println("3) Make withdrawal");    
+              System.out.println("4) Quit");    
+           }    
+        
+    Select the best reason for making this a separate method with a name, instead    
+    of including the code in some other method:    
+    
+
+    - Otherwise, you would have to write the same code more than once.    
+      
+
+      + Correct!
+    - By breaking your program up into logical parts, you make it more readable.    
+      
+
+      - There are multiple correct answers to this question. A, B, and C are all    
+        reasonable answers. D is less good, because while it's a good idea to keep    
+        your methods relatively short, it won't always make sense to stick to an    
+        arbitrary limit like 20 lines.
+    - By giving this block of code a name, you make your program more readable.    
+      
+
+      - There are multiple correct answers to this question. A, B, and C are all    
+        reasonable answers. D is less good, because while it's a good idea to keep    
+        your methods relatively short, it won't always make sense to stick to an    
+        arbitrary limit like 20 lines.
+    - It's necessary to keep the calling method under 20 lines long.    
+      
+
+      - There are multiple correct answers to this question. A, B, and C are all    
+        reasonable answers. D is less good, because while it's a good idea to keep    
+        your methods relatively short, it won't always make sense to stick to an    
+        arbitrary limit like 20 lines.

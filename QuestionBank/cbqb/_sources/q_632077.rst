@@ -1,0 +1,92 @@
+.. mchoice:: canterburyqb_632077
+    :basecourse: canterburyqb
+        
+    Consider the following short program, which does not meet all institutional    
+    coding standards:    
+        
+    void vCodeString(char szText[ ]); /\ * First line *\ /    
+        
+    include <stdio.h>    
+    =================    
+        
+    include <string.h>    
+    ==================    
+        
+    define MAX_LEN 12    
+    =================    
+        
+    int main(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        char szData[MAX_LEN];    
+        
+        printf("Enter some text to code: ");    
+        
+        scanf("%s", szData);    
+        
+        vCodeString(szData); /* Line 8 */    
+        
+        printf("Coded string is %s\n", szData);    
+        
+        
+    }    
+        
+    void vCodeString(char szText[ ])    
+        
+    {    
+        
+    .. code-block::    
+        
+        int i = -1;    
+        
+        while(szText[++i])    
+        
+        {    
+        
+             szText[i] += (char)2;    
+        
+        }    
+        
+        
+    }    
+        
+    Knowing that scanf does not read beyond a space in the input, I try the    
+    routine by typing in Hello there when it asks me for some text. What is output    
+    after "Coded string is "?    
+    
+
+    - Nothing    
+      
+
+      - The vCodeString function converts the input by incrementing the next two    
+        alphabetical letters for each character passed to it from the szData array    
+        containing the the "hello" substring after which the scanf function had haled    
+        on meeting the delimiting space character
+    - Hello    
+      
+
+      - The vCodeString function converts the input by incrementing the next two    
+        alphabetical letters for each character passed to it from the szData array    
+        containing the the "hello" substring after which the scanf function had haled    
+        on meeting the delimiting space character
+    - Hello there    
+      
+
+      - The vCodeString function converts the input by incrementing the next two    
+        alphabetical letters for each character passed to it from the szData array    
+        containing the the "hello" substring after which the scanf function had haled    
+        on meeting the delimiting space character
+    - Jgnnq vjgtg    
+      
+
+      - The vCodeString function converts the input by incrementing the next two    
+        alphabetical letters for each character passed to it from the szData array    
+        containing the the "hello" substring after which the scanf function had haled    
+        on meeting the delimiting space character
+    - Jgnnq    
+      
+
+      + Correct!

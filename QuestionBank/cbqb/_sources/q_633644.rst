@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633644
+    :basecourse: canterburyqb
+        
+    True or False:    
+        
+    You should *always* catch checked exceptions!    
+    
+
+    - True    
+      
+
+      - This is definitely False!  Consider this code:    
+            
+        [code]    
+            
+            String s="";    
+            try {    
+              BufferedReader r=new BufferedReader(new FileReader("foo.txt"));    
+              // read file and concatenate onto s    
+            } catch (IOException e) {    
+              System.out.println("Can't read file");    
+            }    
+                
+        [/code]    
+            
+            
+            
+        Why are we catching this exception?  We are not doing anything useful with it.    
+        What happens when there is an exception?  The program prints an error, but    
+        continues with an empty String s.  That's probably wrong and it makes like the    
+        file contained an empty String, which may be an illegal input.  What if this    
+        code is being use by a web service and there is not someone monitoring the    
+        printing.  What if it's running where System.out is not being captured?    
+            
+        It would be better if this code just crashed.
+    - False    
+      
+
+      + Correct!

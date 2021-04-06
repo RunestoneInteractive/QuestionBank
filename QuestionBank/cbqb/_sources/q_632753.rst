@@ -1,0 +1,262 @@
+.. mchoice:: canterburyqb_632753
+    :basecourse: canterburyqb
+        
+    The following is a skeleton for a method called "minVal":    
+        
+    .. code-block::    
+        
+        
+           public static int minVal(int[] y, int first, int last) {    
+           /* This method returns the value of the minimum element in the    
+           * subsection of the array "y", starting at position    
+           * "first" and ending at position "last".    
+           */    
+        
+             int bestSoFar = y[first];    
+        
+             xxx missing for loop goes here    
+        
+             return bestSoFar;    
+        
+           } // method minVal    
+        
+    In this question, the missing "for" loop is to run "backwards". That is, the    
+    code should search the array from the high subscripts to the low subscripts.    
+    Given that, the correct code for the missing "for" loop is:    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] < bestSoFar ) {    
+                bestSoFar = y[i];    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[i] > y[bestSoFar] ) {    
+                bestSoFar = y[i];    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        CORRECT!    
+            
+        b)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        if ( bestSoFar < y[i] ) ... this if condition is searching for the maximum    
+        value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        e)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ...  this if condition is searching for the    
+        maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] > y[bestSoFar] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        CORRECT!    
+            
+        b)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        if ( bestSoFar < y[i] ) ... this if condition is searching for the maximum    
+        value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        e)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ...  this if condition is searching for the    
+        maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( bestSoFar < y[i] ) {    
+                bestSoFar = i    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        CORRECT!    
+            
+        b)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        if ( bestSoFar < y[i] ) ... this if condition is searching for the maximum    
+        value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        e)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ...  this if condition is searching for the    
+        maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[i] > bestSoFar ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        CORRECT!    
+            
+        b)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        if  ( y[i] > y[bestSoFar] ) ... bestSoFar is storing a value, not a position.    
+        In any event, this if condition is searching for the maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        if ( bestSoFar < y[i] ) ... this if condition is searching for the maximum    
+        value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.    
+            
+        e)    
+            
+        INCORRECT:    
+            
+        The loop starts at first+1 ... This loop is not running backwards.    
+            
+        if  ( y[i] > y[bestSoFar] ) ...  this if condition is searching for the    
+        maximum value.    
+            
+        bestSoFar = i; ... bestsoFar is being set to the position, not the value.

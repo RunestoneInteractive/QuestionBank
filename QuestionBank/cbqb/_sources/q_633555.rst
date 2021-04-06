@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_633555
+    :basecourse: canterburyqb
+        
+    If a hashtable's array is resized to reduce collisions, what must be done to    
+    the elements that have already been inserted?    
+    
+
+    - All items must be copied over to the same indices in the new array.    
+      
+
+      - Since calculating a node's position in the hashtable is a function of the    
+        node's key's hashcode and the array size, all items must be reinserted.
+    - Nodes must be rehashed and reinserted in the new array.    
+      
+
+      + Correct!
+    - The existing items can be placed anywhere in the new array.    
+      
+
+      - Since calculating a node's position in the hashtable is a function of the    
+        node's key's hashcode and the array size, all items must be reinserted.
+    - The hashCode method must be updated.    
+      
+
+      - Since calculating a node's position in the hashtable is a function of the    
+        node's key's hashcode and the array size, all items must be reinserted.

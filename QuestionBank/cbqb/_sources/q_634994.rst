@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_634994
+    :basecourse: canterburyqb
+        
+    Chris implements a standard sorting algorithm that sorts the numbers 64, 25,    
+    12, 22, 11 like so:    
+        
+    64 25 12 22 11    
+        
+    11 25 12 22 64    
+        
+    11 12 25 22 64    
+        
+    11 12 22 25 64    
+        
+    11 12 22 25 64    
+        
+    Which sorting algorithm is this?    
+    
+
+    - Inserton sort    
+      
+
+      - In the first line, we see the min is pulled from the end of the array so we    
+        know it's selection sort.
+    - Selection sort    
+      
+
+      + Correct!
+    - Bubble sort    
+      
+
+      - In the first line, we see the min is pulled from the end of the array so we    
+        know it's selection sort.
+    - Merge sort    
+      
+
+      - In the first line, we see the min is pulled from the end of the array so we    
+        know it's selection sort.

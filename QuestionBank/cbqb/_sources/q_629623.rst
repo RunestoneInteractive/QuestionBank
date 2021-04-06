@@ -1,0 +1,75 @@
+.. mchoice:: canterburyqb_629623
+    :basecourse: canterburyqb
+        
+    Consider writing a program to be used by a farm to keep track of information    
+    about the fruits and vegetables they sell. For each sale, they would like to    
+    keep track of the type of item (eggplant, tomato, etc.), the quantity sold,    
+    the price, and the market at which the sale was made. Which of the following    
+    is the best way to represent the information?    
+    
+
+    - Define one class, ``FarmSale``\ , with four fields: ``type,`` quantity, price, and    
+      market.    
+      
+
+      + Correct!
+    - Define one superclass, ``FarmSale``\ , with four subclasses: ``Type``\ , ``Quantity``\ ,    
+      ``Price``\ , and ``Market``.    
+      
+
+      - Which classes you define depends generally on the needs of the software. It    
+        might be good to have `Market` be a class of its own, with the address of the    
+        market, contact information for the organizers, etc. The item type might be    
+        modeled with a `Product` class, with information about the date it was    
+        planted, for example.    
+            
+        But of the choices given, A is the best. We can rule out choices B, C, D, and    
+        E because price and quantity don't need data and associated methods of their    
+        own and are most appropriately modeled as fields in the `FarmSale` class. That    
+        leaves A.
+    - Define five unrelated classes: ``FarmSale``\ , ``Type``\ , ``Quantity``\ , ``Price``\ , and    
+      ``Market``.    
+      
+
+      - Which classes you define depends generally on the needs of the software. It    
+        might be good to have `Market` be a class of its own, with the address of the    
+        market, contact information for the organizers, etc. The item type might be    
+        modeled with a `Product` class, with information about the date it was    
+        planted, for example.    
+            
+        But of the choices given, A is the best. We can rule out choices B, C, D, and    
+        E because price and quantity don't need data and associated methods of their    
+        own and are most appropriately modeled as fields in the `FarmSale` class. That    
+        leaves A.
+    - Define five classes: ``FarmSale``\ , ``Type``\ , ``Quantity``\ , ``Price``\ , and ``Market``..    
+      Make ``Market`` a subclass of ``Price``\ , make ``Price`` a subclass of ``Quantity``\ ,    
+      make ``Quantity`` a subclass of ``Type``\ , and make ``Type`` a subclass of    
+      ``FarmSale``.    
+      
+
+      - Which classes you define depends generally on the needs of the software. It    
+        might be good to have `Market` be a class of its own, with the address of the    
+        market, contact information for the organizers, etc. The item type might be    
+        modeled with a `Product` class, with information about the date it was    
+        planted, for example.    
+            
+        But of the choices given, A is the best. We can rule out choices B, C, D, and    
+        E because price and quantity don't need data and associated methods of their    
+        own and are most appropriately modeled as fields in the `FarmSale` class. That    
+        leaves A.
+    - Define five classes: ``FarmSale``\ , ``Type``\ , ``Quantity``\ , ``Price``\ , and ``Market``.    
+      Make ``FarmSale`` a subclass of ``Type``\ , make ``Type`` a subclass of ``Quantity``\ ,    
+      make ``Quantity`` a subclass of ``Price``\ , and make ``Price`` a subclass of    
+      ``Market``.    
+      
+
+      - Which classes you define depends generally on the needs of the software. It    
+        might be good to have `Market` be a class of its own, with the address of the    
+        market, contact information for the organizers, etc. The item type might be    
+        modeled with a `Product` class, with information about the date it was    
+        planted, for example.    
+            
+        But of the choices given, A is the best. We can rule out choices B, C, D, and    
+        E because price and quantity don't need data and associated methods of their    
+        own and are most appropriately modeled as fields in the `FarmSale` class. That    
+        leaves A.

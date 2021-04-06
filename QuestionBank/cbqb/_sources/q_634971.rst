@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_634971
+    :basecourse: canterburyqb
+        
+    An interface in Java can appropriately be used to model    
+    
+
+    - Abstract classes    
+      
+
+      - Interfaces allow us to specify common capabilities in unrelated classes: a way    
+        to say that two classes have the same methods without specifying the    
+        implementation (and allowing completely different implementations).  For    
+        closely related classes (near each other in inheritance hierarchy) we can get    
+        common capabilities by having them in a common ancestor.  Abstract classes    
+        provide a method to specify common capabilities via inheritance.  Interfaces    
+        cannot be used to specify that two classes share a set of attributes (i.e.    
+        instance variables), which can be done by having classes inherit from a common    
+        ancestor with those attributes.
+    - Unrelated classes that share particular capabilities    
+      
+
+      + Correct!
+    - Related classes that share particular attributes    
+      
+
+      - Interfaces allow us to specify common capabilities in unrelated classes: a way    
+        to say that two classes have the same methods without specifying the    
+        implementation (and allowing completely different implementations).  For    
+        closely related classes (near each other in inheritance hierarchy) we can get    
+        common capabilities by having them in a common ancestor.  Abstract classes    
+        provide a method to specify common capabilities via inheritance.  Interfaces    
+        cannot be used to specify that two classes share a set of attributes (i.e.    
+        instance variables), which can be done by having classes inherit from a common    
+        ancestor with those attributes.
+    - Classes that communicate using the same network protocol    
+      
+
+      - Interfaces allow us to specify common capabilities in unrelated classes: a way    
+        to say that two classes have the same methods without specifying the    
+        implementation (and allowing completely different implementations).  For    
+        closely related classes (near each other in inheritance hierarchy) we can get    
+        common capabilities by having them in a common ancestor.  Abstract classes    
+        provide a method to specify common capabilities via inheritance.  Interfaces    
+        cannot be used to specify that two classes share a set of attributes (i.e.    
+        instance variables), which can be done by having classes inherit from a common    
+        ancestor with those attributes.
+    - None of the above    
+      
+
+      - Interfaces allow us to specify common capabilities in unrelated classes: a way    
+        to say that two classes have the same methods without specifying the    
+        implementation (and allowing completely different implementations).  For    
+        closely related classes (near each other in inheritance hierarchy) we can get    
+        common capabilities by having them in a common ancestor.  Abstract classes    
+        provide a method to specify common capabilities via inheritance.  Interfaces    
+        cannot be used to specify that two classes share a set of attributes (i.e.    
+        instance variables), which can be done by having classes inherit from a common    
+        ancestor with those attributes.

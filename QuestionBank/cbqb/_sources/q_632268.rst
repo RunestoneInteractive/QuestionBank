@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_632268
+    :basecourse: canterburyqb
+        
+    Which data structure provides direct access to elements using indexes?    
+    
+
+    - an array    
+      
+
+      + Correct!
+    - a linked list    
+      
+
+      - If you declare an array in languages that have them, such as Pascal, C, C++,    
+        Java, etc., you can access an element of the array by giving the index of the    
+        value to be retrieved.
+    - both    
+      
+
+      - If you declare an array in languages that have them, such as Pascal, C, C++,    
+        Java, etc., you can access an element of the array by giving the index of the    
+        value to be retrieved.
+    - neither    
+      
+
+      - If you declare an array in languages that have them, such as Pascal, C, C++,    
+        Java, etc., you can access an element of the array by giving the index of the    
+        value to be retrieved.

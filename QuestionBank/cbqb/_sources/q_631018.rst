@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_631018
+    :basecourse: canterburyqb
+        
+    In Java, what value will the variable ``d`` have after this declaration:    
+        
+    ``double d = 18 / 4;``    
+    
+
+    - ``4.0``    
+      
+
+      + Correct!
+    - ``4.5``    
+      
+
+      - While the variable `d` is being declared as a `double`, the initial value    
+        provided on the righthand side is actually an `int` expression, consisting of    
+        one integer value divided by another.  When the `int` expression is evaluated,    
+        its result is also an `int` and any fractional part is truncated.  The value    
+        of `18 / 4` is `4` (an `int`).  After this `int` value is produced, it is then    
+        promoted to a `double` value when initializing the variable `d`, giving `d`    
+        the initial value `4.0`.
+    - ``18.4``    
+      
+
+      - While the variable `d` is being declared as a `double`, the initial value    
+        provided on the righthand side is actually an `int` expression, consisting of    
+        one integer value divided by another.  When the `int` expression is evaluated,    
+        its result is also an `int` and any fractional part is truncated.  The value    
+        of `18 / 4` is `4` (an `int`).  After this `int` value is produced, it is then    
+        promoted to a `double` value when initializing the variable `d`, giving `d`    
+        the initial value `4.0`.
+    - None of these    
+      
+
+      - While the variable `d` is being declared as a `double`, the initial value    
+        provided on the righthand side is actually an `int` expression, consisting of    
+        one integer value divided by another.  When the `int` expression is evaluated,    
+        its result is also an `int` and any fractional part is truncated.  The value    
+        of `18 / 4` is `4` (an `int`).  After this `int` value is produced, it is then    
+        promoted to a `double` value when initializing the variable `d`, giving `d`    
+        the initial value `4.0`.

@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_634154
+    :basecourse: canterburyqb
+        
+    If you did not have a base case in a recursive function in C, and were working    
+    on a modern Unix-based system, what would most likely happen?    
+    
+
+    - Segmentation fault    
+      
+
+      - It really depends on the program for whether it would be B or C. Both can be    
+        argued to be correct.
+    - Stack overflow error    
+      
+
+      - It really depends on the program for whether it would be B or C. Both can be    
+        argued to be correct.
+    - C wouldn't complain, but your computer would crash    
+      
+
+      + Correct!
+    - Nothing, that's fine    
+      
+
+      - It really depends on the program for whether it would be B or C. Both can be    
+        argued to be correct.

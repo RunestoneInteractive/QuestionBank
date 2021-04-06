@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_635040
+    :basecourse: canterburyqb
+        
+    The *lifetime* of a parameter in Java is    
+    
+
+    - Really long    
+      
+
+      - The lifetime of a variable is the duration over which it keeps a value unless    
+        you change it.   With a parameter, its value is set when you invoke the    
+        method, and it retains that value (or what every you subsequently set it to)    
+        until you return.
+    - From when its method is called until it returns    
+      
+
+      + Correct!
+    - From when you define the method until you quit out of Eclipse    
+      
+
+      - The lifetime of a variable is the duration over which it keeps a value unless    
+        you change it.   With a parameter, its value is set when you invoke the    
+        method, and it retains that value (or what every you subsequently set it to)    
+        until you return.
+    - As long as the program is running    
+      
+
+      - The lifetime of a variable is the duration over which it keeps a value unless    
+        you change it.   With a parameter, its value is set when you invoke the    
+        method, and it retains that value (or what every you subsequently set it to)    
+        until you return.
+    - None of the above    
+      
+
+      - The lifetime of a variable is the duration over which it keeps a value unless    
+        you change it.   With a parameter, its value is set when you invoke the    
+        method, and it retains that value (or what every you subsequently set it to)    
+        until you return.

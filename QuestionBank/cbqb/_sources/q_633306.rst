@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_633306
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    .. code-block::    
+        
+        
+           s = input('Enter a string: ')    
+           w = ''    
+           for c in s:    
+              if c in "0123456789":    
+                 #REPLACE    
+              else:    
+                 w = w + c    
+           print(w)    
+        
+    What replacement statement for the comment ``#REPLACE will cause the code to    
+    print out all of the characters up to the first digit?  In other words, if the    
+    input is 'aaa3bb3c1', we should output 'aaa'.``    
+    
+
+    - break    
+      
+
+      + Correct!
+    - continue    
+      
+
+      - B is wrong because `continue` will skip the digits but continue with the rest    
+        of the String.    
+            
+        C is wrong because the exercise askes us to **PRINT** , not return the String.
+    - return w    
+      
+
+      - B is wrong because `continue` will skip the digits but continue with the rest    
+        of the String.    
+            
+        C is wrong because the exercise askes us to **PRINT** , not return the String.
+    - any of the above will work    
+      
+
+      - B is wrong because `continue` will skip the digits but continue with the rest    
+        of the String.    
+            
+        C is wrong because the exercise askes us to **PRINT** , not return the String.
+    - none of the above    
+      
+
+      - B is wrong because `continue` will skip the digits but continue with the rest    
+        of the String.    
+            
+        C is wrong because the exercise askes us to **PRINT** , not return the String.

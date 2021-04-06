@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052768
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q16:</strong></p><p>The following function called Difference() takes three inputs: a, b and abs. The function should return the difference between a and b (that is, a - b) however if abs is true then the function should return the absolute difference instead (i.e. the magnitude of the difference only). There is a condition missing in the code below, and it has been replaced by <strong>????</strong>.</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int Difference(int a, int b, int abs) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int diff = a - b;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; if ( <strong><span style="font-family: arial, helvetica, sans-serif;">????</span></strong> ) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; diff = -1 * diff; </span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return diff;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>How should the condition be written, completing the <strong>????</strong> above, to correctly define this function?</p>
+    
+
+    - ``if (abs || diff < 0) {``    
+      
+
+      - Incorrect
+    - ``if (abs && diff < 0) {``    
+      
+
+      + Correct!
+    - ``if (!abs || diff < 0) {``    
+      
+
+      - Incorrect
+    - ``if (!abs && diff < 0) {``    
+      
+
+      - Incorrect
+    - ``if (abs || diff > 0) {``    
+      
+
+      - Incorrect

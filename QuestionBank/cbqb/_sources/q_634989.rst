@@ -1,0 +1,46 @@
+.. mchoice:: canterburyqb_634989
+    :basecourse: canterburyqb
+        
+    Anastasiya has written code that loops over an int array named ``a`` which is of    
+    length N. Fill in the missing parts of the for loop's declaration.    
+        
+    ``int sum = 0;``    
+        
+    .. code-block::    
+        
+        
+           int *p;    
+           for(p = a;  ; ) // complete this line    
+           {    
+               sum += *p;    
+           }    
+    
+
+    - p < N; p++    
+      
+
+      - p will not work as the ending condition as you don't know what's at the end of    
+        the array; N is not an appropriate ending condition as it needs to be relative    
+        from where you started. D and E are wrong as those would be for linked lists.
+    - p; p++    
+      
+
+      - p will not work as the ending condition as you don't know what's at the end of    
+        the array; N is not an appropriate ending condition as it needs to be relative    
+        from where you started. D and E are wrong as those would be for linked lists.
+    - p < a + N; p++    
+      
+
+      + Correct!
+    - p; p = p->next    
+      
+
+      - p will not work as the ending condition as you don't know what's at the end of    
+        the array; N is not an appropriate ending condition as it needs to be relative    
+        from where you started. D and E are wrong as those would be for linked lists.
+    - p->next; p = p->next    
+      
+
+      - p will not work as the ending condition as you don't know what's at the end of    
+        the array; N is not an appropriate ending condition as it needs to be relative    
+        from where you started. D and E are wrong as those would be for linked lists.

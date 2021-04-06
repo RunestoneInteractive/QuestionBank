@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_633247
+    :basecourse: canterburyqb
+        
+    Two algorithms accomplish the same task on a collection of N items. Algorithm    
+    A performs log2 N operations. Algorithm B performs log3 N operations. Under    
+    what conditions does algorithm A offer better performance?    
+    
+
+    - N <= 2    
+      
+
+      - For no possible collection size N is log2 N < log3 N.
+    - N < log2 3    
+      
+
+      - For no possible collection size N is log2 N < log3 N.
+    - N < log3 2    
+      
+
+      - For no possible collection size N is log2 N < log3 N.
+    - N < 8    
+      
+
+      - For no possible collection size N is log2 N < log3 N.
+    - For no N.    
+      
+
+      + Correct!

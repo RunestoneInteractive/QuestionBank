@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_632571
+    :basecourse: canterburyqb
+        
+    The worst-case time complexity of radix sort is:    
+    
+
+    - O(1)    
+      
+
+      - n is the number of items to be sorted, as usual, and k is the number of digits    
+        in the largest number in the list. Radix sort processes the entire list (n    
+        numbers) once for each of the k digits in the largest number in the list, so    
+        the work done is proportional to n*k.
+    - O(n)    
+      
+
+      - n is the number of items to be sorted, as usual, and k is the number of digits    
+        in the largest number in the list. Radix sort processes the entire list (n    
+        numbers) once for each of the k digits in the largest number in the list, so    
+        the work done is proportional to n*k.
+    - O(k n)    
+      
+
+      + Correct!
+    - O(n2)    
+      
+
+      - n is the number of items to be sorted, as usual, and k is the number of digits    
+        in the largest number in the list. Radix sort processes the entire list (n    
+        numbers) once for each of the k digits in the largest number in the list, so    
+        the work done is proportional to n*k.
+    - none of the above    
+      
+
+      - n is the number of items to be sorted, as usual, and k is the number of digits    
+        in the largest number in the list. Radix sort processes the entire list (n    
+        numbers) once for each of the k digits in the largest number in the list, so    
+        the work done is proportional to n*k.

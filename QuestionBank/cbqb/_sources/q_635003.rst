@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_635003
+    :basecourse: canterburyqb
+        
+    The following method, called maxRow(), is intended to take one parameter: a    
+    List where the elements are Lists of Integer objects. You can think of this    
+    parameter as a matrix--a list of rows, where each row is a list of "cells"    
+    (plain integers). The method sums up the integers in each row (each inner    
+    list), and returns the index (row number) of the row with the largest row sum.    
+    Choose the best choice to fill in the blank on **Line 3** so that this method    
+    works as intended:    
+        
+    .. code-block::    
+        
+        
+           public static int maxRow(List<List<Integer>> matrix)    
+           {    
+               int maxVec = -1;                                // Line 1    
+               int maxSum = Integer.MIN_VALUE;                 // Line 2    
+        
+               for (int row = 0; row < __________; row++)      // Line 3    
+               {    
+                   int sum = 0;                                // Line 4    
+                   for (int col = 0; col < __________; col++)  // Line 5    
+                   {    
+                       sum = sum + __________;                 // Line 6    
+                   }    
+                   if (___________)                            // Line 7    
+                   {    
+                       maxSum = __________;                    // Line 8    
+                       maxVec = __________;                    // Line 9    
+                   }    
+               }    
+               return maxVec;                                  // Line 10    
+           }    
+    
+
+    - ``matrix.size()``    
+      
+
+      + Correct!
+    - ``matrix[0[].size()``    
+      
+
+      - The blank on line three is the upper limit for the row count, controlling how    
+        many times the outer loop repeats.  This should correspond to the number of    
+        rows in the `matrix`, or `matrix.size()`.
+    - ``matrix[row][col]``    
+      
+
+      - The blank on line three is the upper limit for the row count, controlling how    
+        many times the outer loop repeats.  This should correspond to the number of    
+        rows in the `matrix`, or `matrix.size()`.
+    - ``matrix.length``    
+      
+
+      - The blank on line three is the upper limit for the row count, controlling how    
+        many times the outer loop repeats.  This should correspond to the number of    
+        rows in the `matrix`, or `matrix.size()`.
+    - ``maxVec``    
+      
+
+      - The blank on line three is the upper limit for the row count, controlling how    
+        many times the outer loop repeats.  This should correspond to the number of    
+        rows in the `matrix`, or `matrix.size()`.

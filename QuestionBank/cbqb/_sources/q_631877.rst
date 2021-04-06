@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_631877
+    :basecourse: canterburyqb
+        
+    What is the value of the expression    
+        
+    ``"J R R Tolkien".compareTo("J K Rowling") < 0``    
+    
+
+    - True    
+      
+
+      - The `compareTo` method when called on a `String` object with a `String`    
+        parameter, returns `true` if the first `String` is before the second in    
+        alphabetical order. Otherwise it returns `false`.
+    - False    
+      
+
+      + Correct!
+    - "J R R Tolkien"    
+      
+
+      - The `compareTo` method when called on a `String` object with a `String`    
+        parameter, returns `true` if the first `String` is before the second in    
+        alphabetical order. Otherwise it returns `false`.
+    - An error.    
+      
+
+      - The `compareTo` method when called on a `String` object with a `String`    
+        parameter, returns `true` if the first `String` is before the second in    
+        alphabetical order. Otherwise it returns `false`.
+    - None of the above.    
+      
+
+      - The `compareTo` method when called on a `String` object with a `String`    
+        parameter, returns `true` if the first `String` is before the second in    
+        alphabetical order. Otherwise it returns `false`.

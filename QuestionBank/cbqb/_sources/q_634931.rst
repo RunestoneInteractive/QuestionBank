@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_634931
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider a picture that is x pixels wide and y pixels tall.  Furthermore,    
+    consider storing the x*y pixels in a one-dimensional array which stores the    
+    pixels in a left-to-right, top-to-bottom manner.    
+        
+    Consider the following code:    
+        
+    def pixelSwap (pixels):\ :raw-html-m2r:`<br>`    
+         pixCount = len(pixels) - 1\ :raw-html-m2r:`<br>`    
+         for p in range (0, len(pixels)/2):\ :raw-html-m2r:`<br>`    
+              tempPixel = pixels[p]\ :raw-html-m2r:`<br>`    
+              pixels[p] = pixels[pixCount - p]\ :raw-html-m2r:`<br>`    
+              pixels[pixCount - p] = tempPixel    
+        
+    If the array of pixels originally represented the following picture:    
+        
+        
+    .. image:: img/11.jpg    
+       :target: img/11.jpg    
+       :alt: no description    
+        
+        
+    Which of the following pictures represents the pixel array after invoking    
+    pixelSwap?    
+    
+
+    - The picture is unchanged.    
+      
+
+      - The first pixel becomes the last, the second pixel, becomes the second last,    
+        etc.  This is a list reversing algorithm.  For a picture, the result is to    
+        rotate it 180 degrees.
+    - The picture is rotated 90 degrees clockwise.    
+      
+
+      - The first pixel becomes the last, the second pixel, becomes the second last,    
+        etc.  This is a list reversing algorithm.  For a picture, the result is to    
+        rotate it 180 degrees.
+    - The picture is rotated 90 degrees counterclockwise.    
+      
+
+      - The first pixel becomes the last, the second pixel, becomes the second last,    
+        etc.  This is a list reversing algorithm.  For a picture, the result is to    
+        rotate it 180 degrees.
+    - The picture is rotated 180 degress.    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - The first pixel becomes the last, the second pixel, becomes the second last,    
+        etc.  This is a list reversing algorithm.  For a picture, the result is to    
+        rotate it 180 degrees.

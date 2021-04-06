@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_633573
+    :basecourse: canterburyqb
+        
+    Suppose you try to perform a binary search on a 5-element array sorted in the    
+    reverse order of what the binary search algorithm expects. How many of the    
+    items in this array will be found if they are searched for?    
+    
+
+    - 5    
+      
+
+      - Only the middle element will be found. The remaining elements will not be    
+        contained in the subranges that we narrow our search to.
+    - 0    
+      
+
+      - Only the middle element will be found. The remaining elements will not be    
+        contained in the subranges that we narrow our search to.
+    - 1    
+      
+
+      + Correct!
+    - 2    
+      
+
+      - Only the middle element will be found. The remaining elements will not be    
+        contained in the subranges that we narrow our search to.
+    - 3    
+      
+
+      - Only the middle element will be found. The remaining elements will not be    
+        contained in the subranges that we narrow our search to.

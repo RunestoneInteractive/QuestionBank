@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_635077
+    :basecourse: canterburyqb
+        
+    Consider this code segment:    
+        
+    .. code-block::    
+        
+        
+           boolean x = false;    
+           boolean y = true;    
+           boolean z = true;    
+           System.out.println( (x || !y) && (!x || z) );    
+        
+    What value is printed?    
+    
+
+    - true    
+      
+
+      - Since `x` is false and `y` is true, `(x || !y)` is false.  This forces the    
+        entire expression to be false, because of the `&&` operator.
+    - false    
+      
+
+      + Correct!
+    - Nothing, there is a syntax error    
+      
+
+      - Since `x` is false and `y` is true, `(x || !y)` is false.  This forces the    
+        entire expression to be false, because of the `&&` operator.

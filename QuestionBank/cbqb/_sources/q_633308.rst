@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_633308
+    :basecourse: canterburyqb
+        
+    What is the heap condition?    
+    
+
+    - All but the leaf nodes have two children    
+      
+
+      - All are true, but only C provides the definition of the heap condition.
+    - The tree is a binary tree    
+      
+
+      - All are true, but only C provides the definition of the heap condition.
+    - Each node's key is greater than its childrens' keys    
+      
+
+      + Correct!
+    - Only the last level of the tree may not be full    
+      
+
+      - All are true, but only C provides the definition of the heap condition.
+    - No leaf node has children    
+      
+
+      - All are true, but only C provides the definition of the heap condition.

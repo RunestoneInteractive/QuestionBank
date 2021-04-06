@@ -1,0 +1,56 @@
+.. mchoice:: canterburyqb_634944
+    :basecourse: canterburyqb
+        
+    For the Insertion sort algorithm; what is its best case and worst case    
+    performance?    
+    
+
+    - Best: O(n)    
+          
+      Worst: O(n2)    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Best: O(n)\ :raw-html-m2r:`<br>`    
+      Worst: O(n)    
+      
+
+      - Insertion sort, if given an already sorted list, will still perform O(n)    
+        comparisons to ascertain the list is sorted.  If the list is "reverse sorted,"    
+        then the  first pass will require 1 exchange.  The second pass will require 2    
+        exchanges, etc.  Hence, in the worst case, O(n2) exchanges.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Best: O(log2 n)\ :raw-html-m2r:`<br>`    
+      Worst: O(n2)    
+      
+
+      - Insertion sort, if given an already sorted list, will still perform O(n)    
+        comparisons to ascertain the list is sorted.  If the list is "reverse sorted,"    
+        then the  first pass will require 1 exchange.  The second pass will require 2    
+        exchanges, etc.  Hence, in the worst case, O(n2) exchanges.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Best: O(n2)\ :raw-html-m2r:`<br>`    
+      Worst: O(n2)    
+      
+
+      - Insertion sort, if given an already sorted list, will still perform O(n)    
+        comparisons to ascertain the list is sorted.  If the list is "reverse sorted,"    
+        then the  first pass will require 1 exchange.  The second pass will require 2    
+        exchanges, etc.  Hence, in the worst case, O(n2) exchanges.
+    - None of the above.    
+      
+
+      - Insertion sort, if given an already sorted list, will still perform O(n)    
+        comparisons to ascertain the list is sorted.  If the list is "reverse sorted,"    
+        then the  first pass will require 1 exchange.  The second pass will require 2    
+        exchanges, etc.  Hence, in the worst case, O(n2) exchanges.

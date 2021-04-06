@@ -1,0 +1,267 @@
+.. mchoice:: canterburyqb_632076
+    :basecourse: canterburyqb
+        
+    Consider the following short program, which does not meet all institutional    
+    coding standards:    
+        
+    void vCodeString(char szText[ ]); /\ * First line *\ /    
+        
+    include <stdio.h>    
+    =================    
+        
+    include <string.h>    
+    ==================    
+        
+    define MAX_LEN 12    
+    =================    
+        
+    int main(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        char szData[MAX_LEN];    
+        
+        printf("Enter some text to code: ");    
+        
+        scanf("%s", szData);    
+        
+        vCodeString(szData); /* Line 8 */    
+        
+        printf("Coded string is %s\n", szData);    
+        
+        
+    }    
+        
+    void vCodeString(char szText[ ])    
+        
+    {    
+        
+    .. code-block::    
+        
+        int i = -1;    
+        
+        while(szText[++i])    
+        
+        {    
+        
+             szText[i] += (char)2;    
+        
+        }    
+        
+        
+    }    
+        
+    With the array size defined as MAX_LEN (or 12) bytes, what happens if I enter    
+    a word with more than 12 letters, such as hippopotamuses?    
+    
+
+    - You will get a run time error    
+      
+
+      - Now, C provides open power to the programmer to write any index value in [] of    
+        an array. This is where we say that no array bound check is there in C. SO,    
+        misusing this power, we can access arr[-1] and also arr[6] or any other    
+        illegal location. Since these bytes are on stack, so by doing this we end up    
+        messing with other variables on stack. Consider the following example :    
+            
+        #include<stdio.h>    
+            
+        unsigned int count = 1;    
+            
+        int main(void)    
+            
+        {    
+            
+        int b = 10;    
+            
+        int a[3];    
+            
+        a[0] = 1;    
+            
+        a[1] = 2;    
+            
+        a[2] = 3;    
+            
+        printf("\n b = %d \n",b);    
+            
+        a[3] = 12;    
+            
+        printf("\n b = %d \n",b);    
+            
+        return 0;    
+            
+        }    
+            
+        In the above example, we have declared an array of 3 integers but try to    
+        access the location arr[3] (which is illegal but doable in C) and change the    
+        value kept there.    
+            
+        But, we end up messing with the value of variable 'b'. Cant believe it?, check    
+        the following output . We see that value of b changes from 10 to 12.    
+            
+        $ ./stk    
+            
+        b = 10    
+            
+        b = 12    
+            
+        Source http://www.thegeekstuff.com/2011/12/c-arrays/
+    - You will get a syntax error from the compiler    
+      
+
+      - Now, C provides open power to the programmer to write any index value in [] of    
+        an array. This is where we say that no array bound check is there in C. SO,    
+        misusing this power, we can access arr[-1] and also arr[6] or any other    
+        illegal location. Since these bytes are on stack, so by doing this we end up    
+        messing with other variables on stack. Consider the following example :    
+            
+        #include<stdio.h>    
+            
+        unsigned int count = 1;    
+            
+        int main(void)    
+            
+        {    
+            
+        int b = 10;    
+            
+        int a[3];    
+            
+        a[0] = 1;    
+            
+        a[1] = 2;    
+            
+        a[2] = 3;    
+            
+        printf("\n b = %d \n",b);    
+            
+        a[3] = 12;    
+            
+        printf("\n b = %d \n",b);    
+            
+        return 0;    
+            
+        }    
+            
+        In the above example, we have declared an array of 3 integers but try to    
+        access the location arr[3] (which is illegal but doable in C) and change the    
+        value kept there.    
+            
+        But, we end up messing with the value of variable 'b'. Cant believe it?, check    
+        the following output . We see that value of b changes from 10 to 12.    
+            
+        $ ./stk    
+            
+        b = 10    
+            
+        b = 12    
+            
+        Source http://www.thegeekstuff.com/2011/12/c-arrays/
+    - Other data may be overwritten    
+      
+
+      + Correct!
+    - The array will be enlarged    
+      
+
+      - Now, C provides open power to the programmer to write any index value in [] of    
+        an array. This is where we say that no array bound check is there in C. SO,    
+        misusing this power, we can access arr[-1] and also arr[6] or any other    
+        illegal location. Since these bytes are on stack, so by doing this we end up    
+        messing with other variables on stack. Consider the following example :    
+            
+        #include<stdio.h>    
+            
+        unsigned int count = 1;    
+            
+        int main(void)    
+            
+        {    
+            
+        int b = 10;    
+            
+        int a[3];    
+            
+        a[0] = 1;    
+            
+        a[1] = 2;    
+            
+        a[2] = 3;    
+            
+        printf("\n b = %d \n",b);    
+            
+        a[3] = 12;    
+            
+        printf("\n b = %d \n",b);    
+            
+        return 0;    
+            
+        }    
+            
+        In the above example, we have declared an array of 3 integers but try to    
+        access the location arr[3] (which is illegal but doable in C) and change the    
+        value kept there.    
+            
+        But, we end up messing with the value of variable 'b'. Cant believe it?, check    
+        the following output . We see that value of b changes from 10 to 12.    
+            
+        $ ./stk    
+            
+        b = 10    
+            
+        b = 12    
+            
+        Source http://www.thegeekstuff.com/2011/12/c-arrays/
+    - Nothing - it is legal and perfectly normal.    
+      
+
+      - Now, C provides open power to the programmer to write any index value in [] of    
+        an array. This is where we say that no array bound check is there in C. SO,    
+        misusing this power, we can access arr[-1] and also arr[6] or any other    
+        illegal location. Since these bytes are on stack, so by doing this we end up    
+        messing with other variables on stack. Consider the following example :    
+            
+        #include<stdio.h>    
+            
+        unsigned int count = 1;    
+            
+        int main(void)    
+            
+        {    
+            
+        int b = 10;    
+            
+        int a[3];    
+            
+        a[0] = 1;    
+            
+        a[1] = 2;    
+            
+        a[2] = 3;    
+            
+        printf("\n b = %d \n",b);    
+            
+        a[3] = 12;    
+            
+        printf("\n b = %d \n",b);    
+            
+        return 0;    
+            
+        }    
+            
+        In the above example, we have declared an array of 3 integers but try to    
+        access the location arr[3] (which is illegal but doable in C) and change the    
+        value kept there.    
+            
+        But, we end up messing with the value of variable 'b'. Cant believe it?, check    
+        the following output . We see that value of b changes from 10 to 12.    
+            
+        $ ./stk    
+            
+        b = 10    
+            
+        b = 12    
+            
+        Source http://www.thegeekstuff.com/2011/12/c-arrays/

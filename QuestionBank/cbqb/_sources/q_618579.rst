@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_618579
+    :basecourse: canterburyqb
+        
+    Which statement produces a compilation error?    
+    
+
+    - class A extends M implements I {// code was removed}    
+          
+      class B extends N implements I {// code was removed}    
+      
+
+      - class A extends M, N implements I {// code was removed}
+    - class A extends M implements I, L, J {// code was removed}    
+      
+
+      - class A extends M, N implements I {// code was removed}
+    - class A extends M, N implements I {// code was removed}    
+      
+
+      + Correct!
+    - class A extends M implements I {// code was removed}    
+      
+
+      - class A extends M, N implements I {// code was removed}

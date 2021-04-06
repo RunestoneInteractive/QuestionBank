@@ -1,0 +1,62 @@
+.. mchoice:: canterburyqb_632147
+    :basecourse: canterburyqb
+        
+    What is output by the code shown in the question below. Think about it    
+    carefully - it may be a bit tricky!    
+        
+    void main (void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        #define LIMIT 8    
+        
+        int i = 0;    
+        
+        while ( i++ < LIMIT )    
+        
+       {    
+        
+             if ( i )    
+        
+            {    
+        
+                  printf( "%d", LIMIT - i );    
+        
+            }    
+        
+        }    
+        
+        
+    }    
+    
+
+    - Nothing    
+      
+
+      - The while loop increments the index before each iteration of the loop and the    
+        resulting increased index value is subtracted from the Limit of 8.  Thus the    
+        values printed range from 7 to 0.
+    - 876543210    
+      
+
+      - The while loop increments the index before each iteration of the loop and the    
+        resulting increased index value is subtracted from the Limit of 8.  Thus the    
+        values printed range from 7 to 0.
+    - 876543210-1    
+      
+
+      - The while loop increments the index before each iteration of the loop and the    
+        resulting increased index value is subtracted from the Limit of 8.  Thus the    
+        values printed range from 7 to 0.
+    - 76543210    
+      
+
+      + Correct!
+    - 76543210-1    
+      
+
+      - The while loop increments the index before each iteration of the loop and the    
+        resulting increased index value is subtracted from the Limit of 8.  Thus the    
+        values printed range from 7 to 0.

@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_633271
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Kejun has the executable add that adds three command-line args together and    
+    prints the\ :raw-html-m2r:`<br>`    
+    result. He runs it like so:\ :raw-html-m2r:`<br>`    
+    ``./add 25 10 5``    
+        
+    ``the sum is 40``    
+        
+    In his code, what is the value of argc?    
+    
+
+    - 0    
+      
+
+      - ./add is considered a command-line argument
+    - 1    
+      
+
+      - ./add is considered a command-line argument
+    - 2    
+      
+
+      - ./add is considered a command-line argument
+    - 3    
+      
+
+      - ./add is considered a command-line argument
+    - 4    
+      
+
+      + Correct!

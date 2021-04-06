@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_634943
+    :basecourse: canterburyqb
+        
+    Consider the code    
+        
+    ``struct capacitor{``    
+        
+    .. code-block::    
+        
+        
+               double capacitance;    
+           };    
+        
+    If given the variable struct capacitor *cap, which of the following will NOT    
+    print the address of cap's capacitance?    
+    
+
+    - printf("%p\n", cap )    
+      
+
+      - C and D are equivalent; A is equivalent to them as capacitance is the first    
+        thing stored in the struct.
+    - printf("%p\n", &(cap.capacitance) )    
+      
+
+      + Correct!
+    - printf("%p\n", &((*cap).capacitance) )    
+      
+
+      - C and D are equivalent; A is equivalent to them as capacitance is the first    
+        thing stored in the struct.
+    - printf("%p\n", &(cap->capacitance) )    
+      
+
+      - C and D are equivalent; A is equivalent to them as capacitance is the first    
+        thing stored in the struct.

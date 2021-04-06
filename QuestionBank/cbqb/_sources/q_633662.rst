@@ -1,0 +1,19 @@
+.. mchoice:: canterburyqb_633662
+    :basecourse: canterburyqb
+        
+    True or False:    
+        
+    Public methods and public variables are the only part of your class that    
+    clients can access and use.    
+    
+
+    - True    
+      
+
+      - Clients can also inherit protected variables.  If you are writing code that    
+        will be used by clients, you need to think carefully about whether you want    
+        clients to extend your classes, and if so, how.
+    - False    
+      
+
+      + Correct!

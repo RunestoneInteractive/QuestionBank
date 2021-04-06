@@ -1,0 +1,51 @@
+.. mchoice:: canterburyqb_618487
+    :basecourse: canterburyqb
+        
+    To make the following code work without any error, one of the given solutions    
+    is **not** right. Which one is it?    
+        
+    class D {    
+        
+    .. code-block::    
+        
+         int Diameter;    
+        
+         public D(int d){    
+        
+               Diameter = d;    
+        
+         }    
+        
+        
+    }    
+        
+    public class E {    
+        
+    .. code-block::    
+        
+         public static void main(String arg[]){    
+        
+               D diam = new D();    
+        
+         }    
+        
+        
+    }    
+    
+
+    - To omit the input argument of the constructor.    
+      
+
+      - To define a null constructor.
+    - To define diam by passing an int value to constructor.    
+      
+
+      - To define a null constructor.
+    - To define a null constructor.    
+      
+
+      - To define a null constructor.
+    - To define the constructor private.    
+      
+
+      + Correct!

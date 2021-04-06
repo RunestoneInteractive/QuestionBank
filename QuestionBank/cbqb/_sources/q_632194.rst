@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632194
+    :basecourse: canterburyqb
+        
+    The worst-case analysis (Big-Oh) of the following Java code is:    
+        
+    .. code-block::    
+        
+        
+           for (j=0; j<n; j++) {    
+              for (k=0; k<n; k++) {    
+                 base = base * 2;    
+              }    
+        
+    ``}``    
+    
+
+    - O(1)    
+      
+
+      - The body of the inner loop will be executed n2 times. Each execution will take    
+        a constant amount of time. Thus, the total amount of time will be a function    
+        of n2.
+    - O(n)    
+      
+
+      - The body of the inner loop will be executed n2 times. Each execution will take    
+        a constant amount of time. Thus, the total amount of time will be a function    
+        of n2.
+    - O(n2)    
+      
+
+      + Correct!
+    - O(log2n)    
+      
+
+      - The body of the inner loop will be executed n2 times. Each execution will take    
+        a constant amount of time. Thus, the total amount of time will be a function    
+        of n2.
+    - O(2n)    
+      
+
+      - The body of the inner loop will be executed n2 times. Each execution will take    
+        a constant amount of time. Thus, the total amount of time will be a function    
+        of n2.

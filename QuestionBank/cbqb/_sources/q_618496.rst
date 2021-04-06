@@ -1,0 +1,25 @@
+.. mchoice:: canterburyqb_618496
+    :basecourse: canterburyqb
+        
+    How many object references will be created after initializing the following    
+    array?    
+        
+    String [][] names = new String [3][2];    
+    
+
+    - 3    
+      
+
+      - 6
+    - 2    
+      
+
+      - 6
+    - 6    
+      
+
+      - 6
+    - 7    
+      
+
+      + Correct!

@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_633461
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           int sum=0;    
+           for (int i=1; i<=5; i++) {    
+              sum += i;    
+           }    
+           System.out.println(sum);    
+    
+
+    - 0    
+      
+
+      - This is basically 1 + 2 + 3 + 4 + 5
+    - 5    
+      
+
+      - This is basically 1 + 2 + 3 + 4 + 5
+    - 10    
+      
+
+      - This is basically 1 + 2 + 3 + 4 + 5
+    - 15    
+      
+
+      + Correct!
+    - 20    
+      
+
+      - This is basically 1 + 2 + 3 + 4 + 5

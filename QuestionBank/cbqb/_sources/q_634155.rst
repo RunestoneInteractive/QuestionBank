@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_634155
+    :basecourse: canterburyqb
+        
+    Gisele has written a method, ``tabulate``\ :    
+        
+    ``double tabulate(double (*fun)(double), double x)``    
+        
+    .. code-block::    
+        
+        
+           {    
+               return (*fun)(x);    
+           }    
+        
+    Write a single line of code that will call\ ``tabulate`` and return sin(1.0).    
+    
+
+    - tabulate(sin(1.0);    
+      
+
+      - Only sin need be provided for the first parameter.
+    - tabulate(sin, 1.0);    
+      
+
+      + Correct!
+    - tabulate(sin(1.0), 1.0);    
+      
+
+      - Only sin need be provided for the first parameter.

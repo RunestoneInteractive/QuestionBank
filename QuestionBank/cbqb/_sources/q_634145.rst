@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634145
+    :basecourse: canterburyqb
+        
+    Prim's Algorithm is used to solve what problem?    
+    
+
+    - Finding the lowest parent of a heap    
+      
+
+      - Prim's is used for MST.
+    - Minimum spanning tree    
+      
+
+      + Correct!
+    - Shortest path in a graph from a source    
+      
+
+      - Prim's is used for MST.
+    - Sorting integers    
+      
+
+      - Prim's is used for MST.

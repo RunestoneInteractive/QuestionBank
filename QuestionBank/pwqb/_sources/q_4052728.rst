@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052728
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q24:</strong></p><p>The SumEvens() function takes two inputs: an array of integers and the length of the array. The function returns the sum of all values in the array that are even numbers. For example, if the input array is: {1,2,3,4,5}, the output will be 6 because 2 and 4 are even numbers. The body of the loop below is missing and has been replaced with ????:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int SumEvens(int *values, int length)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int total = 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i;</span></p><p><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 0; i &lt; length; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ????</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return total;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Which statements below could replace the ???? in the code above so that the function works correctly as described?</p><p>&nbsp;</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] % 2 == 0) {``\ :raw-html-m2r:`<br>`    
+      ``total = total + 1;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] % 2 == 1) {``\ :raw-html-m2r:`<br>`    
+      ``total = total + values[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] % 2 == values[i]) {``\ :raw-html-m2r:`<br>`    
+      ``total++;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] % 2 == 0) {``\ :raw-html-m2r:`<br>`    
+      ``total = total + values[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] % 2 == 1) {``\ :raw-html-m2r:`<br>`    
+      ``total = total + 1;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect

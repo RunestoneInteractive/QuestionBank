@@ -1,0 +1,81 @@
+.. mchoice:: canterburyqb_634981
+    :basecourse: canterburyqb
+        
+    Consider the following Java implementation of a Stack:    
+        
+    .. code-block::    
+        
+        
+           public class Stack<E> extends LinkedList<E>{    
+             private int size=0;    
+             public int size(){    
+               return size;    
+             }    
+             public void push(E e){    
+               add(e);    
+               size+=1;    
+             }    
+             public E pop() {    
+               size-=1;    
+               return removeLast();    
+             }    
+           }    
+        
+    What does the following code output?    
+        
+    .. code-block::    
+        
+        
+           Stack<Integer> q=new Stack<Integer>();    
+           q.push(10);    
+           q.push(20);    
+           q.clear();  // clear() is inherited from LinkedList    
+        
+           System.out.println(q.size());    
+    
+
+    - 0    
+      
+
+      - This is a classic case of using extends improperly.  Remember that inheritance    
+        in Java (or any other Object-oriented language) creates an IS-A relationship.    
+        But, a Stack IS NOT a LinkedList, because there are things you can do to a    
+        LinkedList that you cannot do to a Stack, such as invoke clear().    
+            
+        Another way to think about this is that inheritance inherits ALL public    
+        methods, and allows those methods to be used by the subclass.  For this Stack    
+        class, all of those inherited methods, such as clear(), can be called to    
+        change the state of the instance, but they don't know to pay attention to the    
+        size variable.
+    - 2    
+      
+
+      + Correct!
+    - throws a Runtime exception    
+      
+
+      - This is a classic case of using extends improperly.  Remember that inheritance    
+        in Java (or any other Object-oriented language) creates an IS-A relationship.    
+        But, a Stack IS NOT a LinkedList, because there are things you can do to a    
+        LinkedList that you cannot do to a Stack, such as invoke clear().    
+            
+        Another way to think about this is that inheritance inherits ALL public    
+        methods, and allows those methods to be used by the subclass.  For this Stack    
+        class, all of those inherited methods, such as clear(), can be called to    
+        change the state of the instance, but they don't know to pay attention to the    
+        size variable.
+    - throws a checked exception (i.e. this code won't compile unless the code is    
+      surrounded by a try-catch block, or the method it is located inside declares    
+      that it throws the exception)    
+      
+
+      - This is a classic case of using extends improperly.  Remember that inheritance    
+        in Java (or any other Object-oriented language) creates an IS-A relationship.    
+        But, a Stack IS NOT a LinkedList, because there are things you can do to a    
+        LinkedList that you cannot do to a Stack, such as invoke clear().    
+            
+        Another way to think about this is that inheritance inherits ALL public    
+        methods, and allows those methods to be used by the subclass.  For this Stack    
+        class, all of those inherited methods, such as clear(), can be called to    
+        change the state of the instance, but they don't know to pay attention to the    
+        size variable.

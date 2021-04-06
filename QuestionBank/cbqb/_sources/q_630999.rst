@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_630999
+    :basecourse: canterburyqb
+        
+    Consider the incomplete code segment below. The segment is supposed to    
+    initialize a 4 x 4 matrix as shown in this image:    
+        
+        
+    .. image:: img/16.png    
+       :target: img/16.png    
+       :alt: no description    
+        
+        
+    .. code-block::    
+        
+        
+           final int SIZE = _________;            // line 0    
+            int matrix[][] = new int[SIZE][SIZE];  // line 1    
+            for (int i = 0; i < SIZE; i++)         // line 2    
+            {    
+               for (int j = 0; j < SIZE; j++)     // line 3    
+               {    
+                   if ( _________________ )       // line 4    
+                   {    
+                       matrix[i][j] = 4;          // line 5    
+                   }    
+                   else if ( _______________ )    // line 6    
+                   {    
+                       matrix[i][j] = 1;          // line 7    
+                   }    
+                   else    
+                   {    
+                       matrix[i][j] = 0;          // line 8    
+                   }    
+               }    
+            }    
+        
+    Select statement from the choices below that is the best choice to fill in the    
+    blank on ``line 0`` of this code segment so that it behaves as desired.    
+    
+
+    - 3    
+      
+
+      - The constant `SIZE` is used to define the width and height of the array    
+        (matrix), which is 4x4.
+    - 4    
+      
+
+      + Correct!
+    - 5    
+      
+
+      - The constant `SIZE` is used to define the width and height of the array    
+        (matrix), which is 4x4.
+    - 16    
+      
+
+      - The constant `SIZE` is used to define the width and height of the array    
+        (matrix), which is 4x4.
+    - None of these    
+      
+
+      - The constant `SIZE` is used to define the width and height of the array    
+        (matrix), which is 4x4.

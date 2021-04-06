@@ -1,0 +1,80 @@
+.. mchoice:: canterburyqb_635000
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1. public BallPanel extends javax.swing.JPanel {    
+       2.    private Ball[] _balls;    
+       3.    private Ball[] _moreBalls;    
+       4.    public BallPanel(int numberOfBalls){    
+       5.       _balls = new Ball[numberOfBalls];    
+       6.       for (int i=0;i<_balls.length;i++)    
+       7.          _balls[i] = new Ball();    
+       8.       _moreBalls = _balls;    
+       9.    }    
+       10.   public Ball[] getBalls(){    
+       11.      return _balls;    
+       12.   }    
+       13.   public Ball[] getMoreBalls(){    
+       14.      return _moreBalls;    
+       15.   }    
+       16.  ...    
+        
+        
+    .. code-block::    
+        
+        
+        
+        
+       Which of the following statements is true, after executing the following code    
+        
+       (assuming Ball has a constructor that takes a Color argument).    
+        
+    .. code-block::    
+        
+       BallPanel myPanel = new BallPanel(5);    
+       myPanel.getMoreBalls()[0] = new Ball(java.awt.Color.pink);    
+        
+        
+    ```    
+        
+    ?    
+    
+
+    - The array\ ``_balls`` in myPanel is unchanged    
+      
+
+      - Because of line 9, both _balls and _moreBalls refer to the same array.    
+        Therefore, if I re-assign an element in one array, the change shows up under    
+        the other.  Moreover, since it is really only one array the elements are    
+        identical, so == will be true in this case.
+    - The array _moreBalls in myPanel is unchanged    
+      
+
+      - Because of line 9, both _balls and _moreBalls refer to the same array.    
+        Therefore, if I re-assign an element in one array, the change shows up under    
+        the other.  Moreover, since it is really only one array the elements are    
+        identical, so == will be true in this case.
+    - The first element of ``_moreBalls`` in myPanel is a new ``Ball`` constructed using    
+      ``new Ball(java.awt.Color.pink);`` and is not the same as the first element of    
+      ``_balls`` in myPanel;\ ``    
+      ``    
+      
+
+      - Because of line 9, both _balls and _moreBalls refer to the same array.    
+        Therefore, if I re-assign an element in one array, the change shows up under    
+        the other.  Moreover, since it is really only one array the elements are    
+        identical, so == will be true in this case.
+    - ``myPanel.getBalls()[0] == myPanel.getMoreBalls()[0]``    
+      
+
+      + Correct!
+    - The code will not execute because the second line has a syntax error.    
+      
+
+      - Because of line 9, both _balls and _moreBalls refer to the same array.    
+        Therefore, if I re-assign an element in one array, the change shows up under    
+        the other.  Moreover, since it is really only one array the elements are    
+        identical, so == will be true in this case.

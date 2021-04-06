@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_633877
+    :basecourse: canterburyqb
+        
+    Amr wants to use quicksort to sort the series [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,    
+    11, 12, 13, 14, 15, 16, 17]. What choice of pivot will yield the **least**    
+    efficient code?    
+    
+
+    - The first element of a sublist    
+      
+
+      + Correct!
+    - The middle element of a sublist    
+      
+
+      - For a ascending sorted list, quicksort partitioning on the smallest element    
+        will be O(n^2).
+    - A random element of a sublist    
+      
+
+      - For a ascending sorted list, quicksort partitioning on the smallest element    
+        will be O(n^2).

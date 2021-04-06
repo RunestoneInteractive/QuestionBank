@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634421
+    :basecourse: canterburyqb
+        
+    Dummy question: all block-model tags    
+    
+
+    - blah    
+      
+
+      + Correct!
+    - blah    
+      
+
+      - This class has all the block-model tags checked and no others. It should    
+        produce a list of all block-model tags with the questions associated with each    
+        tag. (Note: the delimiter tags are included in case of errors).
+    - blah    
+      
+
+      - This class has all the block-model tags checked and no others. It should    
+        produce a list of all block-model tags with the questions associated with each    
+        tag. (Note: the delimiter tags are included in case of errors).

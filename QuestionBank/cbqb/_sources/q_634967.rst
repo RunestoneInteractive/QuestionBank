@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_634967
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    What algorithm does *mystery* implement when passed a list of values as its    
+    argument?    
+        
+    def helper (listOfValues, start):\ :raw-html-m2r:`<br>`    
+        largestSoFar = listOfValues[start]\ :raw-html-m2r:`<br>`    
+        largestIndex = start\ :raw-html-m2r:`<br>`    
+        current = start+1\ :raw-html-m2r:`<br>`    
+        while (current < len(listOfValues)):\ :raw-html-m2r:`<br>`    
+            if (listOfValues[current] > largestSoFar):\ :raw-html-m2r:`<br>`    
+                largestSoFar = listOfValues[current]\ :raw-html-m2r:`<br>`    
+                largestIndex = current\ :raw-html-m2r:`<br>`    
+            current = current + 1\ :raw-html-m2r:`<br>`    
+        return (largestIndex)    
+        
+    def mystery (listOfValues):\ :raw-html-m2r:`<br>`    
+        leftEdge = 0\ :raw-html-m2r:`<br>`    
+        while (leftEdge < (len(listOfValues)-1)):\ :raw-html-m2r:`<br>`    
+            biggestPosition = helper (listOfValues, leftEdge)\ :raw-html-m2r:`<br>`    
+            temp = listOfValues[biggestPosition]\ :raw-html-m2r:`<br>`    
+            listOfValues[biggestPosition] = listOfValues[leftEdge]\ :raw-html-m2r:`<br>`    
+            listOfValues[leftEdge] = temp    
+        
+    .. code-block::    
+        
+           leftEdge = leftEdge + 1    
+        
+       return (listOfValues)    
+    
+
+    - List Reverser    
+      
+
+      - Helper is an implementation of _Find Largest_.  By repeatedly invoking Find    
+        Largest, the _mystery_ algorithm implements selection sort
+    - Insertion Sort    
+      
+
+      - Helper is an implementation of _Find Largest_.  By repeatedly invoking Find    
+        Largest, the _mystery_ algorithm implements selection sort
+    - Quicksort    
+      
+
+      - Helper is an implementation of _Find Largest_.  By repeatedly invoking Find    
+        Largest, the _mystery_ algorithm implements selection sort
+    - Selection Sort    
+      
+
+      + Correct!
+    - Bubble Sort    
+      
+
+      - Helper is an implementation of _Find Largest_.  By repeatedly invoking Find    
+        Largest, the _mystery_ algorithm implements selection sort

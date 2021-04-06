@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052758
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q26:</strong></p><p>Consider the following function definition:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int Test(int *values, int length)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int i = 0;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int j = length - 1;</span></p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; </span></p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; while (i &lt; j) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (values[i] &gt; values[j]) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i = i + 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; j = j - 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>Assume this function is called as follows:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">Test(values, 5)</span></p><p>&nbsp;</p><p>Which one of the following array definitions would cause this function to return the value 1?</p>
+    
+
+    - int values[5] = {5,5,5,5,5};    
+      
+
+      - Incorrect
+    - int values[5] = {1,2,3,4,5};    
+      
+
+      - Incorrect
+    - int values[5] = {5,4,3,3,6};    
+      
+
+      + Correct!
+    - int values[5] = {1,5,2,6,3};    
+      
+
+      - Incorrect
+    - int values[5] = {1,2,3,3,6};    
+      
+
+      - Incorrect

@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_632131
+    :basecourse: canterburyqb
+        
+    What is output by the code shown below. Think about it carefully -it may be a    
+    bit tricky!    
+        
+    void main( void )    
+        
+    {    
+        
+    static char szCode[] = "111";    
+        
+    szCode[2] = '0';    
+        
+    puts( szCode );    
+        
+    }    
+    
+
+    - Nothing    
+      
+
+      - The value of the character in the array at index [2] (where index starts from    
+        0)  is set to zero and the other initialized array values remain unchanged
+    - 011    
+      
+
+      - The value of the character in the array at index [2] (where index starts from    
+        0)  is set to zero and the other initialized array values remain unchanged
+    - 101    
+      
+
+      - The value of the character in the array at index [2] (where index starts from    
+        0)  is set to zero and the other initialized array values remain unchanged
+    - 110    
+      
+
+      + Correct!
+    - 111    
+      
+
+      - The value of the character in the array at index [2] (where index starts from    
+        0)  is set to zero and the other initialized array values remain unchanged

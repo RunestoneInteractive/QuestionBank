@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_635007
+    :basecourse: canterburyqb
+        
+    Which of the following run-times is NOT characteristic of a *feasible* (or    
+    *tractable* ) algorithm?    
+    
+
+    - O(n2)    
+      
+
+      - Feasable (or tractable) algorithms are one whose time is expressed as a    
+        polynomial in terms of the input set size n.  O(2n) is exponential in n.
+    - O(nlog2 n)    
+      
+
+      - Feasable (or tractable) algorithms are one whose time is expressed as a    
+        polynomial in terms of the input set size n.  O(2n) is exponential in n.
+    - O(2n)    
+      
+
+      + Correct!
+    - O(n3)    
+      
+
+      - Feasable (or tractable) algorithms are one whose time is expressed as a    
+        polynomial in terms of the input set size n.  O(2n) is exponential in n.
+    - O(log2 n)    
+      
+
+      - Feasable (or tractable) algorithms are one whose time is expressed as a    
+        polynomial in terms of the input set size n.  O(2n) is exponential in n.

@@ -1,0 +1,135 @@
+.. mchoice:: canterburyqb_632850
+    :basecourse: canterburyqb
+        
+    What does this print when x is assigned 1?    
+        
+    .. code-block::    
+        
+        
+           if (x==1) {    
+              System.out.println("x is 1");    
+           } if (x==2) {    
+              System.out.println("x is 2");    
+           } else {    
+              System.out.println("not 1 or 2");    
+           }    
+    
+
+    - x is 1    
+      
+
+      - This code snipped does not have an else-if!  It may as well be written like    
+        this:    
+            
+        [code]    
+            
+            if (x==1) {    
+               System.out.println("x is 1");    
+            }    
+                
+            if (x==2) {    
+               System.out.println("x is 2");    
+            } else {    
+               System.out.println("not 1 or 2");    
+            }    
+                
+        [/code]    
+            
+            
+            
+        So when x==1, clearly we get "x is 1" printed, bu since 1 does not equal 2, we    
+        also get "not 1 or 2" with the else.    
+            
+        Be aware of when you are using an if, and when are are using an else-if,    
+        because they are quite different!
+    - x is 2    
+      
+
+      - This code snipped does not have an else-if!  It may as well be written like    
+        this:    
+            
+        [code]    
+            
+            if (x==1) {    
+               System.out.println("x is 1");    
+            }    
+                
+            if (x==2) {    
+               System.out.println("x is 2");    
+            } else {    
+               System.out.println("not 1 or 2");    
+            }    
+                
+        [/code]    
+            
+            
+            
+        So when x==1, clearly we get "x is 1" printed, bu since 1 does not equal 2, we    
+        also get "not 1 or 2" with the else.    
+            
+        Be aware of when you are using an if, and when are are using an else-if,    
+        because they are quite different!
+    - x is 1    
+          
+      x is 2    
+      
+
+      - This code snipped does not have an else-if!  It may as well be written like    
+        this:    
+            
+        [code]    
+            
+            if (x==1) {    
+               System.out.println("x is 1");    
+            }    
+                
+            if (x==2) {    
+               System.out.println("x is 2");    
+            } else {    
+               System.out.println("not 1 or 2");    
+            }    
+                
+        [/code]    
+            
+            
+            
+        So when x==1, clearly we get "x is 1" printed, bu since 1 does not equal 2, we    
+        also get "not 1 or 2" with the else.    
+            
+        Be aware of when you are using an if, and when are are using an else-if,    
+        because they are quite different!
+    - x is 1    
+          
+      not 1 or 2    
+      
+
+      + Correct!
+    - x is 2    
+          
+      not 1 or 2    
+      
+
+      - This code snipped does not have an else-if!  It may as well be written like    
+        this:    
+            
+        [code]    
+            
+            if (x==1) {    
+               System.out.println("x is 1");    
+            }    
+                
+            if (x==2) {    
+               System.out.println("x is 2");    
+            } else {    
+               System.out.println("not 1 or 2");    
+            }    
+                
+        [/code]    
+            
+            
+            
+        So when x==1, clearly we get "x is 1" printed, bu since 1 does not equal 2, we    
+        also get "not 1 or 2" with the else.    
+            
+        Be aware of when you are using an if, and when are are using an else-if,    
+        because they are quite different!

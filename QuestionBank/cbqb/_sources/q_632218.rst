@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_632218
+    :basecourse: canterburyqb
+        
+    An example of something that could be implemented using a Stack is:    
+    
+
+    - The undo operation in Word    
+      
+
+      - Anytime you're solving a problem where you're adding and removing data and you    
+        always need to remove the item that was added most recently is suited to a    
+        Stack. This is called a last-in-first-out property, or LIFO. Back buttons, the    
+        undo operation, and postfix calculators all have the last-in-first-out    
+        property.
+    - The back button in a web browser    
+      
+
+      - Anytime you're solving a problem where you're adding and removing data and you    
+        always need to remove the item that was added most recently is suited to a    
+        Stack. This is called a last-in-first-out property, or LIFO. Back buttons, the    
+        undo operation, and postfix calculators all have the last-in-first-out    
+        property.
+    - A postfix calculator    
+      
+
+      - Anytime you're solving a problem where you're adding and removing data and you    
+        always need to remove the item that was added most recently is suited to a    
+        Stack. This is called a last-in-first-out property, or LIFO. Back buttons, the    
+        undo operation, and postfix calculators all have the last-in-first-out    
+        property.
+    - All of the above    
+      
+
+      + Correct!
+    - Items (A) and (B) only    
+      
+
+      - Anytime you're solving a problem where you're adding and removing data and you    
+        always need to remove the item that was added most recently is suited to a    
+        Stack. This is called a last-in-first-out property, or LIFO. Back buttons, the    
+        undo operation, and postfix calculators all have the last-in-first-out    
+        property.

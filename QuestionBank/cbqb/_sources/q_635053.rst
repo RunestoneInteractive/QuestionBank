@@ -1,0 +1,108 @@
+.. mchoice:: canterburyqb_635053
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/1.png    
+       :target: img/1.png    
+       :alt: no description    
+        
+        
+    The simplified UML diagram above shows the relationships among Java classes    
+    Bird, Crow, and Duck.    
+        
+    Suppose Bird has a fly(Location place) method, but we want Crows to    
+    makeNoise() just before they take off and then behave like other Birds.    
+    Assuming Crows have a makeNoise() method, we should    
+    
+
+    - Define a fly method in Crow by copying the fly code from Bird  then adding in    
+      makeNoise() at the start, i.e.    
+          
+      .. code-block::    
+          
+          
+             public void fly(Location place) {    
+                this.makeNoise();    
+              //  [paste the body of Bird's fly method here]    
+             }    
+      
+
+      - D is the best: super.fly(place) invokes Bird's fly method, so produces fly    
+        behavior like other Birds.  A would also work, but is does not take advantage    
+        of inheritance, and would be incorrect if you change the flying behavior of    
+        Birds by modifying Bird's fly method.    
+            
+        B wouldn't involve any flight, C wouldn't terminate, and E assumes a static    
+        fly method in Bird (which would be unusual design, so I would have mentioned    
+        it).
+    - Define a fly method in Crow  that just consists of makeNoise(), i.e.    
+          
+      .. code-block::    
+          
+          
+             public void fly(Location place) {    
+                this.makeNoise();    
+             }    
+      
+
+      - D is the best: super.fly(place) invokes Bird's fly method, so produces fly    
+        behavior like other Birds.  A would also work, but is does not take advantage    
+        of inheritance, and would be incorrect if you change the flying behavior of    
+        Birds by modifying Bird's fly method.    
+            
+        B wouldn't involve any flight, C wouldn't terminate, and E assumes a static    
+        fly method in Bird (which would be unusual design, so I would have mentioned    
+        it).
+    - Define a fly method in Crow that just consists of makeNoise() and    
+      this.fly(place), i.e.    
+          
+      .. code-block::    
+          
+          
+             public void fly(Location place) {    
+                this.makeNoise();    
+                this.fly(place);    
+             }    
+      
+
+      - D is the best: super.fly(place) invokes Bird's fly method, so produces fly    
+        behavior like other Birds.  A would also work, but is does not take advantage    
+        of inheritance, and would be incorrect if you change the flying behavior of    
+        Birds by modifying Bird's fly method.    
+            
+        B wouldn't involve any flight, C wouldn't terminate, and E assumes a static    
+        fly method in Bird (which would be unusual design, so I would have mentioned    
+        it).
+    - Define a fly method in Crow that just consists of makeNoise() and    
+      super.fly(place)    
+          
+      .. code-block::    
+          
+          
+             public void fly(Location place) {    
+                this.makeNoise();    
+                super.fly(place);    
+             }    
+      
+
+      + Correct!
+    - Define a fly method in Crow that just consists of makeNoise() and    
+      Bird.fly(place); i.e.    
+          
+      .. code-block::    
+          
+          
+             public void fly(Location place) {    
+                this.makeNoise();    
+                Bird.fly(place);    
+             }    
+      
+
+      - D is the best: super.fly(place) invokes Bird's fly method, so produces fly    
+        behavior like other Birds.  A would also work, but is does not take advantage    
+        of inheritance, and would be incorrect if you change the flying behavior of    
+        Birds by modifying Bird's fly method.    
+            
+        B wouldn't involve any flight, C wouldn't terminate, and E assumes a static    
+        fly method in Bird (which would be unusual design, so I would have mentioned    
+        it).

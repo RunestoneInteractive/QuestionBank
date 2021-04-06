@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052675
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q15:</strong></p><p>Consider the array called values initialised as follows:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int values[5] = {1,2,3,4,5};</span></p><p>&nbsp;</p><p>What would be stored in the elements of this array after the following code has executed?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i = 0;</span><br /><span style="font-family: courier new,courier,monospace;">while (i &lt; 5) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; values[(i+1)%5] = values[i];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - { 1, 1, 1, 1, 1 }    
+      
+
+      + Correct!
+    - { 5, 1, 2, 3, 4 }    
+      
+
+      - Incorrect
+    - { 2, 3, 4, 5, 2 }    
+      
+
+      - Incorrect
+    - { 2, 3, 4, 5, 1 }    
+      
+
+      - Incorrect
+    - { 1, 1, 2, 3, 4 }    
+      
+
+      - Incorrect

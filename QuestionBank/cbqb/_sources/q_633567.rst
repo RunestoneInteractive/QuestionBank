@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_633567
+    :basecourse: canterburyqb
+        
+    You must store a large amount of data, and both searching and inserting new    
+    elements must be as fast as possible. What's the simplest data structure that    
+    meets your needs?    
+    
+
+    - Ordered array    
+      
+
+      - Hashtables provide O(1) insertion and searching, provided collisions aren't    
+        too numerous.
+    - Linked list    
+      
+
+      - Hashtables provide O(1) insertion and searching, provided collisions aren't    
+        too numerous.
+    - Hashtable    
+      
+
+      + Correct!
+    - Binary search tree    
+      
+
+      - Hashtables provide O(1) insertion and searching, provided collisions aren't    
+        too numerous.
+    - Self-balancing tree    
+      
+
+      - Hashtables provide O(1) insertion and searching, provided collisions aren't    
+        too numerous.

@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_617507
+    :basecourse: canterburyqb
+        
+    How many objects are created in the following declaration?    
+        
+    String[] names = new String[10];    
+    
+
+    - 0    
+      
+
+      - None of the above
+    - 1    
+      
+
+      + Correct!
+    - 10    
+      
+
+      - None of the above
+    - 11    
+      
+
+      - None of the above
+    - None of the above    
+      
+
+      - None of the above

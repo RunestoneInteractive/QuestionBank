@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_634956
+    :basecourse: canterburyqb
+        
+    The following Python method determines whether or not a list of values, passed    
+    in as a parameter, has any duplicate values.    
+        
+    What is the Big-Oh running time of this algorithm?    
+        
+    def duplicates(lov):    
+        
+    .. code-block::    
+        
+       dupCount = 0      
+       outer = 0      
+       while (outer < len(lov)):      
+           inner = outer + 1      
+           while (inner < len(lov)):    
+        
+               if (lov[inner] == lov[outer]):    
+        
+                   dupCount = dupCount + 1    
+        
+               inner = inner + 1    
+        
+           outer = outer + 1    
+        
+       if (dupCount == 0):      
+           print "there are no duplicate values"      
+       else:      
+           print "there are ", dupCount, " duplicate values"    
+    
+
+    - O(1)    
+      
+
+      - Each item in the list is compared against each other item in the list: a    
+        classic example of the _all-pairs_ programming pattern.  The first item is    
+        compared against n-1 other values.  The second item is compared against n-2    
+        other values, etc.  The total number of comparisons is  ![](img/2.png)
+    - O(n)    
+      
+
+      - Each item in the list is compared against each other item in the list: a    
+        classic example of the _all-pairs_ programming pattern.  The first item is    
+        compared against n-1 other values.  The second item is compared against n-2    
+        other values, etc.  The total number of comparisons is  ![](img/2.png)
+    - O(n log2 n)    
+      
+
+      - Each item in the list is compared against each other item in the list: a    
+        classic example of the _all-pairs_ programming pattern.  The first item is    
+        compared against n-1 other values.  The second item is compared against n-2    
+        other values, etc.  The total number of comparisons is  ![](img/2.png)
+    - O(n2)    
+      
+
+      + Correct!
+    - O(n3)    
+      
+
+      - Each item in the list is compared against each other item in the list: a    
+        classic example of the _all-pairs_ programming pattern.  The first item is    
+        compared against n-1 other values.  The second item is compared against n-2    
+        other values, etc.  The total number of comparisons is  ![](img/2.png)

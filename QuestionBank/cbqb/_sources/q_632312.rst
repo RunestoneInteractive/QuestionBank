@@ -1,0 +1,76 @@
+.. mchoice:: canterburyqb_632312
+    :basecourse: canterburyqb
+        
+    An example of something that could be built using a QueueADT is a structure    
+    that models:    
+    
+
+    - The undo operation in a word processor    
+      
+
+      - Choices A and B are applications where when you delete, you need to delete the    
+        item that was added most recently (a LIFO structure). This is not possible in    
+        a queue, where you always delete the item that was added *first*.    
+            
+        Choice D is an application where you need to be able to delete from the    
+        beginning, middle, or end of the structure, something that is also impossible    
+        in a queue.    
+            
+        Choice E is an application where a element (an intersection) could be    
+        connected to several other elements. This is also impossible in a queue.    
+            
+        Choice C is the only one where it makes sense to retrieve the elements in the    
+        order in which they arrived.
+    - the back button in a web browser    
+      
+
+      - Choices A and B are applications where when you delete, you need to delete the    
+        item that was added most recently (a LIFO structure). This is not possible in    
+        a queue, where you always delete the item that was added *first*.    
+            
+        Choice D is an application where you need to be able to delete from the    
+        beginning, middle, or end of the structure, something that is also impossible    
+        in a queue.    
+            
+        Choice E is an application where a element (an intersection) could be    
+        connected to several other elements. This is also impossible in a queue.    
+            
+        Choice C is the only one where it makes sense to retrieve the elements in the    
+        order in which they arrived.
+    - the customers waiting to talk to an online helpdesk    
+      
+
+      + Correct!
+    - a hundred names in alphabetical order, where names are added and removed    
+      frequently    
+      
+
+      - Choices A and B are applications where when you delete, you need to delete the    
+        item that was added most recently (a LIFO structure). This is not possible in    
+        a queue, where you always delete the item that was added *first*.    
+            
+        Choice D is an application where you need to be able to delete from the    
+        beginning, middle, or end of the structure, something that is also impossible    
+        in a queue.    
+            
+        Choice E is an application where a element (an intersection) could be    
+        connected to several other elements. This is also impossible in a queue.    
+            
+        Choice C is the only one where it makes sense to retrieve the elements in the    
+        order in which they arrived.
+    - the roads and intersections in a city    
+      
+
+      - Choices A and B are applications where when you delete, you need to delete the    
+        item that was added most recently (a LIFO structure). This is not possible in    
+        a queue, where you always delete the item that was added *first*.    
+            
+        Choice D is an application where you need to be able to delete from the    
+        beginning, middle, or end of the structure, something that is also impossible    
+        in a queue.    
+            
+        Choice E is an application where a element (an intersection) could be    
+        connected to several other elements. This is also impossible in a queue.    
+            
+        Choice C is the only one where it makes sense to retrieve the elements in the    
+        order in which they arrived.

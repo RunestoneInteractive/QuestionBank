@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_632793
+    :basecourse: canterburyqb
+        
+    What does this print?    
+        
+    .. code-block::    
+        
+        
+           double d = 8 / 10;    
+           System.out.println(d);    
+    
+
+    - d    
+      
+
+      - Integer division!  10 goes into 8 zero times, with a remainder of 8.  But    
+        since this is integer division, we only care about the quotient, which is    
+        zero!
+    - 0    
+      
+
+      + Correct!
+    - 0.8    
+      
+
+      - Integer division!  10 goes into 8 zero times, with a remainder of 8.  But    
+        since this is integer division, we only care about the quotient, which is    
+        zero!
+    - 2    
+      
+
+      - Integer division!  10 goes into 8 zero times, with a remainder of 8.  But    
+        since this is integer division, we only care about the quotient, which is    
+        zero!
+    - None of the above    
+      
+
+      - Integer division!  10 goes into 8 zero times, with a remainder of 8.  But    
+        since this is integer division, we only care about the quotient, which is    
+        zero!

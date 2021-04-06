@@ -1,0 +1,86 @@
+.. mchoice:: canterburyqb_632075
+    :basecourse: canterburyqb
+        
+    Consider the following short program, which does not meet all institutional    
+    coding standards:    
+        
+    void vCodeString(char szText[ ]); /\ * First line *\ /    
+        
+    include <stdio.h>    
+    =================    
+        
+    include <string.h>    
+    ==================    
+        
+    define MAX_LEN 12    
+    =================    
+        
+    int main(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        char szData[MAX_LEN];    
+        
+        printf("Enter some text to code: ");    
+        
+        scanf("%s", szData);    
+        
+        vCodeString(szData); /* Line 8 */    
+        
+        printf("Coded string is %s\n", szData);    
+        
+        
+    }    
+        
+    void vCodeString(char szText[ ])    
+        
+    {    
+        
+    .. code-block::    
+        
+        int i = -1;    
+        
+        while(szText[++i])    
+        
+        {    
+        
+             szText[i] += (char)2;    
+        
+        }    
+        
+        
+    }    
+        
+    I would like to combine lines 8 and 9 into    
+        
+    printf("Coded string is %s\n", vCodeString(szData));    
+        
+    Unfortunately, this gives me a syntax error. Why?    
+    
+
+    - The %s should be replaced by %c.    
+      
+
+      - The printf function cannot take as a parameter a function which does not    
+        return a value
+    - The parameter to vCodeString should be szText    
+      
+
+      - The printf function cannot take as a parameter a function which does not    
+        return a value
+    - The parameter to vCodeString should be shown as szData[ ].    
+      
+
+      - The printf function cannot take as a parameter a function which does not    
+        return a value
+    - printf can only match %s to a variable, not to a function.    
+      
+
+      - The printf function cannot take as a parameter a function which does not    
+        return a value
+    - vCodeString does not return a value.    
+      
+
+      + Correct!

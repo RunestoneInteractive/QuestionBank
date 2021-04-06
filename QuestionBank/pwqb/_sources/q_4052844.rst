@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052844
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q12:</strong><br />What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">void Changes(int x[], int y)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; x[0] = x[0] + 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; x[1] = x[1] + 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; y = y + 1;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int main(void)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int a[2] = {10, 20};</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int b = 10;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; Changes(a, b);</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("Result = %d %d %d", a[0], a[1], b);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - Result = 10 20 11    
+      
+
+      - Incorrect
+    - Result = 10 20 10    
+      
+
+      - Incorrect
+    - Result = 11 20 10    
+      
+
+      - Incorrect
+    - Result = 11 21 10    
+      
+
+      + Correct!
+    - Result = 11 21 11    
+      
+
+      - Incorrect

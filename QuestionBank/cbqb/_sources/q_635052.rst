@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_635052
+    :basecourse: canterburyqb
+        
+    What output will the following code fragment produce?    
+        
+    .. code-block::    
+        
+        
+           public void fn()    
+           {    
+               int grade = 91;    
+               int level = -3;    
+               if (grade >= 90)    
+                   if (level <= -2)    
+                       System.out.println("A-level");    
+               else    
+                   System.out.println("B-status");    
+           }    
+    
+
+    - A-level    
+      
+
+      + Correct!
+    - B-status    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es).  As a result, the else is associated with the second    
+        (inner) if.  Still, both if statement conditions are true, so the output is    
+        `A-level`.
+    - "A-level"    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es).  As a result, the else is associated with the second    
+        (inner) if.  Still, both if statement conditions are true, so the output is    
+        `A-level`.
+    - "B-status"    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es).  As a result, the else is associated with the second    
+        (inner) if.  Still, both if statement conditions are true, so the output is    
+        `A-level`.
+    - no output is produced    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es).  As a result, the else is associated with the second    
+        (inner) if.  Still, both if statement conditions are true, so the output is    
+        `A-level`.

@@ -1,0 +1,48 @@
+.. mchoice:: canterburyqb_633551
+    :basecourse: canterburyqb
+        
+    You've got this Word class for a project you are working on:    
+        
+    .. code-block::    
+        
+        
+           class Word {    
+             private String letters;    
+             ...    
+             public int hashCode() {    
+               return letters.charAt(1);    
+             }    
+           }    
+        
+    For which of the word lists below is this implementation of hashCode a poor    
+    choice?    
+    
+
+    - we, us, oh, by    
+      
+
+      - The hashCode examines the second letter of each word to find the location in    
+        the hashtable. In list D, all words share the second letter 'a,' resulting in    
+        many collisions.
+    - aa, bb, cc, dd    
+      
+
+      - The hashCode examines the second letter of each word to find the location in    
+        the hashtable. In list D, all words share the second letter 'a,' resulting in    
+        many collisions.
+    - mom, mill, mull, mat    
+      
+
+      - The hashCode examines the second letter of each word to find the location in    
+        the hashtable. In list D, all words share the second letter 'a,' resulting in    
+        many collisions.
+    - cat, bad, fall, late    
+      
+
+      + Correct!
+    - dinosaur, paroxysm, levitate, apiary    
+      
+
+      - The hashCode examines the second letter of each word to find the location in    
+        the hashtable. In list D, all words share the second letter 'a,' resulting in    
+        many collisions.

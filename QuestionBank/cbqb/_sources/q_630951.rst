@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_630951
+    :basecourse: canterburyqb
+        
+    Suppose you are writing software for a helpdesk. Each request is entered into    
+    the system as it arrives.    
+        
+    Which of the following abstract datatypes would be the best choice to ensure    
+    that the requests are handled in exactly the same order in which they arrive?    
+    
+
+    - A Stack    
+      
+
+      - A Queue is the only abstract datatype where elements are removed in exactly    
+        the same order that they arrived in.
+    - A Queue    
+      
+
+      + Correct!
+    - A List    
+      
+
+      - A Queue is the only abstract datatype where elements are removed in exactly    
+        the same order that they arrived in.
+    - A PriorityQueue    
+      
+
+      - A Queue is the only abstract datatype where elements are removed in exactly    
+        the same order that they arrived in.
+    - A Dictionary    
+      
+
+      - A Queue is the only abstract datatype where elements are removed in exactly    
+        the same order that they arrived in.

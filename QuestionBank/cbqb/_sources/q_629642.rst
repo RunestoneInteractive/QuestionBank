@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_629642
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/8.png    
+       :target: img/8.png    
+       :alt: no description    
+        
+        
+    The word ``abstract`` in the class box for ``Vehicle`` means:    
+    
+
+    - ``Vehicle`` is the top level of the hierarchy    
+      
+
+      - An object cannot be _directly_ instantiated from an abstract class, i.e.    
+        `Vehicle v = new Vehicle();` is not legit, so B is true.  It is also true that    
+        every concrete (non-abstract) subclass of Vehicle must implement or inherit    
+        all of the methods defined as abstract in `Vehicle`.  So D is the answer.
+    - Objects of type ``Vehicle`` can not be instantiated    
+      
+
+      - An object cannot be _directly_ instantiated from an abstract class, i.e.    
+        `Vehicle v = new Vehicle();` is not legit, so B is true.  It is also true that    
+        every concrete (non-abstract) subclass of Vehicle must implement or inherit    
+        all of the methods defined as abstract in `Vehicle`.  So D is the answer.
+    - All concrete subclasses of ``Vehicle`` must implement or inherit all of    
+      ``Vehicle``\ 's ``abstract`` methods    
+      
+
+      - An object cannot be _directly_ instantiated from an abstract class, i.e.    
+        `Vehicle v = new Vehicle();` is not legit, so B is true.  It is also true that    
+        every concrete (non-abstract) subclass of Vehicle must implement or inherit    
+        all of the methods defined as abstract in `Vehicle`.  So D is the answer.
+    - Both B and C are true    
+      
+
+      + Correct!
+    - All of the above    
+      
+
+      - An object cannot be _directly_ instantiated from an abstract class, i.e.    
+        `Vehicle v = new Vehicle();` is not legit, so B is true.  It is also true that    
+        every concrete (non-abstract) subclass of Vehicle must implement or inherit    
+        all of the methods defined as abstract in `Vehicle`.  So D is the answer.

@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_632271
+    :basecourse: canterburyqb
+        
+    Which data structure can be used to implement an abstract datatype such as the    
+    StackADT or QueueADT?    
+    
+
+    - an array    
+      
+
+      - StackADT and QueueADT can both be implemented with either an array or a stack.    
+        Either may be the better choice, depending on the purpose of the program and    
+        the nature of the data being stored.
+    - a linked list    
+      
+
+      - StackADT and QueueADT can both be implemented with either an array or a stack.    
+        Either may be the better choice, depending on the purpose of the program and    
+        the nature of the data being stored.
+    - both    
+      
+
+      + Correct!
+    - neither    
+      
+
+      - StackADT and QueueADT can both be implemented with either an array or a stack.    
+        Either may be the better choice, depending on the purpose of the program and    
+        the nature of the data being stored.

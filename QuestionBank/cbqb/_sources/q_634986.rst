@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_634986
+    :basecourse: canterburyqb
+        
+    Assume M and N are positive integers.  What does the following code print?    
+        
+    .. code-block::    
+        
+        
+           int sum=0;    
+           for (int j=0; j<M; j++) {    
+              for (int i=0; i<N; i++) {    
+                 sum += 1;    
+              }    
+           }    
+           System.out.println(sum);    
+    
+
+    - M+N    
+      
+
+      - For positive integers M and N, this prints M*N
+    - M*N    
+      
+
+      + Correct!
+    - MN    
+      
+
+      - For positive integers M and N, this prints M*N
+    - 0    
+      
+
+      - For positive integers M and N, this prints M*N
+    - none of the above    
+      
+
+      - For positive integers M and N, this prints M*N

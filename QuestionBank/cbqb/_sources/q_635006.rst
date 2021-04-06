@@ -1,0 +1,71 @@
+.. mchoice:: canterburyqb_635006
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1.  public BallPanel extends javax.swing.JPanel {    
+       2.     private Ball[] _balls;    
+       3.     public BallPanel(int numberOfBalls){    
+       4.        ??????    
+       5.        for (int i=0;i<_balls.length;i++)    
+       6.           _balls[i] = new Ball();    
+       7.     }    
+       8.  }    
+        
+        
+    ```    
+        
+    We need to add something at line 4 above to avoid an error in line 5.  Which    
+    of the following line 4 expressions fix the error in line 5?    
+    
+
+    - ``super();``    
+      
+
+      - The problem with line 5 (without adding line 4) is that _balls is declared,    
+        but not instantiated as an array, so _balls is null.   The code compiles fine    
+        (assuming you have a class Ball that has a constructor with no parameters),    
+        but will crash at run time if you instantiate a BallPanel.    
+            
+        B and D wouldn't help: B would crash at run time for the same reason as 5, and    
+        D gives a compile-time error since length is not directly settable for a Java    
+        array.   A would work, but would have no effect on the problem.
+    - ``_balls.setLength(numberOfBalls);``    
+      
+
+      - The problem with line 5 (without adding line 4) is that _balls is declared,    
+        but not instantiated as an array, so _balls is null.   The code compiles fine    
+        (assuming you have a class Ball that has a constructor with no parameters),    
+        but will crash at run time if you instantiate a BallPanel.    
+            
+        B and D wouldn't help: B would crash at run time for the same reason as 5, and    
+        D gives a compile-time error since length is not directly settable for a Java    
+        array.   A would work, but would have no effect on the problem.
+    - ``_balls = new Ball[numberOfBalls];``    
+      
+
+      + Correct!
+    - ``_balls.length = numberOfBalls;``    
+      
+
+      - The problem with line 5 (without adding line 4) is that _balls is declared,    
+        but not instantiated as an array, so _balls is null.   The code compiles fine    
+        (assuming you have a class Ball that has a constructor with no parameters),    
+        but will crash at run time if you instantiate a BallPanel.    
+            
+        B and D wouldn't help: B would crash at run time for the same reason as 5, and    
+        D gives a compile-time error since length is not directly settable for a Java    
+        array.   A would work, but would have no effect on the problem.
+    - B, C, and D all work.    
+      
+
+      - The problem with line 5 (without adding line 4) is that _balls is declared,    
+        but not instantiated as an array, so _balls is null.   The code compiles fine    
+        (assuming you have a class Ball that has a constructor with no parameters),    
+        but will crash at run time if you instantiate a BallPanel.    
+            
+        B and D wouldn't help: B would crash at run time for the same reason as 5, and    
+        D gives a compile-time error since length is not directly settable for a Java    
+        array.   A would work, but would have no effect on the problem.

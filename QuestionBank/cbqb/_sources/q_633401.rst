@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633401
+    :basecourse: canterburyqb
+        
+    You see the expression ``n = -15`` in some code that successfully compiles. What    
+    type can ``n`` not be?    
+    
+
+    - int    
+      
+
+      - Chars can only hold integers in [0, 65535]. Assigning an int variable to a    
+        char requires an explicit cast. Assigning an int literal in this interval does    
+        not require a cast. Assign an int literal outside of this interval is compile    
+        error.
+    - float    
+      
+
+      - Chars can only hold integers in [0, 65535]. Assigning an int variable to a    
+        char requires an explicit cast. Assigning an int literal in this interval does    
+        not require a cast. Assign an int literal outside of this interval is compile    
+        error.
+    - char    
+      
+
+      + Correct!
+    - short    
+      
+
+      - Chars can only hold integers in [0, 65535]. Assigning an int variable to a    
+        char requires an explicit cast. Assigning an int literal in this interval does    
+        not require a cast. Assign an int literal outside of this interval is compile    
+        error.
+    - long    
+      
+
+      - Chars can only hold integers in [0, 65535]. Assigning an int variable to a    
+        char requires an explicit cast. Assigning an int literal in this interval does    
+        not require a cast. Assign an int literal outside of this interval is compile    
+        error.

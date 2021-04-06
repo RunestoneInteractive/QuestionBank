@@ -1,0 +1,82 @@
+.. mchoice:: canterburyqb_617785
+    :basecourse: canterburyqb
+        
+    What will be printed?    
+        
+    class A{    
+        
+    .. code-block::    
+        
+           protected void A_Method(){    
+        
+           System.out.println ("This is the first A_Method");    
+        
+           }    
+        
+        
+    }    
+        
+    class B extends A{    
+        
+    .. code-block::    
+        
+            protected void A_Method(){    
+        
+            System.out.print ("This is the second A_Method");    
+        
+            }    
+        
+        
+    }    
+        
+    class C extends B{    
+        
+    .. code-block::    
+        
+            protected void A_Method(){    
+        
+            System.out.print ("This is the third A_Method");    
+        
+            }    
+        
+        
+    }    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+           public static void main(String[] args){    
+        
+           A [] objects = new A[3];    
+        
+           objects[0]= new A();    
+        
+           objects[1]= new B();    
+        
+           objects[2]= new C();    
+        
+           objects[1].A_Method();    
+        
+          }    
+        
+        
+    }    
+    
+
+    - This is the first A_Method    
+      
+
+      - Nothing, this is an error.
+    - This is the second A_Method    
+      
+
+      + Correct!
+    - This is the third A_Method    
+      
+
+      - Nothing, this is an error.
+    - Nothing, this is an error.    
+      
+
+      - Nothing, this is an error.

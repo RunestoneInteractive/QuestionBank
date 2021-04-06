@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_630653
+    :basecourse: canterburyqb
+        
+    Finding the maximum value in a complete and balanced binary search tree is    
+    
+
+    - O(1)    
+      
+
+      - The maximum is the root's right-most descendent, which can be reached in log N    
+        steps.
+    - O(log N)    
+      
+
+      + Correct!
+    - O(N)    
+      
+
+      - The maximum is the root's right-most descendent, which can be reached in log N    
+        steps.
+    - O(N2)    
+      
+
+      - The maximum is the root's right-most descendent, which can be reached in log N    
+        steps.
+    - O(N log N)    
+      
+
+      - The maximum is the root's right-most descendent, which can be reached in log N    
+        steps.

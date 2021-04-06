@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_618968
+    :basecourse: canterburyqb
+        
+    Which one of the following assignments will be resulted in 1.0?    
+    
+
+    - double x = 6.0/4.0;    
+      
+
+      - double z = (int)(6.0/4.0);
+    - double y = (int)6.0/4.0;    
+      
+
+      - double z = (int)(6.0/4.0);
+    - double z = (int)(6.0/4.0);    
+      
+
+      + Correct!
+    - double t = 6.0/(int)4.0;    
+      
+
+      - double z = (int)(6.0/4.0);

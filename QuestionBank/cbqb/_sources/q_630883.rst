@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_630883
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           int sum=0;    
+           for (int i=1; i<=5; i++) {    
+             sum += i;    
+           }    
+           System.out.println(sum);    
+    
+
+    - 0    
+      
+
+      - The loop is infinte
+    - 5    
+      
+
+      - The loop is infinte
+    - 10    
+      
+
+      - The loop is infinte
+    - 15    
+      
+
+      + Correct!
+    - The loop is infinte    
+      
+
+      - The loop is infinte

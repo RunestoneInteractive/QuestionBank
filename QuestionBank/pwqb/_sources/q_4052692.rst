@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052692
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q28:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">char word[100] = "LOIS LANE";</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">while (word[i] != '\0') {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">word[3] = word[i];</span><br /><span style="font-family: courier new,courier,monospace;">printf("%s", word);</span></p>
+    
+
+    - LOIE LANE    
+      
+
+      - Incorrect
+    - LOIS LANE    
+      
+
+      - Incorrect
+    - LOI LANE    
+      
+
+      - Incorrect
+    - LOI    
+      
+
+      + Correct!
+    - LOE    
+      
+
+      - Incorrect

@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052682
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q8:</strong></p><p>The nested loop below is incomplete because the inner loop is missing the <em>initialisation</em> and the <em>condition</em>:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i, j;</span></p><p><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 5; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (j = <strong>????</strong>; j &lt; <strong>????</strong>; j++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("(%d %d) ", i, j);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("\n");</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>If this nested loop produces the following output:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">(0 1) (0 2) (0 3) (0 4) (0 5) (0 6) (0 7) (0 8) (0 9)</span><br /><span style="font-family: courier new,courier,monospace;">(1 2) (1 3) (1 4) (1 5) (1 6) (1 7) (1 8) (1 9)</span><br /><span style="font-family: courier new,courier,monospace;">(2 3) (2 4) (2 5) (2 6) (2 7) (2 8) (2 9)</span><br /><span style="font-family: courier new,courier,monospace;">(3 4) (3 5) (3 6) (3 7) (3 8) (3 9)</span><br /><span style="font-family: courier new,courier,monospace;">(4 5) (4 6) (4 7) (4 8) (4 9)</span></p><p>&nbsp;</p><p>what must be the completed initialisation and condition for the inner loop?</p>
+    
+
+    - ``for (j = i; j < 10; j++) {``    
+      
+
+      - Incorrect
+    - ``for (j = 9; j > i; j++) {``    
+      
+
+      - Incorrect
+    - ``for (j = 1; j < i + 1; j++) {``    
+      
+
+      - Incorrect
+    - ``for (j = i + 1; j < 10; j++) {``    
+      
+
+      + Correct!
+    - ``for (j = i + 1; j < 9; j++) {``    
+      
+
+      - Incorrect

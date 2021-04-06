@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052869
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q4:</strong><br />What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">double a = 1.8;</span><br /><span style="font-family: courier new, courier, monospace;">int b = (int)(a + a);</span><br /><span style="font-family: courier new, courier, monospace;">int c = (int)a + (int)a;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result = %d %d", b, c);</span></p>
+    
+
+    - Result = 3 4    
+      
+
+      - Incorrect
+    - Result = 4 2    
+      
+
+      - Incorrect
+    - Result = 2 2    
+      
+
+      - Incorrect
+    - Result = 4 4    
+      
+
+      - Incorrect
+    - Result = 3 2    
+      
+
+      + Correct!

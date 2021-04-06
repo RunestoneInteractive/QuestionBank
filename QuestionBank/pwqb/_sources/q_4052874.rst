@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052874
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q1:</strong><br />The typical size of the <em>char</em> type in C is 8 bits (i.e. a single byte). How many <em>distinct</em> values can be represented with 8 bits?</p>
+    
+
+    - 256    
+      
+
+      + Correct!
+    - 255    
+      
+
+      - Incorrect
+    - 65535    
+      
+
+      - Incorrect
+    - 128    
+      
+
+      - Incorrect
+    - 127    
+      
+
+      - Incorrect

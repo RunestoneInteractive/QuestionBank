@@ -1,0 +1,56 @@
+.. mchoice:: canterburyqb_635076
+    :basecourse: canterburyqb
+        
+    Consider these two Java methods:    
+        
+    .. code-block::    
+        
+        
+           public void fuzzy(int x)    
+           {    
+               x = 73;    
+               System.out.print(x + " ");    
+           }    
+        
+           public void bunny()    
+           {    
+               int x = 29;    
+               fuzzy(x);    
+               System.out.println(x);    
+           }    
+        
+    What is printed when ``bunny()`` is called?    
+    
+
+    - 29 29    
+      
+
+      - Remember that in Java, parameters are passed by value.  Although a method may    
+        assign to a parameter, this change only affects the method's local copy of the    
+        parameter and is not visible outside the method (i.e., does not affect the    
+        actual value passed in by the caller).
+    - 73 73    
+      
+
+      - Remember that in Java, parameters are passed by value.  Although a method may    
+        assign to a parameter, this change only affects the method's local copy of the    
+        parameter and is not visible outside the method (i.e., does not affect the    
+        actual value passed in by the caller).
+    - 29 73    
+      
+
+      - Remember that in Java, parameters are passed by value.  Although a method may    
+        assign to a parameter, this change only affects the method's local copy of the    
+        parameter and is not visible outside the method (i.e., does not affect the    
+        actual value passed in by the caller).
+    - 73 29    
+      
+
+      + Correct!
+    - none of these    
+      
+
+      - Remember that in Java, parameters are passed by value.  Although a method may    
+        assign to a parameter, this change only affects the method's local copy of the    
+        parameter and is not visible outside the method (i.e., does not affect the    
+        actual value passed in by the caller).

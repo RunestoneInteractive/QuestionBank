@@ -1,0 +1,61 @@
+.. mchoice:: canterburyqb_632334
+    :basecourse: canterburyqb
+        
+    Assume this Perl subroutine is called like this:    
+        
+    &compare(6, 4);    
+        
+    sub compare    
+        
+    {    
+        
+      my $ret = 0;    
+        
+      if($\ *[0] > $*\ [1])    
+        
+      {    
+        
+    .. code-block::    
+        
+          $ret = 1;    
+        
+        
+       }    
+        
+      elsif($\ *[0] < $*\ [1])    
+        
+      {    
+        
+    .. code-block::    
+        
+          $ret = -1;    
+        
+        
+      }    
+        
+      return $ret;    
+        
+    }    
+        
+    What will the subroutine return?    
+    
+
+    - -1    
+      
+
+      - 6 (the first parameter) is greater than 4 (the second parameter) so it returns    
+        1
+    - 0    
+      
+
+      - 6 (the first parameter) is greater than 4 (the second parameter) so it returns    
+        1
+    - 1    
+      
+
+      + Correct!
+    - undef    
+      
+
+      - 6 (the first parameter) is greater than 4 (the second parameter) so it returns    
+        1

@@ -1,0 +1,76 @@
+.. mchoice:: canterburyqb_634250
+    :basecourse: canterburyqb
+        
+    Read the following method skeleton and choose the best expression to fill in    
+    the blank on **line 2** so that the method will behave correctly:    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Takes a string reference and counts the number of times    
+           * the character 'A' or 'a' appears in the string object.    
+           * @param aString   String reference to object containing chars.    
+           * @precondition    aString is not null (you may assume this is true).    
+           * @return          The number of times 'A' or 'a' appears in the string.    
+           */    
+           public static int countAs(String aString)  // line 1    
+           {    
+               int counter = __________;              // line 2    
+               int totalA = 0;                        // line 3    
+               while (counter < __________)           // line 4    
+               {    
+                   if ( __________.equals("A") )      // line 5    
+                   {    
+                       totalA = totalA + __________;  // line 6    
+                   }    
+                   counter++;                         // line 7    
+               }    
+               return __________;                     // line 8    
+           }    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - This method must examine each character in the given string to see if it is    
+        'A' or 'a', and uses a loop to do so.  The variable `counter` is being used as    
+        a loop index, and by imagining what will fill in other blanks, is also being    
+        used to keep track of the position of the current character in the string that    
+        is being examined.  Since line 7 methodically increases `counter` on each loop    
+        iteration, it must be traversing left-to-right through the string, so zero is    
+        the best choice for its initial value.
+    - aString.size()    
+      
+
+      - This method must examine each character in the given string to see if it is    
+        'A' or 'a', and uses a loop to do so.  The variable `counter` is being used as    
+        a loop index, and by imagining what will fill in other blanks, is also being    
+        used to keep track of the position of the current character in the string that    
+        is being examined.  Since line 7 methodically increases `counter` on each loop    
+        iteration, it must be traversing left-to-right through the string, so zero is    
+        the best choice for its initial value.
+    - aString.length    
+      
+
+      - This method must examine each character in the given string to see if it is    
+        'A' or 'a', and uses a loop to do so.  The variable `counter` is being used as    
+        a loop index, and by imagining what will fill in other blanks, is also being    
+        used to keep track of the position of the current character in the string that    
+        is being examined.  Since line 7 methodically increases `counter` on each loop    
+        iteration, it must be traversing left-to-right through the string, so zero is    
+        the best choice for its initial value.
+    - aString.length() - 1    
+      
+
+      - This method must examine each character in the given string to see if it is    
+        'A' or 'a', and uses a loop to do so.  The variable `counter` is being used as    
+        a loop index, and by imagining what will fill in other blanks, is also being    
+        used to keep track of the position of the current character in the string that    
+        is being examined.  Since line 7 methodically increases `counter` on each loop    
+        iteration, it must be traversing left-to-right through the string, so zero is    
+        the best choice for its initial value.

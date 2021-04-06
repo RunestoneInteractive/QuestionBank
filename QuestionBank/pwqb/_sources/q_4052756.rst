@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052756
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q28:</strong></p><p>You are writing a program that deals with arbitrarily large numbers. You start by creating an array that represents an integer where each element of the array stores one digit. Consider the following constant that indicates the size of this array:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">#define NUM_DIGITS 6</span></p><p>&nbsp;</p><p>You can represent the value 123 using the following array (notice that the digits are stored in separate array elements, with the least significant digit in the rightmost position of the array):</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int value[NUM_DIGITS] = {0, 0, 0, 1, 2, 3};</span></p><p>&nbsp;</p><p>The <em>least significant digit</em> is placed in the rightmost end of the array (i.e. at index position NUM_DIGITS - 1). You now need to implement some code to increase the value of the number by 1 (i.e. to add 1 to the value represented in the array). For example, this code should modify the array above so that the values become:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">{0, 0, 0, 1, 2, 4}</span></p><p>&nbsp;</p><p>which represents 124. Similarly, if the array stores the following values (representing the number 9999):</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int value[NUM_DIGITS] = {0, 0, 9, 9, 9, 9};</span></p><p>&nbsp;</p><p>then the code that adds 1 to this number should modify the array values so that they become:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">{0, 1, 0, 0, 0, 0}</span></p><p>&nbsp;</p><p>which represents 10000. The following loop is designed to solve the problem of adding 1 to the number represented in the array. The code is almost complete, but the body of the while loop is missing and has been replaced with <strong>????</strong>.</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int changePos = NUM_DIGITS - 1;</span><br /><span style="font-family: courier new, courier, monospace;">value[changePos]++;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">while (value[changePos] == 10) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; <strong><span style="font-family: arial, helvetica, sans-serif;">????</span></strong></span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>Which of the following options should replace the <strong>????</strong> to correctly complete this code?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``value[changePos] = 0;``\ :raw-html-m2r:`<br>`    
+      ``value[changePos]++;``\ :raw-html-m2r:`<br>`    
+      ``changePos--;``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``value[changePos] = 0;``\ :raw-html-m2r:`<br>`    
+      ``changePos--;``\ :raw-html-m2r:`<br>`    
+      ``value[changePos]++;``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``changePos--;``\ :raw-html-m2r:`<br>`    
+      ``value[changePos] = 0;``\ :raw-html-m2r:`<br>`    
+      ``value[changePos]++;``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``value[changePos]++;``\ :raw-html-m2r:`<br>`    
+      ``value[changePos] = 0;``\ :raw-html-m2r:`<br>`    
+      ``changePos--;``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``value[changePos]++;``\ :raw-html-m2r:`<br>`    
+      ``changePos--;``\ :raw-html-m2r:`<br>`    
+      ``value[changePos] = 0;``    
+      
+
+      - Incorrect

@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_633487
+    :basecourse: canterburyqb
+        
+    What does the following Java code produce?    
+        
+    .. code-block::    
+        
+        
+           int result=1;    
+           for (int i=1; i<=N; i++) {    
+              result *= 2;    
+           }    
+           System.out.println(result);    
+    
+
+    - 0    
+      
+
+      - This produces 2N.
+    - 2*N    
+      
+
+      - This produces 2N.
+    - 2N    
+      
+
+      + Correct!
+    - 2N+1    
+      
+
+      - This produces 2N.
+    - 1    
+      
+
+      - This produces 2N.

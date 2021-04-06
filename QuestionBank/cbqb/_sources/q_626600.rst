@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_626600
+    :basecourse: canterburyqb
+        
+    1. What is the value of the following Java arithmetic expression?    
+        
+    .. code-block::    
+        
+                              ` 4 * 3 + 6 / 4`    
+    
+
+    - 4    
+      
+
+      - This question addresses two points: first, operator precedence (multiplication    
+        and division are both done before addition) and second, integer division.    
+        Answer A is wrong about operator precedence: the answer you get if you apply    
+        the operators in order from left to right. Answer B makes the same mistake and    
+        is also wrong about integer division. Answer D is the answer you get if you    
+        assume that addition has a higher precedence than the other two operations.    
+        Answer E gets the operator precedence right, but is wrong about integer    
+        division. Answer C is the only one that has both right.
+    - 4.5    
+      
+
+      - This question addresses two points: first, operator precedence (multiplication    
+        and division are both done before addition) and second, integer division.    
+        Answer A is wrong about operator precedence: the answer you get if you apply    
+        the operators in order from left to right. Answer B makes the same mistake and    
+        is also wrong about integer division. Answer D is the answer you get if you    
+        assume that addition has a higher precedence than the other two operations.    
+        Answer E gets the operator precedence right, but is wrong about integer    
+        division. Answer C is the only one that has both right.
+    - 13    
+      
+
+      + Correct!
+    - 9    
+      
+
+      - This question addresses two points: first, operator precedence (multiplication    
+        and division are both done before addition) and second, integer division.    
+        Answer A is wrong about operator precedence: the answer you get if you apply    
+        the operators in order from left to right. Answer B makes the same mistake and    
+        is also wrong about integer division. Answer D is the answer you get if you    
+        assume that addition has a higher precedence than the other two operations.    
+        Answer E gets the operator precedence right, but is wrong about integer    
+        division. Answer C is the only one that has both right.
+    - 13.5    
+      
+
+      - This question addresses two points: first, operator precedence (multiplication    
+        and division are both done before addition) and second, integer division.    
+        Answer A is wrong about operator precedence: the answer you get if you apply    
+        the operators in order from left to right. Answer B makes the same mistake and    
+        is also wrong about integer division. Answer D is the answer you get if you    
+        assume that addition has a higher precedence than the other two operations.    
+        Answer E gets the operator precedence right, but is wrong about integer    
+        division. Answer C is the only one that has both right.

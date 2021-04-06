@@ -1,0 +1,55 @@
+.. mchoice:: canterburyqb_635114
+    :basecourse: canterburyqb
+        
+    Suppose you have an array of seven ``int`` values called ``test`` containing the    
+    following data:    
+        
+        
+    .. image:: img/28.png    
+       :target: img/28.png    
+       :alt: no description    
+        
+        
+    Trace the execution of the following code:    
+        
+    .. code-block::    
+        
+        
+           int x = 0;    
+           int y = 0;    
+           for (int i = 0; i < test.length; i++)    
+           {    
+               if (test[i] % 6 == 0)    
+               {    
+                   x++;    
+                   y += i;    
+               }    
+           }    
+        
+    What is the value of ``x`` when this loop is done?    
+    
+
+    - 0    
+      
+
+      - The variable `x` is incremented for each value in the array that is evenly    
+        divisible by 6, so the final value of `x` after the loop is 5.
+    - 3    
+      
+
+      - The variable `x` is incremented for each value in the array that is evenly    
+        divisible by 6, so the final value of `x` after the loop is 5.
+    - 4    
+      
+
+      - The variable `x` is incremented for each value in the array that is evenly    
+        divisible by 6, so the final value of `x` after the loop is 5.
+    - 5    
+      
+
+      + Correct!
+    - 7    
+      
+
+      - The variable `x` is incremented for each value in the array that is evenly    
+        divisible by 6, so the final value of `x` after the loop is 5.

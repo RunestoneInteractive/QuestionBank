@@ -1,0 +1,66 @@
+.. mchoice:: canterburyqb_618622
+    :basecourse: canterburyqb
+        
+    Which line of the following code has a compilation error?    
+        
+    import java.util.*;    
+        
+    public class bicycles {    
+        
+    .. code-block::    
+        
+           public static void main(String[] Main) {    
+        
+                 Vector<bike> q = new Vector();    
+        
+                 bike b = new bike();    
+        
+                 q.add(b);    
+        
+          }    
+        
+        
+    }    
+        
+    class bike{    
+        
+    .. code-block::    
+        
+          private int bikePrice;    
+        
+          private bike(){    
+        
+                   bikePrice = 0;    
+        
+          }    
+        
+         private bike(int p){    
+        
+                  bikePrice = p;    
+        
+          }    
+        
+        
+    }    
+    
+
+    - public static void main(String[] Main)    
+      
+
+      - bike b = new bike();
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      Vector\ :raw-html-m2r:`<bike>` q = new Vector();    
+      
+
+      - bike b = new bike();
+    - bike b = new bike();    
+      
+
+      + Correct!
+    - private int bikePrice;    
+      
+
+      - bike b = new bike();

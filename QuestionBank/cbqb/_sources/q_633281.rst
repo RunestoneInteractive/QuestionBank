@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_633281
+    :basecourse: canterburyqb
+        
+    Which of the following are *not* legal Java identifiers?    
+    
+
+    - fiveGuys    
+      
+
+      - E is also illegal.
+    - 5Guys    
+      
+
+      - E is also illegal.
+    - five_guys    
+      
+
+      - E is also illegal.
+    - numGuys5    
+      
+
+      + Correct!
+    - five guys    
+      
+
+      - E is also illegal.

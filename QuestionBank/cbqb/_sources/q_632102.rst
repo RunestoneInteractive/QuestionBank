@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632102
+    :basecourse: canterburyqb
+        
+    A printer is shared among several computers in a network. Which data structure    
+    is proper to keep the sent prints in order to provide service in turn?    
+    
+
+    - Queue    
+      
+
+      + Correct!
+    - Stack    
+      
+
+      - Single Linked List
+    - Single Linked List    
+      
+
+      - Single Linked List
+    - one dimensional array    
+      
+
+      - Single Linked List

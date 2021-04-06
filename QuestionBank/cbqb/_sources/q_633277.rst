@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_633277
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Mohamed has a brute force solution for vertex covering that takes one    
+    milisecond to test a possible vertex covering. The large graph has 64 nodes,    
+    so there are 264\ :raw-html-m2r:`<br>`    
+    possibilities (approx 1.85 * 1019 ). (There are 1000 ms in a second.) How long    
+    will Mohamed's code take to run?    
+    
+
+    - about 500,000 days    
+      
+
+      - ((1 / 1000*60*60*24) day ) * 1.85 * 10^19  = about 2 * 10^11 days -- so not A.    
+            
+        2 * 10^11 days is about 5 * 10^8 years.
+    - about 500,000 years    
+      
+
+      - ((1 / 1000*60*60*24) day ) * 1.85 * 10^19  = about 2 * 10^11 days -- so not A.    
+            
+        2 * 10^11 days is about 5 * 10^8 years.
+    - about 500,000,000 years    
+      
+
+      + Correct!

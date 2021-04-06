@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052775
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q9:</strong></p><p>What output is produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int a[15] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};</span><br /><span style="font-family: courier new, courier, monospace;">int i;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result = ");</span><br /><span style="font-family: courier new, courier, monospace;">for(i = 0; i &lt; 15; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; if ((a[i] % 3 == 0) || (a[i] % 4 == 0)) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("%d ", a[i]);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - Result = 1 2 5 7 10 11 13 14    
+      
+
+      - Incorrect
+    - Result = 3 4 6 8 9 15    
+      
+
+      - Incorrect
+    - Result = 3 4 6 8 9 12 15    
+      
+
+      + Correct!
+    - Result = 1 2 5 7 10 11 12 13 14    
+      
+
+      - Incorrect
+    - Result = 15    
+      
+
+      - Incorrect

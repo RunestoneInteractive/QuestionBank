@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_617450
+    :basecourse: canterburyqb
+        
+    If an inorder traversal of a complete binary tree visits the nodes in the    
+    order ABCDEF (where each letter is the value of a node), which order are the    
+    nodes visited during an postorder traversal?    
+    
+
+    - ABDECF    
+      
+
+      - DBACFE
+    - DEBFCA    
+      
+
+      - DBACFE
+    - DBFACE    
+      
+
+      - DBACFE
+    - DBACFE    
+      
+
+      - DBACFE
+    - ACBEFD    
+      
+
+      + Correct!

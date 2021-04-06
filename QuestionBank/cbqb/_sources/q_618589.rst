@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_618589
+    :basecourse: canterburyqb
+        
+    Which sentence is NOT correct?    
+    
+
+    - In a class, you can have a method with the same name as the constructor.    
+      
+
+      - In a class, you can have two methods with the same number and type of input    
+        arguments and different return type.
+    - In a class, you can have two methods with the same name and return type, but    
+      different number and type of input arguments.    
+      
+
+      - In a class, you can have two methods with the same number and type of input    
+        arguments and different return type.
+    - In a class, you can have two methods with the same number and type of input    
+      arguments and different return type.    
+      
+
+      + Correct!
+    - In a class you can have two constructors with the same name.    
+      
+
+      - In a class, you can have two methods with the same number and type of input    
+        arguments and different return type.

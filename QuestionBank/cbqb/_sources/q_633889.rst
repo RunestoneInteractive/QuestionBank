@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_633889
+    :basecourse: canterburyqb
+        
+    William has the hash function: hash function h(k) = (sum of the digits) % 10.    
+    He wants to hash 33, 60, 24, 42 and 6.    
+        
+    Which collision resolution method should he chose in his implementation, if he    
+    wants to ensure that adding 80 happens in O(1) time?    
+    
+
+    - Quadratic probing    
+      
+
+      + Correct!
+    - Linear probing    
+      
+
+      - Both Rth probing (R=2) and linear probing will hash values to the 8 position    
+        -- only quadratic probing will leave that position open.
+    - Rth probing, R = 2    
+      
+
+      - Both Rth probing (R=2) and linear probing will hash values to the 8 position    
+        -- only quadratic probing will leave that position open.

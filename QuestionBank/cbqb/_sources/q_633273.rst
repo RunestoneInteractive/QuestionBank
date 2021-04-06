@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633273
+    :basecourse: canterburyqb
+        
+    After the assignment ``signal = 'abracadabra'``\ , what is returned by    
+    ``signal[len(signal)]``\ ?    
+    
+
+    - 'a'    
+      
+
+      - This is the classic way to go one character over the edge of a String.
+    - 'abracadabra'    
+      
+
+      - This is the classic way to go one character over the edge of a String.
+    - 11    
+      
+
+      - This is the classic way to go one character over the edge of a String.
+    - an error    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - This is the classic way to go one character over the edge of a String.

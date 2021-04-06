@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_632476
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    The worst-case time complexity of the following Java method is:    
+        
+    .. code-block::    
+        
+        
+           public int fibonacci (int n) {    
+              if (n == 1)     
+                 return 1;    
+              else if (n == 2)     
+                 return 1;    
+              else if (n > 2)    
+        
+    :raw-html-m2r:`<code class="docutils literal"><span class="pre">return&#96;&#96; fibonacci(n-1)+fibonacci(n-2);</span></code>`    
+        
+    .. code-block::    
+        
+        
+              else     
+                 return -1; // invalid input    
+        
+    ``}``    
+    
+
+    - O(1)    
+      
+
+      - This code is exponential, because it's doubly recursive.
+    - O(log n)    
+      
+
+      - This code is exponential, because it's doubly recursive.
+    - O(n)    
+      
+
+      - This code is exponential, because it's doubly recursive.
+    - O(n2)    
+      
+
+      - This code is exponential, because it's doubly recursive.
+    - none of the above    
+      
+
+      + Correct!

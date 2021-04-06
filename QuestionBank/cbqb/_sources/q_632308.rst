@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632308
+    :basecourse: canterburyqb
+        
+    Suppose ``StackADT`` is implemented in Java using a linked list. The big-Oh time    
+    complexity of the following ``peek`` method is:    
+        
+    .. code-block::    
+        
+        
+           public T peek() {     
+              T tmp;    
+              if (this.top == null) {    
+                 tmp = null;     
+              } else {    
+                 tmp = this.top.getElement();     
+              }     
+              return tmp;     
+           }    
+    
+
+    - O(1)    
+      
+
+      + Correct!
+    - O(log n)    
+      
+
+      - The method body is executed in a fixed amount of time, independent of the size    
+        of the stack.
+    - O(n)    
+      
+
+      - The method body is executed in a fixed amount of time, independent of the size    
+        of the stack.
+    - O(n2)    
+      
+
+      - The method body is executed in a fixed amount of time, independent of the size    
+        of the stack.
+    - O(2n)    
+      
+
+      - The method body is executed in a fixed amount of time, independent of the size    
+        of the stack.

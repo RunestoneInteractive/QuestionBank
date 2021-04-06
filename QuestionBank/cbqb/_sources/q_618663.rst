@@ -1,0 +1,79 @@
+.. mchoice:: canterburyqb_618663
+    :basecourse: canterburyqb
+        
+    If class test is going to listen to an event, which statement, if added to the    
+    following code, cannot be a solution for event handling?    
+        
+    public class test implements ActionListener{    
+        
+    .. code-block::    
+        
+        JButton okButton;    
+        
+        public static void main(String [] args){    
+        
+             SimpleGui_V2 firstGui = new SimpleGui_V2();    
+        
+             firstGui.draw();    
+        
+        }    
+        
+        public void draw(){    
+        
+             JFrame rootFrame = new JFrame();    
+        
+             okButton = new JButton("OK");    
+        
+             // missing code    
+        
+             rootFrame.add(okButton);    
+        
+        }    
+        
+        public void actionPerformed (ActionEvent event){    
+        
+             if (okButton.getText().compareToIgnoreCase("ok")== 0)    
+        
+                   okButton.setText("clicked");    
+        
+             else    
+        
+                   okButton.setText("OK");    
+        
+        }    
+        
+        
+    }    
+    
+
+    - okButton.addActionListener(new test());    
+      
+
+      - okButton.addActionListener(new ActionListener());
+    - okButton.addActionListener(this);    
+      
+
+      - okButton.addActionListener(new ActionListener());
+    - okButton.addActionListener(new ActionListener());    
+      
+
+      + Correct!
+    - okButton.addActionListener(new ActionListener(){    
+          
+      .. code-block::    
+          
+         public void actionPerformed (ActionEvent event){    
+          
+             if (okButton.getText().compareToIgnoreCase("ok")== 0)    
+          
+                 okButton.setText("clicked");    
+          
+             else    
+          
+                 okButton.setText("OK");    
+          
+          
+      }});    
+      
+
+      - okButton.addActionListener(new ActionListener());

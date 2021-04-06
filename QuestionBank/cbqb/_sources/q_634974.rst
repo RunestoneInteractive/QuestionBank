@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_634974
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    What does the following Python method do?      
+        
+    Note: lov stands for list of values.    
+        
+    def foo (lov):\ :raw-html-m2r:`<br>`    
+        listSize = len(lov)\ :raw-html-m2r:`<br>`    
+        current = 1\ :raw-html-m2r:`<br>`    
+        flag = True\ :raw-html-m2r:`<br>`    
+        while ((current < listSize) and flag):\ :raw-html-m2r:`<br>`    
+            if (lov[current] < lov[current-1]):\ :raw-html-m2r:`<br>`    
+                flag = False\ :raw-html-m2r:`<br>`    
+            current = current + 1\ :raw-html-m2r:`<br>`    
+        return (flag)    
+    
+
+    - Implements the sequential search algorithm.    
+      
+
+      - Flag is set to true and when two adjacent list items are found to be out of    
+        place, with respect to a non-decreasing sorted order, flag is set to false.
+    - Determines if the input list is sorted in ascending order.    
+      
+
+      + Correct!
+    - Implements the selection sort algorithm.    
+      
+
+      - Flag is set to true and when two adjacent list items are found to be out of    
+        place, with respect to a non-decreasing sorted order, flag is set to false.
+    - Determines if the input list is sorted in descended order    
+      
+
+      - Flag is set to true and when two adjacent list items are found to be out of    
+        place, with respect to a non-decreasing sorted order, flag is set to false.
+    - None of the above    
+      
+
+      - Flag is set to true and when two adjacent list items are found to be out of    
+        place, with respect to a non-decreasing sorted order, flag is set to false.

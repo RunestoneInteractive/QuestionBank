@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633220
+    :basecourse: canterburyqb
+        
+    This sorting algorithm repeatedly examines neighboring elements, swapping    
+    those pairs that are out of order.    
+    
+
+    - selection sort    
+      
+
+      - Bubble sort operates by reordering neighbors.
+    - insertion sort    
+      
+
+      - Bubble sort operates by reordering neighbors.
+    - bubble sort    
+      
+
+      + Correct!
+    - quick sort    
+      
+
+      - Bubble sort operates by reordering neighbors.
+    - merge sort    
+      
+
+      - Bubble sort operates by reordering neighbors.

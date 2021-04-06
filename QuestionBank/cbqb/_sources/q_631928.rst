@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_631928
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    After the assignment statement\ :raw-html-m2r:`<br>`    
+    ``String word = "entropy";``\ :raw-html-m2r:`<br>`    
+    what is returned by\ :raw-html-m2r:`<br>`    
+    ``word.substring(word.length());``    
+    
+
+    - "entropy"    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index `n`    
+        and ends at the end of the `String`. If index `n` is greater than the index of    
+        the last character in the `String`, as it is here, `substring` simply returns    
+        the empty `String`.
+    - "y"    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index `n`    
+        and ends at the end of the `String`. If index `n` is greater than the index of    
+        the last character in the `String`, as it is here, `substring` simply returns    
+        the empty `String`.
+    - the empty ``String``    
+      
+
+      + Correct!
+    - an error    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index `n`    
+        and ends at the end of the `String`. If index `n` is greater than the index of    
+        the last character in the `String`, as it is here, `substring` simply returns    
+        the empty `String`.
+    - none of the above    
+      
+
+      - `word.substring(n)` returns the substring of `word` that starts at index `n`    
+        and ends at the end of the `String`. If index `n` is greater than the index of    
+        the last character in the `String`, as it is here, `substring` simply returns    
+        the empty `String`.

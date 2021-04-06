@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_629922
+    :basecourse: canterburyqb
+        
+    Consider the following Java interface:    
+        
+    .. code-block::    
+        
+        
+           public interface Mover {    
+              public int getX();    
+              public int getY();    
+              public void setLocation(int x, int y);    
+           }    
+        
+    Choose the best description of the following implementation of the Mover    
+    interface:    
+        
+    .. code-block::    
+        
+        
+           public class CartoonCharacter implements Mover{    
+              public int getX;    
+              public int getY;    
+              public void setLocation;    
+           }    
+    
+
+    - The implementation is correct, because it includes all the required methods    
+      and their return types are correct.    
+      
+
+      - To implement a Java interface, a class must define all the methods required by    
+        the interface (or declare itself abstract).    
+            
+        **NOTE:  **There is no appropriate topic for this question. Suggestion:    
+        TopicSimon-Interface-Java.
+    - The implementation is incorrect, because it doesn't include the method    
+      parameter types.    
+      
+
+      - To implement a Java interface, a class must define all the methods required by    
+        the interface (or declare itself abstract).    
+            
+        **NOTE:  **There is no appropriate topic for this question. Suggestion:    
+        TopicSimon-Interface-Java.
+    - The implementation is incorrect, because it doesn't include implementations of    
+      the methods.    
+      
+
+      - To implement a Java interface, a class must define all the methods required by    
+        the interface (or declare itself abstract).    
+            
+        **NOTE:  **There is no appropriate topic for this question. Suggestion:    
+        TopicSimon-Interface-Java.
+    - Both B and C.    
+      
+
+      + Correct!

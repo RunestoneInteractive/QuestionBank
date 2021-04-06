@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052870
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q3:</strong><br />What is the output of the following code:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int i;</span><br /><span style="font-family: courier new, courier, monospace;">i = 9 - 8 * ((7 + 6) * 5 % 4) % 3 - 2 + 1;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Answer = %d", i);</span></p>
+    
+
+    - Answer = 13    
+      
+
+      - Incorrect
+    - Answer = 0    
+      
+
+      - Incorrect
+    - Answer = 6    
+      
+
+      + Correct!
+    - Answer = 1    
+      
+
+      - Incorrect
+    - Answer = 7    
+      
+
+      - Incorrect

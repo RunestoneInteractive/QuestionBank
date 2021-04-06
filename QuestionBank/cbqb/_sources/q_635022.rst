@@ -1,0 +1,48 @@
+.. mchoice:: canterburyqb_635022
+    :basecourse: canterburyqb
+        
+    Suppose ``s`` is an instance of a stack that can store Strings, and I execute    
+    the following statements starting with ``s`` empty:    
+        
+    .. code-block::    
+        
+        
+           1. s.push("Iceland");    
+           2. s.push("is");    
+           3. String w = s.peek();    
+           4. String x = s.pop();    
+           5. s.push("cool");    
+           6. String y = s.pop();    
+           7. boolean z = s.isEmpty();    
+        
+    What is the value of z after executing this sequence of expressions?    
+    
+
+    - ``"Iceland"``    
+      
+
+      - In the sequence of operations, we pushed 3 things onto the stack, and only    
+        popped 2 off (and at no point had we popped more times than we pushed).  So    
+        the stack is not empty.
+    - ``"cool"``    
+      
+
+      - In the sequence of operations, we pushed 3 things onto the stack, and only    
+        popped 2 off (and at no point had we popped more times than we pushed).  So    
+        the stack is not empty.
+    - ``true``    
+      
+
+      - In the sequence of operations, we pushed 3 things onto the stack, and only    
+        popped 2 off (and at no point had we popped more times than we pushed).  So    
+        the stack is not empty.
+    - ``false``    
+      
+
+      + Correct!
+    - None of the above    
+      
+
+      - In the sequence of operations, we pushed 3 things onto the stack, and only    
+        popped 2 off (and at no point had we popped more times than we pushed).  So    
+        the stack is not empty.

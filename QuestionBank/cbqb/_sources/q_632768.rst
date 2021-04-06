@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_632768
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    The following code for a method "minVal" contains a logic error on a single    
+    line in the method body, on one of the four lines indicated by comments:      
+        
+    ``public static int minVal(int[] y, int first, int last) {``    
+        
+    .. code-block::    
+        
+        
+           /* This method returns the value of the minimum element in the    
+            * subsection of the array "y", starting at position    
+            * "first" and ending at position "last".    
+            */    
+        
+             int bestSoFar = y[first];          // line 1    
+        
+             for (int i=first+1; i<=last; i++)    
+             {    
+        
+    :raw-html-m2r:`<code class="docutils literal"><span class="pre">if ( bestSoFar &#96;&#96;&#96;< &#96;&#96;&#96;&#96;y[i]</span></code>`\ )          // line 2`    
+        
+    ``bestSoFar = y[i];             // line 3``      
+        
+    ``} // for``      
+        
+    ``return bestSoFar;                  // line 4``      
+        
+    ``} // method minVal``      
+        
+    Which one of the four lines indicated by the comments contains the logic    
+    error?    
+    
+
+    - line 1    
+      
+
+      - line 2 should be if ( bestSoFar >  y[i] )    
+            
+        The < sign in this buggy line is looking for the MAXIMUM value in the array.
+    - line 2    
+      
+
+      + Correct!
+    - line 3    
+      
+
+      - line 2 should be if ( bestSoFar >  y[i] )    
+            
+        The < sign in this buggy line is looking for the MAXIMUM value in the array.
+    - line 4    
+      
+
+      - line 2 should be if ( bestSoFar >  y[i] )    
+            
+        The < sign in this buggy line is looking for the MAXIMUM value in the array.

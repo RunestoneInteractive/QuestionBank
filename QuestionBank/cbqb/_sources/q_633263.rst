@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_633263
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Lennox has a method:\ :raw-html-m2r:`<br>`    
+    ``void dele_root(struct node **root)``    
+        
+    .. code-block::    
+        
+        
+           {    
+               free(*root);    
+               *root = NULL;    
+           }    
+        
+    What is most likely to happen?    
+    
+
+    - Deletes a copy of root (will not have an effect outside the function)    
+      
+
+      - This will free what root is pointing to; it is a pesumably valid memory    
+        location and hence won't segfault or core dump.
+    - Segfault    
+      
+
+      - This will free what root is pointing to; it is a pesumably valid memory    
+        location and hence won't segfault or core dump.
+    - Deletes the argument given to the function (will have an effect outside the    
+      function)    
+      
+
+      + Correct!
+    - A lot of crazy stuff will be printed    
+      
+
+      - This will free what root is pointing to; it is a pesumably valid memory    
+        location and hence won't segfault or core dump.

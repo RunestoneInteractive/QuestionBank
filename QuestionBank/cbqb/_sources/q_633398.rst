@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_633398
+    :basecourse: canterburyqb
+        
+    The insertion sort operates by maintaining a sorted list. When a new element    
+    is added, we traverse the list sequentially until will find the new element's    
+    appropriate location. Suppose instead that the new location was found using a    
+    binary search instead of a sequential search. What is the complexity of this    
+    new binary insertion sort?    
+    
+
+    - O(N)    
+      
+
+      - The binary search will indeed speed up finding the location of the newly added    
+        object. However, we still have the problem of shifting all subsequent    
+        elements. This algorithm, like the regular insertion sort, is O(N2).
+    - O(log N)    
+      
+
+      - The binary search will indeed speed up finding the location of the newly added    
+        object. However, we still have the problem of shifting all subsequent    
+        elements. This algorithm, like the regular insertion sort, is O(N2).
+    - O(N + log N)    
+      
+
+      - The binary search will indeed speed up finding the location of the newly added    
+        object. However, we still have the problem of shifting all subsequent    
+        elements. This algorithm, like the regular insertion sort, is O(N2).
+    - O(N * log N)    
+      
+
+      - The binary search will indeed speed up finding the location of the newly added    
+        object. However, we still have the problem of shifting all subsequent    
+        elements. This algorithm, like the regular insertion sort, is O(N2).
+    - O(N2)    
+      
+
+      + Correct!

@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052747
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q5:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int a = 6;</span><br /><span style="font-family: courier new,courier,monospace;">int b = 13;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = ");</span><br /><span style="font-family: courier new,courier,monospace;">printf("%d ", (b % a));</span><br /><span style="font-family: courier new,courier,monospace;">printf("%d ", (b / a));</span></p>
+    
+
+    - Result = 7 1    
+      
+
+      - Incorrect
+    - Result = 7 2    
+      
+
+      - Incorrect
+    - Result = 7 0    
+      
+
+      - Incorrect
+    - Result = 1 1    
+      
+
+      - Incorrect
+    - Result = 1 2    
+      
+
+      + Correct!

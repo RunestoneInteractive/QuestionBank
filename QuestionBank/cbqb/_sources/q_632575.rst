@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_632575
+    :basecourse: canterburyqb
+        
+    Suppose you place m items in a hash table with an array size of s. What is the    
+    correct formula for the load factor?    
+    
+
+    - s + m    
+      
+
+      - The load factor is the number of elements in the array, divided by the size of    
+        the array. It gives you an idea of how full the hashtable is.
+    - s − m    
+      
+
+      - The load factor is the number of elements in the array, divided by the size of    
+        the array. It gives you an idea of how full the hashtable is.
+    - m − s    
+      
+
+      - The load factor is the number of elements in the array, divided by the size of    
+        the array. It gives you an idea of how full the hashtable is.
+    - s/m    
+      
+
+      - The load factor is the number of elements in the array, divided by the size of    
+        the array. It gives you an idea of how full the hashtable is.
+    - m/s    
+      
+
+      + Correct!

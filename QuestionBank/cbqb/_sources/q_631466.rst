@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_631466
+    :basecourse: canterburyqb
+        
+    Given the code    
+        
+    .. code-block::    
+        
+        
+           int x = 27;    
+            int y = 12;    
+        
+    the value of the expression  ``x <= y < x + y    is:``    
+    
+
+    - true    
+      
+
+      - In Java, addition has a higher precedence than the relational operators. So    
+        the first step is to plug in the values and compute the results of the    
+        addition. Starting with the original expression `x <= y < x + y`, this yields    
+        `27 <= 12 < 39`. Relational operators are evaluated from left to right in    
+        Java, so the next step is to evaluate `27 <= 12`, which is true. So we now    
+        have the expression `true < 39`, which is invalid.
+    - false    
+      
+
+      - In Java, addition has a higher precedence than the relational operators. So    
+        the first step is to plug in the values and compute the results of the    
+        addition. Starting with the original expression `x <= y < x + y`, this yields    
+        `27 <= 12 < 39`. Relational operators are evaluated from left to right in    
+        Java, so the next step is to evaluate `27 <= 12`, which is true. So we now    
+        have the expression `true < 39`, which is invalid.
+    - 1    
+      
+
+      - In Java, addition has a higher precedence than the relational operators. So    
+        the first step is to plug in the values and compute the results of the    
+        addition. Starting with the original expression `x <= y < x + y`, this yields    
+        `27 <= 12 < 39`. Relational operators are evaluated from left to right in    
+        Java, so the next step is to evaluate `27 <= 12`, which is true. So we now    
+        have the expression `true < 39`, which is invalid.
+    - 0    
+      
+
+      - In Java, addition has a higher precedence than the relational operators. So    
+        the first step is to plug in the values and compute the results of the    
+        addition. Starting with the original expression `x <= y < x + y`, this yields    
+        `27 <= 12 < 39`. Relational operators are evaluated from left to right in    
+        Java, so the next step is to evaluate `27 <= 12`, which is true. So we now    
+        have the expression `true < 39`, which is invalid.
+    - an error    
+      
+
+      + Correct!

@@ -1,0 +1,84 @@
+.. mchoice:: canterburyqb_635129
+    :basecourse: canterburyqb
+        
+    Assume that an object of the following class has just been created:    
+        
+    .. code-block::    
+        
+        
+           public class Unknown    
+           {    
+               private int x;    
+        
+               public Unknown()    
+               {    
+                   x = 17;    
+                   method1();    
+                   method2(5);    
+                   method3();    
+                   System.out.println(x);      // Line D    
+               }    
+        
+               public void method1()    
+               {    
+                   --x;    
+                   int x = this.x;    
+                   x++;    
+                   System.out.println(this.x); // Line A    
+               }    
+        
+               public void method2(int x)    
+               {    
+                   x++;    
+                   System.out.println(x);      // Line B    
+               }    
+        
+               public void method3()    
+               {    
+                   --x;    
+                   int x = 2;    
+                   x++;    
+                   System.out.println(x);      // Line C    
+               }    
+           }    
+        
+    What output is produced by **Line D** when an instance of this class is    
+    created?    
+    
+
+    - 2    
+      
+
+      - Line D prints the value of the field called `x`.  That field is initialized to    
+        17 in the constructor, and then decremented on the first line of `method1()`,    
+        and decremented again on the first line of `method3()`, so by the time    
+        execution reaches the `println()` method call at the end of the constructor,    
+        the value printed is 15.
+    - 3    
+      
+
+      - Line D prints the value of the field called `x`.  That field is initialized to    
+        17 in the constructor, and then decremented on the first line of `method1()`,    
+        and decremented again on the first line of `method3()`, so by the time    
+        execution reaches the `println()` method call at the end of the constructor,    
+        the value printed is 15.
+    - 15    
+      
+
+      + Correct!
+    - 16    
+      
+
+      - Line D prints the value of the field called `x`.  That field is initialized to    
+        17 in the constructor, and then decremented on the first line of `method1()`,    
+        and decremented again on the first line of `method3()`, so by the time    
+        execution reaches the `println()` method call at the end of the constructor,    
+        the value printed is 15.
+    - 17    
+      
+
+      - Line D prints the value of the field called `x`.  That field is initialized to    
+        17 in the constructor, and then decremented on the first line of `method1()`,    
+        and decremented again on the first line of `method3()`, so by the time    
+        execution reaches the `println()` method call at the end of the constructor,    
+        the value printed is 15.

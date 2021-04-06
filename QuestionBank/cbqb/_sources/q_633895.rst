@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_633895
+    :basecourse: canterburyqb
+        
+    Kexin is hashing the values 9, 45, 22, 48, 38 into a hash table of size 20.    
+    Which hash function will give her no collisions?    
+    
+
+    - h(k) = k % 10    
+      
+
+      - A will collide on the 48/38; B will collide with 45/48; C will collide with    
+        9/45.
+    - h(k) = k / 10    
+      
+
+      - A will collide on the 48/38; B will collide with 45/48; C will collide with    
+        9/45.
+    - h(k) = (k % 10) + (k / 10)    
+      
+
+      - A will collide on the 48/38; B will collide with 45/48; C will collide with    
+        9/45.
+    - h(k) = (k % 10) - (k / 10)    
+      
+
+      + Correct!

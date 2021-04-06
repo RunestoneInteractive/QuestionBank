@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_634169
+    :basecourse: canterburyqb
+        
+    Gianluca wants to sort the array array, which has a length of length. He    
+    writes the following C code to do this. Which sorting algorithm has he    
+    implemented?    
+        
+    ``void sort_array(int *array, int length)``    
+        
+    .. code-block::    
+        
+        
+           {    
+              int max, i, temp;    
+              while(length > 0)    
+              {    
+                  max = 0;    
+                  for(i = 1; i < length; i++)    
+                      if(array[i] > array[max])    
+                           max = i;    
+                  temp = array[length-1];    
+                  array[length-1] = array[max];    
+                  array[max] = temp;    
+                  length--;    
+              }    
+           }    
+    
+
+    - Insertion sort    
+      
+
+      - Students should take note that this code is looking for the max elements over    
+        and over again.
+    - Selection sort    
+      
+
+      + Correct!
+    - Bubble sort    
+      
+
+      - Students should take note that this code is looking for the max elements over    
+        and over again.
+    - Mergesort    
+      
+
+      - Students should take note that this code is looking for the max elements over    
+        and over again.

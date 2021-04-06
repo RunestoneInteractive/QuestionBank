@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_633890
+    :basecourse: canterburyqb
+        
+    Which code snippet is tail recursive?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         int sum(int x)    
+         {    
+             if(x == 1)    
+          
+          
+      ```    
+          
+      .. code-block::    
+          
+              {      
+          
+      ``return x;``    
+          
+      .. code-block::    
+          
+              }      
+          
+      ``return x + sum(x - 1);``    
+          
+      ``}``    
+      
+
+      - A) requires the call to sum() to be completed before adding x to it.
+    - [code]    
+          
+      .. code-block::    
+          
+         int sum(int x, int running_total)    
+         {    
+              if(x == 0)    
+          
+          
+      ```    
+          
+      .. code-block::    
+          
+                {      
+          
+      ``return running_total;``    
+          
+      .. code-block::    
+          
+                }      
+          
+      ``return sum(x - 1, running_total + x);``    
+          
+      ``}``    
+      
+
+      + Correct!

@@ -1,0 +1,114 @@
+.. mchoice:: canterburyqb_632074
+    :basecourse: canterburyqb
+        
+    What will be displayed by    
+        
+    static char szName[] = "Peter";    
+        
+    printf("%d", strcmp("Peter", szName));    
+    
+
+    - A negative number such as -1    
+      
+
+      - DescriptionThe C library function int strcmp(const char *str1, const char    
+        *str2) compares the string pointed to by str1 to the string pointed to by    
+        str2.    
+            
+        DeclarationFollowing is the declaration for strcmp() function.    
+            
+        int strcmp(constchar*str1,constchar*str2)Parametersstr1 -- This is the first    
+        string to be compared.    
+            
+        str2 -- This is the second string to be compared.    
+            
+        Return ValueThis function returned values are as follows:    
+            
+        if Return value if < 0 then it indicates str1 is less than str2    
+            
+        if Return value if > 0 then it indicates str2 is less than str1    
+            
+        if Return value if = 0 then it indicates str1 is equal to str2    
+            
+        As the strings "Peter" are equal in this instance the value returned is 0    
+            
+        source: http://www.tutorialspoint.com/c_standard_library/c_function_strcmp.htm
+    - 0    
+      
+
+      + Correct!
+    - A positive number such as 1    
+      
+
+      - DescriptionThe C library function int strcmp(const char *str1, const char    
+        *str2) compares the string pointed to by str1 to the string pointed to by    
+        str2.    
+            
+        DeclarationFollowing is the declaration for strcmp() function.    
+            
+        int strcmp(constchar*str1,constchar*str2)Parametersstr1 -- This is the first    
+        string to be compared.    
+            
+        str2 -- This is the second string to be compared.    
+            
+        Return ValueThis function returned values are as follows:    
+            
+        if Return value if < 0 then it indicates str1 is less than str2    
+            
+        if Return value if > 0 then it indicates str2 is less than str1    
+            
+        if Return value if = 0 then it indicates str1 is equal to str2    
+            
+        As the strings "Peter" are equal in this instance the value returned is 0    
+            
+        source: http://www.tutorialspoint.com/c_standard_library/c_function_strcmp.htm
+    - 5    
+      
+
+      - DescriptionThe C library function int strcmp(const char *str1, const char    
+        *str2) compares the string pointed to by str1 to the string pointed to by    
+        str2.    
+            
+        DeclarationFollowing is the declaration for strcmp() function.    
+            
+        int strcmp(constchar*str1,constchar*str2)Parametersstr1 -- This is the first    
+        string to be compared.    
+            
+        str2 -- This is the second string to be compared.    
+            
+        Return ValueThis function returned values are as follows:    
+            
+        if Return value if < 0 then it indicates str1 is less than str2    
+            
+        if Return value if > 0 then it indicates str2 is less than str1    
+            
+        if Return value if = 0 then it indicates str1 is equal to str2    
+            
+        As the strings "Peter" are equal in this instance the value returned is 0    
+            
+        source: http://www.tutorialspoint.com/c_standard_library/c_function_strcmp.htm
+    - Nothing - it gives a syntax error and will not compile.    
+      
+
+      - DescriptionThe C library function int strcmp(const char *str1, const char    
+        *str2) compares the string pointed to by str1 to the string pointed to by    
+        str2.    
+            
+        DeclarationFollowing is the declaration for strcmp() function.    
+            
+        int strcmp(constchar*str1,constchar*str2)Parametersstr1 -- This is the first    
+        string to be compared.    
+            
+        str2 -- This is the second string to be compared.    
+            
+        Return ValueThis function returned values are as follows:    
+            
+        if Return value if < 0 then it indicates str1 is less than str2    
+            
+        if Return value if > 0 then it indicates str2 is less than str1    
+            
+        if Return value if = 0 then it indicates str1 is equal to str2    
+            
+        As the strings "Peter" are equal in this instance the value returned is 0    
+            
+        source: http://www.tutorialspoint.com/c_standard_library/c_function_strcmp.htm

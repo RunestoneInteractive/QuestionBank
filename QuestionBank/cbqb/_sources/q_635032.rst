@@ -1,0 +1,72 @@
+.. mchoice:: canterburyqb_635032
+    :basecourse: canterburyqb
+        
+    The following method, called ``maxRow()``\ , is intended to take one parameter: a    
+    ``List`` where the elements are ``List``\ s of ``Integer`` objects. You can think of    
+    this parameter as a matrix--a list of rows, where each row is a list of    
+    "cells" (plain integers). The method sums up the integers in each row (each    
+    inner list), and returns the index (row number) of the row with the largest    
+    row sum. Choose the best choice to fill in the blank on **Line 8**  so that    
+    this method works as intended:    
+        
+    .. code-block::    
+        
+        
+           public static int maxRow(List<List<Integer>> matrix)    
+           {    
+               int maxVec = -1;                                // Line 1    
+               int maxSum = Integer.MIN_VALUE;                 // Line 2    
+        
+               for (int row = 0; row < __________; row++)      // Line 3    
+               {    
+                   int sum = 0;                                // Line 4    
+                   for (int col = 0; col < __________; col++)  // Line 5    
+                   {    
+                       sum = sum + __________;                 // Line 6    
+                   }    
+                   if (___________)                            // Line 7    
+                   {    
+                       maxSum = __________;                    // Line 8    
+                       maxVec = __________;                    // Line 9    
+                   }    
+               }    
+               return maxVec;                                  // Line 10    
+           }    
+    
+
+    - ``maxSum``    
+      
+
+      - The local variable `maxSum` is used to keep track of the maximum row sum seen    
+        so far, as the outer loop progresses across all rows in the matrix.  The inner    
+        loop computes the sum of all cells in the current row, which is stored in the    
+        local variable `sum`.  If the current row's sum is larger than the maximum    
+        seen so far, the variable `maxSum` should be updated to be `sum`.
+    - ``maxVec``    
+      
+
+      - The local variable `maxSum` is used to keep track of the maximum row sum seen    
+        so far, as the outer loop progresses across all rows in the matrix.  The inner    
+        loop computes the sum of all cells in the current row, which is stored in the    
+        local variable `sum`.  If the current row's sum is larger than the maximum    
+        seen so far, the variable `maxSum` should be updated to be `sum`.
+    - ``sum``    
+      
+
+      + Correct!
+    - ``row``    
+      
+
+      - The local variable `maxSum` is used to keep track of the maximum row sum seen    
+        so far, as the outer loop progresses across all rows in the matrix.  The inner    
+        loop computes the sum of all cells in the current row, which is stored in the    
+        local variable `sum`.  If the current row's sum is larger than the maximum    
+        seen so far, the variable `maxSum` should be updated to be `sum`.
+    - ``col``    
+      
+
+      - The local variable `maxSum` is used to keep track of the maximum row sum seen    
+        so far, as the outer loop progresses across all rows in the matrix.  The inner    
+        loop computes the sum of all cells in the current row, which is stored in the    
+        local variable `sum`.  If the current row's sum is larger than the maximum    
+        seen so far, the variable `maxSum` should be updated to be `sum`.

@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_630975
+    :basecourse: canterburyqb
+        
+    Consider the following Java method:    
+        
+    .. code-block::    
+        
+        
+           public xxx printGreeting() {  // 1    
+              System.out.println("Hello!"); // 2    
+           } // 3    
+        
+    The xxx in line 1 is best replaced by:    
+    
+
+    - double    
+      
+
+      - E is the correct answer, because the method does not return a value.
+    - float    
+      
+
+      - E is the correct answer, because the method does not return a value.
+    - int    
+      
+
+      - E is the correct answer, because the method does not return a value.
+    - String    
+      
+
+      - E is the correct answer, because the method does not return a value.
+    - void    
+      
+
+      + Correct!

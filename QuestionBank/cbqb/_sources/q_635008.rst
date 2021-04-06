@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_635008
+    :basecourse: canterburyqb
+        
+    What will this code output on 64-bit Linux?    
+        
+    ``char vals[10];``    
+        
+    ``printf("%d\n", sizeof(vals + 0));``    
+    
+
+    - 1    
+      
+
+      - Size of the pointer.
+    - 4    
+      
+
+      - Size of the pointer.
+    - 8    
+      
+
+      + Correct!
+    - 10    
+      
+
+      - Size of the pointer.
+    - 80    
+      
+
+      - Size of the pointer.

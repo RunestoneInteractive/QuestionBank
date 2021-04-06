@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052695
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q25:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">typedef struct {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int x;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int y;</span><br /><span style="font-family: courier new,courier,monospace;">} Point;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">void Change(int a, Point b, Point *c)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = 999;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b.x = 999;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; c[2].x = 999;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Point ps[3];</span></p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; ps[0].x = 100;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; ps[1].x = 100;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; ps[2].x = 100;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Change(ps[0].x, ps[1], ps);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d %d %d", ps[0].x, ps[1].x, ps[2].x);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = 999 999 100    
+      
+
+      - Incorrect
+    - Result = 100 100 999    
+      
+
+      + Correct!
+    - Result = 100 999 999    
+      
+
+      - Incorrect
+    - Result = 999 100 100    
+      
+
+      - Incorrect
+    - Result = 100 999 100    
+      
+
+      - Incorrect

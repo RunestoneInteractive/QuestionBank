@@ -1,0 +1,177 @@
+.. mchoice:: canterburyqb_618971
+    :basecourse: canterburyqb
+        
+    Which of the following choices will NOT produce the same result as the    
+    following condition?    
+        
+    if ( mark == 'A' && GPA > 3.5)    
+        
+    .. code-block::    
+        
+       System.out.println("First Class");    
+        
+        
+    else if ( mark == 'A' && GPA <= 3.5)    
+        
+    .. code-block::    
+        
+       System.out.println("Second Class");    
+        
+        
+    else if ( mark != 'A' && GPA > 3.5)    
+        
+    .. code-block::    
+        
+       System.out.println("Third Class");    
+        
+        
+    else if ( mark != 'A' && GPA <= 3.5)    
+        
+    .. code-block::    
+        
+       System.out.println("Fourth Class");    
+    
+
+    - if ( mark != 'A' || GPA < 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("First Class");    
+          
+          
+      else if ( mark != 'A' || GPA >= 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("Second Class");    
+          
+          
+      else if ( mark == 'A' || GPA < 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("Third Class");    
+          
+          
+      else if ( mark == 'A' || GPA >= 3.5)    
+          
+      .. code-block::    
+          
+         System.out.println("Fourth Class");    
+      
+
+      + Correct!
+    - if ( mark != 'A')    
+          
+      .. code-block::    
+          
+         if (GPA > 3.5)    
+          
+             System.out.println("Third Class");    
+          
+         else    
+          
+             System.out.println("Fourth Class");    
+          
+         else if (GPA > 3.5)    
+          
+             System.out.println("First Class");    
+          
+         else    
+          
+             System.out.println("Second Class");    
+      
+
+      - if ( GPA > 3.5)    
+            
+             if (mark == 'A')    
+            
+                System.out.println("First Class");    
+            
+            else    
+            
+                System.out.println("Third Class");    
+            
+            else if (mark == 'A')    
+            
+                System.out.println("Second Class");    
+            
+            else    
+            
+                System.out.println("Fourth Class");
+    - if ( GPA > 3.5)    
+          
+      .. code-block::    
+          
+          if (mark == 'A')    
+          
+             System.out.println("First Class");    
+          
+         else    
+          
+             System.out.println("Third Class");    
+          
+         else if (mark == 'A')    
+          
+             System.out.println("Second Class");    
+          
+         else    
+          
+             System.out.println("Fourth Class");    
+      
+
+      - if ( GPA > 3.5)    
+            
+             if (mark == 'A')    
+            
+                System.out.println("First Class");    
+            
+            else    
+            
+                System.out.println("Third Class");    
+            
+            else if (mark == 'A')    
+            
+                System.out.println("Second Class");    
+            
+            else    
+            
+                System.out.println("Fourth Class");
+    - if ( mark == 'A')    
+          
+      .. code-block::    
+          
+          if (GPA > 3.5)    
+          
+             System.out.println("First Class");    
+          
+         else    
+          
+             System.out.println("Second Class");    
+          
+         else if (GPA > 3.5)    
+          
+             System.out.println("Third Class");    
+          
+         else    
+          
+             System.out.println("Fourth Class");    
+      
+
+      - if ( GPA > 3.5)    
+            
+             if (mark == 'A')    
+            
+                System.out.println("First Class");    
+            
+            else    
+            
+                System.out.println("Third Class");    
+            
+            else if (mark == 'A')    
+            
+                System.out.println("Second Class");    
+            
+            else    
+            
+                System.out.println("Fourth Class");

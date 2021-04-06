@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633558
+    :basecourse: canterburyqb
+        
+    What happens if you forget to define the ``equals`` method for your key class    
+    used to insert elements into a hashtable?    
+    
+
+    - The elements can be inserted but remain inaccessible.    
+      
+
+      - When a key lookup is performed, we will find the hashtable location and then    
+        compare the keys using Object.equals. Object.equals returns true only when the    
+        two keys refer to the same object.
+    - Inserting an element will raise an exception.    
+      
+
+      - When a key lookup is performed, we will find the hashtable location and then    
+        compare the keys using Object.equals. Object.equals returns true only when the    
+        two keys refer to the same object.
+    - Elements can be inserted and retrieved only by using the same key instances    
+      used to insert the elements.    
+      
+
+      + Correct!
+    - All elements will map to the same location in the table.    
+      
+
+      - When a key lookup is performed, we will find the hashtable location and then    
+        compare the keys using Object.equals. Object.equals returns true only when the    
+        two keys refer to the same object.

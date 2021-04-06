@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_629956
+    :basecourse: canterburyqb
+        
+    Suppose you have a Java array of ints. The worst-case time complexity of    
+    printing out the elements in the list is:    
+    
+
+    - O(1)    
+      
+
+      - If we assume that printing a single value can be done in constant time for    
+        some constant k, then printing n values can be done in kn time, which is O(n).
+    - O(log n)    
+      
+
+      - If we assume that printing a single value can be done in constant time for    
+        some constant k, then printing n values can be done in kn time, which is O(n).
+    - O(n)    
+      
+
+      + Correct!
+    - O(n log n)    
+      
+
+      - If we assume that printing a single value can be done in constant time for    
+        some constant k, then printing n values can be done in kn time, which is O(n).
+    - O(n2)    
+      
+
+      - If we assume that printing a single value can be done in constant time for    
+        some constant k, then printing n values can be done in kn time, which is O(n).

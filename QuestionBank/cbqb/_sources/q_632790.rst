@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632790
+    :basecourse: canterburyqb
+        
+    After the assignments ``x = 27`` and ``y = 12``\ , what is returned by\ ``x/y``\ ?    
+    (Assume Python <= 2.7, not Python3).    
+    
+
+    - 2    
+      
+
+      + Correct!
+    - 2.25    
+      
+
+      - This is an integer division question.  Python will return 2, since 27/12 is 2,    
+        with a remainder.  But integer division only cares about the quotient, not the    
+        remainder.    
+            
+        Note that you may get a different answer using Python3 rather than with    
+        Python2.x
+    - 3    
+      
+
+      - This is an integer division question.  Python will return 2, since 27/12 is 2,    
+        with a remainder.  But integer division only cares about the quotient, not the    
+        remainder.    
+            
+        Note that you may get a different answer using Python3 rather than with    
+        Python2.x
+    - 3.0    
+      
+
+      - This is an integer division question.  Python will return 2, since 27/12 is 2,    
+        with a remainder.  But integer division only cares about the quotient, not the    
+        remainder.    
+            
+        Note that you may get a different answer using Python3 rather than with    
+        Python2.x
+    - None of the above    
+      
+
+      - This is an integer division question.  Python will return 2, since 27/12 is 2,    
+        with a remainder.  But integer division only cares about the quotient, not the    
+        remainder.    
+            
+        Note that you may get a different answer using Python3 rather than with    
+        Python2.x

@@ -1,0 +1,63 @@
+.. mchoice:: canterburyqb_635124
+    :basecourse: canterburyqb
+        
+    Suppose you have an array of seven ``int`` values called ``test`` containing the    
+    following data:    
+        
+        
+    .. image:: img/23.png    
+       :target: img/23.png    
+       :alt: no description    
+        
+        
+    Trace the execution of the following code:    
+        
+    .. code-block::    
+        
+        
+           int x = 0;    
+           int y = 0;    
+           for (int i = 0; i < test.length; i++)    
+           {    
+               if (test[i] % 4 == 0)    
+               {    
+                   x++;    
+                   y += test[i];    
+               }    
+           }    
+        
+    What is the value of ``x`` when this loop is done?    
+    
+
+    - 3    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4. The local    
+        variable y is used to accumulate the sum of the numbers found, so y = 8 + 0 +    
+        12 + 20 = 40.
+    - 4    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4. The local    
+        variable y is used to accumulate the sum of the numbers found, so y = 8 + 0 +    
+        12 + 20 = 40.
+    - 7    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4. The local    
+        variable y is used to accumulate the sum of the numbers found, so y = 8 + 0 +    
+        12 + 20 = 40.
+    - 35    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4. The local    
+        variable y is used to accumulate the sum of the numbers found, so y = 8 + 0 +    
+        12 + 20 = 40.
+    - 40    
+      
+
+      + Correct!

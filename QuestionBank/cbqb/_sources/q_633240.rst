@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633240
+    :basecourse: canterburyqb
+        
+    Finding the minimum value in a complete and balanced binary search tree is    
+    
+
+    - O(1)    
+      
+
+      - The minimum is the root's left-most descendent, which can be reached in log N    
+        steps.
+    - O(log N)    
+      
+
+      + Correct!
+    - O(N)    
+      
+
+      - The minimum is the root's left-most descendent, which can be reached in log N    
+        steps.
+    - O(N2)    
+      
+
+      - The minimum is the root's left-most descendent, which can be reached in log N    
+        steps.
+    - O(N log N)    
+      
+
+      - The minimum is the root's left-most descendent, which can be reached in log N    
+        steps.

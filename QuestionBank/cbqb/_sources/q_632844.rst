@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632844
+    :basecourse: canterburyqb
+        
+    After the assignments ``a = True`` and ``b = True``\ , what is returned by ``(not a    
+    or b) and (a or not b)``\ ?    
+    
+
+    - True    
+      
+
+      + Correct!
+    - False    
+      
+
+      - the not operator has a higher precedence than or, so this expression should be    
+        read:    
+            
+        ((not a) or b) and (a or (not b))    
+            
+        Which is True when a=True and b=False
+    - 1    
+      
+
+      - the not operator has a higher precedence than or, so this expression should be    
+        read:    
+            
+        ((not a) or b) and (a or (not b))    
+            
+        Which is True when a=True and b=False
+    - 0    
+      
+
+      - the not operator has a higher precedence than or, so this expression should be    
+        read:    
+            
+        ((not a) or b) and (a or (not b))    
+            
+        Which is True when a=True and b=False
+    - an error    
+      
+
+      - the not operator has a higher precedence than or, so this expression should be    
+        read:    
+            
+        ((not a) or b) and (a or (not b))    
+            
+        Which is True when a=True and b=False

@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052745
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q7:</strong></p><p>What output is produced by the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#define X 5+5</span><br /><span style="font-family: courier new,courier,monospace;">#define Y 10</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int value = X * Y;</span></p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Value = %d", value);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Value = 50    
+      
+
+      - Incorrect
+    - Value = 100    
+      
+
+      - Incorrect
+    - Value = 110    
+      
+
+      - Incorrect
+    - Value = X * Y    
+      
+
+      - Incorrect
+    - Value = 55    
+      
+
+      + Correct!

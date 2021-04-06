@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_633897
+    :basecourse: canterburyqb
+        
+    If Matthew is entering the values 1, 2, 3, 4, 5 into a complete tree, where    
+    insertion happens in level-order, in what order should he enter the values so    
+    he produces a binary search tree?    
+    
+
+    - 1, 2, 3, 4, 5    
+      
+
+      - Only B will produce a complete BST.
+    - 4, 2, 5, 1, 3    
+      
+
+      + Correct!
+    - 3, 1, 5, 2, 4    
+      
+
+      - Only B will produce a complete BST.
+    - 1, 3, 2, 5, 4    
+      
+
+      - Only B will produce a complete BST.

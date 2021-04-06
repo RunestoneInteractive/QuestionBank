@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_633636
+    :basecourse: canterburyqb
+        
+    Suppose we have a Queue implemented with a circular array. The ``capacity`` is    
+    10 and the ``size`` is 5.    
+        
+    Which are *not* legal values for ``front`` and ``rear``\ ?    
+    
+
+    - front: 0    
+          
+      rear:  5    
+      
+
+      - There would only be 4 items in this queue, not 5.  This is easier to    
+        illustrate with a picture.  But you can sort of see the pattern by looking at    
+        the absolute value of the difference betwen all of the pairings.  B is the    
+        only one that differs by 4; the others all differ by 5.
+    - front: 5    
+          
+      rear:  9    
+      
+
+      + Correct!
+    - front: 7    
+          
+      rear:  2    
+      
+
+      - There would only be 4 items in this queue, not 5.  This is easier to    
+        illustrate with a picture.  But you can sort of see the pattern by looking at    
+        the absolute value of the difference betwen all of the pairings.  B is the    
+        only one that differs by 4; the others all differ by 5.
+    - front: 9    
+          
+      rear:  4    
+      
+
+      - There would only be 4 items in this queue, not 5.  This is easier to    
+        illustrate with a picture.  But you can sort of see the pattern by looking at    
+        the absolute value of the difference betwen all of the pairings.  B is the    
+        only one that differs by 4; the others all differ by 5.
+    - all of the above    
+      
+
+      - There would only be 4 items in this queue, not 5.  This is easier to    
+        illustrate with a picture.  But you can sort of see the pattern by looking at    
+        the absolute value of the difference betwen all of the pairings.  B is the    
+        only one that differs by 4; the others all differ by 5.

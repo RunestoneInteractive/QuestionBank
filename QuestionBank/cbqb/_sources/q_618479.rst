@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_618479
+    :basecourse: canterburyqb
+        
+    What is wrong with this code?    
+        
+    final class A{    
+        
+    }    
+        
+    class B extends A{    
+        
+    }    
+    
+
+    - Class B is not public.    
+      
+
+      - A final class cannot be extended.
+    - Class A is not public.    
+      
+
+      - A final class cannot be extended.
+    - A final class cannot be extended.    
+      
+
+      + Correct!
+    - There are no instance variables and methods defined for these classes.    
+      
+
+      - A final class cannot be extended.

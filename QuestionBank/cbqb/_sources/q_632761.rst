@@ -1,0 +1,383 @@
+.. mchoice:: canterburyqb_632761
+    :basecourse: canterburyqb
+        
+    This question refers to a method "swap", for which part of the code is shown    
+    below:    
+        
+    ``public static void swap(int[] x, int i, int j) {``    
+        
+     // swaps elements "i" and "j" of array "x".    
+        
+    ``int temp;``     // temporary storage for swapping    
+        
+    .. code-block::    
+        
+       xxx missing code goes here xxx    
+        
+        
+    ``} // method swap``    
+        
+    The missing code from "swap" is:    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         temp = x[i];    
+         x[i] = x[j];    
+         x[j] = temp;    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         temp = x[i];    
+         x[j] = x[i];    
+         x[j] = temp;    
+          
+          
+      ```    
+      
+
+      - Suppose  initially x[i]=A, x[j]=B.  After swap, we want x[i]=B, and x[j]=A, in    
+        both cases it doesn't matter what temp equals, so long as x[i] and x[j] values    
+        have been swapped after completion.    
+            
+        a)    
+            
+        temp = x[i] = A    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = A    
+            
+        Both have been swapped, .'. CORRECT    
+            
+        b)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+        Only x[j] has been swapped, .'. INCORRECT    
+            
+        c)    
+            
+        temp = x[j] = B    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = B    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = B    
+            
+        Neither have been swapped, .'. INCORRECT    
+            
+        d)    
+            
+        temp = x[j] = B    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = B    
+            
+        Before x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = B    
+            
+        Onlu x[i] has been swapped, .'. INCORRECT    
+            
+        e)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[i] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+            
+            
+        Only x[j] has been swapped, .'. INCORRECT
+    - [code]    
+          
+      .. code-block::    
+          
+         temp = x[j];    
+         x[j] = x[i];    
+         x[j] = temp;    
+          
+          
+      ```    
+      
+
+      - Suppose  initially x[i]=A, x[j]=B.  After swap, we want x[i]=B, and x[j]=A, in    
+        both cases it doesn't matter what temp equals, so long as x[i] and x[j] values    
+        have been swapped after completion.    
+            
+        a)    
+            
+        temp = x[i] = A    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = A    
+            
+        Both have been swapped, .'. CORRECT    
+            
+        b)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+        Only x[j] has been swapped, .'. INCORRECT    
+            
+        c)    
+            
+        temp = x[j] = B    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = B    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = B    
+            
+        Neither have been swapped, .'. INCORRECT    
+            
+        d)    
+            
+        temp = x[j] = B    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = B    
+            
+        Before x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = B    
+            
+        Onlu x[i] has been swapped, .'. INCORRECT    
+            
+        e)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[i] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+            
+            
+        Only x[j] has been swapped, .'. INCORRECT
+    - [code]    
+          
+      .. code-block::    
+          
+         temp = x[j];    
+         x[i] = x[j];    
+         x[j] = temp;    
+          
+          
+      ```    
+      
+
+      - Suppose  initially x[i]=A, x[j]=B.  After swap, we want x[i]=B, and x[j]=A, in    
+        both cases it doesn't matter what temp equals, so long as x[i] and x[j] values    
+        have been swapped after completion.    
+            
+        a)    
+            
+        temp = x[i] = A    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = A    
+            
+        Both have been swapped, .'. CORRECT    
+            
+        b)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+        Only x[j] has been swapped, .'. INCORRECT    
+            
+        c)    
+            
+        temp = x[j] = B    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = B    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = B    
+            
+        Neither have been swapped, .'. INCORRECT    
+            
+        d)    
+            
+        temp = x[j] = B    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = B    
+            
+        Before x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = B    
+            
+        Onlu x[i] has been swapped, .'. INCORRECT    
+            
+        e)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[i] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+            
+            
+        Only x[j] has been swapped, .'. INCORRECT
+    - [code]    
+          
+      .. code-block::    
+          
+         temp = x[i];    
+         x[j] = x[i];    
+         x[i] = temp;    
+          
+          
+      ```    
+      
+
+      - Suppose  initially x[i]=A, x[j]=B.  After swap, we want x[i]=B, and x[j]=A, in    
+        both cases it doesn't matter what temp equals, so long as x[i] and x[j] values    
+        have been swapped after completion.    
+            
+        a)    
+            
+        temp = x[i] = A    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = A    
+            
+        Both have been swapped, .'. CORRECT    
+            
+        b)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+        Only x[j] has been swapped, .'. INCORRECT    
+            
+        c)    
+            
+        temp = x[j] = B    
+            
+        x[j] = x[i] = A    
+            
+        x[j] = temp = B    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = B    
+            
+        Neither have been swapped, .'. INCORRECT    
+            
+        d)    
+            
+        temp = x[j] = B    
+            
+        x[i] = x[j] = B    
+            
+        x[j] = temp = B    
+            
+        Before x[i] = A, x[j] = B    
+            
+        After: x[i] = B, x[j] = B    
+            
+        Onlu x[i] has been swapped, .'. INCORRECT    
+            
+        e)    
+            
+        temp = x[i] = A    
+            
+        x[j] = x[i] = A    
+            
+        x[i] = temp = A    
+            
+        Before: x[i] = A, x[j] = B    
+            
+        After: x[i] = A, x[j] = A    
+            
+            
+            
+        Only x[j] has been swapped, .'. INCORRECT

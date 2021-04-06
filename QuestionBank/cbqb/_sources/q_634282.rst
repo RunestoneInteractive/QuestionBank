@@ -1,0 +1,25 @@
+.. mchoice:: canterburyqb_634282
+    :basecourse: canterburyqb
+        
+    What is the size of the largest max-heap which is also a BST?    
+    
+
+    - 2    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - You can have a left child of the root, but as soon as you add the right child,    
+        it falls apart.
+    - 4    
+      
+
+      - You can have a left child of the root, but as soon as you add the right child,    
+        it falls apart.
+    - 3    
+      
+
+      - You can have a left child of the root, but as soon as you add the right child,    
+        it falls apart.

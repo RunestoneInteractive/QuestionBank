@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_634926
+    :basecourse: canterburyqb
+        
+    Polymorphism is used when different classes we are modeling can do the same    
+    thing (i.e. respond to the same method calls), and we don't know which class    
+    an object will be at compile time. In Java, this can be implemented using    
+    either inheritance or interfaces.    
+        
+    Choose the best reason below for choosing inheritance polymorphism    
+    
+
+    - There is no defined interface that works for all of the classes that I want to    
+      allow    
+      
+
+      - If the classes are closely related in the inheritance hierarchy it should be    
+        possible to have the shared methods in some common superclass, which is close.
+    - The classes are closely related in the inheritance hierarchy;    
+      
+
+      + Correct!
+    - The classes are in the same containment hierarchy    
+      
+
+      - If the classes are closely related in the inheritance hierarchy it should be    
+        possible to have the shared methods in some common superclass, which is close.
+    - It is the kind of polymorphism that I understand the best    
+      
+
+      - If the classes are closely related in the inheritance hierarchy it should be    
+        possible to have the shared methods in some common superclass, which is close.

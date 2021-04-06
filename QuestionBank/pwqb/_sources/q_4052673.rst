@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052673
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q17:</strong></p><p>Consider the following function definition which takes three inputs: an array of integers, the number of elements in the array, and an integer value called test.</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int DoSomething(int values[], int numValues, int test)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int result = 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 0; i &lt; numValues; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; &nbsp; &nbsp; if (values[i] &lt; test) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; result = result + values[i];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return result;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>An example of this function being called is shown below, however, the actual values in the array have not been shown and are replaced with <strong>????</strong>:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int result;</span><br /><span style="font-family: courier new,courier,monospace;">int values[5] = { <strong>????</strong> };</span></p><p><span style="font-family: courier new,courier,monospace;">result = DoSomething(values, 5, 3);</span><br /><span style="font-family: courier new,courier,monospace;">printf("Result = %d ", result);</span></p><p>&nbsp;</p><p>If the output of this code is:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">Result = 3</span></p><p>&nbsp;</p><p>which of the following values must have appeared in the array:</p>
+    
+
+    - ``int values[5] = {2, 2, 2, 100, 100};``    
+      
+
+      - Incorrect
+    - ``int values[5] = {-1, 0, 1, 2, 3};``    
+      
+
+      - Incorrect
+    - ``int values[5] = {4, 4, 3, 4, 4};``    
+      
+
+      - Incorrect
+    - ``int values[5] = {1, 1, 1, 1, 1};``    
+      
+
+      - Incorrect
+    - ``int values[5] = {5, 4, 3, 2, 1};``    
+      
+
+      + Correct!

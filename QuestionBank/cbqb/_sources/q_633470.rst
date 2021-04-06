@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_633470
+    :basecourse: canterburyqb
+        
+    How many times does the following Java code print "hello world"?    
+        
+    .. code-block::    
+        
+        
+           for (int i=10; i>=4; i++) {    
+              System.out.print("hello world");    
+           }    
+    
+
+    - 0    
+      
+
+      - Trick question!  This is an infinite loop, because the update condition is    
+        i++, but we are starting at 10 and continue while i>=4!
+    - 1    
+      
+
+      - Trick question!  This is an infinite loop, because the update condition is    
+        i++, but we are starting at 10 and continue while i>=4!
+    - 5    
+      
+
+      - Trick question!  This is an infinite loop, because the update condition is    
+        i++, but we are starting at 10 and continue while i>=4!
+    - 6    
+      
+
+      - Trick question!  This is an infinite loop, because the update condition is    
+        i++, but we are starting at 10 and continue while i>=4!
+    - none of the above    
+      
+
+      + Correct!

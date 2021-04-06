@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_634963
+    :basecourse: canterburyqb
+        
+    Which of the following choices would best be modeled by a class, followed by    
+    an instance of that class?    
+    
+
+    - Country, Sweden    
+      
+
+      + Correct!
+    - Sweden, Country    
+      
+
+      - Choice B is wrong because the items listed are object, class, not class,    
+        object. Choice C is wrong, because the items listed are class,subclass, not    
+        class,object. Choices D and E are wrong because in each case, the items listed    
+        are both concrete objects.
+    - Country, ScandinavianCountry    
+      
+
+      - Choice B is wrong because the items listed are object, class, not class,    
+        object. Choice C is wrong, because the items listed are class,subclass, not    
+        class,object. Choices D and E are wrong because in each case, the items listed    
+        are both concrete objects.
+    - Sweden, Norway    
+      
+
+      - Choice B is wrong because the items listed are object, class, not class,    
+        object. Choice C is wrong, because the items listed are class,subclass, not    
+        class,object. Choices D and E are wrong because in each case, the items listed    
+        are both concrete objects.
+    - Sweden, Linnaeus    
+      
+
+      - Choice B is wrong because the items listed are object, class, not class,    
+        object. Choice C is wrong, because the items listed are class,subclass, not    
+        class,object. Choices D and E are wrong because in each case, the items listed    
+        are both concrete objects.

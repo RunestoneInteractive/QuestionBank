@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_632599
+    :basecourse: canterburyqb
+        
+    Which of the following is not an ADT?    
+    
+
+    - List    
+      
+
+      - Hashtable is a data structure, not an abstract datatype.    
+            
+        Note: this question is based on a question by Andrew Luxton-Reilly.
+    - Queue    
+      
+
+      - Hashtable is a data structure, not an abstract datatype.    
+            
+        Note: this question is based on a question by Andrew Luxton-Reilly.
+    - Hashtable    
+      
+
+      + Correct!
+    - Stack    
+      
+
+      - Hashtable is a data structure, not an abstract datatype.    
+            
+        Note: this question is based on a question by Andrew Luxton-Reilly.

@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_634936
+    :basecourse: canterburyqb
+        
+    For the binary search algorithm implemented on a sorted list stored in an    
+    array, what is its running time?    
+    
+
+    - O(1)    
+      
+
+      - Binary search repeately "throws away" half of the list still under    
+        investigation when looking for a given value in the list.  Hence the run time    
+        of the algorithm is the number of times a values can be divided in two, until    
+        one reaches the value 1: O(log2 n)
+    - O(log2 n)    
+      
+
+      + Correct!
+    - O(n)    
+      
+
+      - Binary search repeately "throws away" half of the list still under    
+        investigation when looking for a given value in the list.  Hence the run time    
+        of the algorithm is the number of times a values can be divided in two, until    
+        one reaches the value 1: O(log2 n)
+    - O(n log2 n)    
+      
+
+      - Binary search repeately "throws away" half of the list still under    
+        investigation when looking for a given value in the list.  Hence the run time    
+        of the algorithm is the number of times a values can be divided in two, until    
+        one reaches the value 1: O(log2 n)
+    - O(n2)    
+      
+
+      - Binary search repeately "throws away" half of the list still under    
+        investigation when looking for a given value in the list.  Hence the run time    
+        of the algorithm is the number of times a values can be divided in two, until    
+        one reaches the value 1: O(log2 n)

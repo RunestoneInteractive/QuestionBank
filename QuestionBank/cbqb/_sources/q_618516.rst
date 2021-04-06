@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_618516
+    :basecourse: canterburyqb
+        
+    What kind of variable is *label*\ ?    
+        
+    public class Labeller extends JFrame {    
+        
+    .. code-block::    
+        
+         public Labeller () {    
+        
+                   JLabel label = new JLabel("Field or Variable");    
+        
+         }    
+        
+         public static void main (String[] args) {    
+        
+                  new Labeller();    
+        
+         }    
+        
+        
+    }    
+    
+
+    - local variable, primitive    
+      
+
+      - local variable, Object Reference
+    - Instance variable, primitive    
+      
+
+      - local variable, Object Reference
+    - local variable, Object Reference    
+      
+
+      + Correct!
+    - Instance variable, Object Reference    
+      
+
+      - local variable, Object Reference

@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632064
+    :basecourse: canterburyqb
+        
+    Consider this section of code.    
+        
+    int a = 3, b = 4, c = 5;    
+        
+    x = a * b <= c    
+        
+    The expression contains an arithmetic operator, an assignment operator and a    
+    relational operator. Which is which?    
+    
+
+    - Arithmetic Assignment Relational    
+          
+      .. code-block::    
+          
+         =                   *                    <=    
+      
+
+      - operators are: multiply, assignment and less than or equal
+    - Arithmetic Assignment Relational    
+          
+          
+      * <=                  =    
+      
+
+      - operators are: multiply, assignment and less than or equal
+    - Arithmetic Assignment Relational    
+          
+      <=                 *                     =    
+      
+
+      - operators are: multiply, assignment and less than or equal
+    - Arithmetic Assignment Relational    
+          
+          
+      * =                    <=    
+      
+
+      + Correct!
+    - Arithmetic Assignment Relational    
+          
+       <=                  =                   *    
+      
+
+      - operators are: multiply, assignment and less than or equal

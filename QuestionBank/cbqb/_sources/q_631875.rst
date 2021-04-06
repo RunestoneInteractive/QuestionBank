@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_631875
+    :basecourse: canterburyqb
+        
+    Given the code:    
+        
+    .. code-block::    
+        
+        
+           if (x >= 0)    
+              System.out.println("1");    
+           else if (x < 20)    
+              System.out.println("2");    
+           else    
+              System.out.println("3");    
+           System.out.println("4");    
+        
+    for what integer values of x will ``4`` be among the values printed?    
+    
+
+    - x < 0    
+      
+
+      - The final `println` statement is outside the conditional, so it is printed    
+        whatever the value of `x` is.
+    - x >= 0    
+      
+
+      - The final `println` statement is outside the conditional, so it is printed    
+        whatever the value of `x` is.
+    - x >= 20    
+      
+
+      - The final `println` statement is outside the conditional, so it is printed    
+        whatever the value of `x` is.
+    - All values of x    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - The final `println` statement is outside the conditional, so it is printed    
+        whatever the value of `x` is.

@@ -1,0 +1,70 @@
+.. mchoice:: canterburyqb_632182
+    :basecourse: canterburyqb
+        
+    How many times will the printf statement be executed in this piece of code?    
+        
+    In each case assume the definition    
+        
+    int i = 0;    
+        
+    WARNING There are some very nasty traps in some of the code here. LOOK AT IT    
+    ALL VERY CAREFULLY!    
+        
+    for(i = 0; i <= 3; i++)    
+        
+    {    
+        
+    .. code-block::    
+        
+        switch ( i )    
+        
+        {    
+        
+              case 0: puts("Case 0");    
+        
+              break;    
+        
+             case 1: puts("Case 1");    
+        
+             case 2: puts("Case 2");    
+        
+             default: printf("Count me!");    
+        
+        }    
+        
+        
+    }    
+    
+
+    - 0    
+      
+
+      - The code iterates until the index reaches 3 (a total of four times) but on the    
+        first iteration the case statement bresk before executing the printf function.    
+        On subsequent iterations the printf fucntion is executed, twice by matching    
+        the index values and once by default.
+    - 1    
+      
+
+      - The code iterates until the index reaches 3 (a total of four times) but on the    
+        first iteration the case statement bresk before executing the printf function.    
+        On subsequent iterations the printf fucntion is executed, twice by matching    
+        the index values and once by default.
+    - 2    
+      
+
+      - The code iterates until the index reaches 3 (a total of four times) but on the    
+        first iteration the case statement bresk before executing the printf function.    
+        On subsequent iterations the printf fucntion is executed, twice by matching    
+        the index values and once by default.
+    - 3    
+      
+
+      + Correct!
+    - an infinite number    
+      
+
+      - The code iterates until the index reaches 3 (a total of four times) but on the    
+        first iteration the case statement bresk before executing the printf function.    
+        On subsequent iterations the printf fucntion is executed, twice by matching    
+        the index values and once by default.

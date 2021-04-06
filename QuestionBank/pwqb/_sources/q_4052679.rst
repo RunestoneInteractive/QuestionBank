@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052679
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q11:</strong></p><p>Consider the following function definition:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Test(int a, int b)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if (a &lt; b) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return a;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return b;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>What output would be produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int result;</span><br /><span style="font-family: courier new,courier,monospace;">result = Test( Test(1000, 500) , 750);</span><br /><span style="font-family: courier new,courier,monospace;">printf("Result = %d ", result);</span></p>
+    
+
+    - Result = 1500    
+      
+
+      - Incorrect
+    - Result = 2250    
+      
+
+      - Incorrect
+    - Result = 500    
+      
+
+      + Correct!
+    - Result = 1000    
+      
+
+      - Incorrect
+    - Result = 750    
+      
+
+      - Incorrect

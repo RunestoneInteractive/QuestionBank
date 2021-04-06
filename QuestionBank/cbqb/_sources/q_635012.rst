@@ -1,0 +1,57 @@
+.. mchoice:: canterburyqb_635012
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    After the following syntactically correct code is executed, where will Karel    
+    be standing and which direction will the robot be facing? How many beepers    
+    will karel be carrying? There are beepers at (2,2), (2,3), (2,4), (2,5),    
+    (2,6). (Note: a beeper at (2,5) means there is a beeper at the intersection of    
+    2nd street and 5th avenue.)    
+        
+    def task ():\ :raw-html-m2r:`<br>`    
+      karel = Robot (2,2,East,0);\ :raw-html-m2r:`<br>`    
+      while (karel.nextToABeeper()):\ :raw-html-m2r:`<br>`    
+        karel.turnLeft()\ :raw-html-m2r:`<br>`    
+        karel.move()\ :raw-html-m2r:`<br>`    
+        for i in range (2):\ :raw-html-m2r:`<br>`    
+          karel.turnLeft()    
+        
+    .. code-block::    
+        
+       karel.move()      
+       karel.turnLeft()      
+       if (karel.nextToABeeper()):      
+         karel.pickBeeper()      
+         karel.move()    
+        
+        
+      karel.move()\ :raw-html-m2r:`<br>`    
+      karel.turnOff()    
+    
+
+    - Robot is facing East with five beepers and is located at (2,8)    
+      
+
+      + Correct!
+    - Robot is facing East with five beepers and is located at (2,7)    
+      
+
+      - There is a final "move" after the loop terminates, moving the robot over one    
+        block east (from (2,7) to (2,8)).
+    - Robot is facing North with five beepers and is located at (8,2)    
+      
+
+      - There is a final "move" after the loop terminates, moving the robot over one    
+        block east (from (2,7) to (2,8)).
+    - Robot is facing East with one beeper and is located at (2,2)    
+      
+
+      - There is a final "move" after the loop terminates, moving the robot over one    
+        block east (from (2,7) to (2,8)).
+    - Robot is facing North with one beeper and is located at (2,2)    
+      
+
+      - There is a final "move" after the loop terminates, moving the robot over one    
+        block east (from (2,7) to (2,8)).

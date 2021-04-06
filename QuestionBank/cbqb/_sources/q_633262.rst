@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_633262
+    :basecourse: canterburyqb
+        
+    What advantage does using dummy nodes in a linked list implementation offer?    
+    
+
+    - Reduced storage needs.    
+      
+
+      - Dummy nodes consume a little more space, and they don't simplify iteration or    
+        bounds detection any. They do reduce the special casing that would otherwise    
+        need to be done when updating forward and backward links on an insertion.
+    - Simplified insertion.    
+      
+
+      + Correct!
+    - Easier detection of the list's head and tail.    
+      
+
+      - Dummy nodes consume a little more space, and they don't simplify iteration or    
+        bounds detection any. They do reduce the special casing that would otherwise    
+        need to be done when updating forward and backward links on an insertion.
+    - Simplified iteration.    
+      
+
+      - Dummy nodes consume a little more space, and they don't simplify iteration or    
+        bounds detection any. They do reduce the special casing that would otherwise    
+        need to be done when updating forward and backward links on an insertion.

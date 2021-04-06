@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_633665
+    :basecourse: canterburyqb
+        
+    Consider the following class for a Ninja:    
+        
+    .. code-block::    
+        
+        
+           public class Ninja {    
+             private int honor;    
+             public Ninja(int h) {    
+              this.honor=h;    
+             }    
+           }    
+        
+    Suppose we instantiate two Ninjas like this:    
+        
+    .. code-block::    
+        
+        
+           Ninja n1=new Ninja(50);    
+           Ninja n2=new Ninja(50);    
+        
+    Is the following statement True, False, or It Depends:    
+        
+    n1 == n2    
+    
+
+    - True    
+      
+
+      - These two references are not equal because they reference different instances.    
+            
+        ![](img/10.png)
+    - False    
+      
+
+      + Correct!
+    - It depends    
+          
+      (Note:  Be ready to explain what it depends upon during the discussion phase    
+      of this question)    
+      
+
+      - These two references are not equal because they reference different instances.    
+            
+        ![](img/10.png)

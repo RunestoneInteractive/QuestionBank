@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052867
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q5:</strong><br />Consider the following variable declarations and initialisations, however note that some code is missing and has been replaced with ????:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int a;</span><br /><span style="font-family: courier new, courier, monospace;">double b;</span><br /><span style="font-family: courier new, courier, monospace;">double c;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">a = 5;</span><br /><span style="font-family: courier new, courier, monospace;">b = 5;</span><br /><span style="font-family: courier new, courier, monospace;">c = ????</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result = %f", c);</span></p><p>&nbsp;</p><p>If the output of this code is: <span style="font-family: courier new, courier, monospace;">Result = 0.000000</span></p><p>&nbsp;</p><p>What must be the missing code?</p>
+    
+
+    - c = b / ( a + b );    
+      
+
+      - Incorrect
+    - c = a / ( a + a );    
+      
+
+      + Correct!
+    - c = a / ( a + b );    
+      
+
+      - Incorrect
+    - c = a / ( b + b );    
+      
+
+      - Incorrect
+    - c = b / ( b + b );    
+      
+
+      - Incorrect

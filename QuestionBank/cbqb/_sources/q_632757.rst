@@ -1,0 +1,198 @@
+.. mchoice:: canterburyqb_632757
+    :basecourse: canterburyqb
+        
+    The following is a skeleton for a method called "minPos":    
+        
+    .. code-block::    
+        
+        
+           public static int minPos(int[] y, int first, int last) {    
+           /* This method returns the position of the minimum element in the    
+           * subsection of the array "y", starting at position    
+           * "first" and ending at position "last".    
+           */    
+        
+             int bestSoFar = first;    
+        
+             xxx missing for loop goes here    
+        
+             return bestSoFar;    
+        
+           } // method minPos    
+        
+    In this question, the missing "for" loop is to run "backwards". That is, the    
+    code should search the array from the high subscripts to the low subscripts.    
+    Given that, the correct code for the missing "for" loop is:    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[bestSoFar] < y[i] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        b)      
+        INCORRECT:      
+        The loop starts at first+1 ...not running backwards.    
+            
+        This loop is if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the    
+        index of the LARGEST number so far.    
+            
+              
+        c)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        d) CORRECT!      
+              
+        e)      
+        INCORRECT:      
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.      
+        The loop starts at first+1 ... This loop is not running backwards.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[bestSoFar] < y[i] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        b)      
+        INCORRECT:      
+        The loop starts at first+1 ...not running backwards.    
+            
+        This loop is if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the    
+        index of the LARGEST number so far.    
+            
+              
+        c)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        d) CORRECT!      
+              
+        e)      
+        INCORRECT:      
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.      
+        The loop starts at first+1 ... This loop is not running backwards.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[bestSoFar] < y[i] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        b)      
+        INCORRECT:      
+        The loop starts at first+1 ...not running backwards.    
+            
+        This loop is if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the    
+        index of the LARGEST number so far.    
+            
+              
+        c)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        d) CORRECT!      
+              
+        e)      
+        INCORRECT:      
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.      
+        The loop starts at first+1 ... This loop is not running backwards.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] < y[bestSoFar] ) {    
+                bestSoFar = i    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( bestSoFar < y[i] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        b)      
+        INCORRECT:      
+        The loop starts at first+1 ...not running backwards.    
+            
+        This loop is if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the    
+        index of the LARGEST number so far.    
+            
+              
+        c)      
+        INCORRECT:      
+        if (y[bestSoFar] < y[i])  ... This is setting bestSoFar to the index of the    
+        LARGEST number so far.      
+              
+        d) CORRECT!      
+              
+        e)      
+        INCORRECT:      
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.      
+        The loop starts at first+1 ... This loop is not running backwards.

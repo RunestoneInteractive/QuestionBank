@@ -1,0 +1,67 @@
+.. mchoice:: canterburyqb_632474
+    :basecourse: canterburyqb
+        
+    Identify the bug in the following Java code (if any):    
+        
+    ``public boolean search(T item,ListADT<T> list){ // 1``    
+        
+    .. code-block::    
+        
+        
+              if (list == null) // 2    
+                 return false; // 3    
+              else if (list.first()==item) // 4    
+                 return true; // 5    
+              else // 6    
+                 return this.search(item, list.rest()); // 7    
+           } // 8    
+    
+
+    - There is no base case    
+      
+
+      - For a recursive solution to a problem, you need three things:      
+        (1) a base case (where the problem can be solved without recursion)      
+        (2) a self-similar problem (one that contains similar problem(s) to itself)      
+        (3) a way of making the problem smaller so you get closer to the base case    
+            
+        Here (2) is satisfied -- lists contain smaller lists. (1) is satisfied by    
+        lines 2-5 of the method. And (3) is satisfied because line 7's recursive call    
+        takes the rest of the list as a parameter, rather than the whole list.
+    - The problem is not self-similar    
+      
+
+      - For a recursive solution to a problem, you need three things:      
+        (1) a base case (where the problem can be solved without recursion)      
+        (2) a self-similar problem (one that contains similar problem(s) to itself)      
+        (3) a way of making the problem smaller so you get closer to the base case    
+            
+        Here (2) is satisfied -- lists contain smaller lists. (1) is satisfied by    
+        lines 2-5 of the method. And (3) is satisfied because line 7's recursive call    
+        takes the rest of the list as a parameter, rather than the whole list.
+    - The problem does not get smaller    
+      
+
+      - For a recursive solution to a problem, you need three things:      
+        (1) a base case (where the problem can be solved without recursion)      
+        (2) a self-similar problem (one that contains similar problem(s) to itself)      
+        (3) a way of making the problem smaller so you get closer to the base case    
+            
+        Here (2) is satisfied -- lists contain smaller lists. (1) is satisfied by    
+        lines 2-5 of the method. And (3) is satisfied because line 7's recursive call    
+        takes the rest of the list as a parameter, rather than the whole list.
+    - There are no bugs    
+      
+
+      + Correct!
+    - None of the above    
+      
+
+      - For a recursive solution to a problem, you need three things:      
+        (1) a base case (where the problem can be solved without recursion)      
+        (2) a self-similar problem (one that contains similar problem(s) to itself)      
+        (3) a way of making the problem smaller so you get closer to the base case    
+            
+        Here (2) is satisfied -- lists contain smaller lists. (1) is satisfied by    
+        lines 2-5 of the method. And (3) is satisfied because line 7's recursive call    
+        takes the rest of the list as a parameter, rather than the whole list.

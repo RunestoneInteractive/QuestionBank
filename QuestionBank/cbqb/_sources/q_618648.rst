@@ -1,0 +1,81 @@
+.. mchoice:: canterburyqb_618648
+    :basecourse: canterburyqb
+        
+    What would be the output?    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+       static int testCount = 0;    
+        
+       public test(){    
+        
+           testCount ++;    
+        
+       }    
+        
+       public static void main(String [] Args){    
+        
+           test t1 = new test();    
+        
+           System.out.println(t1.testCount);    
+        
+           test t2 = new test();    
+        
+           System.out.println(t1.testCount + " "+ t2.testCount);    
+        
+           test t3 = new test();    
+        
+           System.out.println(t1.testCount+ " "+ t2.testCount+ " "+ t3.testCount);    
+        
+        
+       }    
+        
+    }    
+    
+
+    - 0    
+          
+      0 0    
+          
+      0 0 0    
+      
+
+      - 1    
+            
+        2 2    
+            
+        3 3 3
+    - 1    
+          
+      1 1    
+          
+      1 1 1    
+      
+
+      - 1    
+            
+        2 2    
+            
+        3 3 3
+    - 1    
+          
+      2 2    
+          
+      3 3 3    
+      
+
+      + Correct!
+    - 1    
+          
+      2 3    
+          
+      4 5 6    
+      
+
+      - 1    
+            
+        2 2    
+            
+        3 3 3

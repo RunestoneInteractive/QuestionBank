@@ -1,0 +1,25 @@
+.. mchoice:: canterburyqb_633888
+    :basecourse: canterburyqb
+        
+    Rohan has the code\ ``int len = strlen("Rohan")``. What is the value of ``len``\ ?    
+    
+
+    - 0    
+      
+
+      - While the \0 will be added to the end of the array, it is not included in the    
+        length calculation.
+    - 5    
+      
+
+      + Correct!
+    - 6    
+      
+
+      - While the \0 will be added to the end of the array, it is not included in the    
+        length calculation.
+    - 8    
+      
+
+      - While the \0 will be added to the end of the array, it is not included in the    
+        length calculation.

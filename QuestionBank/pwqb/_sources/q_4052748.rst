@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052748
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q4:</strong></p><p>The following binary number consists of 10 digits, all of which are &ldquo;1&rdquo;. What is the corresponding decimal value?</p><p>&nbsp;</p><p>1111111111</p>
+    
+
+    - 1024    
+      
+
+      - Incorrect
+    - 1023    
+      
+
+      + Correct!
+    - 512    
+      
+
+      - Incorrect
+    - 256    
+      
+
+      - Incorrect
+    - 511    
+      
+
+      - Incorrect

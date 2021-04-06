@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_634990
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1. public BallPanel extends javax.swing.JPanel {    
+       2.    private Ball[] _balls;    
+       3.    public BallPanel(int numberOfBalls){    
+       4.       _balls = new Ball[numberOfBalls];    
+       5.       for (int i=0;i<_balls.length;i++)    
+       6.          _balls[i] = new Ball();    
+       7.    }    
+       8.    public void ballCopy () {    
+       9.       Ball[] temp = new Ball[2 * _balls.length];    
+       10.      for (int j=0; j< _balls.length; j++0)    
+       11.         _temp[j] = _balls[j];    
+       12.     _balls = temp;    
+       13.   }    
+       13. ...    
+        
+        
+    ```    
+        
+    What is the purpose of the ``ballCopy`` method?    
+    
+
+    - It allows the user to copy a ``Ball`` in a ``BallPanel``    
+      
+
+      - It doubles the length of the _balls array.  It works by 1) instantiating temp,    
+        an array twice as large as _balls, 2) copying the data in _balls to the first    
+        half of temp, and 3) reassigning _balls to be temp.  Useful if you want to    
+        have an array that can grow bigger when it gets full.
+    - It copies data in the ``_balls`` array    
+      
+
+      - It doubles the length of the _balls array.  It works by 1) instantiating temp,    
+        an array twice as large as _balls, 2) copying the data in _balls to the first    
+        half of temp, and 3) reassigning _balls to be temp.  Useful if you want to    
+        have an array that can grow bigger when it gets full.
+    - It increases the capacity of the ``_balls`` array while keeping existing data    
+      
+
+      + Correct!
+    - It makes 2 copies of the elements in the ``_balls`` array    
+      
+
+      - It doubles the length of the _balls array.  It works by 1) instantiating temp,    
+        an array twice as large as _balls, 2) copying the data in _balls to the first    
+        half of temp, and 3) reassigning _balls to be temp.  Useful if you want to    
+        have an array that can grow bigger when it gets full.
+    - It swaps the data in the ``_balls`` array with the data in the ``temp`` array    
+      
+
+      - It doubles the length of the _balls array.  It works by 1) instantiating temp,    
+        an array twice as large as _balls, 2) copying the data in _balls to the first    
+        half of temp, and 3) reassigning _balls to be temp.  Useful if you want to    
+        have an array that can grow bigger when it gets full.

@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052774
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q10:</strong></p><p>What output is produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int i, temp;</span><br /><span style="font-family: courier new, courier, monospace;">int numbers[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">for (i = 0; i &lt; 10; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; temp = numbers[i];</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; numbers[i] = numbers[9-i];</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; numbers[9-i] = temp;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result = ");</span><br /><span style="font-family: courier new, courier, monospace;">for (i = 0; i &lt; 10; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("%d ", numbers[i]);</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - ``Result = 2 3 4 5 6 7 8 9 10 1``    
+      
+
+      - Incorrect
+    - ``Result = 2 1 4 3 6 5 8 7 10 9``    
+      
+
+      - Incorrect
+    - ``Result = 10 2 3 4 5 6 7 8 9 1``    
+      
+
+      - Incorrect
+    - ``Result = 10 9 8 7 6 5 4 3 2 1``    
+      
+
+      - Incorrect
+    - ``Result = 1 2 3 4 5 6 7 8 9 10``    
+      
+
+      + Correct!

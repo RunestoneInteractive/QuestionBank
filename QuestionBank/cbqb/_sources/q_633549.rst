@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_633549
+    :basecourse: canterburyqb
+        
+    Your data has 4-bit keys. You also have magical, perfect hash function that    
+    will prevent any collisions from happening, provided there is room enough for    
+    all possible elements in the array. What's the minimum number of elements the    
+    array must be able to hold?    
+    
+
+    - 8    
+      
+
+      - 4-bit keys uniquely identify 24 = 16 elements. The array must be able to hold    
+        these 16 items.
+    - 16    
+      
+
+      + Correct!
+    - 32    
+      
+
+      - 4-bit keys uniquely identify 24 = 16 elements. The array must be able to hold    
+        these 16 items.
+    - 64    
+      
+
+      - 4-bit keys uniquely identify 24 = 16 elements. The array must be able to hold    
+        these 16 items.
+    - 128    
+      
+
+      - 4-bit keys uniquely identify 24 = 16 elements. The array must be able to hold    
+        these 16 items.

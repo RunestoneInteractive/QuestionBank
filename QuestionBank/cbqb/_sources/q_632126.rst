@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632126
+    :basecourse: canterburyqb
+        
+    Using Dijkstra's Algorithm what would be the path between A and B?    
+        
+    (Picture taken from Data Structures & algorithms in Java by Goodrich at. al.)    
+        
+        
+    .. image:: img/47.gif    
+       :target: img/47.gif    
+       :alt: no description    
+        
+    
+
+    - AB    
+      
+
+      - ACEB
+    - ACB    
+      
+
+      - ACEB
+    - ACEB    
+      
+
+      + Correct!
+    - ADCEB    
+      
+
+      - ACEB

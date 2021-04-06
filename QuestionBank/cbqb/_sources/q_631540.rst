@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_631540
+    :basecourse: canterburyqb
+        
+    How many times will F be called if n = 5, ignoring F(5) itself?    
+        
+    public static long F(int n) {    
+        
+    .. code-block::    
+        
+         if (n == 0)return 0;    
+        
+         if (n == 1) return 1;    
+        
+         return F(n-1) + F(n-2);    
+        
+        
+    }    
+    
+
+    - 15    
+      
+
+      + Correct!
+    - 12    
+      
+
+      - 7
+    - 7    
+      
+
+      - 7
+    - 5    
+      
+
+      - 7

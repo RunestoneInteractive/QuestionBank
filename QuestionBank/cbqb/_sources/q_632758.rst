@@ -1,0 +1,230 @@
+.. mchoice:: canterburyqb_632758
+    :basecourse: canterburyqb
+        
+    The following is a skeleton for a method called "maxPos":    
+        
+    .. code-block::    
+        
+        
+           public static int maxPos(int[] y, int first, int last) {    
+           /* This method returns the position of the maximum element in the    
+           * subsection of the array "y", starting at position    
+           * "first" and ending at position "last".    
+           */    
+        
+           int bestSoFar = first;    
+        
+           xxx missing for loop goes here    
+        
+           return bestSoFar;    
+        
+           } // method maxPos    
+        
+    In this question, the missing "for" loop is to run "forwards". That is, the    
+    code should search the array from the low subscripts to the high subscripts.    
+    Given that, the correct code for the missing "for" loop is:    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] < y[bestSoFar] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - Explanation      
+        a)    
+            
+        INCORRECT:    
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the index of the    
+        SMALLEST number so far, but this is MAXPOS, it needs to find the highest!    
+            
+        b)    
+            
+        CORRECT:    
+            
+        The code finds the maximum position in the array, searching forwards as    
+        intended.    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop is running backwards.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        Same as c) and d)
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[i] > y[bestSoFar] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] > y[bestSoFar] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - Explanation      
+        a)    
+            
+        INCORRECT:    
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the index of the    
+        SMALLEST number so far, but this is MAXPOS, it needs to find the highest!    
+            
+        b)    
+            
+        CORRECT:    
+            
+        The code finds the maximum position in the array, searching forwards as    
+        intended.    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop is running backwards.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        Same as c) and d)
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+              if ( y[i] < bestSoFar ) {    
+                 bestSoFar = i    
+              } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - Explanation      
+        a)    
+            
+        INCORRECT:    
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the index of the    
+        SMALLEST number so far, but this is MAXPOS, it needs to find the highest!    
+            
+        b)    
+            
+        CORRECT:    
+            
+        The code finds the maximum position in the array, searching forwards as    
+        intended.    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop is running backwards.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        Same as c) and d)
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[i] > bestSoFar ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - Explanation      
+        a)    
+            
+        INCORRECT:    
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the index of the    
+        SMALLEST number so far, but this is MAXPOS, it needs to find the highest!    
+            
+        b)    
+            
+        CORRECT:    
+            
+        The code finds the maximum position in the array, searching forwards as    
+        intended.    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop is running backwards.    
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The if statement compares y[i] with the integer bestSoFar, not what is in the    
+        array at the position bestSoFar.    
+            
+        c)    
+            
+        INCORRECT:    
+            
+        Same as c) and d)

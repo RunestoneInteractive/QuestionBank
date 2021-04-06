@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_618982
+    :basecourse: canterburyqb
+        
+    What will be outputted?    
+        
+    char initial = 'a';    
+        
+    switch (initial){    
+        
+    case 'a':    
+        
+    .. code-block::    
+        
+             System.out.print("a");    
+        
+        
+    case 'A':    
+        
+    .. code-block::    
+        
+             System.out.print("A");    
+        
+             break;    
+        
+        
+    case 'b':    
+        
+    .. code-block::    
+        
+            System.out.print("B");    
+        
+        
+    default:    
+        
+    .. code-block::    
+        
+            System.out.print("C");    
+        
+            break;    
+        
+        
+    }    
+    
+
+    - a    
+      
+
+      - aAB
+    - aA    
+      
+
+      + Correct!
+    - aAB    
+      
+
+      - aAB
+    - aABC    
+      
+
+      - aAB

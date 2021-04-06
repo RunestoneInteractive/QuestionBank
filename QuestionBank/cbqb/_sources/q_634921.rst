@@ -1,0 +1,48 @@
+.. mchoice:: canterburyqb_634921
+    :basecourse: canterburyqb
+        
+    In quicksort, what does partitioning refer to?    
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      How the list/array always has three partitions: the area before low, the area    
+      between\ :raw-html-m2r:`<br>`    
+      low and high, and the area after high.    
+      
+
+      - D is how it works.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      The process in which the memory allocated for the list/array that you are    
+      sorting is\ :raw-html-m2r:`<br>`    
+      partitioned into different parts of memory, to improve memory efficiency.    
+      
+
+      - D is how it works.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      The process in which the list/array is partitioned into two equal halves; the    
+      sort proceeds\ :raw-html-m2r:`<br>`    
+      by recursively partitioning until we have partitions of size 2, in which case    
+      elements are\ :raw-html-m2r:`<br>`    
+      merged in correct order.    
+      
+
+      - D is how it works.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      The step where all elements less than a given *pivot* are placed on the left    
+      of the pivot,\ :raw-html-m2r:`<br>`    
+      and all elements larger than the pivot are moved to the right.    
+      
+
+      + Correct!

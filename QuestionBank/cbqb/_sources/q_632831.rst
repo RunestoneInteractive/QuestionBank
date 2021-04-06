@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_632831
+    :basecourse: canterburyqb
+        
+    Many languages allow negative indexing for arrays: items[-1] for the last    
+    item, items[-2] for the second to last, and so on. Java doesn't support this    
+    indexing directly, but we can create a class that wraps around an array and    
+    converts a negative index into the appropriate positive one:    
+        
+    .. code-block::    
+        
+        
+           class WrappedStringArray {    
+             private String[] items;    
+        
+             ...    
+        
+             public String get(int i) {    
+               if (i >= 0) {    
+                 return items[i];    
+               } else {    
+                 return TODO;    
+               }    
+             }    
+           }    
+        
+    What expression must we replace TODO with to support negative indexing?    
+    
+
+    - (int) Math.abs(i)    
+      
+
+      - We want items[-1] to map to items[items.length - 1], and only the correct    
+        answer handles this case.
+    - items.length + i    
+      
+
+      + Correct!
+    - (int) Math.abs(i + 1)    
+      
+
+      - We want items[-1] to map to items[items.length - 1], and only the correct    
+        answer handles this case.
+    - items.length - 1 - i    
+      
+
+      - We want items[-1] to map to items[items.length - 1], and only the correct    
+        answer handles this case.
+    - items.length - i    
+      
+
+      - We want items[-1] to map to items[items.length - 1], and only the correct    
+        answer handles this case.

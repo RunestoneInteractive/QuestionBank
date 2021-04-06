@@ -1,0 +1,48 @@
+.. mchoice:: canterburyqb_618554
+    :basecourse: canterburyqb
+        
+    What will be printed by the following code if in.txt includes two sentences    
+    which have been inserted in two separate lines?    
+        
+    try {    
+        
+    .. code-block::    
+        
+             inputStream = new FileReader("in.txt");    
+        
+             int c;    
+        
+             while ((c = inputStream.read()) != -1)    
+        
+                    System.out.println((char)c);    
+        
+        
+    } finally {    
+        
+    .. code-block::    
+        
+            if (inputStream != null)    
+        
+                    inputStream.close();    
+        
+        
+    }    
+    
+
+    - A sequence of integers that represents the unicode of characters that form the    
+      text.    
+      
+
+      - The first line in in.txt.
+    - A sequence of characters that form the text.    
+      
+
+      + Correct!
+    - The first line in in.txt.    
+      
+
+      - The first line in in.txt.
+    - The whole text in in.txt.    
+      
+
+      - The first line in in.txt.

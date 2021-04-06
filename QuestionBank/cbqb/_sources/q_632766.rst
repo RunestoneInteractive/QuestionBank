@@ -1,0 +1,62 @@
+.. mchoice:: canterburyqb_632766
+    :basecourse: canterburyqb
+        
+    The following code for a method "minVal" contains a logic error on a single    
+    line in the method body, on one of the four lines indicated by comments:      
+        
+    ``public static int minVal(int[] y, int first, int last) {``    
+        
+    .. code-block::    
+        
+        
+           /* This method returns the value of the minimum element in the    
+            * subsection of the array "y", starting at position    
+            * "first" and ending at position "last".    
+            */    
+        
+             int bestSoFar = y[first];          // line 1    
+        
+             for (int i=first+1; i<=last; i++)    
+             {    
+               if ( y[i] < y[bestSoFar] )       // line 2    
+        
+    ``bestSoFar = y[i];             // line 3``      
+        
+    ``} // for``      
+        
+    ``return bestSoFar;                  // line 4``      
+        
+    ``} // method minVal``      
+        
+    Which one of the four lines indicated by the comments contains the logic    
+    error?    
+    
+
+    - line 1    
+      
+
+      - line 2 should be` if ( y[i] < bestSoFar )`    
+            
+        The other three lines use bestSoFar to remember the best VALUE seen thus far,    
+        whereas the buggy line is using bestSoFar as if bestSoFar contains the    
+        POSITION seen thus far.
+    - line2    
+      
+
+      + Correct!
+    - line3    
+      
+
+      - line 2 should be` if ( y[i] < bestSoFar )`    
+            
+        The other three lines use bestSoFar to remember the best VALUE seen thus far,    
+        whereas the buggy line is using bestSoFar as if bestSoFar contains the    
+        POSITION seen thus far.
+    - line4    
+      
+
+      - line 2 should be` if ( y[i] < bestSoFar )`    
+            
+        The other three lines use bestSoFar to remember the best VALUE seen thus far,    
+        whereas the buggy line is using bestSoFar as if bestSoFar contains the    
+        POSITION seen thus far.

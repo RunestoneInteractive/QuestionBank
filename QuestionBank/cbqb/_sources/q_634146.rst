@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_634146
+    :basecourse: canterburyqb
+        
+    Depth-first traversal is kind of like selection sort, in the same way that    
+    breadth-first traversal is like what sorting algorithm?    
+    
+
+    - Radix sort    
+      
+
+      - Insertion sort is breadth-first-like as you keep increasing the "breadth" of    
+        the array that is sorted.
+    - Bubblesort    
+      
+
+      - Insertion sort is breadth-first-like as you keep increasing the "breadth" of    
+        the array that is sorted.
+    - Heapsort    
+      
+
+      - Insertion sort is breadth-first-like as you keep increasing the "breadth" of    
+        the array that is sorted.
+    - Quicksort    
+      
+
+      - Insertion sort is breadth-first-like as you keep increasing the "breadth" of    
+        the array that is sorted.
+    - Insertion sort    
+      
+
+      + Correct!

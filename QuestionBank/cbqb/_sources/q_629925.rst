@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_629925
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Choose the answer that best describes how to compute the value of the    
+    following Java arithmetic expression:\ :raw-html-m2r:`<br>`    
+         4 * 3 + 6 / 4    
+    
+
+    - Evaluate the operations from left to right: * then + then /.    
+      
+
+      - In Java, multiplication and division have higher precedence than addition, and    
+        division is closed under ints.
+    - Evaluate * and / first (from left to right), and then evaluate +.    
+      
+
+      - In Java, multiplication and division have higher precedence than addition, and    
+        division is closed under ints.
+    - Round the answer to 6/4 towards 0.    
+      
+
+      - In Java, multiplication and division have higher precedence than addition, and    
+        division is closed under ints.
+    - A and C.    
+      
+
+      - In Java, multiplication and division have higher precedence than addition, and    
+        division is closed under ints.
+    - B and C.    
+      
+
+      + Correct!

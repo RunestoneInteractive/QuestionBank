@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052771
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q13:</strong></p><p>What output is produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int a = 10;</span><br /><span style="font-family: courier new, courier, monospace;">int b = 20;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int *c = &amp;a;</span><br /><span style="font-family: courier new, courier, monospace;">int *d = &amp;b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">*c = *d + a;</span><br /><span style="font-family: courier new, courier, monospace;">*d = *c - b;</span><br /><span style="font-family: courier new, courier, monospace;">d = c;</span><br /><span style="font-family: courier new, courier, monospace;">*d = a - b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("Result: a = %d, b = %d", a, b);</span></p>
+    
+
+    - Result: a = 20, b = 10    
+      
+
+      + Correct!
+    - Result: a = 10, b = 10    
+      
+
+      - Incorrect
+    - Result: a = 20, b = 20    
+      
+
+      - Incorrect
+    - Result: a = 30, b = 20    
+      
+
+      - Incorrect
+    - Result: a = 30, b = 10    
+      
+
+      - Incorrect

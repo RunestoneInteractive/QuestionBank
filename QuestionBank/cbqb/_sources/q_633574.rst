@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_633574
+    :basecourse: canterburyqb
+        
+    Suppose you try to perform a binary search on the unsorted array {1, 4, 3, 7,    
+    15, 9, 24}. How many of the items in this array will be found if they are    
+    searched for?    
+    
+
+    - 3    
+      
+
+      - 7, 4, 9, 24, and 1 will be found if searched for. 15 and 3 will not, since    
+        they lie to the wrong side of a subrange's midpoint.
+    - 4    
+      
+
+      - 7, 4, 9, 24, and 1 will be found if searched for. 15 and 3 will not, since    
+        they lie to the wrong side of a subrange's midpoint.
+    - 5    
+      
+
+      + Correct!
+    - 6    
+      
+
+      - 7, 4, 9, 24, and 1 will be found if searched for. 15 and 3 will not, since    
+        they lie to the wrong side of a subrange's midpoint.
+    - 0    
+      
+
+      - 7, 4, 9, 24, and 1 will be found if searched for. 15 and 3 will not, since    
+        they lie to the wrong side of a subrange's midpoint.

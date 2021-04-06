@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_632221
+    :basecourse: canterburyqb
+        
+    Consider the following Java code:    
+        
+    .. code-block::    
+        
+        
+           public interface StackADT<T> { // 1    
+              public void push (T element);    
+              public T pop();    
+              public T peek();    
+              public boolean isEmpty();     
+           }    
+        
+    The capital letter "T" on line 1 stands for:    
+    
+
+    - a temporary value    
+      
+
+      - This interface is defined using Java's generics. We can tell what the T means    
+        by looking at how it is used.  The "T" in angle brackets on line 1 corresponds    
+        to the type of the parameter to `push` and the type of value returned by `pop`    
+        and `peek`. In other words, it is the type of value stored in the stack.
+    - the type of the items in the Stack    
+      
+
+      + Correct!
+    - a class named T defined somewhere else in the program    
+      
+
+      - This interface is defined using Java's generics. We can tell what the T means    
+        by looking at how it is used.  The "T" in angle brackets on line 1 corresponds    
+        to the type of the parameter to `push` and the type of value returned by `pop`    
+        and `peek`. In other words, it is the type of value stored in the stack.
+    - the top of the stack    
+      
+
+      - This interface is defined using Java's generics. We can tell what the T means    
+        by looking at how it is used.  The "T" in angle brackets on line 1 corresponds    
+        to the type of the parameter to `push` and the type of value returned by `pop`    
+        and `peek`. In other words, it is the type of value stored in the stack.
+    - none of the above    
+      
+
+      - This interface is defined using Java's generics. We can tell what the T means    
+        by looking at how it is used.  The "T" in angle brackets on line 1 corresponds    
+        to the type of the parameter to `push` and the type of value returned by `pop`    
+        and `peek`. In other words, it is the type of value stored in the stack.

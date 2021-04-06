@@ -1,0 +1,91 @@
+.. mchoice:: canterburyqb_630980
+    :basecourse: canterburyqb
+        
+         
+    .. image:: img/32.png    
+       :target: img/32.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose ``russell`` is a ``Crow``\ ,    
+    and lives in an ``Oak``. What answer best describes what can  replace ``???`` in    
+    the following code?    
+        
+    .. code-block::    
+        
+        
+           public class Crow extends Bird {    
+              private Tree _myTree;    
+              ...    
+              public void battenDown(){    
+                 ...    
+                 _myTree.???    
+              }    
+           }    
+    
+
+    - ``prepareForWinter();``    
+          
+      or    
+          
+      .. code-block::    
+          
+          
+             absorbWater(n); (where n is an int variable or constant)    
+          
+      or    
+          
+      ``dropLeaves();``    
+      
+
+      - Since you are invoking a method on a variable whose declared type is Tree,    
+        only methods appropriate to Tree can be invoked, that is, those defined in    
+        Tree or inherited from an ancestor in the inheritance hierarchy. B gives the    
+        methods from Tree that can be invoked, but methods inherited by Tree that can    
+        be used as well.  If anything in the inheritance hierarchy had public instance    
+        variables, those names could also appear in that line, but it would be bad    
+        form to have public instance variables, and wouldn't make any sense without    
+        being assigned to something.
+    - ``prepareForWinter();``    
+          
+      or    
+          
+      ``absorbWater(n); (where`` n is an int variable or constant)    
+      
+
+      - Since you are invoking a method on a variable whose declared type is Tree,    
+        only methods appropriate to Tree can be invoked, that is, those defined in    
+        Tree or inherited from an ancestor in the inheritance hierarchy. B gives the    
+        methods from Tree that can be invoked, but methods inherited by Tree that can    
+        be used as well.  If anything in the inheritance hierarchy had public instance    
+        variables, those names could also appear in that line, but it would be bad    
+        form to have public instance variables, and wouldn't make any sense without    
+        being assigned to something.
+    - ``dropLeaves();``    
+      
+
+      - Since you are invoking a method on a variable whose declared type is Tree,    
+        only methods appropriate to Tree can be invoked, that is, those defined in    
+        Tree or inherited from an ancestor in the inheritance hierarchy. B gives the    
+        methods from Tree that can be invoked, but methods inherited by Tree that can    
+        be used as well.  If anything in the inheritance hierarchy had public instance    
+        variables, those names could also appear in that line, but it would be bad    
+        form to have public instance variables, and wouldn't make any sense without    
+        being assigned to something.
+    - Any public method from ``Tree`` or anything above it in the inheritance    
+      hierarchy (with appropriate parameters)    
+      
+
+      + Correct!
+    - Any public method from ``Oak`` or anything above it in the inheritance hierarchy    
+      (with appropriate parameters)    
+      
+
+      - Since you are invoking a method on a variable whose declared type is Tree,    
+        only methods appropriate to Tree can be invoked, that is, those defined in    
+        Tree or inherited from an ancestor in the inheritance hierarchy. B gives the    
+        methods from Tree that can be invoked, but methods inherited by Tree that can    
+        be used as well.  If anything in the inheritance hierarchy had public instance    
+        variables, those names could also appear in that line, but it would be bad    
+        form to have public instance variables, and wouldn't make any sense without    
+        being assigned to something.

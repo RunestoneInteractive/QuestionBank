@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_633875
+    :basecourse: canterburyqb
+        
+    Malik is using quicksort. He has the list [3, 4, 5, 1, 0] and will be pivoting    
+    around the element 3. After partitioning, what will the list look like?    
+    
+
+    - [3, 4, 5, 0, 1]    
+      
+
+      - In the implementation of quicksort we used in class, all elements before the    
+        pivot are moved before the pivot; all elements after the pivot are moved after    
+        it.
+    - [1, 0, 3, 4, 5]    
+      
+
+      + Correct!
+    - [3, 1, 0, 4, 5]    
+      
+
+      - In the implementation of quicksort we used in class, all elements before the    
+        pivot are moved before the pivot; all elements after the pivot are moved after    
+        it.
+    - [0, 1, 3, 4, 5]    
+      
+
+      - In the implementation of quicksort we used in class, all elements before the    
+        pivot are moved before the pivot; all elements after the pivot are moved after    
+        it.

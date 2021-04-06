@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_630968
+    :basecourse: canterburyqb
+        
+    In Java, what word is used to refer to the current object, or to call one    
+    constructor from another in the same class?    
+    
+
+    - constructor    
+      
+
+      - The reserved word `this` is used within a method or constructor to refer to    
+        the current object, or in the first statement of a constructor to call a    
+        different constructor in the same class.
+    - ``new``    
+      
+
+      - The reserved word `this` is used within a method or constructor to refer to    
+        the current object, or in the first statement of a constructor to call a    
+        different constructor in the same class.
+    - ``null``    
+      
+
+      - The reserved word `this` is used within a method or constructor to refer to    
+        the current object, or in the first statement of a constructor to call a    
+        different constructor in the same class.
+    - ``this``    
+      
+
+      + Correct!
+    - ``void``    
+      
+
+      - The reserved word `this` is used within a method or constructor to refer to    
+        the current object, or in the first statement of a constructor to call a    
+        different constructor in the same class.

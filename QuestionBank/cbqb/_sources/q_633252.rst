@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633252
+    :basecourse: canterburyqb
+        
+    Growing the array used to implement a heap so that it may hold more elements    
+    is    
+    
+
+    - O(1)    
+      
+
+      - The order of elements in the array doesn't change any. They only need to be    
+        copied over in their original sequence, making this an O(N) operation.
+    - O(log N)    
+      
+
+      - The order of elements in the array doesn't change any. They only need to be    
+        copied over in their original sequence, making this an O(N) operation.
+    - O(N)    
+      
+
+      + Correct!
+    - O(N log N)    
+      
+
+      - The order of elements in the array doesn't change any. They only need to be    
+        copied over in their original sequence, making this an O(N) operation.
+    - O(N2)    
+      
+
+      - The order of elements in the array doesn't change any. They only need to be    
+        copied over in their original sequence, making this an O(N) operation.

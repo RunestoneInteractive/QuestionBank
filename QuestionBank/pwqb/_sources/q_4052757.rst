@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052757
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q27:</strong></p><p>Consider the following function definition:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int Test(int *nums, int size)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int a = 0;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int b = size - 1;</span></p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; while ((a &lt; b) &amp;&amp; (nums[a] == nums[b])) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a = a + 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b = b - 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; if (a &lt; b) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>Assume this function is called as follows:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">Test(nums, 5)</span></p><p>&nbsp;</p><p>Which one of the following array definitions would cause this function to return the value 1?</p>
+    
+
+    - int nums[5] = {1, 2, 2, 2, 2};    
+      
+
+      - Incorrect
+    - int nums[5] = {1, 2, 3, 4, 5};    
+      
+
+      - Incorrect
+    - int nums[5] = {2, 2, 2, 2, 1};    
+      
+
+      - Incorrect
+    - int nums[5] = {5, 4, 3, 2, 1};    
+      
+
+      - Incorrect
+    - int nums[5] = {1, 2, 3, 2, 1};    
+      
+
+      + Correct!

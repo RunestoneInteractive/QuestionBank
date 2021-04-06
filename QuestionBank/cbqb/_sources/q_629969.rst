@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_629969
+    :basecourse: canterburyqb
+        
+    Suppose you have a sorted list of numbers stored in a Java array of ints. What    
+    is the worst-case time complexity of searching for a given number in the list    
+    using binary search?    
+    
+
+    - O(1)    
+      
+
+      - Binary search in a sorted array can be implemented in O(log n) time    
+            
+        **Note:  **It is likely that the instructor went over this in class. If so,    
+        perhaps it should be tagged as Skill-Pure-Knowledge-Recall.
+    - O(log n)    
+      
+
+      + Correct!
+    - O(n)    
+      
+
+      - Binary search in a sorted array can be implemented in O(log n) time    
+            
+        **Note:  **It is likely that the instructor went over this in class. If so,    
+        perhaps it should be tagged as Skill-Pure-Knowledge-Recall.
+    - O(n log n)    
+      
+
+      - Binary search in a sorted array can be implemented in O(log n) time    
+            
+        **Note:  **It is likely that the instructor went over this in class. If so,    
+        perhaps it should be tagged as Skill-Pure-Knowledge-Recall.
+    - O(n2)    
+      
+
+      - Binary search in a sorted array can be implemented in O(log n) time    
+            
+        **Note:  **It is likely that the instructor went over this in class. If so,    
+        perhaps it should be tagged as Skill-Pure-Knowledge-Recall.

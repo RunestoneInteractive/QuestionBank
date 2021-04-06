@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052835
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q15:</strong><br />Consider the following function:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">void UpdateString(char *s, char t)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int i = 0;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; while (s[i] != '\0') {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (s[i] != t) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; s[i] = s[i+1];</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>What output would be produced by the following:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">char word[100] = "ENGGEN";</span><br /><span style="font-family: courier new, courier, monospace;">UpdateString(word, 'E');</span><br /><span style="font-family: courier new, courier, monospace;">printf("%s", word);</span></p>
+    
+
+    - Result = EGGEN    
+      
+
+      - Incorrect
+    - Result = NNGGNN    
+      
+
+      - Incorrect
+    - Result = EGGEEN    
+      
+
+      - Incorrect
+    - Result = EGGEE    
+      
+
+      + Correct!
+    - Result = NGGGN    
+      
+
+      - Incorrect

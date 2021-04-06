@@ -1,0 +1,109 @@
+.. mchoice:: canterburyqb_635019
+    :basecourse: canterburyqb
+        
+    Suppose q is an instance of a queue that can store Strings, and I execute the    
+    following statements starting with q empty:    
+        
+    .. code-block::    
+        
+        
+           1. q.enqueue("Sweden");    
+           2. q.enqueue("is");    
+           3. q.enqueue("my");    
+           4. String w = q.dequeue();    
+           5. String x = q.peek();    
+           6. q.enqueue("neighbor");    
+           7. String y = q.dequeue();    
+           8. String z = q.dequeue();    
+        
+    What is the value of z after executing these expressions in order?    
+    
+
+    - ``"Sweden"``    
+      
+
+      - If we consider the contents of the queue after each expression (listing    
+        contents from head to tail), we have    
+            
+        1\. ["Sweden"]    
+            
+        2\. ["Sweden" "is"]    
+            
+        3\. ["Sweden" "is" "my"]    
+            
+        4\. ["is" "my"]  (and w gets set to "Sweden")    
+            
+        5\. ["is" "my"]  (and x gets set to "is")    
+            
+        6\. ["is" "my" "neighbor"]    
+            
+        7\. ["my" "neighbor"] (and y gets set to "is")    
+            
+        8\. [ "neighbor"]  (and z gets set to "my")
+    - ``"is"``    
+      
+
+      - If we consider the contents of the queue after each expression (listing    
+        contents from head to tail), we have    
+            
+        1\. ["Sweden"]    
+            
+        2\. ["Sweden" "is"]    
+            
+        3\. ["Sweden" "is" "my"]    
+            
+        4\. ["is" "my"]  (and w gets set to "Sweden")    
+            
+        5\. ["is" "my"]  (and x gets set to "is")    
+            
+        6\. ["is" "my" "neighbor"]    
+            
+        7\. ["my" "neighbor"] (and y gets set to "is")    
+            
+        8\. [ "neighbor"]  (and z gets set to "my")
+    - ``"my"``    
+      
+
+      + Correct!
+    - ``"neighbor"``    
+      
+
+      - If we consider the contents of the queue after each expression (listing    
+        contents from head to tail), we have    
+            
+        1\. ["Sweden"]    
+            
+        2\. ["Sweden" "is"]    
+            
+        3\. ["Sweden" "is" "my"]    
+            
+        4\. ["is" "my"]  (and w gets set to "Sweden")    
+            
+        5\. ["is" "my"]  (and x gets set to "is")    
+            
+        6\. ["is" "my" "neighbor"]    
+            
+        7\. ["my" "neighbor"] (and y gets set to "is")    
+            
+        8\. [ "neighbor"]  (and z gets set to "my")
+    - None of the above    
+      
+
+      - If we consider the contents of the queue after each expression (listing    
+        contents from head to tail), we have    
+            
+        1\. ["Sweden"]    
+            
+        2\. ["Sweden" "is"]    
+            
+        3\. ["Sweden" "is" "my"]    
+            
+        4\. ["is" "my"]  (and w gets set to "Sweden")    
+            
+        5\. ["is" "my"]  (and x gets set to "is")    
+            
+        6\. ["is" "my" "neighbor"]    
+            
+        7\. ["my" "neighbor"] (and y gets set to "is")    
+            
+        8\. [ "neighbor"]  (and z gets set to "my")

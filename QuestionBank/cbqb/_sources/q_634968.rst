@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_634968
+    :basecourse: canterburyqb
+        
+    Which of the following is true about both interfaces and abstract classes?    
+    
+
+    - They do not have constructors    
+      
+
+      - Abstract methods have constructors, interfaces do not    
+            
+        An anstract class can include both abstract and non-abstract methods, while    
+        all methods in interfaces are abstract    
+            
+        An abstract class can model shared capabilities of classes, but only those who    
+        share the abstract class as an ancestor (so related), whereas there is no such    
+        restriction on interfaces.
+    - All of their methods are abstract    
+      
+
+      - Abstract methods have constructors, interfaces do not    
+            
+        An anstract class can include both abstract and non-abstract methods, while    
+        all methods in interfaces are abstract    
+            
+        An abstract class can model shared capabilities of classes, but only those who    
+        share the abstract class as an ancestor (so related), whereas there is no such    
+        restriction on interfaces.
+    - They can have both abstract and non-abstract methods    
+      
+
+      - Abstract methods have constructors, interfaces do not    
+            
+        An anstract class can include both abstract and non-abstract methods, while    
+        all methods in interfaces are abstract    
+            
+        An abstract class can model shared capabilities of classes, but only those who    
+        share the abstract class as an ancestor (so related), whereas there is no such    
+        restriction on interfaces.
+    - They can be used to model shared capabilities of unrelated classes    
+      
+
+      - Abstract methods have constructors, interfaces do not    
+            
+        An anstract class can include both abstract and non-abstract methods, while    
+        all methods in interfaces are abstract    
+            
+        An abstract class can model shared capabilities of classes, but only those who    
+        share the abstract class as an ancestor (so related), whereas there is no such    
+        restriction on interfaces.
+    - None of the above    
+      
+
+      + Correct!

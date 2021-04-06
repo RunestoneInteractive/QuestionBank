@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_634129
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    After calling the following function, what will the values of n and m be?    
+    Assume that before\ :raw-html-m2r:`<br>`    
+    calling the function, n = 2 and m = 5.    
+        
+    ``void example(int *n, int *m)      
+    {      
+       *n++;      
+       *m += 5;      
+    }``    
+        
+    .. code-block::    
+        
+        
+           void main()    
+           {    
+              int n = 2;    
+              int m = 5;    
+              example(&n, &m);    
+              printf("n = %d and m = %d", n, m);    
+           }    
+    
+
+    - n = 2 and m = 5    
+      
+
+      - Due to order of operations, the ++ will not change n.
+    - n = 3 and m = 5    
+      
+
+      - Due to order of operations, the ++ will not change n.
+    - n = 2 and m = 10    
+      
+
+      + Correct!
+    - n = 3 and m = 10    
+      
+
+      - Due to order of operations, the ++ will not change n.

@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052714
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q6:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int a = 25;</span><br /><span style="font-family: courier new,courier,monospace;">double b = 10.0;</span><br /><span style="font-family: courier new,courier,monospace;">double x, y;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">x = a / (int)b;</span><br /><span style="font-family: courier new,courier,monospace;">y = (int)a / b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = %f %f ", x, y);</span></p>
+    
+
+    - Result = 2.500000 2.500000    
+      
+
+      - Incorrect
+    - Result = 2.000000 2.500000    
+      
+
+      + Correct!
+    - Result = 2.500000 2.000000    
+      
+
+      - Incorrect
+    - Result = 0.000000 0.000000    
+      
+
+      - Incorrect
+    - Result = 2.000000 2.000000    
+      
+
+      - Incorrect

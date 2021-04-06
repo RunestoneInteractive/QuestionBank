@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_634144
+    :basecourse: canterburyqb
+        
+    Which of the following pairs of statements has two statements that are NOT    
+    equivalent?    
+    
+
+    - ``&arr[0];`` and ``arr;``    
+      
+
+      - *(arr + sizeof) != *(arr) + sizeof
+    - ``arr[0];`` and ``*arr;``    
+      
+
+      - *(arr + sizeof) != *(arr) + sizeof
+    - ``*(arr + 1);`` and ``arr[1];``    
+      
+
+      - *(arr + sizeof) != *(arr) + sizeof
+    - ``*(arr + 1);`` and ``*(arr) + sizeof(arr[0]);``    
+      
+
+      + Correct!

@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_634199
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Chengcheng has an array that he would like to sort, and implements the    
+    following sorting\ :raw-html-m2r:`<br>`    
+    method in C. Which sorting algorithm is this? (code is adapted from    
+    http://en.wikibooks.org/wiki/Algorithm_implementation)    
+        
+    ``void sort_array(int a[], int length)``    
+        
+    .. code-block::    
+        
+        
+           {    
+               // sorts the array a[], of length "length"    
+               int i, j, value;    
+               for(i = 1; i < length; i++)    
+               {    
+                   value = a[i];    
+                   for (j = i - 1; j >= 0 && a[j] > value; j--)    
+                   {    
+                       a[j + 1] = a[j];    
+                   }    
+                   a[j + 1] = value;    
+               }    
+           }    
+    
+
+    - Insertion Sort    
+      
+
+      + Correct!
+    - Selection Sort    
+      
+
+      - The code is working from one end of the array to the other, sorting as it    
+        goes.
+    - Bubble sort    
+      
+
+      - The code is working from one end of the array to the other, sorting as it    
+        goes.
+    - Mergesort    
+      
+
+      - The code is working from one end of the array to the other, sorting as it    
+        goes.

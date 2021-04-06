@@ -1,0 +1,53 @@
+.. mchoice:: canterburyqb_633452
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    .. code-block::    
+        
+        
+           number = int(input("Enter a positive number: "))    
+           while number > 1:    
+              if (number % 2 == 1):    
+                 number = number * 3 + 1    
+              else:    
+                 number = number/2    
+              print number    
+              if number == 1:    
+                 break    
+              else:    
+                 print "The end"    
+        
+    Given the input '8', what output is produced by the program?    
+    
+
+    - an error    
+      
+
+      - Basically just trace the code.
+    - 'The end'    
+      
+
+      - Basically just trace the code.
+    - 4    
+          
+      2    
+          
+      1    
+      
+
+      + Correct!
+    - 4    
+          
+      2    
+          
+      1    
+          
+      The end    
+      
+
+      - Basically just trace the code.
+    - none of the above    
+      
+
+      - Basically just trace the code.

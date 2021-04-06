@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052764
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q20:</strong></p><p>What output is produced by the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int Process(int a, int b)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; a = a + b;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; b = b + 1;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return a - b;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int main(void)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int a = 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int b = 2;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; a = Process(b, a);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; b = Process(a, b);</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("Result = %d %d", a, b);</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - ``Result = 0 -1``    
+      
+
+      - Incorrect
+    - ``Result = 1 1``    
+      
+
+      - Incorrect
+    - ``Result = 1 0``    
+      
+
+      + Correct!
+    - ``Result = 0 1``    
+      
+
+      - Incorrect
+    - ``Result = 2 1``    
+      
+
+      - Incorrect

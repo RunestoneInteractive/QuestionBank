@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632254
+    :basecourse: canterburyqb
+        
+    Suppose you are trying to choose between an array and a linked list to store    
+    the data in your Java program. Which data structure can change size as needed    
+    while the program is running?    
+    
+
+    - an array    
+      
+
+      - When initializing a Java array, you must allocate a fixed amount of memory for    
+        storing data. Linked lists vary in size depending on how much data they    
+        contain.
+    - a linked list    
+      
+
+      + Correct!
+    - both    
+      
+
+      - When initializing a Java array, you must allocate a fixed amount of memory for    
+        storing data. Linked lists vary in size depending on how much data they    
+        contain.
+    - neither    
+      
+
+      - When initializing a Java array, you must allocate a fixed amount of memory for    
+        storing data. Linked lists vary in size depending on how much data they    
+        contain.

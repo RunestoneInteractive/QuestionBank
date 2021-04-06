@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_635123
+    :basecourse: canterburyqb
+        
+    Suppose you have an array of seven ``int`` values called ``test`` containing the    
+    following data:    
+        
+        
+    .. image:: img/22.png    
+       :target: img/22.png    
+       :alt: no description    
+        
+        
+    Trace the execution of the following code:    
+        
+    .. code-block::    
+        
+        
+           int x = 0;    
+           int y = 0;    
+           for (int i = 0; i < test.length; i++)    
+           {    
+               if (test[i] % 4 == 0)    
+               {    
+                   x++;    
+                   y += test[i];    
+               }    
+           }    
+        
+    What is the value of ``x`` when this loop is done?    
+    
+
+    - 3    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4.  The    
+        local variable `x` is used to count the number of values found, so `x` is 4.
+    - 4    
+      
+
+      + Correct!
+    - 7    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4.  The    
+        local variable `x` is used to count the number of values found, so `x` is 4.
+    - 35    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4.  The    
+        local variable `x` is used to count the number of values found, so `x` is 4.
+    - 40    
+      
+
+      - The loop traverses the array from left to right, and the if statement    
+        determines whether the corresponding value is evenly divisible by 4.  The    
+        local variable `x` is used to count the number of values found, so `x` is 4.

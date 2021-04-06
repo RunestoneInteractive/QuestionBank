@@ -1,0 +1,51 @@
+.. mchoice:: canterburyqb_635036
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1.  public BallPanel extends javax.swing.Panel {    
+       2.     private Ball[] _balls;    
+       3.     public BallPanel(int numberOfBalls){    
+       4.        _balls = new Ball[numberOfBalls];    
+       5.        for (int i=0;i<_balls.length;i++)    
+       6.           _balls[i] = new Ball();    
+       7.     }    
+       8.  }    
+        
+        
+    ```    
+        
+    In the above Java code, what is the value of ``_balls.length`` immediately after    
+    lines 4 and 6 (respectively)?    
+    
+
+    - ``0, numberOfBalls``    
+      
+
+      - When the array is instantiated in line 4, its length is set (to    
+        numberOfBalls).  Lines 5 and 6 set the values of the array elements, but do    
+        not change the length of the array.
+    - ``numberOfBalls, numberOfBalls``    
+      
+
+      + Correct!
+    - ``i, numberOfBalls``    
+      
+
+      - When the array is instantiated in line 4, its length is set (to    
+        numberOfBalls).  Lines 5 and 6 set the values of the array elements, but do    
+        not change the length of the array.
+    - ``0, numberOfBalls - 1``    
+      
+
+      - When the array is instantiated in line 4, its length is set (to    
+        numberOfBalls).  Lines 5 and 6 set the values of the array elements, but do    
+        not change the length of the array.
+    - ``_balls.length`` is undefined    
+      
+
+      - When the array is instantiated in line 4, its length is set (to    
+        numberOfBalls).  Lines 5 and 6 set the values of the array elements, but do    
+        not change the length of the array.

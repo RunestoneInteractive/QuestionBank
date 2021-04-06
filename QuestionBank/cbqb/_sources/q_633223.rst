@@ -1,0 +1,51 @@
+.. mchoice:: canterburyqb_633223
+    :basecourse: canterburyqb
+        
+    What is the output of the following program?    
+        
+    .. code-block::    
+        
+        
+           public class Main {    
+             public static void swap(int a, int b) {    
+               int tmp = a;    
+               a = b;    
+               b = tmp;    
+             }    
+        
+             public static void main(String[] args) {    
+               int a = 5, b = 7;    
+               swap(a, b);    
+               System.out.println(a + " " + b);    
+             }    
+           }    
+    
+
+    - 7 5    
+      
+
+      - Main.swap only receives copies of main's a and b. Its assignments do not alter    
+        main's variables. Thus, a is still 5 and b is still 7 when the print statement    
+        is executed.
+    - 5 7    
+      
+
+      + Correct!
+    - 5 5    
+      
+
+      - Main.swap only receives copies of main's a and b. Its assignments do not alter    
+        main's variables. Thus, a is still 5 and b is still 7 when the print statement    
+        is executed.
+    - 7 7    
+      
+
+      - Main.swap only receives copies of main's a and b. Its assignments do not alter    
+        main's variables. Thus, a is still 5 and b is still 7 when the print statement    
+        is executed.
+    - 12    
+      
+
+      - Main.swap only receives copies of main's a and b. Its assignments do not alter    
+        main's variables. Thus, a is still 5 and b is still 7 when the print statement    
+        is executed.

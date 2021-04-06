@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632092
+    :basecourse: canterburyqb
+        
+    "The value when iVal is divided by 10" would be coded as:    
+    
+
+    - iVal % 10    
+      
+
+      - Expresses the value of a variable using the division operator and the divisor    
+        (here 10)
+    - iVal & 10    
+      
+
+      - Expresses the value of a variable using the division operator and the divisor    
+        (here 10)
+    - iVal == 10    
+      
+
+      - Expresses the value of a variable using the division operator and the divisor    
+        (here 10)
+    - iVal / 10    
+      
+
+      + Correct!
+    - iVal | 10    
+      
+
+      - Expresses the value of a variable using the division operator and the divisor    
+        (here 10)

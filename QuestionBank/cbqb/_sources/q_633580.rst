@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_633580
+    :basecourse: canterburyqb
+        
+    The number of elements in a hashtable must be prime    
+    
+
+    - so that linear probing will terminate    
+      
+
+      - Since the double hash produces a fixed step size for probing, it may be the    
+        case that the step size is a factor of the table size. In this case, advancing    
+        by the fixed step size will land us in a cycling sequence.
+    - so that quadratic probing will terminate    
+      
+
+      - Since the double hash produces a fixed step size for probing, it may be the    
+        case that the step size is a factor of the table size. In this case, advancing    
+        by the fixed step size will land us in a cycling sequence.
+    - to reduce collisions    
+      
+
+      - Since the double hash produces a fixed step size for probing, it may be the    
+        case that the step size is a factor of the table size. In this case, advancing    
+        by the fixed step size will land us in a cycling sequence.
+    - to reduce cluster sizes    
+      
+
+      - Since the double hash produces a fixed step size for probing, it may be the    
+        case that the step size is a factor of the table size. In this case, advancing    
+        by the fixed step size will land us in a cycling sequence.
+    - so that probing with a double hash visits all elements    
+      
+
+      + Correct!

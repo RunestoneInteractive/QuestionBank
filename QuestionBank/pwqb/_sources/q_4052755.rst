@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052755
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q29:</strong></p><p>What output is produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">char word[] = "test";</span><br /><span style="font-family: courier new, courier, monospace;">int i = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">printf("%s = ", word);</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">while (word[i] != '\0') {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; printf("%d ", i);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - test = 1 2 3    
+      
+
+      - Incorrect
+    - test = 4    
+      
+
+      - Incorrect
+    - test = 0 1 2 3 4    
+      
+
+      - Incorrect
+    - test = 0 1 2 3    
+      
+
+      + Correct!
+    - test = 1 2 3 4    
+      
+
+      - Incorrect

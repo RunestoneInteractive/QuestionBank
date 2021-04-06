@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052742
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q10:</strong></p><p>What output is produced by the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i;</span><br /><span style="font-family: courier new,courier,monospace;">int sum = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for (i = 5; i &lt; 8; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; sum += i;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = %d", sum);</span></p>
+    
+
+    - Result = 13    
+      
+
+      - Incorrect
+    - Result = 12    
+      
+
+      - Incorrect
+    - Result = 18    
+      
+
+      + Correct!
+    - Result = 26    
+      
+
+      - Incorrect
+    - Result = 21    
+      
+
+      - Incorrect

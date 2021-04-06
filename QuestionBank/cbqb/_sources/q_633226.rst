@@ -1,0 +1,99 @@
+.. mchoice:: canterburyqb_633226
+    :basecourse: canterburyqb
+        
+    Many English words have separate singular and plural forms, e.g., "dog" and    
+    "dogs." We are trying to write a method that properly pluralizes a word    
+    (though naively, by only adding an "s" at the end) if the count we have of    
+    that word is not 1. If the count is 1, we leave the word as is. Which of the    
+    following proposed solutions does not meet this specification?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         String getCounted(String singular, int count) {    
+           if (count != 1) {    
+             return singular + "s";    
+           } else {    
+             return singular;    
+           }    
+         }    
+          
+          
+      ```    
+      
+
+      - Suffix is initialized to null. The concatenation of singular and suffix does    
+        not produce the desired behavior.
+    - [code]    
+          
+      .. code-block::    
+          
+         String getCounted(String singular, int count) {    
+           String quantified = singular;    
+           if (count != 1) {    
+             quantified = quantified + "s";    
+           }    
+           return quantified;    
+         }    
+          
+          
+      ```    
+      
+
+      - Suffix is initialized to null. The concatenation of singular and suffix does    
+        not produce the desired behavior.
+    - [code]    
+          
+      .. code-block::    
+          
+         String getCounted(String singular, int count) {    
+           if (count == 1) {    
+             return singular;    
+           } else {    
+             String plural = singular + "s";    
+             return plural;    
+           }    
+         }    
+          
+          
+      ```    
+      
+
+      - Suffix is initialized to null. The concatenation of singular and suffix does    
+        not produce the desired behavior.
+    - [code]    
+          
+      .. code-block::    
+          
+         String getCounted(String singular, int count) {    
+           String suffix = null;    
+           if (count != 1) {    
+             suffix = "s";    
+           }    
+           return singular + suffix;    
+         }    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         String getCounted(String singular, int count) {    
+           if (count != 1) {    
+             singular += "s";    
+           }    
+           return singular;    
+         }    
+          
+          
+      ```    
+      
+
+      - Suffix is initialized to null. The concatenation of singular and suffix does    
+        not produce the desired behavior.

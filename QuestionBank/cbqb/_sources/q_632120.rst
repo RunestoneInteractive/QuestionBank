@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_632120
+    :basecourse: canterburyqb
+        
+    Consider these lines of code:    
+        
+    txtName.SetFocus    
+        
+    txtName.SelStart = 0    
+        
+    txtName.SelLength = Len(txtName.Text)    
+        
+    txtName is an edit text box which is currently visible.    
+        
+    What is the code expected to do?    
+    
+
+    - Clear the text in txtName.    
+      
+
+      - The code sets focus to the text box and by selecting the focus area from start    
+        of the text box to its end thereby highlights the contents
+    - Copy the text in txtName to the clipboard.    
+      
+
+      - The code sets focus to the text box and by selecting the focus area from start    
+        of the text box to its end thereby highlights the contents
+    - Fill txtName with text pasted from the clipboard.    
+      
+
+      - The code sets focus to the text box and by selecting the focus area from start    
+        of the text box to its end thereby highlights the contents
+    - Highlight all the text in txtName.    
+      
+
+      + Correct!
+    - Remove the highlight from all the text in txtName.    
+      
+
+      - The code sets focus to the text box and by selecting the focus area from start    
+        of the text box to its end thereby highlights the contents

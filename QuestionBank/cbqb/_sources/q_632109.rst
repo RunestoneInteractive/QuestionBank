@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_632109
+    :basecourse: canterburyqb
+        
+    What node will be visited after A in a preorder traversal of the following    
+    tree?    
+        
+         
+    .. image:: img/12.gif    
+       :target: img/12.gif    
+       :alt: no description    
+        
+    
+
+    - S    
+      
+
+      - N
+    - D    
+      
+
+      - N
+    - N    
+      
+
+      + Correct!
+    - I    
+      
+
+      - N

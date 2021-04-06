@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_629606
+    :basecourse: canterburyqb
+        
+    Consider the following method:    
+        
+    .. code-block::    
+        
+        
+           public int examMethod(int n) {    
+              if (n == 1) return 1;    
+              else return (n + this.examMethod(n-1));    
+           }    
+        
+    Which of the following inputs will cause a non-terminating recursion?    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - The base case for this recursion is n == 1. If n is 1, the recursion is done.    
+        If n is 20, then the value of n will be reduced by 1 with each recursive call    
+        (examMethod(19), examMethod(18), etc.), the value of n will finally reach 1,    
+        and the recursion will end. Similarly if n is 30,000.    
+            
+        But if n is 0 to begin with, then the next recursive call will be to    
+        examMethod(-1), then examMethod(-2), etc. The value of n will never reach the    
+        base case, and the method will (in theory) never terminate.
+    - 20    
+      
+
+      - The base case for this recursion is n == 1. If n is 1, the recursion is done.    
+        If n is 20, then the value of n will be reduced by 1 with each recursive call    
+        (examMethod(19), examMethod(18), etc.), the value of n will finally reach 1,    
+        and the recursion will end. Similarly if n is 30,000.    
+            
+        But if n is 0 to begin with, then the next recursive call will be to    
+        examMethod(-1), then examMethod(-2), etc. The value of n will never reach the    
+        base case, and the method will (in theory) never terminate.
+    - 30,000    
+      
+
+      - The base case for this recursion is n == 1. If n is 1, the recursion is done.    
+        If n is 20, then the value of n will be reduced by 1 with each recursive call    
+        (examMethod(19), examMethod(18), etc.), the value of n will finally reach 1,    
+        and the recursion will end. Similarly if n is 30,000.    
+            
+        But if n is 0 to begin with, then the next recursive call will be to    
+        examMethod(-1), then examMethod(-2), etc. The value of n will never reach the    
+        base case, and the method will (in theory) never terminate.
+    - None of the above    
+      
+
+      - The base case for this recursion is n == 1. If n is 1, the recursion is done.    
+        If n is 20, then the value of n will be reduced by 1 with each recursive call    
+        (examMethod(19), examMethod(18), etc.), the value of n will finally reach 1,    
+        and the recursion will end. Similarly if n is 30,000.    
+            
+        But if n is 0 to begin with, then the next recursive call will be to    
+        examMethod(-1), then examMethod(-2), etc. The value of n will never reach the    
+        base case, and the method will (in theory) never terminate.

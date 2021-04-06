@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_633568
+    :basecourse: canterburyqb
+        
+    You need to store a large amount of data that can be searched quickly by some    
+    key, but you don't know exactly how many elements you'll need to store. You    
+    want to waste no storage space. The elements to be added are in random order.    
+    What is the simplest data structure that meets your needs?    
+    
+
+    - Ordered array    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a random order, it's likely    
+        a binary tree will end up balanced just through the insertion price.
+    - Linked list    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a random order, it's likely    
+        a binary tree will end up balanced just through the insertion price.
+    - Hashtable    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a random order, it's likely    
+        a binary tree will end up balanced just through the insertion price.
+    - Binary search tree    
+      
+
+      + Correct!
+    - Self-balancing tree    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a random order, it's likely    
+        a binary tree will end up balanced just through the insertion price.

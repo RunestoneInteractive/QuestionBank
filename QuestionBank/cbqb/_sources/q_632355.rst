@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632355
+    :basecourse: canterburyqb
+        
+    In this question, you are given a Perl regular expression that you are    
+    required to evaluate.    
+        
+    There are no leading or trailing spaces in any of the text, nor are there any    
+    spaces in the regex.    
+        
+    Identify the answer which best matches the regex below:    
+        
+    /^[A-Z]\d/    
+    
+
+    - ABC123    
+      
+
+      - Must begin with an upper case letter followed by a digit.
+    - X3g5.    
+      
+
+      + Correct!
+    - 3Y3    
+      
+
+      - Must begin with an upper case letter followed by a digit.
+    - a5D2    
+      
+
+      - Must begin with an upper case letter followed by a digit.

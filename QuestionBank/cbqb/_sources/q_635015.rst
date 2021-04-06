@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_635015
+    :basecourse: canterburyqb
+        
+    The binary value 11011101 when coverted into a decimal value from two's    
+    complement notation is:    
+    
+
+    - -35    
+      
+
+      + Correct!
+    - 35    
+      
+
+      - Conversion of negative numbers in two's complement into decimal requires a bit    
+        flip, followed by the binary addition of 1.  This value is then interpreted as    
+        an unsigned binary value.
+    - 221    
+      
+
+      - Conversion of negative numbers in two's complement into decimal requires a bit    
+        flip, followed by the binary addition of 1.  This value is then interpreted as    
+        an unsigned binary value.
+    - -221    
+      
+
+      - Conversion of negative numbers in two's complement into decimal requires a bit    
+        flip, followed by the binary addition of 1.  This value is then interpreted as    
+        an unsigned binary value.
+    - -33    
+      
+
+      - Conversion of negative numbers in two's complement into decimal requires a bit    
+        flip, followed by the binary addition of 1.  This value is then interpreted as    
+        an unsigned binary value.

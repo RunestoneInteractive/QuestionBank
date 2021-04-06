@@ -1,0 +1,14 @@
+.. mchoice:: canterburyqb_634192
+    :basecourse: canterburyqb
+        
+    What is a shorter way to write ``if(p == NULL)`` ?    
+    
+
+    - if(p)    
+      
+
+      - Answer is B.
+    - if(!p)    
+      
+
+      + Correct!

@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_635005
+    :basecourse: canterburyqb
+        
+    Which algorithm is most arguably a greedy algorithm? (Circle the best answer.)    
+    
+
+    - merge sort    
+      
+
+      - Selection sort greedily takes the min/max of the array. This is a clicker    
+        question to discuss what greedy means; none of the algorithms are really    
+        greedy!
+    - insertion sort    
+      
+
+      - Selection sort greedily takes the min/max of the array. This is a clicker    
+        question to discuss what greedy means; none of the algorithms are really    
+        greedy!
+    - selection sort    
+      
+
+      + Correct!
+    - bubble sort    
+      
+
+      - Selection sort greedily takes the min/max of the array. This is a clicker    
+        question to discuss what greedy means; none of the algorithms are really    
+        greedy!

@@ -1,0 +1,72 @@
+.. mchoice:: canterburyqb_632804
+    :basecourse: canterburyqb
+        
+    Which of the following assertions about the effect of ``int(my_var)`` is    
+    correct?    
+    
+
+    - It modifies the value of ``my_var``\ , truncating it to make it an integer.    
+      
+
+      - A is wrong because the int() function does not modify (mutate) its parameter    
+            
+        B is wrong because the int() function does not return a Boolean, it returns an    
+        int()    
+            
+        C is wrong because the int() function works with double/float inputs, which    
+        are not ints (although it will generate an error if invoked with a String, for    
+        example)    
+            
+        D is correct!  int() converts ints and doubles to an int, truncating any extra    
+        information (i.e. the decimal portion of a double), and will generate an error    
+        if called with a non-numeric value
+    - It returns ``True``\ if ``my_var`` is an integer; and ``False``\ , otherwise.    
+      
+
+      - A is wrong because the int() function does not modify (mutate) its parameter    
+            
+        B is wrong because the int() function does not return a Boolean, it returns an    
+        int()    
+            
+        C is wrong because the int() function works with double/float inputs, which    
+        are not ints (although it will generate an error if invoked with a String, for    
+        example)    
+            
+        D is correct!  int() converts ints and doubles to an int, truncating any extra    
+        information (i.e. the decimal portion of a double), and will generate an error    
+        if called with a non-numeric value
+    - It produces an error if ``my_var``\ is not an integer.    
+      
+
+      - A is wrong because the int() function does not modify (mutate) its parameter    
+            
+        B is wrong because the int() function does not return a Boolean, it returns an    
+        int()    
+            
+        C is wrong because the int() function works with double/float inputs, which    
+        are not ints (although it will generate an error if invoked with a String, for    
+        example)    
+            
+        D is correct!  int() converts ints and doubles to an int, truncating any extra    
+        information (i.e. the decimal portion of a double), and will generate an error    
+        if called with a non-numeric value
+    - It returns the integer representation of the value associated with ``my_var``\ ,    
+      or an error    
+      
+
+      + Correct!
+    - None of the above    
+      
+
+      - A is wrong because the int() function does not modify (mutate) its parameter    
+            
+        B is wrong because the int() function does not return a Boolean, it returns an    
+        int()    
+            
+        C is wrong because the int() function works with double/float inputs, which    
+        are not ints (although it will generate an error if invoked with a String, for    
+        example)    
+            
+        D is correct!  int() converts ints and doubles to an int, truncating any extra    
+        information (i.e. the decimal portion of a double), and will generate an error    
+        if called with a non-numeric value

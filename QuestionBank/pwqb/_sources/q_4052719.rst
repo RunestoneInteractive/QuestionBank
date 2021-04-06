@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052719
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q1:</strong></p><p>You would like to produce the following output:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">\ / " //</span></p><p>&nbsp;</p><p>Which of the following <span style="font-family: courier new,courier,monospace;">printf()</span> statements will generate exactly this output?</p>
+    
+
+    - ``printf("\\ / " \/\/");``    
+      
+
+      - Incorrect
+    - ``printf("\ / " //");``    
+      
+
+      - Incorrect
+    - ``printf("\\ // "" ////");``    
+      
+
+      - Incorrect
+    - ``printf("\\ / \" //");``    
+      
+
+      + Correct!
+    - ``printf("\ // \" //");``    
+      
+
+      - Incorrect

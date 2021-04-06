@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_618632
+    :basecourse: canterburyqb
+        
+    Which sentence is not correct regarding exception handling in java?    
+    
+
+    - A method can throw more than one exception.    
+      
+
+      - Statements inside finally run if no exception happens.
+    - You can have several catch statement for one try.    
+      
+
+      - Statements inside finally run if no exception happens.
+    - Statements inside finally run if no exception happens.    
+      
+
+      + Correct!
+    - Statements inside catch are never run unless an exception happens.    
+      
+
+      - Statements inside finally run if no exception happens.

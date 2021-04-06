@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634151
+    :basecourse: canterburyqb
+        
+    Which of the following parts of a process' memory is the largest?    
+    
+
+    - The code area    
+      
+
+      - Heap is the largest.
+    - The globals area    
+      
+
+      - Heap is the largest.
+    - The heap    
+      
+
+      + Correct!
+    - The stack    
+      
+
+      - Heap is the largest.

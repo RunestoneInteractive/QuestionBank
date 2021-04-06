@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_633872
+    :basecourse: canterburyqb
+        
+    Thomas has the following program that he is running on a 64-bit machine:    
+        
+    ``#include<stdlib.h>``    
+        
+    .. code-block::    
+        
+        
+           int main()    
+           {    
+               int x = rand();    
+               int y = rand();    
+           }    
+        
+    What is **not** true about y?    
+    
+
+    - y is less than RAND_MAX    
+      
+
+      + Correct!
+    - y is four bytes in size    
+      
+
+      - y <= RAND_MAX, not y < RAND_MAX. As rand has not been seeded, and is    
+        pseudorandomly generated, y can theoretically be deduced from x.
+    - y is stored in the same stack frame as x    
+      
+
+      - y <= RAND_MAX, not y < RAND_MAX. As rand has not been seeded, and is    
+        pseudorandomly generated, y can theoretically be deduced from x.
+    - y's value cannot be deduced from x's    
+      
+
+      - y <= RAND_MAX, not y < RAND_MAX. As rand has not been seeded, and is    
+        pseudorandomly generated, y can theoretically be deduced from x.

@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633372
+    :basecourse: canterburyqb
+        
+    What order must elements 1, 2, 3, 4, 5, 6, and 7 be inserted in a binary    
+    search tree such that the tree is perfectly balanced afterward?    
+    
+
+    - 4 1 2 3 5 6 7    
+      
+
+      - The middle element 4 will need to be the root, so that must be inserted first.    
+        The middle elements of the remaining halves must be 4's children, so 2 and 6    
+        must be inserted next. (Their relative order does not matter.) The last four    
+        elements can be inserted in any order.
+    - 4 2 6 1 3 5 7    
+      
+
+      + Correct!
+    - 2 1 3 4 6 5 7    
+      
+
+      - The middle element 4 will need to be the root, so that must be inserted first.    
+        The middle elements of the remaining halves must be 4's children, so 2 and 6    
+        must be inserted next. (Their relative order does not matter.) The last four    
+        elements can be inserted in any order.
+    - 1 2 3 4 5 6 7    
+      
+
+      - The middle element 4 will need to be the root, so that must be inserted first.    
+        The middle elements of the remaining halves must be 4's children, so 2 and 6    
+        must be inserted next. (Their relative order does not matter.) The last four    
+        elements can be inserted in any order.
+    - 2 1 3 6 5 7 4    
+      
+
+      - The middle element 4 will need to be the root, so that must be inserted first.    
+        The middle elements of the remaining halves must be 4's children, so 2 and 6    
+        must be inserted next. (Their relative order does not matter.) The last four    
+        elements can be inserted in any order.

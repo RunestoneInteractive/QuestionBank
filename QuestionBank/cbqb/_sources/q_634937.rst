@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_634937
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       public class RecursiveMath    
+          ...    
+          public int fib (int a) {    
+             if (a < 2)    
+                return a;    
+             else    
+                return fib(a-1) + fib(a-2);     
+          }    
+          ...    
+       }    
+        
+        
+    .. code-block::    
+        
+        
+        
+        
+       Given the above definition, what is the result of executing the following?    
+        
+    .. code-block::    
+        
+       RecursiveMath bill = new RecursiveMath();    
+       int x = bill.fib(-1);    
+        
+        
+    ```    
+    
+
+    - x is set to -1    
+      
+
+      + Correct!
+    - x is set to undefined    
+      
+
+      - Since fib is called with parameter of -1, a gets bound to -1.   Since a < 2,    
+        the method returns the value of a, -1.
+    - The code does not terminate    
+      
+
+      - Since fib is called with parameter of -1, a gets bound to -1.   Since a < 2,    
+        the method returns the value of a, -1.
+    - The code cannot be executed, because it won't compile    
+      
+
+      - Since fib is called with parameter of -1, a gets bound to -1.   Since a < 2,    
+        the method returns the value of a, -1.
+    - None of the above    
+      
+
+      - Since fib is called with parameter of -1, a gets bound to -1.   Since a < 2,    
+        the method returns the value of a, -1.

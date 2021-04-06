@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_635029
+    :basecourse: canterburyqb
+        
+    Consider the code below; what value will i have at the end?    
+        
+    ``int *p, i;``    
+        
+    .. code-block::    
+        
+        
+            i = 2;    
+            p = &i;    
+            *p = 5;    
+            i++;    
+    
+
+    - 2    
+      
+
+      - p updates i
+    - 5    
+      
+
+      - p updates i
+    - 6    
+      
+
+      + Correct!
+    - 3    
+      
+
+      - p updates i
+    - 8    
+      
+
+      - p updates i

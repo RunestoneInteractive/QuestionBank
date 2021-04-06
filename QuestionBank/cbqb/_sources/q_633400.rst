@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633400
+    :basecourse: canterburyqb
+        
+    You see the expression ``n = 100000`` in some code that successfully compiles.    
+    What type can ``n`` not be?    
+    
+
+    - int    
+      
+
+      - Shorts can only hold values in [-32768, 32767].
+    - short    
+      
+
+      + Correct!
+    - float    
+      
+
+      - Shorts can only hold values in [-32768, 32767].
+    - double    
+      
+
+      - Shorts can only hold values in [-32768, 32767].
+    - long    
+      
+
+      - Shorts can only hold values in [-32768, 32767].

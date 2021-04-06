@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_634988
+    :basecourse: canterburyqb
+        
+    Java uses:    
+    
+
+    - call by reference    
+      
+
+      - Java uses call by value.  If the given parameter is an object, which is really    
+        a reference, then under call by value, the formal parameter is really just an    
+        alias (additional reference) to the actual parameter object.
+    - call by value    
+      
+
+      + Correct!
+    - call by name    
+      
+
+      - Java uses call by value.  If the given parameter is an object, which is really    
+        a reference, then under call by value, the formal parameter is really just an    
+        alias (additional reference) to the actual parameter object.
+    - call by value-return    
+      
+
+      - Java uses call by value.  If the given parameter is an object, which is really    
+        a reference, then under call by value, the formal parameter is really just an    
+        alias (additional reference) to the actual parameter object.

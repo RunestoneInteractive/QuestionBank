@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_630264
+    :basecourse: canterburyqb
+        
+    This sorting algorithm roughly orders elements about a pivot element and then    
+    sorts the subarray of elements less than the pivot and the subarray of    
+    elements greater than the pivot.    
+    
+
+    - selection sort    
+      
+
+      - Quick sort puts all elements less than the pivot element before the pivot and    
+        all elements greater after the pivot. Then it sorts these two halves.
+    - insertion sort    
+      
+
+      - Quick sort puts all elements less than the pivot element before the pivot and    
+        all elements greater after the pivot. Then it sorts these two halves.
+    - bubble sort    
+      
+
+      - Quick sort puts all elements less than the pivot element before the pivot and    
+        all elements greater after the pivot. Then it sorts these two halves.
+    - quick sort    
+      
+
+      + Correct!
+    - merge sort    
+      
+
+      - Quick sort puts all elements less than the pivot element before the pivot and    
+        all elements greater after the pivot. Then it sorts these two halves.

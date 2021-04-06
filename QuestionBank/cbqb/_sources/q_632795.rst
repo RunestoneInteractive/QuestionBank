@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_632795
+    :basecourse: canterburyqb
+        
+    Which statement or statements store 0.8 into the variable ``d`` of type    
+    ``double``\ ?    
+    
+
+    - double d=8/10;    
+      
+
+      - A is wrong because 8/10 is zero.  But the B,C,D (8.0/10.0, 8/10.0, 8.0/10) all    
+        produce 0.8 because Java will promote any ints to a double in an arithmetic    
+        expression so long as there is at least one double in the expression.
+    - double d=8.0/10.0;    
+      
+
+      + Correct!
+    - double d=8/10.0;    
+      
+
+      - A is wrong because 8/10 is zero.  But the B,C,D (8.0/10.0, 8/10.0, 8.0/10) all    
+        produce 0.8 because Java will promote any ints to a double in an arithmetic    
+        expression so long as there is at least one double in the expression.
+    - double d=8.0/10;    
+      
+
+      - A is wrong because 8/10 is zero.  But the B,C,D (8.0/10.0, 8/10.0, 8.0/10) all    
+        produce 0.8 because Java will promote any ints to a double in an arithmetic    
+        expression so long as there is at least one double in the expression.
+    - None of the above    
+      
+
+      - A is wrong because 8/10 is zero.  But the B,C,D (8.0/10.0, 8/10.0, 8.0/10) all    
+        produce 0.8 because Java will promote any ints to a double in an arithmetic    
+        expression so long as there is at least one double in the expression.

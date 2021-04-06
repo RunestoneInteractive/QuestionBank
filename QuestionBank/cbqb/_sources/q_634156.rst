@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634156
+    :basecourse: canterburyqb
+        
+    What design stategy does Quicksort use?    
+    
+
+    - Greedy    
+      
+
+      - Quicksort is divide and conquer.
+    - Divide and conquer    
+      
+
+      + Correct!
+    - Dynamic programming    
+      
+
+      - Quicksort is divide and conquer.
+    - Brute force    
+      
+
+      - Quicksort is divide and conquer.

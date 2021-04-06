@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_630965
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/33.png    
+       :target: img/33.png    
+       :alt: no description    
+        
+        
+    The # in the above UML diagram for ``Truck``\ 's instance variable ``_weight`` means    
+    that:    
+    
+
+    - ``_weight`` is measured in pounds    
+      
+
+      - The # sign is used with as a prefix for protected instance variables (or    
+        methods) in a UML class diagram.
+    - ``_weight`` is a ``private`` variable    
+      
+
+      - The # sign is used with as a prefix for protected instance variables (or    
+        methods) in a UML class diagram.
+    - ``_weight`` is a ``protected`` variable    
+      
+
+      + Correct!
+    - ``_weight`` is a number    
+      
+
+      - The # sign is used with as a prefix for protected instance variables (or    
+        methods) in a UML class diagram.
+    - None of the above    
+      
+
+      - The # sign is used with as a prefix for protected instance variables (or    
+        methods) in a UML class diagram.

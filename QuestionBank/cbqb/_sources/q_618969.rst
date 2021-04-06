@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_618969
+    :basecourse: canterburyqb
+        
+    What will be outputted?    
+        
+    int c = 1;    
+        
+    int result = 10;    
+        
+    result += ++c;    
+        
+    System.out.print(result+ " "+ c);    
+    
+
+    - 12  2    
+      
+
+      + Correct!
+    - 11  2    
+      
+
+      - 12  1
+    - 12  1    
+      
+
+      - 12  1
+    - 11  1    
+      
+
+      - 12  1

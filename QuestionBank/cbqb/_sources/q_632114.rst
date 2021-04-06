@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_632114
+    :basecourse: canterburyqb
+        
+    What would be the performance of a method called addAfter(p), in which p is a    
+    position of a node or an index of an array, if the data structure is    
+    implemented by an array or linked list structure respectively?    
+    
+
+    - O(1), O(1)    
+      
+
+      - O(n), O(1)
+    - O(1), O(n)    
+      
+
+      - O(n), O(1)
+    - O(n), O(1)    
+      
+
+      + Correct!
+    - O(n), O(n)    
+      
+
+      - O(n), O(1)

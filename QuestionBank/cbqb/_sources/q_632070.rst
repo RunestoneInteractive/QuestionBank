@@ -1,0 +1,143 @@
+.. mchoice:: canterburyqb_632070
+    :basecourse: canterburyqb
+        
+    Consider the following short program:    
+        
+    include <stdio.h>    
+    =================    
+        
+    void f1(void);    
+        
+    int a;    
+        
+    void main(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        int b;    
+        
+        a = b = 1;    
+        
+        f1();    
+        
+        printf("%d %d", a, b);    
+        
+        
+    }    
+        
+    void f1(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        int b = 3;    
+        
+        a = b;    
+        
+        
+    }    
+        
+    A C program can use the same variable name in a number of places, as shown in    
+    this example, but it is always possible to work out to which actual variable a    
+    particular instance refers. This is described as    
+    
+
+    - the rules of assignment    
+      
+
+      - Scope is the largest region of program text in which a name can potentially be    
+        used without qualification to refer to an entity; that is, the largest region    
+        in which the name potentially is valid. Broadly speaking, scope is the general    
+        context used to differentiate the meanings of entity names. The rules for    
+        scope combined with those for name resolution enable the compiler to determine    
+        whether a reference to an identifier is legal at a given point in a file.    
+            
+        The scope of a declaration and the visibility of an identifier are related but    
+        distinct concepts. Scope is the mechanism by which it is possible to limit the    
+        visibility of declarations in a program. The visibility of an identifier is    
+        the region of program text from which the object associated with the    
+        identifier can be legally accessed. Scope can exceed visibility, but    
+        visibility cannot exceed scope. Scope exceeds visibility when a duplicate    
+        identifier is used in an inner declarative region, thereby hiding the object    
+        declared in the outer declarative region. The original identifier cannot be    
+        used to access the first object until the scope of the duplicate identifier    
+        (the lifetime of the second object) has ended.    
+            
+        Source    
+        http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Fzexscope_c.htm
+    - block structuring    
+      
+
+      - Scope is the largest region of program text in which a name can potentially be    
+        used without qualification to refer to an entity; that is, the largest region    
+        in which the name potentially is valid. Broadly speaking, scope is the general    
+        context used to differentiate the meanings of entity names. The rules for    
+        scope combined with those for name resolution enable the compiler to determine    
+        whether a reference to an identifier is legal at a given point in a file.    
+            
+        The scope of a declaration and the visibility of an identifier are related but    
+        distinct concepts. Scope is the mechanism by which it is possible to limit the    
+        visibility of declarations in a program. The visibility of an identifier is    
+        the region of program text from which the object associated with the    
+        identifier can be legally accessed. Scope can exceed visibility, but    
+        visibility cannot exceed scope. Scope exceeds visibility when a duplicate    
+        identifier is used in an inner declarative region, thereby hiding the object    
+        declared in the outer declarative region. The original identifier cannot be    
+        used to access the first object until the scope of the duplicate identifier    
+        (the lifetime of the second object) has ended.    
+            
+        Source    
+        http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Fzexscope_c.htm
+    - the rules of precedence    
+      
+
+      - Scope is the largest region of program text in which a name can potentially be    
+        used without qualification to refer to an entity; that is, the largest region    
+        in which the name potentially is valid. Broadly speaking, scope is the general    
+        context used to differentiate the meanings of entity names. The rules for    
+        scope combined with those for name resolution enable the compiler to determine    
+        whether a reference to an identifier is legal at a given point in a file.    
+            
+        The scope of a declaration and the visibility of an identifier are related but    
+        distinct concepts. Scope is the mechanism by which it is possible to limit the    
+        visibility of declarations in a program. The visibility of an identifier is    
+        the region of program text from which the object associated with the    
+        identifier can be legally accessed. Scope can exceed visibility, but    
+        visibility cannot exceed scope. Scope exceeds visibility when a duplicate    
+        identifier is used in an inner declarative region, thereby hiding the object    
+        declared in the outer declarative region. The original identifier cannot be    
+        used to access the first object until the scope of the duplicate identifier    
+        (the lifetime of the second object) has ended.    
+            
+        Source    
+        http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Fzexscope_c.htm
+    - the data type of a variable    
+      
+
+      - Scope is the largest region of program text in which a name can potentially be    
+        used without qualification to refer to an entity; that is, the largest region    
+        in which the name potentially is valid. Broadly speaking, scope is the general    
+        context used to differentiate the meanings of entity names. The rules for    
+        scope combined with those for name resolution enable the compiler to determine    
+        whether a reference to an identifier is legal at a given point in a file.    
+            
+        The scope of a declaration and the visibility of an identifier are related but    
+        distinct concepts. Scope is the mechanism by which it is possible to limit the    
+        visibility of declarations in a program. The visibility of an identifier is    
+        the region of program text from which the object associated with the    
+        identifier can be legally accessed. Scope can exceed visibility, but    
+        visibility cannot exceed scope. Scope exceeds visibility when a duplicate    
+        identifier is used in an inner declarative region, thereby hiding the object    
+        declared in the outer declarative region. The original identifier cannot be    
+        used to access the first object until the scope of the duplicate identifier    
+        (the lifetime of the second object) has ended.    
+            
+        Source    
+        http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Fzexscope_c.htm
+    - the scope of a variable    
+      
+
+      + Correct!

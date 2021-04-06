@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_627747
+    :basecourse: canterburyqb
+        
+    For the purposes of this question, two code fragments are considered to be    
+    equivalent if, when they are run using the same input, they always produce the    
+    same output. Which line could be removed from the following code fragment so    
+    that the resulting code fragment is equivalent to the original one?    
+        
+    .. code-block::    
+        
+        
+           1.  Scanner kbd = new Scanner(System.in);    
+           2.  int x, product;    
+           3.  x = -1;    
+           4.  product = 1;    
+           5.  x = kbd.nextInt();    
+           6.  while (x >= 0) {    
+           7.    if (x > 0) {    
+           8.       product *= x;    
+           9.    }    
+           10.   x = kbd.nextInt();    
+           11. }    
+           12. System.out.println(product);    
+    
+
+    - Line 3    
+      
+
+      + Correct!
+    - Line 4    
+      
+
+      - Line 3 can be removed because x is initialized again in line 5, before it is    
+        ever used.
+    - Line 5    
+      
+
+      - Line 3 can be removed because x is initialized again in line 5, before it is    
+        ever used.
+    - Line 8    
+      
+
+      - Line 3 can be removed because x is initialized again in line 5, before it is    
+        ever used.
+    - Line 10    
+      
+
+      - Line 3 can be removed because x is initialized again in line 5, before it is    
+        ever used.

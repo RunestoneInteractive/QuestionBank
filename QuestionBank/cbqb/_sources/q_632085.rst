@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_632085
+    :basecourse: canterburyqb
+        
+    What will be printed by this code?    
+        
+    .. code-block::    
+        
+         **public static void** main(String [] args){    
+        
+               **int** number = 6;    
+        
+               **int** secondNumber = _changeNumber_ (number);    
+        
+               System. _out_.print(number + " " \+ secondNumber);    
+        
+         }    
+        
+         **public static int** changeNumber( **int** number){    
+        
+               number = 12;    
+        
+               **return** number;    
+        
+         }    
+    
+
+    - 6  6    
+      
+
+      - 12  6
+    - 6  12    
+      
+
+      + Correct!
+    - 12  6    
+      
+
+      - 12  6
+    - 12  12    
+      
+
+      - 12  6

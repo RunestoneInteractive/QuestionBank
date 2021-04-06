@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_633561
+    :basecourse: canterburyqb
+        
+    You are writing a depth-first search on a platform that doesn't support    
+    recursion. What data structure can help you complete your task?    
+    
+
+    - stack    
+      
+
+      + Correct!
+    - queue    
+      
+
+      - As you visit nodes, if you push their neighbors on a stack, the neighbors will    
+        be the first popped off when you need to backtrack. This behavior is what    
+        makes a depth-first search depth-first.
+    - priority queue    
+      
+
+      - As you visit nodes, if you push their neighbors on a stack, the neighbors will    
+        be the first popped off when you need to backtrack. This behavior is what    
+        makes a depth-first search depth-first.
+    - hashtable    
+      
+
+      - As you visit nodes, if you push their neighbors on a stack, the neighbors will    
+        be the first popped off when you need to backtrack. This behavior is what    
+        makes a depth-first search depth-first.
+    - linked list    
+      
+
+      - As you visit nodes, if you push their neighbors on a stack, the neighbors will    
+        be the first popped off when you need to backtrack. This behavior is what    
+        makes a depth-first search depth-first.

@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_633260
+    :basecourse: canterburyqb
+        
+    When is an adjacency matrix a good choice for implementing a graph?    
+    
+
+    - When the graph is undirected.    
+      
+
+      - The adjacency matrix will compactly and efficiently store edges when it    
+        contains little wasted space. In a complete graph, each vertex shares an edge    
+        with each other vertex, meaning all elements in the adjacency matrix will be    
+        used.
+    - When the graph is nearly complete.    
+      
+
+      + Correct!
+    - When a graph has few edges.    
+      
+
+      - The adjacency matrix will compactly and efficiently store edges when it    
+        contains little wasted space. In a complete graph, each vertex shares an edge    
+        with each other vertex, meaning all elements in the adjacency matrix will be    
+        used.
+    - When the graph contains no cycles.    
+      
+
+      - The adjacency matrix will compactly and efficiently store edges when it    
+        contains little wasted space. In a complete graph, each vertex shares an edge    
+        with each other vertex, meaning all elements in the adjacency matrix will be    
+        used.
+    - When the graph is connected.    
+      
+
+      - The adjacency matrix will compactly and efficiently store edges when it    
+        contains little wasted space. In a complete graph, each vertex shares an edge    
+        with each other vertex, meaning all elements in the adjacency matrix will be    
+        used.

@@ -1,0 +1,67 @@
+.. mchoice:: canterburyqb_634935
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       public class RecursiveMath    
+          ...    
+          public int fib (int a) {    
+             if (a == 1)    
+                return 1;    
+             else    
+                return fib(a-1) + fib(a-2);    
+          }    
+       ...    
+       }    
+        
+        
+    .. code-block::    
+        
+        
+        
+        
+       Given the above definition, what is the result of executing the following?    
+        
+    .. code-block::    
+        
+       RecursiveMath bill = new RecursiveMath();    
+       int x = bill.fib(-1);    
+        
+        
+    ```    
+    
+
+    - x is set to -1    
+      
+
+      - The problem:  When we invoke fib(-1),  a gets bound to -1; since that is not    
+        equal to 1, we call fib(-2) and fib(-3), and so on.  We keep making recursive    
+        calls, and the parameter will never be equal to 1 since we are getting further    
+        away from 1 with each call.  So it will not terminate.
+    - x is set to undefined    
+      
+
+      - The problem:  When we invoke fib(-1),  a gets bound to -1; since that is not    
+        equal to 1, we call fib(-2) and fib(-3), and so on.  We keep making recursive    
+        calls, and the parameter will never be equal to 1 since we are getting further    
+        away from 1 with each call.  So it will not terminate.
+    - The code does not terminate    
+      
+
+      + Correct!
+    - The code cannot be executed, because it won't compile    
+      
+
+      - The problem:  When we invoke fib(-1),  a gets bound to -1; since that is not    
+        equal to 1, we call fib(-2) and fib(-3), and so on.  We keep making recursive    
+        calls, and the parameter will never be equal to 1 since we are getting further    
+        away from 1 with each call.  So it will not terminate.
+    - None of the above    
+      
+
+      - The problem:  When we invoke fib(-1),  a gets bound to -1; since that is not    
+        equal to 1, we call fib(-2) and fib(-3), and so on.  We keep making recursive    
+        calls, and the parameter will never be equal to 1 since we are getting further    
+        away from 1 with each call.  So it will not terminate.

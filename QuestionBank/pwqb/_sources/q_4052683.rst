@@ -1,0 +1,53 @@
+.. mchoice:: peerwiseqb_4052683
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q7:</strong></p><p>Consider the following code in which two function calls are made:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int result;</span><br /><span style="font-family: courier new,courier,monospace;">First(100);</span><br /><span style="font-family: courier new,courier,monospace;">result = Second(100, 200);</span></p><p>&nbsp;</p><p>What would be the correct prototype declarations for these two functions?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``void First(int x);``\ :raw-html-m2r:`<br>`    
+      ``int Second(int x, int y);``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``void First(void);``\ :raw-html-m2r:`<br>`    
+      ``int Second(void);``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``void First(x);``\ :raw-html-m2r:`<br>`    
+      ``int Second(x, y);``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``void First(x);``\ :raw-html-m2r:`<br>`    
+      ``void Second(x, y);``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``void First(int x);``\ :raw-html-m2r:`<br>`    
+      ``void Second(int x, int y);``    
+      
+
+      - Incorrect

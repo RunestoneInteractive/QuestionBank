@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_618493
+    :basecourse: canterburyqb
+        
+    How many objects and object reference would we have if the following code is    
+    executed?    
+        
+    Student first_st = new Student();    
+        
+    Student second_st = new Student();    
+        
+    Student third_st = second_st;    
+    
+
+    - 3, 2    
+      
+
+      - 2, 2
+    - 2, 3    
+      
+
+      + Correct!
+    - 2, 2    
+      
+
+      - 2, 2
+    - 3, 3    
+      
+
+      - 2, 2

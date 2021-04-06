@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052708
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q12:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int nums[4] = {1,0,1,0};</span><br /><span style="font-family: courier new,courier,monospace;">int resultA, resultB;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">resultA = nums[0]*8 + nums[1]*4 + nums[2]*2 + nums[3];</span><br /><span style="font-family: courier new,courier,monospace;">resultB = nums[3]*8 + nums[2]*4 + nums[1]*2 + nums[0];</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Results = %d %d", resultA, resultB);</span></p>
+    
+
+    - Results = 1010 101    
+      
+
+      - Incorrect
+    - Results = 5 2    
+      
+
+      - Incorrect
+    - Results = 10 5    
+      
+
+      + Correct!
+    - Results = 20 10    
+      
+
+      - Incorrect
+    - Results = 101 10    
+      
+
+      - Incorrect

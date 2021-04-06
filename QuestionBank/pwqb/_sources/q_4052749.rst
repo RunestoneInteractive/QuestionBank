@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052749
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q3:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int a, b;</span><br /><span style="font-family: courier new,courier,monospace;">double c;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">a = 4 % 9;</span><br /><span style="font-family: courier new,courier,monospace;">b = 14 / 4;</span><br /><span style="font-family: courier new,courier,monospace;">c = a / b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = %f", c);</span></p>
+    
+
+    - ``Result = 1.333333``    
+      
+
+      - Incorrect
+    - ``Result = 1.175000``    
+      
+
+      - Incorrect
+    - ``Result = 1.000000``    
+      
+
+      + Correct!
+    - ``Result = 2.000000``    
+      
+
+      - Incorrect
+    - ``Result = 1.142857``    
+      
+
+      - Incorrect

@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_633309
+    :basecourse: canterburyqb
+        
+    Why can a heap be efficiently implemented using an array instead of a linked    
+    structure?    
+    
+
+    - Linked implementations consume more space    
+      
+
+      - Because the heap is complete, the elements can be stored contiguously and    
+        parent and child nodes (which we're guaranteed to have) fall in locations we    
+        can compute with simple arithmetic.
+    - The array never needs to change size    
+      
+
+      - Because the heap is complete, the elements can be stored contiguously and    
+        parent and child nodes (which we're guaranteed to have) fall in locations we    
+        can compute with simple arithmetic.
+    - The heap condition makes it easier to calculate indices    
+      
+
+      - Because the heap is complete, the elements can be stored contiguously and    
+        parent and child nodes (which we're guaranteed to have) fall in locations we    
+        can compute with simple arithmetic.
+    - We only traverse the heap in a breadth-first fashion    
+      
+
+      - Because the heap is complete, the elements can be stored contiguously and    
+        parent and child nodes (which we're guaranteed to have) fall in locations we    
+        can compute with simple arithmetic.
+    - It is complete    
+      
+
+      + Correct!

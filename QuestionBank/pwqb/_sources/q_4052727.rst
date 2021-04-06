@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052727
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q25:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">typedef struct {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int x;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int y;</span><br /><span style="font-family: courier new,courier,monospace;">} Point;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">void Test(int a, Point b, int *c)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = a + 100;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b.x = b.x + 100;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; c[0] = c[0] + 100;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int a = 1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Point b;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int c[3] = {1, 1, 1};</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b.x = 1;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b.y = 1;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Test(a, b, c);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d %d %d", a, b.x, c[0]);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - ``Result = 1 101 101``    
+      
+
+      - Incorrect
+    - ``Result = 1 1 101``    
+      
+
+      + Correct!
+    - ``Result = 101 1 101``    
+      
+
+      - Incorrect
+    - ``Result = 101 101 1``    
+      
+
+      - Incorrect
+    - ``Result = 101 101 101``    
+      
+
+      - Incorrect

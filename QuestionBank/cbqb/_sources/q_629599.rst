@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_629599
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/44.png    
+       :target: img/44.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose we execute the    
+    following Java statements:    
+        
+    .. code-block::    
+        
+        
+                Vehicle vehicle = new OilTanker(2500);    
+                vehicle.move();    
+        
+    which definition of ``move`` will be executed?    
+    
+
+    - The one defined in ``Truck``    
+      
+
+      - The code will not work
+    - The one defined in ``Vehicle``    
+      
+
+      - The code will not work
+    - The one defined in ``OilTanker``    
+      
+
+      + Correct!
+    - The one defined in ``PeopleHauler``    
+      
+
+      - The code will not work
+    - The code will not work    
+      
+
+      - The code will not work

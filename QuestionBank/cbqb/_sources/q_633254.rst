@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633254
+    :basecourse: canterburyqb
+        
+    You've got an algorithm that is O(log N). On the first run, you feed it a    
+    collection of size M. On the second run, you feed it a collection of size M /    
+        
+        
+    #. Assuming each run has worst-case performance, how many fewer operations    
+       does the second run take?    
+    
+
+    - 0    
+      
+
+      - The first run takes log M operations. The second run takes log (M/2) = log M -    
+        log 2 = log M - 1 operations. The second is just one operation less than the    
+        first.
+    - 1    
+      
+
+      + Correct!
+    - 2    
+      
+
+      - The first run takes log M operations. The second run takes log (M/2) = log M -    
+        log 2 = log M - 1 operations. The second is just one operation less than the    
+        first.
+    - 3    
+      
+
+      - The first run takes log M operations. The second run takes log (M/2) = log M -    
+        log 2 = log M - 1 operations. The second is just one operation less than the    
+        first.
+    - 4    
+      
+
+      - The first run takes log M operations. The second run takes log (M/2) = log M -    
+        log 2 = log M - 1 operations. The second is just one operation less than the    
+        first.

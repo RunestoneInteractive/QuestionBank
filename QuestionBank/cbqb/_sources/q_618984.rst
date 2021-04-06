@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_618984
+    :basecourse: canterburyqb
+        
+    To compute the following series, the following code will do the job. What will    
+    be the initial value of stat, fact and sum respectively?    
+        
+    -X + X3/3! - X5/5! + ...    
+        
+    for ( int i = 2; i <= n; i++){    
+        
+    .. code-block::    
+        
+       for (int j = 2*i -1; j > 2*i -3 ; j--){    
+        
+           stat *=x;    
+        
+           fact*= j;    
+        
+       }    
+        
+       p_f *= -1;    
+        
+       sum += p_f* stat/fact;    
+    
+
+    - 1, x, 0    
+      
+
+      - -x, 1, x
+    - x, 1, 0    
+      
+
+      - -x, 1, x
+    - -x, 1, x    
+      
+
+      - -x, 1, x
+    - x,1,-x    
+      
+
+      + Correct!

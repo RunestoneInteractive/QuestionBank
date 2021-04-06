@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_634190
+    :basecourse: canterburyqb
+        
+    Dhruv has some recursive code that contains the base case ``if(left > right)``    
+        
+    Which algorithm is he *most* likely to be implementing?    
+    
+
+    - heapsort    
+      
+
+      - Only quicksort is usually implemented with such a base case.
+    - insertion sort    
+      
+
+      - Only quicksort is usually implemented with such a base case.
+    - quicksort    
+      
+
+      + Correct!
+    - Fibonacci    
+      
+
+      - Only quicksort is usually implemented with such a base case.

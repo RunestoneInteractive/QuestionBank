@@ -1,0 +1,55 @@
+.. mchoice:: canterburyqb_633290
+    :basecourse: canterburyqb
+        
+    Suppose you've got a generic class:    
+        
+    .. code-block::    
+        
+        
+           class Rosters<T> {    
+             ...    
+           }    
+        
+    You create a Rosters instance:    
+        
+    ``Rosters<ArrayList<String>> rosters;``    
+        
+    What is the erasure type of Rosters?    
+    
+
+    - Object    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ArrayList\ :raw-html-m2r:`<Object>`    
+      
+
+      - You need only examine the supertype of generic parameters on the Rosters class    
+        to determine the erasure type. There is no explicit supertype, so the    
+        supertype is Object.
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ArrayList\ :raw-html-m2r:`<String>`    
+      
+
+      - You need only examine the supertype of generic parameters on the Rosters class    
+        to determine the erasure type. There is no explicit supertype, so the    
+        supertype is Object.
+    - Rosters    
+      
+
+      - You need only examine the supertype of generic parameters on the Rosters class    
+        to determine the erasure type. There is no explicit supertype, so the    
+        supertype is Object.
+    - String    
+      
+
+      - You need only examine the supertype of generic parameters on the Rosters class    
+        to determine the erasure type. There is no explicit supertype, so the    
+        supertype is Object.

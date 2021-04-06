@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632134
+    :basecourse: canterburyqb
+        
+    consider the section of code below:    
+        
+    int a = 3, b = 4, c = 5;    
+        
+    x = a * b <= c    
+        
+    What will x be after executing this code?    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - Due to the precedence of operators here, first a and b are multiplied and then    
+        the total [12] is compared with c [5].  If the logical comparison evaluates to    
+        true x assumes the value 1,  otherwise (as in this case) , it evaluates to    
+        false and x assumes the value 0.
+    - 3    
+      
+
+      - Due to the precedence of operators here, first a and b are multiplied and then    
+        the total [12] is compared with c [5].  If the logical comparison evaluates to    
+        true x assumes the value 1,  otherwise (as in this case) , it evaluates to    
+        false and x assumes the value 0.
+    - 12    
+      
+
+      - Due to the precedence of operators here, first a and b are multiplied and then    
+        the total [12] is compared with c [5].  If the logical comparison evaluates to    
+        true x assumes the value 1,  otherwise (as in this case) , it evaluates to    
+        false and x assumes the value 0.
+    - 17    
+      
+
+      - Due to the precedence of operators here, first a and b are multiplied and then    
+        the total [12] is compared with c [5].  If the logical comparison evaluates to    
+        true x assumes the value 1,  otherwise (as in this case) , it evaluates to    
+        false and x assumes the value 0.

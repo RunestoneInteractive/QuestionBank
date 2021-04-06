@@ -1,0 +1,147 @@
+.. mchoice:: canterburyqb_618585
+    :basecourse: canterburyqb
+        
+    Which of the following choices cannot be another constructor for academic    
+    class?    
+        
+    class personnel{    
+        
+    .. code-block::    
+        
+         String name, ID;    
+        
+         char qualificationCode;    
+        
+         public personnel(String n, String i, char q){    
+        
+              name = n;    
+        
+             >    
+        
+              qualificationCode = q;    
+        
+         }    
+        
+         public personnel (){    
+        
+              name = null;    
+        
+             >    
+        
+              qualificationCode = ' ';    
+        
+         }    
+        
+        
+    }    
+        
+    class academic extends personnel{    
+        
+    .. code-block::    
+        
+                int teachingHours;    
+        
+               public academic(String n, String i, char q, int t){    
+        
+                     super(n,i,q);    
+        
+                     teachingHours = t;    
+        
+               }    
+        
+               public academic(int t){    
+        
+                    super(null, null, ' ');    
+        
+                     teachingHours = t;    
+        
+              }    
+        
+        
+    }    
+    
+
+    - public academic(){    
+          
+      .. code-block::    
+          
+             super(null, null, ' ');    
+          
+              this (0);    
+          
+          
+      }    
+      
+
+      + Correct!
+    - public academic(){    
+          
+      .. code-block::    
+          
+                this (null, null, ' ', 0);    
+          
+          
+      }    
+      
+
+      - public academic(){    
+            
+                  name = null;    
+            
+                 >    
+            
+                 qualificationCode = ' ';    
+            
+                 teachingHours = 0;    
+            
+        }
+    - public academic(){    
+          
+      .. code-block::    
+          
+               name = null;    
+          
+              >    
+          
+              qualificationCode = ' ';    
+          
+              teachingHours = 0;    
+          
+          
+      }    
+      
+
+      - public academic(){    
+            
+                  name = null;    
+            
+                 >    
+            
+                 qualificationCode = ' ';    
+            
+                 teachingHours = 0;    
+            
+        }
+    - public academic(){    
+          
+      .. code-block::    
+          
+            super(null, null, ' ');    
+          
+            teachingHours = 0;    
+          
+          
+      }    
+      
+
+      - public academic(){    
+            
+                  name = null;    
+            
+                 >    
+            
+                 qualificationCode = ' ';    
+            
+                 teachingHours = 0;    
+            
+        }

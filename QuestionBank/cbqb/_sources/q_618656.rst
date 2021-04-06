@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_618656
+    :basecourse: canterburyqb
+        
+    Which sentence is NOT correct?    
+    
+
+    - If you define a variable as a final, you will never be able to change its.    
+      
+
+      - If you define a class as a final, you will never be able to extend it.
+    - If you define a method as a final, you will never be able to override it.    
+      
+
+      - If you define a class as a final, you will never be able to extend it.
+    - If you define a class as a final, you will never be able to extend it.    
+      
+
+      - If you define a class as a final, you will never be able to extend it.
+    - If you define a class as a final, you will have to mark all its method as a    
+      final too.    
+      
+
+      + Correct!

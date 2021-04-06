@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_633259
+    :basecourse: canterburyqb
+        
+    When is an adjacency list a good choice for implementing a graph?    
+    
+
+    - When the graph is undirected.    
+      
+
+      - With adjacency lists are used, each vertex stores its own list of vertices    
+        it's connected to. When a graph contains few edges, these lists will be very    
+        short and will likely consume less memory than the adjacency matrix.
+    - When the graph is nearly complete.    
+      
+
+      - With adjacency lists are used, each vertex stores its own list of vertices    
+        it's connected to. When a graph contains few edges, these lists will be very    
+        short and will likely consume less memory than the adjacency matrix.
+    - When a graph has few edges.    
+      
+
+      + Correct!
+    - When the graph contains no cycles.    
+      
+
+      - With adjacency lists are used, each vertex stores its own list of vertices    
+        it's connected to. When a graph contains few edges, these lists will be very    
+        short and will likely consume less memory than the adjacency matrix.
+    - When the graph is connected.    
+      
+
+      - With adjacency lists are used, each vertex stores its own list of vertices    
+        it's connected to. When a graph contains few edges, these lists will be very    
+        short and will likely consume less memory than the adjacency matrix.

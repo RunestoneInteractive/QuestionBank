@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_632137
+    :basecourse: canterburyqb
+        
+    What is output by the code shown below. Think about it carefully - it may be a    
+    bit tricky!    
+        
+    define DEF_1 (2 + 2)    
+    ====================    
+        
+    define DEF_2 DEF_1 - DEF_1    
+    ==========================    
+        
+    int main(void)    
+        
+    {    
+        
+    printf("%d", DEF_2);    
+        
+    }    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 2    
+      
+
+      - The declaration of DEF_2 [DEF_1 after subtracting DEF_1 = 0 ] is the value    
+        printed.
+    - 4    
+      
+
+      - The declaration of DEF_2 [DEF_1 after subtracting DEF_1 = 0 ] is the value    
+        printed.
+    - 6    
+      
+
+      - The declaration of DEF_2 [DEF_1 after subtracting DEF_1 = 0 ] is the value    
+        printed.
+    - 8    
+      
+
+      - The declaration of DEF_2 [DEF_1 after subtracting DEF_1 = 0 ] is the value    
+        printed.

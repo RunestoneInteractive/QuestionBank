@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_633255
+    :basecourse: canterburyqb
+        
+    Which of the following lines of code will correctly read in the integer value    
+    foo?    
+    
+
+    - scanf("%d", &foo);    
+      
+
+      + Correct!
+    - scanf("%f", foo);    
+      
+
+      - (A) is the correct answer; %d is used for reading in integers. The \n in (D)    
+        is unnecessary. Finally, scanf requires a pointer to a variable's address --    
+        hence the ampersand.
+    - scanf("%f", &foo);    
+      
+
+      - (A) is the correct answer; %d is used for reading in integers. The \n in (D)    
+        is unnecessary. Finally, scanf requires a pointer to a variable's address --    
+        hence the ampersand.
+    - scanf("%f\n", foo);    
+      
+
+      - (A) is the correct answer; %d is used for reading in integers. The \n in (D)    
+        is unnecessary. Finally, scanf requires a pointer to a variable's address --    
+        hence the ampersand.

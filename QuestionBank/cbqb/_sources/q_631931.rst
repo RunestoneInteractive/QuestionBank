@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_631931
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    After the assignment statement\ :raw-html-m2r:`<br>`    
+    ``String word = "entropy";``\ :raw-html-m2r:`<br>`    
+    what is returned by\ :raw-html-m2r:`<br>`    
+    ``word.substring(-1);``    
+    
+
+    - "e"    
+      
+
+      - When this code is executed, it throws a `StringIndexOutOfBounds` exception.
+    - "entropy"    
+      
+
+      - When this code is executed, it throws a `StringIndexOutOfBounds` exception.
+    - the empty String    
+      
+
+      - When this code is executed, it throws a `StringIndexOutOfBounds` exception.
+    - an error    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - When this code is executed, it throws a `StringIndexOutOfBounds` exception.

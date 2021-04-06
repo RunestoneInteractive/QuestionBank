@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052778
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q6:</strong></p><p>Consider the following while loop:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int i = 1;</span><br /><span style="font-family: courier new, courier, monospace;">while (i &lt; 5) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; i = i + 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; printf("%d ", i);</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>Which for loop produces exactly the same output as this while loop (you can assume variable i is of type int)?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``for (i = 0; i < 4; i++) {``\ :raw-html-m2r:`<br>`    
+      ``printf("%d ", i + 1);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``for (i = 2; i < 5; i++) {``\ :raw-html-m2r:`<br>`    
+      ``printf("%d ", i);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``for (i = 1; i < 5; i++) {``\ :raw-html-m2r:`<br>`    
+      ``printf("%d ", i + 1);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``for (i = 0; i < 4; i++) {``\ :raw-html-m2r:`<br>`    
+      ``printf("%d ", i);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``for (i = 0; i < 5; i++) {``\ :raw-html-m2r:`<br>`    
+      ``printf("%d ", i + 2);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect

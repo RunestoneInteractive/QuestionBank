@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_632266
+    :basecourse: canterburyqb
+        
+    Suppose you are trying to choose between an array and a singly linked list to    
+    store the data in your Java program. Which arguments would correctly support    
+    one side or the other?    
+    
+
+    - Linked lists are better suited to a program where the amount of data can    
+      change unpredictably.    
+      
+
+      - Array elements can be accessed in constant time, but access to an element of a    
+        linked list is O(n), so B is correct and C is incorrect. A is also correct,    
+        because arrays require you to guess how much memory will be needed and set    
+        aside a fixed amount, while linked lists use memory as needed for the data    
+        that are being stored. Since A and B are correct and C is not, the answer is    
+        D.
+    - Arrays provide more efficient access to individual elements.    
+      
+
+      - Array elements can be accessed in constant time, but access to an element of a    
+        linked list is O(n), so B is correct and C is incorrect. A is also correct,    
+        because arrays require you to guess how much memory will be needed and set    
+        aside a fixed amount, while linked lists use memory as needed for the data    
+        that are being stored. Since A and B are correct and C is not, the answer is    
+        D.
+    - Linked lists provide more efficient access to individual elements.    
+      
+
+      - Array elements can be accessed in constant time, but access to an element of a    
+        linked list is O(n), so B is correct and C is incorrect. A is also correct,    
+        because arrays require you to guess how much memory will be needed and set    
+        aside a fixed amount, while linked lists use memory as needed for the data    
+        that are being stored. Since A and B are correct and C is not, the answer is    
+        D.
+    - A and B only    
+      
+
+      + Correct!
+    - A, B, and C    
+      
+
+      - Array elements can be accessed in constant time, but access to an element of a    
+        linked list is O(n), so B is correct and C is incorrect. A is also correct,    
+        because arrays require you to guess how much memory will be needed and set    
+        aside a fixed amount, while linked lists use memory as needed for the data    
+        that are being stored. Since A and B are correct and C is not, the answer is    
+        D.

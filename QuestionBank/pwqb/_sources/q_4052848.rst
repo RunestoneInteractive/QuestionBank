@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052848
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q11:</strong><br />What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int Process(int a, int b)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; a = a * 2;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; b = b + 2;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return b + a;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int main(void)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int a = 1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int b = 10;</span></p><p><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; a = Process(b, a);</span></p><p><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("Result = %d %d\n", a, b);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - Result = 14 12    
+      
+
+      - Incorrect
+    - Result = 1 10    
+      
+
+      - Incorrect
+    - Result = 23 10    
+      
+
+      + Correct!
+    - Result = 23 12    
+      
+
+      - Incorrect
+    - Result = 14 10    
+      
+
+      - Incorrect

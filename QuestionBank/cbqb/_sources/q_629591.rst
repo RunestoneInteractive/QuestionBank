@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_629591
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/42.png    
+       :target: img/42.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose the ``move`` method of    
+    ``OilTanker`` has the line ``super.move()``. Which ``move`` method does that refer    
+    to?    
+    
+
+    - The ``move`` method defined in ``Vehicle``    
+      
+
+      - None of the above
+    - The ``move`` method defined in ``PeopleHauler``    
+      
+
+      - None of the above
+    - The ``move`` method defined in ``Car``    
+      
+
+      - None of the above
+    - All of the above    
+      
+
+      - None of the above
+    - None of the above    
+      
+
+      + Correct!

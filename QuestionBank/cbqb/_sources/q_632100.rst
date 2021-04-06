@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632100
+    :basecourse: canterburyqb
+        
+    Only one of the following will not compile and run under Quick C. Which one?    
+    
+
+    - main(){}    
+      
+
+      - The semi-colon end of line delimiter occurs within a curly bracket pairing,    
+        which is not a logical combination from the compiler's parsing perspective
+    - main(void){}    
+      
+
+      - The semi-colon end of line delimiter occurs within a curly bracket pairing,    
+        which is not a logical combination from the compiler's parsing perspective
+    - int main(){return 65535;}    
+      
+
+      + Correct!
+    - int main(void){return 1}    
+      
+
+      - The semi-colon end of line delimiter occurs within a curly bracket pairing,    
+        which is not a logical combination from the compiler's parsing perspective
+    - void main(void){}    
+      
+
+      - The semi-colon end of line delimiter occurs within a curly bracket pairing,    
+        which is not a logical combination from the compiler's parsing perspective

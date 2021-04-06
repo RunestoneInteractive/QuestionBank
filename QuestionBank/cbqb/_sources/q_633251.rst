@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633251
+    :basecourse: canterburyqb
+        
+    Consider the code    
+        
+    int i = 3;    
+        
+    int *p = &i;    
+        
+    Which of the following will print out "The value is 3."?    
+    
+
+    - printf("The value is %p", p);    
+      
+
+      - The value of p will be the memory address of i -- to dereference p, we need to    
+        use *p.
+    - printf("The value is %d", *p);    
+      
+
+      + Correct!
+    - printf("The value is %d", &i);    
+      
+
+      - The value of p will be the memory address of i -- to dereference p, we need to    
+        use *p.
+    - printf("The value is %d", &p);    
+      
+
+      - The value of p will be the memory address of i -- to dereference p, we need to    
+        use *p.

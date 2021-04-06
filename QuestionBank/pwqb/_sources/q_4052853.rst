@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052853
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q10:</strong><br />The following function takes two input parameters: an array of integers and the number of elements in the array.&nbsp; The function should return the smallest value in the array.</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int SmallestValue(int nums[], int size) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int i, value;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; value = nums[0];</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; for (i = 1; i &lt; size; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family: arial, helvetica, sans-serif;"><strong>????</strong></span></span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return value;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>The body of the for loop is missing. Which of the following alternatives is the correct code to replace the <strong>???? </strong>and complete this function definition?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (nums[i] == value) {``\ :raw-html-m2r:`<br>`    
+      ``value = nums[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (nums[i] > value) {``\ :raw-html-m2r:`<br>`    
+      ``nums[i] = value;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (nums[i] < value) {``\ :raw-html-m2r:`<br>`    
+      ``nums[i] = value;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (nums[i] > value) {``\ :raw-html-m2r:`<br>`    
+      ``value = nums[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (nums[i] < value) {``\ :raw-html-m2r:`<br>`    
+      ``value = nums[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!

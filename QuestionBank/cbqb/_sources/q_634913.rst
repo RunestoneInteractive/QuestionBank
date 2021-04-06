@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_634913
+    :basecourse: canterburyqb
+        
+    In a hashtable that uses separate chaining to handle collisions, what, if any,    
+    restrictions should be placed on the table size?    
+    
+
+    - Any number is fine, as the linear probing is guaranteed to find an element.    
+      
+
+      - With separate chaining, no probing is done. Each entry in the table is a    
+        linked list, and all items with the hash index appear in the list.
+    - Any number is fine, since probing is irrelevant.    
+      
+
+      + Correct!
+    - It should be a prime number, to ensure that in probing we will test each node.    
+      
+
+      - With separate chaining, no probing is done. Each entry in the table is a    
+        linked list, and all items with the hash index appear in the list.
+    - It should be an odd number, to ensure that there's always a middle element.    
+      
+
+      - With separate chaining, no probing is done. Each entry in the table is a    
+        linked list, and all items with the hash index appear in the list.

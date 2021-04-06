@@ -1,0 +1,48 @@
+.. mchoice:: canterburyqb_634941
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       public class RecursiveMath    
+          ...    
+          public int fib (int a) {    
+             if (a < 2)    
+                return a;    
+             else    
+                return fib(a-1) + fib(a-2);     
+          }    
+       ...    
+       }    
+        
+        
+    ```    
+        
+    What is the base case for ``fib`` in the above definition?    
+    
+
+    - a    
+      
+
+      - The base case is the version of the problem that can be solved directly, i.e.    
+        without a recursive call.
+    - ``fib(a-1) + fib(a-2);``    
+      
+
+      - The base case is the version of the problem that can be solved directly, i.e.    
+        without a recursive call.
+    - ``fib(a)`` for ``a < 2``    
+      
+
+      + Correct!
+    - ``fib(a)`` for ``a ≥ 2``    
+      
+
+      - The base case is the version of the problem that can be solved directly, i.e.    
+        without a recursive call.
+    - None of the above    
+      
+
+      - The base case is the version of the problem that can be solved directly, i.e.    
+        without a recursive call.

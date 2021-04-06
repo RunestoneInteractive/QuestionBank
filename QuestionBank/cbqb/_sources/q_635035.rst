@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_635035
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the code below; fill in the table below of what values p and i will    
+    have at the end of the code.\ :raw-html-m2r:`<br>`    
+    ``int *p, i;``    
+        
+    .. code-block::    
+        
+        
+            i = 3;    
+            p = &i;    
+            (*p)++;    
+            i++;    
+        
+    .. list-table::    
+       :header-rows: 1    
+        
+       * - Variable name    
+         - Variable's address    
+         - Variable's value      
+       * - p    
+         - 0x0000123abc    
+         -     
+       * - i    
+         - 0x567def0000    
+         - (withheld)    
+        
+    
+

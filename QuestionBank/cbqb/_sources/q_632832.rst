@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_632832
+    :basecourse: canterburyqb
+        
+    Consider the following code:    
+        
+    .. code-block::    
+        
+        
+           if x >= 0:    
+               print (1)    
+           elif x < 20:    
+               print(2)    
+           else:    
+               print(3)    
+           print(4)    
+        
+    For what values of x will 2 be among the values printed?    
+    
+
+    - ``x < 0``    
+      
+
+      + Correct!
+    - ``x >= 0``    
+      
+
+      - Although the condition of the elif is x<20, all values between 0 and 20 are    
+        subsumed (i.e. covered by) the first condition, x>=0.  So only values of x    
+        strictly less than 0 will result in 2 being printed.
+    - ``x < 20``    
+      
+
+      - Although the condition of the elif is x<20, all values between 0 and 20 are    
+        subsumed (i.e. covered by) the first condition, x>=0.  So only values of x    
+        strictly less than 0 will result in 2 being printed.
+    - All values of ``x``    
+      
+
+      - Although the condition of the elif is x<20, all values between 0 and 20 are    
+        subsumed (i.e. covered by) the first condition, x>=0.  So only values of x    
+        strictly less than 0 will result in 2 being printed.
+    - None of the above    
+      
+
+      - Although the condition of the elif is x<20, all values between 0 and 20 are    
+        subsumed (i.e. covered by) the first condition, x>=0.  So only values of x    
+        strictly less than 0 will result in 2 being printed.

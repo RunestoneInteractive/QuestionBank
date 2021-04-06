@@ -1,0 +1,74 @@
+.. mchoice:: canterburyqb_632808
+    :basecourse: canterburyqb
+        
+    Suppose you have the following partial code to sum up an array of ``int``\ s:    
+        
+    .. code-block::    
+        
+        
+           int sum(int[] nums) {    
+             int sum = 0;    
+             ...    
+             return sum;    
+           }    
+        
+    Which of the following *does not* correctly complete this method?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i = 0; i < nums.length; ++i)    
+           sum += nums[i];    
+          
+          
+      ```    
+      
+
+      - It appears in this solution that we are iterating through the list in reverse.    
+        However, we incorrectly increment the iterator, leading to an    
+        IndexOutOfBoundsException.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i : nums)    
+           sum += i;    
+          
+          
+      ```    
+      
+
+      - It appears in this solution that we are iterating through the list in reverse.    
+        However, we incorrectly increment the iterator, leading to an    
+        IndexOutOfBoundsException.
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i = nums.length - 1; i >= 0; ++i)    
+           sum += nums[i];    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         int i = 0;    
+         while (i < nums.length) {    
+           sum += nums[i];    
+           ++i;    
+         }    
+          
+          
+      ```    
+      
+
+      - It appears in this solution that we are iterating through the list in reverse.    
+        However, we incorrectly increment the iterator, leading to an    
+        IndexOutOfBoundsException.

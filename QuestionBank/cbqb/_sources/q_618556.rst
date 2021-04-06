@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_618556
+    :basecourse: canterburyqb
+        
+    To let the *Scanner sc = new Scanner(System.in);* statement works fine, which    
+    package should be imported?    
+    
+
+    - java.util    
+      
+
+      + Correct!
+    - java.io    
+      
+
+      - java.lang
+    - java.lang    
+      
+
+      - java.lang
+    - java.Scanner    
+      
+
+      - java.lang

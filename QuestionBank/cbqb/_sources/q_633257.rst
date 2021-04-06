@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_633257
+    :basecourse: canterburyqb
+        
+    You've got an algorithm that is O(N2). On the first run, you feed it a    
+    collection of size M. On the second run, you feed it a collection of size M /    
+        
+        
+    #. Assuming each run has worst-case performance, how much time does the second    
+       run take?      
+    
+
+    - 1/4 of the first    
+      
+
+      + Correct!
+    - 1/2 of the first    
+      
+
+      - The first run took time proportional to M2. The second run took (M/2)2, or    
+        M2/4. The second run is 1/4 of the first.
+    - 2/3 of the first    
+      
+
+      - The first run took time proportional to M2. The second run took (M/2)2, or    
+        M2/4. The second run is 1/4 of the first.
+    - 3/4 of the first    
+      
+
+      - The first run took time proportional to M2. The second run took (M/2)2, or    
+        M2/4. The second run is 1/4 of the first.
+    - 1/8 of the first    
+      
+
+      - The first run took time proportional to M2. The second run took (M/2)2, or    
+        M2/4. The second run is 1/4 of the first.

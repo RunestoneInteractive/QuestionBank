@@ -1,0 +1,61 @@
+.. mchoice:: canterburyqb_633581
+    :basecourse: canterburyqb
+        
+    You've got a class that holds two ints and that can be compared with other    
+    IntPair objects:    
+        
+    .. code-block::    
+        
+        
+           class IntPair {    
+             private int a;    
+             private int b;    
+        
+             public IntPair(int a, int b) {    
+               this.a = a;    
+               this.b = b;    
+             }    
+        
+             public int compareTo(IntPair other) {    
+               if (a < other.a) {    
+                 return -1;    
+               } else if (a > other.a) {    
+                 return 1;    
+               } else {    
+                 if (b == other.b) {    
+                   return 0;    
+                 } else if (b > other.b) {    
+                   return -1;    
+                 } else {    
+                   return 1;    
+                 }    
+               }    
+             }    
+           }    
+        
+    Let's denote new IntPair(5, 7) as [5 7]. You've got a list of IntPairs:    
+        
+    [3 7], [4 6], [3 4]    
+        
+    You sort them using IntPair.compareTo. What is their sorted order?    
+    
+
+    - [3 4], [3 7], [4 6]    
+      
+
+      - The compareTo orders first by IntPair.a in ascending order, and in the case of    
+        a tie, but IntPair.b in descending order.
+    - [3 7], [3 4], [4 6]    
+      
+
+      + Correct!
+    - [4 6], [3 7], [3 4]    
+      
+
+      - The compareTo orders first by IntPair.a in ascending order, and in the case of    
+        a tie, but IntPair.b in descending order.
+    - [4 6], [3 4], [3 7]    
+      
+
+      - The compareTo orders first by IntPair.a in ascending order, and in the case of    
+        a tie, but IntPair.b in descending order.

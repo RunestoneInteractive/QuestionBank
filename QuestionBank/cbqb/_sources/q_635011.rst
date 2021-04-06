@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_635011
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1. import java.util.ArrayList;    
+       2. public BallPanel extends javax.swing.JPanel {    
+       3.    private Ball[] _balls;    
+       4.    private ArrayList <Ball> _moreBalls;    
+       5.    public BallPanel(){    
+       6.       _balls = new Ball[20];    
+       7.       _moreBalls = new ArrayList<Ball>();    
+       8.       for (int i=0;i<10;i++) {    
+       9.          _balls[i] = new Ball();    
+       10.         _moreBalls.add(_balls[i]);    
+       11.      }    
+       12.   }    
+       13. ...    
+        
+        
+    ```    
+        
+    After line 11, what are the values of\ ``_balls.length`` and ``_moreBalls.size()``    
+    respectively?    
+    
+
+    - 0, 0    
+      
+
+      - _balls.length is set to 20 when the array is instantiated (in line 6) and is    
+        independent of the array contents.    
+            
+        `_moreBalls.size() indicates the number of values stored in the ArrayList,    
+        which is 10 from the 10 adds in the loop.`
+    - 10, 10    
+      
+
+      - _balls.length is set to 20 when the array is instantiated (in line 6) and is    
+        independent of the array contents.    
+            
+        `_moreBalls.size() indicates the number of values stored in the ArrayList,    
+        which is 10 from the 10 adds in the loop.`
+    - 20, 20    
+      
+
+      - _balls.length is set to 20 when the array is instantiated (in line 6) and is    
+        independent of the array contents.    
+            
+        `_moreBalls.size() indicates the number of values stored in the ArrayList,    
+        which is 10 from the 10 adds in the loop.`
+    - 10, 20    
+      
+
+      - _balls.length is set to 20 when the array is instantiated (in line 6) and is    
+        independent of the array contents.    
+            
+        `_moreBalls.size() indicates the number of values stored in the ArrayList,    
+        which is 10 from the 10 adds in the loop.`
+    - 20, 10    
+      
+
+      + Correct!

@@ -1,0 +1,87 @@
+.. mchoice:: canterburyqb_627736
+    :basecourse: canterburyqb
+        
+    3. Consider the following class definition.    
+        
+    .. code-block::    
+        
+        
+           import java.util.Scanner;    
+        
+           public class SillyClass2 {    
+              private int num, totalRed, totalBlack;    
+        
+              public SillyClass2 () {    
+                 num = 0;    
+                 totalRed = 0;    
+                 totalBlack = 0;    
+                 this.spinWheel();    
+                 System.out.print("Black: " + totalBlack);    
+                 System.out.println(" and red: " + totalRed);    
+              }    
+        
+              public void spinWheel () {    
+                 Scanner kbd = new Scanner(System.in);    
+                 System.out.println("Enter 1 or 0, -1 to quit.");    
+                 num = kbd.nextInt();    
+                 while (num >= 0) {    
+                    if (num == 0)    
+                       totalRed++;    
+                    else if (num == 1)    
+                       totalBlack++;    
+                    else System.out.println("Try again");    
+                    System.out.println("Enter 1 or 0, -1 to quit).");    
+                    num = kbd.nextInt();    
+                 }    
+                 System.out.println("Thanks for playing.");    
+              }    
+           }    
+        
+    Which of the following sequences of inputs causes every line of code to be    
+    executed at least once?    
+    
+
+    - 0    0    10    -1    
+      
+
+      - This question tests understanding of a conditional nested inside a loop.    
+        Choice A is wrong, because the initial value must be >= 0 for the loop to be    
+        executed. Choice E is wrong, because the last value must be -1, or the code    
+        never exits the loop and the last line of code is not executed. Choices B and    
+        C are wrong, because inside the loop, we need one value that's 0, one value    
+        that's 1, and one value that's greater than 1, so that each branch of the    
+        conditional will be executed.
+    - 1    0    1    -1    
+      
+
+      - This question tests understanding of a conditional nested inside a loop.    
+        Choice A is wrong, because the initial value must be >= 0 for the loop to be    
+        executed. Choice E is wrong, because the last value must be -1, or the code    
+        never exits the loop and the last line of code is not executed. Choices B and    
+        C are wrong, because inside the loop, we need one value that's 0, one value    
+        that's 1, and one value that's greater than 1, so that each branch of the    
+        conditional will be executed.
+    - 1    1    10    -1    
+      
+
+      - This question tests understanding of a conditional nested inside a loop.    
+        Choice A is wrong, because the initial value must be >= 0 for the loop to be    
+        executed. Choice E is wrong, because the last value must be -1, or the code    
+        never exits the loop and the last line of code is not executed. Choices B and    
+        C are wrong, because inside the loop, we need one value that's 0, one value    
+        that's 1, and one value that's greater than 1, so that each branch of the    
+        conditional will be executed.
+    - 1    0    10    -1    
+      
+
+      + Correct!
+    - 1    0    10    0    
+      
+
+      - This question tests understanding of a conditional nested inside a loop.    
+        Choice A is wrong, because the initial value must be >= 0 for the loop to be    
+        executed. Choice E is wrong, because the last value must be -1, or the code    
+        never exits the loop and the last line of code is not executed. Choices B and    
+        C are wrong, because inside the loop, we need one value that's 0, one value    
+        that's 1, and one value that's greater than 1, so that each branch of the    
+        conditional will be executed.

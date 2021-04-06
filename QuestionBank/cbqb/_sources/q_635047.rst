@@ -1,0 +1,84 @@
+.. mchoice:: canterburyqb_635047
+    :basecourse: canterburyqb
+        
+    Given the following Java class declaration:    
+        
+    .. code-block::    
+        
+        
+           public class T2int    
+           {    
+               private int i;    
+        
+               public T2int()    
+               {    
+                   i = 0;    
+               }    
+        
+               public T2int(int i)    
+               {    
+                   this.i = i;    
+               }    
+        
+               public int get()    
+               {    
+                   return i;    
+               }    
+           }    
+        
+    The following method, called ``rangeSum()``\ , is intended to take three    
+    parameters: a ``List`` of ``T2int`` objects, plus the ``low`` and ``high`` end of a    
+    range within the list. The method computes the sum of the values in the ``List``    
+    that are **within** the "range" (but **not including** the range end values).    
+    Choose the best choice to fill in the blank on **Line 8**  so that the method    
+    will work as intended:    
+        
+    .. code-block::    
+        
+        
+           public int rangeSum(List<T2int> list, int low, int high)    
+           {    
+               int num = 0;                                 // Line 1    
+               int sum = 0;                                 // Line 2    
+        
+               for (int idx = 0; idx < list.size(); idx++)  // Line 3    
+               {    
+                   int ival = list.get(idx).get();          // Line 4    
+                   if (__________)                          // Line 5    
+                   {    
+                       num++;                               // Line 6    
+                       sum = __________;                    // Line 7    
+                   }    
+               }    
+               return __________;                           // Line 8    
+           }    
+    
+
+    - ``sum``    
+      
+
+      + Correct!
+    - ``num``    
+      
+
+      - The method should return the sum of all of the list elements that are within    
+        the specified range.  From examining the body of the loop, it is clear that    
+        this value is accumulated in the local variable `sum`.
+    - ``ival``    
+      
+
+      - The method should return the sum of all of the list elements that are within    
+        the specified range.  From examining the body of the loop, it is clear that    
+        this value is accumulated in the local variable `sum`.
+    - ``idx``    
+      
+
+      - The method should return the sum of all of the list elements that are within    
+        the specified range.  From examining the body of the loop, it is clear that    
+        this value is accumulated in the local variable `sum`.
+    - ``list.get(num)``    
+      
+
+      - The method should return the sum of all of the list elements that are within    
+        the specified range.  From examining the body of the loop, it is clear that    
+        this value is accumulated in the local variable `sum`.

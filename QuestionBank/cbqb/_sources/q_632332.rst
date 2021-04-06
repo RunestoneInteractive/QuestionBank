@@ -1,0 +1,56 @@
+.. mchoice:: canterburyqb_632332
+    :basecourse: canterburyqb
+        
+    This Perl subroutine does not work correctly. It is supposed to work out    
+    whether or not a person qualifies for a discount and return the correct fare,    
+    discounted or not as the case may be. Children under 13, and elderly people 65    
+    and over qualify for a discount.    
+        
+    The subroutine never gives a discount    
+        
+    Note that line numbers have been added for reference only - they are not part    
+    of the script    
+        
+    1 sub getDiscount    
+        
+    2 {    
+        
+    3   my $age = $_[0]; # First parameter is age    
+        
+    4   my $fare = $_[1]; # Second parameter is fare    
+        
+    5    
+        
+    6   if(($age < 13) && ($age >= 65))    
+        
+    7   {    
+        
+    8   $fare *= 0.9; # 10% discount    
+        
+    9   }    
+        
+    11    
+        
+    12   return $fare;    
+        
+    13 }    
+        
+    What is the problem?    
+    
+
+    - $\ * on lines 3 and 4 should be @*.    
+      
+
+      - No age can be less than 13 AND 65 and over. It should be OR.
+    - The and (&&) on line 6 should be an or (||)..    
+      
+
+      + Correct!
+    - On line 6, the < should be replaced by <=.    
+      
+
+      - No age can be less than 13 AND 65 and over. It should be OR.
+    - The return statement on line 12 should return $_[0].    
+      
+
+      - No age can be less than 13 AND 65 and over. It should be OR.

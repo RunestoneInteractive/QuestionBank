@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_634930
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following code snippet that copies elements (pixels) from one 2-d    
+    array (called pict), with maximum dimensions of maxWidth and maxHeight into    
+    another 2-d array called canvas.    
+        
+    canvas = [][]\ :raw-html-m2r:`<br>`    
+    for row in range (0, maxHeight):\ :raw-html-m2r:`<br>`    
+        for col in range (0, maxWidth):\ :raw-html-m2r:`<br>`    
+            origPixel = pict[col][row]\ :raw-html-m2r:`<br>`    
+            canvas[width-1-col][row = origPixel    
+        
+    If one were to display canvas, how would it compare to the orignal picture (as    
+    represented by pict)?    
+    
+
+    - Rotated 180 degrees around the vertical center line/column.    
+      
+
+      + Correct!
+    - Rotated 180 degrees around the horizontal center line/row.    
+      
+
+      - Each pixel remains on the same row (line) that it originally was on.  For any    
+        given row, the leftmost pixel swaps positions with the rightmost.  The second    
+        pixel in a row swaps positions with the second last pixel in that row, etc.    
+        Hence, the picture is rotated across the vertical center line.
+    - Rotated left 90 degrees.    
+      
+
+      - Each pixel remains on the same row (line) that it originally was on.  For any    
+        given row, the leftmost pixel swaps positions with the rightmost.  The second    
+        pixel in a row swaps positions with the second last pixel in that row, etc.    
+        Hence, the picture is rotated across the vertical center line.
+    - Rotated right 90 degrees.    
+      
+
+      - Each pixel remains on the same row (line) that it originally was on.  For any    
+        given row, the leftmost pixel swaps positions with the rightmost.  The second    
+        pixel in a row swaps positions with the second last pixel in that row, etc.    
+        Hence, the picture is rotated across the vertical center line.
+    - Rotated 180 degrees.    
+      
+
+      - Each pixel remains on the same row (line) that it originally was on.  For any    
+        given row, the leftmost pixel swaps positions with the rightmost.  The second    
+        pixel in a row swaps positions with the second last pixel in that row, etc.    
+        Hence, the picture is rotated across the vertical center line.

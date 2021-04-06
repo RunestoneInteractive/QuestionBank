@@ -1,0 +1,55 @@
+.. mchoice:: canterburyqb_633598
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           int inner=0;    
+           int outer=0;    
+           for (int i=0; i<6; i++) {    
+              outer++;    
+              for (int j=0; j<=3; j++) {    
+                 inner++;    
+              }    
+           }    
+           System.out.println("outer "+outer+", inner"+inner);    
+    
+
+    - outer 6, inner 3    
+      
+
+      - For nested loops, the inner loop runs to completion one time for each    
+        iteration of the outer loop.  So if the outer loop executes 6 times, that    
+        means the inner loop, which normally executes its loop body 4 times, will    
+        actually run the loop body 24 times (4 executes times 6 outer executions).  I    
+        probably could explain that better.
+    - outer 7, inner 4    
+      
+
+      - For nested loops, the inner loop runs to completion one time for each    
+        iteration of the outer loop.  So if the outer loop executes 6 times, that    
+        means the inner loop, which normally executes its loop body 4 times, will    
+        actually run the loop body 24 times (4 executes times 6 outer executions).  I    
+        probably could explain that better.
+    - outer 6, inner 18    
+      
+
+      - For nested loops, the inner loop runs to completion one time for each    
+        iteration of the outer loop.  So if the outer loop executes 6 times, that    
+        means the inner loop, which normally executes its loop body 4 times, will    
+        actually run the loop body 24 times (4 executes times 6 outer executions).  I    
+        probably could explain that better.
+    - outer 7, inner 24    
+      
+
+      - For nested loops, the inner loop runs to completion one time for each    
+        iteration of the outer loop.  So if the outer loop executes 6 times, that    
+        means the inner loop, which normally executes its loop body 4 times, will    
+        actually run the loop body 24 times (4 executes times 6 outer executions).  I    
+        probably could explain that better.
+    - outer 6, inner 24    
+      
+
+      + Correct!

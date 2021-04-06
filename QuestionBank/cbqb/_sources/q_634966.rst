@@ -1,0 +1,67 @@
+.. mchoice:: canterburyqb_634966
+    :basecourse: canterburyqb
+        
+    Consider the following partial and incomplete ``SpellChecker`` class that uses    
+    an ``ArrayList`` to hold a reference list of correctly-spelled words:    
+        
+    .. code-block::    
+        
+        
+           public class SpellChecker    
+           {    
+               private List<String> dictionary;   // spelling storage.    // Line 1    
+        
+               // assume a constructor exists that correctly instantiates and    
+               // populates the list (i.e. loads the dictionary for the spellchecker)    
+        
+               public boolean spelledCorrectly(String word)               // Line 2    
+               {    
+                   for (int counter = 0; counter < __________; counter++) // Line 3    
+                   {    
+                       if (word.equals(__________))                       // Line 4    
+                       {    
+                           return true;                                   // Line 5    
+                       }    
+                   }    
+                   return false;                                          // Line 6    
+               }    
+        
+               public void addWord(String word)                           // Line 7    
+               {    
+                   if (__________) // check word is NOT already in the dictionary // Line 8    
+                   {    
+                       __________; // add word at end of the dictionary   // Line 9    
+                   }    
+               }    
+        
+               // other SpellChecker class methods would follow    
+           }    
+        
+    Choose the best choice to fill in the blank on line 8 so that the code    
+    operates correctly.    
+    
+
+    - ``!dictionary.contains(word)``    
+      
+
+      + Correct!
+    - ``!dictionary.find(word)``    
+      
+
+      - To check whether a given value is present in a `List`, use the `contains()`    
+        method.
+    - ``dictionary[word] == null``    
+      
+
+      - To check whether a given value is present in a `List`, use the `contains()`    
+        method.
+    - ``dictionary.get(word)``    
+      
+
+      - To check whether a given value is present in a `List`, use the `contains()`    
+        method.
+    - ``!dictionary.get(word)``    
+      
+
+      - To check whether a given value is present in a `List`, use the `contains()`    
+        method.

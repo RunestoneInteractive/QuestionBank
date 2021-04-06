@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_618592
+    :basecourse: canterburyqb
+        
+    Where in this code a compiler error is reported and why?    
+        
+    1  class pen{    
+        
+    2         char colorCode;    
+        
+    3  }    
+        
+    4  public class penCounter {    
+        
+    5         public static void main(String[] arg){    
+        
+    6                    int numberOfPen;    
+        
+    7                    pen myPen = new pen();    
+        
+    8                   System.out.println(myPen.colorCode + numberOfPen);    
+        
+    9         }    
+        
+    10}    
+    
+
+    - line 8, numberOfPen has not been initialized.    
+      
+
+      + Correct!
+    - line 8, colorCode has not been initialized.    
+      
+
+      - line 6, numberOfPen has not been initialized.
+    - line 6, numberOfPen has not been initialized.    
+      
+
+      - line 6, numberOfPen has not been initialized.
+    - line 2, colorCode has not been initialized.    
+      
+
+      - line 6, numberOfPen has not been initialized.

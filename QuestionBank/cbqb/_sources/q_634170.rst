@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_634170
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the code:\ :raw-html-m2r:`<br>`    
+    ``strcpy(str1, "abc");``    
+        
+    ``strcat(str1, "def");``    
+        
+    What is the value of str1?    
+    
+
+    - abc    
+      
+
+      - def is concatenated onto the end of abc
+    - def    
+      
+
+      - def is concatenated onto the end of abc
+    - abcdef    
+      
+
+      + Correct!
+    - defabc    
+      
+
+      - def is concatenated onto the end of abc

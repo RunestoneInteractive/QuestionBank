@@ -1,0 +1,180 @@
+.. mchoice:: canterburyqb_629919
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following Java interface definition:    
+        
+    public interface Mover {\ :raw-html-m2r:`<br>`    
+       public int getX();\ :raw-html-m2r:`<br>`    
+       public int getY();\ :raw-html-m2r:`<br>`    
+       public void setLocation(int x, int y);\ :raw-html-m2r:`<br>`    
+    }    
+        
+    Which of the following is a correct implementation of the Mover interface?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         public class CartoonCharacter implements Mover{    
+            private int x, y;    
+            public int getX;    
+            public int getY;    
+            public void setLocation;    
+          
+          
+      ```    
+          
+      ``}``    
+      
+
+      - Choice A is wrong because it doesn't include parameter lists or    
+        implementations of any of the methods required by the interface.    
+            
+        Choice B is wrong because it doesn't include implementations of the methods on    
+        the list.    
+            
+        Choice C is wrong because it implements some but not all of the interface    
+        methods.    
+            
+        Choice E is wrong because the method signatures do not match those in the    
+        interface.    
+            
+        Choice D is the correct answer, because it's the only one where the required    
+        methods are all implemented, and their signatures match    
+            
+        **NOTE:**  There is no appropriate topic for this question in the list.    
+        Suggestion: TopicSimon-interfaces-Java
+    - [code]    
+          
+      .. code-block::    
+          
+         public class CartoonCharacter implements Mover{    
+            private int x, y;    
+            public int getX();    
+            public int getY();    
+            public void setLocation(int x, int y);    
+          
+          
+      ```    
+          
+      ``}``    
+      
+
+      - Choice A is wrong because it doesn't include parameter lists or    
+        implementations of any of the methods required by the interface.    
+            
+        Choice B is wrong because it doesn't include implementations of the methods on    
+        the list.    
+            
+        Choice C is wrong because it implements some but not all of the interface    
+        methods.    
+            
+        Choice E is wrong because the method signatures do not match those in the    
+        interface.    
+            
+        Choice D is the correct answer, because it's the only one where the required    
+        methods are all implemented, and their signatures match    
+            
+        **NOTE:**  There is no appropriate topic for this question in the list.    
+        Suggestion: TopicSimon-interfaces-Java
+    - [code]    
+          
+      .. code-block::    
+          
+         public class CartoonCharacter implements Mover{    
+            private int x, y;    
+            public int getX() {    
+               // code for method body    
+            }    
+            public int getY() {    
+               // code for method body    
+            }    
+          
+          
+      ```    
+          
+      ``}``    
+      
+
+      - Choice A is wrong because it doesn't include parameter lists or    
+        implementations of any of the methods required by the interface.    
+            
+        Choice B is wrong because it doesn't include implementations of the methods on    
+        the list.    
+            
+        Choice C is wrong because it implements some but not all of the interface    
+        methods.    
+            
+        Choice E is wrong because the method signatures do not match those in the    
+        interface.    
+            
+        Choice D is the correct answer, because it's the only one where the required    
+        methods are all implemented, and their signatures match    
+            
+        **NOTE:**  There is no appropriate topic for this question in the list.    
+        Suggestion: TopicSimon-interfaces-Java
+    - [code]    
+          
+      .. code-block::    
+          
+         public class CartoonCharacter implements Mover{    
+            private int x, y;    
+            public int getX() {       
+               // code for method body    
+            }    
+            public int getY() {    
+               // code for method body    
+            }    
+            public void setLocation(int x, int y){    
+               // code for method body    
+            }    
+          
+          
+      ```    
+          
+      ``}``    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         public class CartoonCharacter implements Mover{    
+            private int x, y;    
+            public int getX() {       
+               // code for method body    
+            }    
+            public int getY() {    
+               // code for method body    
+            }    
+            public int setLocation(int x, int y){    
+               // code for method body    
+            }    
+         }    
+          
+          
+      ```    
+      
+
+      - Choice A is wrong because it doesn't include parameter lists or    
+        implementations of any of the methods required by the interface.    
+            
+        Choice B is wrong because it doesn't include implementations of the methods on    
+        the list.    
+            
+        Choice C is wrong because it implements some but not all of the interface    
+        methods.    
+            
+        Choice E is wrong because the method signatures do not match those in the    
+        interface.    
+            
+        Choice D is the correct answer, because it's the only one where the required    
+        methods are all implemented, and their signatures match    
+            
+        **NOTE:**  There is no appropriate topic for this question in the list.    
+        Suggestion: TopicSimon-interfaces-Java

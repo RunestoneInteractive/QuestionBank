@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_634175
+    :basecourse: canterburyqb
+        
+    Seray is hashing the values 6, 96, 33, 77 into a hash table of size 10. Which    
+    hash function will give her no collisions?    
+    
+
+    - h(k) = k % 10    
+      
+
+      - A collides on 9/96; B does not collide; C collides on 6/33; D collides on    
+        33/77.
+    - h(k) = k / 10    
+      
+
+      - A collides on 9/96; B does not collide; C collides on 6/33; D collides on    
+        33/77.
+    - h(k) = (k % 10) + (k / 10)    
+      
+
+      + Correct!
+    - h(k) = (k % 10) - (k / 10)    
+      
+
+      - A collides on 9/96; B does not collide; C collides on 6/33; D collides on    
+        33/77.

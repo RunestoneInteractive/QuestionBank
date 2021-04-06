@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_618502
+    :basecourse: canterburyqb
+        
+    What would be outputted?    
+        
+    String s_1 = "Hello";    
+        
+    String s_2 = "World";    
+        
+    System.out.format("%-7S %7s", s_1,s_2);    
+    
+
+    - Hello         World    
+      
+
+      - Hello World
+    - HELLO        World    
+      
+
+      + Correct!
+    - .. code-block::    
+          
+          Hello World    
+      
+
+      - Hello World
+    - .. code-block::    
+          
+          HELLO World    
+      
+
+      - Hello World

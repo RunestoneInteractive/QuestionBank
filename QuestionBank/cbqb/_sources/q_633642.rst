@@ -1,0 +1,100 @@
+.. mchoice:: canterburyqb_633642
+    :basecourse: canterburyqb
+        
+    Consider the following method:    
+        
+    .. code-block::    
+        
+        
+           public int size() {    
+             XXXXXX    
+           }    
+        
+    Which of the following could replace the XXXXX and be the body of the ``size()``    
+    method for a Queue that uses a circular array implementation?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         if (front==rear)    
+            return 0;    
+         return rear-front;    
+          
+          
+      ```    
+      
+
+      - B, C, D all work.    
+            
+        E would be correct, but it won't compile since it doesn't return a value on    
+        _all_ paths.
+    - [code]    
+          
+      .. code-block::    
+          
+         if (rear>front)    
+             return rear-front;    
+         return front-rear;    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         if (front==0 && front==rear)     
+            return 0;    
+         if (front>rear)     
+            return front-rear;    
+         return rear-front;    
+          
+          
+      ```    
+      
+
+      - B, C, D all work.    
+            
+        E would be correct, but it won't compile since it doesn't return a value on    
+        _all_ paths.
+    - [code]    
+          
+      .. code-block::    
+          
+         if (front>rear)     
+            return front-rear;    
+         if (front==rear)     
+            return 0;    
+         return rear-front;    
+          
+          
+      ```    
+      
+
+      - B, C, D all work.    
+            
+        E would be correct, but it won't compile since it doesn't return a value on    
+        _all_ paths.
+    - [code]    
+          
+      .. code-block::    
+          
+         if (front==rear)    
+            return 0;    
+         if (front>rear)    
+            return front-rear;    
+         if (rear>front)    
+            return rear-front;    
+          
+          
+      ```    
+      
+
+      - B, C, D all work.    
+            
+        E would be correct, but it won't compile since it doesn't return a value on    
+        _all_ paths.

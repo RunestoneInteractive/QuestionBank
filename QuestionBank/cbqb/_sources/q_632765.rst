@@ -1,0 +1,62 @@
+.. mchoice:: canterburyqb_632765
+    :basecourse: canterburyqb
+        
+    The following code for a method "minVal" contains a logic error on a single    
+    line in the method body, on one of the four lines indicated by comments:      
+        
+    ``public static int minVal(int[] y, int first, int last) {``    
+        
+    .. code-block::    
+        
+        
+           /* This method returns the value of the minimum element in the    
+            * subsection of the array "y", starting at position    
+            * "first" and ending at position "last".    
+            */    
+        
+             int bestSoFar = first;             // line 1    
+        
+             for (int i=first+1; i<=last; i++)     
+             {    
+               if ( y[i] < bestSoFar )          // line 2    
+        
+    ``bestSoFar = y[i];             // line 3``      
+        
+    ``} // for``      
+        
+    ``return bestSoFar;                  // line 4``      
+        
+    ``} // method minVal``      
+        
+    Which one of the four lines indicated by the comments contains the logic    
+    error?    
+    
+
+    - line 1    
+      
+
+      + Correct!
+    - line 2    
+      
+
+      - line 1 should be `int bestSoFar = y[first];`    
+            
+        This correct code assigns the value at `y[first] into` bestSoFar. This is    
+        because the other lines are using bestSoFar to remember the best VALUE seen    
+        thus far.
+    - line 3    
+      
+
+      - line 1 should be `int bestSoFar = y[first];`    
+            
+        This correct code assigns the value at `y[first] into` bestSoFar. This is    
+        because the other lines are using bestSoFar to remember the best VALUE seen    
+        thus far.
+    - line 4    
+      
+
+      - line 1 should be `int bestSoFar = y[first];`    
+            
+        This correct code assigns the value at `y[first] into` bestSoFar. This is    
+        because the other lines are using bestSoFar to remember the best VALUE seen    
+        thus far.

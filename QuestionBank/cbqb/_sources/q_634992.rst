@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_634992
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Consider the following:  When foo is executed, what is printed out?    
+        
+    public void foo () {    
+        
+    .. code-block::    
+        
+        int x = 42;    
+        
+        int y = 24;    
+        
+        mystery (x, y);    
+        
+        System.out.println (x + "  " + y);    
+        
+        
+    }    
+        
+    public void mystery (int var1, int var2) {\ :raw-html-m2r:`<br>`    
+         int temp = var1;\ :raw-html-m2r:`<br>`    
+         var1 = var2;\ :raw-html-m2r:`<br>`    
+         var2 = temp;\ :raw-html-m2r:`<br>`    
+    }    
+    
+
+    - 42 24    
+      
+
+      + Correct!
+    - 24 42    
+      
+
+      - Java is a pass-by-VALUE language.  Hence _mystery_ , does not accomplish the    
+        desired swapping of values.

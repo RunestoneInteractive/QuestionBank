@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_632121
+    :basecourse: canterburyqb
+        
+    To implement student's database, which data structure is more appropriate?    
+    
+
+    - Heap    
+      
+
+      - Map
+    - Binary Tree    
+      
+
+      - Map
+    - Map    
+      
+
+      + Correct!
+    - Priority Queue    
+      
+
+      - Map

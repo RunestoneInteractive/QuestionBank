@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632880
+    :basecourse: canterburyqb
+        
+    We say indexing is fast if it's done in O(1) time, searching is fast if done    
+    in O(lg N) time, and inserting and deleting are fast if done in O(1) time.    
+    Compared to other data structures, unsorted linked lists offer:    
+    
+
+    - slow indexing, slow search, slow insertions and deletions.    
+      
+
+      - Linked lists do not support fast indexing. To get at element i, one must    
+        traverse the list i steps. Slow indexing makes for slow searching, as the    
+        binary search relies upon fast indexing to retrieve the middle element.    
+        Insertions and deletions, on the other hand, can be done in constant time, as    
+        only one or two neighboring links are affected.
+    - fast indexing, fast search, slow insertions and deletions.    
+      
+
+      - Linked lists do not support fast indexing. To get at element i, one must    
+        traverse the list i steps. Slow indexing makes for slow searching, as the    
+        binary search relies upon fast indexing to retrieve the middle element.    
+        Insertions and deletions, on the other hand, can be done in constant time, as    
+        only one or two neighboring links are affected.
+    - fast indexing, slow search, slow insertions and deletions.    
+      
+
+      - Linked lists do not support fast indexing. To get at element i, one must    
+        traverse the list i steps. Slow indexing makes for slow searching, as the    
+        binary search relies upon fast indexing to retrieve the middle element.    
+        Insertions and deletions, on the other hand, can be done in constant time, as    
+        only one or two neighboring links are affected.
+    - slow indexing, slow search, fast insertions and deletions.    
+      
+
+      + Correct!
+    - slow indexing, fast search, fast insertions and deletions.    
+      
+
+      - Linked lists do not support fast indexing. To get at element i, one must    
+        traverse the list i steps. Slow indexing makes for slow searching, as the    
+        binary search relies upon fast indexing to retrieve the middle element.    
+        Insertions and deletions, on the other hand, can be done in constant time, as    
+        only one or two neighboring links are affected.

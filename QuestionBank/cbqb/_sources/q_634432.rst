@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634432
+    :basecourse: canterburyqb
+        
+    Dummy question: Bloom tags.    
+    
+
+    - blaha    
+      
+
+      - This question has a tag for each one of the Bloom tags so we can see how many    
+        questions there are of each. (Note: delimiters are included in case of    
+        errors).
+    - blaha    
+      
+
+      + Correct!
+    - blaha    
+      
+
+      - This question has a tag for each one of the Bloom tags so we can see how many    
+        questions there are of each. (Note: delimiters are included in case of    
+        errors).

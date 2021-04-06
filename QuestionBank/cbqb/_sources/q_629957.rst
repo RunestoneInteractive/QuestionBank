@@ -1,0 +1,71 @@
+.. mchoice:: canterburyqb_629957
+    :basecourse: canterburyqb
+        
+    Suppose you have a Java array of ``int``\ s. Which of the following operations can    
+    be performed in constant (O(1)) time? (Circle all correct answers.)    
+    
+
+    - Insert a number at a given position.    
+      
+
+      - **Note:  **Only one answer can be marked as correct here, but both A and B are    
+        correct.    
+            
+        **Note 2:  **We need a new tag  SkillAnalyze-Code for this kind of thing.    
+            
+        C is incorrect because printing out all the numbers takes O(n) time.      
+        D is incorrect because computing the sum of the numbers also takes O(n) time.      
+        E is incorrect because while hashtables come close on average, in the worst    
+        case, sorting is not O(1).      
+        A is correct (assuming you don't have to move any of the numbers that are    
+        already in the array).      
+        B is correct.
+    - Retrieve a number from a given position    
+      
+
+      + Correct!
+    - Print out the numbers in the array    
+      
+
+      - **Note:  **Only one answer can be marked as correct here, but both A and B are    
+        correct.    
+            
+        **Note 2:  **We need a new tag  SkillAnalyze-Code for this kind of thing.    
+            
+        C is incorrect because printing out all the numbers takes O(n) time.      
+        D is incorrect because computing the sum of the numbers also takes O(n) time.      
+        E is incorrect because while hashtables come close on average, in the worst    
+        case, sorting is not O(1).      
+        A is correct (assuming you don't have to move any of the numbers that are    
+        already in the array).      
+        B is correct.
+    - Compute the sum of all the numbers in the array    
+      
+
+      - **Note:  **Only one answer can be marked as correct here, but both A and B are    
+        correct.    
+            
+        **Note 2:  **We need a new tag  SkillAnalyze-Code for this kind of thing.    
+            
+        C is incorrect because printing out all the numbers takes O(n) time.      
+        D is incorrect because computing the sum of the numbers also takes O(n) time.      
+        E is incorrect because while hashtables come close on average, in the worst    
+        case, sorting is not O(1).      
+        A is correct (assuming you don't have to move any of the numbers that are    
+        already in the array).      
+        B is correct.
+    - Sort the numbers in the array    
+      
+
+      - **Note:  **Only one answer can be marked as correct here, but both A and B are    
+        correct.    
+            
+        **Note 2:  **We need a new tag  SkillAnalyze-Code for this kind of thing.    
+            
+        C is incorrect because printing out all the numbers takes O(n) time.      
+        D is incorrect because computing the sum of the numbers also takes O(n) time.      
+        E is incorrect because while hashtables come close on average, in the worst    
+        case, sorting is not O(1).      
+        A is correct (assuming you don't have to move any of the numbers that are    
+        already in the array).      
+        B is correct.

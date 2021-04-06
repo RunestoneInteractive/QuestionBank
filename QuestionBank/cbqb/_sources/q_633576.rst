@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633576
+    :basecourse: canterburyqb
+        
+    You need to sort an array but have no extra memory to spare. Which algorithm    
+    do you avoid?    
+    
+
+    - bubble sort    
+      
+
+      - Merge sort requires a secondary array to merge into.
+    - merge sort    
+      
+
+      + Correct!
+    - quick sort    
+      
+
+      - Merge sort requires a secondary array to merge into.
+    - heap sort    
+      
+
+      - Merge sort requires a secondary array to merge into.
+    - insertion sort    
+      
+
+      - Merge sort requires a secondary array to merge into.

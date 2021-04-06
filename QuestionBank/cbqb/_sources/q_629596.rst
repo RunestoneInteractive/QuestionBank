@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_629596
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/43.png    
+       :target: img/43.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose some method of ``Truck``    
+    has the line ``super.move()``. Which of these is true?    
+    
+
+    - The ``move`` method defined in ``Truck`` is executed when that line is executed.    
+      
+
+      - None of the above
+    - The\ ``move`` method defined in ``Vehicle`` is executed when that line is executed.    
+      
+
+      - None of the above
+    - It depends on whether ``move()`` is defined in ``Vehicle``\ 's superclass    
+      
+
+      - None of the above
+    - The code will not compile, so I cannot run it.    
+      
+
+      + Correct!
+    - None of the above    
+      
+
+      - None of the above

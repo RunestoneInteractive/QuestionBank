@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_633310
+    :basecourse: canterburyqb
+        
+    What abstract data type is best suited to help us implement a breadth-first    
+    search?    
+    
+
+    - priority queue    
+      
+
+      - In a breadth-first search, we visit the starting element, its neighbors, its    
+        neighbors' neighbors, and so on. We want to make sure we visit the neighbors    
+        of the elements we saw earliest before we visit the neighbors of elements we    
+        saw later. This suggests a first-in, first out approach.
+    - queue    
+      
+
+      + Correct!
+    - stack    
+      
+
+      - In a breadth-first search, we visit the starting element, its neighbors, its    
+        neighbors' neighbors, and so on. We want to make sure we visit the neighbors    
+        of the elements we saw earliest before we visit the neighbors of elements we    
+        saw later. This suggests a first-in, first out approach.
+    - hashtable    
+      
+
+      - In a breadth-first search, we visit the starting element, its neighbors, its    
+        neighbors' neighbors, and so on. We want to make sure we visit the neighbors    
+        of the elements we saw earliest before we visit the neighbors of elements we    
+        saw later. This suggests a first-in, first out approach.
+    - array-based list    
+      
+
+      - In a breadth-first search, we visit the starting element, its neighbors, its    
+        neighbors' neighbors, and so on. We want to make sure we visit the neighbors    
+        of the elements we saw earliest before we visit the neighbors of elements we    
+        saw later. This suggests a first-in, first out approach.

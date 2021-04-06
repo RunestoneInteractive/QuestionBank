@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_629607
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/45.png    
+       :target: img/45.png    
+       :alt: no description    
+        
+        
+    Using the information in the UML diagram above, suppose we execute the    
+    following Java statements:    
+        
+    .. code-block::    
+        
+        
+                PeopleHauler pM = new Car();    
+                pM.move();    
+        
+    which definition of ``move`` will be executed?    
+    
+
+    - The one defined in ``Car``    
+      
+
+      + Correct!
+    - The one defined in ``PeopleHauler``    
+      
+
+      - None of the above
+    - The one defined in ``Vehicle``    
+      
+
+      - None of the above
+    - The one defined in ``Truck``    
+      
+
+      - None of the above
+    - None of the above    
+      
+
+      - None of the above

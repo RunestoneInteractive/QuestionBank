@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_618606
+    :basecourse: canterburyqb
+        
+    Which on these four following definitions is not allowed?    
+        
+    abstract class first{    
+        
+    .. code-block::    
+        
+           void firstMethod(){}    
+        
+        
+    }    
+        
+    abstract class second{    
+        
+    .. code-block::    
+        
+            abstract void secondMethod();    
+        
+        
+    }    
+        
+    class third {    
+        
+    .. code-block::    
+        
+           abstract void thirdMethod();    
+        
+        
+    }    
+        
+    class fourth{    
+        
+    .. code-block::    
+        
+           void fourthMethod(){}    
+        
+        
+    }    
+    
+
+    - first    
+      
+
+      - third
+    - second    
+      
+
+      - third
+    - third    
+      
+
+      + Correct!
+    - fourth    
+      
+
+      - third

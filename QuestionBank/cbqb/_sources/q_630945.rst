@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_630945
+    :basecourse: canterburyqb
+        
+    Which of the following abstract datatypes would be the best choice for part of    
+    the implementation of the back button on a Web browser?    
+    
+
+    - a Stack    
+      
+
+      + Correct!
+    - a Queue    
+      
+
+      - When you click on the back button, you should see the last page you visited,    
+        so the datatype that stores the previously visited webpages must be last-in-    
+        first-out. Of the abstract datatypes listed, Stack is the only one that is    
+        last-in-first-out.
+    - a Priority Queue    
+      
+
+      - When you click on the back button, you should see the last page you visited,    
+        so the datatype that stores the previously visited webpages must be last-in-    
+        first-out. Of the abstract datatypes listed, Stack is the only one that is    
+        last-in-first-out.
+    - a List    
+      
+
+      - When you click on the back button, you should see the last page you visited,    
+        so the datatype that stores the previously visited webpages must be last-in-    
+        first-out. Of the abstract datatypes listed, Stack is the only one that is    
+        last-in-first-out.
+    - a Dictionary    
+      
+
+      - When you click on the back button, you should see the last page you visited,    
+        so the datatype that stores the previously visited webpages must be last-in-    
+        first-out. Of the abstract datatypes listed, Stack is the only one that is    
+        last-in-first-out.

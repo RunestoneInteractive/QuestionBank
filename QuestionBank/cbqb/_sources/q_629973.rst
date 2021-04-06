@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_629973
+    :basecourse: canterburyqb
+        
+    Suppose you are defining a Java ``ProductItem`` class to store information about    
+    the inventory in a store, and you want to give the class an instance variable    
+    for the price of that item. Which of the following is the best datatype for    
+    the instance variable that models the price?    
+    
+
+    - ``double``    
+      
+
+      - Arguments can be made for any of these choices (except perhaps "int"). I would    
+        give `Money` an edge, because a user-defined class allows you to write methods    
+        to display the value properly, do arithmetic on it, and perhaps convert it to    
+        different currencies. But I'm going to tag this as a question with more than    
+        one answer.
+    - ``float``    
+      
+
+      - Arguments can be made for any of these choices (except perhaps "int"). I would    
+        give `Money` an edge, because a user-defined class allows you to write methods    
+        to display the value properly, do arithmetic on it, and perhaps convert it to    
+        different currencies. But I'm going to tag this as a question with more than    
+        one answer.
+    - ``int``    
+      
+
+      - Arguments can be made for any of these choices (except perhaps "int"). I would    
+        give `Money` an edge, because a user-defined class allows you to write methods    
+        to display the value properly, do arithmetic on it, and perhaps convert it to    
+        different currencies. But I'm going to tag this as a question with more than    
+        one answer.
+    - ``String``    
+      
+
+      - Arguments can be made for any of these choices (except perhaps "int"). I would    
+        give `Money` an edge, because a user-defined class allows you to write methods    
+        to display the value properly, do arithmetic on it, and perhaps convert it to    
+        different currencies. But I'm going to tag this as a question with more than    
+        one answer.
+    - a user-defined ``Money`` class    
+      
+
+      + Correct!

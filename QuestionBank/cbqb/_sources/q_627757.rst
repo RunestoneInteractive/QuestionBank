@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_627757
+    :basecourse: canterburyqb
+        
+    The code fragment given above was intended to read values until a negative    
+    value was read and then to print the product of the positive values read.    
+    Unfortunately, it does not work.    
+        
+    .. code-block::    
+        
+        
+           1.  Scanner kbd = new Scanner(System.in);    
+           2.  int x, product;    
+           3.  product = 0;    
+           4.  x = kbd.nextInt();    
+           5.  while (x >= 0) {    
+           6.     if (x > 0) {    
+           7.        product *= x;    
+           8.     }    
+           9.     x = kbd.nextInt();    
+           10. }    
+           11. System.out.println(product);    
+        
+    Which of the following best describes the error that prevents the code from    
+    computing the correct answer?    
+    
+
+    - Variable ``x`` is not initialized correctly.    
+      
+
+      - Because the variable `product` is initialized to 0 instead of 1, the answer    
+        will always be 0.
+    - Variable ``product`` is not initialized correctly.    
+      
+
+      + Correct!
+    - The loop is executed one too many times.    
+      
+
+      - Because the variable `product` is initialized to 0 instead of 1, the answer    
+        will always be 0.
+    - The loop is executed one two few times.    
+      
+
+      - Because the variable `product` is initialized to 0 instead of 1, the answer    
+        will always be 0.
+    - None of the above.    
+      
+
+      - Because the variable `product` is initialized to 0 instead of 1, the answer    
+        will always be 0.

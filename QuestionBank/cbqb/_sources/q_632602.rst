@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_632602
+    :basecourse: canterburyqb
+        
+    Which of the following is not an abstract datatype?    
+    
+
+    - List    
+      
+
+      - Hashtables and arrays are data structures, not abstract datatypes.    
+            
+        Note: This question was written by A. Luxton-Reilly. K. Sanders entered and    
+        tagged the question and added choice E, after A. Luxton-Reilly had to withdraw    
+        from the WG due to illness.
+    - Queue    
+      
+
+      - Hashtables and arrays are data structures, not abstract datatypes.    
+            
+        Note: This question was written by A. Luxton-Reilly. K. Sanders entered and    
+        tagged the question and added choice E, after A. Luxton-Reilly had to withdraw    
+        from the WG due to illness.
+    - Hashtable    
+      
+
+      - Hashtables and arrays are data structures, not abstract datatypes.    
+            
+        Note: This question was written by A. Luxton-Reilly. K. Sanders entered and    
+        tagged the question and added choice E, after A. Luxton-Reilly had to withdraw    
+        from the WG due to illness.
+    - Array    
+      
+
+      - Hashtables and arrays are data structures, not abstract datatypes.    
+            
+        Note: This question was written by A. Luxton-Reilly. K. Sanders entered and    
+        tagged the question and added choice E, after A. Luxton-Reilly had to withdraw    
+        from the WG due to illness.
+    - Both C and D    
+      
+
+      + Correct!

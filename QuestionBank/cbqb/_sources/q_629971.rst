@@ -1,0 +1,57 @@
+.. mchoice:: canterburyqb_629971
+    :basecourse: canterburyqb
+        
+    Suppose you are defining a Java ``ProductItem`` class to store information about    
+    the inventory in a store, and you want to give the class an instance variable    
+    for the number of those items currently in stock. Choose the best datatype for    
+    modeling this number:    
+    
+
+    - ``double``    
+      
+
+      - A and B are wrong because you want to model an integer, not a floating point    
+        number.    
+            
+        E is wrong because you probably want to use this number for adding and    
+        subtracting, not just for display.    
+            
+        D is less good than C, because the built-in operations on ints will most    
+        likely be sufficient for the purposes of this variable.
+    - ``float``    
+      
+
+      - A and B are wrong because you want to model an integer, not a floating point    
+        number.    
+            
+        E is wrong because you probably want to use this number for adding and    
+        subtracting, not just for display.    
+            
+        D is less good than C, because the built-in operations on ints will most    
+        likely be sufficient for the purposes of this variable.
+    - ``int``    
+      
+
+      + Correct!
+    - a user-defined ``NumberInStock`` class    
+      
+
+      - A and B are wrong because you want to model an integer, not a floating point    
+        number.    
+            
+        E is wrong because you probably want to use this number for adding and    
+        subtracting, not just for display.    
+            
+        D is less good than C, because the built-in operations on ints will most    
+        likely be sufficient for the purposes of this variable.
+    - ``String``    
+      
+
+      - A and B are wrong because you want to model an integer, not a floating point    
+        number.    
+            
+        E is wrong because you probably want to use this number for adding and    
+        subtracting, not just for display.    
+            
+        D is less good than C, because the built-in operations on ints will most    
+        likely be sufficient for the purposes of this variable.

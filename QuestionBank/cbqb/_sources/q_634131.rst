@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_634131
+    :basecourse: canterburyqb
+        
+    Yuchi has the following code:    
+        
+    .. code-block::    
+        
+        
+           #DEFINE N 500    
+           ---- (other code skipped) ----    
+           int arr[N][N]; int i; int j;    
+           for(i = 0; i < N; i++)    
+           {    
+               for(j = 0; j < N; j++)    
+               {    
+                   arr[i][j] = i + j;    
+               }    
+           }    
+        
+    When he changes N to 500,000, his code crashes. Why?    
+    
+
+    - There is a memory leak in the code    
+      
+
+      - arr is stored on the stack as it was statically allocated; the stack has    
+        limited space.
+    - ``arr`` is on the stack; it has run out of stack space    
+      
+
+      + Correct!
+    - ``arr`` is on the heap; it has run out of heap space    
+      
+
+      - arr is stored on the stack as it was statically allocated; the stack has    
+        limited space.
+    - With N that large, there will be at least one integer overflow in the code    
+      
+
+      - arr is stored on the stack as it was statically allocated; the stack has    
+        limited space.

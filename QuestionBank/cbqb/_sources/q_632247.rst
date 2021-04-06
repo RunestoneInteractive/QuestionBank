@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_632247
+    :basecourse: canterburyqb
+        
+    The ``StackADT``\ 's ``pop`` operation:    
+    
+
+    - adds a new item at the bottom of the Stack    
+      
+
+      - "pop" is the traditional term for removing an element from a stack. By    
+        definition, the element removed from a stack is always the one that was added    
+        most recently, or the one at the "top."
+    - returns without removing the top item on the Stack    
+      
+
+      - "pop" is the traditional term for removing an element from a stack. By    
+        definition, the element removed from a stack is always the one that was added    
+        most recently, or the one at the "top."
+    - removes and returns the top item on the Stack    
+      
+
+      + Correct!
+    - adds a new item at the top of the Stack    
+      
+
+      - "pop" is the traditional term for removing an element from a stack. By    
+        definition, the element removed from a stack is always the one that was added    
+        most recently, or the one at the "top."
+    - returns true if the Stack is empty and otherwise false    
+      
+
+      - "pop" is the traditional term for removing an element from a stack. By    
+        definition, the element removed from a stack is always the one that was added    
+        most recently, or the one at the "top."

@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_633097
+    :basecourse: canterburyqb
+        
+    In this question, you are given a Perl regular expression that you are    
+    required to evaluate.    
+        
+    There are no leading or trailing spaces in any of the text, nor are there any    
+    spaces in the regex.    
+        
+    Identify the answer which matches the regex below:    
+        
+    /\d\d\d/    
+    
+
+    - 1d34    
+      
+
+      - Must contain 3 consecutive digits. It does not matter what comes before or    
+        after.
+    - A123    
+      
+
+      + Correct!
+    - 12    
+      
+
+      - Must contain 3 consecutive digits. It does not matter what comes before or    
+        after.
+    - 12A12D    
+      
+
+      - Must contain 3 consecutive digits. It does not matter what comes before or    
+        after.

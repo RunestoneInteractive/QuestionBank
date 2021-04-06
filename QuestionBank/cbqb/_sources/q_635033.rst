@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_635033
+    :basecourse: canterburyqb
+        
+    Consider the code below; what value will i have at the end of the code?    
+        
+    ``int *p, i;``    
+        
+    .. code-block::    
+        
+        
+            i = 3;    
+            p = &i;    
+            (*p)++;    
+            i++;    
+    
+
+    - 3    
+      
+
+      - i is incremented twice, once through p
+    - 4    
+      
+
+      - i is incremented twice, once through p
+    - 5    
+      
+
+      + Correct!
+    - 6    
+      
+
+      - i is incremented twice, once through p
+    - 8    
+      
+
+      - i is incremented twice, once through p

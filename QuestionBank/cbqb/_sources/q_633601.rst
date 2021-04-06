@@ -1,0 +1,143 @@
+.. mchoice:: canterburyqb_633601
+    :basecourse: canterburyqb
+        
+    What does the following Java code print?    
+        
+    .. code-block::    
+        
+        
+           int outer=0;    
+           int inner=0;    
+           for (int i=0; i<6; i++) {    
+              outer++;    
+              for (int j=0; j<=i; j++) {    
+                 inner++;    
+              }    
+           }    
+           System.out.println("outer "+outer+", inner "+inner);    
+    
+
+    - outer 6, inner i    
+      
+
+      - The inner loop is based on the current iteration of the outer loop.  If we    
+        track the values:    
+            
+        outer 0, inner 0    
+            
+        outer 1, inner 0,1    
+            
+        outer 2, inner 0,1,2    
+            
+        and so on up to 6.    
+            
+        If we add up all of the inner values, there are 21 of them.    
+            
+        This is the classic "triangle" pattern, because the inner values proceed like    
+        this:    
+            
+        0    
+            
+        0 1    
+            
+        0 1 2    
+            
+        0 1 2 3    
+            
+        0 1 2 3 4    
+            
+        0 2 3 4 4 5
+    - outer 6, inner 24    
+      
+
+      - The inner loop is based on the current iteration of the outer loop.  If we    
+        track the values:    
+            
+        outer 0, inner 0    
+            
+        outer 1, inner 0,1    
+            
+        outer 2, inner 0,1,2    
+            
+        and so on up to 6.    
+            
+        If we add up all of the inner values, there are 21 of them.    
+            
+        This is the classic "triangle" pattern, because the inner values proceed like    
+        this:    
+            
+        0    
+            
+        0 1    
+            
+        0 1 2    
+            
+        0 1 2 3    
+            
+        0 1 2 3 4    
+            
+        0 2 3 4 4 5
+    - outer 6, inner 21    
+      
+
+      + Correct!
+    - outer 24, inner 24    
+      
+
+      - The inner loop is based on the current iteration of the outer loop.  If we    
+        track the values:    
+            
+        outer 0, inner 0    
+            
+        outer 1, inner 0,1    
+            
+        outer 2, inner 0,1,2    
+            
+        and so on up to 6.    
+            
+        If we add up all of the inner values, there are 21 of them.    
+            
+        This is the classic "triangle" pattern, because the inner values proceed like    
+        this:    
+            
+        0    
+            
+        0 1    
+            
+        0 1 2    
+            
+        0 1 2 3    
+            
+        0 1 2 3 4    
+            
+        0 2 3 4 4 5
+    - outer 6, inner 24    
+      
+
+      - The inner loop is based on the current iteration of the outer loop.  If we    
+        track the values:    
+            
+        outer 0, inner 0    
+            
+        outer 1, inner 0,1    
+            
+        outer 2, inner 0,1,2    
+            
+        and so on up to 6.    
+            
+        If we add up all of the inner values, there are 21 of them.    
+            
+        This is the classic "triangle" pattern, because the inner values proceed like    
+        this:    
+            
+        0    
+            
+        0 1    
+            
+        0 1 2    
+            
+        0 1 2 3    
+            
+        0 1 2 3 4    
+            
+        0 2 3 4 4 5

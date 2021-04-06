@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_629601
+    :basecourse: canterburyqb
+        
+    Consider the following code:    
+        
+    .. code-block::    
+        
+        
+              public int examMethod(int n) {    
+                 if (n == 1) return 1;    
+                 else if (n > 1) return (n + this.examMethod(n-1));    
+              }    
+        
+    What is the purpose of ``examMethod``\ ?    
+    
+
+    - to compute fibonacci(n)    
+      
+
+      - The method returns 1 if n is 1, 2+1 if n is 2, 3+2+1 if n is 3, etc. In other    
+        words, it computes the sum of the integers from 1 to n (answer C).
+    - to compute factorial(n)    
+      
+
+      - The method returns 1 if n is 1, 2+1 if n is 2, 3+2+1 if n is 3, etc. In other    
+        words, it computes the sum of the integers from 1 to n (answer C).
+    - to compute the sum of the positive integers from 1 to n    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - The method returns 1 if n is 1, 2+1 if n is 2, 3+2+1 if n is 3, etc. In other    
+        words, it computes the sum of the integers from 1 to n (answer C).

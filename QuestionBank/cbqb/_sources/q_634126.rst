@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_634126
+    :basecourse: canterburyqb
+        
+    What will this code output on a 64-bit machine?    
+        
+    ``int vals[10];``    
+        
+    ``printf("%d\n", sizeof(vals + 0));``    
+    
+
+    - 4    
+      
+
+      - sizeof(vals + 0) will get the size of the memory address of the first element    
+        in vals; a pointer is 8 bytes on the 64-bit machine
+    - 8    
+      
+
+      + Correct!
+    - 40    
+      
+
+      - sizeof(vals + 0) will get the size of the memory address of the first element    
+        in vals; a pointer is 8 bytes on the 64-bit machine
+    - 80    
+      
+
+      - sizeof(vals + 0) will get the size of the memory address of the first element    
+        in vals; a pointer is 8 bytes on the 64-bit machine

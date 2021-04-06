@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_634148
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Fill in the incomplete line of code so this recursively prints the contents of    
+    the array ``arr``\ :    
+        
+    ``void print_array(int *arr, int length)``    
+        
+    .. code-block::    
+        
+        
+           {    
+              if(length > 0)    
+              {    
+                 printf("%d\n", *arr);    
+        
+    :raw-html-m2r:`<code class="docutils literal"><span class="pre">print_array(arr + 1, **____________**&#96;&#96;);</span></code>`    
+        
+    .. code-block::    
+        
+        
+              }    
+           }    
+    
+
+    - print_array(arr + 1, 0);    
+      
+
+      - Note the base case requires the length to be decreasing.
+    - print_array(arr + 1, length - 1);    
+      
+
+      + Correct!
+    - print_array(arr + 1, ++length);    
+      
+
+      - Note the base case requires the length to be decreasing.
+    - print_array(arr + 1, length);    
+      
+
+      - Note the base case requires the length to be decreasing.

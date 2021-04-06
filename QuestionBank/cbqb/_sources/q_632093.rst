@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_632093
+    :basecourse: canterburyqb
+        
+    Fill in the gap to create a correct program.    
+        
+    public static void main(String [] args){    
+        
+    .. code-block::    
+        
+           final int firstDim = 2;    
+        
+           final int secondDim = 3;    
+        
+           read(firstDim, secondDim);    
+        
+        
+    }    
+        
+    public static **\ **__**\ ** read (int dim1, int dim2){    
+        
+    .. code-block::    
+        
+           int [][] array = new int[dim1][dim2];    
+        
+           Scanner sc = new Scanner(System.in);    
+        
+           for (int i = 0; i < dim1; i++)    
+        
+                    for (int j = 0; j < dim2; j++)    
+        
+                            array[i][j] = sc.nextInt();    
+        
+          return array;    
+        
+        
+    }    
+    
+
+    - void    
+      
+
+      - int []
+    - int    
+      
+
+      - int []
+    - int []    
+      
+
+      - int []
+    - int[][]    
+      
+
+      + Correct!

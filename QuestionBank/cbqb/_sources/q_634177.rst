@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634177
+    :basecourse: canterburyqb
+        
+    What does ``atoi("hello")`` return?    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - -1    
+      
+
+      - it wil be 0
+    - hello    
+      
+
+      - it wil be 0
+    - e    
+      
+
+      - it wil be 0

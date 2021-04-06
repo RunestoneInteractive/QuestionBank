@@ -1,0 +1,75 @@
+.. mchoice:: canterburyqb_632468
+    :basecourse: canterburyqb
+        
+    An example of something that could be built using a ListADT is a structure    
+    that models:    
+    
+
+    - The undo operation in a word processor    
+      
+
+      - In ListADT, items can be added to or removed from the beginning, middle, or    
+        end of the structure. This is not well suited for choices A or B, where you    
+        need to remove only the most recently added item.    
+            
+        For choice C, you need to ensure that the item removed is always the one that    
+        was stored first, so ListADT won't work there either.    
+            
+        Choice E would be best modeled by a nonlinear structure, and ListADT (like    
+        StackADT and QueueADT) is linear.    
+            
+        That leaves Choice D. A list of things to do can be linear -- one thing after    
+        another -- and it may be desirable to add new items at the beginning, middle,    
+        or end, depending on how important they are.
+    - The back button in a web browser    
+      
+
+      - In ListADT, items can be added to or removed from the beginning, middle, or    
+        end of the structure. This is not well suited for choices A or B, where you    
+        need to remove only the most recently added item.    
+            
+        For choice C, you need to ensure that the item removed is always the one that    
+        was stored first, so ListADT won't work there either.    
+            
+        Choice E would be best modeled by a nonlinear structure, and ListADT (like    
+        StackADT and QueueADT) is linear.    
+            
+        That leaves Choice D. A list of things to do can be linear -- one thing after    
+        another -- and it may be desirable to add new items at the beginning, middle,    
+        or end, depending on how important they are.
+    - the customers waiting to pay at the university dining hall    
+      
+
+      - In ListADT, items can be added to or removed from the beginning, middle, or    
+        end of the structure. This is not well suited for choices A or B, where you    
+        need to remove only the most recently added item.    
+            
+        For choice C, you need to ensure that the item removed is always the one that    
+        was stored first, so ListADT won't work there either.    
+            
+        Choice E would be best modeled by a nonlinear structure, and ListADT (like    
+        StackADT and QueueADT) is linear.    
+            
+        That leaves Choice D. A list of things to do can be linear -- one thing after    
+        another -- and it may be desirable to add new items at the beginning, middle,    
+        or end, depending on how important they are.
+    - an ordered to-do list    
+      
+
+      + Correct!
+    - the computers at the university and the network that connects them    
+      
+
+      - In ListADT, items can be added to or removed from the beginning, middle, or    
+        end of the structure. This is not well suited for choices A or B, where you    
+        need to remove only the most recently added item.    
+            
+        For choice C, you need to ensure that the item removed is always the one that    
+        was stored first, so ListADT won't work there either.    
+            
+        Choice E would be best modeled by a nonlinear structure, and ListADT (like    
+        StackADT and QueueADT) is linear.    
+            
+        That leaves Choice D. A list of things to do can be linear -- one thing after    
+        another -- and it may be desirable to add new items at the beginning, middle,    
+        or end, depending on how important they are.

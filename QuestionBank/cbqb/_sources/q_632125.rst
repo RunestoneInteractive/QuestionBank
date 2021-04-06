@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_632125
+    :basecourse: canterburyqb
+        
+    Given the declaration    
+        
+    **Public StudentRecords as Collection**    
+        
+    What line of code is required before the first student record is added to the    
+    collection?    
+    
+
+    - StudentRecords = New Collection    
+      
+
+      - Set assigns an object reference to the new Collection object named    
+        StudentRecords
+    - Set StudentRecords = Collection    
+      
+
+      - Set assigns an object reference to the new Collection object named    
+        StudentRecords
+    - Set StudentRecords = New Collection    
+      
+
+      + Correct!
+    - Set Collection = StudentRecords    
+      
+
+      - Set assigns an object reference to the new Collection object named    
+        StudentRecords
+    - Set StudentRecords.New    
+      
+
+      - Set assigns an object reference to the new Collection object named    
+        StudentRecords

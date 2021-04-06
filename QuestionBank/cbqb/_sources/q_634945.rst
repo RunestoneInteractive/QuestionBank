@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_634945
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Richard has the following struct:    
+        
+    ``struct node{``    
+        
+    .. code-block::    
+        
+        
+               int val;    
+               struct node *next;    
+           };    
+        
+    And he creates a node:\ :raw-html-m2r:`<br>`    
+    ``struct node **ptr = &( malloc(sizeof(struct node)) );``    
+        
+    Which of the following will NOT set ptr's associated val to 6?    
+    
+
+    - (***ptr).val = 6    
+      
+
+      + Correct!
+    - (**ptr).val = 6    
+      
+
+      - ***ptr is not useful here
+    - (*ptr)->val = 6    
+      
+
+      - ***ptr is not useful here

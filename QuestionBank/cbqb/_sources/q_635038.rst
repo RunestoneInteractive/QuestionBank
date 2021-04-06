@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_635038
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+          public class Outer extends SomeClass implements SomeInterface{    
+             ...    
+             private class Inner extends AnotherClass {    
+                 ????    
+             }    
+          }    
+        
+        
+    ```    
+        
+    Suppose I define an inner class, as is abstractly illustrated by the code    
+    above.  Assuming that I do not shadow anything (by declaring or defining    
+    something in the inner class with the same name as something accessible in the    
+    outer class), what in the outer class is accessible to the code in the inner    
+    class (at ????, e.g.) ?    
+    
+
+    - All protected methods and protected instance variables of the outer class    
+      
+
+      - The inner class is within the scope of the outer class, which means that all    
+        instance variables and public methods (including methods inherited from the    
+        outer class's ancestors). are accessible from the inner class.      
+            
+        Shadowing is a problem, since there is no automatic way to refer to the    
+        instance of the outer class.
+    - All public methods and public instance variables of the outer class    
+      
+
+      - The inner class is within the scope of the outer class, which means that all    
+        instance variables and public methods (including methods inherited from the    
+        outer class's ancestors). are accessible from the inner class.      
+            
+        Shadowing is a problem, since there is no automatic way to refer to the    
+        instance of the outer class.
+    - All methods and all public instance variables of the outer class    
+      
+
+      - The inner class is within the scope of the outer class, which means that all    
+        instance variables and public methods (including methods inherited from the    
+        outer class's ancestors). are accessible from the inner class.      
+            
+        Shadowing is a problem, since there is no automatic way to refer to the    
+        instance of the outer class.
+    - All methods and instance variables of the outer class.    
+      
+
+      + Correct!
+    - None of the above is true    
+      
+
+      - The inner class is within the scope of the outer class, which means that all    
+        instance variables and public methods (including methods inherited from the    
+        outer class's ancestors). are accessible from the inner class.      
+            
+        Shadowing is a problem, since there is no automatic way to refer to the    
+        instance of the outer class.

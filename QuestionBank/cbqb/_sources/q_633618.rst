@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_633618
+    :basecourse: canterburyqb
+        
+    True or False:    
+        
+    Breadth-first search (BFS) and Depth-first search (DFS) visit nodes of a graph    
+    in the same order only if the graph looks like a linear chain, or linked list,    
+    and the traversal starts at one of the ends.    
+        
+    For example, BFS and DFS starting at node A are the same for the following    
+    graph:    
+        
+    A <-> B <-> C    
+    
+
+    - True    
+      
+
+      - We could add any number of nodes to node B, and visit nodes in the same order    
+        starting at node A and node B.
+    - False    
+      
+
+      + Correct!

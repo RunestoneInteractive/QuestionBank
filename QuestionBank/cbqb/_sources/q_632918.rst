@@ -1,0 +1,61 @@
+.. mchoice:: canterburyqb_632918
+    :basecourse: canterburyqb
+        
+    After the assignment ``s = 'slam'``\ , which of the following code fragments    
+    prints ``scam``\ ?    
+    
+
+    - s[1] = 'c'    
+          
+      print(s)    
+      
+
+      - A doesn't work because Strings cannot be changed.  The [] operation can be    
+        used to read values inside a String, but not to change them.    
+            
+        B doesn't work because the replace() function does not change the String, it    
+        returns a new String.  This would work if it were s=s.replace('l', 'c').    
+            
+        C works, it's basically concatenating everything before the 'l' with a 'c'    
+        with everything after the 'l'.
+    - s.replace('l', 'c')    
+          
+      print(s)    
+      
+
+      - A doesn't work because Strings cannot be changed.  The [] operation can be    
+        used to read values inside a String, but not to change them.    
+            
+        B doesn't work because the replace() function does not change the String, it    
+        returns a new String.  This would work if it were s=s.replace('l', 'c').    
+            
+        C works, it's basically concatenating everything before the 'l' with a 'c'    
+        with everything after the 'l'.
+    - s = s[:s.find('l')] + 'c' + s[s.find('l')+1:]    
+          
+      print(s)    
+      
+
+      + Correct!
+    - All of the above    
+      
+
+      - A doesn't work because Strings cannot be changed.  The [] operation can be    
+        used to read values inside a String, but not to change them.    
+            
+        B doesn't work because the replace() function does not change the String, it    
+        returns a new String.  This would work if it were s=s.replace('l', 'c').    
+            
+        C works, it's basically concatenating everything before the 'l' with a 'c'    
+        with everything after the 'l'.
+    - None of the above    
+      
+
+      - A doesn't work because Strings cannot be changed.  The [] operation can be    
+        used to read values inside a String, but not to change them.    
+            
+        B doesn't work because the replace() function does not change the String, it    
+        returns a new String.  This would work if it were s=s.replace('l', 'c').    
+            
+        C works, it's basically concatenating everything before the 'l' with a 'c'    
+        with everything after the 'l'.

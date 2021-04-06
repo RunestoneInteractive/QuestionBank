@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052750
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q2:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int a, b, c, d;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">a = 123;</span><br /><span style="font-family: courier new,courier,monospace;">b = 999;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">c = a;</span><br /><span style="font-family: courier new,courier,monospace;">d = b;</span><br /><span style="font-family: courier new,courier,monospace;">b = c;</span><br /><span style="font-family: courier new,courier,monospace;">a = d;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = %d %d", a, b);</span></p>
+    
+
+    - Result = 123 999    
+      
+
+      - Incorrect
+    - Result = 123 123    
+      
+
+      - Incorrect
+    - Result = 999 999    
+      
+
+      - Incorrect
+    - Result = 0 0    
+      
+
+      - Incorrect
+    - Result = 999 123    
+      
+
+      + Correct!

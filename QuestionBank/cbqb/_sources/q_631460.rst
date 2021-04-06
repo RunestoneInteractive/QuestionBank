@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_631460
+    :basecourse: canterburyqb
+        
+    In Java, which of the following is not considered to be part of the signature    
+    of a method?    
+    
+
+    - Return type    
+      
+
+      + Correct!
+    - Method name    
+      
+
+      - In Java the return type is not considered as part of the signature.  Why    
+        should I care?  If i want to use method overloading (have different methods    
+        with the same name) the methods must have unique signatures, and so i cannot    
+        have 2 methods with the same name that have the same number, type, and order    
+        of parameters that differ on return type.
+    - Number of parameters    
+      
+
+      - In Java the return type is not considered as part of the signature.  Why    
+        should I care?  If i want to use method overloading (have different methods    
+        with the same name) the methods must have unique signatures, and so i cannot    
+        have 2 methods with the same name that have the same number, type, and order    
+        of parameters that differ on return type.
+    - Types and order of parameters    
+      
+
+      - In Java the return type is not considered as part of the signature.  Why    
+        should I care?  If i want to use method overloading (have different methods    
+        with the same name) the methods must have unique signatures, and so i cannot    
+        have 2 methods with the same name that have the same number, type, and order    
+        of parameters that differ on return type.
+    - All of the above are part of the signature    
+      
+
+      - In Java the return type is not considered as part of the signature.  Why    
+        should I care?  If i want to use method overloading (have different methods    
+        with the same name) the methods must have unique signatures, and so i cannot    
+        have 2 methods with the same name that have the same number, type, and order    
+        of parameters that differ on return type.

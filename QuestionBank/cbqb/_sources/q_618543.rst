@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_618543
+    :basecourse: canterburyqb
+        
+    What change should be made to correct the code?    
+        
+    String returnValue = "";    
+        
+    try {    
+        
+    .. code-block::    
+        
+            BufferedReader d = new BufferedReader(new InputStreamReader(System.in));    
+        
+            String userInput = new String(d.readLine());    
+        
+            returnValue = userInput;    
+        
+        
+    }    
+    
+
+    - Need to insert *finally*.    
+      
+
+      - Need to insert _finally_ or _catch._
+    - Need to insert *catch*.    
+      
+
+      - Need to insert _finally_ or _catch._
+    - Need to insert *finally* or *catch.*    
+      
+
+      + Correct!
+    - Need to remove *try*.    
+      
+
+      - Need to insert _finally_ or _catch._

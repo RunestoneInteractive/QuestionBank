@@ -1,0 +1,116 @@
+.. mchoice:: canterburyqb_631876
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    After the assignments ``a = true`` and ``b = true``\ , what is returned by\ :raw-html-m2r:`<br>`    
+    ``(! a || b) && (a || ! b)``    
+        
+    ?    
+    
+
+    - true    
+      
+
+      + Correct!
+    - false    
+      
+
+      - Substituting the assigned values for a and b (both true)  into the original    
+        expression    
+            
+           (! a || b) && (a || ! b)    
+            
+        we get    
+            
+           (! true || true) && (true || ! true)    
+            
+        In Java, evaluating what's inside the parentheses has higher precedence than    
+        any of the other operators here. Inside the parentheses, logical not (!) takes    
+        precedence over logical or (||). Evaluating the not's first, we get    
+            
+           (false || true)  && (true || false)    
+            
+        Next, evaluate the or's, and we get:    
+            
+           true && true    
+            
+        which gives us    
+            
+           true
+    - 1    
+      
+
+      - Substituting the assigned values for a and b (both true)  into the original    
+        expression    
+            
+           (! a || b) && (a || ! b)    
+            
+        we get    
+            
+           (! true || true) && (true || ! true)    
+            
+        In Java, evaluating what's inside the parentheses has higher precedence than    
+        any of the other operators here. Inside the parentheses, logical not (!) takes    
+        precedence over logical or (||). Evaluating the not's first, we get    
+            
+           (false || true)  && (true || false)    
+            
+        Next, evaluate the or's, and we get:    
+            
+           true && true    
+            
+        which gives us    
+            
+           true
+    - 0    
+      
+
+      - Substituting the assigned values for a and b (both true)  into the original    
+        expression    
+            
+           (! a || b) && (a || ! b)    
+            
+        we get    
+            
+           (! true || true) && (true || ! true)    
+            
+        In Java, evaluating what's inside the parentheses has higher precedence than    
+        any of the other operators here. Inside the parentheses, logical not (!) takes    
+        precedence over logical or (||). Evaluating the not's first, we get    
+            
+           (false || true)  && (true || false)    
+            
+        Next, evaluate the or's, and we get:    
+            
+           true && true    
+            
+        which gives us    
+            
+           true
+    - An error.    
+      
+
+      - Substituting the assigned values for a and b (both true)  into the original    
+        expression    
+            
+           (! a || b) && (a || ! b)    
+            
+        we get    
+            
+           (! true || true) && (true || ! true)    
+            
+        In Java, evaluating what's inside the parentheses has higher precedence than    
+        any of the other operators here. Inside the parentheses, logical not (!) takes    
+        precedence over logical or (||). Evaluating the not's first, we get    
+            
+           (false || true)  && (true || false)    
+            
+        Next, evaluate the or's, and we get:    
+            
+           true && true    
+            
+        which gives us    
+            
+           true

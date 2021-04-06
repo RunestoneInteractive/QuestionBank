@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_618480
+    :basecourse: canterburyqb
+        
+    It is desired to have an output as shown bellow as a consequence of running    
+    the following code. What would be the type of *st1?*    
+        
+    **\ **__**\ ** st1 = new **\ **__**\ **\ ("Measure twice, cut once");    
+        
+    System.out.println(st1);    
+        
+    System.out.println(st1.toUpperCase());    
+        
+    System.out.println(st1);    
+        
+    Measure twice, cut once    
+        
+    MEASURE TWICE, CUT ONCE    
+        
+    Measure twice, cut once    
+    
+
+    - String    
+      
+
+      + Correct!
+    - StringBuffer    
+      
+
+      - StringBuilder
+    - StringBuilder    
+      
+
+      - StringBuilder
+    - All of the above is possible    
+      
+
+      - StringBuilder

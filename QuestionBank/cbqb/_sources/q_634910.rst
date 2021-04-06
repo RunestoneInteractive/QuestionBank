@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_634910
+    :basecourse: canterburyqb
+        
+    Let's call the index at which an element is placed in an otherwise empty    
+    hashtable index h. With open addressing, a key-value pair may collide with    
+    another and be placed in a different location according to some defined    
+    scheme. Where may a key-value pair be placed?    
+    
+
+    - anywhere in the array    
+      
+
+      + Correct!
+    - at a list stored at index h    
+      
+
+      - With open addressing, some sort of probing algorithm is used to resolve    
+        collisions. Probing involves stepping along from the collision index to a    
+        subsequent element whose distance is determined by some step size. This    
+        probing visits all elements of the array, if need be.
+    - at index h or after    
+      
+
+      - With open addressing, some sort of probing algorithm is used to resolve    
+        collisions. Probing involves stepping along from the collision index to a    
+        subsequent element whose distance is determined by some step size. This    
+        probing visits all elements of the array, if need be.
+    - at index h or before    
+      
+
+      - With open addressing, some sort of probing algorithm is used to resolve    
+        collisions. Probing involves stepping along from the collision index to a    
+        subsequent element whose distance is determined by some step size. This    
+        probing visits all elements of the array, if need be.

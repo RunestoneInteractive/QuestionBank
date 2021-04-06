@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052678
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q12:</strong></p><p>The function called Test() which is shown below takes three inputs: an array of type Point, a variable of type Point and an integer. The Point structure is also shown. What is the output of the following program which calls the Test() function?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">typedef struct {</span><br /><span style="font-family: courier new,courier,monospace;">int x, y;</span><br /><span style="font-family: courier new,courier,monospace;">} Point;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">void Test(Point points[], Point p, int x)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; points[0].x = points[0].x + 677;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; p.x = p.x + 677;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; x = x + 677;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Point pts[3];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; pts[0].x = 100;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; pts[1].x = 100;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; pts[2].x = 100;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; Test(pts, pts[1], pts[2].x);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d %d %d", pts[0].x, pts[1].x, pts[2].x);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - 777 777 100    
+      
+
+      - Incorrect
+    - 777 100 100    
+      
+
+      + Correct!
+    - 100 100 100    
+      
+
+      - Incorrect
+    - 777 777 777    
+      
+
+      - Incorrect
+    - 777 100 777    
+      
+
+      - Incorrect

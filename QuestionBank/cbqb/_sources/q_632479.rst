@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_632479
+    :basecourse: canterburyqb
+        
+    The time complexity of linear search is:    
+    
+
+    - O(1)    
+      
+
+      - The time required for linear search in the worst case is directly proportional    
+        to the amount of data.
+    - O(log n)    
+      
+
+      - The time required for linear search in the worst case is directly proportional    
+        to the amount of data.
+    - O(n)    
+      
+
+      + Correct!
+    - O(2n)    
+      
+
+      - The time required for linear search in the worst case is directly proportional    
+        to the amount of data.
+    - none of the above    
+      
+
+      - The time required for linear search in the worst case is directly proportional    
+        to the amount of data.

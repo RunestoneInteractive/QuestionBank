@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_631880
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/39.png    
+       :target: img/39.png    
+       :alt: no description    
+        
+        
+    The simplified UML diagram above shows the relationships among Java classes    
+    Bird, Crow, and Duck.    
+        
+    Suppose Russell is an instance of Crow and Howard is an instance of Duck.    
+        
+    Which of the following is not necessarily true?    
+    
+
+    - Howard and Russell have different capabilities    
+      
+
+      + Correct!
+    - Crows and Ducks inherit from Birds    
+      
+
+      - Howard and Russell are instances of different classes  (Duck and Crow), each    
+        of which is a subclass of Bird.  If neither Crow nor Duck define any methods,    
+        then Howard and Russell will have the same methods (i.e. capabilities) as    
+        Bird.
+    - Crow is a subclass of Bird    
+      
+
+      - Howard and Russell are instances of different classes  (Duck and Crow), each    
+        of which is a subclass of Bird.  If neither Crow nor Duck define any methods,    
+        then Howard and Russell will have the same methods (i.e. capabilities) as    
+        Bird.
+    - Bird is a superclass of Duck    
+      
+
+      - Howard and Russell are instances of different classes  (Duck and Crow), each    
+        of which is a subclass of Bird.  If neither Crow nor Duck define any methods,    
+        then Howard and Russell will have the same methods (i.e. capabilities) as    
+        Bird.
+    - Bird is more general than Duck    
+      
+
+      - Howard and Russell are instances of different classes  (Duck and Crow), each    
+        of which is a subclass of Bird.  If neither Crow nor Duck define any methods,    
+        then Howard and Russell will have the same methods (i.e. capabilities) as    
+        Bird.

@@ -1,0 +1,68 @@
+.. mchoice:: canterburyqb_635021
+    :basecourse: canterburyqb
+        
+    The following method, called maxRow(), is intended to take one parameter: a    
+    List where the elements are Lists of Integer objects. You can think of this    
+    parameter as a matrix--a list of rows, where each row is a list of "cells"    
+    (plain integers). The method sums up the integers in each row (each inner    
+    list), and returns the index (row number) of the row with the largest row sum.    
+    Choose the best choice to fill in the blank on **Line 6** so that this method    
+    works as intended:    
+        
+    .. code-block::    
+        
+        
+           public static int maxRow(List<List<Integer>> matrix)    
+           {    
+               int maxVec = -1;                                // Line 1    
+               int maxSum = Integer.MIN_VALUE;                 // Line 2    
+        
+               for (int row = 0; row < __________; row++)      // Line 3    
+               {    
+                   int sum = 0;                                // Line 4    
+                   for (int col = 0; col < __________; col++)  // Line 5    
+                   {    
+                       sum = sum + __________;                 // Line 6    
+                   }    
+                   if (___________)                            // Line 7    
+                   {    
+                       maxSum = __________;                    // Line 8    
+                       maxVec = __________;                    // Line 9    
+                   }    
+               }    
+               return maxVec;                                  // Line 10    
+           }    
+    
+
+    - ``maxSum``    
+      
+
+      - The loop on Line 5 incrementally accumulates the sum of all entries in the    
+        current row, which is held in the local variable `sum`.  The purpose of Line 6    
+        is to add the current column value to this running sum.  The value of the    
+        current cell in the matrix is `matrix.get(row).get(col)`.
+    - ``matrix[row][col]``    
+      
+
+      - The loop on Line 5 incrementally accumulates the sum of all entries in the    
+        current row, which is held in the local variable `sum`.  The purpose of Line 6    
+        is to add the current column value to this running sum.  The value of the    
+        current cell in the matrix is `matrix.get(row).get(col)`.
+    - ``matrix.get(row).get(col)``    
+      
+
+      + Correct!
+    - ``matrix.get(col).size()``    
+      
+
+      - The loop on Line 5 incrementally accumulates the sum of all entries in the    
+        current row, which is held in the local variable `sum`.  The purpose of Line 6    
+        is to add the current column value to this running sum.  The value of the    
+        current cell in the matrix is `matrix.get(row).get(col)`.
+    - ``maxVec``    
+      
+
+      - The loop on Line 5 incrementally accumulates the sum of all entries in the    
+        current row, which is held in the local variable `sum`.  The purpose of Line 6    
+        is to add the current column value to this running sum.  The value of the    
+        current cell in the matrix is `matrix.get(row).get(col)`.

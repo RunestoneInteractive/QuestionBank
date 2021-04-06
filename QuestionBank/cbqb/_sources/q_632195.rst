@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_632195
+    :basecourse: canterburyqb
+        
+    The worst-case analysis (Big-Oh) of the following Java code is:    
+        
+    ``for (j=0; j<n; j++) {``    
+        
+    .. code-block::    
+        
+        
+              base = base * 2;    
+           }    
+    
+
+    - O(1)    
+      
+
+      - The loop will be executed n times, and each time involves a certain constant    
+        amount of work.
+    - O(n)    
+      
+
+      + Correct!
+    - O(n2)    
+      
+
+      - The loop will be executed n times, and each time involves a certain constant    
+        amount of work.
+    - O(log2n)    
+      
+
+      - The loop will be executed n times, and each time involves a certain constant    
+        amount of work.
+    - O(2n)    
+      
+
+      - The loop will be executed n times, and each time involves a certain constant    
+        amount of work.

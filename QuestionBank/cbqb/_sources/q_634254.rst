@@ -1,0 +1,72 @@
+.. mchoice:: canterburyqb_634254
+    :basecourse: canterburyqb
+        
+    Read the following method skeleton and choose the best expression to fill in    
+    the blank on **line 8**  so that the method will behave correctly:    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Takes a string reference and counts the number of times    
+           * the character 'A' or 'a' appears in the string object.    
+           * @param aString   String reference to object containing chars.    
+           * @precondition    aString is not null (you may assume this is true).    
+           * @return          The number of times 'A' or 'a' appears in the string.    
+           */    
+           public static int countAs(String aString)  // line 1    
+           {    
+               int counter = __________;              // line 2    
+               int totalA = 0;                        // line 3    
+               while (counter < __________)           // line 4    
+               {    
+                   if ( __________.equals("A") )      // line 5    
+                   {    
+                       totalA = totalA + __________;  // line 6    
+                   }    
+                   counter++;                         // line 7    
+               }    
+               return __________;                     // line 8    
+           }    
+    
+
+    - ``counter``    
+      
+
+      - The return type of the method is `int`, so an integer return value must be    
+        provided.  Since `counter` is used as a loop index, it will always end up    
+        being the total number of characters in the given string.  The variable    
+        `totalA` is used as an accumulator that is incremented each time a letter A is    
+        found in the string, so it is the choice that will provide the correct return    
+        value for the method.
+    - ``true``    
+      
+
+      - The return type of the method is `int`, so an integer return value must be    
+        provided.  Since `counter` is used as a loop index, it will always end up    
+        being the total number of characters in the given string.  The variable    
+        `totalA` is used as an accumulator that is incremented each time a letter A is    
+        found in the string, so it is the choice that will provide the correct return    
+        value for the method.
+    - ``false``    
+      
+
+      - The return type of the method is `int`, so an integer return value must be    
+        provided.  Since `counter` is used as a loop index, it will always end up    
+        being the total number of characters in the given string.  The variable    
+        `totalA` is used as an accumulator that is incremented each time a letter A is    
+        found in the string, so it is the choice that will provide the correct return    
+        value for the method.
+    - ``totalA``    
+      
+
+      + Correct!
+    - ``aString``    
+      
+
+      - The return type of the method is `int`, so an integer return value must be    
+        provided.  Since `counter` is used as a loop index, it will always end up    
+        being the total number of characters in the given string.  The variable    
+        `totalA` is used as an accumulator that is incremented each time a letter A is    
+        found in the string, so it is the choice that will provide the correct return    
+        value for the method.

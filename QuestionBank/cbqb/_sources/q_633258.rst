@@ -1,0 +1,31 @@
+.. mchoice:: canterburyqb_633258
+    :basecourse: canterburyqb
+        
+    Which of the following is **not** a reason why wall clock time is a poor    
+    measure of an algorithm's performance?    
+    
+
+    - It's dependent on processor speed.    
+      
+
+      - Wall clock time is a measure of real elapsed time between two events, which is    
+        no different from one computer to the next.
+    - Other programs may interrupt the one being measured.    
+      
+
+      - Wall clock time is a measure of real elapsed time between two events, which is    
+        no different from one computer to the next.
+    - The input cases may not capture the worst case running time.    
+      
+
+      - Wall clock time is a measure of real elapsed time between two events, which is    
+        no different from one computer to the next.
+    - Different platforms measure wall clock time differently.    
+      
+
+      + Correct!
+    - Subsequent runs may read data from cache instead of disk.    
+      
+
+      - Wall clock time is a measure of real elapsed time between two events, which is    
+        no different from one computer to the next.

@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633548
+    :basecourse: canterburyqb
+        
+    Which of the following expressions, when applied to each element of the array    
+    {0, 1, 2, 3, 4, 5, 6}, produces the array {0, 0, 1, 4, 5, 5, 9}?    
+    
+
+    - x * 3 / 2 + x % 4    
+      
+
+      - x + x / 2 - x % 3
+    - 2 + x - x * x    
+      
+
+      - x + x / 2 - x % 3
+    - x / 10 + x * 10 - x * x % 20    
+      
+
+      - x + x / 2 - x % 3
+    - (10 - x) * -x    
+      
+
+      - x + x / 2 - x % 3
+    - x + x / 2 - x % 3    
+      
+
+      + Correct!

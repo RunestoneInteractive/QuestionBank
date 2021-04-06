@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052701
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q19:</strong></p><p>The Maximum() function is supposed to return the largest value in the array which is provided as the first input to the function. The second input to the function is the number of values in the array. The function definition below is incomplete. What statements should replace the ???? below so that the Maximum() function works correctly?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Maximum(int *values, int numValues)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int maxSoFar = values[0];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int i;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (i = 1; i &lt; numValues; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>????</strong></span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return maxSoFar;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] < maxSoFar) {``\ :raw-html-m2r:`<br>`    
+      ``maxSoFar = values[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] > maxSoFar) {``\ :raw-html-m2r:`<br>`    
+      ``maxSoFar = values[i];``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] < maxSoFar) {``\ :raw-html-m2r:`<br>`    
+      ``values[i] = maxSoFar;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] > maxSoFar) {``\ :raw-html-m2r:`<br>`    
+      ``values[i] = maxSoFar;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] != maxSoFar) {``\ :raw-html-m2r:`<br>`    
+      ``values[i] = maxSoFar;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect

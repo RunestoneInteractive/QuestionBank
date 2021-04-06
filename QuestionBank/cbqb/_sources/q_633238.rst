@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_633238
+    :basecourse: canterburyqb
+        
+    Compared to a sorted linked list, a balanced binary search tree offers    
+    
+
+    - slower searching and faster insertion    
+      
+
+      - Insertion is O(n) for a sorted linked list, as we must traverse the list to    
+        find the correct insertion point. Searching is O(n) since we only have    
+        sequential access; the binary search does not work for linked lists. Balanced    
+        BSTs can be traversed in O(lg N) time, making it faster for both operations.
+    - slower searching and slower insertion    
+      
+
+      - Insertion is O(n) for a sorted linked list, as we must traverse the list to    
+        find the correct insertion point. Searching is O(n) since we only have    
+        sequential access; the binary search does not work for linked lists. Balanced    
+        BSTs can be traversed in O(lg N) time, making it faster for both operations.
+    - the same performance for searching and insertion    
+      
+
+      - Insertion is O(n) for a sorted linked list, as we must traverse the list to    
+        find the correct insertion point. Searching is O(n) since we only have    
+        sequential access; the binary search does not work for linked lists. Balanced    
+        BSTs can be traversed in O(lg N) time, making it faster for both operations.
+    - faster searching and slower insertion    
+      
+
+      - Insertion is O(n) for a sorted linked list, as we must traverse the list to    
+        find the correct insertion point. Searching is O(n) since we only have    
+        sequential access; the binary search does not work for linked lists. Balanced    
+        BSTs can be traversed in O(lg N) time, making it faster for both operations.
+    - faster searching and faster insertion    
+      
+
+      + Correct!

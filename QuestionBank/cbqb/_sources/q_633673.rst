@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_633673
+    :basecourse: canterburyqb
+        
+    Suppose you want to write a Python function that takes a list as a parameter    
+    and returns true if there are *no* instances of 3 immediately followed by a 4,    
+    and false otherwise.  So this list returns True:  [ 3 5 4 ]  But this list    
+    returns false: [ 1 2 3 4 5 ].    
+        
+    .. code-block::    
+        
+        
+           def no34(nums):    
+             for i in range(len(nums)-1):    
+               if nums[i]==3 and nums[i+1]==4:    
+                 return False        #line1    
+               else:    
+                 return True         #line2    
+             return False            #line3    
+        
+    What changes, if any, should be made to make this code correct    
+    
+
+    - No changes are necessary; it is correct as written    
+      
+
+      - The else clause should be removed.  If we don't see a 3-4, we can't conclude    
+        anything about the rest of the list.
+    - switch line1 and line2 (i.e return True for line1 and return False for line 2)    
+      
+
+      - The else clause should be removed.  If we don't see a 3-4, we can't conclude    
+        anything about the rest of the list.
+    - delete line2 (take the else statement with it)    
+      
+
+      + Correct!
+    - switch line1 and line2 (i.e return True for line1 and return False for line 2)    
+          
+      and    
+          
+      delete line2 (take the else statement with it)    
+      
+
+      - The else clause should be removed.  If we don't see a 3-4, we can't conclude    
+        anything about the rest of the list.
+    - switch line2 and line3 (i.e return False for line2 and return True for line3)    
+      
+
+      - The else clause should be removed.  If we don't see a 3-4, we can't conclude    
+        anything about the rest of the list.

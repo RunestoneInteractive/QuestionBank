@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052732
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q20:</strong></p><p>Consider the pattern below which consists of 16 characters printed in a 4x4 pattern (and with a new line character at the end of each line):</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; OOOO</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; XOOO</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; XXOO</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; XXXO</span></p><p>&nbsp;</p><p>The nested loop below will generate the pattern above, however the condition on the inner loop is missing and has been replaced with ????:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i, j;</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 4; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; for (j = 0; j &lt; 4; j++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( <strong>????</strong> ) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("X");</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("O");</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("\n");</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Which of the following conditions could replace the ???? to produce the pattern showed above?</p>
+    
+
+    - ``(i != j) || (i < j)``    
+      
+
+      - Incorrect
+    - ``(i != j) || (i > j)``    
+      
+
+      - Incorrect
+    - ``(i != j) && (i > j)``    
+      
+
+      + Correct!
+    - ``(i != j) && (i < j)``    
+      
+
+      - Incorrect
+    - None of the above    
+      
+
+      - Incorrect

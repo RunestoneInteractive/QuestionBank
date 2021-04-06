@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052860
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q8:</strong><br />The Rotate() function is designed to shift all elements in an array one position to the right, and move the rightmost element to position 0. For example, the following code:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int numbers[5] = { 1, 2, 3, 4, 5 };</span><br /><span style="font-family: courier new, courier, monospace;">Rotate(numbers, 5);</span></p><p>&nbsp;</p><p>should update the values in the array to be: <span style="font-family: courier new, courier, monospace;">{ 5, 1, 2, 3, 4 }</span></p><p>&nbsp;</p><p>The Rotate() function is shown below, but a line of code is missing and has been replaced with ????:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">void Rotate(int numbers[], int length)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int i;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int temp = numbers[length-1];</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; for (i = length-1; i &gt; 0; i--) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ????</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; numbers[0] = temp;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>What should replace the missing line of code?</p>
+    
+
+    - ``numbers[i+1] = numbers[i];``    
+      
+
+      - Incorrect
+    - ``numbers[i-1] = numbers[i];``    
+      
+
+      - Incorrect
+    - ``numbers[i] = numbers[i-1];``    
+      
+
+      + Correct!
+    - ``numbers[i+1] = numbers[i-1];``    
+      
+
+      - Incorrect
+    - ``numbers[i] = numbers[i+1];``    
+      
+
+      - Incorrect

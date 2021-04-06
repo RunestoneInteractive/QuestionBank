@@ -1,0 +1,58 @@
+.. mchoice:: peerwiseqb_4052720
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q32:</strong></p><p>The 15-puzzle is a sliding tile game where the goal is to rearrange the tiles so that the &ldquo;1&rdquo; tile is in the top left hand corner, the tiles increase from left to right, and top to bottom, and the empty tile is in the bottom right corner. The picture on the left below shows the solved 15-puzzle, the code in the middle shows a 2-dimensional array used to represent the puzzle in this solved configuration, and the code on the right shows the array but in an unsolved configuration. Notice that the value -1 is used to represent the empty tile, and the following two constants have been defined:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#define NUM_ROWS 4</span><br /><span style="font-family: courier new,courier,monospace;">#define NUM_COLS 4</span></p><p>&nbsp;</p><p><img src="../images/view.php?file=237956" alt="no description" /></p><p>&nbsp;</p><p>The GameOver() function takes a 2-dimensional array as input (representing the puzzle board) and returns true (i.e. the value 1) if the tiles are in the solved order (as shown in the middle above) and false (i.e. the value 0) otherwise (such as in the example on the right above). The body of the nested loop has been removed and replaced with ????:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int GameOver(int board[NUM_ROWS][NUM_COLS])</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp; int i, j;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp; for (i = 0; i &lt; NUM_ROWS; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for (j = 0; j &lt; NUM_COLS; j++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ????</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>Only ONE of the following code fragments, used in place of the ????, would correctly return the value 1 for the solved configuration above and the value 0 for the unsolved configuration above. Which one of the following is correct?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (board[i][j] != 1 + NUM_ROWS*i + j) {``\ :raw-html-m2r:`<br>`    
+      ``return (board[i][j] == -1);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (1 + board[i][j] != board[i+1][j]) {``\ :raw-html-m2r:`<br>`    
+      ``return ((i == NUM_ROWS-1) && (j == NUM_COLS-1));``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (1 + board[i][j] != board[i+1][j]) {``\ :raw-html-m2r:`<br>`    
+      ``return (board[i][j] == -1);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (board[i][j] != i + j) {``\ :raw-html-m2r:`<br>`    
+      ``return (board[i][j] == 1 + board[i][j]);``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (board[i][j] != 1 + NUM_ROWS*i + j) {``\ :raw-html-m2r:`<br>`    
+      ``return ((i == NUM_ROWS-1) && (j == NUM_COLS-1));``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!

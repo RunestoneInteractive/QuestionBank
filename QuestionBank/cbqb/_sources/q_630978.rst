@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_630978
+    :basecourse: canterburyqb
+        
+    Which of the following recommendations for testing software is good advice?    
+    
+
+    - Limit your test cases to one assertion, since each test should check only one    
+      expected outcome.    
+      
+
+      - Incrementally testing your code as you write it helps you find errors more    
+        quickly, and ensures that new work builds on previous work you have already    
+        confirmed works.  The other four choices here represent less effective or    
+        impractical advice.
+    - Save your testing until after the solution is completely written, so you can    
+      concentrate solely on testing without distractions.    
+      
+
+      - Incrementally testing your code as you write it helps you find errors more    
+        quickly, and ensures that new work builds on previous work you have already    
+        confirmed works.  The other four choices here represent less effective or    
+        impractical advice.
+    - Test a program with all possible values of input data.    
+      
+
+      - Incrementally testing your code as you write it helps you find errors more    
+        quickly, and ensures that new work builds on previous work you have already    
+        confirmed works.  The other four choices here represent less effective or    
+        impractical advice.
+    - Test each piece of your solution as you build it, so you will find errors as    
+      quickly as possible.    
+      
+
+      + Correct!
+    - Longer tests that focus on combinations of multiple features are preferable,    
+      because they test your code more strenuously.    
+      
+
+      - Incrementally testing your code as you write it helps you find errors more    
+        quickly, and ensures that new work builds on previous work you have already    
+        confirmed works.  The other four choices here represent less effective or    
+        impractical advice.

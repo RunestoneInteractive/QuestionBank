@@ -1,0 +1,54 @@
+.. mchoice:: canterburyqb_618639
+    :basecourse: canterburyqb
+        
+    Which method call is an efficient and correct way of calling methods compute_1    
+    and compute_2 inside main method?    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+          public static void compute_1(){}    
+        
+          public void compute_2(){}    
+        
+          public static void main(String [] Args){}    
+        
+        
+    }    
+    
+
+    - test t = new test();    
+          
+      t.compute_1();    
+          
+      t.compute_2();    
+      
+
+      - test.compute_1();    
+            
+        test.compute_2();
+    - compute_1();    
+          
+      compute_2();    
+      
+
+      - test.compute_1();    
+            
+        test.compute_2();
+    - test.compute_1();    
+          
+      test.compute_2();    
+      
+
+      - test.compute_1();    
+            
+        test.compute_2();
+    - test.compute_1();    
+          
+      test t = new test();    
+          
+      t.compute_2();    
+      
+
+      + Correct!

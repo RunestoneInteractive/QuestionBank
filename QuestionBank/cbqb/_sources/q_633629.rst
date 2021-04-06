@@ -1,0 +1,51 @@
+.. mchoice:: canterburyqb_633629
+    :basecourse: canterburyqb
+        
+    Consider the following implementation of a contains() method for a Queue in    
+    Java:    
+        
+    .. code-block::    
+        
+        
+           public class Queue<E> {    
+             private LinkedList<E> list;    
+             // Assume correct enqueue(),    
+             // dequeue(), size() methods    
+        
+             public boolean contains(E e){    
+               for (int i=0; i<list.size(); i++) {    
+                 if (list.get(i).equals(e)) {    
+                   return true;    
+                 }    
+               }    
+               return false;    
+             }    
+           }    
+        
+    What is the runtime (big-Oh) complexity of this method?    
+    
+
+    - O(1)    
+      
+
+      - This is sort of a trick question.  The get() method of a LinkedList is O(n),    
+        and we are calling this method O(n) times, so we have O(n2).
+    - O(n)    
+      
+
+      - This is sort of a trick question.  The get() method of a LinkedList is O(n),    
+        and we are calling this method O(n) times, so we have O(n2).
+    - O(n*log2n)    
+      
+
+      - This is sort of a trick question.  The get() method of a LinkedList is O(n),    
+        and we are calling this method O(n) times, so we have O(n2).
+    - O(n2)    
+      
+
+      + Correct!
+    - O(2n)    
+      
+
+      - This is sort of a trick question.  The get() method of a LinkedList is O(n),    
+        and we are calling this method O(n) times, so we have O(n2).

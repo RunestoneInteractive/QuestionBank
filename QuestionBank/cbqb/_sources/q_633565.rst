@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_633565
+    :basecourse: canterburyqb
+        
+    You know exactly how much data you need to store, but there's not much of it.    
+    You do not need to be able to search the collection quickly, but insertion    
+    should be as fast as possible. What is the simplest data structure that best    
+    suits for your needs?    
+    
+
+    - Unordered array    
+      
+
+      + Correct!
+    - Ordered array    
+      
+
+      - If you know the memory needs, you can allocate a large enough array. Inserting    
+        elements in the array can be done in constant time, and requires less work    
+        than inserting in a linked list.
+    - Linked list    
+      
+
+      - If you know the memory needs, you can allocate a large enough array. Inserting    
+        elements in the array can be done in constant time, and requires less work    
+        than inserting in a linked list.
+    - Hashtable    
+      
+
+      - If you know the memory needs, you can allocate a large enough array. Inserting    
+        elements in the array can be done in constant time, and requires less work    
+        than inserting in a linked list.
+    - Binary search tree    
+      
+
+      - If you know the memory needs, you can allocate a large enough array. Inserting    
+        elements in the array can be done in constant time, and requires less work    
+        than inserting in a linked list.

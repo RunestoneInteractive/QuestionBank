@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_618547
+    :basecourse: canterburyqb
+        
+    If you are about to evaluate the following code, which following comments    
+    would you choose?    
+        
+    FileReader inputStream = null;    
+        
+    try {    
+        
+    .. code-block::    
+        
+          inputStream = new FileReader("in.txt");    
+        
+          int c;    
+        
+          while ((c = inputStream.read()) != -1)    
+        
+                    // ... code has been deleted    
+        
+        
+    }catch (IOException e){    
+        
+    .. code-block::    
+        
+           System.out.println(e.getLocalizedMessage());    
+        
+        
+    }    
+    
+
+    - Add *finally* to the above structure.    
+      
+
+      - Buffering input streams is a must.
+    - Make sure you close in.txt.    
+      
+
+      + Correct!
+    - Buffering input streams is a must.    
+      
+
+      - Buffering input streams is a must.
+    - All of the above choices must be applied.    
+      
+
+      - Buffering input streams is a must.

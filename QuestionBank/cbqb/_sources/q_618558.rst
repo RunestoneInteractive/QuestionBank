@@ -1,0 +1,75 @@
+.. mchoice:: canterburyqb_618558
+    :basecourse: canterburyqb
+        
+    What will be outputted?    
+        
+    String input = "Home               is                             where the    
+    heart is";    
+        
+    Scanner sc_input = new Scanner(input).useDelimiter("\\s\ *is\\s*\ ");    
+        
+    while (sc_input.hasNext())    
+        
+    .. code-block::    
+        
+               System.out.println(sc_input.next());    
+    
+
+    - Home    
+          
+      is    
+          
+      where    
+          
+      the    
+          
+      heart    
+          
+      is    
+      
+
+      - Home    
+            
+        where    
+            
+        the    
+            
+        heart
+    - Home    
+          
+      is    
+          
+      Where the heart    
+          
+      is    
+      
+
+      - Home    
+            
+        where    
+            
+        the    
+            
+        heart
+    - Home    
+          
+      where    
+          
+      the    
+          
+      heart    
+      
+
+      - Home    
+            
+        where    
+            
+        the    
+            
+        heart
+    - Home    
+          
+      where the heart    
+      
+
+      + Correct!

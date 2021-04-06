@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_631016
+    :basecourse: canterburyqb
+        
+    In Java, what value will the variable ``i`` have after this declaration:    
+        
+    ``int i = 2 + 8 % 4;``    
+    
+
+    - 0    
+      
+
+      - When evaluating the initialization expression, precedence requires the modulo    
+        operator % to be applied first. 8 % 4 produces the value 0, since 8 divided by    
+        4 has a remainder of zero.  When zero is then added to 2, the result is 2,    
+        which becomes the initial value of the newly declared variable.
+    - 2    
+      
+
+      + Correct!
+    - 4    
+      
+
+      - When evaluating the initialization expression, precedence requires the modulo    
+        operator % to be applied first. 8 % 4 produces the value 0, since 8 divided by    
+        4 has a remainder of zero.  When zero is then added to 2, the result is 2,    
+        which becomes the initial value of the newly declared variable.
+    - 4.0    
+      
+
+      - When evaluating the initialization expression, precedence requires the modulo    
+        operator % to be applied first. 8 % 4 produces the value 0, since 8 divided by    
+        4 has a remainder of zero.  When zero is then added to 2, the result is 2,    
+        which becomes the initial value of the newly declared variable.
+    - 6    
+      
+
+      - When evaluating the initialization expression, precedence requires the modulo    
+        operator % to be applied first. 8 % 4 produces the value 0, since 8 divided by    
+        4 has a remainder of zero.  When zero is then added to 2, the result is 2,    
+        which becomes the initial value of the newly declared variable.

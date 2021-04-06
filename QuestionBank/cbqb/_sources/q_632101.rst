@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632101
+    :basecourse: canterburyqb
+        
+    Java virtual machine handles a chain of method calls. Which data structure is    
+    proper for this purpose?    
+    
+
+    - Queue    
+      
+
+      - single linked list
+    - Stack    
+      
+
+      + Correct!
+    - single linked list    
+      
+
+      - single linked list
+    - one dimensional array    
+      
+
+      - single linked list

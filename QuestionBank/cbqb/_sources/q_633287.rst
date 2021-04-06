@@ -1,0 +1,46 @@
+.. mchoice:: canterburyqb_633287
+    :basecourse: canterburyqb
+        
+    What is returned by ``'A' < 'A Linkletter'``\ ?    
+    
+
+    - True    
+      
+
+      + Correct!
+    - False    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison, but the first String 'A'    
+        is a substring of the second String.  We fall back on the "nothing before    
+        something" principle, and return True, because when sorting Strings, nothing    
+        comes before something.  This is why the word 'a' comes before 'aardvark' in    
+        the dictionary, as well as why 'ant' comes before 'anteater' and 'the' comes    
+        before 'these' or 'then'.
+    - 'A'    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison, but the first String 'A'    
+        is a substring of the second String.  We fall back on the "nothing before    
+        something" principle, and return True, because when sorting Strings, nothing    
+        comes before something.  This is why the word 'a' comes before 'aardvark' in    
+        the dictionary, as well as why 'ant' comes before 'anteater' and 'the' comes    
+        before 'these' or 'then'.
+    - an error    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison, but the first String 'A'    
+        is a substring of the second String.  We fall back on the "nothing before    
+        something" principle, and return True, because when sorting Strings, nothing    
+        comes before something.  This is why the word 'a' comes before 'aardvark' in    
+        the dictionary, as well as why 'ant' comes before 'anteater' and 'the' comes    
+        before 'these' or 'then'.
+    - none of the above    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison, but the first String 'A'    
+        is a substring of the second String.  We fall back on the "nothing before    
+        something" principle, and return True, because when sorting Strings, nothing    
+        comes before something.  This is why the word 'a' comes before 'aardvark' in    
+        the dictionary, as well as why 'ant' comes before 'anteater' and 'the' comes    
+        before 'these' or 'then'.

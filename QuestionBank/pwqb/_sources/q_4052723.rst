@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052723
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q29:</strong></p><p>The following code attempts to store user input in an array, and then it displays back to the user the values they entered. However, there may be a logic error in this code. Examine the code below:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int values[10] = {0};</span><br /><span style="font-family: courier new,courier,monospace;">int numValues = 0;</span><br /><span style="font-family: courier new,courier,monospace;">int input, i;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Enter numbers (-1 to stop): \n");</span><br /><span style="font-family: courier new,courier,monospace;">scanf("%d", &amp;input);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">while (input != -1) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; numValues++;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; values[numValues] = input;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; scanf("%d", &amp;input);</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("The array stores: ");</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; numValues; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", values[i]);</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p>If the user enters the following five values in the order shown:</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">1 2 3 4 -1</span></p><p>&nbsp;</p><p>what output would be produced?</p>
+    
+
+    - ``The array stores: 1 2 3 4 -1``    
+      
+
+      - Incorrect
+    - ``The array stores: 0 1 2 3 -1``    
+      
+
+      - Incorrect
+    - ``The array stores: 2 3 4 -1``    
+      
+
+      - Incorrect
+    - ``The array stores: 0 1 2 3``    
+      
+
+      + Correct!
+    - ``The array stores: 0 1 2 3 4``    
+      
+
+      - Incorrect

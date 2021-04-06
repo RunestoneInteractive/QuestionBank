@@ -1,0 +1,86 @@
+.. mchoice:: canterburyqb_632079
+    :basecourse: canterburyqb
+        
+    Consider the following short program, which does not meet all institutional    
+    coding standards:    
+        
+    void vCodeString(char szText[ ]); /\ * First line *\ /    
+        
+    include <stdio.h>    
+    =================    
+        
+    include <string.h>    
+    ==================    
+        
+    define MAX_LEN 12    
+    =================    
+        
+    int main(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        char szData[MAX_LEN];    
+        
+        printf("Enter some text to code: ");    
+        
+       scanf("%s", szData);    
+        
+       vCodeString(szData); /* Line 8 */    
+        
+        printf("Coded string is %s\n", szData);    
+        
+        
+    }    
+        
+    void vCodeString(char szText[ ])    
+        
+    {    
+        
+    .. code-block::    
+        
+        int i = -1;    
+        
+        while(szText[++i])    
+        
+        {    
+        
+               szText[i] += (char)2;    
+        
+        }    
+        
+        
+    }    
+        
+    Why is there no address operator (&) before szData in the scanf line?:    
+    
+
+    - Parameters are passed to scanf by value, not by reference.    
+      
+
+      - On declaration of a variable a space in memory is reserved for its storage.    
+        Here szData is an array of type char which has already been defined in the    
+        program and a memory location has been allocated to it
+    - scanf takes only inward parameters so does not need the &    
+      
+
+      - On declaration of a variable a space in memory is reserved for its storage.    
+        Here szData is an array of type char which has already been defined in the    
+        program and a memory location has been allocated to it
+    - szData is the address of the array.    
+      
+
+      + Correct!
+    - szData is an array so it does not have an address.    
+      
+
+      - On declaration of a variable a space in memory is reserved for its storage.    
+        Here szData is an array of type char which has already been defined in the    
+        program and a memory location has been allocated to it
+    - Variables of type char cannot use the address operator.    
+      
+
+      - On declaration of a variable a space in memory is reserved for its storage.    
+        Here szData is an array of type char which has already been defined in the    
+        program and a memory location has been allocated to it

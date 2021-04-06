@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_632128
+    :basecourse: canterburyqb
+        
+    What would the following line of code do with a form named frmMain?    
+        
+    frmMain.Caption = txtName.Text    
+    
+
+    - Make the text "txtName" appear as the caption of the form.    
+      
+
+      - The code assigns the contents of the text box to the caption for the form
+    - B Execute the method Caption, passing txtName as a parameter.    
+      
+
+      - The code assigns the contents of the text box to the caption for the form
+    - Change the contents of the text box txtName to the caption of the form.    
+      
+
+      - The code assigns the contents of the text box to the caption for the form
+    - Change the caption of the form to the contents of the text box txtName.    
+      
+
+      + Correct!
+    - Generate a run time error. It is not possible to alter the caption of a form    
+      at run time.    
+      
+
+      - The code assigns the contents of the text box to the caption for the form

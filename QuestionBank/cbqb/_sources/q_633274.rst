@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_633274
+    :basecourse: canterburyqb
+        
+    Which problem is not P (assuming P!=NP)?    
+    
+
+    - Integer knapsack    
+      
+
+      + Correct!
+    - Single-source shortest path    
+      
+
+      - Integer knapsack is considered NP-Complete.
+    - Minimum spanning tree    
+      
+
+      - Integer knapsack is considered NP-Complete.
+    - Sorting    
+      
+
+      - Integer knapsack is considered NP-Complete.

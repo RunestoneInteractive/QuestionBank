@@ -1,0 +1,63 @@
+.. mchoice:: canterburyqb_634915
+    :basecourse: canterburyqb
+        
+    The **Fibonacci sequence** is 0, 1, 1, 2, 3, 5, 8, 13 ... Any term (value) of    
+    the sequence that follows the first two terms (0 and 1) is equal to the sum of    
+    the preceding two terms. Consider the following incomplete method to compute    
+    any term of the Fibonacci sequence:    
+        
+    .. code-block::    
+        
+        
+           public static int fibonacci(int term)    
+           {    
+               int fib1 = 0;          // Line 1    
+               int fib2 = 1;          // Line 2    
+               int fibn = 0;          // Line 3    
+        
+               if (term == 1)         // Line 4    
+               {    
+                   return fib1;       // Line 5    
+               }    
+               if (term == 2)         // Line 6    
+               {    
+                   return fib2;       // Line 7    
+               }    
+        
+               for (__________)       // Line 8: loop to the nth term    
+               {    
+                   fibn = __________; // Line 9: compute the next term    
+                   fib1 = __________; // Line 10: reset the second preceding term    
+                   fib2 = __________; // Line 11: reset the immediate preceding term    
+               }    
+               return fibn;           // Line 12: return the computed term    
+           }    
+        
+        
+           Choose the best answer to fill in the blank on line 9.    
+    
+
+    - ``fib2 - fib1``    
+      
+
+      - As described in the first part of the question, each term in the sequence is    
+        the sum of the previous two terms, so `fibn = fib1 + fib2`.
+    - ``fib1 + fibn``    
+      
+
+      - As described in the first part of the question, each term in the sequence is    
+        the sum of the previous two terms, so `fibn = fib1 + fib2`.
+    - ``fibn + fib2``    
+      
+
+      - As described in the first part of the question, each term in the sequence is    
+        the sum of the previous two terms, so `fibn = fib1 + fib2`.
+    - ``fib1 + fib2``    
+      
+
+      + Correct!
+    - ``fib2``    
+      
+
+      - As described in the first part of the question, each term in the sequence is    
+        the sum of the previous two terms, so `fibn = fib1 + fib2`.

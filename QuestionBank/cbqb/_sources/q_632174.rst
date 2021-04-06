@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_632174
+    :basecourse: canterburyqb
+        
+    What does this function do?    
+        
+    void iFunction(char sz[])    
+        
+    {    
+        
+    .. code-block::    
+        
+        int iLen = 0;    
+        
+        while ( sz[iLen])    
+        
+         sz[iLen++] = '-';    
+        
+        
+    }    
+    
+
+    - Copies a string    
+      
+
+      - The Function iterates through the array to the end, replacing each character    
+        with the "-" character
+    - Finds and returns a character in a string    
+      
+
+      - The Function iterates through the array to the end, replacing each character    
+        with the "-" character
+    - Replaces all letters in a string with - characters    
+      
+
+      + Correct!
+    - Finds the length of a string    
+      
+
+      - The Function iterates through the array to the end, replacing each character    
+        with the "-" character
+    - Finds and returns the end of a string    
+      
+
+      - The Function iterates through the array to the end, replacing each character    
+        with the "-" character

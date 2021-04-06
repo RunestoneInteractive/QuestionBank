@@ -1,0 +1,102 @@
+.. mchoice:: canterburyqb_629645
+    :basecourse: canterburyqb
+        
+    Suppose you are writing a Java program to be used to manage information about    
+    the inventory in a store. The store's products include pagers, cell phones,    
+    and cameras. The cell phones are used for both communication and taking    
+    pictures, the pagers are only used for communication, and the cameras are used    
+    for taking pictures.    
+        
+    Assume that a ``Product`` class has been defined. Which of the following is the    
+    best way to represent the remaining data?    
+    
+
+    - Define two subclasses of the ``Product`` class: ``Communicator`` and    
+      ``PictureTaker``. Define two subclasses of the ``Communicator`` class: ``Pager`` and    
+      ``CellPhone``\ ; and define two subclasses of the ``PictureTaker`` class:    
+      ``CellPhone`` and ``Camera``.    
+      
+
+      - Answer A is the easiest to rule out -- it gives `CellPhone` two superclasses,    
+        which is not permitted in Java.    
+            
+        C is not the best choice because it doesn't capture the relationships among    
+        the various items. D captures some of the relationships but not all (for    
+        example, it's missing the relationship between `PictureTaker `and `Camera`).    
+            
+        Answers B and E are very similar -- they focus on the question of which items    
+        should be modeled by interfaces and which by classes. B is a better choice for    
+        several reasons. Pagers, phones, and cameras all have both behaviors and data    
+        -- for example, the list of phone messages for a phone and the ability to take    
+        pictures for both phones and cameras -- while PictureTaker and Communicator    
+        correspond to behaviors. In addition, defining PictureTaker as an interface    
+        allows us to capture the fact that a cell phone is a product, a picture taker,    
+        *and* a communicator.
+    - Define three subclasses of the ``Product`` class: ``Pager``\ , ``CellPhone`` and    
+      ``Camera``. Also define two interfaces: ``Communicator`` and ``PictureTaker``.    
+      Define the ``Pager`` and ``CellPhone`` classes to implement the ``Communicator``    
+      interface, and define the ``CellPhone`` and ``Camera`` classes to implement the    
+      ``PictureTaker`` interface.    
+      
+
+      + Correct!
+    - Define five new classes, not related to the ``Product`` class: ``Pager,``    
+      CellPhone, Camera, Communicator, and PictureTaker.    
+      
+
+      - Answer A is the easiest to rule out -- it gives `CellPhone` two superclasses,    
+        which is not permitted in Java.    
+            
+        C is not the best choice because it doesn't capture the relationships among    
+        the various items. D captures some of the relationships but not all (for    
+        example, it's missing the relationship between `PictureTaker `and `Camera`).    
+            
+        Answers B and E are very similar -- they focus on the question of which items    
+        should be modeled by interfaces and which by classes. B is a better choice for    
+        several reasons. Pagers, phones, and cameras all have both behaviors and data    
+        -- for example, the list of phone messages for a phone and the ability to take    
+        pictures for both phones and cameras -- while PictureTaker and Communicator    
+        correspond to behaviors. In addition, defining PictureTaker as an interface    
+        allows us to capture the fact that a cell phone is a product, a picture taker,    
+        *and* a communicator.
+    - Define five subclasses of the ``Product`` class: ``Pager,`` CellPhone, Camera,    
+      Communicator, and PictureTaker.    
+      
+
+      - Answer A is the easiest to rule out -- it gives `CellPhone` two superclasses,    
+        which is not permitted in Java.    
+            
+        C is not the best choice because it doesn't capture the relationships among    
+        the various items. D captures some of the relationships but not all (for    
+        example, it's missing the relationship between `PictureTaker `and `Camera`).    
+            
+        Answers B and E are very similar -- they focus on the question of which items    
+        should be modeled by interfaces and which by classes. B is a better choice for    
+        several reasons. Pagers, phones, and cameras all have both behaviors and data    
+        -- for example, the list of phone messages for a phone and the ability to take    
+        pictures for both phones and cameras -- while PictureTaker and Communicator    
+        correspond to behaviors. In addition, defining PictureTaker as an interface    
+        allows us to capture the fact that a cell phone is a product, a picture taker,    
+        *and* a communicator.
+    - Define two subclasses of the ``Product`` class: ``Communicator`` and    
+      ``PictureTaker``. Also define three interfaces: ``Pager,`` CellPhone, and Camera.    
+      Define the ``Communicator`` class to implement the ``Pager`` and ``CellPhone``    
+      interfaces, and define the ``PictureTaker`` class to implement the ``CellPhone``    
+      and ``Camera`` interfaces.    
+      
+
+      - Answer A is the easiest to rule out -- it gives `CellPhone` two superclasses,    
+        which is not permitted in Java.    
+            
+        C is not the best choice because it doesn't capture the relationships among    
+        the various items. D captures some of the relationships but not all (for    
+        example, it's missing the relationship between `PictureTaker `and `Camera`).    
+            
+        Answers B and E are very similar -- they focus on the question of which items    
+        should be modeled by interfaces and which by classes. B is a better choice for    
+        several reasons. Pagers, phones, and cameras all have both behaviors and data    
+        -- for example, the list of phone messages for a phone and the ability to take    
+        pictures for both phones and cameras -- while PictureTaker and Communicator    
+        correspond to behaviors. In addition, defining PictureTaker as an interface    
+        allows us to capture the fact that a cell phone is a product, a picture taker,    
+        *and* a communicator.

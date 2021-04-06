@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052680
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2014_Q10:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Two(int a)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return a + 1;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int One(int a)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int b;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b = a + a;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return Two(a+1) + b;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int a;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = 10;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = One(a);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d ", a);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = 12    
+      
+
+      - Incorrect
+    - Result = 10    
+      
+
+      - Incorrect
+    - Result = 11    
+      
+
+      - Incorrect
+    - Result = 32    
+      
+
+      + Correct!
+    - Result = 31    
+      
+
+      - Incorrect

@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_618601
+    :basecourse: canterburyqb
+        
+    Which sentence is NOT correct?    
+    
+
+    - If a class has no constructor, it cannot be extended.    
+      
+
+      + Correct!
+    - If a class has only private constructors, it cannot be extended.    
+      
+
+      - If a class is final, it cannot be extended.
+    - If a class is final, it cannot be extended.    
+      
+
+      - If a class is final, it cannot be extended.
+    - If a class is public, it is extendable anywhere.    
+      
+
+      - If a class is final, it cannot be extended.

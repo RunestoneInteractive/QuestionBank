@@ -1,0 +1,53 @@
+.. mchoice:: canterburyqb_634905
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       1.public class FirstApp extends wheels.users.Frame {    
+       2.    private wheels.users.Ellipse _ellipse;    
+       3.    
+       4.    public FirstApp() {    
+       5.       _ellipse = new wheels.users.Ellipse();    
+       6.    }    
+       7.    
+       8.    public static void main(String[] args) {    
+       9.       FirstApp app = new FirstApp();    
+       10.   }    
+       11.}    
+        
+        
+    ```    
+        
+    What does line 2 accomplish (cause to happen)?    
+    
+
+    - ``wheels.users.Ellipse`` is given ``_ellipse`` as an alias    
+      
+
+      - Remember that in Java we need to declare variables, and then instantiate them    
+        (using new).  Line 2 is simply a declaration -- the variable gets instantiated    
+        (in line 5) when a FirstApp gets instantiated.
+    - An invisible ``Ellipse`` is drawn on the screen    
+      
+
+      - Remember that in Java we need to declare variables, and then instantiate them    
+        (using new).  Line 2 is simply a declaration -- the variable gets instantiated    
+        (in line 5) when a FirstApp gets instantiated.
+    - ``_ellipse`` is declared as a ``wheels.users.Ellipse``    
+      
+
+      + Correct!
+    - ``wheels.users.Ellipse`` is set to be a ``private`` object    
+      
+
+      - Remember that in Java we need to declare variables, and then instantiate them    
+        (using new).  Line 2 is simply a declaration -- the variable gets instantiated    
+        (in line 5) when a FirstApp gets instantiated.
+    - ``_ellipse`` is instantiated as a ``wheels.users.Ellipse``    
+      
+
+      - Remember that in Java we need to declare variables, and then instantiate them    
+        (using new).  Line 2 is simply a declaration -- the variable gets instantiated    
+        (in line 5) when a FirstApp gets instantiated.

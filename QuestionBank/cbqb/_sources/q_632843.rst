@@ -1,0 +1,55 @@
+.. mchoice:: canterburyqb_632843
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    if x >= 0:    
+        
+    .. code-block::    
+        
+       print 1    
+        
+        
+    elif x < 20:    
+        
+    .. code-block::    
+        
+       print 2    
+        
+        
+    else:    
+        
+    .. code-block::    
+        
+       print 3    
+        
+        
+    print 4    
+        
+    For what values of x will 4 be among the values printed?    
+    
+
+    - x < 0    
+      
+
+      - The statement that prints 4 is NOT part of the if expression; thus it will be    
+        preinted regardless of what happens with the loop
+    - x >= 0    
+      
+
+      - The statement that prints 4 is NOT part of the if expression; thus it will be    
+        preinted regardless of what happens with the loop
+    - x >= 20    
+      
+
+      - The statement that prints 4 is NOT part of the if expression; thus it will be    
+        preinted regardless of what happens with the loop
+    - All values of x    
+      
+
+      + Correct!
+    - None of the above    
+      
+
+      - The statement that prints 4 is NOT part of the if expression; thus it will be    
+        preinted regardless of what happens with the loop

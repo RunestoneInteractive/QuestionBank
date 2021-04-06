@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_618485
+    :basecourse: canterburyqb
+        
+    A method called myMethod has been defined in a class with the following    
+    signature. Which of these four choices cannot be an overloaded alternative for    
+    myMethod?    
+        
+    public void myMethod (int i, double d)    
+    
+
+    - public int myMethod (int i, double d)    
+      
+
+      + Correct!
+    - public void myMethod (double d)    
+      
+
+      - public void myMethod (String i , double d)
+    - public void myMethod (String i , double d)    
+      
+
+      - public void myMethod (String i , double d)
+    - public int myMethod (int i)    
+      
+
+      - public void myMethod (String i , double d)

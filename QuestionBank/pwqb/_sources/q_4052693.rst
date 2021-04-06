@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052693
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q27:</strong></p><p>What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">#include &lt;stdio.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Update(int a);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int main(void)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int a = 42;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; int b;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; a = Update(a);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; b = Update(Update(a));</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("Result = %d %d\n", a, b);</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int Update(int a)</span><br /><span style="font-family: courier new,courier,monospace;">{</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; return a + 1;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = 42 43    
+      
+
+      - Incorrect
+    - Result = 43 44    
+      
+
+      - Incorrect
+    - Result = 44 44    
+      
+
+      - Incorrect
+    - Result = 44 45    
+      
+
+      - Incorrect
+    - Result = 43 45    
+      
+
+      + Correct!

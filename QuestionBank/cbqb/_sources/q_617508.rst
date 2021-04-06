@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_617508
+    :basecourse: canterburyqb
+        
+    How many objects are created in the following declaration?    
+        
+    ``String name;``    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 1    
+      
+
+      - It is not legal to write this declaration in Java
+    - This declaration causes a run-time error    
+      
+
+      - It is not legal to write this declaration in Java
+    - It is not legal to write this declaration in Java    
+      
+
+      - It is not legal to write this declaration in Java

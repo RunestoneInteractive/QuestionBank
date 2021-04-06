@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_618540
+    :basecourse: canterburyqb
+        
+    Is there any error in this code?    
+        
+    String [] firstNames = {"Neda", "Dorsa"};    
+        
+    int [] ages = {10, 14};    
+        
+    if (ages[0]>ages[1])    
+        
+    .. code-block::    
+        
+               if (firstNames[0]> firstNames [1])    
+        
+                         System.out.print(firstNames[0] + "has the priority");    
+        
+                else System.out.print("They both have the same priority");    
+        
+        
+    else System.out.print(firstNames[1] + "has the priority");    
+    
+
+    - Yes, wrong operator has been used for string type.    
+      
+
+      + Correct!
+    - Yes, wrong operator has been used for int type.    
+      
+
+      - Yes, array is out of bound.
+    - Yes, array is out of bound.    
+      
+
+      - Yes, array is out of bound.
+    - This code has no Error.    
+      
+
+      - Yes, array is out of bound.

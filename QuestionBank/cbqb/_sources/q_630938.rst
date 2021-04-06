@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_630938
+    :basecourse: canterburyqb
+        
+    In Java, the actual type of a parameter or variable's value can be any    
+    concrete class that is    
+    
+
+    - a. the same as the declared type, or any subclass of the declared type (if the    
+      declared type is a class)    
+      
+
+      - e. A and C above, but not B
+    - b. any subclass of a class that ``implements`` the declared type (if the    
+      declared type is an interface)    
+      
+
+      - e. A and C above, but not B
+    - c. any class that ``implements`` the declared type (if the declared type is an    
+      interface)    
+      
+
+      - e. A and C above, but not B
+    - d. All of the above    
+      
+
+      + Correct!
+    - e. A and C above, but not B    
+      
+
+      - e. A and C above, but not B

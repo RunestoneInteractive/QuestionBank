@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_633291
+    :basecourse: canterburyqb
+        
+    Inserting a node into a heap is    
+    
+
+    - O(1)    
+      
+
+      - Inserting a node involves putting the new node into the bottom level of the    
+        heap and trickling up, possibly to the root level. Since heaps are balanced    
+        and the number of levels is log N, the performance is O(log N).
+    - O(log N)    
+      
+
+      + Correct!
+    - O(N)    
+      
+
+      - Inserting a node involves putting the new node into the bottom level of the    
+        heap and trickling up, possibly to the root level. Since heaps are balanced    
+        and the number of levels is log N, the performance is O(log N).
+    - O(N log N)    
+      
+
+      - Inserting a node involves putting the new node into the bottom level of the    
+        heap and trickling up, possibly to the root level. Since heaps are balanced    
+        and the number of levels is log N, the performance is O(log N).
+    - O(N2)    
+      
+
+      - Inserting a node involves putting the new node into the bottom level of the    
+        heap and trickling up, possibly to the root level. Since heaps are balanced    
+        and the number of levels is log N, the performance is O(log N).

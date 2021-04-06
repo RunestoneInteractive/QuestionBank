@@ -1,0 +1,42 @@
+.. mchoice:: canterburyqb_635037
+    :basecourse: canterburyqb
+        
+    A given O(n2) algorithm takes five seconds to execute on a data set size of    
+        
+        
+    #. Using the same computer and the same algorithm, how many seconds should    
+       this algorithm run for when executed on a data set of size 500?    
+    
+
+    - 25 seconds    
+      
+
+      - Quadratic algorithms represent an n2 increase in run time.  Hence if the data    
+        set size increases by a factor of  five, for a quadratic algorithm, the    
+        increase in run time becomes a factor of 25.  Hence 25 times 5 (base run time)    
+        is 125.
+    - 100 seconds    
+      
+
+      - Quadratic algorithms represent an n2 increase in run time.  Hence if the data    
+        set size increases by a factor of  five, for a quadratic algorithm, the    
+        increase in run time becomes a factor of 25.  Hence 25 times 5 (base run time)    
+        is 125.
+    - 42 seconds    
+      
+
+      - Quadratic algorithms represent an n2 increase in run time.  Hence if the data    
+        set size increases by a factor of  five, for a quadratic algorithm, the    
+        increase in run time becomes a factor of 25.  Hence 25 times 5 (base run time)    
+        is 125.
+    - 125 seconds    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - Quadratic algorithms represent an n2 increase in run time.  Hence if the data    
+        set size increases by a factor of  five, for a quadratic algorithm, the    
+        increase in run time becomes a factor of 25.  Hence 25 times 5 (base run time)    
+        is 125.

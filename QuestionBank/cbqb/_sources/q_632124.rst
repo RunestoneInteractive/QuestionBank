@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_632124
+    :basecourse: canterburyqb
+        
+    Using double hashing and following hash function and data, in which array slot    
+    number 31 will be inserted*?    
+        
+    N = 13    
+        
+    h(k) = k mod 13    
+        
+    d(k) = 7 - k mod 7    
+        
+    (h(k) + jd(k)) mod 13    
+        
+    18, 41, 22, 44, 59, 32, 31, 73    
+        
+    *Credit goes to Goodrich et.al. (Data Structures & Algorithms in Java)    
+    
+
+    - 0    
+      
+
+      + Correct!
+    - 5    
+      
+
+      - 9
+    - 9    
+      
+
+      - 9
+    - 10    
+      
+
+      - 9

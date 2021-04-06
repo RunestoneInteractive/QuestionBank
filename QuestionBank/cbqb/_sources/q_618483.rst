@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_618483
+    :basecourse: canterburyqb
+        
+    Class B extends class A in which a method called firstMethod existed. The    
+    signature of firstMethod is as follow. In class B we are going to override    
+    firstMethod. Which declaration of this method in class B is correct?    
+        
+    protected void firstMethod(int firstVar)    
+    
+
+    - private void firstMethod(int firstVar)    
+      
+
+      - public void firstMethod(int firstVar)
+    - default void firstMethod(int firstVar)    
+      
+
+      - public void firstMethod(int firstVar)
+    - public void firstMethod(int firstVar)    
+      
+
+      + Correct!
+    - void firstMethod(int firstVar)    
+      
+
+      - public void firstMethod(int firstVar)

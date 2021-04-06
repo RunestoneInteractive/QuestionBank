@@ -1,0 +1,33 @@
+.. mchoice:: canterburyqb_632343
+    :basecourse: canterburyqb
+        
+    In this question, you are given a Perl regular expression that you are    
+    required to evaluate.      
+        
+    There are no leading or trailing spaces in any of the text, nor are there any    
+    spaces in the regex.    
+        
+    Identify the answer which best matches the regex below:    
+        
+    /write/    
+    
+
+    - Write your name at the top.    
+      
+
+      - The expression generates a match for a sentence which contains the full string    
+        (case sensitive) given between the / / delimiters
+    - Your writing is hard to read.    
+      
+
+      - The expression generates a match for a sentence which contains the full string    
+        (case sensitive) given between the / / delimiters
+    - Did you write your ID on the paper?    
+      
+
+      + Correct!
+    - Who sends handwritten letters anymore?    
+      
+
+      - The expression generates a match for a sentence which contains the full string    
+        (case sensitive) given between the / / delimiters

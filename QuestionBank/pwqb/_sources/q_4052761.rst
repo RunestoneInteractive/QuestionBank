@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052761
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_23:</strong></p><p>You are writing a program to print the following triangle of stars using the printf() function:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">*****</span><br /><span style="font-family: courier new, courier, monospace;">****</span><br /><span style="font-family: courier new, courier, monospace;">***</span><br /><span style="font-family: courier new, courier, monospace;">**</span></p><p><span style="font-family: courier new, courier, monospace;">*</span></p><p>&nbsp;</p><p>The triangle should consist of 5 rows, with a decreasing number of stars printed on each row (exactly as shown). You have the following code already written, however there is a boolean condition missing indicated by the <strong>????</strong>:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int n = 5;</span><br /><span style="font-family: courier new, courier, monospace;">int row, col;</span></p><p><span style="font-family: courier new, courier, monospace;">for (row = 0; row &lt; n; row++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; for (col = 0; col &lt; n; col++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( <strong><span style="font-family: arial, helvetica, sans-serif;">????</span></strong> ) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("*");</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; printf("\n");</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>How should the condition be written, completing the <strong>????</strong> above, so that the output generated is exactly as required?</p>
+    
+
+    - if ( row != col ) {    
+      
+
+      - Incorrect
+    - if ( row < col ) {    
+      
+
+      - Incorrect
+    - if ( row >= col ) {    
+      
+
+      - Incorrect
+    - if ( row <= col ) {    
+      
+
+      + Correct!
+    - if ( row > col ) {    
+      
+
+      - Incorrect

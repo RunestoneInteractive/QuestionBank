@@ -1,0 +1,63 @@
+.. mchoice:: canterburyqb_633646
+    :basecourse: canterburyqb
+        
+    Consider the following two simple Java classes:    
+        
+    .. code-block::    
+        
+        
+           public class Base {    
+             protected int x;    
+           }    
+        
+           public class Derived extends Base {    
+             protected int y;    
+           }    
+        
+    Which of the following is/are legal?    
+    
+
+    - Base b=new Base();    
+          
+      Derived d=b;    
+      
+
+      - B and C are OK.  Remember your Liskov substitution principle:  You can swap in    
+        a derived class anywhere that you expect a base class, because a derived class    
+        has at least as much information as a base class.    
+            
+        The reverse, however, is not true!  A derived class may add many more instance    
+        variables that the base class knows nothing about!
+    - Derived d=new Derived();    
+          
+      Base b=d;    
+      
+
+      + Correct!
+    - Base b=new Derived();    
+      
+
+      - B and C are OK.  Remember your Liskov substitution principle:  You can swap in    
+        a derived class anywhere that you expect a base class, because a derived class    
+        has at least as much information as a base class.    
+            
+        The reverse, however, is not true!  A derived class may add many more instance    
+        variables that the base class knows nothing about!
+    - Derived d=new Base();    
+      
+
+      - B and C are OK.  Remember your Liskov substitution principle:  You can swap in    
+        a derived class anywhere that you expect a base class, because a derived class    
+        has at least as much information as a base class.    
+            
+        The reverse, however, is not true!  A derived class may add many more instance    
+        variables that the base class knows nothing about!
+    - All of the above    
+      
+
+      - B and C are OK.  Remember your Liskov substitution principle:  You can swap in    
+        a derived class anywhere that you expect a base class, because a derived class    
+        has at least as much information as a base class.    
+            
+        The reverse, however, is not true!  A derived class may add many more instance    
+        variables that the base class knows nothing about!

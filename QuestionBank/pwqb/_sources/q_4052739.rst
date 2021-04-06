@@ -1,0 +1,31 @@
+.. mchoice:: peerwiseqb_4052739
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q13:</strong></p><p>Consider the following three loops (labelled &ldquo;Loop A&rdquo;, &ldquo;Loop B&rdquo; and &ldquo;Loop C&rdquo;):</p><p>&nbsp;</p><p>&nbsp;&nbsp; <strong>Loop A</strong><br /><span style="font-family: courier new,courier,monospace;">&nbsp; int i;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; for (i = 5; i &lt; 12; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; &nbsp;&nbsp; printf("%d ", (i-1));</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; }</span></p><p>&nbsp;</p><p>&nbsp;&nbsp; <strong>Loop B</strong><br /><span style="font-family: courier new,courier,monospace;">&nbsp; int i = 0;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; while (i &lt; 8) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; &nbsp;&nbsp; printf("%d ", (i+4));</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; }</span></p><p>&nbsp;</p><p>&nbsp;&nbsp; <strong>Loop C</strong><br /><span style="font-family: courier new,courier,monospace;">&nbsp; int i = 3;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; while (i &lt; 10) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; &nbsp;&nbsp; i++;</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; &nbsp;&nbsp; printf("%d ", (i));</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp; }</span></p><p>&nbsp;</p><p>Which of the following statements is <strong>true</strong>?</p>
+    
+
+    - Loop A and Loop C produce identical output, but Loop B produces different    
+      output    
+      
+
+      + Correct!
+    - Loop B and Loop C produce identical output, but Loop A produces different    
+      output    
+      
+
+      - Incorrect
+    - All three loops produce different output    
+      
+
+      - Incorrect
+    - All three loops produce identical output    
+      
+
+      - Incorrect
+    - Loop A and Loop B produce identical output, but Loop C produces different    
+      output    
+      
+
+      - Incorrect

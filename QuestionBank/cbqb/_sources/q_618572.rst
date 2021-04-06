@@ -1,0 +1,53 @@
+.. mchoice:: canterburyqb_618572
+    :basecourse: canterburyqb
+        
+    Which option is NOT an alternative solution for the bug that exists in this    
+    code?    
+        
+    class shape{    
+        
+    .. code-block::    
+        
+           float area;    
+        
+           public shape( float a){    
+        
+                 area = a;    
+        
+           }    
+        
+        
+    }    
+        
+    class square extends shape{    
+        
+    .. code-block::    
+        
+            float side;    
+        
+            public square (float s){    
+        
+                      side = s;    
+        
+           }    
+        
+        
+    }    
+    
+
+    - *square* constructor should call a super constructor explicitly.    
+      
+
+      - class _square_ should have a null constructor.
+    - Class *shape* must have a null constructor.    
+      
+
+      - class _square_ should have a null constructor.
+    - class *square* should have a null constructor.    
+      
+
+      + Correct!
+    - shape constructor should be removed.    
+      
+
+      - class _square_ should have a null constructor.

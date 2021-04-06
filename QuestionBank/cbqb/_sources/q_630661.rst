@@ -1,0 +1,64 @@
+.. mchoice:: canterburyqb_630661
+    :basecourse: canterburyqb
+        
+    What effect does the statement Option Explicit in the declaration section have    
+    on a Visual Basic module?    
+    
+
+    - The programmer is given the option to save code before the program is run.    
+      
+
+      - "When Option Explicit appears in a file, you must explicitly declare all    
+        variables using the Dim or ReDim statements. If you attempt to use an    
+        undeclared variable name, an error occurs at compile time.    
+            
+        Use Option Explicit to avoid incorrectly typing the name of an existing    
+        variable or to avoid confusion in code where the scope of the variable is not    
+        clear. If you do not use the Option Explicit statement, all undeclared    
+        variables are of Object type".    
+            
+        Ref http://msdn.microsoft.com/en-us/library/y9341s4f%28v=vs.80%29.aspx
+    - All variables in the module have to be declared before use.    
+      
+
+      + Correct!
+    - Global variables may be declared in the declarations section.    
+      
+
+      - "When Option Explicit appears in a file, you must explicitly declare all    
+        variables using the Dim or ReDim statements. If you attempt to use an    
+        undeclared variable name, an error occurs at compile time.    
+            
+        Use Option Explicit to avoid incorrectly typing the name of an existing    
+        variable or to avoid confusion in code where the scope of the variable is not    
+        clear. If you do not use the Option Explicit statement, all undeclared    
+        variables are of Object type".    
+            
+        Ref http://msdn.microsoft.com/en-us/library/y9341s4f%28v=vs.80%29.aspx
+    - Procedures in the module may be accessed from other modules in the project.    
+      
+
+      - "When Option Explicit appears in a file, you must explicitly declare all    
+        variables using the Dim or ReDim statements. If you attempt to use an    
+        undeclared variable name, an error occurs at compile time.    
+            
+        Use Option Explicit to avoid incorrectly typing the name of an existing    
+        variable or to avoid confusion in code where the scope of the variable is not    
+        clear. If you do not use the Option Explicit statement, all undeclared    
+        variables are of Object type".    
+            
+        Ref http://msdn.microsoft.com/en-us/library/y9341s4f%28v=vs.80%29.aspx
+    - Procedures in the module may NOT be accessed from other modules in the    
+      project.    
+      
+
+      - "When Option Explicit appears in a file, you must explicitly declare all    
+        variables using the Dim or ReDim statements. If you attempt to use an    
+        undeclared variable name, an error occurs at compile time.    
+            
+        Use Option Explicit to avoid incorrectly typing the name of an existing    
+        variable or to avoid confusion in code where the scope of the variable is not    
+        clear. If you do not use the Option Explicit statement, all undeclared    
+        variables are of Object type".    
+            
+        Ref http://msdn.microsoft.com/en-us/library/y9341s4f%28v=vs.80%29.aspx

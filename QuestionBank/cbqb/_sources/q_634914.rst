@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_634914
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    Martina has created an array, arr[50], and she has written the following line    
+    of code:\ :raw-html-m2r:`<br>`    
+    *(arr + 20) = 6;\ :raw-html-m2r:`<br>`    
+    Rewrite this line to use the [ ] notation for arrays.    
+    
+
+    - arr[21] = 6    
+      
+
+      - arr[20] == *(arr + 20)
+    - *arr[20] = 6    
+      
+
+      - arr[20] == *(arr + 20)
+    - arr[20] = 6    
+      
+
+      + Correct!
+    - *arr[21] = 6    
+      
+
+      - arr[20] == *(arr + 20)

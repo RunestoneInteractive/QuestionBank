@@ -1,0 +1,72 @@
+.. mchoice:: canterburyqb_634253
+    :basecourse: canterburyqb
+        
+    Read the following method skeleton and choose the best expression to fill in    
+    the blank on **line 6** so that the method will behave correctly:    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Takes a string reference and counts the number of times    
+           * the character 'A' or 'a' appears in the string object.    
+           * @param aString   String reference to object containing chars.    
+           * @precondition    aString is not null (you may assume this is true).    
+           * @return          The number of times 'A' or 'a' appears in the string.    
+           */    
+           public static int countAs(String aString)  // line 1    
+           {    
+               int counter = __________;              // line 2    
+               int totalA = 0;                        // line 3    
+               while (counter < __________)           // line 4    
+               {    
+                   if ( __________.equals("A") )      // line 5    
+                   {    
+                       totalA = totalA + __________;  // line 6    
+                   }    
+                   counter++;                         // line 7    
+               }    
+               return __________;                     // line 8    
+           }    
+    
+
+    - 0    
+      
+
+      - The variable `totalA` is being used as an accumulator to keep track of how    
+        many A's have been seen so far as the loop progresses.  The if condition    
+        inside the loop is intended to detect whether the current character is an "A",    
+        and so the variable `totalA` should be incremented each time the condition is    
+        true.  Therefore, the best answer for Line 6 is 1, so that `totalA` is    
+        incremented.
+    - 1    
+      
+
+      + Correct!
+    - ``counter``    
+      
+
+      - The variable `totalA` is being used as an accumulator to keep track of how    
+        many A's have been seen so far as the loop progresses.  The if condition    
+        inside the loop is intended to detect whether the current character is an "A",    
+        and so the variable `totalA` should be incremented each time the condition is    
+        true.  Therefore, the best answer for Line 6 is 1, so that `totalA` is    
+        incremented.
+    - ``aString.length()``    
+      
+
+      - The variable `totalA` is being used as an accumulator to keep track of how    
+        many A's have been seen so far as the loop progresses.  The if condition    
+        inside the loop is intended to detect whether the current character is an "A",    
+        and so the variable `totalA` should be incremented each time the condition is    
+        true.  Therefore, the best answer for Line 6 is 1, so that `totalA` is    
+        incremented.
+    - ``aString.charAt(count)``    
+      
+
+      - The variable `totalA` is being used as an accumulator to keep track of how    
+        many A's have been seen so far as the loop progresses.  The if condition    
+        inside the loop is intended to detect whether the current character is an "A",    
+        and so the variable `totalA` should be incremented each time the condition is    
+        true.  Therefore, the best answer for Line 6 is 1, so that `totalA` is    
+        incremented.

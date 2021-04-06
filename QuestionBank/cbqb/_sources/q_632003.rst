@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_632003
+    :basecourse: canterburyqb
+        
+    Which of the following is a list of syntactically legal Java class names?    
+    
+
+    - R2D2, Chameleon, public    
+      
+
+      - To compile, Java class names must start with a letter or an underscore,    
+        followed by zero or more letters, numbers, or underscores. In addition, a    
+        class name must not be one of the Java reserved words, such as `public`.
+    - R2D2, Chameleon, 23skidoo    
+      
+
+      - To compile, Java class names must start with a letter or an underscore,    
+        followed by zero or more letters, numbers, or underscores. In addition, a    
+        class name must not be one of the Java reserved words, such as `public`.
+    - r2d2, chameleon, public    
+      
+
+      - To compile, Java class names must start with a letter or an underscore,    
+        followed by zero or more letters, numbers, or underscores. In addition, a    
+        class name must not be one of the Java reserved words, such as `public`.
+    - r2d2, Iguana, _hello    
+      
+
+      + Correct!
+    - none of the above    
+      
+
+      - To compile, Java class names must start with a letter or an underscore,    
+        followed by zero or more letters, numbers, or underscores. In addition, a    
+        class name must not be one of the Java reserved words, such as `public`.

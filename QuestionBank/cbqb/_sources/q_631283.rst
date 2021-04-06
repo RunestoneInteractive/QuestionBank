@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_631283
+    :basecourse: canterburyqb
+        
+    Suppose you have a list of numbers stored in consecutive locations in a Java    
+    array. What is the worst-case time complexity of finding a given element in    
+    the array using linear search?    
+    
+
+    - O(1)    
+      
+
+      - Linear search is O(n).
+    - O(log n)    
+      
+
+      - Linear search is O(n).
+    - O(n)    
+      
+
+      + Correct!
+    - O(n log n)    
+      
+
+      - Linear search is O(n).
+    - O(n2)    
+      
+
+      - Linear search is O(n).

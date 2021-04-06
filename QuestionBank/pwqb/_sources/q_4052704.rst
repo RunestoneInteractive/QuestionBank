@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052704
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q16:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int value = 40;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">while (value &gt; 0) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", value);</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; value = value / 2;</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - 20 10 5 2    
+      
+
+      - Incorrect
+    - 20 10 5 2 1    
+      
+
+      - Incorrect
+    - 40 20 10 5 2 1    
+      
+
+      + Correct!
+    - 40 20 10 5 2 1 0    
+      
+
+      - Incorrect
+    - 20 10 5 2 1 0    
+      
+
+      - Incorrect

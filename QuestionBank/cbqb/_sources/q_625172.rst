@@ -1,0 +1,50 @@
+.. mchoice:: canterburyqb_625172
+    :basecourse: canterburyqb
+        
+    Consider the following static method in Java:    
+        
+    .. code-block::    
+        
+        
+           public static int[] mystery(int[] arr, int x) {    
+             int a=0;    
+             for (int i=0; i<arr.length; i++) {    
+               if (arr[i] > x) {    
+                 a++;    
+               }    
+             }    
+             int[] ar2=new int[a];    
+             int z=0;    
+             for (int i=0; i<arr.length; i++) {    
+               if (arr[i] > x) {    
+                 ar2[z]=arr[i];    
+                 z++;    
+               }    
+             }    
+             return ar2;    
+           }    
+        
+    What will this function (static method) return when invoke with the array {1,    
+    9, 3, 4, 9, 4, 5, 2, 7} and the integer 5?    
+    
+
+    - {} (an empty array)    
+      
+
+      - It will throw ArrayIndesOutOfBoundsException
+    - {9, 5, 7}    
+      
+
+      - It will throw ArrayIndesOutOfBoundsException
+    - {9, 9, 5, 7}    
+      
+
+      - It will throw ArrayIndesOutOfBoundsException
+    - {9, 9, 7}    
+      
+
+      + Correct!
+    - It will throw ArrayIndesOutOfBoundsException    
+      
+
+      - It will throw ArrayIndesOutOfBoundsException

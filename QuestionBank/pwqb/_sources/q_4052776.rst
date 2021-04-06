@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052776
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q8:</strong></p><p>Consider the following array (of length 5) and a statement that modifies the array:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int values[5] = {1,2,3,4,5};</span><br /><span style="font-family: courier new, courier, monospace;">values[ values[0] + values[1] ] = values[ values[4] - values[3] ];</span></p><p>&nbsp;</p><p>After the statement has executed, what will the values in the array be?</p>
+    
+
+    - { 1, 2, 3, 2, 5 }    
+      
+
+      + Correct!
+    - { 1, 2, 3, 1, 5 }    
+      
+
+      - Incorrect
+    - { 1, 2, 1, 4, 5 }    
+      
+
+      - Incorrect
+    - { 2, 2, 2, 4, 5 }    
+      
+
+      - Incorrect
+    - { 1, 2, 2, 4, 5 }    
+      
+
+      - Incorrect

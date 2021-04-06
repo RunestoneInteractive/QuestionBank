@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052735
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2016_Q17:</strong></p><p>Consider the following code that processes an array of integers called values (note that the values in the array are not displayed at the top of the code listing below):</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int values[7] = { ... };</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i;</span><br /><span style="font-family: courier new,courier,monospace;">int x = 0;</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 7; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if (i &lt; 3) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x = x + values[i];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; } else if (i &gt; 3) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x = x - values[i];</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("x = %d", x);</span></p><p>&nbsp;</p><p>The missing array initialisation will be replaced with one of the following. Which array initialisation below would generate the <strong>largest value</strong> for x (i.e. which initialisation would cause the program above to print the largest output value)?</p>
+    
+
+    - ``int values[7] = { 10, 11, 12, 12, 11, 10, 9 };``    
+      
+
+      - Incorrect
+    - ``int values[7] = { 1, 2, 3, 4, 3, 2, 1 };``    
+      
+
+      - Incorrect
+    - ``int values[7] = { 4, 3, 2, 1, 2, 3, 4 };``    
+      
+
+      - Incorrect
+    - ``int values[7] = { 7, 6, 5, 4, 3, 2, 1 };``    
+      
+
+      + Correct!
+    - ``int values[7] = { 10, 20, 10, 20, 10, 20, 10 };``    
+      
+
+      - Incorrect

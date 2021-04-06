@@ -1,0 +1,118 @@
+.. mchoice:: canterburyqb_635078
+    :basecourse: canterburyqb
+        
+    [code]    
+        
+    .. code-block::    
+        
+       int a = 1;    
+       int d = 7;    
+       if (b > c)    
+       {    
+           a = 2;    
+       }    
+       else    
+       {    
+           d = a * 2;    
+       }    
+        
+        
+    ```    
+        
+    Which of the following code fragments is equivalent to the version above?    
+    "Equivalent" means that both fragments would assign the same values to ``a`` and    
+    ``d``\ , given the same values for ``b`` and ``c``.    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         int a = 1;    
+         int d = 7;    
+         if (b < c)    
+         {    
+             d = a * 2;    
+         }    
+         else    
+         {    
+              a = 2;    
+         }    
+          
+          
+      ```    
+      
+
+      - The opposite condition of `(b > c)` is `(b <= c)`.  The correct answer has    
+        this opposite if test, and the two actions in the branches of the if statement    
+        in opposite positions.
+    - [code]    
+          
+      .. code-block::    
+          
+         int a = 1;    
+         int d = 7;    
+         if (b <= c)    
+         {    
+             d = a * 2;    
+         }    
+         else    
+         {    
+             a = 2;    
+         }    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         int a = 1;    
+         int d = 7;    
+         if (b >= c)    
+         {    
+             a = 2;    
+         }    
+         else    
+         {    
+             d = a * 2;    
+         }     
+          
+          
+      ```    
+      
+
+      - The opposite condition of `(b > c)` is `(b <= c)`.  The correct answer has    
+        this opposite if test, and the two actions in the branches of the if statement    
+        in opposite positions.
+    - [code]    
+          
+      .. code-block::    
+          
+         int a = 1;    
+         int d = 7;    
+         if (b > c)    
+         {    
+             d = a * 2;    
+         }    
+         else    
+         {    
+             a = 2;    
+         }    
+          
+          
+      ```    
+      
+
+      - The opposite condition of `(b > c)` is `(b <= c)`.  The correct answer has    
+        this opposite if test, and the two actions in the branches of the if statement    
+        in opposite positions.
+    - none are equivalent    
+      
+
+      - The opposite condition of `(b > c)` is `(b <= c)`.  The correct answer has    
+        this opposite if test, and the two actions in the branches of the if statement    
+        in opposite positions.

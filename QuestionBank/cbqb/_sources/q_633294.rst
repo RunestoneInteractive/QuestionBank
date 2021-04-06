@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633294
+    :basecourse: canterburyqb
+        
+    You are storing a complete binary tree in an array, with the root at index 0.    
+    At what index is node i's left child?    
+    
+
+    - 2i    
+      
+
+      - (i` - 1) / 2
+    - 2i + 1    
+      
+
+      + Correct!
+    - i + i + 2    
+      
+
+      - (i` - 1) / 2
+    - i / 2 + 1    
+      
+
+      - (i` - 1) / 2
+    - (i` - 1) / 2    
+      
+
+      - (i` - 1) / 2

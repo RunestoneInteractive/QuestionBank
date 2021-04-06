@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_632313
+    :basecourse: canterburyqb
+        
+    The enqueue operation:    
+    
+
+    - adds a new item at the front of the queue    
+      
+
+      - enqueue is the name for the operation that adds an element to a queue.    
+        Specifically, it adds each item to the end of the queue (just like standing in    
+        line).
+    - returns without removing the item at the front of the queue    
+      
+
+      - enqueue is the name for the operation that adds an element to a queue.    
+        Specifically, it adds each item to the end of the queue (just like standing in    
+        line).
+    - removes and returns the item at the front of the queue    
+      
+
+      - enqueue is the name for the operation that adds an element to a queue.    
+        Specifically, it adds each item to the end of the queue (just like standing in    
+        line).
+    - adds a new item at the end of the queue    
+      
+
+      + Correct!
+    - returns true if the queue is empty and otherwise false    
+      
+
+      - enqueue is the name for the operation that adds an element to a queue.    
+        Specifically, it adds each item to the end of the queue (just like standing in    
+        line).

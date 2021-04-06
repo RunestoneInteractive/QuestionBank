@@ -1,0 +1,67 @@
+.. mchoice:: canterburyqb_631539
+    :basecourse: canterburyqb
+        
+    What should be done to initialize *counter* to one in *main* method?    
+        
+    class C {    
+        
+    .. code-block::    
+        
+         private int counter;    
+        
+        
+    }    
+        
+    public class F {    
+        
+    .. code-block::    
+        
+         public static void main(String arg[]){    
+        
+         }    
+        
+        
+    }    
+    
+
+    - c.counter = 1;    
+      
+
+      - Change the definition of counter as follow:    
+            
+        private int counter = 1;
+    - C c = new C();    
+          
+      c.counter = 1;    
+      
+
+      - Change the definition of counter as follow:    
+            
+        private int counter = 1;
+    - C. add the following to C:    
+          
+      public void setCounter( int c){    
+          
+      .. code-block::    
+          
+           counter = c;    
+          
+          
+      }    
+          
+      Add the following to F:    
+          
+      C c = new C();    
+          
+      c.setCounter(1);    
+      
+
+      + Correct!
+    - Change the definition of counter as follow:    
+          
+      private int counter = 1;    
+      
+
+      - Change the definition of counter as follow:    
+            
+        private int counter = 1;

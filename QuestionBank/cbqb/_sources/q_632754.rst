@@ -1,0 +1,296 @@
+.. mchoice:: canterburyqb_632754
+    :basecourse: canterburyqb
+        
+    The following is a skeleton for a method called "maxVal":    
+        
+    .. code-block::    
+        
+        
+           public static int maxVal(int[] y, int first, int last) {    
+           /* This method returns the value of the maximum element in the    
+           * subsection of the array "y", starting at position    
+           * "first" and ending at position "last".    
+           */    
+        
+           int bestSoFar = y[first];    
+        
+           xxx missing for loop goes here    
+        
+           return bestSoFar;    
+        
+           } // method maxVal    
+        
+           In this question, the missing "for" loop is to run "forwards".  That is, the code should search the array from the low subscripts to the high subscripts.  Given that, the correct code for the missing "for" loop is:    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] < bestSoFar ) {    
+                bestSoFar = y[i];    
+            } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`      
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the value of the    
+        SMALLEST number so far.    
+            
+        b)    
+            
+        CORRECT!    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if ( y[i] > y[bestSoFar] ) ... bestSoFar is storing the minimum value, NOT the    
+        position of the minimum value.    
+            
+        [code]    
+            
+            bestSoFar = i  ... bestSoFar is being set to a postion, not the value at that poisition.    
+                
+                
+        [/code]    
+            
+            
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if (y[i] < bestSoFar) ... This is lokking for theSMALLEST value.    
+            
+        `bestSoFar = i ... bestSoFar is being set to a postion, not the value at that    
+        position.`    
+            
+            
+            
+        e)    
+            
+        INCORRECT:    
+            
+        b`estSoFar = i  ... bestSoFar is being set to a postion, not the value at that    
+        position.`
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[i] > bestSoFar ) {    
+                bestSoFar = y[i];    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      + Correct!
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] > y[bestSoFar] ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`      
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the value of the    
+        SMALLEST number so far.    
+            
+        b)    
+            
+        CORRECT!    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if ( y[i] > y[bestSoFar] ) ... bestSoFar is storing the minimum value, NOT the    
+        position of the minimum value.    
+            
+        [code]    
+            
+            bestSoFar = i  ... bestSoFar is being set to a postion, not the value at that poisition.    
+                
+                
+        [/code]    
+            
+            
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if (y[i] < bestSoFar) ... This is lokking for theSMALLEST value.    
+            
+        `bestSoFar = i ... bestSoFar is being set to a postion, not the value at that    
+        position.`    
+            
+            
+            
+        e)    
+            
+        INCORRECT:    
+            
+        b`estSoFar = i  ... bestSoFar is being set to a postion, not the value at that    
+        position.`
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=last; i>first; i--) {    
+             if ( y[i] < bestSoFar ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`      
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the value of the    
+        SMALLEST number so far.    
+            
+        b)    
+            
+        CORRECT!    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if ( y[i] > y[bestSoFar] ) ... bestSoFar is storing the minimum value, NOT the    
+        position of the minimum value.    
+            
+        [code]    
+            
+            bestSoFar = i  ... bestSoFar is being set to a postion, not the value at that poisition.    
+                
+                
+        [/code]    
+            
+            
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if (y[i] < bestSoFar) ... This is lokking for theSMALLEST value.    
+            
+        `bestSoFar = i ... bestSoFar is being set to a postion, not the value at that    
+        position.`    
+            
+            
+            
+        e)    
+            
+        INCORRECT:    
+            
+        b`estSoFar = i  ... bestSoFar is being set to a postion, not the value at that    
+        position.`
+    - [code]    
+          
+      .. code-block::    
+          
+         for (int i=first+1; i<=last; i++) {    
+             if ( y[i] > bestSoFar ) {    
+                bestSoFar = i;    
+             } // if    
+         } // for    
+          
+          
+      ```    
+      
+
+      - a)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`      
+            
+        if (y[i] < y[bestSoFar]) ... This is setting bestSoFar to the value of the    
+        SMALLEST number so far.    
+            
+        b)    
+            
+        CORRECT!    
+            
+        c)    
+            
+        CORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if ( y[i] > y[bestSoFar] ) ... bestSoFar is storing the minimum value, NOT the    
+        position of the minimum value.    
+            
+        [code]    
+            
+            bestSoFar = i  ... bestSoFar is being set to a postion, not the value at that poisition.    
+                
+                
+        [/code]    
+            
+            
+            
+        d)    
+            
+        INCORRECT:    
+            
+        The loop starts at  `last ... it is NOT running forward.`    
+            
+        if (y[i] < bestSoFar) ... This is lokking for theSMALLEST value.    
+            
+        `bestSoFar = i ... bestSoFar is being set to a postion, not the value at that    
+        position.`    
+            
+            
+            
+        e)    
+            
+        INCORRECT:    
+            
+        b`estSoFar = i  ... bestSoFar is being set to a postion, not the value at that    
+        position.`

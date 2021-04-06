@@ -1,0 +1,65 @@
+.. mchoice:: canterburyqb_631878
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/38.png    
+       :target: img/38.png    
+       :alt: no description    
+        
+        
+    The simplified UML diagram above shows the relationships among classes Bird,    
+    Crow, and Duck.    
+        
+    Suppose Russell is an instance of Crow and Howard is an instance of Duck.    
+        
+    Which of the following is incorrect?    
+    
+
+    - Howard is an instance of Bird    
+      
+
+      - A useful way to look at classes and instances is to use sets: a class    
+        describes a set of instances that share the same attributes and capabilities,    
+        and instantiating from a set produces a member of that set.  From this    
+        perspective, a class's superclass is a superset of that class, defined by    
+        attributes and capabilities that are subsets of those of the class.  So: all    
+        instances of a class are instances of all of its class's ancestors, and all    
+        instances of a class share the attributes and capabilities of that class.  So    
+        all but B are correct; B is incorrect because Crow is not an instance.
+    - Crow is an instance of Bird    
+      
+
+      + Correct!
+    - Russell has the capabilities and attributes of a Bird    
+      
+
+      - A useful way to look at classes and instances is to use sets: a class    
+        describes a set of instances that share the same attributes and capabilities,    
+        and instantiating from a set produces a member of that set.  From this    
+        perspective, a class's superclass is a superset of that class, defined by    
+        attributes and capabilities that are subsets of those of the class.  So: all    
+        instances of a class are instances of all of its class's ancestors, and all    
+        instances of a class share the attributes and capabilities of that class.  So    
+        all but B are correct; B is incorrect because Crow is not an instance.
+    - Bird is the superclass of Duck    
+      
+
+      - A useful way to look at classes and instances is to use sets: a class    
+        describes a set of instances that share the same attributes and capabilities,    
+        and instantiating from a set produces a member of that set.  From this    
+        perspective, a class's superclass is a superset of that class, defined by    
+        attributes and capabilities that are subsets of those of the class.  So: all    
+        instances of a class are instances of all of its class's ancestors, and all    
+        instances of a class share the attributes and capabilities of that class.  So    
+        all but B are correct; B is incorrect because Crow is not an instance.
+    - All Bird attributes are shared by Russell and Howard    
+      
+
+      - A useful way to look at classes and instances is to use sets: a class    
+        describes a set of instances that share the same attributes and capabilities,    
+        and instantiating from a set produces a member of that set.  From this    
+        perspective, a class's superclass is a superset of that class, defined by    
+        attributes and capabilities that are subsets of those of the class.  So: all    
+        instances of a class are instances of all of its class's ancestors, and all    
+        instances of a class share the attributes and capabilities of that class.  So    
+        all but B are correct; B is incorrect because Crow is not an instance.

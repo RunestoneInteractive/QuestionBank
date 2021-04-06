@@ -1,0 +1,24 @@
+.. mchoice:: canterburyqb_633879
+    :basecourse: canterburyqb
+        
+    Which command will tell gcc to optimize recursion so that any code that has    
+    been executed will not be executed again? (e.g. fibo(3) will only be    
+    calculated once.)    
+    
+
+    - gcc fibonacci.c -03    
+      
+
+      + Correct!
+    - gcc fibonacci.c -o    
+      
+
+      - Optimization level 3 is what is needed to avoid redundant recursive calls.
+    - gcc fibonacci.c --optimize    
+      
+
+      - Optimization level 3 is what is needed to avoid redundant recursive calls.
+    - gcc fibonacci.c -g    
+      
+
+      - Optimization level 3 is what is needed to avoid redundant recursive calls.

@@ -1,0 +1,78 @@
+.. mchoice:: canterburyqb_634920
+    :basecourse: canterburyqb
+        
+    The **Fibonacci sequence** is 0, 1, 1, 2, 3, 5, 8, 13 ... Any term (value) of    
+    the sequence that follows the first two terms (0 and 1) is equal to the sum of    
+    the preceding two terms. Consider the following incomplete method to compute    
+    any term of the Fibonacci sequence:    
+        
+    .. code-block::    
+        
+        
+           public static int fibonacci(int term)    
+           {    
+               int fib1 = 0;          // Line 1    
+               int fib2 = 1;          // Line 2    
+               int fibn = 0;          // Line 3    
+        
+               if (term == 1)         // Line 4    
+               {    
+                   return fib1;       // Line 5    
+               }    
+               if (term == 2)         // Line 6    
+               {    
+                   return fib2;       // Line 7    
+               }    
+        
+               for (__________)       // Line 8: loop to the nth term    
+               {    
+                   fibn = __________; // Line 9: compute the next term    
+                   fib1 = __________; // Line 10: reset the second preceding term    
+                   fib2 = __________; // Line 11: reset the immediate preceding term    
+               }    
+               return fibn;           // Line 12: return the computed term    
+           }    
+        
+    Choose the best answer to fill in the blank on line 10.    
+    
+
+    - ``fib1``    
+      
+
+      - Since each term in the sequence is formed by adding together the previous two    
+        terms, the local variables `fib1` and `fib2` are used to store the previous    
+        two terms for recall in computing the next value in the sequence.  After    
+        computing the next term in the sequence, the loop moves the value of `fib2`    
+        into `fib1`, and the value of `fibn` into `fib2`, so that the previous two    
+        terms are ready for use in the next loop iteration.
+    - ``fib2``    
+      
+
+      + Correct!
+    - ``fibn``    
+      
+
+      - Since each term in the sequence is formed by adding together the previous two    
+        terms, the local variables `fib1` and `fib2` are used to store the previous    
+        two terms for recall in computing the next value in the sequence.  After    
+        computing the next term in the sequence, the loop moves the value of `fib2`    
+        into `fib1`, and the value of `fibn` into `fib2`, so that the previous two    
+        terms are ready for use in the next loop iteration.
+    - ``fib1 + fib2``    
+      
+
+      - Since each term in the sequence is formed by adding together the previous two    
+        terms, the local variables `fib1` and `fib2` are used to store the previous    
+        two terms for recall in computing the next value in the sequence.  After    
+        computing the next term in the sequence, the loop moves the value of `fib2`    
+        into `fib1`, and the value of `fibn` into `fib2`, so that the previous two    
+        terms are ready for use in the next loop iteration.
+    - ``fibn - fib2``    
+      
+
+      - Since each term in the sequence is formed by adding together the previous two    
+        terms, the local variables `fib1` and `fib2` are used to store the previous    
+        two terms for recall in computing the next value in the sequence.  After    
+        computing the next term in the sequence, the loop moves the value of `fib2`    
+        into `fib1`, and the value of `fibn` into `fib2`, so that the previous two    
+        terms are ready for use in the next loop iteration.

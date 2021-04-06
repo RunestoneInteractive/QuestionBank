@@ -1,0 +1,74 @@
+.. mchoice:: canterburyqb_634991
+    :basecourse: canterburyqb
+        
+    Consider this method skeleton for ``findDigit()``\ :    
+        
+    .. code-block::    
+        
+        
+           /**    
+           * Returns the number of times the digit d occurs in the decimal    
+           * representation of n.    
+           * @param n The number to consider (must be non-negative).    
+           * @param d The digit to look for (must be 0-9).    
+           * Returns the number of times d occurs in the printed representation    
+           * of n.    
+           */    
+           public int findDigit(int n, int d)  // Line 1    
+           {    
+               int count = 0;                  // Line 2    
+               if (__________)                 // Line 3    
+               {    
+                   __________;                 // Line 4    
+               }    
+               while (n > 0)                   // Line 5    
+               {    
+                   if (n % 10 == d)            // Line 6    
+                   {    
+                       count++;                // Line 7    
+                   }    
+                   __________;                 // Line 8    
+               }    
+               return count;                   // Line 9    
+           }    
+        
+    Select the best choice to fill in the blank on line 8 in this method to    
+    produce the correct behavior.    
+    
+
+    - n = n % 10;    
+      
+
+      - The loop in this method traverses through the digits in the specified number    
+        `n` from right-to-left--from least significant digit to most significant.    
+        Each iteration of the loop examines the rightmost digit that remains by using    
+        the modulo operator. To strip off and remove the least significant digit in    
+        `n` to prepare for the next iteration of the loop, use `n = n / 10;`.
+    - n = n - d;    
+      
+
+      - The loop in this method traverses through the digits in the specified number    
+        `n` from right-to-left--from least significant digit to most significant.    
+        Each iteration of the loop examines the rightmost digit that remains by using    
+        the modulo operator. To strip off and remove the least significant digit in    
+        `n` to prepare for the next iteration of the loop, use `n = n / 10;`.
+    - n = n + d;    
+      
+
+      - The loop in this method traverses through the digits in the specified number    
+        `n` from right-to-left--from least significant digit to most significant.    
+        Each iteration of the loop examines the rightmost digit that remains by using    
+        the modulo operator. To strip off and remove the least significant digit in    
+        `n` to prepare for the next iteration of the loop, use `n = n / 10;`.
+    - n = Integer.toString(n).substring(1);    
+      
+
+      - The loop in this method traverses through the digits in the specified number    
+        `n` from right-to-left--from least significant digit to most significant.    
+        Each iteration of the loop examines the rightmost digit that remains by using    
+        the modulo operator. To strip off and remove the least significant digit in    
+        `n` to prepare for the next iteration of the loop, use `n = n / 10;`.
+    - n = n / 10;    
+      
+
+      + Correct!

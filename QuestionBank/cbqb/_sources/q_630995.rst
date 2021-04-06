@@ -1,0 +1,40 @@
+.. mchoice:: canterburyqb_630995
+    :basecourse: canterburyqb
+        
+    In the Java language, what is the value of this expression?    
+        
+    ``8 / 5 + 3.2``    
+    
+
+    - ``3``    
+      
+
+      - Because of precedence, the division operator is applied first.  Since it is    
+        applied between two `int` values, the result is also an `int`, with any    
+        fractional part truncated.  The result of the division is therefore 1. Next,    
+        the addition is performed, giving the result: 4.2.
+    - ``3.2``    
+      
+
+      - Because of precedence, the division operator is applied first.  Since it is    
+        applied between two `int` values, the result is also an `int`, with any    
+        fractional part truncated.  The result of the division is therefore 1. Next,    
+        the addition is performed, giving the result: 4.2.
+    - ``4.2``    
+      
+
+      + Correct!
+    - ``4.8``    
+      
+
+      - Because of precedence, the division operator is applied first.  Since it is    
+        applied between two `int` values, the result is also an `int`, with any    
+        fractional part truncated.  The result of the division is therefore 1. Next,    
+        the addition is performed, giving the result: 4.2.
+    - ``6``    
+      
+
+      - Because of precedence, the division operator is applied first.  Since it is    
+        applied between two `int` values, the result is also an `int`, with any    
+        fractional part truncated.  The result of the division is therefore 1. Next,    
+        the addition is performed, giving the result: 4.2.

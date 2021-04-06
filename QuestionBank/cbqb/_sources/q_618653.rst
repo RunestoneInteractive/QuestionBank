@@ -1,0 +1,53 @@
+.. mchoice:: canterburyqb_618653
+    :basecourse: canterburyqb
+        
+    A compiler error existed in this code. Why is that happening?    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+         static int testCount;    
+        
+         public int getCount(){    
+        
+             return testCount;    
+        
+         }    
+        
+         public test(){    
+        
+             testCount ++;    
+        
+         }    
+        
+         public static void main(String [] Args){    
+        
+             System.out.print(getCount());    
+        
+         }    
+        
+        
+    }    
+    
+
+    - testCount has not been initialized    
+      
+
+      - testCount as a static variable cannot be referenced in a non-static method    
+        such as getCount() or a constructor such as test().
+    - getCount() cannot be called inside main method.    
+      
+
+      + Correct!
+    - testCount as a static variable cannot be referenced in a non-static method    
+      such as getCount() or a constructor such as test().    
+      
+
+      - testCount as a static variable cannot be referenced in a non-static method    
+        such as getCount() or a constructor such as test().
+    - testCount's access modifier is not public.    
+      
+
+      - testCount as a static variable cannot be referenced in a non-static method    
+        such as getCount() or a constructor such as test().

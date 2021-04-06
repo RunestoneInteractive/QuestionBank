@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_634173
+    :basecourse: canterburyqb
+        
+    What are hash functions **not** used for? (Or at least, should not be used    
+    for.)    
+    
+
+    - Storing values in hash tables    
+      
+
+      - Hash functions should be used to store passwords, but not to encrypt them!
+    - Checking file integrity    
+      
+
+      - Hash functions should be used to store passwords, but not to encrypt them!
+    - Encrypting passwords    
+      
+
+      + Correct!
+    - Digital signatures on files    
+      
+
+      - Hash functions should be used to store passwords, but not to encrypt them!

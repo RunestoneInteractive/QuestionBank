@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_635020
+    :basecourse: canterburyqb
+        
+    Programs implementing the "Examine All" programming pattern typically run in    
+    time:    
+    
+
+    - *O* (n2)    
+      
+
+      - Examine all algorithm need, in the worst case, to individually "process" each    
+        element or value in the input once.  Hence examine all algorithms exhibit a    
+        linear run time.  Examples of examine all algorithms include _Find Largest,    
+        Count Odd,_ or _, Is Sorted._
+    - *O* (n3)    
+      
+
+      - Examine all algorithm need, in the worst case, to individually "process" each    
+        element or value in the input once.  Hence examine all algorithms exhibit a    
+        linear run time.  Examples of examine all algorithms include _Find Largest,    
+        Count Odd,_ or _, Is Sorted._
+    - *O* (n)    
+      
+
+      + Correct!
+    - *O* (n!)    
+      
+
+      - Examine all algorithm need, in the worst case, to individually "process" each    
+        element or value in the input once.  Hence examine all algorithms exhibit a    
+        linear run time.  Examples of examine all algorithms include _Find Largest,    
+        Count Odd,_ or _, Is Sorted._
+    - *O* (n log2 n)    
+      
+
+      - Examine all algorithm need, in the worst case, to individually "process" each    
+        element or value in the input once.  Hence examine all algorithms exhibit a    
+        linear run time.  Examples of examine all algorithms include _Find Largest,    
+        Count Odd,_ or _, Is Sorted._

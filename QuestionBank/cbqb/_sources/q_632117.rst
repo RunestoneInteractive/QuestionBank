@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632117
+    :basecourse: canterburyqb
+        
+    Which data structures would be proper in terms of performance to implement    
+    flight waiting lists?    
+    
+
+    - Priority Queue    
+      
+
+      - Array
+    - Heap    
+      
+
+      + Correct!
+    - Array    
+      
+
+      - Array
+    - Linked list    
+      
+
+      - Array

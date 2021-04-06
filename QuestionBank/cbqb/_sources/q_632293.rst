@@ -1,0 +1,44 @@
+.. mchoice:: canterburyqb_632293
+    :basecourse: canterburyqb
+        
+    Consider the following Java method:    
+        
+    .. code-block::    
+        
+        
+           public T pop() { // 1    
+              T tmp; // 2    
+              if (this.top == null) // 3    
+                 tmp = null; // 4    
+              else { // 5    
+                 tmp = this.top.getElement(); // 6    
+                 this.top = this.top.getNext(); // 7    
+              } // 8    
+              return tmp; // 9    
+           } // 10    
+        
+    What would happen if line 7 were before line 6?    
+    
+
+    - The code would not compile.    
+      
+
+      - If the two lines are re-ordered, the code will change the value of top to the    
+        second node, and then the second value in the stack will be the one that is    
+        returned.
+    - The code would compile, but it wouldn't run.    
+      
+
+      - If the two lines are re-ordered, the code will change the value of top to the    
+        second node, and then the second value in the stack will be the one that is    
+        returned.
+    - The code would compile and run, but it would return the wrong value.    
+      
+
+      + Correct!
+    - The code would compile and run, and it would work just the same.    
+      
+
+      - If the two lines are re-ordered, the code will change the value of top to the    
+        second node, and then the second value in the stack will be the one that is    
+        returned.

@@ -1,0 +1,101 @@
+.. mchoice:: canterburyqb_635023
+    :basecourse: canterburyqb
+        
+    Suppose ``s`` is an instance of a stack that can store Strings, and I execute    
+    the following statements?    
+        
+    .. code-block::    
+        
+        
+           1. s.push("Finland");    
+           2. s.push("is");    
+           3. s.push("my");    
+           4. String w = s.peek();    
+           5. String x = s.pop();    
+           6. s.push("home");    
+           7. String y = s.pop();    
+           8. String z = s.pop();    
+        
+    What is the value of z after executing these statements in order?    
+    
+
+    - "Finland"    
+      
+
+      - After the three pushes the stack contents (from top) is ["my" "is" "Finland"    
+        ...]    
+            
+        4\. doesn't change the stack.    
+            
+        the contents of the stack are (after each numbered instruction)    
+            
+        5\. ["is" "Finland" ...]    
+            
+        6\. ["home" "is" "Finland" ...]    
+            
+        7\. ["is" "Finland" ...]    
+            
+        8\. sets z to "is", which is popped, leaving the stack as ["Finland" ...]    
+            
+        So B is correct.
+    - "is"    
+      
+
+      + Correct!
+    - "my"    
+      
+
+      - After the three pushes the stack contents (from top) is ["my" "is" "Finland"    
+        ...]    
+            
+        4\. doesn't change the stack.    
+            
+        the contents of the stack are (after each numbered instruction)    
+            
+        5\. ["is" "Finland" ...]    
+            
+        6\. ["home" "is" "Finland" ...]    
+            
+        7\. ["is" "Finland" ...]    
+            
+        8\. sets z to "is", which is popped, leaving the stack as ["Finland" ...]    
+            
+        So B is correct.
+    - "home"    
+      
+
+      - After the three pushes the stack contents (from top) is ["my" "is" "Finland"    
+        ...]    
+            
+        4\. doesn't change the stack.    
+            
+        the contents of the stack are (after each numbered instruction)    
+            
+        5\. ["is" "Finland" ...]    
+            
+        6\. ["home" "is" "Finland" ...]    
+            
+        7\. ["is" "Finland" ...]    
+            
+        8\. sets z to "is", which is popped, leaving the stack as ["Finland" ...]    
+            
+        So B is correct.
+    - None of the above    
+      
+
+      - After the three pushes the stack contents (from top) is ["my" "is" "Finland"    
+        ...]    
+            
+        4\. doesn't change the stack.    
+            
+        the contents of the stack are (after each numbered instruction)    
+            
+        5\. ["is" "Finland" ...]    
+            
+        6\. ["home" "is" "Finland" ...]    
+            
+        7\. ["is" "Finland" ...]    
+            
+        8\. sets z to "is", which is popped, leaving the stack as ["Finland" ...]    
+            
+        So B is correct.

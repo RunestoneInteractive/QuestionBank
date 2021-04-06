@@ -1,0 +1,59 @@
+.. mchoice:: canterburyqb_632065
+    :basecourse: canterburyqb
+        
+    Assuming "FRED" is an ASCII text file which opens correctly, what will be    
+    displayed by this code?    
+        
+    define MAX 128    
+    ==============    
+        
+    FILE *pFile = fopen("FRED", "r");    
+        
+    unsigned uCount = 0;    
+        
+    while(!feof(pFile))    
+        
+    {    
+        
+    .. code-block::    
+        
+        char ch;    
+        
+        ch = fgetc(pFile);    
+        
+        uCount++;    
+        
+        
+    }    
+        
+    printf("%u", uCount);    
+    
+
+    - The number of characters in the file    
+      
+
+      + Correct!
+    - The number of words in the file    
+      
+
+      - The function reads the file character by character and increments a counter on    
+        each read, the result of which is printed on reaching the end of file giving    
+        the total character count in the file
+    - The number of sentences in the file    
+      
+
+      - The function reads the file character by character and increments a counter on    
+        each read, the result of which is printed on reaching the end of file giving    
+        the total character count in the file
+    - The number of lines of text in the file    
+      
+
+      - The function reads the file character by character and increments a counter on    
+        each read, the result of which is printed on reaching the end of file giving    
+        the total character count in the file
+    - The number of words on the last line of text in the file    
+      
+
+      - The function reads the file character by character and increments a counter on    
+        each read, the result of which is printed on reaching the end of file giving    
+        the total character count in the file

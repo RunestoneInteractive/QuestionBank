@@ -1,0 +1,80 @@
+.. mchoice:: canterburyqb_635127
+    :basecourse: canterburyqb
+        
+    Assume that an object of the following class has just been created:    
+        
+    .. code-block::    
+        
+        
+           public class Unknown    
+           {    
+               private int x;    
+        
+               public Unknown()    
+               {    
+                   x = 17;    
+                   method1();    
+                   method2(5);    
+                   method3();    
+                   System.out.println(x);      // Line D    
+               }    
+        
+               public void method1()    
+               {    
+                   --x;    
+                   int x = this.x;    
+                   x++;    
+                   System.out.println(this.x); // Line A    
+               }    
+        
+               public void method2(int x)    
+               {    
+                   x++;    
+                   System.out.println(x);      // Line B    
+               }    
+        
+               public void method3()    
+               {    
+                   --x;    
+                   int x = 2;    
+                   x++;    
+                   System.out.println(x);      // Line C    
+               }    
+           }    
+        
+    What output is produced by **Line B** when an instance of this class is    
+    created?    
+    
+
+    - 3    
+      
+
+      - Line B prints the value of the parameter called `x in `method2()``.  That    
+        parameter is given the value 5 when `method2()` is called from the    
+        constructor, and then the parameter itself is incremented on the first line of    
+        `method2()`, so the value printed is 6.
+    - 5    
+      
+
+      - Line B prints the value of the parameter called `x in `method2()``.  That    
+        parameter is given the value 5 when `method2()` is called from the    
+        constructor, and then the parameter itself is incremented on the first line of    
+        `method2()`, so the value printed is 6.
+    - 6    
+      
+
+      + Correct!
+    - 17    
+      
+
+      - Line B prints the value of the parameter called `x in `method2()``.  That    
+        parameter is given the value 5 when `method2()` is called from the    
+        constructor, and then the parameter itself is incremented on the first line of    
+        `method2()`, so the value printed is 6.
+    - 18    
+      
+
+      - Line B prints the value of the parameter called `x in `method2()``.  That    
+        parameter is given the value 5 when `method2()` is called from the    
+        constructor, and then the parameter itself is incremented on the first line of    
+        `method2()`, so the value printed is 6.

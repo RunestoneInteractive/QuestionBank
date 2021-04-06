@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_631999
+    :basecourse: canterburyqb
+        
+    Which of the following assertions about methods is correct?    
+    
+
+    - The body of a method must contain at least one return statement.    
+      
+
+      - (a) and (b) are true of functions, but not of Java methods in general. (c) is    
+        incorrect. Methods in general and functions specifically can be written with    
+        or without parameters. (d) is correct: methods without a return statement    
+        can't be on the right-hand side of an assignment statement, because they don't    
+        have a value. And if (d) is correct, (e) must be wrong.
+    - A method must return a value.    
+      
+
+      - (a) and (b) are true of functions, but not of Java methods in general. (c) is    
+        incorrect. Methods in general and functions specifically can be written with    
+        or without parameters. (d) is correct: methods without a return statement    
+        can't be on the right-hand side of an assignment statement, because they don't    
+        have a value. And if (d) is correct, (e) must be wrong.
+    - A method invocation must contain at least one argument.    
+      
+
+      - (a) and (b) are true of functions, but not of Java methods in general. (c) is    
+        incorrect. Methods in general and functions specifically can be written with    
+        or without parameters. (d) is correct: methods without a return statement    
+        can't be on the right-hand side of an assignment statement, because they don't    
+        have a value. And if (d) is correct, (e) must be wrong.
+    - A method with no return statement must not be invoked on the right side of an    
+      assignment statement.    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - (a) and (b) are true of functions, but not of Java methods in general. (c) is    
+        incorrect. Methods in general and functions specifically can be written with    
+        or without parameters. (d) is correct: methods without a return statement    
+        can't be on the right-hand side of an assignment statement, because they don't    
+        have a value. And if (d) is correct, (e) must be wrong.

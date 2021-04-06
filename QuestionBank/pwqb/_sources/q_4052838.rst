@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052838
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q14:</strong><br />The header file &lt;string.h&gt; contains prototype declarations for a number of string processing functions. What is the output of the following program?</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">#include &lt;stdio.h&gt;</span><br /><span style="font-family: courier new, courier, monospace;">#include &lt;string.h&gt;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int main(void)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; char word[100];</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; word[0] = 'a';</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; word[1] = 'b';</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; word[2] = 'c';</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; word[3] = '\0';</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; printf("%s %d", word, strlen(word));</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p>
+    
+
+    - abc\0 4    
+      
+
+      - Incorrect
+    - abc0 3    
+      
+
+      - Incorrect
+    - abc 4    
+      
+
+      - Incorrect
+    - abc0 4    
+      
+
+      - Incorrect
+    - abc 3    
+      
+
+      + Correct!

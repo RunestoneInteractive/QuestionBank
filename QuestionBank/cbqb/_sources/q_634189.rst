@@ -1,0 +1,22 @@
+.. mchoice:: canterburyqb_634189
+    :basecourse: canterburyqb
+        
+    What is **not** a property of a max-heap?    
+    
+
+    - It is complete    
+      
+
+      - A max-heap need not be sorted.
+    - A node's value is less than or equal to that of its parent    
+      
+
+      - A max-heap need not be sorted.
+    - Its values are sorted in when printed in level order    
+      
+
+      + Correct!
+    - Its root is the maximum element in the tree    
+      
+
+      - A max-heap need not be sorted.

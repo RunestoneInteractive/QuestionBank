@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633246
+    :basecourse: canterburyqb
+        
+    For a graph with N nodes, what's the minimum number of edges it must have for    
+    it to contain a cycle?    
+    
+
+    - N + 1    
+      
+
+      - A vertex with an edge to itself is a cycle.
+    - N    
+      
+
+      - A vertex with an edge to itself is a cycle.
+    - N - 1    
+      
+
+      - A vertex with an edge to itself is a cycle.
+    - 1    
+      
+
+      + Correct!
+    - 2    
+      
+
+      - A vertex with an edge to itself is a cycle.

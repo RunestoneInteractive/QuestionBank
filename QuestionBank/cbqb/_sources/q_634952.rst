@@ -1,0 +1,81 @@
+.. mchoice:: canterburyqb_634952
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/5.png    
+       :target: img/5.png    
+       :alt: no description    
+        
+        
+    Given the above binary tree rooted at Node A, what is the order of nodes    
+    visited by a breadth-first traversal?    
+    
+
+    - A, B, C, D, E, F, G    
+      
+
+      + Correct!
+    - A, B, D, E, C, F, G    
+      
+
+      - A breadth-first traversal procedes by levels --  the root, then all of the    
+        nodes that are children of the root, then all of the nodes that are    
+        grandchildren of the root, etc.    
+            
+        In this case we get:    
+            
+        Visit A (the root)    
+            
+        Visit B, C (children of the root)    
+            
+        Visit D, E, F, G (grandchildren of the root)    
+            
+        This corresponds to answer A.
+    - D, B, E, A, F, C, G    
+      
+
+      - A breadth-first traversal procedes by levels --  the root, then all of the    
+        nodes that are children of the root, then all of the nodes that are    
+        grandchildren of the root, etc.    
+            
+        In this case we get:    
+            
+        Visit A (the root)    
+            
+        Visit B, C (children of the root)    
+            
+        Visit D, E, F, G (grandchildren of the root)    
+            
+        This corresponds to answer A.
+    - D, E, B, F, G, C, A    
+      
+
+      - A breadth-first traversal procedes by levels --  the root, then all of the    
+        nodes that are children of the root, then all of the nodes that are    
+        grandchildren of the root, etc.    
+            
+        In this case we get:    
+            
+        Visit A (the root)    
+            
+        Visit B, C (children of the root)    
+            
+        Visit D, E, F, G (grandchildren of the root)    
+            
+        This corresponds to answer A.
+    - G, F, E, D, C, B, A    
+      
+
+      - A breadth-first traversal procedes by levels --  the root, then all of the    
+        nodes that are children of the root, then all of the nodes that are    
+        grandchildren of the root, etc.    
+            
+        In this case we get:    
+            
+        Visit A (the root)    
+            
+        Visit B, C (children of the root)    
+            
+        Visit D, E, F, G (grandchildren of the root)    
+            
+        This corresponds to answer A.

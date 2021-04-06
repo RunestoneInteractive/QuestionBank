@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_633244
+    :basecourse: canterburyqb
+        
+    Suppose you have a binary search tree with no right children. Furthermore, key    
+    A is considered greater than key B if A.compareTo(B) >= 0. Which of the    
+    following explains how this tree may have ended up this way?    
+    
+
+    - It was filled in ascending order.    
+      
+
+      - If the greatest node was inserted first, with each successive node having a    
+        lesser key than its predecessor, we'd end up with all left children. Adding    
+        nodes with identical keys produces right children.
+    - The root value was the minimum.    
+      
+
+      - If the greatest node was inserted first, with each successive node having a    
+        lesser key than its predecessor, we'd end up with all left children. Adding    
+        nodes with identical keys produces right children.
+    - All keys were identical.    
+      
+
+      - If the greatest node was inserted first, with each successive node having a    
+        lesser key than its predecessor, we'd end up with all left children. Adding    
+        nodes with identical keys produces right children.
+    - The tree is a preorder tree.    
+      
+
+      - If the greatest node was inserted first, with each successive node having a    
+        lesser key than its predecessor, we'd end up with all left children. Adding    
+        nodes with identical keys produces right children.
+    - It was filled in descending order.    
+      
+
+      + Correct!

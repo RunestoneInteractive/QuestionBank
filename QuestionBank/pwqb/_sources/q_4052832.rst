@@ -1,0 +1,29 @@
+.. mchoice:: peerwiseqb_4052832
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2018_Q16:</strong></p><p>Consider the following program that uses the LibBMP library to generate an output bitmap image file. The input image file, &ldquo;blank.bmp&rdquo;, is 600 x 600 and all pixels are completely white.</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">#include &lt;stdio.h&gt;</span><br /><span style="font-family: courier new, courier, monospace;">#include "LibBMP.h"</span><br /><span style="font-family: courier new, courier, monospace;">int main(void)</span><br /><span style="font-family: courier new, courier, monospace;">{</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int width, height;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; int i, j;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; LoadBMPFile("blank.bmp", &amp;width, &amp;height);</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; for (i = 100; i &lt; 350; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DrawPixel(i, 100, 0, 0, 0);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; for (i = 0; i &lt; 300; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DrawPixel(100+i, 400-i, 0, 0, 0);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; }</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; SaveBMPFile("output.bmp", width, height);</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp; return 0;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>If the user opened the &ldquo;output.bmp&rdquo; file after this program had executed, which of the following statements <em>best describes</em> the image they would see?</p>
+    
+
+    - one vertical line (top to bottom) and one diagonal line that do not intersect    
+      
+
+      + Correct!
+    - two diagonal lines that intersect    
+      
+
+      - Incorrect
+    - one horizontal line (left to right) and one diagonal line that do not    
+      intersect    
+      
+
+      - Incorrect
+    - one horizontal line (left to right) and one diagonal line that intersect    
+      
+
+      - Incorrect
+    - one vertical line (top to bottom) and one diagonal line that intersect    
+      
+
+      - Incorrect

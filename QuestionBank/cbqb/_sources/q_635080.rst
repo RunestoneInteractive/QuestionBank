@@ -1,0 +1,32 @@
+.. mchoice:: canterburyqb_635080
+    :basecourse: canterburyqb
+        
+    Consider this code segment:    
+        
+    .. code-block::    
+        
+        
+           boolean x = false;    
+           boolean y = true;    
+           boolean z = true;    
+           System.out.println( (!x || y && !z) );    
+        
+    What value is printed?    
+    
+
+    - true    
+      
+
+      + Correct!
+    - false    
+      
+
+      - Since `x` is false, `!x` is true, forcing the entire expression to be true    
+        because of the `||` operator.  Remember that `&&` has higher precedence than    
+        `||` for grouping.
+    - nothing, there is a syntax error    
+      
+
+      - Since `x` is false, `!x` is true, forcing the entire expression to be true    
+        because of the `||` operator.  Remember that `&&` has higher precedence than    
+        `||` for grouping.

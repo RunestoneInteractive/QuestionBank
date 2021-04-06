@@ -1,0 +1,28 @@
+.. mchoice:: canterburyqb_630981
+    :basecourse: canterburyqb
+        
+    Which of the following statements about constructors is NOT true?    
+    
+
+    - All constructors must have the same name as the class they are in.    
+      
+
+      - In Java, a constructor does not have a return type, unlike a method.
+    - A constructor's return type must be declared ``void``.    
+      
+
+      + Correct!
+    - A class may have a constructor that takes no parameters.    
+      
+
+      - In Java, a constructor does not have a return type, unlike a method.
+    - A constructor is called when a program creates an object with the ``new``    
+      operator.    
+      
+
+      - In Java, a constructor does not have a return type, unlike a method.
+    - A constructor of a subclass can call a constructor of its superclass using the    
+      Java reserved word ``super``.    
+      
+
+      - In Java, a constructor does not have a return type, unlike a method.

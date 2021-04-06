@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_631000
+    :basecourse: canterburyqb
+        
+    Which of the following is *not* true about an ``interface`` in Java?    
+    
+
+    - Defines a type    
+      
+
+      - Interfaces cannot be instantiated and cannot contain method bodies.  As a    
+        result, they may not contain constructors.
+    - Must include a constructor    
+      
+
+      + Correct!
+    - Must not include method implementations    
+      
+
+      - Interfaces cannot be instantiated and cannot contain method bodies.  As a    
+        result, they may not contain constructors.
+    - A class may implement more than one interface    
+      
+
+      - Interfaces cannot be instantiated and cannot contain method bodies.  As a    
+        result, they may not contain constructors.
+    - None of these    
+      
+
+      - Interfaces cannot be instantiated and cannot contain method bodies.  As a    
+        result, they may not contain constructors.

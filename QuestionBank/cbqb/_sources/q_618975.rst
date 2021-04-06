@@ -1,0 +1,81 @@
+.. mchoice:: canterburyqb_618975
+    :basecourse: canterburyqb
+        
+    Which of these following codes result the same?    
+        
+    1    
+        
+    if (mark =='A'){    
+        
+    .. code-block::    
+        
+       if (GPA > 3.5)    
+        
+       x = 1;    
+        
+        
+    }    
+        
+    else    
+        
+    .. code-block::    
+        
+       x = 2;    
+        
+        
+        
+        
+    2    
+        
+    if (mark =='A')    
+        
+    .. code-block::    
+        
+       if (GPA > 3.5)    
+        
+           x = 1;    
+        
+       else    
+        
+           x = 2;    
+        
+        
+        
+        
+    3    
+        
+    if (mark =='A'){    
+        
+    .. code-block::    
+        
+       if (GPA > 3.5)    
+        
+           x = 1;    
+        
+        
+       else    
+        
+    .. code-block::    
+        
+           x = 2;    
+        
+        
+    }    
+    
+
+    - 1,2    
+      
+
+      - 1,3
+    - 2,3    
+      
+
+      + Correct!
+    - 1,3    
+      
+
+      - 1,3
+    - 1,2,3    
+      
+
+      - 1,3

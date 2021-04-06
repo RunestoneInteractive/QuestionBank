@@ -1,0 +1,55 @@
+.. mchoice:: canterburyqb_632127
+    :basecourse: canterburyqb
+        
+    The following processes are arranged in alphabetical order:    
+        
+    1 Application event procedure is called.    
+        
+    2 Event procedure code is executed.    
+        
+    3 User clicks on a button with the mouse.    
+        
+    4 Windows detects an event.    
+        
+    5 Windows passes a message to the application containing the button.    
+        
+    In what order will these processes normally occur in a Visual Basic    
+    application?    
+    
+
+    - 3, 4, 5, 1, 2    
+      
+
+      + Correct!
+    - 2, 3, 5, 4, 1    
+      
+
+      - The button click causes windows to detect an event and pass a message to the    
+        application containing the button.    
+            
+        The application event procedure is called and the event procedure code is    
+        executed.
+    - 4, 3, 2, 5, 1    
+      
+
+      - The button click causes windows to detect an event and pass a message to the    
+        application containing the button.    
+            
+        The application event procedure is called and the event procedure code is    
+        executed.
+    - 3, 5, 4, 1, 2    
+      
+
+      - The button click causes windows to detect an event and pass a message to the    
+        application containing the button.    
+            
+        The application event procedure is called and the event procedure code is    
+        executed.
+    - 1, 2, 3, 5, 4    
+      
+
+      - The button click causes windows to detect an event and pass a message to the    
+        application containing the button.    
+            
+        The application event procedure is called and the event procedure code is    
+        executed.

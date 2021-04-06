@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_633230
+    :basecourse: canterburyqb
+        
+    What is printed when the following program runs?    
+        
+    .. code-block::    
+        
+        
+           public class Main {    
+             public static boolean getTrue() {    
+               System.out.print("T");    
+               return true;    
+             }    
+        
+             public static boolean getFalse() {    
+               System.out.print("F");    
+               return false;    
+             }    
+        
+             public static void main(String[] args) {    
+               getFalse() || getFalse();    
+             }    
+           }    
+    
+
+    - T    
+      
+
+      - || evaluates the left operand first. It's not true, so it checks the second.
+    - FF    
+      
+
+      + Correct!
+    - F    
+      
+
+      - || evaluates the left operand first. It's not true, so it checks the second.
+    - FT    
+      
+
+      - || evaluates the left operand first. It's not true, so it checks the second.
+    - Nothing is printed.    
+      
+
+      - || evaluates the left operand first. It's not true, so it checks the second.

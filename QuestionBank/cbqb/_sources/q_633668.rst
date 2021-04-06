@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_633668
+    :basecourse: canterburyqb
+        
+    Consider the following class for a Ninja:    
+        
+    .. code-block::    
+        
+        
+           public class Ninja {    
+             private int honor;    
+             public Ninja(int h) {    
+               this.honor=h;    
+             }    
+           }    
+        
+    Suppose we instantiate two Ninjas like this:    
+        
+    .. code-block::    
+        
+        
+           Ninja n1=new Ninja(50);    
+           Ninja n2=new Ninja(50);    
+        
+    Is the following statement True, False, or It Depends (i.e. depends on a    
+    factor external to this question)    
+        
+    n1.equals(n2)    
+    
+
+    - True    
+      
+
+      - The equals() method has not been overloaded, so it's using the default    
+        implementation of equals() in Java, which falls back on ==.    
+            
+        This is sort of a trick question, but it's a reasonably common error pattern    
+        in CS-2.
+    - False    
+      
+
+      + Correct!
+    - It depends    
+          
+      (Be ready to discuss what it depends on when we get to the discussion phase of    
+      this question)    
+      
+
+      - The equals() method has not been overloaded, so it's using the default    
+        implementation of equals() in Java, which falls back on ==.    
+            
+        This is sort of a trick question, but it's a reasonably common error pattern    
+        in CS-2.

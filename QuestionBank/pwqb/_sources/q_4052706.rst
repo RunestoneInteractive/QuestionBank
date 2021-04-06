@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052706
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2015_Q14:</strong></p><p>What is the output of the following code?</p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">int i;</span><br /><span style="font-family: courier new,courier,monospace;">int nums[5] = {1, 2, 3, 4, 5};</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 5; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; nums[i] = nums[(i+3)%5];</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p><p>&nbsp;</p><p><span style="font-family: courier new,courier,monospace;">printf("Result = ");</span><br /><span style="font-family: courier new,courier,monospace;">for (i = 0; i &lt; 5; i++) {</span><br /><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; printf("%d ", nums[i]);</span><br /><span style="font-family: courier new,courier,monospace;">}</span></p>
+    
+
+    - Result = 4 5 3 4 5    
+      
+
+      - Incorrect
+    - Result = 2 3 4 5 2    
+      
+
+      - Incorrect
+    - Result = 4 5 4 5 4    
+      
+
+      + Correct!
+    - Result = 3 4 5 3 4    
+      
+
+      - Incorrect
+    - Result = 2 3 4 1 5    
+      
+
+      - Incorrect

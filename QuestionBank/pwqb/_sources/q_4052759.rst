@@ -1,0 +1,28 @@
+.. mchoice:: peerwiseqb_4052759
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q25:</strong></p><p>Consider the following pattern which consists of 16 characters printed in a 4x4 pattern (and with a new line character at the end of each line):</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">OOOO</span><br /><span style="font-family: courier new, courier, monospace;">XOOO</span><br /><span style="font-family: courier new, courier, monospace;">XXOO</span><br /><span style="font-family: courier new, courier, monospace;">XXXO</span></p><p>&nbsp;</p><p>The nested loop below will generate the pattern above, however the condition on the inner loop is missing and has been replaced with <strong>????</strong>:</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int i, j;</span></p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">for (i = 0; i &lt; 4; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; for (j = 0; j &lt; 4; j++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ( <strong><span style="font-family: arial, helvetica, sans-serif;">????</span></strong> ) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("X");</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; printf("O");</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; printf("\n");</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>How should the condition be written, completing the <strong>????</strong> above, so that the output generated is exactly as required?</p>
+    
+
+    - ``if ( i + 1 > j ) {``    
+      
+
+      - Incorrect
+    - ``if ( i < j + 1 ) {``    
+      
+
+      - Incorrect
+    - ``if ( i > j + 1 ) {``    
+      
+
+      - Incorrect
+    - ``if ( i + 1 < j ) {``    
+      
+
+      - Incorrect
+    - None of the above    
+      
+
+      + Correct!

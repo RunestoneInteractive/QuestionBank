@@ -1,0 +1,30 @@
+.. mchoice:: canterburyqb_633571
+    :basecourse: canterburyqb
+        
+    Which of the following is true of a Java interface?    
+    
+
+    - Instance variables are allowed, but they must be public.    
+      
+
+      - All methods in an interface are public, even if you leave off the access    
+        modifier.
+    - Private methods may not be declared.    
+      
+
+      + Correct!
+    - Static and final constants may not defined.    
+      
+
+      - All methods in an interface are public, even if you leave off the access    
+        modifier.
+    - Methods may have implementations provided they are marked ``final``.    
+      
+
+      - All methods in an interface are public, even if you leave off the access    
+        modifier.
+    - All methods must be explicitly declared ``abstract``.    
+      
+
+      - All methods in an interface are public, even if you leave off the access    
+        modifier.

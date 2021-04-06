@@ -1,0 +1,61 @@
+.. mchoice:: canterburyqb_634922
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/17.png    
+       :target: img/17.png    
+       :alt: no description    
+        
+        
+    Given this class diagram, what best describes what happens with the code    
+    fragment above?    
+    
+
+    - The code compiles and executes fine    
+      
+
+      - The code will not compile due to the error in line 5: gary's parkCar method    
+        takes a parameter of type SportsCar, but fineCar's declared type is Car.  Even    
+        though fineCar's actual type is SportsCar, the compiler will not let a    
+        variable declared as a superclass of the parameter's type be used in the    
+        method.    
+            
+        Line 2 has no problems, as having the actual type be a subclass of the    
+        declared type is legitimate.
+    - Code fails at compile time, error in line 2    
+      
+
+      - The code will not compile due to the error in line 5: gary's parkCar method    
+        takes a parameter of type SportsCar, but fineCar's declared type is Car.  Even    
+        though fineCar's actual type is SportsCar, the compiler will not let a    
+        variable declared as a superclass of the parameter's type be used in the    
+        method.    
+            
+        Line 2 has no problems, as having the actual type be a subclass of the    
+        declared type is legitimate.
+    - Code fails at execution time, error in line 2    
+      
+
+      - The code will not compile due to the error in line 5: gary's parkCar method    
+        takes a parameter of type SportsCar, but fineCar's declared type is Car.  Even    
+        though fineCar's actual type is SportsCar, the compiler will not let a    
+        variable declared as a superclass of the parameter's type be used in the    
+        method.    
+            
+        Line 2 has no problems, as having the actual type be a subclass of the    
+        declared type is legitimate.
+    - Code fails at compile time, error in line 5    
+      
+
+      + Correct!
+    - Code fails at execution time, error in line 5    
+      
+
+      - The code will not compile due to the error in line 5: gary's parkCar method    
+        takes a parameter of type SportsCar, but fineCar's declared type is Car.  Even    
+        though fineCar's actual type is SportsCar, the compiler will not let a    
+        variable declared as a superclass of the parameter's type be used in the    
+        method.    
+            
+        Line 2 has no problems, as having the actual type be a subclass of the    
+        declared type is legitimate.

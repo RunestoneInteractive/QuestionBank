@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633221
+    :basecourse: canterburyqb
+        
+    This sorting algorithm splits the collection into two halves, sorts the two    
+    halves independently, and combines the results.    
+    
+
+    - selection sort    
+      
+
+      - Merge sort splits the collection, sorts the two halves, and merges them.
+    - insertion sort    
+      
+
+      - Merge sort splits the collection, sorts the two halves, and merges them.
+    - bubble sort    
+      
+
+      - Merge sort splits the collection, sorts the two halves, and merges them.
+    - quick sort    
+      
+
+      - Merge sort splits the collection, sorts the two halves, and merges them.
+    - merge sort    
+      
+
+      + Correct!

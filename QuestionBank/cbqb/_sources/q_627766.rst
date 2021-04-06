@@ -1,0 +1,35 @@
+.. mchoice:: canterburyqb_627766
+    :basecourse: canterburyqb
+        
+    Consider the following recursive method:    
+        
+    .. code-block::    
+        
+        
+           public int examMethod(int n) {    
+              if (n == 1) return 1;    
+              else return (n + this.examMethod(n-1));    
+           }    
+        
+    What value is returned by the call ``examMethod(16)``\ ?    
+    
+
+    - 1    
+      
+
+      - This method returns the sum of the numbers from 1 to the parameter n (as long    
+        as n is greater than or equal to 1).
+    - 16    
+      
+
+      - This method returns the sum of the numbers from 1 to the parameter n (as long    
+        as n is greater than or equal to 1).
+    - 136    
+      
+
+      + Correct!
+    - None of the above.    
+      
+
+      - This method returns the sum of the numbers from 1 to the parameter n (as long    
+        as n is greater than or equal to 1).

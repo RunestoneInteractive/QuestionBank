@@ -1,0 +1,49 @@
+.. mchoice:: canterburyqb_633227
+    :basecourse: canterburyqb
+        
+    What is printed when the following program runs?    
+        
+    .. code-block::    
+        
+        
+           public class Main {    
+             public static boolean getTrue() {    
+               System.out.print("T");    
+               return true;    
+             }    
+        
+             public static boolean getFalse() {    
+               System.out.print("F");    
+               return false;    
+             }    
+        
+             public static void main(String[] args) {    
+               getTrue() || getTrue();    
+             }    
+           }    
+    
+
+    - TT    
+      
+
+      - If the first operand for || is true, as is the case here, the second is not    
+        evaluated.
+    - T    
+      
+
+      + Correct!
+    - F    
+      
+
+      - If the first operand for || is true, as is the case here, the second is not    
+        evaluated.
+    - TF    
+      
+
+      - If the first operand for || is true, as is the case here, the second is not    
+        evaluated.
+    - Nothing is printed.    
+      
+
+      - If the first operand for || is true, as is the case here, the second is not    
+        evaluated.

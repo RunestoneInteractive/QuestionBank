@@ -1,0 +1,60 @@
+.. mchoice:: canterburyqb_630992
+    :basecourse: canterburyqb
+        
+    Suppose you are writing a method in a new class. You are also writing unit    
+    test cases to demonstrate that this method works correctly. You know you have    
+    written enough test cases to demonstrate the method works as desired when?    
+    
+
+    - You have written at least one test case that uses the method.    
+      
+
+      - For most interesting methods, there are too many possible input values and/or    
+        output values for you to check them all.  However, checking just one input our    
+        output is insufficient for methods that do anything sophisticated.  As a    
+        result, it is often helpful to think of the different cases or "equivalence    
+        classes" of input/output values where the methods behaves similarly, and    
+        ensure you test each such group separately.  Often, writing multiple tests for    
+        each group--so that you can double-check the method's behavior "at the    
+        boundary" of the group--is especially helpful.
+    - You have written separate test cases for each identifiable "group" of input    
+      values and/or output values where the behavior is expected to be similar.    
+      
+
+      + Correct!
+    - You have written at least one test case for every input value that can be    
+      given to the method.    
+      
+
+      - For most interesting methods, there are too many possible input values and/or    
+        output values for you to check them all.  However, checking just one input our    
+        output is insufficient for methods that do anything sophisticated.  As a    
+        result, it is often helpful to think of the different cases or "equivalence    
+        classes" of input/output values where the methods behaves similarly, and    
+        ensure you test each such group separately.  Often, writing multiple tests for    
+        each group--so that you can double-check the method's behavior "at the    
+        boundary" of the group--is especially helpful.
+    - You have written at least one test case for every output value that can be    
+      produced by the method.    
+      
+
+      - For most interesting methods, there are too many possible input values and/or    
+        output values for you to check them all.  However, checking just one input our    
+        output is insufficient for methods that do anything sophisticated.  As a    
+        result, it is often helpful to think of the different cases or "equivalence    
+        classes" of input/output values where the methods behaves similarly, and    
+        ensure you test each such group separately.  Often, writing multiple tests for    
+        each group--so that you can double-check the method's behavior "at the    
+        boundary" of the group--is especially helpful.
+    - You have written at least one test case for every input/output value    
+      combination that can be given to/produced by the method.    
+      
+
+      - For most interesting methods, there are too many possible input values and/or    
+        output values for you to check them all.  However, checking just one input our    
+        output is insufficient for methods that do anything sophisticated.  As a    
+        result, it is often helpful to think of the different cases or "equivalence    
+        classes" of input/output values where the methods behaves similarly, and    
+        ensure you test each such group separately.  Often, writing multiple tests for    
+        each group--so that you can double-check the method's behavior "at the    
+        boundary" of the group--is especially helpful.

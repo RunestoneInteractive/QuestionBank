@@ -1,0 +1,157 @@
+.. mchoice:: canterburyqb_634962
+    :basecourse: canterburyqb
+        
+        
+    .. image:: img/29.png    
+       :target: img/29.png    
+       :alt: no description    
+        
+        
+    Given the above binary tree rooted at Node A, what is the order of nodes    
+    visited by a preorder search?    
+    
+
+    - A, B, C, D, E, F, G    
+      
+
+      - A preorder search of a tree is:  visit the root, visit the left subtree, visit    
+        the right subtree.    
+            
+        It procedes as    
+            
+        Visit A    
+            
+        Visit left subtree:    
+            
+             Visit B (its root)    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+        Visit right subtree:    
+            
+            Visit C (its root)    
+            
+            Visit its left subtree:    
+            
+                Visit F    
+            
+            Visit its right subtree:    
+            
+                Visit G    
+            
+        The order of nodes visited corresponds to answer B
+    - A, B, D, E, C, F, G    
+      
+
+      + Correct!
+    - D, B, E, A, F, C, G    
+      
+
+      - A preorder search of a tree is:  visit the root, visit the left subtree, visit    
+        the right subtree.    
+            
+        It procedes as    
+            
+        Visit A    
+            
+        Visit left subtree:    
+            
+             Visit B (its root)    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+        Visit right subtree:    
+            
+            Visit C (its root)    
+            
+            Visit its left subtree:    
+            
+                Visit F    
+            
+            Visit its right subtree:    
+            
+                Visit G    
+            
+        The order of nodes visited corresponds to answer B
+    - D, E, B, F, G, C, A    
+      
+
+      - A preorder search of a tree is:  visit the root, visit the left subtree, visit    
+        the right subtree.    
+            
+        It procedes as    
+            
+        Visit A    
+            
+        Visit left subtree:    
+            
+             Visit B (its root)    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+        Visit right subtree:    
+            
+            Visit C (its root)    
+            
+            Visit its left subtree:    
+            
+                Visit F    
+            
+            Visit its right subtree:    
+            
+                Visit G    
+            
+        The order of nodes visited corresponds to answer B
+    - G, F, E, D, C, B, A    
+      
+
+      - A preorder search of a tree is:  visit the root, visit the left subtree, visit    
+        the right subtree.    
+            
+        It procedes as    
+            
+        Visit A    
+            
+        Visit left subtree:    
+            
+             Visit B (its root)    
+            
+             Visit its left subtree:    
+            
+                  Visit D    
+            
+             Visit its right subtree:    
+            
+                  Visit E    
+            
+        Visit right subtree:    
+            
+            Visit C (its root)    
+            
+            Visit its left subtree:    
+            
+                Visit F    
+            
+            Visit its right subtree:    
+            
+                Visit G    
+            
+        The order of nodes visited corresponds to answer B

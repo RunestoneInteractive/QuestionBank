@@ -1,0 +1,39 @@
+.. mchoice:: canterburyqb_618517
+    :basecourse: canterburyqb
+        
+    Which of the following variables are object references?    
+        
+    public class firstClass {    
+        
+    .. code-block::    
+        
+            double[] doubleArray = {2.3, 3.4};    
+        
+            public static void main(String[] args) {    
+        
+                  int width = 250;    
+        
+                 Color col = new Color(88,34,200);    
+        
+            }    
+        
+        
+    }    
+    
+
+    - doubleArray, col    
+      
+
+      + Correct!
+    - width, doubleArray    
+      
+
+      - col, width
+    - col, width    
+      
+
+      - col, width
+    - col, width, doubleArray    
+      
+
+      - col, width

@@ -1,0 +1,262 @@
+.. mchoice:: canterburyqb_632165
+    :basecourse: canterburyqb
+        
+    What is output by the code shown in the question below. Think aboutit    
+    carefully - it may be a bit tricky!    
+        
+    void main(void)    
+        
+    {    
+        
+    .. code-block::    
+        
+        static int aiTable[10] = {0,1,2,3,4,5,6,7,8,9};    
+        
+        int i;    
+        
+        for(i = 0; i < 10; i++)    
+        
+        {    
+        
+             if( !(aiTable[i] % 2))    
+        
+                  printf("%d", aiTable[i]);    
+        
+        }    
+        
+        
+    }    
+    
+
+    - 02468    
+      
+
+      + Correct!
+    - 13579    
+      
+
+      - Modulus is the remainder of integer division of two numbers with the result    
+        placed somewhere.    
+            
+        The modulus function of a and b, a being the dividend and b being the divisor,    
+        is a - int(a/b) * b.    
+            
+        For example, using integer results...    
+            
+        47/4 = 11      
+        47%4 = 3    
+            
+        Check it: 47 = 11*4 + 3    
+            
+        Source    
+        http://wiki.answers.com/Q/What_is_the_difference_between_division_and_modulus_in_%27C%27_language    
+            
+        In this case the negatively phrased line of code "if( !(aiTable[i] % 2))" is    
+        an alternative way of  expressing the more common phrasing of a modulus    
+        arithmetic expression as given below    
+            
+        If you wanted to know if a number was odd or even, you could use modulus to    
+        quickly tell you by asking for the remainder of the number when divided by 2.    
+            
+        #include <iostream>    
+            
+        using namespace std;    
+            
+        int main()    
+            
+        {    
+            
+              int num;    
+            
+             cin >> num;    
+            
+             // num % 2 computes the remainder when num is divided by 2    
+            
+             if ( num % 2 == 0 )    
+            
+             {    
+            
+                   cout << num << " is even ";    
+            
+             }    
+            
+        return 0;    
+            
+        }    
+            
+        The key line is the one that performs the modulus operation: "num % 2 == 0". A    
+        number is even if and only if it is divisible by two, and a number is    
+        divisible by another only if there is no remainder.    
+            
+        source: http://www.cprogramming.com/tutorial/modulus.html
+    - 01234    
+      
+
+      - Modulus is the remainder of integer division of two numbers with the result    
+        placed somewhere.    
+            
+        The modulus function of a and b, a being the dividend and b being the divisor,    
+        is a - int(a/b) * b.    
+            
+        For example, using integer results...    
+            
+        47/4 = 11      
+        47%4 = 3    
+            
+        Check it: 47 = 11*4 + 3    
+            
+        Source    
+        http://wiki.answers.com/Q/What_is_the_difference_between_division_and_modulus_in_%27C%27_language    
+            
+        In this case the negatively phrased line of code "if( !(aiTable[i] % 2))" is    
+        an alternative way of  expressing the more common phrasing of a modulus    
+        arithmetic expression as given below    
+            
+        If you wanted to know if a number was odd or even, you could use modulus to    
+        quickly tell you by asking for the remainder of the number when divided by 2.    
+            
+        #include <iostream>    
+            
+        using namespace std;    
+            
+        int main()    
+            
+        {    
+            
+              int num;    
+            
+             cin >> num;    
+            
+             // num % 2 computes the remainder when num is divided by 2    
+            
+             if ( num % 2 == 0 )    
+            
+             {    
+            
+                   cout << num << " is even ";    
+            
+             }    
+            
+        return 0;    
+            
+        }    
+            
+        The key line is the one that performs the modulus operation: "num % 2 == 0". A    
+        number is even if and only if it is divisible by two, and a number is    
+        divisible by another only if there is no remainder.    
+            
+        source: http://www.cprogramming.com/tutorial/modulus.html
+    - 56789    
+      
+
+      - Modulus is the remainder of integer division of two numbers with the result    
+        placed somewhere.    
+            
+        The modulus function of a and b, a being the dividend and b being the divisor,    
+        is a - int(a/b) * b.    
+            
+        For example, using integer results...    
+            
+        47/4 = 11      
+        47%4 = 3    
+            
+        Check it: 47 = 11*4 + 3    
+            
+        Source    
+        http://wiki.answers.com/Q/What_is_the_difference_between_division_and_modulus_in_%27C%27_language    
+            
+        In this case the negatively phrased line of code "if( !(aiTable[i] % 2))" is    
+        an alternative way of  expressing the more common phrasing of a modulus    
+        arithmetic expression as given below    
+            
+        If you wanted to know if a number was odd or even, you could use modulus to    
+        quickly tell you by asking for the remainder of the number when divided by 2.    
+            
+        #include <iostream>    
+            
+        using namespace std;    
+            
+        int main()    
+            
+        {    
+            
+              int num;    
+            
+             cin >> num;    
+            
+             // num % 2 computes the remainder when num is divided by 2    
+            
+             if ( num % 2 == 0 )    
+            
+             {    
+            
+                   cout << num << " is even ";    
+            
+             }    
+            
+        return 0;    
+            
+        }    
+            
+        The key line is the one that performs the modulus operation: "num % 2 == 0". A    
+        number is even if and only if it is divisible by two, and a number is    
+        divisible by another only if there is no remainder.    
+            
+        source: http://www.cprogramming.com/tutorial/modulus.html
+    - 0123456789    
+      
+
+      - Modulus is the remainder of integer division of two numbers with the result    
+        placed somewhere.    
+            
+        The modulus function of a and b, a being the dividend and b being the divisor,    
+        is a - int(a/b) * b.    
+            
+        For example, using integer results...    
+            
+        47/4 = 11      
+        47%4 = 3    
+            
+        Check it: 47 = 11*4 + 3    
+            
+        Source    
+        http://wiki.answers.com/Q/What_is_the_difference_between_division_and_modulus_in_%27C%27_language    
+            
+        In this case the negatively phrased line of code "if( !(aiTable[i] % 2))" is    
+        an alternative way of  expressing the more common phrasing of a modulus    
+        arithmetic expression as given below    
+            
+        If you wanted to know if a number was odd or even, you could use modulus to    
+        quickly tell you by asking for the remainder of the number when divided by 2.    
+            
+        #include <iostream>    
+            
+        using namespace std;    
+            
+        int main()    
+            
+        {    
+            
+              int num;    
+            
+             cin >> num;    
+            
+             // num % 2 computes the remainder when num is divided by 2    
+            
+             if ( num % 2 == 0 )    
+            
+             {    
+            
+                   cout << num << " is even ";    
+            
+             }    
+            
+        return 0;    
+            
+        }    
+            
+        The key line is the one that performs the modulus operation: "num % 2 == 0". A    
+        number is even if and only if it is divisible by two, and a number is    
+        divisible by another only if there is no remainder.    
+            
+        source: http://www.cprogramming.com/tutorial/modulus.html

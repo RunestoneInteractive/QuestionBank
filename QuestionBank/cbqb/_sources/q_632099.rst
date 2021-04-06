@@ -1,0 +1,23 @@
+.. mchoice:: canterburyqb_632099
+    :basecourse: canterburyqb
+        
+    We need to keep track of the changes that a user makes when working with a    
+    word processor. Which data structure is more proper for this purpose?    
+    
+
+    - Queue    
+      
+
+      - Single Linked List
+    - Stack    
+      
+
+      + Correct!
+    - Single Linked List    
+      
+
+      - Single Linked List
+    - one dimensional array    
+      
+
+      - Single Linked List

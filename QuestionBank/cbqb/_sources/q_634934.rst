@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_634934
+    :basecourse: canterburyqb
+    .. role:: raw-html-m2r(raw)    
+       :format: html    
+        
+        
+    What is the logic error in the following implementation of sequential search?    
+        
+    1  def sequentialSearch(listOfValues):\ :raw-html-m2r:`<br>`    
+    2       target = input("value searching for: ")\ :raw-html-m2r:`<br>`    
+    3       listSize = len(listOfValues)\ :raw-html-m2r:`<br>`    
+    4       targetFound = False\ :raw-html-m2r:`<br>`    
+    5       targetLocation = 0\ :raw-html-m2r:`<br>`    
+    6       current = 0\ :raw-html-m2r:`<br>`    
+    7       while (current < listSize):\ :raw-html-m2r:`<br>`    
+    8            if (listOfValues[current] == target):\ :raw-html-m2r:`<br>`    
+    9                 targetFound = True\ :raw-html-m2r:`<br>`    
+    10               targetLocation = current    
+        
+    11          else:    
+        
+    12               targetFound = False\ :raw-html-m2r:`<br>`    
+    13          current = current + 1    
+        
+    14      if targetFound:\ :raw-html-m2r:`<br>`    
+    15           print "the target was found at location: ", targetLocation\ :raw-html-m2r:`<br>`    
+    16      else:\ :raw-html-m2r:`<br>`    
+    17          print "target was not found"    
+    
+
+    - Line 10    
+      
+
+      - The else clause resets  _targetFound_ if a match is ever found.  Hence, in    
+        effect, with this else clause present, only the test with the last element in    
+        the list is "remembered."
+    - Line 7    
+      
+
+      - The else clause resets  _targetFound_ if a match is ever found.  Hence, in    
+        effect, with this else clause present, only the test with the last element in    
+        the list is "remembered."
+    - Lines 11-12    
+      
+
+      + Correct!
+    - Line 8    
+      
+
+      - The else clause resets  _targetFound_ if a match is ever found.  Hence, in    
+        effect, with this else clause present, only the test with the last element in    
+        the list is "remembered."
+    - None of the above.    
+      
+
+      - The else clause resets  _targetFound_ if a match is ever found.  Hence, in    
+        effect, with this else clause present, only the test with the last element in    
+        the list is "remembered."

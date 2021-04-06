@@ -1,0 +1,29 @@
+.. mchoice:: canterburyqb_633552
+    :basecourse: canterburyqb
+        
+    A coworker suggests that when you delete a node from a hashtable that you just    
+    set it to null. What is your response?    
+    
+
+    - Yes, that way the garbage collector can reclaim the memory.    
+      
+
+      - When using probing to resolve collisions, the probing algorithm walks along    
+        the probing sequence until it finds a null element. If nulls appear in the    
+        wrong places, probing may terminate earlier than it should.
+    - Yes, that will speed up probing.    
+      
+
+      - When using probing to resolve collisions, the probing algorithm walks along    
+        the probing sequence until it finds a null element. If nulls appear in the    
+        wrong places, probing may terminate earlier than it should.
+    - No, the user may have alias references to the node.    
+      
+
+      - When using probing to resolve collisions, the probing algorithm walks along    
+        the probing sequence until it finds a null element. If nulls appear in the    
+        wrong places, probing may terminate earlier than it should.
+    - No, doing so may make other nodes irretrievable.    
+      
+
+      + Correct!

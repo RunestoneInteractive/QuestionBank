@@ -1,0 +1,27 @@
+.. mchoice:: canterburyqb_633377
+    :basecourse: canterburyqb
+        
+    You see the expression ``n = 128`` in some code that successfully compiles. What    
+    type can ``n`` not be?    
+    
+
+    - int    
+      
+
+      - Bytes only hold values in [-128, 127].
+    - char    
+      
+
+      - Bytes only hold values in [-128, 127].
+    - byte    
+      
+
+      + Correct!
+    - float    
+      
+
+      - Bytes only hold values in [-128, 127].
+    - double    
+      
+
+      - Bytes only hold values in [-128, 127].

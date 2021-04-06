@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_631936
+    :basecourse: canterburyqb
+        
+    After the Java assignment statement    
+        
+       ``String word = "blank";``    
+        
+    which of the following Java code fragments prints    
+        
+       ``blink``    
+        
+    ?    
+    
+
+    - [code]    
+          
+      .. code-block::    
+          
+         word[2] = "i";    
+         System.out.println(word);    
+          
+          
+      ```    
+      
+
+      - (a) is wrong because the Java syntax word[n] requires the variable word to be    
+        an array. (c) is almost right; it just needs to have a 2 instead of the 1 in    
+        the first call to substring. Since (a) and (c) are wrong, (d) must be wrong.    
+        (b) is correct, so (e) must be wrong.
+    - ``word.replaceAll("a","i");``    
+          
+      ``System.out.println(word);``    
+      
+
+      + Correct!
+    - ``word = word.substring(0,1) + "i" + word.substring(3,5);``    
+          
+      ``System.out.println(word);``    
+      
+
+      - (a) is wrong because the Java syntax word[n] requires the variable word to be    
+        an array. (c) is almost right; it just needs to have a 2 instead of the 1 in    
+        the first call to substring. Since (a) and (c) are wrong, (d) must be wrong.    
+        (b) is correct, so (e) must be wrong.
+    - All of (a)-(c).    
+      
+
+      - (a) is wrong because the Java syntax word[n] requires the variable word to be    
+        an array. (c) is almost right; it just needs to have a 2 instead of the 1 in    
+        the first call to substring. Since (a) and (c) are wrong, (d) must be wrong.    
+        (b) is correct, so (e) must be wrong.
+    - None of (a)-(c) .    
+      
+
+      - (a) is wrong because the Java syntax word[n] requires the variable word to be    
+        an array. (c) is almost right; it just needs to have a 2 instead of the 1 in    
+        the first call to substring. Since (a) and (c) are wrong, (d) must be wrong.    
+        (b) is correct, so (e) must be wrong.

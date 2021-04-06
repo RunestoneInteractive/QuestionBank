@@ -1,0 +1,34 @@
+.. mchoice:: canterburyqb_633282
+    :basecourse: canterburyqb
+        
+    What is returned by ``'A A Milne' < 'A Linkletter'``\ ?    
+    
+
+    - True    
+      
+
+      + Correct!
+    - False    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison.  The first 2 characters    
+        of both strings are the same (i.e. 'A '), but for the third character, 'A'    
+        comes before 'L' so we return True.
+    - 'A A Milne'    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison.  The first 2 characters    
+        of both strings are the same (i.e. 'A '), but for the third character, 'A'    
+        comes before 'L' so we return True.
+    - an error    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison.  The first 2 characters    
+        of both strings are the same (i.e. 'A '), but for the third character, 'A'    
+        comes before 'L' so we return True.
+    - none of the above    
+      
+
+      - This is a lexicographic (i.e. alphabetic) comparison.  The first 2 characters    
+        of both strings are the same (i.e. 'A '), but for the third character, 'A'    
+        comes before 'L' so we return True.

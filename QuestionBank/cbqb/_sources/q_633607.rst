@@ -1,0 +1,37 @@
+.. mchoice:: canterburyqb_633607
+    :basecourse: canterburyqb
+        
+    Suppose the following Java code prints "statement 2":    
+        
+    .. code-block::    
+        
+        
+           if (num < 6) {    
+              System.out.println("statement 1");    
+           } else {    
+              System.out.println("statement 2");    
+           }    
+        
+    What must be true about num?    
+    
+
+    - greater than 6    
+      
+
+      - The opposite of less than is greater than or equal to.  Not just greater than.
+    - greater than or equal to 6    
+      
+
+      + Correct!
+    - less than 6    
+      
+
+      - The opposite of less than is greater than or equal to.  Not just greater than.
+    - less than or equal to 6    
+      
+
+      - The opposite of less than is greater than or equal to.  Not just greater than.
+    - this program cannot print "statement 2"    
+      
+
+      - The opposite of less than is greater than or equal to.  Not just greater than.

@@ -1,0 +1,45 @@
+.. mchoice:: canterburyqb_633569
+    :basecourse: canterburyqb
+        
+    You need to store a large amount of data, but you don't know the exact number    
+    of elements. The elements must be searched quickly by some key. You want to    
+    waste no storage space. The elements to be added are in sorted order. What is    
+    the simplest data structure that meets your needs?    
+    
+
+    - Ordered array    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a sorted order, it's likely    
+        a binary tree will end up looking like a linked list instead of a well-    
+        balanced tree. With a self-balancing tree, we can make sure searching goes    
+        faster.
+    - Linked list    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a sorted order, it's likely    
+        a binary tree will end up looking like a linked list instead of a well-    
+        balanced tree. With a self-balancing tree, we can make sure searching goes    
+        faster.
+    - Hashtable    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a sorted order, it's likely    
+        a binary tree will end up looking like a linked list instead of a well-    
+        balanced tree. With a self-balancing tree, we can make sure searching goes    
+        faster.
+    - Binary search tree    
+      
+
+      - Hashtables provide fast searching, but they may waste storage space. A tree    
+        makes better use of memory. Since the keys are in a sorted order, it's likely    
+        a binary tree will end up looking like a linked list instead of a well-    
+        balanced tree. With a self-balancing tree, we can make sure searching goes    
+        faster.
+    - Self-balancing tree    
+      
+
+      + Correct!

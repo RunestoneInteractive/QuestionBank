@@ -1,0 +1,58 @@
+.. mchoice:: canterburyqb_633305
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    .. code-block::    
+        
+        
+           s = input('Enter a string: ')    
+           w = ''    
+           for c in s:    
+              if c in "0123456789":    
+                 #REPLACE    
+              else:    
+                 w = w + c    
+           print w    
+        
+    What replacement for the comment #REPLACE will cause the program to print the    
+    input string with all of the digits removed?  In other words, for the    
+    'aaa3b3c1', we would print 'aaabc'.    
+    
+
+    - break    
+      
+
+      - A is wrong because break will end the loop.    
+            
+        C is wrong because the problem asks us to print, not to return.    
+            
+        The continue statement works because it goes back to the top of the loop.
+    - continue    
+      
+
+      + Correct!
+    - return w    
+      
+
+      - A is wrong because break will end the loop.    
+            
+        C is wrong because the problem asks us to print, not to return.    
+            
+        The continue statement works because it goes back to the top of the loop.
+    - any of the above    
+      
+
+      - A is wrong because break will end the loop.    
+            
+        C is wrong because the problem asks us to print, not to return.    
+            
+        The continue statement works because it goes back to the top of the loop.
+    - none of the above    
+      
+
+      - A is wrong because break will end the loop.    
+            
+        C is wrong because the problem asks us to print, not to return.    
+            
+        The continue statement works because it goes back to the top of the loop.

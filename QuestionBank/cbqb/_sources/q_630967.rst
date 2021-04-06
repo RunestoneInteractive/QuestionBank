@@ -1,0 +1,41 @@
+.. mchoice:: canterburyqb_630967
+    :basecourse: canterburyqb
+        
+    Suppose you are writing a program for a robot that will go around a building    
+    and clean the floor. Your program will contain, among other things, a Robot    
+    class and a Building class (with information about the layout of the    
+    building). The Building class is also used in a different program for    
+    scheduling maintenance of various parts of the building.    
+        
+    The relationship between your Robot class and your Building class is best    
+    modeled as:    
+    
+
+    - a class-subclass relationship    
+      
+
+      - A and B are wrong, because a Building object doesn't share all the properties    
+        and behaviors of a Robot object (or vice versa). D is wrong because the    
+        Building object is not part of the Robot object (unlike the Robot's wheels,    
+        for example). The two classes are sometimes part of different programs and    
+        sometimes work together -- a peer relationship.
+    - a subclass-class relationship    
+      
+
+      - A and B are wrong, because a Building object doesn't share all the properties    
+        and behaviors of a Robot object (or vice versa). D is wrong because the    
+        Building object is not part of the Robot object (unlike the Robot's wheels,    
+        for example). The two classes are sometimes part of different programs and    
+        sometimes work together -- a peer relationship.
+    - a peer relationship    
+      
+
+      + Correct!
+    - a whole-component relationship    
+      
+
+      - A and B are wrong, because a Building object doesn't share all the properties    
+        and behaviors of a Robot object (or vice versa). D is wrong because the    
+        Building object is not part of the Robot object (unlike the Robot's wheels,    
+        for example). The two classes are sometimes part of different programs and    
+        sometimes work together -- a peer relationship.

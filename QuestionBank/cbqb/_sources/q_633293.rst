@@ -1,0 +1,47 @@
+.. mchoice:: canterburyqb_633293
+    :basecourse: canterburyqb
+        
+    Consider the following Python code:    
+        
+    .. code-block::    
+        
+        
+           in_str = input('Enter a string: ')    
+           a = ''    
+           d = 0    
+           r = 1    
+        
+           for c in 'abcdefghijklmnopqrstuvwxyz':    
+              if c in in_str:    
+                 a = c + a    
+              else:    
+                 d = d + 1    
+           r += 2    
+        
+           print(a) # Line 1    
+           print(d) # Line 2    
+           print(r) # Line 3    
+        
+    Given the input ``'Frick & Frack'`` what output is produced by Line 2?    
+    
+
+    - 5    
+      
+
+      - This basically counts the number of lower case letters.
+    - 21    
+      
+
+      + Correct!
+    - 10    
+      
+
+      - This basically counts the number of lower case letters.
+    - 86    
+      
+
+      - This basically counts the number of lower case letters.
+    - none of the above    
+      
+
+      - This basically counts the number of lower case letters.

@@ -1,0 +1,43 @@
+.. mchoice:: canterburyqb_633275
+    :basecourse: canterburyqb
+        
+    After the assignment ``signal = 'abracadabra'``\ , what is returned by    
+    ``signal[-1:]``\ ?    
+    
+
+    - 'a'    
+      
+
+      + Correct!
+    - 'abracadabra'    
+      
+
+      - Python actually allows negative indexes, which start counting from the back of    
+        a list or String.  However, the slice operation by default still only uses    
+        increasing indexes.  So, slicing [-1:] means to slice from the last character    
+        through the rest of the String (slice operations that leave out the upper    
+        boundary implicitly mean "slice to the end").
+    - ''    
+      
+
+      - Python actually allows negative indexes, which start counting from the back of    
+        a list or String.  However, the slice operation by default still only uses    
+        increasing indexes.  So, slicing [-1:] means to slice from the last character    
+        through the rest of the String (slice operations that leave out the upper    
+        boundary implicitly mean "slice to the end").
+    - an error    
+      
+
+      - Python actually allows negative indexes, which start counting from the back of    
+        a list or String.  However, the slice operation by default still only uses    
+        increasing indexes.  So, slicing [-1:] means to slice from the last character    
+        through the rest of the String (slice operations that leave out the upper    
+        boundary implicitly mean "slice to the end").
+    - none of the above    
+      
+
+      - Python actually allows negative indexes, which start counting from the back of    
+        a list or String.  However, the slice operation by default still only uses    
+        increasing indexes.  So, slicing [-1:] means to slice from the last character    
+        through the rest of the String (slice operations that leave out the upper    
+        boundary implicitly mean "slice to the end").

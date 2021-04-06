@@ -1,0 +1,52 @@
+.. mchoice:: canterburyqb_635079
+    :basecourse: canterburyqb
+        
+    What output will the following code fragment produce?    
+        
+    .. code-block::    
+        
+        
+           public void fn()    
+           {    
+               int grade = 91;    
+               int level = -1;    
+               if (grade >= 90)    
+                   if (level <= -2)    
+                       System.out.println("A-level");    
+               else    
+                   System.out.println("B-status");    
+           }    
+    
+
+    - A-level    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es). As a result, the else is associated with the second    
+        (inner) if. Since the outer if statement's condition is true, but the inner if    
+        statement's condition is false, the output is `B-status`.
+    - B-status    
+      
+
+      + Correct!
+    - "A-level"    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es). As a result, the else is associated with the second    
+        (inner) if. Since the outer if statement's condition is true, but the inner if    
+        statement's condition is false, the output is `B-status`.
+    - "B-status"    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es). As a result, the else is associated with the second    
+        (inner) if. Since the outer if statement's condition is true, but the inner if    
+        statement's condition is false, the output is `B-status`.
+    - no output is produced    
+      
+
+      - Despite the indentation, no braces appear around the body of either if    
+        statement's branch(es). As a result, the else is associated with the second    
+        (inner) if. Since the outer if statement's condition is true, but the inner if    
+        statement's condition is false, the output is `B-status`.

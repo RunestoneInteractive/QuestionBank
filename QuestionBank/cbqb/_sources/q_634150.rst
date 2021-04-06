@@ -1,0 +1,36 @@
+.. mchoice:: canterburyqb_634150
+    :basecourse: canterburyqb
+        
+    Junyoung runs the program after compiling with ``gcc print random number.c    
+    -Wall``\ :    
+        
+    ``#include<stdlib.h>``    
+        
+    .. code-block::    
+        
+        
+           int main()    
+           {    
+              int x = rand();    
+              printf("%d\n", x);    
+           }    
+        
+    What is **not** true about it?    
+    
+
+    - GCC will give a warning since stdio.h was not included    
+      
+
+      - Rand was not seeded.
+    - GCC will give a warning since ``main`` does not return an ``int``    
+      
+
+      - Rand was not seeded.
+    - It will print a different number every time    
+      
+
+      + Correct!
+    - It will only need four bytes of stack space    
+      
+
+      - Rand was not seeded.

@@ -1,0 +1,26 @@
+.. mchoice:: canterburyqb_632274
+    :basecourse: canterburyqb
+        
+    Which data structure uses less space per object?    
+    
+
+    - an array    
+      
+
+      + Correct!
+    - a linked list    
+      
+
+      - In a linked list, you create a Node for each element that contains not only    
+        the element but a link to the next Node. In addition, you create a List object    
+        that contains additional fields such as a link to the first Node in the list    
+        and (often) the size of the list. In an array, you store only the elements,    
+        not a Node or a link to the next Node.
+    - they are both the same    
+      
+
+      - In a linked list, you create a Node for each element that contains not only    
+        the element but a link to the next Node. In addition, you create a List object    
+        that contains additional fields such as a link to the first Node in the list    
+        and (often) the size of the list. In an array, you store only the elements,    
+        not a Node or a link to the next Node.

@@ -1,0 +1,38 @@
+.. mchoice:: canterburyqb_632333
+    :basecourse: canterburyqb
+        
+    This Bash command was supposed to run a Perl script, exE1.pl from a University    
+    student's bin directory on the Cislinux server, passing it a command line    
+    argument which was a text file in the copy area. It was supposed to put the    
+    results into a text file in the student's bin directory.    
+        
+    ~/bin/exE1.pl /copy/ex/exe-1.txt > /bin/exe1out.txt    
+        
+    Why will this give an error?    
+    
+
+    - ~ cannot be used at the start of a line    
+      
+
+      - The /bin directory has restricted access for security reasons to prevent    
+        students running unauthorised code on the server or modifyng or overwriting    
+        other programs in the directory
+    - .txt is not a valid extension in linux    
+      
+
+      - The /bin directory has restricted access for security reasons to prevent    
+        students running unauthorised code on the server or modifyng or overwriting    
+        other programs in the directory
+    - ..    
+          
+         does not redirect output    
+          
+      
+
+      - The /bin directory has restricted access for security reasons to prevent    
+        students running unauthorised code on the server or modifyng or overwriting    
+        other programs in the directory
+    - Students cannot write to /bin    
+      
+
+      + Correct!

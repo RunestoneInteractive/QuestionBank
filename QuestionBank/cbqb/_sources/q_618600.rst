@@ -1,0 +1,67 @@
+.. mchoice:: canterburyqb_618600
+    :basecourse: canterburyqb
+        
+    What will be outputted?    
+        
+    class A{    
+        
+    .. code-block::    
+        
+         int firstMethod(int input){    
+        
+              return input+2;    
+        
+        }    
+        
+        
+    }    
+        
+    class B extends A{    
+        
+    }    
+        
+    class C extends B{    
+        
+    .. code-block::    
+        
+        int firstMethod(int input){    
+        
+             return input-2;    
+        
+        }    
+        
+        
+    }    
+        
+    public class test {    
+        
+    .. code-block::    
+        
+        public static void main(String[] arg){    
+        
+             B myObject = new B();    
+        
+             System.out.println(myObject.firstMethod(2));    
+        
+        }    
+        
+        
+    }    
+    
+
+    - 0    
+      
+
+      - 4
+    - 2    
+      
+
+      - 4
+    - 4    
+      
+
+      + Correct!
+    - Compiler Error    
+      
+
+      - 4

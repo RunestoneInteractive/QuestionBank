@@ -1,0 +1,63 @@
+.. mchoice:: peerwiseqb_4052767
+    :basecourse: peerwiseqb
+    
+    .. raw:: html
+    
+       <p><strong>2017_Q17:</strong></p><p>The following function called LastIndexOf() takes three inputs: a value to search for, an array of integers in which to search and the number of elements in the array. The function should return the index position of the last occurrence (i.e. the rightmost occurrence) of the value being searched for. If the value being searched for does not exist in the array, then the function should return -1. Some code is missing and has been replaced with <strong>????</strong>.</p><p>&nbsp;</p><p><span style="font-family: courier new, courier, monospace;">int LastIndexOf(int search, int values[], int numValues) {</span></p><p><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int pos = -1;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; int i;</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; for (i = 0; i &lt; numValues; i++) {</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><span style="font-family: arial, helvetica, sans-serif;">????</span></strong></span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; }</span><br /><span style="font-family: courier new, courier, monospace;">&nbsp;&nbsp;&nbsp; return pos;</span><br /><span style="font-family: courier new, courier, monospace;">}</span></p><p>&nbsp;</p><p>Which of the following should replace the <strong>????</strong> above to correctly complete this function definition?</p>
+    
+
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] == search) {``\ :raw-html-m2r:`<br>`    
+      ``pos = i;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      + Correct!
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] == search) {``\ :raw-html-m2r:`<br>`    
+      ``pos = i;``\ :raw-html-m2r:`<br>`    
+      ``} else {``\ :raw-html-m2r:`<br>`    
+      ``return -1;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] != search) {``\ :raw-html-m2r:`<br>`    
+      ``pos = -1;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] != search) {``\ :raw-html-m2r:`<br>`    
+      ``return -1;``\ :raw-html-m2r:`<br>`    
+      ``} else {``\ :raw-html-m2r:`<br>`    
+      ``pos = i;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
+    - .. role:: raw-html-m2r(raw)    
+         :format: html    
+          
+          
+      ``if (values[i] == search) {``\ :raw-html-m2r:`<br>`    
+      ``pos = i;``\ :raw-html-m2r:`<br>`    
+      ``return pos;``\ :raw-html-m2r:`<br>`    
+      ``}``    
+      
+
+      - Incorrect
