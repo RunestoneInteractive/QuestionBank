@@ -49,8 +49,9 @@
          {
              String target1 = "x=x+1;";
              String target2 = "x++";
+             String target3 = "x+=1;";
              String code = removeSpaces(getCode());
-             boolean passed = code.contains(target1) || code.contains(target2);
+             boolean passed = code.contains(target1) || code.contains(target2) || code.contains(target3);
              getResults("true", ""+passed, "changing the loop variable");
              assertTrue(passed);
          }
