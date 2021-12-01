@@ -48,7 +48,7 @@
          public void testWhileLoop() throws IOException
          {
              String target1 = "x=x+1;";
-             String target2 = "x++;";
+             String target2 = "x++";
              String code = removeSpaces(getCode());
              boolean passed = code.contains(target1) || code.contains(target2);
              getResults("true", ""+passed, "changing the loop variable");
