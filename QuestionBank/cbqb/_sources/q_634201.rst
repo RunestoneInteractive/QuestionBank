@@ -7,7 +7,7 @@
     compile successfully?    
     
 
-    - gcc taylor.c -01    
+    - gcc taylor.c -O1    
       
 
       - -lm will manually link the math library.
