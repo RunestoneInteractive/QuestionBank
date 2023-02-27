@@ -6,7 +6,7 @@
     calculated once.)    
     
 
-    - gcc fibonacci.c -03    
+    - gcc fibonacci.c -O3    
       
 
       + Correct!
